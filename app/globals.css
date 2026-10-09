@@ -528,6 +528,7 @@ button {
   text-align: left;
   padding: 2px 0 4px;
   min-height: 44px;
+  -webkit-tap-highlight-color: transparent;
 }
 .levels i {
   display: block;
@@ -546,8 +547,11 @@ button {
   color: var(--muted);
   line-height: 1.15;
 }
-.levels button:hover i {
-  background: var(--rule-2);
+/* hover must not repaint selected bars; touch screens keep :hover after a tap */
+@media (hover: hover) {
+  .levels button:not(.in):hover i {
+    background: var(--rule-2);
+  }
 }
 .levels .in i {
   background: var(--ink);
