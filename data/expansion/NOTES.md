@@ -85,4 +85,15 @@ Accompaniment values must exist in `data/accompaniment-map.json` (build fails ot
   (limit 100K for Haiku 5.5 pricing). The rest is reachable through search_catalogue. Smoke-tested through /api/advisor.
 - Per-entry fixes that were decided by hand live in merge.ts (ENTRY_FIX, GAP_DROP, MANUAL_DROP, LEVEL_ACCEPT, TITLE_FIX_ACCEPT) and issue-decisions.json.
 - Partial gap checks (web-search quota ran out): Brahms, Bruch, Cui, Elgar, Franck, Massenet, Mendelssohn, Saint-Saëns, Schubert, Schumann, Schütt, Scott, Sinding.
-- The Google Sheet is synced from final/all-repertoire.next.json with sheet_sync.ts (see the sheet-sync section of this file when done).
+- The Google Sheet was synced from final/all-repertoire.next.json with sheet_sync.ts (see the next section).
+
+## Google Sheet sync (done 2026-10-09)
+- Before touching it: live 'All Repertoire'!A1:U2254 compared with data/cache/all-repertoire.before-expansion.json (0 differences) and a clean backup copy
+  made in Drive ("…clean backup taken just before the catalogue sync", id 18ZQlNj5U0xyN7A5KWxyMyxs0HmBo2XNEmafWOrPK9Mk).
+- Applied: 199 guarded updateCells requests (319 changed cells: 169 minutes, 80 titles, 29 sets, 21 levels, 15 accompaniments, 3 categories, 2 text), deleted row 1002
+  (id 1001, merged into 1000), inserted 915 rows at the end, wrote A:I and K:U in 100-row chunks (five parallel subagents), HYPERLINK formulas in O (exact IMSLP
+  page) and one relative formula in N copied down, set the basic filter to A1:U3168, widened the 'Find a Piece' conditional-format ranges to row 3800.
+- Verified with sheet_verify.ts on a full dump: 3,167 rows, 0 missing, 0 extra, 0 differing cells (columns J, N, O excluded), O identical (2,216 IMSLP rows),
+  no error cells; Start Here shows "3,167 works by 616 composers"; By Level / By Category list every row.
+- The new rows sit at the end of the sheet (ids 2254+), not alphabetically; the views sort themselves. Sort the master list by composer in the Sheet if you want it A–Z again
+  (do not sort through the filter's sort spec; it was removed when the filter range was extended).

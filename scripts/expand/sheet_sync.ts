@@ -6,11 +6,18 @@
  *   data/expansion/sheet-sync/delete-rows.json      rows to delete (merged duplicates), highest first — run AFTER the edits
  *   data/expansion/sheet-sync/chunk-<n>-AI.json     values for A:I of the new rows            (range printed in index.json)
  *   data/expansion/sheet-sync/chunk-<n>-KU.json     values for K:U of the new rows
+ *   data/expansion/sheet-sync/chunk-<n>-O.json      HYPERLINK formulas for column O (IMSLP: the work's own page, else a search), "" where there is none
  *   data/expansion/sheet-sync/index.json            ranges, row counts, grid sizes
+ *
+ * Run order that worked on 2026-10-09 (see data/expansion/NOTES.md): guarded batchUpdate of edits.json (split in batches of ~70; take a
+ * fresh revisionId from get_spreadsheet before each), delete-rows.json, insert_dimension at the end (inheritFromBefore), then the chunks
+ * (update_values for AI and KU, update_formulas for O), then ONE formula in N<firstNewRow>
+ *   =HYPERLINK("https://www.youtube.com/results?search_query="&ENCODEURL(A<r>&" "&B<r>&" violin"),"▶ Listen")
+ * copied down with a copyPaste (PASTE_FORMULA) request, setBasicFilter over the new row count, and a full read-back through sheet_verify.ts.
  *
  *   npx tsx scripts/expand/sheet_sync.ts [--before=<snapshot>] [--after=<snapshot>] [--chunk=100]
  */
-import { writeFileSync, mkdirSync } from "node:fs";
+import { existsSync, writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { HEADER, ROOT, read } from "./common";
 
@@ -69,6 +76,16 @@ const cell = (name: string, v: string) => (numeric.has(name) && v !== "" ? Numbe
 const J = ix("Level guide");
 const AI = HEADER.slice(0, J);
 const KU = HEADER.slice(J + 1);
+const SCORE = ix("Score");
+const pages: Record<string, string> = existsSync(join(ROOT, "data/imslp-pages.json")) ? read("data/imslp-pages.json") : {};
+const oFormula = (r: string[]) => {
+  if (r[SCORE] !== "IMSLP") return "";
+  const page = pages[r[ID]];
+  const url = page
+    ? `https://imslp.org/wiki/${encodeURIComponent(page.replace(/ /g, "_"))}`
+    : `https://imslp.org/index.php?title=Special:Search&search=${encodeURIComponent(`${r[0].split(",")[0]} ${r[1]}`)}`;
+  return `=HYPERLINK("${url}","IMSLP")`;
+};
 const firstNewRow = before.length + 1 - deleted.length; // first empty row once the merged rows are gone
 const index: Record<string, unknown> = { editedCells, deletedRows: deleted, newRows: fresh.length, firstNewRow, chunks: [] as unknown[] };
 for (let s = 0, n = 0; s < fresh.length; s += CHUNK, n++) {
@@ -77,7 +94,14 @@ for (let s = 0, n = 0; s < fresh.length; s += CHUNK, n++) {
   const r1 = r0 + part.length - 1;
   writeFileSync(join(outDir, `chunk-${n}-AI.json`), JSON.stringify(part.map((r) => AI.map((h, k) => cell(h, r[k])))));
   writeFileSync(join(outDir, `chunk-${n}-KU.json`), JSON.stringify(part.map((r) => KU.map((h, k) => cell(h, r[J + 1 + k])))));
-  (index.chunks as unknown[]).push({ n, rows: part.length, rangeAI: `'All Repertoire'!A${r0}:I${r1}`, rangeKU: `'All Repertoire'!K${r0}:U${r1}`, rangeNO: `'All Repertoire'!N${r0}:O${r1}` });
+  writeFileSync(join(outDir, `chunk-${n}-O.json`), JSON.stringify(part.map((r) => [oFormula(r)])));
+  (index.chunks as unknown[]).push({
+    n,
+    rows: part.length,
+    rangeAI: `'All Repertoire'!A${r0}:I${r1}`,
+    rangeKU: `'All Repertoire'!K${r0}:U${r1}`,
+    rangeO: `'All Repertoire'!O${r0}:O${r1}`,
+  });
 }
 index.totalRowsAfter = firstNewRow + fresh.length - 1;
 writeFileSync(join(outDir, "index.json"), JSON.stringify(index, null, 1));
