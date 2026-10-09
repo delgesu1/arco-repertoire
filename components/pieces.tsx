@@ -65,3 +65,6 @@ export const youtubeSearch = (p: Piece) =>
 
 export const imslpSearch = (p: Piece) =>
   `https://imslp.org/index.php?title=Special:Search&search=${encodeURIComponent(`${p.composer.split(",")[0]} ${p.title}`)}`;
+
+/** the work's own IMSLP page when we know it, otherwise a search */
+export const imslpLink = (p: Piece) => (p.imslpPage ? `https://imslp.org/wiki/${encodeURIComponent(p.imslpPage.replace(/ /g, "_"))}` : imslpSearch(p));

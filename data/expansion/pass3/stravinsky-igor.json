@@ -1,0 +1,54 @@
+{
+ "composer": "Stravinsky, Igor",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Suite after themes, fragments and pieces by Giambattista Pergolesi (arr. Stravinsky & Kochański)"
+  },
+  {
+   "nid": "N2",
+   "title": "Prélude et Ronde des princesses (from The Firebird, arr. Kochański)"
+  },
+  {
+   "nid": "N3",
+   "title": "Pastorale (arr. Stravinsky & Dushkin)"
+  },
+  {
+   "nid": "N4",
+   "title": "Airs du rossignol et Marche chinoise (from Le Rossignol, arr. Stravinsky & Dushkin)"
+  }
+ ],
+ "notes": "No duplicates. N1 (Kochański's 1925 Pergolesi suite) is a different arrangement from the Suite italienne (2097). The fixes are a missing key mode, an unknown duration, and the viola origin of the Élégie.",
+ "fixes": [
+  {
+   "id": "349",
+   "field": "title",
+   "value": "Concerto in D major",
+   "confidence": "medium",
+   "reason": "House style requires the full key; Stravinsky's concerto is in D major."
+  },
+  {
+   "id": "1277",
+   "field": "minutes",
+   "value": "5",
+   "confidence": "medium",
+   "reason": "The Ballade from Le Baiser de la fée usually lasts about 4–5 minutes."
+  },
+  {
+   "id": "1521",
+   "field": "title",
+   "value": "Élégie (orig. viola)",
+   "confidence": "high",
+   "reason": "Élégie (1944) was written for unaccompanied viola for Germain Prévost."
+  }
+ ],
+ "levels": [
+  {
+   "id": "1279",
+   "level": 6,
+   "confidence": "medium",
+   "reason": "The ABRSM ARSM listing corresponds to level 6."
+  }
+ ],
+ "duplicates": []
+}

@@ -1,0 +1,109 @@
+{
+ "composer": "Achron, Joseph",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Agada, Op. 46"
+  },
+  {
+   "nid": "N2",
+   "title": "Barcarolle in F minor, Op. 6"
+  },
+  {
+   "nid": "N3",
+   "title": "Berceuse No. 2, Op. 20"
+  },
+  {
+   "nid": "N4",
+   "title": "Coquetterie in A major, Op. 15"
+  },
+  {
+   "nid": "N5",
+   "title": "Dance Improvisation on a Hebrew Folksong, Op. 37"
+  },
+  {
+   "nid": "N6",
+   "title": "Improvisation, Op. 19 No. 1 (from Dans l'intimité)"
+  },
+  {
+   "nid": "N7",
+   "title": "Plaisanterie musicale on 'O du lieber Augustin', Op. 19 No. 2"
+  },
+  {
+   "nid": "N8",
+   "title": "Liebeswidmung, Op. 51"
+  },
+  {
+   "nid": "N9",
+   "title": "Two Lieder, Op. 52"
+  },
+  {
+   "nid": "N10",
+   "title": "Pensée de L. Auer"
+  },
+  {
+   "nid": "N11",
+   "title": "Prelude, Op. 13"
+  },
+  {
+   "nid": "N12",
+   "title": "Scher in D minor, Op. 42 (Hebrew Dance)"
+  },
+  {
+   "nid": "N13",
+   "title": "Souvenir de Saint-Pétersbourg in G major (Caprice sur des motifs russes)"
+  },
+  {
+   "nid": "N14",
+   "title": "Stimmungen, Op. 36"
+  },
+  {
+   "nid": "N15",
+   "title": "Suite bizarre, Op. 41"
+  },
+  {
+   "nid": "N16",
+   "title": "Suite No. 1 en style ancien in D minor, Op. 21"
+  },
+  {
+   "nid": "N17",
+   "title": "Suite No. 2 en style moderne, Op. 22"
+  },
+  {
+   "nid": "N18",
+   "title": "Les Sylphides, Op. 18"
+  },
+  {
+   "nid": "N19",
+   "title": "Four Tableaux fantastiques, Op. 23"
+  },
+  {
+   "nid": "N20",
+   "title": "Valse mélancolique in B minor, Op. 11"
+  },
+  {
+   "nid": "N21",
+   "title": "Concerto No. 1, Op. 60"
+  },
+  {
+   "nid": "N22",
+   "title": "Sonata No. 1 in D minor, Op. 29"
+  },
+  {
+   "nid": "N23",
+   "title": "Sonata No. 2, Op. 45"
+  }
+ ],
+ "notes": "Achron's list is largely consistent. The only demonstrable gap is the missing duration for Hebrew Dance, Op. 35 No. 1; Heifetz-style performances run about 4 minutes. Queued opus numbers match Achron's known catalogue (Op. 29 and 45 sonatas, Op. 41 Suite bizarre, Op. 42 Scher, Op. 60 Concerto). Stimmungen, Op. 36 and Stimmungen, Op. 32 are treated as distinct opus groups, not duplicates. Levels are plausibly ordered: salon pieces at L4–5, Hebrew Melody and Hebrew Dance at L6–7, sonatas at L8, Concerto at L9.",
+ "fixes": [
+  {
+   "id": "2118",
+   "field": "minutes",
+   "value": "4",
+   "confidence": "medium",
+   "reason": "Hebrew Dance typically lasts about 4 minutes in performance."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

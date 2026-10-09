@@ -1,0 +1,36 @@
+{
+ "composer": "Brahms, Johannes",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Sonata in F minor, Op. 120 No. 1 (orig. clarinet)"
+  },
+  {
+   "nid": "N2",
+   "title": "Sonata in E-flat major, Op. 120 No. 2 (orig. clarinet)"
+  },
+  {
+   "nid": "N3",
+   "title": "Hungarian Dance No. 17 in F-sharp minor, WoO 1 No. 17 (arr. Kreisler)"
+  },
+  {
+   "nid": "N4",
+   "title": "Hungarian Dance No. 20 in E minor, WoO 1 No. 20 (arr. Kreisler)"
+  },
+  {
+   "nid": "N5",
+   "title": "Waltz in A-flat major, Op. 39 No. 15 (arr. Hochstein)"
+  }
+ ],
+ "notes": "Only one change: the level of No. 7. Entry 743 ('Hungarian Dance in A minor (arr.)') is too vague to identify. It may be a simplified arrangement of No. 8 or No. 19, so it is not marked as a duplicate; ideally it should be identified properly. The queued Kreisler arrangements (N3, N4) are different arrangements from the Joachim entries, so they are not duplicates. The Op. 120 violin versions (N1, N2) are Brahms's own arrangements.",
+ "fixes": [],
+ "levels": [
+  {
+   "id": "762",
+   "level": 4,
+   "confidence": "medium",
+   "reason": "ABRSM Grade 7 listing (≈ level 4); one of the easiest Joachim Hungarian Dance arrangements."
+  }
+ ],
+ "duplicates": []
+}

@@ -1,0 +1,152 @@
+{
+ "composer": "Sarasate, Pablo de",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Airs espagnols, Op. 18"
+  },
+  {
+   "nid": "N2",
+   "title": "Ballade, Op. 31"
+  },
+  {
+   "nid": "N3",
+   "title": "Bolero in A major, Op. 30"
+  },
+  {
+   "nid": "N4",
+   "title": "El canto del ruiseñor in D minor, Op. 29"
+  },
+  {
+   "nid": "N5",
+   "title": "Caprice sur 'Roméo et Juliette' in D minor, Op. 5"
+  },
+  {
+   "nid": "N6",
+   "title": "Chansons russes in G minor, Op. 49"
+  },
+  {
+   "nid": "N7",
+   "title": "La chasse, Op. 44"
+  },
+  {
+   "nid": "N8",
+   "title": "Confidences in D major, Op. 7 (Romance sans paroles)"
+  },
+  {
+   "nid": "N9",
+   "title": "L'Esprit follet, Op. 48"
+  },
+  {
+   "nid": "N10",
+   "title": "Fantaisie sur 'Der Freischütz', Op. 14"
+  },
+  {
+   "nid": "N11",
+   "title": "Fantaisie sur 'Don Juan', Op. 51"
+  },
+  {
+   "nid": "N12",
+   "title": "Fantasy on 'Die Zauberflöte', Op. 54"
+  },
+  {
+   "nid": "N13",
+   "title": "Introduction et Fandango varié, Op. 40"
+  },
+  {
+   "nid": "N14",
+   "title": "Jota de Pablo, Op. 52"
+  },
+  {
+   "nid": "N15",
+   "title": "Jota de Pamplona, Op. 50"
+  },
+  {
+   "nid": "N16",
+   "title": "Los pájaros de Chile in G major (Capricho)"
+  },
+  {
+   "nid": "N17",
+   "title": "Mélodie roumaine, Op. 47"
+  },
+  {
+   "nid": "N18",
+   "title": "Mosaïque de Zampa, Op. 15"
+  },
+  {
+   "nid": "N19",
+   "title": "Moscovienne, Op. 12"
+  },
+  {
+   "nid": "N20",
+   "title": "Preludio in E major (for solo violin)"
+  },
+  {
+   "nid": "N21",
+   "title": "Réminiscences de Martha, Op. 19"
+  },
+  {
+   "nid": "N22",
+   "title": "Le Rêve, Op. 53"
+  },
+  {
+   "nid": "N23",
+   "title": "Rêverie in F-sharp minor, Op. 4"
+  },
+  {
+   "nid": "N24",
+   "title": "Romance et Gavotte de Mignon, Op. 16"
+  },
+  {
+   "nid": "N25",
+   "title": "Serenata andaluza, Op. 28"
+  },
+  {
+   "nid": "N26",
+   "title": "Sommeil in G minor, Op. 11"
+  },
+  {
+   "nid": "N27",
+   "title": "Souvenir de Domont in C major, Op. 8 (Valse de salon)"
+  },
+  {
+   "nid": "N28",
+   "title": "Souvenirs de Faust"
+  },
+  {
+   "nid": "N29",
+   "title": "Zortzico de Iparraguirre, Op. 39 ('Guernikako arbola')"
+  },
+  {
+   "nid": "N30",
+   "title": "Gondoliera veneziana, Op. 46"
+  },
+  {
+   "nid": "N31",
+   "title": "Fantasy on Verdi's 'La forza del destino', Op. 1"
+  },
+  {
+   "nid": "N32",
+   "title": "Homenaje a Rossini, Op. 2"
+  }
+ ],
+ "notes": "Sarasate's opus list is mostly consistent. The main factual error is the opus number of the 'Adiós montañas mías' Zortzico. IMSLP gives it as Op. 37, which leaves Op. 39 (Zortzico de Iparraguirre, N29) as a separate work rather than a duplicate. Levels track exam evidence reasonably: Playera and Malagueña are lowest, Zapateado, Carmen and Airs écossais highest. The queued opera fantasies and late jotas are left at their proposed levels. I did not change the Op. 13 Faust duration (13 min against IMSLP's 5) because I can't verify it; it may be worth checking.",
+ "fixes": [
+  {
+   "id": "2215",
+   "field": "title",
+   "value": "Zortzico \"Adiós montañas mías\", Op. 37",
+   "confidence": "high",
+   "reason": "IMSLP lists this Zortzico as Op. 37; Op. 39 is the Zortzico de Iparraguirre."
+  },
+  {
+   "id": "2204",
+   "field": "accompaniment",
+   "value": "Orchestra or piano",
+   "confidence": "medium",
+   "reason": "Single-movement showpiece rather than a concerto, so the piano-reduction label is wrong."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

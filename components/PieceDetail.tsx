@@ -1,7 +1,7 @@
 import type { LevelInfo, Piece } from "@/lib/types";
 import { eraLabel, settingLabel, typeSingular } from "@/lib/vocab";
 import { compareTitle, ladder } from "@/lib/filter";
-import { LevelBadge, imslpSearch, tagList } from "./pieces";
+import { LevelBadge, imslpLink, tagList } from "./pieces";
 import { Row } from "./Row";
 import { ExternalIcon } from "./icons";
 import { YouTube } from "./YouTube";
@@ -125,7 +125,7 @@ export function PieceDetail({
 
       <div className="links">
         {p.imslp && (
-          <a className="link-underline" href={imslpSearch(p)} target="_blank" rel="noreferrer">
+          <a className="link-underline" href={imslpLink(p)} target="_blank" rel="noreferrer">
             Score on IMSLP <ExternalIcon />
           </a>
         )}

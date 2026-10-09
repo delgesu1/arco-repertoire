@@ -1,0 +1,63 @@
+{
+  "composer": "Beethoven, Ludwig van",
+  "verdicts": [
+    {
+      "uid": "N4",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Exists, but mainly a flute piece: Serenade Op. 41 is the piano version of the Serenade Op. 25, published 1803 (Hoffmeister & Kuehnel) 'pour le Piano-Forte et Flute ou Violon'; Henle HN 934 'Serenade op. 41 for Piano and Flute (Violin)'. Arrangement probably by F. X. Kleinheinz, revised by Beethoven (so not by Beethoven himself; Boston Univ. Beethoven Center lists it 'not by Beethoven'). Keep only if flute-or-violin works are in scope (same status as Op. 105/107).",
+      "source": "https://www.henle.de/Serenade-op.-41-for-Piano-and-Flute-Violin/HN-934"
+    },
+    {
+      "uid": "N5",
+      "verdict": "fix",
+      "title": "Concerto Movement in C major, WoO 5 (compl. Hellmesberger)",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 15,
+      "set": "",
+      "note": "Exists: Violin Concerto in C major, WoO 5 (c.1790-92, first movement fragment of 259 bars, 'Konzertsatz'). The Hellmesberger completion is by Joseph Hellmesberger SR. (1828-93), published Vienna, Friedrich Schreiber, 1876 (IMSLP; piano reduction listed as 1879 elsewhere), Kalmus reprint - NOT Breitkopf as the draft said. Duration of the Hellmesberger version on the 2021 Sony recording (Goebel / Sarah Christian) is 15:40, hence minutes 10 -> 15. Other completions exist (W. Fischer - Kremer/DG, Manen, Nieuwenhuizen): do not add as separate entries.",
+      "source": "https://imslp.org/wiki/Violin_Concerto_in_C_major,_WoO_5_(Beethoven,_Ludwig_van)"
+    },
+    {
+      "uid": "N6",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Duplicate: this is Kreisler's own piece 'Rondino on a Theme of Beethoven' (Carl Fischer 1915), already in the catalogue as id 1046 under Kreisler (theme from the rejected finale of the Wind Octet, later used in WoO 41). Belongs under Kreisler, not Beethoven.",
+      "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Fritz_Kreisler"
+    },
+    {
+      "uid": "N7",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "IMSLP, Die Ruinen von Athen Op. 113: 'Chorus of Dervishes (No.3), For Violin and Piano (Auer)', Carl Fischer, New York 1916, plate 19021-8 (companion 'Marcia alla turca (No.4)', same publisher/year, plate 19020 = existing id 719). Published edition confirmed; I did not verify a commercial recording.",
+      "source": "https://imslp.org/wiki/Die_Ruinen_von_Athen,_Op.113_(Beethoven,_Ludwig_van)"
+    },
+    {
+      "uid": "N8",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Beginner method-book piece: the draft cites the Suzuki setting of the Minuet in G, WoO 10 No. 2 (not re-verified). Below the catalogue floor (ABRSM 3-4). Concert settings of this minuet by Burmester (recorded by Elman, 'arr. Burmeister' on Biddulph 850372), Kreisler and Elman exist, but they are equally easy and attributions are muddled, so none is proposed as a gap.",
+      "source": "https://imslp.org/wiki/6_Minuets,_WoO_10_(Beethoven,_Ludwig_van)"
+    }
+  ],
+  "gaps": [],
+  "existing_issues": [],
+  "note": "No gaps found. Gap check used Wikipedia 'List of compositions by Ludwig van Beethoven' (every work with violin soloist/duo partner: Op. 12, 23, 24, 30, 47, 96, Romances Op. 40/50, Op. 56, Op. 61, WoO 5, WoO 34/35 duets - existing ids 431/432 confirmed - WoO 40, 41, Op. 41, 105, 107) and the IMSLP category snapshot (violin-scored pages and their arrangers). Not added: Op. 61a (piano arrangement of the concerto), Hess 46 sonata fragments, cello-sonata/symphony/septet arrangements by Hermann, Naumann, Sitt, David etc. (not established violin repertoire), Achron's 6 Ecossaises WoO 83, Burmester's Minuet WoO 82 and Moffat's 'Zaertliche Liebe' (no recording evidence). N1-N3 (verify:false) left unchecked beyond the Wikipedia list (Op. 105/107 are 'flute or violin')."
+}

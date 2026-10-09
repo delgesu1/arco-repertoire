@@ -1,0 +1,111 @@
+{
+ "composer": "Sibelius, Jean",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Novelette in E minor, Op. 102"
+  },
+  {
+   "nid": "N2",
+   "title": "Cantique (Laetare anima mea), Op. 77 No. 1"
+  },
+  {
+   "nid": "N3",
+   "title": "Devotion (Ab imo pectore), Op. 77 No. 2"
+  },
+  {
+   "nid": "N4",
+   "title": "Romance in B minor, Op. 2 No. 1"
+  },
+  {
+   "nid": "N5",
+   "title": "Epilogue (Perpetuum mobile), Op. 2 No. 2"
+  },
+  {
+   "nid": "N6",
+   "title": "Impromptu, Op. 78 No. 1"
+  },
+  {
+   "nid": "N7",
+   "title": "Religioso, Op. 78 No. 3"
+  },
+  {
+   "nid": "N8",
+   "title": "Rigaudon, Op. 78 No. 4"
+  },
+  {
+   "nid": "N9",
+   "title": "Auf der Heide (On the Heath), Op. 115 No. 1"
+  },
+  {
+   "nid": "N10",
+   "title": "Ballade, Op. 115 No. 2"
+  },
+  {
+   "nid": "N11",
+   "title": "Humoresque, Op. 115 No. 3"
+  },
+  {
+   "nid": "N12",
+   "title": "The Bells (Die Glocken), Op. 115 No. 4"
+  },
+  {
+   "nid": "N13",
+   "title": "Scène de danse, Op. 116 No. 1"
+  },
+  {
+   "nid": "N14",
+   "title": "Danse caractéristique, Op. 116 No. 2"
+  },
+  {
+   "nid": "N15",
+   "title": "Rondeau romantique, Op. 116 No. 3"
+  },
+  {
+   "nid": "N16",
+   "title": "Suite for Violin and String Orchestra, Op. 117"
+  },
+  {
+   "nid": "N17",
+   "title": "Valse triste, Op. 44 No. 1 (arr. Hermann)"
+  },
+  {
+   "nid": "N18",
+   "title": "Serenade No. 1 in D major, Op. 69a"
+  },
+  {
+   "nid": "N19",
+   "title": "Serenade No. 2 in G minor, Op. 69b"
+  },
+  {
+   "nid": "N20",
+   "title": "Sonata in F major, JS 178"
+  }
+ ],
+ "notes": "Most Sibelius entries are correct. The fixes are a missing set name and the key for the Op. 78 Romance, plus the category for the complete Humoresques entry. No level changes are clearly justified. The queued Serenades N18 and N19 are members of the existing set entry 64 (Two Serenades, Op. 69), not duplicates. N14 (Op. 116 No. 2) and 1251 (Op. 79 No. 3) are different works with the same title.",
+ "fixes": [
+  {
+   "id": "1260",
+   "field": "set",
+   "value": "Four Pieces, Op. 78",
+   "confidence": "high",
+   "reason": "IMSLP lists the Romance as No. 2 of the 4 Pieces, Op. 78, the same set used by queued N6–N8."
+  },
+  {
+   "id": "1260",
+   "field": "title",
+   "value": "Romance in F major, Op. 78 No. 2",
+   "confidence": "medium",
+   "reason": "The Op. 78 No. 2 Romance is in F major; the title is missing its key."
+  },
+  {
+   "id": "63",
+   "field": "category",
+   "value": "Suite / Set",
+   "confidence": "medium",
+   "reason": "House style files complete-cycle entries under Suite / Set."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

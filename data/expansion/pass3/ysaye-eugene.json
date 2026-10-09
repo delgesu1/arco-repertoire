@@ -1,0 +1,69 @@
+{
+ "composer": "Ysaÿe, Eugène",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Au rouet, Op. 13 (Poème No. 2)"
+  },
+  {
+   "nid": "N2",
+   "title": "Berceuse in F minor, Op. 20"
+  },
+  {
+   "nid": "N3",
+   "title": "Divertimento, Op. 24"
+  },
+  {
+   "nid": "N4",
+   "title": "Étude posthume"
+  },
+  {
+   "nid": "N5",
+   "title": "Fantaisie, Op. 32"
+  },
+  {
+   "nid": "N6",
+   "title": "Légende norvégienne in G minor"
+  },
+  {
+   "nid": "N7",
+   "title": "Lointain passé (Mazurka No. 3) in B minor, Op. 11"
+  },
+  {
+   "nid": "N8",
+   "title": "Les neiges d'antan in D minor, Op. 23"
+  },
+  {
+   "nid": "N9",
+   "title": "Petit poème romantique"
+  },
+  {
+   "nid": "N10",
+   "title": "Poème nocturne, Op. 29 (for violin and cello)"
+  },
+  {
+   "nid": "N11",
+   "title": "Saltarelle carnavalesque in A minor, Op. 11"
+  },
+  {
+   "nid": "N12",
+   "title": "Variations on a Theme by Paganini in A minor"
+  },
+  {
+   "nid": "N13",
+   "title": "Concerto in E minor"
+  }
+ ],
+ "notes": "The only factual fix is adding Amitié's missing duration from IMSLP. Levels look consistent: the concert poems sit at 7–8, salon pieces at 4–5, and the solo sonatas at 8–9 in line with the exam listings. There are no duplicates. N7 and N11 both claim Op. 11; at most one opus number can be right, so check before adding. N10 (Poème nocturne) is scored for violin, cello and orchestra, so 'Violin & cello' understates the accompaniment.",
+ "fixes": [
+  {
+   "id": "596",
+   "field": "minutes",
+   "value": "15",
+   "confidence": "high",
+   "reason": "IMSLP gives a duration of 15–16 minutes."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

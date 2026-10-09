@@ -1,0 +1,100 @@
+{
+ "composer": "Godard, Benjamin",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Aubade, Op. 133"
+  },
+  {
+   "nid": "N2",
+   "title": "6 Duettini, Op. 18"
+  },
+  {
+   "nid": "N3",
+   "title": "En plein air, Op. 145 (Suite de cinq morceaux)"
+  },
+  {
+   "nid": "N4",
+   "title": "Jeunesse, Op. posth."
+  },
+  {
+   "nid": "N5",
+   "title": "Menuet-Pompadour, Op. 119"
+  },
+  {
+   "nid": "N6",
+   "title": "Rêverie, Op. 128 No. 1"
+  },
+  {
+   "nid": "N7",
+   "title": "Gavotte, Op. 128 No. 2"
+  },
+  {
+   "nid": "N8",
+   "title": "Mazurka sentimentale, Op. 128 No. 4"
+  },
+  {
+   "nid": "N9",
+   "title": "Sérénade, Op. 128 No. 5"
+  },
+  {
+   "nid": "N10",
+   "title": "Sonata for Solo Violin No. 1 in B minor, Op. 20"
+  },
+  {
+   "nid": "N11",
+   "title": "Sonata for Solo Violin No. 2 in A minor"
+  },
+  {
+   "nid": "N12",
+   "title": "Suite de trois morceaux, Op. 78"
+  },
+  {
+   "nid": "N13",
+   "title": "Concerto No. 2 in G minor, Op. 131"
+  },
+  {
+   "nid": "N14",
+   "title": "Concerto in D minor, Op. 29"
+  },
+  {
+   "nid": "N15",
+   "title": "Sonata No. 1 in C minor, Op. 1"
+  },
+  {
+   "nid": "N16",
+   "title": "Sonata No. 2 in A minor, Op. 2"
+  },
+  {
+   "nid": "N17",
+   "title": "Sonata No. 3 in G minor, Op. 9"
+  },
+  {
+   "nid": "N18",
+   "title": "Sonata No. 4 in A-flat major, Op. 12"
+  },
+  {
+   "nid": "N19",
+   "title": "Scènes écossaises, Op. 138"
+  }
+ ],
+ "notes": "Op. 128 set membership for 968 is confirmed by IMSLP. Several queued items are unverified and their existence should be checked before adding: the D minor Concerto, Op. 29 (Godard's known violin concertos are the Concerto romantique, Op. 35, and Concerto No. 2, Op. 131); the two solo-violin sonatas; Suite de trois morceaux, Op. 78 (the well-known Suite de trois morceaux is Op. 116 for flute); En plein air, Op. 145; and Aubade, Op. 133.",
+ "fixes": [
+  {
+   "id": "968",
+   "field": "set",
+   "value": "6 Morceaux, Op. 128",
+   "confidence": "high",
+   "reason": "IMSLP lists Adagio pathétique as No. 3 of 6 Morceaux, Op. 128."
+  },
+  {
+   "id": "N9",
+   "field": "title",
+   "value": "Sérénade andalouse, Op. 128 No. 5",
+   "confidence": "high",
+   "reason": "IMSLP lists No. 5 of Op. 128 as Sérénade andalouse."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

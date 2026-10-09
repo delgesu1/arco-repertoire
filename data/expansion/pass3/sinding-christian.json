@@ -1,0 +1,167 @@
+{
+ "composer": "Sinding, Christian",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Abendstimmung in G major, Op. 120"
+  },
+  {
+   "nid": "N2",
+   "title": "Cantus doloris (Variations) in G minor, Op. 78"
+  },
+  {
+   "nid": "N3",
+   "title": "Elegie, Op. 106 No. 1"
+  },
+  {
+   "nid": "N4",
+   "title": "Berceuse, Op. 106 No. 2"
+  },
+  {
+   "nid": "N5",
+   "title": "Andante religioso, Op. 106 No. 3"
+  },
+  {
+   "nid": "N6",
+   "title": "Prélude, Op. 43 No. 1"
+  },
+  {
+   "nid": "N7",
+   "title": "Ballade, Op. 43 No. 2"
+  },
+  {
+   "nid": "N8",
+   "title": "Berceuse, Op. 43 No. 3"
+  },
+  {
+   "nid": "N9",
+   "title": "Fête, Op. 43 No. 4"
+  },
+  {
+   "nid": "N10",
+   "title": "Romance in E minor, Op. 9"
+  },
+  {
+   "nid": "N11",
+   "title": "Romance in E minor, Op. 30"
+  },
+  {
+   "nid": "N12",
+   "title": "Romance in F major, Op. 79 No. 1"
+  },
+  {
+   "nid": "N13",
+   "title": "Romance in D major, Op. 79 No. 2"
+  },
+  {
+   "nid": "N14",
+   "title": "Scènes de la vie (Suite) in G major, Op. 51"
+  },
+  {
+   "nid": "N15",
+   "title": "Sonate im alten Stil in D minor, Op. 99"
+  },
+  {
+   "nid": "N16",
+   "title": "Prélude, Op. 61 No. 1"
+  },
+  {
+   "nid": "N17",
+   "title": "Elégie, Op. 61 No. 2"
+  },
+  {
+   "nid": "N18",
+   "title": "Ballade, Op. 61 No. 3"
+  },
+  {
+   "nid": "N19",
+   "title": "Alla Mazurka, Op. 61 No. 4"
+  },
+  {
+   "nid": "N20",
+   "title": "Air, Op. 81 No. 1"
+  },
+  {
+   "nid": "N21",
+   "title": "Albumblatt, Op. 81 No. 2"
+  },
+  {
+   "nid": "N22",
+   "title": "Romance, Op. 81 No. 3"
+  },
+  {
+   "nid": "N23",
+   "title": "Vivace, Op. 81 No. 4"
+  },
+  {
+   "nid": "N24",
+   "title": "Ständchen, Op. 89 No. 1"
+  },
+  {
+   "nid": "N25",
+   "title": "Alte Weise, Op. 89 No. 2"
+  },
+  {
+   "nid": "N26",
+   "title": "Abendlied, Op. 89 No. 3"
+  },
+  {
+   "nid": "N27",
+   "title": "Suite in F major, Op. 14"
+  },
+  {
+   "nid": "N28",
+   "title": "Suite for Solo Violin in D minor, Op. 123"
+  },
+  {
+   "nid": "N29",
+   "title": "Concerto No. 2 in D major, Op. 60"
+  },
+  {
+   "nid": "N30",
+   "title": "Sonata No. 1 in C major, Op. 12"
+  },
+  {
+   "nid": "N31",
+   "title": "Sonata No. 2 in E major, Op. 27"
+  },
+  {
+   "nid": "N32",
+   "title": "Sonata No. 3 in F major, Op. 73"
+  },
+  {
+   "nid": "N33",
+   "title": "Concerto No. 3 in A minor, Op. 119"
+  },
+  {
+   "nid": "N34",
+   "title": "Légende, Op. 46"
+  }
+ ],
+ "notes": "Corrected the two Serenade titles, which wrongly put their opus numbers as Op. 56 No. 1 and Op. 92 No. 2, and filled the missing Op. 56 duration from IMSLP. Op. 92 has no duration given and I am not sure of it, so I left it unset; serenade keys are also unverified and left out. Levels for the queued works look plausible against the concertos (L8) and Suite Op. 10 (L8). I could not verify the details of the smaller queued sets (Opp. 9, 30, 43, 61, 81, 89, 106, 123), so I left them unchanged.",
+ "fixes": [
+  {
+   "id": "548",
+   "field": "title",
+   "value": "Serenade No. 1 for Two Violins and Piano, Op. 56",
+   "confidence": "high",
+   "reason": "IMSLP lists it as Serenade No. 1, Op. 56; 'Op. 56 No. 1' is not a real catalogue number."
+  },
+  {
+   "id": "548",
+   "field": "minutes",
+   "value": "19",
+   "confidence": "high",
+   "reason": "IMSLP gives 19 minutes."
+  },
+  {
+   "id": "549",
+   "field": "title",
+   "value": "Serenade No. 2 for Two Violins and Piano, Op. 92",
+   "confidence": "high",
+   "reason": "IMSLP lists it as Serenade No. 2, Op. 92; 'Op. 92 No. 2' is not a real catalogue number."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

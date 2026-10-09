@@ -1,0 +1,86 @@
+{
+ "composer": "Moszkowski, Moritz",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Bolero in D major, Op. 16 No. 2"
+  },
+  {
+   "nid": "N2",
+   "title": "Les Nymphes in F minor, Op. 82 No. 1"
+  },
+  {
+   "nid": "N3",
+   "title": "Caprice in A minor, Op. 82 No. 2"
+  },
+  {
+   "nid": "N4",
+   "title": "Mélodie in G major, Op. 82 No. 3"
+  },
+  {
+   "nid": "N5",
+   "title": "Humoresque in D major, Op. 82 No. 4"
+  }
+ ],
+ "notes": "No duplicates found. Bolero N1 is the companion to Ballade 41 in Op. 16, not a duplicate. The Op. 82 'Morceaux' entries (N2–N5) could not be verified, so their levels are left unchanged. Spanish Dance timings are approximate durations for the short Scharwenka arrangements.",
+ "fixes": [
+  {
+   "id": "41",
+   "field": "set",
+   "value": "2 Konzertstücke, Op. 16",
+   "confidence": "high",
+   "reason": "IMSLP lists the Ballade as No. 1 of 2 Konzertstücke, Op. 16, with the Bolero."
+  },
+  {
+   "id": "41",
+   "field": "accompaniment",
+   "value": "Piano or orchestra",
+   "confidence": "medium",
+   "reason": "Single-movement concert piece published with orchestra and piano reduction; house style uses 'Piano or orchestra'."
+  },
+  {
+   "id": "1103",
+   "field": "minutes",
+   "value": "2",
+   "confidence": "medium",
+   "reason": "Short Spanish dance arrangement lasting about two minutes."
+  },
+  {
+   "id": "1104",
+   "field": "minutes",
+   "value": "3",
+   "confidence": "medium",
+   "reason": "Short Spanish dance arrangement lasting about two to three minutes."
+  },
+  {
+   "id": "1105",
+   "field": "minutes",
+   "value": "2",
+   "confidence": "medium",
+   "reason": "Short Spanish dance arrangement lasting about two minutes."
+  },
+  {
+   "id": "1106",
+   "field": "minutes",
+   "value": "2",
+   "confidence": "medium",
+   "reason": "Short Spanish dance arrangement lasting about two minutes."
+  },
+  {
+   "id": "1107",
+   "field": "minutes",
+   "value": "3",
+   "confidence": "medium",
+   "reason": "The Bolero arrangement lasts about two to three minutes."
+  }
+ ],
+ "levels": [
+  {
+   "id": "2170",
+   "level": 6,
+   "confidence": "medium",
+   "reason": "The RCM 10 listing points to level 6, comparable to Kreisler's Liebesfreud anchor."
+  }
+ ],
+ "duplicates": []
+}

@@ -1,0 +1,70 @@
+{
+  "composer": "Kreisler, Fritz",
+  "verdicts": [
+    {
+      "uid": "N8",
+      "verdict": "fix",
+      "title": "Slavonic Fantasie in B minor (after Dvořák)",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Exists: IMSLP 'Slavonic Fantasie' (Slavische Fantasie), B minor, Kreisler's free fantasy on three Dvořák pieces, New York: Carl Fischer 1914 plate 13563, dedicated to Carl Flesch; Wikipedia/IMSLP lists of Kreisler works give the same spelling. 'Fantasy' is not the printed spelling, so 'Fantasie'. Same piece is queued as N4 in dvorak-antonin.json (and its web verdict): keep ONE entry only - suggested here under Kreisler as a free paraphrase, cf. existing 'Midnight Bells (after Heuberger)'.",
+      "source": "https://imslp.org/wiki/Slavonic_Fantasie_(Kreisler,_Fritz)"
+    },
+    {
+      "uid": "N10",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "The set is real (IMSLP '3 Old Viennese Dances' = Alt-Wiener Tanzweisen: No. 1 Liebesfreud, No. 2 Liebesleid, No. 3 Schön Rosmarin; Mainz: Schott 1910, Carl Fischer plates 29028/29029) but all three pieces are already separate catalogue entries (ids 1036, 1037, 1048), so a 'complete' set entry would duplicate them. Optional: give those three ids set='Alt-Wiener Tanzweisen'.",
+      "source": "https://imslp.org/wiki/3_Old_Viennese_Dances_(Kreisler,_Fritz)"
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Habanera (from Rapsodie espagnole, arr. Kreisler)",
+      "scoring": "violin and piano",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 5,
+      "minutes": 3,
+      "set": "",
+      "arranger": "Kreisler",
+      "edition": "New York: Charles Foley, 1928, plate 24723 (IMSLP Rapsodie espagnole page, 'For Violin and Piano (Kreisler)')",
+      "source": "https://imslp.org/wiki/Rapsodie_espagnole_(Ravel,_Maurice)",
+      "note": "Ravel's Habanera = 3rd movement of Rapsodie espagnole; also listed in IMSLP/Wikipedia lists of Kreisler works (1928). Not the same as existing Ravel id 1170 'Pièce en forme de habanera'. Belongs equally under ravel-maurice - dedupe if that agent reports it."
+    },
+    {
+      "title": "Impromptu in G-flat major, Op. 90 No. 3, D. 899 (arr. Kreisler)",
+      "scoring": "violin and piano",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 5,
+      "minutes": 4,
+      "set": "",
+      "arranger": "Kreisler",
+      "edition": "Carl Fischer, New York, cat. F1021 (violin and piano, transcribed by Fritz Kreisler); NYPL catalogue also lists Kreisler's recorded version",
+      "source": "https://www.performersmusicchicago.com/imrpmpru-no-3-schubert-cf-f1021",
+      "note": "Source is a retailer listing; the IMSLP list of Kreisler works does not include it. Sources disagree whether Kreisler's version is in G-flat or G major (title uses the original's key) - check the score. Not in schubert-franz.json existing/queued; dedupe if the Schubert agent reports it."
+    },
+    {
+      "title": "Tanzlied des Pierrot (from Die tote Stadt, Op. 12) (arr. Kreisler)",
+      "scoring": "violin and piano",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 5,
+      "minutes": 4,
+      "set": "",
+      "arranger": "Kreisler",
+      "edition": "Kreisler's violin and piano transcription dated 1920 in IMSLP's 'List of works by Fritz Kreisler' and Wikipedia's list; publisher not confirmed (IMSLP's Die tote Stadt page only shows a later cello version 'Kreisler-Mandozzi', i.e. after Kreisler)",
+      "source": "https://imslp.org/wiki/List_of_works_by_Fritz_Kreisler",
+      "note": "LOWER CONFIDENCE: edition not located. Relevant to korngold-erich-wolfgang.json queued N6 'Tanzlied des Pierrot ... (arr. Korngold)': the violin/piano arranger is credited to Kreisler in both Kreisler work lists, so that title's arranger may be wrong. Only add one entry."
+    }
+  ],
+  "existing_issues": [],
+  "note": "Gap check used IMSLP's Kreisler category (44 pages), IMSLP 'List of works by Fritz Kreisler' and Wikipedia's 'List of compositions by Fritz Kreisler'; all Kreisler originals and 'classical manuscripts' pastiches on those lists are already in existing/queued (queued N1-N7, N9 left as drafted; not verified further). Only transcriptions of composers among the 52 were considered; those already in existing/queued of the original composer's file were not repeated, and Habanera and the Schubert Impromptu are also reported by the ravel/schubert agents (dedupe). Not reported for lack of a located published edition: Kreisler's Handel 'Ombra mai fu' (Largo from Serse) arrangement (recorded 1914/1924, named in IMSLP's Kreisler list; the Handel agent reports Wilhelmj's Largo), 'Retrospection' and 'Scherzo' (1945, violin and piano versions of quartet movements per the work lists; IMSLP's quartet page shows no arrangements), and 'Song, Op. 7' (listed without date or edition). Kreisler's cadenzas and his editions (Beethoven sonatas, Schumann Fantasie, Wieniawski Op. 6) are out of scope. Web search quota ran out during the run, so the last three gap candidates were checked only via direct IMSLP page fetches."
+}

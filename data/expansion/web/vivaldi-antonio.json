@@ -1,0 +1,300 @@
+{
+ "composer": "Vivaldi, Antonio",
+ "note": "GAP CHECK (RV numbers compared with existing+queued, ~300): sources = Wikipedia 'List of compositions by Antonio Vivaldi' (opus tables Op. 1-12; RV table: violin sonatas RV 1-37a, solo violin concertos RV 170-391, multiple concertos RV 505-585, RV 7xx/8xx) and IMSLP page titles (MediaWiki API existence/prefix checks) plus the opened IMSLP work pages. COMPLETE: Op. 1, 2, 3, 4, 5, 6, 8, 9, 11, 12 once N259-N264 are accepted; all 12 Manchester sonatas; all 20 trio sonatas RV 60-79. Op. 7 lacks only No. 9 (spurious, N262) and No. 11 = RV 208a (a version of RV 208 'Grosso Mogul'; Eulenburg/Schroeder 1961 on IMSLP; not added as a duplicate version). Violin sonata RV 7 (C minor) and RV 37a (B minor, rediscovered 2022) are in Wikipedia's list but have no IMSLP page (not added). NOT ADDED - listed by Wikipedia as violin works, no IMSLP page found, no edition located (omission preferred to error): solo violin RV 175, 194, 201, 220, 223, 227, 250, 251, 264, 276, 289, 291 (Wikipedia: Walsh Op. 4 no. 6 print), 307, 327, 346, 365, 371, 382; multiple concertos RV 528, 543, 579, 581; RV 761-764, 768-770, 808 (supplement numbers); sonatas RV 798, 815, 816, 820, 828. RV 195 has an IMSLP page but only a manuscript scan; RV 274 on IMSLP redirects to an 'Anonymous' concerto; RV 563 on IMSLP is 'Concerto for 2 Oboes'. Wikipedia marks as lost/incomplete/withdrawn (skipped): RV 174, 193, 200, 255, 290, 304, 305, 309, 316, 337, 351, 378, 385; sonatas RV 4, 7a, 11, 17, 37 (incomplete), 13, 24 (inauthentic). QUEUED ITEMS (verify:false) WORTH A SECOND LOOK: Wikipedia's RV table says 'Incomplete' for N1 (RV 520), N6 (RV 526), N100 (RV 360), N139 (RV 203), N164 (RV 772; Wikipedia also gives F major, IMSLP D major), N219 (RV 320), N221 (RV 322); N78 (RV 338) is inauthentic (Walsh/Joseph Meck, Anh. 65); N33 (RV 542) is marked 'Doubtful'; N45 (RV 192) is a 'Sinfonia' in both Wikipedia and its IMSLP title, not a concerto; N257 (RV 549) is for 4 violins without obbligato cello per Wikipedia (title says 'and Cello').",
+ "verdicts": [
+  {
+   "uid": "N30",
+   "verdict": "fix",
+   "title": "Concerto for Violin and Cello in F major, RV 544 'Il Proteo o sia il mondo al rovescio'",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: violin, cello, strings, continuo, F major (IMSLP; Wikipedia RV table gives 'Il Proteo o sia il mondo al rovescio', related to RV 572). IMSLP's own page spells the subtitle 'Il mondo al roverscio' (no 'Il Proteo'); Wikipedia/Ryom wording used. Ricordi, ed. Malipiero, 1952, plate P.R. 585 (F.IV.5). Only the parenthesised nickname reformatted to house style.",
+   "source": "https://imslp.org/wiki/Concerto_for_Violin_and_Cello_in_F_major,_RV_544_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N35",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Work exists and is a violin concerto 'in tromba marina' (IMSLP title and Wikipedia RV table both: RV 221, D major, violin in tromba marina, strings), but IMSLP offers only a scan of the Turin holograph (Foa 29, ff. 93r-100r); no F./P. number and no printed or modern edition found, so manuscript-only. Accept only if a facsimile counts as an edition. (The other two tromba-marina concertos, RV 311 and RV 313, do have Ricordi editions: N36, N37.)",
+   "source": "https://imslp.org/wiki/Concerto_for_Violino_in_Tromba_Marina_in_D_major,_RV_221_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N36",
+   "verdict": "fix",
+   "title": "Concerto in G major, RV 311 'Violino in tromba marina'",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: IMSLP 'Concerto for Violino in Tromba Marina in G major, RV 311' (violin 'in tromba', strings, continuo; F.I:96, P.117); Ricordi, ed. Malipiero, 1955. Wikipedia RV table agrees (violin in tromba marina). The word 'per' in the queued title is in no source; descriptor reformatted to house style.",
+   "source": "https://imslp.org/wiki/Concerto_for_Violino_in_Tromba_Marina_in_G_major,_RV_311_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N37",
+   "verdict": "fix",
+   "title": "Concerto in G major, RV 313 'Violino in tromba marina'",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: IMSLP 'Concerto for Violino in Tromba Marina in G major, RV 313' (F.I:64, P.138); Ricordi, ed. Malipiero, 1953; also typeset score and parts by P. Ramis (2025, IMSLP). Wikipedia RV table agrees. 'per' in the queued title is in no source.",
+   "source": "https://imslp.org/wiki/Concerto_for_Violino_in_Tromba_Marina_in_G_major,_RV_313_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N65",
+   "verdict": "fix",
+   "title": "Trio Sonata in D minor, Op. 1 No. 12, RV 63 'La Follia'",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "IMSLP: Op. 1 No. 12, RV 63, D minor, 2 violins + continuo, alt. titles 'La Follia' / 'Folia variations'; part of Suonate da camera a tre, Op. 1 (first publication 1705 per IMSLP; scans of the Roger, Amsterdam [1715] edition; typeset editions by L. Cawte 2013 and A. Bornstein 2017). Wikipedia Op. 1 table also: No. 12 = RV 63 (D minor). Only the nickname format changed.",
+   "source": "https://imslp.org/wiki/Trio_Sonata_in_D_minor,_RV_63_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N80",
+   "verdict": "fix",
+   "title": "Concerto in A major, RV 340",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: IMSLP violin, strings, continuo; autograph with Pisendel's additions, dedicated to Pisendel (Wikipedia RV table says the same); C.F. Peters (Leipzig, ed. Landshoff, continuo realisation) 1935, Ed. 4207, plate 11257. A dedication is not a title, so '(for Pisendel)' dropped from the title (keep in notes).",
+   "source": "https://imslp.org/wiki/Violin_Concerto_in_A_major,_RV_340_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N90",
+   "verdict": "fix",
+   "title": "Concerto in A major, RV 817",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: IMSLP violin, strings, continuo, Allegro-Largo-Allegro (c.11 min), also catalogued RV Anh. 86 (Wikipedia: 'formerly Anh. 86, now authenticated'); IMSLP says dedicated to Pisendel (Pisendel copy of the parts). Only edition: P. Ramis typeset score and parts, 2022 (IMSLP, self-published); no older print. Dedication dropped from title.",
+   "source": "https://imslp.org/wiki/Violin_Concerto_in_A_major,_RV_817_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N94",
+   "verdict": "fix",
+   "title": "Concerto in B minor, RV 387",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: IMSLP violin, strings, continuo; inscription 'Per Signora Anna Maria' (Venice Correr ms.); F.I.83, P.202; Ricordi, ed. Malipiero, Opera omnia vol. XV, 1954, plate 704; P. Ramis typeset 2025. Wikipedia RV table: 'per Signora Anna Maria'. Dedication dropped from title.",
+   "source": "https://imslp.org/wiki/Violin_Concerto_in_B_minor,_RV_387_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N103",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Wikipedia RV table: RV 366, B-flat major, 'Il Carbonelli' (Dresden concerto). IMSLP page exists (violin, strings, continuo; P. Ramis typeset 2022; Dresden ms. scans) but does not carry the nickname, so the nickname rests on Wikipedia/Ryom only.",
+   "source": "https://imslp.org/wiki/Violin_Concerto_in_B-flat_major,_RV_366_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N116",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "IMSLP: RV 583, B-flat major, 'Concerto con violino discordato': solo violin in scordatura (tuning appears to be B-flat, D, A, E) with a second string group (autograph Turin, Foa 29); edition M. Bolognani, BarItalia 2016 (IMSLP). Wikipedia RV table: 'Violin, double string orchestra; scordatura violin'.",
+   "source": "https://imslp.org/wiki/Violin_Concerto_in_B-flat_major,_RV_583_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N119",
+   "verdict": "fix",
+   "title": "Concerto in C major, RV 172",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: IMSLP violin, strings, continuo, dedicated to Pisendel (Wikipedia RV table the same), c.1716-17; Ricordi, ed. Malipiero, 1960; P. Ramis typeset 2025. Dedication dropped from title.",
+   "source": "https://imslp.org/wiki/Violin_Concerto_in_C_major,_RV_172_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N147",
+   "verdict": "fix",
+   "title": "Concerto in D major, RV 212 'Per la solennità della S. Lingua di S. Antonio'",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists. IMSLP dedication field and Wikipedia RV table: 'fatto per la solennità della S. Lingua di S. Antonio in Padua' (Padua, c.1712; RV 212a is a variant). IMSLP editions: J.N. Mellado typeset parts 2025 plus Dresden/Turin ms. scans; no older print found. Parenthesised phrase reformatted as a quoted subtitle with corrected spelling.",
+   "source": "https://imslp.org/wiki/Violin_Concerto_in_D_major,_RV_212_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N200",
+   "verdict": "fix",
+   "title": "Concerto in F major, RV 286 'Per la solennità di S. Lorenzo'",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Wikipedia RV table: RV 286, F major, violin, strings, 'Per la solennità di S. Lorenzo'. IMSLP has the work page (a redirect from the title spelled 'Per la Solenita' di S. Lorenzo'); its edition list was not opened. Spelling corrected and subtitle reformatted.",
+   "source": "https://imslp.org/wiki/Violin_Concerto_in_F_major,_RV_286_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N226",
+   "verdict": "fix",
+   "title": "Concerto in G minor, RV 328",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: IMSLP violin, strings, continuo, F.I.82, P.357, c.1720-24, dedicated to Pisendel (Wikipedia RV table the same); P. Ramis typeset score and parts 2022 (IMSLP); Dresden and Turin ms. scans. Dedication dropped from title.",
+   "source": "https://imslp.org/wiki/Violin_Concerto_in_G_minor,_RV_328_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N259",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Op. 6 No. 4 = RV 216, D major (IMSLP 6 Concerti, Op.6; Wikipedia Op. 6 table and RV table agree). First edition Jeanne Roger, Amsterdam, no. 452, c.1720 (IMSLP lists only BnF scans of the parts, no modern edition).",
+   "source": "https://imslp.org/wiki/6_Concerti,_Op.6_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N260",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Op. 7 No. 4 = RV 354, A minor (Wikipedia Op. 7 article and RV table; IMSLP Op. 7 collection list - IMSLP's 'General Information' list swaps Nos. 4/5, the collection list matches Wikipedia). First edition Roger, Amsterdam, plate 470, c.1716-20 (IMSLP: Uppsala copy scan only).",
+   "source": "https://imslp.org/wiki/12_Concerti,_Op.7_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N261",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Op. 7 No. 5 = RV 285a, F major (Wikipedia Op. 7 article and RV table; IMSLP Op. 7 collection list). RV 285 is the separate manuscript version; the printed version is RV 285a. First edition Roger, Amsterdam, plate 470, c.1716-20.",
+   "source": "https://imslp.org/wiki/12_Concerti,_Op.7_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N262",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Spurious. Op. 7 No. 9 (RV 373, B-flat) is marked 'Inauthentic. Withdrawn and moved to Anh. 153' in Wikipedia's RV table, listed as RV Anh. 153 '(inauthentic)' in Wikipedia's Op. 7 article, and listed as RV Anh.153 (RV 373) under Spurious Works on the IMSLP Op. 7 page.",
+   "source": "https://imslp.org/wiki/12_Concerti,_Op.7_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N263",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "La cetra Op. 9 No. 6 = RV 348, A major, solo violin in scordatura A-E-a-e (IMSLP La cetra page: 'Concerto No.6, Solo Violin I tuning (scordatura): AEae'; Wikipedia RV table: 'La cetra, Op. 9 No. 6. Scordatura violin'). First edition Le Cene, Amsterdam [1727]; IMSLP also has a typeset solo part in the original scordatura (G. Van den Boom, 2022).",
+   "source": "https://imslp.org/wiki/La_cetra,_Op.9_(Vivaldi,_Antonio)"
+  },
+  {
+   "uid": "N264",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Op. 12 No. 6 = RV 361, B-flat major, violin (IMSLP 6 Concerti, Op.12; Wikipedia Op. 12 article and RV table). First edition Le Cene, Amsterdam, 1729 (IMSLP scan, no modern edition listed).",
+   "source": "https://imslp.org/wiki/6_Concerti,_Op.12_(Vivaldi,_Antonio)"
+  }
+ ],
+ "gaps": [
+  {
+   "title": "Concerto for 2 Violins and 2 Cellos in D major, RV 564",
+   "scoring": "2 violins and 2 cellos soli, strings, continuo",
+   "category": "Duet / Double Concerto",
+   "accompaniment": "Orchestra (piano reduction)",
+   "level_guess": 3,
+   "minutes": 10,
+   "set": "",
+   "arranger": "",
+   "edition": "Ricordi, ed. Malipiero, Le Opere di Antonio Vivaldi F.IV no. 4, 1950, plate 461 (IMSLP scan)",
+   "source": "https://imslp.org/wiki/Concerto_in_D_major,_RV_564_(Vivaldi,_Antonio)",
+   "note": "Wikipedia RV table: RV 564, D major, 2 violins, 2 cellos, strings (RV 564a is an anonymous version with oboes). Same family as RV 565 (existing id 585). IMSLP lists it in its cello-concertos category."
+  },
+  {
+   "title": "Concerto for 2 Violins and 2 Cellos in G major, RV 575",
+   "scoring": "2 violins and 2 cellos soli, strings, continuo",
+   "category": "Duet / Double Concerto",
+   "accompaniment": "Orchestra (piano reduction)",
+   "level_guess": 3,
+   "minutes": 10,
+   "set": "",
+   "arranger": "",
+   "edition": "Ricordi, ed. Ephrikian, Le Opere di Antonio Vivaldi F.IV no. 1, 1949, plate 275 (IMSLP scan)",
+   "source": "https://imslp.org/wiki/Concerto_in_G_major,_RV_575_(Vivaldi,_Antonio)",
+   "note": "Wikipedia RV table: RV 575, G major, 2 violins, 2 cellos, strings; IMSLP gives c.10 min, composed 1730 or earlier."
+  },
+  {
+   "title": "Concerto in F major, RV 571",
+   "scoring": "violin, 2 oboes, 2 horns, cello and bassoon soli, strings, continuo",
+   "category": "Concerto",
+   "accompaniment": "Orchestra (piano reduction)",
+   "level_guess": 4,
+   "minutes": 10,
+   "set": "",
+   "arranger": "",
+   "edition": "IMSLP typeset score and parts: M. Bolognani (BarItalia 2011) and R. Maunder (2023); Dresden ms. scans (SLUB)",
+   "source": "https://imslp.org/wiki/Concerto_in_F_major,_RV_571_(Vivaldi,_Antonio)",
+   "note": "Violin-led multi-soloist concerto (IMSLP work title 'Concerto for Violin, 2 Oboes, 2 Horns, Cello and Bassoon in F major'; Wikipedia: related to RV 99). Same family as queued RV 562/568/569/574/577 (N40-N43, N208); drop if that family is out of scope."
+  },
+  {
+   "title": "Concerto in G minor, RV 576",
+   "scoring": "violin, 2 recorders, 3 oboes and bassoon soli, strings, continuo",
+   "category": "Concerto",
+   "accompaniment": "Orchestra (piano reduction)",
+   "level_guess": 4,
+   "minutes": 9,
+   "set": "",
+   "arranger": "",
+   "edition": "IMSLP typeset score and parts: M. Bolognani (BarItalia 2013) and R. Maunder (2023); Dresden parts ms. (SLUB)",
+   "source": "https://imslp.org/wiki/Concerto_in_G_minor,_RV_576_(Vivaldi,_Antonio)",
+   "note": "Wikipedia RV table: violin first among many soloists; dedicated to the Prince Elector of Saxony. Same family as queued RV 577 (N43); drop if multi-soloist 'Dresden' concertos are out of scope."
+  }
+ ],
+ "existing_issues": [
+  {
+   "id": 383,
+   "issue": "Title has no RV number: Op. 7 No. 12 is RV 214 (D major).",
+   "suggested_title": "Concerto in D major, Op. 7 No. 12, RV 214",
+   "source": "https://imslp.org/wiki/12_Concerti,_Op.7_(Vivaldi,_Antonio)"
+  },
+  {
+   "id": 587,
+   "issue": "Op. 3 No. 10 (RV 580) is for 4 violins and obbligato cello (Wikipedia RV table: '4 violins, cello, strings'); the title leaves out the cello (cf. id 585, RV 565, 'for 2 Violins and Cello').",
+   "suggested_title": "Concerto for 4 Violins and Cello in B minor, Op. 3 No. 10, RV 580",
+   "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Antonio_Vivaldi"
+  },
+  {
+   "id": 378,
+   "issue": "Cosmetic: 'La cetra' is the title of the whole Op. 9 set, not a nickname of No. 5 (the other Op. 9 concertos carry no nickname).",
+   "suggested_title": "Concerto in A minor, Op. 9 No. 5, RV 358",
+   "source": "https://imslp.org/wiki/La_cetra,_Op.9_(Vivaldi,_Antonio)"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "composer": "Elgar, Edward",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Allegretto on G-E-D-G-E in C major"
+  },
+  {
+   "nid": "N2",
+   "title": "Études caractéristiques, Op. 24"
+  },
+  {
+   "nid": "N3",
+   "title": "Gavotte (1885)"
+  },
+  {
+   "nid": "N4",
+   "title": "Offertoire (Andante religioso) in F major"
+  },
+  {
+   "nid": "N5",
+   "title": "Pastourelle, Op. 4 No. 2"
+  },
+  {
+   "nid": "N6",
+   "title": "Virelai, Op. 4 No. 3"
+  },
+  {
+   "nid": "N7",
+   "title": "Reminiscences in D major"
+  },
+  {
+   "nid": "N8",
+   "title": "Study for Strengthening the Third Finger"
+  },
+  {
+   "nid": "N9",
+   "title": "Very Easy Melodious Exercises in the First Position, Op. 22"
+  },
+  {
+   "nid": "N10",
+   "title": "Canto popolare (In Moonlight), from In the South, Op. 50"
+  }
+ ],
+ "notes": "Main fixes: set names for the existing Op. 4, Op. 13 and Op. 15 pieces, matching the queued Op. 4 entries, and missing durations. Keys and levels are consistent with the anchors; no duplicates found. Not changed (queued entries; facts are only corrected on existing ids): N9's 'Piano' accompaniment is doubtful, as Op. 22 is usually for violin alone or with a teacher's violin.",
+ "fixes": [
+  {
+   "id": "926",
+   "field": "set",
+   "value": "3 Pieces, Op. 4",
+   "confidence": "medium",
+   "reason": "IMSLP lists Idylle as No. 1 of 3 Pieces, Op. 4, matching queued N5/N6."
+  },
+  {
+   "id": "926",
+   "field": "minutes",
+   "value": "3",
+   "confidence": "medium",
+   "reason": "Short salon piece of about three minutes."
+  },
+  {
+   "id": "927",
+   "field": "set",
+   "value": "2 Pieces, Op. 13",
+   "confidence": "medium",
+   "reason": "IMSLP lists Mot d'amour as No. 1 of 2 Pieces, Op. 13."
+  },
+  {
+   "id": "923",
+   "field": "set",
+   "value": "2 Pieces, Op. 13",
+   "confidence": "medium",
+   "reason": "IMSLP lists Bizarrerie as No. 2 of 2 Pieces, Op. 13."
+  },
+  {
+   "id": "923",
+   "field": "minutes",
+   "value": "3",
+   "confidence": "medium",
+   "reason": "Bizarrerie is a brief piece of roughly 2–3 minutes."
+  },
+  {
+   "id": "924",
+   "field": "set",
+   "value": "Chanson de nuit and Chanson de matin, Op. 15",
+   "confidence": "medium",
+   "reason": "IMSLP shows it as No. 2 of the Op. 15 pair."
+  },
+  {
+   "id": "925",
+   "field": "set",
+   "value": "Chanson de nuit and Chanson de matin, Op. 15",
+   "confidence": "medium",
+   "reason": "IMSLP shows it as No. 1 of the Op. 15 pair."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

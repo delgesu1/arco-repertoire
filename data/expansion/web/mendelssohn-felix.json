@@ -1,0 +1,38 @@
+{
+  "composer": "Mendelssohn, Felix",
+  "verdicts": [
+    {
+      "uid": "N1",
+      "verdict": "fix",
+      "title": "Songs without Words, Opp. 19b–85 (arr. David)",
+      "accompaniment": "Piano",
+      "category": "Suite / Set",
+      "minutes": 79,
+      "set": "",
+      "note": "Real and recorded: Ferdinand David's violin-and-piano arrangement of the Lieder ohne Worte, N. Simrock, Berlin, c.1870 (plate 7052-58), in 7 volumes covering Opp. 19, 30, 38, 53, 62, 67 and 85 (Op. 102 omitted), often changing keys and leaving out a piece or two per book. The draft's 'Breitkopf' is wrong - Simrock. Recording: Michael Barenboim / Natalia Pegarkova-Barenboim, Linn CKD696 (2024), 79:19 - used for the minutes. Friedrich Hermann's separate Peters arrangement (38 songs, c.1878) is a second arrangement and not proposed. Piece-by-piece numbers per volume are not documented here, so it stays one set entry.",
+      "source": "https://imslp.org/wiki/Lieder_ohne_Worte_(Mendelssohn,_Felix)"
+    }
+  ],
+  "gaps": [],
+  "existing_issues": [
+    {
+      "id": 2167,
+      "issue": "Probably mis-assigned: Carl Fischer's Heifetz Series issue CF B2612 (1942) is 'Scherzo from Midsummer Night's Dream, Op. 61', arr. Heifetz, violin and piano; IMSLP's Piano Trio No.1 Op. 49 page lists no violin-and-piano arrangement of its Scherzo at all. Check the entry's source; if it is the Heifetz Scherzo it should be the Op. 61 piece.",
+      "suggested_title": "Scherzo from A Midsummer Night's Dream, Op. 61 (arr. Heifetz)",
+      "source": "https://www.performersmusicchicago.com/scherzo-mendelssohn-cf-b2612"
+    },
+    {
+      "id": 1087,
+      "issue": "Arranger missing: Wikipedia's list of Kreisler's compositions has 'Lied ohne Worte: May Breezes, Op. 62 No. 1' (1913) as his transcription; other violin-piano settings of Op. 62 (Kross, Seitz) exist, so confirm which one the entry is.",
+      "suggested_title": "May Breezes, Op. 62 No. 1 (arr. Kreisler)",
+      "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Fritz_Kreisler"
+    },
+    {
+      "id": 240,
+      "issue": "Missing catalogue number: the 1822 D minor concerto for violin and strings is MWV O 3 (the double concerto, id 499, is MWV O 4).",
+      "suggested_title": "Concerto in D minor, MWV O3 (1822)",
+      "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Felix_Mendelssohn"
+    }
+  ],
+  "note": "Gap check is partial (web search budget ran out after the first sources). Used Wikipedia's Mendelssohn list (the only violin-soloist works are the three concertos and three sonatas = existing ids 240, 241, 499, 1824-1826, all matching) and IMSLP (category snapshot plus the Songs without Words, Midsummer Night's Dream, Piano Trio Op. 49 and String Quartet Op. 12 pages). Published violin arrangements found but NOT added (second settings, no recording/established evidence): Burmester's Canzonetta of Op. 12 titled 'Capriccietto' (Schott, Alte Weisen, 1910), H. W. Ernst's Notturno and Intermezzo (White & Goullard, Boston 1870), Hermann's Wedding March, Burmester's Scherzo in his Konzertstuecke (Schlesinger 1906), Kreisler's Spring Song (Victor 1915 takes destroyed, no IMSLP edition)."
+}

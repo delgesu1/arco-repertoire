@@ -1,0 +1,50 @@
+{
+ "composer": "Chaminade, Cécile",
+ "verdicts": [
+  {
+   "uid": "N1",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "(verify was false, checked anyway) IMSLP: 3 Morceaux, Op. 31 for violin and piano = 1. Andantino, 2. Romanza, 3. Bohémienne; first published Paris: Louis Gregh, n.d. [1887] (Wikipedia's list says Hainauer 1885); Nos. 2-3 dedicated to Martin Marsick. Key not stated by IMSLP, so none added.",
+   "source": "https://imslp.org/wiki/3_Morceaux,_Op.31_(Chaminade,_C%C3%A9cile)"
+  },
+  {
+   "uid": "N2",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "(verify was false, checked anyway) IMSLP: Rondeau, Op. 97, A major, violin and piano, Paris: Enoch & Cie., 1899, plate E. & C. 4027, dedicated to Paul Viardot; Wikipedia's list agrees (Enoch 1899).",
+   "source": "https://imslp.org/wiki/Rondeau,_Op.97_(Chaminade,_C%C3%A9cile)"
+  }
+ ],
+ "gaps": [
+  {
+   "title": "Chant du Nord, Op. 96",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 4,
+   "minutes": 4,
+   "set": "",
+   "arranger": "",
+   "edition": "Paris: Enoch, 1899 (per Wikipedia list of compositions); listed as 'for Violin and Piano' in IMSLP's List of works by Cécile Chaminade",
+   "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_C%C3%A9cile_Chaminade",
+   "note": "Two sources agree it is an original violin and piano piece, next in number to the Rondeau Op. 97 (same publisher and year). I found no IMSLP page or scan (so key, duration and level are guesses: minutes 4, level 4) and no recording; confirm the title page before ingesting."
+  }
+ ],
+ "existing_issues": [
+  {
+   "id": 793,
+   "issue": "Key missing: IMSLP gives E minor for the Capriccio, Op. 18 (violin and piano, Paris: Enoch, Frères & Costallat, 1890, plate E. F. & C. 1769).",
+   "suggested_title": "Capriccio in E minor, Op. 18",
+   "source": "https://imslp.org/wiki/Capriccio,_Op.18_(Chaminade,_C%C3%A9cile)"
+  }
+ ]
+}

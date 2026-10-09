@@ -1,0 +1,44 @@
+{
+  "composer": "Bruch, Max",
+  "verdicts": [
+    {
+      "uid": "N1",
+      "verdict": "fix",
+      "title": "Double Concerto in E minor, Op. 88 (orig. clarinet & viola)",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(not flagged verify) Exists, but the work is Bruch's Concerto for clarinet, viola and orchestra, Op. 88 (E minor, 1911; Wikipedia EN/DE). IMSLP lists a published violin part 'replaces Clarinet', edited by Otto Lindemann (1879-1946): first ed. Berlin, Rudolf Eichmann Verlag 1942; violin part also Hamburg: Simrock 1977; piano score is for clarinet, viola & piano (Lindemann). So a violin & viola version is real but an alternative edition, not Bruch's own scoring - use '(orig. clarinet & viola)' instead of '(violin & viola version)'. Keep only if niche alternative versions are wanted.",
+      "source": "https://imslp.org/wiki/Double_Concerto_in_E_minor,_Op.88_(Bruch,_Max)"
+    },
+    {
+      "uid": "N2",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(not flagged verify) IMSLP: Op. 79 (IMB 59) 'Lieder und Tänze nach Russischen und Schwedischen Volksmelodien, frei bearbeitet für Violine und Klavier', 9 pieces, Berlin: N. Simrock 1903 (plates 11883-84), ded. Joseph Debroux. German Wikipedia also lists 'Lieder und Tänze für Violine und Klavier, op. 79'. IMSLP does not give the individual piece titles, so keep as one set. Not the same as Swedish Dances Op. 63 (id 2021); related orchestral Suite Op. 79b has no solo violin.",
+      "source": "https://imslp.org/wiki/Lieder_und_T%C3%A4nze_nach_Russischen_und_Schwedischen_Volksmelodien,_Op.79_(Bruch,_Max)"
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Romance in F major, Op. 85 (orig. viola)",
+      "scoring": "viola and orchestra (original, Schott 1911); violin and piano version published by Schott in the same year",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 5,
+      "minutes": 9,
+      "set": "",
+      "arranger": "",
+      "edition": "Mainz: B. Schott's Söhne, 1911, plate 29363 (violin & piano; listed on IMSLP as 'For Violin and Piano (Composer)'); original viola & orchestra ed. Schott 1911, ded. Maurice Vieux",
+      "source": "https://imslp.org/wiki/Romanze,_Op.85_(Bruch,_Max)",
+      "note": "OPTIONAL. Key F major per Wikipedia EN ('Romance for viola and orchestra in F major', 1911, Mainz) and DE ('Romanze für Viola und Orchester, F-Dur'). The violin & piano edition is on IMSLP with Schott plate number; arranger field is blank (only 'Composer'), so Bruch's authorship of the violin version is not confirmed; no recording check was possible (web search budget ran out). Level/length are guesses (similar to Romance Op. 42)."
+    }
+  ],
+  "existing_issues": [],
+  "gap_check_note": "Gap check used Wikipedia EN and DE work lists plus the IMSLP Bruch category (71 works) and the IMSLP work pages for Opp. 61, 79b, 85 and the Serenade nach schwedischen Melodien. Every Bruch violin work found is already in existing or queued. Left out on purpose: Ave Maria Op. 61 (DE Wikipedia says 'Violoncello (oder Violine)' but IMSLP and EN Wikipedia list cello only and no violin edition), Canzone Op. 55 and Adagio on Celtic Themes Op. 56 (cello only), Eight Pieces Op. 83 for clarinet, viola and piano (ensemble music), Suite Op. 79b (orchestra only), Serenade nach schwedischen Melodien (1916, string orchestra), Concerto for 2 pianos Op. 88a. The IMSLP page for Op. 83 could not be fetched (404 on a guessed title)."
+}

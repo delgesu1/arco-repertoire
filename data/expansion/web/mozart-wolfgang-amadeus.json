@@ -1,0 +1,88 @@
+{
+  "composer": "Mozart, Wolfgang Amadeus",
+  "verdicts": [
+    {
+      "uid": "N1",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Exists: Violin Concerto No. 7 in D major, K. 271a (3rd ed.) = K. 271i (6th ed.), the 'Kolb' concerto, c.1777; attribution disputed (Einstein judged some solo passages 19th-c. additions), so '(doubtful)' is right. First published 1907 Breitkopf & Haertel; IMSLP gives ~28 min. Optional style tweak: Koechel-6 number first, i.e. 'K. 271i (271a)', to match the existing 'K. 269 (261a)'.",
+      "source": "https://en.wikipedia.org/wiki/Violin_Concerto_No._7_(Mozart)"
+    },
+    {
+      "uid": "N19",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "IMSLP: Violin Sonata in A major, K.402/385e, 2 movements (Andante, ma un poco adagio; fugue Allegro moderato), incomplete; fugue completed by Maximilian Stadler (Mozart's holograph lost). Editions: Breitkopf Mozarts Werke XVIII (1879), Peters, Baerenreiter NMA VIII/23 (1965); Henle 'Violin Sonatas - Fragments' volume prints it. Cf. Baerenreiter/Henle title 'Andante and Fugue in A, K. 402'.",
+      "source": "https://imslp.org/wiki/Violin_Sonata_K.402_(Mozart,_Wolfgang_Amadeus)"
+    },
+    {
+      "uid": "N20",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "IMSLP: Violin Sonata in C major, K.403/385c, 3 movements (Allegro moderato, Andante, Allegretto), incomplete: Mozart's finale breaks off at bar 20, completion by Stadler. First published c.1826/27 (Andre); Breitkopf 1879, Peters 1912, NMA VIII/23 (1965). Henle's Fragments volume prints Stadler's and R. Levin's completions.",
+      "source": "https://imslp.org/wiki/Violin_Sonata_K.403_(Mozart,_Wolfgang_Amadeus)"
+    },
+    {
+      "uid": "N22",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "IMSLP: Violin Sonata in C major, K.46d, 1768, 3 movements (Allegro; Menuet I; Menuet II), scored violin and basso (cello); only edition Baerenreiter NMA VIII/21 (1975, ed. Berke/Flothuis). Accompaniment 'Continuo' is acceptable. Companion K.46e (N18) confirmed the same way. Only 3 short movements, so 8 min looks long (about 5).",
+      "source": "https://imslp.org/wiki/Violin_Sonata_in_C_major,_K.46d_(Mozart,_Wolfgang_Amadeus)"
+    },
+    {
+      "uid": "N23",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "IMSLP: Allegro in B-flat major, K.372 (1781), one incomplete movement (Mozart's fragment ends bar 65), completion by Stadler. Editions: Breitkopf Mozarts Werke XVIII (1879), Baerenreiter NMA VIII/23 (1965); also in Henle's Violin Sonatas - Fragments volume (listed as 'Sonata movement in B-flat major, K. 372').",
+      "source": "https://imslp.org/wiki/Allegro_in_B-flat_major,_K.372_(Mozart,_Wolfgang_Amadeus)"
+    },
+    {
+      "uid": "N24",
+      "verdict": "fix",
+      "title": "Concerto in D major, K. Anh. 294a 'Adélaïde' (spurious, by Casadesus)",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Exists, but SPURIOUS: written by Marius Casadesus, published 1933 (Schott, Mainz, per BnF) as an arrangement of a 'Mozart' manuscript; Casadesus admitted authorship in 1977. Catalogue numbers: K. Anh. 294a (Koechel 3) = K. Anh. C 14.05 (Koechel 6). Recorded by Menuhin (Paris SO/Monteux). Title only restyled to house form (nickname in single quotes, no extra parentheses). Brief's rule would reject spurious works; kept because the owner's hint lists Anh. 294a - drop if spurious works are unwanted.",
+      "source": "https://en.wikipedia.org/wiki/Ad%C3%A9la%C3%AFde_Concerto"
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Sonatas, K. 55–60 (Anh. C 23.01–06) (spurious)",
+      "scoring": "violin and keyboard (6 sonatas: F, C, C, E-flat, C minor, E minor)",
+      "category": "Suite / Set",
+      "accompaniment": "Harpsichord or piano",
+      "level_guess": 2,
+      "minutes": 30,
+      "set": "",
+      "arranger": "",
+      "edition": "Breitkopf & Härtel, Mozarts Werke Serie XVIII (1879); IMSLP",
+      "source": "https://imslp.org/wiki/Violin_Sonata_in_F_major,_K.55/Anh.C_23.01_(Mozart,_Wolfgang_Amadeus)",
+      "note": "OPTIONAL / low priority: IMSLP states these are 'no longer believed to be the work of Mozart' (spurious, Koechel-6 Anh. C 23.01-23.06); individual IMSLP pages exist for K.55 F, K.56 C, K.57 C, K.58 E-flat, K.59 C minor, K.60 E minor. Only the 'doubtful ones' hint in the task justifies listing them; skip if spurious works are unwanted. Minutes is an estimate."
+    }
+  ],
+  "existing_issues": [],
+  "note": "Gap check used the IMSLP category snapshot for Mozart (all violin-scored pages incl. arrangements), Wikipedia (K. 271i, Adelaide Concerto) and Henle/Baerenreiter catalogue pages for the sonata fragments. No missing authentic work found beyond the queue. Deliberately NOT added: sonata fragments K. Anh. 47/48/50 and K. 396 (violin entry is a fragment; Stadler completed it for piano solo), Concerto for violin and piano K. Anh. 56/315f (fragment), and arrangements by Auer (Gavotte, Idomeneo ballet K. 367, Zimmermann 1909), Franko (Gavotte, Les petits riens, Schirmer 1910) and Burmester (6 German Dances K. 509; K. 563 minuet) - published per IMSLP but no recording/established-status evidence found."
+}

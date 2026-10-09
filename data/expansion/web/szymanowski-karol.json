@@ -1,0 +1,74 @@
+{
+ "composer": "Szymanowski, Karol",
+ "verdicts": [
+  {
+   "uid": "N1",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Verified although verify=false. La berceuse d'Aitacho Enia, Op. 52 (M. 58), violin and piano, July 1925, dedicated to Dorothy Jordan Robinson; first published Vienna: Universal Edition, 1925, plate U.E. 8432. IMSLP gives no duration.",
+   "source": "https://imslp.org/wiki/La_berceuse_d'Aitacho_Enia,_Op.52_(Szymanowski,_Karol)"
+  },
+  {
+   "uid": "N2",
+   "verdict": "fix",
+   "title": "Danse sauvage",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Wrong source and wrong credit: 'Danse sauvage' is NOT from Harnasie and has no opus number. Polish Wikipedia's list of works has it as a miniature for violin and piano, 1920, a joint composition of Szymanowski and Kochanski, published by C. Fischer, New York, 1925; English Wikipedia lists it (as 'Dance sauvage') as co-composed with Kochanski, 1921-22. The Harnasie piece is a different transcription ('Taniec z Harnasiow', UE 1931) - see gaps. The Carl Fischer edition is known only from the Polish list; I could not see a publisher page. English Wikipedia's spelling 'Dance sauvage' looks like a typo.",
+   "source": "https://pl.wikipedia.org/wiki/Lista_dzie%C5%82_Karola_Szymanowskiego"
+  },
+  {
+   "uid": "N3",
+   "verdict": "fix",
+   "title": "Zarzyjze kuniu (Kurpian Song), Op. 58 No. 9 (arr. Kochański)",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "The piece is the violin and piano transcription (by Szymanowski and Kochanski, 1931) of No. 9 of the 12 Kurpian Songs, Op. 58, 'Zarzyjze kuniu' (Polish Wikipedia list: published UE 1932; English list gives 1931). 'Kurpian Song' on its own is not a title in the sources I could open, so I put the incipit first. Spelling varies between sources (Polish list 'Zarzyjze kuniu'; English list 'Zarżyjze kuniu' in the song list and 'Zarżyjzę kuniu' in the violin row) - check the UE title page for the exact spelling. Publisher not confirmed on a publisher site.",
+   "source": "https://pl.wikipedia.org/wiki/Lista_dzie%C5%82_Karola_Szymanowskiego"
+  }
+ ],
+ "gaps": [
+  {
+   "title": "Taniec z Harnasiów (Dance from Harnasie), Op. 55 (arr. Kochański)",
+   "scoring": "violin and piano (transcription of a dance from the ballet Harnasie by Szymanowski and Kochanski)",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 7,
+   "minutes": 3,
+   "set": "",
+   "arranger": "Kochański",
+   "edition": "Universal Edition, 1931 (per Polish Wikipedia list of works)",
+   "source": "https://pl.wikipedia.org/wiki/Lista_dzie%C5%82_Karola_Szymanowskiego",
+   "note": "Second source: English Wikipedia list (1931, violin and piano, transcribed by the composer and Kochanski from Harnasie, Op. 55). Publisher not confirmed on a publisher site. This is the Harnasie piece the queued N2 was confused with. Duration and level are my estimates."
+  },
+  {
+   "title": "L'aube",
+   "scoring": "violin and piano (joint work of Szymanowski and Kochanski)",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 6,
+   "minutes": 3,
+   "set": "",
+   "arranger": "",
+   "edition": "Universal Edition, 1925 (per Polish Wikipedia list of works)",
+   "source": "https://pl.wikipedia.org/wiki/Lista_dzie%C5%82_Karola_Szymanowskiego",
+   "note": "LOWER CONFIDENCE: English Wikipedia list also has 'L'aube' (1925), violin and piano, co-composed with Kochanski; edition not confirmed on a publisher site, duration and level are estimates. Not reported: 'Berceuse' (1921-22, co-composed with Kochanski), listed only on the English Wikipedia list with no edition located; and a violin and piano arrangement of the Prelude in B minor, Op. 1 by Grazyna Bacewicz, mentioned on the Polish list without publication details."
+  }
+ ],
+ "existing_issues": [
+  {
+   "id": 1285,
+   "issue": "Style/catalogue number: the opera is King Roger, Op. 46, and the piece is Roxana's Song from Act 2, transcribed for violin and piano by Szymanowski and Kochanski (Polish list: UE 1932, dated 1931; English list: 1931). Add the opus number and use the house form for arrangements.",
+   "suggested_title": "Chant de Roxane (from King Roger, Op. 46) (arr. Kochański)",
+   "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Karol_Szymanowski"
+  }
+ ]
+}

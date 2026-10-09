@@ -1,0 +1,53 @@
+{
+  "composer": "Bartók, Béla",
+  "verdicts": [
+    {
+      "uid": "N1",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Real work (Two Portraits, Op. 5, Sz. 37, BB 48b; 1. One Ideal, 2. One Grotesque; Rozsnyai 1911) but an ORCHESTRAL piece: IMSLP's works list and Hungarian Wikipedia list it for orchestra ('zenekarra'); the first portrait is the opening of Violin Concerto No. 1 re-scored, and no violin-and-piano reduction is listed on IMSLP. Only English Wikipedia files it as 'violin and orchestra'. Reject as not a violin soloist/duo piece; if the owner wants it anyway the title 'Two Portraits, Op. 5, Sz. 37' is correct.",
+      "source": "https://imslp.org/wiki/List_of_works_by_B%C3%A9la_Bart%C3%B3k"
+    },
+    {
+      "uid": "N2",
+      "verdict": "fix",
+      "title": "Sonata in E minor, BB 28",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Exists: Violin Sonata in E minor, 1903, violin and piano, BB 28 (DD 72) per IMSLP works list, English and Hungarian Wikipedia (hu: 'Szonáta zongorára és hegedűre (1903)', plus a fragment DD B14 = Andante in F-sharp minor). House style has no year in the title, so '(1903)' dropped. CAVEAT: IMSLP has no page for it and I could not confirm a printed edition (draft's 'Editio Musica Budapest, posthumous' is unverified) or a recording in this session - keep only if the owner can confirm an EMB/Bartók Archives edition; durations (draft says 30 min) unverified.",
+      "source": "https://imslp.org/wiki/List_of_works_by_B%C3%A9la_Bart%C3%B3k"
+    },
+    {
+      "uid": "N3",
+      "verdict": "fix",
+      "title": "Albumblatt in A major, BB 26b",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Exists: BB 26b = Albumblatt (Andante) in A major, 1902, violin and piano (IMSLP works list: 'Albumblatt in A major'; English Wikipedia 'Albumblatt (Andante) in A major', DD 70; Hungarian list 'Andante (A-dúr)' under BB 26 'Hegedűdarabok'). Companion BB 26a is the Duo for 2 violins (1902). Title follows IMSLP; draft said 'Andante ... (1902)'. CAVEAT as N2: no IMSLP score page and no edition/recording confirmed; very short early album leaf (the draft's 'written for Adila Arányi' is unverified).",
+      "source": "https://imslp.org/wiki/List_of_works_by_B%C3%A9la_Bart%C3%B3k"
+    }
+  ],
+  "gaps": [],
+  "existing_issues": [
+    {
+      "id": 2013,
+      "issue": "Missing catalogue number: the violin version is BB 102a (c.1930, transcribed by Endre/André Gertler, 'revised version of BB 69'); the piano original is Sonatina Sz. 55 (BB 69, 1915).",
+      "suggested_title": "Sonatina, Sz. 55 (arr. Gertler)",
+      "source": "https://imslp.org/wiki/List_of_works_by_B%C3%A9la_Bart%C3%B3k"
+    },
+    {
+      "id": 2010,
+      "issue": "Missing catalogue number: Hungarian Folksongs for violin and piano is BB 109 (1934), transcribed by Tivadar Országh from Bartók's For Children (BB 53); Hungarian Wikipedia credits it 'Bartók Béla-Országh Tivadar'.",
+      "suggested_title": "Hungarian Folk Songs, BB 109 (arr. Országh)",
+      "source": "https://imslp.org/wiki/List_of_works_by_B%C3%A9la_Bart%C3%B3k"
+    }
+  ]
+}

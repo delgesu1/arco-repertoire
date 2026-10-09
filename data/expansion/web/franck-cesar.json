@@ -1,0 +1,41 @@
+{
+ "composer": "Franck, César",
+ "verdicts": [
+  {
+   "uid": "N1",
+   "verdict": "ok",
+   "title": "Andantino quietoso in E-flat major, Op. 6",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Not required (verify:false) but checked. IMSLP: violin and piano, Op. 6, FWV 5 / CFF 115, first published 1843; IMSLP gives E-flat major (key signature of E-flat major, piece ends in E-flat minor) whereas fr.wikipedia lists 'mi bémol mineur' - kept IMSLP's key. IMSLP gives no duration, so the 8 minutes is unverified.",
+   "source": "https://imslp.org/wiki/Andantino_quietoso,_Op.6_(Franck,_C%C3%A9sar)"
+  },
+  {
+   "uid": "N2",
+   "verdict": "ok",
+   "title": "Duo No. 1 in B-flat major on motifs from Dalayrac's 'Gulistan', Op. 14",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Not required (verify:false) but checked. IMSLP: 'Duo No.1 for Violin and Piano, Op.14', alt. title '1er Duo pour piano et violon concertans sur des motifs de Gulistan de Dalayrac', B-flat major, 4 movements (Andante; Tema: Polacca - Variazione; Andante; Finale), c. 15 min, Paris: Richault, plate 12075 R. Wikipedia lists it as Op. 14, FWV 6 / CFF 117 (1844). No 'Duo No. 2' found on IMSLP or Wikipedia.",
+   "source": "https://imslp.org/wiki/Duo_No.1_for_Violin_and_Piano,_Op.14_(Franck,_C%C3%A9sar)"
+  },
+  {
+   "uid": "N3",
+   "verdict": "fix",
+   "title": "Mélancolie in E minor, CFF 122",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: French Wikipedia work list gives 'Mélancolie, mi mineur, 1890, CFF 122' under 'Piano et violon'; MusicBrainz has the work 'Mélancolie for Violin and Piano in E minor, CFF 122' with 7 recordings (Poco lento). No Op./FWV number (one recording is labelled 'FWV 10', unconfirmed); the English Wikipedia list omits it and I found no IMSLP page, so the draft's 'posthumous edition (early 20th c.)' is unverified and no publisher edition is confirmed. Title fixed only by adding the CFF number; category, level, minutes unchanged.",
+   "source": "https://fr.wikipedia.org/wiki/Liste_des_%C5%93uvres_de_C%C3%A9sar_Franck"
+  }
+ ],
+ "gaps": [],
+ "existing_issues": [],
+ "gap_check_note": "Gap check (sources: en + fr Wikipedia work lists, IMSLP Franck category and work pages): no further violin works with a confirmed edition. Violin repertoire is only Sonata FWV 8 (existing), Andantino quietoso Op. 6, Duo Op. 14, Mélancolie CFF 122 (all queued). Not reported: 'Morceau de lecture' in D major (1877, CFF 120, piano and violin; Conservatoire sight-reading piece, no edition found); Panis angelicus has only obscure violin arrangements on IMSLP (Weninger violin obbligato + orchestra, A. J. Benjamin 1925, plate A.J.B. 8127; Nichifor, Brunet) and no violin transcription by a notable violinist was found; fr.wikipedia's list of arrangements has no violin transcriptions. The Sonata exists in cello/viola/flute versions (not in scope). WebSearch quota ran out mid-run, so Mélancolie was checked via direct page fetches only."
+}

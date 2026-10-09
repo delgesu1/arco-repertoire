@@ -1,0 +1,63 @@
+{
+  "composer": "Strauss, Richard",
+  "verdicts": [
+    {
+      "uid": "N1",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Verified although verify=false. Allegretto in E major for violin and piano, TrV 295 (AV 149), 1948. Printed in the Richard Strauss Werke critical edition RSW 604 'Works for string instrument and piano' (Verlag Richard Strauss, 2020, ed. Pernpeintner/Eller/Schenk; also IMSLP file ed. Alfons Ott, Katzbichler). Very short: IMSLP says about 1 min, recordings 1:16-1:32 (Arts/Brilliant Complete Chamber Music Vol. 5, Sebestyen/Sawallisch). Not described as a sketch or fragment.",
+      "source": "https://imslp.org/wiki/Allegretto_in_E_major,_TrV_295_(Strauss,_Richard)"
+    },
+    {
+      "uid": "N2",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Verified although verify=false. Daphne-Etude (Etude nach einem Motiv aus 'Daphne'), TrV 272b (AV 141), 1945, G major, solo violin, ed. Alfons Ott (Katzbichler). IMSLP spells 'Daphne-Etude', IRCAM 'Daphne-Etuede'. About 1-1.5 min (IMSLP 1 min; recordings 1:16-1:33: Arts/Brilliant Vol. 5 Sebestyen/Sawallisch; Renaud Capucon, DG 2025). IRCAM also lists a violin-and-piano arrangement; IMSLP and the Capucon recording are solo violin.",
+      "source": "https://imslp.org/wiki/Daphne-Etude,_TrV_272b_(Strauss,_Richard)"
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Traum durch die Dämmerung, Op. 29 No. 1 (arr. Hubay)",
+      "scoring": "violin and piano (Hubay's transcription of the Bierbaum song)",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 4,
+      "minutes": 3,
+      "set": "",
+      "arranger": "Hubay",
+      "edition": "Universal Edition, Vienna, 1923 (plate U.E. 7286), score and violin part",
+      "source": "https://imslp.org/wiki/3_Lieder,_Op.29_(Strauss,_Richard)",
+      "note": "Second source: recorded on Hungaroton HCD32193, Hubay: Works for Violin and Piano Vol. 7 'Transcriptions' (Ferenc Szecsodi, Istvan Kassai, 2014; about 2:22). Strauss song for voice and piano, 1895; Hubay is in the notable-arranger list."
+    },
+    {
+      "title": "Morgen!, Op. 27 No. 4 (arr. Hubay)",
+      "scoring": "violin and piano (Hubay's transcription of the song)",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 4,
+      "minutes": 4,
+      "set": "",
+      "arranger": "Hubay",
+      "edition": "Universal Edition, Vienna, 1923 (plate U.E. 7285), score and violin part",
+      "source": "https://imslp.org/wiki/4_Lieder,_Op.27_(Strauss,_Richard)",
+      "note": "Published edition confirmed on IMSLP (companion to the Traum durch die Daemmerung transcription, plate 7286) but I found NO recording of Hubay's version (his Strauss disc track is Op. 29/1 only). Lower priority than the Traum transcription; add only if recording is not required. Other violin-and-piano Strauss arrangements on IMSLP (Singer/Heldburg Rosenkavalier waltz, Ley Serenade Op. 7, Steiner/Sitt Stimmungsbilder Op. 9, Langey Op. 5 Adagio) are by minor arrangers or duplicate listed items - deliberately left out."
+    }
+  ],
+  "existing_issues": [
+    {
+      "id": 2220,
+      "issue": "Wrong form and length: the published Prihoda arrangement is a single 'Walzer' (waltz sequence from Der Rosenkavalier, Op. 59), about 7 minutes, not 'Waltzes' and not 6 minutes. Schott/Fuerstner AF 7881 'Der Rosenkavalier - Walzer, fuer Violine und Klavier bearbeitet von Vasa Prihoda' (7'); Boosey & Hawkes BH82868 'Der Rosenkavalier op. 59 - Waltz' (24 pp.). Arrangement dated 1928 on the Prague CD 'Violin My Love' (Vinklat/Fila, 7:16). Set minutes to 7.",
+      "suggested_title": "Der Rosenkavalier – Waltz, Op. 59 (arr. Příhoda)",
+      "source": "https://www.schott-music.com/en/der-rosenkavalier-noc418.html"
+    }
+  ]
+}

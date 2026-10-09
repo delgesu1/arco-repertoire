@@ -1,0 +1,117 @@
+{
+ "composer": "Bach, Johann Sebastian",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Brandenburg Concerto No. 4 in G major, BWV 1049"
+  },
+  {
+   "nid": "N2",
+   "title": "Fugue in G minor, BWV 1026"
+  },
+  {
+   "nid": "N3",
+   "title": "Sinfonia in D major, BWV 1045"
+  },
+  {
+   "nid": "N4",
+   "title": "Sonata for Violin and Keyboard in F major, BWV 1022"
+  },
+  {
+   "nid": "N5",
+   "title": "Sonata in C minor, BWV 1024"
+  },
+  {
+   "nid": "N6",
+   "title": "Sonata in G minor, BWV 1020"
+  },
+  {
+   "nid": "N7",
+   "title": "Suite in A major, BWV 1025"
+  },
+  {
+   "nid": "N8",
+   "title": "Trio Sonata in C major, BWV 1037"
+  },
+  {
+   "nid": "N9",
+   "title": "Trio Sonata in D minor, BWV 1036"
+  },
+  {
+   "nid": "N10",
+   "title": "Concerto for Flute, Violin and Harpsichord in A minor, BWV 1044"
+  },
+  {
+   "nid": "N11",
+   "title": "Brandenburg Concerto No. 5 in D major, BWV 1050"
+  },
+  {
+   "nid": "N12",
+   "title": "Gavotte in G minor (from English Suite No. 3, BWV 808) (arr. Suzuki)"
+  },
+  {
+   "nid": "N13",
+   "title": "Gavotte in D major (from Orchestral Suite No. 3, BWV 1068) (arr. Suzuki)"
+  }
+ ],
+ "notes": "No duplicates found. Wilhelmj and Kim Air arrangements, and complete partitas/sonatas versus their movements, are distinct entries. Cello Suite keys are left out of the titles because violin transcriptions are often transposed. Queued entries get no fact fixes, since fact checks apply to existing entries only. Queued N1 (Brandenburg No. 4) could also take set 'Brandenburg Concertos, BWV 1046–1051' to match N11.",
+ "fixes": [
+  {
+   "id": "1374",
+   "field": "minutes",
+   "value": "17",
+   "confidence": "medium",
+   "reason": "Cello Suite No. 1 typically lasts about 16–18 minutes with repeats."
+  },
+  {
+   "id": "1375",
+   "field": "minutes",
+   "value": "20",
+   "confidence": "medium",
+   "reason": "Cello Suite No. 2 typically lasts about 19–21 minutes."
+  },
+  {
+   "id": "1376",
+   "field": "minutes",
+   "value": "22",
+   "confidence": "medium",
+   "reason": "Cello Suite No. 3 typically lasts about 21–23 minutes."
+  },
+  {
+   "id": "1377",
+   "field": "minutes",
+   "value": "24",
+   "confidence": "medium",
+   "reason": "Cello Suite No. 4 typically lasts about 23–25 minutes."
+  },
+  {
+   "id": "1378",
+   "field": "minutes",
+   "value": "24",
+   "confidence": "medium",
+   "reason": "Cello Suite No. 5 typically lasts about 23–26 minutes."
+  },
+  {
+   "id": "1379",
+   "field": "minutes",
+   "value": "30",
+   "confidence": "medium",
+   "reason": "Cello Suite No. 6 typically lasts about 28–32 minutes."
+  }
+ ],
+ "levels": [
+  {
+   "id": "1596",
+   "level": 5,
+   "confidence": "medium",
+   "reason": "ABRSM ARSM listing (≈6) puts L4 two levels low; the toccata-like opening is demanding."
+  },
+  {
+   "id": "1396",
+   "level": 5,
+   "confidence": "medium",
+   "reason": "RCM 10 listing (≈6) is two levels above L4; better aligned with the sibling Gavotte and Bourrée at L5."
+  }
+ ],
+ "duplicates": []
+}

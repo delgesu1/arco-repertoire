@@ -1,0 +1,83 @@
+{
+ "composer": "Beethoven, Ludwig van",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "6 German Dances, WoO 42"
+  },
+  {
+   "nid": "N2",
+   "title": "6 National Airs with Variations, Op. 105"
+  },
+  {
+   "nid": "N3",
+   "title": "10 National Airs with Variations, Op. 107"
+  },
+  {
+   "nid": "N4",
+   "title": "Serenade in D major, Op. 41 (arr. of Op. 25)"
+  },
+  {
+   "nid": "N5",
+   "title": "Concerto Movement in C major, WoO 5 (compl. Hellmesberger)"
+  },
+  {
+   "nid": "N6",
+   "title": "Rondino on a Theme by Beethoven (arr. Kreisler)"
+  },
+  {
+   "nid": "N7",
+   "title": "Chorus of Dervishes from The Ruins of Athens, Op. 113 (arr. Auer)"
+  },
+  {
+   "nid": "N8",
+   "title": "Minuet in G major, WoO 10 No. 2 (arr. Suzuki)"
+  }
+ ],
+ "notes": "No duplicates. N7 (Chorus of Dervishes) and 719 (Turkish March) are different numbers from Op. 113. The two Romances are filed as 'Orchestra (piano reduction)'; house style would allow 'Piano or orchestra', but I left this unchanged.",
+ "fixes": [
+  {
+   "id": "719",
+   "field": "title",
+   "value": "Turkish March from The Ruins of Athens, Op. 113 (arr. Auer)",
+   "confidence": "high",
+   "reason": "The IMSLP source is Die Ruinen von Athen, Op. 113, and the opus number is missing from the title."
+  },
+  {
+   "id": "431",
+   "field": "minutes",
+   "value": "1",
+   "confidence": "medium",
+   "reason": "The WoO 35 canon is a tiny album-leaf piece lasting well under two minutes."
+  },
+  {
+   "id": "432",
+   "field": "minutes",
+   "value": "1",
+   "confidence": "medium",
+   "reason": "WoO 34 is a single short Allegro of about one minute."
+  },
+  {
+   "id": "717",
+   "field": "category",
+   "value": "Sonata / Duo (vln & pno)",
+   "confidence": "medium",
+   "reason": "An 11-minute theme with 12 variations and coda is a large duo, not a 2–8 minute short piece."
+  }
+ ],
+ "levels": [
+  {
+   "id": "717",
+   "level": 3,
+   "confidence": "medium",
+   "reason": "Henle 1–2 rating puts it level with the Rondo WoO 41 (Henle 2, L3)."
+  },
+  {
+   "id": "3",
+   "level": 6,
+   "confidence": "medium",
+   "reason": "Trinity ATCL and RCM 10 listings, plus double-stopped writing, put it above the F major Romance."
+  }
+ ],
+ "duplicates": []
+}

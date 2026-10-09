@@ -15,7 +15,7 @@ const OUT = join(ROOT, "data/popularity-opus.json");
 const MODEL = "claude-opus-5-5";
 const PER_REQUEST = 120;
 
-const pieces: Piece[] = (JSON.parse(readFileSync(join(ROOT, "data/build/catalogue.json"), "utf8")) as Catalogue).pieces;
+const pieces: Piece[] = (JSON.parse(readFileSync(join(ROOT, process.env.CATALOGUE_JSON ?? "data/build/catalogue.json"), "utf8")) as Catalogue).pieces;
 
 const SCHEMA = {
   type: "object",

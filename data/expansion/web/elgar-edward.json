@@ -1,0 +1,125 @@
+{
+ "composer": "Elgar, Edward",
+ "note": "Gap check (Wikipedia list of compositions + IMSLP list of works) found no further violin work with a confirmed edition. Not reported because obscure or unconfirmed: Lullaby (In Hammersbach) from Op. 27, violin & piano ed. W. Henley (Joseph Williams, London 1902); 'Petite reine - Berceuse' (1886, pub. 1907 per Wikipedia; no IMSLP page found). WebSearch budget ran out during this composer, so the gap check is partial.",
+ "verdicts": [
+  {
+   "uid": "N1",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Checked although verify=false: Allegretto on GEDGE, C major, composed 1888 (not 1885), first published by Schott, London 1889 (plate 3696), dedicated to the Misses Gedge, Malvern.",
+   "source": "https://imslp.org/wiki/Allegretto_on_G-E-D-G-E_(Elgar,_Edward)"
+  },
+  {
+   "uid": "N2",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Checked: Etudes caractéristiques, Op. 24, solo violin, five studies (A-E), F.W. Chanot, London 1892 (plate 711), dedicated to Adolf Pollitzer. Duration not documented - the queued 12 min is unverified.",
+   "source": "https://imslp.org/wiki/Etudes_caractéristiques_for_Violin_solo,_Op.24_(Elgar,_Edward)"
+  },
+  {
+   "uid": "N3",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "No published violin & piano edition found. IMSLP's Gavotte (1885, dedicated to Dr C.W. Buck) lists only an orchestral arrangement (A. Schmid, Schott), a string-orchestra arrangement (J. Morrison, 1989) and a Schott piano version (ca.1886, plate 24133); the page sits in the Manuscripts category and the key is not stated.",
+   "source": "https://imslp.org/wiki/Gavotte_(Elgar,_Edward)"
+  },
+  {
+   "uid": "N4",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Checked: Offertoire (Andante religioso), F major, violin & piano, composed 1893, first published by Boosey & Co., 1903 (IMSLP; Wikipedia dates it 1903).",
+   "source": "https://imslp.org/wiki/Offertoire_(Elgar,_Edward)"
+  },
+  {
+   "uid": "N5",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Checked: IMSLP '3 Pieces for Violin and Piano, Op.4' (Idylle / Pastourelle / Virelai); Pastourelle published by Novello ca.1914 (plate 13757).",
+   "source": "https://imslp.org/wiki/3_Pieces_for_Violin_and_Piano,_Op.4_(Elgar,_Edward)"
+  },
+  {
+   "uid": "N6",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Checked: IMSLP '3 Pieces for Violin and Piano, Op.4'; Virelai published by Novello ca.1914 (plate 13759).",
+   "source": "https://imslp.org/wiki/3_Pieces_for_Violin_and_Piano,_Op.4_(Elgar,_Edward)"
+  },
+  {
+   "uid": "N7",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Manuscript-only: Reminiscences (1877, D major, inscribed to Oswin Grainger) survives in BL Add. MS 57912; Wikipedia marks it 'manuscript'; the only score on IMSLP is an amateur typeset by John Morrison (2019).",
+   "source": "https://imslp.org/wiki/Reminiscences_(Elgar,_Edward)"
+  },
+  {
+   "uid": "N8",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Manuscript-only one-page exercise ('Exercise for the 3rd finger', written 1877, copied for Heifetz in 1920); only an amateur typeset (J. Morrison, 2019) on IMSLP; not a repertoire piece.",
+   "source": "https://imslp.org/wiki/Study_for_Strengthening_the_Third_Finger_for_Solo_Violin_(Elgar,_Edward)"
+  },
+  {
+   "uid": "N9",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Very easy first-position teaching exercises (Op. 22, 1892) - below the catalogue's grade 3-4 entry level and method-book material, although the work exists (IMSLP/Wikipedia).",
+   "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Edward_Elgar"
+  },
+  {
+   "uid": "N10",
+   "verdict": "fix",
+   "title": "Canto popolare (In Moonlight), from In the South, Op. 50 (arr.)",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "A violin & piano edition exists (Novello, London 1904; editor Isabella Jaeger; a viola version ed. Hobday has the same imprint), but IMSLP names no arranger and I found nothing showing it is 'Elgar's own version'; Wikipedia's list files the Canto popolare under viola & piano. Added '(arr.)' in line with other unnamed arrangements.",
+   "source": "https://imslp.org/wiki/In_the_South,_Op.50_(Elgar,_Edward)"
+  }
+ ],
+ "gaps": [],
+ "existing_issues": [
+  {
+   "id": 925,
+   "issue": "Key is wrong: Chanson de Nuit, Op. 15 No. 1 is in G major (Andante, 4/4), not G minor.",
+   "suggested_title": "Chanson de nuit in G major, Op. 15 No. 1",
+   "source": "https://en.wikipedia.org/wiki/Chanson_de_Nuit"
+  }
+ ]
+}

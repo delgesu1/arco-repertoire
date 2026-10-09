@@ -1,0 +1,128 @@
+{
+ "composer": "Stravinsky, Igor",
+ "verdicts": [
+  {
+   "uid": "N1",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Real: Stravinsky's 1925 violin-and-piano suite after Pulcinella, made with Paul Kochanski (IRCAM/Boosey & Hawkes: c. 14 min). Five movements: Introduzione, Serenata, Tarantella, Gavotta con due variazioni, Minuetto e finale (Marwood/Adès 2010 track list, 'K34, 1925 version'). It precedes and differs from the 1933 Suite italienne (6 movements, existing id 2097), so it is a separate published work; drop it only if the catalogue wants a single Pulcinella entry. Edition as drafted: Édition Russe de Musique (Berlin, (c)1926), now Boosey & Hawkes.",
+   "source": "https://www.boosey.com/cr/sheet-music/Igor-Stravinsky-Suite/3318"
+  },
+  {
+   "uid": "N2",
+   "verdict": "fix",
+   "title": "Prélude et Ronde des princesses (from The Firebird, arr. Stravinsky)",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 5,
+   "set": "",
+   "note": "Piece is real (Firebird, violin and piano, 1929; 5:06 on BIS-2245, 4:53 Hyperion) but no source credits Kochański as ARRANGER. BIS booklet: arr. 1929 'arranged for Kochanski'; Hyperion notes: pre-Dushkin transcription made for Kochanski (1926). Wise Music (Chester/Schott, 1929) names no arranger, and it is NOT in Schott's Dushkin Transcriptions series (Berceuse = No. 31, Scherzo = No. 32). Hyperion's track list (and a Paris library record) credit 'Stravinsky & Dushkin' - chronologically doubtful (they met in 1930) but acceptable alternative: '(arr. Stravinsky & Dushkin)'. Publisher Schott / Chester (not confirmed as 'Schott 1929').",
+   "source": "https://eclassical.textalk.se/shop/17115/art22/5007422-5fd385-BIS-2245_booklet.pdf"
+  },
+  {
+   "uid": "N3",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Schott ED 2294 'Pastorale - Song without words for violin and piano', transcribed by the composer and Samuel Dushkin (Dushkin Transcriptions No. 33), 1933, published 1934 (IMSLP works list K006 '3rd version'); 2:47-2:55 on BIS, Schott gives 4'. Vocalise of 1907 for Rimsky-Korsakov's daughter Nadezhda. Do not confuse with the 1933 version for violin and four winds (ED 3313).",
+   "source": "https://www.schott-music.com/en/pastorale-noc32706.html"
+  },
+  {
+   "uid": "N4",
+   "verdict": "fix",
+   "title": "Airs du rossignol et Marche chinoise (from Le Rossignol, arr. Stravinsky & Dushkin)",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 8,
+   "set": "",
+   "note": "Exists as ONE published edition of two pieces: Boosey & Hawkes 'Airs du Rossignol & Marche Chinoise (Violin & Piano)', ISMN 9790060836589 (B&H page names no arranger; the Stravinsky & Dushkin credit comes from recording listings: Gramola 98016, Hyperion, BIS 'arr. 1932' for Dushkin). Durations: BIS-2245 5:08 + 3:07, Hyperion about 4:20 + 3:30, so minutes 6 -> 8. Title kept ('et' as in Hyperion/Strad; B&H prints '&'). Source is the opera Le Rossignol (K018), not the symphonic poem Le Chant du rossignol.",
+   "source": "https://boosey.com/shop/prod/Stravinsky-Igor-Airs-du-Rossignol-Marche-Chinoise-violin-piano/683504"
+  }
+ ],
+ "gaps": [
+  {
+   "title": "Scherzo (from The Firebird, arr. Stravinsky & Dushkin)",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 7,
+   "minutes": 3,
+   "set": "",
+   "arranger": "Stravinsky; Dushkin",
+   "edition": "Schott, Dushkin Transcriptions No. 32, ED 2250 (also in Samuel Dushkin Repertoire, Schott ED 20423, 2008)",
+   "source": "https://schottmusiclondon.com/series/dushkin-transkriptionen",
+   "note": "Existing id 1278 'Berceuse and Scherzo' merges two separately published transcriptions; retitle 1278 to the Berceuse (see existing_issues) and add this Scherzo as its own entry. Arr. 1932 for Dushkin (BIS booklet); Dushkin/Stravinsky recorded it for Columbia in Paris, June 1933; Gringolts (BIS-2245, 2:31) and Marwood/Adès (Hyperion) also recorded it. Credit 'Stravinsky & Dushkin' as on Hyperion/Wise; Schott's series page lists no arranger."
+  },
+  {
+   "title": "Tango (arr. Dushkin)",
+   "scoring": "violin and piano (Dushkin's 1941 arrangement of Stravinsky's Tango of 1940, authorised by the composer)",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 4,
+   "minutes": 3,
+   "set": "",
+   "arranger": "Dushkin",
+   "edition": "Schott ED 9213 (arranged by Samuel Dushkin); Schott gives 4'0'', BIS recording 2:01",
+   "source": "https://www.schott-music.com/en/tango-noc39724.html",
+   "note": "Second source: BIS-2275 booklet (Gringolts/Laul, track 21 'Tango, arranged by Samuel Dushkin') and Hyperion CDA67723 (Marwood/Adès). First played by Dushkin in New York, 3 Jan 1941; the violin version stayed unpublished for a long time, Schott edition is the current one. Not to be confused with Albéniz's Tango (also in Schott's Dushkin series, No. 14)."
+  },
+  {
+   "title": "Variation d'Apollon (Apollon et les Muses) (from Apollon musagète)",
+   "scoring": "violin and piano (solo-violin variation from the Apollon musagète ballet; original with strings)",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 6,
+   "minutes": 3,
+   "set": "",
+   "arranger": "",
+   "edition": "Boosey & Hawkes, The Stravinsky Violin Collection: 9 Pieces for Violin and Piano (ISMN 9790051106301; Hal Leonard HL 48019417)",
+   "source": "https://www.boosey.com/shop/prod/Stravinsky-Igor-Violin-Collection-9-pieces-for-Violin-Piano/2001131",
+   "note": "Only available in the B&H collection (no stand-alone edition found; the product page credits no individual arranger, only 'arrangements made with Dushkin'). Recorded with strings on BIS-2275 (Gringolts, 3:00, 'violin and strings', B&H); whether the recorded version equals the printed piano reduction is not stated. Lower priority."
+  }
+ ],
+ "existing_issues": [
+  {
+   "id": 1278,
+   "issue": "'Berceuse and Scherzo' combines two separate Schott transcriptions: Berceuse (ED 2186, Dushkin Transcriptions No. 31, transcribed by Stravinsky and Dushkin; 4'0'' per Schott, c. 2:47 recorded; first transcribed for Kochanski in 1929) and Scherzo (ED 2250, No. 32, arr. 1932). Suggest retitling this entry to the Berceuse and adding the Scherzo as a separate entry (see gaps). (If the owner prefers one combined entry, credit should still be 'arr. Stravinsky & Dushkin'.)",
+   "suggested_title": "Berceuse (from The Firebird, arr. Stravinsky & Dushkin)",
+   "source": "https://www.schott-music.com/en/berceuse-noc32640.html"
+  },
+  {
+   "id": 1521,
+   "issue": "Please do NOT drop: the 1944 Élégie was written for unaccompanied VIOLA (Germain Prévost, in memory of Alphonse Onnou) but is published and performed for viola or violin (violin a fifth higher, con sordino): IMSLP's Stravinsky works list K072 'va/vn' (published 1945), Schott's listing (VLB 47) 'violin or viola', Boosey & Hawkes 'Stravinsky Violin Collection' (as 'Elegie'), and Gringolts' BIS-2275 recording of the violin version. House style for works originally for another instrument: '(orig. viola)'.",
+   "suggested_title": "Élégie (orig. viola)",
+   "source": "https://eclassical.textalk.se/shop/17115/art56/5021456-10f478-BIS-2275_booklet.pdf"
+  },
+  {
+   "id": 349,
+   "issue": "House style needs the mode; IMSLP's Stravinsky works list (K053) titles it 'Violin Concerto in D major' (the composer's own title is 'Concerto en ré / in D'). Four movements Toccata, Aria I, Aria II, Capriccio, 1931.",
+   "suggested_title": "Concerto in D major",
+   "source": "https://imslp.org/wiki/List_of_works_by_Igor_Stravinsky"
+  },
+  {
+   "id": 1279,
+   "issue": "Title order/style: Boosey & Hawkes (BH 1000297, 'Stravinsky, Igor (Dushkin)') titles it 'Chanson russe - Russian Maiden's Song' (Parasha's aria from the opera Mavra, arr. 1937). House style: original-language title first, arranger at the end.",
+   "suggested_title": "Chanson russe (Russian Maiden's Song), from Mavra (arr. Dushkin)",
+   "source": "https://www.boosey.com/publications/sheet-music/Igor-Stravinsky-Russian-Maiden-s-Song-Violin-Piano/1699"
+  },
+  {
+   "id": 1277,
+   "issue": "Arranger missing. The published Ballad (Boosey & Hawkes, 1951; BIS 'arr. 1947') is the violin-and-piano version proposed by the French violinist Jeanne Gautier in 1947 and approved by Stravinsky; Dushkin's earlier 'Ballad' was never approved for publication. Source work: Le Baiser de la fée (The Fairy's Kiss), 1928.",
+   "suggested_title": "Ballad, from The Fairy's Kiss (arr. Gautier)",
+   "source": "https://en.wikipedia.org/wiki/Le_baiser_de_la_f%C3%A9e"
+  },
+  {
+   "id": 2096,
+   "issue": "Missing arranger credit and inconsistent source-work name (other entries say 'The Fairy's Kiss'). Divertimento for violin and piano was made by Stravinsky and Dushkin in 1932 (K049, published 1934, Hawkes & Son); six movements Sinfonia, Danses suisses, Scherzo, Pas de deux (Adagio, Variation, Coda); BIS-2275 timing 19:44, so minutes about 20 rather than 22.",
+   "suggested_title": "Divertimento from The Fairy's Kiss (arr. Stravinsky & Dushkin)",
+   "source": "https://imslp.org/wiki/List_of_works_by_Igor_Stravinsky"
+  }
+ ]
+}

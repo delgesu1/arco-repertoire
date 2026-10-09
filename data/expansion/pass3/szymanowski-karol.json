@@ -1,0 +1,36 @@
+{
+ "composer": "Szymanowski, Karol",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "La berceuse d'Aitacho Enia, Op. 52"
+  },
+  {
+   "nid": "N2",
+   "title": "Danse sauvage (from Harnasie, Op. 55) (arr. Kochański)"
+  },
+  {
+   "nid": "N3",
+   "title": "Kurpian Song (from Kurpie Songs, Op. 58) (arr. Kochański)"
+  }
+ ],
+ "notes": "Catalogue numbers, keys and Op. 40 caprice numbering are correct. Two adjustments are suggested: the Caprice No. 24 timing is inflated, and the complete Op. 40 entry should use the Suite / Set category. Levels sit sensibly: lyrical pieces at 5–7, concertos, Mythes and the Paganini arrangements at 9. No duplicates found.",
+ "fixes": [
+  {
+   "id": "2225",
+   "field": "minutes",
+   "value": "6",
+   "confidence": "medium",
+   "reason": "The whole Op. 40 set runs about 10–12 minutes per IMSLP, so this single caprice is about 5–6 minutes, not 10."
+  },
+  {
+   "id": "2226",
+   "field": "category",
+   "value": "Suite / Set",
+   "confidence": "medium",
+   "reason": "House style files complete-set entries as Suite / Set; the individual caprices remain showpieces."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

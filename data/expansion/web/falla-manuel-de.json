@@ -1,0 +1,112 @@
+{
+ "composer": "Falla, Manuel de",
+ "verdicts": [
+  {
+   "uid": "N1",
+   "verdict": "fix",
+   "title": "Jota (from Suite populaire espagnole) (arr. Kochański)",
+   "accompaniment": "Piano",
+   "category": "Short Piece",
+   "minutes": 3,
+   "set": "Suite populaire espagnole",
+   "note": "Kochanski's 'Suite populaire espagnole' (violin and piano, Nos. 1, 3-7 of the Siete canciones populares españolas; Seguidilla murciana omitted) is documented on IMSLP and in Wikipedia; published as ONE volume (Paris: Max Eschig, 1925, plate M.E. 1526), not as separate pieces. Splitting into movements follows the owner's hint, so existing id 2034 (whole suite) then duplicates these six entries. Jota = No. 4 of the songs. Title only restyled to '(from X) (arr. Y)'. Claim in the draft that Heifetz/Szeryng recorded it separately is unverified.",
+   "source": "https://imslp.org/wiki/7_Canciones_populares_espa%C3%B1olas_(Falla,_Manuel_de)"
+  },
+  {
+   "uid": "N2",
+   "verdict": "fix",
+   "title": "Nana (from Suite populaire espagnole) (arr. Kochański)",
+   "accompaniment": "Piano",
+   "category": "Short Piece",
+   "minutes": 2,
+   "set": "Suite populaire espagnole",
+   "note": "Kochanski's 'Suite populaire espagnole' (violin and piano, Nos. 1, 3-7 of the Siete canciones populares españolas; Seguidilla murciana omitted) is documented on IMSLP and in Wikipedia; published as ONE volume (Paris: Max Eschig, 1925, plate M.E. 1526), not as separate pieces. Splitting into movements follows the owner's hint, so existing id 2034 (whole suite) then duplicates these six entries. Nana = No. 5 of the songs. Title only restyled.",
+   "source": "https://imslp.org/wiki/7_Canciones_populares_espa%C3%B1olas_(Falla,_Manuel_de)"
+  },
+  {
+   "uid": "N3",
+   "verdict": "fix",
+   "title": "Asturiana (from Suite populaire espagnole) (arr. Kochański)",
+   "accompaniment": "Piano",
+   "category": "Short Piece",
+   "minutes": 3,
+   "set": "Suite populaire espagnole",
+   "note": "Kochanski's 'Suite populaire espagnole' (violin and piano, Nos. 1, 3-7 of the Siete canciones populares españolas; Seguidilla murciana omitted) is documented on IMSLP and in Wikipedia; published as ONE volume (Paris: Max Eschig, 1925, plate M.E. 1526), not as separate pieces. Splitting into movements follows the owner's hint, so existing id 2034 (whole suite) then duplicates these six entries. Asturiana = No. 3 of the songs. Title only restyled.",
+   "source": "https://imslp.org/wiki/7_Canciones_populares_espa%C3%B1olas_(Falla,_Manuel_de)"
+  }
+ ],
+ "gaps": [
+  {
+   "title": "El paño moruno (from Suite populaire espagnole) (arr. Kochański)",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 5,
+   "minutes": 2,
+   "set": "Suite populaire espagnole",
+   "arranger": "Kochański",
+   "edition": "Paul Kochanski; Paris: Max Eschig, 1925, plate M.E. 1526 (whole suite in one volume)",
+   "source": "https://imslp.org/wiki/7_Canciones_populares_espa%C3%B1olas_(Falla,_Manuel_de)",
+   "note": "No. 1 of the songs and first movement of the suite; add only if the six movements are listed separately (see verdicts N1-N3)."
+  },
+  {
+   "title": "Canción (from Suite populaire espagnole) (arr. Kochański)",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 4,
+   "minutes": 2,
+   "set": "Suite populaire espagnole",
+   "arranger": "Kochański",
+   "edition": "Paul Kochanski; Paris: Max Eschig, 1925, plate M.E. 1526 (whole suite in one volume)",
+   "source": "https://imslp.org/wiki/7_Canciones_populares_espa%C3%B1olas_(Falla,_Manuel_de)",
+   "note": "No. 6 of the songs; add only if the six movements are listed separately."
+  },
+  {
+   "title": "Polo (from Suite populaire espagnole) (arr. Kochański)",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 6,
+   "minutes": 2,
+   "set": "Suite populaire espagnole",
+   "arranger": "Kochański",
+   "edition": "Paul Kochanski; Paris: Max Eschig, 1925, plate M.E. 1526 (whole suite in one volume)",
+   "source": "https://imslp.org/wiki/7_Canciones_populares_espa%C3%B1olas_(Falla,_Manuel_de)",
+   "note": "No. 7 of the songs, the most virtuosic movement; add only if the six movements are listed separately."
+  },
+  {
+   "title": "Danza del terror (from El amor brujo) (arr. Kochański)",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 6,
+   "minutes": 2,
+   "set": "",
+   "arranger": "Kochański",
+   "edition": "Paul Kochanski; London: J. & W. Chester, 1934, plate J.W.C. 373",
+   "source": "https://imslp.org/wiki/El_amor_brujo_(Falla,_Manuel_de)",
+   "note": "No. 5 of El amor brujo; same Chester series as Pantomime (JWC 369, 1931) and Ritual Fire Dance (JWC 367, 1930) already in the catalogue. Recording not checked."
+  }
+ ],
+ "existing_issues": [
+  {
+   "id": 2138,
+   "issue": "Arranger missing: IMSLP lists the violin and piano Danza ritual del fuego (El amor brujo No. 8) only by Paul Kochanski (London: J. & W. Chester, 1930, plate J.W.C. 367).",
+   "suggested_title": "Danza ritual del fuego (Ritual Fire Dance) from El amor brujo (arr. Kochański)",
+   "source": "https://imslp.org/wiki/El_amor_brujo_(Falla,_Manuel_de)"
+  },
+  {
+   "id": 2034,
+   "issue": "If the six movements are listed separately (N1-N3 plus El paño moruno, Canción, Polo), this whole-suite entry duplicates them; keep one representation. Also spelling 'Kochanski' vs 'Kochański' used elsewhere. Suite = Nos. 1, 3-7 of the Siete canciones (Seguidilla murciana omitted), Eschig 1925.",
+   "suggested_title": "Suite populaire espagnole (arr. Kochański)",
+   "source": "https://imslp.org/wiki/7_Canciones_populares_espa%C3%B1olas_(Falla,_Manuel_de)"
+  },
+  {
+   "id": 932,
+   "issue": "Arranger missing ('(arr.)'). IMSLP's page for the ballet lists no violin and piano arrangement of the Miller's Dance (Danza del molinero, Farruca), so the arranger could not be identified from the web sources I could reach.",
+   "suggested_title": "",
+   "source": "https://imslp.org/wiki/El_sombrero_de_tres_picos,_ballet_(Falla,_Manuel_de)"
+  }
+ ]
+}

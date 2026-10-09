@@ -5,21 +5,23 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { Brand, Header } from "@/components/Header";
 import { InstrumentSwitcher } from "@/components/InstrumentSwitcher";
-import { SITE_URL } from "@/lib/catalogue";
+import { SITE_URL, catalogue } from "@/lib/catalogue";
 import "./globals.css";
 
 const archivo = Archivo({ subsets: ["latin", "latin-ext"], axes: ["wdth"], variable: "--font-archivo", display: "swap" });
 const instrument = Instrument_Sans({ subsets: ["latin", "latin-ext"], variable: "--font-instrument", display: "swap" });
 
+const TOTAL = catalogue.pieces.length.toLocaleString("en");
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "Arco Repertoire · An interactive library of 2,253 graded violin works", template: "%s · Arco Repertoire" },
+  title: { default: `Arco Repertoire · An interactive library of ${TOTAL} graded violin works`, template: "%s · Arco Repertoire" },
   description:
     "Organized by level, character, instrumentation and more. An AI advisor helps you discover your next piece based on what you’re already working on.",
   openGraph: {
     type: "website",
     siteName: "Arco Repertoire",
-    title: "Arco Repertoire: an interactive library of 2,253 graded violin works",
+    title: `Arco Repertoire: an interactive library of ${TOTAL} graded violin works`,
     description:
       "Organized by level, character, instrumentation and more. An AI advisor helps you discover your next piece based on what you’re already working on.",
   },

@@ -1,0 +1,44 @@
+{
+ "composer": "Prokofiev, Sergei",
+ "queued": [],
+ "notes": "Prokofiev list is largely accurate. Changes: added the missing Op. 75 No. 5 catalogue number to the Heifetz 'Masks' title and filled in missing durations for short arrangements. Levels are consistent with the anchors and internally ordered, so none are flagged. No duplicates: the Cinderella complete set and its individual pieces are a set and its members, not the same work.",
+ "fixes": [
+  {
+   "id": "1150",
+   "field": "title",
+   "value": "Masks (from Romeo and Juliet), Op. 75 No. 5 (arr. Heifetz)",
+   "confidence": "medium",
+   "reason": "Heifetz arranged 'Masks' from the piano pieces Romeo and Juliet, Op. 75, where it is No. 5."
+  },
+  {
+   "id": "1150",
+   "field": "minutes",
+   "value": "2",
+   "confidence": "medium",
+   "reason": "The Heifetz arrangement of Masks lasts about two minutes."
+  },
+  {
+   "id": "1145",
+   "field": "minutes",
+   "value": "2",
+   "confidence": "medium",
+   "reason": "The Cinderella Gavotte arrangement is a short piece of about two minutes."
+  },
+  {
+   "id": "1152",
+   "field": "minutes",
+   "value": "2",
+   "confidence": "medium",
+   "reason": "The Cinderella Passepied is a brief dance of about two minutes."
+  },
+  {
+   "id": "1153",
+   "field": "minutes",
+   "value": "3",
+   "confidence": "medium",
+   "reason": "The Winter Fairy arrangement is a short piece of about three minutes."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

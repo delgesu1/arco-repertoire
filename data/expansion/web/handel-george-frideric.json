@@ -1,0 +1,112 @@
+{
+ "composer": "Handel, George Frideric",
+ "note": "Sources: IMSLP work pages (HWV 358, 363a, 393, 394, 401, Op. 5 set, Serse HWV 40, Halvorsen duos), Wikipedia 'Handel solo sonatas (Walsh)' and HWV 359a/363a/363b articles, Barenreiter 'Complete Works for Violin & Basso Continuo' contents (HWV 358, 359, 361, 364, 368, 370, 371, 372, 373 + 408 + 412). Gap check: all Handel violin sonatas HWV 358-373 are now covered by existing+queued (only 359b/364b are flute/gamba versions); trio sonatas for 2 violins HWV 386-403 covered (HWV 395 is for 2 flutes, not violins). Arrangement search was limited (Halvorsen duos, Serse Largo); not exhaustive. Extra verdicts were added for some verify:false entries where I found an error (N21, N18, N19) or a doubt flag (N11, N12).",
+ "verdicts": [
+  {
+   "uid": "N24",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Already in the catalogue: id 470 'Passacaglia on a Theme by Handel (Violin & Viola)' under Halvorsen. Work verified: Halvorsen's Passacaglia for violin and viola after the Passacaille of Handel's Suite in G minor HWV 432 (IMSLP IJH 11; Wilhelm Hansen, plate 11808; modern Urtext Henle HN 1670 with the Sarabande). Do not add a second copy under Handel.",
+   "source": "https://imslp.org/wiki/Passacaglia_for_Violin_and_Viola_(Halvorsen,_Johan)"
+  },
+  {
+   "uid": "N25",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Already in the catalogue: id 471 'Sarabande con variazioni (Violin & Viola)' under Halvorsen. Work verified: Halvorsen, Sarabande con variazioni (Theme by Handel) for violin and viola, D minor, theme and 11 variations on the Sarabande of Handel's Suite in D minor HWV 437 (IMSLP IJH 13; Wilhelm Hansen 1900, plate 12523; Henle HN 1670). Do not add a second copy under Handel.",
+   "source": "https://imslp.org/wiki/Sarabande_con_variazioni_(Halvorsen,_Johan)"
+  },
+  {
+   "uid": "N21",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Not a Handel violin sonata: HWV 363a is the oboe sonata in F major and HWV 363b the flute sonata in G major (Op. 1 No. 5; mvts Adagio-Allegro-Adagio-Bourree-Menuet). IMSLP's 'Violin Sonata in G major, HWV 363a' page only carries a Creative-Commons typeset violin version (Reely / A. Sievers); it is absent from the Barenreiter Complete Works for Violin & Basso Continuo, so there is no published violin edition. (verify:false entry, flagged because of the error.)",
+   "source": "https://en.wikipedia.org/wiki/Oboe_sonata_in_F_major_(HWV_363a)"
+  },
+  {
+   "uid": "N18",
+   "verdict": "fix",
+   "title": "Trio Sonata in F major, Op. 5 No. 6, HWV 401",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "Trio Sonatas, Op. 5",
+   "note": "IMSLP numbers HWV 401 as Op. 5 No. 6 (Walsh 1739; Barenreiter HHA IV/10, Schott Antiqua 1933); title lacked the Op. 5 number and set. (verify:false entry.)",
+   "source": "https://imslp.org/wiki/Trio_Sonata_in_F_major,_HWV_401_(Handel,_George_Frideric)"
+  },
+  {
+   "uid": "N19",
+   "verdict": "fix",
+   "title": "Trio Sonata in B-flat major, Op. 5 No. 7, HWV 402",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "Trio Sonatas, Op. 5",
+   "note": "IMSLP's Trio Sonatas, Op. 5 page lists HWV 402 (B-flat major) as No. 7 of the set (Walsh 1739); title lacked the Op. 5 number and set. (verify:false entry.)",
+   "source": "https://imslp.org/wiki/Trio_Sonatas,_Op.5_(Handel,_George_Frideric)"
+  },
+  {
+   "uid": "N11",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Authenticity questionable (Grove, quoted on IMSLP: 'of questionable authenticity'); one of the 'Dresden' trio sonatas, numbered Op. 2 No. 8 in Chrysander (1879), 2 violins (or flutes/oboes) & continuo. Kept with a doubt flag; consider noting 'Authenticity doubtful'. (verify:false entry.)",
+   "source": "https://imslp.org/wiki/Trio_Sonata_in_G_minor,_HWV_393_(Handel,_George_Frideric)"
+  },
+  {
+   "uid": "N12",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Authenticity DOUBTFUL (Grove, quoted on IMSLP); a Gramophone review calls it undoubtedly spurious. Numbered Op. 2 No. 9 in Chrysander (1879), 2 violins & continuo; HHA IV/10/1 (Barenreiter 1970). Reject if the owner wants to exclude doubtful works; otherwise keep with the same doubt flag as the existing HWV 370/372/373 entries. (verify:false entry.)",
+   "source": "https://imslp.org/wiki/Trio_Sonata_in_E_major,_HWV_394_(Handel,_George_Frideric)"
+  }
+ ],
+ "gaps": [
+  {
+   "title": "Largo (from Serse, HWV 40) (arr. Wilhelmj)",
+   "scoring": "violin and piano (harmonium ad lib.)",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 3,
+   "minutes": 4,
+   "set": "",
+   "arranger": "Wilhelmj",
+   "edition": "H. Oppenheimer, Hameln, 1905 (plate H.O. 692); on IMSLP",
+   "source": "https://imslp.org/wiki/Serse,_HWV_40_(Handel,_George_Frideric)",
+   "note": "Handel's 'Ombra mai fu' as a violin Largo. Published edition verified on IMSLP (Wilhelmj; also Hermann/Peters c.1891, Kross/Schott, Palaschko/Schott 1929, Strens/Schott). The best-known RECORDED violin version is Kreisler's own arrangement (Victor 74384, 1914 and 1933: https://adp.library.ucsb.edu/index.php/matrix/refer/200014615), but I could not verify a published Kreisler edition - if the owner prefers the Kreisler version it needs a publisher check. Only one Largo entry should be added."
+  }
+ ],
+ "existing_issues": [
+  {
+   "id": 1742,
+   "issue": "HWV 368 is also listed as 'probably spurious' (Wikipedia Walsh table) / one of four sonatas Barenreiter calls spurious (368, 370, 372, 373), but unlike ids 1736, 1739, 1740 its catalogue note does not say 'Authenticity doubtful'. Title and numbers are correct (Op. 1 No. 10).",
+   "suggested_title": "",
+   "source": "https://en.wikipedia.org/wiki/Handel_solo_sonatas_(Walsh)"
+  },
+  {
+   "id": 1738,
+   "issue": "Set is empty although HWV 359a belongs to the same group of authentic violin sonatas as ids 1735-1742 (Barenreiter Complete Works for Violin & Basso Continuo); suggest set 'Violin Sonatas' (also for queued N22, HWV 358). Title/key/number are correct (D minor, c.1724, not part of Op. 1).",
+   "suggested_title": "",
+   "source": "https://www.barenreiter.co.uk/complete-works-for-violin-basso-continuo.html"
+  }
+ ]
+}

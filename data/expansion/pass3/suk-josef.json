@@ -1,0 +1,56 @@
+{
+ "composer": "Suk, Josef",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Bagatelle (1917)"
+  }
+ ],
+ "notes": "Op. 17 minutes for the individual pieces are estimated from the 17-minute set total. Un poco triste is the lyrical, easiest piece of the set and is the usual ABRSM Grade 8 choice. Entry 1282's attached IMSLP data refers to Op. 17, not the Op. 7 piano original; no field change made. N1 is the 1917 Bagatelle for flute (or violin), violin and piano; '2 violins & piano' is an acceptable scoring.",
+ "fixes": [
+  {
+   "id": "1283",
+   "field": "minutes",
+   "value": "6",
+   "confidence": "medium",
+   "reason": "Quasi ballata is the longest of the four pieces, about 5–6 minutes."
+  },
+  {
+   "id": "1280",
+   "field": "minutes",
+   "value": "3",
+   "confidence": "medium",
+   "reason": "Appassionato is a short piece of about 3 minutes."
+  },
+  {
+   "id": "1284",
+   "field": "minutes",
+   "value": "4",
+   "confidence": "medium",
+   "reason": "Un poco triste typically lasts about 4 minutes."
+  },
+  {
+   "id": "1281",
+   "field": "minutes",
+   "value": "3",
+   "confidence": "medium",
+   "reason": "Burleska typically lasts about 3 minutes."
+  },
+  {
+   "id": "N1",
+   "field": "title",
+   "value": "Bagatelle 'S kytičkou v ruce' (1917)",
+   "confidence": "medium",
+   "reason": "Suk's 1917 Bagatelle is known by the subtitle 'S kytičkou v ruce' (With a Bouquet in Hand)."
+  }
+ ],
+ "levels": [
+  {
+   "id": "1284",
+   "level": 5,
+   "confidence": "medium",
+   "reason": "Lyrical slow piece listed at ABRSM Grade 8 (≈ level 5); much easier than Burleska or Appassionato."
+  }
+ ],
+ "duplicates": []
+}

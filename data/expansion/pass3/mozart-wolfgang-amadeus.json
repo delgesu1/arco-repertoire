@@ -1,0 +1,127 @@
+{
+ "composer": "Mozart, Wolfgang Amadeus",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Concerto No. 7 in D major, K. 271a (271i) (doubtful)"
+  },
+  {
+   "nid": "N2",
+   "title": "Sonata in C major, K. 6"
+  },
+  {
+   "nid": "N3",
+   "title": "Sonata in D major, K. 7"
+  },
+  {
+   "nid": "N4",
+   "title": "Sonata in B-flat major, K. 8"
+  },
+  {
+   "nid": "N5",
+   "title": "Sonata in G major, K. 9"
+  },
+  {
+   "nid": "N6",
+   "title": "Sonata in B-flat major, K. 10"
+  },
+  {
+   "nid": "N7",
+   "title": "Sonata in G major, K. 11"
+  },
+  {
+   "nid": "N8",
+   "title": "Sonata in A major, K. 12"
+  },
+  {
+   "nid": "N9",
+   "title": "Sonata in F major, K. 13"
+  },
+  {
+   "nid": "N10",
+   "title": "Sonata in C major, K. 14"
+  },
+  {
+   "nid": "N11",
+   "title": "Sonata in B-flat major, K. 15"
+  },
+  {
+   "nid": "N12",
+   "title": "Sonata in C major, K. 28"
+  },
+  {
+   "nid": "N13",
+   "title": "Sonata in E-flat major, K. 26"
+  },
+  {
+   "nid": "N14",
+   "title": "Sonata in G major, K. 27"
+  },
+  {
+   "nid": "N15",
+   "title": "Sonata in D major, K. 29"
+  },
+  {
+   "nid": "N16",
+   "title": "Sonata in F major, K. 30"
+  },
+  {
+   "nid": "N17",
+   "title": "Sonata in B-flat major, K. 31"
+  },
+  {
+   "nid": "N18",
+   "title": "Sonata in F major, K. 46e"
+  },
+  {
+   "nid": "N19",
+   "title": "Sonata in A major, K. 402 (385e) (completed by Stadler)"
+  },
+  {
+   "nid": "N20",
+   "title": "Sonata in C major, K. 403 (385c) (completed by Stadler)"
+  },
+  {
+   "nid": "N21",
+   "title": "Andante and Allegretto in C major, K. 404 (385d)"
+  },
+  {
+   "nid": "N22",
+   "title": "Sonata in C major, K. 46d"
+  },
+  {
+   "nid": "N23",
+   "title": "Allegro in B-flat major, K. 372 (completed by Stadler)"
+  },
+  {
+   "nid": "N24",
+   "title": "Concerto in D major, K. Anh. 294a ('Adélaïde') (spurious, by Casadesus)"
+  }
+ ],
+ "notes": "Mozart list is largely accurate. Three fixes fill in missing durations (K. 268 from IMSLP; K. 359 and K. 360 estimated). Levels are coherent, with the K. 547 and K. 211 anchors consistent. Queued childhood sonatas, Stadler completions and the spurious 'Adélaïde' are correctly catalogued and are not duplicates.",
+ "fixes": [
+  {
+   "id": "257",
+   "field": "minutes",
+   "value": "24",
+   "confidence": "high",
+   "reason": "IMSLP gives an average duration of 24 minutes for K. 268."
+  },
+  {
+   "id": "2066",
+   "field": "minutes",
+   "value": "9",
+   "confidence": "medium",
+   "reason": "Theme and six variations typically last about 8–10 minutes."
+  },
+  {
+   "id": "2067",
+   "field": "minutes",
+   "value": "14",
+   "confidence": "medium",
+   "reason": "Theme and twelve variations typically last about 13–16 minutes."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

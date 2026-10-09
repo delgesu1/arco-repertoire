@@ -1,0 +1,53 @@
+{
+ "composer": "Chaminade, Cécile",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Bohémienne, Op. 31 No. 3 (No. 3 from Trois morceaux)"
+  },
+  {
+   "nid": "N2",
+   "title": "Rondeau in A major, Op. 97"
+  }
+ ],
+ "notes": "Chaminade's violin output is small (Op. 18, Op. 31, Kreisler's Op. 150 arrangement). N2 (Rondeau, Op. 97) could not be verified as a violin work and was left unchanged.",
+ "fixes": [
+  {
+   "id": "792",
+   "field": "minutes",
+   "value": "4",
+   "confidence": "medium",
+   "reason": "The Andantino is a short lyrical piece of about 3–4 minutes, not 10."
+  },
+  {
+   "id": "792",
+   "field": "set",
+   "value": "Trois morceaux, Op. 31",
+   "confidence": "high",
+   "reason": "IMSLP lists it as No. 1 of 3 Morceaux, Op. 31; matches the queued Bohémienne."
+  },
+  {
+   "id": "794",
+   "field": "set",
+   "value": "Trois morceaux, Op. 31",
+   "confidence": "high",
+   "reason": "IMSLP lists it as No. 2 of 3 Morceaux, Op. 31."
+  },
+  {
+   "id": "794",
+   "field": "minutes",
+   "value": "4",
+   "confidence": "medium",
+   "reason": "The Romanza is a short character piece of roughly 4 minutes; the length was unknown."
+  }
+ ],
+ "levels": [
+  {
+   "id": "793",
+   "level": 5,
+   "confidence": "medium",
+   "reason": "ABRSM Grade 8 listing ≈ level 5, matching the Op. 31 Romanza."
+  }
+ ],
+ "duplicates": []
+}

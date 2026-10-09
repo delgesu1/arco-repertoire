@@ -1,0 +1,86 @@
+{
+ "composer": "Korngold, Erich Wolfgang",
+ "verdicts": [
+  {
+   "uid": "N1",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Verified although verify=false. Violin Sonata in G major, Op. 6 (1912-13), 4 movements, first published Mainz: B. Schott's Soehne, 1913; dedicated to Artur Schnabel and Carl Flesch. IMSLP gives no duration.",
+   "source": "https://imslp.org/wiki/Violin_Sonata,_Op.6_(Korngold,_Erich_Wolfgang)"
+  },
+  {
+   "uid": "N2",
+   "verdict": "collapse",
+   "title": "Much Ado About Nothing Suite, Op. 11",
+   "accompaniment": "Piano",
+   "category": "Suite / Set",
+   "minutes": 14,
+   "set": "",
+   "note": "Collapse: the Schott violin/piano edition (Mainz 1920, plate 30591) is a single set of four pieces ('Four Pieces for Violin and Piano', Korngold's own 1920 arrangement of the Vienna incidental music; retail reissue titled 'Much Ado About Nothing, Suite for Violin and Piano, Op. 11', c. 14 min) and I could not see the edition's own title page, so the individual piece titles/numbers as printed are not confirmed (IMSLP names the four orchestral-suite movements 'Mädchen im Brautgemach', 'Holzapfel und Schlehwein (Marsch der Wache)', 'Intermezzo (Gartenszene)', 'Mummenschanz (Hornpipe)'; the Granat violin edition lists 'Maiden in the Bridal Chamber / Dogberry and Verges / Intermezzo / Masquerade'). The whole suite is ALREADY in the catalogue as id 2052 'Much Ado About Nothing Suite, Op. 11' - no new entry is needed. If you prefer to split it, N2/N3/N5 titles are fine as queued and N4 should read 'Intermezzo (Gartenszene), Op. 11 No. 3 (from Much Ado About Nothing)'; then drop id 2052.",
+   "source": "https://imslp.org/wiki/Musik_zu_'Viel_L%C3%A4rmen_um_Nichts',_Op.11_(Korngold,_Erich_Wolfgang)"
+  },
+  {
+   "uid": "N3",
+   "verdict": "collapse",
+   "title": "Much Ado About Nothing Suite, Op. 11",
+   "accompaniment": "Piano",
+   "category": "Suite / Set",
+   "minutes": 14,
+   "set": "",
+   "note": "Same collapse as N2: piece of the Op. 11 violin/piano set, which is already in the catalogue as id 2052; no separate entry.",
+   "source": "https://imslp.org/wiki/Musik_zu_'Viel_L%C3%A4rmen_um_Nichts',_Op.11_(Korngold,_Erich_Wolfgang)"
+  },
+  {
+   "uid": "N4",
+   "verdict": "collapse",
+   "title": "Much Ado About Nothing Suite, Op. 11",
+   "accompaniment": "Piano",
+   "category": "Suite / Set",
+   "minutes": 14,
+   "set": "",
+   "note": "Same collapse as N2: piece of the Op. 11 violin/piano set, which is already in the catalogue as id 2052; no separate entry.",
+   "source": "https://imslp.org/wiki/Musik_zu_'Viel_L%C3%A4rmen_um_Nichts',_Op.11_(Korngold,_Erich_Wolfgang)"
+  },
+  {
+   "uid": "N5",
+   "verdict": "collapse",
+   "title": "Much Ado About Nothing Suite, Op. 11",
+   "accompaniment": "Piano",
+   "category": "Suite / Set",
+   "minutes": 14,
+   "set": "",
+   "note": "Same collapse as N2: piece of the Op. 11 violin/piano set, which is already in the catalogue as id 2052; no separate entry.",
+   "source": "https://imslp.org/wiki/Musik_zu_'Viel_L%C3%A4rmen_um_Nichts',_Op.11_(Korngold,_Erich_Wolfgang)"
+  },
+  {
+   "uid": "N6",
+   "verdict": "fix",
+   "title": "Tanzlied des Pierrot (from Die tote Stadt, Op. 12) (arr. Kreisler)",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Wrong arranger: the violin and piano transcription of Pierrot's Tanzlied is by Fritz Kreisler (1920), not Korngold. Wikipedia's list of Kreisler's compositions has 'Tanzlied des Pierrot' (1920, from the opera Die tote Stadt, Op. 12) under 'Violin and piano', and IMSLP's Die tote Stadt page lists its cello version as 'Kreisler-Mandozzi' (after Kreisler). Publisher of Kreisler's version not confirmed. kreisler-fritz.json proposes the same piece as a gap - add only once.",
+   "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Fritz_Kreisler"
+  }
+ ],
+ "gaps": [],
+ "existing_issues": [
+  {
+   "id": 1025,
+   "issue": "Title ends in a bare 'arr.' with no arranger, and I could not identify this violin arrangement: IMSLP's Die tote Stadt page lists only a 2014 cello arrangement of the number ('Marietta's Lied zur Laute', aka 'Glück, das mir verblieb', Mandozzi), and the only violin transcription from the opera on Kreisler's work list is 'Tanzlied des Pierrot' (1920). Needs a named arranger and a source, or removal.",
+   "suggested_title": "",
+   "source": "https://imslp.org/wiki/Die_tote_Stadt,_Op.12_(Korngold,_Erich_Wolfgang)"
+  },
+  {
+   "id": 1024,
+   "issue": "Unverified: 'Wichtelmännchen' (The Gnomes) is No. 4 of the 7-piece solo-piano cycle Märchenbilder, Op. 3 (1910; Schott 1911), but IMSLP lists no violin version of it and nothing called 'Caprice fantastique'. If a violin arrangement exists the title needs 'Op. 3 No. 4' and '(arr. X)'; otherwise the entry may be spurious.",
+   "suggested_title": "",
+   "source": "https://imslp.org/wiki/M%C3%A4rchenbilder,_Op.3_(Korngold,_Erich_Wolfgang)"
+  }
+ ]
+}

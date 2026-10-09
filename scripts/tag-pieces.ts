@@ -27,7 +27,7 @@ const MODEL = process.env.TAG_MODEL ?? "claude-sonnet-5-5";
 const PRICE: Record<string, [number, number]> = { "claude-sonnet-5-5": [2, 10], "claude-opus-5-5": [4, 20] };
 const PER_REQUEST = 25;
 
-const pieces: Piece[] = (JSON.parse(readFileSync(join(ROOT, "data/build/catalogue.json"), "utf8")) as Catalogue).pieces;
+const pieces: Piece[] = (JSON.parse(readFileSync(join(ROOT, process.env.CATALOGUE_JSON ?? "data/build/catalogue.json"), "utf8")) as Catalogue).pieces;
 
 const SCHEMA = {
   type: "object",

@@ -4,6 +4,7 @@
  *   npx tsx --env-file=.env.local scripts/judge-recordings.ts submit   # pre-filter + submit a Message Batch
  *   npx tsx --env-file=.env.local scripts/judge-recordings.ts collect  # fetch results, check embeddability,
  *                                                                       # write data/recordings-judged.json
+ *   npx tsx --env-file=.env.local scripts/judge-recordings.ts direct   # same judging at normal speed, only for pieces not yet judged
  * Rules narrow the candidates; Claude Haiku 5.5 makes the final call (Batch API, strict JSON schema).
  */
 import Anthropic from "@anthropic-ai/sdk";
@@ -35,7 +36,7 @@ const REJECT =
 const OTHER_INSTRUMENTS = /\b(cello|viola|flute|clarinet|oboe|trumpet|saxophone|sax|guitar|piano solo|organ|accordion|harp)\b/i;
 const VIOLIN_WORDS = /violin|violon|violino|geige|violine|skrzyp|скрипк|hegedű|houslov|fiddle/i;
 
-const pieces: Piece[] = (JSON.parse(readFileSync(join(ROOT, "data/build/catalogue.json"), "utf8")) as Catalogue).pieces;
+const pieces: Piece[] = (JSON.parse(readFileSync(join(ROOT, process.env.CATALOGUE_JSON ?? "data/build/catalogue.json"), "utf8")) as Catalogue).pieces;
 
 function candidates(p: Piece): Entry[] {
   const f = join(CACHE, `${p.id}.json`);
@@ -122,6 +123,70 @@ async function embeddable(id: string): Promise<boolean> {
   return r.ok;
 }
 
+type Judgement = { choice: string; confidence: string; alternates: string[]; reason: string };
+
+/** turn the judge's answer into the stored record (embeddability check, view totals) */
+async function record(p: Piece, j: Judgement) {
+  const cands = candidates(p);
+  const meta = (vid: string) => cands.find((e) => e.id === vid);
+  const ids = [j.choice, ...j.alternates].filter((v) => v !== "none" && meta(v));
+  const ok: string[] = [];
+  for (const v of ids) if (await embeddable(v)) ok.push(v);
+  const views = cands.filter((e) => ids.includes(e.id)).reduce((s, e) => s + Math.log10(1 + (e.view_count ?? 0)), 0);
+  const best = ok[0] ? meta(ok[0])! : null;
+  return {
+    confidence: j.choice === "none" ? "none" : j.confidence,
+    reason: j.reason,
+    video: best ? { id: best.id, title: best.title, channel: best.channel, seconds: best.duration, views: best.view_count } : null,
+    alternates: ok.slice(1),
+    viewScore: Math.round(views * 100) / 100,
+    maxViews: Math.max(0, ...cands.filter((e) => ids.includes(e.id)).map((e) => e.view_count ?? 0)),
+  };
+}
+
+/** Normal-speed requests (Haiku is cheap), resumable: only pieces without a judged record are sent. */
+async function direct() {
+  const client = new Anthropic({ maxRetries: 6 });
+  const out: Record<string, unknown> = existsSync(OUT) ? JSON.parse(readFileSync(OUT, "utf8")) : {};
+  const todo = pieces.filter((p) => !out[String(p.id)]);
+  let n = 0;
+  const failed: number[] = [];
+  const worker = async () => {
+    for (let p = todo.shift(); p; p = todo.shift()) {
+      const c = candidates(p);
+      if (!c.length) {
+        out[String(p.id)] = { confidence: "none", reason: "no usable candidates", video: null, alternates: [], viewScore: 0, maxViews: 0 };
+        continue;
+      }
+      try {
+        const msg = await client.messages
+          .stream({
+            model: MODEL,
+            max_tokens: 4000,
+            output_config: { effort: "medium", format: { type: "json_schema", schema: SCHEMA } },
+            messages: [{ role: "user", content: prompt(p, c) }],
+          })
+          .finalMessage();
+        const text = msg.content.find((b) => b.type === "text");
+        if (msg.stop_reason !== "end_turn" || !text || text.type !== "text") throw new Error(`stop_reason ${msg.stop_reason}`);
+        out[String(p.id)] = await record(p, JSON.parse(text.text) as Judgement);
+      } catch (e) {
+        failed.push(p.id);
+        console.error(`piece ${p.id} failed: ${e instanceof Error ? e.message : e}`);
+      }
+      if (++n % 25 === 0) {
+        writeFileSync(OUT, JSON.stringify(out, null, 1));
+        console.log(`${n} judged`);
+      }
+    }
+  };
+  await Promise.all(Array.from({ length: 6 }, worker));
+  writeFileSync(OUT, JSON.stringify(out, null, 1));
+  const counts: Record<string, number> = {};
+  for (const v of Object.values(out) as { confidence: string }[]) counts[v.confidence] = (counts[v.confidence] ?? 0) + 1;
+  console.log(`Wrote ${OUT}`, counts, failed.length ? `${failed.length} failed` : "");
+}
+
 async function collect() {
   const client = new Anthropic();
   const { id, skipped } = JSON.parse(readFileSync(STATE, "utf8"));
@@ -140,23 +205,8 @@ async function collect() {
     }
     const text = r.result.message.content.find((b) => b.type === "text");
     if (!text || text.type !== "text") continue;
-    const j = JSON.parse(text.text) as { choice: string; confidence: string; alternates: string[]; reason: string };
-    const p = byId.get(r.custom_id)!;
-    const cands = candidates(p);
-    const meta = (vid: string) => cands.find((e) => e.id === vid);
-    const ids = [j.choice, ...j.alternates].filter((v) => v !== "none" && meta(v));
-    const ok: string[] = [];
-    for (const v of ids) if (await embeddable(v)) ok.push(v);
-    const views = cands.filter((e) => ids.includes(e.id)).reduce((s, e) => s + Math.log10(1 + (e.view_count ?? 0)), 0);
-    const best = ok[0] ? meta(ok[0])! : null;
-    out[r.custom_id] = {
-      confidence: j.choice === "none" ? "none" : j.confidence,
-      reason: j.reason,
-      video: best ? { id: best.id, title: best.title, channel: best.channel, seconds: best.duration, views: best.view_count } : null,
-      alternates: ok.slice(1),
-      viewScore: Math.round(views * 100) / 100,
-      maxViews: Math.max(0, ...cands.filter((e) => ids.includes(e.id)).map((e) => e.view_count ?? 0)),
-    };
+    const j = JSON.parse(text.text) as Judgement;
+    out[r.custom_id] = await record(byId.get(r.custom_id)!, j);
   }
   for (const s of skipped) out[String(s)] = { confidence: "none", reason: "no usable candidates", video: null, alternates: [], viewScore: 0, maxViews: 0 };
   writeFileSync(OUT, JSON.stringify(out, null, 1));
@@ -168,6 +218,7 @@ async function collect() {
 const cmd = process.argv[2];
 if (cmd === "submit") submit();
 else if (cmd === "collect") collect();
+else if (cmd === "direct") direct();
 else if (cmd === "stats") {
   let none = 0, total = 0;
   for (const p of pieces) {
@@ -175,4 +226,4 @@ else if (cmd === "stats") {
     if (!candidates(p).length) none++;
   }
   console.log({ total, withoutCandidates: none });
-} else console.log("usage: judge-recordings.ts submit|collect|stats");
+} else console.log("usage: judge-recordings.ts submit|collect|direct|stats");

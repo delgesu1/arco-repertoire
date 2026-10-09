@@ -1,0 +1,37 @@
+{
+ "composer": "Fauré, Gabriel",
+ "verdicts": [
+  {
+   "uid": "N1",
+   "verdict": "fix",
+   "title": "Concerto in D minor, Op. 14 (unfinished; Allegro)",
+   "accompaniment": "",
+   "category": "Concert Piece (orch.)",
+   "minutes": 0,
+   "set": "",
+   "note": "Real work (IMSLP: Violin Concerto in D minor, Op. 14, 1878-79, violin + full orchestra, BnF manuscript 'Allegro', 66 pp.; Wikipedia: 'unfinished'). Only the Allegro survives; first printed 1981 (ed. Pietro Spada, Boccaccini & Spada, Rome) and recorded several times (Graffin/Hyperion, Bonucci/ASV, Fouchenneret/Naxos 2024, Capucon), so not a mere fragment: keep. Change: category Concert Piece (orch.) because it is one movement. Caveat: no violin-and-piano reduction is documented (IMSLP lists none; the 1981 edition is a full score), so 'Orchestra (piano reduction)' may overstate availability. Edition/recording details from secondary sources (web search summary), IMSLP and Wikipedia confirm the work itself.",
+   "source": "https://imslp.org/wiki/Violin_Concerto,_Op.14_(Faur%C3%A9,_Gabriel)"
+  }
+ ],
+ "gaps": [],
+ "existing_issues": [
+  {
+   "id": 937,
+   "issue": "Title 'Pièce' is too generic: this is Fauré's 1903 Morceau de concours (also called Morceau de lecture; sight-reading test piece) for violin and piano, in A major, published in Album Musica No. 12 (Paris: Pierre Lafitte, 1903); about 2 min.",
+   "suggested_title": "Morceau de concours in A major",
+   "source": "https://imslp.org/wiki/Morceau_de_Concours_for_Violin_and_Piano_(Faur%C3%A9,_Gabriel)"
+  },
+  {
+   "id": 939,
+   "issue": "Not really an anonymous arrangement: Op. 78 was written for cello (or violin) and piano, and the first edition (Hamelle, 1898, plate J. 4288 H) already includes a violin part; key G minor per IMSLP (B-flat key signature in the incipit). House style would be 'orig. cello'.",
+   "suggested_title": "Sicilienne in G minor, Op. 78 (orig. cello)",
+   "source": "https://imslp.org/wiki/Sicilienne,_Op.78_(Faur%C3%A9,_Gabriel)"
+  },
+  {
+   "id": 935,
+   "issue": "Arranger missing ('(arr.)' with no name). IMSLP's page for the Op. 7 songs lists no violin arrangement of Après un rêve, so the arranger of the edition used must be taken from the score itself; I could not identify it.",
+   "suggested_title": "",
+   "source": "https://imslp.org/wiki/3_Songs,_Op.7_(Faur%C3%A9,_Gabriel)"
+  }
+ ]
+}

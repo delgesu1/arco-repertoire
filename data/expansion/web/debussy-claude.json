@@ -1,0 +1,128 @@
+{
+ "composer": "Debussy, Claude",
+ "verdicts": [
+  {
+   "uid": "N1",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Première Arabesque (E major) transcribed for violin and piano by Gaston Choisnel; Paris: Durand & Fils, 1907, plate D. & F. 6896. L. 66 = old Lesure number (2001 number is L. 74, IMSLP 'CD 74'), consistent with L. 140 / L. 121 used elsewhere.",
+   "source": "https://imslp.org/wiki/2_Arabesques,_CD_74_(Debussy,_Claude)"
+  },
+  {
+   "uid": "N2",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Deuxième Arabesque (G major, Allegretto scherzando) arr. Choisnel; Durand & Fils, 1907, plate D. & F. 6897 (Sibley copy on IMSLP). Runs about 3 min (draft says 4); not changed here.",
+   "source": "https://imslp.org/wiki/2_Arabesques,_CD_74_(Debussy,_Claude)"
+  },
+  {
+   "uid": "N3",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "(verify was false, checked anyway) Rêverie, old Lesure L. 68 (= L. 76 in 2001 numbering) per Wikipedia list; violin and piano arrangement by Alberto Bachmann (1875-1963), Paris: E. Fromont, 1912, plate E. 3096 F.",
+   "source": "https://imslp.org/wiki/R%C3%AAverie,_CD_76_(Debussy,_Claude)"
+  },
+  {
+   "uid": "N4",
+   "verdict": "fix",
+   "title": "Menuet (from Petite suite, L. 65) (arr. Choisnel)",
+   "accompaniment": "Piano",
+   "category": "Short Piece",
+   "minutes": 3,
+   "set": "Petite suite",
+   "note": "Exists: Choisnel's violin and piano Menuet (No. 3), Paris: Durand, 1906, plate D. & F. 6745 (IMSLP; Boosey & Hawkes shop also lists 'Menuet (Petite Suite No. 3) violin & piano, arr. Choisnel, Durand'). Only change: the draft's date 'c. 1910' is 1906, and set should be a neutral 'Petite suite' because the other violin movements (Cortege, Ballet) are by Roques, not Choisnel (use the same set for existing id 890 En bateau). One retailer (Stretta) credits the Menuet to Roques; IMSLP and Boosey say Choisnel, so Choisnel kept.",
+   "source": "https://imslp.org/wiki/Petite_suite,_CD_71_(Debussy,_Claude)"
+  },
+  {
+   "uid": "N5",
+   "verdict": "fix",
+   "title": "Ballet (from Petite suite, L. 65) (arr. Roques)",
+   "accompaniment": "Piano",
+   "category": "Short Piece",
+   "minutes": 3,
+   "set": "Petite suite",
+   "note": "Arranger is wrong in the draft: IMSLP lists the Ballet (No. 4) only as 'For Violin or Cello and Piano (Roques)', i.e. Leon Roques (1839-1923), Paris: Durand, 1910, plate D. & F. 7522 (Gallica scan); no Choisnel arrangement of the Ballet found. Only IMSLP documents it (no retailer listing found), so it is a low-profile edition; keep or drop at owner's discretion.",
+   "source": "https://imslp.org/wiki/Petite_suite,_CD_71_(Debussy,_Claude)"
+  }
+ ],
+ "gaps": [
+  {
+   "title": "Cortège (from Petite suite, L. 65) (arr. Roques)",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 3,
+   "minutes": 3,
+   "set": "Petite suite",
+   "arranger": "Roques",
+   "edition": "Leon Roques, Paris: Durand, plate D. & F. 7521 (IMSLP dates it 1906)",
+   "source": "https://imslp.org/wiki/Petite_suite,_CD_71_(Debussy,_Claude)",
+   "note": "Movement No. 2 of the Petite suite; same Durand violin series as En bateau and Menuet. Edition documented on IMSLP only (Gallica/Sibley-type scan, 7 pp. score + 2 pp. violin part); no retailer listing or recording found."
+  },
+  {
+   "title": "Serenade for the Doll (from Children's Corner, L. 113) (arr. Choisnel)",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 3,
+   "minutes": 3,
+   "set": "",
+   "arranger": "Choisnel",
+   "edition": "Gaston Choisnel, Paris: Durand, 1910, plate D. & F. 7537",
+   "source": "https://imslp.org/wiki/Children%27s_Corner,_CD_119_(Debussy,_Claude)",
+   "note": "Children's Corner No. 3 (L. 113 = old Lesure; L. 119 in 2001 numbering). Choisnel also made the Durand violin version of Golliwogg's Cake-walk (1910, plate 7585) but that piece is already listed in Heifetz's arrangement, so not added."
+  },
+  {
+   "title": "The Little Shepherd (Le petit berger) (from Children's Corner, L. 113) (arr. J. Durand)",
+   "scoring": "violin (or flute) and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 2,
+   "minutes": 2,
+   "set": "",
+   "arranger": "J. Durand",
+   "edition": "Jacques Durand (flute part A. Hennebains), Paris: A. Durand & Fils, 1908-10, plates D. & F. 7322, 7886",
+   "source": "https://imslp.org/wiki/Children%27s_Corner,_CD_119_(Debussy,_Claude)",
+   "note": "Children's Corner No. 5; 'for violin or flute and piano', essentially a flute-led edition. Borderline: only include if the owner wants easy Durand editions."
+  },
+  {
+   "title": "La chevelure (from Trois chansons de Bilitis, L. 90 No. 2) (arr. Heifetz)",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 5,
+   "minutes": 3,
+   "set": "",
+   "arranger": "Heifetz",
+   "edition": "Carl Fischer, The Heifetz Collection Vol. 3: Arrangements & Transcriptions (ATF142, 2003)",
+   "source": "https://www.popplersmusic.com/item/ATF142/",
+   "note": "Heifetz's own transcription of Bilitis song No. 2 (L. 90 old numbering = L. 97 in 2001 numbering, IMSLP/DG write 'CD 97'). Recorded by Heifetz (RCA, with Brooks Smith; Heifetz plays Gershwin and music of France) and again by Maria Duenas (DG, Homage to Heifetz, 2026); MusicWeb review calls it Heifetz's own work."
+  }
+ ],
+ "existing_issues": [
+  {
+   "id": 891,
+   "issue": "Spelling: Debussy's title is 'Golliwogg's Cake-walk' (double g, hyphen), No. 6 of Children's Corner, L. 113; Heifetz's version is in Carl Fischer's Heifetz Transcriptions and Cadenzas (ATF116, 1995).",
+   "suggested_title": "Golliwogg's Cake-Walk (from Children's Corner, L. 113) (arr. Heifetz)",
+   "source": "https://imslp.org/wiki/Children%27s_Corner,_CD_119_(Debussy,_Claude)"
+  },
+  {
+   "id": 888,
+   "issue": "If a Lesure number is added: Beau soir is L. 6 in the 1977 (old) numbering used for the other Debussy titles (L. 140, L. 121, L. 65), and L. 84 only in the 2001 numbering; do not mix schemes (a pass-3 suggestion used L. 84).",
+   "suggested_title": "Beau soir, L. 6 (arr. Heifetz)",
+   "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Claude_Debussy"
+  }
+ ]
+}

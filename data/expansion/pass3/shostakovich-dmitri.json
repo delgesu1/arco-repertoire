@@ -1,0 +1,16 @@
+{
+ "composer": "Shostakovich, Dmitri",
+ "queued": [],
+ "notes": "Shostakovich list is largely accurate. Prelude keys and numbers match Op. 34. The concertos, the sonata and the arrangements are levelled sensibly relative to each other and to the exam evidence. The only change is filling the unknown duration of the complete Three Fantastic Dances. No duplicates: the Waltz (1247) is a member of the complete set (2090).",
+ "fixes": [
+  {
+   "id": "2090",
+   "field": "minutes",
+   "value": "4",
+   "confidence": "medium",
+   "reason": "The three Fantastic Dances together last about 4 minutes."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

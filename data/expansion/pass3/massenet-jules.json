@@ -1,0 +1,23 @@
+{
+ "composer": "Massenet, Jules",
+ "queued": [],
+ "notes": "Both levels match their exam evidence and anchors, and no duplicates were found. The only fixes are the Érinnyes title spelling and a missing duration for the Invocation.",
+ "fixes": [
+  {
+   "id": "1083",
+   "field": "title",
+   "value": "Invocation (from Les Érinnyes)",
+   "confidence": "medium",
+   "reason": "Massenet's incidental music is titled 'Les Érinnyes' (capitalised, accented); house style uses '(from …)'."
+  },
+  {
+   "id": "1083",
+   "field": "minutes",
+   "value": "4",
+   "confidence": "medium",
+   "reason": "The Invocation is a short lyrical number lasting about 3–4 minutes; its duration is missing."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

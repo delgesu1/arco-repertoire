@@ -1,0 +1,103 @@
+{
+  "composer": "Brahms, Johannes",
+  "note": "Web search budget ran out mid-task, so the gap check relied on direct page fetches: IMSLP work pages (Op. 120/1 and 2, Hungarian Dances WoO 1, Waltzes Op. 39, Klavierstuecke Op. 76, Lieder Op. 49), Wikipedia (Clarinet Sonatas, List of compositions, F-A-E Sonata) and Baerenreiter. The complete F-A-E Sonata (Dietrich/Schumann/Brahms) is reported as a gap in schumann-robert.json, not repeated here. Published violin arrangements found but NOT added (second settings of pieces already listed, or no notable arranger / no recording evidence): Hubay HD Nos. 1-5 (Augener 1911), Klengel HD Nos. 1/3/5 (Peters), Kreisler HD No. 17 (Foley 1925), Juon/Wessely/Willms arrangements of Waltz No. 15, Hochstein Waltz No. 11 in B minor (Carl Fischer 1916), Telmanyi and Klengel complete Waltzes Op. 39, Kramer/Moffat Wiegenlied. IMSLP lists no violin arrangement by Kreisler, Heifetz, Auer, Elman, Zimbalist etc. for Opp. 116, 118, 49, 52 (Heifetz's 'Contemplation', Carl Fischer B2432, is already id 742).",
+  "verdicts": [
+    {
+      "uid": "N1",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Brahms's own violin version of the F minor clarinet sonata: IMSLP version history 'Arranged by Brahms for violin and piano, 1895' (N. Simrock, Berlin 1895, plate 10433, one file with Op. 120/2); modern Urtext Baerenreiter BA10911 'Clarinet Sonata in F Minor (Version for Violin), Op. 120 No. 1' (ed. Brown / Peres da Costa), which says Brahms revised the clarinet part and the piano part for violin. Key F minor, 4 movements, IMSLP average duration 23 min. Title with '(orig. clarinet)' is right.",
+      "source": "https://www.barenreiter.us/products/brahms-sonatas-op-120-violin-version-barenreiter"
+    },
+    {
+      "uid": "N2",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Brahms's own violin version of the E-flat clarinet sonata: IMSLP 'Arranged by Brahms for violin and piano, 1895' (Simrock plate 10433, same file as Op. 120/1); Baerenreiter BA10911 'Clarinet Sonata in E-flat Major (Version for Violin), Op. 120 No. 2'. Key E-flat major, 3 movements, IMSLP average duration 21 min. Title is right.",
+      "source": "https://imslp.org/wiki/Clarinet_Sonata_No.2,_Op.120_No.2_(Brahms,_Johannes)"
+    },
+    {
+      "uid": "N3",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Second arrangement of a piece already in the catalogue: No. 17 is listed as id 752 (arr. Joachim). A Kreisler version does exist (IMSLP: New York, Charles Foley, 1925, plate 23485 - not 'Carl Fischer / Schott c. 1914' as drafted), so add it only if you decide to carry alternative arrangements.",
+      "source": "https://imslp.org/wiki/21_Hungarian_Dances,_WoO_1_(Brahms,_Johannes)"
+    },
+    {
+      "uid": "N4",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Second arrangement of No. 20, already listed as id 756 (arr. Joachim). IMSLP lists a Kreisler violin arrangement only for No. 17 and none for No. 20 (original key of No. 20 is E minor), so the entry looks invented.",
+      "source": "https://imslp.org/wiki/21_Hungarian_Dances,_WoO_1_(Brahms,_Johannes)"
+    },
+    {
+      "uid": "N5",
+      "verdict": "fix",
+      "title": "Waltz in A major, Op. 39 No. 15 (arr. Hochstein)",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Exists: David Hochstein's violin and piano arrangement of Waltz No. 15 (Carl Fischer, New York, 1916; Peters reprint) - not 'c. 1911'. IMSLP files all violin arrangements of this waltz (Hochstein, Juon, Wessely, Willms) under 'A major'; the original piano waltz is in A-flat major, the A-flat label survives only for a two-viola arrangement. Level not verified: the piece is easy (roughly ABRSM 3-5), so L3 looks high and L1-2 more likely; drop it if you consider it below the catalogue floor.",
+      "source": "https://imslp.org/wiki/16_Waltzes,_Op.39_(Brahms,_Johannes)"
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Capriccio in B minor, Op. 76 No. 2 (arr. Press)",
+      "scoring": "violin and piano (arrangement of the 2nd of the 8 Klavierstuecke, Op. 76)",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 5,
+      "minutes": 3,
+      "set": "",
+      "arranger": "Michael Press",
+      "edition": "N. Simrock, Berlin 1919, plate 13659 (dedicated to Carl Flesch)",
+      "source": "https://imslp.org/wiki/8_Klavierst%C3%BCcke,_Op.76_(Brahms,_Johannes)",
+      "note": "LOW PRIORITY: edition confirmed on IMSLP (the page's only violin arrangements), Press is on the notable-arranger list, but I could not check for recordings. Level and minutes are guesses (original piano piece is about 3 min)."
+    },
+    {
+      "title": "Intermezzo in A-flat major, Op. 76 No. 3 (arr. Press)",
+      "scoring": "violin and piano (arrangement of the 3rd of the 8 Klavierstuecke, Op. 76)",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 5,
+      "minutes": 3,
+      "set": "",
+      "arranger": "Michael Press",
+      "edition": "N. Simrock, Leipzig 1919, plate 13721 (dedicated to Leopold Auer)",
+      "source": "https://imslp.org/wiki/8_Klavierst%C3%BCcke,_Op.76_(Brahms,_Johannes)",
+      "note": "LOW PRIORITY: same as the Capriccio above - published edition confirmed, no recording check. Level and minutes are guesses. IMSLP does not say whether Press transposed the piece."
+    }
+  ],
+  "existing_issues": [
+    {
+      "id": 743,
+      "issue": "Title has no number and no arranger ('Hungarian Dance in A minor (arr.)'). The Joachim set already holds two A-minor dances (No. 8 = id 763, No. 19 = id 754), so this is probably a duplicate of one of them or an unidentified arrangement; identify its source (number, arranger) or merge/delete.",
+      "suggested_title": "",
+      "source": "https://imslp.org/wiki/21_Hungarian_Dances,_WoO_1_(Brahms,_Johannes)"
+    },
+    {
+      "id": 766,
+      "issue": "Unverified: I could not confirm a Heifetz violin arrangement of 'Walpurgisnacht'. Op. 75 No. 4 is a vocal duet (two voices and piano, from the 4 Balladen und Romanzen) and a web search for a violin version found no edition or recording; Heifetz's confirmed Brahms transcription is 'Contemplation' (Op. 105 No. 1, Carl Fischer B2432, id 742). Check where the entry came from or drop it.",
+      "suggested_title": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Johannes_Brahms"
+    }
+  ]
+}

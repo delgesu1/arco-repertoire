@@ -1,0 +1,97 @@
+{
+  "composer": "Schubert, Franz",
+  "verdicts": [
+    {
+      "uid": "N4",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "IMSLP Moments musicaux D.780: No. 3 (Allegro moderato, F minor) for violin and piano arr. Kreisler, Charles Foley, New York 1913 (a Burmester setting, Schott 1909, also exists - second arrangement, not proposed). Wikipedia's list of Kreisler's compositions: 'Moment musical, F minor, Op. 94 No. 3, D.780', 1913. Title is right (IMSLP page is called 'Moments musicaux', hence the 'unsupported' flag).",
+      "source": "https://imslp.org/wiki/Moments_musicaux,_D.780_(Schubert,_Franz)"
+    },
+    {
+      "uid": "N5",
+      "verdict": "fix",
+      "title": "Ballet Music No. 2 from Rosamunde in G major, D. 797 (arr. Kreisler)",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Kreisler's transcription is of the second Rosamunde ballet (Andantino, G major); Ballet No. 1 is Allegro moderato in B minor then G major, so plain 'Ballet Music ... in G major' is ambiguous. IMSLP lists it as 'Ballett II (No.9), For Violin and Piano (Kreisler)', C. Fischer, New York 1917, plate 19879; Wikipedia's Kreisler list: 'Ballet Music No. 2' (1913).",
+      "source": "https://imslp.org/wiki/Rosamunde,_D.797_(Schubert,_Franz)"
+    },
+    {
+      "uid": "N1",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(verify:false entry, checked anyway) IMSLP gives instrumentation as 'violin?' and 'possibly for violin duet'; only published in Neue Schubert-Ausgabe VI/9 'Taenze fuer mehrere Instrumente' (Baerenreiter 1991). Scoring is not established, so 'Solo Violin / Unaccompanied' is unsafe; obscure. (Existing id 540, D. 354, is firmly '2 violins'.)",
+      "source": "https://imslp.org/wiki/11_L%C3%A4ndler_in_B-flat_major,_D.374_(Schubert,_Franz)"
+    },
+    {
+      "uid": "N2",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(verify:false entry, checked anyway) Same as N1: IMSLP 'violin?', 'possibly for violin duet', only in NSA VI/9 (Baerenreiter 1991, pp. 48-49).",
+      "source": "https://imslp.org/wiki/9_L%C3%A4ndler_in_D_major,_D.370_(Schubert,_Franz)"
+    },
+    {
+      "uid": "N3",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(verify:false entry, checked anyway) Same as N1: IMSLP 'violin?', 'possibly for violin duet', only in NSA VI/9 (Baerenreiter 1991, pp. 50-51).",
+      "source": "https://imslp.org/wiki/8_L%C3%A4ndler_in_F-sharp_minor,_D.355_(Schubert,_Franz)"
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Impromptu in G-flat major, Op. 90 No. 3, D. 899 (arr. Kreisler)",
+      "scoring": "violin and piano (transcription of the piano Impromptu)",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 5,
+      "minutes": 5,
+      "set": "",
+      "arranger": "Kreisler",
+      "edition": "Carl Fischer (Kreisler transcription, CF F1021, still in print; Wikipedia's Kreisler list dates it 1913)",
+      "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Fritz_Kreisler",
+      "note": "Listed in Wikipedia's transcription table as 'Impromptu, G-flat major, Op. 90 No. 3, D.899, 1913'; Carl Fischer's product page (CF F1021) credits Fritz Kreisler as transcriber. The violin version is reportedly transposed to G major (MusicBrainz/library catalogues) - key in title is the original. A 5:28 track 'Impromptu (Schubert / Kreisler)' appears on a Wyastone 4-CD Kreisler violin-music set (violinist apparently O. Shumsky; page not readable, so unconfirmed). MusicBrainz also lists a separate Heifetz violin-piano version (not verified) - not proposed."
+    },
+    {
+      "title": "Wiegenlied, D. 498 (arr. Elman)",
+      "scoring": "violin and piano (transcription of the song 'Schlafe, schlafe')",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 3,
+      "minutes": 3,
+      "set": "",
+      "arranger": "Elman",
+      "edition": "G. Schirmer, New York 1911, plate 22486c (IMSLP)",
+      "source": "https://imslp.org/wiki/Wiegenlied,_D.498_(Schubert,_Franz)",
+      "note": "OPTIONAL: published edition confirmed on IMSLP (Elman is the only violin-piano arrangement listed). Recording evidence is thin: DAHR lists Naoum Blinder / V. Pavlovsky, Columbia 158-M (1928) crediting Elman as arranger; Elman's own 1911 Victor takes were not issued. Original is in A-flat major."
+    }
+  ],
+  "existing_issues": [
+    {
+      "id": 1202,
+      "issue": "Title ends 'arr.' with no arranger. IMSLP (Schwanengesang D.957) lists violin-piano arrangements of No. 4 Staendchen by Elman, Marteau, Remenyi, Lazora, Seybold, Wichtl, Zoeller and Liszt-Bockmuehl, so the intended one must be identified (Elman's G. Schirmer edition is the one by a famous violinist, but I cannot tell which setting the entry refers to).",
+      "suggested_title": "",
+      "source": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)"
+    }
+  ],
+  "note": "Gap check is partial: IMSLP category snapshot for Schubert (all violin-scored pages and arrangers), IMSLP arrangement tables (Moments musicaux, Rosamunde, Impromptus D.899, Schwanengesang, Wiegenlied) and Wikipedia's list of Kreisler's compositions. No second independent list for the original works (Wikipedia's Schubert list was too long to read), but the originals match the existing entries exactly (D. 384/385/408, 574, 895, 934, 345, 438, 580, 354). Not added: Kochanski's Impromptu D. 899 No. 4 arr. (Carl Fischer 1930, IMSLP) and Arpeggione sonata violin versions (no notable-violinist/recording evidence); Burmester's Moment musical No. 3 and Auer's No. 2 (second arrangements / unrecorded)."
+}

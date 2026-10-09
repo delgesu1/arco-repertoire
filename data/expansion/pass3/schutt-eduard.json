@@ -1,0 +1,68 @@
+{
+ "composer": "Schütt, Eduard",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Fleur de cerisier (Cherry Blossom) in F major"
+  },
+  {
+   "nid": "N2",
+   "title": "Midinette"
+  },
+  {
+   "nid": "N3",
+   "title": "Ariette, Op. 52 No. 1"
+  },
+  {
+   "nid": "N4",
+   "title": "Serenata, Op. 52 No. 2"
+  },
+  {
+   "nid": "N5",
+   "title": "Mélodie-Berceuse, Op. 52 No. 3"
+  },
+  {
+   "nid": "N6",
+   "title": "Mazurka, Op. 52 No. 4"
+  },
+  {
+   "nid": "N7",
+   "title": "Elégie slave, Op. 53 No. 1"
+  },
+  {
+   "nid": "N8",
+   "title": "Valse-Bluette, Op. 53 No. 2"
+  },
+  {
+   "nid": "N9",
+   "title": "Suite No. 1 in D minor, Op. 44"
+  },
+  {
+   "nid": "N10",
+   "title": "Suite No. 2 in E major, Op. 61"
+  },
+  {
+   "nid": "N11",
+   "title": "Sonata in G major, Op. 26"
+  }
+ ],
+ "notes": "No duplicates found. Queued catalogue numbers (Op. 26, 44, 52, 53, 61) and keys could not be verified and are left unchanged. Their levels look plausible for late-Romantic salon pieces and suites.",
+ "fixes": [
+  {
+   "id": "1214",
+   "field": "minutes",
+   "value": "4",
+   "confidence": "medium",
+   "reason": "Salon waltz from Papillons d'amour lasts about 3–4 minutes; duration was missing."
+  },
+  {
+   "id": "1214",
+   "field": "notes",
+   "value": "Salon waltz; lyrical tone, rubato, graceful phrasing",
+   "confidence": "medium",
+   "reason": "Well-known lyrical salon valse."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

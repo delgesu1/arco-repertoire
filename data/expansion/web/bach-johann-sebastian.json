@@ -1,0 +1,141 @@
+{
+ "composer": "Bach, Johann Sebastian",
+ "note": "Sources: IMSLP work pages, Wikipedia 'List of chamber music works by J. S. Bach' + Triple Concerto BWV 1044 / Brandenburg No. 5 articles, Henle/Bärenreiter catalogue listings. Policy used: works now firmly attributed to another composer (BWV 1020, 1036, 1037) = reject as spurious; works still catalogued as doubtful Bach (BWV 1024, 1025; also queued N2 BWV 1026 and N4 BWV 1022, not re-checked) = ok with a doubt flag. Gap check covered BWV 1001-1080 violin works (Wikipedia chamber list + IMSLP) and published violin arrangements (IMSLP arranger categories, Heifetz/Kreisler/Wilhelmj/Burmester sources); the arrangement search is not exhaustive.",
+ "verdicts": [
+  {
+   "uid": "N5",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: violin & continuo, 4 mvts (Adagio, Presto, Affettuoso, Vivace); first published BGA 1867, also David/Petri (Breitkopf, 1910). Authorship DOUBTFUL: IMSLP says disputed, thought to be by J. G. Pisendel; Wikipedia chamber list marks it 'Doubtful'; still catalogued as BWV 1024 under Bach. Kept (doubtful, not spurious). Siblings ids 1596/1597 are titled 'Sonata for Violin and Continuo in ...'.",
+   "source": "https://imslp.org/wiki/Violin_Sonata_in_C_minor,_BWV_1024_(Bach,_Johann_Sebastian)"
+  },
+  {
+   "uid": "N6",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Spurious for J. S. Bach: IMSLP files it under C. P. E. Bach (H. 542.5, Wq deest; 'formerly catalogued as BWV 1020'); Wikipedia chamber list: 'now attributed to C. P. E. Bach'. Henle HN 458 prints it only as an appendix after BWV 1021/1023. If the owner wants it anyway: 'Sonata in G minor, H. 542.5 (formerly BWV 1020)', violin (or flute) & harpsichord, Henle HN 458 (ed. Eppstein, 1990).",
+   "source": "https://imslp.org/wiki/Violin_Sonata_in_G_minor,_BWV_1020_(Bach,_Johann_Sebastian)"
+  },
+  {
+   "uid": "N7",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: Bach's violin & harpsichord arrangement (c. 1739) of Weiss's Lute Sonata in A major (SC 47), 7 mvts: Fantasia, Courante, Entree, Rondeau, Sarabande, Menuett, Allegro. IMSLP now files the work under Weiss with Bach as arranger; Wikipedia chamber list marks BWV 1025 'after Weiss; doubtful, possibly by C. P. E. Bach'. Editions: Bach-Gesellschaft vol. 9 (Breitkopf, 1860); recorded (Pramsohler/Duncumb, Audax). Optional title suffix '(after Weiss)'. Keep as doubtful.",
+   "source": "https://imslp.org/wiki/Suite_in_A_major,_BWV_1025_(Bach,_Johann_Sebastian)"
+  },
+  {
+   "uid": "N8",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Spurious for J. S. Bach: IMSLP files it under Johann Gottlieb Goldberg (Trio Sonata in C major, DurG 13; 'formerly attributed to J. S. Bach as BWV 1037'); Wikipedia chamber list: 'now attributed to Goldberg'. Printed under Bach's name only in older editions (BGA 9, 1860; Crussard, Foetisch 1948).",
+   "source": "https://imslp.org/wiki/Trio_Sonata_in_C_major,_BWV_1037_(Bach,_Johann_Sebastian)"
+  },
+  {
+   "uid": "N9",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Spurious for J. S. Bach: it is C. P. E. Bach's Trio Sonata in D minor H. 569 / Wq 145 (1731, rev. 1747), scored for FLUTE, violin and continuo per IMSLP (not 2 violins); an earlier version is a violin & harpsichord sonata. Wikipedia chamber list: 'now attributed to C. P. E. Bach'.",
+   "source": "https://imslp.org/wiki/Trio_Sonata_in_D_minor,_BWV_1036_(Bach,_Johann_Sebastian)"
+  },
+  {
+   "uid": "N10",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists as titled: A minor, flute + violin + harpsichord concertato with strings; mvts Allegro / Adagio ma non tanto e dolce / Tempo di alla breve; based on BWV 894 (Prelude & Fugue) and BWV 527/2. Authorship accepted (late recasting, probably after 1726). Violin is one of three concertato parts (harpsichord leads) - fine for category Duet / Double Concerto.",
+   "source": "https://en.wikipedia.org/wiki/Triple_Concerto,_BWV_1044"
+  },
+  {
+   "uid": "N11",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "Brandenburg Concertos, BWV 1046–1051",
+   "note": "Exists as titled: D major, concertino of flute, violin, harpsichord + strings; Allegro / Affettuoso (B minor) / Allegro. Set name confirmed (BWV 1046-1051). Queued N1 (Brandenburg No. 4, BWV 1049) should carry the same set.",
+   "source": "https://en.wikipedia.org/wiki/Brandenburg_Concerto_No._5"
+  },
+  {
+   "uid": "N12",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Method-book (Suzuki Violin School) arrangement, below the catalogue's level-1 floor. The same music is covered by the Heifetz arrangement listed under gaps.",
+   "source": ""
+  },
+  {
+   "uid": "N13",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Method-book (Suzuki) arrangement, below level 1; also no independent source found for this specific Suzuki title.",
+   "source": ""
+  }
+ ],
+ "gaps": [
+  {
+   "title": "Gavotte and Musette (from English Suite No. 3, BWV 808) (arr. Heifetz)",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 5,
+   "minutes": 4,
+   "set": "",
+   "arranger": "Heifetz",
+   "edition": "Carl Fischer, New York (Jascha Heifetz Series B2311, score and part); Heifetz recorded it for Victor in Feb 1934",
+   "source": "https://adp.library.ucsb.edu/index.php/matrix/refer/200015849",
+   "note": "Second source: MusicBrainz work page crediting Heifetz as violin-and-piano arranger (https://musicbrainz.org/work/e87a0461-72c2-465e-a428-460f68c987ae). Carl Fischer number/date come from retailer listings (Stretta, Sheet Music Plus) that returned 403 when opened, so year not confirmed (a listing gives 1933). Heifetz also recorded arrangements of the Sarabande (English Suite 3) and the Gavottes of English Suite 6 - print status not verified, so not listed."
+  },
+  {
+   "title": "Brandenburg Concerto No. 2 in F major, BWV 1047",
+   "scoring": "concertino of violin, trumpet, recorder and oboe with strings and continuo",
+   "category": "Duet / Double Concerto",
+   "accompaniment": "Orchestra (piano reduction)",
+   "level_guess": 5,
+   "minutes": 12,
+   "set": "Brandenburg Concertos, BWV 1046–1051",
+   "arranger": "",
+   "edition": "IMSLP (Bach-Gesellschaft); Barenreiter NBA VII/2",
+   "source": "https://imslp.org/wiki/Brandenburg_Concerto_No.2_in_F_major,_BWV_1047_(Bach,_Johann_Sebastian)",
+   "note": "Borderline scope: the violin is one of FOUR concertino soloists (trumpet, recorder, oboe, violin; Wikipedia: Brandenburg_Concerto_No._2). Add only if multi-soloist concertos such as BWV 1050/1044 are wanted. IMSLP page title taken from the harvested IMSLP page list, not re-opened."
+  }
+ ],
+ "existing_issues": [
+  {
+   "id": 700,
+   "issue": "Title has no arranger ('arr.' alone). IMSLP's BWV 156 page lists Sam Franko's Arioso for cello or violin and piano (also newer typeset arrangements by van der Reijden 2023 and others), so this is probably Franko's edition - please confirm and add the arranger.",
+   "suggested_title": "Arioso (from Cantata BWV 156) (arr. Franko)",
+   "source": "https://imslp.org/wiki/Ich_steh_mit_einem_Fuß_im_Grabe,_BWV_156_(Bach,_Johann_Sebastian)"
+  }
+ ]
+}

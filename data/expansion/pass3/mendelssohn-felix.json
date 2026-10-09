@@ -1,0 +1,21 @@
+{
+ "composer": "Mendelssohn, Felix",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Songs without Words (arr. David)"
+  }
+ ],
+ "notes": "Only change: add the MWV catalogue number to the D minor concerto title (id 240), using the IMSLP data. All other levels and facts are plausible and are left as they are. N1 (David's arrangements of Songs without Words) is not a duplicate of 1089, which is Heifetz's arrangement of a single song. Ideally N1 would be split into individual pieces, but its contents are unspecified.",
+ "fixes": [
+  {
+   "id": "240",
+   "field": "title",
+   "value": "Concerto in D minor, MWV O 3",
+   "confidence": "high",
+   "reason": "IMSLP gives catalogue number MWV O 3; house style includes the catalogue number."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

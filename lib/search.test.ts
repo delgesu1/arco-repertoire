@@ -21,7 +21,8 @@ describe("search", () => {
   it("finds Vieuxtemps concertos", () => {
     const r = titles("vieuxtemps concerto");
     expect(r.length).toBeGreaterThanOrEqual(5);
-    expect(r.every((t) => t.includes("Vieuxtemps"))).toBe(true);
+    // other composers' notes may mention him ("Vieuxtemps-style bravura"), but his own works rank first
+    expect(r.slice(0, 5).every((t) => t.includes("Vieuxtemps"))).toBe(true);
   });
   it("finds the Ysaÿe sonatas without the diaeresis", () => {
     expect(titles("ysaye sonata").some((t) => t.includes("Op. 27 No. 2"))).toBe(true);

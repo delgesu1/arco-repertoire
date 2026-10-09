@@ -1,0 +1,50 @@
+{
+ "composer": "Ravel, Maurice",
+ "queued": [],
+ "notes": "Ravel's list is factually sound apart from missing M. catalogue numbers, which the IMSLP data supplies. The two level changes follow the RCM LRCM listings; the 'Pièce en forme de habanera' catalogue fix rests on knowledge rather than supplied IMSLP data, hence medium confidence. No duplicates.",
+ "fixes": [
+  {
+   "id": "2186",
+   "field": "title",
+   "value": "Tzigane, M. 76",
+   "confidence": "high",
+   "reason": "IMSLP gives the catalogue number M. 76, which is missing from the title."
+  },
+  {
+   "id": "1167",
+   "field": "title",
+   "value": "Berceuse sur le nom de Gabriel Fauré, M. 74",
+   "confidence": "high",
+   "reason": "IMSLP gives the catalogue number M. 74."
+  },
+  {
+   "id": "1169",
+   "field": "title",
+   "value": "Pavane pour une infante défunte, M. 19 (arr.)",
+   "confidence": "high",
+   "reason": "IMSLP gives the catalogue number M. 19."
+  },
+  {
+   "id": "1170",
+   "field": "title",
+   "value": "Pièce en forme de habanera, M. 51 (arr.)",
+   "confidence": "medium",
+   "reason": "The original Vocalise-étude en forme de habanera is catalogued as M. 51."
+  }
+ ],
+ "levels": [
+  {
+   "id": "1880",
+   "level": 7,
+   "confidence": "medium",
+   "reason": "Its RCM LRCM listing (≈8) puts it well above level 6, though it remains below Sonata No. 2 (L8)."
+  },
+  {
+   "id": "1170",
+   "level": 6,
+   "confidence": "medium",
+   "reason": "Its ARSM and RCM LRCM listings suggest at least level 6."
+  }
+ ],
+ "duplicates": []
+}

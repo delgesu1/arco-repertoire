@@ -7,7 +7,7 @@ export default function Home() {
     <main className="wrap">
       <h1 className="sr-only">Arco Repertoire: graded violin repertoire</h1>
       <Suspense fallback={<HomeSkeleton />}>
-        <Explorer version={catalogue.version} levels={catalogue.levels} />
+        <Explorer version={catalogue.version} levels={catalogue.levels} total={catalogue.pieces.length} />
       </Suspense>
     </main>
   );

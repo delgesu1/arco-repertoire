@@ -1,0 +1,90 @@
+{
+ "composer": "Vivaldi, Antonio",
+ "notes": "The existing and queued lists already cover Opp. 1–5, 8 and 11, plus most manuscript concertos. Six concertos from the published opus sets are missing: Op. 6 No. 4, Op. 7 Nos. 4, 5 and 9, Op. 9 No. 6 and Op. 12 No. 6. Several manuscript RV numbers may also be absent (e.g. RV 264, 276, 327, 365), but I left them out because I could not be certain of them.",
+ "missing": [
+  {
+   "title": "Concerto in D major, Op. 6 No. 4, RV 216",
+   "level": 4,
+   "category": "Concerto",
+   "accompaniment": "Orchestra (piano reduction)",
+   "minutes": 9,
+   "set": "Concertos, Op. 6",
+   "notes": "",
+   "arranger": "",
+   "confidence": "high",
+   "level_basis": "Matches queued Op. 6 concertos (RV 324, 318, 239) at L4",
+   "edition": "Le Cène, Amsterdam c.1719 (IMSLP); Ricordi (Malipiero) edition",
+   "evidence": "Op. 6 No. 4 in published Op. 6 set; RV catalogue"
+  },
+  {
+   "title": "Concerto in A minor, Op. 7 No. 4, RV 354",
+   "level": 4,
+   "category": "Concerto",
+   "accompaniment": "Orchestra (piano reduction)",
+   "minutes": 8,
+   "set": "Concertos, Op. 7",
+   "notes": "",
+   "arranger": "",
+   "confidence": "high",
+   "level_basis": "Comparable to queued Op. 7 concertos at L4",
+   "edition": "Le Cène, Amsterdam c.1720 (IMSLP); Ricordi (Malipiero) edition",
+   "evidence": "Op. 7 Book 1 No. 4 in RV catalogue"
+  },
+  {
+   "title": "Concerto in F major, Op. 7 No. 5, RV 285a",
+   "level": 4,
+   "category": "Concerto",
+   "accompaniment": "Orchestra (piano reduction)",
+   "minutes": 9,
+   "set": "Concertos, Op. 7",
+   "notes": "",
+   "arranger": "",
+   "confidence": "medium",
+   "level_basis": "Comparable to queued Op. 7 concertos at L4",
+   "edition": "Le Cène, Amsterdam c.1720 (IMSLP)",
+   "evidence": "Op. 7 No. 5; printed version distinct from manuscript RV 285"
+  },
+  {
+   "title": "Concerto in B-flat major, Op. 7 No. 9, RV 373",
+   "level": 4,
+   "category": "Concerto",
+   "accompaniment": "Orchestra (piano reduction)",
+   "minutes": 9,
+   "set": "Concertos, Op. 7",
+   "notes": "",
+   "arranger": "",
+   "confidence": "high",
+   "level_basis": "Comparable to queued Op. 7 Nos. 6, 8, 10 at L4",
+   "edition": "Le Cène, Amsterdam c.1720 (IMSLP); Ricordi (Malipiero) edition",
+   "evidence": "Op. 7 Book 2 No. 9 in RV catalogue"
+  },
+  {
+   "title": "Concerto in A major, Op. 9 No. 6, RV 348 (scordatura)",
+   "level": 4,
+   "category": "Concerto",
+   "accompaniment": "Orchestra (piano reduction)",
+   "minutes": 10,
+   "set": "La cetra, Op. 9",
+   "notes": "Scordatura tuning (A-E-A-E); resonant chordal writing",
+   "arranger": "",
+   "confidence": "high",
+   "level_basis": "Other La cetra concertos L3–L4",
+   "edition": "Le Cène, Amsterdam 1727 (IMSLP); Ricordi (Malipiero) edition",
+   "evidence": "La cetra No. 6, scordatura concerto; widely recorded in complete Op. 9 sets"
+  },
+  {
+   "title": "Concerto in B-flat major, Op. 12 No. 6, RV 361",
+   "level": 4,
+   "category": "Concerto",
+   "accompaniment": "Orchestra (piano reduction)",
+   "minutes": 9,
+   "set": "Concertos, Op. 12",
+   "notes": "",
+   "arranger": "",
+   "confidence": "high",
+   "level_basis": "Op. 12 Nos. 1 and 5 at L2–L3; slightly more demanding",
+   "edition": "Le Cène, Amsterdam 1729 (IMSLP); Ricordi (Malipiero) edition",
+   "evidence": "Op. 12 No. 6 in RV catalogue"
+  }
+ ]
+}

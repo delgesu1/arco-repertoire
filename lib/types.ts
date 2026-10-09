@@ -41,6 +41,7 @@ export interface Piece {
   exams: string;
   examBoards: string[];
   imslp: boolean;
+  imslpPage?: string; // exact IMSLP work page when known (else the link is a search)
   set: string | null;
   setKey: string | null;
   mode: "major" | "minor" | null;

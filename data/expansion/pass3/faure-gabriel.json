@@ -1,0 +1,35 @@
+{
+ "composer": "Fauré, Gabriel",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Concerto in D minor, Op. 14 (unfinished; Allegro)"
+  }
+ ],
+ "notes": "Most entries are correct. The main issue is No. 937: its generic title should be the 1903 Conservatoire sight-reading piece, with its minutes filled in. N1 (Concerto Op. 14 Allegro) is not a duplicate. Andante Op. 75 is related but separate, being the revised slow movement.",
+ "fixes": [
+  {
+   "id": "937",
+   "field": "title",
+   "value": "Morceau de concours (1903)",
+   "confidence": "medium",
+   "reason": "IMSLP identifies this as the 1903 Morceau de Concours for violin and piano."
+  },
+  {
+   "id": "937",
+   "field": "minutes",
+   "value": "2",
+   "confidence": "medium",
+   "reason": "A brief Conservatoire sight-reading test piece lasting about two minutes."
+  }
+ ],
+ "levels": [
+  {
+   "id": "1697",
+   "level": 8,
+   "confidence": "medium",
+   "reason": "Late sonata (Henle 7) is denser and harder than Sonata No. 1 at level 7."
+  }
+ ],
+ "duplicates": []
+}

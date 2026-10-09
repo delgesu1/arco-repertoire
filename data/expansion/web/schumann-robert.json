@@ -1,0 +1,79 @@
+{
+  "composer": "Schumann, Robert",
+  "verdicts": [
+    {
+      "uid": "N1",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "IMSLP: Fünf Stücke im Volkston, Op. 102 (1849), instrumentation 'cello (or violin), piano'; first edition Cassel, C. Luckhardt 1851 with an alternate violin part; Hugo Pohle (Hamburg 1887) violin part by J. Lauterbach. So the violin version is period-authorised. Title/set fine as one collection.",
+      "source": "https://imslp.org/wiki/5_St%C3%BCcke_im_Volkston,_Op.102_(Schumann,_Robert)"
+    },
+    {
+      "uid": "N2",
+      "verdict": "fix",
+      "title": "Concerto in A minor, Op. 129 (orig. cello)",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Exists, but NOT arr. Joachim: the violin version of the Cello Concerto is Schumann's own transcription (1853, probably hoping Joachim would play it); a fair copy with his annotations was found among Joachim's papers and first performed in 1987 (Saschko Gawriloff). Edition: Breitkopf & Härtel 1987 (Nr. 8329, ed. Joachim Draheim; violin part with piano reduction). IMSLP's 'Joachim' entry is only an undated holograph copy by a copyist. Recorded: Marwood/BBC SSO/Boyd (Hyperion CDA67847), Wallin (BIS-1775), Neudauer (SWR). ~25 min.",
+      "source": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67847"
+    },
+    {
+      "uid": "N3",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Beginner method-book piece: the draft cites it as Suzuki Violin School Book 1 ('Fröhlicher Landmann', Album für die Jugend Op. 68 No. 10 - a piano piece). I did not re-verify the Suzuki book contents, but in any case it is a beginner setting below the catalogue floor (ABRSM 3-4), so reject.",
+      "source": "https://imslp.org/wiki/Album_f%C3%BCr_die_Jugend,_Op.68_(Schumann,_Robert)"
+    },
+    {
+      "uid": "N4",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Beginner method-book piece: the draft cites it as Suzuki Violin School Book 2 ('Die beiden Grenadiere', a song, Op. 49 No. 1). I did not re-verify the Suzuki book contents, but in any case it is a beginner setting below the catalogue floor (ABRSM 3-4), so reject.",
+      "source": "https://imslp.org/wiki/Romanzen_und_Balladen,_Op.49_(Schumann,_Robert)"
+    }
+  ],
+  "gaps": [
+    {
+      "title": "F-A-E Sonata in A minor (Dietrich, Schumann, Brahms)",
+      "scoring": "violin and piano; 4 movements: Dietrich Allegro, Schumann Intermezzo, Brahms Scherzo (WoO 2), Schumann Finale",
+      "category": "Sonata / Duo (vln & pno)",
+      "accompaniment": "Piano",
+      "level_guess": 7,
+      "minutes": 25,
+      "set": "",
+      "arranger": "",
+      "edition": "Complete sonata first published 1935 (publisher not found; Brahms's Scherzo alone 1906); modern editions exist",
+      "source": "https://en.wikipedia.org/wiki/F-A-E_Sonata",
+      "note": "OPTIONAL joint work, listed because complete recordings exist (Faust/Melnikov, Harmonia Mundi; Landgraf/Koch, Genuin; Luca/Connelly, Paladino). Overlaps existing id 765 (Brahms Scherzo, WoO 2) and Schumann's Sonata No. 3 (id 1904, which reuses the Intermezzo and Finale), so only add if the complete four-movement sonata is wanted. Publisher/edition not verified; minutes is an estimate."
+    }
+  ],
+  "existing_issues": [
+    {
+      "id": 1904,
+      "issue": "Catalogue number: IMSLP's page ('Violin Sonata No.3, WoO 2', A minor, 4 movements, Schott 1956) and the Wikipedia infobox both give WoO 2; 'WoO 27' appears on some labels and in one Wikipedia citation title, so sources disagree - prefer IMSLP.",
+      "suggested_title": "Sonata No. 3 in A minor, WoO 2",
+      "source": "https://imslp.org/wiki/Violin_Sonata_No.3,_WoO_2_(Schumann,_Robert)"
+    },
+    {
+      "id": 1213,
+      "issue": "Arranger: IMSLP's Waldszenen page lists only Leopold Auer's violin-piano arrangement of No. 7 (J. H. Zimmermann, Leipzig 1913, plate Z.5926) and no Heifetz arrangement; Carl Fischer's Heifetz Series issue 'Prophetic Bird' (CF B2436) is 'edited by' Heifetz. The arrangement credit should be Auer (ed. Heifetz).",
+      "suggested_title": "Vogel als Prophet, Op. 82 No. 7 (arr. Auer)",
+      "source": "https://imslp.org/wiki/Waldszenen,_Op.82_(Schumann,_Robert)"
+    }
+  ],
+  "note": "Gap check is partial (web search budget ran out): IMSLP category snapshot for Schumann (all violin-scored pages and arrangers) plus Wikipedia (F-A-E Sonata, Violin Sonata No. 3). Authentic violin-optional works (Op. 70, 73, 94, 102, 113; sonatas Op. 105/121/WoO 2; concerto WoO 23; Fantasie Op. 131) are all present in existing/queued. Not added: Achron's Bilder aus Osten, Moffat's Album für die Jugend, Kross/Ernst/Hofmann Träumerei settings, Cossmann/Hernandez cello-concerto arrangements (no recording/established evidence). Second source for the originals was Schumann's own opus numbers/IMSLP; I did not find a publisher for the complete F-A-E sonata."
+}

@@ -1,0 +1,176 @@
+{
+  "composer": "Saint-Saëns, Camille",
+  "verdicts": [
+    {
+      "uid": "N1",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(not flagged verify) IMSLP holds only the BnF holograph (F-Pn MS-726, 'Souvenir du séjour chez le Roi et la Reine', c.1918, no opus number); publisher field reads 'Holograph manuscript, n.d.'; no printed edition found. Wikipedia work list gives it as c.1918 violin & piano, but no edition. Unpublished manuscript.",
+      "source": "https://imslp.org/wiki/L%27air_de_la_pendule_(Saint-Sa%C3%ABns,_Camille)"
+    },
+    {
+      "uid": "N2",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(not flagged verify) Not a separate work: IMSLP 'Allegro de concert d'après le 3ème concerto' (Durand 1913, D&F 8910, violin & piano) is the Paris Conservatoire concours arrangement of Violin Concerto No. 3, Op. 61, which is already in the catalogue (id 314). Second arrangement of a listed piece.",
+      "source": "https://imslp.org/wiki/Allegro_de_concert_(Saint-Sa%C3%ABns,_Camille)"
+    },
+    {
+      "uid": "N3",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(not flagged verify) Wikipedia work list: Berceuse in B-flat major, Op. 38 (1871), violin & piano (also published with organ). IMSLP page exists.",
+      "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Camille_Saint-Sa%C3%ABns"
+    },
+    {
+      "uid": "N4",
+      "verdict": "fix",
+      "title": "Caprice brillant in B minor",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 13,
+      "set": "",
+      "note": "(not flagged verify) Exists: IMSLP 'Caprice brillant in B minor', no opus (ICS 292), violin & piano, 1859?, ded. Arthur Gambey, average duration 13 min (queued 10); IMSLP gives first publication as Ries & Erler, Berlin 2005 (IMSLP itself only has the Sibley manuscript scan). Wikipedia work list also has it (B minor, 1859). Title OK, only minutes corrected.",
+      "source": "https://imslp.org/wiki/Caprice_brillant_in_B_minor_(Saint-Sa%C3%ABns,_Camille)"
+    },
+    {
+      "uid": "N5",
+      "verdict": "fix",
+      "title": "Élégie, Op. 160",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(not flagged verify) Exists: Wikipedia work list has the 2nd Élégie, Op. 160 (1920), violin & piano; IMSLP page is titled 'Elegy, Op.160'. The 'No. 2' numbering is editorial (not in the IMSLP title) and the existing Op. 143 entry (id 1190) is unnumbered, so drop 'No. 2' for consistency.",
+      "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Camille_Saint-Sa%C3%ABns"
+    },
+    {
+      "uid": "N6",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(not flagged verify) IMSLP: Fantaisie for violin and harp, Op. 124 (R 136), A major, 1907, Durand D&F 6910, ded. Marianne and Clara Eissler, c.13 min. Only an arrangement for flute & harp is listed (no violin-piano version).",
+      "source": "https://imslp.org/wiki/Fantaisie_for_Violin_and_Harp,_Op.124_(Saint-Sa%C3%ABns,_Camille)"
+    },
+    {
+      "uid": "N7",
+      "verdict": "fix",
+      "title": "Méditation, Op. 3 (after Bagatelle No. 6)",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(not flagged verify) IMSLP page 'Méditation, Op.3' (ICS 132), alt. title 'Méditation d'après la 6ème bagatelle': a violin & piano version made 1892, Durand c.1892 (D&F 4510), also Album Musica No. 57, Lafitte 1907; ded. Marie Guillemin. Op. 3 is the set of 6 Bagatelles for piano (1855), so it is an arrangement of Bagatelle No. 6, not an original violin work with its own Op. 3. Arranger not named on IMSLP.",
+      "source": "https://imslp.org/wiki/M%C3%A9ditation,_Op.3_(Saint-Sa%C3%ABns,_Camille)"
+    },
+    {
+      "uid": "N8",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(not flagged verify) IMSLP: La muse et le poète, Op. 132 (R 108), 'Duo pour violon et violoncelle avec accompagnement d'orchestre', 1910, Durand 1910 (violin, cello & piano reduction D&F 7686), c.18 min. IMSLP gives no key (Wikipedia list shows E minor; unconfirmed).",
+      "source": "https://imslp.org/wiki/La_muse_et_le_po%C3%A8te,_Op.132_(Saint-Sa%C3%ABns,_Camille)"
+    },
+    {
+      "uid": "N9",
+      "verdict": "fix",
+      "title": "Romance in D-flat major, Op. 37",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Exists: IMSLP Op. 37 (ICS 197), D-flat major, 1871, 'flute (or violin), orchestra', ded. A. de Vroye, pub. 1874; Durand edition for flute or violin & piano (ca.1874; reprint Masters Music 1993); avg. 6 min. The violin is the composer's own printed alternative, so the '(orig. flute or violin)' tag is unsupported/not house style - drop it. Note it is primarily a flute piece (Henle edition is flute only).",
+      "source": "https://imslp.org/wiki/Romance,_Op.37_(Saint-Sa%C3%ABns,_Camille)"
+    },
+    {
+      "uid": "N10",
+      "verdict": "fix",
+      "title": "Sonata in B-flat major, R 103",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(not flagged verify) Exists and is complete: IMSLP 'Violin Sonata in B-flat major' (R 103 / ICS 315), 3 movements, 'Sonate finie le 8 janvier 1842', 6-7 min, first published Bärenreiter 2021 (Works for Violin and Piano (1): Sonatas). Juvenile work by a child of about 6; no opus number, so cite R 103 (Ratner) instead of '(1842)'.",
+      "source": "https://imslp.org/wiki/Violin_Sonata_in_B-flat_major_(Saint-Sa%C3%ABns,_Camille)"
+    },
+    {
+      "uid": "N11",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "(not flagged verify) Fragment: IMSLP 'Violin Sonata in F major' (R 106, 1850, alt. title 'Sonate inachevée') is incomplete - the score breaks off in the 2nd movement and the violin part covers only the 1st movement. (Printed in Bärenreiter 2021 as a fragment.)",
+      "source": "https://imslp.org/wiki/Violin_Sonata_in_F_major_(Saint-Sa%C3%ABns,_Camille)"
+    },
+    {
+      "uid": "N12",
+      "verdict": "fix",
+      "title": "Prière, Op. 158 (orig. cello)",
+      "accompaniment": "Piano or organ",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Exists: IMSLP original = cello & organ (Durand 1919, D&F 9811, ded. André Hekking); a violin & piano version was published separately by Durand 1920 (D&F 9900, arranger 'Composer?'). Wikipedia work list: 'for cello (or violin) and organ'. So violin accompaniment is piano (violin ed.) or organ (original). No key or duration given on IMSLP.",
+      "source": "https://imslp.org/wiki/Pri%C3%A8re,_Op.158_(Saint-Sa%C3%ABns,_Camille)"
+    },
+    {
+      "uid": "N13",
+      "verdict": "fix",
+      "title": "Romance in B-flat major, Op. 27",
+      "accompaniment": "Piano",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "Exists: IMSLP Op. 27 (R 115), composed 1866, orig. violin, piano & harmonium, publ. G. Hartmann, Paris 1868 (G.H. 189), ded. Gustave Doré; violin & piano arr. Gaston Choisnel, Durand 1906 (D&F 6743); harp/violin/harmonium arr. Hasselmans, Durand c.1889. Key: IMSLP gives none; B-flat major is from the Wikipedia work list and Muziekweb (check the score if it matters). Original needs harmonium AND piano, so the violin edition is the Choisnel arr. with piano only.",
+      "source": "https://imslp.org/wiki/Romance,_Op.27_(Saint-Sa%C3%ABns,_Camille)"
+    }
+  ],
+  "gaps": [],
+  "existing_issues": [
+    {
+      "id": 2194,
+      "issue": "Wrong key: Morceau de concert, Op. 62 is in E minor, not G major (G major is the Caprice andalous, Op. 122). BnF record 'Morceau de concert (violon, orchestre) mi mineur, R 199' and Muziekweb 'op. 62 in E minor'; ded. Ovide Musin, Durand 1880; IMSLP page gives no key.",
+      "suggested_title": "Morceau de concert in E minor, Op. 62",
+      "source": "https://data.bnf.fr/13985685/camille_saint-saens_morceau_de_concert__violon__orchestre__mi_mineur__r_199/fr.pdf"
+    },
+    {
+      "id": 2189,
+      "issue": "Spelling: Saint-Saëns's / Durand's title (and IMSLP page) is 'Caprice andalous' with an s; 'Caprice andalou' is only an alias. Key G major, Durand 1904, ded. Johannès Wolff.",
+      "suggested_title": "Caprice andalous in G major, Op. 122",
+      "source": "https://imslp.org/wiki/Caprice_andalous,_Op.122_(Saint-Sa%C3%ABns,_Camille)"
+    },
+    {
+      "id": 2191,
+      "issue": "Title lacks the arranger: IMSLP lists 'For Violin and Piano (Saint-Saëns)' for Danse macabre, Op. 40 (other violin arrangements: 4 violins/Girtain, Soontornniyomkij, Gariboldi). House style wants '(arr. Surname)'.",
+      "suggested_title": "Danse macabre, Op. 40 (arr. Saint-Saëns)",
+      "source": "https://imslp.org/wiki/Danse_macabre,_Op.40_(Saint-Sa%C3%ABns,_Camille)"
+    },
+    {
+      "id": 1191,
+      "issue": "Title not in house style (English title, no arranger). Original-language title is 'Le Cygne' (No. 13 of Le Carnaval des animaux). IMSLP lists violin & piano arrangements 'Composer' (i.e. Saint-Saëns) and 'Godowsky' - owner should confirm which edition is meant; if unknown use the composer's.",
+      "suggested_title": "Le Cygne (from Le Carnaval des animaux) (arr. Saint-Saëns)",
+      "source": "https://imslp.org/wiki/Le_carnaval_des_animaux_(Saint-Sa%C3%ABns,_Camille)"
+    }
+  ],
+  "gap_check_note": "Gap check used the Wikipedia 'List of compositions by Camille Saint-Saëns' (all violin/duo entries) plus the IMSLP work pages; every violin work in the Wikipedia list is already in existing or queued. Not added (unpublished or not Saint-Saëns's own music): Nocturne sur des motifs d'Hellé (transcription of Duvernoy), Andante from Mozart K. 467 arr. for violin & orchestra (belongs under Mozart), Beethoven concerto cadenzas, Op. 15 Sérénade / Op. 108 Barcarolle and other ensemble pieces. Op. 144 Cavatine is for trombone (no violin version found). Saint-Saëns's late own violin-piano transcriptions (Air de Dalila, Printemps qui commence, Air de Béatrix) appear on recordings, but a published edition was not verified, so they were left out. No notable-violinist arrangement (Heifetz, Kreisler, Auer, Hubay, Elman, Zimbalist, Hartmann) of Samson et Dalila / Bacchanale for violin was found."
+}

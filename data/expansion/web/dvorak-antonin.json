@@ -1,0 +1,95 @@
+{
+ "composer": "Dvořák, Antonín",
+ "verdicts": [
+  {
+   "uid": "N1",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Checked although verify=false: Capriccio (Concert Rondo) in C major, B. 81, c.1878; IMSLP and Bärenreiter Praha Urtext; first printed Breitkopf 1929 (ed. G. Raphael); on Supraphon 2024 complete violin & piano set. Key is C major (not G minor).",
+   "source": "https://imslp.org/wiki/Capriccio,_B.81_(Dvořák,_Antonín)"
+  },
+  {
+   "uid": "N2",
+   "verdict": "fix",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 9,
+   "set": "",
+   "note": "Exists as titled: Nocturne in B major, Op. 40, B. 48a is Dvořák's own violin & piano version of the string Nocturne B. 47 (1883); the composer-catalogue site gives first edition Bote & Bock, Berlin 1883 (Wikipedia names Simrock 1883 for the work in general) and a duration of about 9 min (queued 7). Recorded on the Supraphon 2024 complete violin & piano set.",
+   "source": "https://www.antonin-dvorak.cz/en/work/nocturne-for-violin-and-piano-in-b-major-op40-b48a/"
+  },
+  {
+   "uid": "N3",
+   "verdict": "fix",
+   "title": "Indian Lament in G minor, from Sonatina Op. 100 (arr. Kreisler)",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Kreisler's arrangement of the Larghetto of the Sonatina Op. 100 exists: New York, Charles Foley 1914, plate 13562 (Carl Fischer imprint); key G minor per Kreisler work list; recorded by Kreisler (Victor 1914, 1928). Title only adds the key and tidies the style.",
+   "source": "https://imslp.org/wiki/Sonatina,_Op.100_(Dvořák,_Antonín)"
+  },
+  {
+   "uid": "N4",
+   "verdict": "fix",
+   "title": "Slavonic Fantasie in B minor (arr. Kreisler)",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists (Kreisler, Carl Fischer/Foley 1914, plate 13563, dedicated to Carl Flesch; IFK 34) but it is a free fantasy on three Dvořák pieces: Songs My Mother Taught Me (Gypsy Songs Op. 55 No. 4), Humoresque Op. 101 No. 8 and Romantic Piece Op. 75 No. 1 - no dance themes. Kreisler's own spelling is 'Slavonic Fantasie'. The same piece is queued as N8 in kreisler-fritz.json - dedupe and keep one entry. Level may deserve 7 (free virtuoso fantasy).",
+   "source": "https://imslp.org/wiki/Slavonic_Fantasie_(Kreisler,_Fritz)"
+  },
+  {
+   "uid": "N5",
+   "verdict": "fix",
+   "title": "",
+   "accompaniment": "2 violins",
+   "category": "",
+   "minutes": 3,
+   "set": "",
+   "note": "Exists: Gavotte in G minor for three violins, B. 164 (1890, not 1879), first printed in the children's periodical 'Mladý houslista' (Vilímek, Prague 1890); Bärenreiter Praha H3392-01 (with Miniatures Op. 75a), about 3 min. Accompaniment should be '2 violins' (two further violins), not 'Unaccompanied'. Easy piece written for young players - level 1-2.",
+   "source": "https://www.antonin-dvorak.cz/en/work/gavotte-for-three-violins-b164/"
+  }
+ ],
+ "gaps": [
+  {
+   "title": "Negro Spiritual Melody (after the Largo of Symphony No. 9, Op. 95 'From the New World', arr. Kreisler)",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 3,
+   "minutes": 3,
+   "set": "",
+   "arranger": "Kreisler",
+   "edition": "New York: Charles Foley, 1924 (reprinted Carl Fischer in '8 Original Pieces and Arrangements', plate 23225); recorded by Kreisler (Victor 1122, 1925)",
+   "source": "https://imslp.org/wiki/Negro_Spiritual_Melody_(Kreisler,_Fritz)",
+   "note": "Abridged arrangement of the Largo in D-flat major; probably also belongs on Kreisler's list - dedupe across composers."
+  }
+ ],
+ "existing_issues": [
+  {
+   "id": 919,
+   "issue": "Title lacks the key: Kreisler's Slavonic Dance No. 3 is in G major (a transposition of Op. 72 No. 8, originally A-flat major).",
+   "suggested_title": "Slavonic Dance No. 3 in G major, Op. 72 No. 8 (arr. Kreisler)",
+   "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Fritz_Kreisler"
+  },
+  {
+   "id": 917,
+   "issue": "Sources disagree on the original of Kreisler's Slavonic Dance No. 1 in G minor: IMSLP/Wikipedia give Op. 46 No. 2 (Wikipedia: also Op. 72 No. 1), Carl Fischer's Kreisler Collection lists it as after Op. 46 No. 8 (the G minor Furiant). Title is as IMSLP gives it; check the printed edition before changing.",
+   "suggested_title": "",
+   "source": "https://imslp.org/wiki/Slavonic_Dances,_Op.46_(Dvořák,_Antonín)"
+  },
+  {
+   "id": 911,
+   "issue": "Optional: the Ballade is catalogued Op. 15 No. 1, B. 139 (Op. 15 is the set number on the composer's work page).",
+   "suggested_title": "Ballade in D minor, Op. 15 No. 1, B. 139",
+   "source": "https://www.antonin-dvorak.cz/en/work/ballade-for-violin-and-piano-in-d-minor-op15-1-b139/"
+  }
+ ]
+}

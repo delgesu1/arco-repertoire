@@ -23,7 +23,7 @@ const loadCatalogue = (version: string) =>
 
 export type Counts = Map<string, number>;
 
-export function Explorer({ version, levels }: { version: string; levels: LevelInfo[] }) {
+export function Explorer({ version, levels, total }: { version: string; levels: LevelInfo[]; total: number }) {
   const sp = useSearchParams();
   const [data, setData] = useState<{ pieces: Piece[]; index: IndexedPiece[] } | null>(null);
   const [shown, setShown] = useState(PAGE);
@@ -150,7 +150,7 @@ export function Explorer({ version, levels }: { version: string; levels: LevelIn
     <>
       <section className="hero">
         <div className="intro">
-          <div className="big">{all.length ? all.length.toLocaleString("en") : "2,253"}</div>
+          <div className="big">{(all.length || total).toLocaleString("en")}</div>
           <p>graded works for the violin, sorted by setting, level and character.</p>
           <LevelsInfo levels={levels} onPick={(level) => update({ level })} />
           <a className="intro-byline" href="https://www.kurganov.org" target="_blank" rel="noopener">

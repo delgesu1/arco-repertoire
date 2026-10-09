@@ -1,0 +1,57 @@
+{
+ "composer": "Tchaikovsky, Pyotr Ilyich",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Humoresque, Op. 10 No. 2 (arr. Kreisler)"
+  },
+  {
+   "nid": "N2",
+   "title": "Danse russe (from Swan Lake, Op. 20)"
+  },
+  {
+   "nid": "N3",
+   "title": "Lensky's Aria (from Eugene Onegin) (arr. Auer)"
+  }
+ ],
+ "notes": "Tchaikovsky list is largely consistent. The fixes switch the two concert pieces to the house accompaniment for works playable with piano or orchestra, correct The Seasons opus to IMSLP's Op. 37a, and supply a missing duration. The Valse-Scherzo level is lowered toward its RCM ARCT listing. No duplicates were found.",
+ "fixes": [
+  {
+   "id": "74",
+   "field": "accompaniment",
+   "value": "Piano or orchestra",
+   "confidence": "medium",
+   "reason": "Single-movement concert piece; house style uses 'Piano or orchestra' for such works."
+  },
+  {
+   "id": "75",
+   "field": "accompaniment",
+   "value": "Piano or orchestra",
+   "confidence": "medium",
+   "reason": "Single-movement concert piece; house style uses 'Piano or orchestra' for such works."
+  },
+  {
+   "id": "1293",
+   "field": "title",
+   "value": "Barcarolle in G minor, Op. 37a No. 6 'June' (arr.)",
+   "confidence": "medium",
+   "reason": "IMSLP catalogues The Seasons as Op. 37a."
+  },
+  {
+   "id": "1293",
+   "field": "minutes",
+   "value": "5",
+   "confidence": "high",
+   "reason": "June Barcarolle typically lasts about 4–5 minutes; the duration was missing."
+  }
+ ],
+ "levels": [
+  {
+   "id": "75",
+   "level": 7,
+   "confidence": "medium",
+   "reason": "RCM ARCT (≈7) and Henle 6 listings sit below the concerto at L9; L8 is too high."
+  }
+ ],
+ "duplicates": []
+}

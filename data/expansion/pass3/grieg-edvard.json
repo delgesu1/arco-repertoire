@@ -1,0 +1,29 @@
+{
+ "composer": "Grieg, Edvard",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Solveig's Song, Op. 55 No. 4 (from Peer Gynt) (arr. Sitt)"
+  },
+  {
+   "nid": "N2",
+   "title": "To Spring (Til våren), Op. 43 No. 6 (arr. Sitt)"
+  },
+  {
+   "nid": "N3",
+   "title": "Erotik, Op. 43 No. 5 (arr. Sitt)"
+  }
+ ],
+ "notes": "Grieg's titles, opus numbers and keys are correct. The levels of the three sonatas are ordered sensibly. The queued Sitt arrangements are not duplicates of existing entries. The only fix fills in the missing duration for The Last Spring.",
+ "fixes": [
+  {
+   "id": "978",
+   "field": "minutes",
+   "value": "5",
+   "confidence": "medium",
+   "reason": "Våren (Op. 34 No. 2) typically lasts about 5 minutes; the duration was missing."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

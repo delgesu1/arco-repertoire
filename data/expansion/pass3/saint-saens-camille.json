@@ -1,0 +1,97 @@
+{
+ "composer": "Saint-Saëns, Camille",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "L'air de la pendule in A minor"
+  },
+  {
+   "nid": "N2",
+   "title": "Allegro de concert (after Concerto No. 3)"
+  },
+  {
+   "nid": "N3",
+   "title": "Berceuse in B-flat major, Op. 38"
+  },
+  {
+   "nid": "N4",
+   "title": "Caprice brillant in B minor"
+  },
+  {
+   "nid": "N5",
+   "title": "Élégie No. 2, Op. 160"
+  },
+  {
+   "nid": "N6",
+   "title": "Fantaisie in A major, Op. 124"
+  },
+  {
+   "nid": "N7",
+   "title": "Méditation, Op. 3"
+  },
+  {
+   "nid": "N8",
+   "title": "La muse et le poète, Op. 132 (violin & cello)"
+  },
+  {
+   "nid": "N9",
+   "title": "Romance in D-flat major, Op. 37 (orig. flute or violin)"
+  },
+  {
+   "nid": "N10",
+   "title": "Sonata in B-flat major (1842)"
+  },
+  {
+   "nid": "N11",
+   "title": "Sonata in F major (1850, unfinished)"
+  },
+  {
+   "nid": "N12",
+   "title": "Prière, Op. 158 (violin or cello & organ)"
+  },
+  {
+   "nid": "N13",
+   "title": "Romance in B-flat major, Op. 27 (violin, piano & organ)"
+  }
+ ],
+ "notes": "No duplicates found. Facts and levels for existing entries look sound. The main issue is accompaniment: several works originally scored for violin and orchestra are tagged plain 'Piano'. Queued oddities left unchanged because queued facts are out of scope: 'Méditation, Op. 3' (Op. 3 is the Tarentelle for flute and clarinet) and 'Allegro de concert (after Concerto No. 3)' and 'L'air de la pendule' (attributions uncertain); please verify these before adding.",
+ "fixes": [
+  {
+   "id": "52",
+   "field": "accompaniment",
+   "value": "Piano or orchestra",
+   "confidence": "medium",
+   "reason": "Single-movement Romance with orchestra, usually played with piano; house style for concert pieces."
+  },
+  {
+   "id": "2192",
+   "field": "accompaniment",
+   "value": "Piano or orchestra",
+   "confidence": "medium",
+   "reason": "Havanaise Op. 83 is scored for violin and orchestra, commonly played with piano."
+  },
+  {
+   "id": "2193",
+   "field": "accompaniment",
+   "value": "Piano or orchestra",
+   "confidence": "medium",
+   "reason": "Introduction and Rondo capriccioso is scored for violin and orchestra."
+  },
+  {
+   "id": "2194",
+   "field": "accompaniment",
+   "value": "Piano or orchestra",
+   "confidence": "medium",
+   "reason": "Morceau de concert Op. 62 is scored for violin and orchestra."
+  },
+  {
+   "id": "2189",
+   "field": "accompaniment",
+   "value": "Piano or orchestra",
+   "confidence": "medium",
+   "reason": "Caprice andalou Op. 122 is scored for violin and orchestra."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

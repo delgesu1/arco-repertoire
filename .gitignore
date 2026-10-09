@@ -46,3 +46,8 @@ next-env.d.ts
 
 # local tooling
 /.claude/
+
+# catalogue expansion: derived or bulky outputs (regenerate with scripts/expand/)
+/data/expansion/preview/
+/data/expansion/sheet-sync/
+/data/expansion/final/all-repertoire.next.json

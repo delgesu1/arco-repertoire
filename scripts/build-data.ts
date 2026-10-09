@@ -18,7 +18,11 @@ import { CHARACTER, ERAS, TYPES } from "../lib/vocab";
 const ROOT = join(__dirname, "..");
 const read = (p: string) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
 
-const sheet: string[][] = read("data/source/all-repertoire.json").values;
+// SNAPSHOT=<path> builds from another snapshot; PREVIEW=1 then writes only data/expansion/preview/catalogue.json and leaves
+// the files the site serves (data/build, public/data, lib/advisor/catalogue-text.ts) alone
+const SNAPSHOT = process.env.SNAPSHOT ?? "data/source/all-repertoire.json";
+const PREVIEW = process.env.PREVIEW === "1";
+const sheet: string[][] = read(SNAPSHOT).values;
 const levels = read("data/source/levels.json");
 const accMap: Record<string, SettingKey[]> = read("data/accompaniment-map.json");
 interface Judged {
@@ -39,6 +43,9 @@ const tagFile: Record<string, { mode: string; pace: string; character: string[];
 
 // second opinion on popularity from Opus (scripts/popularity.ts)
 const popOpus: Record<string, string> = existsSync(join(ROOT, "data/popularity-opus.json")) ? read("data/popularity-opus.json") : {};
+
+// exact IMSLP work pages by piece id (data/imslp-pages.json), found while expanding the catalogue
+const imslpPages: Record<string, string> = existsSync(join(ROOT, "data/imslp-pages.json")) ? read("data/imslp-pages.json") : {};
 
 const header = sheet[0];
 const col = (name: string) => {
@@ -188,6 +195,7 @@ for (const [n, r] of sheet.slice(1).entries()) {
     exams,
     examBoards,
     imslp: g(C.score) !== "",
+    ...(imslpPages[String(id)] ? { imslpPage: imslpPages[String(id)] } : {}),
     set,
     setKey: set ? slugify(`${surname(composer)} ${set}`) : null,
     mode,
@@ -260,8 +268,13 @@ const catalogue: Catalogue = { version, levels: levels.levels, levelNote: levels
 
 for (const dir of ["data/build", "public/data"]) mkdirSync(join(ROOT, dir), { recursive: true });
 const json = JSON.stringify(catalogue);
-writeFileSync(join(ROOT, "data/build/catalogue.json"), json);
-writeFileSync(join(ROOT, "public/data/catalogue.json"), json);
+if (PREVIEW) {
+  mkdirSync(join(ROOT, "data/expansion/preview"), { recursive: true });
+  writeFileSync(join(ROOT, "data/expansion/preview/catalogue.json"), json);
+} else {
+  writeFileSync(join(ROOT, "data/build/catalogue.json"), json);
+  writeFileSync(join(ROOT, "public/data/catalogue.json"), json);
+}
 
 // Compact one-line-per-piece catalogue for the advisor's (cached) system prompt.
 // Grouped by composer to save tokens: "# Bruch, Max" then "id|title|level|type|setting|min|tags|pop".
@@ -285,20 +298,54 @@ const line = (p: Piece) =>
   ]
     .join("|")
     .replace(/\|+$/, "");
+// The whole catalogue stays searchable through the advisor's search_catalogue tool, but its cached prompt only lists the
+// best-known and most-taught works: Haiku 5.5 costs 5× more per token once a request passes 100K tokens, and the
+// complete list no longer fits under that step. Works are ranked by popularity, syllabus listings, recording views and
+// whether they were in the original Sheet; the budget (characters, ~0.635 tokens each) keeps the prompt near 83K tokens.
+const PROMPT_CHARS = Number(process.env.PROMPT_CHARS ?? 124_000);
+const ORIGINAL_MAX_ID = 2253;
+const views = (p: Piece) => {
+  const j = judged[String(p.id)];
+  return j && j.confidence !== "none" ? j.maxViews : 0;
+};
+const importance = (p: Piece) =>
+  (p.popularity === "well-known" ? 4 : p.popularity === "lesser-known" ? -1 : 0) +
+  (p.examBoards.length ? 1.5 + Math.min(p.examBoards.length, 4) * 0.25 : 0) +
+  (views(p) >= 500_000 ? 2 : views(p) >= 100_000 ? 1.5 : views(p) >= 20_000 ? 0.75 : 0) +
+  (p.id <= ORIGINAL_MAX_ID ? 1 : 0);
+const headerLen = (c: string) => c.length + 12;
+const listed = new Set<number>();
+{
+  let chars = 0;
+  const withHeader = new Set<string>();
+  for (const p of [...pieces].sort((a, b) => importance(b) - importance(a) || a.id - b.id)) {
+    const cost = line(p).length + 1 + (withHeader.has(p.composer) ? 0 : headerLen(p.composer));
+    if (chars + cost > PROMPT_CHARS) continue;
+    chars += cost;
+    withHeader.add(p.composer);
+    listed.add(p.id);
+  }
+}
 const byComposer = new Map<string, Piece[]>();
+const totals = new Map<string, number>();
 for (const p of [...pieces].sort((a, b) => a.composer.localeCompare(b.composer) || a.level - b.level)) {
-  byComposer.set(p.composer, [...(byComposer.get(p.composer) ?? []), p]);
+  totals.set(p.composer, (totals.get(p.composer) ?? 0) + 1);
+  if (listed.has(p.id)) byComposer.set(p.composer, [...(byComposer.get(p.composer) ?? []), p]);
 }
 const catalogueText = [...byComposer.values()]
   .map((ps) => {
     const c = ps[0];
-    return `# ${c.composer}${c.gender === "F" ? " (woman)" : ""}\n${ps.map(line).join("\n")}`;
+    const more = totals.get(c.composer)! > ps.length ? ` — ${ps.length} of ${totals.get(c.composer)} listed` : "";
+    return `# ${c.composer}${c.gender === "F" ? " (woman)" : ""}${more}\n${ps.map(line).join("\n")}`;
   })
   .join("\n");
-writeFileSync(
-  join(ROOT, "lib/advisor/catalogue-text.ts"),
-  `// Generated by scripts/build-data.ts — do not edit.\nexport const CATALOGUE_VERSION = ${JSON.stringify(version)};\nexport const CATALOGUE_TEXT = ${JSON.stringify(catalogueText)};\n`,
-);
+if (!PREVIEW)
+  writeFileSync(
+    join(ROOT, "lib/advisor/catalogue-text.ts"),
+    `// Generated by scripts/build-data.ts — do not edit.\nexport const CATALOGUE_VERSION = ${JSON.stringify(version)};\nexport const CATALOGUE_TOTAL = ${pieces.length};\nexport const CATALOGUE_LISTED = ${listed.size};\nexport const CATALOGUE_TEXT = ${JSON.stringify(catalogueText)};\n`,
+  );
+else writeFileSync(join(ROOT, "data/expansion/preview/catalogue-text.txt"), catalogueText);
+console.log(`advisor prompt lists ${listed.size} of ${pieces.length} works (${catalogueText.length} chars)`);
 
 const sets = new Set(pieces.filter((p) => p.setKey).map((p) => p.setKey));
 console.log(

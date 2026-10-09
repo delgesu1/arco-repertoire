@@ -1,0 +1,145 @@
+{
+ "composer": "Handel, George Frideric",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Adagio and Allegro in A major, HWV 406"
+  },
+  {
+   "nid": "N2",
+   "title": "Allegro in C minor, HWV 408"
+  },
+  {
+   "nid": "N3",
+   "title": "Andante in A minor, HWV 412"
+  },
+  {
+   "nid": "N4",
+   "title": "Concerto in B-flat major, HWV 288 ('Sonata a 5')"
+  },
+  {
+   "nid": "N5",
+   "title": "Trio Sonata in C minor, Op. 2 No. 1a, HWV 386a"
+  },
+  {
+   "nid": "N6",
+   "title": "Trio Sonata in G minor, Op. 2 No. 2, HWV 387"
+  },
+  {
+   "nid": "N7",
+   "title": "Trio Sonata in F major, Op. 2 No. 4, HWV 389"
+  },
+  {
+   "nid": "N8",
+   "title": "Trio Sonata in G minor, Op. 2 No. 5, HWV 390"
+  },
+  {
+   "nid": "N9",
+   "title": "Trio Sonata in G minor, Op. 2 No. 6, HWV 391"
+  },
+  {
+   "nid": "N10",
+   "title": "Trio Sonata in F major, HWV 392"
+  },
+  {
+   "nid": "N11",
+   "title": "Trio Sonata in G minor, HWV 393"
+  },
+  {
+   "nid": "N12",
+   "title": "Trio Sonata in E major, HWV 394"
+  },
+  {
+   "nid": "N13",
+   "title": "Trio Sonata in A major, Op. 5 No. 1, HWV 396"
+  },
+  {
+   "nid": "N14",
+   "title": "Trio Sonata in D major, Op. 5 No. 2, HWV 397"
+  },
+  {
+   "nid": "N15",
+   "title": "Trio Sonata in E minor, Op. 5 No. 3, HWV 398"
+  },
+  {
+   "nid": "N16",
+   "title": "Trio Sonata in G major, Op. 5 No. 4, HWV 399"
+  },
+  {
+   "nid": "N17",
+   "title": "Trio Sonata in G minor, Op. 5 No. 5, HWV 400"
+  },
+  {
+   "nid": "N18",
+   "title": "Trio Sonata in F major, HWV 401"
+  },
+  {
+   "nid": "N19",
+   "title": "Trio Sonata in B-flat major, HWV 402"
+  },
+  {
+   "nid": "N20",
+   "title": "Trio Sonata in C major, HWV 403"
+  },
+  {
+   "nid": "N21",
+   "title": "Sonata in G major, HWV 363a"
+  },
+  {
+   "nid": "N22",
+   "title": "Sonata in G major, HWV 358"
+  },
+  {
+   "nid": "N23",
+   "title": "Trio Sonata in B-flat major, Op. 2 No. 3, HWV 388"
+  },
+  {
+   "nid": "N24",
+   "title": "Passacaglia in G minor, after HWV 432 (arr. Halvorsen)"
+  },
+  {
+   "nid": "N25",
+   "title": "Sarabande con variazioni, after HWV 437 (arr. Halvorsen)"
+  }
+ ],
+ "notes": "Existing violin sonata entries check out. Queued HWV 401 and 402 are Op. 5 Nos. 6–7. Queued HWV 363a is the F major oboe sonata; the G major version is HWV 363b (flute). No duplicates found.",
+ "fixes": [
+  {
+   "id": "N18",
+   "field": "title",
+   "value": "Trio Sonata in F major, Op. 5 No. 6, HWV 401",
+   "confidence": "high",
+   "reason": "HWV 401 was published as Op. 5 No. 6 by Walsh (1739)."
+  },
+  {
+   "id": "N18",
+   "field": "set",
+   "value": "Trio Sonatas, Op. 5",
+   "confidence": "high",
+   "reason": "Belongs to the Op. 5 trio sonata set."
+  },
+  {
+   "id": "N19",
+   "field": "title",
+   "value": "Trio Sonata in B-flat major, Op. 5 No. 7, HWV 402",
+   "confidence": "high",
+   "reason": "HWV 402 was published as Op. 5 No. 7 by Walsh (1739)."
+  },
+  {
+   "id": "N19",
+   "field": "set",
+   "value": "Trio Sonatas, Op. 5",
+   "confidence": "high",
+   "reason": "Belongs to the Op. 5 trio sonata set."
+  },
+  {
+   "id": "N21",
+   "field": "title",
+   "value": "Sonata in G major, HWV 363b (Op. 1 No. 5) (orig. flute)",
+   "confidence": "medium",
+   "reason": "HWV 363a is the F major oboe sonata; the G major version is the flute sonata HWV 363b."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

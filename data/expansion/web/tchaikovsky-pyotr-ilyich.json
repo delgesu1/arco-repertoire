@@ -1,0 +1,67 @@
+{
+ "composer": "Tchaikovsky, Pyotr Ilyich",
+ "verdicts": [
+  {
+   "uid": "N1",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Checked although verify=false: IMSLP '2 Pieces, Op.10' lists Humoresque (No.2) for violin and piano arr. Kreisler (New York: Charles Foley / Carl Fischer, 1926). Other versions exist (Tchaikovsky's own, Jurgenson 1877; Hartmann, Breitkopf 1916) - keep only the Kreisler entry.",
+   "source": "https://imslp.org/wiki/2_Pieces,_Op.10_(Tchaikovsky,_Pyotr)"
+  },
+  {
+   "uid": "N2",
+   "verdict": "fix",
+   "title": "Danse russe from Swan Lake, Op. 20 (No. 20a)",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "The number exists (Act III No. 20a; scored for solo violin and orchestra, IMSLP full score) and is performed separately (e.g. Joshua Bell), but I could NOT find the claimed 'Jurgenson c.1895 violin & piano' edition. Violin-and-piano editions found are modern only: Lauren Keiser/Granat 'Three Solos for Violin and Piano from Swan Lake' (2019) and Galaxy 'Tchaikovsky Violin Album: Solos from the Ballets'. Not a historical arrangement by a notable violinist - low priority; owner may drop it if only established arrangements are wanted.",
+   "source": "https://imslp.org/wiki/Swan_Lake_(ballet),_Op.20_(Tchaikovsky,_Pyotr)"
+  },
+  {
+   "uid": "N3",
+   "verdict": "fix",
+   "title": "Lensky's Aria from Eugene Onegin, Op. 24 (arr. Auer)",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: Leopold Auer's transcription of Lensky's aria (Act II No. 17) for violin and piano, dedicated to Mischa Elman, issued by Universal Edition (UE 7687, Vienna; current reprint); IMSLP lists it under Eugene Onegin as 'For Violin and Piano (Auer)'. I could not confirm the original publisher/date, so the queued 'Carl Fischer c.1920s' is unverified. Title only restyled (no double parentheses, opus added).",
+   "source": "https://www.universaledition.com/en/Tschaikowsky-Lensky-s-Aria-from-the-opera-Eugen-Onegin-for-violin-and-piano/P0064028"
+  }
+ ],
+ "gaps": [
+  {
+   "title": "Andante funebre e doloroso ma con moto, from String Quartet No. 3 in E-flat minor, Op. 30 (arr. Tchaikovsky)",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 5,
+   "minutes": 8,
+   "set": "",
+   "arranger": "Tchaikovsky",
+   "edition": "Composer's own arrangement, Dec. 1876 for N. von Meck; Jurgenson, Moscow 1877; Henle Urtext HN 961 'Works for Violin and Piano' (ed. Komarov); recorded by S. Rozhdestvensky (Delos DE 3413)",
+   "source": "https://www.ficksmusic.com/collections/all/products/tchaikovsky-works-for-violin-and-piano-henle",
+   "note": "Minutes is an estimate. Rarely played; include only if composer-made arrangements are wanted (IMSLP quartet page also lists it)."
+  },
+  {
+   "title": "Oh! chante encore (arr. Tchaikovsky from the song Op. 16 No. 4)",
+   "scoring": "violin and piano",
+   "category": "Short Piece",
+   "accompaniment": "Piano",
+   "level_guess": 4,
+   "minutes": 4,
+   "set": "",
+   "arranger": "Tchaikovsky",
+   "edition": "Composer's own arrangement of the song Op. 16 No. 4; Henle Urtext HN 961 (ed. Komarov); first recording Delos DE 3413 (2011)",
+   "source": "https://www.ficksmusic.com/collections/all/products/tchaikovsky-works-for-violin-and-piano-henle",
+   "note": "Minutes is an estimate; could not confirm ČW/TH numbers. Obscure - include only if completeness over Henle's volume is wanted."
+  }
+ ],
+ "existing_issues": []
+}

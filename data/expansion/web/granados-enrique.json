@@ -1,0 +1,31 @@
+{
+  "composer": "Granados, Enrique",
+  "verdicts": [
+    {
+      "uid": "N1",
+      "verdict": "reject",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "A Romanza for violin & piano is listed in Granados work lists (en/ca Wikipedia: undated; a recording by Kiesewetter/Riva is on MusicBrainz) but I found no published edition: the claimed UME late-20th-c. first edition is unconfirmed, it is not on IMSLP, and the 8-minute length looks wrong for a Romanza. Re-add only if a publisher/edition can be named. Other undated violin & piano items in the same lists (Melodía 1903, Tres preludios: La góndola / El toque de guerra / Elevación; Serenata for 2 violins & piano 1914, incomplete) also have no edition evidence, so not offered as gaps.",
+      "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Enrique_Granados"
+    }
+  ],
+  "gaps": [],
+  "existing_issues": [
+    {
+      "id": 975,
+      "issue": "No violin & piano arrangement of Danza española No. 6 'Rondalla aragonesa' (Jota) is documented: IMSLP lists violin arrangements of the 12 Danzas españolas only for No. 5 Andaluza (Kreisler, Carl Fischer 1915, plate 19041; an easier 'Playera' edition ed. Wier, Appleton 1919). The title is also malformed ('No. 6 from Danzas españolas, arr.') with no arranger. Remove, or name arranger and edition before keeping. (Op. 37 for the set is right: en-Wikipedia gives 'Op. 37, H. 142'.)",
+      "suggested_title": "",
+      "source": "https://imslp.org/wiki/12_Danzas_espa%C3%B1olas_(Granados,_Enrique)"
+    },
+    {
+      "id": 1729,
+      "issue": "Title 'Sonata' has no identifier. The violin & piano Sonata is catalogued as 'Sonata for Violin and Piano, H. 127' (Ayo/Canino recording on MusicBrainz) and, per Catalan Wikipedia's chamber-music list, only the first movement is complete (drafts for the other three), so the 8 min probably covers a single movement; check that a published/complete version exists before keeping at level 5.",
+      "suggested_title": "Sonata, H. 127",
+      "source": "https://ca.wikipedia.org/wiki/Enric_Granados"
+    }
+  ]
+}

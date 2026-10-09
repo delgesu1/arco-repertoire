@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // one-off data tooling (catalogue expansion); it works on untyped JSON
+    "scripts/expand/**",
   ]),
 ]);
 

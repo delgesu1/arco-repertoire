@@ -30,7 +30,7 @@ export const TOOLS: Anthropic.Tool[] = [
   {
     name: "search_catalogue",
     description:
-      "Filter the catalogue exactly. Returns matching works (compact lines) and the total count. All filters are optional and combine with AND.",
+      "Filter the whole catalogue exactly, including works that are not listed in your system prompt. Returns matching works (compact lines) and the total count. All filters are optional and combine with AND.",
     input_schema: {
       type: "object",
       properties: { ...filterProps, limit: { type: "integer", minimum: 1, maximum: 40 } },

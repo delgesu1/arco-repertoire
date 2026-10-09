@@ -57,8 +57,12 @@ def fetch(pid, composer, title):
 
 
 def main():
-    rows = json.load(open(ROOT / "data" / "source" / "all-repertoire.json"))["values"][1:]
+    import os
+    snap = os.environ.get("SNAPSHOT", "data/source/all-repertoire.json")
+    rows = json.load(open(ROOT / snap))["values"][1:]
     todo = [(r[16], r[0], r[1]) for r in rows if not (CACHE / f"{r[16]}.json").exists()]
+    if os.environ.get("REVERSE"):
+        todo.reverse()  # a second instance can work from the other end
     if len(sys.argv) > 1:
         todo = todo[: int(sys.argv[1])]
     print(f"{len(todo)} to fetch", flush=True)

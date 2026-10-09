@@ -1,0 +1,120 @@
+{
+  "composer": "Moszkowski, Moritz",
+  "verdicts": [
+    {
+      "uid": "N1",
+      "verdict": "fix",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 7,
+      "set": "",
+      "note": "Exists: Bolero (D major), No. 2 of 2 Konzertstücke Op. 16 for violin & piano (Hainauer 1878, ded. Marianne Scharwenka-Stresow); only the Ballade was later orchestrated, so Piano is right. Only change: Naxos 8.573410 timing is 7:20, not 5.",
+      "source": "https://imslp.org/wiki/2_Konzertst%C3%BCcke,_Op.16_(Moszkowski,_Moritz)"
+    },
+    {
+      "uid": "N2",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "IMSLP: 4 Morceaux Op. 82 for violin & piano (Peters 1909): No. 1 Les Nymphes (F minor, ends F major), ded. Pierre Sechiari. Naxos 8.573410 track 6 (4:57).",
+      "source": "https://imslp.org/wiki/4_Morceaux,_Op.82_(Moszkowski,_Moritz)"
+    },
+    {
+      "uid": "N3",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "IMSLP: No. 2 Caprice (A minor), ded. Alberto Bachmann; opens with unaccompanied Baroque-style passage. Naxos track 7 (3:10), so about 3-4 min.",
+      "source": "https://imslp.org/wiki/4_Morceaux,_Op.82_(Moszkowski,_Moritz)"
+    },
+    {
+      "uid": "N4",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "IMSLP: No. 3 Mélodie (G major), ded. Israel Mendels. Naxos track 8 (5:32), so about 5 min.",
+      "source": "https://imslp.org/wiki/4_Morceaux,_Op.82_(Moszkowski,_Moritz)"
+    },
+    {
+      "uid": "N5",
+      "verdict": "ok",
+      "title": "",
+      "accompaniment": "",
+      "category": "",
+      "minutes": 0,
+      "set": "",
+      "note": "IMSLP: No. 4 Humoresque (D major), ded. George Enescu. Naxos track 9 (4:50).",
+      "source": "https://imslp.org/wiki/4_Morceaux,_Op.82_(Moszkowski,_Moritz)"
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Serenata, Op. 15 No. 1 (arr. Rehfeld)",
+      "scoring": "violin and piano (arr. Fabian Rehfeld of the piano piece, No. 1 of 6 Klavierstücke Op. 15)",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 3,
+      "minutes": 3,
+      "set": "",
+      "arranger": "Fabian Rehfeld",
+      "edition": "Breslau: Julius Hainauer, [1883], plate J. 2516 H (IMSLP); recorded by Maud Powell (Victor 1912) and on Naxos 8.573410",
+      "source": "https://imslp.org/wiki/6_Klavierst%C3%BCcke,_Op.15_(Moszkowski,_Moritz)",
+      "note": "Original piano Serenata is in D major (Andante grazioso); key of the violin version not seen, so left out of the title. Rehfeld also arranged it for cello, string quartet, orchestra (not listed)."
+    },
+    {
+      "title": "Étincelles, Op. 36 No. 6 (arr. Heifetz)",
+      "scoring": "violin and piano (Jascha Heifetz's transcription of 'Sparks', No. 6 of 8 Morceaux caractéristiques)",
+      "category": "Virtuoso Showpiece",
+      "accompaniment": "Piano",
+      "level_guess": 7,
+      "minutes": 2,
+      "set": "",
+      "arranger": "Jascha Heifetz",
+      "edition": "Carl Fischer, New York (publisher credited in the Naxos 8.573410 booklet; no IMSLP score)",
+      "source": "https://eclassical.textalk.se/shop/17115/art47/4967147-b01cf4-747313341078.pdf",
+      "note": "Piano original (1886) is in B-flat major, Allegro scherzando; key of the Heifetz version not confirmed so omitted from title. Recorded 1:33 on Naxos 8.573410."
+    }
+  ],
+  "existing_issues": [
+    {
+      "id": 1103,
+      "issue": "Style only: key missing. Per IMSLP, Op. 12 No. 1 Allegro brioso is in C major; arranger is Philipp Scharwenka (Peters 2167; Carl Simon 1884 for Nos. 1-3). (Émile Sauret made a second, more virtuosic arrangement, Carl Simon 1879; not to be added.)",
+      "suggested_title": "Spanish Dance No. 1 in C major, Op. 12 No. 1 (arr. P. Scharwenka)",
+      "source": "https://imslp.org/wiki/5_Spanish_Dances,_Op.12_(Moszkowski,_Moritz)"
+    },
+    {
+      "id": 1104,
+      "issue": "Style only: key missing (No. 2 Moderato, G minor).",
+      "suggested_title": "Spanish Dance No. 2 in G minor, Op. 12 No. 2 (arr. P. Scharwenka)",
+      "source": "https://imslp.org/wiki/5_Spanish_Dances,_Op.12_(Moszkowski,_Moritz)"
+    },
+    {
+      "id": 1105,
+      "issue": "Style only: key missing (No. 3 Con moto, A major).",
+      "suggested_title": "Spanish Dance No. 3 in A major, Op. 12 No. 3 (arr. P. Scharwenka)",
+      "source": "https://imslp.org/wiki/5_Spanish_Dances,_Op.12_(Moszkowski,_Moritz)"
+    },
+    {
+      "id": 1106,
+      "issue": "Style only: key missing (No. 4 Allegro comodo, B-flat major).",
+      "suggested_title": "Spanish Dance No. 4 in B-flat major, Op. 12 No. 4 (arr. P. Scharwenka)",
+      "source": "https://imslp.org/wiki/5_Spanish_Dances,_Op.12_(Moszkowski,_Moritz)"
+    },
+    {
+      "id": 1107,
+      "issue": "Style only: key missing (No. 5 Bolero, D major).",
+      "suggested_title": "Spanish Dance No. 5 'Bolero' in D major, Op. 12 No. 5 (arr. P. Scharwenka)",
+      "source": "https://imslp.org/wiki/5_Spanish_Dances,_Op.12_(Moszkowski,_Moritz)"
+    }
+  ]
+}

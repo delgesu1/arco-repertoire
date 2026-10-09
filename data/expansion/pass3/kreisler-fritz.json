@@ -1,0 +1,96 @@
+{
+ "composer": "Kreisler, Fritz",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Allegretto in G minor (in the style of Porpora)"
+  },
+  {
+   "nid": "N2",
+   "title": "Aubade provençale (in the style of Couperin)"
+  },
+  {
+   "nid": "N3",
+   "title": "Aus Wien (Viennese Melody)"
+  },
+  {
+   "nid": "N4",
+   "title": "Cavatina in B-flat major"
+  },
+  {
+   "nid": "N5",
+   "title": "Episode"
+  },
+  {
+   "nid": "N6",
+   "title": "Malagueña"
+  },
+  {
+   "nid": "N7",
+   "title": "Paraphrase on Two Russian Folk Songs"
+  },
+  {
+   "nid": "N8",
+   "title": "Slavonic Fantasy in B minor (after Dvořák)"
+  },
+  {
+   "nid": "N9",
+   "title": "Study on a Choral (in the style of Stamitz)"
+  },
+  {
+   "nid": "N10",
+   "title": "Alt-Wiener Tanzweisen (Three Old Viennese Dances) (complete)"
+  }
+ ],
+ "notes": "No duplicates found. N1 (Porpora Allegretto) is distinct from the Porpora Menuet (1040), and the N10 complete set does not duplicate its three member dances. Queued titles N3–N7 are unverified (low confidence) and were left untouched. Level changes are lowered toward the exam evidence. The set field is aligned with N10 for the three Old Viennese Dances.",
+ "fixes": [
+  {
+   "id": "1036",
+   "field": "set",
+   "value": "Alt-Wiener Tanzweisen",
+   "confidence": "medium",
+   "reason": "Liebesfreud is No. 2 of the Alt-Wiener Tanzweisen, matching queued N10's set name."
+  },
+  {
+   "id": "1037",
+   "field": "set",
+   "value": "Alt-Wiener Tanzweisen",
+   "confidence": "medium",
+   "reason": "Liebesleid is No. 1 of the Alt-Wiener Tanzweisen, per IMSLP's '3 Old Viennese Dances'."
+  },
+  {
+   "id": "1048",
+   "field": "set",
+   "value": "Alt-Wiener Tanzweisen",
+   "confidence": "medium",
+   "reason": "Schön Rosmarin is No. 3 of the Alt-Wiener Tanzweisen, per IMSLP's '3 Old Viennese Dances'."
+  }
+ ],
+ "levels": [
+  {
+   "id": "1028",
+   "level": 3,
+   "confidence": "medium",
+   "reason": "RCM 6 listing (about level 2) puts it below L4, alongside the Martini Andantino."
+  },
+  {
+   "id": "1031",
+   "level": 3,
+   "confidence": "medium",
+   "reason": "RCM 6, ASTA CAP 6 and UIL Gr 2 listings indicate upper-intermediate, not L4."
+  },
+  {
+   "id": "1053",
+   "level": 3,
+   "confidence": "medium",
+   "reason": "RCM 5 listing (about level 1–2) is well below the current L4."
+  },
+  {
+   "id": "1051",
+   "level": 4,
+   "confidence": "medium",
+   "reason": "Trinity Gr 6 and RCM 7 listings (about level 3) are two levels below L5."
+  }
+ ],
+ "duplicates": []
+}

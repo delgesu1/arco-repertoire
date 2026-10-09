@@ -1,0 +1,23 @@
+{
+ "composer": "Glazunov, Alexander",
+ "queued": [],
+ "notes": "Small list with no duplicates. The Mazurka-Oberek accompaniment is changed to house style for concert pieces playable either way. The Méditation, Op. 32 is lowered one level to match its ABRSM/Trinity Grade 7 listings.",
+ "fixes": [
+  {
+   "id": "26",
+   "field": "accompaniment",
+   "value": "Piano or orchestra",
+   "confidence": "medium",
+   "reason": "Concert piece for violin and orchestra, regularly played with piano; house style for single-movement concert pieces."
+  }
+ ],
+ "levels": [
+  {
+   "id": "964",
+   "level": 4,
+   "confidence": "medium",
+   "reason": "Listed at ABRSM Gr 7 and Trinity Gr 7 (≈ level 4); comparable to Massenet Méditation at L4."
+  }
+ ],
+ "duplicates": []
+}

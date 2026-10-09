@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
+import { catalogue } from "@/lib/catalogue";
 
 export const alt = "Arco Repertoire: what should you play next?";
 export const size = { width: 1200, height: 630 };
@@ -86,7 +87,7 @@ export default async function Image() {
             What should you play next?
           </div>
           <div style={{ fontSize: 33, lineHeight: 1.35, color: MUTED, marginTop: 26, maxWidth: 980 }}>
-            2,253 graded violin works, with recordings, and an AI advisor that knows every one of them.
+            {`${catalogue.pieces.length.toLocaleString("en")} graded violin works, with recordings, and an AI advisor that knows every one of them.`}
           </div>
         </div>
 

@@ -1,0 +1,50 @@
+{
+ "composer": "Schubert, Franz",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "11 Ländler in B-flat major, D. 374"
+  },
+  {
+   "nid": "N2",
+   "title": "9 Ländler in D major, D. 370"
+  },
+  {
+   "nid": "N3",
+   "title": "8 Ländler in F-sharp minor, D. 355"
+  },
+  {
+   "nid": "N4",
+   "title": "Moment musical No. 3 in F minor, D. 780 No. 3 (arr. Kreisler)"
+  },
+  {
+   "nid": "N5",
+   "title": "Ballet Music from Rosamunde in G major, D. 797 (arr. Kreisler)"
+  }
+ ],
+ "notes": "No duplicates found. Rondo arr. Friedberg & Kreisler (1201) is an arrangement and is kept separate. Queued Ländler D. 355, 370 and 374 are usually catalogued as piano dances; check their solo-violin attribution before adding.",
+ "fixes": [
+  {
+   "id": "540",
+   "field": "minutes",
+   "value": "3",
+   "confidence": "high",
+   "reason": "IMSLP gives an average duration of 3 minutes for D. 354."
+  }
+ ],
+ "levels": [
+  {
+   "id": "1200",
+   "level": 4,
+   "confidence": "medium",
+   "reason": "The Wilhelmj G-string transcription is a lyrical encore, comparable to the Air on the G String (L3) and Méditation (L4); L6 is too high."
+  },
+  {
+   "id": "1897",
+   "level": 7,
+   "confidence": "medium",
+   "reason": "The complete Duo is set for Trinity LTCL with ABRSM LRSM movements, so it sits above the Sonatinas and below Rondo brillant (L8)."
+  }
+ ],
+ "duplicates": []
+}

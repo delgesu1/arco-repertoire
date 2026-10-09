@@ -1,0 +1,92 @@
+{
+ "composer": "Wieniawski, Henryk",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Rêverie-nocturne, Op. 23 No. 3"
+  },
+  {
+   "nid": "N2",
+   "title": "Sielanka (Mazurka), Op. 12 No. 1"
+  },
+  {
+   "nid": "N3",
+   "title": "Souvenir de Posen in D minor, Op. 3 (Mazurka caractéristique)"
+  },
+  {
+   "nid": "N4",
+   "title": "Allegro de sonate, Op. 2"
+  },
+  {
+   "nid": "N5",
+   "title": "Grand Duo polonais, Op. 8"
+  }
+ ],
+ "notes": "Mostly accurate. Fixed the Op. 18 accompaniment, added Op. 23 numbering and set, filled in set fields for the Op. 12 and Op. 19 mazurkas, and added the IMSLP duration for Op. 5. Also lowered Obertass in line with its RCM 8 listing and set Sielanka to match its companion piece. No duplicates found.",
+ "fixes": [
+  {
+   "id": "667",
+   "field": "accompaniment",
+   "value": "2 violins",
+   "confidence": "high",
+   "reason": "Op. 18 caprices are written with a second violin part, as the title states."
+  },
+  {
+   "id": "1352",
+   "field": "title",
+   "value": "Gigue in E minor, Op. 23 No. 1",
+   "confidence": "high",
+   "reason": "IMSLP lists Gigue as No. 1 of 3 Feuillets d'album, Op. 23."
+  },
+  {
+   "id": "1352",
+   "field": "set",
+   "value": "3 Feuillets d'album, Op. 23",
+   "confidence": "high",
+   "reason": "Belongs to Op. 23 set, matching queued Rêverie-nocturne entry."
+  },
+  {
+   "id": "1349",
+   "field": "set",
+   "value": "2 Mazurkas, Op. 12",
+   "confidence": "high",
+   "reason": "IMSLP: Op. 12 is 2 Mazurkas; matches queued Sielanka entry."
+  },
+  {
+   "id": "1350",
+   "field": "set",
+   "value": "2 Mazurkas, Op. 19",
+   "confidence": "high",
+   "reason": "IMSLP: Op. 19 is 2 Mazurkas (Obertass, Dudziarz)."
+  },
+  {
+   "id": "1354",
+   "field": "set",
+   "value": "2 Mazurkas, Op. 19",
+   "confidence": "high",
+   "reason": "IMSLP: Op. 19 is 2 Mazurkas (Obertass, Dudziarz)."
+  },
+  {
+   "id": "1348",
+   "field": "minutes",
+   "value": "7",
+   "confidence": "high",
+   "reason": "IMSLP gives 7 minutes duration."
+  }
+ ],
+ "levels": [
+  {
+   "id": "1354",
+   "level": 5,
+   "confidence": "medium",
+   "reason": "RCM 8 listing (≈L4); comparable to Kujawiak at L5."
+  },
+  {
+   "id": "N2",
+   "level": 4,
+   "confidence": "medium",
+   "reason": "Companion Chanson polonaise Op. 12 No. 2 sits at L3; similar difficulty."
+  }
+ ],
+ "duplicates": []
+}

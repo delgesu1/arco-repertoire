@@ -1,0 +1,34 @@
+{
+ "composer": "Falla, Manuel de",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Jota (from Suite populaire espagnole, arr. Kochański)"
+  },
+  {
+   "nid": "N2",
+   "title": "Nana (from Suite populaire espagnole, arr. Kochański)"
+  },
+  {
+   "nid": "N3",
+   "title": "Asturiana (from Suite populaire espagnole, arr. Kochański)"
+  }
+ ],
+ "notes": "Facts look acceptable, and there are no duplicates: the queued movements are members of the suite (2034), not copies of it. Two level adjustments are suggested on exam evidence.",
+ "fixes": [],
+ "levels": [
+  {
+   "id": "2137",
+   "level": 7,
+   "confidence": "medium",
+   "reason": "Exam listings (ABRSM ARSM, RCM ARCT, AMEB AMusA) point to level 6–7, not 8."
+  },
+  {
+   "id": "N2",
+   "level": 3,
+   "confidence": "medium",
+   "reason": "Lyrical Nana is likely behind the suite's RCM 5–6 movement listings and is easiest of the set."
+  }
+ ],
+ "duplicates": []
+}

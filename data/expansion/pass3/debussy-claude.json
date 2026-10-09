@@ -1,0 +1,100 @@
+{
+ "composer": "Debussy, Claude",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Arabesque No. 1 in E major, L. 66 No. 1 (arr. Choisnel)"
+  },
+  {
+   "nid": "N2",
+   "title": "Arabesque No. 2 in G major, L. 66 No. 2 (arr. Choisnel)"
+  },
+  {
+   "nid": "N3",
+   "title": "Rêverie, L. 68 (arr. Bachmann)"
+  },
+  {
+   "nid": "N4",
+   "title": "Menuet (from Petite suite, L. 65) (arr. Choisnel)"
+  },
+  {
+   "nid": "N5",
+   "title": "Ballet (from Petite suite, L. 65) (arr. Choisnel)"
+  }
+ ],
+ "notes": "No duplicates found and no levels changed. The fixes add missing old-Lesure catalogue numbers, consistent with L. 140, L. 121 and the queued entries. They also align En bateau's set with the queued Petite suite movements and fill in the missing duration for the Faune transcription.",
+ "fixes": [
+  {
+   "id": "888",
+   "field": "title",
+   "value": "Beau soir, L. 84 (arr. Heifetz)",
+   "confidence": "high",
+   "reason": "Missing Lesure number; Beau soir is L. 84 in the old Lesure catalogue used elsewhere."
+  },
+  {
+   "id": "889",
+   "field": "title",
+   "value": "Clair de lune (from Suite bergamasque, L. 75) (arr. Roelens)",
+   "confidence": "high",
+   "reason": "Missing source and catalogue; Suite bergamasque is L. 75."
+  },
+  {
+   "id": "890",
+   "field": "title",
+   "value": "En bateau (from Petite suite, L. 65) (arr. Choisnel)",
+   "confidence": "high",
+   "reason": "Missing source and catalogue; matches the queued Petite suite movements (L. 65)."
+  },
+  {
+   "id": "890",
+   "field": "set",
+   "value": "Petite suite (arr. Choisnel)",
+   "confidence": "high",
+   "reason": "Same arranged set as queued Menuet and Ballet."
+  },
+  {
+   "id": "891",
+   "field": "title",
+   "value": "Golliwog's Cakewalk (from Children's Corner, L. 113) (arr. Heifetz)",
+   "confidence": "high",
+   "reason": "Missing source and catalogue; Children's Corner is L. 113."
+  },
+  {
+   "id": "892",
+   "field": "title",
+   "value": "Il pleure dans mon cœur (from Ariettes oubliées, L. 60 No. 2) (arr. Hartmann)",
+   "confidence": "medium",
+   "reason": "Missing source; second song of Ariettes oubliées, L. 60."
+  },
+  {
+   "id": "893",
+   "field": "title",
+   "value": "La fille aux cheveux de lin (Préludes, Book 1 No. 8, L. 117 No. 8) (arr. Hartmann)",
+   "confidence": "high",
+   "reason": "Missing catalogue; Prelude No. 8 of Book 1, L. 117."
+  },
+  {
+   "id": "895",
+   "field": "title",
+   "value": "Minstrels (Préludes, Book 1 No. 12, L. 117 No. 12) (arr. Debussy)",
+   "confidence": "high",
+   "reason": "Missing catalogue; Prelude No. 12 of Book 1, L. 117."
+  },
+  {
+   "id": "896",
+   "field": "title",
+   "value": "Prélude à l'après-midi d'un faune, L. 86 (arr. Heifetz)",
+   "confidence": "high",
+   "reason": "Missing catalogue; the Faune prelude is L. 86."
+  },
+  {
+   "id": "896",
+   "field": "minutes",
+   "value": "9",
+   "confidence": "medium",
+   "reason": "The work lasts about 9–10 minutes; duration was unknown."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

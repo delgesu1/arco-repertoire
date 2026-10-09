@@ -1,0 +1,52 @@
+{
+  "composer": "Glazunov, Alexander",
+  "verdicts": [],
+  "gaps": [
+    {
+      "title": "Mélodie arabe, Op. 4 No. 4 (arr. Kochański)",
+      "scoring": "violin and piano (arrangement of the 4th of the 5 Romances for voice and piano, Op. 4, also known as 'Arabian Melody'; Glazunov's own cello version exists too)",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 5,
+      "minutes": 3,
+      "set": "",
+      "arranger": "Kochański",
+      "edition": "Paul Kochanski arr., A.E. Fischer, New York 1933 (plate 22628); also Schott ED 7354 'Mélodie arabe' for violin & piano ed./arr. Samuel Dushkin (in 'Samuel Dushkin Repertoire', ED 20423); J. & W. Chester edition 'for cello or violin and piano' (J.W.C. 901)",
+      "source": "https://imslp.org/wiki/5_Romances,_Op.4_(Glazunov,_Aleksandr)",
+      "note": "Second source: Boosey & Hawkes shop lists the Schott ED 7354 violin & piano edition (Dushkin) https://www.boosey.com/shop/prod/Glazunov-Alexander-Melodie-Arabe-violin-piano/2156444 . Recording evidence: Kochanski made Brunswick matrices 725W-727W 'Melodie arabe' with Gregory Ashman in 1925 (DAHR, unissued/unknown status); modern commercial recordings are mostly cello. Pick Kochanski as the arranger credit (IMSLP) or Dushkin (Schott)."
+    },
+    {
+      "title": "Valse (from Raymonda, Op. 57) (arr. Pogojeff)",
+      "scoring": "violin and piano (transcription of the Act I waltz from the ballet)",
+      "category": "Short Piece",
+      "accompaniment": "Piano",
+      "level_guess": 6,
+      "minutes": 3,
+      "set": "",
+      "arranger": "Pogojeff",
+      "edition": "M.P. Belaieff BEL 808 'Two Pieces from the ballet Raymonda' (Grand Adagio + Valse, transcr. W. Pogojeff), now Schott; IMSLP also lists Pogozhev's violin & piano Waltz, Muzgiz 1950 (plate 20776)",
+      "source": "https://www.schott-music.com/en/zwei-stuecke-aus-dem-ballett-raymonda-noc283236.html",
+      "note": "OPTIONAL / LOW PRIORITY: published and in print, but I found no recording evidence and Pogojeff is not a notable performer-arranger. Add only together with the Grand Adagio (id 963) if that entry is attributed to the Pogojeff set."
+    }
+  ],
+  "existing_issues": [
+    {
+      "id": 26,
+      "issue": "Key missing; IMSLP gives D major, 1917, dedicated to Kochanski, and lists NO opus number (Wikipedia's work list shows 'Op. 100A/B' but Op. 100 is the Piano Concerto No. 2 on IMSLP, so leave the opus out).",
+      "suggested_title": "Mazurka-Oberek in D major",
+      "source": "https://imslp.org/wiki/Mazurka-oberek_(Glazunov,_Aleksandr)"
+    },
+    {
+      "id": 963,
+      "issue": "Title lacks the opus number and arranger ('arr.' alone). Zimbalist's violin & piano arrangement of the Raymonda Grand Adagio is published by G. Schirmer (c. 4 min); a separate Belaieff transcription by Pogojeff (BEL 808) also exists, and Heifetz recorded a 'Grand adagio' for Victor in 1922. The Raymonda ballet is Op. 57.",
+      "suggested_title": "Grand Adagio (from Raymonda, Op. 57) (arr. Zimbalist)",
+      "source": "https://wisemusicclassical.com/work/45390/Grand-Adagio-from-Raymonda--Alexander-Glazunov"
+    },
+    {
+      "id": 962,
+      "issue": "No change needed, but note: Albumblatt is originally for trumpet and piano (1899, D-flat major, no opus, IAG 117, ded. A. W. Kosmakov); the violin version is a Belaieff transcription by Jean-Francois Gonzales (ed. Michael/Mikhail Goldstein), SKU BEL508A, 6 pp. Retailers disagree on who is 'editor' and who is 'arranger'.",
+      "suggested_title": "",
+      "source": "https://www.ficksmusic.com/collections/alexander-glazunov/products/glazunov-album-leaf-belaieff"
+    }
+  ]
+}

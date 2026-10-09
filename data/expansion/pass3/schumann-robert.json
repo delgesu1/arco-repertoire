@@ -1,0 +1,68 @@
+{
+ "composer": "Schumann, Robert",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Fünf Stücke im Volkston, Op. 102 (orig. cello)"
+  },
+  {
+   "nid": "N2",
+   "title": "Concerto in A minor, Op. 129 (orig. cello) (arr. Joachim)"
+  },
+  {
+   "nid": "N3",
+   "title": "Fröhlicher Landmann (The Happy Farmer), Op. 68 No. 10 (arr. Suzuki)"
+  },
+  {
+   "nid": "N4",
+   "title": "Die beiden Grenadiere (The Two Grenadiers), Op. 49 No. 1 (arr. Suzuki)"
+  }
+ ],
+ "notes": "Main errors: the wrong WoO number for Sonata No. 3 and a misattributed arranger for the Op. 129 violin version. Missing durations are filled in for the Widmung and the individual Op. 94 Romances. The complete Op. 94 set and its separate members are not duplicates. No level changes were warranted.",
+ "fixes": [
+  {
+   "id": "1904",
+   "field": "title",
+   "value": "Sonata No. 3 in A minor, WoO 2",
+   "confidence": "high",
+   "reason": "IMSLP and the McCorkle catalogue list the Third Violin Sonata as WoO 2, not WoO 27."
+  },
+  {
+   "id": "1208",
+   "field": "minutes",
+   "value": "3",
+   "confidence": "high",
+   "reason": "Widmung is a short song, about 2–3 minutes in transcription."
+  },
+  {
+   "id": "1209",
+   "field": "minutes",
+   "value": "4",
+   "confidence": "medium",
+   "reason": "Op. 94 No. 2 typically lasts about 4 minutes."
+  },
+  {
+   "id": "1210",
+   "field": "minutes",
+   "value": "3",
+   "confidence": "medium",
+   "reason": "Op. 94 No. 1 typically lasts about 3–4 minutes."
+  },
+  {
+   "id": "1211",
+   "field": "minutes",
+   "value": "4",
+   "confidence": "medium",
+   "reason": "Op. 94 No. 3 typically lasts about 4 minutes."
+  },
+  {
+   "id": "N2",
+   "field": "title",
+   "value": "Concerto in A minor, Op. 129 (orig. cello)",
+   "confidence": "high",
+   "reason": "The 1853 violin version of the Cello Concerto was made by Schumann himself, not Joachim."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

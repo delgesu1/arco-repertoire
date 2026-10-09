@@ -1,0 +1,33 @@
+{
+ "composer": "Auer, Leopold",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "12 Characteristic Preludes, Op. 9 (in the form of melodic studies)"
+  },
+  {
+   "nid": "N2",
+   "title": "Rêverie No. 2 in E-flat major"
+  },
+  {
+   "nid": "N3",
+   "title": "Romance, Op. 4"
+  },
+  {
+   "nid": "N4",
+   "title": "Graded Course of Violin Playing (8 books)"
+  }
+ ],
+ "notes": "Auer's catalogue is thin and poorly documented, so I made only one minor change. I filled in a minutes value for the Rêverie, Op. 3. Existing levels look sensibly ordered: the lyrical Rêverie sits below the two virtuoso showpieces. I could not verify the queued N1–N3 (the 12 Preludes, the Rêverie No. 2 and the Romance), so they are left untouched. The Rêverie No. 2 has no opus number to match against Op. 3, so I am not flagging it as a duplicate. The Graded Course (Carl Fischer, 8 books) is genuine.",
+ "fixes": [
+  {
+   "id": "689",
+   "field": "minutes",
+   "value": "4",
+   "confidence": "medium",
+   "reason": "A single-movement lyrical salon rêverie typically lasts about 4 minutes; the field is currently unknown."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

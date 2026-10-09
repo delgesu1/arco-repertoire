@@ -1,0 +1,86 @@
+{
+ "composer": "Dvořák, Antonín",
+ "queued": [
+  {
+   "nid": "N1",
+   "title": "Capriccio in C major, B. 81"
+  },
+  {
+   "nid": "N2",
+   "title": "Nocturne in B major, Op. 40, B. 48a"
+  },
+  {
+   "nid": "N3",
+   "title": "Indian Lament (Indianisches Lamento), from Sonatina Op. 100 (arr. Kreisler)"
+  },
+  {
+   "nid": "N4",
+   "title": "Slavonic Fantasy in B minor (arr. Kreisler)"
+  },
+  {
+   "nid": "N5",
+   "title": "Gavotte in G minor for Three Violins, B. 164"
+  }
+ ],
+ "notes": "Dvořák list is largely accurate. Fixes cover missing minutes for the Op. 75 pieces, the missing key in Kreisler's Slavonic Dance No. 3, and accompaniment for works that exist in both piano and orchestral versions, plus the Rusalka arrangement. No levels changed and no duplicates found: N3 (Kreisler's Indian Lament) is a separate arrangement, not the Sonatina itself.",
+ "fixes": [
+  {
+   "id": "919",
+   "field": "title",
+   "value": "Slavonic Dance No. 3 in G major, Op. 72 No. 8 (arr. Kreisler)",
+   "confidence": "medium",
+   "reason": "Kreisler's Slavonic Dance No. 3 is published in G major, transposed from the A-flat original."
+  },
+  {
+   "id": "913",
+   "field": "minutes",
+   "value": "3",
+   "confidence": "medium",
+   "reason": "The Op. 75 set lasts about 15 minutes; No. 1 is about 3 minutes."
+  },
+  {
+   "id": "914",
+   "field": "minutes",
+   "value": "3",
+   "confidence": "medium",
+   "reason": "The Op. 75 set lasts about 15 minutes; No. 2 is about 3 minutes."
+  },
+  {
+   "id": "915",
+   "field": "minutes",
+   "value": "4",
+   "confidence": "medium",
+   "reason": "The Op. 75 set lasts about 15 minutes; No. 3 is about 4 minutes."
+  },
+  {
+   "id": "916",
+   "field": "minutes",
+   "value": "5",
+   "confidence": "medium",
+   "reason": "The Op. 75 set lasts about 15 minutes; the closing Larghetto is about 5 minutes."
+  },
+  {
+   "id": "21",
+   "field": "accompaniment",
+   "value": "Piano or orchestra",
+   "confidence": "medium",
+   "reason": "IMSLP lists both violin-and-piano and violin-and-orchestra versions from 1879."
+  },
+  {
+   "id": "22",
+   "field": "accompaniment",
+   "value": "Piano or orchestra",
+   "confidence": "medium",
+   "reason": "The Romance exists in Dvořák's own versions with orchestra and with piano."
+  },
+  {
+   "id": "920",
+   "field": "accompaniment",
+   "value": "Piano",
+   "confidence": "medium",
+   "reason": "Violin arrangements of the aria are normally published with piano."
+  }
+ ],
+ "levels": [],
+ "duplicates": []
+}

@@ -1,0 +1,82 @@
+{
+ "composer": "Wieniawski, Henryk",
+ "verdicts": [
+  {
+   "uid": "N1",
+   "verdict": "reject",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Not documented as published: IMSLP's '3 Feuillets d'album, Op.23' lists Gigue / Chanson polonaise sans paroles / Reverie-nocturne, but every edition (Litolff 1911, UE c.1910, Augener c.1887) holds the Gigue alone and the 1880 Jurgenson print contains only the Gigue; the page itself says Nos. 2-3 'may never have been edited'. Wikipedia (en/pl) lists only 'Gigue in E minor, Op. 23'. Keep only the Gigue.",
+   "source": "https://imslp.org/wiki/3_Feuillets_d%27album,_Op.23_(Wieniawski,_Henri)"
+  },
+  {
+   "uid": "N2",
+   "verdict": "ok",
+   "title": "",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: Op. 12 'Deux mazurkas de salon', No. 1 Sielanka (A la champetre), No. 2 Chanson polonaise (Piesn polska) - IMSLP lists No. 1 'Sielanka la Champetre' and No. 2 'Chanson Polonaise'; Polish and English Wikipedia agree. Editions: Kistner (plate 2026), Augener (ed. Hermann), Universal Edition c.1920, Peters, Schott 1911 (No. 1). Existing id 1349 (Op. 12 No. 2) is consistent. IMSLP gives no keys.",
+   "source": "https://imslp.org/wiki/2_Mazurkas,_Op.12_(Wieniawski,_Henri)"
+  },
+  {
+   "uid": "N4",
+   "verdict": "fix",
+   "title": "Allegro de sonate in G minor, Op. 2",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: 'Allegro de sonate (Presto) pour violon et piano concertant', Paris 1848, G minor, co-composed with brother Jozef Wieniawski, dedicated to Moniuszko; first edition Leipzig: Kistner 1854 (plate 2061); new edition by Jozef, Kistner 1898. Key added; IMSLP lists it under Collaborations.",
+   "source": "https://imslp.org/wiki/Allegro_de_Sonate,_Op.2_(Wieniawski,_Henri)"
+  },
+  {
+   "uid": "N5",
+   "verdict": "fix",
+   "title": "Grand duo polonais in G major, Op. 8",
+   "accompaniment": "",
+   "category": "",
+   "minutes": 0,
+   "set": "",
+   "note": "Exists: 'Grand duo polonais pour violon et piano concertant', G major, co-composed with Jozef Wieniawski (his Op. 5), Berlin: Bote & Bock 1855 (plate 2921); Polish Wikipedia dates it c.1852. Key added; IMSLP lists it under Collaborations.",
+   "source": "https://imslp.org/wiki/Grand_duo_polonais,_Op.8_(Wieniawski,_Henri)"
+  }
+ ],
+ "gaps": [],
+ "existing_issues": [
+  {
+   "id": 2238,
+   "issue": "Title conflates two different Kreisler arrangements. Kreisler's 'Caprice in A minor' is Wieniawski's Etude-Caprice Op. 18 No. 4 (Carl Fischer 1913, plate 18); 'Alla saltarella' is Op. 10 No. 5 in E-flat major (Schott 1913, plate 17), not A minor.",
+   "suggested_title": "Caprice in A minor, Op. 18 No. 4 (arr. Kreisler)",
+   "source": "https://imslp.org/wiki/Etudes-Caprices,_Op.18_(Wieniawski,_Henri)"
+  },
+  {
+   "id": 2240,
+   "issue": "This is Kreisler's arrangement of L'Ecole moderne Op. 10 No. 5 'Alla saltarella' (E-flat major); the nickname/opus should be in the title.",
+   "suggested_title": "Caprice in E-flat major \"Alla saltarella\", Op. 10 No. 5 (arr. Kreisler)",
+   "source": "https://imslp.org/wiki/L%27%C3%A9cole_moderne,_Op.10_(Wieniawski,_Henri)"
+  },
+  {
+   "id": 2239,
+   "issue": "Could not verify: IMSLP lists no Heifetz arrangement of any Wieniawski piece (Heifetz category has only two arrangements; Op. 10 and Op. 18 pages list only Kreisler/Hochstein). Source work and key ('E major') need checking; possibly a mis-attribution of one of the Kreisler caprices.",
+   "suggested_title": "",
+   "source": "https://imslp.org/wiki/Category:Heifetz,_Jascha"
+  },
+  {
+   "id": 667,
+   "issue": "Accompaniment should be '2 violins' (IMSLP: 8 Etudes for Two Violins, Op. 18), not 'Unaccompanied'.",
+   "suggested_title": "",
+   "source": "https://imslp.org/wiki/Etudes-Caprices,_Op.18_(Wieniawski,_Henri)"
+  },
+  {
+   "id": 1352,
+   "issue": "Gigue is No. 1 of '3 Feuillets d'album, Op. 23'; add the number (key E minor confirmed by en/pl Wikipedia). No. 3 Reverie-nocturne (queued N1) is not documented as published.",
+   "suggested_title": "Gigue in E minor, Op. 23 No. 1",
+   "source": "https://imslp.org/wiki/3_Feuillets_d%27album,_Op.23_(Wieniawski,_Henri)"
+  }
+ ]
+}
