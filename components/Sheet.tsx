@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import type { LevelInfo, Piece } from "@/lib/types";
 import { PieceDetail } from "./PieceDetail";
+import { ExternalIcon } from "./icons";
 import { pieceHref } from "./pieces";
 
 export function Sheet({
@@ -63,7 +64,7 @@ export function Sheet({
       <div className="scrim" onClick={onClose} />
       <div className="sheet" role="dialog" aria-modal="true" aria-label={piece.title} ref={panel} tabIndex={-1}>
         <div className="sheet-top">
-          <a href={pieceHref(piece)}>Open as a page ↗</a>
+          <a href={pieceHref(piece)}>Open as a page <ExternalIcon /></a>
           <button className="close" onClick={onClose} aria-label="Close">
             ×
           </button>

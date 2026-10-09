@@ -3,6 +3,7 @@
 import { Fragment, useCallback, useEffect, useRef, useState } from "react";
 import type { Piece } from "@/lib/types";
 import { writeUrl } from "@/lib/url-state";
+import { MinimizeIcon } from "./icons";
 
 type UiEvent =
   | { kind: "results"; title: string; items: { id: number; reason: string }[] }
@@ -61,6 +62,14 @@ export function AskPanel({
   }, []);
   const [turns, setTurns] = useState<Turn[]>(saved?.turns ?? []);
   const [busy, setBusy] = useState(false);
+  // a reply that finished while the panel was minimized
+  const [unread, setUnread] = useState(false);
+  const openRef = useRef(open);
+  useEffect(() => {
+    openRef.current = open;
+    // reopening shows the latest message, not the top of the conversation
+    if (open) scroller.current?.scrollTo({ top: scroller.current.scrollHeight });
+  }, [open]);
   const [input, setInput] = useState("");
   const [nearLimit, setNearLimit] = useState(false);
   const history = useRef<{ history: string; sig: string } | null>(saved?.history ?? null);
@@ -92,11 +101,17 @@ export function AskPanel({
     setBusy(false);
   };
 
+  const show = () => {
+    setOpen(true);
+    setUnread(false);
+  };
+
   const send = useCallback(
     async (text: string) => {
       const t = text.trim();
       if (!t || busy) return;
       setOpen(true);
+      setUnread(false);
       setInput("");
       setBusy(true);
       setTurns((ts) => [...ts, { role: "user", text: t }, { role: "assistant", text: "", thinking: "", status: [], done: false }]);
@@ -154,6 +169,7 @@ export function AskPanel({
         if ((e as Error).name !== "AbortError") patchLast((a) => ({ ...a, error: "Connection lost — please try again.", done: true }));
       } finally {
         setBusy(false);
+        if (!openRef.current) setUnread(true);
       }
     },
     [busy, byId, getContext, onFilters, onResults],
@@ -165,7 +181,10 @@ export function AskPanel({
       p.delete("ask");
       writeUrl(p);
     }
-    const onOpen = () => setOpen(true);
+    const onOpen = () => {
+      setOpen(true);
+      setUnread(false);
+    };
     window.addEventListener("advisor:open", onOpen);
     return () => window.removeEventListener("advisor:open", onOpen);
   }, []);
@@ -179,18 +198,28 @@ export function AskPanel({
   }, [request, send]);
 
   const lastAssistant = [...turns].reverse().find((t) => t.role === "assistant") as Extract<Turn, { role: "assistant" }> | undefined;
+  const dockState = busy ? "Thinking" : unread ? "New reply" : turns.length ? "Resume" : null;
 
   return (
     <>
       {!open && (
         <aside className={`ask-dock${compact ? " compact" : ""}`} aria-label="Ask the advisor">
-          <button className="ask-title" onClick={() => setOpen(true)}>
+          <button
+            className="ask-title"
+            onClick={show}
+            aria-label={turns.length ? "Open your conversation with the advisor" : "Open the advisor"}
+          >
             Ask
+            {dockState && <span className={`ask-state${busy ? " busy" : unread ? " new" : ""}`}>{dockState}</span>}
           </button>
           <p>
-            {turns.length
-              ? "Pick up where you left off, or ask something new."
-              : "Tell me what you’ve played or what kind of vibe you’re looking for, and I’ll suggest some pieces!"}
+            {busy
+              ? "Still working on your question…"
+              : unread
+                ? "Your answer is ready."
+                : turns.length
+                  ? "Pick up where you left off, or ask something new."
+                  : "Tell me what you’ve played or what kind of vibe you’re looking for, and I’ll suggest some pieces!"}
           </p>
           <form
             onSubmit={(e) => {
@@ -198,7 +227,7 @@ export function AskPanel({
               if (dockInput.trim()) {
                 send(dockInput);
                 setDockInput("");
-              } else setOpen(true);
+              } else show();
             }}
           >
             <input
@@ -222,8 +251,13 @@ export function AskPanel({
                   New conversation
                 </button>
               )}
-              <button className="close" onClick={() => setOpen(false)} aria-label="Close the advisor">
-                ×
+              <button
+                className="close ask-min"
+                onClick={() => setOpen(false)}
+                aria-label="Minimize the advisor"
+                title="Minimize (your conversation is kept)"
+              >
+                <MinimizeIcon />
               </button>
             </span>
           </div>

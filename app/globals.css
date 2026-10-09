@@ -108,6 +108,13 @@ button {
   background: linear-gradient(var(--terra), var(--terra)) 0 100% / 100% 2px no-repeat;
   padding-bottom: 2px;
 }
+.ext {
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  margin-left: 0.15em;
+  vertical-align: -0.02em;
+}
 .btn-ink {
   height: 44px;
   padding: 0 20px;
@@ -1746,6 +1753,28 @@ button {
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
+.ask-state {
+  margin-left: 0.7em;
+  padding-left: 0.7em;
+  border-left: 1px solid color-mix(in srgb, var(--linen) 30%, var(--ink));
+  color: color-mix(in srgb, var(--linen) 72%, var(--ink));
+}
+.ask-state.busy {
+  animation: blink 1.4s infinite;
+}
+.ask-state.new {
+  color: inherit;
+}
+.ask-state.new::before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: var(--terra);
+  vertical-align: 1px;
+}
 .ask-dock p {
   padding: 0 18px 8px;
   font-size: 14px;
@@ -1803,6 +1832,14 @@ button {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+.ask-min {
+  display: inline-grid;
+  place-items: center;
+}
+.ask-min svg {
+  width: 18px;
+  height: 18px;
 }
 .ask-new {
   font-size: 13px;

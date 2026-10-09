@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { Piece } from "@/lib/types";
+import { ExternalIcon } from "./icons";
 import { youtubeSearch } from "./pieces";
 
 /** Lightweight YouTube facade: thumbnail first, the iframe only loads when played. */
@@ -16,7 +17,7 @@ export function YouTube({ piece, autoplay = false }: { piece: Piece; autoplay?: 
       <div className="no-video">
         <span>No recording picked yet.</span>
         <a className="link-underline" href={youtubeSearch(piece)} target="_blank" rel="noreferrer">
-          Search YouTube ↗
+          Search YouTube <ExternalIcon />
         </a>
       </div>
     );
@@ -57,10 +58,10 @@ export function YouTube({ piece, autoplay = false }: { piece: Piece; autoplay?: 
           </button>
         )}
         <a href={`https://www.youtube.com/watch?v=${id}`} target="_blank" rel="noreferrer">
-          Open on YouTube ↗
+          Open on YouTube <ExternalIcon />
         </a>
         <a href={youtubeSearch(piece)} target="_blank" rel="noreferrer">
-          More recordings ↗
+          More recordings <ExternalIcon />
         </a>
       </div>
     </>
