@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Composer Groups, Round Two</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --linen:#F2EDE3; --sheet:#F8F5EE; --wash:#E9E2D4; --ink:#1B1A17; --muted:#6B655B; --rule:rgba(27,26,23,.13); --rule-2:rgba(27,26,23,.28);
+  --terra:#C45B3D;
+  --l3:#b39b47; --l4:#c99a3f; --l5:#c45b3d; --l6:#a3453a; --l7:#30508f; --l8:#263f72;
+  --display:"Archivo",sans-serif; --body:"Instrument Sans",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--linen);color:var(--ink);font:400 15px/1.5 var(--body);-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.wrap{max-width:1180px;margin:0 auto;padding:0 32px}
+.page-head{padding:44px 0 16px;border-bottom:1px solid var(--rule-2)}
+.page-head h1{font:800 36px/1 var(--display);font-stretch:112%}
+.page-head p{color:var(--muted);margin-top:12px;max-width:76ch}
+.opt{margin:40px 0 54px}
+.opt-head{display:flex;gap:14px;align-items:baseline;margin-bottom:6px;flex-wrap:wrap}
+.opt-head b{font:700 20px var(--display);font-stretch:110%}
+.opt-sub{color:var(--muted);font-size:14px;max-width:86ch;margin-bottom:14px}
+.rec{display:inline-block;font:700 10.5px var(--display);letter-spacing:.14em;text-transform:uppercase;background:var(--ink);color:var(--linen);padding:3px 8px;border-radius:3px 8px 4px 7px}
+
+/* shared list */
+.cols{display:grid;grid-template-columns:1fr 150px 64px 220px 80px 42px;gap:18px;align-items:center}
+.colhead{padding:0 4px 6px;font:600 10.5px var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--rule-2)}
+.group{padding-top:18px}
+.gh{display:flex;align-items:baseline;gap:12px;padding:0 4px 8px;border-bottom:1px solid var(--rule)}
+.gh b{font:700 21px var(--display);font-stretch:110%}
+.gh span{font-size:13px;color:var(--muted)}
+.gh a{margin-left:auto;font-size:13px;font-weight:600;background:linear-gradient(var(--terra),var(--terra)) 0 100%/100% 2px no-repeat;padding-bottom:1px}
+.row{padding:12px 4px;border-bottom:1px solid var(--rule)}
+.ttl{font:600 16px/1.28 var(--body)}
+.sub{font-size:13px;color:var(--muted);margin-top:2px} .sub b{color:var(--ink);font-weight:600}
+.meta{font-size:13px;color:var(--muted)} .meta b{display:block;color:var(--ink);font-weight:600}
+.dur{font:700 15px var(--display);font-stretch:108%;white-space:nowrap} .dur small{font:500 11px var(--body);color:var(--muted)}
+.tags{display:flex;gap:5px;flex-wrap:wrap}
+.tag{font-size:12px;padding:2px 8px;border-radius:3px 9px 4px 8px;background:var(--wash);white-space:nowrap}
+.tag.pop{background:transparent;border:1px solid var(--rule-2)}
+.play{width:38px;height:38px;border-radius:50%;border:1px solid var(--ink);display:grid;place-items:center;flex:none}
+.play i{border-top:6px solid transparent;border-bottom:6px solid transparent;border-left:10px solid var(--ink);margin-left:3px}
+.play.sm{width:30px;height:30px} .play.sm i{border-top-width:5px;border-bottom-width:5px;border-left-width:8px;margin-left:2px}
+.chev{width:38px;height:38px;border-radius:50%;border:1px solid var(--ink);display:grid;place-items:center}
+.chev i{width:8px;height:8px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-2px) rotate(45deg)}
+.chev.up{background:var(--ink)} .chev.up i{border-color:var(--linen);transform:translateY(2px) rotate(-135deg)}
+
+/* pebbles */
+.peb{width:34px;height:34px;display:inline-grid;place-items:center;color:#fffaf2;font:700 15px var(--display);font-stretch:112%;border-radius:46% 54% 42% 58%/55% 45% 55% 45%;flex:none}
+.peb.b{border-radius:55% 45% 58% 42%/45% 56% 44% 55%} .peb.c{border-radius:42% 58% 50% 50%/58% 42% 58% 42%}
+.peb.sm{width:27px;height:27px;font-size:12.5px}
+.c3{background:var(--l3)} .c4{background:var(--l4)} .c5{background:var(--l5)} .c6{background:var(--l6)} .c7{background:var(--l7)} .c8{background:var(--l8)}
+
+/* ── V1: pebble pair + tray ── */
+.pair{display:inline-flex;align-items:center}
+.pair .peb{width:28px;height:28px;font-size:12.5px;box-shadow:0 0 0 2.5px var(--linen)}
+.pair .peb+.peb{margin-left:-7px}
+.tray{background:var(--sheet);border:1px solid var(--rule-2);border-radius:5px 16px 7px 14px;margin:8px -10px 10px;padding:0 10px}
+.tray>.row{border-bottom:1px solid var(--rule)}
+.tray .pair .peb{box-shadow:0 0 0 2.5px var(--sheet)}
+.tray .m{display:grid;grid-template-columns:1fr 150px 64px 220px 80px 42px;gap:18px;align-items:center;padding:8px 4px;border-bottom:1px solid var(--rule)}
+.tray .m:last-child{border-bottom:0}
+.tray .m .ttl{font-weight:500;font-size:15px;padding-left:18px;position:relative}
+.tray .m .ttl::before{content:attr(data-n);position:absolute;left:0;top:1px;font:600 11px var(--display);color:var(--muted)}
+
+/* ── V2: stretched pebble + programme ── */
+.long{width:58px;height:32px;display:inline-grid;place-items:center;color:#fffaf2;font:700 13.5px var(--display);font-stretch:110%;border-radius:40% 60% 45% 55%/55% 48% 52% 45%}
+.prog{padding:2px 0 12px 4px;border-bottom:1px solid var(--rule)}
+.prog .pl{display:grid;grid-template-columns:minmax(0,1fr) 30px 34px;gap:14px;align-items:center;max-width:calc(100% - 0px);padding:4px 0}
+.prog .lead{display:flex;align-items:baseline;gap:8px;font-size:15px}
+.prog .lead em{font-style:normal;font:600 11px var(--display);color:var(--muted);width:16px}
+.prog .lead span.dots{flex:1;border-bottom:1.5px dotted var(--rule-2);transform:translateY(-4px)}
+.prog .lead small{font:700 13px var(--display);color:var(--ink)} .prog .lead small i{font:500 11px var(--body);color:var(--muted);font-style:normal}
+.prog-wrap{display:grid;grid-template-columns:1fr 160px;gap:18px}
+.row.noline{border-bottom:0;padding-bottom:6px}
+
+/* ── V3: pebble cluster + movement tiles ── */
+.cluster{display:inline-flex;align-items:center;gap:0}
+.cluster i{width:15px;height:15px;border-radius:46% 54% 42% 58%/55% 45% 55% 45%;box-shadow:0 0 0 2px var(--linen)}
+.cluster i+i{margin-left:-4px}
+.cluster-wrap{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+.cluster-wrap small{font:600 11px var(--display);color:var(--muted)}
+.tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:4px 4px 14px;border-bottom:1px solid var(--rule)}
+.tile{display:grid;grid-template-columns:1fr auto auto;gap:10px;align-items:center;background:var(--sheet);border:1px solid var(--rule);border-radius:4px 12px 6px 10px;padding:9px 10px 9px 12px}
+.tile b{display:block;font:600 14px var(--body)} .tile small{font-size:12px;color:var(--muted)}
+.tile.whole{grid-column:1 / -1;background:var(--wash)}
+
+/* ── V4: "5+" pebble + indented list ── */
+.inset{padding:0 0 10px 0;border-bottom:1px solid var(--rule)}
+.inset .m{display:grid;grid-template-columns:1fr 150px 64px 220px 80px 42px;gap:18px;align-items:center;padding:6px 4px}
+.inset .m .ttl{font-weight:500;font-size:15px;padding-left:22px}
+.inset .m:nth-child(odd){background:rgba(233,226,212,.55);border-radius:3px 9px 4px 8px}
+
+.verdict{display:flex;gap:28px;font-size:13.5px;color:var(--muted);margin-top:12px;flex-wrap:wrap}
+.verdict i{font-style:normal;color:var(--ink);font-weight:600}
+.callout{background:var(--sheet);border-left:3px solid var(--terra);padding:12px 16px;margin:10px 0 70px;font-size:14px;max-width:86ch}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="page-head">
+    <h1>Composer groups, round two</h1>
+    <p>The pebbles are back for levels, and sets are never a pebble: the ⌄ button on the right is what opens them. Each version tries a different way to show a set's level range as a pebble, and a different way to lay out the opened entries, all without guide lines or fades. Partita No. 2 is open, Sonata No. 1 is closed.</p>
+  </header>
+
+  <!-- ══ V1 ══ -->
+  <section class="opt">
+    <div class="opt-head"><b>1 · Pebble pair + a tray</b> <span class="rec">Recommended</span></div>
+    <p class="opt-sub">A range is two overlapping pebbles, the lowest and highest level, so it uses exactly the same shape as a single level. Opening a set pulls out a tray: the set and its entries sit together on a lighter sheet, numbered, each with its own pebble and play button.</p>
+    <div class="cols colhead"><span>Work</span><span>Type</span><span>Length</span><span>Character</span><span>Level</span><span></span></div>
+    <div class="group">
+      <div class="gh"><b>Bach, Johann Sebastian</b><span>1685–1750 · German · 57 works</span><a>See all 57</a></div>
+      <div class="row cols"><div class="ttl">Concerto in A minor, BWV 1041</div><div class="meta"><b>Concerto</b>With orchestra</div><div class="dur">14<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Lively</span><span class="tag pop">Well-known</span></div><div><span class="peb c3">3</span></div><button class="play"><i></i></button></div>
+      <div class="tray">
+        <div class="row cols"><div><div class="ttl">Partita No. 2 in D minor, BWV 1004</div><div class="sub"><b>6 entries</b> · the complete partita and 5 movements</div></div><div class="meta"><b>Solo work</b>Unaccompanied</div><div class="dur">3–28<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Dance</span><span class="tag pop">Well-known</span></div><div><span class="pair"><span class="peb c5">5</span><span class="peb c8 b">8</span></span></div><button class="chev up"><i></i></button></div>
+        <div class="m"><div class="ttl" data-n="">Complete partita</div><div class="meta">All five movements</div><div class="dur">28<small> min</small></div><div></div><div><span class="peb sm c8 b">8</span></div><button class="play sm"><i></i></button></div>
+        <div class="m"><div class="ttl" data-n="1">Allemanda</div><div></div><div class="dur">4<small> min</small></div><div></div><div><span class="peb sm c5">5</span></div><button class="play sm"><i></i></button></div>
+        <div class="m"><div class="ttl" data-n="2">Corrente</div><div></div><div class="dur">3<small> min</small></div><div></div><div><span class="peb sm c6 c">6</span></div><button class="play sm"><i></i></button></div>
+        <div class="m"><div class="ttl" data-n="3">Sarabanda</div><div></div><div class="dur">4<small> min</small></div><div></div><div><span class="peb sm c5 b">5</span></div><button class="play sm"><i></i></button></div>
+        <div class="m"><div class="ttl" data-n="4">Giga</div><div></div><div class="dur">4<small> min</small></div><div></div><div><span class="peb sm c6">6</span></div><button class="play sm"><i></i></button></div>
+        <div class="m"><div class="ttl" data-n="5">Ciaccona (Chaconne)</div><div></div><div class="dur">14<small> min</small></div><div></div><div><span class="peb sm c8 c">8</span></div><button class="play sm"><i></i></button></div>
+      </div>
+      <div class="row cols"><div><div class="ttl">Sonata No. 1 in G minor, BWV 1001</div><div class="sub"><b>5 entries</b> · the complete sonata and 4 movements</div></div><div class="meta"><b>Solo work</b>Unaccompanied</div><div class="dur">3–16<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Slow</span><span class="tag pop">Well-known</span></div><div><span class="pair"><span class="peb c5 c">5</span><span class="peb c8">8</span></span></div><button class="chev"><i></i></button></div>
+    </div>
+    <div class="group">
+      <div class="gh"><b>Bériot, Charles de</b><span>1802–1870 · Belgian · 18 works</span></div>
+      <div class="row cols"><div class="ttl">Concerto No. 9 in A minor, Op. 104</div><div class="meta"><b>Concerto</b>With orchestra</div><div class="dur">14<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Lyrical</span><span class="tag pop">Well-known</span></div><div><span class="peb c4 b">4</span></div><button class="play"><i></i></button></div>
+    </div>
+    <div class="verdict"><span><i>+</i> One shape language throughout; the tray makes “these belong together” obvious and closes like a drawer</span><span><i>−</i> The tray is a heavier moment in the list (that's partly the point)</span></div>
+  </section>
+
+  <!-- ══ V2 ══ -->
+  <section class="opt">
+    <div class="opt-head"><b>2 · Stretched pebble + a concert programme</b></div>
+    <p class="opt-sub">A range is one pebble stretched sideways, its colour sliding from the lowest level to the highest. The opened entries read like a printed concert programme: movement numbers, dotted leaders to the length, then a small pebble and play button. No boxes, no lines between entries.</p>
+    <div class="cols colhead"><span>Work</span><span>Type</span><span>Length</span><span>Character</span><span>Level</span><span></span></div>
+    <div class="group">
+      <div class="gh"><b>Bach, Johann Sebastian</b><span>1685–1750 · German · 57 works</span><a>See all 57</a></div>
+      <div class="row cols"><div class="ttl">Concerto in A minor, BWV 1041</div><div class="meta"><b>Concerto</b>With orchestra</div><div class="dur">14<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Lively</span><span class="tag pop">Well-known</span></div><div><span class="peb c3">3</span></div><button class="play"><i></i></button></div>
+      <div class="row cols noline"><div><div class="ttl">Partita No. 2 in D minor, BWV 1004</div><div class="sub"><b>6 entries</b> · the complete partita and 5 movements</div></div><div class="meta"><b>Solo work</b>Unaccompanied</div><div class="dur">3–28<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Dance</span><span class="tag pop">Well-known</span></div><div><span class="long" style="background:linear-gradient(100deg,var(--l5),var(--l8))">5–8</span></div><button class="chev up"><i></i></button></div>
+      <div class="prog">
+        <div style="max-width:560px">
+          <div class="pl"><div class="lead"><em></em>Complete partita<span class="dots"></span><small>28<i> min</i></small></div><span class="peb sm c8 b">8</span><button class="play sm"><i></i></button></div>
+          <div class="pl"><div class="lead"><em>I</em>Allemanda<span class="dots"></span><small>4<i> min</i></small></div><span class="peb sm c5">5</span><button class="play sm"><i></i></button></div>
+          <div class="pl"><div class="lead"><em>II</em>Corrente<span class="dots"></span><small>3<i> min</i></small></div><span class="peb sm c6 c">6</span><button class="play sm"><i></i></button></div>
+          <div class="pl"><div class="lead"><em>III</em>Sarabanda<span class="dots"></span><small>4<i> min</i></small></div><span class="peb sm c5 b">5</span><button class="play sm"><i></i></button></div>
+          <div class="pl"><div class="lead"><em>IV</em>Giga<span class="dots"></span><small>4<i> min</i></small></div><span class="peb sm c6">6</span><button class="play sm"><i></i></button></div>
+          <div class="pl"><div class="lead"><em>V</em>Ciaccona (Chaconne)<span class="dots"></span><small>14<i> min</i></small></div><span class="peb sm c8 c">8</span><button class="play sm"><i></i></button></div>
+        </div>
+      </div>
+      <div class="row cols"><div><div class="ttl">Sonata No. 1 in G minor, BWV 1001</div><div class="sub"><b>5 entries</b> · the complete sonata and 4 movements</div></div><div class="meta"><b>Solo work</b>Unaccompanied</div><div class="dur">3–16<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Slow</span><span class="tag pop">Well-known</span></div><div><span class="long" style="background:linear-gradient(100deg,var(--l5),var(--l8))">5–8</span></div><button class="chev"><i></i></button></div>
+    </div>
+    <div class="verdict"><span><i>+</i> Feels like a concert programme, very in keeping with the subject; light and airy</span><span><i>−</i> The stretched pebble is a new shape; the programme sits narrower than the table columns</span></div>
+  </section>
+
+  <!-- ══ V3 ══ -->
+  <section class="opt">
+    <div class="opt-head"><b>3 · Pebble scatter + movement tiles</b></div>
+    <p class="opt-sub">A set shows a little scatter of tiny pebbles, one for each level inside it, with the range written underneath, so you see the spread at a glance. Opening a set lays its entries out as small tiles, three across, with the complete work spanning the top.</p>
+    <div class="cols colhead"><span>Work</span><span>Type</span><span>Length</span><span>Character</span><span>Level</span><span></span></div>
+    <div class="group">
+      <div class="gh"><b>Bach, Johann Sebastian</b><span>1685–1750 · German · 57 works</span><a>See all 57</a></div>
+      <div class="row cols"><div class="ttl">Concerto in A minor, BWV 1041</div><div class="meta"><b>Concerto</b>With orchestra</div><div class="dur">14<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Lively</span><span class="tag pop">Well-known</span></div><div><span class="peb c3">3</span></div><button class="play"><i></i></button></div>
+      <div class="row cols noline"><div><div class="ttl">Partita No. 2 in D minor, BWV 1004</div><div class="sub"><b>6 entries</b> · the complete partita and 5 movements</div></div><div class="meta"><b>Solo work</b>Unaccompanied</div><div class="dur">3–28<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Dance</span><span class="tag pop">Well-known</span></div><div class="cluster-wrap"><span class="cluster"><i class="c5"></i><i class="c6"></i><i class="c8"></i></span><small>levels 5–8</small></div><button class="chev up"><i></i></button></div>
+      <div class="tiles">
+        <div class="tile whole"><div><b>Complete partita</b><small>All five movements · 28 min</small></div><span class="peb sm c8 b">8</span><button class="play sm"><i></i></button></div>
+        <div class="tile"><div><b>Allemanda</b><small>4 min</small></div><span class="peb sm c5">5</span><button class="play sm"><i></i></button></div>
+        <div class="tile"><div><b>Corrente</b><small>3 min</small></div><span class="peb sm c6 c">6</span><button class="play sm"><i></i></button></div>
+        <div class="tile"><div><b>Sarabanda</b><small>4 min</small></div><span class="peb sm c5 b">5</span><button class="play sm"><i></i></button></div>
+        <div class="tile"><div><b>Giga</b><small>4 min</small></div><span class="peb sm c6">6</span><button class="play sm"><i></i></button></div>
+        <div class="tile"><div><b>Ciaccona (Chaconne)</b><small>14 min</small></div><span class="peb sm c8 c">8</span><button class="play sm"><i></i></button></div>
+      </div>
+      <div class="row cols"><div><div class="ttl">Sonata No. 1 in G minor, BWV 1001</div><div class="sub"><b>5 entries</b> · the complete sonata and 4 movements</div></div><div class="meta"><b>Solo work</b>Unaccompanied</div><div class="dur">3–16<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Slow</span><span class="tag pop">Well-known</span></div><div class="cluster-wrap"><span class="cluster"><i class="c5"></i><i class="c6"></i><i class="c7"></i><i class="c8"></i></span><small>levels 5–8</small></div><button class="chev"><i></i></button></div>
+    </div>
+    <div class="verdict"><span><i>+</i> The most playful; the scatter shows how the difficulty spreads across a set</span><span><i>−</i> Tiles break the table rhythm; on phones they'd stack one per line</span></div>
+  </section>
+
+  <!-- ══ V4 ══ -->
+  <section class="opt">
+    <div class="opt-head"><b>4 · “From” pebble + soft striped list</b></div>
+    <p class="opt-sub">A set shows a single pebble with its starting level and a small “+” (“5+”, meaning from level 5 up), so every row has exactly one pebble. Opened entries stay in the table's columns, indented, with soft alternating bands instead of lines.</p>
+    <div class="cols colhead"><span>Work</span><span>Type</span><span>Length</span><span>Character</span><span>Level</span><span></span></div>
+    <div class="group">
+      <div class="gh"><b>Bach, Johann Sebastian</b><span>1685–1750 · German · 57 works</span><a>See all 57</a></div>
+      <div class="row cols"><div class="ttl">Concerto in A minor, BWV 1041</div><div class="meta"><b>Concerto</b>With orchestra</div><div class="dur">14<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Lively</span><span class="tag pop">Well-known</span></div><div><span class="peb c3">3</span></div><button class="play"><i></i></button></div>
+      <div class="row cols noline"><div><div class="ttl">Partita No. 2 in D minor, BWV 1004</div><div class="sub"><b>6 entries</b> · levels 5 to 8</div></div><div class="meta"><b>Solo work</b>Unaccompanied</div><div class="dur">3–28<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Dance</span><span class="tag pop">Well-known</span></div><div><span class="peb c5">5+</span></div><button class="chev up"><i></i></button></div>
+      <div class="inset">
+        <div class="m"><div class="ttl">Complete partita</div><div class="meta">All five movements</div><div class="dur">28<small> min</small></div><div></div><div><span class="peb sm c8 b">8</span></div><button class="play sm"><i></i></button></div>
+        <div class="m"><div class="ttl">Allemanda</div><div></div><div class="dur">4<small> min</small></div><div></div><div><span class="peb sm c5">5</span></div><button class="play sm"><i></i></button></div>
+        <div class="m"><div class="ttl">Corrente</div><div></div><div class="dur">3<small> min</small></div><div></div><div><span class="peb sm c6 c">6</span></div><button class="play sm"><i></i></button></div>
+        <div class="m"><div class="ttl">Sarabanda</div><div></div><div class="dur">4<small> min</small></div><div></div><div><span class="peb sm c5 b">5</span></div><button class="play sm"><i></i></button></div>
+        <div class="m"><div class="ttl">Giga</div><div></div><div class="dur">4<small> min</small></div><div></div><div><span class="peb sm c6">6</span></div><button class="play sm"><i></i></button></div>
+        <div class="m"><div class="ttl">Ciaccona (Chaconne)</div><div></div><div class="dur">14<small> min</small></div><div></div><div><span class="peb sm c8 c">8</span></div><button class="play sm"><i></i></button></div>
+      </div>
+      <div class="row cols"><div><div class="ttl">Sonata No. 1 in G minor, BWV 1001</div><div class="sub"><b>5 entries</b> · levels 5 to 8</div></div><div class="meta"><b>Solo work</b>Unaccompanied</div><div class="dur">3–16<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Slow</span><span class="tag pop">Well-known</span></div><div><span class="peb c5 c">5+</span></div><button class="chev"><i></i></button></div>
+    </div>
+    <div class="verdict"><span><i>+</i> Simplest: one pebble per row, always; entries line up with the table</span><span><i>−</i> “5+” hides the top of the range until you read the line under the title</span></div>
+  </section>
+
+  <div class="callout"><b>My pick is 1.</b> The pebble pair keeps one shape language (a range is just two pebbles), and the tray answers the “strange lines and fade” problem: an opened set reads as one object you pulled out, and it folds back cleanly. If you want something airier, 2's concert-programme listing is the most characterful alternative.</div>
+</div>
+</body>
+</html>

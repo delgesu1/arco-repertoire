@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup C · Cut-outs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Albert+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --linen:#F3ECDF; --sheet:#FBF7F0; --ink:#1D1B18; --muted:#6e675d; --rule:rgba(29,27,24,.13);
+  --cobalt:#2C4D9C; --coral:#E2674A; --leaf:#4C7A4E; --ochre:#D7A23F; --rose:#E9A99C;
+  --serif:"Gloock",serif; --sans:"Albert Sans",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--linen);color:var(--ink);font:400 15.5px/1.5 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.3 0 0 0 0 0.25 0 0 0 0 0.2 0 0 0 .06 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+
+header .wrap{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:28px;height:80px}
+.mark{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
+.mark svg{width:30px;height:30px}
+.mark b{font:400 22px var(--serif);letter-spacing:-.01em}
+.search{justify-self:center;width:100%;max-width:540px;position:relative}
+.search input{width:100%;height:48px;border:1.5px solid var(--ink);background:var(--sheet);border-radius:14px 22px 16px 20px;font:500 15.5px var(--sans);padding:0 48px 0 20px;outline:none}
+.search kbd{position:absolute;right:16px;top:14px;font:600 11px var(--sans);color:var(--muted);border:1px solid var(--rule);border-radius:6px;padding:1px 6px}
+.actions{display:flex;gap:10px;align-items:center}
+.ask{height:48px;padding:0 24px;background:var(--cobalt);color:#fff;font:600 15px var(--sans);border-radius:24px 18px 26px 16px}
+.theme{width:48px;height:48px;border-radius:50%;border:1.5px solid var(--ink);display:grid;place-items:center}
+.theme i{width:16px;height:16px;border-radius:50%;background:var(--ochre)}
+
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:center;padding:30px 0 24px}
+h1{font:400 clamp(46px,6.2vw,86px)/.98 var(--serif);letter-spacing:-.015em}
+h1 span{color:var(--coral)}
+.lede{max-width:42ch;color:var(--muted);margin:20px 0 0;font-size:16.5px}
+.art{position:relative;height:360px}
+.art svg{position:absolute;inset:0;width:100%;height:100%}
+
+/* sentence card */
+.finder{background:var(--sheet);border:1.5px solid var(--ink);border-radius:28px 20px 32px 24px;padding:26px 28px 22px;margin-top:6px}
+.sentence{font:400 clamp(24px,2.8vw,34px)/1.4 var(--serif)}
+.pick{display:inline-block;font:600 .62em var(--sans);vertical-align:.25em;padding:6px 14px 7px;margin:0 2px;color:#fff;cursor:pointer;transform:rotate(-1.2deg)}
+.pick.a{background:var(--cobalt);border-radius:10px 16px 12px 18px}
+.pick.b{background:var(--leaf);border-radius:16px 10px 18px 12px;transform:rotate(1deg)}
+.pick.c{background:var(--coral);border-radius:12px 18px 10px 16px}
+.pick::after{content:" ▾";font-size:.8em;opacity:.85}
+.dots{display:grid;grid-template-columns:repeat(10,1fr);gap:8px;margin:22px 0 8px;align-items:end}
+.dot{display:flex;flex-direction:column;align-items:center;gap:6px;font:600 12px var(--sans);color:var(--muted)}
+.dot i{display:block;border-radius:50%;background:var(--rule)}
+.dot.on{color:var(--ink)} .dot.on i{background:var(--coral)}
+.dot.core i{background:var(--ink);box-shadow:0 0 0 4px var(--sheet),0 0 0 6px var(--coral)}
+.dlabel{display:flex;justify-content:space-between;font-size:13.5px;color:var(--muted)} .dlabel b{color:var(--ink)}
+
+.vibes{display:flex;flex-wrap:wrap;gap:8px;padding:20px 0 6px;align-items:center}
+.chip{height:36px;padding:0 15px;border-radius:18px;border:1.5px solid var(--rule);font:500 14px var(--sans);display:inline-flex;align-items:center;gap:7px;background:transparent}
+.chip::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--rule)}
+.chip.on{border-color:var(--ink);background:var(--sheet)}
+.chip.on::before{background:var(--coral)}
+.chip.m::before{background:var(--cobalt)} .chip.p::before{background:var(--leaf)} .chip.k::before{background:var(--ochre)}
+.more{margin-left:auto;font:600 14px var(--sans);border-bottom:2px solid var(--coral)}
+
+.rhead{display:flex;align-items:baseline;justify-content:space-between;margin:26px 0 14px}
+.rhead h2{font:400 30px var(--serif)} .rhead h2 small{font:500 15px var(--sans);color:var(--muted);margin-left:8px}
+.sort{font-size:14px;color:var(--muted)} .sort b{color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.card{background:var(--sheet);border:1.5px solid var(--rule);border-radius:22px 16px 24px 18px;padding:18px 20px;display:grid;grid-template-columns:52px 1fr auto;gap:14px;align-items:start}
+.leaf{width:46px;height:46px;display:grid;place-items:center;color:#fff;font:400 22px var(--serif)}
+.leaf.l4{background:var(--ochre);border-radius:60% 40% 55% 45%/55% 45% 55% 45%}
+.leaf.l5{background:var(--coral);border-radius:45% 55% 40% 60%/60% 40% 60% 40%}
+.leaf.l6{background:var(--cobalt);border-radius:55% 45% 60% 40%/45% 55% 45% 55%}
+.t{font:400 20px/1.2 var(--serif)}
+.c{font-size:14px;color:var(--muted);margin-top:3px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.meta span{font-size:12.5px;padding:3px 9px;border-radius:12px;background:var(--linen)}
+.meta .pop{background:transparent;border:1px solid var(--ink)}
+.play{width:42px;height:42px;border-radius:50%;background:var(--ink);display:grid;place-items:center}
+.play i{width:0;height:0;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:11px solid var(--linen);margin-left:3px}
+.card.set{position:relative;background:var(--sheet)}
+.card.set::before,.card.set::after{content:"";position:absolute;inset:0;border:1.5px solid var(--rule);border-radius:inherit;background:var(--sheet);z-index:-1}
+.card.set::before{transform:translate(6px,6px) rotate(.8deg)}
+.card.set::after{transform:translate(12px,12px) rotate(1.6deg)}
+.card.set{z-index:0}
+.open{font:600 14px var(--sans);border-bottom:2px solid var(--coral);align-self:center}
+
+.askblob{position:fixed;right:28px;bottom:28px;width:300px;background:var(--cobalt);color:#fff;border-radius:34px 26px 38px 28px;padding:20px 22px}
+.askblob b{font:400 24px var(--serif)}
+.askblob p{font-size:14px;opacity:.85;margin:6px 0 12px}
+.askblob input{width:100%;height:42px;border-radius:21px;border:0;padding:0 16px;font:500 14px var(--sans)}
+footer{height:160px}
+
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr}
+  .art{height:200px;order:-1;margin:0 -16px}
+  .grid{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .wrap{padding:0 16px}
+  header .wrap{grid-template-columns:1fr auto;height:auto;padding:14px 16px;gap:12px}
+  .search{grid-column:1/-1;order:3;max-width:none}
+  .actions .ask{display:none}
+  .finder{padding:18px 16px}
+  .dot{font-size:10.5px}
+  .vibes{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+  .chip{flex:0 0 auto}
+  .more{display:none}
+  .card{grid-template-columns:44px 1fr 40px;padding:14px}
+  .askblob{left:16px;right:16px;bottom:16px;width:auto;padding:14px 18px}
+  .askblob p,.askblob input{display:none}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="mark" href="#">
+      <svg viewBox="0 0 30 30"><path d="M15 2c6 4 9 9 7 15s-7 10-7 11c0-1-6-5-8-11S9 6 15 2z" fill="#E2674A"/><circle cx="23" cy="22" r="5" fill="#2C4D9C"/></svg>
+      <b>Violin Repertoire</b>
+    </a>
+    <label class="search"><input placeholder="Search composer, title, “op 35”, “e minor”…"><kbd>/</kbd></label>
+    <div class="actions"><button class="ask">Ask</button><button class="theme" aria-label="Theme"><i></i></button></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <h1>Music for every <span>stage</span> of the violin.</h1>
+      <p class="lede">2,253 works, each graded 1–10 and tagged by setting and character. Browse, search, or ask what to play next.</p>
+    </div>
+    <div class="art" aria-hidden="true">
+      <svg viewBox="0 0 520 360" preserveAspectRatio="xMidYMid slice">
+        <path d="M120 300c-40-60-30-150 30-210 20 40 70 70 60 140-8 52-50 80-90 70z" fill="#4C7A4E"/>
+        <path d="M150 95c10 40 5 120-28 190" stroke="#F3ECDF" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <path d="M260 40c50 10 90 50 92 100 2 46-40 70-70 58-26-10-14-44-40-64-26-20-60-6-60-40 0-30 40-60 78-54z" fill="#2C4D9C"/>
+        <path d="M370 210c30-30 90-30 112 8 20 34-6 80-50 86-46 6-92-58-62-94z" fill="#E2674A"/>
+        <path d="M300 250c10-24 40-30 54-12s4 46-20 50-44-14-34-38z" fill="#D7A23F"/>
+        <path d="M430 60l14 30 32 4-24 22 6 32-28-16-28 16 6-32-24-22 32-4z" fill="#D7A23F"/>
+        <path d="M60 80c14-14 38-10 42 8 4 20-20 34-36 26s-18-22-6-34z" fill="#E9A99C"/>
+        <path d="M230 300c20-8 46 2 52 22-24 10-50 6-52-22z" fill="#1D1B18"/>
+      </svg>
+    </div>
+  </section>
+
+  <section class="finder">
+    <div class="sentence">Show me <span class="pick a">any piece</span> for <span class="pick b">any setting</span> around <span class="pick c">level 5</span></div>
+    <div class="dots">
+      <div class="dot"><i style="width:14px;height:14px"></i>1</div>
+      <div class="dot"><i style="width:16px;height:16px"></i>2</div>
+      <div class="dot"><i style="width:18px;height:18px"></i>3</div>
+      <div class="dot on"><i style="width:20px;height:20px"></i>4</div>
+      <div class="dot on core"><i style="width:22px;height:22px"></i>5</div>
+      <div class="dot on"><i style="width:24px;height:24px"></i>6</div>
+      <div class="dot"><i style="width:26px;height:26px"></i>7</div>
+      <div class="dot"><i style="width:28px;height:28px"></i>8</div>
+      <div class="dot"><i style="width:30px;height:30px"></i>9</div>
+      <div class="dot"><i style="width:32px;height:32px"></i>10</div>
+    </div>
+    <div class="dlabel"><span><b>Advanced</b> · about ABRSM 8 / RCM 9</span><span>levels 4–6</span></div>
+  </section>
+
+  <div class="vibes">
+    <button class="chip m">Major</button><button class="chip m on">Minor</button>
+    <button class="chip p">Slow</button><button class="chip p">Lively</button>
+    <button class="chip on">Lyrical</button><button class="chip">Dance</button><button class="chip">Virtuosic</button><button class="chip">Playful</button><button class="chip">Dramatic</button><button class="chip">Tender</button><button class="chip">Dark</button><button class="chip">Folk</button>
+    <button class="chip k">Well-known</button><button class="chip k">Lesser-known</button>
+    <button class="more">More filters</button>
+  </div>
+
+  <div class="rhead"><h2>Results<small>186 works</small></h2><div class="sort">Sort: <b>Level</b> · Composer · Length</div></div>
+  <div class="grid">
+    <div class="card"><div class="leaf l4">4</div><div><div class="t">Concerto No. 9 in A minor, Op. 104</div><div class="c">Charles de Bériot · Concerto with orchestra · 14 min</div><div class="meta"><span>Minor</span><span>Lyrical</span><span class="pop">Well-known</span></div></div><button class="play"><i></i></button></div>
+    <div class="card"><div class="leaf l4">4</div><div><div class="t">Deep River (arr. Maud Powell)</div><div class="c">Samuel Coleridge-Taylor · With piano · 4 min</div><div class="meta"><span>Slow</span><span>Lyrical</span><span class="pop">Lesser-known</span></div></div><button class="play"><i></i></button></div>
+    <div class="card set"><div class="leaf l5">5</div><div><div class="t">Hungarian Dances (arr. Joachim)</div><div class="c">Johannes Brahms · 18 of 21 match · levels 5–6</div><div class="meta"><span>Minor</span><span>Dance</span><span>Folk</span></div></div><button class="open">Open</button></div>
+    <div class="card"><div class="leaf l5">5</div><div><div class="t">Romance in B-flat major, Op. 28</div><div class="c">Gabriel Fauré · With piano · 6 min</div><div class="meta"><span>Slow</span><span>Lyrical</span><span>Tender</span></div></div><button class="play"><i></i></button></div>
+    <div class="card"><div class="leaf l5">5</div><div><div class="t">Kol Nidrei in D minor, Op. 47</div><div class="c">Max Bruch · With orchestra · 10 min</div><div class="meta"><span>Minor</span><span>Slow</span><span class="pop">Well-known</span></div></div><button class="play"><i></i></button></div>
+    <div class="card"><div class="leaf l6">6</div><div><div class="t">Improvisation, Op. 21 No. 1</div><div class="c">Dmitri Kabalevsky · With piano · 5 min</div><div class="meta"><span>Dark</span><span>Dramatic</span><span class="pop">Lesser-known</span></div></div><button class="play"><i></i></button></div>
+  </div>
+  <footer></footer>
+</main>
+
+<aside class="askblob">
+  <b>Ask</b>
+  <p>Tell me what you've played and I'll suggest what could come next.</p>
+  <input placeholder="I just finished the Accolay concerto…">
+</aside>
+<script>document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>c.classList.toggle('on'));</script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup A · Bauhaus grid</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EEEBE3; --paper-2:#E6E2D8; --ink:#111110; --muted:#5d5a53; --rule:rgba(17,17,16,.16);
+  --yellow:#EFBE2C; --red:#D3392B; --blue:#24479E; --black:#111110;
+  --display:"Archivo",sans-serif; --body:"Instrument Sans",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font:400 15px/1.45 var(--body);-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.wrap{max-width:1280px;margin:0 auto;padding:0 32px}
+
+/* header */
+header{border-bottom:1.5px solid var(--ink)}
+.bar{display:grid;grid-template-columns:auto 1fr auto;gap:32px;align-items:center;height:76px}
+.mark{display:flex;align-items:center;gap:14px;text-decoration:none;color:inherit}
+.triad{display:flex;align-items:flex-end;gap:3px}
+.triad i{display:block}
+.triad .t{width:0;height:0;border-left:9px solid transparent;border-right:9px solid transparent;border-bottom:16px solid var(--yellow)}
+.triad .s{width:15px;height:15px;background:var(--red)}
+.triad .c{width:16px;height:16px;border-radius:50%;background:var(--blue)}
+.word{font-family:var(--display);font-stretch:125%;font-weight:800;font-size:15px;letter-spacing:.04em;text-transform:uppercase;line-height:1}
+.word span{font-weight:400;display:block;font-size:10.5px;letter-spacing:.22em;margin-top:4px;color:var(--muted)}
+.search{position:relative;max-width:560px;width:100%;justify-self:center}
+.search input{width:100%;height:44px;border:0;border-bottom:1.5px solid var(--ink);background:transparent;font:500 17px var(--body);padding:0 34px 0 2px;outline:none}
+.search input::placeholder{color:#8a867d}
+.search kbd{position:absolute;right:0;top:11px;font:600 11px var(--body);border:1px solid var(--rule);padding:2px 7px;color:var(--muted)}
+.actions{display:flex;gap:10px;align-items:center}
+.ask{background:var(--ink);color:var(--paper);height:44px;padding:0 20px;font:700 13px var(--display);font-stretch:112%;letter-spacing:.08em;text-transform:uppercase}
+.theme{width:44px;height:44px;border:1.5px solid var(--ink);display:grid;place-items:center}
+.theme i{width:18px;height:18px;border-radius:50%;background:linear-gradient(90deg,var(--ink) 50%,transparent 50%);border:1.5px solid var(--ink)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:5fr 7fr;border-bottom:1.5px solid var(--ink)}
+.count{padding:40px 32px 36px 0;border-right:1px solid var(--rule)}
+.big{font-family:var(--display);font-stretch:125%;font-weight:900;font-size:clamp(64px,9vw,128px);line-height:.86;letter-spacing:-.02em}
+.count p{max-width:30ch;margin-top:18px;color:var(--muted);font-size:15px}
+.count .levels-link{display:inline-block;margin-top:14px;font-weight:600;color:var(--ink);text-decoration:none;border-bottom:1.5px solid var(--red)}
+.sentence{padding:40px 0 30px 40px}
+.label{font:700 11px var(--display);font-stretch:118%;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.line{font-family:var(--display);font-stretch:100%;font-weight:300;font-size:clamp(26px,3.3vw,42px);line-height:1.22;margin:14px 0 26px;letter-spacing:-.01em}
+.pick{font-weight:700;border-bottom:3px solid var(--red);padding:0 2px;white-space:nowrap;cursor:pointer}
+.pick::after{content:"";display:inline-block;margin-left:8px;width:0;height:0;border-left:6px solid transparent;border-right:6px solid transparent;border-top:8px solid var(--ink);transform:translateY(-6px)}
+.pick.lvl{background:var(--red);color:var(--paper);border:0;padding:0 10px}
+.pick.lvl::after{border-top-color:var(--paper)}
+
+/* ruler */
+.ruler{display:grid;grid-template-columns:repeat(10,1fr);border:1.5px solid var(--ink)}
+.ruler button{height:64px;border-right:1px solid var(--rule);display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;padding:8px 9px;text-align:left;position:relative}
+.ruler button:last-child{border-right:0}
+.ruler b{font:800 20px var(--display);font-stretch:120%}
+.ruler small{font-size:10px;line-height:1.1;color:var(--muted);letter-spacing:.02em}
+.ruler .on{background:var(--ink);color:var(--paper)}
+.ruler .on small{color:#c9c5bc}
+.ruler .on.core{background:var(--red)}
+.ruler .on.core small{color:#ffd9d2}
+.ruler-legend{display:flex;justify-content:space-between;margin-top:10px;font-size:12px;color:var(--muted)}
+.ruler-legend b{color:var(--ink)}
+
+/* chips */
+.vibes{display:flex;align-items:center;gap:22px;padding:18px 0;border-bottom:1px solid var(--rule)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{height:32px;padding:0 12px;border:1px solid var(--rule);font:600 12.5px var(--body);letter-spacing:.01em;background:transparent}
+.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip.sep{margin-left:10px}
+.more{margin-left:auto;font:700 12px var(--display);font-stretch:118%;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap}
+
+/* results */
+.results-head{display:flex;align-items:baseline;justify-content:space-between;padding:26px 0 12px}
+.results-head h2{font:800 22px var(--display);font-stretch:125%;text-transform:uppercase;letter-spacing:.01em}
+.results-head h2 span{font-weight:400;color:var(--muted)}
+.sort{font-size:13px;color:var(--muted)} .sort b{color:var(--ink);border-bottom:1.5px solid var(--ink)}
+.list{border-top:1.5px solid var(--ink)}
+.row{display:grid;grid-template-columns:56px 1fr 150px 70px 230px 44px;gap:18px;align-items:center;padding:14px 0;border-bottom:1px solid var(--rule)}
+.lv{width:44px;height:44px;display:grid;place-items:center;font:800 19px var(--display);font-stretch:120%}
+.l-y{background:var(--yellow)} .l-r{background:var(--red);color:var(--paper)} .l-b{background:var(--blue);color:var(--paper)} .l-k{background:var(--ink);color:var(--paper)}
+.ttl{font:600 17px/1.25 var(--body)}
+.cmp{font:700 11px var(--display);font-stretch:118%;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.set{font-size:14px;color:var(--muted);margin-top:4px}
+.meta{font-size:13px;color:var(--muted)}
+.meta b{display:block;color:var(--ink);font-weight:600;font-size:13.5px}
+.dur{font:700 15px var(--display);font-stretch:110%}
+.dur small{font:500 11px var(--body);color:var(--muted)}
+.tags{display:flex;gap:5px;flex-wrap:wrap}
+.tag{font-size:11.5px;padding:3px 7px;border:1px solid var(--rule)}
+.tag.pop{border-color:var(--ink)}
+.play{width:40px;height:40px;border-radius:50%;border:1.5px solid var(--ink);display:grid;place-items:center}
+.play i{width:0;height:0;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:11px solid var(--ink);margin-left:3px}
+.row.group .lv{position:relative;background:transparent}
+.stack{position:relative;width:44px;height:44px}
+.stack i{position:absolute;width:34px;height:34px}
+.stack i:nth-child(1){left:0;top:0;background:var(--yellow)}
+.stack i:nth-child(2){left:5px;top:5px;background:var(--red)}
+.stack i:nth-child(3){left:10px;top:10px;background:var(--ink);color:var(--paper);display:grid;place-items:center;font:800 13px var(--display)}
+.expand{font:700 11px var(--display);font-stretch:118%;letter-spacing:.12em;text-transform:uppercase;border-bottom:1.5px solid var(--red);justify-self:start}
+
+/* ask dock */
+.dock{position:fixed;right:28px;bottom:28px;width:340px;background:var(--ink);color:var(--paper);box-shadow:none}
+.dock .top{display:flex;align-items:center;justify-content:space-between;padding:16px 18px;border-bottom:1px solid rgba(255,255,255,.15)}
+.dock .top b{font:800 13px var(--display);font-stretch:120%;letter-spacing:.14em;text-transform:uppercase}
+.dock .top .triad{transform:scale(.7);transform-origin:right}
+.dock p{padding:14px 18px 6px;font-size:14px;color:#cfcac0}
+.dock .prompts{display:flex;flex-direction:column;padding:6px 10px 14px}
+.dock .prompts button{text-align:left;padding:9px 8px;font-size:14px;border-top:1px solid rgba(255,255,255,.1)}
+.dock .prompts button::before{content:"→ ";color:var(--yellow)}
+footer{height:140px}
+
+@media (max-width:980px){
+  .row{grid-template-columns:52px 1fr 64px 40px}
+  .row .meta,.row .tags{display:none}
+  .dock{width:300px}
+}
+@media (max-width:720px){
+  .wrap{padding:0 16px}
+  .bar{grid-template-columns:auto auto;height:auto;padding:14px 0;gap:14px}
+  .search{grid-column:1/-1;order:3}
+  .hero{grid-template-columns:1fr}
+  .count{border-right:0;padding:26px 0 18px;border-bottom:1px solid var(--rule)}
+  .sentence{padding:22px 0 24px}
+  .ruler button{height:52px;padding:6px 4px}
+  .ruler small{display:none}
+  .vibes{flex-direction:column;align-items:flex-start;gap:10px}
+  .chips{flex-wrap:nowrap;overflow-x:auto;width:100%;padding-bottom:4px;scrollbar-width:none}
+  .chip{flex:0 0 auto}
+  .more{margin-left:0}
+  .row{grid-template-columns:46px 1fr 34px;gap:12px}
+  .row .dur{display:none}
+  .lv{width:38px;height:38px;font-size:16px}
+  .dock{left:16px;right:16px;bottom:16px;width:auto}
+  .dock p,.dock .prompts{display:none}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="mark" href="#">
+      <span class="triad"><i class="t"></i><i class="s"></i><i class="c"></i></span>
+      <span class="word">Violin Repertoire<span>Finder</span></span>
+    </a>
+    <label class="search"><input placeholder="Search 2,253 works — composer, title, “op 35”, “e minor”…"><kbd>/</kbd></label>
+    <div class="actions"><button class="ask">Ask</button><button class="theme" aria-label="Theme"><i></i></button></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="count">
+      <div class="big">2,253</div>
+      <p>graded works for the violin — from first concertos to Paganini — sorted by what you actually need: setting, level, and character.</p>
+      <a class="levels-link" href="#">How the 10 levels work</a>
+    </div>
+    <div class="sentence">
+      <div class="label">Find music</div>
+      <div class="line">Show me <span class="pick">any piece</span> for <span class="pick">any setting</span> around <span class="pick lvl">level 5</span></div>
+      <div class="ruler" role="group" aria-label="Level">
+        <button><b>1</b><small>Early inter­mediate</small></button>
+        <button><b>2</b><small>Inter­mediate</small></button>
+        <button><b>3</b><small>Upper inter­mediate</small></button>
+        <button class="on"><b>4</b><small>Early advanced</small></button>
+        <button class="on core"><b>5</b><small>Advanced</small></button>
+        <button class="on"><b>6</b><small>Pre-diploma</small></button>
+        <button><b>7</b><small>Diploma</small></button>
+        <button><b>8</b><small>Profes­sional</small></button>
+        <button><b>9</b><small>Virtuoso</small></button>
+        <button><b>10</b><small>Extreme</small></button>
+      </div>
+      <div class="ruler-legend"><span><b>Level 5 · Advanced</b> — about ABRSM 8 / RCM 9</span><span>Around ±1 · <b>Exact</b></span></div>
+    </div>
+  </section>
+
+  <div class="vibes">
+    <div class="chips">
+      <button class="chip">Major</button><button class="chip on">Minor</button>
+      <button class="chip sep">Slow</button><button class="chip">Lively</button>
+      <button class="chip sep on">Lyrical</button><button class="chip">Dance</button><button class="chip">Virtuosic</button><button class="chip">Playful</button><button class="chip">Dramatic</button><button class="chip">Tender</button><button class="chip">Dark</button><button class="chip">Folk</button>
+      <button class="chip sep">Well-known</button><button class="chip">Lesser-known</button>
+    </div>
+    <button class="more">More filters +</button>
+  </div>
+
+  <div class="results-head"><h2>Results <span>· 186 works</span></h2><div class="sort">Sort: <b>Level</b> · Composer · Length</div></div>
+  <div class="list">
+    <div class="row"><div class="lv l-r">4</div><div><div class="ttl">Concerto No. 9 in A minor, Op. 104</div><div class="cmp">Charles de Bériot</div></div><div class="meta"><b>Concerto</b>With orchestra</div><div class="dur">14<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Lyrical</span><span class="tag pop">Well-known</span></div><button class="play"><i></i></button></div>
+    <div class="row"><div class="lv l-r">4</div><div><div class="ttl">Deep River, Op. 59 No. 10 (arr. Maud Powell)</div><div class="cmp">Samuel Coleridge-Taylor</div></div><div class="meta"><b>Short piece</b>With piano</div><div class="dur">4<small> min</small></div><div class="tags"><span class="tag">Slow</span><span class="tag">Lyrical</span><span class="tag">Lesser-known</span></div><button class="play"><i></i></button></div>
+    <div class="row group"><div class="stack"><i></i><i></i><i>18</i></div><div><div class="ttl">Hungarian Dances (arr. Joachim)</div><div class="set">Johannes Brahms · 18 of 21 match · levels 5–6</div></div><div class="meta"><b>Short pieces</b>With piano</div><div class="dur">2–4<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Dance</span><span class="tag">Folk</span></div><button class="expand">Open</button></div>
+    <div class="row"><div class="lv l-r">5</div><div><div class="ttl">Romance in B-flat major, Op. 28</div><div class="cmp">Gabriel Fauré</div></div><div class="meta"><b>Short piece</b>With piano</div><div class="dur">6<small> min</small></div><div class="tags"><span class="tag">Slow</span><span class="tag">Lyrical</span><span class="tag">Tender</span></div><button class="play"><i></i></button></div>
+    <div class="row"><div class="lv l-r">5</div><div><div class="ttl">Kol Nidrei in D minor, Op. 47</div><div class="cmp">Max Bruch</div></div><div class="meta"><b>Concert piece</b>With orchestra</div><div class="dur">10<small> min</small></div><div class="tags"><span class="tag">Minor</span><span class="tag">Slow</span><span class="tag pop">Well-known</span></div><button class="play"><i></i></button></div>
+    <div class="row"><div class="lv l-r">6</div><div><div class="ttl">Improvisation, Op. 21 No. 1</div><div class="cmp">Dmitri Kabalevsky</div></div><div class="meta"><b>Short piece</b>With piano</div><div class="dur">5<small> min</small></div><div class="tags"><span class="tag">Dark</span><span class="tag">Dramatic</span><span class="tag">Lesser-known</span></div><button class="play"><i></i></button></div>
+    <div class="row"><div class="lv l-r">6</div><div><div class="ttl">Concerto No. 3 in G major, K. 216</div><div class="cmp">Wolfgang Amadeus Mozart</div></div><div class="meta"><b>Concerto</b>With orchestra</div><div class="dur">24<small> min</small></div><div class="tags"><span class="tag">Major</span><span class="tag">Playful</span><span class="tag pop">Well-known</span></div><button class="play"><i></i></button></div>
+  </div>
+  <footer></footer>
+</main>
+
+<aside class="dock">
+  <div class="top"><b>Ask</b><span class="triad"><i class="t"></i><i class="s"></i><i class="c"></i></span></div>
+  <p>Tell me what you've played. I'll suggest what could come next.</p>
+  <div class="prompts">
+    <button>I just finished the Accolay concerto</button>
+    <button>Something lyrical, unaccompanied, level 6</button>
+    <button>A recital opener under 4 minutes</button>
+  </div>
+</aside>
+<script>
+document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>c.classList.toggle('on'));
+</script>
+</body>
+</html>
