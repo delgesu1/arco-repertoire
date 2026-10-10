@@ -1,6 +1,10 @@
+import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Explorer } from "@/components/Explorer";
-import { catalogue } from "@/lib/catalogue";
+import { smartBanner } from "@/lib/arco";
+import { SITE_URL, catalogue } from "@/lib/catalogue";
+
+export const metadata: Metadata = { other: smartBanner(SITE_URL) };
 
 export default function Home() {
   return (

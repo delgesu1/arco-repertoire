@@ -4,6 +4,8 @@ import { Analytics } from "@vercel/analytics/next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { Brand, Header } from "@/components/Header";
+import { ArcoFooter } from "@/components/ArcoFooter";
+import { ArcoPeek } from "@/components/ArcoPeek";
 import { InstrumentSwitcher } from "@/components/InstrumentSwitcher";
 import { SITE_URL, catalogue } from "@/lib/catalogue";
 import "./globals.css";
@@ -35,7 +37,8 @@ export const viewport: Viewport = {
   ],
 };
 
-const themeScript = `try{var t=localStorage.getItem("theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.dataset.theme=t}catch(e){}`;
+// theme, and the device class the Arco footer and return-visit card key off (iPad reports itself as a Mac, hence maxTouchPoints)
+const themeScript = `try{var t=localStorage.getItem("theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.dataset.theme=t}catch(e){}try{var u=navigator.userAgent,p="desktop";if(/iPhone|iPad|iPod/.test(u)||(/Macintosh/.test(u)&&navigator.maxTouchPoints>1))p="ios";else if(/Android/.test(u))p="android";document.documentElement.dataset.platform=p}catch(e){}`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -50,6 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <footer className="footer">
           <div className="wrap">
+            <ArcoFooter />
             <nav aria-label="More">
               <Link href="/composers">Composers</Link>
               <Link href="/levels">How the levels work</Link>
@@ -64,6 +68,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </p>
           </div>
         </footer>
+        <Suspense fallback={null}>
+          <ArcoPeek />
+        </Suspense>
         <Analytics />
       </body>
     </html>

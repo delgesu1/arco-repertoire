@@ -5,6 +5,7 @@ import { LevelBadge, imslpLink, tagList } from "./pieces";
 import { Row } from "./Row";
 import { ExternalIcon } from "./icons";
 import { YouTube } from "./YouTube";
+import { ArcoLine } from "./ArcoLine";
 
 // Daniel's Google Form, pre-filled with the piece ("{id}" / "{piece}" are replaced per piece)
 export const CORRECTION_FORM =
@@ -140,6 +141,8 @@ export function PieceDetail({
           </a>
         )}
       </div>
+
+      <ArcoLine piece={p} />
 
       {setMembers.length > 0 && (
         <section className="section mini-list">

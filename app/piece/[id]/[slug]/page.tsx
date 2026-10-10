@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import { PieceDetail } from "@/components/PieceDetail";
+import { smartBanner } from "@/lib/arco";
 import { catalogue, getPiece, levelInfo, pieceUrl, pieces, SITE_URL } from "@/lib/catalogue";
 import { settingLabel, typeSingular } from "@/lib/vocab";
 
@@ -24,6 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     alternates: { canonical: pieceUrl(p) },
     openGraph: { title: `${p.composerName}: ${p.title}`, description },
+    other: smartBanner(`${SITE_URL}${pieceUrl(p)}`),
   };
 }
 
