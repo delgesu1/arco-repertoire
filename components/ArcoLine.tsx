@@ -1,5 +1,5 @@
 import type { Piece } from "@/lib/types";
-import { arcoLink } from "@/lib/arco";
+import { arcoUrl } from "@/lib/arco";
 import { ExternalIcon } from "./icons";
 
 // the sets whose studies are listed one by one
@@ -34,10 +34,9 @@ export function ArcoLine({ piece }: { piece: Piece }) {
         )}
       </div>
       <div className="act">
-        <a className="link-underline" href={arcoLink("piece")} target="_blank" rel="noopener">
-          Try Arco free <ExternalIcon />
+        <a className="link-underline" href={arcoUrl("piece")} target="_blank" rel="noopener">
+          Try Arco for free <ExternalIcon />
         </a>
-        <span className="fine">iPhone, iPad and web</span>
       </div>
     </aside>
   );

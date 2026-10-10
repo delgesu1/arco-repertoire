@@ -11,6 +11,7 @@
  *   { "existing": { "<id>": { "title"?, "level"?, "set"?, "notes"?, "category"?, "accompaniment"?, "exams"? } },   // corrections to rows already in the catalogue
  *     "drop": { "<author-slug>:<normalised title>": "why" },                                                         // researcher entries to leave out
  *     "override": { "<author-slug>:<normalised title>": { "title"?, "level"?, "set"?, "category"?, "notes"?, "well_known"? } },
+ *     "final_level": { "<author-slug>:<normalised title>": <1-10> },                                                // fixes the final level (the median of researcher and graders is not used)
  *     "author_alias": { "<researcher spelling>": "<catalogue spelling>" },                                           // same person spelled differently
  *     "author_meta": { "<author>": { "era"?, "dates"?, "nat"?, "gender"? } },                                         // when the researchers could not say
  *     "imslp_pages": { "<existing id>": "<IMSLP page title>" } }                                                     // score links for existing rows
@@ -237,7 +238,7 @@ for (const w of fresh) {
     continue;
   }
   const g = gRaw.map((x) => (x === 0 ? 1 : x));
-  const lv = g.length ? median([w.level_guess, ...g]) : w.level_guess;
+  const lv = decisions.final_level?.[w.key] ?? (g.length ? median([w.level_guess, ...g]) : w.level_guess);
   if (!(lv >= 1 && lv <= 10)) { problems.push(`bad level ${lv}: ${w.title}`); continue; }
   const acc = w.accompaniment && ACC.has(w.accompaniment) ? w.accompaniment : "Unaccompanied";
   if (w.accompaniment && !ACC.has(w.accompaniment)) problems.push(`accompaniment "${w.accompaniment}" mapped to Unaccompanied: ${w.title}`);

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
-import { arcoLink } from "@/lib/arco";
+import { arcoUrl } from "@/lib/arco";
 import { ExternalIcon } from "./icons";
 
 /**
@@ -85,10 +85,10 @@ export function ArcoPeek() {
   return (
     <aside className="arco-peek" aria-label="Arco">
       <p>
-        <b>Teaching or learning violin?</b> Try Arco on your next lesson.
+        <b>Teaching or learning violin?</b> Arco turns every lesson into notes.
       </p>
-      <a className="link-underline" href={arcoLink("peek")} target="_blank" rel="noopener" onClick={() => close(true)}>
-        Try it free <ExternalIcon />
+      <a className="link-underline" href={arcoUrl("peek")} target="_blank" rel="noopener" onClick={() => close(true)}>
+        Try Arco for free <ExternalIcon />
       </a>
       <button className="close" onClick={() => close()} aria-label="Dismiss">
         ×

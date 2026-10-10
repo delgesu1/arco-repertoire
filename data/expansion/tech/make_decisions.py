@@ -219,8 +219,25 @@ existing = {
     "2117": {"title": "Introducing the Positions, Vol. 1", "notes": "3rd and 5th positions", "set": "Introducing the Positions"},
 }
 
+# Individual études whose syllabus placement (RCM 2021 lists, Henle) the two graders overrode by two levels or more: the researcher's
+# syllabus-based level stays (Daniel, 2026-10-10). Fiorillo No. 4 (graders 5 and 5 against the researcher's own 'estimate' of 3,
+# no syllabus placement) is left at the median.
+final_level = {
+    "kreutzer-rodolphe:etude 2 in c major": 2,
+    "kreutzer-rodolphe:etude 3 in c major": 2,
+    "kreutzer-rodolphe:etude 5 in e flat major": 2,
+    "kreutzer-rodolphe:etude 7 in d major": 3,
+    "kreutzer-rodolphe:etude 13 in major": 3,
+    "gavinies-pierre:matinee 4 in g major": 6,
+    "gavinies-pierre:matinee 13 in c major": 6,
+    "gavinies-pierre:matinee 14 in major": 6,
+    "gavinies-pierre:matinee 17 in minor": 6,
+    "rode-pierre:caprice 8 in f sharp minor": 5,
+}
+
 out = {
     "existing": existing,
+    "final_level": final_level,
     "drop": drop,
     "override": override,
     "author_alias": author_alias,
