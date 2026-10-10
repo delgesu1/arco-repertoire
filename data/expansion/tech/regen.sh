@@ -3,7 +3,7 @@
 # after any change to the researcher files, grades or make_decisions.py. Ids stay sticky through data/expansion/id-registry.json.
 set -e
 cd "$(dirname "$0")/../../.."
-[ -f data/cache/all-repertoire.before-tech.json ] || git show HEAD:data/source/all-repertoire.json > data/cache/all-repertoire.before-tech.json
+[ -f data/cache/all-repertoire.before-tech.json ] || git show 1b43847^:data/source/all-repertoire.json > data/cache/all-repertoire.before-tech.json
 cp data/cache/all-repertoire.before-tech.json data/source/all-repertoire.json
 python3 data/expansion/tech/make_decisions.py
 npx tsx scripts/expand/tech_merge.ts --write | sed -n 1,5p
