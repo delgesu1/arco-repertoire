@@ -308,7 +308,18 @@ const views = (p: Piece) => {
   const j = judged[String(p.id)];
   return j && j.confidence !== "none" ? j.maxViews : 0;
 };
+// Technical materials added in Oct 2026 (ids from TECH_FIRST_ID) must not push repertoire out of the prompt: the individual studies of the
+// big five (Kreutzer, Rode, Dont, Fiorillo, Gaviniès) stay out unless nothing else competes, and other study/technique books only get in
+// when they are well known or on syllabi. All of them remain reachable through search_catalogue.
+const TECH_FIRST_ID = 3305;
+const techPenalty = (p: Piece) =>
+  p.id < TECH_FIRST_ID || (p.type !== "etude" && p.type !== "technique")
+    ? 0
+    : /^(Étude|Caprice|Matinée) No\. \d+/.test(p.title)
+      ? 4
+      : 1;
 const importance = (p: Piece) =>
+  -techPenalty(p) +
   (p.popularity === "well-known" ? 4 : p.popularity === "lesser-known" ? -1 : 0) +
   (p.examBoards.length ? 1.5 + Math.min(p.examBoards.length, 4) * 0.25 : 0) +
   (views(p) >= 500_000 ? 2 : views(p) >= 100_000 ? 1.5 : views(p) >= 20_000 ? 0.75 : 0) +

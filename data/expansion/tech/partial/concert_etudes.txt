@@ -1,0 +1,35 @@
+# Progress notes recovered from the stopped 'concert_etudes' agent's transcript (46 tool calls). Raw transcript: /private/tmp/claude-501/-Users-danielkurganov-DEVELOPMENT-tests/21babd67-fb7c-4a42-8e6b-5f177e0dd119/tasks/a6fcf345011abba16.output
+
+I'll start by reading the brief completely.
+
+Brief read and web tools loaded. Next I'll look at the existing catalogue entries and the IMSLP helper.
+
+Now I'll check what the other researchers have already filed, so I don't duplicate their entries, and grep the compact catalogue for my candidate authors.
+
+The driver works. Let me look for IMSLP's genre-level categories (Etudes, Studies, Caprices) to discover authors I haven't thought of.
+
+Every category returned exactly 500, which suggests the helper's `members_of` isn't following pagination. Let me check the raw API response format.
+
+Paging works now and the counts match. Let me intersect the study/caprice/exercise categories with the violin instrumentation categories.
+
+749 hits across 412 composers. This is the core discovery list, so I'll read it in full.
+
+The intersection is very productive. Before drilling in, let me check how other groups' outputs look (to avoid duplicates) and what the `final/` directory holds.
+
+`final/` references other groups (german_a, italian_baroque) that aren't in `web/`. Let me look at `final/added.json` and `skipped.json` to see which authors are already assembled.
+
+Now an extractor for full work-page details (publishers, movements, dedications, comments), run on my first batch of 19th-century candidates.
+
+Let me pull IMSLP details for the next batch (Lvov, Ondříček, Nováček, Martinů, Bacewicz, Kotlar and a few others).
+
+Let me read the raw wikitext for the Saint-Lubin pages (to see which opus carries the Hubay edition), and check Lvov's and Ondříček's pages for opus and edition detail.
+
+Good. Let me open the Schott product page to confirm the details.
+
+Widmann confirmed on Schott's own page (VLB 108, VLB 153). Let me pull the full MARC record for Poppe's Etüden and check for Heft 1.
+
+Poppe is only thinly documented (a single 4-page Heft 2). Let me scan IMSLP for several other leads at once (Vale, Flury, Weiner, Quiroga, Bacewicz, Piazzolla, Ysaÿe, Enescu, etc.).
+
+DNB's keyword index is hit-and-miss. Let me pull Wikipedia articles for the main candidates and grep for the relevant works.
+
+Let me also intersect IMSLP's "Preludes" category with the violin categories (preludes-as-studies), and check a few more genre categories.

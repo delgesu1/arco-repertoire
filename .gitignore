@@ -51,3 +51,10 @@ next-env.d.ts
 /data/expansion/preview/
 /data/expansion/sheet-sync/
 /data/expansion/final/all-repertoire.next.json
+
+# Python bytecode from scripts/expand/*.py
+__pycache__/
+/data/expansion/tech/final/all-repertoire.*.json
+/data/expansion/tech/final/keys.json
+/data/expansion/tech/to-grade.json
+/data/expansion/tech/catalogue-compact.txt
