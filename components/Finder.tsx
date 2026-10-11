@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { LevelInfo } from "@/lib/types";
 import type { Filters } from "@/lib/filter";
-import { SETTINGS, TYPES } from "@/lib/vocab";
+import { SETTINGS, TYPES, levelPhrase, settingPhrase, typePhrase } from "@/lib/vocab";
 import type { Counts } from "./Explorer";
 
 export function Pick({
@@ -72,9 +72,8 @@ export function Finder({
   counts: { type: Counts; setting: Counts; level: Counts };
 }) {
   const lvl = f.level ? levels.find((l) => l.level === f.level) : null;
-  const typeText = f.type ? TYPES.find((t) => t.key === f.type)!.label.toLowerCase() : "any piece";
-  const setting = f.setting ? SETTINGS.find((s) => s.key === f.setting)! : null;
-  const settingText = setting ? setting.label.replace(/^With /, "").toLowerCase() : "any setting";
+  const sp = settingPhrase(f.setting);
+  const lp = levelPhrase(f.level, f.exact);
   const totalTypes = [...counts.type.values()].reduce((a, b) => a + b, 0);
 
   return (
@@ -83,7 +82,7 @@ export function Finder({
         Show me{" "}
         <Pick
           tone="a"
-          label={typeText}
+          label={typePhrase(f.type)}
           value={f.type}
           onChange={(v) => update({ type: v as Filters["type"] })}
           options={[
@@ -91,10 +90,10 @@ export function Finder({
             ...TYPES.map((t) => ({ value: t.key, label: t.label, count: counts.type.get(t.key) ?? 0 })),
           ]}
         />{" "}
-        {setting?.key === "solo" ? "" : "for "}
+        {sp.lead}{" "}
         <Pick
           tone="b"
-          label={setting?.key === "solo" ? "unaccompanied" : settingText}
+          label={sp.noun}
           value={f.setting}
           onChange={(v) => update({ setting: v as Filters["setting"] })}
           options={[
@@ -102,10 +101,10 @@ export function Finder({
             ...SETTINGS.map((s) => ({ value: s.key, label: s.label, count: counts.setting.get(s.key) ?? 0 })),
           ]}
         />{" "}
-        {f.level ? (f.exact ? "at" : "around") : "at"}{" "}
+        {lp.lead}{" "}
         <Pick
           tone="c"
-          label={f.level ? `level ${f.level}` : "any level"}
+          label={lp.noun}
           value={f.level ? String(f.level) : null}
           onChange={(v) => update({ level: v ? Number(v) : null })}
           options={[

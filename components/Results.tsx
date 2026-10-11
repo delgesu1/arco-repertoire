@@ -3,7 +3,7 @@
 import { Fragment, useEffect, useRef, useState } from "react";
 import type { LevelInfo, Piece } from "@/lib/types";
 import type { Filters, ResultRow } from "@/lib/filter";
-import { settingLabel as settingName, typeSingular } from "@/lib/vocab";
+import { resultsHeading, settingLabel as settingName, typeSingular } from "@/lib/vocab";
 import { LevelPebbles, durationRange } from "./pieces";
 import { Row } from "./Row";
 
@@ -24,8 +24,6 @@ export function Results({
   grouping,
   levels,
   composerTotals,
-  typeLabel,
-  settingLabel,
 }: {
   loading: boolean;
   rows: ResultRow[];
@@ -37,8 +35,6 @@ export function Results({
   levels: LevelInfo[];
   composerTotals: Map<string, number>;
   onOpen: (p: Piece, play?: boolean) => void;
-  typeLabel: string | null;
-  settingLabel: string | null;
 }) {
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
   const sentinel = useRef<HTMLDivElement>(null);
@@ -50,14 +46,7 @@ export function Results({
     return () => io.disconnect();
   }, [more, rows.length, shown]);
 
-  const phrase = !settingLabel
-    ? ""
-    : settingLabel === "Unaccompanied"
-      ? " for solo violin"
-      : settingLabel.startsWith("With")
-        ? ` ${settingLabel.toLowerCase()}`
-        : ` for ${settingLabel.toLowerCase()}`;
-  const heading = typeLabel || settingLabel ? `${typeLabel ?? "Pieces"}${phrase}` : "";
+  const heading = resultsHeading(f.type, f.setting);
 
   const groupCounts = new Map<string, number>();
   if (grouping)

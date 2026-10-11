@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { Explorer } from "@/components/Explorer";
 import { smartBanner } from "@/lib/arco";
 import { SITE_URL, catalogue } from "@/lib/catalogue";
+import { INTRO } from "@/lib/vocab";
 
 export const metadata: Metadata = { other: smartBanner(SITE_URL) };
 
@@ -23,7 +24,7 @@ function HomeSkeleton() {
       <section className="hero">
         <div className="intro">
           <div className="big">{catalogue.pieces.length.toLocaleString("en")}</div>
-          <p>graded works for the violin, sorted by setting, level and character.</p>
+          <p>{INTRO}</p>
         </div>
         <div className="finder" />
       </section>

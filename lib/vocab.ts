@@ -1,5 +1,9 @@
 import type { EraKey, SettingKey, TypeKey } from "./types";
 
+/** the line under the work count at the top of the home page (also shown by the loading skeleton, so the two must match) */
+export const INTRO =
+  "graded works for the violin, sorted by setting, level and character, with sheet music links, YouTube playback, and a smart AI advisor you can chat with to find the perfect piece for you.";
+
 export const SETTINGS: { key: SettingKey; label: string; short: string }[] = [
   { key: "solo", label: "Unaccompanied", short: "Solo" },
   { key: "piano", label: "With piano", short: "Piano" },
@@ -44,6 +48,39 @@ export const CHARACTER = [
   "heroic",
   "humorous",
 ] as const;
+
+/**
+ * How the finder's choices read in a sentence: "Show me sonatas WITH piano at level 6", "...FOR solo violin around level 4",
+ * "any piece IN any setting at any level". One place, so the sentence at the top and the results heading under it agree.
+ * (The Record type means a new setting cannot be added without saying how it reads.)
+ */
+export const SETTING_PHRASE: Record<SettingKey, { lead: "with" | "for"; noun: string }> = {
+  solo: { lead: "for", noun: "solo violin" },
+  piano: { lead: "with", noun: "piano" },
+  orchestra: { lead: "with", noun: "orchestra" },
+  duo: { lead: "for", noun: "two or more violins" },
+  continuo: { lead: "with", noun: "continuo" },
+  other: { lead: "for", noun: "other ensembles" },
+};
+export const settingPhrase = (k: SettingKey | null): { lead: string; noun: string } =>
+  k ? SETTING_PHRASE[k] : { lead: "in", noun: "any setting" };
+/** the type as a plural noun phrase ("concertos", "études & caprices"), or "any piece" */
+export const typePhrase = (k: TypeKey | null): string => (k ? (TYPES.find((t) => t.key === k)?.label ?? k).toLowerCase() : "any piece");
+/** "at level 5", "around level 5" (the neighbouring levels count too) or "at any level" */
+export const levelPhrase = (level: number | null, exact: boolean): { lead: string; noun: string } =>
+  level ? { lead: exact ? "at" : "around", noun: `level ${level}` } : { lead: "at", noun: "any level" };
+/** the whole sentence, as plain text (the page renders the same parts as menus) */
+export const finderSentence = (type: TypeKey | null, setting: SettingKey | null, level: number | null, exact: boolean): string => {
+  const s = settingPhrase(setting);
+  const l = levelPhrase(level, exact);
+  return `Show me ${typePhrase(type)} ${s.lead} ${s.noun} ${l.lead} ${l.noun}`;
+};
+/** the heading over the results: "Concertos with orchestra", "Pieces for solo violin" (no type chosen → "Pieces") */
+export const resultsHeading = (type: TypeKey | null, setting: SettingKey | null): string => {
+  if (!type && !setting) return "";
+  const label = type ? (TYPES.find((t) => t.key === type)?.label ?? type) : "Pieces";
+  return setting ? `${label} ${settingPhrase(setting).lead} ${settingPhrase(setting).noun}` : label;
+};
 
 export const EXAM_BOARDS = ["ABRSM", "Trinity", "RCM", "AMEB", "ASTA", "NYSSMA", "UIL", "Henle"] as const;
 

@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import type { Catalogue, LevelInfo, Piece } from "@/lib/types";
-import { SETTINGS, TYPES } from "@/lib/vocab";
+import { INTRO } from "@/lib/vocab";
 import { facetCounts, groupResults, matches, sortPieces, type Filters } from "@/lib/filter";
 import { indexPieces, search, type IndexedPiece } from "@/lib/search";
 import { filtersFromParams, paramsFromFilters, writeUrl } from "@/lib/url-state";
@@ -151,7 +151,7 @@ export function Explorer({ version, levels, total }: { version: string; levels: 
       <section className="hero">
         <div className="intro">
           <div className="big">{(all.length || total).toLocaleString("en")}</div>
-          <p>graded works for the violin, sorted by setting, level and character.</p>
+          <p>{INTRO}</p>
           <LevelsInfo levels={levels} onPick={(level) => update({ level })} />
           <a className="intro-byline" href="https://www.kurganov.org" target="_blank" rel="noopener">
             Created by <b>Daniel Kurganov</b>
@@ -191,8 +191,6 @@ export function Explorer({ version, levels, total }: { version: string; levels: 
         levels={levels}
         composerTotals={composerTotals}
         onOpen={openPiece}
-        typeLabel={f.type ? TYPES.find((t) => t.key === f.type)!.label : null}
-        settingLabel={f.setting ? SETTINGS.find((s) => s.key === f.setting)!.label : null}
       />
 
       {openPieceData && (
