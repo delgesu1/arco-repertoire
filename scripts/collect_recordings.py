@@ -13,7 +13,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CACHE = ROOT / "data" / "cache" / "yt"
+import os
+CACHE = ROOT / "data" / "cache" / os.environ.get("CACHE_NAME", "yt")  # CACHE_NAME=yt2 + PLAIN=1: second, plainer query (no "violin" appended) for pieces whose first search found nothing usable
 CACHE.mkdir(parents=True, exist_ok=True)
 N_RESULTS = 8
 WORKERS = 3
@@ -28,7 +29,7 @@ def first_last(name):
 
 def query_for(composer, title):
     q = f"{first_last(composer)} {title}"
-    if "violin" not in title.lower():
+    if "violin" not in title.lower() and not os.environ.get("PLAIN"):
         q += " violin"
     return q
 
@@ -60,7 +61,8 @@ def main():
     import os
     snap = os.environ.get("SNAPSHOT", "data/source/all-repertoire.json")
     rows = json.load(open(ROOT / snap))["values"][1:]
-    todo = [(r[16], r[0], r[1]) for r in rows if not (CACHE / f"{r[16]}.json").exists()]
+    only = set(open(ROOT / os.environ["IDS_FILE"]).read().split()) if os.environ.get("IDS_FILE") else None
+    todo = [(r[16], r[0], r[1]) for r in rows if not (CACHE / f"{r[16]}.json").exists() and (only is None or r[16] in only)]
     if os.environ.get("REVERSE"):
         todo.reverse()  # a second instance can work from the other end
     if len(sys.argv) > 1:

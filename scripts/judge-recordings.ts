@@ -5,10 +5,11 @@
  *   npx tsx --env-file=.env.local scripts/judge-recordings.ts collect  # fetch results, check embeddability,
  *                                                                       # write data/recordings-judged.json
  *   npx tsx --env-file=.env.local scripts/judge-recordings.ts direct   # same judging at normal speed, only for pieces not yet judged
+ *   npx tsx scripts/judge-recordings.ts export | apply                  # judging by reviewers instead of the API (no key needed), see exportCandidates()
  * Rules narrow the candidates; Claude Haiku 5.5 makes the final call (Batch API, strict JSON schema).
  */
 import Anthropic from "@anthropic-ai/sdk";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { Catalogue, Piece } from "../lib/types";
 import { settingLabel, typeSingular } from "../lib/vocab";
@@ -16,6 +17,7 @@ import { fold } from "../lib/search";
 
 const ROOT = join(__dirname, "..");
 const CACHE = join(ROOT, "data/cache/yt");
+const CACHE2 = join(ROOT, "data/cache/yt2");
 const STATE = join(ROOT, "data/cache/judge-batch.json");
 const OUT = join(ROOT, "data/recordings-judged.json");
 const MODEL = "claude-haiku-5-5";
@@ -39,9 +41,11 @@ const VIOLIN_WORDS = /violin|violon|violino|geige|violine|skrzyp|скрипк|he
 const pieces: Piece[] = (JSON.parse(readFileSync(join(ROOT, process.env.CATALOGUE_JSON ?? "data/build/catalogue.json"), "utf8")) as Catalogue).pieces;
 
 function candidates(p: Piece): Entry[] {
-  const f = join(CACHE, `${p.id}.json`);
-  if (!existsSync(f)) return [];
-  const { entries } = JSON.parse(readFileSync(f, "utf8")) as { entries: Entry[] };
+  // yt = first search ("<composer> <title> violin"), yt2 = second, plainer query for pieces the first one did not settle (collect_recordings.py CACHE_NAME=yt2 PLAIN=1)
+  const files = [join(CACHE, `${p.id}.json`), join(CACHE2, `${p.id}.json`)].filter(existsSync);
+  if (!files.length) return [];
+  const seen = new Set<string>();
+  const entries = files.flatMap((f) => (JSON.parse(readFileSync(f, "utf8")) as { entries: Entry[] }).entries).filter((e) => e?.id && !seen.has(e.id) && seen.add(e.id));
   // Names as words: "Coleridge-Taylor" → coleridge|taylor; "Saint-Georges, Joseph Bologne" → georges|bologne…
   const [last, ...given] = fold(p.composer).split(",");
   const words = (s: string, min: number) =>
@@ -215,10 +219,71 @@ async function collect() {
   console.log(`Wrote ${OUT}`, counts, errors ? `${errors} errored` : "");
 }
 
+
+/**
+ * Judging without the API: `export` writes the pre-filtered candidates of the pieces that have no judged record yet
+ * (restricted to the ids in ONLY_IDS_FILE, a snapshot like data/cache/modern-only.json, when set) to data/expansion/modern/recordings/to-judge-<n>.json
+ * for reviewers; `apply` reads their answers (data/expansion/modern/recordings/choices-*.json: {"<id>": {choice, confidence, alternates, reason}})
+ * and stores them exactly as `direct` would (embeddability check included).
+ */
+async function exportCandidates() {
+  const out: Record<string, unknown> = existsSync(OUT) ? JSON.parse(readFileSync(OUT, "utf8")) : {};
+  const relaxed = !!process.env.RELAXED; // pieces still without a usable recording: albums / programmes that include the work are acceptable now
+  const cat = relaxed ? (JSON.parse(readFileSync(join(ROOT, "data/build/catalogue.json"), "utf8")) as Catalogue).pieces : [];
+  const noRec = new Set(cat.filter((p) => !p.recording).map((p) => String(p.id)));
+  const only = process.env.ONLY_IDS_FILE
+    ? new Set((JSON.parse(readFileSync(join(ROOT, process.env.ONLY_IDS_FILE), "utf8")).values as string[][]).slice(1).map((r) => String(r[16])))
+    : null;
+  const items = [];
+  let none = 0;
+  for (const p of pieces) {
+    if (relaxed ? !noRec.has(String(p.id)) : out[String(p.id)]) continue;
+    if (only && !only.has(String(p.id))) continue;
+    const c = candidates(p);
+    if (!c.length) { none++; continue; }
+    items.push({
+      id: p.id, composer: p.composerName, work: p.title, type: typeSingular(p.type), setting: `${p.settings.map(settingLabel).join(", ")} (${p.accompaniment})`,
+      expected_minutes: p.minutes ?? null,
+      previous_pick: relaxed ? ((out[String(p.id)] as { video?: { id: string } | null } | undefined)?.video?.id ?? null) : undefined,
+      candidates: c.map((e) => ({ id: e.id, title: e.title, channel: e.channel, verified: !!e.channel_is_verified, minutes: e.duration != null ? Math.round(e.duration / 60) : null, views: e.view_count })),
+    });
+  }
+  const N = Number(process.env.CHUNKS ?? 4);
+  const dir = join(ROOT, "data/expansion/modern/recordings");
+  mkdirSync(dir, { recursive: true });
+  for (let i = 0; i < N; i++) writeFileSync(join(dir, `to-judge-${relaxed ? "r" : ""}${i + 1}.json`), JSON.stringify({ chunk: i + 1, items: items.filter((_, k) => k % N === i) }, null, 1));
+  console.log(`${items.length} pieces with candidates exported in ${N} chunks (${none} without usable candidates)`);
+}
+
+async function applyChoices() {
+  const dir = join(ROOT, "data/expansion/modern/recordings");
+  const out: Record<string, unknown> = existsSync(OUT) ? JSON.parse(readFileSync(OUT, "utf8")) : {};
+  const byId = new Map(pieces.map((p) => [String(p.id), p]));
+  let n = 0, picked = 0;
+  const relaxed = !!process.env.RELAXED; // choices-r*.json: override the earlier "none" / deduped records; "compilation": true marks an album or programme that includes the work
+  for (const f of readdirSync(dir).filter((f) => (relaxed ? /^choices-r.*\.json$/ : /^choices-\d.*\.json$/).test(f))) {
+    const j = JSON.parse(readFileSync(join(dir, f), "utf8")) as Record<string, Judgement & { compilation?: boolean }>;
+    for (const [id, ch] of Object.entries(j)) {
+      const p = byId.get(id);
+      if (!p || (out[id] && !relaxed)) continue;
+      if (relaxed && ch.choice === "none") continue; // keep what was there
+      out[id] = { ...(await record(p, { choice: ch.choice, confidence: ch.confidence ?? "medium", alternates: ch.alternates ?? [], reason: ch.reason ?? "" })), ...(ch.compilation ? { compilation: true } : {}) };
+      n++;
+      if ((out[id] as { video: unknown }).video) picked++;
+    }
+  }
+  // pieces without usable candidates are recorded as such, like `direct` does
+  for (const p of pieces) if (!out[String(p.id)] && existsSync(join(CACHE, `${p.id}.json`)) && !candidates(p).length) out[String(p.id)] = { confidence: "none", reason: "no usable candidates", video: null, alternates: [], viewScore: 0, maxViews: 0 };
+  writeFileSync(OUT, JSON.stringify(out, null, 1));
+  console.log(`applied ${n} judgements, ${picked} with an embeddable video`);
+}
+
 const cmd = process.argv[2];
 if (cmd === "submit") submit();
 else if (cmd === "collect") collect();
 else if (cmd === "direct") direct();
+else if (cmd === "export") exportCandidates();
+else if (cmd === "apply") applyChoices();
 else if (cmd === "stats") {
   let none = 0, total = 0;
   for (const p of pieces) {

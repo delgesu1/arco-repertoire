@@ -30,6 +30,7 @@ interface Judged {
   video: { id: string; title: string; channel: string; seconds: number | null; views: number | null } | null;
   alternates: string[];
   maxViews: number;
+  compilation?: boolean; // an album or programme that includes the work (set by the relaxed judging pass)
 }
 const judged: Record<string, Judged> = existsSync(join(ROOT, "data/recordings-judged.json"))
   ? read("data/recordings-judged.json")
@@ -221,7 +222,8 @@ for (const [n, r] of sheet.slice(1).entries()) {
     return hits.length === 1 ? hits[0] : null;
   };
   let dropped = 0;
-  for (const group of byVideo.values()) {
+  for (const all of byVideo.values()) {
+    const group = all.filter((p) => !judged[String(p.id)]?.compilation); // albums / programmes that include the work are allowed to be shared
     if (group.length < 2) continue;
     const v = group[0].recording!;
     const vWords = new Set(words(v.title));
