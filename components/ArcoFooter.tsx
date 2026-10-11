@@ -2,7 +2,7 @@ import { appStoreUrl, arcoUrl } from "@/lib/arco";
 import { ExternalIcon } from "./icons";
 
 /**
- * "Made by Arco": the quiet home for anyone who wants to look later. "Try Arco for free" goes to arco.app everywhere; the way
+ * The footer: the quiet home for anyone who wants to look later. "Try Arco for free" goes to arco.app everywhere; the way
  * into the App Store follows the device (html[data-platform] is set by the inline script in the layout): a QR code on desktop,
  * Apple's badge on iPhone and iPad, nothing extra on Android (no Android app).
  */
@@ -10,7 +10,6 @@ export function ArcoFooter() {
   return (
     <section className="arco-foot" aria-labelledby="arco-foot-title">
       <div className="txt">
-        <span className="label">Made by Arco</span>
         <h2 id="arco-foot-title" className="head">
           The lesson ends. The teaching stays.
         </h2>

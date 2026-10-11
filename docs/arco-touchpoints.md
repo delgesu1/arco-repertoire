@@ -7,7 +7,7 @@ never block the page, never interrupt search or the Ask panel.
 | # | Placement | Where | When | Code |
 |---|---|---|---|---|
 | 2 | A line on the piece page | under the links of every piece page and piece sheet | always | `components/ArcoLine.tsx` (used by `PieceDetail`) |
-| 4 | Footer "Made by Arco" | footer of every page | always | `components/ArcoFooter.tsx` |
+| 4 | Footer ("The lesson ends. The teaching stays.") | footer of every page | always | `components/ArcoFooter.tsx` |
 | 5 | Return-visit card | one slim line, bottom left | second visit (after 15 s) or the third piece opened in a session | `components/ArcoPeek.tsx` |
 | 6 | iOS Smart App Banner | top of Safari on iPhone and iPad | on arrival, until dismissed | `smartBanner()` in `lib/arco.ts`, used by `app/page.tsx` and the piece page metadata |
 

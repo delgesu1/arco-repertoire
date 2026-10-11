@@ -794,7 +794,8 @@ button {
   gap: 4px;
   font-size: 13px;
   padding: 3px 4px 3px 11px;
-  background: var(--wash);
+  /* a step darker than --wash: in light mode --wash is within a few percent of the page and the pill disappeared into it */
+  background: color-mix(in srgb, var(--ink) 11%, var(--linen));
   border-radius: var(--radius-a);
 }
 .achip button {
@@ -2084,8 +2085,7 @@ button {
   padding: 18px 0 2px;
   border-top: 1px solid var(--rule-2);
 }
-.arco-line .label,
-.arco-foot .label {
+.arco-line .label {
   display: block;
 }
 .arco-line .head {
@@ -2130,7 +2130,6 @@ button {
   font: 700 24px/1.15 var(--display);
   font-stretch: 104%;
   color: var(--ink);
-  margin-top: 8px;
 }
 .arco-foot .sub {
   font-size: 14px;
