@@ -1,0 +1,9136 @@
+{
+ "existing": 3070,
+ "accepted": 22,
+ "rejectedByVerifier": 2,
+ "retracted": 0,
+ "lowConfidence": 23,
+ "noScans": 3,
+ "noMatch": 1747,
+ "stillUnlinked": 1788,
+ "of": 4880,
+ "lowConfidenceList": [
+  {
+   "id": 1563,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 1 in A major, Op. 2 No. 1",
+   "page": "12 Sinfonie a 4, Op.2 (Alberti, Giuseppe Matteo)",
+   "note": "Op.2 is Sinfonie a 4 on IMSLP; catalogue calls Op.2 Sonatas with continuo; Op.3 is violin sonatas; uncertain"
+  },
+  {
+   "id": 1564,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 10 in D major, Op. 2 No. 10",
+   "page": "12 Sinfonie a 4, Op.2 (Alberti, Giuseppe Matteo)",
+   "note": "same Op.2 set page"
+  },
+  {
+   "id": 1565,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 11 in A minor, Op. 2 No. 11",
+   "page": "12 Sinfonie a 4, Op.2 (Alberti, Giuseppe Matteo)",
+   "note": "same Op.2 set page"
+  },
+  {
+   "id": 1566,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 12 in C major, Op. 2 No. 12",
+   "page": "12 Sinfonie a 4, Op.2 (Alberti, Giuseppe Matteo)",
+   "note": "same Op.2 set page"
+  },
+  {
+   "id": 1567,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 2 in C major, Op. 2 No. 2",
+   "page": "12 Sinfonie a 4, Op.2 (Alberti, Giuseppe Matteo)",
+   "note": "same Op.2 set page"
+  },
+  {
+   "id": 1568,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 3 in B-flat major, Op. 2 No. 3",
+   "page": "12 Sinfonie a 4, Op.2 (Alberti, Giuseppe Matteo)",
+   "note": "same Op.2 set page"
+  },
+  {
+   "id": 1569,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 4 in G minor, Op. 2 No. 4",
+   "page": "12 Sinfonie a 4, Op.2 (Alberti, Giuseppe Matteo)",
+   "note": "same Op.2 set page"
+  },
+  {
+   "id": 1570,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 5 in F major, Op. 2 No. 5",
+   "page": "12 Sinfonie a 4, Op.2 (Alberti, Giuseppe Matteo)",
+   "note": "same Op.2 set page"
+  },
+  {
+   "id": 1571,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 6 in G major, Op. 2 No. 6",
+   "page": "12 Sinfonie a 4, Op.2 (Alberti, Giuseppe Matteo)",
+   "note": "same Op.2 set page"
+  },
+  {
+   "id": 1572,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 7 in E minor, Op. 2 No. 7",
+   "page": "12 Sinfonie a 4, Op.2 (Alberti, Giuseppe Matteo)",
+   "note": "same Op.2 set page"
+  },
+  {
+   "id": 1573,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 8 in C minor, Op. 2 No. 8",
+   "page": "12 Sinfonie a 4, Op.2 (Alberti, Giuseppe Matteo)",
+   "note": "same Op.2 set page"
+  },
+  {
+   "id": 1574,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 9 in D minor, Op. 2 No. 9",
+   "page": "12 Sinfonie a 4, Op.2 (Alberti, Giuseppe Matteo)",
+   "note": "same Op.2 set page"
+  },
+  {
+   "id": 1620,
+   "composer": "Benda, Franz",
+   "title": "Violin Sonatas (selected)",
+   "page": "4 Violin Sonatas (Benda, Franz)",
+   "note": "Closest set page '4 Violin Sonatas'; 'selected' is ambiguous and may refer to individual sonatas"
+  },
+  {
+   "id": 2028,
+   "composer": "Copland, Aaron",
+   "title": "Two Pieces (Nocturne, Ukelele Serenade)",
+   "page": "Nocturne (Copland, Aaron)",
+   "note": "Nocturne and Ukelele Serenade are separate pages (ARCO 13-A, 13-B); no page for the set, Nocturne chosen as one half"
+  },
+  {
+   "id": 901,
+   "composer": "Dinicu, Grigoraș",
+   "title": "Hora Martisorului (arr. Heifetz)",
+   "page": "Hora staccato (Dinicu, Grigoraș)",
+   "note": "Hora Martisorului is not Hora staccato; Heifetz arranged Hora staccato, so this is probably a mismatch"
+  },
+  {
+   "id": 945,
+   "composer": "Fiocco, Joseph-Hector",
+   "title": "Allegro in G major (arr. Betti)",
+   "page": "Pièces de clavecin, Op.1 (Fiocco, Joseph-Hector)",
+   "note": "Fiocco's famous Allegro; several near-duplicate Allegro pages, none with an arr. Betti listing; plain Allegro page is a guess"
+  },
+  {
+   "id": 2139,
+   "composer": "Grandval, Clémence de",
+   "title": "Bohémienne",
+   "page": "2 Pieces for Violin and Piano (Grandval, Clémence de)",
+   "note": "Bohémienne likely one of the 2 Pieces for Violin and Piano; unverified"
+  },
+  {
+   "id": 3257,
+   "composer": "Hubay, Jenő",
+   "title": "Rayon de lune, Op. 86 No. 1",
+   "page": "Capriccio de Concert, Op.86 No.3 (Hubay, Jenő)",
+   "note": "Page is Op.86 No.3 capriccio, not No.1; no match"
+  },
+  {
+   "id": 498,
+   "composer": "Mazas, Jacques Féréol",
+   "title": "Duets for 2 Violins, Op. 38, 39",
+   "page": "18 Violin Duos, Op.38 (Mazas, Jacques Féréol)",
+   "note": "Op.38 page chosen; Op.39 has its own separate page, so the catalogue entry spans two pages"
+  },
+  {
+   "id": 515,
+   "composer": "Pleyel, Ignaz",
+   "title": "Violin Duos, B. 513–524, 534A–537, 538–543",
+   "page": "6 Violin Duos, B.513-518 (Pleyel, Ignaz)",
+   "note": "Only partial: B.513-518 page; the catalogue spans several sets, no single page covers all"
+  },
+  {
+   "id": 1162,
+   "composer": "Rameau, Jean-Philippe",
+   "title": "Tambourin (arr. Kreisler)",
+   "page": "Third Concert in A major, RCT 9 (Rameau, Jean-Philippe)",
+   "note": "Generic 'Tambourin' page; Kreisler arr. not listed, original likely from Pièces de clavecin, uncertain"
+  },
+  {
+   "id": 4030,
+   "composer": "Sauzay, Eugène",
+   "title": "Les deux modes: 24 exercices sur l'emploi du majeur et du mineur",
+   "page": "Études harmoniques, Op.14 (Sauzay, Eugène)",
+   "note": "Likely Études harmoniques Op.14 (violin); title differs, unsure. Standard-form page with scans preferred"
+  },
+  {
+   "id": 1225,
+   "composer": "Shostakovich, Dmitri",
+   "title": "Elegie (arr. Fortunatov)",
+   "page": "2 Pieces for String Quartet (Shostakovich, Dmitry)",
+   "note": "Elegy is first of 2 Pieces for String Quartet (Elegie and Polka); plausible original"
+  }
+ ],
+ "noScansList": [
+  {
+   "id": 681,
+   "composer": "Albinoni, Tomaso",
+   "title": "Adagio in G minor (Giazotto)",
+   "page": "Adagio in G minor (Giazotto, Remo)"
+  },
+  {
+   "id": 160,
+   "composer": "Finzi, Gerald",
+   "title": "Concerto",
+   "page": "Violin Concerto (Finzi, Gerald)"
+  },
+  {
+   "id": 546,
+   "composer": "Shostakovich, Dmitri",
+   "title": "Five Pieces for 2 Violins and Piano (arr. Atovmyan)",
+   "page": "5 Pieces for 2 Violins and Piano (Shostakovich, Dmitry)"
+  }
+ ],
+ "stillUnlinkedList": [
+  {
+   "id": 11,
+   "composer": "Bull, Ole",
+   "title": "Et Sæterbesøg (A Visit to the Mountain Pasture)"
+  },
+  {
+   "id": 13,
+   "composer": "Clyne, Anna",
+   "title": "Rest These Hands"
+  },
+  {
+   "id": 14,
+   "composer": "Clyne, Anna",
+   "title": "The Seamstress"
+  },
+  {
+   "id": 18,
+   "composer": "Corigliano, John",
+   "title": "The Red Violin: Chaconne"
+  },
+  {
+   "id": 20,
+   "composer": "Dutilleux, Henri",
+   "title": "Sur le même accord (Nocturne)"
+  },
+  {
+   "id": 27,
+   "composer": "Guarnieri, Camargo",
+   "title": "Chôro for violin and orchestra"
+  },
+  {
+   "id": 31,
+   "composer": "Joachim, Joseph",
+   "title": "Fantasy on Hungarian Themes"
+  },
+  {
+   "id": 32,
+   "composer": "Joachim, Joseph",
+   "title": "Fantasy on Irish (Scottish) Themes"
+  },
+  {
+   "id": 36,
+   "composer": "Jongen, Joseph",
+   "title": "Fantasia in E major, Op. 12"
+  },
+  {
+   "id": 37,
+   "composer": "Kancheli, Giya",
+   "title": "V & V"
+  },
+  {
+   "id": 39,
+   "composer": "Lazzari, Sylvio",
+   "title": "Rapsodie in E minor"
+  },
+  {
+   "id": 40,
+   "composer": "Montsalvatge, Xavier",
+   "title": "Poema concertante"
+  },
+  {
+   "id": 45,
+   "composer": "Mozetich, Marjan",
+   "title": "Affairs of the Heart"
+  },
+  {
+   "id": 46,
+   "composer": "Pärt, Arvo",
+   "title": "Darf ich…"
+  },
+  {
+   "id": 47,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "Deux Sérénades"
+  },
+  {
+   "id": 73,
+   "composer": "Takemitsu, Toru",
+   "title": "Nostalghia (In Memory of Andrei Tarkovsky)"
+  },
+  {
+   "id": 76,
+   "composer": "Vasks, Pēteris",
+   "title": "Lonely Angel (Vientuļais eņģelis)"
+  },
+  {
+   "id": 77,
+   "composer": "Vasks, Pēteris",
+   "title": "Vox amoris"
+  },
+  {
+   "id": 79,
+   "composer": "Walker, George",
+   "title": "Poème for violin and orchestra"
+  },
+  {
+   "id": 80,
+   "composer": "Waxman, Franz",
+   "title": "Tristan and Isolde Fantasy"
+  },
+  {
+   "id": 82,
+   "composer": "Williams, John",
+   "title": "Markings"
+  },
+  {
+   "id": 89,
+   "composer": "Adams, John",
+   "title": "Concerto"
+  },
+  {
+   "id": 90,
+   "composer": "Adams, John",
+   "title": "Scheherazade.2"
+  },
+  {
+   "id": 91,
+   "composer": "Adès, Thomas",
+   "title": "Concentric Paths"
+  },
+  {
+   "id": 92,
+   "composer": "Alberga, Eleanor",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 93,
+   "composer": "Alberga, Eleanor",
+   "title": "Concerto No. 2 'Narcissus'"
+  },
+  {
+   "id": 97,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 101,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Concerto No. 7"
+  },
+  {
+   "id": 106,
+   "composer": "Barber, Samuel",
+   "title": "Concerto, Op. 14"
+  },
+  {
+   "id": 110,
+   "composer": "Bazzini, Antonio",
+   "title": "Concerto No. 4 (Concerto militaire)"
+  },
+  {
+   "id": 111,
+   "composer": "Beamish, Sally",
+   "title": "Concerto"
+  },
+  {
+   "id": 113,
+   "composer": "Benda, Johann",
+   "title": "Concerto in G major (arr. Samuel Dushkin)"
+  },
+  {
+   "id": 121,
+   "composer": "Bernstein, Leonard",
+   "title": "Serenade (after Plato's \"Symposium\")"
+  },
+  {
+   "id": 125,
+   "composer": "Boyle, Ina",
+   "title": "Concerto"
+  },
+  {
+   "id": 127,
+   "composer": "Britten, Benjamin",
+   "title": "Concerto in D minor, Op. 15"
+  },
+  {
+   "id": 134,
+   "composer": "Carter, Elliott",
+   "title": "Concerto"
+  },
+  {
+   "id": 135,
+   "composer": "Castelnuovo-Tedesco, Mario",
+   "title": "Concerto No. 2 (\"I Profeti\")"
+  },
+  {
+   "id": 136,
+   "composer": "Chávez, Carlos",
+   "title": "Concerto"
+  },
+  {
+   "id": 137,
+   "composer": "Chen Gang & He Zhanhao",
+   "title": "Butterfly Lovers Concerto"
+  },
+  {
+   "id": 138,
+   "composer": "Chen Yi",
+   "title": "Chinese Folk Dance Suite"
+  },
+  {
+   "id": 139,
+   "composer": "Chen, Qigang",
+   "title": "La joie de la souffrance"
+  },
+  {
+   "id": 140,
+   "composer": "Chin, Unsuk",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 141,
+   "composer": "Chin, Unsuk",
+   "title": "Concerto No. 2 \"Scherben der Stille\""
+  },
+  {
+   "id": 145,
+   "composer": "Cordero, Roque",
+   "title": "Concerto"
+  },
+  {
+   "id": 146,
+   "composer": "Corigliano, John",
+   "title": "Concerto (\"The Red Violin\")"
+  },
+  {
+   "id": 147,
+   "composer": "Daniel, Omar",
+   "title": "Violin Concerto"
+  },
+  {
+   "id": 148,
+   "composer": "Daugherty, Michael",
+   "title": "Fire and Blood"
+  },
+  {
+   "id": 151,
+   "composer": "Davis, Anthony",
+   "title": "Concerto 'Maps'"
+  },
+  {
+   "id": 152,
+   "composer": "Dean, Brett",
+   "title": "The Lost Art of Letter Writing"
+  },
+  {
+   "id": 154,
+   "composer": "Dutilleux, Henri",
+   "title": "L'arbre des songes"
+  },
+  {
+   "id": 156,
+   "composer": "Edwards, Ross",
+   "title": "Maninyas (Violin Concerto)"
+  },
+  {
+   "id": 160,
+   "composer": "Finzi, Gerald",
+   "title": "Concerto"
+  },
+  {
+   "id": 163,
+   "composer": "Ginastera, Alberto",
+   "title": "Concerto, Op. 30"
+  },
+  {
+   "id": 164,
+   "composer": "Glass, Philip",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 165,
+   "composer": "Glass, Philip",
+   "title": "Concerto No. 2 (\"The American Four Seasons\")"
+  },
+  {
+   "id": 169,
+   "composer": "Gruenberg, Louis",
+   "title": "Concerto, Op. 47"
+  },
+  {
+   "id": 170,
+   "composer": "Guarnieri, Camargo",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 171,
+   "composer": "Gubaidulina, Sofia",
+   "title": "In tempus praesens"
+  },
+  {
+   "id": 172,
+   "composer": "Gubaidulina, Sofia",
+   "title": "Offertorium"
+  },
+  {
+   "id": 173,
+   "composer": "Hailstork, Adolphus",
+   "title": "Concerto"
+  },
+  {
+   "id": 174,
+   "composer": "Halffter, Rodolfo",
+   "title": "Concerto, Op. 11"
+  },
+  {
+   "id": 181,
+   "composer": "Higdon, Jennifer",
+   "title": "Concerto"
+  },
+  {
+   "id": 194,
+   "composer": "Kabalevsky, Dmitri",
+   "title": "Concerto in C major, Op. 48"
+  },
+  {
+   "id": 196,
+   "composer": "Khachaturian, Aram",
+   "title": "Concerto in D minor"
+  },
+  {
+   "id": 197,
+   "composer": "Khachaturian, Aram",
+   "title": "Concerto-Rhapsody"
+  },
+  {
+   "id": 198,
+   "composer": "Kidane, Daniel",
+   "title": "Aloud (Violin Concerto)"
+  },
+  {
+   "id": 199,
+   "composer": "Knussen, Oliver",
+   "title": "Concerto, Op. 30"
+  },
+  {
+   "id": 213,
+   "composer": "Langgaard, Rued",
+   "title": "Concerto, BVN 289"
+  },
+  {
+   "id": 216,
+   "composer": "Ligeti, György",
+   "title": "Concerto"
+  },
+  {
+   "id": 217,
+   "composer": "Lindberg, Magnus",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 231,
+   "composer": "Lutosławski, Witold",
+   "title": "Chain 2"
+  },
+  {
+   "id": 232,
+   "composer": "MacMillan, James",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 234,
+   "composer": "Márquez, Arturo",
+   "title": "Fandango"
+  },
+  {
+   "id": 235,
+   "composer": "Marsalis, Wynton",
+   "title": "Concerto in D"
+  },
+  {
+   "id": 236,
+   "composer": "Martinů, Bohuslav",
+   "title": "Concerto No. 1, H. 226"
+  },
+  {
+   "id": 238,
+   "composer": "Mazzoli, Missy",
+   "title": "Concerto 'Procession'"
+  },
+  {
+   "id": 239,
+   "composer": "Melartin, Erkki",
+   "title": "Concerto in D minor, Op. 60"
+  },
+  {
+   "id": 242,
+   "composer": "Menotti, Gian Carlo",
+   "title": "Concerto in A minor"
+  },
+  {
+   "id": 243,
+   "composer": "Meyer, Edgar",
+   "title": "Concerto"
+  },
+  {
+   "id": 261,
+   "composer": "O'Connor, Mark",
+   "title": "Fiddle Concerto"
+  },
+  {
+   "id": 262,
+   "composer": "Ortiz, Gabriela",
+   "title": "Altar de cuerda"
+  },
+  {
+   "id": 268,
+   "composer": "Paganini, Niccolò",
+   "title": "Concerto No. 6 in E minor, MS 75"
+  },
+  {
+   "id": 269,
+   "composer": "Panufnik, Andrzej",
+   "title": "Concerto"
+  },
+  {
+   "id": 270,
+   "composer": "Penderecki, Krzysztof",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 271,
+   "composer": "Penderecki, Krzysztof",
+   "title": "Concerto No. 2 (\"Metamorphosen\")"
+  },
+  {
+   "id": 272,
+   "composer": "Perry, Julia",
+   "title": "Concerto"
+  },
+  {
+   "id": 273,
+   "composer": "Piazzolla, Astor",
+   "title": "Las cuatro estaciones porteñas (arr. Desyatnikov)"
+  },
+  {
+   "id": 276,
+   "composer": "Previn, André",
+   "title": "Concerto 'Anne-Sophie'"
+  },
+  {
+   "id": 277,
+   "composer": "Price, Florence",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 278,
+   "composer": "Price, Florence",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 281,
+   "composer": "Puts, Kevin",
+   "title": "Concerto"
+  },
+  {
+   "id": 282,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "Concerto"
+  },
+  {
+   "id": 285,
+   "composer": "Richter, Max",
+   "title": "Recomposed: Vivaldi – The Four Seasons"
+  },
+  {
+   "id": 292,
+   "composer": "Rihm, Wolfgang",
+   "title": "Gesungene Zeit"
+  },
+  {
+   "id": 293,
+   "composer": "Rihm, Wolfgang",
+   "title": "Lichtes Spiel"
+  },
+  {
+   "id": 294,
+   "composer": "Rochberg, George",
+   "title": "Concerto"
+  },
+  {
+   "id": 298,
+   "composer": "Rodrigo, Joaquín",
+   "title": "Concierto de estío"
+  },
+  {
+   "id": 299,
+   "composer": "Rorem, Ned",
+   "title": "Concerto (1984)"
+  },
+  {
+   "id": 300,
+   "composer": "Roumain, Daniel Bernard",
+   "title": "Voodoo Violin Concerto"
+  },
+  {
+   "id": 301,
+   "composer": "Rouse, Christopher",
+   "title": "Concerto"
+  },
+  {
+   "id": 302,
+   "composer": "Rózsa, Miklós",
+   "title": "Concerto, Op. 24"
+  },
+  {
+   "id": 304,
+   "composer": "Saariaho, Kaija",
+   "title": "Graal théâtre"
+  },
+  {
+   "id": 315,
+   "composer": "Salonen, Esa-Pekka",
+   "title": "Concerto"
+  },
+  {
+   "id": 317,
+   "composer": "Schnittke, Alfred",
+   "title": "Concerto Grosso No. 5"
+  },
+  {
+   "id": 318,
+   "composer": "Schnittke, Alfred",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 319,
+   "composer": "Schnittke, Alfred",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 320,
+   "composer": "Schnittke, Alfred",
+   "title": "Concerto No. 3"
+  },
+  {
+   "id": 321,
+   "composer": "Schnittke, Alfred",
+   "title": "Concerto No. 4"
+  },
+  {
+   "id": 324,
+   "composer": "Schuman, William",
+   "title": "Concerto"
+  },
+  {
+   "id": 331,
+   "composer": "Shaw, Caroline",
+   "title": "Lo (for violin and orchestra)"
+  },
+  {
+   "id": 335,
+   "composer": "Silvestrov, Valentin",
+   "title": "Dedication (Widmung)"
+  },
+  {
+   "id": 350,
+   "composer": "Sugár, Rezső",
+   "title": "Concertino"
+  },
+  {
+   "id": 354,
+   "composer": "Takemitsu, Toru",
+   "title": "Far calls. Coming, far!"
+  },
+  {
+   "id": 355,
+   "composer": "Tan Dun",
+   "title": "Fire Ritual"
+  },
+  {
+   "id": 356,
+   "composer": "Tan Dun",
+   "title": "Out of Peking Opera"
+  },
+  {
+   "id": 360,
+   "composer": "Thomas, Augusta Read",
+   "title": "Carillon Sky (Violin Concerto No. 2)"
+  },
+  {
+   "id": 361,
+   "composer": "Tishchenko, Boris",
+   "title": "Concerto No. 2, Op. 84 (1981)"
+  },
+  {
+   "id": 362,
+   "composer": "Turnage, Mark-Anthony",
+   "title": "Mambo, Blues and Tarantella"
+  },
+  {
+   "id": 363,
+   "composer": "Vasks, Pēteris",
+   "title": "Distant Light (Tālā gaisma)"
+  },
+  {
+   "id": 400,
+   "composer": "Walker, George",
+   "title": "Concerto"
+  },
+  {
+   "id": 401,
+   "composer": "Wallen, Errollyn",
+   "title": "Concerto"
+  },
+  {
+   "id": 402,
+   "composer": "Walton, William",
+   "title": "Concerto"
+  },
+  {
+   "id": 404,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Concerto in G minor, Op. 67"
+  },
+  {
+   "id": 405,
+   "composer": "Weinzweig, John",
+   "title": "Concerto"
+  },
+  {
+   "id": 410,
+   "composer": "Williams, Grace",
+   "title": "Concerto"
+  },
+  {
+   "id": 411,
+   "composer": "Williams, John",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 412,
+   "composer": "Williams, John",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 415,
+   "composer": "Yun, Isang",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 416,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Concerto"
+  },
+  {
+   "id": 417,
+   "composer": "Aho, Kalevi",
+   "title": "Lamento for Two Violins (2001)"
+  },
+  {
+   "id": 419,
+   "composer": "Amy, Gilbert",
+   "title": "6 Duos for Two Violins (2002)"
+  },
+  {
+   "id": 420,
+   "composer": "Anderson, Julian",
+   "title": "Ring Dance for Two Violins (1987)"
+  },
+  {
+   "id": 421,
+   "composer": "Arnold, Malcolm",
+   "title": "Concerto for Two Violins and String Orchestra, Op. 77"
+  },
+  {
+   "id": 422,
+   "composer": "Asplund, Christian",
+   "title": "Choreutics"
+  },
+  {
+   "id": 423,
+   "composer": "Asplund, Christian",
+   "title": "Hope #4"
+  },
+  {
+   "id": 424,
+   "composer": "Asplund, Christian",
+   "title": "Neuf Regards"
+  },
+  {
+   "id": 425,
+   "composer": "Asplund, Christian",
+   "title": "One Eternal Round"
+  },
+  {
+   "id": 426,
+   "composer": "Babbitt, Milton",
+   "title": "Arrivals and Departures for Two Violins (1994)"
+  },
+  {
+   "id": 431,
+   "composer": "Beethoven, Ludwig van",
+   "title": "Canon in A major for Two Violins, WoO 35 (1825)"
+  },
+  {
+   "id": 434,
+   "composer": "Berio, Luciano",
+   "title": "Duetti per due violini (34)"
+  },
+  {
+   "id": 441,
+   "composer": "Bryars, Gavin",
+   "title": "Die letzten Tage"
+  },
+  {
+   "id": 442,
+   "composer": "Buss, Howard J.",
+   "title": "Time Capsule (2002)"
+  },
+  {
+   "id": 443,
+   "composer": "Chin, Unsuk",
+   "title": "Gran Cadenza for Two Violins (2018)"
+  },
+  {
+   "id": 444,
+   "composer": "Clyne, Anna",
+   "title": "Prince of Clouds"
+  },
+  {
+   "id": 446,
+   "composer": "Denisov, Edison",
+   "title": "Sonata for Two Violins (1958)"
+  },
+  {
+   "id": 447,
+   "composer": "Domhardt, Gerd",
+   "title": "Concerto for Two Violins and Orchestra (1979)"
+  },
+  {
+   "id": 448,
+   "composer": "Donatoni, Franco",
+   "title": "Duet No. 2 for Two Violins (1995)"
+  },
+  {
+   "id": 449,
+   "composer": "Du Bois, Rob",
+   "title": "Concerto for Two Violins and Orchestra (1979)"
+  },
+  {
+   "id": 450,
+   "composer": "Elkana, Amos",
+   "title": "Mostly Cloudy (2023)"
+  },
+  {
+   "id": 451,
+   "composer": "Foerster, Josef Bohuslav",
+   "title": "Little Suite for Two Violins, Op. 183a (1944)"
+  },
+  {
+   "id": 452,
+   "composer": "Foss, Lukas",
+   "title": "Orpheus and Euridice (1983)"
+  },
+  {
+   "id": 453,
+   "composer": "Fraser, Norman",
+   "title": "Cueca for Two Violins and Piano"
+  },
+  {
+   "id": 454,
+   "composer": "Frid, Géza",
+   "title": "Concerto for Three Violins and Orchestra, Op. 78"
+  },
+  {
+   "id": 455,
+   "composer": "Frid, Géza",
+   "title": "Concerto for Two Violins and Orchestra, Op. 40"
+  },
+  {
+   "id": 456,
+   "composer": "Frid, Géza",
+   "title": "Paganini Variations for Two Violins, Op. 77"
+  },
+  {
+   "id": 457,
+   "composer": "Frid, Géza",
+   "title": "Separate Ways, Op. 75a"
+  },
+  {
+   "id": 458,
+   "composer": "Frid, Géza",
+   "title": "Twenty Duos for Two Violins, Op. 37"
+  },
+  {
+   "id": 462,
+   "composer": "Glass, Philip",
+   "title": "Echorus"
+  },
+  {
+   "id": 464,
+   "composer": "Godár, Vladimír",
+   "title": "Violin Duets: 72 Pieces for Two Violins (1981)"
+  },
+  {
+   "id": 465,
+   "composer": "Górecki, Henryk",
+   "title": "Sonata for Two Violins, Op. 10"
+  },
+  {
+   "id": 466,
+   "composer": "Gubaidulina, Sofia",
+   "title": "Rejoice! Sonata for violin and cello"
+  },
+  {
+   "id": 467,
+   "composer": "Haas, Georg Friedrich",
+   "title": "Fuga for Two Violins (2009)"
+  },
+  {
+   "id": 468,
+   "composer": "Hába, Alois",
+   "title": "Duo for Sixth-Tone Violins, Op. 49 (1937)"
+  },
+  {
+   "id": 472,
+   "composer": "Harbison, John",
+   "title": "Fanfares and Reflection"
+  },
+  {
+   "id": 474,
+   "composer": "Haydn, Joseph",
+   "title": "Duos for Two Violins, Hob. VI:C2, C3, D4, F3, G3, G4, A2"
+  },
+  {
+   "id": 475,
+   "composer": "Hennessy, Swan",
+   "title": "Sonatina for Two Violins, Op. 78"
+  },
+  {
+   "id": 478,
+   "composer": "Holmboe, Vagn",
+   "title": "Isomeric: Duo concertante, Op. 51 (1950)"
+  },
+  {
+   "id": 479,
+   "composer": "Holmboe, Vagn",
+   "title": "Sværm, Op. 190a (1992)"
+  },
+  {
+   "id": 482,
+   "composer": "Keay, Nigel",
+   "title": "Two-Step Distance (2020)"
+  },
+  {
+   "id": 485,
+   "composer": "Kurtág, György",
+   "title": "Triptic, Op. 45 (2007)"
+  },
+  {
+   "id": 489,
+   "composer": "Ligeti, György",
+   "title": "Ballad and Dance (Baladă și joc)"
+  },
+  {
+   "id": 491,
+   "composer": "Lovinfosse, Dennis",
+   "title": "Four Études for Violin Duet"
+  },
+  {
+   "id": 492,
+   "composer": "Lucier, Alvin",
+   "title": "Love Song (2016)"
+  },
+  {
+   "id": 496,
+   "composer": "Marx, Karl",
+   "title": "Concerto for Two Violins and Orchestra"
+  },
+  {
+   "id": 497,
+   "composer": "Maxwell Davies, Peter",
+   "title": "A Little Thank You to Dave (2005)"
+  },
+  {
+   "id": 498,
+   "composer": "Mazas, Jacques Féréol",
+   "title": "Duets for 2 Violins, Op. 38, 39"
+  },
+  {
+   "id": 503,
+   "composer": "Montgomery, Jessie",
+   "title": "Duo for Violin and Cello"
+  },
+  {
+   "id": 509,
+   "composer": "Nono, Luigi",
+   "title": "Hay que caminar soñando (1989)"
+  },
+  {
+   "id": 510,
+   "composer": "Nyman, Michael",
+   "title": "Two Violins (1981)"
+  },
+  {
+   "id": 511,
+   "composer": "O'Connor, Mark",
+   "title": "Double Violin Concerto"
+  },
+  {
+   "id": 512,
+   "composer": "Pärt, Arvo",
+   "title": "Tabula rasa"
+  },
+  {
+   "id": 513,
+   "composer": "Pettersson, Allan",
+   "title": "7 Sonatas for Two Violins (1951)"
+  },
+  {
+   "id": 515,
+   "composer": "Pleyel, Ignaz",
+   "title": "Violin Duos, B. 513–524, 534A–537, 538–543"
+  },
+  {
+   "id": 516,
+   "composer": "Präsent, Gerhard",
+   "title": "Easy Duos, Op. 56"
+  },
+  {
+   "id": 517,
+   "composer": "Präsent, Gerhard",
+   "title": "Green Music, Op. 72"
+  },
+  {
+   "id": 518,
+   "composer": "Präsent, Gerhard",
+   "title": "Vier Tänze (Four Dances) for Two Violins, Op. 24"
+  },
+  {
+   "id": 520,
+   "composer": "Ptaszyńska, Marta",
+   "title": "Concerto Grosso for Two Violins and Chamber Orchestra (1996)"
+  },
+  {
+   "id": 521,
+   "composer": "Ptaszyńska, Marta",
+   "title": "Mancala for Two Violins (1997)"
+  },
+  {
+   "id": 523,
+   "composer": "Räihälä, Osmo Tapio",
+   "title": "A Sensuous Encounter in the Eastern Garden (2023)"
+  },
+  {
+   "id": 524,
+   "composer": "Räihälä, Osmo Tapio",
+   "title": "Rampant (1997)"
+  },
+  {
+   "id": 525,
+   "composer": "Räisänen, Tomi",
+   "title": "Kiseki-no-ippon-matsu (2020)"
+  },
+  {
+   "id": 526,
+   "composer": "Räisänen, Tomi",
+   "title": "Midsommar(so)natten (2010/2014)"
+  },
+  {
+   "id": 527,
+   "composer": "Räisänen, Tomi",
+   "title": "No-Go (2011/2016)"
+  },
+  {
+   "id": 528,
+   "composer": "Ranjbaran, Behzad",
+   "title": "Six Caprices for Violin Duo (1988)"
+  },
+  {
+   "id": 532,
+   "composer": "Reich, Steve",
+   "title": "Duet for Two Violins and Strings"
+  },
+  {
+   "id": 533,
+   "composer": "Saariaho, Kaija",
+   "title": "Danse des flocons I & II (2002)"
+  },
+  {
+   "id": 536,
+   "composer": "Scelsi, Giacinto",
+   "title": "Arc-en-ciel (1973)"
+  },
+  {
+   "id": 537,
+   "composer": "Schickele, Peter (P. D. Q. Bach)",
+   "title": "Konzertstück for Two Violins with Orchestra, S. 2+"
+  },
+  {
+   "id": 538,
+   "composer": "Schnittke, Alfred",
+   "title": "Concerto Grosso No. 1"
+  },
+  {
+   "id": 539,
+   "composer": "Schnittke, Alfred",
+   "title": "Prelude in memoriam Dmitri Shostakovich"
+  },
+  {
+   "id": 542,
+   "composer": "Sebök, Ferenc",
+   "title": "6 Duos for Violins, Op. 6"
+  },
+  {
+   "id": 543,
+   "composer": "Sebök, Ferenc",
+   "title": "Miroirs de styles: 24 Duos for Violins, Op. 4, 5, 8, 20"
+  },
+  {
+   "id": 544,
+   "composer": "Senfter, Johanna",
+   "title": "10 Alte Tänze, Op. 91"
+  },
+  {
+   "id": 545,
+   "composer": "Senfter, Johanna",
+   "title": "Concerto for Two Violins and String Orchestra, Op. 40"
+  },
+  {
+   "id": 546,
+   "composer": "Shostakovich, Dmitri",
+   "title": "Five Pieces for 2 Violins and Piano (arr. Atovmyan)"
+  },
+  {
+   "id": 547,
+   "composer": "Shuttleworth, Obadiah",
+   "title": "2 Concerti grossi (after Corelli, Op. 5)"
+  },
+  {
+   "id": 551,
+   "composer": "Skalkottas, Nikos",
+   "title": "Concerto for Two Violins (1944–45)"
+  },
+  {
+   "id": 553,
+   "composer": "Sonnabend, Joseph",
+   "title": "Synergism (2020)"
+  },
+  {
+   "id": 565,
+   "composer": "Takemitsu, Toru",
+   "title": "Rocking Mirror Daybreak"
+  },
+  {
+   "id": 571,
+   "composer": "Theodorakis, Mikis",
+   "title": "Duetto for Two Violins (1946)"
+  },
+  {
+   "id": 572,
+   "composer": "Theodorakis, Mikis",
+   "title": "Études for Two Violins (1945)"
+  },
+  {
+   "id": 573,
+   "composer": "Theodorakis, Mikis",
+   "title": "Winternacht (2005)"
+  },
+  {
+   "id": 574,
+   "composer": "Toub, David",
+   "title": "khurbn (2025)"
+  },
+  {
+   "id": 582,
+   "composer": "Viotti, Giovanni Battista",
+   "title": "6 Easy Duos, WIV:13–18"
+  },
+  {
+   "id": 590,
+   "composer": "Vranický, Antonín",
+   "title": "Duos for Two Violins, Op. 9"
+  },
+  {
+   "id": 591,
+   "composer": "Vranický, Antonín",
+   "title": "Three Duos for Two Violins, Op. 20"
+  },
+  {
+   "id": 592,
+   "composer": "Vranický, Antonín",
+   "title": "Twenty Variations for Two Violins (1791)"
+  },
+  {
+   "id": 593,
+   "composer": "Vranický, Antonín",
+   "title": "Variations for Two Violins, Op. 7 (1807)"
+  },
+  {
+   "id": 594,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Sonata for Two Violins, Op. 69 (1959)"
+  },
+  {
+   "id": 595,
+   "composer": "Wolff, Christian",
+   "title": "Duo for Violins (1950)"
+  },
+  {
+   "id": 598,
+   "composer": "Yun, Isang",
+   "title": "Pezzo fantasioso (1988)"
+  },
+  {
+   "id": 599,
+   "composer": "Yun, Isang",
+   "title": "Sonatina for Two Violins (1983)"
+  },
+  {
+   "id": 600,
+   "composer": "Zorn, John",
+   "title": "Apophthegms"
+  },
+  {
+   "id": 603,
+   "composer": "Barlowe, Amy",
+   "title": "12 Étude-Caprices in the Styles of the Great Composers"
+  },
+  {
+   "id": 605,
+   "composer": "Cage, John",
+   "title": "Freeman Etudes"
+  },
+  {
+   "id": 608,
+   "composer": "Christoskov, Petar",
+   "title": "12 Caprices (Concert Études in Folk Style), Op. 1 (1953)"
+  },
+  {
+   "id": 609,
+   "composer": "Christoskov, Petar",
+   "title": "24 Caprices, Op. 24 (1978–79)"
+  },
+  {
+   "id": 612,
+   "composer": "Delbaere-Sawchuk, Alyssa",
+   "title": "Homage to the Red River"
+  },
+  {
+   "id": 613,
+   "composer": "Donkin, Christine",
+   "title": "Barcarolle"
+  },
+  {
+   "id": 655,
+   "composer": "Rochberg, George",
+   "title": "Caprice Variations"
+  },
+  {
+   "id": 665,
+   "composer": "Whistler, Harvey S.",
+   "title": "Preparing for Kreutzer, Vol. 1"
+  },
+  {
+   "id": 675,
+   "composer": "Adaskin, Murray",
+   "title": "Canzona and Rondo"
+  },
+  {
+   "id": 679,
+   "composer": "Alberga, Eleanor",
+   "title": "No-Man's-Land Lullaby"
+  },
+  {
+   "id": 680,
+   "composer": "Alberga, Eleanor",
+   "title": "The Wild Blue Yonder"
+  },
+  {
+   "id": 681,
+   "composer": "Albinoni, Tomaso",
+   "title": "Adagio in G minor (Giazotto)"
+  },
+  {
+   "id": 682,
+   "composer": "Ali-Zadeh, Franghiz",
+   "title": "Impulse"
+  },
+  {
+   "id": 688,
+   "composer": "Archer, Violet",
+   "title": "Prelude and Allegro"
+  },
+  {
+   "id": 690,
+   "composer": "Auerbach, Lera",
+   "title": "Speak, Memory"
+  },
+  {
+   "id": 698,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Witraż (Stained-glass Window)"
+  },
+  {
+   "id": 701,
+   "composer": "Baker, David N.",
+   "title": "Blues (Deliver My Soul)"
+  },
+  {
+   "id": 702,
+   "composer": "Baker, Michael Conway",
+   "title": "The Flight of Aphrodite, Op. 99"
+  },
+  {
+   "id": 703,
+   "composer": "Barber, Samuel",
+   "title": "Canzone, Op. 38a"
+  },
+  {
+   "id": 704,
+   "composer": "Barber, Samuel",
+   "title": "Suite from Souvenirs"
+  },
+  {
+   "id": 705,
+   "composer": "Barns, Ethel",
+   "title": "Canzonetta"
+  },
+  {
+   "id": 707,
+   "composer": "Barns, Ethel",
+   "title": "Nachtgesang"
+  },
+  {
+   "id": 708,
+   "composer": "Barns, Ethel",
+   "title": "Serenade"
+  },
+  {
+   "id": 709,
+   "composer": "Barrett, Richard",
+   "title": "shade"
+  },
+  {
+   "id": 710,
+   "composer": "Bartók, Béla",
+   "title": "An Evening in the Village (arr. Fülep)"
+  },
+  {
+   "id": 711,
+   "composer": "Bates, Mason",
+   "title": "Ford's Farm"
+  },
+  {
+   "id": 720,
+   "composer": "Ben-Haim, Paul",
+   "title": "Arioso (from Three Songs Without Words)"
+  },
+  {
+   "id": 721,
+   "composer": "Ben-Haim, Paul",
+   "title": "Ballad (from Three Songs Without Words)"
+  },
+  {
+   "id": 722,
+   "composer": "Ben-Haim, Paul",
+   "title": "Sephardic Melody (from Three Songs Without Words)"
+  },
+  {
+   "id": 735,
+   "composer": "Bolcom, William",
+   "title": "Graceful Ghost Rag (Concert Variation)"
+  },
+  {
+   "id": 736,
+   "composer": "Bonis, Mel",
+   "title": "Allegretto non troppo, Op. 84"
+  },
+  {
+   "id": 737,
+   "composer": "Bonis, Mel",
+   "title": "Andante religioso (No. 1 from Trois pièces)"
+  },
+  {
+   "id": 775,
+   "composer": "Britten, Benjamin",
+   "title": "Reveille (concert study)"
+  },
+  {
+   "id": 776,
+   "composer": "Brott, Alexander",
+   "title": "Invocation and Dance"
+  },
+  {
+   "id": 777,
+   "composer": "Brown, Charles S.",
+   "title": "A Song Without Words"
+  },
+  {
+   "id": 788,
+   "composer": "Call, Audrey",
+   "title": "The Witch of Harlem"
+  },
+  {
+   "id": 791,
+   "composer": "Castelnuovo-Tedesco, Mario",
+   "title": "Tango, Op. 24b (arr. Heifetz)"
+  },
+  {
+   "id": 797,
+   "composer": "Chaynes, Charles",
+   "title": "Jeu de cordes"
+  },
+  {
+   "id": 798,
+   "composer": "Chen Gang",
+   "title": "Sunshine on Taxkorgan"
+  },
+  {
+   "id": 799,
+   "composer": "Chen Yi",
+   "title": "Fisherman's Song"
+  },
+  {
+   "id": 800,
+   "composer": "Childs, Billy",
+   "title": "Incident on Larpenteur Avenue"
+  },
+  {
+   "id": 805,
+   "composer": "Clarke, Rebecca",
+   "title": "Chinese Puzzle"
+  },
+  {
+   "id": 807,
+   "composer": "Clebanoff, Herman",
+   "title": "Millionaire's Hoedown"
+  },
+  {
+   "id": 823,
+   "composer": "Copland, Aaron",
+   "title": "Waltz and Celebration (Billy the Kid)"
+  },
+  {
+   "id": 861,
+   "composer": "Danielpour, Richard",
+   "title": "As Night Falls on Barjeantane"
+  },
+  {
+   "id": 887,
+   "composer": "Davidson, Tina",
+   "title": "Blue Curve of the Earth"
+  },
+  {
+   "id": 897,
+   "composer": "Del Tredici, David",
+   "title": "Farewell"
+  },
+  {
+   "id": 898,
+   "composer": "Delerue, Georges",
+   "title": "Antienne I"
+  },
+  {
+   "id": 899,
+   "composer": "Dello Joio, Norman",
+   "title": "Fantasia on a Gregorian Theme"
+  },
+  {
+   "id": 900,
+   "composer": "Desplanes, Jean-Antoine",
+   "title": "Intrada (arr. Nachéz)"
+  },
+  {
+   "id": 901,
+   "composer": "Dinicu, Grigoraș",
+   "title": "Hora Martisorului (arr. Heifetz)"
+  },
+  {
+   "id": 903,
+   "composer": "Dorman, Avner",
+   "title": "Memory Games"
+  },
+  {
+   "id": 910,
+   "composer": "Du Yun",
+   "title": "When a Tiger Meets a Rosa Rugosa"
+  },
+  {
+   "id": 922,
+   "composer": "Eichberg, Søren Nils",
+   "title": "Levitation"
+  },
+  {
+   "id": 940,
+   "composer": "Fetler, Paul",
+   "title": "Air (from Three Pieces)"
+  },
+  {
+   "id": 941,
+   "composer": "Fetler, Paul",
+   "title": "Caprice (from Three Pieces)"
+  },
+  {
+   "id": 942,
+   "composer": "Fetler, Paul",
+   "title": "Essay (from Three Pieces)"
+  },
+  {
+   "id": 944,
+   "composer": "Finzi, Graciane",
+   "title": "Interférence"
+  },
+  {
+   "id": 945,
+   "composer": "Fiocco, Joseph-Hector",
+   "title": "Allegro in G major (arr. Betti)"
+  },
+  {
+   "id": 946,
+   "composer": "Foss, Lukas",
+   "title": "Composer's Holiday (from Three American Pieces)"
+  },
+  {
+   "id": 947,
+   "composer": "Foss, Lukas",
+   "title": "Dedication (from Three American Pieces)"
+  },
+  {
+   "id": 948,
+   "composer": "Foss, Lukas",
+   "title": "Early Song (from Three American Pieces)"
+  },
+  {
+   "id": 951,
+   "composer": "García Abril, Antón",
+   "title": "Tercer suspiro (Third Sigh)"
+  },
+  {
+   "id": 958,
+   "composer": "Gershwin, George",
+   "title": "Short Story (arr. Dushkin)"
+  },
+  {
+   "id": 960,
+   "composer": "Ginastera, Alberto",
+   "title": "Danza de la moza donosa, Op. 2 No. 2 (arr.)"
+  },
+  {
+   "id": 961,
+   "composer": "Ginastera, Alberto",
+   "title": "Pampeana No. 1, Op. 16"
+  },
+  {
+   "id": 979,
+   "composer": "Grime, Helen",
+   "title": "Romance for Violin"
+  },
+  {
+   "id": 980,
+   "composer": "Guarnieri, Camargo",
+   "title": "Canção Sertaneja"
+  },
+  {
+   "id": 981,
+   "composer": "Gubaidulina, Sofia",
+   "title": "Dancer on a Tightrope"
+  },
+  {
+   "id": 983,
+   "composer": "Halffter, Ernesto",
+   "title": "Danza de la gitana (arr. Heifetz)"
+  },
+  {
+   "id": 985,
+   "composer": "Halvorsen, Johan",
+   "title": "Andante religioso"
+  },
+  {
+   "id": 987,
+   "composer": "Hatzis, Christos",
+   "title": "Coming To"
+  },
+  {
+   "id": 990,
+   "composer": "Have, Willem ten",
+   "title": "Bolero, Op. 11"
+  },
+  {
+   "id": 993,
+   "composer": "Hess, Nigel",
+   "title": "Theme from Ladies in Lavender"
+  },
+  {
+   "id": 994,
+   "composer": "Higdon, Jennifer",
+   "title": "Echo Dash"
+  },
+  {
+   "id": 996,
+   "composer": "Hough, Stephen",
+   "title": "The Mad Tea Party"
+  },
+  {
+   "id": 997,
+   "composer": "Hovhaness, Alan",
+   "title": "Oror, Op. 1 (Lullaby)"
+  },
+  {
+   "id": 998,
+   "composer": "Howard, James Newton",
+   "title": "133… at least"
+  },
+  {
+   "id": 1014,
+   "composer": "Kabalevsky, Dmitri",
+   "title": "Improvisation, Op. 21 No. 1"
+  },
+  {
+   "id": 1015,
+   "composer": "Kabalevsky, Dmitri",
+   "title": "Rondo, Op. 69"
+  },
+  {
+   "id": 1017,
+   "composer": "Kats-Chernin, Elena",
+   "title": "Eliza Aria (Wild Swans Suite)"
+  },
+  {
+   "id": 1018,
+   "composer": "Kats-Chernin, Elena",
+   "title": "Russian Rag"
+  },
+  {
+   "id": 1019,
+   "composer": "Kernis, Aaron Jay",
+   "title": "Air"
+  },
+  {
+   "id": 1020,
+   "composer": "Khachaturian, Aram",
+   "title": "Nocturne (from Masquerade), arr."
+  },
+  {
+   "id": 1021,
+   "composer": "Khachaturian, Aram",
+   "title": "Song-Poem (in Honour of Ashugs)"
+  },
+  {
+   "id": 1023,
+   "composer": "Kokkonen, Joonas",
+   "title": "Improvvisazione"
+  },
+  {
+   "id": 1024,
+   "composer": "Korngold, Erich Wolfgang",
+   "title": "Caprice fantastique (Wichtelmännchen)"
+  },
+  {
+   "id": 1038,
+   "composer": "Kreisler, Fritz",
+   "title": "Londonderry Air (arr. Kreisler)"
+  },
+  {
+   "id": 1056,
+   "composer": "Lam, Bun-Ching",
+   "title": "Solitude d'automne"
+  },
+  {
+   "id": 1057,
+   "composer": "Lang, David",
+   "title": "light moving"
+  },
+  {
+   "id": 1058,
+   "composer": "Langer, Elena",
+   "title": "Love Song to Aminta"
+  },
+  {
+   "id": 1059,
+   "composer": "Langer, Elena",
+   "title": "Snow"
+  },
+  {
+   "id": 1060,
+   "composer": "Larsen, Libby",
+   "title": "Blue Piece"
+  },
+  {
+   "id": 1061,
+   "composer": "Lau, Kevin",
+   "title": "Joy"
+  },
+  {
+   "id": 1063,
+   "composer": "Leighton, Kenneth",
+   "title": "Metamorphoses, Op. 48"
+  },
+  {
+   "id": 1065,
+   "composer": "Levkovich, Alexander",
+   "title": "Lullaby"
+  },
+  {
+   "id": 1067,
+   "composer": "Lutosławski, Witold",
+   "title": "Recitativo e arioso"
+  },
+  {
+   "id": 1068,
+   "composer": "Lutosławski, Witold",
+   "title": "Subito"
+  },
+  {
+   "id": 1069,
+   "composer": "Ma Sicong",
+   "title": "Nostalgia (Homesickness) from Inner Mongolia Suite"
+  },
+  {
+   "id": 1070,
+   "composer": "Ma Sicong",
+   "title": "Spring Dance"
+  },
+  {
+   "id": 1072,
+   "composer": "MacMillan, James",
+   "title": "After the Tryst"
+  },
+  {
+   "id": 1083,
+   "composer": "Massenet, Jules",
+   "title": "Invocation (from Les Érinnyes)"
+  },
+  {
+   "id": 1090,
+   "composer": "Messiaen, Olivier",
+   "title": "Fantaisie"
+  },
+  {
+   "id": 1097,
+   "composer": "Montgomery, Jessie",
+   "title": "Peace"
+  },
+  {
+   "id": 1098,
+   "composer": "Moravec, Paul",
+   "title": "Blue Fiddle"
+  },
+  {
+   "id": 1099,
+   "composer": "Morley, Angela",
+   "title": "Rêverie"
+  },
+  {
+   "id": 1100,
+   "composer": "Morlock, Jocelyn",
+   "title": "Dervish"
+  },
+  {
+   "id": 1101,
+   "composer": "Morricone, Ennio",
+   "title": "Cinema Paradiso (arr.)"
+  },
+  {
+   "id": 1102,
+   "composer": "Morricone, Ennio",
+   "title": "Gabriel's Oboe (arr.)"
+  },
+  {
+   "id": 1109,
+   "composer": "Mozetich, Marjan",
+   "title": "L'esprit chantant"
+  },
+  {
+   "id": 1110,
+   "composer": "Muhly, Nico",
+   "title": "Two Voices"
+  },
+  {
+   "id": 1111,
+   "composer": "Musgrave, Thea",
+   "title": "The Egrets have Landed"
+  },
+  {
+   "id": 1113,
+   "composer": "Myers, Jeff",
+   "title": "The Angry Birds of Kauai"
+  },
+  {
+   "id": 1116,
+   "composer": "O'Connor, Mark",
+   "title": "Appalachia Waltz"
+  },
+  {
+   "id": 1117,
+   "composer": "Oshima, Michiru",
+   "title": "Memories"
+  },
+  {
+   "id": 1120,
+   "composer": "Panufnik, Roxanna",
+   "title": "Down the Rabbit Hole"
+  },
+  {
+   "id": 1122,
+   "composer": "Pärt, Arvo",
+   "title": "Passacaglia (version for violin & piano)"
+  },
+  {
+   "id": 1123,
+   "composer": "Pärt, Arvo",
+   "title": "Spiegel im Spiegel"
+  },
+  {
+   "id": 1124,
+   "composer": "Pejačević, Dora",
+   "title": "Méditation, Op. 51"
+  },
+  {
+   "id": 1126,
+   "composer": "Pentland, Barbara",
+   "title": "Vista"
+  },
+  {
+   "id": 1127,
+   "composer": "Perrault, Michel",
+   "title": "Solitude"
+  },
+  {
+   "id": 1128,
+   "composer": "Piazzolla, Astor",
+   "title": "Adiós Nonino (arr.)"
+  },
+  {
+   "id": 1129,
+   "composer": "Piazzolla, Astor",
+   "title": "Libertango (arr.)"
+  },
+  {
+   "id": 1130,
+   "composer": "Piazzolla, Astor",
+   "title": "Oblivion (arr.)"
+  },
+  {
+   "id": 1132,
+   "composer": "Poldowski (Régine Wieniawski)",
+   "title": "Tango"
+  },
+  {
+   "id": 1142,
+   "composer": "Price, Florence",
+   "title": "Fantasie No. 2 in F-sharp minor"
+  },
+  {
+   "id": 1143,
+   "composer": "Price, Florence",
+   "title": "Fantasy No. 1 in G minor"
+  },
+  {
+   "id": 1155,
+   "composer": "Pugnani, Gaetano",
+   "title": "Largo espressivo"
+  },
+  {
+   "id": 1156,
+   "composer": "Puts, Kevin",
+   "title": "Aria (Air)"
+  },
+  {
+   "id": 1162,
+   "composer": "Rameau, Jean-Philippe",
+   "title": "Tambourin (arr. Kreisler)"
+  },
+  {
+   "id": 1163,
+   "composer": "Ramnath, Kala",
+   "title": "Aalap and Tarana"
+  },
+  {
+   "id": 1164,
+   "composer": "Raum, Elizabeth",
+   "title": "Les ombres"
+  },
+  {
+   "id": 1165,
+   "composer": "Raum, Elizabeth",
+   "title": "Prayer and Dance of Praise"
+  },
+  {
+   "id": 1166,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "Whispering"
+  },
+  {
+   "id": 1172,
+   "composer": "Reich, Steve",
+   "title": "Violin Phase"
+  },
+  {
+   "id": 1178,
+   "composer": "Richter, Max",
+   "title": "Mercy"
+  },
+  {
+   "id": 1179,
+   "composer": "Richter, Max",
+   "title": "On the Nature of Daylight (arr.)"
+  },
+  {
+   "id": 1185,
+   "composer": "Robinovitch, Sid",
+   "title": "Meditation"
+  },
+  {
+   "id": 1186,
+   "composer": "Rochberg, George",
+   "title": "Rhapsody and Prayer"
+  },
+  {
+   "id": 1188,
+   "composer": "Saariaho, Kaija",
+   "title": "Calices"
+  },
+  {
+   "id": 1189,
+   "composer": "Saariaho, Kaija",
+   "title": "Tocar"
+  },
+  {
+   "id": 1192,
+   "composer": "Sammartini, Giuseppe",
+   "title": "Canto amoroso (arr. Elman)"
+  },
+  {
+   "id": 1197,
+   "composer": "Satoh, Somei",
+   "title": "Bifū (Breeze)"
+  },
+  {
+   "id": 1198,
+   "composer": "Satoh, Somei",
+   "title": "Birds in Warped Time II"
+  },
+  {
+   "id": 1199,
+   "composer": "Schnittke, Alfred",
+   "title": "Gratulationsrondo in C major"
+  },
+  {
+   "id": 1218,
+   "composer": "Senaillé, Jean-Baptiste",
+   "title": "Les polichinelles (arr. Moffat)"
+  },
+  {
+   "id": 1221,
+   "composer": "Sha Hankun",
+   "title": "Pastoral Song (Mu Ge) (arr.)"
+  },
+  {
+   "id": 1222,
+   "composer": "Sharp, Elliott",
+   "title": "Storm of the Eye"
+  },
+  {
+   "id": 1223,
+   "composer": "Shchedrin, Rodion",
+   "title": "In the Style of Albéniz"
+  },
+  {
+   "id": 1224,
+   "composer": "Sheng, Bright",
+   "title": "A Night at the Chinese Opera"
+  },
+  {
+   "id": 1225,
+   "composer": "Shostakovich, Dmitri",
+   "title": "Elegie (arr. Fortunatov)"
+  },
+  {
+   "id": 1226,
+   "composer": "Shostakovich, Dmitri",
+   "title": "Lyric Waltz (from Dances of the Dolls, arr.)"
+  },
+  {
+   "id": 1246,
+   "composer": "Shostakovich, Dmitri",
+   "title": "Romance, Op. 97 (from The Gadfly, arr. Fortunatov)"
+  },
+  {
+   "id": 1248,
+   "composer": "Shulman, Alan",
+   "title": "Cod Liver 'Ile"
+  },
+  {
+   "id": 1267,
+   "composer": "Silvestrov, Valentin",
+   "title": "Two Pieces"
+  },
+  {
+   "id": 1268,
+   "composer": "Silvestrov, Valentin",
+   "title": "Walzer (from Two Pieces)"
+  },
+  {
+   "id": 1269,
+   "composer": "Silvestrov, Valentin",
+   "title": "Weihnachtsserenade (from Two Pieces)"
+  },
+  {
+   "id": 1271,
+   "composer": "Skinner, James Scott",
+   "title": "Back to the Hills (arr. Hardie)"
+  },
+  {
+   "id": 1272,
+   "composer": "Skinner, James Scott",
+   "title": "The Deil amang the Tailors"
+  },
+  {
+   "id": 1273,
+   "composer": "Skoryk, Myroslav",
+   "title": "Melody (arr.)"
+  },
+  {
+   "id": 1274,
+   "composer": "Still, William Grant",
+   "title": "Blues from Lenox Avenue (arr. Kaufman)"
+  },
+  {
+   "id": 1275,
+   "composer": "Still, William Grant",
+   "title": "Pastorela"
+  },
+  {
+   "id": 1276,
+   "composer": "Still, William Grant",
+   "title": "Summerland (from Three Visions)"
+  },
+  {
+   "id": 1287,
+   "composer": "Tabakova, Dobrinka",
+   "title": "Rhodopa"
+  },
+  {
+   "id": 1288,
+   "composer": "Takemitsu, Toru",
+   "title": "Distance de fée"
+  },
+  {
+   "id": 1289,
+   "composer": "Takemitsu, Toru",
+   "title": "From far beyond Chrysanthemums and November Fog"
+  },
+  {
+   "id": 1290,
+   "composer": "Takemitsu, Toru",
+   "title": "Hika"
+  },
+  {
+   "id": 1291,
+   "composer": "Tansman, Alexandre",
+   "title": "Mouvement perpétuel (from 5 Pieces)"
+  },
+  {
+   "id": 1303,
+   "composer": "Toldrà, Eduard",
+   "title": "Ave Maria (from Sis sonets, No. 2)"
+  },
+  {
+   "id": 1306,
+   "composer": "Toldrà, Eduard",
+   "title": "Les birbadores (from Sis sonets, No. 3)"
+  },
+  {
+   "id": 1307,
+   "composer": "Toldrà, Eduard",
+   "title": "Oració al maig (from Sis sonets, No. 4)"
+  },
+  {
+   "id": 1312,
+   "composer": "Turnage, Mark-Anthony",
+   "title": "Hilary's Hoedown"
+  },
+  {
+   "id": 1313,
+   "composer": "Ungar, Jay",
+   "title": "Ashokan Farewell"
+  },
+  {
+   "id": 1315,
+   "composer": "Veracini, Francesco Maria",
+   "title": "Gigue (from Sonata in D minor, arr.)"
+  },
+  {
+   "id": 1316,
+   "composer": "Veracini, Francesco Maria",
+   "title": "Largo (arr. Corti)"
+  },
+  {
+   "id": 1334,
+   "composer": "Wallen, Errollyn",
+   "title": "Woogie Boogie"
+  },
+  {
+   "id": 1335,
+   "composer": "Walton, William",
+   "title": "Canzonetta (from Two Pieces)"
+  },
+  {
+   "id": 1336,
+   "composer": "Walton, William",
+   "title": "Scherzetto (from Two Pieces)"
+  },
+  {
+   "id": 1337,
+   "composer": "Werner, Jean-Jacques",
+   "title": "Canto"
+  },
+  {
+   "id": 1347,
+   "composer": "Whitehead, Gillian",
+   "title": "Tōrua"
+  },
+  {
+   "id": 1358,
+   "composer": "Williams, John",
+   "title": "Across the Stars (arr.)"
+  },
+  {
+   "id": 1359,
+   "composer": "Williams, John",
+   "title": "Theme from Schindler's List"
+  },
+  {
+   "id": 1363,
+   "composer": "Yun, Isang",
+   "title": "Gasa"
+  },
+  {
+   "id": 1366,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Tango (from Partita)"
+  },
+  {
+   "id": 1367,
+   "composer": "Adaskin, Murray",
+   "title": "Sonata No. 1 (unaccompanied)"
+  },
+  {
+   "id": 1368,
+   "composer": "Adaskin, Murray",
+   "title": "Sonatine Baroque (unaccompanied)"
+  },
+  {
+   "id": 1369,
+   "composer": "Auerbach, Lera",
+   "title": "Prayer (T'filah), Op. 33"
+  },
+  {
+   "id": 1413,
+   "composer": "Baker, David N.",
+   "title": "Suite for Solo Violin"
+  },
+  {
+   "id": 1416,
+   "composer": "Ben-Haim, Paul",
+   "title": "Sonata in G major for solo violin"
+  },
+  {
+   "id": 1417,
+   "composer": "Berio, Luciano",
+   "title": "Sequenza VIII"
+  },
+  {
+   "id": 1418,
+   "composer": "Berkeley, Lennox",
+   "title": "Introduction and Allegro for solo violin, Op. 24"
+  },
+  {
+   "id": 1422,
+   "composer": "Carter, Elliott",
+   "title": "Four Lauds"
+  },
+  {
+   "id": 1423,
+   "composer": "Chan, Ka Nin",
+   "title": "Soulmate"
+  },
+  {
+   "id": 1424,
+   "composer": "Chen Yi",
+   "title": "Memory for Solo Violin"
+  },
+  {
+   "id": 1425,
+   "composer": "Childs, Billy",
+   "title": "Four Portraits for Violin"
+  },
+  {
+   "id": 1426,
+   "composer": "Corigliano, John",
+   "title": "STOMP"
+  },
+  {
+   "id": 1427,
+   "composer": "Corigliano, John",
+   "title": "The Red Violin Caprices"
+  },
+  {
+   "id": 1428,
+   "composer": "Da Costa, Noel",
+   "title": "A Set of Dance Tunes"
+  },
+  {
+   "id": 1429,
+   "composer": "Eckhardt-Gramatté, Sophie-Carmen",
+   "title": "10 Caprices for Solo Violin"
+  },
+  {
+   "id": 1432,
+   "composer": "Esmail, Reena",
+   "title": "Varsha"
+  },
+  {
+   "id": 1433,
+   "composer": "Fairouz, Mohammed",
+   "title": "Sonata for Solo Violin 'Native Informant'"
+  },
+  {
+   "id": 1434,
+   "composer": "García Abril, Antón",
+   "title": "Partita No. 1 'Heart'"
+  },
+  {
+   "id": 1435,
+   "composer": "García Abril, Antón",
+   "title": "Partita No. 2 'Immensity'"
+  },
+  {
+   "id": 1436,
+   "composer": "García Abril, Antón",
+   "title": "Partita No. 3 'Love'"
+  },
+  {
+   "id": 1437,
+   "composer": "García Abril, Antón",
+   "title": "Partita No. 4 'Art'"
+  },
+  {
+   "id": 1438,
+   "composer": "García Abril, Antón",
+   "title": "Partita No. 5 'Reflective'"
+  },
+  {
+   "id": 1439,
+   "composer": "García Abril, Antón",
+   "title": "Partita No. 6 'You'"
+  },
+  {
+   "id": 1440,
+   "composer": "Glass, Philip",
+   "title": "Partita for Solo Violin"
+  },
+  {
+   "id": 1441,
+   "composer": "Gruber, H.K.",
+   "title": "Four Pieces for Solo Violin, Op. 11"
+  },
+  {
+   "id": 1442,
+   "composer": "Hailstork, Adolphus",
+   "title": "Suite for Solo Violin"
+  },
+  {
+   "id": 1443,
+   "composer": "Hailstork, Adolphus",
+   "title": "The Surprising Thing Is (Caprice)"
+  },
+  {
+   "id": 1444,
+   "composer": "Hailstork, Adolphus",
+   "title": "Three for Mark"
+  },
+  {
+   "id": 1445,
+   "composer": "Harbison, John",
+   "title": "Four Songs of Solitude"
+  },
+  {
+   "id": 1446,
+   "composer": "Henze, Hans Werner",
+   "title": "Sonata for Solo Violin"
+  },
+  {
+   "id": 1447,
+   "composer": "Hétu, Jacques",
+   "title": "Rondo varié pour violon seul, Op. 25"
+  },
+  {
+   "id": 1448,
+   "composer": "Hétu, Jacques",
+   "title": "Variations, Op. 11"
+  },
+  {
+   "id": 1452,
+   "composer": "Ho, Alice Ping Yee",
+   "title": "Caprice for Solo Violin"
+  },
+  {
+   "id": 1455,
+   "composer": "Kirchner, Leon",
+   "title": "For Solo Violin"
+  },
+  {
+   "id": 1457,
+   "composer": "Kurtág, György",
+   "title": "Hipartita, Op. 43"
+  },
+  {
+   "id": 1458,
+   "composer": "Kurtág, György",
+   "title": "Signs, Games and Messages (solo violin)"
+  },
+  {
+   "id": 1459,
+   "composer": "Ledroit, Christien",
+   "title": "Wandering the Threshold of Delirium"
+  },
+  {
+   "id": 1460,
+   "composer": "León, Tania",
+   "title": "Anima"
+  },
+  {
+   "id": 1461,
+   "composer": "Luening, Otto",
+   "title": "Meditation (solo violin)"
+  },
+  {
+   "id": 1462,
+   "composer": "Marsalis, Wynton",
+   "title": "Fiddle Dance Suite"
+  },
+  {
+   "id": 1463,
+   "composer": "Mazzoli, Missy",
+   "title": "Dissolve, O My Heart"
+  },
+  {
+   "id": 1464,
+   "composer": "Milstein, Nathan",
+   "title": "Paganiniana"
+  },
+  {
+   "id": 1465,
+   "composer": "Mobberley, James",
+   "title": "In Bocca al Lupo"
+  },
+  {
+   "id": 1466,
+   "composer": "Montgomery, Jessie",
+   "title": "Rhapsody No. 1 (solo)"
+  },
+  {
+   "id": 1467,
+   "composer": "Mulsant, Florentine",
+   "title": "Suite pour violon, Op. 50"
+  },
+  {
+   "id": 1470,
+   "composer": "O'Connor, Mark",
+   "title": "Caprices for Solo Violin"
+  },
+  {
+   "id": 1474,
+   "composer": "Patterson, Paul",
+   "title": "Luslawice Variations for solo violin"
+  },
+  {
+   "id": 1475,
+   "composer": "Penderecki, Krzysztof",
+   "title": "Cadenza (solo violin version by Christiane Edinger)"
+  },
+  {
+   "id": 1476,
+   "composer": "Perkinson, Coleridge-Taylor",
+   "title": "Blue/s Forms"
+  },
+  {
+   "id": 1477,
+   "composer": "Perkinson, Coleridge-Taylor",
+   "title": "Louisiana Blues Strut (A Cakewalk)"
+  },
+  {
+   "id": 1479,
+   "composer": "Prévost, André",
+   "title": "Improvisation pour violon seul"
+  },
+  {
+   "id": 1481,
+   "composer": "Puts, Kevin",
+   "title": "Arches"
+  },
+  {
+   "id": 1505,
+   "composer": "Rodrigo, Joaquín",
+   "title": "Capriccio (Ofrenda a Sarasate)"
+  },
+  {
+   "id": 1506,
+   "composer": "Roumain, Daniel Bernard",
+   "title": "Filter"
+  },
+  {
+   "id": 1507,
+   "composer": "Ryu, Jeajoon",
+   "title": "Capriccio per Violino"
+  },
+  {
+   "id": 1508,
+   "composer": "Saariaho, Kaija",
+   "title": "Nocturne (solo)"
+  },
+  {
+   "id": 1509,
+   "composer": "Salonen, Esa-Pekka",
+   "title": "Lachen verlernt"
+  },
+  {
+   "id": 1510,
+   "composer": "Schnittke, Alfred",
+   "title": "A Paganini (solo)"
+  },
+  {
+   "id": 1511,
+   "composer": "Schnittke, Alfred",
+   "title": "Fugue for Solo Violin"
+  },
+  {
+   "id": 1513,
+   "composer": "Sciarrino, Salvatore",
+   "title": "Sei Capricci"
+  },
+  {
+   "id": 1514,
+   "composer": "Sculthorpe, Peter",
+   "title": "Irkanda I"
+  },
+  {
+   "id": 1515,
+   "composer": "Seo, Juri",
+   "title": "Toy Store"
+  },
+  {
+   "id": 1516,
+   "composer": "Shchedrin, Rodion",
+   "title": "Echo Sonata"
+  },
+  {
+   "id": 1517,
+   "composer": "Sheng, Bright",
+   "title": "The Stream Flows"
+  },
+  {
+   "id": 1518,
+   "composer": "Shifrin, Seymour",
+   "title": "Lullaby (solo violin)"
+  },
+  {
+   "id": 1519,
+   "composer": "Silvestrov, Valentin",
+   "title": "Postludium No. 2 (from Three Postludes)"
+  },
+  {
+   "id": 1520,
+   "composer": "Simon, Carlos",
+   "title": "Between Worlds for Solo Violin"
+  },
+  {
+   "id": 1524,
+   "composer": "Thomas, Augusta Read",
+   "title": "Incantation"
+  },
+  {
+   "id": 1525,
+   "composer": "Thomas, Augusta Read",
+   "title": "Pulsar"
+  },
+  {
+   "id": 1526,
+   "composer": "Thomson, Virgil",
+   "title": "Eight Portraits for Solo Violin"
+  },
+  {
+   "id": 1527,
+   "composer": "Thomson, Virgil",
+   "title": "Portrait No. 1: Señorita Juanita de Medina Accompanied by Her Mother"
+  },
+  {
+   "id": 1528,
+   "composer": "Thomson, Virgil",
+   "title": "Portrait No. 2: Madame Marthe-Marthine"
+  },
+  {
+   "id": 1529,
+   "composer": "Thomson, Virgil",
+   "title": "Portrait No. 3: Georges Hugnet, Poet and Man of Letters"
+  },
+  {
+   "id": 1530,
+   "composer": "Thomson, Virgil",
+   "title": "Portrait No. 4: Miss Gertrude Stein as a Young Girl"
+  },
+  {
+   "id": 1531,
+   "composer": "Thomson, Virgil",
+   "title": "Portrait No. 5: Cliquet-Pleyel in F"
+  },
+  {
+   "id": 1532,
+   "composer": "Thomson, Virgil",
+   "title": "Portrait No. 6: Mrs. Chester Whitin Lasell"
+  },
+  {
+   "id": 1533,
+   "composer": "Thomson, Virgil",
+   "title": "Portrait No. 7: Sauguet, from Life"
+  },
+  {
+   "id": 1534,
+   "composer": "Thomson, Virgil",
+   "title": "Portrait No. 8: Ruth Smallens"
+  },
+  {
+   "id": 1535,
+   "composer": "Tillis, Frederick",
+   "title": "Three Showpieces for Solo Violin"
+  },
+  {
+   "id": 1536,
+   "composer": "Tower, Joan",
+   "title": "String Force"
+  },
+  {
+   "id": 1537,
+   "composer": "Traditional (Japanese)",
+   "title": "Sakura for Solo Violin (arr. Maria Kaneko Millar)"
+  },
+  {
+   "id": 1538,
+   "composer": "Walker, George",
+   "title": "Bleu"
+  },
+  {
+   "id": 1539,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Sonata for Solo Violin No. 1, Op. 82"
+  },
+  {
+   "id": 1540,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Sonata for Solo Violin No. 2, Op. 95"
+  },
+  {
+   "id": 1541,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Sonata for Solo Violin No. 3, Op. 126"
+  },
+  {
+   "id": 1548,
+   "composer": "White, Dolores",
+   "title": "Blues Dialogues"
+  },
+  {
+   "id": 1549,
+   "composer": "Winkelman, Helena",
+   "title": "Ciaccona"
+  },
+  {
+   "id": 1556,
+   "composer": "Yun, Isang",
+   "title": "Königliches Thema"
+  },
+  {
+   "id": 1557,
+   "composer": "Yun, Isang",
+   "title": "Kontraste (Two Pieces for solo violin)"
+  },
+  {
+   "id": 1558,
+   "composer": "Yun, Isang",
+   "title": "Li-Na im Garten"
+  },
+  {
+   "id": 1560,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Fantasy for Solo Violin"
+  },
+  {
+   "id": 1561,
+   "composer": "Adams, John",
+   "title": "Road Movies"
+  },
+  {
+   "id": 1562,
+   "composer": "Adaskin, Murray",
+   "title": "Sonata No. 1 for Violin and Piano"
+  },
+  {
+   "id": 1563,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 1 in A major, Op. 2 No. 1"
+  },
+  {
+   "id": 1564,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 10 in D major, Op. 2 No. 10"
+  },
+  {
+   "id": 1565,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 11 in A minor, Op. 2 No. 11"
+  },
+  {
+   "id": 1566,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 12 in C major, Op. 2 No. 12"
+  },
+  {
+   "id": 1567,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 2 in C major, Op. 2 No. 2"
+  },
+  {
+   "id": 1568,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 3 in B-flat major, Op. 2 No. 3"
+  },
+  {
+   "id": 1569,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 4 in G minor, Op. 2 No. 4"
+  },
+  {
+   "id": 1570,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 5 in F major, Op. 2 No. 5"
+  },
+  {
+   "id": 1571,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 6 in G major, Op. 2 No. 6"
+  },
+  {
+   "id": 1572,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 7 in E minor, Op. 2 No. 7"
+  },
+  {
+   "id": 1573,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 8 in C minor, Op. 2 No. 8"
+  },
+  {
+   "id": 1574,
+   "composer": "Alberti, Giuseppe Matteo",
+   "title": "Sonata No. 9 in D minor, Op. 2 No. 9"
+  },
+  {
+   "id": 1587,
+   "composer": "Alwyn, William",
+   "title": "Sonatina"
+  },
+  {
+   "id": 1588,
+   "composer": "Andrée, Elfrida",
+   "title": "Sonata in E-flat major"
+  },
+  {
+   "id": 1590,
+   "composer": "Auerbach, Lera",
+   "title": "Sonata No. 2 'September 11'"
+  },
+  {
+   "id": 1591,
+   "composer": "Babajanian, Arno",
+   "title": "Sonata in B-flat minor"
+  },
+  {
+   "id": 1592,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Partita"
+  },
+  {
+   "id": 1594,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Sonata No. 4"
+  },
+  {
+   "id": 1595,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Sonata No. 5"
+  },
+  {
+   "id": 1604,
+   "composer": "Barber, Samuel",
+   "title": "Sonata for Violin and Piano in F minor"
+  },
+  {
+   "id": 1620,
+   "composer": "Benda, Franz",
+   "title": "Violin Sonatas (selected)"
+  },
+  {
+   "id": 1621,
+   "composer": "Bennett, Robert Russell",
+   "title": "A Song Sonata"
+  },
+  {
+   "id": 1640,
+   "composer": "Bolcom, William",
+   "title": "Sonata No. 2"
+  },
+  {
+   "id": 1655,
+   "composer": "Buczynski, Walter",
+   "title": "Sonata"
+  },
+  {
+   "id": 1657,
+   "composer": "Carter, Elliott",
+   "title": "Duo for Violin and Piano"
+  },
+  {
+   "id": 1660,
+   "composer": "Clarke, Rebecca",
+   "title": "Sonata in D major (1907–09)"
+  },
+  {
+   "id": 1662,
+   "composer": "Copland, Aaron",
+   "title": "Sonata"
+  },
+  {
+   "id": 1675,
+   "composer": "Corigliano, John",
+   "title": "Sonata"
+  },
+  {
+   "id": 1676,
+   "composer": "Coulthard, Jean",
+   "title": "Duo Sonata"
+  },
+  {
+   "id": 1680,
+   "composer": "Del Borgo, Elliot",
+   "title": "Sonata"
+  },
+  {
+   "id": 1681,
+   "composer": "Delaval, Madame",
+   "title": "Sonata No. 2 in F major"
+  },
+  {
+   "id": 1686,
+   "composer": "Dolin, Samuel",
+   "title": "Sonata"
+  },
+  {
+   "id": 1698,
+   "composer": "Françaix, Jean",
+   "title": "Sonatine"
+  },
+  {
+   "id": 1725,
+   "composer": "Girón, Arsenio",
+   "title": "Sonata breve"
+  },
+  {
+   "id": 1726,
+   "composer": "Girón, Arsenio",
+   "title": "Sonata No. 2 (\"Three Invitations\")"
+  },
+  {
+   "id": 1727,
+   "composer": "Girón, Arsenio",
+   "title": "Sonata No. 4"
+  },
+  {
+   "id": 1728,
+   "composer": "Glass, Philip",
+   "title": "Sonata for Violin and Piano"
+  },
+  {
+   "id": 1729,
+   "composer": "Granados, Enrique",
+   "title": "Sonata, H. 127"
+  },
+  {
+   "id": 1743,
+   "composer": "Harrison, Lou",
+   "title": "Grand Duo"
+  },
+  {
+   "id": 1744,
+   "composer": "Hensel, Fanny",
+   "title": "Sonata in F major"
+  },
+  {
+   "id": 1749,
+   "composer": "Hovhaness, Alan",
+   "title": "Duet for Violin and Harpsichord, Op. 122"
+  },
+  {
+   "id": 1759,
+   "composer": "Karayev, Kara",
+   "title": "Sonata"
+  },
+  {
+   "id": 1760,
+   "composer": "Kirchner, Leon",
+   "title": "Sonata Concertante"
+  },
+  {
+   "id": 1812,
+   "composer": "Lutosławski, Witold",
+   "title": "Partita"
+  },
+  {
+   "id": 1813,
+   "composer": "MacDonald, Andrew P.",
+   "title": "Sonata No. 2, Op. 43 (\"The Phoenix\")"
+  },
+  {
+   "id": 1821,
+   "composer": "McIntyre, David L.",
+   "title": "Sonata No. 1"
+  },
+  {
+   "id": 1825,
+   "composer": "Mendelssohn, Felix",
+   "title": "Sonata in F major (1838), MWV Q26"
+  },
+  {
+   "id": 1827,
+   "composer": "Messiaen, Olivier",
+   "title": "Thème et variations"
+  },
+  {
+   "id": 1828,
+   "composer": "Morawetz, Oskar",
+   "title": "Duo"
+  },
+  {
+   "id": 1829,
+   "composer": "Morawetz, Oskar",
+   "title": "Sonata No. 1"
+  },
+  {
+   "id": 1870,
+   "composer": "Penderecki, Krzysztof",
+   "title": "Sonata No. 2"
+  },
+  {
+   "id": 1872,
+   "composer": "Pizzetti, Ildebrando",
+   "title": "Sonata in A major"
+  },
+  {
+   "id": 1873,
+   "composer": "Pleyel, Ignaz",
+   "title": "Sonatina, Op. 48 No. 1"
+  },
+  {
+   "id": 1874,
+   "composer": "Ponce, Manuel",
+   "title": "Sonata breve"
+  },
+  {
+   "id": 1879,
+   "composer": "Raum, Elizabeth",
+   "title": "Sonata"
+  },
+  {
+   "id": 1883,
+   "composer": "Rodrigo, Joaquín",
+   "title": "Sonata pimpante"
+  },
+  {
+   "id": 1886,
+   "composer": "Rubbra, Edmund",
+   "title": "Sonata No. 2, Op. 31"
+  },
+  {
+   "id": 1892,
+   "composer": "Schnittke, Alfred",
+   "title": "Sonata No. 1"
+  },
+  {
+   "id": 1893,
+   "composer": "Schnittke, Alfred",
+   "title": "Sonata No. 2 (\"Quasi una sonata\")"
+  },
+  {
+   "id": 1907,
+   "composer": "Silvestrov, Valentin",
+   "title": "Post Scriptum (Sonata)"
+  },
+  {
+   "id": 1908,
+   "composer": "Smith, Irene Britton",
+   "title": "Sonata for Violin"
+  },
+  {
+   "id": 1910,
+   "composer": "Somers, Harry",
+   "title": "Sonata No. 2"
+  },
+  {
+   "id": 1912,
+   "composer": "Stevens, Bernard",
+   "title": "Sonata in A minor in one movement"
+  },
+  {
+   "id": 1917,
+   "composer": "Tailleferre, Germaine",
+   "title": "Sonata No. 2"
+  },
+  {
+   "id": 1918,
+   "composer": "Tailleferre, Germaine",
+   "title": "Sonatine"
+  },
+  {
+   "id": 1953,
+   "composer": "Ustvolskaya, Galina",
+   "title": "Duet for Violin and Piano"
+  },
+  {
+   "id": 1954,
+   "composer": "Ustvolskaya, Galina",
+   "title": "Sonata"
+  },
+  {
+   "id": 1955,
+   "composer": "Vallerand, Jean",
+   "title": "Sonata"
+  },
+  {
+   "id": 1970,
+   "composer": "Villa-Lobos, Heitor",
+   "title": "Sonata No. 3"
+  },
+  {
+   "id": 1972,
+   "composer": "Villa-Lobos, Heitor",
+   "title": "Sonata-Fantasia No. 2"
+  },
+  {
+   "id": 1990,
+   "composer": "Walker, George",
+   "title": "Sonata No. 1"
+  },
+  {
+   "id": 1991,
+   "composer": "Walker, George",
+   "title": "Sonata No. 2"
+  },
+  {
+   "id": 1992,
+   "composer": "Walton, William",
+   "title": "Sonata"
+  },
+  {
+   "id": 1999,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Sonata No. 5, Op. 53"
+  },
+  {
+   "id": 2000,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Sonatina, Op. 46"
+  },
+  {
+   "id": 2005,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Sonata in Three Movements"
+  },
+  {
+   "id": 2006,
+   "composer": "Adès, Thomas",
+   "title": "Märchentänze"
+  },
+  {
+   "id": 2007,
+   "composer": "Auerbach, Lera",
+   "title": "24 Preludes for Violin and Piano, Op. 46"
+  },
+  {
+   "id": 2010,
+   "composer": "Bartók, Béla",
+   "title": "Hungarian Folk Songs, BB 109 (arr. Országh)"
+  },
+  {
+   "id": 2011,
+   "composer": "Bartók, Béla",
+   "title": "Hungarian Folk Tunes (arr. Szigeti)"
+  },
+  {
+   "id": 2015,
+   "composer": "Ben-Haim, Paul",
+   "title": "Three Songs Without Words"
+  },
+  {
+   "id": 2016,
+   "composer": "Berio, Luciano",
+   "title": "Due pezzi"
+  },
+  {
+   "id": 2017,
+   "composer": "Bernstein, Leonard",
+   "title": "West Side Story Suite (arr. Ottman)"
+  },
+  {
+   "id": 2020,
+   "composer": "Britten, Benjamin",
+   "title": "Suite, Op. 6"
+  },
+  {
+   "id": 2023,
+   "composer": "Cage, John",
+   "title": "Six Melodies"
+  },
+  {
+   "id": 2028,
+   "composer": "Copland, Aaron",
+   "title": "Two Pieces (Nocturne, Ukelele Serenade)"
+  },
+  {
+   "id": 2029,
+   "composer": "Cordero, Roque",
+   "title": "Two Short Pieces (1945)"
+  },
+  {
+   "id": 2030,
+   "composer": "Crumb, George",
+   "title": "Four Nocturnes (Night Music II)"
+  },
+  {
+   "id": 2035,
+   "composer": "Fetler, Paul",
+   "title": "Three Pieces for Violin and Piano (Essay, Air, Caprice)"
+  },
+  {
+   "id": 2036,
+   "composer": "Foss, Lukas",
+   "title": "Three American Pieces"
+  },
+  {
+   "id": 2037,
+   "composer": "Frank, Gabriela Lena",
+   "title": "Sueños de Chambi: Snapshots for an Andean Album"
+  },
+  {
+   "id": 2040,
+   "composer": "Girón, Arsenio",
+   "title": "Five Episodes"
+  },
+  {
+   "id": 2041,
+   "composer": "Healey, Derek",
+   "title": "Six Epigrams"
+  },
+  {
+   "id": 2042,
+   "composer": "Heifetz, Jascha",
+   "title": "Heifetz Collection (encore transcriptions)"
+  },
+  {
+   "id": 2043,
+   "composer": "Higdon, Jennifer",
+   "title": "String Poetic"
+  },
+  {
+   "id": 2044,
+   "composer": "Holt, Patricia Blomfield",
+   "title": "Suite No. 2"
+  },
+  {
+   "id": 2045,
+   "composer": "Hovhaness, Alan",
+   "title": "Khirgiz Suite, Op. 73 No. 1"
+  },
+  {
+   "id": 2048,
+   "composer": "Kaprálová, Vítězslava",
+   "title": "Legend and Burlesque, Op. 3"
+  },
+  {
+   "id": 2049,
+   "composer": "Kay, Ulysses",
+   "title": "Five Portraits"
+  },
+  {
+   "id": 2050,
+   "composer": "Kim, Roman",
+   "title": "Three Romances"
+  },
+  {
+   "id": 2051,
+   "composer": "Ko, Tonia",
+   "title": "Plush Earth in Four Pieces"
+  },
+  {
+   "id": 2053,
+   "composer": "Kulesha, Gary",
+   "title": "Song and Dance"
+  },
+  {
+   "id": 2054,
+   "composer": "Kurtág, György",
+   "title": "Tre pezzi, Op. 14e"
+  },
+  {
+   "id": 2055,
+   "composer": "Langer, Elena",
+   "title": "Transformations"
+  },
+  {
+   "id": 2056,
+   "composer": "Lloyd, Norman",
+   "title": "Three Pieces (1952)"
+  },
+  {
+   "id": 2057,
+   "composer": "Ma Sicong",
+   "title": "Inner Mongolia Suite (Suiyuan Suite)"
+  },
+  {
+   "id": 2058,
+   "composer": "Ma Sicong",
+   "title": "Tibetan Tone Poem"
+  },
+  {
+   "id": 2064,
+   "composer": "Mondonville, Jean-Joseph Cassanéa de",
+   "title": "Les sons harmoniques, Op. 4"
+  },
+  {
+   "id": 2065,
+   "composer": "Moore, Dorothy Rudd",
+   "title": "Three Pieces for Violin and Piano"
+  },
+  {
+   "id": 2068,
+   "composer": "Musgrave, Thea",
+   "title": "Colloquy"
+  },
+  {
+   "id": 2069,
+   "composer": "Papineau-Couture, Jean",
+   "title": "Trois caprices"
+  },
+  {
+   "id": 2070,
+   "composer": "Persichetti, Vincent",
+   "title": "Masques, Op. 99"
+  },
+  {
+   "id": 2071,
+   "composer": "Piazzolla, Astor",
+   "title": "Histoire du tango"
+  },
+  {
+   "id": 2072,
+   "composer": "Previn, André",
+   "title": "Tango, Song and Dance"
+  },
+  {
+   "id": 2078,
+   "composer": "Rodrigo, Joaquín",
+   "title": "Dos esbozos"
+  },
+  {
+   "id": 2079,
+   "composer": "Rorem, Ned",
+   "title": "Autumn Music"
+  },
+  {
+   "id": 2080,
+   "composer": "Rorem, Ned",
+   "title": "Night Music"
+  },
+  {
+   "id": 2083,
+   "composer": "Schnittke, Alfred",
+   "title": "Suite in the Old Style"
+  },
+  {
+   "id": 2084,
+   "composer": "Schoenfield, Paul",
+   "title": "Four Souvenirs"
+  },
+  {
+   "id": 2089,
+   "composer": "Sheng, Bright",
+   "title": "Three Fantasies"
+  },
+  {
+   "id": 2093,
+   "composer": "Smith, Larry Alan",
+   "title": "Euterpean Serenade"
+  },
+  {
+   "id": 2095,
+   "composer": "Still, William Grant",
+   "title": "Suite for Violin and Piano"
+  },
+  {
+   "id": 2102,
+   "composer": "Tsintsadze, Sulkhan",
+   "title": "Miniatures (selection)"
+  },
+  {
+   "id": 2103,
+   "composer": "Tubin, Eduard",
+   "title": "Suite on Estonian Dance Tunes"
+  },
+  {
+   "id": 2105,
+   "composer": "Vasks, Pēteris",
+   "title": "Little Summer Music"
+  },
+  {
+   "id": 2108,
+   "composer": "Walton, William",
+   "title": "Two Pieces (Canzonetta & Scherzetto)"
+  },
+  {
+   "id": 2110,
+   "composer": "Zhou Long",
+   "title": "Partita for Violin and Piano"
+  },
+  {
+   "id": 2117,
+   "composer": "Whistler, Harvey S.",
+   "title": "Introducing the Positions, Vol. 1"
+  },
+  {
+   "id": 2121,
+   "composer": "Baker, David N.",
+   "title": "Ethnic Variations on a Theme of Paganini"
+  },
+  {
+   "id": 2127,
+   "composer": "Castelnuovo-Tedesco, Mario",
+   "title": "Figaro (arr. Heifetz)"
+  },
+  {
+   "id": 2129,
+   "composer": "Coleridge-Taylor, Samuel",
+   "title": "Valse-Caprice, Op. 23"
+  },
+  {
+   "id": 2130,
+   "composer": "Copland, Aaron",
+   "title": "Hoe-Down (from Rodeo), arr."
+  },
+  {
+   "id": 2139,
+   "composer": "Grandval, Clémence de",
+   "title": "Bohémienne"
+  },
+  {
+   "id": 2146,
+   "composer": "Hubay, Jenő",
+   "title": "Scène de la csárda No. 11 'Szomorúfűz hervadt lombja', Op. 82"
+  },
+  {
+   "id": 2148,
+   "composer": "Hubay, Jenő",
+   "title": "Scène de la csárda No. 13, Op. 102"
+  },
+  {
+   "id": 2158,
+   "composer": "Khachaturian, Aram",
+   "title": "Sabre Dance (arr. Heifetz)"
+  },
+  {
+   "id": 2162,
+   "composer": "Kreisler, Fritz",
+   "title": "Viennese Rhapsodic Fantasietta"
+  },
+  {
+   "id": 2163,
+   "composer": "Kroll, William",
+   "title": "Banjo and Fiddle"
+  },
+  {
+   "id": 2182,
+   "composer": "Pärt, Arvo",
+   "title": "Fratres (violin & piano)"
+  },
+  {
+   "id": 2183,
+   "composer": "Piazzolla, Astor",
+   "title": "Le Grand Tango (arr.)"
+  },
+  {
+   "id": 2184,
+   "composer": "Poliakin, Mikhail",
+   "title": "The Canary (Le canari)"
+  },
+  {
+   "id": 2218,
+   "composer": "Skoryk, Myroslav",
+   "title": "Carpathian Rhapsody"
+  },
+  {
+   "id": 2219,
+   "composer": "Skoumal, Adam",
+   "title": "Variations on a Gypsy Melody"
+  },
+  {
+   "id": 2234,
+   "composer": "Vladigerov, Pancho",
+   "title": "Bulgarian Rhapsody 'Vardar', Op. 16"
+  },
+  {
+   "id": 2239,
+   "composer": "Wieniawski, Henryk",
+   "title": "Caprice in E major (arr. Heifetz)"
+  },
+  {
+   "id": 2249,
+   "composer": "Williams, John",
+   "title": "Devil's Dance from The Witches of Eastwick"
+  },
+  {
+   "id": 2250,
+   "composer": "Williams, John",
+   "title": "Hedwig's Theme (arr. for violin)"
+  },
+  {
+   "id": 2253,
+   "composer": "Zimbalist, Efrem",
+   "title": "Sarasateana"
+  },
+  {
+   "id": 2271,
+   "composer": "Achron, Joseph",
+   "title": "Sonata No. 2, Op. 45"
+  },
+  {
+   "id": 2293,
+   "composer": "Bartók, Béla",
+   "title": "Albumblatt in A major, BB 26b"
+  },
+  {
+   "id": 2294,
+   "composer": "Bartók, Béla",
+   "title": "Sonata in E minor, BB 28"
+  },
+  {
+   "id": 2429,
+   "composer": "Dvořák, Antonín",
+   "title": "Gavotte in G minor for Three Violins, B. 164"
+  },
+  {
+   "id": 2452,
+   "composer": "Franck, César",
+   "title": "Mélancolie in E minor, CFF 122"
+  },
+  {
+   "id": 2603,
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "Concerto in D major, K. Anh. 294a 'Adélaïde' (spurious, by Casadesus)"
+  },
+  {
+   "id": 2665,
+   "composer": "Paganini, Niccolò",
+   "title": "Maestosa sonata sentimentale, MS 51"
+  },
+  {
+   "id": 2666,
+   "composer": "Paganini, Niccolò",
+   "title": "Polacca con variazioni in A major, MS 18"
+  },
+  {
+   "id": 2671,
+   "composer": "Paganini, Niccolò",
+   "title": "Sonata Varsavia, MS 57"
+  },
+  {
+   "id": 2689,
+   "composer": "Sarasate, Pablo de",
+   "title": "Gondoliera veneziana, Op. 46"
+  },
+  {
+   "id": 2704,
+   "composer": "Sarasate, Pablo de",
+   "title": "Fantasy on Verdi's 'La forza del destino', Op. 1"
+  },
+  {
+   "id": 2769,
+   "composer": "Sibelius, Jean",
+   "title": "Sonata in F major, JS 178"
+  },
+  {
+   "id": 2772,
+   "composer": "Sinding, Christian",
+   "title": "Legende, Op. 46"
+  },
+  {
+   "id": 2774,
+   "composer": "Sinding, Christian",
+   "title": "Concerto No. 3 in A minor, Op. 119"
+  },
+  {
+   "id": 2812,
+   "composer": "Szymanowski, Karol",
+   "title": "Danse sauvage"
+  },
+  {
+   "id": 3218,
+   "composer": "Achron, Joseph",
+   "title": "Two Pastels, Op. 44"
+  },
+  {
+   "id": 3220,
+   "composer": "Chaminade, Cécile",
+   "title": "Chant du Nord, Op. 96"
+  },
+  {
+   "id": 3247,
+   "composer": "Hubay, Jenő",
+   "title": "Fantaisie élégiaque, Op. 62"
+  },
+  {
+   "id": 3248,
+   "composer": "Hubay, Jenő",
+   "title": "6 Études, Op. 64"
+  },
+  {
+   "id": 3249,
+   "composer": "Hubay, Jenő",
+   "title": "Adieu (Abschied), Op. 66 No. 2"
+  },
+  {
+   "id": 3250,
+   "composer": "Hubay, Jenő",
+   "title": "Ballade, Op. 104 No. 1"
+  },
+  {
+   "id": 3251,
+   "composer": "Hubay, Jenő",
+   "title": "Cantilène, Op. 70"
+  },
+  {
+   "id": 3252,
+   "composer": "Hubay, Jenő",
+   "title": "Fliederbusch (Old Viennese Waltz), Op. 109"
+  },
+  {
+   "id": 3253,
+   "composer": "Hubay, Jenő",
+   "title": "Humoreske, Op. 104 No. 2"
+  },
+  {
+   "id": 3254,
+   "composer": "Hubay, Jenő",
+   "title": "Moment musical, Op. 66 No. 1"
+  },
+  {
+   "id": 3255,
+   "composer": "Hubay, Jenő",
+   "title": "Nachtigallen-Gesang (Ramage des rossignols), Op. 39"
+  },
+  {
+   "id": 3257,
+   "composer": "Hubay, Jenő",
+   "title": "Rayon de lune, Op. 86 No. 1"
+  },
+  {
+   "id": 3258,
+   "composer": "Hubay, Jenő",
+   "title": "Ronde de printemps, Op. 110 No. 1"
+  },
+  {
+   "id": 3259,
+   "composer": "Hubay, Jenő",
+   "title": "Vol d'hirondelles (Schwalbenflug), Op. 66 No. 3"
+  },
+  {
+   "id": 3261,
+   "composer": "Hubay, Jenő",
+   "title": "Arlequin (Harlekin), Op. 81"
+  },
+  {
+   "id": 3262,
+   "composer": "Hubay, Jenő",
+   "title": "Danse des elfes, Op. 86 No. 2"
+  },
+  {
+   "id": 3263,
+   "composer": "Hubay, Jenő",
+   "title": "Fantaisie tziganesque, Op. 4"
+  },
+  {
+   "id": 3264,
+   "composer": "Hubay, Jenő",
+   "title": "La guêpe (Die Wespe), Op. 110 No. 2"
+  },
+  {
+   "id": 3265,
+   "composer": "Hubay, Jenő",
+   "title": "Suite on Massenet's 'Le roi de Lahore', Op. 3 No. 1"
+  },
+  {
+   "id": 3267,
+   "composer": "Monti, Vittorio",
+   "title": "Coquetterie"
+  },
+  {
+   "id": 3268,
+   "composer": "Monti, Vittorio",
+   "title": "Kamtchatka (Danse sibérienne)"
+  },
+  {
+   "id": 3269,
+   "composer": "Monti, Vittorio",
+   "title": "Sicilienne"
+  },
+  {
+   "id": 3270,
+   "composer": "Monti, Vittorio",
+   "title": "Zingaresca"
+  },
+  {
+   "id": 3273,
+   "composer": "Paganini, Niccolò",
+   "title": "Inno patriottico in A major, MS 81"
+  },
+  {
+   "id": 3274,
+   "composer": "Paganini, Niccolò",
+   "title": "Sonata in A major, MS 83"
+  },
+  {
+   "id": 3275,
+   "composer": "Paganini, Niccolò",
+   "title": "Tema variato in A major, MS 82"
+  },
+  {
+   "id": 3276,
+   "composer": "Paganini, Niccolò",
+   "title": "Duetto amoroso in C major, MS 111"
+  },
+  {
+   "id": 3277,
+   "composer": "Paganini, Niccolò",
+   "title": "Perpetuela (Sonata a movimento perpetuo) in B-flat major, MS 66"
+  },
+  {
+   "id": 3283,
+   "composer": "Sarasate, Pablo de",
+   "title": "Sérénade andalouse, Op. 10"
+  },
+  {
+   "id": 3284,
+   "composer": "Sarasate, Pablo de",
+   "title": "Caprice sur 'Mireille', Op. 6"
+  },
+  {
+   "id": 3285,
+   "composer": "Sarasate, Pablo de",
+   "title": "Fantaisie sur 'La Dame blanche', Op. 3"
+  },
+  {
+   "id": 3287,
+   "composer": "Scott, Cyril",
+   "title": "Bumble-Bees (Die Hummeln)"
+  },
+  {
+   "id": 3288,
+   "composer": "Scott, Cyril",
+   "title": "Idyll"
+  },
+  {
+   "id": 3289,
+   "composer": "Scott, Cyril",
+   "title": "Sonata No. 2 ('Sonata melodica')"
+  },
+  {
+   "id": 3302,
+   "composer": "Ysaÿe, Eugène",
+   "title": "Sonate posthume, Op. 27bis"
+  },
+  {
+   "id": 3303,
+   "composer": "Ysaÿe, Eugène",
+   "title": "Grande Valse de concert in E-flat major, Op. 3"
+  },
+  {
+   "id": 3309,
+   "composer": "Abel, Ludwig",
+   "title": "Neue Folge der mechanisch-technischen Violin-Übungen, Heft 2 (12 exercises, 2nd–6th positions)"
+  },
+  {
+   "id": 3310,
+   "composer": "ABRSM",
+   "title": "Violin Scales & Arpeggios, Grade 3"
+  },
+  {
+   "id": 3311,
+   "composer": "ABRSM",
+   "title": "Violin Scales & Arpeggios, Grade 4"
+  },
+  {
+   "id": 3312,
+   "composer": "ABRSM",
+   "title": "Violin Scales & Arpeggios, Grade 5"
+  },
+  {
+   "id": 3313,
+   "composer": "ABRSM",
+   "title": "Violin Scales & Arpeggios, Grade 6"
+  },
+  {
+   "id": 3314,
+   "composer": "ABRSM",
+   "title": "Violin Scales & Arpeggios, Grade 7"
+  },
+  {
+   "id": 3315,
+   "composer": "ABRSM",
+   "title": "Violin Scales & Arpeggios, Grade 8"
+  },
+  {
+   "id": 3316,
+   "composer": "Adelburg, August von",
+   "title": "L'École de la vélocité pour le violon, Op. 2 (24 études)"
+  },
+  {
+   "id": 3317,
+   "composer": "Adler, Samuel",
+   "title": "Meadowmountetudes: Four Studies of 20th-Century Techniques"
+  },
+  {
+   "id": 3322,
+   "composer": "Allen, Michael",
+   "title": "Advanced Technique for Strings: Essential Elements, Violin"
+  },
+  {
+   "id": 3325,
+   "composer": "AMEB",
+   "title": "Violin Technical Workbook (2021 edition, Preliminary–Grade 8)"
+  },
+  {
+   "id": 3326,
+   "composer": "Anick, Jason",
+   "title": "Violin Fingerboard Mastery: Contemporary Mapping Exercises and Improvisation Studies"
+  },
+  {
+   "id": 3327,
+   "composer": "Applebaum, Samuel",
+   "title": "2nd and 4th Position String Builder"
+  },
+  {
+   "id": 3328,
+   "composer": "Applebaum, Samuel",
+   "title": "3rd and 5th Position String Builder"
+  },
+  {
+   "id": 3329,
+   "composer": "Applebaum, Samuel",
+   "title": "Building Technic with Beautiful Music, Book 3"
+  },
+  {
+   "id": 3330,
+   "composer": "Applebaum, Samuel",
+   "title": "Building Technic with Beautiful Music, Book 4"
+  },
+  {
+   "id": 3331,
+   "composer": "Auer, Leopold",
+   "title": "Graded Course of Violin Playing, Book 5 (Medium Advanced Grade: the higher positions)"
+  },
+  {
+   "id": 3332,
+   "composer": "Auer, Leopold",
+   "title": "Graded Course of Violin Playing, Book 6 (Advanced Grade: the higher positions, continued)"
+  },
+  {
+   "id": 3333,
+   "composer": "Auer, Leopold",
+   "title": "Graded Course of Violin Playing, Book 7 (Difficult Grade: advanced bowing)"
+  },
+  {
+   "id": 3334,
+   "composer": "Auer, Leopold",
+   "title": "Graded Course of Violin Playing, Book 8 (Virtuoso Grade)"
+  },
+  {
+   "id": 3338,
+   "composer": "Baca, Joe",
+   "title": "50 Mariachi Etudes for Violin, Book 1 (Nos. 1-25)"
+  },
+  {
+   "id": 3339,
+   "composer": "Baca, Joe",
+   "title": "50 Mariachi Etudes for Violin, Book 2 (Nos. 26-50)"
+  },
+  {
+   "id": 3342,
+   "composer": "Bachmann, Alberto",
+   "title": "Six études transcendantes"
+  },
+  {
+   "id": 3343,
+   "composer": "Bachmann, Alberto",
+   "title": "Vingt études progressives pour violon seul"
+  },
+  {
+   "id": 3344,
+   "composer": "Bachmann, Alberto",
+   "title": "Le Violoniste virtuose: traité complet des gammes pour le violon"
+  },
+  {
+   "id": 3348,
+   "composer": "Balfoort, Dirk J.",
+   "title": "Toonladders en gebroken accoorden (Gammes et accords brisés)"
+  },
+  {
+   "id": 3353,
+   "composer": "Barber, Barbara",
+   "title": "Fingerboard Geography: Violin, Vol. 1"
+  },
+  {
+   "id": 3354,
+   "composer": "Barber, Barbara",
+   "title": "Scales for Advanced Violinists"
+  },
+  {
+   "id": 3355,
+   "composer": "Barison, Cesare",
+   "title": "Tecnica superiore del violino"
+  },
+  {
+   "id": 3356,
+   "composer": "Bauer, John",
+   "title": "Violin Position Etudes"
+  },
+  {
+   "id": 3357,
+   "composer": "Bauer, John",
+   "title": "Progressive Scale Studies for Violin"
+  },
+  {
+   "id": 3360,
+   "composer": "Bergmann, Benjamin",
+   "title": "Fit in 15 Minutes: Warm-ups and Essential Exercises for Violin"
+  },
+  {
+   "id": 3372,
+   "composer": "Berkley, Harold",
+   "title": "Basic Violin Technique: A Series of Specialized Daily Exercises"
+  },
+  {
+   "id": 3373,
+   "composer": "Berkley, Harold",
+   "title": "Twelve Studies in Modern Violin Bowing in the First Position"
+  },
+  {
+   "id": 3374,
+   "composer": "Berthelier, J.",
+   "title": "École pratique des gammes et arpèges"
+  },
+  {
+   "id": 3375,
+   "composer": "Berthoud, Eugène",
+   "title": "Les Gammes: exercices préparatoires, Op. 12"
+  },
+  {
+   "id": 3379,
+   "composer": "Blackwell, Kathy and David",
+   "title": "Fiddle Time Scales 2"
+  },
+  {
+   "id": 3384,
+   "composer": "Bloch, József",
+   "title": "Scale School (Tonleiterschule), Book 2"
+  },
+  {
+   "id": 3385,
+   "composer": "Bloch, József",
+   "title": "Scale School (Tonleiterschule), Book 3"
+  },
+  {
+   "id": 3390,
+   "composer": "Borciani, Paolo",
+   "title": "Per la musica moderna e contemporanea: 209 esercizi di tecnica superiore violinistica"
+  },
+  {
+   "id": 3391,
+   "composer": "Bordogni, Marco",
+   "title": "Melodious Etudes for Violin (ed. Doris Gazda)"
+  },
+  {
+   "id": 3392,
+   "composer": "Borsarello, Jacques",
+   "title": "Les gammes au violon"
+  },
+  {
+   "id": 3412,
+   "composer": "Casorti, August",
+   "title": "Rapid Scales (Rasche Tonleitern), Op. 62"
+  },
+  {
+   "id": 3415,
+   "composer": "Catherine, Georges",
+   "title": "Études méthodiques des gammes, Vol. 1 (melodic scales)"
+  },
+  {
+   "id": 3416,
+   "composer": "Catherine, Georges",
+   "title": "Études méthodiques des gammes, Vol. 2 (double stops)"
+  },
+  {
+   "id": 3418,
+   "composer": "Chang, Herbert",
+   "title": "Daily Scale Exercises for Violin"
+  },
+  {
+   "id": 3419,
+   "composer": "Charpentier, A.",
+   "title": "Sept études de difficulté transcendante"
+  },
+  {
+   "id": 3420,
+   "composer": "Chemla, Patrick",
+   "title": "Gammes et arpèges: 4 octaves et 2 octaves sur une même corde"
+  },
+  {
+   "id": 3421,
+   "composer": "Clark, Larry",
+   "title": "The Complete Scale Compendium for Violin"
+  },
+  {
+   "id": 3422,
+   "composer": "Cofalik, Antoni",
+   "title": "6 Etudes-Capriccios"
+  },
+  {
+   "id": 3423,
+   "composer": "Cofalik, Antoni",
+   "title": "Scales (Two-, Three- and Four-Octave)"
+  },
+  {
+   "id": 3424,
+   "composer": "Cofalik, Antoni",
+   "title": "A Selection of Virtuoso Etudes"
+  },
+  {
+   "id": 3425,
+   "composer": "Cohen, Eta",
+   "title": "Violin Method, Book 3 (3rd position, half position, bowings)"
+  },
+  {
+   "id": 3426,
+   "composer": "Cohen, Eta",
+   "title": "Violin Method, Book 4 (higher positions, double stops, spiccato)"
+  },
+  {
+   "id": 3427,
+   "composer": "Cohen, Mary",
+   "title": "Jazz Technique Takes Off!"
+  },
+  {
+   "id": 3428,
+   "composer": "Cohen, Mary",
+   "title": "More Technique Takes Off!"
+  },
+  {
+   "id": 3429,
+   "composer": "Cohen, Mary",
+   "title": "Nifty Shifts"
+  },
+  {
+   "id": 3430,
+   "composer": "Cohen, Mary",
+   "title": "Superstudies Violin, Book 2"
+  },
+  {
+   "id": 3431,
+   "composer": "Cohen, Mary",
+   "title": "Technique Flies High!"
+  },
+  {
+   "id": 3432,
+   "composer": "Cohen, Mary",
+   "title": "Violin Technique in Practice"
+  },
+  {
+   "id": 3433,
+   "composer": "Cohen, Mary",
+   "title": "Technique Takes Off!"
+  },
+  {
+   "id": 3434,
+   "composer": "Collier, Derek",
+   "title": "Scales and Arpeggios for Violin"
+  },
+  {
+   "id": 3438,
+   "composer": "Coult, Tom",
+   "title": "Études I–IV"
+  },
+  {
+   "id": 3454,
+   "composer": "Crickboom, Mathieu",
+   "title": "La Technique du violon, Vol. 3 (scales, arpeggios, thirds, octaves, chords)"
+  },
+  {
+   "id": 3456,
+   "composer": "Cuelenaere, Paul",
+   "title": "Technique quotidienne d'assouplissement à l'usage des violonistes"
+  },
+  {
+   "id": 3457,
+   "composer": "Curci, Alberto",
+   "title": "26 Studi di cambiamenti delle posizioni"
+  },
+  {
+   "id": 3458,
+   "composer": "Curci, Alberto",
+   "title": "60 Studi in II, III, IV, V, VI, VII posizione"
+  },
+  {
+   "id": 3459,
+   "composer": "Curci, Alberto",
+   "title": "Tecnica fondamentale del violino: Posizioni e cambiamenti di posizioni"
+  },
+  {
+   "id": 3460,
+   "composer": "Dancla, Charles",
+   "title": "46 Études mélodiques et progressives, Op. 12"
+  },
+  {
+   "id": 3466,
+   "composer": "Dancla, Charles",
+   "title": "L'École de l'archet, Op. 110 Book 2"
+  },
+  {
+   "id": 3467,
+   "composer": "Dancla, Charles",
+   "title": "Petite école de la double corde, Op. 192"
+  },
+  {
+   "id": 3470,
+   "composer": "Dancla, Charles",
+   "title": "Le Semainier du jeune violoniste, Op. 150 Part 2 (finger exercises)"
+  },
+  {
+   "id": 3471,
+   "composer": "Dancla, Charles",
+   "title": "Variété et accentuation d'archet, Op. 139"
+  },
+  {
+   "id": 3472,
+   "composer": "Dancla, Léopold",
+   "title": "24 Études, Op. 26"
+  },
+  {
+   "id": 3473,
+   "composer": "Dancla, Léopold",
+   "title": "Nouvelle École du violoniste: 12 Mélodies en forme d'études, Op. 11"
+  },
+  {
+   "id": 3484,
+   "composer": "Dezaire, Nico",
+   "title": "Violin Position 2 (27 pieces)"
+  },
+  {
+   "id": 3485,
+   "composer": "Dezaire, Nico",
+   "title": "Violin Positions 3, 2 & ½ (32 pieces)"
+  },
+  {
+   "id": 3486,
+   "composer": "Dezaire, Nico",
+   "title": "Violin Positions 4 & 5 (18 exercises, 32 pieces)"
+  },
+  {
+   "id": 3487,
+   "composer": "Dezaire, Nico",
+   "title": "Violin Positions 6, 7 & 8"
+  },
+  {
+   "id": 3488,
+   "composer": "Dinn, Freda",
+   "title": "24 Studies, 24 Keys"
+  },
+  {
+   "id": 3489,
+   "composer": "Doflein, Erich and Elma",
+   "title": "The Doflein Method, Vol. 3 (2nd and 3rd positions)"
+  },
+  {
+   "id": 3490,
+   "composer": "Doflein, Erich and Elma",
+   "title": "The Doflein Method, Vol. 5 (higher positions, 4th to 10th)"
+  },
+  {
+   "id": 3493,
+   "composer": "Dont, Jakob",
+   "title": "6 Caprices, Op. 55"
+  },
+  {
+   "id": 3494,
+   "composer": "Dont, Jakob",
+   "title": "6 Studies, Op. 54"
+  },
+  {
+   "id": 3520,
+   "composer": "Dorson, Charles",
+   "title": "Études mélodiques en doubles cordes"
+  },
+  {
+   "id": 3521,
+   "composer": "Dorson, Charles",
+   "title": "Six études-caprices"
+  },
+  {
+   "id": 3522,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 1"
+  },
+  {
+   "id": 3523,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 2"
+  },
+  {
+   "id": 3524,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 3"
+  },
+  {
+   "id": 3525,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 4"
+  },
+  {
+   "id": 3526,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 5"
+  },
+  {
+   "id": 3527,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 6"
+  },
+  {
+   "id": 3528,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 7"
+  },
+  {
+   "id": 3529,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 8"
+  },
+  {
+   "id": 3530,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 9"
+  },
+  {
+   "id": 3531,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 10"
+  },
+  {
+   "id": 3532,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 11"
+  },
+  {
+   "id": 3533,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 12"
+  },
+  {
+   "id": 3534,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 13"
+  },
+  {
+   "id": 3535,
+   "composer": "Doukan, Pierre",
+   "title": "L'École du violon: études progressives, Book 14"
+  },
+  {
+   "id": 3540,
+   "composer": "Dounis, Demetrius Constantine",
+   "title": "Chopin Étude, Op. 25 No. 6, for violin: Book 1 (in thirds)"
+  },
+  {
+   "id": 3541,
+   "composer": "Dounis, Demetrius Constantine",
+   "title": "Chopin Étude, Op. 25 No. 6, for Violin, Book 2 (in tenths)"
+  },
+  {
+   "id": 3546,
+   "composer": "Dounis, Demetrius Constantine",
+   "title": "Fundamental Trill Studies, Op. 18"
+  },
+  {
+   "id": 3547,
+   "composer": "Dounis, Demetrius Constantine",
+   "title": "The Higher Development of Thirds and Fingered Octaves, Op. 30"
+  },
+  {
+   "id": 3548,
+   "composer": "Dounis, Demetrius Constantine",
+   "title": "New Aids to the Technical Development of the Violinist, Op. 27"
+  },
+  {
+   "id": 3550,
+   "composer": "Dounis, Demetrius Constantine",
+   "title": "Preparatory Studies in Thirds and Fingered Octaves, Op. 16 Book 1 (thirds)"
+  },
+  {
+   "id": 3551,
+   "composer": "Dounis, Demetrius Constantine",
+   "title": "Preparatory Studies in Thirds and Fingered Octaves, Op. 16 Book 2 (fingered octaves)"
+  },
+  {
+   "id": 3552,
+   "composer": "Dounis, Demetrius Constantine",
+   "title": "The Staccato, Op. 21"
+  },
+  {
+   "id": 3553,
+   "composer": "Dounis, Demetrius Constantine",
+   "title": "Studies in Chromatic Double-Stops, Op. 29"
+  },
+  {
+   "id": 3554,
+   "composer": "Dufresne, Ferdinand",
+   "title": "50 Variations sur la gamme en forme d'études, Op. 24"
+  },
+  {
+   "id": 3557,
+   "composer": "Eberhardt, Goby",
+   "title": "Beiträge zur Violin-Technik"
+  },
+  {
+   "id": 3560,
+   "composer": "Eberhardt, Goby",
+   "title": "Lagenschule, Op. 100 (Violin-Cursus Vol. 2)"
+  },
+  {
+   "id": 3561,
+   "composer": "Eberhardt, Goby",
+   "title": "Schule der Doppelgriffe, Op. 81 Heft I (thirds)"
+  },
+  {
+   "id": 3562,
+   "composer": "Eberhardt, Goby",
+   "title": "Schule der Doppelgriffe, Op. 81 Heft II (sixths, octaves, tenths)"
+  },
+  {
+   "id": 3563,
+   "composer": "Eberhardt, Goby",
+   "title": "Schule der Geläufigkeit, Op. 83 (School of Velocity)"
+  },
+  {
+   "id": 3564,
+   "composer": "Eberhardt, Goby",
+   "title": "Tägliche Violinübungen für die Verbindung schwieriger Doppelgriffe, Op. 92"
+  },
+  {
+   "id": 3566,
+   "composer": "Eichberg, Julius",
+   "title": "8 Études (finger and bow difficulties), Op. 16"
+  },
+  {
+   "id": 3567,
+   "composer": "Eichberg, Julius",
+   "title": "24 technische Studien, Op. 80"
+  },
+  {
+   "id": 3568,
+   "composer": "Eichberg, Julius",
+   "title": "Études (principaux coups d'archet), Op. 7 (4 cahiers)"
+  },
+  {
+   "id": 3569,
+   "composer": "Eichberg, Julius",
+   "title": "Nouvelle méthode pratique et abrégée de violon, Op. 21 Cahier 2 (20 pieces/études by various authors, medium difficulty)"
+  },
+  {
+   "id": 3570,
+   "composer": "Eichberg, Julius",
+   "title": "Nouvelle méthode pratique et abrégée de violon, Op. 21 Cahier 3 (25 études)"
+  },
+  {
+   "id": 3571,
+   "composer": "Eichberg, Julius",
+   "title": "Nouvelle méthode pratique et abrégée de violon, Op. 21 Cahier 4 (25 études)"
+  },
+  {
+   "id": 3572,
+   "composer": "Eichinger, Rudolf",
+   "title": "Flageolett-Studien für Violine (1991)"
+  },
+  {
+   "id": 3574,
+   "composer": "Elisha, Larisa",
+   "title": "Advanced Scale Studies"
+  },
+  {
+   "id": 3575,
+   "composer": "Erlih, Devy",
+   "title": "Gammes et exercices journaliers, Book 1 (sharp keys)"
+  },
+  {
+   "id": 3576,
+   "composer": "Erlih, Devy",
+   "title": "Gammes et exercices journaliers, Book 2 (flat keys)"
+  },
+  {
+   "id": 3578,
+   "composer": "Fabroni, Pietro",
+   "title": "Le Mécanisme du violon, Cahier 1 (1st-3rd positions)"
+  },
+  {
+   "id": 3579,
+   "composer": "Fabroni, Pietro",
+   "title": "Le Mécanisme du violon, Cahier 2 (3rd-5th positions)"
+  },
+  {
+   "id": 3580,
+   "composer": "Fabroni, Pietro",
+   "title": "Le Mécanisme du violon, Cahier 3 (5th-7th positions)"
+  },
+  {
+   "id": 3582,
+   "composer": "Feliński, Zenon",
+   "title": "Violin Course (Szkoła gry na skrzypcach), Part 2"
+  },
+  {
+   "id": 3583,
+   "composer": "Feliński, Zenon",
+   "title": "Study of Scales and Position Changes, Book 1"
+  },
+  {
+   "id": 3584,
+   "composer": "Feliński, Zenon",
+   "title": "Study of Scales and Position Changes, Book 2"
+  },
+  {
+   "id": 3585,
+   "composer": "Fine, Elaine",
+   "title": "Advanced Violin Scale Studies"
+  },
+  {
+   "id": 3623,
+   "composer": "Fischer, Simon",
+   "title": "Basics (300 Exercises and Practice Routines)"
+  },
+  {
+   "id": 3624,
+   "composer": "Fischer, Simon",
+   "title": "Double Stops: Scales and Scale Exercises for the Violin"
+  },
+  {
+   "id": 3625,
+   "composer": "Fischer, Simon",
+   "title": "Scales and Scale Studies for the Violin"
+  },
+  {
+   "id": 3626,
+   "composer": "Fischer, Simon",
+   "title": "Tone: Experimenting with Proportions"
+  },
+  {
+   "id": 3627,
+   "composer": "Fischer, Simon",
+   "title": "Warming Up"
+  },
+  {
+   "id": 3632,
+   "composer": "Flor, Samuel",
+   "title": "The Positions for Violin"
+  },
+  {
+   "id": 3634,
+   "composer": "Galamian, Ivan",
+   "title": "Contemporary Violin Technique, Vol. 1 Part 1 (scale and arpeggio exercises)"
+  },
+  {
+   "id": 3635,
+   "composer": "Galamian, Ivan",
+   "title": "Contemporary Violin Technique, Vol. 1 Part 2 (bowing and rhythm patterns)"
+  },
+  {
+   "id": 3636,
+   "composer": "Galamian, Ivan",
+   "title": "Contemporary Violin Technique, Vol. 2 (double and multiple stops)"
+  },
+  {
+   "id": 3637,
+   "composer": "Galoustov, Dimitri",
+   "title": "24 gammes et exercices"
+  },
+  {
+   "id": 3638,
+   "composer": "Gavin, May",
+   "title": "Violin Technical Work (ANZCA, Preparatory–Grade 8)"
+  },
+  {
+   "id": 3664,
+   "composer": "Gazda, Doris",
+   "title": "Studies in Lyricism"
+  },
+  {
+   "id": 3666,
+   "composer": "Geringas, Yaakov",
+   "title": "Shifting: Thirty Progressive Studies for Violinists"
+  },
+  {
+   "id": 3668,
+   "composer": "Gilels, Elizaveta",
+   "title": "Daily Exercises for the Violinist"
+  },
+  {
+   "id": 3670,
+   "composer": "Glaser, Matt",
+   "title": "Bluegrass Fiddle and Beyond: Etudes and Ideas for the Modern Fiddler"
+  },
+  {
+   "id": 3671,
+   "composer": "Goulard, Antoine",
+   "title": "Grandes séries d'arpèges à trois et quatre octaves"
+  },
+  {
+   "id": 3675,
+   "composer": "Harris, Paul",
+   "title": "Improve your scales! Violin, Grade 3"
+  },
+  {
+   "id": 3676,
+   "composer": "Harris, Paul",
+   "title": "Improve your scales! Violin, Grade 4"
+  },
+  {
+   "id": 3677,
+   "composer": "Harris, Paul",
+   "title": "Improve your scales! Violin, Grade 5"
+  },
+  {
+   "id": 3678,
+   "composer": "Hauchard, Maurice",
+   "title": "École du violon: Gammes et arpèges"
+  },
+  {
+   "id": 3680,
+   "composer": "Havemann, Gustav",
+   "title": "Die Violintechnik bis zur Vollendung"
+  },
+  {
+   "id": 3681,
+   "composer": "Haydou, Irene",
+   "title": "The Octave System for the Violin"
+  },
+  {
+   "id": 3682,
+   "composer": "Heifetz, Jascha",
+   "title": "The Heifetz Scale Book for Violin (ed. Endre Granat)"
+  },
+  {
+   "id": 3707,
+   "composer": "Herman, Stefan",
+   "title": "Whole-Tone Exercises"
+  },
+  {
+   "id": 3721,
+   "composer": "Herrmann, Eduard",
+   "title": "Technik des Violinspiels, Op. 9 Part 1 (the individual positions)"
+  },
+  {
+   "id": 3723,
+   "composer": "Herrmann, Eduard",
+   "title": "Technik des Violinspiels, Op. 20 Part 3 (Künstlertechnik)"
+  },
+  {
+   "id": 3725,
+   "composer": "Hildebrandt, Merrick",
+   "title": "Technique of the Bow"
+  },
+  {
+   "id": 3734,
+   "composer": "Holmes, Markwood",
+   "title": "Above the First Position (ed. Markwood Holmes and Russell Webber)"
+  },
+  {
+   "id": 3735,
+   "composer": "Hoya, Amadeo von der",
+   "title": "Grundlegende Doppelgriff-Studien"
+  },
+  {
+   "id": 3744,
+   "composer": "Hoya, Amadeo von der",
+   "title": "Tonleiter-, Akkord- und Intervall-Studien"
+  },
+  {
+   "id": 3745,
+   "composer": "Hřímalý, Jan",
+   "title": "Double-Stop Exercises in Thirds, Sixths, Octaves and Tenths"
+  },
+  {
+   "id": 3747,
+   "composer": "Huebner, Gregor",
+   "title": "Exercises, Etudes and Concert Pieces: A Creative Guide for the Contemporary Improvising Violinist"
+  },
+  {
+   "id": 3749,
+   "composer": "Jacobsen, Maxim",
+   "title": "25 Daily Concentration Exercises, Part 1 (left hand)"
+  },
+  {
+   "id": 3750,
+   "composer": "Jacobsen, Maxim",
+   "title": "25 Daily Concentration Exercises, Part 2"
+  },
+  {
+   "id": 3751,
+   "composer": "Jacobsen, Maxim",
+   "title": "100 Little Technical Paraphrases on Kayser Studies, Part 1"
+  },
+  {
+   "id": 3752,
+   "composer": "Jacobsen, Maxim",
+   "title": "100 Little Technical Paraphrases on Kayser Studies, Part 2"
+  },
+  {
+   "id": 3753,
+   "composer": "Jacobsen, Maxim",
+   "title": "100 Technical Paraphrases on Kreutzer Studies, Vol. 1 Part 1a (left hand)"
+  },
+  {
+   "id": 3754,
+   "composer": "Jacobsen, Maxim",
+   "title": "100 Technical Paraphrases on Kreutzer Studies, Vol. 1 Part 1b (left hand)"
+  },
+  {
+   "id": 3755,
+   "composer": "Jacobsen, Maxim",
+   "title": "100 Technical Paraphrases on Kreutzer Studies, Vol. 1 Part 2 (left hand)"
+  },
+  {
+   "id": 3756,
+   "composer": "Jacobsen, Maxim",
+   "title": "100 Technical Paraphrases on Kreutzer Studies, Vol. 2 Part 1a (right hand)"
+  },
+  {
+   "id": 3757,
+   "composer": "Jacobsen, Maxim",
+   "title": "100 Technical Paraphrases on Kreutzer Studies, Vol. 2 Part 1b (right hand)"
+  },
+  {
+   "id": 3758,
+   "composer": "Jacobsen, Maxim",
+   "title": "100 Technical Paraphrases on Kreutzer Studies, Vol. 2 Part 2 (right hand)"
+  },
+  {
+   "id": 3759,
+   "composer": "Jacobsen, Maxim",
+   "title": "Nuova tecnica delle scale (New School of the Scales), 2 vols. (with Béla Szigeti)"
+  },
+  {
+   "id": 3760,
+   "composer": "Jahnke, Zdzisław",
+   "title": "Double-Stops"
+  },
+  {
+   "id": 3761,
+   "composer": "Jahnke, Zdzisław",
+   "title": "Scale Study"
+  },
+  {
+   "id": 3763,
+   "composer": "Joachim-Chaigneau, Suzanne",
+   "title": "Aperçus modernes sur l'art d'étudier, suivis des 20 exercices quotidiens essentiels"
+  },
+  {
+   "id": 3769,
+   "composer": "Kaufman, Louis",
+   "title": "Warming-Up Scales and Arpeggios"
+  },
+  {
+   "id": 3773,
+   "composer": "Kayser, Heinrich Ernst",
+   "title": "School of Scales (Die Schule der Tonleitern)"
+  },
+  {
+   "id": 3775,
+   "composer": "Kievman, Louis",
+   "title": "Virtuoso Violin Technique: A Systematic Approach"
+  },
+  {
+   "id": 3776,
+   "composer": "Kinnard, Kathryn Bird",
+   "title": "Easy Songs for Shifting in the First Five Positions"
+  },
+  {
+   "id": 3777,
+   "composer": "Kinsey, Herbert",
+   "title": "Elementary Progressive Studies, Set II (1st and 3rd positions)"
+  },
+  {
+   "id": 3778,
+   "composer": "Kinsey, Herbert",
+   "title": "Elementary Progressive Studies, Set III (3rd, 2nd and 5th positions)"
+  },
+  {
+   "id": 3779,
+   "composer": "Klasinc, Walter",
+   "title": "Sequenzübungen für Violine, Band 1 (scales, triads and four-note chords)"
+  },
+  {
+   "id": 3780,
+   "composer": "Klasinc, Walter",
+   "title": "Sequenzübungen für Violine, Band 2 (intervals)"
+  },
+  {
+   "id": 3781,
+   "composer": "Klasinc, Walter",
+   "title": "Sequenzübungen für Violine, Band 3 (double stops)"
+  },
+  {
+   "id": 3782,
+   "composer": "Klasinc, Walter",
+   "title": "Sequenzübungen für Violine, Band 4"
+  },
+  {
+   "id": 3783,
+   "composer": "Klasinc, Walter",
+   "title": "Sequenzübungen für Violine, Vorübungen (intervals and simple sequences)"
+  },
+  {
+   "id": 3786,
+   "composer": "Knox, Garth",
+   "title": "Violin Spaces, Vol. 1 (Contemporary Violin Studies)"
+  },
+  {
+   "id": 3788,
+   "composer": "Korguev, Sergei",
+   "title": "Exercises in Double Stops"
+  },
+  {
+   "id": 3789,
+   "composer": "Kořínek, Viliam",
+   "title": "Scale and Arpeggio Exercises (Cvičenie stupníc a rozložených akordov), Book 2"
+  },
+  {
+   "id": 3790,
+   "composer": "Kořínek, Viliam",
+   "title": "Warm-up Studies for the Violinist (Štúdie pre rozcvičovanie huslistu)"
+  },
+  {
+   "id": 3837,
+   "composer": "Kross, Emil",
+   "title": "Systematic Chord Studies (Systematische Akkord-Studien), Op. 98"
+  },
+  {
+   "id": 3838,
+   "composer": "Kross, Emil",
+   "title": "Systematic Double-Stop Studies (Systematische Doppelgriff-Studien), Op. 100"
+  },
+  {
+   "id": 3842,
+   "composer": "Krótkiewski, Witold",
+   "title": "Double-Stop Exercises"
+  },
+  {
+   "id": 3843,
+   "composer": "Krótkiewski, Witold",
+   "title": "Exercises for the Right Hand"
+  },
+  {
+   "id": 3844,
+   "composer": "Krótkiewski, Witold",
+   "title": "Position-Change Exercises"
+  },
+  {
+   "id": 3845,
+   "composer": "Krótkiewski, Witold",
+   "title": "Scales and Arpeggios, Book 2"
+  },
+  {
+   "id": 3846,
+   "composer": "Krzanowska, Grażyna",
+   "title": "Four Caprices (1980)"
+  },
+  {
+   "id": 3852,
+   "composer": "Küchler, Ferdinand",
+   "title": "Scales, Shifting and Triads, Op. 7"
+  },
+  {
+   "id": 3854,
+   "composer": "Lacour, Guy",
+   "title": "22 Dodécaprices"
+  },
+  {
+   "id": 3855,
+   "composer": "Landowski, Marcel",
+   "title": "Étude de technique et de sonorité (Concours Jacques Thibaud)"
+  },
+  {
+   "id": 3856,
+   "composer": "Laoureux, Nicolas",
+   "title": "École de l'archet"
+  },
+  {
+   "id": 3860,
+   "composer": "Lapret, Édouard",
+   "title": "Les gammes complètes et progressives pour le violon"
+  },
+  {
+   "id": 3862,
+   "composer": "Le Carpentier, Adolphe",
+   "title": "Douze Exercices servant d'introduction aux Études de Kreutzer"
+  },
+  {
+   "id": 3863,
+   "composer": "Le Feuve, Gaston",
+   "title": "Le Mécanisme intégral du violon, Books 1-4"
+  },
+  {
+   "id": 3864,
+   "composer": "Lecoq, Irène",
+   "title": "7 études contemporaines pour violon"
+  },
+  {
+   "id": 3866,
+   "composer": "Lehmann, Ulrich",
+   "title": "Neue Doppelgriff-Technik für Violine (New Double-Stop Technique)"
+  },
+  {
+   "id": 3871,
+   "composer": "Lévêque, Émile",
+   "title": "6 Études-caprices artistiques et caractéristiques"
+  },
+  {
+   "id": 3877,
+   "composer": "Lipiński, Karol",
+   "title": "Three Caprices, Op. 10"
+  },
+  {
+   "id": 3880,
+   "composer": "Lipizer, Rodolfo",
+   "title": "L'arte e la tecnica del vibrato sul violino e sulla viola, Vol. I"
+  },
+  {
+   "id": 3881,
+   "composer": "Lipizer, Rodolfo",
+   "title": "La tecnica superiore del violino (Advanced Violin Technique)"
+  },
+  {
+   "id": 3882,
+   "composer": "Lockwood, Didier",
+   "title": "Cordes & âme: méthode d'improvisation et de violon jazz"
+  },
+  {
+   "id": 3886,
+   "composer": "Mackay, Neil",
+   "title": "14 Melodic Studies"
+  },
+  {
+   "id": 3887,
+   "composer": "Märkl, Josef",
+   "title": "Carneval der Finger (3 Études for the 2nd and 3rd fingers)"
+  },
+  {
+   "id": 3888,
+   "composer": "Märkl, Josef",
+   "title": "Violintechnik intensiv, Band 1: Konditionstraining"
+  },
+  {
+   "id": 3889,
+   "composer": "Märkl, Josef",
+   "title": "Violintechnik intensiv, Band 2: Bogentechnik und Koordinationsetüden"
+  },
+  {
+   "id": 3890,
+   "composer": "Märkl, Josef",
+   "title": "Violintechnik intensiv, Band 3: Einspielübungen \"Fit in 20 Minuten\""
+  },
+  {
+   "id": 3894,
+   "composer": "Marteau, Henri",
+   "title": "Tägliche Tonleiterstudien (Études de gammes), Op. 19"
+  },
+  {
+   "id": 3895,
+   "composer": "Martinić-Jerčić, Borivoj",
+   "title": "Freedom and Flexibility of the Violinist's Left Hand: Technical Studies for Violin"
+  },
+  {
+   "id": 3909,
+   "composer": "Minsky, Aaron",
+   "title": "Ten American Violin Études"
+  },
+  {
+   "id": 3912,
+   "composer": "Moser, Franz and Raba, Jost",
+   "title": "Fundamentale Violintechnik, Vol. 1 (finger and bow technique)"
+  },
+  {
+   "id": 3913,
+   "composer": "Moser, Franz and Raba, Jost",
+   "title": "Fundamentale Violintechnik, Vol. 2 (position technique)"
+  },
+  {
+   "id": 3915,
+   "composer": "Moyer, Cindy",
+   "title": "Scales and Arpeggios with Shifting Practice"
+  },
+  {
+   "id": 3916,
+   "composer": "Müller, Theodor",
+   "title": "Tonleitern- und Akkordstudien, Heft 1 (scales and arpeggios in 3 and 4 octaves)"
+  },
+  {
+   "id": 3917,
+   "composer": "Müller, Theodor",
+   "title": "Tonleitern- und Akkordstudien, Heft 2 (double-stop scales)"
+  },
+  {
+   "id": 3918,
+   "composer": "Müller, Theodor",
+   "title": "Tonleitern- und Akkordstudien, Heft 3 (polyphonic studies)"
+  },
+  {
+   "id": 3919,
+   "composer": "Müller, Theodor",
+   "title": "Tonleitern- und Akkordstudien, Heft 4 (harmonics, pizzicato, double trills)"
+  },
+  {
+   "id": 3920,
+   "composer": "Murgier, Jacques",
+   "title": "7 Études concertantes"
+  },
+  {
+   "id": 3926,
+   "composer": "Nérini, Emmanuel",
+   "title": "Gammes et arpèges pour le violon, Book 1 (two octaves)"
+  },
+  {
+   "id": 3927,
+   "composer": "Nérini, Emmanuel",
+   "title": "Gammes et arpèges pour le violon, Book 3 (full scales, sixths, octaves)"
+  },
+  {
+   "id": 3928,
+   "composer": "Nérini, Emmanuel",
+   "title": "Vingt études de coups d'archet sur la première étude de Kreutzer"
+  },
+  {
+   "id": 3932,
+   "composer": "O'Connor, Mark",
+   "title": "The O'Connor Method, Violin Book III"
+  },
+  {
+   "id": 3933,
+   "composer": "O'Connor, Mark",
+   "title": "The O'Connor Method, Violin Book IV"
+  },
+  {
+   "id": 3934,
+   "composer": "O'Connor, Mark",
+   "title": "The O'Connor Method, Violin Book V"
+  },
+  {
+   "id": 3935,
+   "composer": "O'Leary, Jessica",
+   "title": "80 Graded Studies for Violin, Book 1 (Grades 1–5)"
+  },
+  {
+   "id": 3936,
+   "composer": "O'Leary, Jessica",
+   "title": "80 Graded Studies for Violin, Book 2 (Grades 6–8)"
+  },
+  {
+   "id": 3937,
+   "composer": "O'Reilly, Sally",
+   "title": "Fiddle Magic: 180 Technical Exercises for Violin"
+  },
+  {
+   "id": 3940,
+   "composer": "Ondříček, František",
+   "title": "Mittelstufe des Violinspiels (Violinschule Part 2)"
+  },
+  {
+   "id": 3941,
+   "composer": "Ondříček, František",
+   "title": "Tägliche Übungen aus der Meistertechnik des Violinspiels"
+  },
+  {
+   "id": 3942,
+   "composer": "Ono, Anna",
+   "title": "Violin Scale Method (Vaiorin onkai kyōhon, ヴァイオリン音階教本)"
+  },
+  {
+   "id": 3943,
+   "composer": "Országh, Tivadar",
+   "title": "Scale School (Tonleiterschule für Violine)"
+  },
+  {
+   "id": 3944,
+   "composer": "Ozim, Igor",
+   "title": "Pro Musica Nova: Studies for Playing Contemporary Music"
+  },
+  {
+   "id": 3957,
+   "composer": "Parent, Armand",
+   "title": "Exercices pour violon, École moderne, Vol. 1"
+  },
+  {
+   "id": 3958,
+   "composer": "Parent, Armand",
+   "title": "L'Indépendance des doigts: 10 études-exercices"
+  },
+  {
+   "id": 3959,
+   "composer": "Pellegrino, Michel",
+   "title": "Multi-gammes violon"
+  },
+  {
+   "id": 3960,
+   "composer": "Pestel, Édouard",
+   "title": "École de la double corde: 26 études mélodiques et progressives (1st and 3rd positions)"
+  },
+  {
+   "id": 3961,
+   "composer": "Pestel, Édouard",
+   "title": "Études d'agilité: 25 études spéciales"
+  },
+  {
+   "id": 3962,
+   "composer": "Pestel, Édouard",
+   "title": "Études de mécanisme, Book 1 (36 études, introduction to Kreutzer)"
+  },
+  {
+   "id": 3963,
+   "composer": "Pestel, Édouard",
+   "title": "Études de mécanisme, Book 2 (36 études, introduction to Kreutzer)"
+  },
+  {
+   "id": 3964,
+   "composer": "Pestel, Édouard",
+   "title": "Gammes et arpèges (2-3 octaves; thirds, sixths, octaves, tenths)"
+  },
+  {
+   "id": 3966,
+   "composer": "Piazzolla, Astor",
+   "title": "6 Tango-Études (Études tanguistiques), for solo violin (or flute)"
+  },
+  {
+   "id": 3971,
+   "composer": "Polo, Enrico",
+   "title": "Il meccanismo delle prime 5 posizioni, Op. 7"
+  },
+  {
+   "id": 3972,
+   "composer": "Polo, Enrico",
+   "title": "Tecnica fondamentale delle scale e degli arpeggi in tutti i toni"
+  },
+  {
+   "id": 3973,
+   "composer": "Praag, Jacques van",
+   "title": "10 Études mélodiques en doubles cordes (10 Voordrachtsoefeningen), first position"
+  },
+  {
+   "id": 3975,
+   "composer": "Primrose, William",
+   "title": "Technique Is Memory: A Method for Violin and Viola Players Based on Finger Patterns"
+  },
+  {
+   "id": 3977,
+   "composer": "Quiroga, Manuel",
+   "title": "Bruissement d'ailes: Étude-Caprice for two violins (Capricho No. 4)"
+  },
+  {
+   "id": 3978,
+   "composer": "Quiroga, Manuel",
+   "title": "Tres Caprichos (Trois Caprices) for solo violin"
+  },
+  {
+   "id": 3980,
+   "composer": "Rhoda, Janice Tucker",
+   "title": "Complete Technique for Violin (400 Exercises and 45 Musical Studies)"
+  },
+  {
+   "id": 3981,
+   "composer": "Ricci, Ruggiero",
+   "title": "Left Hand Technique"
+  },
+  {
+   "id": 4015,
+   "composer": "Rostal, Max",
+   "title": "Studie in Quarten (Study in Fourths)"
+  },
+  {
+   "id": 4016,
+   "composer": "Rostal, Max",
+   "title": "Studie in Quinten (Study in Fifths)"
+  },
+  {
+   "id": 4017,
+   "composer": "Royal Irish Academy of Music",
+   "title": "Scales Made Simple: Violin (Grade VI to Senior Cert)"
+  },
+  {
+   "id": 4018,
+   "composer": "Royal Irish Academy of Music",
+   "title": "Scales Made Simple: Violin (Preliminary to Grade V)"
+  },
+  {
+   "id": 4023,
+   "composer": "Sammons, Albert",
+   "title": "Virtuosic Studies, Op. 21 Book I (20 studies)"
+  },
+  {
+   "id": 4030,
+   "composer": "Sauzay, Eugène",
+   "title": "Les deux modes: 24 exercices sur l'emploi du majeur et du mineur"
+  },
+  {
+   "id": 4034,
+   "composer": "Schininà, Luigi",
+   "title": "Scale e arpeggi, Vol. 2"
+  },
+  {
+   "id": 4035,
+   "composer": "Schininà, Luigi",
+   "title": "Scale e arpeggi, Vol. 3"
+  },
+  {
+   "id": 4049,
+   "composer": "Ševčík, Otakar",
+   "title": "Analytical Studies for Kreutzer's Études-Caprices, Op. 26 Vol. 1"
+  },
+  {
+   "id": 4050,
+   "composer": "Ševčík, Otakar",
+   "title": "Analytical Studies for Kreutzer's Études-Caprices, Op. 26 Vol. 2"
+  },
+  {
+   "id": 4051,
+   "composer": "Ševčík, Otakar",
+   "title": "Analytical Studies for Kreutzer's Études-Caprices, Op. 26 Vol. 3"
+  },
+  {
+   "id": 4052,
+   "composer": "Ševčík, Otakar",
+   "title": "Analytical Studies for Kreutzer's Études-Caprices, Op. 26 Vol. 4"
+  },
+  {
+   "id": 4059,
+   "composer": "Ševčík, Otakar",
+   "title": "Scales and Arpeggios (Tonleitern und Akkord-Studien)"
+  },
+  {
+   "id": 4085,
+   "composer": "Ševčík, Otakar",
+   "title": "Studies on Joachim's Cadenza to the Brahms Concerto, Op. 25"
+  },
+  {
+   "id": 4096,
+   "composer": "Sher, Venjamin",
+   "title": "24 Virtuoso Études"
+  },
+  {
+   "id": 4097,
+   "composer": "Shinozaki, Isao",
+   "title": "Shifting Exercises: Second to Seventh Positions"
+  },
+  {
+   "id": 4100,
+   "composer": "Sitt, Hans",
+   "title": "24 Studies in All Keys (preparatory to Rode's Caprices), Op. 80"
+  },
+  {
+   "id": 4101,
+   "composer": "Sitt, Hans",
+   "title": "40 Special Exercises in the First Five Positions, Op. 134"
+  },
+  {
+   "id": 4107,
+   "composer": "Sitt, Hans",
+   "title": "Scale Studies in Double Stops, Op. 41 (thirds, sixths, octaves, tenths)"
+  },
+  {
+   "id": 4109,
+   "composer": "Sitt, Hans",
+   "title": "School of Velocity and Finger Dexterity, Op. 135 Book 1"
+  },
+  {
+   "id": 4110,
+   "composer": "Sitt, Hans",
+   "title": "School of Velocity and Finger Dexterity, Op. 135 Book 2"
+  },
+  {
+   "id": 4111,
+   "composer": "Sitt, Hans",
+   "title": "School of Velocity and Finger Dexterity, Op. 135 Book 3"
+  },
+  {
+   "id": 4119,
+   "composer": "Skelton, Robert",
+   "title": "The Complete Violin Technique Book"
+  },
+  {
+   "id": 4123,
+   "composer": "Starr, William",
+   "title": "Scales Plus!"
+  },
+  {
+   "id": 4124,
+   "composer": "Suzuki, Shinichi",
+   "title": "Position Etudes (Revised Edition)"
+  },
+  {
+   "id": 4126,
+   "composer": "Szilvay, Géza",
+   "title": "Violin Scales and Arpeggios"
+  },
+  {
+   "id": 4127,
+   "composer": "The Royal Conservatory",
+   "title": "Violin Technique, Etudes, and Musicianship, Levels 3–4 (2021 Edition)"
+  },
+  {
+   "id": 4128,
+   "composer": "The Royal Conservatory",
+   "title": "Violin Technique, Etudes, and Musicianship, Levels 5–8 (2021 Edition)"
+  },
+  {
+   "id": 4129,
+   "composer": "Thomson, Eugène",
+   "title": "Méthode technique, Book 1 (with Louis Fournier)"
+  },
+  {
+   "id": 4130,
+   "composer": "Thomson, Eugène",
+   "title": "Méthode technique, Book 2 (with Louis Fournier)"
+  },
+  {
+   "id": 4131,
+   "composer": "Togni, Felice",
+   "title": "Le Mécanisme de la double corde du violon, Part 1"
+  },
+  {
+   "id": 4132,
+   "composer": "Tomasik, Sławomir",
+   "title": "The Violinist's Warm-up (Rozgrzewka skrzypka)"
+  },
+  {
+   "id": 4133,
+   "composer": "Toyoda, Koji",
+   "title": "Violin Etudes: The Daily Exercises for Violinists"
+  },
+  {
+   "id": 4134,
+   "composer": "Trinity College London",
+   "title": "Violin Scales, Arpeggios & Studies from 2016 (Initial–Grade 8)"
+  },
+  {
+   "id": 4135,
+   "composer": "Trott, Josephine",
+   "title": "Daily Scale Exercises"
+  },
+  {
+   "id": 4138,
+   "composer": "Twardowski, Romuald",
+   "title": "Three Etudes-Capriccios"
+  },
+  {
+   "id": 4139,
+   "composer": "Twinn, Sydney",
+   "title": "The Study of Harmonics as an Aid to Technical Mastery of the Violin"
+  },
+  {
+   "id": 4140,
+   "composer": "Umińska, Eugenia",
+   "title": "Study of Scales and Arpeggios"
+  },
+  {
+   "id": 4141,
+   "composer": "Vamos, Roland",
+   "title": "Exercises for the Violin in Various Combinations of Double-Stops"
+  },
+  {
+   "id": 4142,
+   "composer": "Vamos, Roland",
+   "title": "The Violinist's Daily Warm-Ups and Scale System"
+  },
+  {
+   "id": 4143,
+   "composer": "Van de Velde, Ernest",
+   "title": "École des positions: 2nd position"
+  },
+  {
+   "id": 4144,
+   "composer": "Van de Velde, Ernest",
+   "title": "École des positions: 3rd position"
+  },
+  {
+   "id": 4145,
+   "composer": "Van de Velde, Ernest",
+   "title": "École des positions: 4th and 5th positions"
+  },
+  {
+   "id": 4146,
+   "composer": "Van de Velde, Ernest",
+   "title": "L'École du virtuose: 500 exercices en 32 séries"
+  },
+  {
+   "id": 4148,
+   "composer": "Venzl, Josef",
+   "title": "Der springende Bogen, Op. 114"
+  },
+  {
+   "id": 4149,
+   "composer": "Venzl, Josef",
+   "title": "Sämtliche Tonleitern durch drei Oktaven (Complete Scales through Three Octaves)"
+  },
+  {
+   "id": 4151,
+   "composer": "Voncken, Alphonse",
+   "title": "Violon. Mécanisme. Archet: recueil de gammes rythmées et progressives en trois degrés"
+  },
+  {
+   "id": 4152,
+   "composer": "Wartberg, Kerstin",
+   "title": "Enjoying Violin Technique (Basic Exercises with Piano Arrangements)"
+  },
+  {
+   "id": 4157,
+   "composer": "Whistler, Harvey S.",
+   "title": "Developing Double-Stops"
+  },
+  {
+   "id": 4158,
+   "composer": "Whistler, Harvey S.",
+   "title": "Introducing the Positions, Vol. 2 (2nd, 4th, 6th and 7th positions)"
+  },
+  {
+   "id": 4159,
+   "composer": "Whistler, Harvey S.",
+   "title": "Preparing for Kreutzer, Vol. 2"
+  },
+  {
+   "id": 4160,
+   "composer": "White, Clarence Cameron",
+   "title": "The Violinist's Daily Dozen"
+  },
+  {
+   "id": 4162,
+   "composer": "Widmann, Jörg",
+   "title": "Études for solo violin, Book 1 (Nos. I–III)"
+  },
+  {
+   "id": 4163,
+   "composer": "Widmann, Jörg",
+   "title": "Études for solo violin, Book 2 (Nos. IV–VI)"
+  },
+  {
+   "id": 4170,
+   "composer": "Wójtowicz, Paweł",
+   "title": "Etudes-Capriccios"
+  },
+  {
+   "id": 4172,
+   "composer": "Woolstenhulme, Jeremy",
+   "title": "Technique for Advanced String Players (Violin)"
+  },
+  {
+   "id": 4177,
+   "composer": "Yost, Gaylord",
+   "title": "Bow and Finger Magic"
+  },
+  {
+   "id": 4180,
+   "composer": "Yost, Gaylord",
+   "title": "Key to the Mastery of Double-Stopping"
+  },
+  {
+   "id": 4181,
+   "composer": "Yost, Gaylord",
+   "title": "Key to the Mastery of the Finger-Board"
+  },
+  {
+   "id": 4182,
+   "composer": "Yost, Gaylord",
+   "title": "Scale and Arpeggio Studies"
+  },
+  {
+   "id": 4183,
+   "composer": "Yost, Gaylord",
+   "title": "The Spivakovsky Way of Bowing"
+  },
+  {
+   "id": 4185,
+   "composer": "Yost, Gaylord",
+   "title": "Studies in Pizzicato and Harmonics"
+  },
+  {
+   "id": 4186,
+   "composer": "Ysaÿe, Eugène",
+   "title": "Exercices et gammes (Exercises and Scales)"
+  },
+  {
+   "id": 4187,
+   "composer": "Zámečník, Evžen",
+   "title": "12 Études on Technical Problems of Contemporary Music (Zwölf Etüden)"
+  },
+  {
+   "id": 4188,
+   "composer": "Zehetmair, Helmut",
+   "title": "Systematische Violintechnik, Band 1 (bow, string and finger changes)"
+  },
+  {
+   "id": 4189,
+   "composer": "Zehetmair, Helmut",
+   "title": "Systematische Violintechnik, Band 2 (direct position changes)"
+  },
+  {
+   "id": 4190,
+   "composer": "Zehetmair, Helmut",
+   "title": "Systematische Violintechnik, Band 3 (indirect position changes)"
+  },
+  {
+   "id": 4191,
+   "composer": "Zehetmair, Helmut",
+   "title": "Systematische Violintechnik, Band 4 (indirect shifts, bow and string coordinated)"
+  },
+  {
+   "id": 4192,
+   "composer": "Zehetmair, Helmut",
+   "title": "Systematische Violintechnik, Band 5 (coordinated combinations I)"
+  },
+  {
+   "id": 4193,
+   "composer": "Zehetmair, Helmut",
+   "title": "Systematische Violintechnik, Band 6 (coordinated combinations II)"
+  },
+  {
+   "id": 4195,
+   "composer": "Zighera, Léon",
+   "title": "École de violon: Études difficiles"
+  },
+  {
+   "id": 4196,
+   "composer": "Zighera, Léon",
+   "title": "Gammes et arpèges"
+  },
+  {
+   "id": 4197,
+   "composer": "Zighera, Léon",
+   "title": "Gammes en doubles cordes (tierces, sixtes, quartes, octaves)"
+  },
+  {
+   "id": 4198,
+   "composer": "Zukofsky, Paul",
+   "title": "All-Interval Scale Book (including a chart of harmonics)"
+  },
+  {
+   "id": 4200,
+   "composer": "Adams, John",
+   "title": "The Dharma at Big Sur"
+  },
+  {
+   "id": 4201,
+   "composer": "Adès, Thomas",
+   "title": "Air"
+  },
+  {
+   "id": 4202,
+   "composer": "Adès, Thomas",
+   "title": "Suite from The Tempest"
+  },
+  {
+   "id": 4203,
+   "composer": "Aho, Kalevi",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 4204,
+   "composer": "Aho, Kalevi",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 4205,
+   "composer": "Aho, Kalevi",
+   "title": "Double Concerto for Violin and Cello"
+  },
+  {
+   "id": 4206,
+   "composer": "Aho, Kalevi",
+   "title": "ER-OS"
+  },
+  {
+   "id": 4207,
+   "composer": "Aho, Kalevi",
+   "title": "Halla"
+  },
+  {
+   "id": 4208,
+   "composer": "Aho, Kalevi",
+   "title": "Solo I"
+  },
+  {
+   "id": 4209,
+   "composer": "Aho, Kalevi",
+   "title": "In memoriam Pehr Henrik Nordgren"
+  },
+  {
+   "id": 4210,
+   "composer": "Aho, Kalevi",
+   "title": "Sonata for Violin Solo"
+  },
+  {
+   "id": 4211,
+   "composer": "Aho, Kalevi",
+   "title": "Symphony No. 3 for Violin and Orchestra"
+  },
+  {
+   "id": 4212,
+   "composer": "Aho, Kalevi",
+   "title": "Triple Concerto"
+  },
+  {
+   "id": 4213,
+   "composer": "Anderson, Julian",
+   "title": "Another Prayer"
+  },
+  {
+   "id": 4214,
+   "composer": "Anderson, Julian",
+   "title": "In lieblicher Bläue"
+  },
+  {
+   "id": 4215,
+   "composer": "Antheil, George",
+   "title": "Sonata No. 1 for Violin and Piano"
+  },
+  {
+   "id": 4216,
+   "composer": "Antheil, George",
+   "title": "Sonata No. 2 for Violin and Piano"
+  },
+  {
+   "id": 4217,
+   "composer": "Antheil, George",
+   "title": "Sonata No. 3 for Violin and Piano"
+  },
+  {
+   "id": 4218,
+   "composer": "Antheil, George",
+   "title": "Sonata No. 4 for Violin and Piano"
+  },
+  {
+   "id": 4219,
+   "composer": "Assad, Clarice",
+   "title": "Violin Concerto"
+  },
+  {
+   "id": 4220,
+   "composer": "Assad, Clarice",
+   "title": "Dreamscapes"
+  },
+  {
+   "id": 4221,
+   "composer": "Assad, Clarice",
+   "title": "Three Sketches"
+  },
+  {
+   "id": 4222,
+   "composer": "Auerbach, Lera",
+   "title": "Concerto No. 1, Op. 56"
+  },
+  {
+   "id": 4223,
+   "composer": "Auerbach, Lera",
+   "title": "Concerto No. 2, Op. 77"
+  },
+  {
+   "id": 4224,
+   "composer": "Auerbach, Lera",
+   "title": "Concerto No. 3 'De profundis'"
+  },
+  {
+   "id": 4225,
+   "composer": "Auerbach, Lera",
+   "title": "Concerto No. 4 'NYx: Fractured Dreams'"
+  },
+  {
+   "id": 4226,
+   "composer": "Auerbach, Lera",
+   "title": "Dialogues on Stabat Mater (Concerto grosso No. 2)"
+  },
+  {
+   "id": 4227,
+   "composer": "Auerbach, Lera",
+   "title": "Double Concerto for Violin, Piano and Orchestra, Op. 40"
+  },
+  {
+   "id": 4228,
+   "composer": "Auerbach, Lera",
+   "title": "Job's Lament"
+  },
+  {
+   "id": 4229,
+   "composer": "Auerbach, Lera",
+   "title": "Lonely Suite 'Ballet for a Lonely Violinist', Op. 70"
+  },
+  {
+   "id": 4230,
+   "composer": "Auerbach, Lera",
+   "title": "Mozart's Twofold Dream (Concerto grosso No. 5)"
+  },
+  {
+   "id": 4231,
+   "composer": "Auerbach, Lera",
+   "title": "Oskolki (Fragments), Op. 61"
+  },
+  {
+   "id": 4232,
+   "composer": "Auerbach, Lera",
+   "title": "par.ti.ta"
+  },
+  {
+   "id": 4233,
+   "composer": "Auerbach, Lera",
+   "title": "Postlude, Op. 47b"
+  },
+  {
+   "id": 4234,
+   "composer": "Auerbach, Lera",
+   "title": "Roots"
+  },
+  {
+   "id": 4235,
+   "composer": "Auerbach, Lera",
+   "title": "Serenade for a Melancholic Sea, Op. 68"
+  },
+  {
+   "id": 4236,
+   "composer": "Auerbach, Lera",
+   "title": "Sogno di Stabat Mater"
+  },
+  {
+   "id": 4237,
+   "composer": "Auerbach, Lera",
+   "title": "Sonata No. 1, Op. 57"
+  },
+  {
+   "id": 4238,
+   "composer": "Auerbach, Lera",
+   "title": "Sonata No. 3"
+  },
+  {
+   "id": 4239,
+   "composer": "Auerbach, Lera",
+   "title": "Sonata No. 4 'Fractured Dreams'"
+  },
+  {
+   "id": 4240,
+   "composer": "Auerbach, Lera",
+   "title": "Suite concertante, Op. 60 (Concerto grosso No. 1)"
+  },
+  {
+   "id": 4241,
+   "composer": "Auerbach, Lera",
+   "title": "La Suite dels Ocells. Hommage to Pablo Casals (version for violin)"
+  },
+  {
+   "id": 4242,
+   "composer": "Auerbach, Lera",
+   "title": "Suite for Violin and Piano, Op. 46a (Ten Preludes)"
+  },
+  {
+   "id": 4243,
+   "composer": "Auerbach, Lera",
+   "title": "Three Dances in the Old Style, Op. 54"
+  },
+  {
+   "id": 4244,
+   "composer": "Auerbach, Lera",
+   "title": "Two Encore Variations (on Preludes Nos. 8 and 20, Op. 46)"
+  },
+  {
+   "id": 4245,
+   "composer": "Babbitt, Milton",
+   "title": "Concerti for Violin, Small Orchestra and Synthesized Sound"
+  },
+  {
+   "id": 4246,
+   "composer": "Babbitt, Milton",
+   "title": "The Joy of More Sextets"
+  },
+  {
+   "id": 4247,
+   "composer": "Babbitt, Milton",
+   "title": "Little Goes a Long Way"
+  },
+  {
+   "id": 4248,
+   "composer": "Babbitt, Milton",
+   "title": "Melismata"
+  },
+  {
+   "id": 4249,
+   "composer": "Babbitt, Milton",
+   "title": "Sextets"
+  },
+  {
+   "id": 4251,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 4253,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Légende"
+  },
+  {
+   "id": 4257,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Partita (1934)"
+  },
+  {
+   "id": 4259,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Scherzo for solo violin"
+  },
+  {
+   "id": 4261,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Sonata No. 3"
+  },
+  {
+   "id": 4262,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Sonata (1929) for Violin and Piano"
+  },
+  {
+   "id": 4263,
+   "composer": "Bacewicz, Grażyna",
+   "title": "Suite for Two Violins"
+  },
+  {
+   "id": 4264,
+   "composer": "Bates, Mason",
+   "title": "Violin Concerto"
+  },
+  {
+   "id": 4265,
+   "composer": "Bates, Mason",
+   "title": "Nomad Concerto"
+  },
+  {
+   "id": 4266,
+   "composer": "Beamish, Sally",
+   "title": "A Book of Seasons"
+  },
+  {
+   "id": 4267,
+   "composer": "Beamish, Sally",
+   "title": "Concerto Grosso"
+  },
+  {
+   "id": 4268,
+   "composer": "Beamish, Sally",
+   "title": "Distans"
+  },
+  {
+   "id": 4269,
+   "composer": "Beamish, Sally",
+   "title": "Dream-child"
+  },
+  {
+   "id": 4270,
+   "composer": "Beamish, Sally",
+   "title": "The Flittin'"
+  },
+  {
+   "id": 4271,
+   "composer": "Beamish, Sally",
+   "title": "Intrada e Fuga"
+  },
+  {
+   "id": 4272,
+   "composer": "Beamish, Sally",
+   "title": "Introduction and Rondo Capriccioso"
+  },
+  {
+   "id": 4273,
+   "composer": "Beamish, Sally",
+   "title": "The Lone Seafarer"
+  },
+  {
+   "id": 4274,
+   "composer": "Beamish, Sally",
+   "title": "Praeludium and Allegro"
+  },
+  {
+   "id": 4275,
+   "composer": "Beamish, Sally",
+   "title": "Prelude and Canon (for 2 violins)"
+  },
+  {
+   "id": 4276,
+   "composer": "Beamish, Sally",
+   "title": "Seavaigers"
+  },
+  {
+   "id": 4277,
+   "composer": "Beamish, Sally",
+   "title": "Sonata"
+  },
+  {
+   "id": 4278,
+   "composer": "Beamish, Sally",
+   "title": "Sonata: Winter Trees"
+  },
+  {
+   "id": 4279,
+   "composer": "Beamish, Sally",
+   "title": "Sonatina for Violin"
+  },
+  {
+   "id": 4280,
+   "composer": "Beamish, Sally",
+   "title": "Stone, Salt and Sky"
+  },
+  {
+   "id": 4281,
+   "composer": "Beamish, Sally",
+   "title": "Tracing"
+  },
+  {
+   "id": 4282,
+   "composer": "Beamish, Sally",
+   "title": "Wild Swans"
+  },
+  {
+   "id": 4283,
+   "composer": "Beamish, Sally",
+   "title": "The Wise Maid (Irish Reel)"
+  },
+  {
+   "id": 4284,
+   "composer": "Ben-Haim, Paul",
+   "title": "Berceuse sfaradite"
+  },
+  {
+   "id": 4285,
+   "composer": "Ben-Haim, Paul",
+   "title": "Concerto"
+  },
+  {
+   "id": 4286,
+   "composer": "Ben-Haim, Paul",
+   "title": "Evocation (Yizkor), poem for violin and orchestra"
+  },
+  {
+   "id": 4287,
+   "composer": "Ben-Haim, Paul",
+   "title": "Three Studies for Solo Violin"
+  },
+  {
+   "id": 4288,
+   "composer": "Benjamin, George",
+   "title": "Sonata for Violin and Piano"
+  },
+  {
+   "id": 4289,
+   "composer": "Benjamin, George",
+   "title": "Three Miniatures for Solo Violin"
+  },
+  {
+   "id": 4290,
+   "composer": "Benzecry, Esteban",
+   "title": "Concerto"
+  },
+  {
+   "id": 4291,
+   "composer": "Benzecry, Esteban",
+   "title": "Evocation of a Lost World"
+  },
+  {
+   "id": 4292,
+   "composer": "Benzecry, Esteban",
+   "title": "Paisaje nocturno"
+  },
+  {
+   "id": 4294,
+   "composer": "Berio, Luciano",
+   "title": "Corale (on Sequenza VIII)"
+  },
+  {
+   "id": 4295,
+   "composer": "Berkeley, Michael",
+   "title": "Concerto (in memoriam D.R.)"
+  },
+  {
+   "id": 4296,
+   "composer": "Berkeley, Michael",
+   "title": "A Mosaic for Father Popieluszko"
+  },
+  {
+   "id": 4297,
+   "composer": "Berkeley, Michael",
+   "title": "Persistent Memory"
+  },
+  {
+   "id": 4298,
+   "composer": "Berkeley, Michael",
+   "title": "Sonata for Violin and Piano"
+  },
+  {
+   "id": 4299,
+   "composer": "Berkeley, Michael",
+   "title": "Veilleuse (Night Watch)"
+  },
+  {
+   "id": 4300,
+   "composer": "Birtwistle, Harrison",
+   "title": "Bourdon (Duet 2)"
+  },
+  {
+   "id": 4301,
+   "composer": "Birtwistle, Harrison",
+   "title": "Concerto"
+  },
+  {
+   "id": 4302,
+   "composer": "Birtwistle, Harrison",
+   "title": "Duet 4"
+  },
+  {
+   "id": 4305,
+   "composer": "Bolcom, William",
+   "title": "Concerto in D"
+  },
+  {
+   "id": 4306,
+   "composer": "Bolcom, William",
+   "title": "Romanza"
+  },
+  {
+   "id": 4307,
+   "composer": "Bolcom, William",
+   "title": "Sonata No. 1"
+  },
+  {
+   "id": 4308,
+   "composer": "Bolcom, William",
+   "title": "Sonata No. 3 'Sonata Stramba'"
+  },
+  {
+   "id": 4309,
+   "composer": "Bolcom, William",
+   "title": "Sonata No. 4"
+  },
+  {
+   "id": 4310,
+   "composer": "Bolcom, William",
+   "title": "Sonatina for Violin and Piano"
+  },
+  {
+   "id": 4311,
+   "composer": "Boulez, Pierre",
+   "title": "Anthèmes"
+  },
+  {
+   "id": 4312,
+   "composer": "Boulez, Pierre",
+   "title": "Anthèmes 2"
+  },
+  {
+   "id": 4313,
+   "composer": "Britten, Benjamin",
+   "title": "Double Concerto for Violin, Viola and Orchestra"
+  },
+  {
+   "id": 4314,
+   "composer": "Bryars, Gavin",
+   "title": "Violin Concerto (\"The Bulls of Bashan\")"
+  },
+  {
+   "id": 4315,
+   "composer": "Cage, John",
+   "title": "Cheap Imitation (version for violin)"
+  },
+  {
+   "id": 4316,
+   "composer": "Cage, John",
+   "title": "Chorals"
+  },
+  {
+   "id": 4317,
+   "composer": "Cage, John",
+   "title": "Eight Whiskus"
+  },
+  {
+   "id": 4318,
+   "composer": "Cage, John",
+   "title": "Nocturne"
+  },
+  {
+   "id": 4319,
+   "composer": "Cage, John",
+   "title": "One⁶"
+  },
+  {
+   "id": 4320,
+   "composer": "Cage, John",
+   "title": "One¹⁰"
+  },
+  {
+   "id": 4321,
+   "composer": "Cage, John",
+   "title": "Two⁴"
+  },
+  {
+   "id": 4322,
+   "composer": "Cage, John",
+   "title": "Two⁶"
+  },
+  {
+   "id": 4323,
+   "composer": "Carter, Elliott",
+   "title": "Mnemosyné"
+  },
+  {
+   "id": 4324,
+   "composer": "Carter, Elliott",
+   "title": "Tre Duetti"
+  },
+  {
+   "id": 4326,
+   "composer": "Casella, Alfredo",
+   "title": "Triple Concerto, Op. 56"
+  },
+  {
+   "id": 4327,
+   "composer": "Chen Yi",
+   "title": "Chinese Rap"
+  },
+  {
+   "id": 4328,
+   "composer": "Chen Yi",
+   "title": "Energetic Duo"
+  },
+  {
+   "id": 4329,
+   "composer": "Chen Yi",
+   "title": "From Old Peking Folklore"
+  },
+  {
+   "id": 4330,
+   "composer": "Chen Yi",
+   "title": "Happy Tune (version for violin & cello)"
+  },
+  {
+   "id": 4331,
+   "composer": "Chen Yi",
+   "title": "Happy Tune (version for violin & viola)"
+  },
+  {
+   "id": 4332,
+   "composer": "Chen Yi",
+   "title": "My Childhood Memories"
+  },
+  {
+   "id": 4333,
+   "composer": "Chen Yi",
+   "title": "Romance and Dance (version for violin & piano)"
+  },
+  {
+   "id": 4334,
+   "composer": "Chen Yi",
+   "title": "Romance and Dance (version for two violins & string orchestra)"
+  },
+  {
+   "id": 4335,
+   "composer": "Chen Yi",
+   "title": "Spring in Dresden"
+  },
+  {
+   "id": 4336,
+   "composer": "Chen Yi",
+   "title": "Three Bagatelles from China West (version for violin & piano)"
+  },
+  {
+   "id": 4337,
+   "composer": "Chen Yi",
+   "title": "Three Bagatelles from China West (version for violin & cello)"
+  },
+  {
+   "id": 4338,
+   "composer": "Chen Yi",
+   "title": "Three Bagatelles from China West (version for violin & marimba)"
+  },
+  {
+   "id": 4339,
+   "composer": "Chin, Unsuk",
+   "title": "Double Bind?"
+  },
+  {
+   "id": 4340,
+   "composer": "Clyne, Anna",
+   "title": "Blue Hour (from The Violin)"
+  },
+  {
+   "id": 4341,
+   "composer": "Clyne, Anna",
+   "title": "Lavender Rain (from The Violin)"
+  },
+  {
+   "id": 4342,
+   "composer": "Clyne, Anna",
+   "title": "October Rose (from The Violin)"
+  },
+  {
+   "id": 4343,
+   "composer": "Clyne, Anna",
+   "title": "Resting in the Green (from The Violin)"
+  },
+  {
+   "id": 4344,
+   "composer": "Clyne, Anna",
+   "title": "Ship of Stars (from The Violin)"
+  },
+  {
+   "id": 4345,
+   "composer": "Clyne, Anna",
+   "title": "Tea Leaves (from The Violin)"
+  },
+  {
+   "id": 4346,
+   "composer": "Clyne, Anna",
+   "title": "Time and Tides"
+  },
+  {
+   "id": 4347,
+   "composer": "Connesson, Guillaume",
+   "title": "Les Chants de l'Atlantide"
+  },
+  {
+   "id": 4348,
+   "composer": "Connesson, Guillaume",
+   "title": "Les Horizons perdus"
+  },
+  {
+   "id": 4349,
+   "composer": "Copland, Aaron",
+   "title": "Duo (version for violin & piano)"
+  },
+  {
+   "id": 4350,
+   "composer": "Corigliano, John",
+   "title": "Lullaby for Natalie"
+  },
+  {
+   "id": 4351,
+   "composer": "Corigliano, John",
+   "title": "The Red Violin: Suite"
+  },
+  {
+   "id": 4352,
+   "composer": "Currier, Sebastian",
+   "title": "Aether"
+  },
+  {
+   "id": 4353,
+   "composer": "Currier, Sebastian",
+   "title": "Aftersong"
+  },
+  {
+   "id": 4354,
+   "composer": "Currier, Sebastian",
+   "title": "Chamber Concerto"
+  },
+  {
+   "id": 4355,
+   "composer": "Currier, Sebastian",
+   "title": "Clockwork"
+  },
+  {
+   "id": 4356,
+   "composer": "Currier, Sebastian",
+   "title": "Digital Mist"
+  },
+  {
+   "id": 4357,
+   "composer": "Currier, Sebastian",
+   "title": "Entanglement"
+  },
+  {
+   "id": 4358,
+   "composer": "Currier, Sebastian",
+   "title": "Links"
+  },
+  {
+   "id": 4359,
+   "composer": "Currier, Sebastian",
+   "title": "Night Time"
+  },
+  {
+   "id": 4360,
+   "composer": "Currier, Sebastian",
+   "title": "Ringtone Variations"
+  },
+  {
+   "id": 4361,
+   "composer": "Currier, Sebastian",
+   "title": "Time Machines"
+  },
+  {
+   "id": 4362,
+   "composer": "Czernowin, Chaya",
+   "title": "For Violin Solo"
+  },
+  {
+   "id": 4363,
+   "composer": "Czernowin, Chaya",
+   "title": "Moths of Hunger and Awe"
+  },
+  {
+   "id": 4368,
+   "composer": "Danielpour, Richard",
+   "title": "A Child's Reliquary"
+  },
+  {
+   "id": 4369,
+   "composer": "Danielpour, Richard",
+   "title": "Concerto 'A Fool's Paradise'"
+  },
+  {
+   "id": 4370,
+   "composer": "Danielpour, Richard",
+   "title": "In the Arms of the Beloved"
+  },
+  {
+   "id": 4371,
+   "composer": "Danielpour, Richard",
+   "title": "Kaddish (version for violin & strings)"
+  },
+  {
+   "id": 4372,
+   "composer": "Danielpour, Richard",
+   "title": "River of Light"
+  },
+  {
+   "id": 4373,
+   "composer": "Daugherty, Michael",
+   "title": "Blue Electra"
+  },
+  {
+   "id": 4374,
+   "composer": "Daugherty, Michael",
+   "title": "Fallingwater"
+  },
+  {
+   "id": 4375,
+   "composer": "Daugherty, Michael",
+   "title": "Ladder to the Moon"
+  },
+  {
+   "id": 4376,
+   "composer": "Daugherty, Michael",
+   "title": "Viva"
+  },
+  {
+   "id": 4377,
+   "composer": "Diamond, David",
+   "title": "Chaconne"
+  },
+  {
+   "id": 4378,
+   "composer": "Diamond, David",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 4379,
+   "composer": "Diamond, David",
+   "title": "Sonata No. 1"
+  },
+  {
+   "id": 4380,
+   "composer": "Diamond, David",
+   "title": "Sonata No. 2"
+  },
+  {
+   "id": 4383,
+   "composer": "Dorman, Avner",
+   "title": "For Solo Violin"
+  },
+  {
+   "id": 4384,
+   "composer": "Dorman, Avner",
+   "title": "Violin Concerto No. 1"
+  },
+  {
+   "id": 4385,
+   "composer": "Dorman, Avner",
+   "title": "Double Concerto for Violin, Cello and Orchestra"
+  },
+  {
+   "id": 4386,
+   "composer": "Dorman, Avner",
+   "title": "Nigunim (Violin Concerto No. 2)"
+  },
+  {
+   "id": 4387,
+   "composer": "Dorman, Avner",
+   "title": "Nigunim (Sonata No. 3 for Violin and Piano)"
+  },
+  {
+   "id": 4388,
+   "composer": "Dorman, Avner",
+   "title": "Sonata No. 1 for Violin and Piano"
+  },
+  {
+   "id": 4389,
+   "composer": "Dorman, Avner",
+   "title": "Sonata No. 2 for Violin and Piano"
+  },
+  {
+   "id": 4390,
+   "composer": "Dorman, Avner",
+   "title": "Sonata No. 4 for Violin and Piano"
+  },
+  {
+   "id": 4391,
+   "composer": "Dorman, Avner",
+   "title": "Still (Violin Concerto No. 3)"
+  },
+  {
+   "id": 4392,
+   "composer": "Dorman, Avner",
+   "title": "A Time to Mourn and a Time to Dance (Concerto for Two Violins and Strings)"
+  },
+  {
+   "id": 4393,
+   "composer": "Dusapin, Pascal",
+   "title": "At Swim-Two-Birds"
+  },
+  {
+   "id": 4394,
+   "composer": "Dusapin, Pascal",
+   "title": "Aufgang"
+  },
+  {
+   "id": 4395,
+   "composer": "Dusapin, Pascal",
+   "title": "Forma fluens"
+  },
+  {
+   "id": 4396,
+   "composer": "Dusapin, Pascal",
+   "title": "Iti"
+  },
+  {
+   "id": 4397,
+   "composer": "Dusapin, Pascal",
+   "title": "Ohimé"
+  },
+  {
+   "id": 4398,
+   "composer": "Dusapin, Pascal",
+   "title": "Quad (In memoriam Gilles Deleuze)"
+  },
+  {
+   "id": 4399,
+   "composer": "Edwards, Ross",
+   "title": "Prelude and White Cockatoo Spirit Dance"
+  },
+  {
+   "id": 4400,
+   "composer": "Edwards, Ross",
+   "title": "Spirit Ground"
+  },
+  {
+   "id": 4401,
+   "composer": "Einaudi, Ludovico",
+   "title": "The Violin Collection"
+  },
+  {
+   "id": 4403,
+   "composer": "Enescu, George",
+   "title": "Caprice roumain (completed by Cornel Țăranu)"
+  },
+  {
+   "id": 4404,
+   "composer": "Enescu, George",
+   "title": "Hora Unirei"
+  },
+  {
+   "id": 4406,
+   "composer": "Eötvös, Péter",
+   "title": "Adventures of the Dominant Seventh Chord"
+  },
+  {
+   "id": 4407,
+   "composer": "Eötvös, Péter",
+   "title": "Alhambra (Violin Concerto No. 3)"
+  },
+  {
+   "id": 4408,
+   "composer": "Eötvös, Péter",
+   "title": "A Call"
+  },
+  {
+   "id": 4409,
+   "composer": "Eötvös, Péter",
+   "title": "DoReMi (Violin Concerto No. 2)"
+  },
+  {
+   "id": 4410,
+   "composer": "Eötvös, Péter",
+   "title": "para Paloma"
+  },
+  {
+   "id": 4411,
+   "composer": "Eötvös, Péter",
+   "title": "Seven (Memorial for the Columbia Astronauts)"
+  },
+  {
+   "id": 4412,
+   "composer": "Escaich, Thierry",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 4413,
+   "composer": "Escaich, Thierry",
+   "title": "Concerto No. 2 'Au-delà du rêve'"
+  },
+  {
+   "id": 4414,
+   "composer": "Escaich, Thierry",
+   "title": "Double Concerto (violin, oboe & orchestra)"
+  },
+  {
+   "id": 4415,
+   "composer": "Escaich, Thierry",
+   "title": "Miroir d'ombres"
+  },
+  {
+   "id": 4416,
+   "composer": "Escaich, Thierry",
+   "title": "Nun komm..."
+  },
+  {
+   "id": 4417,
+   "composer": "Escaich, Thierry",
+   "title": "Short Stories"
+  },
+  {
+   "id": 4418,
+   "composer": "Escaich, Thierry",
+   "title": "Variations litaniques"
+  },
+  {
+   "id": 4419,
+   "composer": "Esmail, Reena",
+   "title": "Blaze"
+  },
+  {
+   "id": 4420,
+   "composer": "Esmail, Reena",
+   "title": "Concerto for Hindustani Violin and Orchestra"
+  },
+  {
+   "id": 4421,
+   "composer": "Esmail, Reena",
+   "title": "Concerto for You"
+  },
+  {
+   "id": 4422,
+   "composer": "Esmail, Reena",
+   "title": "Darshan"
+  },
+  {
+   "id": 4423,
+   "composer": "Esmail, Reena",
+   "title": "Drishti"
+  },
+  {
+   "id": 4424,
+   "composer": "Esmail, Reena",
+   "title": "Jhula Jhule"
+  },
+  {
+   "id": 4425,
+   "composer": "Esmail, Reena",
+   "title": "Nadiya (version for violin & bassoon)"
+  },
+  {
+   "id": 4426,
+   "composer": "Esmail, Reena",
+   "title": "Sandhiprakash (version for violin & harp)"
+  },
+  {
+   "id": 4427,
+   "composer": "Esmail, Reena",
+   "title": "Take What You Need (unaccompanied violin)"
+  },
+  {
+   "id": 4428,
+   "composer": "Feldman, Morton",
+   "title": "Violin and Orchestra"
+  },
+  {
+   "id": 4429,
+   "composer": "Feldman, Morton",
+   "title": "For Aaron Copland"
+  },
+  {
+   "id": 4430,
+   "composer": "Feldman, Morton",
+   "title": "Extensions 1"
+  },
+  {
+   "id": 4431,
+   "composer": "Feldman, Morton",
+   "title": "For John Cage"
+  },
+  {
+   "id": 4432,
+   "composer": "Feldman, Morton",
+   "title": "Piece for Violin and Piano"
+  },
+  {
+   "id": 4433,
+   "composer": "Feldman, Morton",
+   "title": "Projection 4"
+  },
+  {
+   "id": 4434,
+   "composer": "Feldman, Morton",
+   "title": "Spring of Chosroes"
+  },
+  {
+   "id": 4435,
+   "composer": "Feldman, Morton",
+   "title": "Violin and String Quartet"
+  },
+  {
+   "id": 4436,
+   "composer": "Feldman, Morton",
+   "title": "Vertical Thoughts 2"
+  },
+  {
+   "id": 4438,
+   "composer": "Finnis, Edmund",
+   "title": "Brother"
+  },
+  {
+   "id": 4439,
+   "composer": "Finnis, Edmund",
+   "title": "Elsewhere"
+  },
+  {
+   "id": 4440,
+   "composer": "Finnis, Edmund",
+   "title": "Shades Lengthen"
+  },
+  {
+   "id": 4441,
+   "composer": "Finnis, Edmund",
+   "title": "Sister"
+  },
+  {
+   "id": 4442,
+   "composer": "Firsova, Elena",
+   "title": "Chamber Concerto for Violin and Strings"
+  },
+  {
+   "id": 4443,
+   "composer": "Firsova, Elena",
+   "title": "Concerto No. 1, Op. 14"
+  },
+  {
+   "id": 4444,
+   "composer": "Firsova, Elena",
+   "title": "Concerto No. 2, Op. 29"
+  },
+  {
+   "id": 4445,
+   "composer": "Firsova, Elena",
+   "title": "Double Concerto for Violin, Cello and Orchestra, Op. 139"
+  },
+  {
+   "id": 4446,
+   "composer": "Firsova, Elena",
+   "title": "Fantasia, Op. 32"
+  },
+  {
+   "id": 4447,
+   "composer": "Firsova, Elena",
+   "title": "Memoria"
+  },
+  {
+   "id": 4448,
+   "composer": "Firsova, Elena",
+   "title": "Talisman (version for violin and piano)"
+  },
+  {
+   "id": 4449,
+   "composer": "Firsova, Elena",
+   "title": "Vigilia, Op. 57"
+  },
+  {
+   "id": 4450,
+   "composer": "Foss, Lukas",
+   "title": "Central Park Reel"
+  },
+  {
+   "id": 4451,
+   "composer": "Foss, Lukas",
+   "title": "Orpheus (version for violin & chamber orchestra)"
+  },
+  {
+   "id": 4452,
+   "composer": "Françaix, Jean",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 4453,
+   "composer": "Françaix, Jean",
+   "title": "Suite for Violin and Orchestra"
+  },
+  {
+   "id": 4454,
+   "composer": "Françaix, Jean",
+   "title": "Tema con 8 variazioni"
+  },
+  {
+   "id": 4455,
+   "composer": "Fujikura, Dai",
+   "title": "dawn passacaglia"
+  },
+  {
+   "id": 4456,
+   "composer": "Fujikura, Dai",
+   "title": "Double Concerto"
+  },
+  {
+   "id": 4457,
+   "composer": "Fujikura, Dai",
+   "title": "Fluid Calligraphy"
+  },
+  {
+   "id": 4458,
+   "composer": "Fujikura, Dai",
+   "title": "Kusmetche"
+  },
+  {
+   "id": 4459,
+   "composer": "Fujikura, Dai",
+   "title": "line by line"
+  },
+  {
+   "id": 4460,
+   "composer": "Fujikura, Dai",
+   "title": "Motion Notions"
+  },
+  {
+   "id": 4461,
+   "composer": "Fujikura, Dai",
+   "title": "Padong (version for violin)"
+  },
+  {
+   "id": 4462,
+   "composer": "Fujikura, Dai",
+   "title": "pitter-patter"
+  },
+  {
+   "id": 4463,
+   "composer": "Fujikura, Dai",
+   "title": "Samarasa"
+  },
+  {
+   "id": 4464,
+   "composer": "Fujikura, Dai",
+   "title": "Twin Tweets"
+  },
+  {
+   "id": 4465,
+   "composer": "Furrer, Beat",
+   "title": "Lied"
+  },
+  {
+   "id": 4470,
+   "composer": "Glass, Philip",
+   "title": "The Candyman Suite"
+  },
+  {
+   "id": 4471,
+   "composer": "Glass, Philip",
+   "title": "Double Concerto for Violin and Cello"
+  },
+  {
+   "id": 4473,
+   "composer": "Glass, Philip",
+   "title": "New Chaconne"
+  },
+  {
+   "id": 4474,
+   "composer": "Glass, Philip",
+   "title": "Pendulum"
+  },
+  {
+   "id": 4475,
+   "composer": "Glass, Philip",
+   "title": "Sarabande in Common Time"
+  },
+  {
+   "id": 4476,
+   "composer": "Glass, Philip",
+   "title": "Strung Out"
+  },
+  {
+   "id": 4477,
+   "composer": "Gordon, Michael",
+   "title": "Idle"
+  },
+  {
+   "id": 4478,
+   "composer": "Gordon, Michael",
+   "title": "Tinge"
+  },
+  {
+   "id": 4479,
+   "composer": "Gordon, Michael",
+   "title": "Tree-oh"
+  },
+  {
+   "id": 4480,
+   "composer": "Górecki, Henryk",
+   "title": "Dla Jasiunia (For Jasiunia), Op. 79"
+  },
+  {
+   "id": 4481,
+   "composer": "Górecki, Henryk",
+   "title": "Little Fantasia (Kleine Phantasie), Op. 73"
+  },
+  {
+   "id": 4482,
+   "composer": "Górecki, Henryk",
+   "title": "Sonatina in One Movement, Op. 8"
+  },
+  {
+   "id": 4483,
+   "composer": "Górecki, Henryk",
+   "title": "Three Little Pieces, Op. 37"
+  },
+  {
+   "id": 4484,
+   "composer": "Górecki, Henryk",
+   "title": "Variations, Op. 4"
+  },
+  {
+   "id": 4485,
+   "composer": "Gubaidulina, Sofia",
+   "title": "Dialog: Ich und Du (Concerto No. 3)"
+  },
+  {
+   "id": 4486,
+   "composer": "Gubaidulina, Sofia",
+   "title": "Impromptu"
+  },
+  {
+   "id": 4487,
+   "composer": "Gubaidulina, Sofia",
+   "title": "The Lyre of Orpheus (Die Leier des Orpheus)"
+  },
+  {
+   "id": 4488,
+   "composer": "Gubaidulina, Sofia",
+   "title": "Triple Concerto (Tripelkonzert)"
+  },
+  {
+   "id": 4489,
+   "composer": "Haas, Georg Friedrich",
+   "title": "Concerto"
+  },
+  {
+   "id": 4490,
+   "composer": "Haas, Georg Friedrich",
+   "title": "de terrae fine"
+  },
+  {
+   "id": 4491,
+   "composer": "Hailstork, Adolphus",
+   "title": "Baroque Suite"
+  },
+  {
+   "id": 4492,
+   "composer": "Hailstork, Adolphus",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 4493,
+   "composer": "Hailstork, Adolphus",
+   "title": "Divertimento (violin and viola)"
+  },
+  {
+   "id": 4494,
+   "composer": "Hailstork, Adolphus",
+   "title": "Little Diversions for Lord Byron's Court"
+  },
+  {
+   "id": 4495,
+   "composer": "Hailstork, Adolphus",
+   "title": "Little Suite in F"
+  },
+  {
+   "id": 4496,
+   "composer": "Hailstork, Adolphus",
+   "title": "A la Mozart"
+  },
+  {
+   "id": 4497,
+   "composer": "Hailstork, Adolphus",
+   "title": "Two Novelettes"
+  },
+  {
+   "id": 4498,
+   "composer": "Hailstork, Adolphus",
+   "title": "Variations on a Guyanese Folksong"
+  },
+  {
+   "id": 4499,
+   "composer": "Halffter, Cristóbal",
+   "title": "Concierto No. 1"
+  },
+  {
+   "id": 4500,
+   "composer": "Halffter, Cristóbal",
+   "title": "Concierto No. 2 (for violin and string orchestra)"
+  },
+  {
+   "id": 4501,
+   "composer": "Halffter, Cristóbal",
+   "title": "Doppelkonzert"
+  },
+  {
+   "id": 4502,
+   "composer": "Harbison, John",
+   "title": "For Violin Alone"
+  },
+  {
+   "id": 4503,
+   "composer": "Harbison, John",
+   "title": "Concerto"
+  },
+  {
+   "id": 4504,
+   "composer": "Harbison, John",
+   "title": "Crane Sightings"
+  },
+  {
+   "id": 4505,
+   "composer": "Harbison, John",
+   "title": "Double Concerto"
+  },
+  {
+   "id": 4506,
+   "composer": "Harbison, John",
+   "title": "Fantasy-Duo"
+  },
+  {
+   "id": 4507,
+   "composer": "Harbison, John",
+   "title": "Fourteen Fabled Folksongs"
+  },
+  {
+   "id": 4508,
+   "composer": "Harbison, John",
+   "title": "Painting the Floors Blue"
+  },
+  {
+   "id": 4509,
+   "composer": "Harbison, John",
+   "title": "Sonata No. 1 for Violin and Piano"
+  },
+  {
+   "id": 4510,
+   "composer": "Harbison, John",
+   "title": "Suite for Solo Violin, on soggetti cavati"
+  },
+  {
+   "id": 4511,
+   "composer": "Hartke, Stephen",
+   "title": "Caoine"
+  },
+  {
+   "id": 4512,
+   "composer": "Hartke, Stephen",
+   "title": "Concerto 'Auld Swaara'"
+  },
+  {
+   "id": 4513,
+   "composer": "Hartke, Stephen",
+   "title": "Netsuke"
+  },
+  {
+   "id": 4515,
+   "composer": "Hartmann, Karl Amadeus",
+   "title": "Two Suites"
+  },
+  {
+   "id": 4516,
+   "composer": "Henze, Hans Werner",
+   "title": "Album for Violin"
+  },
+  {
+   "id": 4517,
+   "composer": "Henze, Hans Werner",
+   "title": "Allegra e Boris"
+  },
+  {
+   "id": 4518,
+   "composer": "Henze, Hans Werner",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 4519,
+   "composer": "Henze, Hans Werner",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 4520,
+   "composer": "Henze, Hans Werner",
+   "title": "Concerto No. 3 \"Three Portraits from Doktor Faustus\""
+  },
+  {
+   "id": 4521,
+   "composer": "Henze, Hans Werner",
+   "title": "Der verdoppelte Vitalin"
+  },
+  {
+   "id": 4522,
+   "composer": "Henze, Hans Werner",
+   "title": "Étude philharmonique"
+  },
+  {
+   "id": 4523,
+   "composer": "Henze, Hans Werner",
+   "title": "Five Night Pieces (Fünf Nachtstücke)"
+  },
+  {
+   "id": 4524,
+   "composer": "Henze, Hans Werner",
+   "title": "Il Vitalino raddoppiato"
+  },
+  {
+   "id": 4525,
+   "composer": "Henze, Hans Werner",
+   "title": "Konzertmusik (Concert Music)"
+  },
+  {
+   "id": 4526,
+   "composer": "Henze, Hans Werner",
+   "title": "Serenade"
+  },
+  {
+   "id": 4527,
+   "composer": "Henze, Hans Werner",
+   "title": "Sonatina (from Pollicino)"
+  },
+  {
+   "id": 4528,
+   "composer": "Higdon, Jennifer",
+   "title": "Air"
+  },
+  {
+   "id": 4529,
+   "composer": "Higdon, Jennifer",
+   "title": "Blue Hills of Mist (from String Poetic)"
+  },
+  {
+   "id": 4530,
+   "composer": "Higdon, Jennifer",
+   "title": "Concerto 4-3"
+  },
+  {
+   "id": 4531,
+   "composer": "Higdon, Jennifer",
+   "title": "Legacy (version for violin & piano)"
+  },
+  {
+   "id": 4532,
+   "composer": "Higdon, Jennifer",
+   "title": "Nocturne (from String Poetic)"
+  },
+  {
+   "id": 4533,
+   "composer": "Higdon, Jennifer",
+   "title": "Smoky Mountain Air"
+  },
+  {
+   "id": 4535,
+   "composer": "Holloway, Robin",
+   "title": "Concerto, Op. 70"
+  },
+  {
+   "id": 4536,
+   "composer": "Holloway, Robin",
+   "title": "Romanza, Op. 31"
+  },
+  {
+   "id": 4537,
+   "composer": "Holloway, Robin",
+   "title": "Sonata for Solo Violin, Op. 47"
+  },
+  {
+   "id": 4538,
+   "composer": "Holloway, Robin",
+   "title": "Sonatina for Solo Violin, Op. 103/7"
+  },
+  {
+   "id": 4543,
+   "composer": "Hosokawa, Toshio",
+   "title": "Ancient Dance"
+  },
+  {
+   "id": 4544,
+   "composer": "Hosokawa, Toshio",
+   "title": "Concerto 'Genesis'"
+  },
+  {
+   "id": 4545,
+   "composer": "Hosokawa, Toshio",
+   "title": "Duo for Violin and Cello"
+  },
+  {
+   "id": 4546,
+   "composer": "Hosokawa, Toshio",
+   "title": "Elegy"
+  },
+  {
+   "id": 4547,
+   "composer": "Hosokawa, Toshio",
+   "title": "Extasis"
+  },
+  {
+   "id": 4548,
+   "composer": "Hosokawa, Toshio",
+   "title": "Hika (2015)"
+  },
+  {
+   "id": 4549,
+   "composer": "Hosokawa, Toshio",
+   "title": "Jenseits der Zeit..."
+  },
+  {
+   "id": 4550,
+   "composer": "Hosokawa, Toshio",
+   "title": "Landscape III"
+  },
+  {
+   "id": 4551,
+   "composer": "Hosokawa, Toshio",
+   "title": "Lullaby of Itsuki (Itsuki no Komori Uta)"
+  },
+  {
+   "id": 4552,
+   "composer": "Hosokawa, Toshio",
+   "title": "Manifestation"
+  },
+  {
+   "id": 4553,
+   "composer": "Hosokawa, Toshio",
+   "title": "Prayer"
+  },
+  {
+   "id": 4554,
+   "composer": "Hosokawa, Toshio",
+   "title": "Spell"
+  },
+  {
+   "id": 4555,
+   "composer": "Hosokawa, Toshio",
+   "title": "Two Pieces"
+  },
+  {
+   "id": 4556,
+   "composer": "Hosokawa, Toshio",
+   "title": "Vertical Time Study III"
+  },
+  {
+   "id": 4557,
+   "composer": "Hosokawa, Toshio",
+   "title": "Voyage I"
+  },
+  {
+   "id": 4558,
+   "composer": "Hosokawa, Toshio",
+   "title": "Winter Bird"
+  },
+  {
+   "id": 4559,
+   "composer": "Janáček, Leoš",
+   "title": "Concerto 'The Wandering of a Little Soul' (Putování dušičky), JW 9/10"
+  },
+  {
+   "id": 4561,
+   "composer": "Jenkins, Karl",
+   "title": "Lament for the Valley"
+  },
+  {
+   "id": 4562,
+   "composer": "Jenkins, Karl",
+   "title": "Sarikiz (Violin Concerto)"
+  },
+  {
+   "id": 4563,
+   "composer": "Jolas, Betsy",
+   "title": "États"
+  },
+  {
+   "id": 4564,
+   "composer": "Jolas, Betsy",
+   "title": "Petite symphonie concertante"
+  },
+  {
+   "id": 4567,
+   "composer": "Kancheli, Giya",
+   "title": "Angels of Sorrow"
+  },
+  {
+   "id": 4568,
+   "composer": "Kancheli, Giya",
+   "title": "Broken Chant"
+  },
+  {
+   "id": 4569,
+   "composer": "Kancheli, Giya",
+   "title": "Brücken zu Bach (Bridges to Bach)"
+  },
+  {
+   "id": 4570,
+   "composer": "Kancheli, Giya",
+   "title": "Chiaroscuro (version for violin & chamber orchestra)"
+  },
+  {
+   "id": 4571,
+   "composer": "Kancheli, Giya",
+   "title": "Ex Contrario"
+  },
+  {
+   "id": 4572,
+   "composer": "Kancheli, Giya",
+   "title": "And Farewell Goes Out Sighing..."
+  },
+  {
+   "id": 4573,
+   "composer": "Kancheli, Giya",
+   "title": "Lament (Music of Mourning in Memory of Luigi Nono)"
+  },
+  {
+   "id": 4574,
+   "composer": "Kancheli, Giya",
+   "title": "A Little Daneliade"
+  },
+  {
+   "id": 4575,
+   "composer": "Kancheli, Giya",
+   "title": "Lonesome (2 great Slava from 2 GKs)"
+  },
+  {
+   "id": 4576,
+   "composer": "Kancheli, Giya",
+   "title": "Rag-Gidon-Time"
+  },
+  {
+   "id": 4577,
+   "composer": "Kancheli, Giya",
+   "title": "Silent Prayer (Stilles Gebet)"
+  },
+  {
+   "id": 4578,
+   "composer": "Kancheli, Giya",
+   "title": "Time... and Again"
+  },
+  {
+   "id": 4579,
+   "composer": "Kancheli, Giya",
+   "title": "Twilight"
+  },
+  {
+   "id": 4580,
+   "composer": "Kats-Chernin, Elena",
+   "title": "After Dinner Music"
+  },
+  {
+   "id": 4581,
+   "composer": "Kats-Chernin, Elena",
+   "title": "Birthday Rag"
+  },
+  {
+   "id": 4582,
+   "composer": "Kats-Chernin, Elena",
+   "title": "Bucharian Melody"
+  },
+  {
+   "id": 4583,
+   "composer": "Kats-Chernin, Elena",
+   "title": "A Nostalgic Piece"
+  },
+  {
+   "id": 4584,
+   "composer": "Kats-Chernin, Elena",
+   "title": "Still Life"
+  },
+  {
+   "id": 4585,
+   "composer": "Kats-Chernin, Elena",
+   "title": "Times of Rain and Sun"
+  },
+  {
+   "id": 4586,
+   "composer": "Kernis, Aaron Jay",
+   "title": "Concerto"
+  },
+  {
+   "id": 4587,
+   "composer": "Kernis, Aaron Jay",
+   "title": "Double Concerto for Violin and Guitar"
+  },
+  {
+   "id": 4588,
+   "composer": "Kernis, Aaron Jay",
+   "title": "Lament and Prayer"
+  },
+  {
+   "id": 4589,
+   "composer": "Kernis, Aaron Jay",
+   "title": "Two Movements (with Bells)"
+  },
+  {
+   "id": 4590,
+   "composer": "Khachaturian, Aram",
+   "title": "Sonata-Monologue for Solo Violin"
+  },
+  {
+   "id": 4591,
+   "composer": "Kidane, Daniel",
+   "title": "Aria Antica"
+  },
+  {
+   "id": 4592,
+   "composer": "Kidane, Daniel",
+   "title": "Concerto Grosso"
+  },
+  {
+   "id": 4593,
+   "composer": "Kidane, Daniel",
+   "title": "Pieces of Light: Sublime Light"
+  },
+  {
+   "id": 4594,
+   "composer": "Kilar, Wojciech",
+   "title": "Oda Béla Bartók in memoriam"
+  },
+  {
+   "id": 4595,
+   "composer": "Kirchner, Leon",
+   "title": "Concerto for Violin, Cello, 10 Winds and Percussion"
+  },
+  {
+   "id": 4596,
+   "composer": "Knussen, Oliver",
+   "title": "Autumnal"
+  },
+  {
+   "id": 4597,
+   "composer": "Knussen, Oliver",
+   "title": "Reflection"
+  },
+  {
+   "id": 4598,
+   "composer": "Knussen, Oliver",
+   "title": "Secret Psalm"
+  },
+  {
+   "id": 4599,
+   "composer": "Kurtág, György",
+   "title": "...concertante..., Op. 42"
+  },
+  {
+   "id": 4600,
+   "composer": "Kurtág, György",
+   "title": "Eight Duos, Op. 4"
+  },
+  {
+   "id": 4601,
+   "composer": "Lachenmann, Helmut",
+   "title": "Toccatina"
+  },
+  {
+   "id": 4602,
+   "composer": "Lang, David",
+   "title": "mystery sonatas"
+  },
+  {
+   "id": 4603,
+   "composer": "Lang, David",
+   "title": "out of body"
+  },
+  {
+   "id": 4604,
+   "composer": "Larcher, Thomas",
+   "title": "Concerto"
+  },
+  {
+   "id": 4605,
+   "composer": "Larcher, Thomas",
+   "title": "Double Concerto"
+  },
+  {
+   "id": 4606,
+   "composer": "Larsen, Libby",
+   "title": "The Only Way Through Is Slow"
+  },
+  {
+   "id": 4607,
+   "composer": "Larsen, Libby",
+   "title": "Pinions"
+  },
+  {
+   "id": 4608,
+   "composer": "Larsen, Libby",
+   "title": "Still Life with Violin"
+  },
+  {
+   "id": 4609,
+   "composer": "Larsen, Libby",
+   "title": "A Tarantella for Our Times"
+  },
+  {
+   "id": 4610,
+   "composer": "Liebermann, Lowell",
+   "title": "Chamber Concerto No. 1, Op. 28"
+  },
+  {
+   "id": 4611,
+   "composer": "Liebermann, Lowell",
+   "title": "Chamber Concerto No. 2, Op. 98"
+  },
+  {
+   "id": 4612,
+   "composer": "Liebermann, Lowell",
+   "title": "Concerto, Op. 74"
+  },
+  {
+   "id": 4613,
+   "composer": "Liebermann, Lowell",
+   "title": "Sonata No. 1, Op. 46"
+  },
+  {
+   "id": 4614,
+   "composer": "Ligeti, György",
+   "title": "Duo"
+  },
+  {
+   "id": 4615,
+   "composer": "Ligeti, György",
+   "title": "Hommage à Hilding Rosenberg"
+  },
+  {
+   "id": 4616,
+   "composer": "Lindberg, Magnus",
+   "title": "Caprice"
+  },
+  {
+   "id": 4617,
+   "composer": "Lindberg, Magnus",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 4618,
+   "composer": "Lindberg, Magnus",
+   "title": "Sonatas"
+  },
+  {
+   "id": 4619,
+   "composer": "López, Jimmy",
+   "title": "Aurora"
+  },
+  {
+   "id": 4620,
+   "composer": "López, Jimmy",
+   "title": "Guardian of the Horizon"
+  },
+  {
+   "id": 4621,
+   "composer": "López, Jimmy",
+   "title": "K'asa"
+  },
+  {
+   "id": 4622,
+   "composer": "Luther Adams, John",
+   "title": "Three High Places (in memory of Gordon Wright)"
+  },
+  {
+   "id": 4623,
+   "composer": "Mackey, Steven",
+   "title": "Beautiful Passing"
+  },
+  {
+   "id": 4624,
+   "composer": "MacMillan, James",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 4625,
+   "composer": "MacMillan, James",
+   "title": "A Deep but Dazzling Darkness"
+  },
+  {
+   "id": 4626,
+   "composer": "MacMillan, James",
+   "title": "A Different World"
+  },
+  {
+   "id": 4627,
+   "composer": "MacMillan, James",
+   "title": "From Ayrshire"
+  },
+  {
+   "id": 4628,
+   "composer": "Maconchy, Elizabeth",
+   "title": "Serenata Concertante"
+  },
+  {
+   "id": 4629,
+   "composer": "Maconchy, Elizabeth",
+   "title": "Sonata No. 1"
+  },
+  {
+   "id": 4630,
+   "composer": "Maconchy, Elizabeth",
+   "title": "Sonata No. 2"
+  },
+  {
+   "id": 4631,
+   "composer": "Maderna, Bruno",
+   "title": "Per Caterina"
+  },
+  {
+   "id": 4632,
+   "composer": "Maderna, Bruno",
+   "title": "Concerto per violino e orchestra"
+  },
+  {
+   "id": 4633,
+   "composer": "Maderna, Bruno",
+   "title": "Pièce pour Ivry"
+  },
+  {
+   "id": 4634,
+   "composer": "Maderna, Bruno",
+   "title": "Serenade für Claudia"
+  },
+  {
+   "id": 4636,
+   "composer": "Malipiero, Gian Francesco",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 4637,
+   "composer": "Malipiero, Gian Francesco",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 4639,
+   "composer": "Mansurian, Tigran",
+   "title": "Concerto No. 2 'Four Serious Songs'"
+  },
+  {
+   "id": 4640,
+   "composer": "Mansurian, Tigran",
+   "title": "Double Concerto"
+  },
+  {
+   "id": 4641,
+   "composer": "Mansurian, Tigran",
+   "title": "Lamento (violin solo)"
+  },
+  {
+   "id": 4642,
+   "composer": "Mansurian, Tigran",
+   "title": "Romance"
+  },
+  {
+   "id": 4645,
+   "composer": "Martinů, Bohuslav",
+   "title": "Concerto for Violin, Piano and Orchestra, H. 342"
+  },
+  {
+   "id": 4646,
+   "composer": "Martinů, Bohuslav",
+   "title": "Czech Rhapsody (Česká rapsodie), H. 307"
+  },
+  {
+   "id": 4655,
+   "composer": "Matthews, Colin",
+   "title": "Chaconne with Chorale"
+  },
+  {
+   "id": 4656,
+   "composer": "Matthews, Colin",
+   "title": "Concerto"
+  },
+  {
+   "id": 4657,
+   "composer": "Matthews, Colin",
+   "title": "Omaggio"
+  },
+  {
+   "id": 4658,
+   "composer": "Matthews, Colin",
+   "title": "Paraphrases"
+  },
+  {
+   "id": 4659,
+   "composer": "Matthews, Colin",
+   "title": "Partita"
+  },
+  {
+   "id": 4660,
+   "composer": "Matthews, David",
+   "title": "Adonis, Op. 105"
+  },
+  {
+   "id": 4661,
+   "composer": "Matthews, David",
+   "title": "Aria, Op. 41"
+  },
+  {
+   "id": 4662,
+   "composer": "Matthews, David",
+   "title": "Concerto No. 1, Op. 31"
+  },
+  {
+   "id": 4663,
+   "composer": "Matthews, David",
+   "title": "Concerto No. 2, Op. 74"
+  },
+  {
+   "id": 4665,
+   "composer": "Matthews, David",
+   "title": "Dancing Shiva"
+  },
+  {
+   "id": 4666,
+   "composer": "Matthews, David",
+   "title": "Duo Sonata"
+  },
+  {
+   "id": 4667,
+   "composer": "Matthews, David",
+   "title": "Eight Duos, Op. 79"
+  },
+  {
+   "id": 4668,
+   "composer": "Matthews, David",
+   "title": "Fantasy on themes from Swan Lake"
+  },
+  {
+   "id": 4669,
+   "composer": "Matthews, David",
+   "title": "Fifteen Fugues, Op. 88"
+  },
+  {
+   "id": 4670,
+   "composer": "Matthews, David",
+   "title": "Fifteen Preludes"
+  },
+  {
+   "id": 4671,
+   "composer": "Matthews, David",
+   "title": "Four Australian Birds"
+  },
+  {
+   "id": 4672,
+   "composer": "Matthews, David",
+   "title": "It takes two"
+  },
+  {
+   "id": 4673,
+   "composer": "Matthews, David",
+   "title": "Montana Taylor's Blues"
+  },
+  {
+   "id": 4674,
+   "composer": "Matthews, David",
+   "title": "Romance and Pastorale"
+  },
+  {
+   "id": 4675,
+   "composer": "Matthews, David",
+   "title": "Romanza, Op. 119 (version for violin & piano)"
+  },
+  {
+   "id": 4676,
+   "composer": "Matthews, David",
+   "title": "Romanza, Op. 119 (version for violin & strings)"
+  },
+  {
+   "id": 4677,
+   "composer": "Matthews, David",
+   "title": "Sonatina for Violin and Piano"
+  },
+  {
+   "id": 4678,
+   "composer": "Matthews, David",
+   "title": "Three Birthday Pieces"
+  },
+  {
+   "id": 4679,
+   "composer": "Matthews, David",
+   "title": "Three Studies, Op. 39"
+  },
+  {
+   "id": 4680,
+   "composer": "Matthews, David",
+   "title": "Variations for Violin and Piano"
+  },
+  {
+   "id": 4681,
+   "composer": "Matthews, David",
+   "title": "White Nights, Op. 26"
+  },
+  {
+   "id": 4682,
+   "composer": "Matthews, David",
+   "title": "Winter Journey, Op. 32"
+  },
+  {
+   "id": 4683,
+   "composer": "Maxwell Davies, Peter",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 4684,
+   "composer": "Maxwell Davies, Peter",
+   "title": "Concerto No. 2 'Fiddler on the Shore'"
+  },
+  {
+   "id": 4685,
+   "composer": "Maxwell Davies, Peter",
+   "title": "Dances from The Two Fiddlers (version for violin & piano)"
+  },
+  {
+   "id": 4686,
+   "composer": "Maxwell Davies, Peter",
+   "title": "Sonata for Violin Alone, Op. 324"
+  },
+  {
+   "id": 4687,
+   "composer": "Maxwell Davies, Peter",
+   "title": "Sonata for Violin and Piano, Op. 289"
+  },
+  {
+   "id": 4688,
+   "composer": "Maxwell Davies, Peter",
+   "title": "Sonatina for Violin Alone"
+  },
+  {
+   "id": 4689,
+   "composer": "Maxwell Davies, Peter",
+   "title": "Sonatina for Violin and Cimbalom"
+  },
+  {
+   "id": 4690,
+   "composer": "Maxwell Davies, Peter",
+   "title": "Strathclyde Concerto No. 5"
+  },
+  {
+   "id": 4691,
+   "composer": "Mazzoli, Missy",
+   "title": "Dark with Excessive Bright (version for violin)"
+  },
+  {
+   "id": 4692,
+   "composer": "Mazzoli, Missy",
+   "title": "Fanfare for the Unimpressed"
+  },
+  {
+   "id": 4693,
+   "composer": "Mazzoli, Missy",
+   "title": "Hail, Horrors, Hail"
+  },
+  {
+   "id": 4694,
+   "composer": "Mazzoli, Missy",
+   "title": "Kinski Paganini"
+  },
+  {
+   "id": 4695,
+   "composer": "Mazzoli, Missy",
+   "title": "A Thousand Tongues (version for violin, piano & electronics)"
+  },
+  {
+   "id": 4696,
+   "composer": "Mazzoli, Missy",
+   "title": "Tooth and Nail"
+  },
+  {
+   "id": 4697,
+   "composer": "Mazzoli, Missy",
+   "title": "Vespers for Violin"
+  },
+  {
+   "id": 4698,
+   "composer": "McDowall, Cecilia",
+   "title": "Great Hills"
+  },
+  {
+   "id": 4699,
+   "composer": "Meredith, Anna",
+   "title": "Anno"
+  },
+  {
+   "id": 4700,
+   "composer": "Meredith, Anna",
+   "title": "Hex"
+  },
+  {
+   "id": 4703,
+   "composer": "Milhaud, Darius",
+   "title": "Concerto No. 1, Op. 93"
+  },
+  {
+   "id": 4711,
+   "composer": "Milhaud, Darius",
+   "title": "Sonata for Violin and Harpsichord, Op. 257"
+  },
+  {
+   "id": 4713,
+   "composer": "Milhaud, Darius",
+   "title": "Sonatina for Violin and Viola, Op. 226"
+  },
+  {
+   "id": 4714,
+   "composer": "Miyoshi, Akira",
+   "title": "Concerto"
+  },
+  {
+   "id": 4715,
+   "composer": "Miyoshi, Akira",
+   "title": "Sonata for Violin and Piano"
+  },
+  {
+   "id": 4716,
+   "composer": "Montgomery, Jessie",
+   "title": "Musings"
+  },
+  {
+   "id": 4717,
+   "composer": "Montgomery, Jessie",
+   "title": "Rhapsody No. 2 (solo violin)"
+  },
+  {
+   "id": 4718,
+   "composer": "Montgomery, Jessie",
+   "title": "Rhapsody No. 2 (version for violin & chamber orchestra, arr. Wiancko)"
+  },
+  {
+   "id": 4719,
+   "composer": "Montgomery, Jessie",
+   "title": "Rhapsody No. 3"
+  },
+  {
+   "id": 4720,
+   "composer": "Montgomery, Jessie",
+   "title": "Space"
+  },
+  {
+   "id": 4721,
+   "composer": "Muhly, Nico",
+   "title": "Violin Concerto"
+  },
+  {
+   "id": 4722,
+   "composer": "Muhly, Nico",
+   "title": "Drones and Violin"
+  },
+  {
+   "id": 4723,
+   "composer": "Muhly, Nico",
+   "title": "Shrink (Concerto for Violin and Strings)"
+  },
+  {
+   "id": 4724,
+   "composer": "Musgrave, Thea",
+   "title": "In Memoriam"
+  },
+  {
+   "id": 4725,
+   "composer": "Neuwirth, Olga",
+   "title": "Quasare / Pulsare"
+  },
+  {
+   "id": 4728,
+   "composer": "Nono, Luigi",
+   "title": "La lontananza nostalgica utopica futura"
+  },
+  {
+   "id": 4729,
+   "composer": "Nono, Luigi",
+   "title": "Varianti"
+  },
+  {
+   "id": 4730,
+   "composer": "Norman, Andrew",
+   "title": "Bridging"
+  },
+  {
+   "id": 4731,
+   "composer": "Norman, Andrew",
+   "title": "For Chad"
+  },
+  {
+   "id": 4732,
+   "composer": "Norman, Andrew",
+   "title": "Turns of Phrase"
+  },
+  {
+   "id": 4733,
+   "composer": "Nyman, Michael",
+   "title": "Concerto for Violin and Orchestra"
+  },
+  {
+   "id": 4734,
+   "composer": "Nyman, Michael",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 4735,
+   "composer": "Nyman, Michael",
+   "title": "Miserere Paraphrase"
+  },
+  {
+   "id": 4736,
+   "composer": "Nyman, Michael",
+   "title": "On the Fiddle"
+  },
+  {
+   "id": 4737,
+   "composer": "Nyman, Michael",
+   "title": "Taking it as Read"
+  },
+  {
+   "id": 4738,
+   "composer": "Nyman, Michael",
+   "title": "Yamamoto Perpetuo"
+  },
+  {
+   "id": 4739,
+   "composer": "Nyman, Michael",
+   "title": "Zoo Caprices"
+  },
+  {
+   "id": 4740,
+   "composer": "Panufnik, Roxanna",
+   "title": "Abraham"
+  },
+  {
+   "id": 4741,
+   "composer": "Panufnik, Roxanna",
+   "title": "Four World Seasons"
+  },
+  {
+   "id": 4742,
+   "composer": "Panufnik, Roxanna",
+   "title": "Hora Bessarabia"
+  },
+  {
+   "id": 4743,
+   "composer": "Panufnik, Roxanna",
+   "title": "Rose"
+  },
+  {
+   "id": 4744,
+   "composer": "Pärt, Arvo",
+   "title": "Estonian Lullaby"
+  },
+  {
+   "id": 4745,
+   "composer": "Pärt, Arvo",
+   "title": "Fratres (version for violin, string orchestra & percussion)"
+  },
+  {
+   "id": 4746,
+   "composer": "Pärt, Arvo",
+   "title": "Passacaglia (version for 1-2 violins, vibraphone & string orchestra)"
+  },
+  {
+   "id": 4747,
+   "composer": "Pärt, Arvo",
+   "title": "La Sindone"
+  },
+  {
+   "id": 4748,
+   "composer": "Pärt, Arvo",
+   "title": "Tabula rasa (version for violin, viola, string orchestra & prepared piano)"
+  },
+  {
+   "id": 4749,
+   "composer": "Penderecki, Krzysztof",
+   "title": "3 Miniatures"
+  },
+  {
+   "id": 4750,
+   "composer": "Penderecki, Krzysztof",
+   "title": "Capriccio (violin & orchestra)"
+  },
+  {
+   "id": 4751,
+   "composer": "Penderecki, Krzysztof",
+   "title": "Concerto doppio"
+  },
+  {
+   "id": 4752,
+   "composer": "Penderecki, Krzysztof",
+   "title": "Duo concertante"
+  },
+  {
+   "id": 4753,
+   "composer": "Penderecki, Krzysztof",
+   "title": "La Follia (solo violin)"
+  },
+  {
+   "id": 4754,
+   "composer": "Penderecki, Krzysztof",
+   "title": "Sonata No. 1"
+  },
+  {
+   "id": 4755,
+   "composer": "Penderecki, Krzysztof",
+   "title": "Tanz (solo violin)"
+  },
+  {
+   "id": 4756,
+   "composer": "Perkinson, Coleridge-Taylor",
+   "title": "Louisiana Blues Strut: A Cakewalk (version for violin and chamber orchestra)"
+  },
+  {
+   "id": 4757,
+   "composer": "Petrassi, Goffredo",
+   "title": "Elogio per un'ombra"
+  },
+  {
+   "id": 4758,
+   "composer": "Petrassi, Goffredo",
+   "title": "Introduzione e Allegro"
+  },
+  {
+   "id": 4759,
+   "composer": "Pintscher, Matthias",
+   "title": "en sourdine"
+  },
+  {
+   "id": 4760,
+   "composer": "Pintscher, Matthias",
+   "title": "Mar'eh"
+  },
+  {
+   "id": 4761,
+   "composer": "Pintscher, Matthias",
+   "title": "Mar'eh (version for violin & ensemble)"
+  },
+  {
+   "id": 4762,
+   "composer": "Pintscher, Matthias",
+   "title": "Omaggio a Giovanni Paisiello"
+  },
+  {
+   "id": 4763,
+   "composer": "Pintscher, Matthias",
+   "title": "Study I for Treatise on the Veil"
+  },
+  {
+   "id": 4764,
+   "composer": "Piston, Walter",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 4765,
+   "composer": "Piston, Walter",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 4766,
+   "composer": "Piston, Walter",
+   "title": "Fantasia"
+  },
+  {
+   "id": 4767,
+   "composer": "Piston, Walter",
+   "title": "Sonata for Violin and Piano"
+  },
+  {
+   "id": 4768,
+   "composer": "Piston, Walter",
+   "title": "Sonatina for Violin and Harpsichord"
+  },
+  {
+   "id": 4772,
+   "composer": "Price, Florence",
+   "title": "Three Negro Spirituals"
+  },
+  {
+   "id": 4773,
+   "composer": "Puts, Kevin",
+   "title": "Contact (Triple Concerto for Two Violins, Bass and Orchestra)"
+  },
+  {
+   "id": 4774,
+   "composer": "Puts, Kevin",
+   "title": "Earth"
+  },
+  {
+   "id": 4775,
+   "composer": "Puts, Kevin",
+   "title": "Five Farewells"
+  },
+  {
+   "id": 4776,
+   "composer": "Puts, Kevin",
+   "title": "Sicilienne"
+  },
+  {
+   "id": 4777,
+   "composer": "Raskatov, Alexander",
+   "title": "5 Minuten aus dem Leben von W.A.M. (not a 'not-turno')"
+  },
+  {
+   "id": 4778,
+   "composer": "Raskatov, Alexander",
+   "title": "In Excelsis"
+  },
+  {
+   "id": 4779,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "April Lines"
+  },
+  {
+   "id": 4780,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "Dithyrambos"
+  },
+  {
+   "id": 4781,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "Fantasia"
+  },
+  {
+   "id": 4782,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "Lost Landscapes (violin & piano)"
+  },
+  {
+   "id": 4783,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "Notturno e Danza"
+  },
+  {
+   "id": 4784,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "Summer Thoughts"
+  },
+  {
+   "id": 4785,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "Sydämeni laulu (Song of My Heart), arr. for violin & piano"
+  },
+  {
+   "id": 4786,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "Ugrilainen dialogi (Hungarian Dialogue)"
+  },
+  {
+   "id": 4787,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "Variétude"
+  },
+  {
+   "id": 4790,
+   "composer": "Rihm, Wolfgang",
+   "title": "Antlitz (Zeichnung)"
+  },
+  {
+   "id": 4791,
+   "composer": "Rihm, Wolfgang",
+   "title": "Coll'arco"
+  },
+  {
+   "id": 4792,
+   "composer": "Rihm, Wolfgang",
+   "title": "Dritte Musik"
+  },
+  {
+   "id": 4793,
+   "composer": "Rihm, Wolfgang",
+   "title": "Duo Concerto"
+  },
+  {
+   "id": 4794,
+   "composer": "Rihm, Wolfgang",
+   "title": "Duomonolog"
+  },
+  {
+   "id": 4795,
+   "composer": "Rihm, Wolfgang",
+   "title": "Dyade"
+  },
+  {
+   "id": 4796,
+   "composer": "Rihm, Wolfgang",
+   "title": "Eine Violinsonate"
+  },
+  {
+   "id": 4797,
+   "composer": "Rihm, Wolfgang",
+   "title": "Episode"
+  },
+  {
+   "id": 4798,
+   "composer": "Rihm, Wolfgang",
+   "title": "Gedicht des Malers (Poème du Peintre)"
+  },
+  {
+   "id": 4799,
+   "composer": "Rihm, Wolfgang",
+   "title": "Lichtzwang"
+  },
+  {
+   "id": 4801,
+   "composer": "Rihm, Wolfgang",
+   "title": "Phantom und Eskapade"
+  },
+  {
+   "id": 4802,
+   "composer": "Rihm, Wolfgang",
+   "title": "Trio Concerto"
+  },
+  {
+   "id": 4803,
+   "composer": "Rihm, Wolfgang",
+   "title": "Über die Linie VII"
+  },
+  {
+   "id": 4804,
+   "composer": "Riley, Terry",
+   "title": "The Palmian Chord Ryddle"
+  },
+  {
+   "id": 4805,
+   "composer": "Riley, Terry",
+   "title": "SolTierraLuna"
+  },
+  {
+   "id": 4806,
+   "composer": "Rochberg, George",
+   "title": "La bocca della verità (version for violin & piano)"
+  },
+  {
+   "id": 4807,
+   "composer": "Rochberg, George",
+   "title": "Duo Concertante"
+  },
+  {
+   "id": 4808,
+   "composer": "Rochberg, George",
+   "title": "Sonata for Violin and Piano"
+  },
+  {
+   "id": 4809,
+   "composer": "Rodrigo, Joaquín",
+   "title": "Cançoneta"
+  },
+  {
+   "id": 4810,
+   "composer": "Rodrigo, Joaquín",
+   "title": "Rumaniana"
+  },
+  {
+   "id": 4811,
+   "composer": "Rodrigo, Joaquín",
+   "title": "Serenata al alba del día"
+  },
+  {
+   "id": 4812,
+   "composer": "Rodrigo, Joaquín",
+   "title": "Set cançons valencianes"
+  },
+  {
+   "id": 4813,
+   "composer": "Rorem, Ned",
+   "title": "Day Music"
+  },
+  {
+   "id": 4814,
+   "composer": "Rorem, Ned",
+   "title": "Double Concerto"
+  },
+  {
+   "id": 4815,
+   "composer": "Rorem, Ned",
+   "title": "Water Music"
+  },
+  {
+   "id": 4816,
+   "composer": "Rubbra, Edmund",
+   "title": "Concerto in A, Op. 103"
+  },
+  {
+   "id": 4817,
+   "composer": "Rubbra, Edmund",
+   "title": "Improvisation for Violin and Orchestra, Op. 89"
+  },
+  {
+   "id": 4818,
+   "composer": "Rubbra, Edmund",
+   "title": "Sonata No. 1, Op. 11"
+  },
+  {
+   "id": 4819,
+   "composer": "Rubbra, Edmund",
+   "title": "Sonata No. 3, Op. 133"
+  },
+  {
+   "id": 4822,
+   "composer": "Saariaho, Kaija",
+   "title": "Aure"
+  },
+  {
+   "id": 4823,
+   "composer": "Saariaho, Kaija",
+   "title": "Botanique"
+  },
+  {
+   "id": 4824,
+   "composer": "Saariaho, Kaija",
+   "title": "Concordia"
+  },
+  {
+   "id": 4825,
+   "composer": "Saariaho, Kaija",
+   "title": "Danse des flocons I (version for violin & piano)"
+  },
+  {
+   "id": 4826,
+   "composer": "Saariaho, Kaija",
+   "title": "Frises"
+  },
+  {
+   "id": 4827,
+   "composer": "Saariaho, Kaija",
+   "title": "Graal théâtre (version for violin & ensemble)"
+  },
+  {
+   "id": 4828,
+   "composer": "Saariaho, Kaija",
+   "title": "Sense"
+  },
+  {
+   "id": 4829,
+   "composer": "Saariaho, Kaija",
+   "title": "...de la Terre"
+  },
+  {
+   "id": 4830,
+   "composer": "Sallinen, Aulis",
+   "title": "Cadenze, Op. 13"
+  },
+  {
+   "id": 4831,
+   "composer": "Sallinen, Aulis",
+   "title": "Canto, Op. 37"
+  },
+  {
+   "id": 4832,
+   "composer": "Sallinen, Aulis",
+   "title": "Chamber Concerto, Op. 87"
+  },
+  {
+   "id": 4834,
+   "composer": "Sallinen, Aulis",
+   "title": "Violin Concerto, Op. 18"
+  },
+  {
+   "id": 4835,
+   "composer": "Sallinen, Aulis",
+   "title": "Duo per due"
+  },
+  {
+   "id": 4836,
+   "composer": "Sallinen, Aulis",
+   "title": "Quatre études, Op. 21"
+  },
+  {
+   "id": 4837,
+   "composer": "Sallinen, Aulis",
+   "title": "Ritornello, Op. 36"
+  },
+  {
+   "id": 4838,
+   "composer": "Sallinen, Aulis",
+   "title": "Sonata per Violino e Pianoforte"
+  },
+  {
+   "id": 4839,
+   "composer": "Salonen, Esa-Pekka",
+   "title": "Goodbye"
+  },
+  {
+   "id": 4840,
+   "composer": "Saunders, Rebecca",
+   "title": "Duo"
+  },
+  {
+   "id": 4841,
+   "composer": "Saunders, Rebecca",
+   "title": "Still"
+  },
+  {
+   "id": 4842,
+   "composer": "Saunders, Rebecca",
+   "title": "to and fro"
+  },
+  {
+   "id": 4843,
+   "composer": "Scelsi, Giacinto",
+   "title": "Anahit"
+  },
+  {
+   "id": 4844,
+   "composer": "Scelsi, Giacinto",
+   "title": "Divertimento No. 2"
+  },
+  {
+   "id": 4845,
+   "composer": "Scelsi, Giacinto",
+   "title": "Divertimento No. 3"
+  },
+  {
+   "id": 4846,
+   "composer": "Scelsi, Giacinto",
+   "title": "Divertimento No. 4"
+  },
+  {
+   "id": 4847,
+   "composer": "Scelsi, Giacinto",
+   "title": "Duo for violin and cello"
+  },
+  {
+   "id": 4848,
+   "composer": "Scelsi, Giacinto",
+   "title": "L'âme ailée / L'âme ouverte"
+  },
+  {
+   "id": 4849,
+   "composer": "Scelsi, Giacinto",
+   "title": "Xnoybis"
+  },
+  {
+   "id": 4850,
+   "composer": "Schnittke, Alfred",
+   "title": "The Agony: Tango"
+  },
+  {
+   "id": 4851,
+   "composer": "Schnittke, Alfred",
+   "title": "Cadenzas to Beethoven's Violin Concerto, Op. 61"
+  },
+  {
+   "id": 4852,
+   "composer": "Schnittke, Alfred",
+   "title": "Concerto Grosso No. 2"
+  },
+  {
+   "id": 4853,
+   "composer": "Schnittke, Alfred",
+   "title": "Concerto Grosso No. 3"
+  },
+  {
+   "id": 4854,
+   "composer": "Schnittke, Alfred",
+   "title": "Concerto Grosso No. 6"
+  },
+  {
+   "id": 4855,
+   "composer": "Schnittke, Alfred",
+   "title": "Concerto for Three (Konzert zu dritt)"
+  },
+  {
+   "id": 4856,
+   "composer": "Schnittke, Alfred",
+   "title": "Madrigal in memoriam Oleg Kagan"
+  },
+  {
+   "id": 4857,
+   "composer": "Schnittke, Alfred",
+   "title": "Moz-Art (after the fragment K. 416d)"
+  },
+  {
+   "id": 4858,
+   "composer": "Schnittke, Alfred",
+   "title": "Moz-Art à la Haydn"
+  },
+  {
+   "id": 4859,
+   "composer": "Schnittke, Alfred",
+   "title": "Polka"
+  },
+  {
+   "id": 4860,
+   "composer": "Schnittke, Alfred",
+   "title": "Quasi una sonata (arr. of Sonata No. 2)"
+  },
+  {
+   "id": 4861,
+   "composer": "Schnittke, Alfred",
+   "title": "Sonata No. 3"
+  },
+  {
+   "id": 4862,
+   "composer": "Schnittke, Alfred",
+   "title": "Sonata for Violin and Piano (1955)"
+  },
+  {
+   "id": 4863,
+   "composer": "Schnittke, Alfred",
+   "title": "Sonata for Violin and Chamber Orchestra (arr. of Sonata No. 1)"
+  },
+  {
+   "id": 4864,
+   "composer": "Schnittke, Alfred",
+   "title": "Stille Musik"
+  },
+  {
+   "id": 4865,
+   "composer": "Schnittke, Alfred",
+   "title": "Stille Nacht"
+  },
+  {
+   "id": 4866,
+   "composer": "Schnittke, Alfred",
+   "title": "Where Every Verse Is Filled With Grief (arr. Stookey)"
+  },
+  {
+   "id": 4867,
+   "composer": "Schoenfield, Paul",
+   "title": "Partita"
+  },
+  {
+   "id": 4868,
+   "composer": "Schoenfield, Paul",
+   "title": "Sonata for Violin and Piano"
+  },
+  {
+   "id": 4869,
+   "composer": "Schoenfield, Paul",
+   "title": "Three Country Fiddle Pieces"
+  },
+  {
+   "id": 4870,
+   "composer": "Schwantner, Joseph",
+   "title": "Angelfire"
+  },
+  {
+   "id": 4871,
+   "composer": "Sciarrino, Salvatore",
+   "title": "Allegoria della notte"
+  },
+  {
+   "id": 4872,
+   "composer": "Sciarrino, Salvatore",
+   "title": "Capriccio di una corda"
+  },
+  {
+   "id": 4873,
+   "composer": "Sciarrino, Salvatore",
+   "title": "Fra sé"
+  },
+  {
+   "id": 4874,
+   "composer": "Sciarrino, Salvatore",
+   "title": "Giorno velato presso il lago nero"
+  },
+  {
+   "id": 4875,
+   "composer": "Sciarrino, Salvatore",
+   "title": "La malinconia"
+  },
+  {
+   "id": 4876,
+   "composer": "Sciarrino, Salvatore",
+   "title": "Per Mattia"
+  },
+  {
+   "id": 4877,
+   "composer": "Sciarrino, Salvatore",
+   "title": "Sei nuovi capricci e un saluto"
+  },
+  {
+   "id": 4878,
+   "composer": "Sciarrino, Salvatore",
+   "title": "Sonatina"
+  },
+  {
+   "id": 4879,
+   "composer": "Sciarrino, Salvatore",
+   "title": "Le stagioni artificiali"
+  },
+  {
+   "id": 4880,
+   "composer": "Sculthorpe, Peter",
+   "title": "Lament for violin, cello and strings"
+  },
+  {
+   "id": 4881,
+   "composer": "Sessions, Roger",
+   "title": "Concerto"
+  },
+  {
+   "id": 4882,
+   "composer": "Sessions, Roger",
+   "title": "Concerto for Violin, Cello and Orchestra"
+  },
+  {
+   "id": 4883,
+   "composer": "Sessions, Roger",
+   "title": "Duo for Violin and Piano"
+  },
+  {
+   "id": 4884,
+   "composer": "Sessions, Roger",
+   "title": "Sonata for Solo Violin"
+  },
+  {
+   "id": 4885,
+   "composer": "Sheng, Bright",
+   "title": "Angel Fire Duo"
+  },
+  {
+   "id": 4886,
+   "composer": "Sheng, Bright",
+   "title": "Hot Pepper"
+  },
+  {
+   "id": 4887,
+   "composer": "Sheng, Bright",
+   "title": "Let Fly"
+  },
+  {
+   "id": 4888,
+   "composer": "Sheng, Bright",
+   "title": "Rage of Love"
+  },
+  {
+   "id": 4889,
+   "composer": "Sheng, Bright",
+   "title": "Spring Dreams (version for violin & Chinese orchestra)"
+  },
+  {
+   "id": 4890,
+   "composer": "Sierra, Roberto",
+   "title": "Concierto para violín y orquesta (a la memoria de una niña valiente)"
+  },
+  {
+   "id": 4891,
+   "composer": "Sierra, Roberto",
+   "title": "Doble Concierto"
+  },
+  {
+   "id": 4892,
+   "composer": "Sierra, Roberto",
+   "title": "Duo Concertante"
+  },
+  {
+   "id": 4893,
+   "composer": "Sierra, Roberto",
+   "title": "Fanfarria, aria y movimiento perpetuo"
+  },
+  {
+   "id": 4894,
+   "composer": "Sierra, Roberto",
+   "title": "Sonata for Violin and Piano"
+  },
+  {
+   "id": 4895,
+   "composer": "Silvestrov, Valentin",
+   "title": "5 Cycles for violin and piano"
+  },
+  {
+   "id": 4896,
+   "composer": "Silvestrov, Valentin",
+   "title": "Concerto"
+  },
+  {
+   "id": 4897,
+   "composer": "Silvestrov, Valentin",
+   "title": "Five Pieces from 'Melodies of the Moments'"
+  },
+  {
+   "id": 4898,
+   "composer": "Silvestrov, Valentin",
+   "title": "Hommage à J.S.B. (quasi echo)"
+  },
+  {
+   "id": 4899,
+   "composer": "Silvestrov, Valentin",
+   "title": "Pastorals (violin & piano)"
+  },
+  {
+   "id": 4900,
+   "composer": "Simpson, Mark",
+   "title": "Concerto"
+  },
+  {
+   "id": 4901,
+   "composer": "Stockhausen, Karlheinz",
+   "title": "In Freundschaft (version for violin)"
+  },
+  {
+   "id": 4902,
+   "composer": "Stockhausen, Karlheinz",
+   "title": "Sonatine"
+  },
+  {
+   "id": 4903,
+   "composer": "Tabakova, Dobrinka",
+   "title": "Gretchen am Spinnrade (Schubert arr. Tabakova)"
+  },
+  {
+   "id": 4905,
+   "composer": "Tabakova, Dobrinka",
+   "title": "The Patience of Trees"
+  },
+  {
+   "id": 4906,
+   "composer": "Tabakova, Dobrinka",
+   "title": "Spinning a Yarn"
+  },
+  {
+   "id": 4908,
+   "composer": "Tabakova, Dobrinka",
+   "title": "Sun Triptych"
+  },
+  {
+   "id": 4909,
+   "composer": "Takemitsu, Toru",
+   "title": "Spectral Canticle"
+  },
+  {
+   "id": 4910,
+   "composer": "Talbot, Joby",
+   "title": "Transit of Venus"
+  },
+  {
+   "id": 4911,
+   "composer": "Talbot, Joby",
+   "title": "November: Eleven"
+  },
+  {
+   "id": 4912,
+   "composer": "Tan Dun",
+   "title": "Violin Concerto 'Rhapsody and Fantasia'"
+  },
+  {
+   "id": 4913,
+   "composer": "Tavener, John",
+   "title": "Fragment for the Virgin (version for violin & strings)"
+  },
+  {
+   "id": 4914,
+   "composer": "Tavener, John",
+   "title": "Ikon of Eros"
+  },
+  {
+   "id": 4915,
+   "composer": "Tavener, John",
+   "title": "My Gaze Is Ever upon You"
+  },
+  {
+   "id": 4916,
+   "composer": "Tavener, John",
+   "title": "Tears of the Angels"
+  },
+  {
+   "id": 4917,
+   "composer": "Thomas, Augusta Read",
+   "title": "Astral Canticle"
+  },
+  {
+   "id": 4918,
+   "composer": "Thomas, Augusta Read",
+   "title": "Caprice"
+  },
+  {
+   "id": 4919,
+   "composer": "Thomas, Augusta Read",
+   "title": "Capricious Toccata 'Dandelion Sky'"
+  },
+  {
+   "id": 4920,
+   "composer": "Thomas, Augusta Read",
+   "title": "Concerto No. 1 'Spirit Musings'"
+  },
+  {
+   "id": 4921,
+   "composer": "Thomas, Augusta Read",
+   "title": "Concerto No. 3 'Juggler in Paradise'"
+  },
+  {
+   "id": 4922,
+   "composer": "Thomas, Augusta Read",
+   "title": "Dream Catcher"
+  },
+  {
+   "id": 4923,
+   "composer": "Thomas, Augusta Read",
+   "title": "Mansueto Tribute 'double helix'"
+  },
+  {
+   "id": 4924,
+   "composer": "Thomas, Augusta Read",
+   "title": "Rainbow Bridge to Paradise"
+  },
+  {
+   "id": 4925,
+   "composer": "Thomas, Augusta Read",
+   "title": "Rhea Enchanted"
+  },
+  {
+   "id": 4926,
+   "composer": "Thomas, Augusta Read",
+   "title": "Rumi Settings"
+  },
+  {
+   "id": 4927,
+   "composer": "Thomas, Augusta Read",
+   "title": "Rush"
+  },
+  {
+   "id": 4928,
+   "composer": "Thomas, Augusta Read",
+   "title": "Silent Moon"
+  },
+  {
+   "id": 4929,
+   "composer": "Thomas, Augusta Read",
+   "title": "Song Without Words (version for violin & piano)"
+  },
+  {
+   "id": 4930,
+   "composer": "Thomas, Augusta Read",
+   "title": "Sun Plaits: Bridges and Links"
+  },
+  {
+   "id": 4931,
+   "composer": "Thomas, Augusta Read",
+   "title": "Toft Serenade"
+  },
+  {
+   "id": 4932,
+   "composer": "Thomas, Augusta Read",
+   "title": "Venus Enchanted"
+  },
+  {
+   "id": 4933,
+   "composer": "Tippett, Michael",
+   "title": "Triple Concerto"
+  },
+  {
+   "id": 4935,
+   "composer": "Torke, Michael",
+   "title": "Sky (Concerto for Violin)"
+  },
+  {
+   "id": 4936,
+   "composer": "Torke, Michael",
+   "title": "Spoon Bread"
+  },
+  {
+   "id": 4937,
+   "composer": "Tower, Joan",
+   "title": "Concerto"
+  },
+  {
+   "id": 4938,
+   "composer": "Tower, Joan",
+   "title": "Platinum Spirals"
+  },
+  {
+   "id": 4939,
+   "composer": "Tubin, Eduard",
+   "title": "Ballade, ETW 52 (violin & piano)"
+  },
+  {
+   "id": 4940,
+   "composer": "Tubin, Eduard",
+   "title": "Ballade, ETW 52A"
+  },
+  {
+   "id": 4941,
+   "composer": "Tubin, Eduard",
+   "title": "Capriccio No. 1, ETW 50"
+  },
+  {
+   "id": 4942,
+   "composer": "Tubin, Eduard",
+   "title": "Capriccio No. 2, ETW 55"
+  },
+  {
+   "id": 4943,
+   "composer": "Tubin, Eduard",
+   "title": "Cock's Dance (from the ballet 'The Goblin'), ETW 111B"
+  },
+  {
+   "id": 4944,
+   "composer": "Tubin, Eduard",
+   "title": "Concerto No. 1 in D major, ETW 19"
+  },
+  {
+   "id": 4945,
+   "composer": "Tubin, Eduard",
+   "title": "Concerto No. 2 in G minor, ETW 21"
+  },
+  {
+   "id": 4946,
+   "composer": "Tubin, Eduard",
+   "title": "Meditation, ETW 51"
+  },
+  {
+   "id": 4947,
+   "composer": "Tubin, Eduard",
+   "title": "Prelude, ETW 54"
+  },
+  {
+   "id": 4948,
+   "composer": "Tubin, Eduard",
+   "title": "Sonata No. 1 for Violin and Piano, ETW 49"
+  },
+  {
+   "id": 4949,
+   "composer": "Tubin, Eduard",
+   "title": "Sonata No. 2 in Phrygian Mode, ETW 56"
+  },
+  {
+   "id": 4950,
+   "composer": "Tubin, Eduard",
+   "title": "Sonata for Violin Solo, ETW 57"
+  },
+  {
+   "id": 4951,
+   "composer": "Tubin, Eduard",
+   "title": "Suite on Estonian Dance Pieces, ETW 58"
+  },
+  {
+   "id": 4952,
+   "composer": "Tubin, Eduard",
+   "title": "Suite on Estonian Dance Tunes, ETW 53A (version for violin & orchestra)"
+  },
+  {
+   "id": 4953,
+   "composer": "Tubin, Eduard",
+   "title": "Three Pieces, ETW 48"
+  },
+  {
+   "id": 4954,
+   "composer": "Turnage, Mark-Anthony",
+   "title": "Dialogue"
+  },
+  {
+   "id": 4955,
+   "composer": "Turnage, Mark-Anthony",
+   "title": "Duetti d'Amore"
+  },
+  {
+   "id": 4956,
+   "composer": "Turnage, Mark-Anthony",
+   "title": "Four Chants"
+  },
+  {
+   "id": 4957,
+   "composer": "Turnage, Mark-Anthony",
+   "title": "Seven Pint-sized Pieces"
+  },
+  {
+   "id": 4958,
+   "composer": "Turnage, Mark-Anthony",
+   "title": "Shadow Walker"
+  },
+  {
+   "id": 4959,
+   "composer": "Tüür, Erkki-Sven",
+   "title": "Concerto No. 1"
+  },
+  {
+   "id": 4960,
+   "composer": "Tüür, Erkki-Sven",
+   "title": "Concerto No. 2 'Angel's Share'"
+  },
+  {
+   "id": 4961,
+   "composer": "Tüür, Erkki-Sven",
+   "title": "Conversio"
+  },
+  {
+   "id": 4962,
+   "composer": "Tüür, Erkki-Sven",
+   "title": "Conversio II"
+  },
+  {
+   "id": 4963,
+   "composer": "Tüür, Erkki-Sven",
+   "title": "Noesis"
+  },
+  {
+   "id": 4964,
+   "composer": "Vasks, Pēteris",
+   "title": "Castillo Interior"
+  },
+  {
+   "id": 4965,
+   "composer": "Vasks, Pēteris",
+   "title": "Concerto No. 2 'Vakara gaismā' (In Evening Light)"
+  },
+  {
+   "id": 4966,
+   "composer": "Vasks, Pēteris",
+   "title": "Sonata estiva (Summer Sonata)"
+  },
+  {
+   "id": 4967,
+   "composer": "Vasks, Pēteris",
+   "title": "Summer Dances (Vasaras dejas)"
+  },
+  {
+   "id": 4969,
+   "composer": "Villa-Lobos, Heitor",
+   "title": "Duo for Violin and Viola"
+  },
+  {
+   "id": 4970,
+   "composer": "Villa-Lobos, Heitor",
+   "title": "Fantasia de movimentos mistos"
+  },
+  {
+   "id": 4972,
+   "composer": "Villa-Lobos, Heitor",
+   "title": "O Martírio dos Insetos"
+  },
+  {
+   "id": 4973,
+   "composer": "Vine, Carl",
+   "title": "Concerto"
+  },
+  {
+   "id": 4974,
+   "composer": "Wallen, Errollyn",
+   "title": "For Airi"
+  },
+  {
+   "id": 4975,
+   "composer": "Wallen, Errollyn",
+   "title": "Concerto Grosso"
+  },
+  {
+   "id": 4976,
+   "composer": "Wallen, Errollyn",
+   "title": "Five Postcards"
+  },
+  {
+   "id": 4977,
+   "composer": "Wallen, Errollyn",
+   "title": "The Keys to Your House"
+  },
+  {
+   "id": 4978,
+   "composer": "Wallen, Errollyn",
+   "title": "Park Slope"
+  },
+  {
+   "id": 4979,
+   "composer": "Weinberg, Mieczysław",
+   "title": "24 Preludes (arr. for solo violin after Op. 100)"
+  },
+  {
+   "id": 4980,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Concertino, Op. 42"
+  },
+  {
+   "id": 4981,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Rhapsody on Moldavian Themes, Op. 47 No. 3"
+  },
+  {
+   "id": 4982,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Sonata No. 1, Op. 12"
+  },
+  {
+   "id": 4983,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Sonata No. 2, Op. 15"
+  },
+  {
+   "id": 4984,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Sonata No. 3, Op. 37"
+  },
+  {
+   "id": 4985,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Sonata No. 4, Op. 39"
+  },
+  {
+   "id": 4986,
+   "composer": "Weinberg, Mieczysław",
+   "title": "Sonata No. 6, Op. 136bis"
+  },
+  {
+   "id": 4988,
+   "composer": "Widmann, Jörg",
+   "title": "24 Duos, Book 1 (Nos. I–XIII)"
+  },
+  {
+   "id": 4989,
+   "composer": "Widmann, Jörg",
+   "title": "24 Duos, Book 2 (Nos. XIV–XXIV)"
+  },
+  {
+   "id": 4990,
+   "composer": "Widmann, Jörg",
+   "title": "Concerto"
+  },
+  {
+   "id": 4991,
+   "composer": "Widmann, Jörg",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 4992,
+   "composer": "Widmann, Jörg",
+   "title": "Insel der Sirenen"
+  },
+  {
+   "id": 4993,
+   "composer": "Widmann, Jörg",
+   "title": "Jupiter-Etüde (Étude VII)"
+  },
+  {
+   "id": 4994,
+   "composer": "Widmann, Jörg",
+   "title": "Summer Sonata"
+  },
+  {
+   "id": 4995,
+   "composer": "Widmann, Jörg",
+   "title": "\"...und wenn wir uns mitten im Leben meinen...\" (Torso)"
+  },
+  {
+   "id": 4996,
+   "composer": "Wolfe, Julia",
+   "title": "With a blue dress on"
+  },
+  {
+   "id": 4997,
+   "composer": "Wolfe, Julia",
+   "title": "Spinning Jenny"
+  },
+  {
+   "id": 4998,
+   "composer": "Wuorinen, Charles",
+   "title": "Composition for Violin and 10 Instruments"
+  },
+  {
+   "id": 4999,
+   "composer": "Wuorinen, Charles",
+   "title": "Concerto for Amplified Violin and Orchestra"
+  },
+  {
+   "id": 5000,
+   "composer": "Wuorinen, Charles",
+   "title": "Eleven Short Pieces for Violin and Vibraphone"
+  },
+  {
+   "id": 5001,
+   "composer": "Wuorinen, Charles",
+   "title": "Rhapsody for Violin and Orchestra"
+  },
+  {
+   "id": 5002,
+   "composer": "Wuorinen, Charles",
+   "title": "Six Pieces for Violin and Piano"
+  },
+  {
+   "id": 5003,
+   "composer": "Wuorinen, Charles",
+   "title": "Sonata for Violin and Piano"
+  },
+  {
+   "id": 5004,
+   "composer": "Wuorinen, Charles",
+   "title": "Violin Variations"
+  },
+  {
+   "id": 5005,
+   "composer": "Xenakis, Iannis",
+   "title": "Dikhthas"
+  },
+  {
+   "id": 5006,
+   "composer": "Xenakis, Iannis",
+   "title": "Dox-Orkh"
+  },
+  {
+   "id": 5007,
+   "composer": "Xenakis, Iannis",
+   "title": "Hunem-Iduhey"
+  },
+  {
+   "id": 5008,
+   "composer": "Xenakis, Iannis",
+   "title": "Mikka"
+  },
+  {
+   "id": 5009,
+   "composer": "Xenakis, Iannis",
+   "title": "Mikka 'S'"
+  },
+  {
+   "id": 5010,
+   "composer": "Yun, Isang",
+   "title": "Concerto No. 2"
+  },
+  {
+   "id": 5011,
+   "composer": "Yun, Isang",
+   "title": "Concerto No. 3 (version for violin & piano)"
+  },
+  {
+   "id": 5012,
+   "composer": "Yun, Isang",
+   "title": "Concerto No. 3 (version for small orchestra)"
+  },
+  {
+   "id": 5013,
+   "composer": "Yun, Isang",
+   "title": "Sonata for Violin and Piano"
+  },
+  {
+   "id": 5014,
+   "composer": "Yun, Isang",
+   "title": "Together"
+  },
+  {
+   "id": 5015,
+   "composer": "Zhou Long",
+   "title": "A Set of Chinese Folk Songs (Eight Pieces for Solo Violin)"
+  },
+  {
+   "id": 5018,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Carousel"
+  },
+  {
+   "id": 5019,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Commedia dell'Arte"
+  },
+  {
+   "id": 5020,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Concerto for Violin, Cello and Orchestra"
+  },
+  {
+   "id": 5021,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Episodes for Violin and Piano"
+  },
+  {
+   "id": 5022,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "A Little Violin Music In Memory of Elijah McClain"
+  },
+  {
+   "id": 5023,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Nigun (Bloch, arr. for violin & string orchestra)"
+  },
+  {
+   "id": 5024,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Partita for Violin and Piano"
+  },
+  {
+   "id": 5025,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Partita for Violin and String Orchestra"
+  },
+  {
+   "id": 5026,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Romance"
+  },
+  {
+   "id": 5027,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Romance for Violin and Chamber Orchestra"
+  },
+  {
+   "id": 5028,
+   "composer": "Zwilich, Ellen Taaffe",
+   "title": "Triple Concerto"
+  }
+ ]
+}

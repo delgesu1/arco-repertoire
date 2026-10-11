@@ -63,8 +63,5 @@ export function levelRange(ps: Piece[]): string {
 export const youtubeSearch = (p: Piece) =>
   `https://www.youtube.com/results?search_query=${encodeURIComponent(`${p.composerName} ${p.title}${/violin/i.test(p.title) ? "" : " violin"}`)}`;
 
-export const imslpSearch = (p: Piece) =>
-  `https://imslp.org/index.php?title=Special:Search&search=${encodeURIComponent(`${p.composer.split(",")[0]} ${p.title}`)}`;
-
-/** the work's own IMSLP page when we know it, otherwise a search */
-export const imslpLink = (p: Piece) => (p.imslpPage ? `https://imslp.org/wiki/${encodeURIComponent(p.imslpPage.replace(/ /g, "_"))}` : imslpSearch(p));
+/** the work's own page on IMSLP; pieces without a known page get no link (never a search) */
+export const imslpLink = (page: string) => `https://imslp.org/wiki/${encodeURIComponent(page.replace(/ /g, "_"))}`;

@@ -125,8 +125,8 @@ export function PieceDetail({
       )}
 
       <div className="links">
-        {p.imslp && (
-          <a className="link-underline" href={imslpLink(p)} target="_blank" rel="noreferrer">
+        {p.imslpPage && (
+          <a className="link-underline" href={imslpLink(p.imslpPage)} target="_blank" rel="noreferrer">
             Score on IMSLP <ExternalIcon />
           </a>
         )}

@@ -40,8 +40,7 @@ export interface Piece {
   notes: string;
   exams: string;
   examBoards: string[];
-  imslp: boolean;
-  imslpPage?: string; // exact IMSLP work page when known (else the link is a search)
+  imslpPage?: string; // title of the work's own IMSLP page; absent when IMSLP has none (see data/imslp-pages.json)
   set: string | null;
   setKey: string | null;
   mode: "major" | "minor" | null;
