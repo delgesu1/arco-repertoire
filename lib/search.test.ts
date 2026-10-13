@@ -49,6 +49,22 @@ describe("search", () => {
   it("prefix-matches the last word while typing", () => {
     expect(titles("mendelssohn conc").some((t) => t.includes("Op. 64"))).toBe(true);
   });
+  it("finds a catalogue number typed without its prefix", () => {
+    expect(titles("brahms 78")).toEqual(["Johannes Brahms — Sonata No. 1 in G major, Op. 78"]);
+    expect(titles("mozart 216").some((t) => t.includes("K. 216"))).toBe(true);
+    expect(titles("bach 1004").some((t) => t.includes("BWV 1004"))).toBe(true);
+    expect(titles("brahms 7")).not.toContain("Johannes Brahms — Sonata No. 1 in G major, Op. 78");
+  });
+  it("doesn't require the word violin", () => {
+    const r = titles("brahms violin sonata");
+    for (const op of ["Op. 78", "Op. 100", "Op. 108"]) expect(r.some((t) => t.includes(op))).toBe(true);
+    expect(titles("brahms sonata for violin and piano").some((t) => t.includes("Op. 78"))).toBe(true);
+    expect(titles("violin").length).toBeGreaterThan(0);
+  });
+  it("ranks a composer's own works above works that mention him", () => {
+    const r = sortPieces(search(index, "brahms violin concerto"), "relevance");
+    expect(r[0].piece.title).toBe("Concerto in D major, Op. 77");
+  });
 });
 
 describe("grouping", () => {

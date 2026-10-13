@@ -38,7 +38,6 @@ export function Explorer({ version, levels, total }: { version: string; levels: 
   }, [version]);
 
   const f = useMemo(() => filtersFromParams(new URLSearchParams(sp.toString())), [sp]);
-  const sortExplicit = sp.has("sort");
   const openId = Number(sp.get("piece")) || null;
 
   const update = useCallback((patch: Partial<Filters>) => {
@@ -70,10 +69,7 @@ export function Explorer({ version, levels, total }: { version: string; levels: 
   const all = useMemo(() => data?.pieces ?? [], [data]);
   const queried = useMemo(() => (data ? search(data.index, f.q) : []), [data, f.q]);
   const filtered = useMemo(() => queried.filter((r) => matches(r.piece, f)), [queried, f]);
-  const sorted = useMemo(
-    () => sortPieces([...filtered], f.q && !sortExplicit ? "relevance" : f.sort).map((r) => r.piece),
-    [filtered, f.sort, f.q, sortExplicit],
-  );
+  const sorted = useMemo(() => sortPieces([...filtered], f.sort).map((r) => r.piece), [filtered, f.sort]);
   const setTotals = useMemo(() => {
     const m = new Map<string, number>();
     for (const p of all) if (p.setKey) m.set(p.setKey, (m.get(p.setKey) ?? 0) + 1);
@@ -85,8 +81,7 @@ export function Explorer({ version, levels, total }: { version: string; levels: 
     for (const p of all) m.set(p.composer, (m.get(p.composer) ?? 0) + 1);
     return m;
   }, [all]);
-  const activeSort = f.q && !sortExplicit ? "relevance" : f.sort;
-  const grouping = activeSort === "composer" ? "composer" : activeSort === "level" ? "level" : null;
+  const grouping = f.sort === "composer" ? "composer" : f.sort === "level" ? "level" : null;
   const qPieces = useMemo(() => queried.map((r) => r.piece), [queried]);
   const counts = useMemo(
     () => ({
@@ -160,7 +155,7 @@ export function Explorer({ version, levels, total }: { version: string; levels: 
         <Finder f={f} update={update} levels={levels} counts={counts} />
       </section>
 
-      <Toolbar f={f} update={update} counts={counts} total={sorted.length} sortExplicit={sortExplicit} clearAll={clearAll} />
+      <Toolbar f={f} update={update} counts={counts} total={sorted.length} clearAll={clearAll} />
 
       {picks && (
         <section id="advisor-picks" className="picks" aria-label="Suggested by the advisor">

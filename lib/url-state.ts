@@ -5,10 +5,15 @@ const num = (v: string | null) => (v != null && v !== "" && Number.isFinite(Numb
 const oneOf = <T extends string>(v: string | null, allowed: readonly T[]): T | null =>
   v && (allowed as readonly string[]).includes(v) ? (v as T) : null;
 
+/** A search lists best matches first unless you pick another order; otherwise the list goes by composer. */
+export const defaultSort = (q: string): Filters["sort"] => (q.trim() ? "relevance" : EMPTY_FILTERS.sort);
+
 export function filtersFromParams(sp: URLSearchParams): Filters {
   const level = num(sp.get("lv"));
+  const q = sp.get("q") ?? "";
+  const sort = oneOf(sp.get("sort"), ["level", "composer", "length", "relevance"] as const);
   return {
-    q: sp.get("q") ?? "",
+    q,
     type: oneOf(sp.get("type"), TYPES.map((t) => t.key)),
     setting: oneOf(sp.get("set"), SETTINGS.map((s) => s.key)),
     level: level != null && level >= 1 && level <= 10 ? Math.round(level) : null,
@@ -22,7 +27,7 @@ export function filtersFromParams(sp: URLSearchParams): Filters {
     era: oneOf(sp.get("era"), ERAS.map((e) => e.key)),
     gender: oneOf(sp.get("g"), ["F", "M"] as const),
     board: sp.get("board") || null,
-    sort: oneOf(sp.get("sort"), ["level", "composer", "length", "relevance"] as const) ?? EMPTY_FILTERS.sort,
+    sort: sort && (sort !== "relevance" || q.trim()) ? sort : defaultSort(q),
   };
 }
 
@@ -47,7 +52,7 @@ export function paramsFromFilters(f: Filters, base: URLSearchParams): URLSearchP
   set("era", f.era);
   set("g", f.gender);
   set("board", f.board);
-  set("sort", f.sort === EMPTY_FILTERS.sort ? null : f.sort);
+  set("sort", f.sort === defaultSort(f.q) || (f.sort === "relevance" && !f.q.trim()) ? null : f.sort);
   return p;
 }
 

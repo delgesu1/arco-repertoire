@@ -391,14 +391,12 @@ export function Toolbar({
   update,
   counts,
   total,
-  sortExplicit,
   clearAll,
 }: {
   f: Filters;
   update: Update;
   counts: ToolbarCounts;
   total: number;
-  sortExplicit: boolean;
   clearAll: () => void;
 }) {
   // the box keeps its own text (so spaces survive while typing); the URL holds the query
@@ -429,7 +427,6 @@ export function Toolbar({
   const chips = activeChips(f, update, () => search(""));
   const narrowing = chips.some((c) => c.key !== "q");
 
-  const activeSort = f.q && !sortExplicit ? "relevance" : f.sort;
   const sorts: { key: Filters["sort"]; label: string }[] = [
     ...(f.q ? [{ key: "relevance" as const, label: "Best match" }] : []),
     { key: "composer", label: "Composer" },
@@ -510,7 +507,7 @@ export function Toolbar({
           </button>
           <SortMenu
             sorts={sorts}
-            active={activeSort}
+            active={f.sort}
             onPick={(s) => update({ sort: s })}
           />
         </div>
@@ -544,7 +541,7 @@ export function Toolbar({
           <div className="filter-sheet-body">
             <Group label="Sort">
               {sorts.map((s) => (
-                <Chip key={s.key} on={activeSort === s.key} onClick={() => update({ sort: s.key })}>
+                <Chip key={s.key} on={f.sort === s.key} onClick={() => update({ sort: s.key })}>
                   {s.label}
                 </Chip>
               ))}

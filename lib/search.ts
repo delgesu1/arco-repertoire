@@ -5,7 +5,8 @@ import { eraLabel, settingLabel, typeLabel, typeSingular } from "./vocab";
  * Search rules ported from the Sheet's "Finder calc" formula:
  * accents ignored, every word must match (any order), and catalogue numbers, keys and exam grades
  * are joined into single tokens ("op 35" → op35, "e minor" → eminor, "abrsm grade 7" → abrsmgr7).
- * Added for the site: prefix matching while typing, and title/composer hits rank first.
+ * Added for the site: prefix matching while typing, title/composer hits rank first, a bare number
+ * finds a catalogue number ("brahms 78" → Op. 78), and "violin" and filler words are optional.
  */
 export function fold(s: string): string {
   return s
@@ -18,8 +19,19 @@ export function fold(s: string): string {
     .toLowerCase();
 }
 
-const CATALOGUE =
-  /\b(op|no|nos|k|kv|bwv|rv|hwv|hob|sz|woo|ms|d|s|h|l|m|p|b|c|g|z|fp|jw|twv|gr|rcm|cap|nyssma|henle|book|vol|vwv|mwv)\.? ?(\d)/g;
+const PREFIXES =
+  "op|no|nos|k|kv|bwv|rv|hwv|hob|sz|woo|ms|d|s|h|l|m|p|b|c|g|z|fp|jw|twv|gr|rcm|cap|nyssma|henle|book|vol|vwv|mwv";
+const CATALOGUE = new RegExp(`\\b(${PREFIXES})\\.? ?(\\d)`, "g");
+const JOINED = new RegExp(` (?:${PREFIXES})(\\d+)`, "g");
+
+/** Appends the bare number of every catalogue token (" op78 no1 " → " op78 no1 78 1 "). */
+function withBareNumbers(s: string): string {
+  const nums = new Set([...s.matchAll(JOINED)].map((m) => m[1]));
+  return nums.size ? `${s}${[...nums].join(" ")} ` : s;
+}
+
+/** Every work here is for violin, so these words never rule a piece out (unless they're all you typed). */
+const OPTIONAL = new Set(["violin", "for", "and", "&", "the", "of", "in", "with", "by"]);
 
 export function normalize(s: string): string {
   return (
@@ -42,7 +54,8 @@ export function normalize(s: string): string {
   );
 }
 
-const FIELD_WEIGHTS = { title: 4, composer: 4, set: 2, rest: 1 } as const;
+// composer outranks title so "brahms violin concerto" puts his concerto above studies on it
+const FIELD_WEIGHTS = { title: 4, composer: 5, set: 2, rest: 1 } as const;
 
 export interface IndexedPiece {
   piece: Piece;
@@ -55,9 +68,9 @@ export function indexPieces(pieces: Piece[]): IndexedPiece[] {
     return {
       piece: p,
       fields: {
-        title: hyphenless(normalize(p.title)),
+        title: withBareNumbers(hyphenless(normalize(p.title))),
         composer: hyphenless(normalize(`${p.composer} ${p.composerName}`)),
-        set: p.set ? normalize(p.set) : " ",
+        set: p.set ? withBareNumbers(normalize(p.set)) : " ",
         rest: hyphenless(
           normalize(
             [
@@ -94,7 +107,9 @@ function hit(hay: string, tok: string, prefix: boolean): boolean {
 }
 
 export function queryTokens(q: string): string[] {
-  return normalize(q).trim().split(" ").filter(Boolean);
+  const all = normalize(q).trim().split(" ").filter(Boolean);
+  const required = all.filter((t) => !OPTIONAL.has(t));
+  return required.length ? required : all;
 }
 
 /** Returns score > 0 when every token matches somewhere; higher scores rank first. */
