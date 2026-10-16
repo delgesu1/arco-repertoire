@@ -47,6 +47,8 @@ Brief changes during the full run (made between waves, for problems several agen
   3. Accompanied keyboard sonatas whose first edition marks all the strings ad libitum: kept when recorded with the strings, with "Strings ad lib. in the first edition" at the start of `notes` (Avison, c08, kept them; Vanhal's Op. 12, c18, was skipped under the ad-lib rule).
   4. Renaissance and early-17th-century composers take the era `baroque` (the vocabulary has no earlier era; c01, c02).
   5. The budget counts tool calls: several agents stopped at 30–40 calls with composers left partial (c01 needed a follow-up).
+- After wave 4 (from c34 on): the Sources section tells agents that Apple and MusicBrainz answer 403/429 when about eight agents query at once: wait and retry, space requests, and never count a blocked lookup as "none found" (c31, c41).
+- Not changed, for the owner to rule on: a separate bass-viol or cello part beside the continuo is counted as a part by some agents (Purcell, Legrenzi, Gentili, Pez, Rebel, Williams) and folded into the continuo by others (Richter, Franceschini); phase 5 should settle it with the sources.
 
 ## Proposed order
 1. The owner's decisions of 2026-10-16 are in the brief and the census (`CENSUS.md`, "Decisions"): vocal works only as chamber music, viol consorts in (their own formation), contemporary and living composers in when they have a professional track record (Stephen W. Beatty left out: `data/chamber/excluded-composers.json`), the glass harmonica as a note, family-name-first names accepted.
