@@ -1,4 +1,4 @@
-import type { EraKey, Piece, SettingKey, TypeKey } from "./types";
+import type { EraKey, Piece, PieceBase, SettingKey, TypeKey } from "./types";
 
 export interface Filters {
   q: string;
@@ -37,11 +37,19 @@ export const EMPTY_FILTERS: Filters = {
 };
 
 type Facet = "type" | "setting" | "level" | "mode" | "pace" | "character" | "popularity" | "era" | "gender" | "board" | "length";
+/** the facets every section has (the chamber section adds its own: lib/chamber/filter.ts) */
+export type CommonFacet = Exclude<Facet, "type" | "setting" | "board">;
 
 /** All filters except `skip` — used for facet counts, so each option shows what you'd get by choosing it. */
 export function matches(p: Piece, f: Filters, skip?: Facet): boolean {
   if (skip !== "type" && f.type && p.type !== f.type) return false;
   if (skip !== "setting" && f.setting && !p.settings.includes(f.setting)) return false;
+  if (skip !== "board" && f.board && !p.examBoards.includes(f.board)) return false;
+  return matchesCommon(p, f, skip);
+}
+
+/** The filters every section shares: level, key, pace, character, popularity, length, era and composer. */
+export function matchesCommon(p: PieceBase, f: Filters, skip?: string): boolean {
   if (skip !== "level" && f.level != null) {
     if (f.exact ? p.level !== f.level : Math.abs(p.level - f.level) > 1) return false;
   }
@@ -55,7 +63,6 @@ export function matches(p: Piece, f: Filters, skip?: Facet): boolean {
   }
   if (skip !== "era" && f.era && p.era !== f.era) return false;
   if (skip !== "gender" && f.gender && p.gender !== f.gender) return false;
-  if (skip !== "board" && f.board && !p.examBoards.includes(f.board)) return false;
   return true;
 }
 
@@ -78,8 +85,8 @@ export function facetCounts<K extends string>(
 const collator = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
 export const compareTitle = (a: string, b: string) => collator.compare(a, b);
 
-export function sortPieces(list: { piece: Piece; score: number }[], sort: Filters["sort"]) {
-  const byComposerTitle = (a: Piece, b: Piece) =>
+export function sortPieces<P extends PieceBase>(list: { piece: P; score: number }[], sort: Filters["sort"]) {
+  const byComposerTitle = (a: P, b: P) =>
     collator.compare(a.composer, b.composer) || collator.compare(a.title, b.title);
   return list.sort((x, y) => {
     const a = x.piece;
@@ -97,15 +104,15 @@ export function sortPieces(list: { piece: Piece; score: number }[], sort: Filter
   });
 }
 
-export type ResultRow =
-  | { kind: "piece"; piece: Piece }
-  | { kind: "set"; key: string; name: string; composer: string; pieces: Piece[]; total: number };
+export type ResultRow<P extends PieceBase = Piece> =
+  | { kind: "piece"; piece: P }
+  | { kind: "set"; key: string; name: string; composer: string; pieces: P[]; total: number };
 
 /** Groups set members that appear together in the results; a lone member stays a normal row. */
-export function groupResults(sorted: Piece[], setTotals: Map<string, number>): ResultRow[] {
-  const bySet = new Map<string, Piece[]>();
+export function groupResults<P extends PieceBase>(sorted: P[], setTotals: Map<string, number>): ResultRow<P>[] {
+  const bySet = new Map<string, P[]>();
   for (const p of sorted) if (p.setKey) bySet.set(p.setKey, [...(bySet.get(p.setKey) ?? []), p]);
-  const rows: ResultRow[] = [];
+  const rows: ResultRow<P>[] = [];
   const emitted = new Set<string>();
   for (const p of sorted) {
     const members = p.setKey ? bySet.get(p.setKey)! : null;

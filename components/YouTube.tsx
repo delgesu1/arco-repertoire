@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import type { Piece } from "@/lib/types";
+import type { PieceBase } from "@/lib/types";
 import { ExternalIcon } from "./icons";
 import { youtubeSearch } from "./pieces";
 
 /** Lightweight YouTube facade: thumbnail first, the iframe only loads when played. */
-export function YouTube({ piece, autoplay = false }: { piece: Piece; autoplay?: boolean }) {
+export function YouTube({ piece, autoplay = false }: { piece: PieceBase; autoplay?: boolean }) {
   const rec = piece.recording;
   const ids = rec ? [rec.id, ...rec.alternates] : [];
   const [which, setWhich] = useState(0);

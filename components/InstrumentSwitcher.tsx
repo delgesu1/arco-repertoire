@@ -1,13 +1,27 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { CHAMBER_LIVE, isChamberPath } from "@/lib/chamber/launch";
 
 const SOON = ["Viola", "Cello", "Double bass", "Piano", "Flute", "Guitar"];
 
-/** Violin today; the other instruments are listed but not selectable yet. */
+const Check = () => (
+  <svg viewBox="0 0 16 16" aria-hidden="true">
+    <path d="M3.5 8.5l3 3 6-7" stroke="currentColor" strokeWidth="1.8" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+/**
+ * Violin, the instruments still to come, and under "Ensembles" the chamber section. Until the chamber section launches
+ * (lib/chamber/launch.ts) the violin pages keep the menu without it; the chamber pages already show it.
+ */
 export function InstrumentSwitcher() {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+  const chamber = isChamberPath(usePathname() ?? "/");
+  const ensembles = CHAMBER_LIVE || chamber;
   useEffect(() => {
     if (!open) return;
     const close = (e: MouseEvent) => !ref.current?.contains(e.target as Node) && setOpen(false);
@@ -23,22 +37,56 @@ export function InstrumentSwitcher() {
   return (
     <div className="instrument" ref={ref}>
       <button className="instrument-btn" aria-haspopup="menu" aria-expanded={open} onClick={() => setOpen(!open)}>
-        Violin
+        {chamber ? (
+          <span>
+            Chamber<span className="instrument-full"> music</span>
+          </span>
+        ) : (
+          "Violin"
+        )}
       </button>
       {open && (
         <div className="instrument-menu" role="menu" aria-label="Instrument">
-          <div className="instrument-item current" role="menuitemradio" aria-checked="true">
-            <span>Violin</span>
-            <svg viewBox="0 0 16 16" aria-hidden="true">
-              <path d="M3.5 8.5l3 3 6-7" stroke="currentColor" strokeWidth="1.8" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </div>
+          {chamber ? (
+            <Link className="instrument-item link" href="/" role="menuitemradio" aria-checked="false" onClick={() => setOpen(false)}>
+              <span>Violin</span>
+            </Link>
+          ) : (
+            <div className="instrument-item current" role="menuitemradio" aria-checked="true">
+              <span>Violin</span>
+              <Check />
+            </div>
+          )}
           {SOON.map((name) => (
             <div key={name} className="instrument-item" role="menuitemradio" aria-checked="false" aria-disabled="true">
               <span>{name}</span>
               <small>Coming soon</small>
             </div>
           ))}
+          {ensembles && (
+            <>
+              <div className="instrument-sep" role="separator">
+                Ensembles
+              </div>
+              {chamber ? (
+                <div className="instrument-item current" role="menuitemradio" aria-checked="true">
+                  <span>Chamber music</span>
+                  <Check />
+                </div>
+              ) : (
+                <Link
+                  className="instrument-item link"
+                  href="/chamber"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  onClick={() => setOpen(false)}
+                >
+                  <span>Chamber music</span>
+                  <small>3–9 players</small>
+                </Link>
+              )}
+            </>
+          )}
         </div>
       )}
     </div>

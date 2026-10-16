@@ -23,9 +23,11 @@ type ToolbarCounts = {
   popularity: Counts;
   era: Counts;
   gender: Counts;
-  board: Counts;
+  board?: Counts;
 };
 type Update = (p: Partial<Filters>) => void;
+/** an active filter shown as a removable chip */
+export type ActiveChip = { key: string; label: string; remove: () => void };
 
 function Chip({
   on,
@@ -242,10 +244,12 @@ function MorePanel({
   f,
   update,
   counts,
+  examBoards,
 }: {
   f: Filters;
   update: Update;
   counts: ToolbarCounts;
+  examBoards: boolean;
 }) {
   return (
     <>
@@ -277,18 +281,20 @@ function MorePanel({
           Men composers
         </Chip>
       </Group>
-      <Group label="Exam lists">
-        {EXAM_BOARDS.map((b) => (
-          <Chip
-            key={b}
-            on={f.board === b}
-            count={counts.board.get(b) ?? 0}
-            onClick={() => update({ board: f.board === b ? null : b })}
-          >
-            {b}
-          </Chip>
-        ))}
-      </Group>
+      {examBoards && (
+        <Group label="Exam lists">
+          {EXAM_BOARDS.map((b) => (
+            <Chip
+              key={b}
+              on={f.board === b}
+              count={counts.board?.get(b) ?? 0}
+              onClick={() => update({ board: f.board === b ? null : b })}
+            >
+              {b}
+            </Chip>
+          ))}
+        </Group>
+      )}
     </>
   );
 }
@@ -298,8 +304,9 @@ function activeChips(
   f: Filters,
   update: Update,
   clearQ: () => void,
-): { key: string; label: string; remove: () => void }[] {
-  const out: { key: string; label: string; remove: () => void }[] = [];
+  sectionChips: ActiveChip[],
+): ActiveChip[] {
+  const out: ActiveChip[] = [];
   if (f.q.trim())
     out.push({ key: "q", label: `“${f.q.trim()}”`, remove: clearQ });
   if (f.type)
@@ -314,6 +321,7 @@ function activeChips(
       label: SETTINGS.find((s) => s.key === f.setting)!.label,
       remove: () => update({ setting: null }),
     });
+  out.push(...sectionChips);
   if (f.level != null) {
     const label = f.exact
       ? `Level ${f.level}`
@@ -392,12 +400,21 @@ export function Toolbar({
   counts,
   total,
   clearAll,
+  sectionChips = [],
+  examBoards = true,
+  example = "“op 35”",
 }: {
   f: Filters;
   update: Update;
   counts: ToolbarCounts;
   total: number;
   clearAll: () => void;
+  /** chips for the section's own filters (the chamber list's form, ensemble and instruments), shown after the search */
+  sectionChips?: ActiveChip[];
+  /** the "Exam lists" filter (violin only) */
+  examBoards?: boolean;
+  /** what the search box suggests typing, after "composer, title" */
+  example?: string;
 }) {
   // the box keeps its own text (so spaces survive while typing); the URL holds the query
   const [q, setQ] = useState(f.q);
@@ -424,7 +441,7 @@ export function Toolbar({
     (f.popularity ? 1 : 0);
   const lengthCount = f.minMin != null || f.maxMin != null ? 1 : 0;
   const moreCount = (f.era ? 1 : 0) + (f.gender ? 1 : 0) + (f.board ? 1 : 0);
-  const chips = activeChips(f, update, () => search(""));
+  const chips = activeChips(f, update, () => search(""), sectionChips);
   const narrowing = chips.some((c) => c.key !== "q");
 
   const sorts: { key: Filters["sort"]; label: string }[] = [
@@ -468,7 +485,7 @@ export function Toolbar({
                     : `Search within these ${total.toLocaleString("en")} works…`
                   : narrow
                     ? "Search composer, title…"
-                    : "Search composer, title, “op 35”…"
+                    : `Search composer, title, ${example}…`
               }
               aria-label="Search the repertoire"
             />
@@ -492,7 +509,7 @@ export function Toolbar({
               <LengthPanel f={f} update={update} />
             </Popover>
             <Popover label="More" badge={moreCount} align="right">
-              <MorePanel f={f} update={update} counts={counts} />
+              <MorePanel f={f} update={update} counts={counts} examBoards={examBoards} />
             </Popover>
           </div>
           <button
@@ -548,7 +565,7 @@ export function Toolbar({
             </Group>
             <CharacterPanel f={f} update={update} counts={counts} />
             <LengthPanel f={f} update={update} />
-            <MorePanel f={f} update={update} counts={counts} />
+            <MorePanel f={f} update={update} counts={counts} examBoards={examBoards} />
           </div>
         </div>
       )}

@@ -1,7 +1,7 @@
 "use client";
 
-import { Fragment, useEffect, useRef, useState } from "react";
-import type { LevelInfo, Piece } from "@/lib/types";
+import { Fragment, useEffect, useRef, useState, type ReactNode } from "react";
+import type { LevelInfo, Piece, PieceBase } from "@/lib/types";
 import type { Filters, ResultRow } from "@/lib/filter";
 import { resultsHeading, settingLabel as settingName, typeSingular } from "@/lib/vocab";
 import { LevelPebbles, durationRange } from "./pieces";
@@ -9,11 +9,35 @@ import { Row } from "./Row";
 
 export type Grouping = "composer" | "level" | null;
 
-const firstPiece = (r: ResultRow) => (r.kind === "piece" ? r.piece : r.pieces[0]);
-const rowLevel = (r: ResultRow) => (r.kind === "piece" ? r.piece.level : Math.min(...r.pieces.map((p) => p.level)));
-const groupKey = (r: ResultRow, g: Grouping) => (g === "composer" ? firstPiece(r).composer : g === "level" ? String(rowLevel(r)) : "");
+/** How a section draws its rows; the violin list's is the default. */
+export interface RowStyle<P extends PieceBase> {
+  className?: string; // on the column heads and the list ("ch" for chamber)
+  columns: string[];
+  row: (p: P, o: { onOpen: (p: P, play?: boolean) => void; showComposer: boolean; member?: boolean }) => ReactNode;
+  setMeta: (ps: P[]) => ReactNode; // the second column of a set's row
+  composerHref: (p: P) => string | null; // "See all" under a composer heading
+}
 
-export function Results({
+const VIOLIN_ROWS: RowStyle<Piece> = {
+  columns: ["Work", "Type", "Length", "Character", "Level", ""],
+  row: (p, o) => (
+    <Row piece={p} onOpen={o.onOpen} onPlay={(x) => o.onOpen(x, true)} showComposer={o.showComposer} member={o.member} />
+  ),
+  setMeta: (ps) => (
+    <>
+      <b>{typeSingular(ps[0].type)}</b>
+      {settingName(ps[0].settings[0])}
+    </>
+  ),
+  composerHref: (p) => `/composer/${p.composerSlug}`,
+};
+
+const firstPiece = <P extends PieceBase>(r: ResultRow<P>) => (r.kind === "piece" ? r.piece : r.pieces[0]);
+const rowLevel = <P extends PieceBase>(r: ResultRow<P>) => (r.kind === "piece" ? r.piece.level : Math.min(...r.pieces.map((p) => p.level)));
+const groupKey = <P extends PieceBase>(r: ResultRow<P>, g: Grouping) =>
+  g === "composer" ? firstPiece(r).composer : g === "level" ? String(rowLevel(r)) : "";
+
+export function Results<P extends PieceBase = Piece>({
   loading,
   rows,
   total,
@@ -24,9 +48,11 @@ export function Results({
   grouping,
   levels,
   composerTotals,
+  heading = resultsHeading(f.type, f.setting),
+  rowStyle = VIOLIN_ROWS as unknown as RowStyle<P>,
 }: {
   loading: boolean;
-  rows: ResultRow[];
+  rows: ResultRow<P>[];
   total: number;
   shown: number;
   more: () => void;
@@ -34,7 +60,9 @@ export function Results({
   grouping: Grouping;
   levels: LevelInfo[];
   composerTotals: Map<string, number>;
-  onOpen: (p: Piece, play?: boolean) => void;
+  onOpen: (p: P, play?: boolean) => void;
+  heading?: string;
+  rowStyle?: RowStyle<P>;
 }) {
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
   const sentinel = useRef<HTMLDivElement>(null);
@@ -45,8 +73,6 @@ export function Results({
     io.observe(el);
     return () => io.disconnect();
   }, [more, rows.length, shown]);
-
-  const heading = resultsHeading(f.type, f.setting);
 
   const groupCounts = new Map<string, number>();
   if (grouping)
@@ -65,16 +91,13 @@ export function Results({
       </div>
 
       {!loading && rows.length > 0 && (
-        <div className="colhead" aria-hidden="true">
-          <span>Work</span>
-          <span>Type</span>
-          <span>Length</span>
-          <span>Character</span>
-          <span>Level</span>
-          <span />
+        <div className={`colhead${rowStyle.className ? ` ${rowStyle.className}` : ""}`} aria-hidden="true">
+          {rowStyle.columns.map((c, i) => (
+            <span key={i}>{c}</span>
+          ))}
         </div>
       )}
-      <div className={`list${grouping ? " grouped" : ""}`}>
+      <div className={`list${grouping ? " grouped" : ""}${rowStyle.className ? ` ${rowStyle.className}` : ""}`}>
         {loading &&
           Array.from({ length: 8 }, (_, i) => <div key={i} className="skeleton-row" />)}
         {!loading && rows.length === 0 && (
@@ -96,12 +119,14 @@ export function Results({
                   level={levels.find((l) => String(l.level) === k)}
                   count={groupCounts.get(k) ?? 0}
                   composerTotal={composerTotals.get(firstPiece(r).composer) ?? 0}
+                  composerHref={rowStyle.composerHref(firstPiece(r))}
                 />
               )}
               {r.kind === "piece" ? (
-                <Row piece={r.piece} onOpen={onOpen} onPlay={(p) => onOpen(p, true)} showComposer={grouping !== "composer"} />
+                rowStyle.row(r.piece, { onOpen, showComposer: grouping !== "composer" })
               ) : (
                 <SetRow
+                  rowStyle={rowStyle}
                   row={r}
                   showComposer={grouping !== "composer"}
                   open={expanded.has(r.key)}
@@ -135,12 +160,14 @@ function GroupHead({
   level,
   count,
   composerTotal,
+  composerHref,
 }: {
   grouping: Grouping;
-  piece: Piece;
+  piece: PieceBase;
   level?: LevelInfo;
   count: number;
   composerTotal: number;
+  composerHref: string | null;
 }) {
   if (grouping === "level" && level) {
     return (
@@ -158,8 +185,8 @@ function GroupHead({
     <div className="ghead">
       <h3>{piece.composer}</h3>
       <span>{[piece.dates, piece.nationality, composerTotal > count ? `${count} of ${composerTotal} works` : `${count} ${count === 1 ? "work" : "works"}`].filter(Boolean).join(" · ")}</span>
-      {composerTotal > count && (
-        <a className="link-underline" href={`/composer/${piece.composerSlug}`}>
+      {composerTotal > count && composerHref && (
+        <a className="link-underline" href={composerHref}>
           See all {composerTotal}
         </a>
       )}
@@ -167,18 +194,20 @@ function GroupHead({
   );
 }
 
-function SetRow({
+function SetRow<P extends PieceBase>({
   row,
   open,
   toggle,
   onOpen,
   showComposer,
+  rowStyle,
 }: {
-  row: Extract<ResultRow, { kind: "set" }>;
+  row: Extract<ResultRow<P>, { kind: "set" }>;
   open: boolean;
   toggle: () => void;
-  onOpen: (p: Piece, play?: boolean) => void;
+  onOpen: (p: P, play?: boolean) => void;
   showComposer: boolean;
+  rowStyle: RowStyle<P>;
 }) {
   const ps = row.pieces;
   const mins = durationRange(ps);
@@ -203,10 +232,7 @@ function SetRow({
             {showComposer && ` · ${row.composer}`}
           </div>
         </div>
-        <div className="meta">
-          <b>{typeSingular(ps[0].type)}</b>
-          {settingName(ps[0].settings[0])}
-        </div>
+        <div className="meta">{rowStyle.setMeta(ps)}</div>
         <div className="dur">
           {mins ? (
             <>
@@ -237,8 +263,7 @@ function SetRow({
           <i />
         </button>
       </div>
-      {open &&
-        ps.map((p) => <Row key={p.id} piece={p} onOpen={onOpen} onPlay={(x) => onOpen(x, true)} showComposer={false} member />)}
+      {open && ps.map((p) => <Fragment key={p.id}>{rowStyle.row(p, { onOpen, showComposer: false, member: true })}</Fragment>)}
     </div>
   );
 }

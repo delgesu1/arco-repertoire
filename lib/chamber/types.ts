@@ -1,4 +1,4 @@
-import type { EraKey, Popularity } from "../types";
+import type { EraKey, LevelInfo, PieceBase, Popularity, SectionKey } from "../types";
 
 /** who plays: the chamber section's main facet (the violin section's "setting") */
 export type FormationKey =
@@ -91,4 +91,31 @@ export interface ChamberComposer {
   nationality: string;
   gender: "F" | "M" | "";
   era: EraKey;
+}
+
+export type Instrumentation = Partial<Record<InstrumentKey, number>>;
+
+/** The chamber facets of a work as the site shows it (scripts/build-chamber.ts copies them from the work record). */
+export interface ChamberFacts {
+  formation: FormationKey;
+  instruments: Instrumentation;
+  alternatives?: Partial<Record<InstrumentKey, InstrumentKey[]>>;
+  optional?: Instrumentation;
+  players: number;
+  form: FormKey;
+  hardestPart: HardestPart;
+  year: string;
+  aka?: string[];
+}
+
+/** A work in the chamber section (public/data/chamber.json). A work also in the violin catalogue keeps its violin id and address. */
+export interface ChamberPiece extends PieceBase {
+  chamber: ChamberFacts;
+  sections: SectionKey[];
+}
+
+export interface ChamberCatalogue {
+  version: string;
+  levels: LevelInfo[];
+  pieces: ChamberPiece[];
 }

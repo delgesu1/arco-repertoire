@@ -1,4 +1,4 @@
-import type { Piece } from "./types";
+import type { Piece, PieceBase } from "./types";
 import { eraLabel, settingLabel, typeLabel, typeSingular } from "./vocab";
 
 /**
@@ -7,6 +7,7 @@ import { eraLabel, settingLabel, typeLabel, typeSingular } from "./vocab";
  * are joined into single tokens ("op 35" → op35, "e minor" → eminor, "abrsm grade 7" → abrsmgr7).
  * Added for the site: prefix matching while typing, title/composer hits rank first, a bare number
  * finds a catalogue number ("brahms 78" → Op. 78), and "violin" and filler words are optional.
+ * A work's other names ("Der Tod und das Mädchen", "Forellenquintett") count as much as its title.
  */
 export function fold(s: string): string {
   return s
@@ -30,8 +31,11 @@ function withBareNumbers(s: string): string {
   return nums.size ? `${s}${[...nums].join(" ")} ` : s;
 }
 
-/** Every work here is for violin, so these words never rule a piece out (unless they're all you typed). */
-const OPTIONAL = new Set(["violin", "for", "and", "&", "the", "of", "in", "with", "by"]);
+/** Filler words never rule a piece out (unless they're all you typed); in the violin list, neither does "violin". */
+const FILLER = ["for", "and", "&", "the", "of", "in", "with", "by"];
+const OPTIONAL = new Set(["violin", ...FILLER]);
+/** the chamber list: "violin" is an instrument like any other there */
+export const CHAMBER_OPTIONAL = new Set(FILLER);
 
 export function normalize(s: string): string {
   return (
@@ -55,43 +59,47 @@ export function normalize(s: string): string {
 }
 
 // composer outranks title so "brahms violin concerto" puts his concerto above studies on it
-const FIELD_WEIGHTS = { title: 4, composer: 5, set: 2, rest: 1 } as const;
+const FIELD_WEIGHTS = { title: 4, aka: 4, composer: 5, set: 2, rest: 1 } as const;
 
-export interface IndexedPiece {
-  piece: Piece;
-  fields: { title: string; composer: string; set: string; rest: string };
+export interface IndexedPiece<P extends PieceBase = Piece> {
+  piece: P;
+  fields: { title: string; aka: string; composer: string; set: string; rest: string };
 }
 
-export function indexPieces(pieces: Piece[]): IndexedPiece[] {
+const hyphenless = (s: string) => s + s.replace(/-/g, " ");
+
+/** Indexes any section's works: `rest` is the section's own descriptive words (type, setting, scoring …). */
+export function indexWorks<P extends PieceBase>(pieces: P[], rest: (p: P) => string[], aka: (p: P) => string[] = () => []): IndexedPiece<P>[] {
   return pieces.map((p) => {
-    const hyphenless = (s: string) => s + s.replace(/-/g, " ");
+    const other = aka(p);
     return {
       piece: p,
       fields: {
         title: withBareNumbers(hyphenless(normalize(p.title))),
+        aka: other.length ? withBareNumbers(hyphenless(normalize(other.join(" · ")))) : " ",
         composer: hyphenless(normalize(`${p.composer} ${p.composerName}`)),
         set: p.set ? withBareNumbers(normalize(p.set)) : " ",
-        rest: hyphenless(
-          normalize(
-            [
-              typeLabel(p.type),
-              typeSingular(p.type),
-              eraLabel(p.era),
-              ...p.settings.map(settingLabel),
-              p.accompaniment,
-              p.nationality,
-              p.mode ?? "",
-              p.pace ?? "",
-              ...p.character,
-              p.popularity ?? "",
-              p.notes,
-              p.exams,
-            ].join(" "),
-          ),
-        ),
+        rest: hyphenless(normalize(rest(p).join(" "))),
       },
     };
-  }) as IndexedPiece[];
+  });
+}
+
+export function indexPieces(pieces: Piece[]): IndexedPiece[] {
+  return indexWorks(pieces, (p) => [
+    typeLabel(p.type),
+    typeSingular(p.type),
+    eraLabel(p.era),
+    ...p.settings.map(settingLabel),
+    p.accompaniment,
+    p.nationality,
+    p.mode ?? "",
+    p.pace ?? "",
+    ...p.character,
+    p.popularity ?? "",
+    p.notes,
+    p.exams,
+  ]);
 }
 
 /** Does the normalized haystack contain the token at a word start? Tokens ending in a digit must match whole. */
@@ -106,21 +114,21 @@ function hit(hay: string, tok: string, prefix: boolean): boolean {
   }
 }
 
-export function queryTokens(q: string): string[] {
+export function queryTokens(q: string, optional: Set<string> = OPTIONAL): string[] {
   const all = normalize(q).trim().split(" ").filter(Boolean);
-  const required = all.filter((t) => !OPTIONAL.has(t));
+  const required = all.filter((t) => !optional.has(t));
   return required.length ? required : all;
 }
 
 /** Returns score > 0 when every token matches somewhere; higher scores rank first. */
-export function scorePiece(ix: IndexedPiece, tokens: string[]): number {
+export function scorePiece<P extends PieceBase>(ix: IndexedPiece<P>, tokens: string[]): number {
   if (!tokens.length) return 1;
   let score = 0;
   tokens.forEach((tok, i) => {
     if (score < 0) return;
     const isLast = i === tokens.length - 1;
     let best = 0;
-    for (const [k, w] of Object.entries(FIELD_WEIGHTS) as [keyof IndexedPiece["fields"], number][]) {
+    for (const [k, w] of Object.entries(FIELD_WEIGHTS) as [keyof IndexedPiece<P>["fields"], number][]) {
       if (hit(ix.fields[k], tok, isLast) || (tok.length >= 3 && hit(ix.fields[k], tok, true))) {
         best = Math.max(best, w);
       }
@@ -131,9 +139,9 @@ export function scorePiece(ix: IndexedPiece, tokens: string[]): number {
   return score;
 }
 
-export function search(index: IndexedPiece[], q: string): { piece: Piece; score: number }[] {
-  const tokens = queryTokens(q);
-  const out: { piece: Piece; score: number }[] = [];
+export function search<P extends PieceBase>(index: IndexedPiece<P>[], q: string, optional?: Set<string>): { piece: P; score: number }[] {
+  const tokens = queryTokens(q, optional);
+  const out: { piece: P; score: number }[] = [];
   for (const ix of index) {
     const s = scorePiece(ix, tokens);
     if (s > 0) out.push({ piece: ix.piece, score: s });

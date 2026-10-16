@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import type { LevelInfo, Piece } from "@/lib/types";
+import { useEffect, useRef, type ReactNode } from "react";
+import type { LevelInfo, Piece, PieceBase } from "@/lib/types";
 import { PieceDetail } from "./PieceDetail";
 import { ExternalIcon } from "./icons";
 import { pieceHref } from "./pieces";
@@ -23,6 +23,15 @@ export function Sheet({
   onOpen: (p: Piece) => void;
   onAsk?: (p: Piece) => void;
 }) {
+  return (
+    <SheetFrame piece={piece} onClose={onClose}>
+      <PieceDetail piece={piece} all={all} levels={levels} onOpen={onOpen} onAsk={onAsk} autoplay={autoplay} />
+    </SheetFrame>
+  );
+}
+
+/** The side sheet a piece opens in over the list (focus kept inside, Escape closes); any section's detail goes inside. */
+export function SheetFrame({ piece, onClose, children }: { piece: PieceBase; onClose: () => void; children: ReactNode }) {
   const panel = useRef<HTMLDivElement>(null);
   const returnTo = useRef<Element | null>(null);
 
@@ -69,7 +78,7 @@ export function Sheet({
             ×
           </button>
         </div>
-        <PieceDetail piece={piece} all={all} levels={levels} onOpen={onOpen} onAsk={onAsk} autoplay={autoplay} />
+        {children}
       </div>
     </>
   );

@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { isChamberPath } from "@/lib/chamber/launch";
 import { writeUrl } from "@/lib/url-state";
 import { InstrumentSwitcher } from "./InstrumentSwitcher";
 
@@ -38,7 +39,11 @@ export function Header() {
   const router = useRouter();
   const sp = useSearchParams();
   const onHome = pathname === "/";
-  const urlQ = onHome ? (sp.get("q") ?? "") : "";
+  // the chamber section has its own list (/chamber) and piece pages (ids from 100001), and no advisor yet
+  const chamber = isChamberPath(pathname ?? "/");
+  const onList = onHome || pathname === "/chamber";
+  const listPath = chamber ? "/chamber" : "/";
+  const urlQ = onList ? (sp.get("q") ?? "") : "";
   const [q, setQ] = useState(urlQ);
   const [lastUrlQ, setLastUrlQ] = useState(urlQ);
   const input = useRef<HTMLInputElement>(null);
@@ -68,7 +73,7 @@ export function Header() {
 
   const change = (v: string) => {
     setQ(v);
-    if (onHome) {
+    if (onList) {
       const p = new URLSearchParams(window.location.search);
       if (v.trim()) p.set("q", v);
       else p.delete("q");
@@ -86,7 +91,7 @@ export function Header() {
           </Link>
           <InstrumentSwitcher />
         </div>
-        {onHome ? (
+        {onList ? (
           <div className="search-spacer" />
         ) : (
           <form
@@ -94,9 +99,9 @@ export function Header() {
             role="search"
             onSubmit={(e) => {
               e.preventDefault();
-              if (!onHome)
+              if (!onList)
                 router.push(
-                  q.trim() ? `/?q=${encodeURIComponent(q.trim())}` : "/",
+                  q.trim() ? `${listPath}?q=${encodeURIComponent(q.trim())}` : listPath,
                 );
               else input.current?.blur();
             }}
@@ -144,16 +149,18 @@ export function Header() {
           <a className="byline" href="https://www.kurganov.org" target="_blank" rel="noopener">
             Created by <b>Daniel Kurganov</b>
           </a>
-          <button
-            className="btn-ink ask-btn"
-            onClick={() =>
-              onHome
-                ? window.dispatchEvent(new Event("advisor:open"))
-                : router.push("/?ask=1")
-            }
-          >
-            Ask
-          </button>
+          {!chamber && (
+            <button
+              className="btn-ink ask-btn"
+              onClick={() =>
+                onHome
+                  ? window.dispatchEvent(new Event("advisor:open"))
+                  : router.push("/?ask=1")
+              }
+            >
+              Ask
+            </button>
+          )}
           <ThemeToggle />
         </div>
       </div>

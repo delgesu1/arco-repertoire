@@ -6,6 +6,9 @@ import type { Filters } from "@/lib/filter";
 import { SETTINGS, TYPES, levelPhrase, settingPhrase, typePhrase } from "@/lib/vocab";
 import type { Counts } from "./Explorer";
 
+/** a menu option, or a small heading over a group of options */
+export type PickOption = { value: string | null; label: string; count?: number } | { heading: string };
+
 export function Pick({
   label,
   options,
@@ -15,7 +18,7 @@ export function Pick({
 }: {
   tone: "a" | "b" | "c";
   label: string;
-  options: { value: string | null; label: string; count?: number }[];
+  options: PickOption[];
   value: string | null;
   onChange: (v: string | null) => void;
 }) {
@@ -39,21 +42,27 @@ export function Pick({
       </button>
       {open && (
         <div className="menu" role="listbox">
-          {options.map((o) => (
-            <button
-              key={o.value ?? "any"}
-              role="option"
-              aria-selected={o.value === value}
-              disabled={o.count === 0 && o.value !== value}
-              onClick={() => {
-                onChange(o.value);
-                setOpen(false);
-              }}
-            >
-              <span>{o.label}</span>
-              {o.count !== undefined && <span className="count">{o.count}</span>}
-            </button>
-          ))}
+          {options.map((o) =>
+            "heading" in o ? (
+              <div key={`h-${o.heading}`} className="mgrp" role="presentation">
+                {o.heading}
+              </div>
+            ) : (
+              <button
+                key={o.value ?? "any"}
+                role="option"
+                aria-selected={o.value === value}
+                disabled={o.count === 0 && o.value !== value}
+                onClick={() => {
+                  onChange(o.value);
+                  setOpen(false);
+                }}
+              >
+                <span>{o.label}</span>
+                {o.count !== undefined && <span className="count">{o.count}</span>}
+              </button>
+            ),
+          )}
         </div>
       )}
     </span>
@@ -71,7 +80,6 @@ export function Finder({
   levels: LevelInfo[];
   counts: { type: Counts; setting: Counts; level: Counts };
 }) {
-  const lvl = f.level ? levels.find((l) => l.level === f.level) : null;
   const sp = settingPhrase(f.setting);
   const lp = levelPhrase(f.level, f.exact);
   const totalTypes = [...counts.type.values()].reduce((a, b) => a + b, 0);
@@ -118,10 +126,30 @@ export function Finder({
         />
       </div>
 
+      <LevelPicker f={f} update={update} levels={levels} counts={counts.level} />
+    </section>
+  );
+}
+
+/** The ten level bars under the sentence and the line under them ("levels 4–6 · exact"). */
+export function LevelPicker({
+  f,
+  update,
+  levels,
+  counts,
+}: {
+  f: { level: number | null; exact: boolean };
+  update: (p: Partial<Filters>) => void;
+  levels: LevelInfo[];
+  counts: Counts;
+}) {
+  const lvl = f.level ? levels.find((l) => l.level === f.level) : null;
+  return (
+    <>
       <div className={`levels${f.level ? "" : " any"}`} role="group" aria-label="Level">
         {levels.map((l) => {
           const inRange = f.level != null && (f.exact ? l.level === f.level : Math.abs(l.level - f.level) <= 1);
-          const n = counts.level.get(String(l.level)) ?? 0;
+          const n = counts.get(String(l.level)) ?? 0;
           return (
             <button
               key={l.level}
@@ -154,6 +182,6 @@ export function Finder({
           </span>
         )}
       </div>
-    </section>
+    </>
   );
 }

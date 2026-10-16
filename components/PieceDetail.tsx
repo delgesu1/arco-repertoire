@@ -1,4 +1,4 @@
-import type { LevelInfo, Piece } from "@/lib/types";
+import type { LevelInfo, Piece, PieceBase } from "@/lib/types";
 import { eraLabel, settingLabel, typeSingular } from "@/lib/vocab";
 import { compareTitle, ladder } from "@/lib/filter";
 import { LevelBadge, imslpLink, tagList } from "./pieces";
@@ -12,7 +12,7 @@ export const CORRECTION_FORM =
   process.env.NEXT_PUBLIC_CORRECTION_FORM ??
   "https://docs.google.com/forms/d/e/1FAIpQLScB_jFobdua9buNeAHamNBGlBNYyhpgI08cRYYYExH_IvlSgg/viewform?usp=pp_url&entry.1265343379={id}&entry.1865410765={piece}";
 
-function correctionUrl(p: Piece) {
+export function correctionUrl(p: PieceBase) {
   if (!CORRECTION_FORM) return null;
   return CORRECTION_FORM.replace("{id}", encodeURIComponent(String(p.id))).replace(
     "{piece}",

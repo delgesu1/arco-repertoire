@@ -5,8 +5,11 @@ import type { LevelInfo } from "@/lib/types";
 import { LevelBadge } from "./pieces";
 import { isPlainClick } from "./Row";
 
-/** "How the 10 levels work": a small popover with the scale; picking a level filters to it. */
-export function LevelsInfo({ levels, onPick }: { levels: LevelInfo[]; onPick: (level: number) => void }) {
+const NOTE =
+  "Each work is graded as a whole, from early intermediate to extreme virtuoso. Levels are teaching estimates, cross-checked against exam syllabi; single movements often sit lower than the complete work.";
+
+/** "How the 10 levels work": a small popover with the scale; picking a level filters to it. A section may say what a level means there. */
+export function LevelsInfo({ levels, onPick, note = NOTE }: { levels: LevelInfo[]; onPick: (level: number) => void; note?: string }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLSpanElement>(null);
   useEffect(() => {
@@ -37,10 +40,7 @@ export function LevelsInfo({ levels, onPick }: { levels: LevelInfo[]; onPick: (l
       </a>
       {open && (
         <div className="levels-pop" role="dialog" aria-label="How the levels work">
-          <p>
-            Each work is graded as a whole, from early intermediate to extreme virtuoso. Levels are teaching estimates,
-            cross-checked against exam syllabi; single movements often sit lower than the complete work.
-          </p>
+          <p>{note}</p>
           <ol>
             {levels.map((l) => (
               <li key={l.level}>

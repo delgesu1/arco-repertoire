@@ -23,6 +23,15 @@ npx tsx scripts/build-data.ts
 
 This writes `public/data/catalogue.json`, `data/build/catalogue.json` and the advisor's catalogue in `lib/advisor/catalogue-text.ts`. Commit the results and push.
 
+The chamber music section (built, hidden until launch: [docs/chamber-music-plan.md](docs/chamber-music-plan.md)) keeps its works in `data/chamber/works.json`. After editing them, check and rebuild its data; the build takes composer details and the works listed in both sections from the violin catalogue, so it runs after `build-data.ts`:
+
+```bash
+npx tsx scripts/chamber/check.ts
+npx tsx scripts/build-chamber.ts
+```
+
+This writes `public/data/chamber.json` and `data/build/chamber.json`. `lib/chamber/launch.ts` is the launch switch (it adds the section to the instrument switcher, the sitemap and composer pages, and drops its noindex); `NEXT_PUBLIC_CHAMBER_LIVE=1` previews the launched site locally.
+
 Other scripts in `scripts/` (recordings, character tags, popularity) call the Claude API and are run occasionally, not on every build.
 
 The expansion of October 2026 (about 900 works for 52 composers) was produced with the tools in `scripts/expand/`; what changed, what was left out and how it was checked is written up in [docs/catalogue-expansion-2026-10.md](docs/catalogue-expansion-2026-10.md).

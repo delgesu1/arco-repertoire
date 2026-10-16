@@ -1,4 +1,4 @@
-import type { Piece } from "@/lib/types";
+import type { PieceBase } from "@/lib/types";
 import { arcoUrl } from "@/lib/arco";
 import { ExternalIcon } from "./icons";
 
@@ -12,7 +12,7 @@ const STUDY_SETS: Record<string, string> = {
 };
 
 /** One quiet line under a piece: Arco begins after the choice of piece, with the lessons on it. */
-export function ArcoLine({ piece }: { piece: Piece }) {
+export function ArcoLine({ piece }: { piece: PieceBase }) {
   const n = piece.title.match(/^(?:Étude|Caprice|Matinée) No\. (\d+)/)?.[1];
   const who = n && piece.set ? STUDY_SETS[piece.composerSlug.split("-")[0]] : undefined;
   return (

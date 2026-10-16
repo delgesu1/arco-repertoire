@@ -14,6 +14,7 @@ import { join } from "node:path";
 import { z } from "zod";
 import type { Catalogue, Piece, Recording, SettingKey } from "../lib/types";
 import { CHARACTER, ERAS, TYPES } from "../lib/vocab";
+import { firstLast, fold, slugify, surname } from "./names";
 
 const ROOT = join(__dirname, "..");
 const read = (p: string) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
@@ -74,22 +75,6 @@ const C = {
   override: col("Recording override"),
 };
 
-export const fold = (s: string) =>
-  s.normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/ß/g, "ss").replace(/ł/g, "l").replace(/ø/g, "o");
-const slugify = (s: string, max = 80) =>
-  fold(s)
-    .toLowerCase()
-    .replace(/['’"]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "")
-    .slice(0, max)
-    .replace(/-$/, "");
-
-const firstLast = (name: string) => {
-  const i = name.indexOf(", ");
-  return i < 0 ? name : `${name.slice(i + 2)} ${name.slice(0, i)}`;
-};
-const surname = (name: string) => name.split(", ")[0];
 
 const BOARD_RX: [RegExp, string][] = [
   [/\bABRSM\b/, "ABRSM"],

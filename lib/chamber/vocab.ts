@@ -1,4 +1,12 @@
-import type { FormKey, FormationKey, InstrumentKey } from "./types";
+import { levelPhrase } from "../vocab";
+import type { FormKey, FormationKey, HardestPart, InstrumentKey, Instrumentation } from "./types";
+
+/** the line under the work count at the top of /chamber (also shown by the loading skeleton) */
+export const CHAMBER_INTRO = "graded chamber works for three to nine players, from string trios to octets, sorted by ensemble, level and character.";
+
+/** what a level means here, for the "How the 10 levels work" popover (docs/chamber-music-plan.md, decision 2) */
+export const CHAMBER_LEVEL_NOTE =
+  "A chamber work's level is the level its hardest part asks of its player, on the violin scale, raised by up to one when the ensemble asks more than the notes do. For piano, wind and other parts, read it as the same exam grade on that instrument.";
 
 export const FORMATIONS: { key: FormationKey; label: string; singular: string }[] = [
   { key: "string-trio", label: "String trios", singular: "String trio" },
@@ -14,11 +22,54 @@ export const FORMATIONS: { key: FormationKey; label: string; singular: string }[
   { key: "other", label: "Other ensembles", singular: "Other ensemble" },
 ];
 
-export const FORMS: { key: FormKey; label: string }[] = [
-  { key: "work", label: "Full works" },
-  { key: "short", label: "Short pieces" },
-  { key: "set", label: "Sets of pieces" },
+/** the ensemble menu's groups, each in FORMATIONS order */
+export const FORMATION_GROUPS: { label: string; keys: FormationKey[] }[] = [
+  { label: "Strings", keys: ["string-trio", "string-quartet", "string-quintet", "large-strings"] },
+  { label: "Piano and strings", keys: ["piano-trio", "piano-quartet", "piano-quintet", "piano-strings"] },
+  { label: "Mixed", keys: ["winds-strings", "continuo", "other"] },
 ];
+
+export const FORMS: { key: FormKey; label: string; singular: string }[] = [
+  { key: "work", label: "Full works", singular: "Full work" },
+  { key: "short", label: "Short pieces", singular: "Short piece" },
+  { key: "set", label: "Sets of pieces", singular: "Set of pieces" },
+];
+
+/**
+ * How the chamber finder reads: "Show me short pieces FOR string quartet around level 3", "any piece WITH continuo",
+ * "any piece FOR any ensemble at any level" (the violin finder's SETTING_PHRASE, for formations).
+ */
+export const FORMATION_PHRASE: Record<FormationKey, { lead: "for" | "with"; noun: string }> = {
+  "string-trio": { lead: "for", noun: "string trio" },
+  "string-quartet": { lead: "for", noun: "string quartet" },
+  "string-quintet": { lead: "for", noun: "string quintet" },
+  "large-strings": { lead: "for", noun: "string sextet or larger" },
+  "piano-trio": { lead: "for", noun: "piano trio" },
+  "piano-quartet": { lead: "for", noun: "piano quartet" },
+  "piano-quintet": { lead: "for", noun: "piano quintet" },
+  "piano-strings": { lead: "for", noun: "piano & strings" },
+  "winds-strings": { lead: "for", noun: "strings & winds" },
+  continuo: { lead: "with", noun: "continuo" },
+  other: { lead: "for", noun: "other ensembles" },
+};
+export const formationPhrase = (k: FormationKey | null): { lead: string; noun: string } =>
+  k ? FORMATION_PHRASE[k] : { lead: "for", noun: "any ensemble" };
+/** the form as a plural noun phrase ("short pieces"), or "any piece" */
+export const formPhrase = (k: FormKey | null): string => (k ? (FORMS.find((f) => f.key === k)?.label ?? k).toLowerCase() : "any piece");
+/** the whole sentence, as plain text (the page renders the same parts as menus) */
+export const chamberSentence = (form: FormKey | null, formation: FormationKey | null, level: number | null, exact: boolean): string => {
+  const e = formationPhrase(formation);
+  const l = levelPhrase(level, exact);
+  return `Show me ${formPhrase(form)} ${e.lead} ${e.noun} ${l.lead} ${l.noun}`;
+};
+/** the heading over the results: "Short pieces for string quartet", "Pieces with continuo" (nothing chosen → "") */
+export const chamberHeading = (form: FormKey | null, formation: FormationKey | null): string => {
+  if (!form && !formation) return "";
+  const label = form ? (FORMS.find((f) => f.key === form)?.label ?? form) : "Pieces";
+  return formation ? `${label} ${FORMATION_PHRASE[formation].lead} ${FORMATION_PHRASE[formation].noun}` : label;
+};
+export const formSingular = (k: FormKey) => FORMS.find((f) => f.key === k)?.singular ?? k;
+export const formationSingular = (k: FormationKey) => FORMATIONS.find((f) => f.key === k)?.singular ?? k;
 
 type Family = "string" | "keyboard" | "continuo" | "wind" | "other" | "electronics";
 
@@ -59,7 +110,12 @@ export const INSTRUMENTS: Record<InstrumentKey, { label: string; family: Family;
   electronics: { label: "electronics", family: "electronics", plural: "electronics" },
 };
 
-type Instrumentation = Partial<Record<InstrumentKey, number>>;
+/** "Double bass", "Viola d'amore": an instrument as a chip or menu label */
+export const instrumentName = (k: InstrumentKey) => INSTRUMENTS[k].label.charAt(0).toUpperCase() + INSTRUMENTS[k].label.slice(1);
+
+/** the tooltip on the part named under a level pebble ("violin 1", "piano", "balanced") */
+export const hardestPartTitle = (level: number, h: HardestPart) =>
+  h === "balanced" ? `Level ${level}; no part is clearly harder than the others` : `Level ${level}, set by the ${h} part`;
 const entries = (ins: Instrumentation) => Object.entries(ins) as [InstrumentKey, number][];
 const count = (ins: Instrumentation, family: Family) =>
   entries(ins).reduce((n, [k, c]) => n + (INSTRUMENTS[k].family === family ? c : 0), 0);
@@ -97,8 +153,31 @@ export function formationFor(ins: Instrumentation): FormationKey {
 
 export const formationLabel = (k: FormationKey) => FORMATIONS.find((f) => f.key === k)?.label ?? k;
 
+/** the instruments that take part in any of `works` (electronics are not a part), most works first, then in INSTRUMENTS order */
+export const instrumentsByUse = (works: { chamber: { instruments: Instrumentation; alternatives?: Partial<Record<InstrumentKey, InstrumentKey[]>>; optional?: Instrumentation } }[]): { key: InstrumentKey; works: number }[] => {
+  const n = new Map<InstrumentKey, number>();
+  for (const w of works) for (const k of playableBy(w.chamber)) n.set(k, (n.get(k) ?? 0) + 1);
+  const order = Object.keys(INSTRUMENTS) as InstrumentKey[];
+  return order
+    .filter((k) => n.has(k) && INSTRUMENTS[k].family !== "electronics")
+    .map((k) => ({ key: k, works: n.get(k)! }))
+    .sort((a, b) => b.works - a.works || order.indexOf(a.key) - order.indexOf(b.key));
+};
+
 const named = (k: InstrumentKey, c: number) => (c > 1 ? `${c} ${INSTRUMENTS[k].plural ?? `${INSTRUMENTS[k].label}s`}` : INSTRUMENTS[k].label);
 const or = (xs: string[]) => (xs.length > 1 ? `${xs.slice(0, -1).join(", ")} or ${xs[xs.length - 1]}` : xs[0]);
+
+/** the scoring part by part: [{ name: "clarinet", note: "(or violin)" }, { name: "viola" }, …, { name: "double bass", note: "ad lib." }] */
+export const instrumentParts = (
+  ins: Instrumentation,
+  extra: { alternatives?: Partial<Record<InstrumentKey, InstrumentKey[]>>; optional?: Instrumentation } = {},
+): { name: string; note?: string }[] => [
+  ...entries(ins).map(([k, c]) => {
+    const alt = extra.alternatives?.[k];
+    return alt?.length ? { name: named(k, c), note: `(or ${or(alt.map((a) => INSTRUMENTS[a].label))})` } : { name: named(k, c) };
+  }),
+  ...entries(extra.optional ?? {}).map(([k, c]) => ({ name: named(k, c), note: "ad lib." })),
+];
 
 /**
  * "2 violins, viola, cello", "clarinet (or violin), viola, piano", "2 violins, viola, cello, double bass ad lib."
@@ -107,14 +186,7 @@ const or = (xs: string[]) => (xs.length > 1 ? `${xs.slice(0, -1).join(", ")} or 
 export const instrumentList = (
   ins: Instrumentation,
   extra: { alternatives?: Partial<Record<InstrumentKey, InstrumentKey[]>>; optional?: Instrumentation } = {},
-): string =>
-  [
-    ...entries(ins).map(([k, c]) => {
-      const alt = extra.alternatives?.[k];
-      return alt?.length ? `${named(k, c)} (or ${or(alt.map((a) => INSTRUMENTS[a].label))})` : named(k, c);
-    }),
-    ...entries(extra.optional ?? {}).map(([k, c]) => `${named(k, c)} ad lib.`),
-  ].join(", ");
+): string => instrumentParts(ins, extra).map((x) => (x.note ? `${x.name} ${x.note}` : x.name)).join(", ");
 
 /** every instrument that can take part: the scoring, its published alternatives and its ad lib. parts (for "includes instrument") */
 export const playableBy = (w: {

@@ -1,5 +1,5 @@
 import data from "../data/build/catalogue.json";
-import type { Catalogue, Piece } from "./types";
+import type { Catalogue, Piece, PieceBase } from "./types";
 
 /** Server-side access to the catalogue (static JSON import, used for prerendered pages). */
 export const catalogue = data as unknown as Catalogue;
@@ -41,4 +41,4 @@ export const getComposer = (slug: string) => composerMap.get(slug) ?? null;
 export const levelInfo = (n: number) => catalogue.levels.find((l) => l.level === n)!;
 
 export const SITE_URL = "https://repertoire.arco.app";
-export const pieceUrl = (p: Piece) => `/piece/${p.id}/${p.slug}`;
+export const pieceUrl = (p: PieceBase) => `/piece/${p.id}/${p.slug}`;
