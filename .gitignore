@@ -58,3 +58,6 @@ __pycache__/
 /data/expansion/tech/final/keys.json
 /data/expansion/tech/to-grade.json
 /data/expansion/tech/catalogue-compact.txt
+
+# chamber curation: per-slice agent inputs (regenerate with npx tsx scripts/chamber/curation_slices.ts --inputs)
+/data/chamber/curation/input/
