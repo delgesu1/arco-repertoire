@@ -354,8 +354,8 @@
    "alternatives": {},
    "optional": {},
    "players": 5,
-   "formation": "string-quintet",
-   "formationNote": "Solo violin with string quartet",
+   "formation": "other",
+   "formationNote": "Solo violin with string-quartet accompaniment",
    "form": "short",
    "set": null,
    "year": "1816",
@@ -391,8 +391,8 @@
    "alternatives": {},
    "optional": {},
    "players": 5,
-   "formation": "string-quintet",
-   "formationNote": "Solo violin with string quartet",
+   "formation": "other",
+   "formationNote": "Solo violin with string-quartet accompaniment",
    "form": "short",
    "set": null,
    "year": "",
@@ -1822,8 +1822,8 @@
    "alternatives": {},
    "optional": {},
    "players": 4,
-   "formation": "string-quartet",
-   "formationNote": null,
+   "formation": "other",
+   "formationNote": "Solo violin with accompaniment for violin, viola and cello",
    "form": "set",
    "set": null,
    "year": "1822",
@@ -3992,5 +3992,5 @@
    "note": ""
   }
  ],
- "note": "Pilot notes on the brief. (1) Presto Music and naxos.com answer 403 (Cloudflare) to curl and WebFetch, and the Naxos Music Library needs a login, so the floor evidence here is the Apple Music catalogue read through the public iTunes Search/Lookup API (album, performers, (P) label line, track timings) plus MusicBrainz; Apple Music is not in the brief's list of evidence and the owner should confirm it counts. Catalogue numbers are mostly missing because Apple does not give them. (2) The MusicBrainz recipe in the brief is unreliable: browsing recording?work=<mbid> (with inc=artist-credits+releases) returned 0 recordings for every work, while work/<mbid>?inc=recording-rels works; MusicBrainz answered 503 at 1 request/s (1.6 s was needed); its artist search picks Johann Strauss II for \"Johann Strauss\" and finds Marschner only as \"Heinrich August Marschner\"; and it knows almost nothing for Veit, Gebel, Fürstenau, Marschner or Reissiger, so it cannot carry a mid slice alone. (3) Unclear in the brief: solo-violin showpieces published with string-quartet accompaniment (Mayseder Opp. 12, 25; Lipiński Op. 9) - I kept them when recorded in that version (formation from the instruments, formationNote \"Solo violin with string quartet\"); works with strings ad lib. (Czerny Op. 104, Alkan Op. 4) are out under the optional-parts rule even though Czerny Op. 104 is recorded as piano trios on Naxos - the owner may want a rule. (4) I did not save after the first composer as the brief asks: research was batched across all 24 composers (catalogue harvests per composer, IMSLP work-info in two batched API calls), then the file was written once. (5) Level guesses were calibrated on the benchmarks only; I did not locate the violin catalogue entries for Mayseder, Lipiński or Sivori to align solo-violin levels. (6) Gramola titles Mayseder Op. 51 \"String Quartet No. 2 in A minor, Op. 51 No. 2\"; IMSLP and a retailer listing say String Quintet No. 2, which is what I entered (confidence medium). (7) Not checked: modern editions (all kept works rest on a commercial recording); the Bériot trios; Foster's Old Folks Quadrilles (an anonymous 1963 Time-Life LP track, scoring unknown). About 50 tool calls used."
+ "note": "Pilot notes on the brief. (1) Presto Music and naxos.com answer 403 (Cloudflare) to curl and WebFetch, and the Naxos Music Library needs a login, so the floor evidence here is the Apple Music catalogue read through the public iTunes Search/Lookup API (album, performers, (P) label line, track timings) plus MusicBrainz; Apple Music is not in the brief's list of evidence and the owner should confirm it counts. Catalogue numbers are mostly missing because Apple does not give them. (2) The MusicBrainz recipe in the brief is unreliable: browsing recording?work=<mbid> (with inc=artist-credits+releases) returned 0 recordings for every work, while work/<mbid>?inc=recording-rels works; MusicBrainz answered 503 at 1 request/s (1.6 s was needed); its artist search picks Johann Strauss II for \"Johann Strauss\" and finds Marschner only as \"Heinrich August Marschner\"; and it knows almost nothing for Veit, Gebel, Fürstenau, Marschner or Reissiger, so it cannot carry a mid slice alone. (3) Unclear in the brief: solo-violin showpieces published with string-quartet accompaniment (Mayseder Opp. 12, 25; Lipiński Op. 9) - I kept them when recorded in that version (formation from the instruments, formationNote \"Solo violin with string quartet\"); works with strings ad lib. (Czerny Op. 104, Alkan Op. 4) are out under the optional-parts rule even though Czerny Op. 104 is recorded as piano trios on Naxos - the owner may want a rule. (4) I did not save after the first composer as the brief asks: research was batched across all 24 composers (catalogue harvests per composer, IMSLP work-info in two batched API calls), then the file was written once. (5) Level guesses were calibrated on the benchmarks only; I did not locate the violin catalogue entries for Mayseder, Lipiński or Sivori to align solo-violin levels. (6) Gramola titles Mayseder Op. 51 \"String Quartet No. 2 in A minor, Op. 51 No. 2\"; IMSLP and a retailer listing say String Quintet No. 2, which is what I entered (confidence medium). (7) Not checked: modern editions (all kept works rest on a commercial recording); the Bériot trios; Foster's Old Folks Quadrilles (an anonymous 1963 Time-Life LP track, scoring unknown). About 50 tool calls used. [Owner, 2026-10-16: solo showpieces with quartet accompaniment stay in the section under formation 'other' with a formationNote; the three entries (Mayseder Opp. 12 and 25, Lipiński Op. 9) were set that way after the run.]"
 }

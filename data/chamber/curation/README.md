@@ -37,7 +37,7 @@ Three subagents ran the brief on one slice of each kind; their files are in `out
 
 Before the full run:
 1. The census gives some living composers' uploads the era "classical" (IMSLP tags their style); give recent works their era from the year. Slice names change when the census does.
-2. Owner question: solo-violin showpieces published with string-quartet accompaniment (Mayseder's Polonaise Op. 12, Lipiński's Polonaises Op. 9) were kept as chamber works with a `formationNote`; they may belong to the violin section instead.
+2. Settled by the owner: solo-violin showpieces published with string-quartet accompaniment (Mayseder's Polonaise Op. 12, Lipiński's Polonaises Op. 9) stay in the chamber section, under "Other ensembles" with a `formationNote` (rule in the brief; the three pilot entries were aligned with it by hand).
 3. Owner check: the eight proposed exclusions in `out/t07_classical-c-f.json`.
 
 ## Proposed order

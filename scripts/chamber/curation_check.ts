@@ -104,6 +104,7 @@ function check(slice: string) {
       const derived = formationFor(ins as Record<InstrumentKey, number>);
       if (!formations.has(w.formation)) e(`unknown formation "${w.formation}"`);
       else if (w.formation !== derived && !w.formationNote) e(`formation "${w.formation}", instruments say "${derived}"`);
+      else if (w.formation === derived && w.formationNote) e("formationNote set, but the formation is the derived one (check.ts rejects this)");
       for (const [k, alts] of Object.entries(w.alternatives ?? {})) {
         if (!ins[k]) e(`alternatives.${k}: no such part`);
         for (const a of alts) if (!isKey(a)) e(`alternatives.${k}: unknown instrument ${a}`);
