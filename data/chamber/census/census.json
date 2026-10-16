@@ -1,0 +1,1216 @@
+{
+ "generated": "2026-10-16",
+ "source": "IMSLP categories For 3–9 players and For 2–8 players with continuo, plus a sweep of their scoring categories",
+ "pages": {
+  "found": 25191,
+  "sweptIn": 3995,
+  "withStringScoring": 19851,
+  "outOfScope": 3061,
+  "candidates": 16790,
+  "missingRows": 0
+ },
+ "outOfScopeReasons": {
+  "string orchestra": 2001,
+  "unspecified instruments": 550,
+  "orchestra": 140,
+  "violins alone (violin section)": 121,
+  "baryton (Haydn's baryton works are out, decision 3)": 113,
+  "no string part": 40,
+  "fewer than 3 players": 29,
+  "chorus": 19,
+  "synthesizer: not in the vocabulary": 12,
+  "musette (bagpipe): not in the vocabulary": 5,
+  "theremin: not in the vocabulary": 5,
+  "shakuhachi: not in the vocabulary": 3,
+  "ocarina: not in the vocabulary": 3,
+  "zither: not in the vocabulary": 3,
+  "more than 9 players": 3,
+  "hurdy-gurdy (French 'vielle'): not in the vocabulary": 2,
+  "erhu: not in the vocabulary": 2,
+  "glass harmonica: not in the vocabulary (Mozart K. 617)": 2,
+  "sitar: not in the vocabulary": 2,
+  "tanpura: not in the vocabulary": 1,
+  "harmonichord: not in the vocabulary": 1,
+  "ondes Martenot: not in the vocabulary": 1,
+  "xiao: not in the vocabulary": 1,
+  "oud: not in the vocabulary": 1,
+  "shamisen: not in the vocabulary": 1
+ },
+ "works": {
+  "candidates": 23230,
+  "withVoice": 1820,
+  "violConsort": 557,
+  "instrumentalNotViols": 20853,
+  "collectionPagesDeduplicated": 469,
+  "pedagogicalFlag": 263,
+  "fragmentFlag": 55,
+  "crossListedWithViolin": 77
+ },
+ "byFormation": {
+  "string-quartet": 5863,
+  "continuo": 5529,
+  "winds-strings": 3962,
+  "piano-trio": 1941,
+  "string-trio": 1857,
+  "other": 1460,
+  "string-quintet": 1084,
+  "piano-strings": 491,
+  "piano-quintet": 429,
+  "piano-quartet": 377,
+  "large-strings": 237
+ },
+ "byPlayers": {
+  "3": 10168,
+  "4": 9141,
+  "5": 2657,
+  "6": 719,
+  "7": 268,
+  "8": 195,
+  "9": 82
+ },
+ "byEra": {
+  "early-music": 523,
+  "baroque": 5133,
+  "classical": 7991,
+  "early-romantic": 1360,
+  "late-romantic": 3686,
+  "20th-century": 4005,
+  "contemporary": 462,
+  "unknown": 70
+ },
+ "formationByEra": {
+  "string-trio": {
+   "early-music": 114,
+   "baroque": 153,
+   "classical": 1099,
+   "early-romantic": 65,
+   "late-romantic": 146,
+   "20th-century": 242,
+   "contemporary": 35,
+   "unknown": 3
+  },
+  "string-quartet": {
+   "early-music": 96,
+   "baroque": 77,
+   "classical": 2358,
+   "early-romantic": 558,
+   "late-romantic": 1127,
+   "20th-century": 1490,
+   "contemporary": 141,
+   "unknown": 16
+  },
+  "string-quintet": {
+   "early-music": 170,
+   "baroque": 64,
+   "classical": 389,
+   "early-romantic": 143,
+   "late-romantic": 190,
+   "20th-century": 103,
+   "contemporary": 16,
+   "unknown": 9
+  },
+  "large-strings": {
+   "early-music": 35,
+   "baroque": 14,
+   "classical": 21,
+   "early-romantic": 22,
+   "late-romantic": 70,
+   "20th-century": 64,
+   "contemporary": 11,
+   "unknown": 0
+  },
+  "piano-trio": {
+   "early-music": 0,
+   "baroque": 1,
+   "classical": 641,
+   "early-romantic": 195,
+   "late-romantic": 763,
+   "20th-century": 313,
+   "contemporary": 25,
+   "unknown": 3
+  },
+  "piano-quartet": {
+   "early-music": 0,
+   "baroque": 0,
+   "classical": 52,
+   "early-romantic": 63,
+   "late-romantic": 193,
+   "20th-century": 64,
+   "contemporary": 5,
+   "unknown": 0
+  },
+  "piano-quintet": {
+   "early-music": 0,
+   "baroque": 0,
+   "classical": 30,
+   "early-romantic": 40,
+   "late-romantic": 216,
+   "20th-century": 135,
+   "contemporary": 7,
+   "unknown": 1
+  },
+  "piano-strings": {
+   "early-music": 0,
+   "baroque": 3,
+   "classical": 145,
+   "early-romantic": 36,
+   "late-romantic": 203,
+   "20th-century": 89,
+   "contemporary": 9,
+   "unknown": 6
+  },
+  "winds-strings": {
+   "early-music": 10,
+   "baroque": 128,
+   "classical": 1895,
+   "early-romantic": 146,
+   "late-romantic": 422,
+   "20th-century": 1170,
+   "contemporary": 172,
+   "unknown": 19
+  },
+  "continuo": {
+   "early-music": 18,
+   "baroque": 4539,
+   "classical": 966,
+   "early-romantic": 0,
+   "late-romantic": 0,
+   "20th-century": 6,
+   "contemporary": 0,
+   "unknown": 0
+  },
+  "other": {
+   "early-music": 80,
+   "baroque": 154,
+   "classical": 395,
+   "early-romantic": 92,
+   "late-romantic": 356,
+   "20th-century": 329,
+   "contemporary": 41,
+   "unknown": 13
+  }
+ },
+ "byInstrument": {
+  "violin": 20588,
+  "cello": 15741,
+  "viola": 11396,
+  "continuo": 5529,
+  "piano": 4627,
+  "flute": 3108,
+  "voice": 1820,
+  "viola-da-gamba": 984,
+  "double-bass": 865,
+  "clarinet": 865,
+  "oboe": 626,
+  "harpsichord": 618,
+  "bassoon": 539,
+  "horn": 406,
+  "guitar": 398,
+  "harp": 246,
+  "percussion": 231,
+  "organ": 176,
+  "recorder": 173,
+  "trumpet": 125,
+  "lute": 92,
+  "saxophone": 68,
+  "english-horn": 60,
+  "trombone": 58,
+  "mandolin": 56,
+  "harmonium": 46,
+  "viola-damore": 39,
+  "bass-clarinet": 31,
+  "tuba": 27,
+  "accordion": 21,
+  "electronics": 15,
+  "basset-horn": 14,
+  "celesta": 7
+ },
+ "composers": {
+  "count": 4397,
+  "withOneWork": 2069
+ },
+ "topComposers": [
+  {
+   "composer": "Beatty, Stephen W.",
+   "works": 506,
+   "pages": 500,
+   "recorded": 0,
+   "published": 504,
+   "inViolinCatalogue": false,
+   "era": "20th-century",
+   "formations": {
+    "winds-strings": 370,
+    "string-quartet": 47,
+    "string-trio": 35,
+    "other": 34,
+    "piano-trio": 16,
+    "piano-strings": 2,
+    "string-quintet": 2
+   }
+  },
+  {
+   "composer": "Haydn, Joseph",
+   "works": 408,
+   "pages": 367,
+   "recorded": 241,
+   "published": 366,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "continuo": 156,
+    "string-quartet": 87,
+    "winds-strings": 60,
+    "piano-trio": 53,
+    "string-trio": 48,
+    "other": 3,
+    "large-strings": 1
+   }
+  },
+  {
+   "composer": "Boccherini, Luigi",
+   "works": 317,
+   "pages": 141,
+   "recorded": 132,
+   "published": 210,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "string-quintet": 123,
+    "string-quartet": 85,
+    "string-trio": 54,
+    "winds-strings": 26,
+    "other": 16,
+    "piano-quintet": 6,
+    "large-strings": 6,
+    "continuo": 1
+   }
+  },
+  {
+   "composer": "Telemann, Georg Philipp",
+   "works": 262,
+   "pages": 261,
+   "recorded": 146,
+   "published": 129,
+   "inViolinCatalogue": true,
+   "era": "baroque",
+   "formations": {
+    "continuo": 253,
+    "winds-strings": 9
+   }
+  },
+  {
+   "composer": "Pleyel, Ignaz",
+   "works": 191,
+   "pages": 87,
+   "recorded": 50,
+   "published": 177,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 80,
+    "piano-trio": 37,
+    "string-quintet": 26,
+    "winds-strings": 24,
+    "string-trio": 22,
+    "large-strings": 1,
+    "other": 1
+   }
+  },
+  {
+   "composer": "Hoffmeister, Franz Anton",
+   "works": 181,
+   "pages": 75,
+   "recorded": 4,
+   "published": 52,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "winds-strings": 119,
+    "string-quartet": 30,
+    "string-trio": 15,
+    "string-quintet": 14,
+    "piano-quartet": 2,
+    "piano-strings": 1
+   }
+  },
+  {
+   "composer": "Cambini, Giuseppe Maria",
+   "works": 167,
+   "pages": 29,
+   "recorded": 18,
+   "published": 105,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 88,
+    "string-trio": 39,
+    "winds-strings": 37,
+    "string-quintet": 3
+   }
+  },
+  {
+   "composer": "Anonymous",
+   "works": 159,
+   "pages": 157,
+   "recorded": 1,
+   "published": 16,
+   "inViolinCatalogue": false,
+   "era": "baroque",
+   "formations": {
+    "continuo": 136,
+    "string-trio": 8,
+    "winds-strings": 6,
+    "string-quintet": 4,
+    "string-quartet": 3,
+    "other": 1,
+    "large-strings": 1
+   }
+  },
+  {
+   "composer": "Mozart, Wolfgang Amadeus",
+   "works": 147,
+   "pages": 129,
+   "recorded": 88,
+   "published": 66,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 57,
+    "winds-strings": 30,
+    "piano-trio": 16,
+    "other": 15,
+    "string-quintet": 14,
+    "string-trio": 11,
+    "continuo": 2,
+    "piano-quartet": 2
+   }
+  },
+  {
+   "composer": "Various",
+   "works": 141,
+   "pages": 62,
+   "recorded": 26,
+   "published": 34,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "continuo": 100,
+    "string-trio": 22,
+    "other": 8,
+    "winds-strings": 7,
+    "string-quartet": 3,
+    "piano-trio": 1
+   }
+  },
+  {
+   "composer": "Krommer, Franz",
+   "works": 123,
+   "pages": 146,
+   "recorded": 3,
+   "published": 81,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 67,
+    "string-quintet": 27,
+    "winds-strings": 24,
+    "piano-trio": 2,
+    "piano-strings": 1,
+    "string-trio": 1,
+    "piano-quartet": 1
+   }
+  },
+  {
+   "composer": "Vanhal, Johann Baptist",
+   "works": 114,
+   "pages": 31,
+   "recorded": 14,
+   "published": 55,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "string-trio": 35,
+    "winds-strings": 26,
+    "string-quartet": 22,
+    "other": 11,
+    "piano-trio": 9,
+    "continuo": 7,
+    "piano-strings": 4
+   }
+  },
+  {
+   "composer": "Gyrowetz, Adalbert",
+   "works": 113,
+   "pages": 88,
+   "recorded": 1,
+   "published": 90,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 46,
+    "winds-strings": 43,
+    "piano-trio": 23,
+    "string-quintet": 1
+   }
+  },
+  {
+   "composer": "Charpentier, Marc-Antoine",
+   "works": 97,
+   "pages": 98,
+   "recorded": 12,
+   "published": 2,
+   "inViolinCatalogue": false,
+   "era": "baroque",
+   "formations": {
+    "continuo": 95,
+    "string-quartet": 1,
+    "winds-strings": 1
+   }
+  },
+  {
+   "composer": "Wranitzky, Paul",
+   "works": 95,
+   "pages": 36,
+   "recorded": 6,
+   "published": 48,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 51,
+    "string-quintet": 18,
+    "winds-strings": 13,
+    "string-trio": 9,
+    "piano-trio": 4
+   }
+  },
+  {
+   "composer": "Anzoletti, Marco",
+   "works": 92,
+   "pages": 89,
+   "recorded": 0,
+   "published": 0,
+   "inViolinCatalogue": false,
+   "era": "late-romantic",
+   "formations": {
+    "piano-trio": 37,
+    "string-quartet": 18,
+    "piano-strings": 13,
+    "piano-quartet": 7,
+    "piano-quintet": 5,
+    "large-strings": 4,
+    "winds-strings": 3,
+    "string-quintet": 3,
+    "string-trio": 1,
+    "other": 1
+   }
+  },
+  {
+   "composer": "Onslow, George",
+   "works": 86,
+   "pages": 96,
+   "recorded": 25,
+   "published": 72,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 36,
+    "string-quintet": 34,
+    "piano-trio": 10,
+    "piano-quintet": 3,
+    "winds-strings": 3
+   }
+  },
+  {
+   "composer": "Coperario, John",
+   "works": 82,
+   "pages": 83,
+   "recorded": 0,
+   "published": 1,
+   "inViolinCatalogue": false,
+   "era": "early-music",
+   "formations": {
+    "string-quintet": 48,
+    "string-trio": 19,
+    "string-quartet": 9,
+    "large-strings": 4,
+    "other": 2
+   }
+  },
+  {
+   "composer": "Reicha, Anton",
+   "works": 81,
+   "pages": 31,
+   "recorded": 19,
+   "published": 35,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 49,
+    "winds-strings": 16,
+    "piano-trio": 7,
+    "string-quintet": 7,
+    "string-trio": 1,
+    "piano-quintet": 1
+   }
+  },
+  {
+   "composer": "Quentin I, Jean-Baptiste",
+   "works": 80,
+   "pages": 15,
+   "recorded": 19,
+   "published": 6,
+   "inViolinCatalogue": false,
+   "era": "baroque",
+   "formations": {
+    "continuo": 80
+   }
+  },
+  {
+   "composer": "Legrenzi, Giovanni",
+   "works": 71,
+   "pages": 14,
+   "recorded": 61,
+   "published": 55,
+   "inViolinCatalogue": false,
+   "era": "baroque",
+   "formations": {
+    "continuo": 71
+   }
+  },
+  {
+   "composer": "Sammartini, Giovanni Battista",
+   "works": 70,
+   "pages": 18,
+   "recorded": 12,
+   "published": 31,
+   "inViolinCatalogue": false,
+   "era": "baroque",
+   "formations": {
+    "continuo": 62,
+    "string-trio": 5,
+    "winds-strings": 3
+   }
+  },
+  {
+   "composer": "Spohr, Louis",
+   "works": 69,
+   "pages": 78,
+   "recorded": 54,
+   "published": 61,
+   "inViolinCatalogue": true,
+   "era": "early-romantic",
+   "formations": {
+    "string-quartet": 41,
+    "string-quintet": 8,
+    "piano-trio": 6,
+    "large-strings": 5,
+    "winds-strings": 4,
+    "other": 3,
+    "piano-quintet": 2
+   }
+  },
+  {
+   "composer": "Purcell, Henry",
+   "works": 68,
+   "pages": 50,
+   "recorded": 52,
+   "published": 57,
+   "inViolinCatalogue": true,
+   "era": "baroque",
+   "formations": {
+    "continuo": 52,
+    "string-quartet": 10,
+    "string-trio": 3,
+    "large-strings": 2,
+    "string-quintet": 1
+   }
+  },
+  {
+   "composer": "Campioni, Carlo Antonio",
+   "works": 65,
+   "pages": 11,
+   "recorded": 0,
+   "published": 14,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "continuo": 50,
+    "string-trio": 14,
+    "string-quartet": 1
+   }
+  },
+  {
+   "composer": "Viotti, Giovanni Battista",
+   "works": 65,
+   "pages": 14,
+   "recorded": 3,
+   "published": 25,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 23,
+    "winds-strings": 21,
+    "string-trio": 18,
+    "piano-trio": 3
+   }
+  },
+  {
+   "composer": "Hänsel, Peter",
+   "works": 64,
+   "pages": 79,
+   "recorded": 0,
+   "published": 52,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 49,
+    "string-trio": 6,
+    "winds-strings": 5,
+    "string-quintet": 4
+   }
+  },
+  {
+   "composer": "Abel, Carl Friedrich",
+   "works": 61,
+   "pages": 26,
+   "recorded": 21,
+   "published": 55,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "winds-strings": 25,
+    "string-quartet": 18,
+    "continuo": 6,
+    "string-trio": 6,
+    "piano-strings": 6
+   }
+  },
+  {
+   "composer": "Kammel, Antonín",
+   "works": 60,
+   "pages": 12,
+   "recorded": 0,
+   "published": 16,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "continuo": 29,
+    "string-quartet": 13,
+    "piano-trio": 6,
+    "string-trio": 6,
+    "winds-strings": 6
+   }
+  },
+  {
+   "composer": "Sterkel, Johann Franz Xaver",
+   "works": 60,
+   "pages": 34,
+   "recorded": 0,
+   "published": 36,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "piano-trio": 28,
+    "other": 17,
+    "string-trio": 12,
+    "piano-quartet": 1,
+    "string-quartet": 1,
+    "string-quintet": 1
+   }
+  },
+  {
+   "composer": "Bruni, Antonio Bartolomeo",
+   "works": 60,
+   "pages": 10,
+   "recorded": 0,
+   "published": 24,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "string-trio": 30,
+    "string-quartet": 30
+   }
+  },
+  {
+   "composer": "Schneider, Georg Abraham",
+   "works": 59,
+   "pages": 19,
+   "recorded": 0,
+   "published": 35,
+   "inViolinCatalogue": false,
+   "era": "late-romantic",
+   "formations": {
+    "winds-strings": 44,
+    "string-quartet": 12,
+    "string-quintet": 3
+   }
+  },
+  {
+   "composer": "Beethoven, Ludwig van",
+   "works": 57,
+   "pages": 72,
+   "recorded": 53,
+   "published": 53,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 18,
+    "piano-trio": 13,
+    "string-trio": 8,
+    "string-quintet": 6,
+    "winds-strings": 5,
+    "other": 4,
+    "piano-quartet": 3
+   }
+  },
+  {
+   "composer": "Harrington, Jeffrey Michael",
+   "works": 56,
+   "pages": 56,
+   "recorded": 0,
+   "published": 40,
+   "inViolinCatalogue": false,
+   "era": "20th-century",
+   "formations": {
+    "winds-strings": 28,
+    "string-quartet": 14,
+    "string-trio": 6,
+    "piano-trio": 3,
+    "piano-quintet": 2,
+    "continuo": 1,
+    "string-quintet": 1,
+    "other": 1
+   }
+  },
+  {
+   "composer": "Corelli, Arcangelo",
+   "works": 56,
+   "pages": 52,
+   "recorded": 29,
+   "published": 54,
+   "inViolinCatalogue": true,
+   "era": "baroque",
+   "formations": {
+    "continuo": 44,
+    "other": 12
+   }
+  },
+  {
+   "composer": "Stamitz, Carl",
+   "works": 56,
+   "pages": 21,
+   "recorded": 12,
+   "published": 37,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "winds-strings": 24,
+    "string-quartet": 21,
+    "piano-strings": 6,
+    "continuo": 3,
+    "other": 1,
+    "string-trio": 1
+   }
+  },
+  {
+   "composer": "Vivaldi, Antonio",
+   "works": 55,
+   "pages": 53,
+   "recorded": 37,
+   "published": 18,
+   "inViolinCatalogue": true,
+   "era": "baroque",
+   "formations": {
+    "continuo": 53,
+    "winds-strings": 2
+   }
+  },
+  {
+   "composer": "Albrechtsberger, Johann Georg",
+   "works": 55,
+   "pages": 14,
+   "recorded": 13,
+   "published": 35,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 40,
+    "string-trio": 7,
+    "large-strings": 6,
+    "piano-strings": 1,
+    "string-quintet": 1
+   }
+  },
+  {
+   "composer": "Stamitz, Anton",
+   "works": 55,
+   "pages": 15,
+   "recorded": 0,
+   "published": 20,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 37,
+    "string-trio": 12,
+    "winds-strings": 6
+   }
+  },
+  {
+   "composer": "Bach, Johann Christian",
+   "works": 54,
+   "pages": 35,
+   "recorded": 13,
+   "published": 44,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "winds-strings": 32,
+    "string-trio": 14,
+    "piano-trio": 4,
+    "continuo": 1,
+    "piano-strings": 1,
+    "piano-quartet": 1,
+    "string-quartet": 1
+   }
+  },
+  {
+   "composer": "Bach, Carl Philipp Emanuel",
+   "works": 53,
+   "pages": 45,
+   "recorded": 28,
+   "published": 34,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "piano-trio": 26,
+    "continuo": 24,
+    "winds-strings": 3
+   }
+  },
+  {
+   "composer": "Küffner, Joseph",
+   "works": 53,
+   "pages": 50,
+   "recorded": 0,
+   "published": 18,
+   "inViolinCatalogue": false,
+   "era": "early-romantic",
+   "formations": {
+    "winds-strings": 35,
+    "string-quartet": 10,
+    "other": 7,
+    "piano-trio": 1
+   }
+  },
+  {
+   "composer": "Toeschi, Carl Joseph",
+   "works": 52,
+   "pages": 14,
+   "recorded": 0,
+   "published": 6,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "winds-strings": 45,
+    "continuo": 7
+   }
+  },
+  {
+   "composer": "Kozeluch, Leopold",
+   "works": 51,
+   "pages": 15,
+   "recorded": 9,
+   "published": 27,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "piano-trio": 30,
+    "string-quartet": 12,
+    "winds-strings": 9
+   }
+  },
+  {
+   "composer": "Buxtehude, Dietrich",
+   "works": 50,
+   "pages": 52,
+   "recorded": 30,
+   "published": 21,
+   "inViolinCatalogue": false,
+   "era": "baroque",
+   "formations": {
+    "continuo": 35,
+    "other": 15
+   }
+  },
+  {
+   "composer": "Giardini, Felice",
+   "works": 50,
+   "pages": 10,
+   "recorded": 31,
+   "published": 26,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "string-trio": 24,
+    "winds-strings": 12,
+    "string-quartet": 7,
+    "other": 6,
+    "continuo": 1
+   }
+  },
+  {
+   "composer": "Rolla, Alessandro",
+   "works": 50,
+   "pages": 18,
+   "recorded": 10,
+   "published": 9,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "string-trio": 33,
+    "string-quartet": 9,
+    "string-quintet": 5,
+    "winds-strings": 2,
+    "large-strings": 1
+   }
+  },
+  {
+   "composer": "Corrette, Michel",
+   "works": 49,
+   "pages": 33,
+   "recorded": 5,
+   "published": 13,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "continuo": 48,
+    "other": 1
+   }
+  },
+  {
+   "composer": "Handel, George Frideric",
+   "works": 48,
+   "pages": 53,
+   "recorded": 29,
+   "published": 19,
+   "inViolinCatalogue": true,
+   "era": "baroque",
+   "formations": {
+    "continuo": 45,
+    "string-trio": 1,
+    "string-quartet": 1,
+    "winds-strings": 1
+   }
+  },
+  {
+   "composer": "Devienne, François",
+   "works": 47,
+   "pages": 11,
+   "recorded": 6,
+   "published": 28,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "winds-strings": 46,
+    "other": 1
+   }
+  },
+  {
+   "composer": "Boismortier, Joseph Bodin de",
+   "works": 46,
+   "pages": 20,
+   "recorded": 18,
+   "published": 41,
+   "inViolinCatalogue": false,
+   "era": "baroque",
+   "formations": {
+    "continuo": 46
+   }
+  },
+  {
+   "composer": "Gassmann, Florian Leopold",
+   "works": 46,
+   "pages": 30,
+   "recorded": 0,
+   "published": 19,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 16,
+    "continuo": 14,
+    "winds-strings": 13,
+    "string-trio": 2,
+    "string-quintet": 1
+   }
+  },
+  {
+   "composer": "Reissiger, Carl Gottlieb",
+   "works": 46,
+   "pages": 46,
+   "recorded": 3,
+   "published": 42,
+   "inViolinCatalogue": false,
+   "era": "early-romantic",
+   "formations": {
+    "piano-trio": 26,
+    "piano-quartet": 7,
+    "string-quartet": 7,
+    "piano-quintet": 3,
+    "piano-strings": 1,
+    "string-quintet": 1,
+    "other": 1
+   }
+  },
+  {
+   "composer": "Pugnani, Gaetano",
+   "works": 45,
+   "pages": 17,
+   "recorded": 0,
+   "published": 12,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "continuo": 26,
+    "winds-strings": 12,
+    "string-trio": 6,
+    "string-quartet": 1
+   }
+  },
+  {
+   "composer": "Graf, Christian Ernst",
+   "works": 45,
+   "pages": 8,
+   "recorded": 0,
+   "published": 12,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 24,
+    "continuo": 12,
+    "string-trio": 6,
+    "other": 3
+   }
+  },
+  {
+   "composer": "Chartrain, Nicolas-Joseph",
+   "works": 45,
+   "pages": 8,
+   "recorded": 0,
+   "published": 6,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 24,
+    "string-trio": 12,
+    "winds-strings": 6,
+    "piano-strings": 3
+   }
+  },
+  {
+   "composer": "Romberg, Andreas",
+   "works": 45,
+   "pages": 24,
+   "recorded": 3,
+   "published": 27,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 32,
+    "winds-strings": 9,
+    "string-quintet": 2,
+    "piano-quartet": 1,
+    "other": 1
+   }
+  },
+  {
+   "composer": "Mayseder, Joseph",
+   "works": 44,
+   "pages": 32,
+   "recorded": 4,
+   "published": 21,
+   "inViolinCatalogue": true,
+   "era": "early-romantic",
+   "formations": {
+    "string-quartet": 23,
+    "string-quintet": 13,
+    "piano-trio": 4,
+    "piano-quartet": 2,
+    "string-trio": 1,
+    "winds-strings": 1
+   }
+  },
+  {
+   "composer": "Giordani, Tommaso",
+   "works": 43,
+   "pages": 9,
+   "recorded": 0,
+   "published": 15,
+   "inViolinCatalogue": false,
+   "era": "classical",
+   "formations": {
+    "winds-strings": 18,
+    "string-quartet": 12,
+    "other": 7,
+    "continuo": 6
+   }
+  },
+  {
+   "composer": "Fiorillo, Federigo",
+   "works": 43,
+   "pages": 9,
+   "recorded": 6,
+   "published": 15,
+   "inViolinCatalogue": true,
+   "era": "classical",
+   "formations": {
+    "string-quartet": 15,
+    "winds-strings": 13,
+    "string-trio": 12,
+    "string-quintet": 3
+   }
+  }
+ ],
+ "concentration": {
+  "top5": 0.07249246663796814,
+  "top20": 0.14817046922083513,
+  "top100": 0.3035299182092122
+ },
+ "floor": {
+  "signalsLoaded": true,
+  "benchmarkRecallOfRecordingSignal": 0.9304347826086956,
+  "note": "Recall-based: recorded tier plus recorded × (1/recall − 1) from the benchmarks; upperBound = recorded + published.",
+  "estimate": {
+   "pool": 20548,
+   "recordedSignal": 2994,
+   "publishedNoSignal": 7172,
+   "likelyPass": 3218,
+   "upperBound": 10166
+  },
+  "tiers": {
+   "B published, no recording found": 7172,
+   "E no publication data": 5443,
+   "C not public domain (recent uploads), no recording found": 3263,
+   "A recorded": 2994,
+   "D manuscript only": 1676
+  },
+  "sample": null,
+  "openGroups": {
+   "voice": {
+    "works": 1820,
+    "recorded": 324
+   },
+   "viols": {
+    "works": 557,
+    "recorded": 96
+   }
+  }
+ },
+ "benchmarks": {
+  "total": 135,
+  "imslpPageFound": 116,
+  "harvested": 116,
+  "candidates": 115,
+  "outOfScope": {},
+  "recorded": 107
+ }
+}
