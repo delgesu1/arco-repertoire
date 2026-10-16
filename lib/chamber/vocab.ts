@@ -97,8 +97,33 @@ export function formationFor(ins: Instrumentation): FormationKey {
 
 export const formationLabel = (k: FormationKey) => FORMATIONS.find((f) => f.key === k)?.label ?? k;
 
-/** "2 violins, viola, cello", "clarinet, 2 violins, viola, cello" (as written in the work's own order) */
-export const instrumentList = (ins: Instrumentation): string =>
-  entries(ins)
-    .map(([k, c]) => (c > 1 ? `${c} ${INSTRUMENTS[k].plural ?? `${INSTRUMENTS[k].label}s`}` : INSTRUMENTS[k].label))
-    .join(", ");
+const named = (k: InstrumentKey, c: number) => (c > 1 ? `${c} ${INSTRUMENTS[k].plural ?? `${INSTRUMENTS[k].label}s`}` : INSTRUMENTS[k].label);
+const or = (xs: string[]) => (xs.length > 1 ? `${xs.slice(0, -1).join(", ")} or ${xs[xs.length - 1]}` : xs[0]);
+
+/**
+ * "2 violins, viola, cello", "clarinet (or violin), viola, piano", "2 violins, viola, cello, double bass ad lib."
+ * (instruments in the work's own order, then the ad lib. parts)
+ */
+export const instrumentList = (
+  ins: Instrumentation,
+  extra: { alternatives?: Partial<Record<InstrumentKey, InstrumentKey[]>>; optional?: Instrumentation } = {},
+): string =>
+  [
+    ...entries(ins).map(([k, c]) => {
+      const alt = extra.alternatives?.[k];
+      return alt?.length ? `${named(k, c)} (or ${or(alt.map((a) => INSTRUMENTS[a].label))})` : named(k, c);
+    }),
+    ...entries(extra.optional ?? {}).map(([k, c]) => `${named(k, c)} ad lib.`),
+  ].join(", ");
+
+/** every instrument that can take part: the scoring, its published alternatives and its ad lib. parts (for "includes instrument") */
+export const playableBy = (w: {
+  instruments: Instrumentation;
+  alternatives?: Partial<Record<InstrumentKey, InstrumentKey[]>>;
+  optional?: Instrumentation;
+}): Set<InstrumentKey> =>
+  new Set([
+    ...(Object.keys(w.instruments) as InstrumentKey[]),
+    ...Object.values(w.alternatives ?? {}).flat(),
+    ...(Object.keys(w.optional ?? {}) as InstrumentKey[]),
+  ]);

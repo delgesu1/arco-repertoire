@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { FormationKey, InstrumentKey } from "./types";
-import { instrumentList, playersFor, formationFor } from "./vocab";
+import { instrumentList, playableBy, playersFor, formationFor } from "./vocab";
 
 type Ins = Partial<Record<InstrumentKey, number>>;
 const SQ: Ins = { violin: 2, viola: 1, cello: 1 };
@@ -45,5 +45,22 @@ describe("instrumentList", () => {
   it("writes counts and irregular plurals", () => {
     expect(instrumentList({ clarinet: 1, ...SQ })).toBe("clarinet, 2 violins, viola, cello");
     expect(instrumentList({ violin: 1, "double-bass": 2 })).toBe("violin, 2 double basses");
+  });
+  it("writes alternatives and ad lib. parts", () => {
+    expect(instrumentList({ clarinet: 1, viola: 1, piano: 1 }, { alternatives: { clarinet: ["violin"] } })).toBe(
+      "clarinet (or violin), viola, piano",
+    );
+    expect(instrumentList({ horn: 1, violin: 1, piano: 1 }, { alternatives: { horn: ["viola", "cello"] } })).toBe(
+      "horn (or viola or cello), violin, piano",
+    );
+    expect(instrumentList(SQ, { optional: { "double-bass": 1 } })).toBe("2 violins, viola, cello, double bass ad lib.");
+  });
+});
+
+describe("playableBy", () => {
+  it("includes alternatives and ad lib. parts", () => {
+    const kegelstatt = { instruments: { clarinet: 1, viola: 1, piano: 1 }, alternatives: { clarinet: ["violin" as const] } };
+    expect([...playableBy(kegelstatt)].sort()).toEqual(["clarinet", "piano", "viola", "violin"]);
+    expect(playableBy({ instruments: SQ, optional: { "double-bass": 1 } }).has("double-bass")).toBe(true);
   });
 });

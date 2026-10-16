@@ -18,8 +18,15 @@
   "set": null,
   "notes": "Single completed Allegro; light Classical textures, a good first string trio",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Figuration like Schubert's Sonatinas (level 4); exposed but transparent"
+  "benchmark": "approved",
+  "basis": "Figuration like Schubert's Sonatinas (level 4); exposed but transparent",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "tender",
+   "playful"
+  ]
  },
  {
   "id": 100002,
@@ -40,8 +47,15 @@
   "set": null,
   "notes": "Hungarian-flavoured single movement, grateful for all three",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Moderate technique; a good first twentieth-century trio"
+  "benchmark": "approved",
+  "basis": "Moderate technique; a good first twentieth-century trio",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "dance",
+   "folk",
+   "lyrical"
+  ]
  },
  {
   "id": 100003,
@@ -64,8 +78,15 @@
   "set": null,
   "notes": "Four short pieces for two violins and viola; the first version of the Romantic Pieces, Op. 75",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Simpler than the Terzetto (5)"
+  "benchmark": "approved",
+  "basis": "Simpler than the Terzetto (5)",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "tender",
+   "folk"
+  ]
  },
  {
   "id": 100004,
@@ -86,8 +107,15 @@
   "set": null,
   "notes": "Seven movements framed by a march; violin leads throughout",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Violin part near the Spring Sonata's easier pages; lighter than the Op. 9 trios"
+  "benchmark": "approved",
+  "basis": "Violin part near the Spring Sonata's easier pages; lighter than the Op. 9 trios",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "playful",
+   "lyrical",
+   "dance"
+  ]
  },
  {
   "id": 100005,
@@ -101,15 +129,22 @@
   },
   "players": 3,
   "form": "work",
-  "level": 7,
+  "level": 6,
   "hardestPart": "violin",
   "year": "1798",
   "minutes": 26,
   "set": "Three String Trios, Op. 9",
   "notes": "Symphonic writing for three; fast Presto finale with high violin passagework",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Thin texture exposes everyone; the finale's speed and range are at diploma level"
+  "benchmark": "approved",
+  "basis": "Thin texture exposes everyone; the Presto finale's speed and range are at pre-diploma level",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "virtuosic",
+   "lyrical"
+  ]
  },
  {
   "id": 100006,
@@ -123,15 +158,22 @@
   },
   "players": 3,
   "form": "work",
-  "level": 8,
+  "level": 7,
   "hardestPart": "balanced",
   "year": "1788",
   "minutes": 45,
   "set": null,
   "notes": "Six movements; every part exposed, viola and cello as demanding as the violin",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Exposure and stamina of a professional work; violin writing above Concerto No. 5 (7)"
+  "benchmark": "approved",
+  "basis": "Every part exposed for 45 minutes; violin writing about Mozart's Concerto No. 5 (7)",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "playful",
+   "tender"
+  ]
  },
  {
   "id": 100007,
@@ -149,10 +191,17 @@
   "year": "1887",
   "minutes": 20,
   "set": null,
-  "notes": "Two violins and viola, written for amateurs; viola part simple, variations finale for violin 1",
+  "notes": "For an amateur violinist, his teacher and Dvořák himself on viola; theme-and-variations finale",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Written for an amateur player; the finale lifts violin 1 to about ABRSM 8"
+  "benchmark": "approved",
+  "basis": "Written for an amateur player; the finale lifts violin 1 to about ABRSM 8",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dance",
+   "folk"
+  ]
  },
  {
   "id": 100008,
@@ -173,8 +222,15 @@
   "set": null,
   "notes": "Five movements; brilliant rondo finale for all three",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Virtuosic writing for every part; on a par with the Brahms sextets and quintets"
+  "benchmark": "approved",
+  "basis": "Virtuosic writing for every part; on a par with the Brahms sextets and quintets",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "dance",
+   "lyrical",
+   "folk"
+  ]
  },
  {
   "id": 100009,
@@ -195,8 +251,14 @@
   "set": null,
   "notes": "Twelve-tone; harmonics, col legno and constant changes of sound and tempo",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Among the hardest works in the trio literature; matches the catalogue's 10s"
+  "benchmark": "approved",
+  "basis": "Among the hardest works in the trio literature; matches the catalogue's 10s",
+  "mode": null,
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "dark"
+  ]
  },
  {
   "id": 100010,
@@ -210,15 +272,21 @@
   },
   "players": 4,
   "form": "work",
-  "level": 2,
+  "level": 3,
   "hardestPart": "violin 1",
   "year": "c. 1760",
   "minutes": 15,
   "set": "Six String Quartets, Op. 1",
   "notes": "Five-movement divertimento; mostly first position, lower parts very easy",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "The simplest quartet writing in the canon; violin 1 about ABRSM 5"
+  "benchmark": "approved",
+  "basis": "Simple Classical writing; violin 1 about ABRSM 6 in the fast movements",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "dance"
+  ]
  },
  {
   "id": 100011,
@@ -244,8 +312,15 @@
   "set": "Six String Quartets, Op. 3",
   "notes": "Long published as Haydn's Op. 3 No. 5 (Hob. III:17); muted violin melody over pizzicato",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "The famous Serenade is about ABRSM 4–5 for violin 1; the other movements are no harder"
+  "benchmark": "approved",
+  "basis": "The famous Serenade is about ABRSM 4–5 for violin 1; the other movements are no harder",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "tender",
+   "lyrical",
+   "playful"
+  ]
  },
  {
   "id": 100012,
@@ -259,15 +334,22 @@
   },
   "players": 4,
   "form": "short",
-  "level": 4,
+  "level": 3,
   "hardestPart": "balanced",
   "year": "c. 1680",
   "minutes": 6,
   "set": null,
   "notes": "Variations on a ground bass in four parts, for string quartet or string orchestra",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Moderate technique; the demand is even ensemble and Baroque style"
+  "benchmark": "approved",
+  "basis": "Simple technique, about ABRSM 6; the demand is even ensemble and Baroque style",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "dance",
+   "dark"
+  ]
  },
  {
   "id": 100013,
@@ -288,8 +370,14 @@
   "set": "Six \"Milanese\" Quartets, K. 155–160",
   "notes": "Three short movements written at 16; light Italianate textures",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Violin 1 about ABRSM 6; lower parts easy"
+  "benchmark": "approved",
+  "basis": "Violin 1 about ABRSM 6; lower parts easy",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "lyrical"
+  ]
  },
  {
   "id": 100014,
@@ -310,8 +398,15 @@
   "set": "Sei sonate a quattro",
   "notes": "Written at 12 for two violins, cello and double bass; sunny and operatic",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin 1 about ABRSM 7; a favourite of student ensembles"
+  "benchmark": "approved",
+  "basis": "Violin 1 about ABRSM 7; a favourite of student ensembles",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "lyrical",
+   "virtuosic"
+  ]
  },
  {
   "id": 100015,
@@ -332,8 +427,15 @@
   "set": "Six String Quartets, Op. 20 (\"Sun\")",
   "notes": "Cello leads the opening; four-subject fugue finale",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "The fugue needs four independent, even voices; violin 1 about level 4–5"
+  "benchmark": "approved",
+  "basis": "The fugue needs four independent, even voices; violin 1 about level 4–5",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dramatic",
+   "playful"
+  ]
  },
  {
   "id": 100016,
@@ -354,8 +456,15 @@
   "set": "Six String Quartets, Op. 33 (\"Russian\")",
   "notes": "Witty finale with false endings; violin 1 leads, lower parts moderate",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin 1 about ABRSM 7, like Haydn's G-major Concerto (4)"
+  "benchmark": "approved",
+  "basis": "Violin 1 about ABRSM 7, like Haydn's G-major Concerto (4)",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "humorous",
+   "playful",
+   "dance"
+  ]
  },
  {
   "id": 100017,
@@ -376,8 +485,15 @@
   "set": "Six String Quartets, Op. 64 (\"Tost\")",
   "notes": "High-lying opening melody for violin 1; perpetuum mobile finale",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin 1's high register and moto perpetuo sit near Mozart's Concerto No. 3 (6)"
+  "benchmark": "approved",
+  "basis": "Violin 1's high register and moto perpetuo sit near Mozart's Concerto No. 3 (6)",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "lyrical",
+   "playful",
+   "virtuosic"
+  ]
  },
  {
   "id": 100018,
@@ -398,8 +514,15 @@
   "set": "Three String Quartets, Op. 74 (\"Apponyi\")",
   "notes": "Galloping rhythms in the outer movements; violin 1 dominates",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Brilliant but idiomatic violin 1, about ABRSM 8"
+  "benchmark": "approved",
+  "basis": "Brilliant but idiomatic violin 1, about ABRSM 8",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "heroic",
+   "lyrical"
+  ]
  },
  {
   "id": 100019,
@@ -423,8 +546,15 @@
   "set": "Six String Quartets, Op. 76 (\"Erdődy\")",
   "notes": "Variations on the Emperor's Hymn give each player the tune; violin 1 florid elsewhere",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin 1 about ABRSM 8; the variations are manageable for all"
+  "benchmark": "approved",
+  "basis": "Violin 1 about ABRSM 8; the variations are manageable for all",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "heroic",
+   "folk"
+  ]
  },
  {
   "id": 100020,
@@ -448,8 +578,14 @@
   "set": "Three Divertimenti, K. 136–138",
   "notes": "For string quartet or string orchestra; fast running violin 1 in the outer movements",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Presto passagework about ABRSM 7 for violin 1; lower parts easy"
+  "benchmark": "approved",
+  "basis": "Presto passagework about ABRSM 7 for violin 1; lower parts easy",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "lyrical"
+  ]
  },
  {
   "id": 100021,
@@ -464,6 +600,9 @@
    "viola": 1,
    "cello": 1
   },
+  "optional": {
+   "double-bass": 1
+  },
   "players": 4,
   "form": "work",
   "level": 3,
@@ -473,8 +612,15 @@
   "set": null,
   "notes": "For string quartet with optional bass, or string orchestra; violin 1 mostly in first to third position",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin 1 about ABRSM 6; the classic first quartet for students"
+  "benchmark": "approved",
+  "basis": "Violin 1 about ABRSM 6; the classic first quartet for students",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "lyrical",
+   "dance"
+  ]
  },
  {
   "id": 100022,
@@ -488,15 +634,22 @@
   },
   "players": 4,
   "form": "work",
-  "level": 5,
+  "level": 6,
   "hardestPart": "violin 1",
   "year": "1783",
   "minutes": 28,
   "set": "Six \"Haydn\" Quartets",
   "notes": "Dark and intimate; siciliano variations finale",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Less brilliant than K. 465; exposed Classical ensemble at about ABRSM 8"
+  "benchmark": "approved",
+  "basis": "Less brilliant than K. 465 but as exposed; pre-diploma",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dark",
+   "dramatic",
+   "lyrical"
+  ]
  },
  {
   "id": 100023,
@@ -517,8 +670,15 @@
   "set": "Six \"Haydn\" Quartets",
   "notes": "Chromatic slow introduction tests intonation; brilliant finale for violin 1",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin 1 like Mozart's Concerto No. 3 (6); exposed intonation adds to it"
+  "benchmark": "approved",
+  "basis": "Violin 1 like Mozart's Concerto No. 3 (6); exposed intonation adds to it",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "playful",
+   "dramatic"
+  ]
  },
  {
   "id": 100024,
@@ -539,8 +699,15 @@
   "set": "Six String Quartets, Op. 18",
   "notes": "Stormy first movement; Prestissimo coda in the finale",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin 1 about the level of the Spring Sonata (6)"
+  "benchmark": "approved",
+  "basis": "Violin 1 about the level of the Spring Sonata (6)",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "playful",
+   "dark"
+  ]
  },
  {
   "id": 100025,
@@ -561,8 +728,15 @@
   "set": "Three String Quartets, Op. 59 (\"Razumovsky\")",
   "notes": "Symphonic scale; the cello opens, long trills and high writing for violin 1",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Comparable in scale and demand to the Kreutzer Sonata (8)"
+  "benchmark": "approved",
+  "basis": "Comparable in scale and demand to the Kreutzer Sonata (8)",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "heroic",
+   "lyrical",
+   "dramatic"
+  ]
  },
  {
   "id": 100026,
@@ -583,8 +757,14 @@
   "set": null,
   "notes": "Compressed and violent; abrupt changes demand tight ensemble",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Short but relentless ensemble difficulty; professional level"
+  "benchmark": "approved",
+  "basis": "Short but relentless ensemble difficulty; professional level",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "dark"
+  ]
  },
  {
   "id": 100027,
@@ -605,8 +785,15 @@
   "set": null,
   "notes": "Seven linked movements without a break; extreme ensemble and stamina demands",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Late Beethoven: the top of quartet difficulty short of the most extreme modern works"
+  "benchmark": "approved",
+  "basis": "Late Beethoven: the top of quartet difficulty short of the most extreme modern works",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "dark"
+  ]
  },
  {
   "id": 100028,
@@ -631,8 +818,15 @@
   "set": null,
   "notes": "The original finale of Op. 130; dense, violent fugal writing",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Notoriously hard to hold together; rhythmic and dynamic extremes"
+  "benchmark": "approved",
+  "basis": "Notoriously hard to hold together; rhythmic and dynamic extremes",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "heroic",
+   "dark"
+  ]
  },
  {
   "id": 100029,
@@ -646,15 +840,22 @@
   },
   "players": 4,
   "form": "short",
-  "level": 7,
+  "level": 6,
   "hardestPart": "violin 1",
   "year": "1820",
   "minutes": 9,
   "set": null,
   "notes": "Single movement; tremolo opening and high violin 1 melody",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Short but at diploma level for violin 1"
+  "benchmark": "approved",
+  "basis": "Short, but tremolo stamina and high violin 1 writing at pre-diploma level",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "dark"
+  ]
  },
  {
   "id": 100030,
@@ -675,8 +876,15 @@
   "set": null,
   "notes": "Lyrical; violin 1 sings over a restless accompaniment",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Less virtuosic than D. 810; the demand is mostly sound and line"
+  "benchmark": "approved",
+  "basis": "Less virtuosic than D. 810; the demand is mostly sound and line",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "tender",
+   "dance"
+  ]
  },
  {
   "id": 100031,
@@ -700,8 +908,15 @@
   "set": null,
   "notes": "Variations on Schubert's song; relentless tarantella finale",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin 1's variations and Presto finale at the level of the Kreutzer Sonata (8)"
+  "benchmark": "approved",
+  "basis": "Violin 1's variations and Presto finale at the level of the Kreutzer Sonata (8)",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "dark",
+   "heroic"
+  ]
  },
  {
   "id": 100032,
@@ -722,8 +937,15 @@
   "set": null,
   "notes": "Vast scale; sustained tremolo and major–minor shifts, endurance for all four",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Stamina and control beyond D. 810; virtuoso-level ensemble work"
+  "benchmark": "approved",
+  "basis": "Stamina and control beyond D. 810; virtuoso-level ensemble work",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "dark"
+  ]
  },
  {
   "id": 100033,
@@ -744,8 +966,15 @@
   "set": null,
   "notes": "Written at 18 in homage to late Beethoven; recitative for violin 1",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin 1 about the level of Mendelssohn's Concerto (7)"
+  "benchmark": "approved",
+  "basis": "Violin 1 about the level of Mendelssohn's Concerto (7)",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "tender"
+  ]
  },
  {
   "id": 100034,
@@ -766,8 +995,15 @@
   "set": "Two String Quartets, Op. 51",
   "notes": "Dense, orchestral textures; cross-rhythms throughout",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Dense ensemble writing above the Brahms sonatas (7)"
+  "benchmark": "approved",
+  "basis": "Dense ensemble writing above Brahms's first two violin sonatas (7)",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "dark",
+   "lyrical"
+  ]
  },
  {
   "id": 100035,
@@ -788,8 +1024,15 @@
   "set": null,
   "notes": "Pentatonic melodies, the viola opens; a favourite of advancing student quartets",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Idiomatic and grateful; violin 1 about pre-diploma"
+  "benchmark": "approved",
+  "basis": "Idiomatic and grateful; violin 1 about pre-diploma",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "folk",
+   "lyrical",
+   "dance"
+  ]
  },
  {
   "id": 100036,
@@ -810,8 +1053,18 @@
   "set": null,
   "notes": "Twelve short pieces arranged by the composer from his songs; lyrical",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Slow lyrical pieces; the demand is tone and blend, not technique"
+  "benchmark": "approved",
+  "basis": "Slow lyrical pieces; the demand is tone and blend, not technique",
+  "aka": [
+   "Echo of Songs",
+   "Ohlas písní"
+  ],
+  "mode": "major",
+  "pace": "slow",
+  "character": [
+   "tender",
+   "lyrical"
+  ]
  },
  {
   "id": 100037,
@@ -829,15 +1082,22 @@
   },
   "players": 4,
   "form": "work",
-  "level": 8,
+  "level": 7,
   "hardestPart": "violin 1",
   "year": "1876",
   "minutes": 28,
   "set": null,
   "notes": "Autobiographical; viola solo opening, a high violin harmonic depicts the composer's tinnitus",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Virtuosic violin 1 and viola; professional level"
+  "benchmark": "approved",
+  "basis": "Virtuosic violin 1 and a demanding viola solo; diploma level",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "folk",
+   "lyrical"
+  ]
  },
  {
   "id": 100038,
@@ -858,8 +1118,15 @@
   "set": null,
   "notes": "The famous Notturno for cello and violin; warm, singing writing",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Lyrical rather than virtuosic; violin 1 about pre-diploma"
+  "benchmark": "approved",
+  "basis": "Lyrical rather than virtuosic; violin 1 about pre-diploma",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "tender",
+   "playful"
+  ]
  },
  {
   "id": 100039,
@@ -880,8 +1147,15 @@
   "set": null,
   "notes": "Contains the Andante cantabile; the syncopated opening needs ensemble discipline",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Outer movements at diploma level for violin 1"
+  "benchmark": "approved",
+  "basis": "Outer movements at diploma level for violin 1",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "folk",
+   "dance"
+  ]
  },
  {
   "id": 100040,
@@ -895,15 +1169,22 @@
   },
   "players": 4,
   "form": "work",
-  "level": 8,
+  "level": 7,
   "hardestPart": "balanced",
   "year": "1878",
   "minutes": 34,
   "set": null,
   "notes": "Orchestral textures with multiple stops in all four parts",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Heavy multiple stops and stamina for everyone"
+  "benchmark": "approved",
+  "basis": "Heavy multiple stops and stamina for everyone; diploma level",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "folk",
+   "heroic"
+  ]
  },
  {
   "id": 100041,
@@ -918,21 +1199,29 @@
   "players": 4,
   "form": "short",
   "level": 3,
-  "hardestPart": "balanced",
+  "hardestPart": "violin 1",
   "year": "1890",
   "minutes": 6,
   "set": null,
   "notes": "Elegy in one movement; slow and sustained, all parts equal",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Technically simple; the demand is legato, intonation and blend"
+  "benchmark": "approved",
+  "basis": "Technically simple; the demand is legato, intonation and blend",
+  "mode": "minor",
+  "pace": "slow",
+  "character": [
+   "tender",
+   "dark",
+   "lyrical"
+  ]
  },
  {
   "id": 100042,
   "composer": "Wolf, Hugo",
-  "title": "Italian Serenade",
+  "title": "Italian Serenade in G major",
   "aka": [
-   "Italienische Serenade"
+   "Italienische Serenade",
+   "Serenade in G major"
   ],
   "formation": "string-quartet",
   "instruments": {
@@ -949,13 +1238,20 @@
   "set": null,
   "notes": "Light, fast and witty; quick spiccato and ensemble precision",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Fast bow control and ensemble speed; about pre-diploma"
+  "benchmark": "approved",
+  "basis": "Fast bow control and ensemble speed; about pre-diploma",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "dance",
+   "humorous"
+  ]
  },
  {
   "id": 100043,
   "composer": "Debussy, Claude",
-  "title": "String Quartet in G minor, Op. 10",
+  "title": "String Quartet in G minor, Op. 10, L. 85",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -971,8 +1267,15 @@
   "set": null,
   "notes": "Cyclic; pizzicato scherzo, shifting colours and rhythms",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "On a par with Debussy's Violin Sonata (8)"
+  "benchmark": "approved",
+  "basis": "On a par with Debussy's Violin Sonata (8)",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "playful"
+  ]
  },
  {
   "id": 100044,
@@ -993,13 +1296,20 @@
   "set": null,
   "notes": "Pizzicato second movement in cross-rhythm; muted slow movement",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "On a par with Ravel's Sonata No. 2 (8)"
+  "benchmark": "approved",
+  "basis": "On a par with Ravel's Sonata No. 2 (8)",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "tender",
+   "dramatic"
+  ]
  },
  {
   "id": 100045,
   "composer": "Janáček, Leoš",
-  "title": "String Quartet No. 2 (\"Intimate Letters\")",
+  "title": "String Quartet No. 2, JW VII/13 (\"Intimate Letters\")",
   "aka": [
    "Listy důvěrné"
   ],
@@ -1018,8 +1328,15 @@
   "set": null,
   "notes": "Abrupt changes of mood, sul ponticello, very high viola writing",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Unidiomatic writing and ensemble complexity; professional level"
+  "benchmark": "approved",
+  "basis": "Unidiomatic writing and ensemble complexity; professional level",
+  "mode": null,
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "tender"
+  ]
  },
  {
   "id": 100046,
@@ -1040,8 +1357,15 @@
   "set": null,
   "notes": "Arch form; snap pizzicato, glissandi, a Prestissimo played muted throughout",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Extended techniques and rhythmic drive at the level of Bartók's Solo Sonata (9)"
+  "benchmark": "approved",
+  "basis": "Extended techniques and rhythmic drive at the level of Bartók's sonatas with piano (9)",
+  "mode": null,
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "folk",
+   "virtuosic"
+  ]
  },
  {
   "id": 100047,
@@ -1062,8 +1386,15 @@
   "set": null,
   "notes": "Sunny and compact; the most approachable of the fifteen",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Clear textures; violin 1 about ABRSM 8"
+  "benchmark": "approved",
+  "basis": "Clear textures; violin 1 about ABRSM 8",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "playful",
+   "tender"
+  ]
  },
  {
   "id": 100048,
@@ -1084,13 +1415,19 @@
   "set": null,
   "notes": "Built on the DSCH motif; savage Allegro molto between slow, sustained largos",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "The Allegro molto is fast and loud but not intricate; the largos need control"
+  "benchmark": "approved",
+  "basis": "The Allegro molto is fast and loud but not intricate; the largos need control",
+  "mode": "minor",
+  "pace": "slow",
+  "character": [
+   "dark",
+   "dramatic"
+  ]
  },
  {
   "id": 100049,
   "composer": "Barber, Samuel",
-  "title": "String Quartet, Op. 11",
+  "title": "String Quartet in B minor, Op. 11",
   "aka": [
    "Adagio for Strings"
   ],
@@ -1104,13 +1441,20 @@
   "form": "work",
   "level": 7,
   "hardestPart": "violin 1",
-  "year": "1936",
+  "year": "1936 (rev. 1943)",
   "minutes": 18,
   "set": null,
   "notes": "Contains the Adagio later arranged as the Adagio for Strings",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Outer movements at diploma level; the Adagio needs sustained control"
+  "benchmark": "approved",
+  "basis": "Outer movements at diploma level; the Adagio needs sustained control",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "tender"
+  ]
  },
  {
   "id": 100050,
@@ -1131,8 +1475,15 @@
   "set": null,
   "notes": "For string quartet or string orchestra; includes the Playful Pizzicato",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Student-friendly, but the pizzicato movement is fast; about ABRSM 7"
+  "benchmark": "approved",
+  "basis": "Student-friendly, but the pizzicato movement is fast; about ABRSM 7",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "dance",
+   "tender"
+  ]
  },
  {
   "id": 100051,
@@ -1146,15 +1497,22 @@
   },
   "players": 4,
   "form": "short",
-  "level": 6,
+  "level": 5,
   "hardestPart": "balanced",
   "year": "1905",
   "minutes": 10,
   "set": null,
   "notes": "Late-Romantic slow movement written before Webern's atonal works",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Lush, high-lying lines; the demand is control and blend"
+  "benchmark": "approved",
+  "basis": "Lush, high-lying lines; the demand is control and blend more than technique",
+  "mode": "minor",
+  "pace": "slow",
+  "character": [
+   "lyrical",
+   "tender",
+   "dramatic"
+  ]
  },
  {
   "id": 100052,
@@ -1175,8 +1533,15 @@
   "set": null,
   "notes": "One movement of continuous variations; Bartókian drive",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Like the Bartók quartets; quick changes of tempo and character"
+  "benchmark": "approved",
+  "basis": "Like the Bartók quartets; quick changes of tempo and character",
+  "mode": null,
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "playful",
+   "virtuosic"
+  ]
  },
  {
   "id": 100053,
@@ -1190,15 +1555,21 @@
   },
   "players": 4,
   "form": "work",
-  "level": 10,
+  "level": 9,
   "hardestPart": "balanced",
   "year": "1972 (rev. 1988)",
   "minutes": 23,
   "set": null,
   "notes": "Almost no ordinary tone: bow pressure, noise and sounds on and behind the bridge",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Extreme extended techniques throughout; matches the catalogue's 10s (Sciarrino)"
+  "benchmark": "approved",
+  "basis": "Extended techniques throughout; extreme control of bow pressure rather than speed",
+  "mode": null,
+  "pace": "slow",
+  "character": [
+   "dark",
+   "dramatic"
+  ]
  },
  {
   "id": 100054,
@@ -1213,15 +1584,21 @@
   },
   "players": 4,
   "form": "work",
-  "level": 9,
+  "level": 8,
   "hardestPart": "balanced",
   "year": "1970",
   "minutes": 20,
   "set": null,
   "notes": "For electric string quartet; the players also play glasses, maracas and tam-tam",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Amplified extended techniques and theatre; demanding coordination"
+  "benchmark": "approved",
+  "basis": "Amplified extended techniques and theatre; professional level",
+  "mode": null,
+  "pace": "moderate",
+  "character": [
+   "dark",
+   "dramatic"
+  ]
  },
  {
   "id": 100055,
@@ -1236,15 +1613,21 @@
   },
   "players": 4,
   "form": "work",
-  "level": 8,
+  "level": 7,
   "hardestPart": "balanced",
   "year": "1988",
   "minutes": 27,
   "set": null,
-  "notes": "String quartet with recorded speech and live or recorded quartets; strict pulse with a click track",
+  "notes": "String quartet with a tape of speech, train sounds and three pre-recorded quartets; no click track",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Relentless repeated patterns locked to the tape; stamina and precision"
+  "benchmark": "approved",
+  "basis": "Repeated patterns locked to the tape; stamina and precision at diploma level",
+  "mode": null,
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "dark"
+  ]
  },
  {
   "id": 100056,
@@ -1258,15 +1641,21 @@
   },
   "players": 4,
   "form": "work",
-  "level": 3,
+  "level": 4,
   "hardestPart": "balanced",
   "year": "1983",
   "minutes": 8,
   "set": null,
   "notes": "Four short movements of repeated arpeggio patterns",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Simple patterns; the demand is steadiness and counting"
+  "benchmark": "approved",
+  "basis": "Simple patterns, but steady counting and stamina through the repeats; about ABRSM 7",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dark"
+  ]
  },
  {
   "id": 100057,
@@ -1280,15 +1669,22 @@
   },
   "players": 4,
   "form": "work",
-  "level": 4,
+  "level": 5,
   "hardestPart": "balanced",
   "year": "1985",
   "minutes": 17,
   "set": null,
   "notes": "Six movements drawn from the film score; driving repeated patterns",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Like No. 2 but faster and longer; endurance"
+  "benchmark": "approved",
+  "basis": "Like No. 2 but faster and longer; endurance at about ABRSM 8",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "dark"
+  ]
  },
  {
   "id": 100058,
@@ -1302,15 +1698,21 @@
   },
   "players": 4,
   "form": "short",
-  "level": 2,
+  "level": 3,
   "hardestPart": "balanced",
   "year": "1977 (1991)",
   "minutes": 5,
   "set": null,
   "notes": "Tintinnabuli: slow even notes, pure intonation and blend",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Technically like Spiegel im Spiegel (2)"
+  "benchmark": "approved",
+  "basis": "Slow even notes; four-part tuning and blend put it a step above Spiegel im Spiegel (2)",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "tender",
+   "lyrical"
+  ]
  },
  {
   "id": 100059,
@@ -1324,20 +1726,27 @@
   },
   "players": 4,
   "form": "short",
-  "level": 5,
+  "level": 4,
   "hardestPart": "balanced",
   "year": "1977 (1989)",
   "minutes": 10,
   "set": null,
   "notes": "Chant-like chords in harmonics over a drone",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Harmonics and sustained chords need control; much easier than the violin–piano Fratres (7)"
+  "benchmark": "approved",
+  "basis": "Harmonics and sustained chords need control; far easier than the violin–piano Fratres (7)",
+  "mode": "minor",
+  "pace": "slow",
+  "character": [
+   "dark",
+   "tender",
+   "lyrical"
+  ]
  },
  {
   "id": 100060,
   "composer": "Piazzolla, Astor",
-  "title": "Four for Tango",
+  "title": "Four, for Tango",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -1347,14 +1756,24 @@
   "players": 4,
   "form": "short",
   "level": 7,
-  "hardestPart": "balanced",
+  "hardestPart": "violin 1",
   "year": "1988",
   "minutes": 5,
   "set": null,
   "notes": "Written for the Kronos Quartet; percussive effects, glissandi, tango rhythms",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Extended techniques and rhythmic drive; diploma level"
+  "benchmark": "approved",
+  "basis": "Extended techniques and rhythmic drive; diploma level",
+  "aka": [
+   "Four for Tango"
+  ],
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dance",
+   "dramatic",
+   "virtuosic"
+  ]
  },
  {
   "id": 100061,
@@ -1371,12 +1790,19 @@
   "level": 4,
   "hardestPart": "balanced",
   "year": "c. 1951",
-  "minutes": 15,
+  "minutes": 18,
   "set": null,
   "notes": "Contrapuntal settings of spirituals and folk songs",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Moderate technique; the independent voices need ensemble care"
+  "benchmark": "approved",
+  "basis": "Moderate technique; the independent voices need ensemble care",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "folk",
+   "lyrical",
+   "playful"
+  ]
  },
  {
   "id": 100062,
@@ -1390,15 +1816,22 @@
   },
   "players": 4,
   "form": "short",
-  "level": 5,
+  "level": 4,
   "hardestPart": "balanced",
   "year": "2006 (rev. 2012)",
   "minutes": 7,
   "set": null,
   "notes": "Groove built on strummed pizzicato; string quartet version (also for string orchestra)",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Pizzicato patterns and rhythm; about ABRSM 8"
+  "benchmark": "approved",
+  "basis": "Strummed pizzicato patterns and rhythm; about ABRSM 7",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "folk",
+   "dance",
+   "lyrical"
+  ]
  },
  {
   "id": 100063,
@@ -1412,15 +1845,22 @@
   },
   "players": 4,
   "form": "short",
-  "level": 7,
+  "level": 5,
   "hardestPart": "balanced",
   "year": "2011",
   "minutes": 11,
   "set": null,
   "notes": "After a Haydn minuet; harmonics, strummed pizzicato, sudden shifts of sound",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Extended colours and ensemble timing; diploma level"
+  "benchmark": "approved",
+  "basis": "Harmonics, strummed pizzicato and ensemble timing rather than hard notes; about ABRSM 8",
+  "mode": null,
+  "pace": "moderate",
+  "character": [
+   "tender",
+   "dance",
+   "lyrical"
+  ]
  },
  {
   "id": 100064,
@@ -1434,20 +1874,27 @@
   },
   "players": 4,
   "form": "short",
-  "level": 6,
-  "hardestPart": "balanced",
+  "level": 5,
+  "hardestPart": "violin 1",
   "year": "1925",
   "minutes": 9,
   "set": null,
   "notes": "The composer's own string quartet version of a lute-quartet original",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Rhythmic flexibility and colour; about pre-diploma"
+  "benchmark": "approved",
+  "basis": "Rhythmic flexibility and colour; about ABRSM 8",
+  "mode": null,
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "folk"
+  ]
  },
  {
   "id": 100065,
   "composer": "Bridge, Frank",
-  "title": "Three Novelletten",
+  "title": "Three Novelletten, H. 44",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -1463,8 +1910,15 @@
   "set": null,
   "notes": "Three short Romantic character pieces",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Moderate technique; good for an advancing student quartet"
+  "benchmark": "approved",
+  "basis": "Moderate technique; good for an advancing student quartet",
+  "mode": null,
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "playful",
+   "tender"
+  ]
  },
  {
   "id": 100066,
@@ -1484,12 +1938,19 @@
   "level": 4,
   "hardestPart": "violin 1",
   "year": "1771",
-  "minutes": 18,
+  "minutes": 23,
   "set": null,
   "notes": "Two cellos; contains the famous Minuet; the first cello part lies high",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "The Minuet is easy; the outer movements about ABRSM 7 for violin 1 and cello 1"
+  "benchmark": "approved",
+  "basis": "The Minuet is easy; the outer movements about ABRSM 7 for violin 1 and cello 1",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "dance",
+   "lyrical",
+   "playful"
+  ]
  },
  {
   "id": 100067,
@@ -1513,8 +1974,15 @@
   "set": null,
   "notes": "Street scenes: bells, drums, guitar-style pizzicato, a retreating march",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Picturesque effects at moderate technique"
+  "benchmark": "approved",
+  "basis": "Picturesque effects at moderate technique",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "playful",
+   "folk",
+   "dance"
+  ]
  },
  {
   "id": 100068,
@@ -1535,8 +2003,15 @@
   "set": null,
   "notes": "Two violas; dark and chromatic; slow introduction to the finale",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Mozart at the level of Concerto No. 5 (7), in exposed textures"
+  "benchmark": "approved",
+  "basis": "Mozart at the level of Concerto No. 5 (7), in exposed textures",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dark",
+   "dramatic",
+   "tender"
+  ]
  },
  {
   "id": 100069,
@@ -1557,8 +2032,15 @@
   "set": null,
   "notes": "Two cellos; nearly an hour; the Adagio needs extreme control",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Stamina and control; professional level for all five"
+  "benchmark": "approved",
+  "basis": "Stamina and control; professional level for all five",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dramatic",
+   "tender"
+  ]
  },
  {
   "id": 100070,
@@ -1572,15 +2054,22 @@
   },
   "players": 5,
   "form": "work",
-  "level": 7,
+  "level": 6,
   "hardestPart": "violin 1",
   "year": "1893",
   "minutes": 32,
   "set": null,
   "notes": "Two violas; written in Spillville alongside the American Quartet",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "A little harder than the American Quartet (6)"
+  "benchmark": "approved",
+  "basis": "About the American Quartet's demand (6), in denser five-part textures",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "folk",
+   "lyrical",
+   "dance"
+  ]
  },
  {
   "id": 100071,
@@ -1601,8 +2090,15 @@
   "set": null,
   "notes": "Two violas; the cello must carry the opening theme through full tremolo",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Dense textures and stamina; Brahms chamber music at 8"
+  "benchmark": "approved",
+  "basis": "Dense textures and stamina; Brahms chamber music at 8",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "heroic",
+   "folk",
+   "dance"
+  ]
  },
  {
   "id": 100072,
@@ -1623,8 +2119,15 @@
   "set": null,
   "notes": "Violin 1 writes like a concerto; very light, fast scherzo; the other parts are easier",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin 1 above Mendelssohn's Concerto (7); the other parts about level 6"
+  "benchmark": "approved",
+  "basis": "Violin 1 above Mendelssohn's Concerto (7); the other parts about level 6",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "virtuosic",
+   "playful",
+   "lyrical"
+  ]
  },
  {
   "id": 100073,
@@ -1645,8 +2148,15 @@
   "set": null,
   "notes": "Warm and lyrical; theme and variations second movement",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Less dense than the quartets; diploma level"
+  "benchmark": "approved",
+  "basis": "Less dense than the quartets; diploma level",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dance",
+   "dramatic"
+  ]
  },
  {
   "id": 100074,
@@ -1662,13 +2172,20 @@
   "form": "work",
   "level": 8,
   "hardestPart": "violin 1",
-  "year": "1890",
+  "year": "1890 (rev. 1892)",
   "minutes": 35,
   "set": null,
   "notes": "Driving outer movements; violin 1 and cello 1 duet in the Adagio",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Fast, full textures; harder than Tchaikovsky's First Quartet (7)"
+  "benchmark": "approved",
+  "basis": "Fast, full textures; harder than Tchaikovsky's First Quartet (7)",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "folk",
+   "lyrical"
+  ]
  },
  {
   "id": 100075,
@@ -1685,15 +2202,22 @@
   },
   "players": 6,
   "form": "work",
-  "level": 9,
+  "level": 8,
   "hardestPart": "balanced",
   "year": "1899",
   "minutes": 30,
   "set": null,
   "notes": "One 30-minute movement; dense chromaticism and many tempo changes",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Ensemble and intonation complexity at virtuoso level"
+  "benchmark": "approved",
+  "basis": "Dense chromatic ensemble writing and many tempo changes; professional level",
+  "mode": "minor",
+  "pace": "slow",
+  "character": [
+   "dramatic",
+   "tender",
+   "lyrical"
+  ]
  },
  {
   "id": 100076,
@@ -1707,15 +2231,22 @@
   },
   "players": 8,
   "form": "work",
-  "level": 10,
+  "level": 9,
   "hardestPart": "balanced",
   "year": "1900",
   "minutes": 40,
   "set": null,
   "notes": "Dense counterpoint for eight; every part virtuosic",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Widely regarded as one of the hardest works for string ensemble"
+  "benchmark": "approved",
+  "basis": "Dense counterpoint with every part virtuosic; among the hardest works for string ensemble",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "heroic",
+   "lyrical"
+  ]
  },
  {
   "id": 100077,
@@ -1739,8 +2270,15 @@
   "set": null,
   "notes": "Rondo all'Ongarese finale; easy violin part, the cello mostly doubles the piano bass",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano about grade 7; strings below level 3"
+  "benchmark": "approved",
+  "basis": "Piano about grade 7; strings below level 3",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "folk",
+   "dance",
+   "playful"
+  ]
  },
  {
   "id": 100078,
@@ -1761,8 +2299,14 @@
   "set": null,
   "notes": "The piano leads; violin and cello more independent than in Haydn's trios",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Piano about grade 8; violin about level 4"
+  "benchmark": "approved",
+  "basis": "Piano about grade 8; violin about level 4",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "playful"
+  ]
  },
  {
   "id": 100079,
@@ -1783,8 +2327,15 @@
   "set": "Three Piano Trios, Op. 1",
   "notes": "Stormy early Beethoven; brilliant piano",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Piano at pre-diploma; violin about level 5"
+  "benchmark": "approved",
+  "basis": "Piano at pre-diploma; violin about level 5",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "dark"
+  ]
  },
  {
   "id": 100080,
@@ -1808,8 +2359,15 @@
   "set": null,
   "notes": "Broad and noble; variations slow movement",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano at diploma level; violin part like the Spring Sonata (6)"
+  "benchmark": "approved",
+  "basis": "Piano at diploma level; violin part like the Spring Sonata (6)",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "heroic",
+   "lyrical",
+   "playful"
+  ]
  },
  {
   "id": 100081,
@@ -1830,8 +2388,15 @@
   "set": null,
   "notes": "Expansive and lyrical; the cello opens the slow movement",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano at diploma level; violin about level 6"
+  "benchmark": "approved",
+  "basis": "Piano at diploma level; violin about level 6",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "lyrical",
+   "playful",
+   "tender"
+  ]
  },
  {
   "id": 100082,
@@ -1852,8 +2417,15 @@
   "set": null,
   "notes": "Fast, light virtuoso piano part; violin and cello sing",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano at diploma level or above; strings about level 6"
+  "benchmark": "approved",
+  "basis": "Piano at diploma level or above; strings about level 6",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "virtuosic"
+  ]
  },
  {
   "id": 100083,
@@ -1874,8 +2446,14 @@
   "set": null,
   "notes": "Published after her death; brilliant piano, a song-like Lied third movement",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Piano at diploma level; strings about level 5"
+  "benchmark": "approved",
+  "basis": "Piano at diploma level; strings about level 5",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "lyrical"
+  ]
  },
  {
   "id": 100084,
@@ -1896,8 +2474,15 @@
   "set": null,
   "notes": "Classical design with a fugato in the finale",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Piano at diploma level; strings about level 5"
+  "benchmark": "approved",
+  "basis": "Piano at diploma level; strings about level 5",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dramatic",
+   "tender"
+  ]
  },
  {
   "id": 100085,
@@ -1918,8 +2503,15 @@
   "set": null,
   "notes": "Usually played in the 1889 revision; broad opening cello theme",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano and strings above the Brahms sonatas (7)"
+  "benchmark": "approved",
+  "basis": "Piano and strings above Brahms's first two violin sonatas (7)",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "heroic",
+   "dramatic"
+  ]
  },
  {
   "id": 100086,
@@ -1940,8 +2532,15 @@
   "set": null,
   "notes": "Six dumka movements alternating lament and dance",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Rhythmic flexibility; piano at diploma level, strings about level 6"
+  "benchmark": "approved",
+  "basis": "Rhythmic flexibility; piano at diploma level, strings about level 6",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "folk",
+   "dance",
+   "dramatic"
+  ]
  },
  {
   "id": 100087,
@@ -1962,8 +2561,15 @@
   "set": null,
   "notes": "A huge variation set; concerto-like piano part",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano part at virtuoso concerto level; strings about level 7"
+  "benchmark": "approved",
+  "basis": "Piano part at virtuoso concerto level; strings about level 7",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "virtuosic"
+  ]
  },
  {
   "id": 100088,
@@ -1984,8 +2590,15 @@
   "set": null,
   "notes": "Romantic and songful; light Mendelssohnian scherzo",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano at diploma level; violin about level 6"
+  "benchmark": "approved",
+  "basis": "Piano at diploma level; violin about level 6",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "lyrical",
+   "dramatic",
+   "playful"
+  ]
  },
  {
   "id": 100089,
@@ -2006,8 +2619,15 @@
   "set": null,
   "notes": "Basque rhythms, trills and harmonics; all three parts virtuosic",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Like Ravel's Sonata for Violin and Cello (9)"
+  "benchmark": "approved",
+  "basis": "Like Ravel's Sonata for Violin and Cello (9)",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dramatic",
+   "dance"
+  ]
  },
  {
   "id": 100090,
@@ -2028,8 +2648,15 @@
   "set": null,
   "notes": "Intense and Impressionist-tinged; muted, high writing for the strings",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "On a par with Clarke's Viola Sonata"
+  "benchmark": "approved",
+  "basis": "On a par with Clarke's Viola Sonata",
+  "mode": null,
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "dark",
+   "lyrical"
+  ]
  },
  {
   "id": 100091,
@@ -2050,8 +2677,15 @@
   "set": null,
   "notes": "Opens with high cello harmonics; Jewish dance finale",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Cello harmonics and a fast finale; professional level"
+  "benchmark": "approved",
+  "basis": "Cello harmonics and a fast finale; professional level",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dark",
+   "dramatic",
+   "folk"
+  ]
  },
  {
   "id": 100092,
@@ -2072,8 +2706,15 @@
   "set": null,
   "notes": "Ragtime, Broadway and Hasidic idioms; virtuoso and fun",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Fast jazz-inflected writing for all three, the piano hardest"
+  "benchmark": "approved",
+  "basis": "Fast jazz-inflected writing for all three, the piano hardest",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "dance",
+   "humorous"
+  ]
  },
  {
   "id": 100093,
@@ -2095,8 +2736,14 @@
   "set": null,
   "notes": "The piano leads; Classical, exposed string writing",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano about pre-diploma; strings about level 5"
+  "benchmark": "approved",
+  "basis": "Piano about pre-diploma; strings about level 5",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "lyrical"
+  ]
  },
  {
   "id": 100094,
@@ -2118,8 +2765,15 @@
   "set": null,
   "notes": "The Andante cantabile features the cello; fugal finale",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano at diploma level; strings about level 6"
+  "benchmark": "approved",
+  "basis": "Piano at diploma level; strings about level 6",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "tender",
+   "playful"
+  ]
  },
  {
   "id": 100095,
@@ -2141,8 +2795,15 @@
   "set": null,
   "notes": "A single movement written at 16; lush and brooding",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Romantic textures; piano about pre-diploma"
+  "benchmark": "approved",
+  "basis": "Romantic textures; piano about pre-diploma",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "dark"
+  ]
  },
  {
   "id": 100096,
@@ -2164,8 +2825,15 @@
   "set": null,
   "notes": "Rondo alla zingarese finale with fast Hungarian violin passages",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano near professional; violin about level 7"
+  "benchmark": "approved",
+  "basis": "Piano near professional; violin about level 7",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "folk",
+   "dramatic",
+   "virtuosic"
+  ]
  },
  {
   "id": 100097,
@@ -2180,15 +2848,22 @@
   },
   "players": 4,
   "form": "work",
-  "level": 8,
+  "level": 7,
   "hardestPart": "piano",
-  "year": "1883",
+  "year": "1879 (rev. 1883)",
   "minutes": 31,
   "set": null,
   "notes": "Fluid piano writing under long string lines; light scherzo",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano near professional; strings about level 7"
+  "benchmark": "approved",
+  "basis": "Piano at diploma level; strings about level 6",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "playful",
+   "dramatic"
+  ]
  },
  {
   "id": 100098,
@@ -2208,15 +2883,22 @@
   },
   "players": 5,
   "form": "work",
-  "level": 6,
+  "level": 7,
   "hardestPart": "piano",
   "year": "1819",
   "minutes": 38,
   "set": null,
   "notes": "Double bass instead of a second violin; variations on Schubert's song",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano about pre-diploma; violin about level 5"
+  "benchmark": "approved",
+  "basis": "Brilliant piano writing at diploma level; violin about level 6",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "lyrical",
+   "playful",
+   "folk"
+  ]
  },
  {
   "id": 100099,
@@ -2238,8 +2920,15 @@
   "set": null,
   "notes": "The model for the Romantic piano quintet; march slow movement",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano at diploma level; strings about level 6"
+  "benchmark": "approved",
+  "basis": "Piano at diploma level; strings about level 6",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "heroic",
+   "lyrical",
+   "dramatic"
+  ]
  },
  {
   "id": 100100,
@@ -2261,8 +2950,15 @@
   "set": null,
   "notes": "Symphonic scale; driving scherzo, complex finale",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano near professional; strings at Brahms sonata level (7)"
+  "benchmark": "approved",
+  "basis": "Piano near professional; strings at the level of Brahms's first two violin sonatas (7)",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "dramatic",
+   "dark",
+   "heroic"
+  ]
  },
  {
   "id": 100101,
@@ -2284,8 +2980,15 @@
   "set": null,
   "notes": "Intensely chromatic and cyclic",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano near professional; Franck's Sonata (7) plus ensemble density"
+  "benchmark": "approved",
+  "basis": "Piano near professional; Franck's Sonata (7) plus ensemble density",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "dark"
+  ]
  },
  {
   "id": 100102,
@@ -2307,8 +3010,15 @@
   "set": null,
   "notes": "Dumka slow movement and furiant scherzo; viola and cello solos",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Grateful writing; piano at diploma level, violin about level 6"
+  "benchmark": "approved",
+  "basis": "Grateful writing; piano at diploma level, violin about level 6",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "folk",
+   "lyrical",
+   "dance"
+  ]
  },
  {
   "id": 100103,
@@ -2330,8 +3040,15 @@
   "set": null,
   "notes": "Late-Romantic; a piano part of concerto weight",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Piano near professional; strings about level 6"
+  "benchmark": "approved",
+  "basis": "Piano near professional; strings about level 6",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "dark"
+  ]
  },
  {
   "id": 100104,
@@ -2347,14 +3064,21 @@
   "players": 5,
   "form": "work",
   "level": 7,
-  "hardestPart": "balanced",
+  "hardestPart": "piano",
   "year": "1940",
   "minutes": 33,
   "set": null,
   "notes": "Neo-Baroque prelude and fugue, sardonic scherzo",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Clear textures; the scherzo and fugue need control; diploma level"
+  "benchmark": "approved",
+  "basis": "Clear textures; the scherzo and fugue need control; diploma level",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "playful",
+   "dark"
+  ]
  },
  {
   "id": 100105,
@@ -2377,8 +3101,15 @@
   "set": null,
   "notes": "Written at 15; brilliant piano with violin, two violas, cello and bass",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Piano at diploma level; strings modest (about level 4–5)"
+  "benchmark": "approved",
+  "basis": "Piano at diploma level; strings modest (about level 4–5)",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "virtuosic",
+   "lyrical",
+   "playful"
+  ]
  },
  {
   "id": 100106,
@@ -2400,7 +3131,7 @@
   "set": null,
   "notes": "",
   "popularity": "well-known",
-  "benchmark": "proposed",
+  "benchmark": "approved",
   "basis": "Same level as in the violin catalogue; the quartet parts are about level 6",
   "violinId": 1658,
   "mode": "major",
@@ -2431,8 +3162,14 @@
   "set": null,
   "notes": "The flute leads; pizzicato accompaniment in the famous Adagio; easy string parts",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Flute about grade 8; strings about level 3"
+  "benchmark": "approved",
+  "basis": "Flute about grade 8; strings about level 3",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "lyrical",
+   "playful"
+  ]
  },
  {
   "id": 100108,
@@ -2447,15 +3184,21 @@
   },
   "players": 4,
   "form": "work",
-  "level": 7,
+  "level": 6,
   "hardestPart": "oboe",
   "year": "1781",
   "minutes": 15,
   "set": null,
   "notes": "The oboe climbs to top F; light string parts",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Oboe at diploma level; strings about level 4"
+  "benchmark": "approved",
+  "basis": "Oboe at pre-diploma level despite the top F; strings about level 4",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "lyrical"
+  ]
  },
  {
   "id": 100109,
@@ -2470,6 +3213,11 @@
    "viola": 1,
    "piano": 1
   },
+  "alternatives": {
+   "clarinet": [
+    "violin"
+   ]
+  },
   "players": 3,
   "form": "work",
   "level": 5,
@@ -2479,8 +3227,15 @@
   "set": null,
   "notes": "Clarinet, viola and piano; a violin may replace the clarinet",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "All three parts about grade 8"
+  "benchmark": "approved",
+  "basis": "All three parts about grade 8",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "tender",
+   "playful"
+  ]
  },
  {
   "id": 100110,
@@ -2505,8 +3260,15 @@
   "set": null,
   "notes": "Clarinet with string quartet; violin 1 also prominent",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Clarinet at pre-diploma; strings about level 5"
+  "benchmark": "approved",
+  "basis": "Clarinet at pre-diploma; strings about level 5",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "tender",
+   "playful"
+  ]
  },
  {
   "id": 100111,
@@ -2518,6 +3280,11 @@
    "cello": 1,
    "piano": 1
   },
+  "alternatives": {
+   "clarinet": [
+    "violin"
+   ]
+  },
   "players": 3,
   "form": "work",
   "level": 5,
@@ -2527,8 +3294,19 @@
   "set": null,
   "notes": "Clarinet (or violin), cello and piano; finale variations on a popular tune",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Piano about grade 8; the others about level 4"
+  "benchmark": "approved",
+  "basis": "Piano about grade 8; the others about level 4",
+  "aka": [
+   "Gassenhauer Trio",
+   "Clarinet Trio"
+  ],
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "lyrical",
+   "humorous"
+  ]
  },
  {
   "id": 100112,
@@ -2546,15 +3324,22 @@
   },
   "players": 7,
   "form": "work",
-  "level": 7,
+  "level": 6,
   "hardestPart": "violin",
   "year": "1799",
   "minutes": 40,
   "set": null,
   "notes": "Six-movement divertimento; concertante violin part",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "The violin part is brilliant, about Mozart's Concerto No. 5 (7)"
+  "benchmark": "approved",
+  "basis": "Brilliant concertante violin part, about Mozart's Concerto No. 3 (6)",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "lyrical",
+   "dance"
+  ]
  },
  {
   "id": 100113,
@@ -2579,8 +3364,15 @@
   "set": null,
   "notes": "Modelled on Beethoven's Septet; an hour long, violin 1 leads",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin 1 at diploma level, with stamina"
+  "benchmark": "approved",
+  "basis": "Violin 1 at diploma level, with stamina",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "playful",
+   "dance"
+  ]
  },
  {
   "id": 100114,
@@ -2600,15 +3392,22 @@
   },
   "players": 9,
   "form": "work",
-  "level": 7,
+  "level": 6,
   "hardestPart": "violin",
   "year": "1849",
   "minutes": 33,
   "set": null,
   "notes": "Wind quintet with violin, viola, cello and bass; brilliant violin part",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Violin part at diploma level; the other parts moderate"
+  "benchmark": "approved",
+  "basis": "Violin part at pre-diploma level; the other parts moderate",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "playful",
+   "dance"
+  ]
  },
  {
   "id": 100115,
@@ -2620,6 +3419,11 @@
    "viola": 1,
    "piano": 1
   },
+  "alternatives": {
+   "clarinet": [
+    "violin"
+   ]
+  },
   "players": 3,
   "form": "set",
   "level": 5,
@@ -2629,8 +3433,15 @@
   "set": null,
   "notes": "Four 'fairy-tale narrations' for clarinet (or violin), viola and piano",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "All three parts about grade 8"
+  "benchmark": "approved",
+  "basis": "All three parts about grade 8",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "playful",
+   "tender"
+  ]
  },
  {
   "id": 100116,
@@ -2642,17 +3453,30 @@
    "violin": 1,
    "piano": 1
   },
+  "alternatives": {
+   "horn": [
+    "viola",
+    "cello"
+   ]
+  },
   "players": 3,
   "form": "work",
   "level": 8,
-  "hardestPart": "piano",
+  "hardestPart": "balanced",
   "year": "1865",
   "minutes": 30,
   "set": null,
   "notes": "Horn, violin and piano; hunting-call finale",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Piano and violin above the Brahms sonatas (7), with horn balance to manage"
+  "benchmark": "approved",
+  "basis": "Piano and violin above Brahms's first two violin sonatas (7), with horn balance to manage",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "heroic",
+   "tender"
+  ]
  },
  {
   "id": 100117,
@@ -2674,8 +3498,20 @@
   "set": null,
   "notes": "Autumnal; Hungarian-style central section in the Adagio",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "All five parts at professional level"
+  "benchmark": "approved",
+  "basis": "All five parts at professional level",
+  "alternatives": {
+   "clarinet": [
+    "viola"
+   ]
+  },
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "tender",
+   "dark"
+  ]
  },
  {
   "id": 100118,
@@ -2697,8 +3533,15 @@
   "set": null,
   "notes": "A student work admired by Stanford; Dvořák-influenced",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Clarinet at diploma level; strings about level 6"
+  "benchmark": "approved",
+  "basis": "Clarinet at diploma level; strings about level 6",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "lyrical",
+   "folk",
+   "dance"
+  ]
  },
  {
   "id": 100119,
@@ -2722,8 +3565,15 @@
   "set": null,
   "notes": "Harp with flute, clarinet and string quartet; harp cadenza",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Harp part at professional level; the others about level 6"
+  "benchmark": "approved",
+  "basis": "Harp part at professional level; the others about level 6",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "lyrical",
+   "virtuosic",
+   "tender"
+  ]
  },
  {
   "id": 100120,
@@ -2744,8 +3594,15 @@
   "set": null,
   "notes": "No violin; delicate colours, flexible rubato",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Professional level for all three"
+  "benchmark": "approved",
+  "basis": "Professional level for all three",
+  "mode": null,
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "tender",
+   "dance"
+  ]
  },
  {
   "id": 100121,
@@ -2768,8 +3625,15 @@
   "set": null,
   "notes": "Klezmer-style clarinet with string quartet and piano",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Clarinet at pre-diploma; strings about level 5"
+  "benchmark": "approved",
+  "basis": "Clarinet at pre-diploma; strings about level 5",
+  "mode": "minor",
+  "pace": "lively",
+  "character": [
+   "folk",
+   "dance",
+   "playful"
+  ]
  },
  {
   "id": 100122,
@@ -2790,15 +3654,22 @@
   },
   "players": 7,
   "form": "work",
-  "level": 9,
+  "level": 8,
   "hardestPart": "violin",
-  "year": "1918",
+  "year": "1918 (1920)",
   "minutes": 25,
   "set": null,
   "notes": "Seven players; the violin's tango, waltz, ragtime and devil's dance in changing metres",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin part at virtuoso level; constant metre changes"
+  "benchmark": "approved",
+  "basis": "Violin part at professional level; constant metre changes",
+  "mode": null,
+  "pace": "lively",
+  "character": [
+   "dance",
+   "humorous",
+   "dramatic"
+  ]
  },
  {
   "id": 100123,
@@ -2819,8 +3690,15 @@
   "set": null,
   "notes": "Written for Szigeti and Goodman; scordatura violin in the finale",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Violin like Bartók's Solo Sonata (9)"
+  "benchmark": "approved",
+  "basis": "Violin part like Bartók's sonatas with piano (9)",
+  "mode": null,
+  "pace": "lively",
+  "character": [
+   "folk",
+   "dance",
+   "virtuosic"
+  ]
  },
  {
   "id": 100124,
@@ -2845,8 +3723,15 @@
   "set": null,
   "notes": "Eight movements; unison 'Danse de la fureur', long slow solos for violin and cello",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Rhythmic unison and sustained solos; professional level"
+  "benchmark": "approved",
+  "basis": "Rhythmic unison and sustained solos; professional level",
+  "mode": null,
+  "pace": "slow",
+  "character": [
+   "tender",
+   "dramatic",
+   "lyrical"
+  ]
  },
  {
   "id": 100125,
@@ -2864,12 +3749,19 @@
   "level": 8,
   "hardestPart": "clarinet",
   "year": "1994",
-  "minutes": 40,
+  "minutes": 33,
   "set": null,
-  "notes": "Klezmer clarinettist (on three clarinets) with string quartet",
+  "notes": "Klezmer clarinettist changing between several clarinets, with string quartet; played without a break",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Clarinet virtuosic; strings about level 7"
+  "benchmark": "approved",
+  "basis": "Clarinet virtuosic; strings about level 7",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "folk",
+   "dramatic",
+   "tender"
+  ]
  },
  {
   "id": 100126,
@@ -2886,11 +3778,17 @@
   "hardestPart": "balanced",
   "year": "1681",
   "minutes": 6,
-  "set": "12 Sonate da chiesa a tre, Op. 1",
+  "set": "Trio Sonatas, Op. 1",
   "notes": "Church sonata, slow–fast–slow–fast; first position",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Simpler than Handel's trio sonatas (3)"
+  "benchmark": "approved",
+  "basis": "Simpler than Handel's trio sonatas (3)",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dance"
+  ]
  },
  {
   "id": 100127,
@@ -2898,6 +3796,7 @@
   "title": "Canon and Gigue in D major, P. 37",
   "aka": [
    "Pachelbel's Canon",
+   "Canon in D",
    "Kanon"
   ],
   "formation": "continuo",
@@ -2907,15 +3806,22 @@
   },
   "players": 4,
   "form": "short",
-  "level": 3,
+  "level": 2,
   "hardestPart": "balanced",
   "year": "",
   "minutes": 6,
   "set": null,
   "notes": "Three violins in canon over a ground bass; the later variations run in fast notes",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "The fast later variations are about ABRSM 6"
+  "benchmark": "approved",
+  "basis": "Even ensemble over the ground; the fast later variations are about ABRSM 5",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "tender",
+   "lyrical",
+   "dance"
+  ]
  },
  {
   "id": 100128,
@@ -2935,7 +3841,7 @@
   "set": "Trio Sonatas, Op. 5",
   "notes": "Passacaille; sustained ensemble control",
   "popularity": null,
-  "benchmark": "proposed",
+  "benchmark": "approved",
   "basis": "Same level as in the violin catalogue",
   "violinId": 2495,
   "mode": "major",
@@ -2963,7 +3869,7 @@
   "set": "Trio Sonatas, Op. 1",
   "notes": "Folia variations; fast bariolage and string crossings",
   "popularity": "well-known",
-  "benchmark": "proposed",
+  "benchmark": "approved",
   "basis": "Same level as in the violin catalogue",
   "violinId": 3093,
   "mode": "minor",
@@ -2994,11 +3900,18 @@
   "hardestPart": "balanced",
   "year": "1747",
   "minutes": 18,
-  "set": null,
+  "set": "The Musical Offering, BWV 1079",
   "notes": "Flute, violin and continuo on the King's theme",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Dense counterpoint; pre-diploma for flute and violin"
+  "benchmark": "approved",
+  "basis": "Dense counterpoint; pre-diploma for flute and violin",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dramatic",
+   "dark"
+  ]
  },
  {
   "id": 100131,
@@ -3011,17 +3924,32 @@
    "viola-da-gamba": 1,
    "continuo": 1
   },
+  "alternatives": {
+   "viola-da-gamba": [
+    "cello"
+   ]
+  },
   "players": 4,
   "form": "work",
-  "level": 6,
+  "level": 5,
   "hardestPart": "balanced",
   "year": "1738",
   "minutes": 20,
   "set": "Nouveaux quatuors en six suites",
   "notes": "Flute, violin, viola da gamba (or cello) and continuo; ends in a long Modéré",
   "popularity": "lesser-known",
-  "benchmark": "proposed",
-  "basis": "Elegant French style; pre-diploma for the melody parts"
+  "benchmark": "approved",
+  "basis": "Elegant French style; melody parts about ABRSM 8",
+  "aka": [
+   "Paris Quartet No. 12"
+  ],
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dance",
+   "playful"
+  ]
  },
  {
   "id": 100132,
@@ -3036,20 +3964,27 @@
   },
   "players": 5,
   "form": "work",
-  "level": 6,
-  "hardestPart": "balanced",
+  "level": 5,
+  "hardestPart": "guitar",
   "year": "1798",
   "minutes": 20,
   "set": null,
-  "notes": "Ends with a fandango, castanets ad lib.",
+  "notes": "Ends with a fandango, often played with castanets",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Lively Spanish finale; guitar and strings at pre-diploma"
+  "benchmark": "approved",
+  "basis": "Lively Spanish finale; guitar and strings about ABRSM 8",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "dance",
+   "folk",
+   "virtuosic"
+  ]
  },
  {
   "id": 100133,
   "composer": "Respighi, Ottorino",
-  "title": "Il tramonto",
+  "title": "Il tramonto, P. 101",
   "formation": "other",
   "instruments": {
    "voice": 1,
@@ -3066,8 +4001,15 @@
   "set": null,
   "notes": "Mezzo-soprano and string quartet, a setting of Shelley's 'The Sunset'",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Strings about level 5; the demand is balance with the voice"
+  "benchmark": "approved",
+  "basis": "Strings about level 5; the demand is balance with the voice",
+  "mode": "minor",
+  "pace": "slow",
+  "character": [
+   "lyrical",
+   "tender",
+   "dark"
+  ]
  },
  {
   "id": 100134,
@@ -3089,8 +4031,15 @@
   "set": null,
   "notes": "Baritone (or mezzo) and string quartet, a setting of Matthew Arnold",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Strings about level 5"
+  "benchmark": "approved",
+  "basis": "Strings about level 5",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dark",
+   "tender"
+  ]
  },
  {
   "id": 100135,
@@ -3113,7 +4062,14 @@
   "set": null,
   "notes": "A soprano joins in the last two movements; the step into atonality",
   "popularity": "well-known",
-  "benchmark": "proposed",
-  "basis": "Ensemble and intonation complexity at virtuoso level"
+  "benchmark": "approved",
+  "basis": "Ensemble and intonation complexity at virtuoso level",
+  "mode": null,
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "dark",
+   "lyrical"
+  ]
  }
 ]

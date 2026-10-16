@@ -31,6 +31,8 @@ const Work = z
     formation: z.enum(keys(FORMATIONS)),
     formationNote: z.string().min(1).optional(),
     instruments: z.record(z.enum(instrumentKeys), z.number().int().positive()),
+    alternatives: z.record(z.enum(instrumentKeys), z.array(z.enum(instrumentKeys)).min(1)).optional(),
+    optional: z.record(z.enum(instrumentKeys), z.number().int().positive()).optional(),
     players: z.number().int(),
     form: z.enum(keys(FORMS)),
     level: z.number().int().min(1).max(10),
@@ -106,6 +108,14 @@ for (const w of works) {
   const strings = (Object.keys(ins) as InstrumentKey[]).filter((k) => INSTRUMENTS[k].family === "string");
   if (!strings.length) err(w, "no string instrument: out of scope");
   if (Object.keys(ins).every((k) => k === "violin")) err(w, "violins alone belong to the violin section");
+
+  // alternatives replace a part of the scoring; ad lib. parts sit outside it
+  for (const [k, alts] of Object.entries(w.alternatives ?? {}) as [InstrumentKey, InstrumentKey[]][]) {
+    if (!ins[k]) err(w, `alternatives.${k}: there is no ${k} part to replace`);
+    if (alts.includes(k)) err(w, `alternatives.${k} lists the instrument itself`);
+  }
+  for (const k of Object.keys(w.optional ?? {}) as InstrumentKey[])
+    if (ins[k]) err(w, `optional.${k}: an ad lib. part must not also be in instruments`);
 
   const derived: FormationKey = formationFor(ins);
   if (w.formation !== derived && !w.formationNote) err(w, `formation "${w.formation}" but the instruments say "${derived}" (add a formationNote if intended)`);

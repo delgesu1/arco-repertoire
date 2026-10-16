@@ -1,0 +1,2661 @@
+{
+ "levels": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello or clarinet. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "anchors": {
+  "violin": [
+   {
+    "composer": "Huber, Adolf",
+    "title": "Student Concertino No. 2",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 1
+   },
+   {
+    "composer": "Küchler, Ferdinand",
+    "title": "Concertino in D major, Op. 15 (in the style of Vivaldi)",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 1
+   },
+   {
+    "composer": "Millies, Hans",
+    "title": "Concertino in the Style of Mozart in D major",
+    "accompaniment": "Piano",
+    "level": 1
+   },
+   {
+    "composer": "Portnoff, Leo",
+    "title": "Concertino in A minor, Op. 14",
+    "accompaniment": "Piano",
+    "level": 1
+   },
+   {
+    "composer": "Rieding, Oskar",
+    "title": "Concerto in B minor, Op. 35",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 1
+   },
+   {
+    "composer": "Seitz, Friedrich",
+    "title": "Student Concerto No. 2 in G major, Op. 13",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 1
+   },
+   {
+    "composer": "Vivaldi, Antonio",
+    "title": "Concerto in A minor, Op. 3 No. 6, RV 356",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 1
+   },
+   {
+    "composer": "Bartók, Béla",
+    "title": "44 Duos for 2 Violins, Sz. 98",
+    "accompaniment": "2 violins",
+    "level": 2
+   },
+   {
+    "composer": "Mazas, Jacques Féréol",
+    "title": "Duets for 2 Violins, Op. 38, 39",
+    "accompaniment": "2 violins",
+    "level": 2
+   },
+   {
+    "composer": "Pleyel, Ignaz",
+    "title": "Duos for Two Violins, B. 507–512 (1788)",
+    "accompaniment": "2 violins",
+    "level": 2
+   },
+   {
+    "composer": "Telemann, Georg Philipp",
+    "title": "Concerto for 4 Violins in G major, TWV 40:201 (unaccompanied)",
+    "accompaniment": "4 violins",
+    "level": 2
+   },
+   {
+    "composer": "Rieding, Oskar",
+    "title": "Concertino in A minor, Op. 21 (in Hungarian style)",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 2
+   },
+   {
+    "composer": "Seitz, Friedrich",
+    "title": "Student Concerto No. 1 in D major, Op. 7",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 2
+   },
+   {
+    "composer": "Sitt, Hans",
+    "title": "Student Concertino No. 2 in A minor, Op. 108",
+    "accompaniment": "Piano",
+    "level": 2
+   },
+   {
+    "composer": "Shostakovich, Dmitri",
+    "title": "Five Pieces for 2 Violins and Piano (arr. Atovmyan)",
+    "accompaniment": "2 violins & piano",
+    "level": 3
+   },
+   {
+    "composer": "Telemann, Georg Philipp",
+    "title": "6 Sonates sans basse, TWV 40:101–106",
+    "accompaniment": "2 violins",
+    "level": 3
+   },
+   {
+    "composer": "Vivaldi, Antonio",
+    "title": "Concerto for 2 Violins and Cello in D minor, Op. 3 No. 11, RV 565",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 3
+   },
+   {
+    "composer": "Bach, Johann Sebastian",
+    "title": "Sonata for Violin and Continuo in G major, BWV 1021",
+    "accompaniment": "Continuo",
+    "level": 3
+   },
+   {
+    "composer": "Corelli, Arcangelo",
+    "title": "Sonata No. 8 in E minor, Op. 5 No. 8",
+    "accompaniment": "Continuo",
+    "level": 3
+   },
+   {
+    "composer": "Eccles, Henry",
+    "title": "Sonata in G minor",
+    "accompaniment": "Keyboard / basso continuo",
+    "level": 3
+   },
+   {
+    "composer": "Handel, George Frideric",
+    "title": "Sonata in A major, HWV 361 (Op. 1 No. 3)",
+    "accompaniment": "Continuo",
+    "level": 3
+   },
+   {
+    "composer": "Bach, Johann Sebastian",
+    "title": "Concerto for 2 Violins in D minor, BWV 1043 (\"Double\")",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 4
+   },
+   {
+    "composer": "Paganini, Niccolò",
+    "title": "Sonata in E minor, Op. 3 No. 6",
+    "accompaniment": "Guitar or piano",
+    "level": 4
+   },
+   {
+    "composer": "Dvořák, Antonín",
+    "title": "Sonatina in G major, Op. 100",
+    "accompaniment": "Piano",
+    "level": 4
+   },
+   {
+    "composer": "Handel, George Frideric",
+    "title": "Sonata in D major, HWV 371 (Op. 1 No. 13)",
+    "accompaniment": "Continuo",
+    "level": 4
+   },
+   {
+    "composer": "Mozart, Wolfgang Amadeus",
+    "title": "Sonata in A major, K. 305",
+    "accompaniment": "Piano",
+    "level": 4
+   },
+   {
+    "composer": "Nardini, Pietro",
+    "title": "Sonata in D major",
+    "accompaniment": "Piano",
+    "level": 4
+   },
+   {
+    "composer": "Schubert, Franz",
+    "title": "Sonatina No. 1 in D major, D. 384 (Op. 137 No. 1)",
+    "accompaniment": "Piano",
+    "level": 4
+   },
+   {
+    "composer": "Bach, Johann Sebastian",
+    "title": "Sonata No. 1 for Violin and Keyboard in B minor, BWV 1014",
+    "accompaniment": "Harpsichord or piano",
+    "level": 5
+   },
+   {
+    "composer": "Corelli, Arcangelo",
+    "title": "La Folia in D minor, Op. 5 No. 12 (Sonata No. 12)",
+    "accompaniment": "Continuo",
+    "level": 5
+   },
+   {
+    "composer": "Mozart, Wolfgang Amadeus",
+    "title": "Sonata in B-flat major, K. 378",
+    "accompaniment": "Piano",
+    "level": 5
+   },
+   {
+    "composer": "Tartini, Giuseppe",
+    "title": "Sonata in G minor, Op. 1 No. 10, B.g10 \"Didone abbandonata\"",
+    "accompaniment": "Continuo",
+    "level": 5
+   },
+   {
+    "composer": "Veracini, Francesco Maria",
+    "title": "Sonata in D minor, Op. 2 No. 12 (with Passacaglia)",
+    "accompaniment": "Continuo",
+    "level": 5
+   },
+   {
+    "composer": "Vivaldi, Antonio",
+    "title": "Trio Sonata in D minor, Op. 1 No. 12, RV 63 'La Follia'",
+    "accompaniment": "2 violins & continuo",
+    "level": 5
+   },
+   {
+    "composer": "Benda, Johann",
+    "title": "Concerto in G major (arr. Samuel Dushkin)",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 5
+   },
+   {
+    "composer": "Mozart, Wolfgang Amadeus",
+    "title": "Duos for Violin and Viola, K. 423 (G major) & K. 424 (B-flat major)",
+    "accompaniment": "Violin & viola",
+    "level": 6
+   },
+   {
+    "composer": "Pärt, Arvo",
+    "title": "Tabula rasa",
+    "accompaniment": "2 violins, prepared piano & strings",
+    "level": 6
+   },
+   {
+    "composer": "Schnittke, Alfred",
+    "title": "Prelude in memoriam Dmitri Shostakovich",
+    "accompaniment": "2 violins",
+    "level": 6
+   },
+   {
+    "composer": "Bach, Johann Sebastian",
+    "title": "Sonata No. 3 for Violin and Keyboard in E major, BWV 1016",
+    "accompaniment": "Harpsichord or piano",
+    "level": 6
+   },
+   {
+    "composer": "Beethoven, Ludwig van",
+    "title": "Sonata No. 1 in D major, Op. 12 No. 1",
+    "accompaniment": "Piano",
+    "level": 6
+   },
+   {
+    "composer": "Biber, Heinrich Ignaz Franz",
+    "title": "Sonata representativa in A major, C. 146",
+    "accompaniment": "Continuo",
+    "level": 6
+   },
+   {
+    "composer": "Grieg, Edvard",
+    "title": "Sonata No. 1 in F major, Op. 8",
+    "accompaniment": "Piano",
+    "level": 6
+   },
+   {
+    "composer": "Beethoven, Ludwig van",
+    "title": "Triple Concerto in C major, Op. 56 (Violin, Cello, Piano)",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 7
+   },
+   {
+    "composer": "Halvorsen, Johan",
+    "title": "Passacaglia on a Theme by Handel (Violin & Viola)",
+    "accompaniment": "Violin & viola",
+    "level": 7
+   },
+   {
+    "composer": "Moszkowski, Moritz",
+    "title": "Suite for Two Violins and Piano in G minor, Op. 71",
+    "accompaniment": "Piano",
+    "level": 7
+   },
+   {
+    "composer": "Mozart, Wolfgang Amadeus",
+    "title": "Sinfonia concertante for Violin and Viola in E-flat major, K. 364",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 7
+   },
+   {
+    "composer": "Biber, Heinrich Ignaz Franz",
+    "title": "Rosary Sonata No. 1 in D minor 'The Annunciation', C. 90",
+    "accompaniment": "Continuo",
+    "level": 7
+   },
+   {
+    "composer": "Brahms, Johannes",
+    "title": "Sonata No. 1 in G major, Op. 78",
+    "accompaniment": "Piano",
+    "level": 7
+   },
+   {
+    "composer": "Copland, Aaron",
+    "title": "Sonata",
+    "accompaniment": "Piano",
+    "level": 7
+   },
+   {
+    "composer": "Martinů, Bohuslav",
+    "title": "Three Madrigals, H. 313 (Violin & Viola)",
+    "accompaniment": "Violin & viola",
+    "level": 8
+   },
+   {
+    "composer": "Prokofiev, Sergei",
+    "title": "Sonata for 2 Violins in C major, Op. 56",
+    "accompaniment": "2 violins",
+    "level": 8
+   },
+   {
+    "composer": "Schnittke, Alfred",
+    "title": "Concerto Grosso No. 1",
+    "accompaniment": "2 violins & strings",
+    "level": 8
+   },
+   {
+    "composer": "Schulhoff, Erwin",
+    "title": "Duo for violin and cello",
+    "accompaniment": "Cello",
+    "level": 8
+   },
+   {
+    "composer": "Beach, Amy",
+    "title": "Sonata in A minor, Op. 34",
+    "accompaniment": "Piano",
+    "level": 8
+   },
+   {
+    "composer": "Beethoven, Ludwig van",
+    "title": "Sonata No. 9 in A major, Op. 47 (\"Kreutzer\")",
+    "accompaniment": "Piano",
+    "level": 8
+   },
+   {
+    "composer": "Brahms, Johannes",
+    "title": "Sonata No. 3 in D minor, Op. 108",
+    "accompaniment": "Piano",
+    "level": 8
+   },
+   {
+    "composer": "Brahms, Johannes",
+    "title": "Double Concerto in A minor, Op. 102 (Violin & Cello)",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 9
+   },
+   {
+    "composer": "Kodály, Zoltán",
+    "title": "Duo for Violin and Cello, Op. 7",
+    "accompaniment": "Violin & cello",
+    "level": 9
+   },
+   {
+    "composer": "Ravel, Maurice",
+    "title": "Sonata for Violin and Cello in A minor, M. 73",
+    "accompaniment": "Violin & cello",
+    "level": 9
+   },
+   {
+    "composer": "Sarasate, Pablo de",
+    "title": "Navarra, Op. 33 (2 violins)",
+    "accompaniment": "2 violins & orchestra/piano",
+    "level": 9
+   },
+   {
+    "composer": "Ysaÿe, Eugène",
+    "title": "Sonata for 2 Violins in A minor, Op. posth.",
+    "accompaniment": "2 violins",
+    "level": 9
+   },
+   {
+    "composer": "Bartók, Béla",
+    "title": "Sonata No. 1, Sz. 75",
+    "accompaniment": "Piano",
+    "level": 9
+   },
+   {
+    "composer": "Enescu, George",
+    "title": "Sonata No. 3 in A minor, Op. 25 (\"dans le caractère populaire roumain\")",
+    "accompaniment": "Piano",
+    "level": 9
+   },
+   {
+    "composer": "Ligeti, György",
+    "title": "Concerto",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 10
+   },
+   {
+    "composer": "Schoenberg, Arnold",
+    "title": "Concerto, Op. 36",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 10
+   },
+   {
+    "composer": "Wieniawski, Henryk",
+    "title": "Concerto No. 1 in F-sharp minor, Op. 14",
+    "accompaniment": "Orchestra (piano reduction)",
+    "level": 10
+   },
+   {
+    "composer": "Bartók, Béla",
+    "title": "Sonata for Solo Violin, Sz. 117",
+    "accompaniment": "Unaccompanied",
+    "level": 10
+   },
+   {
+    "composer": "Berio, Luciano",
+    "title": "Sequenza VIII",
+    "accompaniment": "Unaccompanied",
+    "level": 10
+   },
+   {
+    "composer": "Ernst, Heinrich Wilhelm",
+    "title": "Grand Caprice on Schubert's \"Erlkönig\", Op. 26",
+    "accompaniment": "Unaccompanied",
+    "level": 10
+   },
+   {
+    "composer": "Milstein, Nathan",
+    "title": "Paganiniana",
+    "accompaniment": "Unaccompanied",
+    "level": 10
+   }
+  ],
+  "chamber": [
+   {
+    "composer": "Chausson, Ernest",
+    "title": "Concert for Violin, Piano and String Quartet in D major, Op. 21",
+    "scoring": "3 violins, viola, cello, piano",
+    "level": 8
+   },
+   {
+    "composer": "Handel, George Frideric",
+    "title": "Trio Sonata in G major, Op. 5 No. 4, HWV 399",
+    "scoring": "2 violins, continuo",
+    "level": 4
+   },
+   {
+    "composer": "Vivaldi, Antonio",
+    "title": "Trio Sonata in D minor, Op. 1 No. 12, RV 63 'La Follia'",
+    "scoring": "2 violins, continuo",
+    "level": 5
+   }
+  ]
+ },
+ "items": [
+  {
+   "key": "100001",
+   "composer": "Schubert, Franz",
+   "title": "String Trio in B-flat major, D. 471",
+   "formation": "String trios",
+   "scoring": "violin, viola, cello",
+   "parts": [
+    "violin",
+    "viola",
+    "cello"
+   ],
+   "year": "1816",
+   "minutes": 9,
+   "set": ""
+  },
+  {
+   "key": "100002",
+   "composer": "Kodály, Zoltán",
+   "title": "Intermezzo for String Trio",
+   "formation": "String trios",
+   "scoring": "violin, viola, cello",
+   "parts": [
+    "violin",
+    "viola",
+    "cello"
+   ],
+   "year": "1905",
+   "minutes": 5,
+   "set": ""
+  },
+  {
+   "key": "100003",
+   "composer": "Dvořák, Antonín",
+   "title": "Miniatures, Op. 75a",
+   "formation": "String trios",
+   "scoring": "2 violins, viola",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola"
+   ],
+   "year": "1887",
+   "minutes": 15,
+   "set": ""
+  },
+  {
+   "key": "100004",
+   "composer": "Beethoven, Ludwig van",
+   "title": "Serenade in D major, Op. 8",
+   "formation": "String trios",
+   "scoring": "violin, viola, cello",
+   "parts": [
+    "violin",
+    "viola",
+    "cello"
+   ],
+   "year": "1797",
+   "minutes": 28,
+   "set": ""
+  },
+  {
+   "key": "100005",
+   "composer": "Beethoven, Ludwig van",
+   "title": "String Trio in G major, Op. 9 No. 1",
+   "formation": "String trios",
+   "scoring": "violin, viola, cello",
+   "parts": [
+    "violin",
+    "viola",
+    "cello"
+   ],
+   "year": "1798",
+   "minutes": 26,
+   "set": "Three String Trios, Op. 9"
+  },
+  {
+   "key": "100006",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "Divertimento in E-flat major, K. 563",
+   "formation": "String trios",
+   "scoring": "violin, viola, cello",
+   "parts": [
+    "violin",
+    "viola",
+    "cello"
+   ],
+   "year": "1788",
+   "minutes": 45,
+   "set": ""
+  },
+  {
+   "key": "100007",
+   "composer": "Dvořák, Antonín",
+   "title": "Terzetto in C major, Op. 74",
+   "formation": "String trios",
+   "scoring": "2 violins, viola",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola"
+   ],
+   "year": "1887",
+   "minutes": 20,
+   "set": ""
+  },
+  {
+   "key": "100008",
+   "composer": "Dohnányi, Ernő",
+   "title": "Serenade in C major, Op. 10",
+   "formation": "String trios",
+   "scoring": "violin, viola, cello",
+   "parts": [
+    "violin",
+    "viola",
+    "cello"
+   ],
+   "year": "1902",
+   "minutes": 22,
+   "set": ""
+  },
+  {
+   "key": "100009",
+   "composer": "Schoenberg, Arnold",
+   "title": "String Trio, Op. 45",
+   "formation": "String trios",
+   "scoring": "violin, viola, cello",
+   "parts": [
+    "violin",
+    "viola",
+    "cello"
+   ],
+   "year": "1946",
+   "minutes": 19,
+   "set": ""
+  },
+  {
+   "key": "100010",
+   "composer": "Haydn, Joseph",
+   "title": "String Quartet in B-flat major, Op. 1 No. 1, Hob. III:1 (\"La chasse\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "c. 1760",
+   "minutes": 15,
+   "set": "Six String Quartets, Op. 1"
+  },
+  {
+   "key": "100011",
+   "composer": "Hoffstetter, Roman",
+   "title": "String Quartet in F major, Op. 3 No. 5 (\"Serenade\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "c. 1777",
+   "minutes": 14,
+   "set": "Six String Quartets, Op. 3"
+  },
+  {
+   "key": "100012",
+   "composer": "Purcell, Henry",
+   "title": "Chacony in G minor, Z. 730",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "c. 1680",
+   "minutes": 6,
+   "set": ""
+  },
+  {
+   "key": "100013",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "String Quartet No. 2 in D major, K. 155",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1772",
+   "minutes": 10,
+   "set": "Six \"Milanese\" Quartets, K. 155–160"
+  },
+  {
+   "key": "100014",
+   "composer": "Rossini, Gioachino",
+   "title": "Sonata a quattro No. 1 in G major",
+   "formation": "String quartets",
+   "scoring": "2 violins, cello, double bass",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "cello",
+    "double-bass"
+   ],
+   "year": "1804",
+   "minutes": 13,
+   "set": "Sei sonate a quattro"
+  },
+  {
+   "key": "100015",
+   "composer": "Haydn, Joseph",
+   "title": "String Quartet in C major, Op. 20 No. 2, Hob. III:32",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1772",
+   "minutes": 24,
+   "set": "Six String Quartets, Op. 20 (\"Sun\")"
+  },
+  {
+   "key": "100016",
+   "composer": "Haydn, Joseph",
+   "title": "String Quartet in E-flat major, Op. 33 No. 2, Hob. III:38 (\"The Joke\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1781",
+   "minutes": 18,
+   "set": "Six String Quartets, Op. 33 (\"Russian\")"
+  },
+  {
+   "key": "100017",
+   "composer": "Haydn, Joseph",
+   "title": "String Quartet in D major, Op. 64 No. 5, Hob. III:63 (\"The Lark\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1790",
+   "minutes": 18,
+   "set": "Six String Quartets, Op. 64 (\"Tost\")"
+  },
+  {
+   "key": "100018",
+   "composer": "Haydn, Joseph",
+   "title": "String Quartet in G minor, Op. 74 No. 3, Hob. III:74 (\"The Rider\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1793",
+   "minutes": 20,
+   "set": "Three String Quartets, Op. 74 (\"Apponyi\")"
+  },
+  {
+   "key": "100019",
+   "composer": "Haydn, Joseph",
+   "title": "String Quartet in C major, Op. 76 No. 3, Hob. III:77 (\"Emperor\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1797",
+   "minutes": 26,
+   "set": "Six String Quartets, Op. 76 (\"Erdődy\")"
+  },
+  {
+   "key": "100020",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "Divertimento in D major, K. 136",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1772",
+   "minutes": 13,
+   "set": "Three Divertimenti, K. 136–138"
+  },
+  {
+   "key": "100021",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "Serenade No. 13 in G major, K. 525 (\"Eine kleine Nachtmusik\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello, double bass ad lib.",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1787",
+   "minutes": 18,
+   "set": ""
+  },
+  {
+   "key": "100022",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "String Quartet No. 15 in D minor, K. 421",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1783",
+   "minutes": 28,
+   "set": "Six \"Haydn\" Quartets"
+  },
+  {
+   "key": "100023",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "String Quartet No. 19 in C major, K. 465 (\"Dissonance\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1785",
+   "minutes": 30,
+   "set": "Six \"Haydn\" Quartets"
+  },
+  {
+   "key": "100024",
+   "composer": "Beethoven, Ludwig van",
+   "title": "String Quartet No. 4 in C minor, Op. 18 No. 4",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1799",
+   "minutes": 24,
+   "set": "Six String Quartets, Op. 18"
+  },
+  {
+   "key": "100025",
+   "composer": "Beethoven, Ludwig van",
+   "title": "String Quartet No. 7 in F major, Op. 59 No. 1 (\"Razumovsky\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1806",
+   "minutes": 40,
+   "set": "Three String Quartets, Op. 59 (\"Razumovsky\")"
+  },
+  {
+   "key": "100026",
+   "composer": "Beethoven, Ludwig van",
+   "title": "String Quartet No. 11 in F minor, Op. 95 (\"Serioso\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1810",
+   "minutes": 21,
+   "set": ""
+  },
+  {
+   "key": "100027",
+   "composer": "Beethoven, Ludwig van",
+   "title": "String Quartet No. 14 in C-sharp minor, Op. 131",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1826",
+   "minutes": 40,
+   "set": ""
+  },
+  {
+   "key": "100028",
+   "composer": "Beethoven, Ludwig van",
+   "title": "Grosse Fuge in B-flat major, Op. 133",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1825",
+   "minutes": 16,
+   "set": ""
+  },
+  {
+   "key": "100029",
+   "composer": "Schubert, Franz",
+   "title": "String Quartet No. 12 in C minor, D. 703 (\"Quartettsatz\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1820",
+   "minutes": 9,
+   "set": ""
+  },
+  {
+   "key": "100030",
+   "composer": "Schubert, Franz",
+   "title": "String Quartet No. 13 in A minor, D. 804 (\"Rosamunde\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1824",
+   "minutes": 34,
+   "set": ""
+  },
+  {
+   "key": "100031",
+   "composer": "Schubert, Franz",
+   "title": "String Quartet No. 14 in D minor, D. 810 (\"Death and the Maiden\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1824",
+   "minutes": 40,
+   "set": ""
+  },
+  {
+   "key": "100032",
+   "composer": "Schubert, Franz",
+   "title": "String Quartet No. 15 in G major, D. 887",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1826",
+   "minutes": 45,
+   "set": ""
+  },
+  {
+   "key": "100033",
+   "composer": "Mendelssohn, Felix",
+   "title": "String Quartet No. 2 in A minor, Op. 13",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1827",
+   "minutes": 30,
+   "set": ""
+  },
+  {
+   "key": "100034",
+   "composer": "Brahms, Johannes",
+   "title": "String Quartet No. 1 in C minor, Op. 51 No. 1",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1873",
+   "minutes": 32,
+   "set": "Two String Quartets, Op. 51"
+  },
+  {
+   "key": "100035",
+   "composer": "Dvořák, Antonín",
+   "title": "String Quartet No. 12 in F major, Op. 96 (\"American\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1893",
+   "minutes": 26,
+   "set": ""
+  },
+  {
+   "key": "100036",
+   "composer": "Dvořák, Antonín",
+   "title": "Cypresses, B. 152",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1887",
+   "minutes": 30,
+   "set": ""
+  },
+  {
+   "key": "100037",
+   "composer": "Smetana, Bedřich",
+   "title": "String Quartet No. 1 in E minor (\"From My Life\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1876",
+   "minutes": 28,
+   "set": ""
+  },
+  {
+   "key": "100038",
+   "composer": "Borodin, Alexander",
+   "title": "String Quartet No. 2 in D major",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1881",
+   "minutes": 28,
+   "set": ""
+  },
+  {
+   "key": "100039",
+   "composer": "Tchaikovsky, Pyotr Ilyich",
+   "title": "String Quartet No. 1 in D major, Op. 11",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1871",
+   "minutes": 30,
+   "set": ""
+  },
+  {
+   "key": "100040",
+   "composer": "Grieg, Edvard",
+   "title": "String Quartet in G minor, Op. 27",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1878",
+   "minutes": 34,
+   "set": ""
+  },
+  {
+   "key": "100041",
+   "composer": "Puccini, Giacomo",
+   "title": "Crisantemi",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1890",
+   "minutes": 6,
+   "set": ""
+  },
+  {
+   "key": "100042",
+   "composer": "Wolf, Hugo",
+   "title": "Italian Serenade",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1887",
+   "minutes": 7,
+   "set": ""
+  },
+  {
+   "key": "100043",
+   "composer": "Debussy, Claude",
+   "title": "String Quartet in G minor, Op. 10",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1893",
+   "minutes": 25,
+   "set": ""
+  },
+  {
+   "key": "100044",
+   "composer": "Ravel, Maurice",
+   "title": "String Quartet in F major, M. 35",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1903",
+   "minutes": 28,
+   "set": ""
+  },
+  {
+   "key": "100045",
+   "composer": "Janáček, Leoš",
+   "title": "String Quartet No. 2 (\"Intimate Letters\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1928",
+   "minutes": 25,
+   "set": ""
+  },
+  {
+   "key": "100046",
+   "composer": "Bartók, Béla",
+   "title": "String Quartet No. 4, Sz. 91",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1928",
+   "minutes": 23,
+   "set": ""
+  },
+  {
+   "key": "100047",
+   "composer": "Shostakovich, Dmitri",
+   "title": "String Quartet No. 1 in C major, Op. 49",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1938",
+   "minutes": 15,
+   "set": ""
+  },
+  {
+   "key": "100048",
+   "composer": "Shostakovich, Dmitri",
+   "title": "String Quartet No. 8 in C minor, Op. 110",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1960",
+   "minutes": 21,
+   "set": ""
+  },
+  {
+   "key": "100049",
+   "composer": "Barber, Samuel",
+   "title": "String Quartet, Op. 11",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1936",
+   "minutes": 18,
+   "set": ""
+  },
+  {
+   "key": "100050",
+   "composer": "Britten, Benjamin",
+   "title": "Simple Symphony, Op. 4",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1934",
+   "minutes": 17,
+   "set": ""
+  },
+  {
+   "key": "100051",
+   "composer": "Webern, Anton",
+   "title": "Langsamer Satz",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1905",
+   "minutes": 10,
+   "set": ""
+  },
+  {
+   "key": "100052",
+   "composer": "Ligeti, György",
+   "title": "String Quartet No. 1 (\"Métamorphoses nocturnes\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1954",
+   "minutes": 21,
+   "set": ""
+  },
+  {
+   "key": "100053",
+   "composer": "Lachenmann, Helmut",
+   "title": "Gran Torso",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1972 (rev. 1988)",
+   "minutes": 23,
+   "set": ""
+  },
+  {
+   "key": "100054",
+   "composer": "Crumb, George",
+   "title": "Black Angels (Thirteen Images from the Dark Land)",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello, electronics",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1970",
+   "minutes": 20,
+   "set": ""
+  },
+  {
+   "key": "100055",
+   "composer": "Reich, Steve",
+   "title": "Different Trains",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello, electronics",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1988",
+   "minutes": 27,
+   "set": ""
+  },
+  {
+   "key": "100056",
+   "composer": "Glass, Philip",
+   "title": "String Quartet No. 2 (\"Company\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1983",
+   "minutes": 8,
+   "set": ""
+  },
+  {
+   "key": "100057",
+   "composer": "Glass, Philip",
+   "title": "String Quartet No. 3 (\"Mishima\")",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1985",
+   "minutes": 17,
+   "set": ""
+  },
+  {
+   "key": "100058",
+   "composer": "Pärt, Arvo",
+   "title": "Summa (version for string quartet)",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1977 (1991)",
+   "minutes": 5,
+   "set": ""
+  },
+  {
+   "key": "100059",
+   "composer": "Pärt, Arvo",
+   "title": "Fratres (version for string quartet)",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1977 (1989)",
+   "minutes": 10,
+   "set": ""
+  },
+  {
+   "key": "100060",
+   "composer": "Piazzolla, Astor",
+   "title": "Four for Tango",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1988",
+   "minutes": 5,
+   "set": ""
+  },
+  {
+   "key": "100061",
+   "composer": "Price, Florence",
+   "title": "Five Folksongs in Counterpoint",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "c. 1951",
+   "minutes": 15,
+   "set": ""
+  },
+  {
+   "key": "100062",
+   "composer": "Montgomery, Jessie",
+   "title": "Strum",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "2006 (rev. 2012)",
+   "minutes": 7,
+   "set": ""
+  },
+  {
+   "key": "100063",
+   "composer": "Shaw, Caroline",
+   "title": "Entr'acte",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "2011",
+   "minutes": 11,
+   "set": ""
+  },
+  {
+   "key": "100064",
+   "composer": "Turina, Joaquín",
+   "title": "La oración del torero, Op. 34",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1925",
+   "minutes": 9,
+   "set": ""
+  },
+  {
+   "key": "100065",
+   "composer": "Bridge, Frank",
+   "title": "Three Novelletten",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1904",
+   "minutes": 12,
+   "set": ""
+  },
+  {
+   "key": "100066",
+   "composer": "Boccherini, Luigi",
+   "title": "String Quintet in E major, Op. 11 No. 5, G. 275",
+   "formation": "String quintets",
+   "scoring": "2 violins, viola, 2 cellos",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello 1",
+    "cello 2"
+   ],
+   "year": "1771",
+   "minutes": 18,
+   "set": ""
+  },
+  {
+   "key": "100067",
+   "composer": "Boccherini, Luigi",
+   "title": "String Quintet in C major, Op. 30 No. 6, G. 324 (\"La musica notturna delle strade di Madrid\")",
+   "formation": "String quintets",
+   "scoring": "2 violins, viola, 2 cellos",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello 1",
+    "cello 2"
+   ],
+   "year": "1780",
+   "minutes": 13,
+   "set": ""
+  },
+  {
+   "key": "100068",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "String Quintet No. 4 in G minor, K. 516",
+   "formation": "String quintets",
+   "scoring": "2 violins, 2 violas, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola 1",
+    "viola 2",
+    "cello"
+   ],
+   "year": "1787",
+   "minutes": 35,
+   "set": ""
+  },
+  {
+   "key": "100069",
+   "composer": "Schubert, Franz",
+   "title": "String Quintet in C major, D. 956",
+   "formation": "String quintets",
+   "scoring": "2 violins, viola, 2 cellos",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello 1",
+    "cello 2"
+   ],
+   "year": "1828",
+   "minutes": 50,
+   "set": ""
+  },
+  {
+   "key": "100070",
+   "composer": "Dvořák, Antonín",
+   "title": "String Quintet No. 3 in E-flat major, Op. 97 (\"American\")",
+   "formation": "String quintets",
+   "scoring": "2 violins, 2 violas, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola 1",
+    "viola 2",
+    "cello"
+   ],
+   "year": "1893",
+   "minutes": 32,
+   "set": ""
+  },
+  {
+   "key": "100071",
+   "composer": "Brahms, Johannes",
+   "title": "String Quintet No. 2 in G major, Op. 111",
+   "formation": "String quintets",
+   "scoring": "2 violins, 2 violas, cello",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola 1",
+    "viola 2",
+    "cello"
+   ],
+   "year": "1890",
+   "minutes": 27,
+   "set": ""
+  },
+  {
+   "key": "100072",
+   "composer": "Mendelssohn, Felix",
+   "title": "Octet in E-flat major, Op. 20",
+   "formation": "Sextets & octets",
+   "scoring": "4 violins, 2 violas, 2 cellos",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "violin 3",
+    "violin 4",
+    "viola 1",
+    "viola 2",
+    "cello 1",
+    "cello 2"
+   ],
+   "year": "1825",
+   "minutes": 33,
+   "set": ""
+  },
+  {
+   "key": "100073",
+   "composer": "Brahms, Johannes",
+   "title": "String Sextet No. 1 in B-flat major, Op. 18",
+   "formation": "Sextets & octets",
+   "scoring": "2 violins, 2 violas, 2 cellos",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola 1",
+    "viola 2",
+    "cello 1",
+    "cello 2"
+   ],
+   "year": "1860",
+   "minutes": 38,
+   "set": ""
+  },
+  {
+   "key": "100074",
+   "composer": "Tchaikovsky, Pyotr Ilyich",
+   "title": "Souvenir de Florence, Op. 70",
+   "formation": "Sextets & octets",
+   "scoring": "2 violins, 2 violas, 2 cellos",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola 1",
+    "viola 2",
+    "cello 1",
+    "cello 2"
+   ],
+   "year": "1890",
+   "minutes": 35,
+   "set": ""
+  },
+  {
+   "key": "100075",
+   "composer": "Schoenberg, Arnold",
+   "title": "Verklärte Nacht, Op. 4",
+   "formation": "Sextets & octets",
+   "scoring": "2 violins, 2 violas, 2 cellos",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola 1",
+    "viola 2",
+    "cello 1",
+    "cello 2"
+   ],
+   "year": "1899",
+   "minutes": 30,
+   "set": ""
+  },
+  {
+   "key": "100076",
+   "composer": "Enescu, George",
+   "title": "Octet in C major, Op. 7",
+   "formation": "Sextets & octets",
+   "scoring": "4 violins, 2 violas, 2 cellos",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "violin 3",
+    "violin 4",
+    "viola 1",
+    "viola 2",
+    "cello 1",
+    "cello 2"
+   ],
+   "year": "1900",
+   "minutes": 40,
+   "set": ""
+  },
+  {
+   "key": "100077",
+   "composer": "Haydn, Joseph",
+   "title": "Piano Trio in G major, Hob. XV:25 (\"Gypsy\")",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1795",
+   "minutes": 15,
+   "set": ""
+  },
+  {
+   "key": "100078",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "Piano Trio in B-flat major, K. 502",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1786",
+   "minutes": 24,
+   "set": ""
+  },
+  {
+   "key": "100079",
+   "composer": "Beethoven, Ludwig van",
+   "title": "Piano Trio in C minor, Op. 1 No. 3",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1795",
+   "minutes": 30,
+   "set": "Three Piano Trios, Op. 1"
+  },
+  {
+   "key": "100080",
+   "composer": "Beethoven, Ludwig van",
+   "title": "Piano Trio in B-flat major, Op. 97 (\"Archduke\")",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1811",
+   "minutes": 40,
+   "set": ""
+  },
+  {
+   "key": "100081",
+   "composer": "Schubert, Franz",
+   "title": "Piano Trio No. 1 in B-flat major, D. 898",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1827",
+   "minutes": 40,
+   "set": ""
+  },
+  {
+   "key": "100082",
+   "composer": "Mendelssohn, Felix",
+   "title": "Piano Trio No. 1 in D minor, Op. 49",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1839",
+   "minutes": 30,
+   "set": ""
+  },
+  {
+   "key": "100083",
+   "composer": "Hensel, Fanny",
+   "title": "Piano Trio in D minor, Op. 11",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1847",
+   "minutes": 25,
+   "set": ""
+  },
+  {
+   "key": "100084",
+   "composer": "Schumann, Clara",
+   "title": "Piano Trio in G minor, Op. 17",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1846",
+   "minutes": 28,
+   "set": ""
+  },
+  {
+   "key": "100085",
+   "composer": "Brahms, Johannes",
+   "title": "Piano Trio No. 1 in B major, Op. 8",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1854 (rev. 1889)",
+   "minutes": 35,
+   "set": ""
+  },
+  {
+   "key": "100086",
+   "composer": "Dvořák, Antonín",
+   "title": "Piano Trio No. 4 in E minor, Op. 90 (\"Dumky\")",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1891",
+   "minutes": 30,
+   "set": ""
+  },
+  {
+   "key": "100087",
+   "composer": "Tchaikovsky, Pyotr Ilyich",
+   "title": "Piano Trio in A minor, Op. 50",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1882",
+   "minutes": 47,
+   "set": ""
+  },
+  {
+   "key": "100088",
+   "composer": "Arensky, Anton",
+   "title": "Piano Trio No. 1 in D minor, Op. 32",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1894",
+   "minutes": 26,
+   "set": ""
+  },
+  {
+   "key": "100089",
+   "composer": "Ravel, Maurice",
+   "title": "Piano Trio in A minor, M. 67",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1914",
+   "minutes": 28,
+   "set": ""
+  },
+  {
+   "key": "100090",
+   "composer": "Clarke, Rebecca",
+   "title": "Piano Trio",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1921",
+   "minutes": 25,
+   "set": ""
+  },
+  {
+   "key": "100091",
+   "composer": "Shostakovich, Dmitri",
+   "title": "Piano Trio No. 2 in E minor, Op. 67",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1944",
+   "minutes": 27,
+   "set": ""
+  },
+  {
+   "key": "100092",
+   "composer": "Schoenfield, Paul",
+   "title": "Café Music",
+   "formation": "Piano trios",
+   "scoring": "violin, cello, piano",
+   "parts": [
+    "violin",
+    "cello",
+    "piano"
+   ],
+   "year": "1986",
+   "minutes": 17,
+   "set": ""
+  },
+  {
+   "key": "100093",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "Piano Quartet No. 1 in G minor, K. 478",
+   "formation": "Piano quartets",
+   "scoring": "violin, viola, cello, piano",
+   "parts": [
+    "violin",
+    "viola",
+    "cello",
+    "piano"
+   ],
+   "year": "1785",
+   "minutes": 26,
+   "set": ""
+  },
+  {
+   "key": "100094",
+   "composer": "Schumann, Robert",
+   "title": "Piano Quartet in E-flat major, Op. 47",
+   "formation": "Piano quartets",
+   "scoring": "violin, viola, cello, piano",
+   "parts": [
+    "violin",
+    "viola",
+    "cello",
+    "piano"
+   ],
+   "year": "1842",
+   "minutes": 28,
+   "set": ""
+  },
+  {
+   "key": "100095",
+   "composer": "Mahler, Gustav",
+   "title": "Piano Quartet in A minor",
+   "formation": "Piano quartets",
+   "scoring": "violin, viola, cello, piano",
+   "parts": [
+    "violin",
+    "viola",
+    "cello",
+    "piano"
+   ],
+   "year": "1876",
+   "minutes": 12,
+   "set": ""
+  },
+  {
+   "key": "100096",
+   "composer": "Brahms, Johannes",
+   "title": "Piano Quartet No. 1 in G minor, Op. 25",
+   "formation": "Piano quartets",
+   "scoring": "violin, viola, cello, piano",
+   "parts": [
+    "violin",
+    "viola",
+    "cello",
+    "piano"
+   ],
+   "year": "1861",
+   "minutes": 40,
+   "set": ""
+  },
+  {
+   "key": "100097",
+   "composer": "Fauré, Gabriel",
+   "title": "Piano Quartet No. 1 in C minor, Op. 15",
+   "formation": "Piano quartets",
+   "scoring": "violin, viola, cello, piano",
+   "parts": [
+    "violin",
+    "viola",
+    "cello",
+    "piano"
+   ],
+   "year": "1883",
+   "minutes": 31,
+   "set": ""
+  },
+  {
+   "key": "100098",
+   "composer": "Schubert, Franz",
+   "title": "Piano Quintet in A major, D. 667 (\"Trout\")",
+   "formation": "Piano quintets",
+   "scoring": "violin, viola, cello, double bass, piano",
+   "parts": [
+    "violin",
+    "viola",
+    "cello",
+    "double-bass",
+    "piano"
+   ],
+   "year": "1819",
+   "minutes": 38,
+   "set": ""
+  },
+  {
+   "key": "100099",
+   "composer": "Schumann, Robert",
+   "title": "Piano Quintet in E-flat major, Op. 44",
+   "formation": "Piano quintets",
+   "scoring": "2 violins, viola, cello, piano",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello",
+    "piano"
+   ],
+   "year": "1842",
+   "minutes": 30,
+   "set": ""
+  },
+  {
+   "key": "100100",
+   "composer": "Brahms, Johannes",
+   "title": "Piano Quintet in F minor, Op. 34",
+   "formation": "Piano quintets",
+   "scoring": "2 violins, viola, cello, piano",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello",
+    "piano"
+   ],
+   "year": "1864",
+   "minutes": 42,
+   "set": ""
+  },
+  {
+   "key": "100101",
+   "composer": "Franck, César",
+   "title": "Piano Quintet in F minor, FWV 7",
+   "formation": "Piano quintets",
+   "scoring": "2 violins, viola, cello, piano",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello",
+    "piano"
+   ],
+   "year": "1879",
+   "minutes": 36,
+   "set": ""
+  },
+  {
+   "key": "100102",
+   "composer": "Dvořák, Antonín",
+   "title": "Piano Quintet No. 2 in A major, Op. 81",
+   "formation": "Piano quintets",
+   "scoring": "2 violins, viola, cello, piano",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello",
+    "piano"
+   ],
+   "year": "1887",
+   "minutes": 38,
+   "set": ""
+  },
+  {
+   "key": "100103",
+   "composer": "Beach, Amy",
+   "title": "Piano Quintet in F-sharp minor, Op. 67",
+   "formation": "Piano quintets",
+   "scoring": "2 violins, viola, cello, piano",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello",
+    "piano"
+   ],
+   "year": "1907",
+   "minutes": 30,
+   "set": ""
+  },
+  {
+   "key": "100104",
+   "composer": "Shostakovich, Dmitri",
+   "title": "Piano Quintet in G minor, Op. 57",
+   "formation": "Piano quintets",
+   "scoring": "2 violins, viola, cello, piano",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello",
+    "piano"
+   ],
+   "year": "1940",
+   "minutes": 33,
+   "set": ""
+  },
+  {
+   "key": "100105",
+   "composer": "Mendelssohn, Felix",
+   "title": "Piano Sextet in D major, Op. 110",
+   "formation": "Other piano & strings",
+   "scoring": "violin, 2 violas, cello, double bass, piano",
+   "parts": [
+    "violin",
+    "viola 1",
+    "viola 2",
+    "cello",
+    "double-bass",
+    "piano"
+   ],
+   "year": "1824",
+   "minutes": 30,
+   "set": ""
+  },
+  {
+   "key": "100107",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "Flute Quartet No. 1 in D major, K. 285",
+   "formation": "Strings & winds",
+   "scoring": "flute, violin, viola, cello",
+   "parts": [
+    "flute",
+    "violin",
+    "viola",
+    "cello"
+   ],
+   "year": "1777",
+   "minutes": 15,
+   "set": ""
+  },
+  {
+   "key": "100108",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "Oboe Quartet in F major, K. 370",
+   "formation": "Strings & winds",
+   "scoring": "oboe, violin, viola, cello",
+   "parts": [
+    "oboe",
+    "violin",
+    "viola",
+    "cello"
+   ],
+   "year": "1781",
+   "minutes": 15,
+   "set": ""
+  },
+  {
+   "key": "100109",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "Trio in E-flat major, K. 498 (\"Kegelstatt\")",
+   "formation": "Strings & winds",
+   "scoring": "clarinet (or violin), viola, piano",
+   "parts": [
+    "clarinet",
+    "viola",
+    "piano"
+   ],
+   "year": "1786",
+   "minutes": 20,
+   "set": ""
+  },
+  {
+   "key": "100110",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "title": "Clarinet Quintet in A major, K. 581",
+   "formation": "Strings & winds",
+   "scoring": "clarinet, 2 violins, viola, cello",
+   "parts": [
+    "clarinet",
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1789",
+   "minutes": 32,
+   "set": ""
+  },
+  {
+   "key": "100111",
+   "composer": "Beethoven, Ludwig van",
+   "title": "Trio in B-flat major, Op. 11 (\"Gassenhauer\")",
+   "formation": "Strings & winds",
+   "scoring": "clarinet (or violin), cello, piano",
+   "parts": [
+    "clarinet",
+    "cello",
+    "piano"
+   ],
+   "year": "1797",
+   "minutes": 21,
+   "set": ""
+  },
+  {
+   "key": "100112",
+   "composer": "Beethoven, Ludwig van",
+   "title": "Septet in E-flat major, Op. 20",
+   "formation": "Strings & winds",
+   "scoring": "clarinet, horn, bassoon, violin, viola, cello, double bass",
+   "parts": [
+    "clarinet",
+    "horn",
+    "bassoon",
+    "violin",
+    "viola",
+    "cello",
+    "double-bass"
+   ],
+   "year": "1799",
+   "minutes": 40,
+   "set": ""
+  },
+  {
+   "key": "100113",
+   "composer": "Schubert, Franz",
+   "title": "Octet in F major, D. 803",
+   "formation": "Strings & winds",
+   "scoring": "clarinet, horn, bassoon, 2 violins, viola, cello, double bass",
+   "parts": [
+    "clarinet",
+    "horn",
+    "bassoon",
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello",
+    "double-bass"
+   ],
+   "year": "1824",
+   "minutes": 60,
+   "set": ""
+  },
+  {
+   "key": "100114",
+   "composer": "Farrenc, Louise",
+   "title": "Nonet in E-flat major, Op. 38",
+   "formation": "Strings & winds",
+   "scoring": "flute, oboe, clarinet, horn, bassoon, violin, viola, cello, double bass",
+   "parts": [
+    "flute",
+    "oboe",
+    "clarinet",
+    "horn",
+    "bassoon",
+    "violin",
+    "viola",
+    "cello",
+    "double-bass"
+   ],
+   "year": "1849",
+   "minutes": 33,
+   "set": ""
+  },
+  {
+   "key": "100115",
+   "composer": "Schumann, Robert",
+   "title": "Märchenerzählungen, Op. 132",
+   "formation": "Strings & winds",
+   "scoring": "clarinet (or violin), viola, piano",
+   "parts": [
+    "clarinet",
+    "viola",
+    "piano"
+   ],
+   "year": "1853",
+   "minutes": 16,
+   "set": ""
+  },
+  {
+   "key": "100116",
+   "composer": "Brahms, Johannes",
+   "title": "Horn Trio in E-flat major, Op. 40",
+   "formation": "Strings & winds",
+   "scoring": "horn (or viola or cello), violin, piano",
+   "parts": [
+    "horn",
+    "violin",
+    "piano"
+   ],
+   "year": "1865",
+   "minutes": 30,
+   "set": ""
+  },
+  {
+   "key": "100117",
+   "composer": "Brahms, Johannes",
+   "title": "Clarinet Quintet in B minor, Op. 115",
+   "formation": "Strings & winds",
+   "scoring": "clarinet, 2 violins, viola, cello",
+   "parts": [
+    "clarinet",
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1891",
+   "minutes": 38,
+   "set": ""
+  },
+  {
+   "key": "100118",
+   "composer": "Coleridge-Taylor, Samuel",
+   "title": "Clarinet Quintet in F-sharp minor, Op. 10",
+   "formation": "Strings & winds",
+   "scoring": "clarinet, 2 violins, viola, cello",
+   "parts": [
+    "clarinet",
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1895",
+   "minutes": 32,
+   "set": ""
+  },
+  {
+   "key": "100119",
+   "composer": "Ravel, Maurice",
+   "title": "Introduction et Allegro, M. 46",
+   "formation": "Strings & winds",
+   "scoring": "harp, flute, clarinet, 2 violins, viola, cello",
+   "parts": [
+    "harp",
+    "flute",
+    "clarinet",
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1905",
+   "minutes": 11,
+   "set": ""
+  },
+  {
+   "key": "100120",
+   "composer": "Debussy, Claude",
+   "title": "Sonata for Flute, Viola and Harp, L. 137",
+   "formation": "Strings & winds",
+   "scoring": "flute, viola, harp",
+   "parts": [
+    "flute",
+    "viola",
+    "harp"
+   ],
+   "year": "1915",
+   "minutes": 18,
+   "set": ""
+  },
+  {
+   "key": "100121",
+   "composer": "Prokofiev, Sergei",
+   "title": "Overture on Hebrew Themes, Op. 34",
+   "formation": "Strings & winds",
+   "scoring": "clarinet, 2 violins, viola, cello, piano",
+   "parts": [
+    "clarinet",
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello",
+    "piano"
+   ],
+   "year": "1919",
+   "minutes": 9,
+   "set": ""
+  },
+  {
+   "key": "100122",
+   "composer": "Stravinsky, Igor",
+   "title": "Suite from L'Histoire du soldat",
+   "formation": "Strings & winds",
+   "scoring": "clarinet, bassoon, trumpet, trombone, percussion, violin, double bass",
+   "parts": [
+    "clarinet",
+    "bassoon",
+    "trumpet",
+    "trombone",
+    "percussion",
+    "violin",
+    "double-bass"
+   ],
+   "year": "1918",
+   "minutes": 25,
+   "set": ""
+  },
+  {
+   "key": "100123",
+   "composer": "Bartók, Béla",
+   "title": "Contrasts, Sz. 111",
+   "formation": "Strings & winds",
+   "scoring": "violin, clarinet, piano",
+   "parts": [
+    "violin",
+    "clarinet",
+    "piano"
+   ],
+   "year": "1938",
+   "minutes": 18,
+   "set": ""
+  },
+  {
+   "key": "100124",
+   "composer": "Messiaen, Olivier",
+   "title": "Quatuor pour la fin du temps",
+   "formation": "Strings & winds",
+   "scoring": "violin, clarinet, cello, piano",
+   "parts": [
+    "violin",
+    "clarinet",
+    "cello",
+    "piano"
+   ],
+   "year": "1941",
+   "minutes": 50,
+   "set": ""
+  },
+  {
+   "key": "100125",
+   "composer": "Golijov, Osvaldo",
+   "title": "The Dreams and Prayers of Isaac the Blind",
+   "formation": "Strings & winds",
+   "scoring": "clarinet, 2 violins, viola, cello",
+   "parts": [
+    "clarinet",
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1994",
+   "minutes": 40,
+   "set": ""
+  },
+  {
+   "key": "100126",
+   "composer": "Corelli, Arcangelo",
+   "title": "Trio Sonata in F major, Op. 1 No. 1",
+   "formation": "With continuo",
+   "scoring": "2 violins, continuo",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "continuo"
+   ],
+   "year": "1681",
+   "minutes": 6,
+   "set": "12 Sonate da chiesa a tre, Op. 1"
+  },
+  {
+   "key": "100127",
+   "composer": "Pachelbel, Johann",
+   "title": "Canon and Gigue in D major, P. 37",
+   "formation": "With continuo",
+   "scoring": "3 violins, continuo",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "violin 3",
+    "continuo"
+   ],
+   "year": "",
+   "minutes": 6,
+   "set": ""
+  },
+  {
+   "key": "100130",
+   "composer": "Bach, Johann Sebastian",
+   "title": "Trio Sonata in C minor from The Musical Offering, BWV 1079",
+   "formation": "With continuo",
+   "scoring": "flute, violin, continuo",
+   "parts": [
+    "flute",
+    "violin",
+    "continuo"
+   ],
+   "year": "1747",
+   "minutes": 18,
+   "set": ""
+  },
+  {
+   "key": "100131",
+   "composer": "Telemann, Georg Philipp",
+   "title": "Paris Quartet in E minor, TWV 43:e4",
+   "formation": "With continuo",
+   "scoring": "flute, violin, viola da gamba (or cello), continuo",
+   "parts": [
+    "flute",
+    "violin",
+    "viola-da-gamba",
+    "continuo"
+   ],
+   "year": "1738",
+   "minutes": 20,
+   "set": "Nouveaux quatuors en six suites"
+  },
+  {
+   "key": "100132",
+   "composer": "Boccherini, Luigi",
+   "title": "Guitar Quintet No. 4 in D major, G. 448 (\"Fandango\")",
+   "formation": "Other ensembles",
+   "scoring": "guitar, 2 violins, viola, cello, percussion ad lib.",
+   "parts": [
+    "guitar",
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1798",
+   "minutes": 20,
+   "set": ""
+  },
+  {
+   "key": "100133",
+   "composer": "Respighi, Ottorino",
+   "title": "Il tramonto",
+   "formation": "Other ensembles",
+   "scoring": "voice, 2 violins, viola, cello",
+   "parts": [
+    "voice",
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1914",
+   "minutes": 16,
+   "set": ""
+  },
+  {
+   "key": "100134",
+   "composer": "Barber, Samuel",
+   "title": "Dover Beach, Op. 3",
+   "formation": "Other ensembles",
+   "scoring": "voice, 2 violins, viola, cello",
+   "parts": [
+    "voice",
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello"
+   ],
+   "year": "1931",
+   "minutes": 8,
+   "set": ""
+  },
+  {
+   "key": "100135",
+   "composer": "Schoenberg, Arnold",
+   "title": "String Quartet No. 2 in F-sharp minor, Op. 10",
+   "formation": "String quartets",
+   "scoring": "2 violins, viola, cello, voice",
+   "parts": [
+    "violin 1",
+    "violin 2",
+    "viola",
+    "cello",
+    "voice"
+   ],
+   "year": "1908",
+   "minutes": 30,
+   "set": ""
+  }
+ ]
+}

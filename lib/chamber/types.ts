@@ -64,6 +64,8 @@ export interface ChamberWork {
   formation: FormationKey;
   formationNote?: string; // why `formation` differs from formationFor(instruments)
   instruments: Partial<Record<InstrumentKey, number>>;
+  alternatives?: Partial<Record<InstrumentKey, InstrumentKey[]>>; // published alternatives for a part: Kegelstatt {clarinet: ["violin"]}
+  optional?: Partial<Record<InstrumentKey, number>>; // ad lib. parts, not counted in players or formation: K. 525 {"double-bass": 1}
   players: number; // parts: continuo counts as one, electronics as none
   form: FormKey;
   level: number; // 1–10, the violin catalogue's scale (see docs/chamber-music-plan.md)

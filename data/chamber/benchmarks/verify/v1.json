@@ -1,0 +1,488 @@
+{
+  "slice": "v1",
+  "results": [
+    {
+      "id": 100001,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Trio_in_B-flat_major,_D.471_(Schubert,_Franz)"
+      ],
+      "note": "IMSLP: Allegro complete (201 bars), Andante sostenuto only a 39-bar fragment; 1816. IMSLP's 11 min average includes the fragment; 9 min for the Allegro alone is within tolerance."
+    },
+    {
+      "id": 100002,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://www.earsense.org/chamber-music/Zoltan-Kodaly-Intermezzo-for-String-Trio/",
+        "https://www.editionsilvertrust.com/kodaly-intermezzo.htm",
+        "https://en.wikipedia.org/wiki/Zoltán_Kodály"
+      ],
+      "note": "EarSense: single Allegretto, composed 1905, about 5 min (nine recordings 4:49–5:25); Wikipedia work list: Intermezzo for String Trio (1905)."
+    },
+    {
+      "id": 100003,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/Miniatures,_Op.75a_(Dvořák,_Antonín)",
+        "https://en.wikipedia.org/wiki/Terzetto_in_C_major_(Dvořák)"
+      ],
+      "note": "IMSLP: Op.75a, B.149, January 1887, 2 violins and viola, 15 min, first version of Op.75 (B.150)."
+    },
+    {
+      "id": 100004,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/Serenade_in_D_major,_Op.8_(Beethoven,_Ludwig_van)"
+      ],
+      "note": "IMSLP: composed 1795–97, published Artaria October 1797. Movement count of seven (counting the closing march) is the usual reckoning."
+    },
+    {
+      "id": 100005,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/3_String_Trios,_Op.9_(Beethoven,_Ludwig_van)"
+      ],
+      "note": "IMSLP: 1797–98, published 1798 (Traeg)."
+    },
+    {
+      "id": 100006,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/Divertimento_in_E-flat_major,_K.563_(Mozart,_Wolfgang_Amadeus)"
+      ],
+      "note": "IMSLP: 1788, six movements; IMSLP average 40 min, complete-repeat recordings run 43–48, so 45 is fine."
+    },
+    {
+      "id": 100007,
+      "verdict": "fixed",
+      "fixes": {
+        "notes": "Two violins and viola, written for an amateur violinist, his teacher and Dvořák himself on viola; theme-and-variations finale"
+      },
+      "sources": [
+        "https://imslp.org/wiki/Terzetto,_Op.74_(Dvořák,_Antonín)",
+        "https://en.wikipedia.org/wiki/Terzetto_in_C_major_(Dvořák)"
+      ],
+      "note": "Not 'for amateurs': written for the amateur Josef Kruis, his teacher Jan Pelikán (National Theatre Orchestra) and Dvořák on viola; 'viola part simple' is unsupported (Dvořák played it himself), so dropped. Op.74, B.148, 1887, 20 min confirmed."
+    },
+    {
+      "id": 100008,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/Serenade,_Op.10_(Dohnányi,_Ernő)"
+      ],
+      "note": "IMSLP: composed 1902–03, published 1904; five movements ending with a Rondo; average 20 min (22 within tolerance)."
+    },
+    {
+      "id": 100009,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Trio,_Op.45_(Schoenberg,_Arnold)",
+        "https://schoenberg.at/en/schoenberg/kompositionen/string-trio-op-45"
+      ],
+      "note": "Schoenberg Center: begun June 1946, mostly written 20 August–23 September 1946 after his heart attack; duration ca. 19 min. IMSLP average 19 min."
+    },
+    {
+      "id": 100010,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartets,_Op.1_(Haydn,_Joseph)"
+      ],
+      "note": "IMSLP: Op.1 No.1 = Hob.III:1 in B-flat ('La chasse'), c. 1757–62."
+    },
+    {
+      "id": 100011,
+      "verdict": "doubt",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_in_F_major,_Hob.III:17_(Hoffstetter,_Roman)",
+        "https://imslp.org/wiki/String_Quartets,_Op.3_(Hoffstetter,_Roman)",
+        "https://en.wikipedia.org/wiki/String_Quartets,_Op._3_(attributed_to_Haydn)"
+      ],
+      "note": "Year: 1777 is the first publication (Bailleux, Paris); IMSLP gives composition '1772 or before', so 'c. 1777' may be too late (perhaps 'c. 1770'), but no exact source. Attribution: Wikipedia notes the Hoffstetter attribution is not universal (Fruehwald credited him only with Nos. 1–2); keeping Hoffstetter is the common modern practice."
+    },
+    {
+      "id": 100012,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/Chacony_in_G_minor,_Z.730_(Purcell,_Henry)"
+      ],
+      "note": "IMSLP: Z.730, c. 1680, four parts (2 violins, viola, bass/continuo). IMSLP average 4 min; period-instrument recordings run 4–6, so 6 is at the top end but within 3 minutes."
+    },
+    {
+      "id": 100013,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.2_in_D_major,_K.155/134a_(Mozart,_Wolfgang_Amadeus)"
+      ],
+      "note": "IMSLP: K.155 (K6 134a), 1772, three movements."
+    },
+    {
+      "id": 100014,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/6_Sonate_a_quattro_(Rossini,_Gioachino)"
+      ],
+      "note": "IMSLP: c. 1804, 2 violins, cello, double bass; No.1 in G."
+    },
+    {
+      "id": 100015,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartets,_Op.20_(Haydn,_Joseph)"
+      ],
+      "note": "IMSLP: Op.20 No.2 = Hob.III:32 in C, 1772; 'Sun' set."
+    },
+    {
+      "id": 100016,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartets,_Op.33_(Haydn,_Joseph)"
+      ],
+      "note": "IMSLP: Op.33 No.2 = Hob.III:38 in E-flat ('The Joke'), 1781."
+    },
+    {
+      "id": 100017,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartets,_Op.64_(Haydn,_Joseph)"
+      ],
+      "note": "IMSLP: Op.64 No.5 = Hob.III:63 in D, 1790, Tost."
+    },
+    {
+      "id": 100018,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartets,_Op.74_(Haydn,_Joseph)"
+      ],
+      "note": "IMSLP: Op.74 No.3 = Hob.III:74 in G minor ('The Horseman'), 1793, Apponyi."
+    },
+    {
+      "id": 100019,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartets,_Op.76_(Haydn,_Joseph)"
+      ],
+      "note": "IMSLP: Op.76 No.3 = Hob.III:77 in C ('Emperor'), 1796–97, Erdődy."
+    },
+    {
+      "id": 100020,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/Divertimento_in_D_major,_K.136/125a_(Mozart,_Wolfgang_Amadeus)"
+      ],
+      "note": "IMSLP: 1772, 'Salzburg Symphony No.1', 2 violins, viola, cello (or strings)."
+    },
+    {
+      "id": 100021,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/Eine_kleine_Nachtmusik,_K.525_(Mozart,_Wolfgang_Amadeus)"
+      ],
+      "note": "IMSLP: 1787; scored for 2 violins, viola, cello and double bass (cello and bass share one line), so optional bass is right."
+    },
+    {
+      "id": 100022,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.15_in_D_minor,_K.421/417b_(Mozart,_Wolfgang_Amadeus)"
+      ],
+      "note": "IMSLP: 1783, dedicated to Haydn; finale Allegretto ma non troppo variations."
+    },
+    {
+      "id": 100023,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.19_in_C_major,_K.465_(Mozart,_Wolfgang_Amadeus)"
+      ],
+      "note": "IMSLP: completed 14 January 1785."
+    },
+    {
+      "id": 100024,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.4,_Op.18_No.4_(Beethoven,_Ludwig_van)",
+        "https://en.wikipedia.org/wiki/String_Quartet_No._4_(Beethoven)"
+      ],
+      "note": "IMSLP dates it 1799–1800 and Wikipedia gives the set 1798–1800; 1799 is the usual date for No.4, so left. Prestissimo coda in the finale confirmed."
+    },
+    {
+      "id": 100025,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.7,_Op.59_No.1_(Beethoven,_Ludwig_van)"
+      ],
+      "note": "IMSLP: 1806, dedicated to Razumovsky; Adagio molto e mesto leads via a violin cadenza with trills into the Thème russe finale."
+    },
+    {
+      "id": 100026,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.11,_Op.95_(Beethoven,_Ludwig_van)"
+      ],
+      "note": "IMSLP: 1810, 'Quartetto serioso'."
+    },
+    {
+      "id": 100027,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.14,_Op.131_(Beethoven,_Ludwig_van)"
+      ],
+      "note": "IMSLP: 1826, seven movements."
+    },
+    {
+      "id": 100028,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/Große_Fuge,_Op.133_(Beethoven,_Ludwig_van)"
+      ],
+      "note": "IMSLP: 1825–26, average 16 min, original finale of Op.130 (premiered 1826). 1825 is the composition year of the fugue as Op.130's finale."
+    },
+    {
+      "id": 100029,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_in_C_minor,_D.703_(Schubert,_Franz)"
+      ],
+      "note": "IMSLP: December 1820; Allegro assai complete, Andante a 41-bar fragment. IMSLP 11 min includes the fragment; the Allegro alone runs about 9."
+    },
+    {
+      "id": 100030,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_in_A_minor,_D.804_(Schubert,_Franz)"
+      ],
+      "note": "IMSLP: February–March 1824, average 33 min."
+    },
+    {
+      "id": 100031,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_in_D_minor,_D.810_(Schubert,_Franz)"
+      ],
+      "note": "IMSLP: March 1824, average 38 min."
+    },
+    {
+      "id": 100032,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_in_G_major,_D.887_(Schubert,_Franz)"
+      ],
+      "note": "IMSLP: 20–30 June 1826, average 45 min."
+    },
+    {
+      "id": 100033,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.2,_Op.13_(Mendelssohn,_Felix)"
+      ],
+      "note": "IMSLP: 1827, average 30 min; finale opens with a violin 1 recitative."
+    },
+    {
+      "id": 100034,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.1,_Op.51_No.1_(Brahms,_Johannes)"
+      ],
+      "note": "IMSLP: c. 1865–1873, published November 1873, average 32 min."
+    },
+    {
+      "id": 100035,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.12,_Op.96_(Dvořák,_Antonín)"
+      ],
+      "note": "IMSLP: Op.96, B.179, 1893, average 25 min."
+    },
+    {
+      "id": 100036,
+      "verdict": "fixed",
+      "fixes": {
+        "aka": [
+          "Echo of Songs",
+          "Ohlas písní"
+        ]
+      },
+      "sources": [
+        "https://imslp.org/wiki/Echo_of_Songs,_B.152_(Dvořák,_Antonín)",
+        "https://www.antonin-dvorak.cz/en/work/cypresses-for-string-quartet/",
+        "https://ototoy.jp/_/default/p/133151",
+        "https://ototoy.jp/_/default/p/398413"
+      ],
+      "note": "Dvořák's own title for the quartet set was 'Echo of Songs' (Ohlas písní), which IMSLP uses; twelve of the eighteen 1865 Cypresses songs, 21 April–21 May 1887. Duration: Dvořák society and IMSLP say ca. 36 min, but complete recordings run 32–33 (Emerson 32:37, Lindsay 32:12), so 30 left as within tolerance (32 would be closer)."
+    },
+    {
+      "id": 100037,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.1,_JB_1:105_(Smetana,_Bedřich)",
+        "https://en.wikipedia.org/wiki/String_Quartet_No._1_(Smetana)"
+      ],
+      "note": "IMSLP: 1876, average 28 min. Wikipedia: viola solo opening; high sustained harmonic E for violin 1 in the finale represents the ringing in his ears."
+    },
+    {
+      "id": 100038,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.2_(Borodin,_Aleksandr)"
+      ],
+      "note": "IMSLP: 1881, Notturno third movement. 28 min matches common recordings."
+    },
+    {
+      "id": 100039,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.1,_Op.11_(Tchaikovsky,_Pyotr)"
+      ],
+      "note": "IMSLP: 1871, average 29 min, Andante cantabile second movement."
+    },
+    {
+      "id": 100040,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.1,_Op.27_(Grieg,_Edvard)"
+      ],
+      "note": "IMSLP: 1877–78 (completed 1878)."
+    },
+    {
+      "id": 100041,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/Crisantemi,_SC_65_(Puccini,_Giacomo)"
+      ],
+      "note": "IMSLP: 1890, in memory of Amedeo di Savoia, average 5 min. Schickling number SC 65 exists if the house style wants it."
+    },
+    {
+      "id": 100042,
+      "verdict": "fixed",
+      "fixes": {
+        "title": "Italian Serenade in G major",
+        "aka": [
+          "Italienische Serenade",
+          "Serenade in G major"
+        ]
+      },
+      "sources": [
+        "https://imslp.org/wiki/Italian_Serenade_(Wolf,_Hugo)",
+        "https://en.wikipedia.org/wiki/Italian_Serenade_(Wolf)"
+      ],
+      "note": "Wikipedia: written 2–4 May 1887 for string quartet and first titled simply 'Serenade in G major'; arranged for small orchestra 1892; about 7 minutes. Key added per house style."
+    },
+    {
+      "id": 100043,
+      "verdict": "fixed",
+      "fixes": {
+        "title": "String Quartet in G minor, Op. 10, L. 85"
+      },
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_in_G_minor,_Op.10_(Debussy,_Claude)"
+      ],
+      "note": "IMSLP gives old Lesure L.85 (new CD 91). Composed 1892–93, premiered 29 Dec 1893 by the Ysaÿe Quartet."
+    },
+    {
+      "id": 100044,
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_in_F_major,_M.35_(Ravel,_Maurice)"
+      ],
+      "note": "IMSLP: 1902–03, dedicated to Fauré; muted Très lent third movement."
+    },
+    {
+      "id": 100045,
+      "verdict": "fixed",
+      "fixes": {
+        "title": "String Quartet No. 2, JW VII/13 (\"Intimate Letters\")"
+      },
+      "sources": [
+        "https://imslp.org/wiki/String_Quartet_No.2_'Listy_důvěrné'_(Janáček,_Leoš)"
+      ],
+      "note": "IMSLP: JW 7/13, January–February 1928, average 25 min. Violin catalogue writes Janáček numbers as 'JW VII/7', so JW VII/13 added."
+    }
+  ],
+  "composers": [
+    {
+      "name": "Hoffstetter, Roman",
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://en.wikipedia.org/wiki/Roman_Hoffstetter"
+      ],
+      "note": "Born 24 April 1742 Laudenbach, died 1815 Miltenberg; German Benedictine."
+    },
+    {
+      "name": "Rossini, Gioachino",
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gioachino_Rossini"
+      ],
+      "note": "29 February 1792 – 13 November 1868, Italian."
+    },
+    {
+      "name": "Borodin, Alexander",
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alexander_Borodin"
+      ],
+      "note": "12 November 1833 – 27 February 1887, Russian."
+    },
+    {
+      "name": "Puccini, Giacomo",
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://en.wikipedia.org/wiki/Giacomo_Puccini"
+      ],
+      "note": "22 December 1858 – 29 November 1924, Italian."
+    },
+    {
+      "name": "Wolf, Hugo",
+      "verdict": "confirmed",
+      "fixes": {},
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hugo_Wolf"
+      ],
+      "note": "13 March 1860 – 22 February 1903, Austrian (born in Windischgraz, now Slovenj Gradec)."
+    }
+  ],
+  "note": "All 45 checked. Composer spellings all match the violin catalogue; the five chamber-only composers (Hoffstetter, Rossini, Borodin, Puccini, Wolf) have correct dates and nationalities. Main fixes: Debussy quartet needs old Lesure L. 85; Janáček No. 2 needs JW VII/13 (as the violin catalogue does for Janáček); Wolf's Italian Serenade is in G major; Cypresses B. 152 gains the aka 'Echo of Songs'; the Terzetto note wrongly said 'written for amateurs'. Minor optional points: Grieg Op. 27 is often numbered 'String Quartet No. 1'; Puccini's Crisantemi has Schickling number SC 65."
+}
