@@ -1,0 +1,2041 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chamber music options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>try{document.documentElement.dataset.theme=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}catch(e){}</script>
+<style>
+:root{--font-archivo:"Archivo";--font-instrument:"Instrument Sans"}
+/* the parts of Tailwind's preflight the site relies on */
+*,::before,::after{box-sizing:border-box;border:0 solid;margin:0;padding:0}
+button,input,select,textarea{font:inherit;color:inherit;background-color:transparent;border-radius:0;letter-spacing:inherit}
+ol,ul{list-style:none} h1,h2,h3,h4{font-size:inherit;font-weight:inherit} img,svg{display:block;vertical-align:middle}
+/* ---- the site's own stylesheet (app/globals.css: tokens to responsive), copied in by the generator ---- */
+/* ── Tokens ─────────────────────────────────────────────────────────── */
+:root {
+  --linen: #f2ede3;
+  --sheet: #f8f5ee;
+  --wash: #e9e2d4;
+  --ink: #1b1a17;
+  --muted: #6b655b;
+  --rule: rgba(27, 26, 23, 0.13);
+  --rule-2: rgba(27, 26, 23, 0.28);
+  --terra: #c45b3d;
+  --terra-wash: #efdcd2;
+  --cobalt: #30508f;
+  --ochre: #c99a3f;
+  --sage: #6e7f5e;
+  --on-accent: #fffaf2;
+  --shadow: 0 18px 50px rgba(27, 26, 23, 0.16);
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .26 0 0 0 0 .2 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+
+  /* level palette: sage → ochre → terra → cobalt → plum → ink */
+  --l1: #8fa37e;
+  --l2: #6e7f5e;
+  --l3: #b39b47;
+  --l4: #c99a3f;
+  --l5: #c45b3d;
+  --l6: #a3453a;
+  --l7: #30508f;
+  --l8: #263f72;
+  --l9: #4a3b4c;
+  --l10: #1b1a17;
+
+  --display: var(--font-archivo), "Archivo", sans-serif;
+  --body: var(--font-instrument), "Instrument Sans", sans-serif;
+  --pick-a: #30508f;
+  --pick-b: #3f5f48;
+  --pick-c: #b4492f;
+  --radius-a: 3px 9px 4px 8px;
+  --radius-b: 8px 4px 9px 3px;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --linen: #171613;
+  --sheet: #1f1e1a;
+  --wash: #2a2823;
+  --ink: #ece6da;
+  --muted: #a39b8d;
+  --rule: rgba(236, 230, 218, 0.12);
+  --rule-2: rgba(236, 230, 218, 0.26);
+  --terra: #d9714f;
+  --terra-wash: #3a2720;
+  --cobalt: #6f8fd0;
+  --on-accent: #171613;
+  --shadow: 0 18px 50px rgba(0, 0, 0, 0.5);
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .03 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+  --l10: #ece6da;
+  color-scheme: dark;
+}
+
+/* ── Base ───────────────────────────────────────────────────────────── */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: var(--linen) var(--grain);
+  color: var(--ink);
+  font: 400 15px/1.5 var(--body);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+:focus-visible {
+  outline: 2px solid var(--terra);
+  outline-offset: 2px;
+}
+::selection {
+  background: var(--terra-wash);
+}
+.wrap {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.label {
+  font: 600 11px var(--display);
+  font-stretch: 112%;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.link-underline {
+  font-weight: 600;
+  background: linear-gradient(var(--terra), var(--terra)) 0 100% / 100% 2px no-repeat;
+  padding-bottom: 2px;
+}
+.ext {
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  margin-left: 0.15em;
+  vertical-align: -0.02em;
+}
+.btn-ink {
+  height: 44px;
+  padding: 0 20px;
+  background: var(--ink);
+  color: var(--linen);
+  font: 700 13px var(--display);
+  font-stretch: 110%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 4px 10px 5px 9px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ── Header ─────────────────────────────────────────────────────────── */
+.site-header {
+  border-bottom: 1px solid var(--rule-2);
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: var(--linen) var(--grain);
+}
+.bar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 32px;
+  align-items: center;
+  height: 70px;
+}
+.mark {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+}
+/* instrument switcher: violin now, the rest listed as coming soon */
+.instrument {
+  position: relative;
+}
+.instrument-btn {
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 11px 0 12px;
+  border: 1px solid var(--rule-2);
+  border-radius: var(--radius-a);
+  font: 500 13.5px var(--body);
+  color: var(--ink);
+  white-space: nowrap;
+  margin-top: 3px;
+}
+.instrument-btn::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-right: 1.6px solid currentColor;
+  border-bottom: 1.6px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+  opacity: 0.6;
+  transition: transform 0.15s;
+}
+.instrument-btn:hover,
+.instrument-btn[aria-expanded="true"] {
+  border-color: var(--ink);
+}
+.instrument-btn[aria-expanded="true"]::after {
+  transform: translateY(1px) rotate(-135deg);
+}
+.instrument-menu {
+  position: absolute;
+  z-index: 50;
+  top: calc(100% + 8px);
+  left: 0;
+  width: 236px;
+  background: var(--sheet);
+  border: 1px solid var(--rule-2);
+  border-radius: 4px 12px 6px 10px;
+  box-shadow: var(--shadow);
+  padding: 6px;
+  animation: pop-in 0.16s ease-out;
+}
+.instrument-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  border-radius: var(--radius-a);
+  font: 500 14px var(--body);
+  color: var(--muted);
+  cursor: default;
+}
+.instrument-item small {
+  font: 600 10px var(--display);
+  font-stretch: 112%;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.instrument-item.current {
+  color: var(--ink);
+  font-weight: 600;
+  background: var(--wash);
+  margin-bottom: 4px;
+}
+.instrument-item.current svg {
+  width: 16px;
+  height: 16px;
+  color: var(--terra);
+}
+.mark .logo {
+  display: block;
+  height: 38px;
+  width: auto;
+  flex: none;
+}
+.mark .logo-dark,
+:root[data-theme="dark"] .mark .logo-light {
+  display: none;
+}
+:root[data-theme="dark"] .mark .logo-dark {
+  display: block;
+}
+.word {
+  font: 600 11px var(--display);
+  font-stretch: 112%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  line-height: 22px;
+  padding-left: 12px;
+  border-left: 1px solid var(--rule-2);
+  margin-top: 4px;
+}
+.search {
+  justify-self: center;
+  width: 100%;
+  max-width: 560px;
+  position: relative;
+}
+.search input {
+  width: 100%;
+  height: 44px;
+  background: var(--sheet);
+  color: var(--ink);
+  border: 1px solid var(--rule-2);
+  border-radius: var(--radius-a);
+  font: 500 15px var(--body);
+  padding: 0 72px 0 40px;
+  outline: none;
+}
+.search input:focus {
+  border-color: var(--ink);
+}
+.search input::placeholder {
+  color: var(--muted);
+}
+.search .icon {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  width: 16px;
+  height: 16px;
+  color: var(--muted);
+}
+.search kbd,
+.search .clear {
+  position: absolute;
+  right: 12px;
+  top: 11px;
+  font: 600 11px var(--body);
+  color: var(--muted);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 1px 7px;
+  background: var(--sheet);
+}
+.search .clear {
+  top: 9px;
+  padding: 3px 8px;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+/* credit: in the bar on wider screens, under the intro on phones */
+.byline {
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+  margin-right: 8px;
+}
+.byline b,
+.intro-byline b {
+  font-weight: 600;
+  color: var(--ink);
+}
+.byline:hover b,
+.intro-byline:hover b {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.intro-byline {
+  display: none;
+}
+.footer p a {
+  color: var(--ink);
+  font-weight: 600;
+}
+.theme-toggle {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--rule-2);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.theme-toggle i {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, var(--ink) 50%, transparent 50%);
+  border: 1.5px solid var(--ink);
+}
+/* ── Hero / finder ──────────────────────────────────────────────────── */
+.hero {
+  padding: 34px 0 0;
+}
+.intro {
+  display: grid;
+  grid-template-columns: auto minmax(0, 36ch) 1fr;
+  column-gap: 32px;
+  align-items: end;
+  padding-bottom: 26px;
+}
+.intro .big {
+  font: 800 clamp(56px, 7vw, 96px) / 0.9 var(--display);
+  font-stretch: 112%;
+  letter-spacing: -0.02em;
+}
+.intro p {
+  color: var(--muted);
+  padding-bottom: 2px;
+}
+.intro .levels-info {
+  justify-self: end;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  position: relative;
+}
+.levels-pop {
+  position: absolute;
+  z-index: 46;
+  top: calc(100% + 12px);
+  right: 0;
+  width: min(370px, calc(100vw - 32px));
+  white-space: normal;
+  background: var(--sheet);
+  border: 1px solid var(--rule-2);
+  border-radius: 4px 12px 6px 10px;
+  box-shadow: var(--shadow);
+  padding: 14px 14px 10px;
+  animation: pop-in 0.16s ease-out;
+}
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+.levels-pop p {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0 4px 10px;
+  max-width: none;
+}
+.levels-pop ol {
+  list-style: none;
+}
+.levels-pop button {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+  padding: 4px;
+  border-radius: var(--radius-a);
+}
+.levels-pop button:hover {
+  background: var(--wash);
+}
+.levels-pop .lv {
+  width: 26px;
+  height: 26px;
+  font-size: 12px;
+}
+.levels-pop b {
+  font: 600 14px var(--body);
+}
+.levels-pop .exam {
+  font-size: 12px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* the finder: a sheet laid on the linen (mockup F's panel, without the torn edges) */
+.finder {
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  border-radius: 4px 14px 6px 12px;
+  padding: 26px 30px 22px;
+}
+.sentence {
+  font: 400 clamp(24px, 2.7vw, 34px) / 1.45 var(--display);
+  letter-spacing: -0.01em;
+}
+.pick {
+  position: relative;
+  display: inline-block;
+}
+.pick > button {
+  font: 600 0.56em var(--display);
+  font-stretch: 108%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: 0.3em;
+  color: #fff;
+  padding: 7px 12px;
+  margin: 0 3px;
+  border-radius: 3px 8px 4px 7px;
+  white-space: nowrap;
+  transition: filter 0.15s;
+}
+.pick > button:hover {
+  filter: brightness(1.12);
+}
+.pick.a > button {
+  background: var(--pick-a);
+}
+.pick.b > button {
+  background: var(--pick-b);
+  border-radius: 7px 4px 8px 3px;
+}
+.pick.c > button {
+  background: var(--pick-c);
+}
+.pick > button::after {
+  content: " ▾";
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+.menu {
+  position: absolute;
+  z-index: 40;
+  top: calc(100% + 8px);
+  left: 0;
+  min-width: 270px;
+  background: var(--sheet);
+  border: 1px solid var(--rule-2);
+  border-radius: 4px 12px 6px 10px;
+  box-shadow: var(--shadow);
+  padding: 6px;
+  font: 500 15px var(--body);
+  letter-spacing: 0;
+}
+.menu button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: center;
+  text-align: left;
+  padding: 9px 12px;
+  border-radius: var(--radius-a);
+}
+.menu button:hover,
+.menu button[aria-selected="true"] {
+  background: var(--wash);
+}
+.menu button[disabled] {
+  opacity: 0.35;
+  cursor: default;
+}
+.menu button[disabled]:hover {
+  background: none;
+}
+.menu .count {
+  font: 500 12px var(--display);
+  color: var(--muted);
+}
+
+/* level bars (from mockup F, flat) */
+.levels {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 8px;
+  margin: 22px 0 6px;
+}
+.levels button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  text-align: left;
+  padding: 2px 0 4px;
+  min-height: 44px;
+  -webkit-tap-highlight-color: transparent;
+}
+.levels i {
+  display: block;
+  width: 100%;
+  height: 10px;
+  border-radius: 2px;
+  background: var(--rule);
+  transition: background 0.15s, height 0.15s;
+}
+.levels b {
+  font: 700 15px var(--display);
+  font-stretch: 110%;
+}
+.levels small {
+  font-size: 10.5px;
+  color: var(--muted);
+  line-height: 1.15;
+}
+/* hover must not repaint selected bars; touch screens keep :hover after a tap */
+@media (hover: hover) {
+  .levels button:not(.in):hover i {
+    background: var(--rule-2);
+  }
+}
+.levels .in i {
+  background: var(--ink);
+}
+.levels .core i {
+  background: var(--terra);
+  height: 14px;
+  margin-top: -2px;
+}
+.levels.any i {
+  background: var(--wash);
+}
+.legend {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.legend b {
+  color: var(--ink);
+  font-weight: 600;
+}
+.legend button {
+  font: inherit;
+  font-weight: 600;
+  color: var(--ink);
+}
+.legend button:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ── Results toolbar: search, filter menus, sort, active filters ───── */
+.toolbar-wrap {
+  position: sticky;
+  top: 70px;
+  z-index: 20;
+  background: var(--linen) var(--grain);
+  padding-top: 18px;
+  border-bottom: 1px solid var(--rule);
+}
+.toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-bottom: 12px;
+}
+.fsearch {
+  flex: 1;
+  min-width: 0;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px 0 14px;
+  background: var(--sheet);
+  border: 1px solid var(--ink);
+  border-radius: var(--radius-a);
+}
+.fsearch svg {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  color: var(--muted);
+}
+.fsearch input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: var(--ink);
+  font: 500 15px var(--body);
+}
+.fsearch input::placeholder {
+  color: var(--muted);
+}
+.fsearch input::-webkit-search-cancel-button {
+  display: none;
+}
+.fsearch:focus-within {
+  box-shadow: 0 0 0 3px var(--terra-wash);
+}
+.fsearch kbd,
+.fsearch .clear {
+  font: 600 11px var(--body);
+  color: var(--muted);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 1px 7px;
+}
+.fsearch .clear {
+  font-size: 15px;
+  line-height: 1;
+  padding: 3px 8px;
+}
+.fbtns {
+  display: flex;
+  gap: 8px;
+}
+.fbtn {
+  height: 44px;
+  padding: 0 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--rule-2);
+  border-radius: var(--radius-a);
+  font: 500 14px var(--body);
+  white-space: nowrap;
+}
+.fbtn::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-right: 1.6px solid currentColor;
+  border-bottom: 1.6px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+  opacity: 0.6;
+}
+.fbtn:hover,
+.fbtn.on,
+.fbtn[aria-expanded="true"] {
+  border-color: var(--ink);
+}
+.fbtn em {
+  font: 700 11px var(--display);
+  font-style: normal;
+  background: var(--ink);
+  color: var(--linen);
+  border-radius: 2px 6px 3px 5px;
+  padding: 1px 6px;
+}
+.filters-btn {
+  display: none;
+}
+.pop {
+  position: relative;
+}
+.popover {
+  position: absolute;
+  z-index: 45;
+  top: calc(100% + 8px);
+  left: 0;
+  width: min(560px, calc(100vw - 32px));
+  background: var(--sheet);
+  border: 1px solid var(--rule-2);
+  border-radius: 4px 12px 6px 10px;
+  box-shadow: var(--shadow);
+  padding: 8px 18px;
+}
+.popover.right {
+  left: auto;
+  right: 0;
+}
+.grp {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 10px;
+  align-items: start;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.grp:last-child {
+  border-bottom: 0;
+}
+.grp > span {
+  font: 600 10.5px var(--display);
+  font-stretch: 112%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-top: 9px;
+}
+.chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.grp .range {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.grp input[type="number"] {
+  width: 70px;
+  height: 34px;
+  border: 1px solid var(--rule-2);
+  background: var(--linen);
+  color: var(--ink);
+  border-radius: var(--radius-a);
+  padding: 0 8px;
+  font: 500 14px var(--body);
+}
+.sortsel {
+  margin-left: 6px;
+}
+.sortsel > button {
+  height: 44px;
+  font-size: 13.5px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.sortsel > button b {
+  color: var(--ink);
+  font-weight: 600;
+}
+.sortsel > button::after {
+  content: " ▾";
+  font-size: 11px;
+}
+.menu.right {
+  left: auto;
+  right: 0;
+  min-width: 180px;
+}
+.active {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 0 12px;
+}
+.achip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  padding: 3px 4px 3px 11px;
+  /* a step darker than --wash: in light mode --wash is within a few percent of the page and the pill disappeared into it */
+  background: color-mix(in srgb, var(--ink) 11%, var(--linen));
+  border-radius: var(--radius-a);
+}
+.achip button {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1;
+}
+.achip button:hover {
+  background: var(--rule);
+  color: var(--ink);
+}
+.clear-all {
+  font-size: 13px;
+  color: var(--muted);
+  margin-left: 6px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 59;
+  background: rgba(27, 26, 23, 0.32);
+}
+.filter-sheet {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 60;
+  max-height: 82dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--sheet);
+  border-top: 1px solid var(--rule-2);
+  border-radius: 16px 16px 0 0;
+  box-shadow: var(--shadow);
+  animation: slidein 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.filter-sheet-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--rule);
+}
+.filter-sheet-top b {
+  font: 700 13px var(--display);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.filter-sheet-body {
+  overflow-y: auto;
+  padding: 0 16px 20px;
+}
+
+.chip {
+  height: 34px;
+  padding: 0 13px;
+  border: 1px solid var(--rule-2);
+  background: transparent;
+  font: 500 13.5px var(--body);
+  border-radius: var(--radius-a);
+  white-space: nowrap;
+}
+.chip:nth-child(3n) {
+  border-radius: var(--radius-b);
+}
+.chip:hover {
+  border-color: var(--ink);
+}
+.chip[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--linen);
+  border-color: var(--ink);
+}
+.chip:disabled {
+  opacity: 0.35;
+  cursor: default;
+  border-color: var(--rule);
+}
+.chip .n {
+  font-size: 11px;
+  opacity: 0.6;
+  margin-left: 6px;
+}
+/* ── Results ────────────────────────────────────────────────────────── */
+.rhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 26px 0 10px;
+}
+.rhead h2 {
+  font: 700 21px var(--display);
+  font-stretch: 112%;
+}
+.rhead h2 span {
+  font-weight: 400;
+  color: var(--muted);
+}
+.list {
+  border-top: 1px solid var(--rule-2);
+}
+.colhead {
+  padding: 18px 4px 6px;
+  font: 600 10.5px var(--display);
+  font-stretch: 112%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.colhead + .list {
+  margin-top: 0;
+}
+/* group headings: composer (or level) above its works */
+.ghead {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  padding: 24px 4px 8px;
+  border-bottom: 1px solid var(--rule);
+}
+.list.grouped > .ghead:first-child {
+  padding-top: 16px;
+}
+.ghead h3 {
+  font: 700 21px var(--display);
+  font-stretch: 110%;
+}
+.ghead span {
+  font-size: 13px;
+  color: var(--muted);
+}
+.ghead a {
+  margin-left: auto;
+  font-size: 13px;
+}
+.colhead,
+.row {
+  display: grid;
+  grid-template-columns: 1fr 150px 64px 220px 76px 42px;
+  gap: 18px;
+  align-items: center;
+  padding: 13px 4px;
+  border-bottom: 1px solid var(--rule);
+  transition: background 0.15s;
+  cursor: pointer;
+}
+.row:hover {
+  background: color-mix(in srgb, var(--sheet) 70%, transparent);
+}
+.row .ttl {
+  font: 600 16px/1.28 var(--body);
+}
+.row .cmp {
+  font: 500 14.5px/1.3 var(--body);
+  color: var(--ink);
+  opacity: 0.86;
+  margin-top: 3px;
+}
+.row .meta {
+  font-size: 13px;
+  color: var(--muted);
+}
+.row .meta b {
+  display: block;
+  color: var(--ink);
+  font-weight: 600;
+}
+.row .dur {
+  font: 700 15px var(--display);
+  font-stretch: 108%;
+}
+.row .dur small {
+  font: 500 11px var(--body);
+  color: var(--muted);
+}
+.tags {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.tag {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: var(--radius-a);
+  background: var(--wash);
+  white-space: nowrap;
+}
+.tag.pop {
+  background: transparent;
+  border: 1px solid var(--rule-2);
+}
+.play {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--ink);
+  display: grid;
+  place-items: center;
+  flex: none;
+}
+.play:hover {
+  background: var(--ink);
+}
+.play:hover i {
+  border-left-color: var(--linen);
+}
+.play i {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 10px solid var(--ink);
+  margin-left: 3px;
+}
+.play.none {
+  border-style: dashed;
+  border-color: var(--rule-2);
+}
+.play.none i {
+  border-left-color: var(--muted);
+}
+
+/* level badges: hand-cut pebbles */
+.lv {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  color: #fffaf2;
+  font: 700 17px var(--display);
+  font-stretch: 112%;
+  border-radius: 46% 54% 42% 58% / 55% 45% 55% 45%;
+  flex: none;
+}
+.lv.s1 {
+  border-radius: 55% 45% 58% 42% / 45% 56% 44% 55%;
+}
+.lv.s2 {
+  border-radius: 42% 58% 50% 50% / 58% 42% 58% 42%;
+}
+.lv.sm {
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+}
+.lv.lg {
+  width: 64px;
+  height: 64px;
+  font-size: 28px;
+}
+:root[data-theme="dark"] .lv.l10 {
+  color: #171613;
+}
+.l1 { background: var(--l1); }
+.l2 { background: var(--l2); }
+.l3 { background: var(--l3); }
+.l4 { background: var(--l4); }
+.l5 { background: var(--l5); }
+.l6 { background: var(--l6); }
+.l7 { background: var(--l7); }
+.l8 { background: var(--l8); }
+.l9 { background: var(--l9); }
+.l10 { background: var(--l10); }
+
+/* level pebbles sit in their own column on the right; a range is an overlapping pair */
+.lvcell {
+  display: flex;
+  align-items: center;
+}
+.row .lv {
+  width: 34px;
+  height: 34px;
+  font-size: 15px;
+}
+.pair {
+  display: inline-flex;
+  align-items: center;
+}
+.pair .lv {
+  width: 30px !important;
+  height: 30px !important;
+  font-size: 13px !important;
+  box-shadow: 0 0 0 2.5px var(--linen);
+}
+.pair .lv + .lv {
+  margin-left: -7px;
+}
+
+/* sets: an open button on the right; opened, the set becomes a tray */
+.setrow .sub {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.setrow .sub b {
+  display: inline-block;
+  padding: 1px 8px 2px;
+  margin-right: 3px;
+  border-radius: 3px 8px 4px 7px;
+  background: var(--ink);
+  color: var(--linen);
+  font-size: 12px;
+  font-weight: 600;
+}
+/* a closed set is drawn as a small stack of cards, so it doesn't read as one piece */
+.set:not(.open) {
+  margin: 8px -11px 16px;
+  padding: 0 10px;
+  background: var(--sheet);
+  border: 1px solid var(--rule-2);
+  border-radius: 5px 16px 7px 14px;
+  box-shadow:
+    0 4px 0 -1px var(--linen),
+    0 4px 0 0 var(--rule-2),
+    0 8px 0 -2px var(--linen),
+    0 8px 0 -1px var(--rule-2);
+}
+.set:not(.open) .setrow {
+  border-bottom: 0;
+}
+.chev {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--ink);
+  display: grid;
+  place-items: center;
+  flex: none;
+}
+.chev i {
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
+  transform: translateY(-2px) rotate(45deg);
+  transition: transform 0.18s;
+}
+.chev:hover,
+.chev[aria-expanded="true"] {
+  background: var(--ink);
+}
+.chev:hover i,
+.chev[aria-expanded="true"] i {
+  border-color: var(--linen);
+}
+.chev[aria-expanded="true"] i {
+  transform: translateY(2px) rotate(-135deg);
+}
+.set.open {
+  background: var(--sheet);
+  border: 1px solid var(--rule-2);
+  border-radius: 5px 16px 7px 14px;
+  margin: 8px -11px 10px;
+  padding: 0 10px;
+}
+.set.open .row:hover {
+  background: color-mix(in srgb, var(--wash) 45%, transparent);
+}
+.set.open .row:last-child {
+  border-bottom: 0;
+}
+.set.open .pair .lv {
+  box-shadow: 0 0 0 2.5px var(--sheet);
+}
+.row.member {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.row.member .ttl {
+  font-weight: 500;
+  font-size: 15px;
+}
+.row.member .lv {
+  width: 28px;
+  height: 28px;
+  font-size: 12.5px;
+}
+.row.member .play {
+  width: 32px;
+  height: 32px;
+  justify-self: center;
+}
+.more-results {
+  display: flex;
+  justify-content: center;
+  padding: 26px 0;
+}
+.empty {
+  padding: 50px 0;
+  text-align: center;
+  color: var(--muted);
+}
+.empty b {
+  display: block;
+  font: 700 20px var(--display);
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.skeleton-row {
+  height: 66px;
+  border-bottom: 1px solid var(--rule);
+  background: linear-gradient(90deg, transparent, var(--wash), transparent) 0 0 / 200% 100%;
+  animation: shimmer 1.4s infinite;
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* ── Piece sheet & page ─────────────────────────────────────────────── */
+.scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: rgba(27, 26, 23, 0.28);
+  animation: fade 0.18s ease-out;
+}
+.sheet {
+  position: fixed;
+  z-index: 51;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(640px, 100%);
+  background: var(--linen) var(--grain);
+  border-left: 1px solid var(--rule-2);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  animation: slidein 0.24s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@keyframes slidein {
+  from {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+.sheet-top {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 24px;
+  background: var(--linen);
+  border-bottom: 1px solid var(--rule);
+}
+.sheet-top a {
+  font-size: 13.5px;
+  color: var(--muted);
+}
+.close {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--rule-2);
+  font-size: 18px;
+  line-height: 1;
+}
+.detail {
+  padding: 26px 24px 60px;
+}
+.page-detail {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 0 80px;
+}
+.detail-head {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 18px;
+  align-items: start;
+}
+.detail h1 {
+  font: 700 clamp(24px, 3vw, 34px) / 1.15 var(--display);
+  font-stretch: 104%;
+  letter-spacing: -0.01em;
+}
+.detail .composer {
+  font-size: 16px;
+  color: var(--muted);
+  margin-top: 6px;
+}
+.detail .composer a {
+  color: var(--ink);
+  font-weight: 600;
+}
+.detail .levelname {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 10px;
+}
+.detail .levelname b {
+  color: var(--ink);
+}
+.facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  margin: 22px 0;
+}
+.facts div {
+  background: var(--sheet);
+  padding: 10px 12px;
+}
+.facts dt {
+  font: 600 10.5px var(--display);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.facts dd {
+  font-size: 14px;
+  margin-top: 2px;
+}
+.section {
+  margin-top: 26px;
+}
+.section h2 {
+  font: 600 11px var(--display);
+  font-stretch: 112%;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.section p {
+  font-size: 15px;
+}
+.video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #111;
+  border-radius: 4px 10px 6px 9px;
+  overflow: hidden;
+}
+.video img,
+.video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 0;
+}
+.video button {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(transparent 55%, rgba(0, 0, 0, 0.55));
+}
+.video button span {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--terra);
+  display: grid;
+  place-items: center;
+}
+.video button span i {
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 16px solid #fff;
+  margin-left: 4px;
+}
+.video .caption {
+  position: absolute;
+  left: 14px;
+  bottom: 10px;
+  right: 14px;
+  color: #fff;
+  font-size: 12.5px;
+  text-align: left;
+  opacity: 0.9;
+}
+.video-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+.video-links a:hover {
+  color: var(--ink);
+}
+.no-video {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px dashed var(--rule-2);
+  border-radius: var(--radius-a);
+  font-size: 14px;
+  color: var(--muted);
+}
+.links {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 22px;
+}
+.mini-list .row {
+  grid-template-columns: 1fr 56px 34px;
+  padding: 10px 0;
+}
+.mini-list .row .lv {
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+}
+.mini-list .row .meta,
+.mini-list .row .tags,
+.mini-list .row .play {
+  display: none;
+}
+.ladder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+/* composer / levels pages */
+.page-head {
+  padding: 40px 0 20px;
+  border-bottom: 1px solid var(--rule-2);
+}
+.page-head h1 {
+  font: 800 clamp(36px, 5vw, 64px) / 0.95 var(--display);
+  font-stretch: 112%;
+  letter-spacing: -0.02em;
+}
+.page-head p {
+  color: var(--muted);
+  margin-top: 12px;
+}
+.level-table {
+  display: grid;
+  gap: 0;
+  margin: 26px 0 60px;
+  border-top: 1px solid var(--rule-2);
+}
+.level-table div {
+  display: grid;
+  grid-template-columns: 64px 1fr 1fr 80px;
+  gap: 18px;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.level-table b {
+  font: 700 17px var(--display);
+}
+.footer {
+  border-top: 1px solid var(--rule-2);
+  margin-top: 60px;
+  padding: 26px 0 140px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.footer nav {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 10px;
+}
+.footer nav a {
+  font-weight: 600;
+  color: var(--ink);
+}
+.footer nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ── Responsive ─────────────────────────────────────────────────────── */
+@media (max-width: 980px) {
+  .intro {
+    grid-template-columns: auto 1fr;
+    column-gap: 28px;
+  }
+  .intro .big {
+    grid-row: span 2;
+  }
+  .intro .levels-info {
+    justify-self: start;
+  }
+  .levels-pop {
+    right: auto;
+    left: 0;
+  }
+  .row {
+    grid-template-columns: 1fr 60px 70px 38px;
+  }
+  .row .meta,
+  .row .tags,
+  .colhead {
+    display: none;
+  }
+  .picks .row {
+    grid-template-columns: 1fr 60px 70px 38px;
+  }
+}
+@media (max-width: 900px) {
+  .fbtns {
+    display: none;
+  }
+  .filters-btn {
+    display: inline-flex;
+  }
+}
+@media (max-width: 720px) {
+  .wrap {
+    padding: 0 16px;
+  }
+  .bar {
+    grid-template-columns: 1fr auto;
+    height: auto;
+    padding: 10px 16px;
+    gap: 10px;
+  }
+  .brand {
+    gap: 10px;
+  }
+  .mark {
+    gap: 9px;
+  }
+  .mark .logo {
+    height: 32px;
+  }
+  .word {
+    padding-left: 9px;
+    letter-spacing: 0.16em;
+  }
+  .instrument-btn {
+    padding: 0 9px 0 10px;
+    gap: 6px;
+  }
+  .instrument-menu {
+    left: auto;
+    right: -56px;
+  }
+  .search {
+    grid-column: 1 / -1;
+    order: 3;
+    max-width: none;
+  }
+  .ask-btn,
+  .byline {
+    display: none;
+  }
+  .intro-byline {
+    display: block;
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .hero {
+    padding-top: 22px;
+  }
+  .intro {
+    display: block;
+    padding-bottom: 20px;
+  }
+  .intro p {
+    margin-top: 12px;
+  }
+  .intro .levels-info {
+    display: inline-block;
+    margin-top: 12px;
+  }
+  .intro .big {
+    font-size: 54px;
+  }
+  .finder {
+    padding: 18px 16px 16px;
+  }
+  .sentence {
+    line-height: 1.6;
+  }
+  .levels {
+    gap: 4px;
+  }
+  .levels small {
+    display: none;
+  }
+  .search-spacer {
+    display: none;
+  }
+  .toolbar-wrap {
+    top: 64px;
+    padding-top: 12px;
+    margin: 0 -16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .toolbar {
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+  }
+  .fsearch {
+    flex: 1 1 auto;
+  }
+  .fsearch kbd {
+    display: none;
+  }
+  .sortsel {
+    display: none;
+  }
+  .fsearch input,
+  .search input,
+  .ask-input textarea,
+  .ask-dock input,
+  .grp input[type="number"] {
+    font-size: 16px;
+  }
+  .active {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-bottom: 10px;
+  }
+  .achip,
+  .clear-all {
+    flex: none;
+  }
+  .grp {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .grp > span {
+    padding-top: 2px;
+  }
+  .row {
+    grid-template-columns: 1fr auto 38px;
+    gap: 12px;
+  }
+  .row .dur {
+    display: none;
+  }
+  .ghead h3 {
+    font-size: 18px;
+  }
+  .set.open,
+  .set:not(.open) {
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 0 7px;
+  }
+  .facts {
+    grid-template-columns: 1fr 1fr;
+  }
+  .ladder {
+    grid-template-columns: 1fr;
+  }
+  .level-table div {
+    grid-template-columns: 44px 1fr;
+  }
+}
+
+/* stretched title link: the whole row opens the piece */
+.row {
+  position: relative;
+}
+.row .ttl {
+  display: block;
+  text-align: left;
+  font: 600 16px/1.28 var(--body);
+}
+.row a.ttl::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+.row .play,
+.row .chev {
+  position: relative;
+  z-index: 1;
+}
+
+/* composers index */
+.composer-index {
+  columns: 3 260px;
+  column-gap: 40px;
+  padding: 26px 0 40px;
+}
+.composer-index section {
+  break-inside: avoid;
+  margin-bottom: 22px;
+}
+.composer-index ul {
+  list-style: none;
+  margin-top: 6px;
+}
+.composer-index li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: 14.5px;
+}
+.composer-index li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.composer-index li span {
+  color: var(--muted);
+  font-size: 12.5px;
+  white-space: nowrap;
+}
+
+
+
+/* ---- the mockup page itself ---- */
+.doc{max-width:1240px;margin:0 auto;padding:0 32px 100px}
+.doc-top{display:flex;justify-content:space-between;align-items:end;gap:20px;padding:44px 0 18px;border-bottom:1px solid var(--rule-2);flex-wrap:wrap}
+.doc-top h1{font:800 36px/1 var(--display);font-stretch:112%;letter-spacing:-.01em}
+.doc-top p{color:var(--muted);margin-top:10px;max-width:74ch}
+.doc-theme{font:600 12px var(--display);font-stretch:112%;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--ink);padding:8px 14px;border-radius:var(--radius-a);background:none;color:var(--ink)}
+.part{margin-top:56px}
+.part > h2{font:800 26px/1.1 var(--display);font-stretch:112%;display:flex;gap:12px;align-items:baseline}
+.part > h2 i{font:700 13px var(--display);font-style:normal;color:var(--on-accent);background:var(--terra);border-radius:var(--radius-a);padding:2px 8px;letter-spacing:.06em}
+.part > p{color:var(--muted);margin-top:8px;max-width:84ch}
+.opt{margin-top:30px;padding-top:18px;border-top:1px dashed var(--rule-2)}
+.oh{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;margin-bottom:14px}
+.oh b{font:800 19px var(--display);font-stretch:110%}
+.oh .rec{font:700 10.5px var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--on-accent);background:var(--cobalt);padding:3px 8px;border-radius:var(--radius-a)}
+.oh span{color:var(--muted);max-width:90ch}
+.pair-view{display:grid;grid-template-columns:1fr;gap:28px;align-items:start}
+.cap{font:600 10.5px var(--display);font-stretch:112%;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.phone{width:375px;max-width:100%;border:1px solid var(--rule-2);border-radius:28px;padding:16px 16px 10px;background:var(--linen) var(--grain);overflow:hidden}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px 28px;margin-top:16px;font-size:13.5px;color:var(--muted);max-width:980px}
+.why i{display:block;font:700 10.5px var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink);margin-bottom:3px;font-style:normal}
+.examples{display:grid;gap:10px;margin-top:20px}
+.examples .sentence{font-size:22px}
+.examples .ex{background:var(--sheet);border:1px solid var(--rule);border-radius:4px 14px 6px 12px;padding:12px 18px}
+.examples small{display:block;font-size:12.5px;color:var(--muted);margin-top:2px}
+
+/* static copies of the site's floating menus */
+.static-menu{position:static!important;animation:none!important;box-shadow:var(--shadow)}
+.menu.static-menu{display:inline-block;margin-top:10px;min-width:300px}
+.menu .mgrp{font:600 10px var(--display);font-stretch:112%;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);padding:10px 12px 4px}
+.menu .mgrp:first-child{padding-top:6px}
+
+/* switcher frames */
+.sw-row{display:flex;gap:28px;flex-wrap:wrap;align-items:flex-start}
+.sw-frame{width:320px}
+.sw-frame .bar-mini{display:flex;align-items:center;gap:14px;padding:12px 14px;border:1px solid var(--rule-2);border-radius:4px 14px 6px 12px;background:var(--linen) var(--grain)}
+.sw-frame .instrument-menu{margin-top:8px;width:252px}
+.wordmark{font:800 21px var(--display);font-stretch:112%;letter-spacing:-.01em}
+.instrument-sep{display:flex;align-items:center;gap:8px;margin:6px 4px 2px;padding:10px 6px 4px;border-top:1px solid var(--rule);font:600 10px var(--display);font-stretch:112%;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+a.instrument-item{color:var(--ink);cursor:pointer}
+a.instrument-item:hover{background:var(--wash)}
+a.instrument-item small{color:var(--muted);text-transform:none;letter-spacing:0;font:500 12px var(--body)}
+.instrument-item.current small{font:500 12px var(--body);letter-spacing:0;text-transform:none;color:var(--muted);margin-left:auto}
+
+/* phone frame: the site's phone rules, applied inside the frame */
+.phone .row{grid-template-columns:1fr auto 38px;gap:12px}
+.phone .row .meta,.phone .row .tags,.phone .row .dur,.phone .colhead{display:none}
+.phone .intro{display:block;padding-bottom:16px}
+.phone .intro .big{font-size:54px}
+.phone .intro p{margin-top:10px}
+.phone .hero{padding-top:6px}
+.phone .finder{padding:16px 14px 14px}
+.phone .sentence{font-size:24px;line-height:1.6}
+.phone .levels{gap:4px}
+.phone .levels small{display:none}
+.phone .rhead{padding-top:16px}
+.phone .rhead h2{font-size:18px}
+.phone .fbtns{display:none}
+.phone .filters-btn{display:inline-flex}
+.phone .sortsel,.phone .fsearch kbd{display:none}
+.phone .toolbar{flex-wrap:wrap}
+.phone .grp{grid-template-columns:1fr;gap:6px}
+.phone .grp>span{padding-top:2px}
+
+/* chamber rows: Ensemble instead of Type, a little wider */
+.ch.colhead span{white-space:nowrap}
+.ch .row,.ch.colhead{grid-template-columns:1fr 190px 64px 200px 76px 42px}
+.phone .ch .row{grid-template-columns:1fr auto 38px}
+.scoring{font:500 13px/1.35 var(--body);color:var(--muted);margin-top:4px}
+.scoring em{font-style:normal;opacity:.8}
+.phone-only{display:none!important}
+.phone .phone-only{display:block!important}
+.phone .parts.phone-only{display:flex!important}
+.phone .desk-only{display:none}
+/* A: hardest part in the ensemble column */
+.hp{color:var(--muted)}
+.hp b{display:inline!important;font-weight:600;color:var(--ink)}
+/* B: the level pebble names the part that sets it */
+.lvpart{display:flex;flex-direction:column;align-items:center;gap:3px;width:62px}
+.lvpart small{font:600 9.5px/1.1 var(--display);font-stretch:108%;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;white-space:nowrap}
+.optB .lvcell{justify-content:center}
+/* C: part chips */
+.parts{display:flex;gap:4px;flex-wrap:wrap}
+.part-chip{font-size:12px;padding:2px 8px;border-radius:var(--radius-a);border:1px solid var(--rule-2);white-space:nowrap}
+.part-chip.hard{background:var(--ink);color:var(--linen);border-color:var(--ink)}
+.part-chip.adlib{border-style:dashed;color:var(--muted)}
+.part-chip i{font-style:normal;opacity:.65}
+.phone .optC .parts{margin-top:6px}
+
+/* filter option 2: instrument chips under the level bars */
+.incl{display:flex;align-items:center;gap:10px;margin-top:14px;padding-top:14px;border-top:1px solid var(--rule)}
+.incl > span{font:600 10.5px var(--display);font-stretch:112%;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);flex:none}
+.incl .chips{flex-wrap:wrap}
+.phone .incl{align-items:flex-start;flex-direction:column;gap:8px}
+.phone .incl .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;max-width:100%;padding-bottom:2px}
+.phone .incl .chip{flex:none}
+.chip.more{border-style:dashed}
+.pick.d > button{background:#6b4c7a;border-radius:7px 4px 8px 3px}
+:root[data-theme=dark] .pick.d > button{background:#8a6a9a}
+.note-k{font-size:12.5px;color:var(--muted);margin:2px 4px 8px}
+</style></head>
+<body>
+<div class="doc">
+<div class="doc-top"><div><h1>Chamber music: the new pieces of the page</h1><p>Static mockups for phase 1 of <code>docs/chamber-music-plan.md</code>, drawn with the site's own stylesheet and the 135 benchmark works (counts are real). Each part shows the desktop layout and a phone. Parts 1 and 2 are one proposal each; parts 3 and 4 have options to choose between.</p></div><button class="doc-theme" onclick="const r=document.documentElement;r.dataset.theme=r.dataset.theme==='dark'?'light':'dark'">Light / dark</button></div>
+
+<!-- 1 · switcher -->
+<section class="part">
+<h2><i>1</i>The instrument switcher</h2>
+<p>“Chamber music” sits under an “Ensembles” divider, below the instruments, so the list can grow (orchestral excerpts, duos) without mixing the two kinds. Until launch the violin pages keep today’s menu; /chamber already shows the right-hand version, so it can be tested.</p>
+<div class="sw-row" style="margin-top:22px">
+  <div class="sw-frame"><div class="cap">On violin pages (after launch)</div>
+    <div class="bar-mini"><span class="wordmark">arco</span><span class="word">Repertoire</span><div class="instrument"><button class="instrument-btn" aria-expanded="true">Violin</button></div></div>
+    <div class="instrument-menu static-menu" role="menu">
+      <div class="instrument-item current"><span>Violin</span><svg viewBox="0 0 16 16"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="instrument-item"><span>Viola</span><small>Coming soon</small></div>
+      <div class="instrument-item"><span>Cello</span><small>Coming soon</small></div>
+      <div class="instrument-item"><span>Double bass</span><small>Coming soon</small></div>
+      <div class="instrument-item"><span>Piano</span><small>Coming soon</small></div>
+      <div class="instrument-item"><span>Flute</span><small>Coming soon</small></div>
+      <div class="instrument-item"><span>Guitar</span><small>Coming soon</small></div>
+      <div class="instrument-sep">Ensembles</div>
+      <a class="instrument-item"><span>Chamber music</span><small>3–9 players</small></a>
+    </div>
+  </div>
+  <div class="sw-frame"><div class="cap">On /chamber</div>
+    <div class="bar-mini"><span class="wordmark">arco</span><span class="word">Repertoire</span><div class="instrument"><button class="instrument-btn" aria-expanded="true">Chamber music</button></div></div>
+    <div class="instrument-menu static-menu" role="menu">
+      <a class="instrument-item"><span>Violin</span><small>4,883 works</small></a>
+      <div class="instrument-item"><span>Viola</span><small>Coming soon</small></div>
+      <div class="instrument-item"><span>Cello</span><small>Coming soon</small></div>
+      <div class="instrument-item"><span>Double bass</span><small>Coming soon</small></div>
+      <div class="instrument-item"><span>Piano</span><small>Coming soon</small></div>
+      <div class="instrument-item"><span>Flute</span><small>Coming soon</small></div>
+      <div class="instrument-item"><span>Guitar</span><small>Coming soon</small></div>
+      <div class="instrument-sep">Ensembles</div>
+      <div class="instrument-item current"><span>Chamber music</span><svg viewBox="0 0 16 16"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- 2 · finder -->
+<section class="part">
+<h2><i>2</i>The finder sentence</h2>
+<p>Same three menus as the violin finder, with chamber words: the form (full works, short pieces, sets), the ensemble, and the level. The ensemble menu groups the eleven formations under small headings. The level bars and the “around / exact” switch are unchanged.</p>
+<div class="pair-view" style="margin-top:22px">
+  <div><div class="cap">Desktop · the ensemble menu open</div><div id="hero-desk"></div></div>
+  <div><div class="cap">Phone</div><div class="phone" id="hero-phone"></div></div>
+</div>
+<div class="examples" id="examples"></div>
+</section>
+
+<!-- 3 · rows -->
+<section class="part">
+<h2><i>3</i>A results row</h2>
+<p>Each row has to say who plays (the scoring, with published alternatives and ad lib. parts) and which part sets the level. Three ways to fit that into the current row. Same eight works in each.</p>
+<div id="rows"></div>
+</section>
+
+<!-- 4 · includes instrument -->
+<section class="part">
+<h2><i>4</i>The “includes instrument” filter</h2>
+<p>“Show me what I can play”: works with a part for a given instrument, counting published alternatives and ad lib. parts (the Kegelstatt Trio counts for violin as well as clarinet; <i>Eine kleine Nachtmusik</i> for double bass). Shown here with clarinet chosen. Picking two instruments (options 1 and 2) means works that have both.</p>
+<div id="filters"></div>
+</section>
+</div>
+
+<script>
+const DATA = [{"id":100001,"composer":"Schubert, Franz","title":"String Trio in B-flat major, D. 471","formation":"string-trio","instruments":{"violin":1,"viola":1,"cello":1},"form":"short","level":4,"hardestPart":"violin","minutes":9,"mode":"major","character":["lyrical","tender","playful"],"popularity":"lesser-known"},{"id":100002,"composer":"Kodály, Zoltán","title":"Intermezzo for String Trio","formation":"string-trio","instruments":{"violin":1,"viola":1,"cello":1},"form":"short","level":4,"hardestPart":"balanced","minutes":5,"mode":"major","character":["dance","folk","lyrical"],"popularity":"lesser-known"},{"id":100003,"composer":"Dvořák, Antonín","title":"Miniatures, Op. 75a","formation":"string-trio","instruments":{"violin":2,"viola":1},"form":"set","level":4,"hardestPart":"violin 1","minutes":15,"mode":"major","character":["lyrical","tender","folk"],"popularity":"lesser-known"},{"id":100004,"composer":"Beethoven, Ludwig van","title":"Serenade in D major, Op. 8","formation":"string-trio","instruments":{"violin":1,"viola":1,"cello":1},"form":"work","level":5,"hardestPart":"violin","minutes":28,"mode":"major","character":["playful","lyrical","dance"],"popularity":"lesser-known"},{"id":100005,"composer":"Beethoven, Ludwig van","title":"String Trio in G major, Op. 9 No. 1","formation":"string-trio","instruments":{"violin":1,"viola":1,"cello":1},"form":"work","level":6,"hardestPart":"violin","minutes":26,"mode":"major","character":["playful","virtuosic","lyrical"],"popularity":"well-known"},{"id":100006,"composer":"Mozart, Wolfgang Amadeus","title":"Divertimento in E-flat major, K. 563","formation":"string-trio","instruments":{"violin":1,"viola":1,"cello":1},"form":"work","level":7,"hardestPart":"balanced","minutes":45,"mode":"major","character":["lyrical","playful","tender"],"popularity":"well-known"},{"id":100007,"composer":"Dvořák, Antonín","title":"Terzetto in C major, Op. 74","formation":"string-trio","instruments":{"violin":2,"viola":1},"form":"work","level":5,"hardestPart":"violin 1","minutes":20,"mode":"major","character":["lyrical","dance","folk"],"popularity":"lesser-known"},{"id":100008,"composer":"Dohnányi, Ernő","title":"Serenade in C major, Op. 10","formation":"string-trio","instruments":{"violin":1,"viola":1,"cello":1},"form":"work","level":8,"hardestPart":"balanced","minutes":22,"mode":"major","character":["dance","lyrical","folk"],"popularity":"lesser-known"},{"id":100009,"composer":"Schoenberg, Arnold","title":"String Trio, Op. 45","formation":"string-trio","instruments":{"violin":1,"viola":1,"cello":1},"form":"work","level":10,"hardestPart":"balanced","minutes":19,"mode":null,"character":["dramatic","dark"],"popularity":"lesser-known"},{"id":100010,"composer":"Haydn, Joseph","title":"String Quartet in B-flat major, Op. 1 No. 1, Hob. III:1 (\"La chasse\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":3,"hardestPart":"violin 1","minutes":15,"mode":"major","character":["playful","dance"],"popularity":"lesser-known"},{"id":100011,"composer":"Hoffstetter, Roman","title":"String Quartet in F major, Op. 3 No. 5 (\"Serenade\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":2,"hardestPart":"violin 1","minutes":14,"mode":"major","character":["tender","lyrical","playful"],"popularity":"well-known"},{"id":100012,"composer":"Purcell, Henry","title":"Chacony in G minor, Z. 730","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"short","level":3,"hardestPart":"balanced","minutes":6,"mode":"minor","character":["dramatic","dance","dark"],"popularity":"well-known"},{"id":100013,"composer":"Mozart, Wolfgang Amadeus","title":"String Quartet No. 2 in D major, K. 155","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":3,"hardestPart":"violin 1","minutes":10,"mode":"major","character":["playful","lyrical"],"popularity":"lesser-known"},{"id":100014,"composer":"Rossini, Gioachino","title":"Sonata a quattro No. 1 in G major","formation":"string-quartet","instruments":{"violin":2,"cello":1,"double-bass":1},"form":"work","level":4,"hardestPart":"violin 1","minutes":13,"mode":"major","character":["playful","lyrical","virtuosic"],"popularity":"well-known"},{"id":100015,"composer":"Haydn, Joseph","title":"String Quartet in C major, Op. 20 No. 2, Hob. III:32","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":5,"hardestPart":"violin 1","minutes":24,"mode":"major","character":["lyrical","dramatic","playful"],"popularity":"well-known"},{"id":100016,"composer":"Haydn, Joseph","title":"String Quartet in E-flat major, Op. 33 No. 2, Hob. III:38 (\"The Joke\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":4,"hardestPart":"violin 1","minutes":18,"mode":"major","character":["humorous","playful","dance"],"popularity":"well-known"},{"id":100017,"composer":"Haydn, Joseph","title":"String Quartet in D major, Op. 64 No. 5, Hob. III:63 (\"The Lark\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":6,"hardestPart":"violin 1","minutes":18,"mode":"major","character":["lyrical","playful","virtuosic"],"popularity":"well-known"},{"id":100018,"composer":"Haydn, Joseph","title":"String Quartet in G minor, Op. 74 No. 3, Hob. III:74 (\"The Rider\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":5,"hardestPart":"violin 1","minutes":20,"mode":"minor","character":["dramatic","heroic","lyrical"],"popularity":"well-known"},{"id":100019,"composer":"Haydn, Joseph","title":"String Quartet in C major, Op. 76 No. 3, Hob. III:77 (\"Emperor\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":5,"hardestPart":"violin 1","minutes":26,"mode":"major","character":["lyrical","heroic","folk"],"popularity":"well-known"},{"id":100020,"composer":"Mozart, Wolfgang Amadeus","title":"Divertimento in D major, K. 136","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":4,"hardestPart":"violin 1","minutes":13,"mode":"major","character":["playful","lyrical"],"popularity":"well-known"},{"id":100021,"composer":"Mozart, Wolfgang Amadeus","title":"Serenade No. 13 in G major, K. 525 (\"Eine kleine Nachtmusik\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"optional":{"double-bass":1},"form":"work","level":3,"hardestPart":"violin 1","minutes":18,"mode":"major","character":["playful","lyrical","dance"],"popularity":"well-known"},{"id":100022,"composer":"Mozart, Wolfgang Amadeus","title":"String Quartet No. 15 in D minor, K. 421","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":6,"hardestPart":"violin 1","minutes":28,"mode":"minor","character":["dark","dramatic","lyrical"],"popularity":"well-known"},{"id":100023,"composer":"Mozart, Wolfgang Amadeus","title":"String Quartet No. 19 in C major, K. 465 (\"Dissonance\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":6,"hardestPart":"violin 1","minutes":30,"mode":"major","character":["lyrical","playful","dramatic"],"popularity":"well-known"},{"id":100024,"composer":"Beethoven, Ludwig van","title":"String Quartet No. 4 in C minor, Op. 18 No. 4","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":6,"hardestPart":"violin 1","minutes":24,"mode":"minor","character":["dramatic","playful","dark"],"popularity":"well-known"},{"id":100025,"composer":"Beethoven, Ludwig van","title":"String Quartet No. 7 in F major, Op. 59 No. 1 (\"Razumovsky\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":8,"hardestPart":"violin 1","minutes":40,"mode":"major","character":["heroic","lyrical","dramatic"],"popularity":"well-known"},{"id":100026,"composer":"Beethoven, Ludwig van","title":"String Quartet No. 11 in F minor, Op. 95 (\"Serioso\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":8,"hardestPart":"balanced","minutes":21,"mode":"minor","character":["dramatic","dark"],"popularity":"well-known"},{"id":100027,"composer":"Beethoven, Ludwig van","title":"String Quartet No. 14 in C-sharp minor, Op. 131","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":9,"hardestPart":"balanced","minutes":40,"mode":"minor","character":["dramatic","lyrical","dark"],"popularity":"well-known"},{"id":100028,"composer":"Beethoven, Ludwig van","title":"Grosse Fuge in B-flat major, Op. 133","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":9,"hardestPart":"balanced","minutes":16,"mode":"major","character":["dramatic","heroic","dark"],"popularity":"well-known"},{"id":100029,"composer":"Schubert, Franz","title":"String Quartet No. 12 in C minor, D. 703 (\"Quartettsatz\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"short","level":6,"hardestPart":"violin 1","minutes":9,"mode":"minor","character":["dramatic","lyrical","dark"],"popularity":"well-known"},{"id":100030,"composer":"Schubert, Franz","title":"String Quartet No. 13 in A minor, D. 804 (\"Rosamunde\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":6,"hardestPart":"violin 1","minutes":34,"mode":"minor","character":["lyrical","tender","dance"],"popularity":"well-known"},{"id":100031,"composer":"Schubert, Franz","title":"String Quartet No. 14 in D minor, D. 810 (\"Death and the Maiden\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":8,"hardestPart":"violin 1","minutes":40,"mode":"minor","character":["dramatic","dark","heroic"],"popularity":"well-known"},{"id":100032,"composer":"Schubert, Franz","title":"String Quartet No. 15 in G major, D. 887","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":9,"hardestPart":"balanced","minutes":45,"mode":"major","character":["dramatic","lyrical","dark"],"popularity":"well-known"},{"id":100033,"composer":"Mendelssohn, Felix","title":"String Quartet No. 2 in A minor, Op. 13","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":7,"hardestPart":"violin 1","minutes":30,"mode":"minor","character":["dramatic","lyrical","tender"],"popularity":"well-known"},{"id":100034,"composer":"Brahms, Johannes","title":"String Quartet No. 1 in C minor, Op. 51 No. 1","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":8,"hardestPart":"balanced","minutes":32,"mode":"minor","character":["dramatic","dark","lyrical"],"popularity":"well-known"},{"id":100035,"composer":"Dvořák, Antonín","title":"String Quartet No. 12 in F major, Op. 96 (\"American\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":6,"hardestPart":"violin 1","minutes":26,"mode":"major","character":["folk","lyrical","dance"],"popularity":"well-known"},{"id":100036,"composer":"Dvořák, Antonín","title":"Cypresses, B. 152","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"set","level":4,"hardestPart":"violin 1","minutes":30,"mode":"major","character":["tender","lyrical"],"popularity":"lesser-known"},{"id":100037,"composer":"Smetana, Bedřich","title":"String Quartet No. 1 in E minor (\"From My Life\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":7,"hardestPart":"violin 1","minutes":28,"mode":"minor","character":["dramatic","folk","lyrical"],"popularity":"well-known"},{"id":100038,"composer":"Borodin, Alexander","title":"String Quartet No. 2 in D major","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":6,"hardestPart":"violin 1","minutes":28,"mode":"major","character":["lyrical","tender","playful"],"popularity":"well-known"},{"id":100039,"composer":"Tchaikovsky, Pyotr Ilyich","title":"String Quartet No. 1 in D major, Op. 11","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":7,"hardestPart":"violin 1","minutes":30,"mode":"major","character":["lyrical","folk","dance"],"popularity":"well-known"},{"id":100040,"composer":"Grieg, Edvard","title":"String Quartet in G minor, Op. 27","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":7,"hardestPart":"balanced","minutes":34,"mode":"minor","character":["dramatic","folk","heroic"],"popularity":"lesser-known"},{"id":100041,"composer":"Puccini, Giacomo","title":"Crisantemi","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"short","level":3,"hardestPart":"violin 1","minutes":6,"mode":"minor","character":["tender","dark","lyrical"],"popularity":"well-known"},{"id":100042,"composer":"Wolf, Hugo","title":"Italian Serenade in G major","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"short","level":6,"hardestPart":"violin 1","minutes":7,"mode":"major","character":["playful","dance","humorous"],"popularity":"well-known"},{"id":100043,"composer":"Debussy, Claude","title":"String Quartet in G minor, Op. 10, L. 85","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":8,"hardestPart":"balanced","minutes":25,"mode":"minor","character":["dramatic","lyrical","playful"],"popularity":"well-known"},{"id":100044,"composer":"Ravel, Maurice","title":"String Quartet in F major, M. 35","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":8,"hardestPart":"balanced","minutes":28,"mode":"major","character":["lyrical","tender","dramatic"],"popularity":"well-known"},{"id":100045,"composer":"Janáček, Leoš","title":"String Quartet No. 2, JW VII/13 (\"Intimate Letters\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":8,"hardestPart":"balanced","minutes":25,"mode":null,"character":["dramatic","lyrical","tender"],"popularity":"well-known"},{"id":100046,"composer":"Bartók, Béla","title":"String Quartet No. 4, Sz. 91","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":9,"hardestPart":"balanced","minutes":23,"mode":null,"character":["dramatic","folk","virtuosic"],"popularity":"well-known"},{"id":100047,"composer":"Shostakovich, Dmitri","title":"String Quartet No. 1 in C major, Op. 49","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":5,"hardestPart":"violin 1","minutes":15,"mode":"major","character":["lyrical","playful","tender"],"popularity":"lesser-known"},{"id":100048,"composer":"Shostakovich, Dmitri","title":"String Quartet No. 8 in C minor, Op. 110","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":7,"hardestPart":"balanced","minutes":21,"mode":"minor","character":["dark","dramatic"],"popularity":"well-known"},{"id":100049,"composer":"Barber, Samuel","title":"String Quartet in B minor, Op. 11","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":7,"hardestPart":"violin 1","minutes":18,"mode":"minor","character":["dramatic","lyrical","tender"],"popularity":"well-known"},{"id":100050,"composer":"Britten, Benjamin","title":"Simple Symphony, Op. 4","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":4,"hardestPart":"violin 1","minutes":17,"mode":"major","character":["playful","dance","tender"],"popularity":"well-known"},{"id":100051,"composer":"Webern, Anton","title":"Langsamer Satz","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"short","level":5,"hardestPart":"balanced","minutes":10,"mode":"minor","character":["lyrical","tender","dramatic"],"popularity":"well-known"},{"id":100052,"composer":"Ligeti, György","title":"String Quartet No. 1 (\"Métamorphoses nocturnes\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":9,"hardestPart":"balanced","minutes":21,"mode":null,"character":["dramatic","playful","virtuosic"],"popularity":"well-known"},{"id":100053,"composer":"Lachenmann, Helmut","title":"Gran Torso","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":9,"hardestPart":"balanced","minutes":23,"mode":null,"character":["dark","dramatic"],"popularity":"lesser-known"},{"id":100054,"composer":"Crumb, George","title":"Black Angels (Thirteen Images from the Dark Land)","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1,"electronics":1},"form":"work","level":8,"hardestPart":"balanced","minutes":20,"mode":null,"character":["dark","dramatic"],"popularity":"well-known"},{"id":100055,"composer":"Reich, Steve","title":"Different Trains","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1,"electronics":1},"form":"work","level":7,"hardestPart":"balanced","minutes":27,"mode":null,"character":["dramatic","dark"],"popularity":"well-known"},{"id":100056,"composer":"Glass, Philip","title":"String Quartet No. 2 (\"Company\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":4,"hardestPart":"balanced","minutes":8,"mode":"minor","character":["lyrical","dark"],"popularity":"well-known"},{"id":100057,"composer":"Glass, Philip","title":"String Quartet No. 3 (\"Mishima\")","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"work","level":5,"hardestPart":"balanced","minutes":17,"mode":"minor","character":["dramatic","lyrical","dark"],"popularity":"well-known"},{"id":100058,"composer":"Pärt, Arvo","title":"Summa (version for string quartet)","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"short","level":3,"hardestPart":"balanced","minutes":5,"mode":"minor","character":["tender","lyrical"],"popularity":"well-known"},{"id":100059,"composer":"Pärt, Arvo","title":"Fratres (version for string quartet)","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"short","level":4,"hardestPart":"balanced","minutes":10,"mode":"minor","character":["dark","tender","lyrical"],"popularity":"well-known"},{"id":100060,"composer":"Piazzolla, Astor","title":"Four, for Tango","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"short","level":7,"hardestPart":"violin 1","minutes":5,"mode":"minor","character":["dance","dramatic","virtuosic"],"popularity":"well-known"},{"id":100061,"composer":"Price, Florence","title":"Five Folksongs in Counterpoint","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"set","level":4,"hardestPart":"balanced","minutes":18,"mode":"major","character":["folk","lyrical","playful"],"popularity":"lesser-known"},{"id":100062,"composer":"Montgomery, Jessie","title":"Strum","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"short","level":4,"hardestPart":"balanced","minutes":7,"mode":"major","character":["folk","dance","lyrical"],"popularity":"well-known"},{"id":100063,"composer":"Shaw, Caroline","title":"Entr'acte","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"short","level":5,"hardestPart":"balanced","minutes":11,"mode":null,"character":["tender","dance","lyrical"],"popularity":"well-known"},{"id":100064,"composer":"Turina, Joaquín","title":"La oración del torero, Op. 34","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"short","level":5,"hardestPart":"violin 1","minutes":9,"mode":null,"character":["dramatic","lyrical","folk"],"popularity":"well-known"},{"id":100065,"composer":"Bridge, Frank","title":"Three Novelletten, H. 44","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1},"form":"set","level":5,"hardestPart":"balanced","minutes":12,"mode":null,"character":["lyrical","playful","tender"],"popularity":"lesser-known"},{"id":100066,"composer":"Boccherini, Luigi","title":"String Quintet in E major, Op. 11 No. 5, G. 275","formation":"string-quintet","instruments":{"violin":2,"viola":1,"cello":2},"form":"work","level":4,"hardestPart":"violin 1","minutes":23,"mode":"major","character":["dance","lyrical","playful"],"popularity":"well-known"},{"id":100067,"composer":"Boccherini, Luigi","title":"String Quintet in C major, Op. 30 No. 6, G. 324 (\"La musica notturna delle strade di Madrid\")","formation":"string-quintet","instruments":{"violin":2,"viola":1,"cello":2},"form":"work","level":5,"hardestPart":"balanced","minutes":13,"mode":"major","character":["playful","folk","dance"],"popularity":"well-known"},{"id":100068,"composer":"Mozart, Wolfgang Amadeus","title":"String Quintet No. 4 in G minor, K. 516","formation":"string-quintet","instruments":{"violin":2,"viola":2,"cello":1},"form":"work","level":7,"hardestPart":"violin 1","minutes":35,"mode":"minor","character":["dark","dramatic","tender"],"popularity":"well-known"},{"id":100069,"composer":"Schubert, Franz","title":"String Quintet in C major, D. 956","formation":"string-quintet","instruments":{"violin":2,"viola":1,"cello":2},"form":"work","level":8,"hardestPart":"balanced","minutes":50,"mode":"major","character":["lyrical","dramatic","tender"],"popularity":"well-known"},{"id":100070,"composer":"Dvořák, Antonín","title":"String Quintet No. 3 in E-flat major, Op. 97 (\"American\")","formation":"string-quintet","instruments":{"violin":2,"viola":2,"cello":1},"form":"work","level":6,"hardestPart":"violin 1","minutes":32,"mode":"major","character":["folk","lyrical","dance"],"popularity":"lesser-known"},{"id":100071,"composer":"Brahms, Johannes","title":"String Quintet No. 2 in G major, Op. 111","formation":"string-quintet","instruments":{"violin":2,"viola":2,"cello":1},"form":"work","level":8,"hardestPart":"balanced","minutes":27,"mode":"major","character":["heroic","folk","dance"],"popularity":"well-known"},{"id":100072,"composer":"Mendelssohn, Felix","title":"Octet in E-flat major, Op. 20","formation":"large-strings","instruments":{"violin":4,"viola":2,"cello":2},"form":"work","level":8,"hardestPart":"violin 1","minutes":33,"mode":"major","character":["virtuosic","playful","lyrical"],"popularity":"well-known"},{"id":100073,"composer":"Brahms, Johannes","title":"String Sextet No. 1 in B-flat major, Op. 18","formation":"large-strings","instruments":{"violin":2,"viola":2,"cello":2},"form":"work","level":7,"hardestPart":"balanced","minutes":38,"mode":"major","character":["lyrical","dance","dramatic"],"popularity":"well-known"},{"id":100074,"composer":"Tchaikovsky, Pyotr Ilyich","title":"Souvenir de Florence, Op. 70","formation":"large-strings","instruments":{"violin":2,"viola":2,"cello":2},"form":"work","level":8,"hardestPart":"violin 1","minutes":35,"mode":"minor","character":["dramatic","folk","lyrical"],"popularity":"well-known"},{"id":100075,"composer":"Schoenberg, Arnold","title":"Verklärte Nacht, Op. 4","formation":"large-strings","instruments":{"violin":2,"viola":2,"cello":2},"form":"work","level":8,"hardestPart":"balanced","minutes":30,"mode":"minor","character":["dramatic","tender","lyrical"],"popularity":"well-known"},{"id":100076,"composer":"Enescu, George","title":"Octet in C major, Op. 7","formation":"large-strings","instruments":{"violin":4,"viola":2,"cello":2},"form":"work","level":9,"hardestPart":"balanced","minutes":40,"mode":"major","character":["dramatic","heroic","lyrical"],"popularity":"lesser-known"},{"id":100077,"composer":"Haydn, Joseph","title":"Piano Trio in G major, Hob. XV:25 (\"Gypsy\")","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":4,"hardestPart":"piano","minutes":15,"mode":"major","character":["folk","dance","playful"],"popularity":"well-known"},{"id":100078,"composer":"Mozart, Wolfgang Amadeus","title":"Piano Trio in B-flat major, K. 502","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":5,"hardestPart":"piano","minutes":24,"mode":"major","character":["lyrical","playful"],"popularity":"lesser-known"},{"id":100079,"composer":"Beethoven, Ludwig van","title":"Piano Trio in C minor, Op. 1 No. 3","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":6,"hardestPart":"piano","minutes":30,"mode":"minor","character":["dramatic","lyrical","dark"],"popularity":"lesser-known"},{"id":100080,"composer":"Beethoven, Ludwig van","title":"Piano Trio in B-flat major, Op. 97 (\"Archduke\")","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":40,"mode":"major","character":["heroic","lyrical","playful"],"popularity":"well-known"},{"id":100081,"composer":"Schubert, Franz","title":"Piano Trio No. 1 in B-flat major, D. 898","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":40,"mode":"major","character":["lyrical","playful","tender"],"popularity":"well-known"},{"id":100082,"composer":"Mendelssohn, Felix","title":"Piano Trio No. 1 in D minor, Op. 49","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":30,"mode":"minor","character":["dramatic","lyrical","virtuosic"],"popularity":"well-known"},{"id":100083,"composer":"Hensel, Fanny","title":"Piano Trio in D minor, Op. 11","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":25,"mode":"minor","character":["dramatic","lyrical"],"popularity":"lesser-known"},{"id":100084,"composer":"Schumann, Clara","title":"Piano Trio in G minor, Op. 17","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":28,"mode":"minor","character":["lyrical","dramatic","tender"],"popularity":"lesser-known"},{"id":100085,"composer":"Brahms, Johannes","title":"Piano Trio No. 1 in B major, Op. 8","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":8,"hardestPart":"piano","minutes":35,"mode":"major","character":["lyrical","heroic","dramatic"],"popularity":"well-known"},{"id":100086,"composer":"Dvořák, Antonín","title":"Piano Trio No. 4 in E minor, Op. 90 (\"Dumky\")","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":30,"mode":"minor","character":["folk","dance","dramatic"],"popularity":"well-known"},{"id":100087,"composer":"Tchaikovsky, Pyotr Ilyich","title":"Piano Trio in A minor, Op. 50","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":9,"hardestPart":"piano","minutes":47,"mode":"minor","character":["dramatic","lyrical","virtuosic"],"popularity":"well-known"},{"id":100088,"composer":"Arensky, Anton","title":"Piano Trio No. 1 in D minor, Op. 32","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":26,"mode":"minor","character":["lyrical","dramatic","playful"],"popularity":"well-known"},{"id":100089,"composer":"Ravel, Maurice","title":"Piano Trio in A minor, M. 67","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":9,"hardestPart":"balanced","minutes":28,"mode":"minor","character":["lyrical","dramatic","dance"],"popularity":"well-known"},{"id":100090,"composer":"Clarke, Rebecca","title":"Piano Trio","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":8,"hardestPart":"balanced","minutes":25,"mode":null,"character":["dramatic","dark","lyrical"],"popularity":"lesser-known"},{"id":100091,"composer":"Shostakovich, Dmitri","title":"Piano Trio No. 2 in E minor, Op. 67","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":8,"hardestPart":"balanced","minutes":27,"mode":"minor","character":["dark","dramatic","folk"],"popularity":"well-known"},{"id":100092,"composer":"Schoenfield, Paul","title":"Café Music","formation":"piano-trio","instruments":{"violin":1,"cello":1,"piano":1},"form":"work","level":8,"hardestPart":"piano","minutes":17,"mode":"major","character":["playful","dance","humorous"],"popularity":"well-known"},{"id":100093,"composer":"Mozart, Wolfgang Amadeus","title":"Piano Quartet No. 1 in G minor, K. 478","formation":"piano-quartet","instruments":{"violin":1,"viola":1,"cello":1,"piano":1},"form":"work","level":6,"hardestPart":"piano","minutes":26,"mode":"minor","character":["dramatic","lyrical"],"popularity":"well-known"},{"id":100094,"composer":"Schumann, Robert","title":"Piano Quartet in E-flat major, Op. 47","formation":"piano-quartet","instruments":{"violin":1,"viola":1,"cello":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":28,"mode":"major","character":["lyrical","tender","playful"],"popularity":"well-known"},{"id":100095,"composer":"Mahler, Gustav","title":"Piano Quartet in A minor","formation":"piano-quartet","instruments":{"violin":1,"viola":1,"cello":1,"piano":1},"form":"short","level":6,"hardestPart":"piano","minutes":12,"mode":"minor","character":["dramatic","lyrical","dark"],"popularity":"well-known"},{"id":100096,"composer":"Brahms, Johannes","title":"Piano Quartet No. 1 in G minor, Op. 25","formation":"piano-quartet","instruments":{"violin":1,"viola":1,"cello":1,"piano":1},"form":"work","level":8,"hardestPart":"piano","minutes":40,"mode":"minor","character":["folk","dramatic","virtuosic"],"popularity":"well-known"},{"id":100097,"composer":"Fauré, Gabriel","title":"Piano Quartet No. 1 in C minor, Op. 15","formation":"piano-quartet","instruments":{"violin":1,"viola":1,"cello":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":31,"mode":"minor","character":["lyrical","playful","dramatic"],"popularity":"well-known"},{"id":100098,"composer":"Schubert, Franz","title":"Piano Quintet in A major, D. 667 (\"Trout\")","formation":"piano-quintet","instruments":{"violin":1,"viola":1,"cello":1,"double-bass":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":38,"mode":"major","character":["lyrical","playful","folk"],"popularity":"well-known"},{"id":100099,"composer":"Schumann, Robert","title":"Piano Quintet in E-flat major, Op. 44","formation":"piano-quintet","instruments":{"violin":2,"viola":1,"cello":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":30,"mode":"major","character":["heroic","lyrical","dramatic"],"popularity":"well-known"},{"id":100100,"composer":"Brahms, Johannes","title":"Piano Quintet in F minor, Op. 34","formation":"piano-quintet","instruments":{"violin":2,"viola":1,"cello":1,"piano":1},"form":"work","level":8,"hardestPart":"piano","minutes":42,"mode":"minor","character":["dramatic","dark","heroic"],"popularity":"well-known"},{"id":100101,"composer":"Franck, César","title":"Piano Quintet in F minor, FWV 7","formation":"piano-quintet","instruments":{"violin":2,"viola":1,"cello":1,"piano":1},"form":"work","level":8,"hardestPart":"piano","minutes":36,"mode":"minor","character":["dramatic","lyrical","dark"],"popularity":"well-known"},{"id":100102,"composer":"Dvořák, Antonín","title":"Piano Quintet No. 2 in A major, Op. 81","formation":"piano-quintet","instruments":{"violin":2,"viola":1,"cello":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":38,"mode":"major","character":["folk","lyrical","dance"],"popularity":"well-known"},{"id":100103,"composer":"Beach, Amy","title":"Piano Quintet in F-sharp minor, Op. 67","formation":"piano-quintet","instruments":{"violin":2,"viola":1,"cello":1,"piano":1},"form":"work","level":8,"hardestPart":"piano","minutes":30,"mode":"minor","character":["dramatic","lyrical","dark"],"popularity":"lesser-known"},{"id":100104,"composer":"Shostakovich, Dmitri","title":"Piano Quintet in G minor, Op. 57","formation":"piano-quintet","instruments":{"violin":2,"viola":1,"cello":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":33,"mode":"minor","character":["dramatic","playful","dark"],"popularity":"well-known"},{"id":100105,"composer":"Mendelssohn, Felix","title":"Piano Sextet in D major, Op. 110","formation":"piano-strings","instruments":{"violin":1,"viola":2,"cello":1,"double-bass":1,"piano":1},"form":"work","level":7,"hardestPart":"piano","minutes":30,"mode":"major","character":["virtuosic","lyrical","playful"],"popularity":"lesser-known"},{"id":100106,"composer":"Chausson, Ernest","title":"Concert for Violin, Piano and String Quartet in D major, Op. 21","formation":"piano-strings","instruments":{"violin":3,"viola":1,"cello":1,"piano":1},"form":"work","level":8,"hardestPart":"violin 1","minutes":40,"mode":"major","character":["lyrical","dramatic"],"popularity":"well-known"},{"id":100107,"composer":"Mozart, Wolfgang Amadeus","title":"Flute Quartet No. 1 in D major, K. 285","formation":"winds-strings","instruments":{"flute":1,"violin":1,"viola":1,"cello":1},"form":"work","level":5,"hardestPart":"flute","minutes":15,"mode":"major","character":["lyrical","playful"],"popularity":"well-known"},{"id":100108,"composer":"Mozart, Wolfgang Amadeus","title":"Oboe Quartet in F major, K. 370","formation":"winds-strings","instruments":{"oboe":1,"violin":1,"viola":1,"cello":1},"form":"work","level":6,"hardestPart":"oboe","minutes":15,"mode":"major","character":["playful","lyrical"],"popularity":"well-known"},{"id":100109,"composer":"Mozart, Wolfgang Amadeus","title":"Trio in E-flat major, K. 498 (\"Kegelstatt\")","formation":"winds-strings","instruments":{"clarinet":1,"viola":1,"piano":1},"alternatives":{"clarinet":["violin"]},"form":"work","level":5,"hardestPart":"piano","minutes":20,"mode":"major","character":["lyrical","tender","playful"],"popularity":"well-known"},{"id":100110,"composer":"Mozart, Wolfgang Amadeus","title":"Clarinet Quintet in A major, K. 581","formation":"winds-strings","instruments":{"clarinet":1,"violin":2,"viola":1,"cello":1},"form":"work","level":6,"hardestPart":"clarinet","minutes":32,"mode":"major","character":["lyrical","tender","playful"],"popularity":"well-known"},{"id":100111,"composer":"Beethoven, Ludwig van","title":"Trio in B-flat major, Op. 11 (\"Gassenhauer\")","formation":"winds-strings","instruments":{"clarinet":1,"cello":1,"piano":1},"alternatives":{"clarinet":["violin"]},"form":"work","level":5,"hardestPart":"piano","minutes":21,"mode":"major","character":["playful","lyrical","humorous"],"popularity":"lesser-known"},{"id":100112,"composer":"Beethoven, Ludwig van","title":"Septet in E-flat major, Op. 20","formation":"winds-strings","instruments":{"clarinet":1,"horn":1,"bassoon":1,"violin":1,"viola":1,"cello":1,"double-bass":1},"form":"work","level":6,"hardestPart":"violin","minutes":40,"mode":"major","character":["playful","lyrical","dance"],"popularity":"well-known"},{"id":100113,"composer":"Schubert, Franz","title":"Octet in F major, D. 803","formation":"winds-strings","instruments":{"clarinet":1,"horn":1,"bassoon":1,"violin":2,"viola":1,"cello":1,"double-bass":1},"form":"work","level":7,"hardestPart":"violin 1","minutes":60,"mode":"major","character":["lyrical","playful","dance"],"popularity":"well-known"},{"id":100114,"composer":"Farrenc, Louise","title":"Nonet in E-flat major, Op. 38","formation":"winds-strings","instruments":{"flute":1,"oboe":1,"clarinet":1,"horn":1,"bassoon":1,"violin":1,"viola":1,"cello":1,"double-bass":1},"form":"work","level":6,"hardestPart":"violin","minutes":33,"mode":"major","character":["lyrical","playful","dance"],"popularity":"lesser-known"},{"id":100115,"composer":"Schumann, Robert","title":"Märchenerzählungen, Op. 132","formation":"winds-strings","instruments":{"clarinet":1,"viola":1,"piano":1},"alternatives":{"clarinet":["violin"]},"form":"set","level":5,"hardestPart":"piano","minutes":16,"mode":"major","character":["lyrical","playful","tender"],"popularity":"lesser-known"},{"id":100116,"composer":"Brahms, Johannes","title":"Horn Trio in E-flat major, Op. 40","formation":"winds-strings","instruments":{"horn":1,"violin":1,"piano":1},"alternatives":{"horn":["viola","cello"]},"form":"work","level":8,"hardestPart":"balanced","minutes":30,"mode":"major","character":["lyrical","heroic","tender"],"popularity":"well-known"},{"id":100117,"composer":"Brahms, Johannes","title":"Clarinet Quintet in B minor, Op. 115","formation":"winds-strings","instruments":{"clarinet":1,"violin":2,"viola":1,"cello":1},"alternatives":{"clarinet":["viola"]},"form":"work","level":8,"hardestPart":"balanced","minutes":38,"mode":"minor","character":["lyrical","tender","dark"],"popularity":"well-known"},{"id":100118,"composer":"Coleridge-Taylor, Samuel","title":"Clarinet Quintet in F-sharp minor, Op. 10","formation":"winds-strings","instruments":{"clarinet":1,"violin":2,"viola":1,"cello":1},"form":"work","level":7,"hardestPart":"clarinet","minutes":32,"mode":"minor","character":["lyrical","folk","dance"],"popularity":"lesser-known"},{"id":100119,"composer":"Ravel, Maurice","title":"Introduction et Allegro, M. 46","formation":"winds-strings","instruments":{"harp":1,"flute":1,"clarinet":1,"violin":2,"viola":1,"cello":1},"form":"short","level":8,"hardestPart":"harp","minutes":11,"mode":"major","character":["lyrical","virtuosic","tender"],"popularity":"well-known"},{"id":100120,"composer":"Debussy, Claude","title":"Sonata for Flute, Viola and Harp, L. 137","formation":"winds-strings","instruments":{"flute":1,"viola":1,"harp":1},"form":"work","level":8,"hardestPart":"balanced","minutes":18,"mode":null,"character":["lyrical","tender","dance"],"popularity":"well-known"},{"id":100121,"composer":"Prokofiev, Sergei","title":"Overture on Hebrew Themes, Op. 34","formation":"winds-strings","instruments":{"clarinet":1,"violin":2,"viola":1,"cello":1,"piano":1},"form":"short","level":6,"hardestPart":"clarinet","minutes":9,"mode":"minor","character":["folk","dance","playful"],"popularity":"well-known"},{"id":100122,"composer":"Stravinsky, Igor","title":"Suite from L'Histoire du soldat","formation":"winds-strings","instruments":{"clarinet":1,"bassoon":1,"trumpet":1,"trombone":1,"percussion":1,"violin":1,"double-bass":1},"form":"work","level":8,"hardestPart":"violin","minutes":25,"mode":null,"character":["dance","humorous","dramatic"],"popularity":"well-known"},{"id":100123,"composer":"Bartók, Béla","title":"Contrasts, Sz. 111","formation":"winds-strings","instruments":{"violin":1,"clarinet":1,"piano":1},"form":"work","level":9,"hardestPart":"violin","minutes":18,"mode":null,"character":["folk","dance","virtuosic"],"popularity":"well-known"},{"id":100124,"composer":"Messiaen, Olivier","title":"Quatuor pour la fin du temps","formation":"winds-strings","instruments":{"violin":1,"clarinet":1,"cello":1,"piano":1},"form":"work","level":8,"hardestPart":"balanced","minutes":50,"mode":null,"character":["tender","dramatic","lyrical"],"popularity":"well-known"},{"id":100125,"composer":"Golijov, Osvaldo","title":"The Dreams and Prayers of Isaac the Blind","formation":"winds-strings","instruments":{"clarinet":1,"violin":2,"viola":1,"cello":1},"form":"work","level":8,"hardestPart":"clarinet","minutes":33,"mode":"minor","character":["folk","dramatic","tender"],"popularity":"well-known"},{"id":100126,"composer":"Corelli, Arcangelo","title":"Trio Sonata in F major, Op. 1 No. 1","formation":"continuo","instruments":{"violin":2,"continuo":1},"form":"work","level":2,"hardestPart":"balanced","minutes":6,"mode":"major","character":["lyrical","dance"],"popularity":"lesser-known"},{"id":100127,"composer":"Pachelbel, Johann","title":"Canon and Gigue in D major, P. 37","formation":"continuo","instruments":{"violin":3,"continuo":1},"form":"short","level":2,"hardestPart":"balanced","minutes":6,"mode":"major","character":["tender","lyrical","dance"],"popularity":"well-known"},{"id":100128,"composer":"Handel, George Frideric","title":"Trio Sonata in G major, Op. 5 No. 4, HWV 399","formation":"continuo","instruments":{"violin":2,"continuo":1},"form":"work","level":4,"hardestPart":"balanced","minutes":13,"mode":"major","character":["dance"],"popularity":null},{"id":100129,"composer":"Vivaldi, Antonio","title":"Trio Sonata in D minor, Op. 1 No. 12, RV 63 'La Follia'","formation":"continuo","instruments":{"violin":2,"continuo":1},"form":"work","level":5,"hardestPart":"balanced","minutes":10,"mode":"minor","character":["dance","virtuosic","dramatic"],"popularity":"well-known"},{"id":100130,"composer":"Bach, Johann Sebastian","title":"Trio Sonata in C minor from The Musical Offering, BWV 1079","formation":"continuo","instruments":{"flute":1,"violin":1,"continuo":1},"form":"work","level":6,"hardestPart":"balanced","minutes":18,"mode":"minor","character":["lyrical","dramatic","dark"],"popularity":"well-known"},{"id":100131,"composer":"Telemann, Georg Philipp","title":"Paris Quartet in E minor, TWV 43:e4","formation":"continuo","instruments":{"flute":1,"violin":1,"viola-da-gamba":1,"continuo":1},"alternatives":{"viola-da-gamba":["cello"]},"form":"work","level":5,"hardestPart":"balanced","minutes":20,"mode":"minor","character":["lyrical","dance","playful"],"popularity":"lesser-known"},{"id":100132,"composer":"Boccherini, Luigi","title":"Guitar Quintet No. 4 in D major, G. 448 (\"Fandango\")","formation":"other","instruments":{"guitar":1,"violin":2,"viola":1,"cello":1},"form":"work","level":5,"hardestPart":"guitar","minutes":20,"mode":"major","character":["dance","folk","virtuosic"],"popularity":"well-known"},{"id":100133,"composer":"Respighi, Ottorino","title":"Il tramonto, P. 101","formation":"other","instruments":{"voice":1,"violin":2,"viola":1,"cello":1},"form":"work","level":5,"hardestPart":"voice","minutes":16,"mode":"minor","character":["lyrical","tender","dark"],"popularity":"well-known"},{"id":100134,"composer":"Barber, Samuel","title":"Dover Beach, Op. 3","formation":"other","instruments":{"voice":1,"violin":2,"viola":1,"cello":1},"form":"short","level":5,"hardestPart":"voice","minutes":8,"mode":"minor","character":["lyrical","dark","tender"],"popularity":"well-known"},{"id":100135,"composer":"Schoenberg, Arnold","title":"String Quartet No. 2 in F-sharp minor, Op. 10","formation":"string-quartet","instruments":{"violin":2,"viola":1,"cello":1,"voice":1},"form":"work","level":9,"hardestPart":"balanced","minutes":30,"mode":null,"character":["dramatic","dark","lyrical"],"popularity":"well-known"}];
+const VIOLIN_TOTAL = 4883;
+const LEVELS = [["Early intermediate","ABRSM 3–4 · RCM 4–5"],["Intermediate","ABRSM 5 · RCM 6"],["Upper intermediate","ABRSM 6 · RCM 7"],["Early advanced","ABRSM 7 · RCM 8"],["Advanced","ABRSM 8 · RCM 9"],["Pre-diploma","ARSM · RCM 10"],["Diploma","DipABRSM / ATCL · RCM ARCT"],["Professional","LRSM / LTCL · RCM LRCM"],["Virtuoso","FRSM / FTCL"],["Extreme virtuoso","Beyond the exam systems"]];
+const INSTR = {"violin":{"label":"violin","family":"string"},"viola":{"label":"viola","family":"string"},"cello":{"label":"cello","family":"string"},"double-bass":{"label":"double bass","family":"string","plural":"double basses"},"viola-da-gamba":{"label":"viola da gamba","family":"string","plural":"violas da gamba"},"viola-damore":{"label":"viola d'amore","family":"string","plural":"violas d'amore"},"piano":{"label":"piano","family":"keyboard"},"harpsichord":{"label":"harpsichord","family":"other"},"organ":{"label":"organ","family":"other"},"harmonium":{"label":"harmonium","family":"other"},"celesta":{"label":"celesta","family":"other"},"continuo":{"label":"continuo","family":"continuo","plural":"continuo"},"flute":{"label":"flute","family":"wind"},"recorder":{"label":"recorder","family":"wind"},"oboe":{"label":"oboe","family":"wind"},"english-horn":{"label":"English horn","family":"wind"},"clarinet":{"label":"clarinet","family":"wind"},"bass-clarinet":{"label":"bass clarinet","family":"wind"},"basset-horn":{"label":"basset horn","family":"wind"},"bassoon":{"label":"bassoon","family":"wind"},"saxophone":{"label":"saxophone","family":"wind"},"horn":{"label":"horn","family":"wind"},"trumpet":{"label":"trumpet","family":"wind"},"trombone":{"label":"trombone","family":"wind"},"tuba":{"label":"tuba","family":"wind"},"harp":{"label":"harp","family":"other"},"guitar":{"label":"guitar","family":"other"},"lute":{"label":"lute","family":"other"},"mandolin":{"label":"mandolin","family":"other"},"accordion":{"label":"accordion","family":"other"},"percussion":{"label":"percussion","family":"other","plural":"percussion"},"voice":{"label":"voice","family":"other"},"electronics":{"label":"electronics","family":"electronics","plural":"electronics"}};
+const FORMATIONS = [
+  ["Strings", [["string-trio","String trios","string trio"],["string-quartet","String quartets","string quartet"],["string-quintet","String quintets","string quintet"],["large-strings","Sextets & octets","string sextet or larger"]]],
+  ["Piano and strings", [["piano-trio","Piano trios","piano trio"],["piano-quartet","Piano quartets","piano quartet"],["piano-quintet","Piano quintets","piano quintet"],["piano-strings","Other piano & strings","piano & strings"]]],
+  ["Mixed", [["winds-strings","Strings & winds","strings & winds"],["continuo","With continuo","continuo","with"],["other","Other ensembles","other ensembles"]]],
+];
+const FLAT = FORMATIONS.flatMap(g => g[1]);
+const SINGULAR = {"string-trio":"String trio","string-quartet":"String quartet","string-quintet":"String quintet","large-strings":"Sextet or larger","piano-trio":"Piano trio","piano-quartet":"Piano quartet","piano-quintet":"Piano quintet","piano-strings":"Piano & strings","winds-strings":"Strings & winds","continuo":"With continuo","other":"Other ensemble"};
+const FORMS = [["work","Full works","Full work"],["short","Short pieces","Short piece"],["set","Sets of pieces","Set of pieces"]];
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const firstLast = n => { const i = n.indexOf(", "); return i < 0 ? n : n.slice(i+2)+" "+n.slice(0,i); };
+const cap = s => s.charAt(0).toUpperCase()+s.slice(1);
+const named = (k,c) => c > 1 ? `${c} ${INSTR[k].plural || INSTR[k].label+"s"}` : INSTR[k].label;
+const orList = xs => xs.length > 1 ? `${xs.slice(0,-1).join(", ")} or ${xs[xs.length-1]}` : xs[0];
+function scoring(w){
+  return [...Object.entries(w.instruments).map(([k,c]) => { const a = (w.alternatives||{})[k]; return a ? `${named(k,c)} <em>(or ${orList(a.map(x=>INSTR[x].label))})</em>` : named(k,c); }),
+          ...Object.entries(w.optional||{}).map(([k,c]) => `${named(k,c)} <em>ad lib.</em>`)].join(", ");
+}
+const playable = w => new Set([...Object.keys(w.instruments), ...Object.values(w.alternatives||{}).flat(), ...Object.keys(w.optional||{})]);
+const byId = new Map(DATA.map(w => [w.id, w]));
+const count = pred => DATA.filter(pred).length;
+const pebble = (l, extra="") => `<span class="lv l${l} s${l%3}${extra}">${l}</span>`;
+const playBtn = `<button class="play none"><i></i></button>`;
+const tags = w => [...(w.mode?[cap(w.mode)]:[]), ...(w.character||[]).map(cap)].slice(0,2).map(t=>`<span class="tag">${t}</span>`).join("") + (w.popularity?`<span class="tag pop">${w.popularity==="well-known"?"Well-known":"Lesser-known"}</span>`:"");
+const hardestLabel = h => h === "balanced" ? "balanced" : h;
+const dur = w => w.minutes ? `${w.minutes}<small> min</small>` : "";
+
+// ── finder ─────────────────────────────────────────────
+function sentence({form=null, formation=null, level=null, exact=false, instrument, open=null}){
+  const f = FORMS.find(x=>x[0]===form);
+  const fm = FLAT.find(x=>x[0]===formation);
+  const lead = fm ? (fm[3]||"for") : "for";
+  const noun = fm ? fm[2] : "any ensemble";
+  const lv = level ? [exact?"at":"around", `level ${level}`] : ["at","any level"];
+  const menu = open === "formation" ? formationMenu(formation) : open === "instrument" ? instrumentMenu(instrument) : "";
+  const instr = instrument === undefined ? "" : ` with <span class="pick d"><button aria-expanded="${open==="instrument"}">${instrument ? INSTR[instrument].label : "any instrument"}</button>${open==="instrument"?menu:""}</span>`;
+  return `<div class="sentence">Show me <span class="pick a"><button>${f ? f[1].toLowerCase() : "any piece"}</button></span> ${lead} <span class="pick b"><button aria-expanded="${open==="formation"}">${noun}</button>${open==="formation"?menu:""}</span>${instr} ${lv[0]} <span class="pick c"><button>${lv[1]}</button></span></div>`;
+}
+function formationMenu(sel){
+  return `<div class="menu" role="listbox" style="min-width:290px"><button aria-selected="${!sel}"><span>Any ensemble</span><span class="count">${DATA.length}</span></button>` +
+    FORMATIONS.map(([g, items]) => `<div class="mgrp">${g}</div>` + items.map(([k,label]) => { const n = count(w=>w.formation===k); return `<button aria-selected="${sel===k}" ${n?"":"disabled"}><span>${label}</span><span class="count">${n}</span></button>`; }).join("")).join("") + `</div>`;
+}
+const INSTR_ORDER = () => Object.keys(INSTR).filter(k => k!=="electronics").map(k => [k, count(w=>playable(w).has(k))]).filter(([,n])=>n>0);
+function instrumentMenu(sel){
+  return `<div class="menu" role="listbox" style="min-width:260px;max-height:420px;overflow:auto"><button aria-selected="${!sel}"><span>Any instrument</span></button>` +
+    INSTR_ORDER().map(([k,n]) => `<button aria-selected="${sel===k}"><span>${cap(INSTR[k].label)}</span><span class="count">${n}</span></button>`).join("") + `</div>`;
+}
+function levelBars(level=null, exact=false, phone=false){
+  return `<div class="levels${level?"":" any"}">` + LEVELS.map(([name], i) => { const l=i+1; const inR = level!=null && (exact ? l===level : Math.abs(l-level)<=1); return `<button class="${inR?"in":""}${level===l?" core":""}"><i></i><b>${l}</b><small>${name}</small></button>`; }).join("") + `</div>` +
+    `<div class="legend"><span>${level ? `<b>${LEVELS[level-1][0]}</b> · about ${LEVELS[level-1][1].replace(" · "," / ")}` : "Tap a level to narrow the list, or leave it open."}</span>${level?`<span>${exact?`level ${level} only`:`levels ${Math.max(1,level-1)}–${Math.min(10,level+1)}`} · <button>${exact?"around":"exact"}</button></span>`:""}</div>`;
+}
+const INTRO = "graded chamber works for three to nine players, from string trios to octets, sorted by ensemble, level and character.";
+function hero(opts, extra=""){
+  return `<section class="hero"><div class="intro"><div class="big">${DATA.length}</div><p>${INTRO}</p><span class="levels-info"><a class="link-underline">How the 10 levels work</a></span></div>` +
+    `<div class="finder">${sentence(opts)}${levelBars(opts.level, opts.exact)}${extra}</div></section>`;
+}
+document.getElementById("hero-desk").innerHTML = hero({form:"short", formation:"string-quartet", level:3, open:"formation"}).replace('class="menu"','class="menu" style="min-width:290px;position:absolute"');
+document.getElementById("hero-phone").innerHTML = hero({form:"short", formation:"string-quartet", level:3});
+const EX = [
+  [{}, "nothing chosen"],
+  [{form:"short", formation:"string-quartet", level:3}, `${count(w=>w.form==="short"&&w.formation==="string-quartet"&&Math.abs(w.level-3)<=1)} of the benchmarks`],
+  [{form:"work", formation:"piano-trio", level:7, exact:true}, `${count(w=>w.form==="work"&&w.formation==="piano-trio"&&w.level===7)} works`],
+  [{formation:"continuo"}, "“with continuo” keeps the violin finder’s wording"],
+  [{form:"set", formation:"winds-strings"}, "1 work: the menus grey out choices that would come up empty"],
+];
+document.getElementById("examples").innerHTML = EX.map(([o, n]) => `<div class="ex">${sentence(o)}<small>${n}</small></div>`).join("");
+
+// ── rows ───────────────────────────────────────────────
+const SAMPLE = [100021, 100127, 100109, 100031, 100116, 100098, 100129, 100124].map(id => byId.get(id));
+const PHONE_SAMPLE = SAMPLE.slice(0, 5);
+const colhead = (cols) => `<div class="colhead ch" aria-hidden="true">${cols.map(c=>`<span>${c}</span>`).join("")}</div>`;
+const work = (w, inner="") => `<div><a class="ttl">${esc(w.title)}</a><div class="cmp">${esc(firstLast(w.composer))}</div>${inner}</div>`;
+const ROW = {
+  A: (w) => `<div class="row">${work(w, `<div class="scoring">${scoring(w)}</div>`)}<div class="meta"><b>${SINGULAR[w.formation]}</b><span class="hp">${w.hardestPart==="balanced"?"balanced parts":`hardest: <b>${w.hardestPart}</b>`}</span></div><div class="dur">${dur(w)}</div><div class="tags">${tags(w)}</div><div class="lvcell">${pebble(w.level)}</div>${playBtn}</div>`,
+  B: (w) => `<div class="row">${work(w, `<div class="scoring phone-only">${scoring(w)}</div>`)}<div class="meta"><b>${SINGULAR[w.formation]}</b>${scoring(w)}</div><div class="dur">${dur(w)}</div><div class="tags">${tags(w)}</div><div class="lvcell"><span class="lvpart" title="Level ${w.level}, set by the ${w.hardestPart} part">${pebble(w.level)}<small>${hardestLabel(w.hardestPart)}</small></span></div>${playBtn}</div>`,
+  C: (w) => `<div class="row">${work(w, `<div class="parts phone-only">${chips(w)}</div>`)}<div class="meta"><b>${SINGULAR[w.formation]}</b>${FORMS.find(f=>f[0]===w.form)[2]}</div><div class="dur">${dur(w)}</div><div class="tags"><div class="parts">${chips(w)}</div></div><div class="lvcell">${pebble(w.level)}</div>${playBtn}</div>`,
+};
+function chips(w){
+  const h = w.hardestPart.replace(/ \d$/,"");
+  const out = [];
+  for (const [k,c] of Object.entries(w.instruments)) {
+    const alt = (w.alternatives||{})[k];
+    const label = alt ? `${INSTR[k].label}<i> / ${alt.map(a=>INSTR[a].label).join(" / ")}</i>` : INSTR[k].label;
+    if (k === h && c > 1) { // "violin 1" of two violins: the first one is inked
+      const num = Number(w.hardestPart.slice(-1));
+      for (let i=1;i<=c;i++) out.push(`<span class="part-chip${i===num?" hard":""}">${label} ${i}</span>`);
+    } else {
+      for (let i=0;i<c;i++) out.push(`<span class="part-chip${k===h?" hard":""}">${label}</span>`);
+    }
+  }
+  for (const k of Object.keys(w.optional||{})) out.push(`<span class="part-chip adlib">${INSTR[k].label} <i>ad lib.</i></span>`);
+  return out.join("");
+}
+const ROWOPTS = [
+  ["A","Scoring under the composer", false, "The scoring is a third line under the composer, on desktop and phone alike. The Ensemble column names the formation and the hardest part (“hardest: piano”, or “balanced parts”). On phones the hardest part is not shown in the row; the piece page has it.", ["Work","Ensemble","Length","Character","Level",""]],
+  ["B","The level names its part", true, "The Ensemble column takes the place of “Type · With piano”: the formation, then the scoring. Under each level pebble, the part that sets that level (“violin 1”, “piano”, “balanced”), since a chamber level is the level of the hardest part. On phones the scoring moves under the composer and the part stays under the pebble.", ["Work","Ensemble","Length","Character","Level · part",""]],
+  ["C","Part chips", false, "Each part is a chip in place of the character tags; the hardest part is inked, alternatives share a chip (“clarinet / violin”), ad lib. parts are dashed. Very scannable for strings & winds; long for octets, and the character tags move to the piece page. Phones get the chips under the composer.", ["Work","Ensemble","Length","Parts","Level",""]],
+];
+document.getElementById("rows").innerHTML = ROWOPTS.map(([k, name, rec, text, cols]) =>
+  `<div class="opt opt${k}"><div class="oh"><b>${k} · ${name}</b>${rec?'<span class="rec">Recommended</span>':""}<span>${text}</span></div>` +
+  `<div class="pair-view"><div><div class="cap">Desktop</div>${colhead(cols)}<div class="list ch">${SAMPLE.map(ROW[k]).join("")}</div></div>` +
+  `<div><div class="cap">Phone</div><div class="phone"><div class="list ch">${PHONE_SAMPLE.map(ROW[k]).join("")}</div></div></div></div></div>`).join("");
+
+// ── includes-instrument filter ─────────────────────────
+const SEL = "clarinet";
+const withSel = DATA.filter(w => playable(w).has(SEL));
+const chipBtn = (k, n, on) => `<button class="chip" aria-pressed="${on}" ${n?"":"disabled"}>${cap(INSTR[k].label)}${!on&&n?`<span class="n">${n}</span>`:""}</button>`;
+const FAMILY_GROUPS = [["Strings",["string"]],["Keyboard",["keyboard","continuo"]],["Winds & brass",["wind"]],["Other",["other"]]];
+const instrGroups = () => FAMILY_GROUPS.map(([label, fams]) => { const ks = INSTR_ORDER().filter(([k]) => fams.includes(INSTR[k].family)); return ks.length ? `<div class="grp"><span>${label}</span><div class="chips">${ks.map(([k,n])=>chipBtn(k,n,k===SEL)).join("")}</div></div>` : ""; }).join("");
+const resultsHead = (n) => `<div class="rhead"><h2>Results <span>· ${n} works</span></h2></div>`;
+const toolbar = (popover, active) => `<div class="toolbar-wrap" style="position:static"><div class="toolbar"><label class="fsearch"><svg viewBox="0 0 16 16"><circle cx="7" cy="7" r="5.2" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M11 11l3.6 3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><input placeholder="Search composer, title, “Trout”…"><kbd>/</kbd></label><div class="fbtns">${popover}<div class="pop"><button class="fbtn">Character</button></div><div class="pop"><button class="fbtn">Length</button></div><div class="pop"><button class="fbtn">More</button></div></div><button class="fbtn filters-btn">Filters${active?"<em>1</em>":""}</button><div class="pop sortsel"><button>Sort: <b>Composer</b></button></div></div>${active?`<div class="active"><span class="achip">${active}<button>×</button></span><button class="clear-all">Clear all</button></div>`:""}</div>`;
+const miniRows = (n) => `<div class="list ch">${withSel.slice(0,n).map(ROW.B).join("")}</div>`;
+const FILTEROPTS = [
+  ["1","In the toolbar", false, "An “Instruments” menu first in the toolbar, next to Character, Length and More; families as groups, counts on every chip. On phones it is the first group in the Filters sheet. Familiar and compact, but hidden until opened.",
+    `<div class="pop" style="display:inline-block"><button class="fbtn on" aria-expanded="true">Instruments<em>1</em></button><div class="popover static-menu" style="position:absolute;width:520px">${instrGroups()}<p class="note-k">Counts published alternatives and ad lib. parts.</p></div></div>`,
+    (desk) => desk ? `${toolbar(`<div class="pop"><button class="fbtn on" aria-expanded="true">Instruments<em>1</em></button></div>`, "Includes clarinet")}<div style="height:6px"></div><div class="popover static-menu" style="width:540px;position:relative;margin:0 0 18px 0">${instrGroups()}<p class="note-k">Counts published alternatives and ad lib. parts.</p></div>${resultsHead(withSel.length)}${miniRows(4)}`
+      : `<div class="filter-sheet static-menu" style="position:static;border-radius:16px;max-height:none"><div class="filter-sheet-top"><b>Filters</b><button class="btn-ink" style="height:36px;padding:0 14px">Show ${withSel.length}</button></div><div class="filter-sheet-body">${instrGroups()}<div class="grp"><span>Key</span><div class="chips"><button class="chip">Major</button><button class="chip">Minor</button></div></div></div></div>`],
+  ["2","Under the level bars", true, "A row of instrument chips inside the finder, under the level bars, most common first, the rare ones behind “more”. It is the question many chamber players start with (“what is there for clarinet?”), so it is in view from the start; the sentence stays three menus long. On phones the row scrolls sideways.",
+    null,
+    (desk) => {
+      const top = INSTR_ORDER().sort((a,b)=>b[1]-a[1]);
+      const shown = top.slice(0, desk ? 9 : 14);
+      const strip = `<div class="incl"><span>Includes</span><div class="chips">${shown.map(([k,n])=>chipBtn(k,n,k===SEL)).join("")}${desk?`<button class="chip more">${top.length-shown.length} more</button>`:""}</div></div>`;
+      return `<section class="hero" style="padding-top:0"><div class="finder">${sentence({})}${levelBars(null)}${strip}</div></section>${resultsHead(withSel.length)}${miniRows(desk?4:3)}`;
+    }],
+  ["3","In the sentence", false, "A fourth menu in the sentence: “Show me any piece for any ensemble with clarinet at any level”. Most in keeping with the finder, but one instrument at a time, and the sentence grows by a line, on phones too.",
+    null,
+    (desk) => `<section class="hero" style="padding-top:0"><div class="finder">${sentence({instrument:SEL, open: desk ? "instrument" : null}).replace('class="menu"','class="menu" style="position:absolute;min-width:240px;max-height:360px;overflow:auto"')}${levelBars(null)}</div></section>${resultsHead(withSel.length)}${miniRows(desk?4:3)}`],
+];
+document.getElementById("filters").innerHTML = FILTEROPTS.map(([k, name, rec, text, _p, body]) =>
+  `<div class="opt"><div class="oh"><b>${k} · ${name}</b>${rec?'<span class="rec">Recommended</span>':""}<span>${text}</span></div>` +
+  `<div class="pair-view"><div><div class="cap">Desktop</div>${body(true)}</div><div><div class="cap">Phone</div><div class="phone">${body(false)}</div></div></div></div>`).join("");
+</script>
+</body></html>
