@@ -40,6 +40,14 @@ Before the full run:
 2. Settled by the owner: solo-violin showpieces published with string-quartet accompaniment (Mayseder's Polonaise Op. 12, Lipiński's Polonaises Op. 9) stay in the chamber section, under "Other ensembles" with a `formationNote` (rule in the brief; the three pilot entries were aligned with it by hand).
 3. Done: the owner confirmed the eight proposed exclusions; they are in `data/chamber/excluded-composers.json`.
 
+Brief changes during the full run (made between waves, for problems several agents hit; each agent works from the brief as it stood when it started):
+- After waves 1–2 (c01–c16; from c25 on):
+  1. Census pages filed under "unspecified instruments" are checked too: baroque prints that name alternatives ("flutes, violins or oboes", "viols or violins") were filed there (Gibbons's *Fantazies of III Parts*, Dowland's *Lachrimae*, Boismortier Op. 37, Naudot Op. 17; c01, c10, c16).
+  2. Baroque ensemble works without a soloist (concerti a quattro, sinfonie, balletti): in only when the source points to one player per part and a recording is one to a part; otherwise skipped as string orchestra and named in `note`. Wave 1–2 agents decided this case by case: Albinoni's *Balletti a cinque* (c07) and Telemann's TWV 43 concertos (c04) are in, Caldara's *Sinfonie a quattro* (c09), Dall'Abaco Op. 2 (c12), Valentini Op. 7 (c11), Tessarini Opp. 10–11 (c14) and Vivaldi RV 169 (c05) out. The owner may still rule.
+  3. Accompanied keyboard sonatas whose first edition marks all the strings ad libitum: kept when recorded with the strings, with "Strings ad lib. in the first edition" at the start of `notes` (Avison, c08, kept them; Vanhal's Op. 12, c18, was skipped under the ad-lib rule).
+  4. Renaissance and early-17th-century composers take the era `baroque` (the vocabulary has no earlier era; c01, c02).
+  5. The budget counts tool calls: several agents stopped at 30–40 calls with composers left partial (c01 needed a follow-up).
+
 ## Proposed order
 1. The owner's decisions of 2026-10-16 are in the brief and the census (`CENSUS.md`, "Decisions"): vocal works only as chamber music, viol consorts in (their own formation), contemporary and living composers in when they have a professional track record (Stephen W. Beatty left out: `data/chamber/excluded-composers.json`), the glass harmonica as a note, family-name-first names accepted.
 2. **Pilot of three slices**: `c22_haydn-string-quartet-large-strings` (six benchmarks to match against), one mid slice (`m07_early-romantic-mayseder-veit`) and one tail slice (`t07_classical-c-f`). Check the output against the brief, the budget, the floor decisions and the house style; resize the slices if the agents run out of calls (tail slices are the risk).
