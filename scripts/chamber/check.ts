@@ -25,7 +25,11 @@ const instrumentKeys = Object.keys(INSTRUMENTS) as [InstrumentKey, ...Instrument
 const Work = z
   .object({
     id: z.number().int().min(100001),
-    composer: z.string().regex(/^[^,]+, .+$/, 'composer must be "Surname, Given names"'),
+    // "Surname, Given names", or a name written family name first without a comma, as the violin catalogue writes
+    // Chinese names ("Tan Dun", "Chen Yi"); either way it must be in the violin catalogue or composers.json (below)
+    composer: z
+      .string()
+      .regex(/^([^,]+, .+|\p{Lu}\p{Ll}+ \p{Lu}[\p{Ll}-]+)$/u, 'composer must be "Surname, Given names" (or family name first: "Tan Dun")'),
     title: z.string().min(1),
     aka: z.array(z.string().min(1)).optional(),
     formation: z.enum(keys(FORMATIONS)),

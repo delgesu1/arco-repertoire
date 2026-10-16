@@ -6,6 +6,7 @@ export type FormationKey =
   | "string-quartet"
   | "string-quintet"
   | "large-strings" // sextets to nonets for strings alone
+  | "viol-consort" // three or more viols, with or without a chamber organ or harpsichord
   | "piano-trio" // violin, cello, piano
   | "piano-quartet" // violin, viola, cello, piano
   | "piano-quintet" // string quartet (or violin, viola, cello, bass) and piano
@@ -58,7 +59,7 @@ export type HardestPart = string;
 /** One work as stored in data/chamber/works.json (the section's source of truth). */
 export interface ChamberWork {
   id: number; // 100001 up
-  composer: string; // "Last, First", spelled as in the violin catalogue
+  composer: string; // "Last, First" (or family name first with no comma: "Tan Dun"), spelled as in the violin catalogue
   title: string; // house style; nickname in ("…") at the end
   aka?: string[]; // other names people search for ("Der Tod und das Mädchen")
   formation: FormationKey;

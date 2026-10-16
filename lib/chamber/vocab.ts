@@ -13,6 +13,7 @@ export const FORMATIONS: { key: FormationKey; label: string; singular: string }[
   { key: "string-quartet", label: "String quartets", singular: "String quartet" },
   { key: "string-quintet", label: "String quintets", singular: "String quintet" },
   { key: "large-strings", label: "Sextets & octets", singular: "String sextet or larger" },
+  { key: "viol-consort", label: "Viol consorts", singular: "Viol consort" },
   { key: "piano-trio", label: "Piano trios", singular: "Piano trio" },
   { key: "piano-quartet", label: "Piano quartets", singular: "Piano quartet" },
   { key: "piano-quintet", label: "Piano quintets", singular: "Piano quintet" },
@@ -24,7 +25,7 @@ export const FORMATIONS: { key: FormationKey; label: string; singular: string }[
 
 /** the ensemble menu's groups, each in FORMATIONS order */
 export const FORMATION_GROUPS: { label: string; keys: FormationKey[] }[] = [
-  { label: "Strings", keys: ["string-trio", "string-quartet", "string-quintet", "large-strings"] },
+  { label: "Strings", keys: ["string-trio", "string-quartet", "string-quintet", "large-strings", "viol-consort"] },
   { label: "Piano and strings", keys: ["piano-trio", "piano-quartet", "piano-quintet", "piano-strings"] },
   { label: "Mixed", keys: ["winds-strings", "continuo", "other"] },
 ];
@@ -44,6 +45,7 @@ export const FORMATION_PHRASE: Record<FormationKey, { lead: "for" | "with"; noun
   "string-quartet": { lead: "for", noun: "string quartet" },
   "string-quintet": { lead: "for", noun: "string quintet" },
   "large-strings": { lead: "for", noun: "string sextet or larger" },
+  "viol-consort": { lead: "for", noun: "viol consort" },
   "piano-trio": { lead: "for", noun: "piano trio" },
   "piano-quartet": { lead: "for", noun: "piano quartet" },
   "piano-quintet": { lead: "for", noun: "piano quintet" },
@@ -125,16 +127,20 @@ export const playersFor = (ins: Instrumentation): number =>
   entries(ins).reduce((n, [k, c]) => n + (INSTRUMENTS[k].family === "electronics" ? 0 : c), 0);
 
 /**
- * The formation a scoring belongs to, checked in this order: continuo → any wind or brass → harp, guitar, voice and the
- * like → piano with strings → strings alone. Electronics never change it. A stored formation may differ only with a
+ * The formation a scoring belongs to, checked in this order: continuo → any wind or brass → a consort of viols → harp,
+ * guitar, voice and the like → piano with strings → strings alone. Electronics never change it. A stored formation may differ only with a
  * formationNote (Schoenberg's Second Quartet is a string quartet although a soprano joins it).
  */
 export function formationFor(ins: Instrumentation): FormationKey {
   if (count(ins, "continuo")) return "continuo";
   if (count(ins, "wind")) return "winds-strings";
-  if (count(ins, "other")) return "other";
   const strings = count(ins, "string");
   const n = (k: InstrumentKey) => ins[k] ?? 0;
+  // viols alone, or with the chamber organ or harpsichord of the English consort repertoire (Jenkins, Lawes, Purcell)
+  const viols = n("viola-da-gamba");
+  if (viols >= 3 && viols === strings && entries(ins).every(([k]) => k === "viola-da-gamba" || k === "organ" || k === "harpsichord"))
+    return "viol-consort";
+  if (count(ins, "other")) return "other";
   const piano = n("piano");
   if (piano === 1) {
     if (strings === 2 && n("violin") === 1 && n("cello") === 1) return "piano-trio";

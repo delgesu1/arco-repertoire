@@ -40,8 +40,7 @@ const matches: { id: number; imslpPage: string | null; how: string }[] = read("d
 const benchmarks: ChamberWork[] = read("data/chamber/works.json");
 const violin = (read("data/build/catalogue.json") as Catalogue).pieces;
 
-const CAPACITY = { core: 130, mid: 250, tail: 600 } as const; // works per slice (the open-question groups not counted)
-const OPEN = new Set(["voice", "viols"]); // vocal works and viol consorts wait for the owner's decision
+const CAPACITY = { core: 130, mid: 250, tail: 600 } as const; // works per slice
 const ERA_ORDER = ["early-music", "baroque", "classical", "early-romantic", "late-romantic", "20th-century", "contemporary", "unknown"];
 const REGIONS: [RegExp, string][] = [
   [/Italian/, "italy"],
@@ -66,7 +65,6 @@ const benchmarkComposers = new Set(benchmarks.map((w) => w.composer));
 interface Stat {
   name: string;
   works: number;
-  open: number; // works in the open-question groups
   recorded: number;
   era: string;
   byFormation: Map<FormationKey, number>;
@@ -76,11 +74,7 @@ for (const c of candidates) {
   if (!c.works) continue;
   const s =
     stats.get(c.composer) ??
-    stats.set(c.composer, { name: c.composer, works: 0, open: 0, recorded: 0, era: c.era, byFormation: new Map() }).get(c.composer)!;
-  if (c.flags.some((f) => OPEN.has(f))) {
-    s.open += c.works;
-    continue;
-  }
+    stats.set(c.composer, { name: c.composer, works: 0, recorded: 0, era: c.era, byFormation: new Map() }).get(c.composer)!;
   s.works += c.works;
   if (c.signals.includes("recorded")) s.recorded += c.works;
   s.byFormation.set(c.formation, (s.byFormation.get(c.formation) ?? 0) + c.works);
@@ -98,6 +92,7 @@ const ANON = /^(Anonymous|Various|Traditional)$/;
 // standard chamber composers with fewer than five recorded works on IMSLP (its recording links miss many): core all the
 // same, so that their slices run the gap check against a work list
 const CORE_EXTRA = new Set([
+  "Jenkins, John", "Lawes, William", "Locke, Matthew", "Coperario, John", "Dowland, John", // the English viol consort
   "Tartini, Giuseppe", "Leclair, Jean-Marie", "Biber, Heinrich Ignaz Franz", "Schmelzer, Johann Heinrich", "Marini, Biagio", "Castello, Dario",
   "Rossi, Salamone", "Uccellini, Marco", "Rameau, Jean-Philippe", "Rosenmüller, Johann", "Krommer, Franz", "Danzi, Franz", "Viotti, Giovanni Battista",
   "Romberg, Andreas", "Kuhlau, Friedrich", "Arriaga, Juan Crisóstomo de", "Weber, Carl Maria von", "Field, John", "Chopin, Frédéric", "Glinka, Mikhail",
@@ -119,7 +114,7 @@ const kindOf = (s: Stat) =>
         : "tail";
 
 // ---------- slices ----------
-type Part = { name: string; formations?: FormationKey[]; label?: string; works: number; recorded: number; open: number };
+type Part = { name: string; formations?: FormationKey[]; label?: string; works: number; recorded: number };
 interface Slice {
   slice: string;
   kind: "core" | "mid" | "tail";
@@ -127,7 +122,6 @@ interface Slice {
   region: string;
   works: number;
   recorded: number;
-  open: number;
   composers: Part[];
 }
 const slug = (s: string) =>
@@ -146,10 +140,10 @@ const FAMILIES: [string, FormationKey[]][] = [
   ["mixed", ["winds-strings", "continuo", "other"]],
 ];
 function partsOf(s: Stat, cap: number): Part[] {
-  if (s.works <= cap) return [{ name: s.name, works: s.works, recorded: s.recorded, open: s.open }];
+  if (s.works <= cap) return [{ name: s.name, works: s.works, recorded: s.recorded }];
   const rec = (fs: FormationKey[]) =>
     candidates
-      .filter((c) => c.composer === s.name && fs.includes(c.formation) && c.signals.includes("recorded") && !c.flags.some((x) => OPEN.has(x)))
+      .filter((c) => c.composer === s.name && fs.includes(c.formation) && c.signals.includes("recorded"))
       .reduce((n, c) => n + c.works, 0);
   const size = (fs: FormationKey[]) => fs.reduce((n, f) => n + (s.byFormation.get(f) ?? 0), 0);
   const units: { label: string; formations: FormationKey[] }[] = [];
@@ -170,9 +164,8 @@ function partsOf(s: Stat, cap: number): Part[] {
       p.labels.push(u.label);
       p.works += n;
       p.recorded += rec(u.formations);
-    } else parts.push({ name: s.name, formations: [...u.formations], labels: [u.label], works: n, recorded: rec(u.formations), open: 0 });
+    } else parts.push({ name: s.name, formations: [...u.formations], labels: [u.label], works: n, recorded: rec(u.formations) });
   }
-  parts[0].open = s.open;
   return parts.map((p) => ({ ...p, label: p.labels.join("-") }));
 }
 
@@ -180,7 +173,7 @@ function partsOf(s: Stat, cap: number): Part[] {
 const slices: Slice[] = [];
 for (const kind of ["core", "mid", "tail"] as const) {
   const cap = CAPACITY[kind];
-  const group = [...stats.values()].filter((s) => kindOf(s) === kind && s.works + s.open > 0 && !phase3.has(s.name));
+  const group = [...stats.values()].filter((s) => kindOf(s) === kind && s.works > 0 && !phase3.has(s.name));
   const regionKey = (s: Stat) => (kind === "tail" ? "" : regionOf(s.name));
   group.sort(
     (a, b) =>
@@ -192,18 +185,17 @@ for (const kind of ["core", "mid", "tail"] as const) {
   for (const s of group) {
     for (const part of partsOf(s, cap)) {
       if (part.formations) {
-        slices.push({ slice: "", kind, era: s.era, region: regionKey(s), works: part.works, recorded: part.recorded, open: part.open, composers: [part] });
+        slices.push({ slice: "", kind, era: s.era, region: regionKey(s), works: part.works, recorded: part.recorded, composers: [part] });
         continue; // a split composer's part is a slice of its own
       }
       const fits = cur && cur.era === s.era && cur.works + part.works <= cap;
       if (!fits) {
-        cur = { slice: "", kind, era: s.era, region: regionKey(s), works: 0, recorded: 0, open: 0, composers: [] };
+        cur = { slice: "", kind, era: s.era, region: regionKey(s), works: 0, recorded: 0, composers: [] };
         slices.push(cur);
       }
       cur!.composers.push(part);
       cur!.works += part.works;
       cur!.recorded += part.recorded;
-      cur!.open += part.open;
     }
   }
 }
@@ -211,9 +203,9 @@ for (const kind of ["core", "mid", "tail"] as const) {
 for (let i = slices.length - 1; i > 0; i--) {
   const [prev, s] = [slices[i - 1], slices[i]];
   const whole = (x: Slice) => !x.composers.some((c) => c.formations);
-  if (s.kind === prev.kind && whole(s) && whole(prev) && s.works + s.open < CAPACITY[s.kind] / 4) {
+  if (s.kind === prev.kind && whole(s) && whole(prev) && s.works < CAPACITY[s.kind] / 4) {
     prev.composers.push(...s.composers);
-    for (const k of ["works", "recorded", "open"] as const) prev[k] += s[k];
+    for (const k of ["works", "recorded"] as const) prev[k] += s[k];
     if (prev.era !== s.era && !prev.era.endsWith(`+${s.era}`)) prev.era = `${prev.era}+${s.era}`;
     slices.splice(i, 1);
   }
@@ -240,12 +232,12 @@ const sum = (xs: Slice[], f: (s: Slice) => number) => xs.reduce((n, s) => n + f(
 const groups = {
   _about:
     "Composer slices for the phase-2 curation agents (data/chamber/curation/AGENT_BRIEF.md), generated by scripts/chamber/curation_slices.ts " +
-    "from the census. works = in-scope IMSLP works of the slice (vocal and viol-consort works, which wait for the owner's decision, are in 'open'); " +
+    "from the census. works = in-scope IMSLP works of the slice; " +
     "recorded = works IMSLP links to a commercial recording. A composer with 'formations' is split across slices by formation.",
   summary: Object.fromEntries(
     (["core", "mid", "tail"] as const).map((k) => [
       k,
-      { slices: total(k).length, composers: new Set(total(k).flatMap((s) => s.composers.map((c) => c.name))).size, works: sum(total(k), (s) => s.works), recorded: sum(total(k), (s) => s.recorded), open: sum(total(k), (s) => s.open) },
+      { slices: total(k).length, composers: new Set(total(k).flatMap((s) => s.composers.map((c) => c.name))).size, works: sum(total(k), (s) => s.works), recorded: sum(total(k), (s) => s.recorded) },
     ]),
   ),
   slices: Object.fromEntries(
@@ -257,7 +249,6 @@ const groups = {
         region: s.region,
         works: s.works,
         recorded: s.recorded,
-        open: s.open,
         composers: s.composers.map((c) => (c.formations ? { name: c.name, formations: c.formations } : c.name)),
       },
     ]),
@@ -285,7 +276,7 @@ console.log(JSON.stringify(groups.summary));
       coverage[name] = {
         slice,
         inViolinCatalogue: violinComposers.has(name),
-        imslpWorks: st ? st.works + st.open : 0,
+        imslpWorks: st?.works ?? 0,
         imslpRecorded: st?.recorded ?? 0,
         benchmarks: benchmarks.filter((w) => w.composer === name).length,
       };

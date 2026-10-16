@@ -5,6 +5,7 @@
  *         data/cache/imslp-all/pages/*.json, resolve.json   the earlier composer harvest (pages reused, IMSLP names → catalogue names)
  *         data/chamber/imslp-instruments.json              IMSLP instrument names → InstrumentKey (fails on a name it does not know)
  *         data/chamber/imslp-composers.json                IMSLP composer names → house spelling, where resolve.json does not map them
+ *         data/chamber/excluded-composers.json             composers left out entirely (no professional track record)
  *         data/chamber/works.json, composers.json, benchmarks/verify/*.json, data/build/catalogue.json
  * Writes  data/chamber/census/census.json          every count below, machine-readable
  *         data/chamber/census/CENSUS.md            the same for reading
@@ -98,6 +99,12 @@ function parseScoring(name: string): Scoring | null {
 const isString = (k: InstrumentKey) => INSTRUMENTS[k].family === "string";
 const keysOf = (ins: Ins) => Object.keys(ins) as InstrumentKey[];
 
+const VOCAL_CONTINUO = "voice with continuo (cantata, sacred concerto): vocal repertoire";
+const VOCAL_SONG = "voice with fewer than three instruments (a song): vocal repertoire";
+const EXCLUDED = "composer excluded (data/chamber/excluded-composers.json)";
+const VOCAL_FOLK = "folk-song settings with voice: vocal repertoire";
+const FOLK_TITLE = /Songs of Various Nationalities|\b(Irish|Scottish|Welsh|English) (Songs|Airs)\b/;
+
 /** why a scoring is outside the section, or null when it is in scope */
 function scopeReason(s: Scoring): string | null {
   if (s.out.length) return s.out[0];
@@ -106,6 +113,11 @@ function scopeReason(s: Scoring): string | null {
   if (p < 3) return "fewer than 3 players";
   if (p > 9) return "more than 9 players";
   if (keysOf(s.ins).every((k) => k === "violin")) return "violins alone (violin section)";
+  // vocal works only as chamber music (owner, 2026-10-16): an instrumental ensemble of three or more, no continuo
+  if (s.ins.voice) {
+    if (s.ins.continuo) return VOCAL_CONTINUO;
+    if (p - s.ins.voice < 3) return VOCAL_SONG;
+  }
   return null;
 }
 
@@ -153,6 +165,7 @@ const resolve: Record<string, { category?: string }> = read("data/cache/imslp-al
 const imslpToCatalogue = new Map<string, string>();
 for (const [name, v] of Object.entries(resolve)) if (v.category) imslpToCatalogue.set(v.category, name);
 const aliases: Record<string, string> = read("data/chamber/imslp-composers.json");
+const excludedComposers: Record<string, string> = read("data/chamber/excluded-composers.json");
 for (const [imslp, name] of Object.entries(aliases)) if (imslp !== "_about") imslpToCatalogue.set(imslp, name);
 const composerEra = new Map<string, EraKey>();
 {
@@ -271,6 +284,10 @@ for (const [title] of found) {
   if (!stringy) continue;
   pagesWithStringScoring++;
   const composer = composerOf(title);
+  if (excludedComposers[composer]) {
+    outOfScope.push({ title, composer, reason: EXCLUDED, scorings: scorings.map((s) => s.name) });
+    continue;
+  }
   const inScope = scorings.filter((s) => !scopeReason(s));
   if (!inScope.length) {
     const reasons = scorings.map(scopeReason).filter((r): r is string => !!r);
@@ -279,6 +296,8 @@ for (const [title] of found) {
       "fewer than 3 players",
       "more than 9 players",
       "baryton (Haydn's baryton works are out, decision 3)",
+      VOCAL_CONTINUO,
+      VOCAL_SONG,
     ];
     const reason =
       order.find((r) => reasons.includes(r)) ??
@@ -301,6 +320,11 @@ for (const [title] of found) {
   const best = [...inScope].sort(
     (a, b) => playersFor(a.ins) - playersFor(b.ins) || fit(b) - fit(a) || named(b) - named(a) || a.name.localeCompare(b.name),
   )[0];
+  // folk-song settings with voice and a piano trio (Beethoven's, Thomson's collections) are songs, not chamber music
+  if (best.ins.voice && (cats.includes("Folksongs") || FOLK_TITLE.test(title))) {
+    outOfScope.push({ title, composer, reason: VOCAL_FOLK, scorings: scorings.map((s) => s.name) });
+    continue;
+  }
   const year = yearOf(info);
   const genre = cats.filter(
     (c) =>
@@ -336,7 +360,7 @@ for (const [title] of found) {
     upload: cats.includes("Works not in public domain"),
     linked: cats.includes("Work pages with links to recordings"),
     voice: keys.includes("voice"),
-    viols: keys.every((k) => k === "viola-da-gamba"),
+    viols: formationFor(best.ins) === "viol-consort",
     folded: best.folded,
     pedagogical: PEDAGOGICAL.test(`${title} ${info["Alternative Title"] ?? ""}`) || cats.some((c) => PEDAGOGICAL_CAT.test(c)),
     fragment: FRAGMENT.test(`${title} ${info["Number of Movements/Sections"] ?? ""}`) || cats.includes("Incomplete works"),
@@ -495,7 +519,7 @@ const census = {
   outOfScopeReasons: tally(outOfScope, (o) => o.reason),
   works: {
     candidates: sum(candidates),
-    withVoice: sum(candidates.filter((c) => c.voice)),
+    chamberVocal: sum(candidates.filter((c) => c.voice)),
     violConsort: sum(candidates.filter((c) => c.viols)),
     instrumentalNotViols: sum(keep),
     collectionPagesDeduplicated: candidates.filter((c) => c.setsDupe).length,
@@ -522,7 +546,7 @@ const census = {
     estimate: {} as Record<string, number>,
     tiers: {} as Record<string, number>,
     sample: null as SampleRow[] | null,
-    openGroups: {} as Record<string, { works: number; recorded: number }>,
+    groups: {} as Record<string, { works: number; recorded: number }>,
   },
   benchmarks: {
     total: works.length,
@@ -535,12 +559,14 @@ const census = {
 };
 
 // ---------- floor estimate ----------
-// The pool is the instrumental candidates (vocal works and viol consorts wait for the owner's decision; pedagogical and
-// fragment flags are left out). Without a sample: the recorded tier, plus the recorded works the signal misses at its
+// The pool is the instrumental candidates without the viol consorts (the population the sample was drawn from;
+// pedagogical and fragment flags are left out); the viol consorts and chamber vocal works get the pool's tier rates. Without a sample: the recorded tier, plus the recorded works the signal misses at its
 // benchmark recall. With the 120-page sample (data/chamber/census/floor-sample/, checked against recording catalogues by
 // subagents): each tier's share of works with a commercial recording, times the tier's works.
 const pool = candidates.filter((c) => !c.voice && !c.viols && !c.pedagogical && !c.fragment && c.works > 0);
 const poolTiers = tally(pool, floorTier, W);
+const extra = candidates.filter((c) => (c.voice || c.viols) && !c.pedagogical && !c.fragment && c.works > 0);
+const extraTiers = tally(extra, floorTier, W);
 const TIERS = Object.keys(poolTiers).sort();
 const sampleDir = join(OUT, "floor-sample");
 const sampleTier: Record<string, string> = existsSync(join(sampleDir, "tiers.json")) ? JSON.parse(readFileSync(join(sampleDir, "tiers.json"), "utf8")) : {};
@@ -551,6 +577,11 @@ for (const g of ["s1", "s2", "s3"]) {
   const outF = join(sampleDir, `results-${g}.json`);
   if (existsSync(inF)) for (const it of JSON.parse(readFileSync(inF, "utf8")).items) sampleItems.set(it.key, it);
   if (existsSync(outF)) sampleResults.push(...JSON.parse(readFileSync(outF, "utf8")).results);
+}
+// a sampled page whose composer has since been excluded no longer counts
+for (let i = sampleResults.length - 1; i >= 0; i--) {
+  const it = sampleItems.get(sampleResults[i].key) as { composer?: string } | undefined;
+  if (it?.composer && excludedComposers[it.composer]) sampleResults.splice(i, 1);
 }
 // a sampled page counts as the share of its works that are recorded (1 or 0 for a single work, recorded_works / works for
 // a set; "unsure" is half); a tier's pass rate is the mean over its pages, with an Agresti–Coull interval, and the tiers'
@@ -591,8 +622,18 @@ const sampled = sampleResults.length > 0;
   const missed = recall > 0 ? Math.min(B, Math.round(A * (1 / recall - 1))) : 0;
   const est = sampleByTier.reduce((n, t) => n + t.estimatedPass, 0);
   const sd = Math.sqrt(sampleByTier.reduce((n, t) => n + t.variance, 0));
+  const extraPass = Math.round(sampleByTier.reduce((n, t) => n + t.passRate * (extraTiers[t.tier] ?? 0), 0));
   census.floor.estimate = sampled
-    ? { pool: sum(pool), estimatedPass: est, low: Math.round(est - 1.96 * sd), high: Math.round(est + 1.96 * sd), recordedSignal: A }
+    ? {
+        pool: sum(pool),
+        estimatedPass: est,
+        low: Math.round(est - 1.96 * sd),
+        high: Math.round(est + 1.96 * sd),
+        recordedSignal: A,
+        violsAndVocal: sum(extra),
+        violsAndVocalPass: extraPass,
+        violsAndVocalRecordedSignal: sum(extra.filter((c) => c.recorded)),
+      }
     : { pool: sum(pool), recordedSignal: A, publishedNoSignal: B, likelyPass: A + missed, upperBound: A + B };
   census.floor.note = sampled
     ? `${sampleResults.length} randomly drawn pages, stratified by tier, were checked for a commercial recording by three subagents ` +
@@ -603,7 +644,7 @@ const sampled = sampleResults.length > 0;
 }
 census.floor.tiers = poolTiers;
 census.floor.sample = sampled ? sampleByTier : null;
-census.floor.openGroups = {
+census.floor.groups = {
   voice: { works: sum(candidates.filter((c) => c.voice)), recorded: sum(candidates.filter((c) => c.voice && c.recorded)) },
   viols: { works: sum(candidates.filter((c) => c.viols)), recorded: sum(candidates.filter((c) => c.viols && c.recorded)) },
 };
@@ -660,7 +701,11 @@ writeFileSync(join(OUT, "benchmark-matches.json"), JSON.stringify(benchmarkMatch
     .filter((r) => !/^(Anonymous|Various)$/.test(r.composer));
   const big = swamp.filter((r) => r.works >= 80 && r.recorded / r.works >= 0.2);
   swamp.splice(0, swamp.length, ...swamp.filter((r) => r.works >= 80 && r.recorded / r.works < 0.2));
-  const open = census.floor.openGroups;
+  const groups = census.floor.groups;
+  const r100 = (x: number) => n(Math.round(x / 100) * 100);
+  // the largest remaining recent uploads (IMSLP "Works not in public domain"): the composer-level rule applies to them
+  const uploaders = Object.entries(tally(candidates.filter((c) => c.upload), (c) => c.composer, W)).slice(0, 8);
+  const vocalOut = (census.outOfScopeReasons as Record<string, number>);
   const notInVocab = Object.entries(census.outOfScopeReasons).filter(([r]) => r.includes("not in the vocabulary"));
   const lines = [
     "# Chamber music census (IMSLP)",
@@ -679,11 +724,13 @@ writeFileSync(join(OUT, "benchmark-matches.json"), JSON.stringify(benchmarkMatch
       ["… with an original string scoring", pagesWithStringScoring, "–"],
       ["… outside the scope rules", outOfScope.length, "–"],
       ["… in scope (candidates)", candidates.length, total],
-      ["Candidates without voice or viol consort", inst.length, sum(inst)],
-      ["… IMSLP links a commercial recording", inst.filter((c) => c.recorded).length, recW(inst)],
+      ["… instrumental, viol consorts aside", inst.length, sum(inst)],
+      ["… viol consorts", candidates.filter((c) => c.viols).length, groups.viols.works],
+      ["… chamber vocal works", candidates.filter((c) => c.voice).length, groups.voice.works],
+      ["… IMSLP links a commercial recording", candidates.filter((c) => c.recorded).length, recW(candidates)],
     ]),
     "",
-    `The 2,538 works for 3–9 players that the plan counted in the composer harvest grow to **${n(total)} in-scope works on ${n(candidates.length)} IMSLP pages** by ${n(composerRows.length)} composers. Most will not pass the floor: ` + (census.floor.sample ? `a checked sample puts the instrumental works that do at about ${n(Math.round((census.floor.estimate as Record<string, number>).estimatedPass / 100) * 100)} (95% range ${n(Math.round((census.floor.estimate as Record<string, number>).low / 100) * 100)}–${n(Math.round((census.floor.estimate as Record<string, number>).high / 100) * 100)}), before the vocal and viol works and before phase 3. The plan's guess of 4,000–5,000 works for the whole section is too low: with phase 3 adding perhaps 1,000–2,000 modern works (its plan has 287 composers, say four to seven works each), expect roughly 9,000, unless the floor is applied more strictly than "recorded".` : "see the estimate below."),
+    `The 2,538 works for 3–9 players that the plan counted in the composer harvest grow to **${n(total)} in-scope works on ${n(candidates.length)} IMSLP pages** by ${n(composerRows.length)} composers. Most will not pass the floor: ` + (census.floor.sample ? `a checked sample puts the instrumental works that do at about ${r100(est.estimatedPass)} (95% range ${r100(est.low)}–${r100(est.high)}), and the viol consorts and chamber vocal works add about ${r100(est.violsAndVocalPass)} more (the sample's rates applied to them). The plan's guess of 4,000–5,000 works for the whole section is too low: with phase 3 adding perhaps 1,000–2,000 modern works (its plan has 287 composers, say four to seven works each), expect roughly ${r100(est.estimatedPass + est.violsAndVocalPass + 1500)}, unless the floor is applied more strictly than "recorded".` : "see the estimate below."),
     "",
     "## Outside the scope rules",
     `${n(outOfScope.length)} pages have a string part in an original scoring but no scoring that the rules admit (\`out-of-scope.jsonl\`):`,
@@ -691,12 +738,12 @@ writeFileSync(join(OUT, "benchmark-matches.json"), JSON.stringify(benchmarkMatch
     table(["reason", "pages"], Object.entries(census.outOfScopeReasons).filter(([r]) => !r.includes("not in the vocabulary")).map(([r, c]) => [r, c]).concat([["instrument not in the vocabulary (" + notInVocab.map(([r, c]) => `${r.split(":")[0]} ${c}`).join(", ") + ")", notInVocab.reduce((a, [, c]) => a + c, 0)]])),
     "",
     "## By formation",
-    table(["formation", "works", "with voice", "viol consort", "recorded (instrumental)"], FORMATIONS.map((f) => {
+    table(["formation", "works", "of them with voice", "recorded"], FORMATIONS.map((f) => {
       const xs = candidates.filter((c) => c.formation === f.key);
-      return [f.singular, sum(xs), sum(xs.filter((c) => c.voice)), sum(xs.filter((c) => c.viols)), recW(xs.filter((c) => !c.voice && !c.viols))];
+      return [f.singular, sum(xs), sum(xs.filter((c) => c.voice)), recW(xs)];
     })),
     "",
-    "Viol consorts count as string ensembles by `formationFor()` (four viols are a \"string quartet\"); vocal works with continuo count as \"with continuo\". Both wait for a decision (below).",
+    "Viol consorts (three or more viols, with or without organ or harpsichord) have their own formation; a viol with violins, or two viols with continuo, keeps the usual one. Works with voice are in only as chamber music (decisions below), mostly under \"Other ensemble\".",
     "",
     "## By era",
     "Era is the composer's era in the violin catalogue (or `data/chamber/composers.json`); for the others, IMSLP's piece style and the year.",
@@ -722,14 +769,14 @@ writeFileSync(join(OUT, "benchmark-matches.json"), JSON.stringify(benchmarkMatch
       ". Even after the floor they will fill the first pages of an unsorted list of their formations.",
     "",
     "## The floor: how many pass",
-    `The pool is the ${n(est.pool)} instrumental works (vocal and viol-consort works, pedagogical and fragment flags left out), in tiers by IMSLP's evidence:`,
+    `The sampled pool is the ${n(est.pool)} instrumental works other than viol consorts (pedagogical and fragment flags left out), in tiers by IMSLP's evidence:`,
     "",
     sampleRows
       ? table(["tier", "works", "sample pages", "recorded", "unsure", "modern edition", "pass rate (95%)", "estimated pass (95%)"], sampleRows.map((t) => [t.tier, t.works, t.checked, t.recorded, t.unsure, t.modernEdition, `${Math.round(t.passRate * 100)}% (${Math.round(t.rateInterval[0] * 100)}–${Math.round(t.rateInterval[1] * 100)}%)`, `${n(t.estimatedPass)} (${n(t.estimatedRange[0])}–${n(t.estimatedRange[1])})`]))
       : table(["tier", "works"], TIERS.map((t) => [t, poolTiers[t]])),
     "",
     sampleRows
-      ? `**Estimate: about ${n(Math.round(est.estimatedPass / 100) * 100)} public-domain instrumental works pass the floor** (95% range ${n(Math.round(est.low / 100) * 100)}–${n(Math.round(est.high / 100) * 100)}), against the ${n(est.recordedSignal)} that carry IMSLP's recording signal: the signal is precise but misses most recordings of lesser works, and many pages with no publication data on IMSLP are recorded (Boccherini's quartets among them). ${census.floor.note}`
+      ? `**Estimate: about ${r100(est.estimatedPass)} public-domain instrumental works pass the floor** (95% range ${r100(est.low)}–${r100(est.high)}), against the ${n(est.recordedSignal)} that carry IMSLP's recording signal: the signal is precise but misses most recordings of lesser works, and many pages with no publication data on IMSLP are recorded (Boccherini's quartets among them). The ${n(est.violsAndVocal)} viol-consort and chamber vocal works were not sampled; at the same rates about ${r100(est.violsAndVocalPass)} of them pass (${n(est.violsAndVocalRecordedSignal)} carry the signal). ${census.floor.note}`
       : `Recall-based estimate (no sample yet): about ${n(est.likelyPass)}; upper bound ${n(est.upperBound)}. ${census.floor.note}`,
     "",
     (() => {
@@ -762,12 +809,12 @@ writeFileSync(join(OUT, "benchmark-matches.json"), JSON.stringify(benchmarkMatch
     "## Benchmarks",
     `${census.benchmarks.imslpPageFound} of the ${census.benchmarks.total} benchmarks have an IMSLP page (through the fact-check's links, following redirects); ${census.benchmarks.harvested} were harvested and ${census.benchmarks.candidates} are candidates. The one harvested but not a candidate is Turina's *La oración del torero*, whose string-quartet version IMSLP files as an arrangement of the lute-quartet original: the composer's own versions listed as arrangements are a gap the census cannot see (the curators' gap check covers them for core composers). The other ${census.benchmarks.total - census.benchmarks.imslpPageFound} are not on IMSLP, most of them under copyright (Barber, Britten, Glass, Pärt …): phase 3. Each benchmark's page is in \`benchmark-matches.json\`.`,
     "",
-    "## Open questions for the owner",
-    `1. **Vocal works with strings** (${n(open.voice.works)} works, ${n(open.voice.recorded)} recorded): songs with one obbligato instrument (voice, violin, piano), baroque solo and ensemble cantatas with two violins and continuo, Haydn's ${n(sum(candidates.filter((c) => c.composer === "Haydn, Joseph" && c.voice)))} Scottish song settings. The scope admits \"strings with voice\" and the benchmarks hold *Il tramonto*, *Dover Beach* and Schoenberg's Op. 10. Proposal: keep vocal works only with a string quartet or larger ensemble that are programmed as chamber music; leave songs with obbligato and cantatas to a future vocal section.`,
-    `2. **Viol consort music** (${n(open.viols.works)} works for 3–6 viols, ${n(open.viols.recorded)} recorded: Jenkins, Lawes, Coprario, Purcell's fantazias …). Viols are string instruments, so the rules admit them, but \`formationFor()\` calls four viols a string quartet. Proposal: in, with a \`formationNote\` (or a new formation \"Viol consort\"), only when recorded.`,
-    `3. **Recent uploads** (${n(poolTiers["C not public domain (recent uploads), no recording found"] ?? 0)} works marked \"Works not in public domain\", led by Stephen W. Beatty's ${n(composerRows.find((r) => r.composer === "Beatty, Stephen W.")?.works ?? 0)}): living composers' own uploads, almost never recorded. Proposal: the tail triage drops them unless a recording or a performance by a professional ensemble turns up.`,
-    `4. **Instruments the vocabulary lacks**: ${notInVocab.map(([r, c]) => `${r.split(":")[0]} (${c})`).join(", ")}. Only the glass harmonica matters (Mozart's Adagio and Rondo, K. 617); add \`glass-harmonica\` to \`lib/chamber/vocab.ts\`, or list K. 617 with celesta as a published alternative.`,
-    "5. **Composer names without a comma.** The violin catalogue spells some names without one (\"Tan Dun\", \"Chen Yi\"); `scripts/chamber/check.ts` requires \"Surname, Given names\" and would reject them. Relax the check for those names, or respell them in both sections.",
+    "## Decisions (owner, 2026-10-16) and how the census applies them",
+    `1. **Vocal works: chamber music only.** A work with voice stays a candidate when its instruments form a chamber ensemble of three or more players with no continuo (Respighi's *Il tramonto*, Barber's *Dover Beach*, Vaughan Williams's *On Wenlock Edge*, Schoenberg's Op. 10): ${n(groups.voice.works)} works, ${n(groups.voice.recorded)} recorded. Left out as vocal repertoire: ${n(vocalOut[VOCAL_CONTINUO] ?? 0)} pages with continuo (cantatas, sacred concertos), ${n(vocalOut[VOCAL_SONG] ?? 0)} songs with one or two instruments, and ${n(vocalOut[VOCAL_FOLK] ?? 0)} folk-song collections with voice and piano trio (Beethoven's and George Thomson's; Haydn's are among the continuo pages). The curators still judge each kept work by whether it is programmed as chamber music.`,
+    `2. **Viol consorts: in.** Three or more viols, alone or with a chamber organ or harpsichord, are a formation of their own, \"Viol consort\" (\`viol-consort\` in \`lib/chamber/vocab.ts\`): ${n(groups.viols.works)} works, ${n(groups.viols.recorded)} recorded (Jenkins, Lawes, Coprario, Byrd, Gibbons, Purcell's fantazias …). Works for violins with a bass viol, and sonatas for viols with continuo, keep their usual formation.`,
+    `3. **Contemporary and living composers: in, when the composer has a track record** of works performed and taken seriously by professional musicians (professional performances, recordings on established labels, an established publisher, commissions). Self-published uploads are not a track record. Stephen W. Beatty is left out entirely (\`data/chamber/excluded-composers.json\`, ${n(vocalOut[EXCLUDED] ?? 0)} pages). The curators apply the same rule to the other recent uploads (${n(poolTiers["C not public domain (recent uploads), no recording found"] ?? 0)} works marked \"Works not in public domain\"; the largest: ${uploaders.map(([c, w]) => `${c} ${w}`).join(", ")}) and propose further exclusions.`,
+    "4. **Glass harmonica: a note, not a new instrument.** IMSLP's \"glass harmonica\" maps to `celesta`, today's usual substitute, and the work's notes name the glass harmonica (Mozart's Adagio and Rondo, K. 617). The other instruments the vocabulary lacks stay out: " + notInVocab.filter(([r]) => !r.startsWith("glass")).map(([r, c]) => `${r.split(":")[0]} (${c})`).join(", ") + ".",
+    "5. **Names written family name first** (\"Tan Dun\", \"Chen Yi\", as the violin catalogue writes them) are accepted by `scripts/chamber/check.ts`; every other name stays \"Surname, Given names\".",
     "",
     "## Files",
     "- `census.json`: every number above. `candidates.jsonl`: one line per in-scope page (instruments, formation, scoring, opus, key, year, first publication, minutes, works held, era, signals, flags, genre) for the curators. `out-of-scope.jsonl`: the pages the rules leave out, with the reason. `benchmark-matches.json`. `floor-sample/`: the 120-page sample, its brief and the checkers' results.",

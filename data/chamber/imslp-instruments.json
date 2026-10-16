@@ -1,5 +1,5 @@
 {
- "_about": "IMSLP scoring-category names (the parts of 'For 2 violins, viola, cello') mapped to lib/chamber/vocab.ts InstrumentKey. A value is an InstrumentKey; an object when one name is several players ('piano 4 hands'; an object is the whole part, so the count before '2 pianos 8 hands' is not multiplied); or '!reason' when the name puts a scoring outside the section or the vocabulary has no key for it. Plurals ('violins', 'double basses') are found through their singular; a plural without a count ('voices', 'viols') means an unspecified number and puts the scoring out. scripts/chamber/imslp_census.ts fails on any name that is not here.",
+ "_about": "IMSLP scoring-category names (the parts of 'For 2 violins, viola, cello') mapped to lib/chamber/vocab.ts InstrumentKey. A value is an InstrumentKey; an object when one name is several players ('piano 4 hands'; an object is the whole part, so the count before '2 pianos 8 hands' is not multiplied); or '!reason' when the name puts a scoring outside the section or the vocabulary has no key for it. Plurals ('violins', 'double basses') are found through their singular; a plural without a count ('voices', 'viols') means an unspecified number and puts the scoring out. scripts/chamber/imslp_census.ts fails on any name that is not here. The glass harmonica (Mozart's K. 617 and K. 356) is mapped to celesta, today's usual substitute; the work's notes name the glass harmonica (owner, 2026-10-16: a note, not a new instrument).",
  "violin": "violin",
  "viola": "viola",
  "viola alta": "viola",
@@ -39,7 +39,7 @@
  "continuo": "continuo",
  "synthesizer": "!synthesizer: not in the vocabulary",
  "harmonichord": "!harmonichord: not in the vocabulary",
- "glass harmonica": "!glass harmonica: not in the vocabulary (Mozart K. 617)",
+ "glass harmonica": "celesta",
  "flute": "flute",
  "piccolo": "flute",
  "alto flute": "flute",
