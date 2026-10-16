@@ -432,10 +432,11 @@ interface SampleRow {
   recorded: number;
   unsure: number;
   modernEdition: number;
-  workShareRecorded: number;
-  pageShareInterval: number[];
+  passRate: number;
+  rateInterval: number[];
   estimatedPass: number;
   estimatedRange: number[];
+  variance: number;
 }
 const tally = <T>(xs: T[], key: (x: T) => string, weight: (x: T) => number = () => 1) => {
   const m: Record<string, number> = {};
@@ -551,32 +552,36 @@ for (const g of ["s1", "s2", "s3"]) {
   if (existsSync(inF)) for (const it of JSON.parse(readFileSync(inF, "utf8")).items) sampleItems.set(it.key, it);
   if (existsSync(outF)) sampleResults.push(...JSON.parse(readFileSync(outF, "utf8")).results);
 }
-const wilson = (k: number, n: number) => {
-  if (!n) return [0, 0];
-  const z = 1.96, p = k / n, d = 1 + (z * z) / n;
-  const c = (p + (z * z) / (2 * n)) / d, h = (z * Math.sqrt((p * (1 - p)) / n + (z * z) / (4 * n * n))) / d;
-  return [Math.max(0, c - h), Math.min(1, c + h)];
-};
+// a sampled page counts as the share of its works that are recorded (1 or 0 for a single work, recorded_works / works for
+// a set; "unsure" is half); a tier's pass rate is the mean over its pages, with an Agresti–Coull interval, and the tiers'
+// variances add up for the total's range
 const tierLetter = (t: string) => t[0];
 const sampleByTier: SampleRow[] = TIERS.map((t) => {
   const rs = sampleResults.filter((r) => sampleTier[r.key] === tierLetter(t));
-  const yes = rs.filter((r) => r.recorded === "yes");
-  const unsure = rs.filter((r) => r.recorded === "unsure");
-  const works = rs.reduce((n, r) => n + (sampleItems.get(r.key)?.works ?? 1), 0);
-  const recWorks = yes.reduce((n, r) => n + Math.min(sampleItems.get(r.key)?.works ?? 1, r.recorded_works || (sampleItems.get(r.key)?.works ?? 1)), 0);
-  const rate = works ? recWorks / works : 0;
-  const [lo, hi] = wilson(yes.length, rs.length);
+  const share = (r: (typeof rs)[number]) => {
+    const works = Math.max(1, sampleItems.get(r.key)?.works ?? 1);
+    if (r.recorded === "unsure") return 0.5;
+    if (r.recorded !== "yes") return 0;
+    return Math.min(1, (r.recorded_works || works) / works);
+  };
+  const k = rs.reduce((a, r) => a + share(r), 0);
+  const n = rs.length;
+  const rate = n ? k / n : 0;
+  const pt = (k + 2) / (n + 4); // Agresti–Coull
+  const half = 1.96 * Math.sqrt((pt * (1 - pt)) / (n + 4));
+  const W = poolTiers[t];
   return {
     tier: t,
-    works: poolTiers[t],
-    checked: rs.length,
-    recorded: yes.length,
-    unsure: unsure.length,
+    works: W,
+    checked: n,
+    recorded: rs.filter((r) => r.recorded === "yes").length,
+    unsure: rs.filter((r) => r.recorded === "unsure").length,
     modernEdition: rs.filter((r) => r.modern_edition === "yes").length,
-    workShareRecorded: Math.round(rate * 1000) / 1000,
-    pageShareInterval: [Math.round(lo * 100) / 100, Math.round(hi * 100) / 100],
-    estimatedPass: Math.round(rate * poolTiers[t]),
-    estimatedRange: [Math.round(lo * poolTiers[t]), Math.round(hi * poolTiers[t])],
+    passRate: Math.round(rate * 1000) / 1000,
+    rateInterval: [Math.max(0, Math.round((pt - half) * 100) / 100), Math.min(1, Math.round((pt + half) * 100) / 100)],
+    estimatedPass: Math.round(rate * W),
+    estimatedRange: [Math.round(Math.max(0, pt - half) * W), Math.round(Math.min(1, pt + half) * W)],
+    variance: n ? W * W * ((pt * (1 - pt)) / (n + 4)) : 0,
   };
 });
 const sampled = sampleResults.length > 0;
@@ -584,19 +589,16 @@ const sampled = sampleResults.length > 0;
   const A = poolTiers["A recorded"] ?? 0;
   const B = poolTiers["B published, no recording found"] ?? 0;
   const missed = recall > 0 ? Math.min(B, Math.round(A * (1 / recall - 1))) : 0;
+  const est = sampleByTier.reduce((n, t) => n + t.estimatedPass, 0);
+  const sd = Math.sqrt(sampleByTier.reduce((n, t) => n + t.variance, 0));
   census.floor.estimate = sampled
-    ? {
-        pool: sum(pool),
-        estimatedPass: sampleByTier.reduce((n, t) => n + t.estimatedPass, 0),
-        low: sampleByTier.reduce((n, t) => n + t.estimatedRange[0], 0),
-        high: sampleByTier.reduce((n, t) => n + t.estimatedRange[1], 0),
-        recordedSignal: A,
-      }
+    ? { pool: sum(pool), estimatedPass: est, low: Math.round(est - 1.96 * sd), high: Math.round(est + 1.96 * sd), recordedSignal: A }
     : { pool: sum(pool), recordedSignal: A, publishedNoSignal: B, likelyPass: A + missed, upperBound: A + B };
   census.floor.note = sampled
-    ? `Pool: ${sum(pool)} instrumental works (vocal, viol-consort, pedagogical and fragment flags left out). ${sampleResults.length} randomly drawn pages, ` +
-      "stratified by tier, were checked for a commercial recording; each tier's recorded share of works times its works gives the estimate, " +
-      "the 95% Wilson interval of the page share gives the range. The recording test is stricter than the floor (a performed but unrecorded work also passes)."
+    ? `${sampleResults.length} randomly drawn pages, stratified by tier, were checked for a commercial recording by three subagents ` +
+      "(floor-sample/BRIEF.md). Each tier's pass rate (the mean share of a page's works that are recorded) times its works gives the estimate; " +
+      "the range is a 95% interval (Agresti–Coull per tier, variances added). A recorded work can still fail for other reasons " +
+      "(an arrangement, a fragment), and a performed but unrecorded work passes, so the two errors partly cancel."
     : "Recall-based: recorded tier plus recorded × (1/recall − 1) from the benchmarks; upperBound = recorded + published.";
 }
 census.floor.tiers = poolTiers;
@@ -681,7 +683,7 @@ writeFileSync(join(OUT, "benchmark-matches.json"), JSON.stringify(benchmarkMatch
       ["… IMSLP links a commercial recording", inst.filter((c) => c.recorded).length, recW(inst)],
     ]),
     "",
-    `The guess in the plan (2,538 works for 3–9 players from the composer harvest) is replaced by **${n(total)} in-scope works on ${n(candidates.length)} IMSLP pages** by ${n(composerRows.length)} composers. Most will not pass the floor: see the estimate below.`,
+    `The 2,538 works for 3–9 players that the plan counted in the composer harvest grow to **${n(total)} in-scope works on ${n(candidates.length)} IMSLP pages** by ${n(composerRows.length)} composers. Most will not pass the floor: ` + (census.floor.sample ? `a checked sample puts the instrumental works that do at about ${n(Math.round((census.floor.estimate as Record<string, number>).estimatedPass / 100) * 100)} (95% range ${n(Math.round((census.floor.estimate as Record<string, number>).low / 100) * 100)}–${n(Math.round((census.floor.estimate as Record<string, number>).high / 100) * 100)}), before the vocal and viol works and before phase 3. The plan's guess of 4,000–5,000 works for the whole section is too low: with phase 3 adding perhaps 1,000–2,000 modern works (its plan has 287 composers, say four to seven works each), expect roughly 9,000, unless the floor is applied more strictly than "recorded".` : "see the estimate below."),
     "",
     "## Outside the scope rules",
     `${n(outOfScope.length)} pages have a string part in an original scoring but no scoring that the rules admit (\`out-of-scope.jsonl\`):`,
@@ -723,12 +725,35 @@ writeFileSync(join(OUT, "benchmark-matches.json"), JSON.stringify(benchmarkMatch
     `The pool is the ${n(est.pool)} instrumental works (vocal and viol-consort works, pedagogical and fragment flags left out), in tiers by IMSLP's evidence:`,
     "",
     sampleRows
-      ? table(["tier", "works", "sample pages", "recorded", "unsure", "modern edition", "recorded share (works)", "estimated pass"], sampleRows.map((t) => [t.tier, t.works, t.checked, t.recorded, t.unsure, t.modernEdition, `${Math.round(t.workShareRecorded * 100)}% (pages ${Math.round(t.pageShareInterval[0] * 100)}–${Math.round(t.pageShareInterval[1] * 100)}%)`, `${n(t.estimatedPass)} (${n(t.estimatedRange[0])}–${n(t.estimatedRange[1])})`]))
+      ? table(["tier", "works", "sample pages", "recorded", "unsure", "modern edition", "pass rate (95%)", "estimated pass (95%)"], sampleRows.map((t) => [t.tier, t.works, t.checked, t.recorded, t.unsure, t.modernEdition, `${Math.round(t.passRate * 100)}% (${Math.round(t.rateInterval[0] * 100)}–${Math.round(t.rateInterval[1] * 100)}%)`, `${n(t.estimatedPass)} (${n(t.estimatedRange[0])}–${n(t.estimatedRange[1])})`]))
       : table(["tier", "works"], TIERS.map((t) => [t, poolTiers[t]])),
     "",
     sampleRows
-      ? `**Estimate: about ${n(est.estimatedPass)} public-domain works pass the floor** (range ${n(est.low)}–${n(est.high)}), against ${n(est.recordedSignal)} that carry IMSLP's recording signal. ${census.floor.note}`
+      ? `**Estimate: about ${n(Math.round(est.estimatedPass / 100) * 100)} public-domain instrumental works pass the floor** (95% range ${n(Math.round(est.low / 100) * 100)}–${n(Math.round(est.high / 100) * 100)}), against the ${n(est.recordedSignal)} that carry IMSLP's recording signal: the signal is precise but misses most recordings of lesser works, and many pages with no publication data on IMSLP are recorded (Boccherini's quartets among them). ${census.floor.note}`
       : `Recall-based estimate (no sample yet): about ${n(est.likelyPass)}; upper bound ${n(est.upperBound)}. ${census.floor.note}`,
+    "",
+    (() => {
+      // the sampled works without the signal, by how many recorded works their composer has on IMSLP
+      const recByComposer = new Map(composerRows.map((r) => [r.composer, r.recorded]));
+      const bucket = (c: string) => ((recByComposer.get(c) ?? 0) >= 5 ? "five or more" : (recByComposer.get(c) ?? 0) >= 1 ? "one to four" : "none");
+      const rows: Record<string, [number, number]> = { "five or more": [0, 0], "one to four": [0, 0], none: [0, 0] };
+      const hits: string[] = [];
+      for (const r of sampleResults) {
+        if (sampleTier[r.key] === "A") continue;
+        const it = sampleItems.get(r.key) as { composer: string; imslpPage: string } | undefined;
+        if (!it) continue;
+        const b = bucket(it.composer);
+        rows[b][1]++;
+        if (r.recorded === "yes") {
+          rows[b][0]++;
+          if (b === "none") hits.push(it.imslpPage.replace(/\s*\([^()]*\)$/, "") + ` (${it.composer.split(",")[0]})`);
+        }
+      }
+      return sampled
+        ? `Of the sampled works without the signal, ${Object.entries(rows).map(([b, [k, m]]) => `${k} of ${m} by composers with ${b === "none" ? "no recorded work" : `${b} recorded works`} on IMSLP`).join(", ")} turned out to be recorded. ` +
+            `So a composer with no recorded work on IMSLP is not a composer with no recordings (${hits.slice(0, 5).join("; ")}): the tail triage has to look each composer up.`
+        : "";
+    })(),
     "",
     `The recording signal finds ${census.benchmarks.recorded} of the ${census.benchmarks.candidates} benchmarks that are IMSLP candidates (${pct(census.benchmarks.recorded, census.benchmarks.candidates)}), but the benchmarks are standard works; for minor works it finds far fewer, which is what the sample measures.`,
     "",

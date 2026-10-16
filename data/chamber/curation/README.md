@@ -12,10 +12,12 @@ Phases 2 and 3 of `docs/chamber-music-plan.md`: research subagents turn the IMSL
 ## The slices (counts of 2026-10-16; `groups.json` has the current ones)
 | kind | slices | composers | IMSLP works | recorded on IMSLP | job |
 |---|---:|---:|---:|---:|---|
-| `c` core | 51 | 246 | 5,662 | 2,512 | every candidate curated; gap check against a standard work list |
+| `c` core | 51 | 246 | 5,650 | 2,512 | every candidate curated; gap check against a standard work list |
 | `m` mid | 10 | 282 | 1,949 | 446 | every candidate curated |
 | `t` tail | 24 | 3,831 | 13,061 | 27 | triage: one recording check per composer, then only what might pass |
 | `x` modern | 17 | 287 | (their few IMSLP works) | | publisher catalogues and work lists; gap check |
+
+The census's floor sample found that 8 of 51 sampled works by tail composers are recorded after all (Scharwenka's Piano Quartet, Foerster's Nonet, Amanda Maier's quartet …), so the triage looks each composer up rather than dropping the tail on IMSLP's evidence.
 
 Core is a composer with five or more works that IMSLP links to a commercial recording, a benchmark composer, or one of about 60 standard chamber composers that IMSLP's links under-count (`CORE_EXTRA` in the script: Elgar, Sibelius, Arriaga, Weber, Krommer, Danzi …). Sizes: about 130 works for a core slice, 250 for a mid slice, 600 for a tail slice (the vocal and viol works that wait for a decision are not counted). That is **102 agents** at about 90 tool calls each, all Claude Code subagents (no API-key spend).
 

@@ -1178,13 +1178,13 @@
  "floor": {
   "signalsLoaded": true,
   "benchmarkRecallOfRecordingSignal": 0.9304347826086956,
-  "note": "Recall-based: recorded tier plus recorded × (1/recall − 1) from the benchmarks; upperBound = recorded + published.",
+  "note": "120 randomly drawn pages, stratified by tier, were checked for a commercial recording by three subagents (floor-sample/BRIEF.md). Each tier's pass rate (the mean share of a page's works that are recorded) times its works gives the estimate; the range is a 95% interval (Agresti–Coull per tier, variances added). A recorded work can still fail for other reasons (an arrangement, a fragment), and a performed but unrecorded work passes, so the two errors partly cancel.",
   "estimate": {
    "pool": 20548,
-   "recordedSignal": 2994,
-   "publishedNoSignal": 7172,
-   "likelyPass": 3218,
-   "upperBound": 10166
+   "estimatedPass": 7604,
+   "low": 5949,
+   "high": 9259,
+   "recordedSignal": 2994
   },
   "tiers": {
    "B published, no recording found": 7172,
@@ -1193,7 +1193,103 @@
    "A recorded": 2994,
    "D manuscript only": 1676
   },
-  "sample": null,
+  "sample": [
+   {
+    "tier": "A recorded",
+    "works": 2994,
+    "checked": 40,
+    "recorded": 38,
+    "unsure": 0,
+    "modernEdition": 35,
+    "passRate": 0.932,
+    "rateInterval": [
+     0.8,
+     0.98
+    ],
+    "estimatedPass": 2792,
+    "estimatedRange": [
+     2401,
+     2947
+    ],
+    "variance": 19437.301483377178
+   },
+   {
+    "tier": "B published, no recording found",
+    "works": 7172,
+    "checked": 40,
+    "recorded": 12,
+    "unsure": 2,
+    "modernEdition": 25,
+    "passRate": 0.325,
+    "rateInterval": [
+     0.2,
+     0.48
+    ],
+    "estimatedPass": 2331,
+    "estimatedRange": [
+     1440,
+     3450
+    ],
+    "variance": 262670.79545454547
+   },
+   {
+    "tier": "C not public domain (recent uploads), no recording found",
+    "works": 3263,
+    "checked": 10,
+    "recorded": 0,
+    "unsure": 0,
+    "modernEdition": 0,
+    "passRate": 0,
+    "rateInterval": [
+     0,
+     0.33
+    ],
+    "estimatedPass": 0,
+    "estimatedRange": [
+     0,
+     1064
+    ],
+    "variance": 93123.92711370262
+   },
+   {
+    "tier": "D manuscript only",
+    "works": 1676,
+    "checked": 10,
+    "recorded": 1,
+    "unsure": 0,
+    "modernEdition": 0,
+    "passRate": 0.1,
+    "rateInterval": [
+     0,
+     0.43
+    ],
+    "estimatedPass": 168,
+    "estimatedRange": [
+     0,
+     719
+    ],
+    "variance": 33781.41690962099
+   },
+   {
+    "tier": "E no publication data",
+    "works": 5443,
+    "checked": 20,
+    "recorded": 9,
+    "unsure": 0,
+    "modernEdition": 9,
+    "passRate": 0.425,
+    "rateInterval": [
+     0.24,
+     0.64
+    ],
+    "estimatedPass": 2313,
+    "estimatedRange": [
+     1301,
+     3462
+    ],
+    "variance": 303784.77978515625
+   }
+  ],
   "openGroups": {
    "voice": {
     "works": 1820,

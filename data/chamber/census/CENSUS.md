@@ -18,7 +18,7 @@ Generated 2026-10-16 by `npx tsx scripts/chamber/imslp_census.ts` from the harve
 | Candidates without voice or viol consort | 14,314 | 20,853 |
 | … IMSLP links a commercial recording | 2,093 | 3,016 |
 
-The guess in the plan (2,538 works for 3–9 players from the composer harvest) is replaced by **23,230 in-scope works on 16,790 IMSLP pages** by 4,397 composers. Most will not pass the floor: see the estimate below.
+The 2,538 works for 3–9 players that the plan counted in the composer harvest grow to **23,230 in-scope works on 16,790 IMSLP pages** by 4,397 composers. Most will not pass the floor: a checked sample puts the instrumental works that do at about 7,600 (95% range 5,900–9,300), before the vocal and viol works and before phase 3. The plan's guess of 4,000–5,000 works for the whole section is too low: with phase 3 adding perhaps 1,000–2,000 modern works (its plan has 287 composers, say four to seven works each), expect roughly 9,000, unless the floor is applied more strictly than "recorded".
 
 ## Outside the scope rules
 3,061 pages have a string part in an original scoring but no scoring that the rules admit (`out-of-scope.jsonl`):
@@ -136,15 +136,17 @@ By number of players (works): 3: 10,168 · 4: 9,141 · 5: 2,657 · 6: 719 · 7: 
 ## The floor: how many pass
 The pool is the 20,548 instrumental works (vocal and viol-consort works, pedagogical and fragment flags left out), in tiers by IMSLP's evidence:
 
-| tier | works |
-|---|---:|
-| A recorded | 2,994 |
-| B published, no recording found | 7,172 |
-| C not public domain (recent uploads), no recording found | 3,263 |
-| D manuscript only | 1,676 |
-| E no publication data | 5,443 |
+| tier | works | sample pages | recorded | unsure | modern edition | pass rate (95%) | estimated pass (95%) |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| A recorded | 2,994 | 40 | 38 | 0 | 35 | 93% (80–98%) | 2,792 (2,401–2,947) |
+| B published, no recording found | 7,172 | 40 | 12 | 2 | 25 | 33% (20–48%) | 2,331 (1,440–3,450) |
+| C not public domain (recent uploads), no recording found | 3,263 | 10 | 0 | 0 | 0 | 0% (0–33%) | 0 (0–1,064) |
+| D manuscript only | 1,676 | 10 | 1 | 0 | 0 | 10% (0–43%) | 168 (0–719) |
+| E no publication data | 5,443 | 20 | 9 | 0 | 9 | 43% (24–64%) | 2,313 (1,301–3,462) |
 
-Recall-based estimate (no sample yet): about 3,218; upper bound 10,166. Recall-based: recorded tier plus recorded × (1/recall − 1) from the benchmarks; upperBound = recorded + published.
+**Estimate: about 7,600 public-domain instrumental works pass the floor** (95% range 5,900–9,300), against the 2,994 that carry IMSLP's recording signal: the signal is precise but misses most recordings of lesser works, and many pages with no publication data on IMSLP are recorded (Boccherini's quartets among them). 120 randomly drawn pages, stratified by tier, were checked for a commercial recording by three subagents (floor-sample/BRIEF.md). Each tier's pass rate (the mean share of a page's works that are recorded) times its works gives the estimate; the range is a 95% interval (Agresti–Coull per tier, variances added). A recorded work can still fail for other reasons (an arrangement, a fragment), and a performed but unrecorded work passes, so the two errors partly cancel.
+
+Of the sampled works without the signal, 10 of 17 by composers with five or more recorded works on IMSLP, 4 of 12 by composers with one to four recorded works on IMSLP, 8 of 51 by composers with no recorded work on IMSLP turned out to be recorded. So a composer with no recorded work on IMSLP is not a composer with no recordings (Piano Quartet, Op.37 (Scharwenka); Pythagorische Schmids-Fuencklein (Mayr); String Quartet in A major (Maier); Guitar Quintet, Op.143 (Castelnuovo-Tedesco); Sonata for Violin, Cello and Piano, Op.20 (Sabaneyev)): the tail triage has to look each composer up.
 
 The recording signal finds 107 of the 115 benchmarks that are IMSLP candidates (93%), but the benchmarks are standard works; for minor works it finds far fewer, which is what the sample measures.
 
