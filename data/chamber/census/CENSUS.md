@@ -13,28 +13,28 @@ Generated 2026-10-16 by `npx tsx scripts/chamber/imslp_census.ts` from the harve
 |---|---:|---:|
 | Pages found | 25,191 | – |
 | … with an original string scoring | 19,851 | – |
-| … outside the scope rules | 5,259 | – |
-| … in scope (candidates) | 14,592 | 21,074 |
-| … instrumental, viol consorts aside | 13,812 | 20,354 |
+| … outside the scope rules | 5,280 | – |
+| … in scope (candidates) | 14,571 | 21,053 |
+| … instrumental, viol consorts aside | 13,791 | 20,333 |
 | … viol consorts | 588 | 529 |
 | … chamber vocal works | 192 | 191 |
 | … IMSLP links a commercial recording | 2,218 | 3,122 |
 
-The 2,538 works for 3–9 players that the plan counted in the composer harvest grow to **21,074 in-scope works on 14,592 IMSLP pages** by 3,979 composers. Most will not pass the floor: a checked sample puts the instrumental works that do at about 7,600 (95% range 6,000–9,300), and the viol consorts and chamber vocal works add about 300 more (the sample's rates applied to them). The plan's guess of 4,000–5,000 works for the whole section is too low: with phase 3 adding perhaps 1,000–2,000 modern works (its plan has 287 composers, say four to seven works each), expect roughly 9,400, unless the floor is applied more strictly than "recorded".
+The 2,538 works for 3–9 players that the plan counted in the composer harvest grow to **21,053 in-scope works on 14,571 IMSLP pages** by 3,971 composers. Most will not pass the floor: a checked sample puts the instrumental works that do at about 7,600 (95% range 6,000–9,300), and the viol consorts and chamber vocal works add about 300 more (the sample's rates applied to them). The plan's guess of 4,000–5,000 works for the whole section is too low: with phase 3 adding perhaps 1,000–2,000 modern works (its plan has 287 composers, say four to seven works each), expect roughly 9,400, unless the floor is applied more strictly than "recorded".
 
 ## Outside the scope rules
-5,259 pages have a string part in an original scoring but no scoring that the rules admit (`out-of-scope.jsonl`):
+5,280 pages have a string part in an original scoring but no scoring that the rules admit (`out-of-scope.jsonl`):
 
 | reason | pages |
 |---|---:|
 | string orchestra | 1,991 |
 | voice with continuo (cantata, sacred concerto): vocal repertoire | 1,214 |
 | unspecified instruments | 550 |
-| composer excluded (data/chamber/excluded-composers.json) | 520 |
+| composer excluded (data/chamber/excluded-composers.json) | 543 |
 | voice with fewer than three instruments (a song): vocal repertoire | 426 |
 | orchestra | 139 |
 | violins alone (violin section) | 115 |
-| baryton (Haydn's baryton works are out, decision 3) | 113 |
+| baryton (Haydn's baryton works are out, decision 3) | 111 |
 | fewer than 3 players | 57 |
 | no string part | 38 |
 | more than 9 players | 20 |
@@ -45,17 +45,17 @@ The 2,538 works for 3–9 players that the plan counted in the composer harvest 
 ## By formation
 | formation | works | of them with voice | recorded |
 |---|---:|---:|---:|
-| String trio | 1,646 | 0 | 102 |
-| String quartet | 5,695 | 0 | 703 |
+| String trio | 1,643 | 0 | 102 |
+| String quartet | 5,683 | 0 | 703 |
 | String quintet | 871 | 0 | 160 |
 | String sextet or larger | 189 | 0 | 34 |
 | Viol consort | 529 | 0 | 82 |
 | Piano trio | 1,925 | 0 | 286 |
 | Piano quartet | 377 | 0 | 68 |
-| Piano quintet | 429 | 0 | 69 |
-| Piano & strings | 489 | 0 | 40 |
-| Strings & winds | 3,593 | 3 | 398 |
-| With continuo | 4,354 | 0 | 1,026 |
+| Piano quintet | 428 | 0 | 69 |
+| Piano & strings | 488 | 0 | 40 |
+| Strings & winds | 3,590 | 3 | 398 |
+| With continuo | 4,353 | 0 | 1,026 |
 | Other ensemble | 977 | 188 | 154 |
 
 Viol consorts (three or more viols, with or without organ or harpsichord) have their own formation; a viol with violins, or two viols with continuo, keeps the usual one. Works with voice are in only as chamber music (decisions below), mostly under "Other ensemble".
@@ -65,36 +65,36 @@ Era is the composer's era in the violin catalogue (or `data/chamber/composers.js
 
 | era | works | recorded |
 |---|---:|---:|
-| Before 1600 | 453 | 82 |
-| Baroque | 4,166 | 1,053 |
-| Classical | 7,741 | 1,007 |
-| Early Romantic | 1,304 | 277 |
-| Late Romantic | 3,471 | 437 |
-| 20th century | 3,419 | 263 |
-| Contemporary | 450 | 3 |
-| Unknown | 70 | 0 |
+| Before 1600 | 421 | 82 |
+| Baroque | 4,043 | 1,053 |
+| Classical | 7,506 | 1,007 |
+| Early Romantic | 1,303 | 277 |
+| Late Romantic | 3,287 | 437 |
+| 20th century | 1,750 | 263 |
+| Contemporary | 2,719 | 3 |
+| Unknown | 24 | 0 |
 
 Formation × era (works):
 
 | formation | Before 1600 | Baroque | Classical | Early Romantic | Late Romantic | 20th century | Contemporary | Unknown |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| String trio | 1 | 95 | 1,100 | 65 | 146 | 202 | 34 | 3 |
-| String quartet | 5 | 54 | 2,358 | 558 | 1,127 | 1,436 | 141 | 16 |
-| String quintet | 0 | 25 | 389 | 143 | 190 | 99 | 16 | 9 |
-| String sextet or larger | 0 | 2 | 21 | 22 | 70 | 63 | 11 | 0 |
-| Viol consort | 383 | 130 | 0 | 0 | 0 | 15 | 1 | 0 |
-| Piano trio | 0 | 1 | 641 | 195 | 763 | 297 | 25 | 3 |
-| Piano quartet | 0 | 0 | 52 | 63 | 193 | 64 | 5 | 0 |
-| Piano quintet | 0 | 0 | 30 | 40 | 216 | 135 | 7 | 1 |
-| Piano & strings | 0 | 3 | 145 | 36 | 203 | 87 | 9 | 6 |
-| Strings & winds | 10 | 128 | 1,895 | 146 | 422 | 801 | 172 | 19 |
-| With continuo | 13 | 3,585 | 751 | 0 | 0 | 5 | 0 | 0 |
-| Other ensemble | 41 | 143 | 359 | 36 | 141 | 215 | 29 | 13 |
+| String trio | 1 | 81 | 1,076 | 65 | 137 | 103 | 178 | 2 |
+| String quartet | 4 | 32 | 2,245 | 558 | 1,054 | 798 | 980 | 12 |
+| String quintet | 0 | 17 | 382 | 143 | 175 | 40 | 107 | 7 |
+| String sextet or larger | 0 | 2 | 16 | 22 | 65 | 26 | 58 | 0 |
+| Viol consort | 353 | 125 | 0 | 0 | 0 | 3 | 48 | 0 |
+| Piano trio | 0 | 1 | 627 | 195 | 743 | 198 | 161 | 0 |
+| Piano quartet | 0 | 0 | 49 | 63 | 188 | 32 | 45 | 0 |
+| Piano quintet | 0 | 0 | 27 | 40 | 208 | 84 | 69 | 0 |
+| Piano & strings | 0 | 1 | 134 | 36 | 194 | 57 | 65 | 1 |
+| Strings & winds | 9 | 117 | 1,848 | 145 | 388 | 299 | 784 | 0 |
+| With continuo | 13 | 3,530 | 751 | 0 | 0 | 1 | 58 | 0 |
+| Other ensemble | 41 | 137 | 351 | 36 | 135 | 109 | 166 | 2 |
 
-By number of players (works): 3: 9,099 · 4: 8,602 · 5: 2,446 · 6: 528 · 7: 190 · 8: 134 · 9: 75.
+By number of players (works): 3: 9,095 · 4: 8,589 · 5: 2,444 · 6: 527 · 7: 189 · 8: 134 · 9: 75.
 
 ## By composer
-3,979 composers; 1,801 have a single work. The top 5 hold 5% of all works, the top 20 13%, the top 100 29%.
+3,971 composers; 1,799 have a single work. The top 5 hold 5% of all works, the top 20 13%, the top 100 29%.
 
 | composer | works | recorded | published | main formations |
 |---|---:|---:|---:|---:|
@@ -142,15 +142,15 @@ By number of players (works): 3: 9,099 · 4: 8,602 · 5: 2,446 · 6: 528 · 7: 1
 **The swamping risk.** Composers with 80 or more instrumental works of which fewer than a fifth are recorded: Hoffmeister, Franz Anton (181, 4 recorded), Cambini, Giuseppe Maria (167, 18 recorded), Krommer, Franz (123, 3 recorded), Gyrowetz, Adalbert (113, 1 recorded), Vanhal, Johann Baptist (112, 14 recorded), Wranitzky, Paul (95, 6 recorded), Anzoletti, Marco (92, 0 recorded). Together they hold 883 instrumental works. Under the floor most of their works drop out; the ones that stay are `lesser-known` (decision 3), and the default sort must not list them by count. The big names are large too, but much of their output is recorded: Boccherini, Luigi (317, 42% recorded), Haydn, Joseph (256, 57% recorded), Pleyel, Ignaz (190, 26% recorded), Telemann, Georg Philipp (187, 66% recorded), Mozart, Wolfgang Amadeus (131, 65% recorded), Onslow, George (86, 29% recorded), Reicha, Anton (81, 23% recorded), Quentin I, Jean-Baptiste (80, 24% recorded). Even after the floor they will fill the first pages of an unsorted list of their formations.
 
 ## The floor: how many pass
-The sampled pool is the 20,050 instrumental works other than viol consorts (pedagogical and fragment flags left out), in tiers by IMSLP's evidence:
+The sampled pool is the 20,029 instrumental works other than viol consorts (pedagogical and fragment flags left out), in tiers by IMSLP's evidence:
 
 | tier | works | sample pages | recorded | unsure | modern edition | pass rate (95%) | estimated pass (95%) |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | A recorded | 3,001 | 40 | 38 | 0 | 35 | 93% (80–98%) | 2,798 (2,407–2,954) |
 | B published, no recording found | 7,176 | 40 | 12 | 2 | 25 | 33% (20–48%) | 2,332 (1,441–3,451) |
-| C not public domain (recent uploads), no recording found | 2,762 | 8 | 0 | 0 | 0 | 0% (0–38%) | 0 (0–1,043) |
+| C not public domain (recent uploads), no recording found | 2,744 | 8 | 0 | 0 | 0 | 0% (0–38%) | 0 (0–1,036) |
 | D manuscript only | 1,678 | 10 | 1 | 0 | 0 | 10% (0–43%) | 168 (0–720) |
-| E no publication data | 5,433 | 20 | 9 | 0 | 9 | 43% (24–64%) | 2,309 (1,299–3,455) |
+| E no publication data | 5,430 | 20 | 9 | 0 | 9 | 43% (24–64%) | 2,308 (1,298–3,453) |
 
 **Estimate: about 7,600 public-domain instrumental works pass the floor** (95% range 6,000–9,300), against the 3,001 that carry IMSLP's recording signal: the signal is precise but misses most recordings of lesser works, and many pages with no publication data on IMSLP are recorded (Boccherini's quartets among them). The 716 viol-consort and chamber vocal works were not sampled; at the same rates about 300 of them pass (98 carry the signal). 118 randomly drawn pages, stratified by tier, were checked for a commercial recording by three subagents (floor-sample/BRIEF.md). Each tier's pass rate (the mean share of a page's works that are recorded) times its works gives the estimate; the range is a 95% interval (Agresti–Coull per tier, variances added). A recorded work can still fail for other reasons (an arrangement, a fragment), and a performed but unrecorded work passes, so the two errors partly cancel.
 
@@ -166,7 +166,7 @@ Phase 3 adds the twentieth-century and living composers IMSLP lacks (`data/chamb
 ## Decisions (owner, 2026-10-16) and how the census applies them
 1. **Vocal works: chamber music only.** A work with voice stays a candidate when its instruments form a chamber ensemble of three or more players with no continuo (Respighi's *Il tramonto*, Barber's *Dover Beach*, Vaughan Williams's *On Wenlock Edge*, Schoenberg's Op. 10): 191 works, 17 recorded. Left out as vocal repertoire: 1,214 pages with continuo (cantatas, sacred concertos), 426 songs with one or two instruments, and 14 folk-song collections with voice and piano trio (Beethoven's and George Thomson's; Haydn's are among the continuo pages). The curators still judge each kept work by whether it is programmed as chamber music.
 2. **Viol consorts: in.** Three or more viols, alone or with a chamber organ or harpsichord, are a formation of their own, "Viol consort" (`viol-consort` in `lib/chamber/vocab.ts`): 529 works, 82 recorded (Jenkins, Lawes, Coprario, Byrd, Gibbons, Purcell's fantazias …). Works for violins with a bass viol, and sonatas for viols with continuo, keep their usual formation.
-3. **Contemporary and living composers: in, when the composer has a track record** of works performed and taken seriously by professional musicians (professional performances, recordings on established labels, an established publisher, commissions). Self-published uploads are not a track record. Stephen W. Beatty is left out entirely (`data/chamber/excluded-composers.json`, 520 pages). The curators apply the same rule to the other recent uploads (2,762 works marked "Works not in public domain"; the largest: Harrington, Jeffrey Michael 46, Hovhannisyan, Gor 42, Gerber, Edward Enrico 37, Tavares, Luciano 37, Turchetto, Andrea 36, Fine, Elaine 34, Plante, Cyril 33, Gardner, Herbert Straus 32) and propose further exclusions.
+3. **Contemporary and living composers: in, when the composer has a track record** of works performed and taken seriously by professional musicians (professional performances, recordings on established labels, an established publisher, commissions). Self-published uploads are not a track record. Stephen W. Beatty is left out entirely (`data/chamber/excluded-composers.json`, 543 pages). The curators apply the same rule to the other recent uploads (2,744 works marked "Works not in public domain"; the largest: Harrington, Jeffrey Michael 46, Hovhannisyan, Gor 42, Gerber, Edward Enrico 37, Tavares, Luciano 37, Turchetto, Andrea 36, Fine, Elaine 34, Plante, Cyril 33, Gardner, Herbert Straus 32) and propose further exclusions.
 4. **Glass harmonica: a note, not a new instrument.** IMSLP's "glass harmonica" maps to `celesta`, today's usual substitute, and the work's notes name the glass harmonica (Mozart's Adagio and Rondo, K. 617). The other instruments the vocabulary lacks stay out: synthesizer (12), musette (bagpipe) (5), theremin (5), shakuhachi (3), ocarina (3), zither (3), hurdy-gurdy (French 'vielle') (2), erhu (2), sitar (2), tanpura (1), harmonichord (1), ondes Martenot (1), xiao (1), oud (1), shamisen (1).
 5. **Names written family name first** ("Tan Dun", "Chen Yi", as the violin catalogue writes them) are accepted by `scripts/chamber/check.ts`; every other name stays "Surname, Given names".
 

@@ -5,19 +5,19 @@
   "found": 25191,
   "sweptIn": 3995,
   "withStringScoring": 19851,
-  "outOfScope": 5259,
-  "candidates": 14592,
+  "outOfScope": 5280,
+  "candidates": 14571,
   "missingRows": 0
  },
  "outOfScopeReasons": {
   "string orchestra": 1991,
   "voice with continuo (cantata, sacred concerto): vocal repertoire": 1214,
   "unspecified instruments": 550,
-  "composer excluded (data/chamber/excluded-composers.json)": 520,
+  "composer excluded (data/chamber/excluded-composers.json)": 543,
   "voice with fewer than three instruments (a song): vocal repertoire": 426,
   "orchestra": 139,
   "violins alone (violin section)": 115,
-  "baryton (Haydn's baryton works are out, decision 3)": 113,
+  "baryton (Haydn's baryton works are out, decision 3)": 111,
   "fewer than 3 players": 57,
   "no string part": 38,
   "more than 9 players": 20,
@@ -40,183 +40,183 @@
   "shamisen: not in the vocabulary": 1
  },
  "works": {
-  "candidates": 21074,
+  "candidates": 21053,
   "chamberVocal": 191,
   "violConsort": 529,
-  "instrumentalNotViols": 20354,
+  "instrumentalNotViols": 20333,
   "collectionPagesDeduplicated": 420,
   "pedagogicalFlag": 253,
   "fragmentFlag": 55,
   "crossListedWithViolin": 76
  },
  "byFormation": {
-  "string-quartet": 5695,
-  "continuo": 4354,
-  "winds-strings": 3593,
+  "string-quartet": 5683,
+  "continuo": 4353,
+  "winds-strings": 3590,
   "piano-trio": 1925,
-  "string-trio": 1646,
+  "string-trio": 1643,
   "other": 977,
   "string-quintet": 871,
   "viol-consort": 529,
-  "piano-strings": 489,
-  "piano-quintet": 429,
+  "piano-strings": 488,
+  "piano-quintet": 428,
   "piano-quartet": 377,
   "large-strings": 189
  },
  "byPlayers": {
-  "3": 9099,
-  "4": 8602,
-  "5": 2446,
-  "6": 528,
-  "7": 190,
+  "3": 9095,
+  "4": 8589,
+  "5": 2444,
+  "6": 527,
+  "7": 189,
   "8": 134,
   "9": 75
  },
  "byEra": {
-  "early-music": 453,
-  "baroque": 4166,
-  "classical": 7741,
-  "early-romantic": 1304,
-  "late-romantic": 3471,
-  "20th-century": 3419,
-  "contemporary": 450,
-  "unknown": 70
+  "early-music": 421,
+  "baroque": 4043,
+  "classical": 7506,
+  "early-romantic": 1303,
+  "late-romantic": 3287,
+  "20th-century": 1750,
+  "contemporary": 2719,
+  "unknown": 24
  },
  "formationByEra": {
   "string-trio": {
    "early-music": 1,
-   "baroque": 95,
-   "classical": 1100,
+   "baroque": 81,
+   "classical": 1076,
    "early-romantic": 65,
-   "late-romantic": 146,
-   "20th-century": 202,
-   "contemporary": 34,
-   "unknown": 3
+   "late-romantic": 137,
+   "20th-century": 103,
+   "contemporary": 178,
+   "unknown": 2
   },
   "string-quartet": {
-   "early-music": 5,
-   "baroque": 54,
-   "classical": 2358,
+   "early-music": 4,
+   "baroque": 32,
+   "classical": 2245,
    "early-romantic": 558,
-   "late-romantic": 1127,
-   "20th-century": 1436,
-   "contemporary": 141,
-   "unknown": 16
+   "late-romantic": 1054,
+   "20th-century": 798,
+   "contemporary": 980,
+   "unknown": 12
   },
   "string-quintet": {
    "early-music": 0,
-   "baroque": 25,
-   "classical": 389,
+   "baroque": 17,
+   "classical": 382,
    "early-romantic": 143,
-   "late-romantic": 190,
-   "20th-century": 99,
-   "contemporary": 16,
-   "unknown": 9
+   "late-romantic": 175,
+   "20th-century": 40,
+   "contemporary": 107,
+   "unknown": 7
   },
   "large-strings": {
    "early-music": 0,
    "baroque": 2,
-   "classical": 21,
+   "classical": 16,
    "early-romantic": 22,
-   "late-romantic": 70,
-   "20th-century": 63,
-   "contemporary": 11,
+   "late-romantic": 65,
+   "20th-century": 26,
+   "contemporary": 58,
    "unknown": 0
   },
   "viol-consort": {
-   "early-music": 383,
-   "baroque": 130,
+   "early-music": 353,
+   "baroque": 125,
    "classical": 0,
    "early-romantic": 0,
    "late-romantic": 0,
-   "20th-century": 15,
-   "contemporary": 1,
+   "20th-century": 3,
+   "contemporary": 48,
    "unknown": 0
   },
   "piano-trio": {
    "early-music": 0,
    "baroque": 1,
-   "classical": 641,
+   "classical": 627,
    "early-romantic": 195,
-   "late-romantic": 763,
-   "20th-century": 297,
-   "contemporary": 25,
-   "unknown": 3
+   "late-romantic": 743,
+   "20th-century": 198,
+   "contemporary": 161,
+   "unknown": 0
   },
   "piano-quartet": {
    "early-music": 0,
    "baroque": 0,
-   "classical": 52,
+   "classical": 49,
    "early-romantic": 63,
-   "late-romantic": 193,
-   "20th-century": 64,
-   "contemporary": 5,
+   "late-romantic": 188,
+   "20th-century": 32,
+   "contemporary": 45,
    "unknown": 0
   },
   "piano-quintet": {
    "early-music": 0,
    "baroque": 0,
-   "classical": 30,
+   "classical": 27,
    "early-romantic": 40,
-   "late-romantic": 216,
-   "20th-century": 135,
-   "contemporary": 7,
-   "unknown": 1
+   "late-romantic": 208,
+   "20th-century": 84,
+   "contemporary": 69,
+   "unknown": 0
   },
   "piano-strings": {
    "early-music": 0,
-   "baroque": 3,
-   "classical": 145,
+   "baroque": 1,
+   "classical": 134,
    "early-romantic": 36,
-   "late-romantic": 203,
-   "20th-century": 87,
-   "contemporary": 9,
-   "unknown": 6
+   "late-romantic": 194,
+   "20th-century": 57,
+   "contemporary": 65,
+   "unknown": 1
   },
   "winds-strings": {
-   "early-music": 10,
-   "baroque": 128,
-   "classical": 1895,
-   "early-romantic": 146,
-   "late-romantic": 422,
-   "20th-century": 801,
-   "contemporary": 172,
-   "unknown": 19
+   "early-music": 9,
+   "baroque": 117,
+   "classical": 1848,
+   "early-romantic": 145,
+   "late-romantic": 388,
+   "20th-century": 299,
+   "contemporary": 784,
+   "unknown": 0
   },
   "continuo": {
    "early-music": 13,
-   "baroque": 3585,
+   "baroque": 3530,
    "classical": 751,
    "early-romantic": 0,
    "late-romantic": 0,
-   "20th-century": 5,
-   "contemporary": 0,
+   "20th-century": 1,
+   "contemporary": 58,
    "unknown": 0
   },
   "other": {
    "early-music": 41,
-   "baroque": 143,
-   "classical": 359,
+   "baroque": 137,
+   "classical": 351,
    "early-romantic": 36,
-   "late-romantic": 141,
-   "20th-century": 215,
-   "contemporary": 29,
-   "unknown": 13
+   "late-romantic": 135,
+   "20th-century": 109,
+   "contemporary": 166,
+   "unknown": 2
   }
  },
  "byInstrument": {
-  "violin": 18951,
-  "cello": 15066,
-  "viola": 11084,
-  "continuo": 4354,
-  "piano": 4227,
-  "flute": 2972,
+  "violin": 18931,
+  "cello": 15045,
+  "viola": 11067,
+  "continuo": 4353,
+  "piano": 4224,
+  "flute": 2971,
   "viola-da-gamba": 874,
-  "double-bass": 834,
-  "clarinet": 761,
+  "double-bass": 833,
+  "clarinet": 760,
   "harpsichord": 528,
-  "oboe": 515,
-  "bassoon": 465,
+  "oboe": 514,
+  "bassoon": 464,
   "guitar": 383,
   "horn": 378,
   "harp": 228,
@@ -224,24 +224,24 @@
   "voice": 191,
   "organ": 167,
   "recorder": 146,
-  "trumpet": 112,
+  "trumpet": 111,
   "lute": 59,
   "saxophone": 57,
   "mandolin": 53,
-  "trombone": 52,
+  "trombone": 51,
   "harmonium": 46,
   "viola-damore": 38,
   "english-horn": 36,
   "bass-clarinet": 25,
   "accordion": 21,
   "electronics": 15,
-  "tuba": 12,
+  "tuba": 11,
   "celesta": 9,
   "basset-horn": 4
  },
  "composers": {
-  "count": 3979,
-  "withOneWork": 1801
+  "count": 3971,
+  "withOneWork": 1799
  },
  "topComposers": [
   {
@@ -728,7 +728,7 @@
    "recorded": 0,
    "published": 40,
    "inViolinCatalogue": false,
-   "era": "20th-century",
+   "era": "contemporary",
    "formations": {
     "winds-strings": 28,
     "string-quartet": 14,
@@ -1092,7 +1092,7 @@
    "recorded": 0,
    "published": 1,
    "inViolinCatalogue": false,
-   "era": "20th-century",
+   "era": "contemporary",
    "formations": {
     "string-quartet": 15,
     "winds-strings": 10,
@@ -1171,7 +1171,7 @@
    "recorded": 0,
    "published": 38,
    "inViolinCatalogue": false,
-   "era": "20th-century",
+   "era": "contemporary",
    "formations": {
     "string-quartet": 15,
     "winds-strings": 10,
@@ -1183,19 +1183,19 @@
   }
  ],
  "concentration": {
-  "top5": 0.05371547878902914,
-  "top20": 0.12864192844263073,
-  "top100": 0.2930150896839708
+  "top5": 0.053769059041466775,
+  "top20": 0.1287702465206859,
+  "top100": 0.29330736712107536
  },
  "floor": {
   "signalsLoaded": true,
   "benchmarkRecallOfRecordingSignal": 0.9304347826086956,
   "note": "118 randomly drawn pages, stratified by tier, were checked for a commercial recording by three subagents (floor-sample/BRIEF.md). Each tier's pass rate (the mean share of a page's works that are recorded) times its works gives the estimate; the range is a 95% interval (Agresti–Coull per tier, variances added). A recorded work can still fail for other reasons (an arrangement, a fragment), and a performed but unrecorded work passes, so the two errors partly cancel.",
   "estimate": {
-   "pool": 20050,
-   "estimatedPass": 7607,
+   "pool": 20029,
+   "estimatedPass": 7606,
    "low": 5959,
-   "high": 9255,
+   "high": 9253,
    "recordedSignal": 3001,
    "violsAndVocal": 716,
    "violsAndVocalPass": 290,
@@ -1203,9 +1203,9 @@
   },
   "tiers": {
    "B published, no recording found": 7176,
-   "E no publication data": 5433,
+   "E no publication data": 5430,
    "A recorded": 3001,
-   "C not public domain (recent uploads), no recording found": 2762,
+   "C not public domain (recent uploads), no recording found": 2744,
    "D manuscript only": 1678
   },
   "sample": [
@@ -1249,7 +1249,7 @@
    },
    {
     "tier": "C not public domain (recent uploads), no recording found",
-    "works": 2762,
+    "works": 2744,
     "checked": 8,
     "recorded": 0,
     "unsure": 0,
@@ -1262,9 +1262,9 @@
     "estimatedPass": 0,
     "estimatedRange": [
      0,
-     1043
+     1036
     ],
-    "variance": 88294.49074074074
+    "variance": 87147.40740740742
    },
    {
     "tier": "D manuscript only",
@@ -1287,7 +1287,7 @@
    },
    {
     "tier": "E no publication data",
-    "works": 5433,
+    "works": 5430,
     "checked": 20,
     "recorded": 9,
     "unsure": 0,
@@ -1297,12 +1297,12 @@
      0.24,
      0.64
     ],
-    "estimatedPass": 2309,
+    "estimatedPass": 2308,
     "estimatedRange": [
-     1299,
-     3455
+     1298,
+     3453
     ],
-    "variance": 302669.56494140625
+    "variance": 302335.400390625
    }
   ],
   "groups": {

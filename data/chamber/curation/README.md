@@ -14,12 +14,12 @@ Phases 2 and 3 of `docs/chamber-music-plan.md`: research subagents turn the IMSL
 |---|---:|---:|---:|---:|---|
 | `c` core | 55 | 256 | 5,887 | 2,575 | every candidate curated; gap check against a standard work list |
 | `m` mid | 10 | 311 | 2,059 | 488 | every candidate curated |
-| `t` tail | 23 | 3,375 | 12,930 | 27 | triage: one recording check per composer, then only what might pass |
+| `t` tail | 24 | 3,375 | 12,930 | 27 | triage: one recording check per composer, then only what might pass |
 | `x` modern | 17 | 287 | (their few IMSLP works) | | publisher catalogues and work lists; gap check |
 
 The census's floor sample found that 8 of 51 sampled works by tail composers are recorded after all (Scharwenka's Piano Quartet, Foerster's Nonet, Amanda Maier's quartet …), so the triage looks each composer up rather than dropping the tail on IMSLP's evidence.
 
-Core is a composer with five or more works that IMSLP links to a commercial recording, a benchmark composer, or one of about 65 standard chamber composers that IMSLP's links under-count (`CORE_EXTRA` in the script: Jenkins, Lawes, Elgar, Sibelius, Arriaga, Weber, Krommer, Danzi …). Sizes: about 130 works for a core slice, 250 for a mid slice, 600 for a tail slice. That is about **105 agents** at about 90 tool calls each, all Claude Code subagents (no API-key spend).
+Core is a composer with five or more works that IMSLP links to a commercial recording, a benchmark composer, or one of about 65 standard chamber composers that IMSLP's links under-count (`CORE_EXTRA` in the script: Jenkins, Lawes, Elgar, Sibelius, Arriaga, Weber, Krommer, Danzi …). Sizes: about 130 works for a core slice, 250 for a mid slice, 600 for a tail slice. With the three pilot slices done, that leaves **103 agents** at about 90 tool calls each, all Claude Code subagents (no API-key spend).
 
 ## Pilot (2026-10-16)
 Three subagents ran the brief on one slice of each kind; their files are in `out/`, `npx tsx scripts/chamber/curation_check.ts` passes all three with no errors, and the results page is https://claude.ai/artifact/LPtNzoMoxeuTXPYyLJizP6 (private).
@@ -36,9 +36,9 @@ Three subagents ran the brief on one slice of each kind; their files are in `out
 - The brief has been updated with what the agents found: Presto and the Naxos Music Library refuse scripts, so recordings are checked in the Apple Music catalogue (iTunes Search API) and MusicBrainz; prefer single-work IMSLP pages; `"gap": true` for gap-check finds that are on IMSLP under another page; what counts in the tail triage; unfinished works performed as they stand; 18th-century divertimenti that IMSLP files under "strings".
 
 Before the full run:
-1. The census gives some living composers' uploads the era "classical" (IMSLP tags their style); give recent works their era from the year. Slice names change when the census does.
+1. Done: recent uploads (IMSLP "Works not in public domain") now take their era from their year, so living composers' uploads sit in the contemporary tail slices (`t20`–`t24`), where the track-record rule decides. Slices with an agent's output (`done` in `groups.json`) keep their names and composers when the census is regenerated.
 2. Settled by the owner: solo-violin showpieces published with string-quartet accompaniment (Mayseder's Polonaise Op. 12, Lipiński's Polonaises Op. 9) stay in the chamber section, under "Other ensembles" with a `formationNote` (rule in the brief; the three pilot entries were aligned with it by hand).
-3. Owner check: the eight proposed exclusions in `out/t07_classical-c-f.json`.
+3. Done: the owner confirmed the eight proposed exclusions; they are in `data/chamber/excluded-composers.json`.
 
 ## Proposed order
 1. The owner's decisions of 2026-10-16 are in the brief and the census (`CENSUS.md`, "Decisions"): vocal works only as chamber music, viol consorts in (their own formation), contemporary and living composers in when they have a professional track record (Stephen W. Beatty left out: `data/chamber/excluded-composers.json`), the glass harmonica as a note, family-name-first names accepted.

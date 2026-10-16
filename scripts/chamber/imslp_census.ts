@@ -193,9 +193,12 @@ const yearOf = (info: Record<string, string>) => {
   return null;
 };
 type EraBucket = EraKey | "early-music" | "unknown";
-function eraOf(composer: string, info: Record<string, string>, year: number | null): EraBucket {
+function eraOf(composer: string, info: Record<string, string>, year: number | null, upload: boolean): EraBucket {
   const known = composerEra.get(composer);
   if (known) return known;
+  // a recent upload (IMSLP "Works not in public domain") takes its era from its year, whatever style IMSLP gives it
+  // (living composers writing "in the Classical style" are tagged Classical)
+  if (upload) return year != null && year < 1975 ? "20th-century" : "contemporary";
   const style = info["Piece Style"] ?? "";
   if (/Medieval|Renaissance/.test(style)) return "early-music";
   if (/Baroque/.test(style)) return "baroque";
@@ -336,7 +339,7 @@ for (const [title] of found) {
   candidates.push({
     title,
     composer,
-    era: eraOf(composer, info, year),
+    era: eraOf(composer, info, year, cats.includes("Works not in public domain")),
     formation: formationFor(best.ins),
     instruments: best.ins,
     players: playersFor(best.ins),
