@@ -13,7 +13,7 @@ while instead of being hammered again; and an answer is fetched once and kept fo
   body = fetch(url)                                                # str; raises FetchError after the last retry
 
 Request starts are spaced at least 3.3 s apart for itunes.apple.com (Apple documents about 20 calls a minute), 1.3 s for
-musicbrainz.org (its limit is one a second) and 1.2 s for imslp.org, 1.5 s for any other host. A 403/429/5xx answer is
+musicbrainz.org (its limit is one a second), 1.2 s for imslp.org, 0.6 s for api.deezer.com (about 50 requests in 5 s) and 1.5 s for any other host. A 403/429/5xx answer is
 retried after 20, 45, 90 and 180 s. Answers with HTTP 200 are cached in data/cache/chamber-lookups/ (git-ignored).
 """
 import fcntl
@@ -30,7 +30,7 @@ from pathlib import Path
 UA = "ArcoRepertoire/1.0 (+https://repertoire.arco.app) catalogue research"
 ROOT = Path(__file__).resolve().parents[2]
 DIR = ROOT / "data/cache/chamber-lookups"
-INTERVAL = {"itunes.apple.com": 3.3, "musicbrainz.org": 1.3, "imslp.org": 1.2}
+INTERVAL = {"itunes.apple.com": 3.3, "musicbrainz.org": 1.3, "imslp.org": 1.2, "api.deezer.com": 0.6}
 DEFAULT_INTERVAL = 1.5
 BACKOFF = [20, 45, 90, 180]
 
