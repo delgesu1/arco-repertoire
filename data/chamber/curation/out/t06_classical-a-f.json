@@ -104,6 +104,14 @@
    "gender": "M",
    "era": "classical",
    "in_catalogue": false
+  },
+  {
+   "name": "Bréval, Jean-Baptiste",
+   "dates": "1753–1823",
+   "nationality": "French",
+   "gender": "M",
+   "era": "classical",
+   "in_catalogue": false
   }
  ],
  "works": [
@@ -3074,6 +3082,126 @@
     "https://itunes.apple.com/lookup?id=441449234&entity=song"
    ],
    "confidence": "high"
+  },
+  {
+   "composer": "Bréval, Jean-Baptiste",
+   "title": "String Trio in G major, Op. 39 No. 1",
+   "aka": [
+    "Trio per un Violoncel obligé, Violon et Basse, Op. 39 No. 1"
+   ],
+   "instruments": {
+    "cello": 1,
+    "violin": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Three String Trios, Op. 39",
+   "year": "c. 1795",
+   "minutes": 9,
+   "notes": "Cello obbligato, violin and bass line (IMSLP: a second cello); three movements, Allegro - Andante - Rondo",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Cello obbligato in Classical style, about ABRSM 7; violin and bass easier",
+   "hardest_part_guess": "cello",
+   "imslpPage": "3 String Trios, Op.39 (Bréval, Jean-Baptiste)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Paris: Imbault, c. 1795 (IMSLP)",
+    "recorded": "Piccolo Concerto Wien, Pan Classics (2020), 'Bréval & Devienne: Chamber Music' (Op. 39 Nos. 1-3)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/3_String_Trios,_Op.39_(Br%C3%A9val,_Jean-Baptiste)",
+    "https://www.deezer.com/album/579415951",
+    "https://itunes.apple.com/lookup?id=1519310090&entity=song"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Bréval, Jean-Baptiste",
+   "title": "String Trio in D major, Op. 39 No. 2",
+   "aka": [
+    "Trio per un Violoncel obligé, Violon et Basse, Op. 39 No. 2"
+   ],
+   "instruments": {
+    "cello": 1,
+    "violin": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Three String Trios, Op. 39",
+   "year": "c. 1795",
+   "minutes": 9,
+   "notes": "Cello obbligato, violin and bass line (IMSLP: a second cello); three movements including a Romance",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Cello obbligato in Classical style, about ABRSM 7; violin and bass easier",
+   "hardest_part_guess": "cello",
+   "imslpPage": "3 String Trios, Op.39 (Bréval, Jean-Baptiste)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Paris: Imbault, c. 1795 (IMSLP)",
+    "recorded": "Piccolo Concerto Wien, Pan Classics (2020), 'Bréval & Devienne: Chamber Music' (Op. 39 Nos. 1-3)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/3_String_Trios,_Op.39_(Br%C3%A9val,_Jean-Baptiste)",
+    "https://www.deezer.com/album/579415951",
+    "https://itunes.apple.com/lookup?id=1519310090&entity=song"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Bréval, Jean-Baptiste",
+   "title": "String Trio in C major, Op. 39 No. 3",
+   "aka": [
+    "Trio per un Violoncel obligé, Violon et Basse, Op. 39 No. 3"
+   ],
+   "instruments": {
+    "cello": 1,
+    "violin": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Three String Trios, Op. 39",
+   "year": "c. 1795",
+   "minutes": 9,
+   "notes": "Cello obbligato, violin and bass line (IMSLP: a second cello); two movements on the disc",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Cello obbligato in Classical style, about ABRSM 7; violin and bass easier",
+   "hardest_part_guess": "cello",
+   "imslpPage": "3 String Trios, Op.39 (Bréval, Jean-Baptiste)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Paris: Imbault, c. 1795 (IMSLP)",
+    "recorded": "Piccolo Concerto Wien, Pan Classics (2020), 'Bréval & Devienne: Chamber Music' (Op. 39 Nos. 1-3)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/3_String_Trios,_Op.39_(Br%C3%A9val,_Jean-Baptiste)",
+    "https://www.deezer.com/album/579415951",
+    "https://itunes.apple.com/lookup?id=1519310090&entity=song"
+   ],
+   "confidence": "medium"
   }
  ],
  "skipped": [
@@ -3083,7 +3211,7 @@
    "imslpPage": "6 Notturnos, Op.4 (Agus, Giuseppe)",
    "works": 4,
    "reason": "not performed or recorded",
-   "evidence": "Nos. 1, 2, 4 and 5 are not on the Linae Occultae disc (Nos. 3 and 6 only) or elsewhere on Deezer/MusicBrainz"
+   "evidence": "RECHECK 2026-10-17: Deezer 'Giuseppe Agus notturni', 'Agus notturno', 'Agus Linae Occultae': only L'Apotheose's disc with Op. 4 Nos. 3 and 6; Nos. 1, 2, 4, 5 not found. Earlier pass: Nos. 1, 2, 4 and 5 are not on the Linae Occultae disc (Nos. 3 and 6 only) or elsewhere on Deezer/MusicBrainz"
   },
   {
    "composer": "André, Johann Anton",
@@ -3091,7 +3219,7 @@
    "imslpPage": "3 String Quartets, Op.14 (André, Johann Anton)",
    "works": 2,
    "reason": "not performed or recorded",
-   "evidence": "Only No. 1 (C major) is on the eda records disc; Nos. 2 and 3 not found on Deezer/MusicBrainz"
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Anton Andre string quartet', 'Andre quartet Op. 14', 'Andre quartet Op. 15 Oxalis': only the eda records disc (Op. 14 No. 1 of three) and CPO's Oxalis disc (Op. 15 Nos. 1 and 3); Op. 14 Nos. 2 and 3 and Op. 15 No. 2 not found. Earlier pass: Only No. 1 (C major) is on the eda records disc; Nos. 2 and 3 not found on Deezer/MusicBrainz"
   },
   {
    "composer": "André, Johann Anton",
@@ -3099,7 +3227,7 @@
    "imslpPage": "3 String Quartets, Op.15 (André, Johann Anton)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Oxalis Quartet (CPO) records Nos. 1 and 3 only; No. 2 not found"
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Anton Andre string quartet', 'Andre quartet Op. 14', 'Andre quartet Op. 15 Oxalis': only the eda records disc (Op. 14 No. 1 of three) and CPO's Oxalis disc (Op. 15 Nos. 1 and 3); Op. 14 Nos. 2 and 3 and Op. 15 No. 2 not found. Earlier pass: Oxalis Quartet (CPO) records Nos. 1 and 3 only; No. 2 not found"
   },
   {
    "composer": "Barbella, Emanuele",
@@ -3115,7 +3243,7 @@
    "imslpPage": "23 Divertissements (Brunetti, Gaetano)",
    "works": 8,
    "reason": "not performed or recorded",
-   "evidence": "Of the 23 pieces (violin, viola, cello) 15 are recorded: L. 127-133, 136, 140, 142 (Brilliant, Concerto 1700) and L. 145-149 (Carmen Veneris); the other eight are not found on Deezer/MusicBrainz. The page lists no L. numbers: the match to the discs is by scoring and count (L. 127-149 = 23)"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Brunetti string sextet', 'Brunetti sextet Op. 1', 'Gaetano Brunetti divertimento', 'Brunetti trio' found only the discs already used (Quantz Collegium Op. 1 Nos. 2, 4, 5; Concerto 1700; Carmen Veneris); nothing for the works left out. Earlier pass: Of the 23 pieces (violin, viola, cello) 15 are recorded: L. 127-133, 136, 140, 142 (Brilliant, Concerto 1700) and L. 145-149 (Carmen Veneris); the other eight are not found on Deezer/MusicBrainz. The page lists no L. numbers: the match to the discs is by scoring and count (L. 127-149 = 23)"
   },
   {
    "composer": "Brunetti, Gaetano",
@@ -3123,7 +3251,7 @@
    "imslpPage": "6 String Sextets, Op.1 (Brunetti, Gaetano)",
    "works": 4,
    "reason": "not performed or recorded",
-   "evidence": "Quantz Collegium (K&K Verlagsanstalt, live 2020) record Nos. 4 and 5; No. 2 only in a version for flute, 2 violins, viola and 2 cellos; Nos. 1, 3, 6 not found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Brunetti string sextet', 'Brunetti sextet Op. 1', 'Gaetano Brunetti divertimento', 'Brunetti trio' found only the discs already used (Quantz Collegium Op. 1 Nos. 2, 4, 5; Concerto 1700; Carmen Veneris); nothing for the works left out. Earlier pass: Quantz Collegium (K&K Verlagsanstalt, live 2020) record Nos. 4 and 5; No. 2 only in a version for flute, 2 violins, viola and 2 cellos; Nos. 1, 3, 6 not found"
   },
   {
    "composer": "Brunetti, Gaetano",
@@ -3131,7 +3259,7 @@
    "imslpPage": "Trio in E-flat major (Brunetti, Gaetano)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "IMSLP: two violins and cello, two movements (Allegro, Rondo grazioso), dated 1 August 1776; the recorded E-flat trio L. 111 has four movements, so no recording of this one found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Brunetti string sextet', 'Brunetti sextet Op. 1', 'Gaetano Brunetti divertimento', 'Brunetti trio' found only the discs already used (Quantz Collegium Op. 1 Nos. 2, 4, 5; Concerto 1700; Carmen Veneris); nothing for the works left out. Earlier pass: IMSLP: two violins and cello, two movements (Allegro, Rondo grazioso), dated 1 August 1776; the recorded E-flat trio L. 111 has four movements, so no recording of this one found"
   },
   {
    "composer": "Antes, John",
@@ -3147,7 +3275,7 @@
    "imslpPage": "2 Oboe Quartets (Bochsa, Charles)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Only No. 2 (D minor) is on the PASCHENrecords disc; No. 1 (B-flat) not found on Apple, Deezer or MusicBrainz"
+   "evidence": "RECHECK 2026-10-17: Only No. 2 (D minor) is recorded: PASCHENrecords and also DENON's 'Oboe Quartets' (Masashi Honma, Deezer 707097831, whose B-flat quartet is not Bochsa's if the album's four named composers have one quartet each). No. 1 (B-flat) not found (Deezer 'Bochsa oboe quartet'). Earlier pass: Only No. 2 (D minor) is on the PASCHENrecords disc; No. 1 (B-flat) not found on Apple, Deezer or MusicBrainz"
   },
   {
    "composer": "Asplmayr, Franz",
@@ -3155,7 +3283,7 @@
    "imslpPage": "6 String Trios, Op.3 (Asplmayr, Franz)",
    "works": 5,
    "reason": "not performed or recorded",
-   "evidence": "Only Trio moderne No. 1 found (Catacoustic Consort, pardessus de viole); Nos. 2-6 not found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Asplmayr', 'Asplmayr quartet', 'Asplmayr serenade', 'Asplmayr trio': only the Eybler Quartet disc (Op. 2 Nos. 1-6); no recording of this page's work. Earlier pass: Only Trio moderne No. 1 found (Catacoustic Consort, pardessus de viole); Nos. 2-6 not found"
   },
   {
    "composer": "Bevilacqua, Matteo",
@@ -3306,88 +3434,88 @@
    "title": "3 Flute Quartets",
    "imslpPage": "3 Flute Quartets (Amon, Johann Andreas)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Andreas Amon', 'Amon flute quartet', 'Amon horn quartet': only flute-and-harp and flute-and-fortepiano duos (outside the section); no quartet or trio. Earlier pass: Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
   },
   {
    "composer": "Amon, Johann Andreas",
    "title": "3 Flute Quartets, Op.42",
    "imslpPage": "3 Flute Quartets, Op.42 (Amon, Johann Andreas)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Andreas Amon', 'Amon flute quartet', 'Amon horn quartet': only flute-and-harp and flute-and-fortepiano duos (outside the section); no quartet or trio. Earlier pass: Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
   },
   {
    "composer": "Amon, Johann Andreas",
    "title": "3 Oboe Quartets, Op.92",
    "imslpPage": "3 Oboe Quartets, Op.92 (Amon, Johann Andreas)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Andreas Amon', 'Amon flute quartet', 'Amon horn quartet': only flute-and-harp and flute-and-fortepiano duos (outside the section); no quartet or trio. Earlier pass: Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
   },
   {
    "composer": "Amon, Johann Andreas",
    "title": "3 Quartets for Horn and Strings, Op.109",
    "imslpPage": "3 Quartets for Horn and Strings, Op.109 (Amon, Johann Andreas)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Andreas Amon', 'Amon flute quartet', 'Amon horn quartet': only flute-and-harp and flute-and-fortepiano duos (outside the section); no quartet or trio. Earlier pass: Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
   },
   {
    "composer": "Amon, Johann Andreas",
    "title": "3 Quartets for Horn and Strings, Op.20",
    "imslpPage": "3 Quartets for Horn and Strings, Op.20 (Amon, Johann Andreas)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Andreas Amon', 'Amon flute quartet', 'Amon horn quartet': only flute-and-harp and flute-and-fortepiano duos (outside the section); no quartet or trio. Earlier pass: Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
   },
   {
    "composer": "Amon, Johann Andreas",
    "title": "3 String Quartets, Op.113",
    "imslpPage": "3 String Quartets, Op.113 (Amon, Johann Andreas)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Andreas Amon', 'Amon flute quartet', 'Amon horn quartet': only flute-and-harp and flute-and-fortepiano duos (outside the section); no quartet or trio. Earlier pass: Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
   },
   {
    "composer": "Amon, Johann Andreas",
    "title": "3 String Quartets, Op.15",
    "imslpPage": "3 String Quartets, Op.15 (Amon, Johann Andreas)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Andreas Amon', 'Amon flute quartet', 'Amon horn quartet': only flute-and-harp and flute-and-fortepiano duos (outside the section); no quartet or trio. Earlier pass: Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
   },
   {
    "composer": "Amon, Johann Andreas",
    "title": "3 String Trios, Op.8",
    "imslpPage": "3 String Trios, Op.8 (Amon, Johann Andreas)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Andreas Amon', 'Amon flute quartet', 'Amon horn quartet': only flute-and-harp and flute-and-fortepiano duos (outside the section); no quartet or trio. Earlier pass: Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
   },
   {
    "composer": "Amon, Johann Andreas",
    "title": "3 Trios for Piano, Flute & Cello, Op.48",
    "imslpPage": "3 Trios for Piano, Flute & Cello, Op.48 (Amon, Johann Andreas)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Andreas Amon', 'Amon flute quartet', 'Amon horn quartet': only flute-and-harp and flute-and-fortepiano duos (outside the section); no quartet or trio. Earlier pass: Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
   },
   {
    "composer": "Amon, Johann Andreas",
    "title": "Flute Quartet, Op.84",
    "imslpPage": "Flute Quartet, Op.84 (Amon, Johann Andreas)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Andreas Amon', 'Amon flute quartet', 'Amon horn quartet': only flute-and-harp and flute-and-fortepiano duos (outside the section); no quartet or trio. Earlier pass: Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
   },
   {
    "composer": "Amon, Johann Andreas",
    "title": "Larghetto et deux thêmes variés",
    "imslpPage": "Larghetto et deux thêmes variés (Amon, Johann Andreas)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Johann Andreas Amon', 'Amon flute quartet', 'Amon horn quartet': only flute-and-harp and flute-and-fortepiano duos (outside the section); no quartet or trio. Earlier pass: Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
   },
   {
    "composer": "Andreozzi, Gaetano",
@@ -3435,7 +3563,7 @@
    "imslpPage": "6 Serenades, Op.1 (Asplmayr, Franz)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Asplmayr', 'Asplmayr quartet', 'Asplmayr serenade', 'Asplmayr trio': only the Eybler Quartet disc (Op. 2 Nos. 1-6); no recording of this page's work. Earlier pass: Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
   },
   {
    "composer": "Asplmayr, Franz",
@@ -3443,7 +3571,7 @@
    "imslpPage": "6 String Quartets, Op.6 (Asplmayr, Franz)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Asplmayr', 'Asplmayr quartet', 'Asplmayr serenade', 'Asplmayr trio': only the Eybler Quartet disc (Op. 2 Nos. 1-6); no recording of this page's work. Earlier pass: Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
   },
   {
    "composer": "Asplmayr, Franz",
@@ -3451,7 +3579,7 @@
    "imslpPage": "6 String Trios, Op.5 (Asplmayr, Franz)",
    "works": 5,
    "reason": "not performed or recorded",
-   "evidence": "Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Asplmayr', 'Asplmayr quartet', 'Asplmayr serenade', 'Asplmayr trio': only the Eybler Quartet disc (Op. 2 Nos. 1-6); no recording of this page's work. Earlier pass: Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
   },
   {
    "composer": "Asplmayr, Franz",
@@ -3459,7 +3587,7 @@
    "imslpPage": "String Quartet in B minor (Asplmayr, Franz)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Asplmayr', 'Asplmayr quartet', 'Asplmayr serenade', 'Asplmayr trio': only the Eybler Quartet disc (Op. 2 Nos. 1-6); no recording of this page's work. Earlier pass: Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
   },
   {
    "composer": "Asplmayr, Franz",
@@ -3467,7 +3595,7 @@
    "imslpPage": "String Quartet in D major (Asplmayr, Franz)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Asplmayr', 'Asplmayr quartet', 'Asplmayr serenade', 'Asplmayr trio': only the Eybler Quartet disc (Op. 2 Nos. 1-6); no recording of this page's work. Earlier pass: Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
   },
   {
    "composer": "Asplmayr, Franz",
@@ -3475,7 +3603,7 @@
    "imslpPage": "String Quartet in E-flat major (Asplmayr, Franz)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Asplmayr', 'Asplmayr quartet', 'Asplmayr serenade', 'Asplmayr trio': only the Eybler Quartet disc (Op. 2 Nos. 1-6); no recording of this page's work. Earlier pass: Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
   },
   {
    "composer": "Asplmayr, Franz",
@@ -3483,47 +3611,47 @@
    "imslpPage": "String Trio in F major, Op.5 No.1 (Asplmayr, Franz)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Asplmayr', 'Asplmayr quartet', 'Asplmayr serenade', 'Asplmayr trio': only the Eybler Quartet disc (Op. 2 Nos. 1-6); no recording of this page's work. Earlier pass: Deezer, MusicBrainz and Apple list only the Eybler Quartet disc (Op. 2) and one Catacoustic Consort trio (Op. 3 No. 1); no recording of this page's work found"
   },
   {
    "composer": "Auber, Daniel François Esprit",
    "title": "Fugue sur un thème de 'Faniska' de Cherubini, AWV 164",
    "imslpPage": "Fugue sur un thème de 'Faniska' de Cherubini, AWV 164 (Auber, Daniel François Esprit)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz and Apple list operas, overtures and ballet music only; no recording of his string quartets or the Piano Trio Op. 1 found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Auber string quartet', 'Auber quatuor', 'Auber piano trio': only opera numbers and Czerny's Quatuor Concertant Op. 230 for piano ensemble (an arrangement); no chamber work by Auber. Earlier pass: MusicBrainz and Apple list operas, overtures and ballet music only; no recording of his string quartets or the Piano Trio Op. 1 found"
   },
   {
    "composer": "Auber, Daniel François Esprit",
    "title": "Piano Trio, Op.1",
    "imslpPage": "Piano Trio, Op.1 (Auber, Daniel François Esprit)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz and Apple list operas, overtures and ballet music only; no recording of his string quartets or the Piano Trio Op. 1 found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Auber string quartet', 'Auber quatuor', 'Auber piano trio': only opera numbers and Czerny's Quatuor Concertant Op. 230 for piano ensemble (an arrangement); no chamber work by Auber. Earlier pass: MusicBrainz and Apple list operas, overtures and ballet music only; no recording of his string quartets or the Piano Trio Op. 1 found"
   },
   {
    "composer": "Auber, Daniel François Esprit",
    "title": "String Quartet No.1, AWV 159",
    "imslpPage": "String Quartet No.1, AWV 159 (Auber, Daniel François Esprit)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz and Apple list operas, overtures and ballet music only; no recording of his string quartets or the Piano Trio Op. 1 found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Auber string quartet', 'Auber quatuor', 'Auber piano trio': only opera numbers and Czerny's Quatuor Concertant Op. 230 for piano ensemble (an arrangement); no chamber work by Auber. Earlier pass: MusicBrainz and Apple list operas, overtures and ballet music only; no recording of his string quartets or the Piano Trio Op. 1 found"
   },
   {
    "composer": "Auber, Daniel François Esprit",
    "title": "String Quartet No.5",
    "imslpPage": "String Quartet No.5 (Auber, Daniel François Esprit)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz and Apple list operas, overtures and ballet music only; no recording of his string quartets or the Piano Trio Op. 1 found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Auber string quartet', 'Auber quatuor', 'Auber piano trio': only opera numbers and Czerny's Quatuor Concertant Op. 230 for piano ensemble (an arrangement); no chamber work by Auber. Earlier pass: MusicBrainz and Apple list operas, overtures and ballet music only; no recording of his string quartets or the Piano Trio Op. 1 found"
   },
   {
    "composer": "Auber, Daniel François Esprit",
    "title": "String Quartet No.7",
    "imslpPage": "String Quartet No.7 (Auber, Daniel François Esprit)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz and Apple list operas, overtures and ballet music only; no recording of his string quartets or the Piano Trio Op. 1 found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Auber string quartet', 'Auber quatuor', 'Auber piano trio': only opera numbers and Czerny's Quatuor Concertant Op. 230 for piano ensemble (an arrangement); no chamber work by Auber. Earlier pass: MusicBrainz and Apple list operas, overtures and ballet music only; no recording of his string quartets or the Piano Trio Op. 1 found"
   },
   {
    "composer": "Avolio, Jean",
@@ -3546,64 +3674,64 @@
    "title": "2 Airs variés, Op.5",
    "imslpPage": "2 Airs variés, Op.5 (Baillot, Pierre)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Baillot string quartet', 'Pierre Baillot quartet', 'Baillot trio': nothing. Earlier pass: MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
   },
   {
    "composer": "Baillot, Pierre",
    "title": "3 Airs russes variés, Op.20",
    "imslpPage": "3 Airs russes variés, Op.20 (Baillot, Pierre)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Baillot string quartet', 'Pierre Baillot quartet', 'Baillot trio': nothing. Earlier pass: MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
   },
   {
    "composer": "Baillot, Pierre",
    "title": "3 String Quartets, Op.34",
    "imslpPage": "3 String Quartets, Op.34 (Baillot, Pierre)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Baillot string quartet', 'Pierre Baillot quartet', 'Baillot trio': nothing. Earlier pass: MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
   },
   {
    "composer": "Baillot, Pierre",
    "title": "3 String Trios, Op.39",
    "imslpPage": "3 String Trios, Op.39 (Baillot, Pierre)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Baillot string quartet', 'Pierre Baillot quartet', 'Baillot trio': nothing. Earlier pass: MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
   },
   {
    "composer": "Baillot, Pierre",
    "title": "3 String Trios, Op.4",
    "imslpPage": "3 String Trios, Op.4 (Baillot, Pierre)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Baillot string quartet', 'Pierre Baillot quartet', 'Baillot trio': nothing. Earlier pass: MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
   },
   {
    "composer": "Baillot, Pierre",
    "title": "6 String Trios, Op.1",
    "imslpPage": "6 String Trios, Op.1 (Baillot, Pierre)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Baillot string quartet', 'Pierre Baillot quartet', 'Baillot trio': nothing. Earlier pass: MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
   },
   {
    "composer": "Baillot, Pierre",
    "title": "Variations on a Theme by Weigl, Op.28",
    "imslpPage": "Variations on a Theme by Weigl, Op.28 (Baillot, Pierre)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Baillot string quartet', 'Pierre Baillot quartet', 'Baillot trio': nothing. Earlier pass: MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
   },
   {
    "composer": "Baillot, Pierre",
    "title": "Variations on Jéhal Kazak za Dounaï, Op.37",
    "imslpPage": "Variations on Jéhal Kazak za Dounaï, Op.37 (Baillot, Pierre)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Baillot string quartet', 'Pierre Baillot quartet', 'Baillot trio': nothing. Earlier pass: MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
   },
   {
    "composer": "Baldenecker, Nicolas",
@@ -3666,24 +3794,24 @@
    "title": "6 String Quartets, Op.1",
    "imslpPage": "6 String Quartets, Op.1 (Barrière, Étienne Bernard Joseph)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: 1 artist match(es), 92 works, 70 with linked recordings; Deezer: nothing; Apple composerTerm song search: 1 result(s), none a chamber work"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Etienne Barriere', 'Barriere quartet', 'Barriere trio': only Jean Barriere's cello trios (another composer); nothing by Etienne. Earlier pass: MusicBrainz: 1 artist match(es), 92 works, 70 with linked recordings; Deezer: nothing; Apple composerTerm song search: 1 result(s), none a chamber work"
   },
   {
    "composer": "Barrière, Étienne Bernard Joseph",
    "title": "6 String Quartets, Op.3",
    "imslpPage": "6 String Quartets, Op.3 (Barrière, Étienne Bernard Joseph)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: 1 artist match(es), 92 works, 70 with linked recordings; Deezer: nothing; Apple composerTerm song search: 1 result(s), none a chamber work"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Etienne Barriere', 'Barriere quartet', 'Barriere trio': only Jean Barriere's cello trios (another composer); nothing by Etienne. Earlier pass: MusicBrainz: 1 artist match(es), 92 works, 70 with linked recordings; Deezer: nothing; Apple composerTerm song search: 1 result(s), none a chamber work"
   },
   {
    "composer": "Barrière, Étienne Bernard Joseph",
    "title": "6 String Quartets, Op.8",
    "imslpPage": "6 String Quartets, Op.8 (Barrière, Étienne Bernard Joseph)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: 1 artist match(es), 92 works, 70 with linked recordings; Deezer: nothing; Apple composerTerm song search: 1 result(s), none a chamber work"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Etienne Barriere', 'Barriere quartet', 'Barriere trio': only Jean Barriere's cello trios (another composer); nothing by Etienne. Earlier pass: MusicBrainz: 1 artist match(es), 92 works, 70 with linked recordings; Deezer: nothing; Apple composerTerm song search: 1 result(s), none a chamber work"
   },
   {
    "composer": "Bárta, Josef",
@@ -3698,24 +3826,24 @@
    "title": "3 Piano Trios, Op.2",
    "imslpPage": "3 Piano Trios, Op.2 (Barthélemon, Cecilia Maria)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz and Apple list her keyboard sonatas (Op. 1, Op. 3) only; no recording of the Piano Trios Op. 2 found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Barthelemon trio', 'Cecilia Barthelemon', 'Francois Barthelemon': nothing. Earlier pass: MusicBrainz and Apple list her keyboard sonatas (Op. 1, Op. 3) only; no recording of the Piano Trios Op. 2 found"
   },
   {
    "composer": "Barthélémon, François-Hippolyte",
    "title": "6 Concertos, Op.3",
    "imslpPage": "6 Concertos, Op.3 (Barthélémon, François-Hippolyte)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Apple shows Gary Karr, Elmira Darvarova and Harmon Lewis playing his Op. 2 sonatas and duettos (violin with bass or duos, outside the section) and hymn tunes; no recording of the trio sonatas Op. 1 or concertos Op. 3 found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Barthelemon trio', 'Cecilia Barthelemon', 'Francois Barthelemon': nothing. Earlier pass: Apple shows Gary Karr, Elmira Darvarova and Harmon Lewis playing his Op. 2 sonatas and duettos (violin with bass or duos, outside the section) and hymn tunes; no recording of the trio sonatas Op. 1 or concertos Op. 3 found"
   },
   {
    "composer": "Barthélémon, François-Hippolyte",
    "title": "6 Trio Sonatas, Op.1",
    "imslpPage": "6 Trio Sonatas, Op.1 (Barthélémon, François-Hippolyte)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Apple shows Gary Karr, Elmira Darvarova and Harmon Lewis playing his Op. 2 sonatas and duettos (violin with bass or duos, outside the section) and hymn tunes; no recording of the trio sonatas Op. 1 or concertos Op. 3 found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Barthelemon trio', 'Cecilia Barthelemon', 'Francois Barthelemon': nothing. Earlier pass: Apple shows Gary Karr, Elmira Darvarova and Harmon Lewis playing his Op. 2 sonatas and duettos (violin with bass or duos, outside the section) and hymn tunes; no recording of the trio sonatas Op. 1 or concertos Op. 3 found"
   },
   {
    "composer": "Bauer, Joseph Anton",
@@ -3786,16 +3914,16 @@
    "title": "6 Periodical Quartets",
    "imslpPage": "6 Periodical Quartets (Baumgarten, Carl Friedrich)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match for the name and dates; Deezer: 1 album(s) and 3 track(s) match the name, none a chamber work; Apple composerTerm song search: nothing"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Only Op. 2 No. 3 (G minor) is recorded and has left this list (DENON, Deezer 707097831); no recording of the other quartets found (first pass: MusicBrainz no artist, Apple composerTerm nothing). Earlier pass: MusicBrainz: no artist match for the name and dates; Deezer: 1 album(s) and 3 track(s) match the name, none a chamber work; Apple composerTerm song search: nothing"
   },
   {
    "composer": "Baumgarten, Carl Friedrich",
    "title": "6 Quartets, Op.2",
    "imslpPage": "6 Quartets, Op.2 (Baumgarten, Carl Friedrich)",
-   "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match for the name and dates; Deezer: 1 album(s) and 3 track(s) match the name, none a chamber work; Apple composerTerm song search: nothing"
+   "works": 5,
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Op. 2 No. 3 (G minor) left this line: recorded as an oboe quartet on DENON's 'Oboe Quartets' (Masashi Honma et al., 2006, Deezer 707097831; the album names Mozart, Bochsa, Baumgarten and Cannabich with one quartet each, and Op. 2 No. 3 is one of the oboe/flute, violin, viola, cello numbers of Baumgarten's Op. 2). The other five not found (first pass: MusicBrainz no artist, Deezer and Apple nothing)."
   },
   {
    "composer": "Beckmann, Johann Friedrich Gottlieb",
@@ -3819,7 +3947,7 @@
    "imslpPage": "3 Piano Trios, Op.6 (Benincori, Angelo Maria)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Only a G-minor trio (Trio Arté, Gamma Musica 2014, scoring unstated) turned up; none of the IMSLP pages is identified with it"
+   "evidence": "RECHECK 2026-10-17: Trio Arté (Gamma Musica 2014, Deezer 304605657) record one G-minor 'Trio II' (three movements, 28:44); it is entered as 'Piano Trio in G minor' without opus because IMSLP's Op. 6 page gives no keys and holds scans of Nos. 2 and 3 only, so the match with Op. 6 No. 2 is probable but unconfirmed. MusicBrainz artist search (no works; release and recording searches for 'Benincori' find only Trio Arté's Trio II), Deezer album and track searches ('Benincori', 'Angelo Maria Benincori', 'Benincori trio', 'Benincori quartet'), Apple composerTerm song search 'Angelo Maria Benincori' and 'Benincori' (0 results): no string quartet recorded."
   },
   {
    "composer": "Benincori, Angelo Maria",
@@ -3827,7 +3955,7 @@
    "imslpPage": "3 String Quartets, Op.1 (Benincori, Angelo Maria)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Only a G-minor trio (Trio Arté, Gamma Musica 2014, scoring unstated) turned up; none of the IMSLP pages is identified with it"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz artist search (no works; release and recording searches for 'Benincori' find only Trio Arté's Trio II), Deezer album and track searches ('Benincori', 'Angelo Maria Benincori', 'Benincori trio', 'Benincori quartet'), Apple composerTerm song search 'Angelo Maria Benincori' and 'Benincori' (0 results): no string quartet recorded."
   },
   {
    "composer": "Benincori, Angelo Maria",
@@ -3835,7 +3963,7 @@
    "imslpPage": "3 String Quartets, Op.2 (Benincori, Angelo Maria)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Only a G-minor trio (Trio Arté, Gamma Musica 2014, scoring unstated) turned up; none of the IMSLP pages is identified with it"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz artist search (no works; release and recording searches for 'Benincori' find only Trio Arté's Trio II), Deezer album and track searches ('Benincori', 'Angelo Maria Benincori', 'Benincori trio', 'Benincori quartet'), Apple composerTerm song search 'Angelo Maria Benincori' and 'Benincori' (0 results): no string quartet recorded."
   },
   {
    "composer": "Benincori, Angelo Maria",
@@ -3843,7 +3971,7 @@
    "imslpPage": "3 String Quartets, Op.3 (Benincori, Angelo Maria)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Only a G-minor trio (Trio Arté, Gamma Musica 2014, scoring unstated) turned up; none of the IMSLP pages is identified with it"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz artist search (no works; release and recording searches for 'Benincori' find only Trio Arté's Trio II), Deezer album and track searches ('Benincori', 'Angelo Maria Benincori', 'Benincori trio', 'Benincori quartet'), Apple composerTerm song search 'Angelo Maria Benincori' and 'Benincori' (0 results): no string quartet recorded."
   },
   {
    "composer": "Benincori, Angelo Maria",
@@ -3851,7 +3979,7 @@
    "imslpPage": "3 String Quartets, Op.4 (Benincori, Angelo Maria)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Only a G-minor trio (Trio Arté, Gamma Musica 2014, scoring unstated) turned up; none of the IMSLP pages is identified with it"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz artist search (no works; release and recording searches for 'Benincori' find only Trio Arté's Trio II), Deezer album and track searches ('Benincori', 'Angelo Maria Benincori', 'Benincori trio', 'Benincori quartet'), Apple composerTerm song search 'Angelo Maria Benincori' and 'Benincori' (0 results): no string quartet recorded."
   },
   {
    "composer": "Benincori, Angelo Maria",
@@ -3859,7 +3987,7 @@
    "imslpPage": "3 String Quartets, Op.5 (Benincori, Angelo Maria)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Only a G-minor trio (Trio Arté, Gamma Musica 2014, scoring unstated) turned up; none of the IMSLP pages is identified with it"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz artist search (no works; release and recording searches for 'Benincori' find only Trio Arté's Trio II), Deezer album and track searches ('Benincori', 'Angelo Maria Benincori', 'Benincori trio', 'Benincori quartet'), Apple composerTerm song search 'Angelo Maria Benincori' and 'Benincori' (0 results): no string quartet recorded."
   },
   {
    "composer": "Benincori, Angelo Maria",
@@ -3867,7 +3995,7 @@
    "imslpPage": "6 String Quartets, Op.8 (Benincori, Angelo Maria)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Only a G-minor trio (Trio Arté, Gamma Musica 2014, scoring unstated) turned up; none of the IMSLP pages is identified with it"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz artist search (no works; release and recording searches for 'Benincori' find only Trio Arté's Trio II), Deezer album and track searches ('Benincori', 'Angelo Maria Benincori', 'Benincori trio', 'Benincori quartet'), Apple composerTerm song search 'Angelo Maria Benincori' and 'Benincori' (0 results): no string quartet recorded."
   },
   {
    "composer": "Benzon, Siegfried",
@@ -3882,16 +4010,16 @@
    "title": "Flute Quartet No.1, Op.86",
    "imslpPage": "Flute Quartet No.1, Op.86 (Berbiguier, Tranquille)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Apple shows flute duos and nocturnes with piano (arrangements) and MusicBrainz lists no works; no recording of the flute quartet Op. 86 or the variations found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Berbiguier flute quartet', 'Berbiguier quartet', 'Tranquille Berbiguier': nothing. Earlier pass: Apple shows flute duos and nocturnes with piano (arrangements) and MusicBrainz lists no works; no recording of the flute quartet Op. 86 or the variations found"
   },
   {
    "composer": "Berbiguier, Tranquille",
    "title": "Variations on 'L'infidélité d'Annette', Op.25",
    "imslpPage": "Variations on 'L'infidélité d'Annette', Op.25 (Berbiguier, Tranquille)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Apple shows flute duos and nocturnes with piano (arrangements) and MusicBrainz lists no works; no recording of the flute quartet Op. 86 or the variations found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Berbiguier flute quartet', 'Berbiguier quartet', 'Tranquille Berbiguier': nothing. Earlier pass: Apple shows flute duos and nocturnes with piano (arrangements) and MusicBrainz lists no works; no recording of the flute quartet Op. 86 or the variations found"
   },
   {
    "composer": "Berg, Konrad-Mathias",
@@ -3970,24 +4098,24 @@
    "title": "3 String Quartets, Op.10",
    "imslpPage": "3 String Quartets, Op.10 (Blasius, Matthieu Frédéric)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Apple and MusicBrainz list his clarinet concertos and sinfonie concertanti with orchestra only; no recording of his string quartets found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Blasius string quartet', 'Blasius quatuor', 'Frederic Blasius': nothing. Earlier pass: Apple and MusicBrainz list his clarinet concertos and sinfonie concertanti with orchestra only; no recording of his string quartets found"
   },
   {
    "composer": "Blasius, Matthieu Frédéric",
    "title": "3 String Quartets, Op.19",
    "imslpPage": "3 String Quartets, Op.19 (Blasius, Matthieu Frédéric)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Apple and MusicBrainz list his clarinet concertos and sinfonie concertanti with orchestra only; no recording of his string quartets found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Blasius string quartet', 'Blasius quatuor', 'Frederic Blasius': nothing. Earlier pass: Apple and MusicBrainz list his clarinet concertos and sinfonie concertanti with orchestra only; no recording of his string quartets found"
   },
   {
    "composer": "Blasius, Matthieu Frédéric",
    "title": "3 String Quartets, Op.61",
    "imslpPage": "3 String Quartets, Op.61 (Blasius, Matthieu Frédéric)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Apple and MusicBrainz list his clarinet concertos and sinfonie concertanti with orchestra only; no recording of his string quartets found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Blasius string quartet', 'Blasius quatuor', 'Frederic Blasius': nothing. Earlier pass: Apple and MusicBrainz list his clarinet concertos and sinfonie concertanti with orchestra only; no recording of his string quartets found"
   },
   {
    "composer": "Blatt, Franz Thaddäus",
@@ -4019,7 +4147,7 @@
    "imslpPage": "3 Flute Quartets, Op.11 (Bochsa, Charles)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "The harp and oboe-harp recordings found are by the son Nicolas-Charles Bochsa; no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer 'Charles Bochsa flute quartet', 'Bochsa flute quartets Op. 11': no recording of the Op. 11 flute quartets (the harp albums are the son's). Earlier pass: The harp and oboe-harp recordings found are by the son Nicolas-Charles Bochsa; no recording of this page's work found"
   },
   {
    "composer": "Böcklin von Böcklinsau, Franz Friedrich Siegmund August",
@@ -4107,7 +4235,7 @@
    "imslpPage": "3 Flute Quartets, Op.40 (Brandl, Johann Evangelist)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Brandl string quartet', 'Brandl flute quartet', 'Brandl flute quintet', 'Johann Evangelist Brandl': only the orchestral album 'Brandl: Orchestral Works'; no recording of this page's work. Earlier pass: Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
   },
   {
    "composer": "Brandl, Johann Evangelist",
@@ -4115,7 +4243,7 @@
    "imslpPage": "3 String Quartets, Op.23 (Brandl, Johann Evangelist)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Brandl string quartet', 'Brandl flute quartet', 'Brandl flute quintet', 'Johann Evangelist Brandl': only the orchestral album 'Brandl: Orchestral Works'; no recording of this page's work. Earlier pass: Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
   },
   {
    "composer": "Brandl, Johann Evangelist",
@@ -4123,7 +4251,7 @@
    "imslpPage": "6 String Quartets, Op.17 (Brandl, Johann Evangelist)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Brandl string quartet', 'Brandl flute quartet', 'Brandl flute quintet', 'Johann Evangelist Brandl': only the orchestral album 'Brandl: Orchestral Works'; no recording of this page's work. Earlier pass: Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
   },
   {
    "composer": "Brandl, Johann Evangelist",
@@ -4131,7 +4259,7 @@
    "imslpPage": "6 String Quintets, Op.11 (Brandl, Johann Evangelist)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Brandl string quartet', 'Brandl flute quartet', 'Brandl flute quintet', 'Johann Evangelist Brandl': only the orchestral album 'Brandl: Orchestral Works'; no recording of this page's work. Earlier pass: Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
   },
   {
    "composer": "Brandl, Johann Evangelist",
@@ -4139,7 +4267,7 @@
    "imslpPage": "Flute Quartet, Op.15 (Brandl, Johann Evangelist)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Brandl string quartet', 'Brandl flute quartet', 'Brandl flute quintet', 'Johann Evangelist Brandl': only the orchestral album 'Brandl: Orchestral Works'; no recording of this page's work. Earlier pass: Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
   },
   {
    "composer": "Brandl, Johann Evangelist",
@@ -4147,7 +4275,7 @@
    "imslpPage": "Flute Quintet No.1 in G minor, Op.58 (Brandl, Johann Evangelist)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Brandl string quartet', 'Brandl flute quartet', 'Brandl flute quintet', 'Johann Evangelist Brandl': only the orchestral album 'Brandl: Orchestral Works'; no recording of this page's work. Earlier pass: Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
   },
   {
    "composer": "Brandl, Johann Evangelist",
@@ -4155,7 +4283,7 @@
    "imslpPage": "Flute Quintet No.2 in D major, Op.60 (Brandl, Johann Evangelist)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Brandl string quartet', 'Brandl flute quartet', 'Brandl flute quintet', 'Johann Evangelist Brandl': only the orchestral album 'Brandl: Orchestral Works'; no recording of this page's work. Earlier pass: Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
   },
   {
    "composer": "Brandl, Johann Evangelist",
@@ -4163,7 +4291,7 @@
    "imslpPage": "Nocturne for 2 Violas and Cello, Op.19 (Brandl, Johann Evangelist)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Brandl string quartet', 'Brandl flute quartet', 'Brandl flute quintet', 'Johann Evangelist Brandl': only the orchestral album 'Brandl: Orchestral Works'; no recording of this page's work. Earlier pass: Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
   },
   {
    "composer": "Brandl, Johann Evangelist",
@@ -4171,7 +4299,7 @@
    "imslpPage": "String Quartet in D minor, Op.18 (Brandl, Johann Evangelist)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Brandl string quartet', 'Brandl flute quartet', 'Brandl flute quintet', 'Johann Evangelist Brandl': only the orchestral album 'Brandl: Orchestral Works'; no recording of this page's work. Earlier pass: Deezer and MusicBrainz show only orchestral works (symphonies, Symphony Concertante Op. 20); no recording of this page's work found"
   },
   {
    "composer": "Braun, Carl Anton Philipp",
@@ -4183,51 +4311,43 @@
   },
   {
    "composer": "Bréval, Jean-Baptiste",
-   "title": "3 String Trios, Op.39",
-   "imslpPage": "3 String Trios, Op.39 (Bréval, Jean-Baptiste)",
-   "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found"
-  },
-  {
-   "composer": "Bréval, Jean-Baptiste",
    "title": "6 Quartets, Op.5",
    "imslpPage": "6 Quartets, Op.5 (Bréval, Jean-Baptiste)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Breval string quartet', 'Breval quatuor', 'Jean-Baptiste Breval', 'Breval trio': cello sonatas, study CDs and the Pan Classics disc with the String Trios Op. 39 (entered); no recording of this page's work. Earlier pass: Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found"
   },
   {
    "composer": "Bréval, Jean-Baptiste",
    "title": "6 String Quartets, Op.18",
    "imslpPage": "6 String Quartets, Op.18 (Bréval, Jean-Baptiste)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Breval string quartet', 'Breval quatuor', 'Jean-Baptiste Breval', 'Breval trio': cello sonatas, study CDs and the Pan Classics disc with the String Trios Op. 39 (entered); no recording of this page's work. Earlier pass: Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found"
   },
   {
    "composer": "Bréval, Jean-Baptiste",
    "title": "6 String Quartets, Op.7",
    "imslpPage": "6 String Quartets, Op.7 (Bréval, Jean-Baptiste)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Breval string quartet', 'Breval quatuor', 'Jean-Baptiste Breval', 'Breval trio': cello sonatas, study CDs and the Pan Classics disc with the String Trios Op. 39 (entered); no recording of this page's work. Earlier pass: Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found"
   },
   {
    "composer": "Bréval, Jean-Baptiste",
    "title": "6 Trios, Op.8",
    "imslpPage": "6 Trios, Op.8 (Bréval, Jean-Baptiste)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Breval string quartet', 'Breval quatuor', 'Jean-Baptiste Breval', 'Breval trio': cello sonatas, study CDs and the Pan Classics disc with the String Trios Op. 39 (entered); no recording of this page's work. Earlier pass: Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found"
   },
   {
    "composer": "Bréval, Jean-Baptiste",
    "title": "String Quartet, Op.1 No.4",
    "imslpPage": "String Quartet, Op.1 No.4 (Bréval, Jean-Baptiste)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Breval string quartet', 'Breval quatuor', 'Jean-Baptiste Breval', 'Breval trio': cello sonatas, study CDs and the Pan Classics disc with the String Trios Op. 39 (entered); no recording of this page's work. Earlier pass: Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found"
   },
   {
    "composer": "Brodsky, Thomas",
@@ -4250,80 +4370,80 @@
    "title": "6 String Quartets, Book 10",
    "imslpPage": "6 String Quartets, Book 10 (Bruni, Antonio Bartolomeo)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Bruni string quartet', 'Bruni quartetto', 'Bruni string trio', 'Antonio Bartolomeo Bruni': only viola duos (Duos concertants), 25 Etudes and viola sonatas, which are duos or solos outside the section; no quartet or trio. Earlier pass: Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
   },
   {
    "composer": "Bruni, Antonio Bartolomeo",
    "title": "6 String Quartets, Book 4",
    "imslpPage": "6 String Quartets, Book 4 (Bruni, Antonio Bartolomeo)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Bruni string quartet', 'Bruni quartetto', 'Bruni string trio', 'Antonio Bartolomeo Bruni': only viola duos (Duos concertants), 25 Etudes and viola sonatas, which are duos or solos outside the section; no quartet or trio. Earlier pass: Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
   },
   {
    "composer": "Bruni, Antonio Bartolomeo",
    "title": "6 String Quartets, Book 7",
    "imslpPage": "6 String Quartets, Book 7 (Bruni, Antonio Bartolomeo)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Bruni string quartet', 'Bruni quartetto', 'Bruni string trio', 'Antonio Bartolomeo Bruni': only viola duos (Duos concertants), 25 Etudes and viola sonatas, which are duos or solos outside the section; no quartet or trio. Earlier pass: Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
   },
   {
    "composer": "Bruni, Antonio Bartolomeo",
    "title": "6 String Quartets, Book 9",
    "imslpPage": "6 String Quartets, Book 9 (Bruni, Antonio Bartolomeo)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Bruni string quartet', 'Bruni quartetto', 'Bruni string trio', 'Antonio Bartolomeo Bruni': only viola duos (Duos concertants), 25 Etudes and viola sonatas, which are duos or solos outside the section; no quartet or trio. Earlier pass: Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
   },
   {
    "composer": "Bruni, Antonio Bartolomeo",
    "title": "6 String Quartets, Op.3",
    "imslpPage": "6 String Quartets, Op.3 (Bruni, Antonio Bartolomeo)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Bruni string quartet', 'Bruni quartetto', 'Bruni string trio', 'Antonio Bartolomeo Bruni': only viola duos (Duos concertants), 25 Etudes and viola sonatas, which are duos or solos outside the section; no quartet or trio. Earlier pass: Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
   },
   {
    "composer": "Bruni, Antonio Bartolomeo",
    "title": "6 String Trios, Op.1",
    "imslpPage": "6 String Trios, Op.1 (Bruni, Antonio Bartolomeo)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Bruni string quartet', 'Bruni quartetto', 'Bruni string trio', 'Antonio Bartolomeo Bruni': only viola duos (Duos concertants), 25 Etudes and viola sonatas, which are duos or solos outside the section; no quartet or trio. Earlier pass: Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
   },
   {
    "composer": "Bruni, Antonio Bartolomeo",
    "title": "6 String Trios, Op.2",
    "imslpPage": "6 String Trios, Op.2 (Bruni, Antonio Bartolomeo)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Bruni string quartet', 'Bruni quartetto', 'Bruni string trio', 'Antonio Bartolomeo Bruni': only viola duos (Duos concertants), 25 Etudes and viola sonatas, which are duos or solos outside the section; no quartet or trio. Earlier pass: Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
   },
   {
    "composer": "Bruni, Antonio Bartolomeo",
    "title": "6 String Trios, Op.34",
    "imslpPage": "6 String Trios, Op.34 (Bruni, Antonio Bartolomeo)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Bruni string quartet', 'Bruni quartetto', 'Bruni string trio', 'Antonio Bartolomeo Bruni': only viola duos (Duos concertants), 25 Etudes and viola sonatas, which are duos or solos outside the section; no quartet or trio. Earlier pass: Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
   },
   {
    "composer": "Bruni, Antonio Bartolomeo",
    "title": "6 String Trios, Op.36",
    "imslpPage": "6 String Trios, Op.36 (Bruni, Antonio Bartolomeo)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Bruni string quartet', 'Bruni quartetto', 'Bruni string trio', 'Antonio Bartolomeo Bruni': only viola duos (Duos concertants), 25 Etudes and viola sonatas, which are duos or solos outside the section; no quartet or trio. Earlier pass: Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
   },
   {
    "composer": "Bruni, Antonio Bartolomeo",
    "title": "6 String Trios, Op.4",
    "imslpPage": "6 String Trios, Op.4 (Bruni, Antonio Bartolomeo)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album and track searches 'Bruni string quartet', 'Bruni quartetto', 'Bruni string trio', 'Antonio Bartolomeo Bruni': only viola duos (Duos concertants), 25 Etudes and viola sonatas, which are duos or solos outside the section; no quartet or trio. Earlier pass: Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
   },
   {
    "composer": "Bühler, Franz",
@@ -4378,24 +4498,24 @@
    "title": "3 Sonatas, Op.11",
    "imslpPage": "3 Sonatas, Op.11 (Fodor, Carel Anton)",
    "works": 3,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz and Apple list piano sonatas, a keyboard concerto and a symphony, no piano quartet or trio; no recording of the candidate pages found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Carel Fodor', 'Fodor piano trio', 'Fodor quartet': only Josephus Andreas Fodor's String Quartet Op. 4 No. 5 and a mandolin-ensemble Quartet Op. 11 (another Fodor, self-released); nothing by Carel Anton. Earlier pass: MusicBrainz and Apple list piano sonatas, a keyboard concerto and a symphony, no piano quartet or trio; no recording of the candidate pages found"
   },
   {
    "composer": "Fodor, Carel Anton",
    "title": "4 Piano Quartets, Op.7",
    "imslpPage": "4 Piano Quartets, Op.7 (Fodor, Carel Anton)",
    "works": 4,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz and Apple list piano sonatas, a keyboard concerto and a symphony, no piano quartet or trio; no recording of the candidate pages found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Carel Fodor', 'Fodor piano trio', 'Fodor quartet': only Josephus Andreas Fodor's String Quartet Op. 4 No. 5 and a mandolin-ensemble Quartet Op. 11 (another Fodor, self-released); nothing by Carel Anton. Earlier pass: MusicBrainz and Apple list piano sonatas, a keyboard concerto and a symphony, no piano quartet or trio; no recording of the candidate pages found"
   },
   {
    "composer": "Fodor, Carel Anton",
    "title": "5 Piano Quartets, Op.14",
    "imslpPage": "5 Piano Quartets, Op.14 (Fodor, Carel Anton)",
    "works": 5,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz and Apple list piano sonatas, a keyboard concerto and a symphony, no piano quartet or trio; no recording of the candidate pages found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Carel Fodor', 'Fodor piano trio', 'Fodor quartet': only Josephus Andreas Fodor's String Quartet Op. 4 No. 5 and a mandolin-ensemble Quartet Op. 11 (another Fodor, self-released); nothing by Carel Anton. Earlier pass: MusicBrainz and Apple list piano sonatas, a keyboard concerto and a symphony, no piano quartet or trio; no recording of the candidate pages found"
   },
   {
    "composer": "Bortniansky, Dmytro",
@@ -4420,6 +4540,22 @@
    "works": 1,
    "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
    "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Benincori, Angelo Maria",
+   "title": "Piano Trio in G minor",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: the recorded \"Trio II\" cannot be tied to a published trio (no opus), left off on the owner's instruction (2026-10-17)",
+   "evidence": "Added by the recheck at medium confidence, then left off by the orchestrating session (the disc's \"Trio II in G minor\" cannot be matched to a published piano trio (IMSLP Op. 6 lists no keys)); the full entry is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Baumgarten, Carl Friedrich",
+   "title": "Oboe Quartet in G minor, Op. 2 No. 3",
+   "imslpPage": "6 Quartets, Op.2 (Baumgarten, Carl Friedrich)",
+   "works": 1,
+   "reason": "doubtful: composer attribution only inferred from the album, left off on the owner's instruction (2026-10-17)",
+   "evidence": "Added by the recheck at medium confidence, then left off by the orchestrating session (the attribution is inferred from the album's four named composers); the full entry is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -4477,7 +4613,7 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Notturni Nos. 3 and 6 recorded by Ensemble L'Apothéose (the disc also holds violin sonatas Op. 6, which are not trios). The print also carries a figured bass for the cello (IMSLP)."
+   "note": "Notturni Nos. 3 and 6 recorded by Ensemble L'Apothéose (the disc also holds violin sonatas Op. 6, which are not trios). The print also carries a figured bass for the cello (IMSLP). RECHECK 2026-10-17: Deezer title searches found nothing new."
   },
   {
    "name": "Albanese, Antonio",
@@ -4522,7 +4658,7 @@
    "skipped": 11,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works"
+   "note": "Deezer and Apple show only duos (sonatas for flute and harp, for flute and fortepiano), which are outside the section; no recording of his quartets or trios found. MusicBrainz lists the composer with no works RECHECK 2026-10-17: Deezer title searches: only flute duos."
   },
   {
    "name": "André, Johann Anton",
@@ -4531,7 +4667,7 @@
    "skipped": 2,
    "added_not_on_imslp": 1,
    "coverage": "complete",
-   "note": "Recorded: Op. 14 No. 1 (eda records), Op. 15 Nos. 1 and 3 and both Poissons d'avril (CPO, Oxalis Quartet); the Piano Trio Op. 17 on the eda disc has no IMSLP page in this slice, so it is added (key and date unknown). The Mozart/André clarinet-quartet arrangements on Deezer are arrangements and were not considered."
+   "note": "Recorded: Op. 14 No. 1 (eda records), Op. 15 Nos. 1 and 3 and both Poissons d'avril (CPO, Oxalis Quartet); the Piano Trio Op. 17 on the eda disc has no IMSLP page in this slice, so it is added (key and date unknown). The Mozart/André clarinet-quartet arrangements on Deezer are arrangements and were not considered. RECHECK 2026-10-17: Deezer title searches found nothing new."
   },
   {
    "name": "Andreozzi, Gaetano",
@@ -4585,7 +4721,7 @@
    "skipped": 9,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Op. 2 Nos. 1-6 are recorded complete (Eybler Quartet, keys match the IMSLP set page: G, D, F, E, C, E-flat); No. 2 uses the single-work page (first edition with figured bass), the other five the set page. Trio moderne No. 1 of Op. 3 is on the Catacoustic Consort's own-label disc (low confidence, key not given). Op. 5 trios, Op. 6 quartets, the three manuscript quartets and the Op. 1 serenades are not found recorded."
+   "note": "Op. 2 Nos. 1-6 are recorded complete (Eybler Quartet, keys match the IMSLP set page: G, D, F, E, C, E-flat); No. 2 uses the single-work page (first edition with figured bass), the other five the set page. Trio moderne No. 1 of Op. 3 is on the Catacoustic Consort's own-label disc (low confidence, key not given). Op. 5 trios, Op. 6 quartets, the three manuscript quartets and the Op. 1 serenades are not found recorded. RECHECK 2026-10-17: Deezer title searches found nothing new."
   },
   {
    "name": "Auber, Daniel François Esprit",
@@ -4594,7 +4730,7 @@
    "skipped": 5,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "MusicBrainz and Apple list operas, overtures and ballet music only; no recording of his string quartets or the Piano Trio Op. 1 found"
+   "note": "MusicBrainz and Apple list operas, overtures and ballet music only; no recording of his string quartets or the Piano Trio Op. 1 found RECHECK 2026-10-17: Deezer title searches (string quartet, quatuor, piano trio): nothing by Auber in scope."
   },
   {
    "name": "Avolio, Jean",
@@ -4621,7 +4757,7 @@
    "skipped": 8,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found"
+   "note": "MusicBrainz has the violinist-composer (1771-1842) with no works; Deezer and Apple return only a namesake (a jazz/world-music artist); no recording of his quartets or trios found RECHECK 2026-10-17: Deezer title searches: nothing."
   },
   {
    "name": "Balbastre, Claude-Bénigne",
@@ -4693,7 +4829,7 @@
    "skipped": 3,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "MusicBrainz: 1 artist match(es), 92 works, 70 with linked recordings; Deezer: nothing; Apple composerTerm song search: 1 result(s), none a chamber work"
+   "note": "MusicBrainz: 1 artist match(es), 92 works, 70 with linked recordings; Deezer: nothing; Apple composerTerm song search: 1 result(s), none a chamber work RECHECK 2026-10-17: Deezer title searches: only Jean Barriere's cello trios."
   },
   {
    "name": "Bárta, Josef",
@@ -4711,7 +4847,7 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "MusicBrainz and Apple list her keyboard sonatas (Op. 1, Op. 3) only; no recording of the Piano Trios Op. 2 found"
+   "note": "MusicBrainz and Apple list her keyboard sonatas (Op. 1, Op. 3) only; no recording of the Piano Trios Op. 2 found RECHECK 2026-10-17: Deezer title searches: nothing."
   },
   {
    "name": "Barthélémon, François-Hippolyte",
@@ -4720,7 +4856,7 @@
    "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "Apple shows Gary Karr, Elmira Darvarova and Harmon Lewis playing his Op. 2 sonatas and duettos (violin with bass or duos, outside the section) and hymn tunes; no recording of the trio sonatas Op. 1 or concertos Op. 3 found"
+   "note": "Apple shows Gary Karr, Elmira Darvarova and Harmon Lewis playing his Op. 2 sonatas and duettos (violin with bass or duos, outside the section) and hymn tunes; no recording of the trio sonatas Op. 1 or concertos Op. 3 found RECHECK 2026-10-17: Deezer title searches: nothing."
   },
   {
    "name": "Bauer, Joseph Anton",
@@ -4762,10 +4898,10 @@
    "name": "Baumgarten, Carl Friedrich",
    "candidates": 2,
    "kept": 0,
-   "skipped": 2,
+   "skipped": 3,
    "added_not_on_imslp": 0,
-   "coverage": "triage: none found",
-   "note": "MusicBrainz: no artist match for the name and dates; Deezer: 1 album(s) and 3 track(s) match the name, none a chamber work; Apple composerTerm song search: nothing"
+   "coverage": "complete",
+   "note": "MusicBrainz: no artist match for the name and dates; Deezer: 1 album(s) and 3 track(s) match the name, none a chamber work; Apple composerTerm song search: nothing RECHECK 2026-10-17: DENON's 'Oboe Quartets' (2006) records Op. 2 No. 3 in G minor: entered at medium confidence. The other Op. 2 quartets and the Periodical Quartets not found."
   },
   {
    "name": "Beckmann, Johann Friedrich Gottlieb",
@@ -4789,10 +4925,10 @@
    "name": "Benincori, Angelo Maria",
    "candidates": 7,
    "kept": 0,
-   "skipped": 7,
+   "skipped": 8,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Trio Arté (Gamma Musica, 2014) record a three-movement 'Trio in G minor' (catalogue id IAB1, 28 min) by Benincori; the scoring is not stated and no IMSLP page of Benincori lists a G-minor trio, so it could not be matched or entered. Apple's composerTerm search found nothing."
+   "coverage": "complete",
+   "note": "Trio Arté (Gamma Musica, 2014) record a three-movement 'Trio in G minor' (catalogue id IAB1, 28 min) by Benincori; the scoring is not stated and no IMSLP page of Benincori lists a G-minor trio, so it could not be matched or entered. Apple's composerTerm search found nothing. RECHECK 2026-10-17: Trio Arté's CD (Gamma Musica 2014) holds a G-minor 'Trio II' for piano trio (the ensemble is a piano trio); entered as a Piano Trio in G minor without opus (probably Op. 6 No. 2, unconfirmed). The six string-quartet pages are not recorded (MusicBrainz, Deezer, Apple searched again)."
   },
   {
    "name": "Benzon, Siegfried",
@@ -4810,7 +4946,7 @@
    "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "Apple shows flute duos and nocturnes with piano (arrangements) and MusicBrainz lists no works; no recording of the flute quartet Op. 86 or the variations found"
+   "note": "Apple shows flute duos and nocturnes with piano (arrangements) and MusicBrainz lists no works; no recording of the flute quartet Op. 86 or the variations found RECHECK 2026-10-17: Deezer title searches: nothing."
   },
   {
    "name": "Berg, Konrad-Mathias",
@@ -4882,7 +5018,7 @@
    "skipped": 3,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "Apple and MusicBrainz list his clarinet concertos and sinfonie concertanti with orchestra only; no recording of his string quartets found"
+   "note": "Apple and MusicBrainz list his clarinet concertos and sinfonie concertanti with orchestra only; no recording of his string quartets found RECHECK 2026-10-17: Deezer title searches: nothing."
   },
   {
    "name": "Blatt, Franz Thaddäus",
@@ -4909,7 +5045,7 @@
    "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "The harp and oboe-harp albums on Deezer are by the son, Nicolas-Charles Bochsa. Apple's composerTerm search finds the father's Oboe Quartet No. 2 on PASCHENrecords (track titles repeat the IMSLP title; the attribution rests on that). The flute quartets Op. 11 are not found recorded."
+   "note": "The harp and oboe-harp albums on Deezer are by the son, Nicolas-Charles Bochsa. Apple's composerTerm search finds the father's Oboe Quartet No. 2 on PASCHENrecords (track titles repeat the IMSLP title; the attribution rests on that). The flute quartets Op. 11 are not found recorded. RECHECK 2026-10-17: DENON's 'Oboe Quartets' (Masashi Honma, 2006) is a second recording of No. 2 (D minor); No. 1 and the Op. 11 flute quartets not found."
   },
   {
    "name": "Böck, Ignaz",
@@ -5008,7 +5144,7 @@
    "skipped": 10,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Found through Apple's composerTerm search (Deezer shows only his symphonies). Op. 52 No. 1 is recorded by Benjamin Coelho (Crystal Records); the flute quartets and quintets and the string quartets and quintets are not found."
+   "note": "Found through Apple's composerTerm search (Deezer shows only his symphonies). Op. 52 No. 1 is recorded by Benjamin Coelho (Crystal Records); the flute quartets and quintets and the string quartets and quintets are not found. RECHECK 2026-10-17: Deezer title searches found nothing new."
   },
   {
    "name": "Braun, Carl Anton Philipp",
@@ -5022,11 +5158,11 @@
   {
    "name": "Bréval, Jean-Baptiste",
    "candidates": 6,
-   "kept": 0,
-   "skipped": 6,
+   "kept": 3,
+   "skipped": 5,
    "added_not_on_imslp": 0,
-   "coverage": "triage: none found",
-   "note": "Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found"
+   "coverage": "complete",
+   "note": "Deezer, Apple and MusicBrainz show only cello sonatas with piano, cello duets and study CDs with piano accompaniment; no recording of his quartets or trios found RECHECK 2026-10-17: Pan Classics disc 'Bréval & Devienne: Chamber Music' (Piccolo Concerto Wien, 2020) records the String Trios Op. 39 Nos. 1-3: entered. The other five pages not found (Deezer title searches)."
   },
   {
    "name": "Brodsky, Thomas",
@@ -5044,7 +5180,7 @@
    "skipped": 3,
    "added_not_on_imslp": 30,
    "coverage": "complete",
-   "note": "Many recordings; only works whose track lists I opened are kept: 15 of the 23 string-trio divertimenti on the IMSLP page, six trios for two violins and bass (L. 109-114), 18 string quartets, six bassoon quintets Op. 2 and sextets Op. 1 Nos. 4 and 5. The quartets, trios and quintets have no IMSLP page in this census (imslpPage null); L. numbers are those of the discs (Labrador catalogue), BruWV as in MusicBrainz. The divertimenti are matched to the IMSLP collection page by scoring and count only. Not examined: Brunetti's symphonies, violin sonatas and duos; later volumes of the Carmen Veneris and Brilliant series may hold more trios."
+   "note": "Many recordings; only works whose track lists I opened are kept: 15 of the 23 string-trio divertimenti on the IMSLP page, six trios for two violins and bass (L. 109-114), 18 string quartets, six bassoon quintets Op. 2 and sextets Op. 1 Nos. 4 and 5. The quartets, trios and quintets have no IMSLP page in this census (imslpPage null); L. numbers are those of the discs (Labrador catalogue), BruWV as in MusicBrainz. The divertimenti are matched to the IMSLP collection page by scoring and count only. Not examined: Brunetti's symphonies, violin sonatas and duos; later volumes of the Carmen Veneris and Brilliant series may hold more trios. RECHECK 2026-10-17: Deezer title searches found nothing new for the lines left out."
   },
   {
    "name": "Bruni, Antonio Bartolomeo",
@@ -5053,7 +5189,7 @@
    "skipped": 10,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found"
+   "note": "Deezer, Apple and MusicBrainz show only violin-and-viola duos, viola sonatas and etudes (duos and solos are outside the section); no recording of his quartets or string trios found RECHECK 2026-10-17: Deezer title searches (quartet, quartetto, string trio): only viola duos, etudes and sonatas."
   },
   {
    "name": "Brunswick-Wolfenbüttel, Anna Amalia von",
@@ -5116,8 +5252,8 @@
    "skipped": 3,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "MusicBrainz and Apple list piano sonatas, a keyboard concerto and a symphony, no piano quartet or trio; no recording of the candidate pages found"
+   "note": "MusicBrainz and Apple list piano sonatas, a keyboard concerto and a symphony, no piano quartet or trio; no recording of the candidate pages found RECHECK 2026-10-17: Deezer title searches: only another Fodor (Josephus Andreas)."
   }
  ],
- "note": "METHOD (about 75 tool calls, 3 WebSearch, 3 WebFetch). One background script with three threads, every request through scripts/chamber/fetch_throttled.py, worked through the 77 composers: MusicBrainz (artist match on name and dates, then work?artist=<mbid>&inc=recording-rels), Deezer (album and track search on the name) and Apple's composerTerm song search for every composer without a chamber-titled Deezer hit. A second Apple pass covered the 16 composers whose first Apple search my script had skipped because Deezer showed a chamber-sounding title (duos, sonatas, symphonies): that shortcut was a mistake and found Bochsa, Böck and the Asplmayr trios. No lookup failed (no FetchError anywhere). The harness killed the first run of the script after 154 s (exit 144); it is resumable and was restarted under another name. Hits were confirmed with Deezer and Apple track lists, IMSLP api.php and three web searches (Abela, Anna Amalia, Bortniansky).\nRESULT: recordings of in-scope chamber works turned up for 13 of the 77 composers (81 works kept): Brunetti (47), André (6), Barbella (6), Asplmayr (7), Balbastre (4), Abela (2), Agus (2), Bortniansky (2) and one each for Antes, Anna Amalia of Brunswick-Wolfenbüttel, Bochsa (the father), Böck and Brandl. Of the other 64, 62 are 'none found', Bevilacqua is out of scope by scoring and Benincori is partial; for many only duos, solo sonatas, orchestral or vocal works exist (Amon, Bréval, Bruni, Berbiguier, Fodor, Auber, Adam ...); I counted duos as none. 'None found' is weak for common names (Adam, Arnold, Bauer, Berg, Bowie, Brand, Braun, Bury, Albanese ...) and for Bauerschmidt, Bury and Angkistro, whose first names IMSLP does not give.\nADDED, NOT ON IMSLP (32), from discs I opened: Brunetti's string quartets (18: Concerto 1700, Carmen Veneris, Cuarteto Trifolium, Schuppanzigh-Quartett), six trios for two violins and bass L. 109-114 (Exordium Musicae, SEdeM) and six bassoon quintets Op. 2 (Tactus); André's Piano Trio Op. 17 (eda records); Bortniansky's Quintet in C major (it has an IMSLP page outside the census candidates: gap = true). Brunetti's 15 string-trio divertimenti are matched to IMSLP's collection page '23 Divertissements' by scoring and count only (the page lists no L. numbers). Brunetti's L. numbers are the discs'; the CPO disc is cited with MusicBrainz's BruWV numbers; the opus numbers in the titles are only those the discs give (Op. 3 No. 6, Op. 2 Nos. 1, 3, 4; the other Op. 3 quartets carry the opus in the set only).\nWHERE THE BRIEF OR DATA FAILED: (1) Deezer's surname search is swamped by namesakes and foreign words (Antes), and Apple's composerTerm search is fuzzy: it also returns other composers' tracks from the same album, so an attribution needs a second source (Anna Amalia's Divertimento: confirmed on AllMusic/Radio Swiss Classic). (2) The brief does not say whether duos or sonatas with piano count as 'something turned up'; I counted them as none. (3) A print that names flutes first and violins as an alternative (Bevilacqua Op. 47: 2 flutes or 2 violins and guitar, recorded by Guitart 2023) has no string part in its first scoring; the census derived violins. I left it out as 'out of scope'. (4) Collection pages without keys or numbers (Brunetti 23 Divertissements, Böck Op. 6) cannot be matched reliably to a recording's numbering.\nSCOPE CALLS FOR THE OWNER: Böck's Op. 6 (2 horns and bass) is kept as one set at medium confidence: four pieces are on Pan Classics (double bass instead of cello), all ten only on the editor's own label (I Ching Music), which does not count alone. Low confidence, drop if unwanted: Asplmayr's Trio moderne No. 1 (Catacoustic Consort's own label, pardessus de viole), Abela's F-major piece (the booklet does not say which manuscript is which 'Concerto armónico'), Bortniansky's Sinfonia Concertante (a septet; the Czech 'Russian Album' disc plays it with the Moscow Chamber Orchestra). Self-released mandolin singles (Have Mandolin Will Travel: Bevilacqua Op. 47, Böcklin Op. 30) were ignored. The Agus's author dates come from MusicBrainz (1749-1798); Böck's are unknown.\nOPEN PROBLEMS: Benincori: Trio Arté (Gamma Musica 2014) record a three-movement G-minor trio (id IAB1) that could not be matched to an IMSLP page or a scoring, so no entry. Brunetti: further Carmen Veneris/Brilliant volumes may hold more trios and quartets, and the divertimenti L. 134, 135, 137-139, 141, 143, 144 are not on Deezer. Bruni's, Amon's and Bréval's quartets and trios, and Baillot's, are not recorded as far as MusicBrainz, Deezer and Apple show, but small-label discs may be missing. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 3 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Bortniansky: Sinfonia Concertante in B-flat major; Abela: Armonia in F major; Asplmayr: Trio moderne No. 1, Op. 3."
+ "note": "METHOD (about 75 tool calls, 3 WebSearch, 3 WebFetch). One background script with three threads, every request through scripts/chamber/fetch_throttled.py, worked through the 77 composers: MusicBrainz (artist match on name and dates, then work?artist=<mbid>&inc=recording-rels), Deezer (album and track search on the name) and Apple's composerTerm song search for every composer without a chamber-titled Deezer hit. A second Apple pass covered the 16 composers whose first Apple search my script had skipped because Deezer showed a chamber-sounding title (duos, sonatas, symphonies): that shortcut was a mistake and found Bochsa, Böck and the Asplmayr trios. No lookup failed (no FetchError anywhere). The harness killed the first run of the script after 154 s (exit 144); it is resumable and was restarted under another name. Hits were confirmed with Deezer and Apple track lists, IMSLP api.php and three web searches (Abela, Anna Amalia, Bortniansky).\nRESULT: recordings of in-scope chamber works turned up for 13 of the 77 composers (81 works kept): Brunetti (47), André (6), Barbella (6), Asplmayr (7), Balbastre (4), Abela (2), Agus (2), Bortniansky (2) and one each for Antes, Anna Amalia of Brunswick-Wolfenbüttel, Bochsa (the father), Böck and Brandl. Of the other 64, 62 are 'none found', Bevilacqua is out of scope by scoring and Benincori is partial; for many only duos, solo sonatas, orchestral or vocal works exist (Amon, Bréval, Bruni, Berbiguier, Fodor, Auber, Adam ...); I counted duos as none. 'None found' is weak for common names (Adam, Arnold, Bauer, Berg, Bowie, Brand, Braun, Bury, Albanese ...) and for Bauerschmidt, Bury and Angkistro, whose first names IMSLP does not give.\nADDED, NOT ON IMSLP (32), from discs I opened: Brunetti's string quartets (18: Concerto 1700, Carmen Veneris, Cuarteto Trifolium, Schuppanzigh-Quartett), six trios for two violins and bass L. 109-114 (Exordium Musicae, SEdeM) and six bassoon quintets Op. 2 (Tactus); André's Piano Trio Op. 17 (eda records); Bortniansky's Quintet in C major (it has an IMSLP page outside the census candidates: gap = true). Brunetti's 15 string-trio divertimenti are matched to IMSLP's collection page '23 Divertissements' by scoring and count only (the page lists no L. numbers). Brunetti's L. numbers are the discs'; the CPO disc is cited with MusicBrainz's BruWV numbers; the opus numbers in the titles are only those the discs give (Op. 3 No. 6, Op. 2 Nos. 1, 3, 4; the other Op. 3 quartets carry the opus in the set only).\nWHERE THE BRIEF OR DATA FAILED: (1) Deezer's surname search is swamped by namesakes and foreign words (Antes), and Apple's composerTerm search is fuzzy: it also returns other composers' tracks from the same album, so an attribution needs a second source (Anna Amalia's Divertimento: confirmed on AllMusic/Radio Swiss Classic). (2) The brief does not say whether duos or sonatas with piano count as 'something turned up'; I counted them as none. (3) A print that names flutes first and violins as an alternative (Bevilacqua Op. 47: 2 flutes or 2 violins and guitar, recorded by Guitart 2023) has no string part in its first scoring; the census derived violins. I left it out as 'out of scope'. (4) Collection pages without keys or numbers (Brunetti 23 Divertissements, Böck Op. 6) cannot be matched reliably to a recording's numbering.\nSCOPE CALLS FOR THE OWNER: Böck's Op. 6 (2 horns and bass) is kept as one set at medium confidence: four pieces are on Pan Classics (double bass instead of cello), all ten only on the editor's own label (I Ching Music), which does not count alone. Low confidence, drop if unwanted: Asplmayr's Trio moderne No. 1 (Catacoustic Consort's own label, pardessus de viole), Abela's F-major piece (the booklet does not say which manuscript is which 'Concerto armónico'), Bortniansky's Sinfonia Concertante (a septet; the Czech 'Russian Album' disc plays it with the Moscow Chamber Orchestra). Self-released mandolin singles (Have Mandolin Will Travel: Bevilacqua Op. 47, Böcklin Op. 30) were ignored. The Agus's author dates come from MusicBrainz (1749-1798); Böck's are unknown.\nOPEN PROBLEMS: Benincori: Trio Arté (Gamma Musica 2014) record a three-movement G-minor trio (id IAB1) that could not be matched to an IMSLP page or a scoring, so no entry. Brunetti: further Carmen Veneris/Brilliant volumes may hold more trios and quartets, and the divertimenti L. 134, 135, 137-139, 141, 143, 144 are not on Deezer. Bruni's, Amon's and Bréval's quartets and trios, and Baillot's, are not recorded as far as MusicBrainz, Deezer and Apple show, but small-label discs may be missing. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 3 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Bortniansky: Sinfonia Concertante in B-flat major; Abela: Armonia in F major; Asplmayr: Trio moderne No. 1, Op. 3.\nRECHECK 2026-10-17: 5 works added (Benincori: Piano Trio in G minor, Trio Arté, Gamma Musica 2014, entered without opus; Bréval: String Trios Op. 39 Nos. 1-3, Piccolo Concerto Wien, Pan Classics 2020; Baumgarten: Oboe Quartet in G minor Op. 2 No. 3, DENON 2006); 87 lines settled as not performed or recorded (Deezer title searches for Brunetti, Brandl, Asplmayr, Agus, Andre, Bochsa, Bruni, Auber, Breval, Baillot, Amon, Berbiguier, Blasius, Fodor, Barriere, Barthelemon; MusicBrainz, Deezer and Apple again for Benincori); 0 still not checked (Antes Op. 3 Nos. 1 and 3 and Brandl Op. 52 No. 2 were not searched again); hand edits: Benincori coverage partial -> complete, Breval and Baumgarten moved from triage lines to kept works, reasons '(composer triage)' changed to 'not performed or recorded' on the lines rechecked, the Breval Op. 39 skipped line removed, the Baumgarten Op. 2 line reduced to 5 works. FOR THE OWNER: (1) Benincori: the disc names the trio 'Trio II in G minor' and does not give the opus; IMSLP's Op. 6 (Trios concertans, Paris c. 1808) is his only numbered piano-trio set but lists no keys, so the title has no opus; Trio Arte is a piano trio, which fixes the scoring (programme PDF constp.it 2023). (2) Breval Op. 39: IMSLP's print is for cello obbligato, violin and 'basse' (IMSLP tags a second cello); entered as continuo under the owner's rule, change to violin + 2 cellos (formation string trio) if preferred; the keys come from the disc, Op. 39 No. 3 has two movements there. (3) Baumgarten Op. 2 No. 3: the attribution rests on the DENON album naming four composers for four quartets (Bochsa's is the D-minor No. 2, Mozart's K. 370) and on Op. 2 No. 3 being an oboe/flute, violin, viola, cello number of Baumgarten's set; the disc's B-flat quartet is then probably Cannabich's (his slice). (4) The Pan Classics disc also holds Bassoon Quartets Op. 73 Nos. 1-3, probably Devienne's (Deezer 579415951, for the Devienne slice). (5) Josephus Andreas Fodor's String Quartet Op. 4 No. 5 (ReachSound.Art 2021) is another composer, not Carel Anton Fodor. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): two recheck additions with identity or attribution flags were moved to skipped (\"doubtful\") and parked: Benincori's unnumbered Piano Trio in G minor and Baumgarten's Oboe Quartet Op. 2 No. 3."
 }

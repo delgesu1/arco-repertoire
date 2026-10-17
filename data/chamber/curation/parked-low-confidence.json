@@ -7820,5 +7820,99 @@
    ],
    "confidence": "medium"
   }
+ },
+ {
+  "slice": "t06_classical-a-f",
+  "why": "the disc's \"Trio II in G minor\" cannot be matched to a published piano trio (IMSLP Op. 6 lists no keys); left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Benincori, Angelo Maria",
+   "title": "Piano Trio in G minor",
+   "aka": [
+    "Trio II in G minor"
+   ],
+   "instruments": {
+    "piano": 1,
+    "violin": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "piano-trio",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 29,
+   "notes": "Recorded as 'Trio II' (three movements); probably No. 2 of the Op. 6 Trios concertans, Paris c. 1808",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Concertante piano part, about ABRSM 7; strings moderate",
+   "hardest_part_guess": "piano",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Trio Arté, Gamma Musica (2014), 'Musica da camera italiana dell'800' (Trio in G minor, 28 min)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/304605657",
+    "https://musicbrainz.org/artist/4761ccb0-48f5-4eeb-a045-f958dcf4ed66",
+    "https://imslp.org/wiki/3_Piano_Trios,_Op.6_(Benincori,_Angelo_Maria)",
+    "https://www.constp.it/wp-content/uploads/2023/10/Programma-concerto-2-ottobre.pdf"
+   ],
+   "confidence": "medium",
+   "gap": true
+  }
+ },
+ {
+  "slice": "t06_classical-a-f",
+  "why": "the attribution is inferred from the album's four named composers; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Baumgarten, Carl Friedrich",
+   "title": "Oboe Quartet in G minor, Op. 2 No. 3",
+   "aka": [
+    "Flute Quartet in G minor, Op. 2 No. 3"
+   ],
+   "instruments": {
+    "oboe": 1,
+    "violin": 1,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {
+    "oboe": [
+     "flute"
+    ]
+   },
+   "optional": {},
+   "players": 4,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six Quartets, Op. 2",
+   "year": "",
+   "minutes": 15,
+   "notes": "Print: violin, oboe or German flute, tenor (viola), cello; key from the recording",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Galant oboe part, about ABRSM 6-7; strings moderate",
+   "hardest_part_guess": "oboe",
+   "imslpPage": "6 Quartets, Op.2 (Baumgarten, Carl Friedrich)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "London: William Forster (print, IMSLP)",
+    "recorded": "Masashi Honma (oboe), Azumi Takada, Yoshiko Morita, Yohei Matsuoka, DENON (2006), 'Oboe Quartets (Mozart / Bochsa / Baumgarten / Cannabich)'",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Quartets,_Op.2_(Baumgarten,_Carl_Friedrich)",
+    "https://www.deezer.com/album/707097831"
+   ],
+   "confidence": "medium"
+  }
  }
 ]
