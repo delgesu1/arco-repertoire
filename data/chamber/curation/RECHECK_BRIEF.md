@@ -3,6 +3,7 @@
 You recheck one slice that a first agent curated (`data/chamber/curation/out/<slice>.json`). That agent ran out of tool calls, was blocked by a service, or was cut short by the usage limit, and its file says where. Your job is to turn "not checked" and weak "none found" into answers, in the same file. Read `AGENT_BRIEF.md` first: the floor, the fields, the house style and the sources apply unchanged.
 
 ## What you edit
+- **Do not read the output file whole** (100–300 KB; it would use most of your budget). Run `python3 scripts/chamber/recheck_view.py <slice> --sample` once: it prints the note, the composers marked partial, the skipped lines you may reopen (with their evidence), the titles already kept and one full entry as the shape to copy.
 - Only `data/chamber/curation/out/<slice>.json`, in place. Load it with Python, change it and write it back with `json.dumps(d, ensure_ascii=False, indent=1) + "\n"` (the files use one-space indentation). Never run a git command.
 - Do not change a kept work unless you find an error in it (then say so in `note`). Benchmarks (`benchmark_id`) stay as they are.
 
