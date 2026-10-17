@@ -32,13 +32,14 @@
    "violin_id": null,
    "floor": {
     "published": "Hudební Matice, Prague, 1945",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Josef Suk, Miroslav Ambroš, Karel Untermüller and others: Dvořák, Miniatures, Bagatelles, Terzetto; Suk, Piano Quartet (Supraphon; Deezer album 64489762; Miniatures 14:27)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Miniatures,_Op.75a_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)"
+    "https://imslp.org/wiki/Miniatures,_Op.75a_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)",
+    "https://www.deezer.com/album/64489762"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Dvořák, Antonín",
@@ -1287,7 +1288,7 @@
    "form": "short",
    "set": null,
    "year": "1898",
-   "minutes": null,
+   "minutes": 9,
    "notes": "One movement; harmonium and piano both play",
    "popularity": "lesser-known",
    "level_guess": 4,
@@ -1298,11 +1299,13 @@
    "violin_id": null,
    "floor": {
     "published": "Durand, Paris, 1898",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Fine Arts Quartet, Cristina Ortiz: Saint-Saëns, Piano Quartet, Barcarolle & Piano Quintet (Naxos; Deezer album 581571572; Barcarolle 9:08); also Mozart Piano Quartet (Musikproduktion Dabrin; Deezer album 157081092; 8:50); the scoring on the discs was not checked",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Barcarolle,_Op.108_(Saint-Sa%C3%ABns,_Camille)"
+    "https://imslp.org/wiki/Barcarolle,_Op.108_(Saint-Sa%C3%ABns,_Camille)",
+    "https://www.deezer.com/album/581571572",
+    "https://www.deezer.com/album/157081092"
    ],
    "confidence": "medium"
   },
@@ -1337,13 +1340,15 @@
    "violin_id": null,
    "floor": {
     "published": "Durand, Paris, 1875",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "The Schubert Ensemble: Saint-Saëns & Chausson, Piano Quartets (Chandos; Deezer album 618040471; 31:05); also Prometheus Piano Quartet (Centaur; Deezer album 579261051)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Quartet,_Op.41_(Saint-Sa%C3%ABns,_Camille)"
+    "https://imslp.org/wiki/Piano_Quartet,_Op.41_(Saint-Sa%C3%ABns,_Camille)",
+    "https://www.deezer.com/album/618040471",
+    "https://www.deezer.com/album/579261051"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Saint-Saëns, Camille",
@@ -1376,13 +1381,15 @@
    "violin_id": null,
    "floor": {
     "published": "Jacques Maho, Paris, c. 1866",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Fine Arts Quartet, Cristina Ortiz: Saint-Saëns, Piano Quartet, Barcarolle & Piano Quintet (Naxos; Deezer album 581571572; 30:03); also Pihtipudas Kvintetti (eda records; Deezer album 950590951)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Quintet,_Op.14_(Saint-Sa%C3%ABns,_Camille)"
+    "https://imslp.org/wiki/Piano_Quintet,_Op.14_(Saint-Sa%C3%ABns,_Camille)",
+    "https://www.deezer.com/album/581571572",
+    "https://www.deezer.com/album/950590951"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Saint-Saëns, Camille",
@@ -1467,7 +1474,11 @@
     "piano": 1,
     "harmonium": 1
    },
-   "alternatives": {},
+   "alternatives": {
+    "piano": [
+     "harp"
+    ]
+   },
    "optional": {},
    "players": 3,
    "formation": "other",
@@ -1486,11 +1497,12 @@
    "violin_id": null,
    "floor": {
     "published": "G. Hartmann, Paris, 1868",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Franz Hauk (organ) with violin and harp: Triumphal Music for Organ & Orchestra, Saint-Saëns, Guilmant, Dubois, Gounod (Guild GMCD 7187, 2000; Deezer album 11073374; track 'Romance pour violon, harpe et orgue, Op. 27', i.e. the harp alternative)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Romance,_Op.27_(Saint-Sa%C3%ABns,_Camille)"
+    "https://imslp.org/wiki/Romance,_Op.27_(Saint-Sa%C3%ABns,_Camille)",
+    "https://www.deezer.com/album/11073374"
    ],
    "confidence": "medium"
   },
@@ -1527,11 +1539,13 @@
    "violin_id": null,
    "floor": {
     "published": "1865",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Maja Bogdanović, Claudio Brizi, Paolo Franceschini, Carlo Palese: Harmonium Pearls (Camerata Tokyo CMCD-99077-8, 2013; per MusicBrainz); also Franz Hauk et al. (Guild GMCD 7187, 2000; Deezer album 11073374; version for organ, harp, violin and viola)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/S%C3%A9r%C3%A9nade,_Op.15_(Saint-Sa%C3%ABns,_Camille)"
+    "https://imslp.org/wiki/S%C3%A9r%C3%A9nade,_Op.15_(Saint-Sa%C3%ABns,_Camille)",
+    "https://www.deezer.com/album/11073374",
+    "https://musicbrainz.org/release/fbb05bb9-811b-401e-a706-25027c6848b9"
    ],
    "confidence": "medium"
   },
@@ -1643,11 +1657,51 @@
    "violin_id": null,
    "floor": {
     "published": "Durand, Paris, 1919",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Fine Arts Quartet: Saint-Saëns, String Quartets Nos. 1 and 2 (Naxos; Deezer album 580205671; 28:40); also Sarastro String Quartet (Pan Classics; Deezer album 584972462)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/String_Quartet_No.2,_Op.153_(Saint-Sa%C3%ABns,_Camille)"
+    "https://imslp.org/wiki/String_Quartet_No.2,_Op.153_(Saint-Sa%C3%ABns,_Camille)",
+    "https://www.deezer.com/album/580205671",
+    "https://www.deezer.com/album/584972462"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Saint-Saëns, Camille",
+   "title": "Piano Quartet in E major, R. 107",
+   "aka": [],
+   "instruments": {
+    "violin": 1,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "piano-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1851–53",
+   "minutes": 20,
+   "notes": "Three movements; early work of 1851–53, first published in 1992",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Early work, easier than Op. 41 (7); piano leads",
+   "hardest_part_guess": "piano",
+   "imslpPage": "Piano Quartet in E major (Saint-Saëns, Camille)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "First published 1992 (per IMSLP)",
+    "recorded": "Mozart Piano Quartet: Saint-Saëns, Piano Quartets (Musikproduktion Dabrin; Deezer album 157081092; 19:06)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quartet_in_E_major_(Saint-Sa%C3%ABns,_Camille)",
+    "https://www.deezer.com/album/157081092"
    ],
    "confidence": "medium"
   },
@@ -1755,13 +1809,15 @@
    "violin_id": null,
    "floor": {
     "published": "1921",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Takács Quartet, Marc-André Hamelin: Dohnányi, Piano Quintets and String Quartet No. 2 (Hyperion; Deezer album 508269171); also The Schubert Ensemble (Hyperion; Deezer album 563347842)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Quintet_No.2,_Op.26_(Dohn%C3%A1nyi,_Ern%C5%91)"
+    "https://imslp.org/wiki/Piano_Quintet_No.2,_Op.26_(Dohn%C3%A1nyi,_Ern%C5%91)",
+    "https://www.deezer.com/album/508269171",
+    "https://www.deezer.com/album/563347842"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Dohnányi, Ernő",
@@ -1942,14 +1998,55 @@
    "violin_id": null,
    "floor": {
     "published": "First published c. 2005",
-    "recorded": "Dohnányi, String Sextet in B-flat (1893), recorded on Hungaroton in 2006 (Wikipedia list of compositions, citing Grymes's bio-bibliography)",
+    "recorded": "Budapest Sextet: Dohnányi / Mosonyi, String Sextets (Hungaroton; Deezer album 587365132; 27:04); also Sestetto Stradivari (VDM Records; Deezer album 891338372); Wikipedia's list also dates a Hungaroton recording to 2006",
     "performed": ""
    },
    "sources": [
     "https://imslp.org/wiki/String_Sextet_(Dohn%C3%A1nyi,_Ern%C5%91)",
-    "https://en.wikipedia.org/wiki/List_of_compositions_by_Ernst_von_Dohn%C3%A1nyi"
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Ernst_von_Dohn%C3%A1nyi",
+    "https://www.deezer.com/album/587365132",
+    "https://www.deezer.com/album/891338372"
    ],
-   "confidence": "medium"
+   "confidence": "high"
+  },
+  {
+   "composer": "Dohnányi, Ernő",
+   "title": "Piano Quartet in F-sharp minor",
+   "aka": [],
+   "instruments": {
+    "violin": 1,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "piano-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1894",
+   "minutes": 26,
+   "notes": "Four movements; early work of 1894, recorded by Hungaroton",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Piano at diploma level; strings about level 6",
+   "hardest_part_guess": "piano",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Auer String Quartet, István Kassai (piano): Dohnányi, Piano Quartet in F-sharp minor; Piano Quintet No. 1 (Hungaroton; Deezer album 578980591; 26:14)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Ernst_von_Dohn%C3%A1nyi",
+    "https://www.deezer.com/album/578980591"
+   ],
+   "confidence": "medium",
+   "gap": true
   },
   {
    "composer": "Suk, Josef",
@@ -2407,13 +2504,15 @@
    "violin_id": null,
    "floor": {
     "published": "Schuberth & Co., Hamburg, 1844",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Agnes Pyka, Ensemble des Équilibres: César Franck, Complete Chamber Music (Klarthe; Deezer album 454616945; 24:48); also Tatiana Samouil, David Lively, Justus Grimm and others (Cypres; Deezer album 6254594)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Trio,_Op.1_No.2_(Franck,_C%C3%A9sar)"
+    "https://imslp.org/wiki/Piano_Trio,_Op.1_No.2_(Franck,_C%C3%A9sar)",
+    "https://www.deezer.com/album/454616945",
+    "https://www.deezer.com/album/6254594"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Franck, César",
@@ -2434,7 +2533,7 @@
    "form": "work",
    "set": "Three Piano Trios, Op. 1",
    "year": "1842",
-   "minutes": null,
+   "minutes": 30,
    "notes": "Three movements; published in 1843",
    "popularity": "lesser-known",
    "level_guess": 6,
@@ -2445,13 +2544,15 @@
    "violin_id": null,
    "floor": {
     "published": "Schuberth & Co., Hamburg, 1843",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Agnes Pyka, Ensemble des Équilibres: César Franck, Complete Chamber Music (Klarthe; Deezer album 454616945; 30:05); also Tatiana Samouil, David Lively, Justus Grimm and others (Cypres; Deezer album 6254594)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Trio,_Op.1_No.3_(Franck,_C%C3%A9sar)"
+    "https://imslp.org/wiki/Piano_Trio,_Op.1_No.3_(Franck,_C%C3%A9sar)",
+    "https://www.deezer.com/album/454616945",
+    "https://www.deezer.com/album/6254594"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Franck, César",
@@ -2472,7 +2573,7 @@
    "form": "work",
    "set": null,
    "year": "c. 1841",
-   "minutes": null,
+   "minutes": 20,
    "notes": "One movement; dedicated to Franz Liszt; published in 1846",
    "popularity": "lesser-known",
    "level_guess": 6,
@@ -2483,13 +2584,15 @@
    "violin_id": null,
    "floor": {
     "published": "Schuberth & Co., Hamburg, 1846",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Agnes Pyka, Ensemble des Équilibres: César Franck, Complete Chamber Music (Klarthe; Deezer album 454616945; Trio Concertant Op. 2 No. 4, 19:59); also Tatiana Samouil, David Lively, Justus Grimm and others (Cypres; Deezer album 6254594)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Trio,_Op.2_(Franck,_C%C3%A9sar)"
+    "https://imslp.org/wiki/Piano_Trio,_Op.2_(Franck,_C%C3%A9sar)",
+    "https://www.deezer.com/album/454616945",
+    "https://www.deezer.com/album/6254594"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Franck, César",
@@ -2529,6 +2632,46 @@
    "confidence": "high"
   },
   {
+   "composer": "Franck, César",
+   "title": "Grand Trio in C minor, CFF 108",
+   "aka": [
+    "Piano Trio in C minor, Op. 6"
+   ],
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "piano-trio",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1834",
+   "minutes": 15,
+   "notes": "One movement; early work of 1834, written when Franck was about eleven",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Piano part at pre-diploma, like the Op. 1 trios",
+   "hardest_part_guess": "piano",
+   "imslpPage": "Piano Trio, CFF 108 (Franck, César)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Agnes Pyka, Ensemble des Équilibres: César Franck, Complete Chamber Music (Klarthe; Deezer album 454616945; 15:33); also Tatiana Samouil, David Lively, Justus Grimm and others (Cypres; Deezer album 6254594; 14:31)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio,_CFF_108_(Franck,_C%C3%A9sar)",
+    "https://www.deezer.com/album/454616945",
+    "https://www.deezer.com/album/6254594"
+   ],
+   "confidence": "medium"
+  },
+  {
    "composer": "Goldmark, Karl",
    "title": "Piano Quintet No. 1 in B-flat major, Op. 30",
    "aka": [],
@@ -2557,13 +2700,14 @@
    "violin_id": null,
    "floor": {
     "published": "Hugo Pohle, Hamburg, 1879",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Quatuor Sine Nomine with pianist: Goldmark, Piano Quintets Opp. 30 and 54 (CPO; Deezer album 578802101; Op. 30 39:10)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Quintet_No.1,_Op.30_(Goldmark,_Carl)"
+    "https://imslp.org/wiki/Piano_Quintet_No.1,_Op.30_(Goldmark,_Carl)",
+    "https://www.deezer.com/album/578802101"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Goldmark, Karl",
@@ -2594,13 +2738,14 @@
    "violin_id": null,
    "floor": {
     "published": "Josef Weinberger, Leipzig, 1916",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Quatuor Sine Nomine with pianist: Goldmark, Piano Quintets Opp. 30 and 54 (CPO; Deezer album 578802101; Op. 54 35:03)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Quintet_No.2,_Op.54_(Goldmark,_Carl)"
+    "https://imslp.org/wiki/Piano_Quintet_No.2,_Op.54_(Goldmark,_Carl)",
+    "https://www.deezer.com/album/578802101"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Goldmark, Karl",
@@ -2619,7 +2764,7 @@
    "form": "work",
    "set": null,
    "year": "1858–59",
-   "minutes": null,
+   "minutes": 29,
    "notes": "Four movements; dedicated to Heinrich Jaques",
    "popularity": "lesser-known",
    "level_guess": 6,
@@ -2630,13 +2775,15 @@
    "violin_id": null,
    "floor": {
     "published": "F. Kistner, Leipzig, 1865",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Mendelssohn Piano Trio: Goldmark, Piano Trios Opp. 4 and 33 (Centaur; Deezer album 583414682; Op. 4 29:03); also Bartos Trio (Hungaroton; Deezer album 579020591)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Trio_No.1,_Op.4_(Goldmark,_Carl)"
+    "https://imslp.org/wiki/Piano_Trio_No.1,_Op.4_(Goldmark,_Carl)",
+    "https://www.deezer.com/album/583414682",
+    "https://www.deezer.com/album/579020591"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Goldmark, Karl",
@@ -2655,7 +2802,7 @@
    "form": "work",
    "set": null,
    "year": "1879",
-   "minutes": null,
+   "minutes": 29,
    "notes": "Four movements; dedicated to Pablo de Sarasate",
    "popularity": "lesser-known",
    "level_guess": 7,
@@ -2666,13 +2813,15 @@
    "violin_id": null,
    "floor": {
     "published": "Hugo Pohle, Hamburg, 1880",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Mendelssohn Piano Trio: Goldmark, Piano Trios Opp. 4 and 33 (Centaur; Deezer album 583414682; Op. 33 29:21); also Bartos Trio (Hungaroton; Deezer album 579020591)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Trio_No.2,_Op.33_(Goldmark,_Carl)"
+    "https://imslp.org/wiki/Piano_Trio_No.2,_Op.33_(Goldmark,_Carl)",
+    "https://www.deezer.com/album/583414682",
+    "https://www.deezer.com/album/579020591"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Goldmark, Karl",
@@ -2702,13 +2851,15 @@
    "violin_id": null,
    "floor": {
     "published": "C. A. Spina, Vienna, 1870",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Haydn Quartet, Rudolf Leopold: Goldmark, String Quartet Op. 8 and String Quintet Op. 9 (Gramola; Deezer album 584092812; Op. 8 31:02); also Lajtha Quartet (Hungaroton; Deezer album 583027102)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/String_Quartet,_Op.8_(Goldmark,_Carl)"
+    "https://imslp.org/wiki/String_Quartet,_Op.8_(Goldmark,_Carl)",
+    "https://www.deezer.com/album/584092812",
+    "https://www.deezer.com/album/583027102"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Goldmark, Karl",
@@ -2727,7 +2878,7 @@
    "form": "work",
    "set": null,
    "year": "1862",
-   "minutes": null,
+   "minutes": 38,
    "notes": "Two cellos; dedicated to Ferenc Erkel",
    "popularity": "lesser-known",
    "level_guess": 6,
@@ -2738,13 +2889,15 @@
    "violin_id": null,
    "floor": {
     "published": "J. P. Gotthard, Vienna, 1870",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Haydn Quartet, Rudolf Leopold: Goldmark, String Quartet Op. 8 and String Quintet Op. 9 (Gramola; Deezer album 584092812; Op. 9 37:59); also Lajtha Quartet (Hungaroton; Deezer album 583027102)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/String_Quintet,_Op.9_(Goldmark,_Carl)"
+    "https://imslp.org/wiki/String_Quintet,_Op.9_(Goldmark,_Carl)",
+    "https://www.deezer.com/album/584092812",
+    "https://www.deezer.com/album/583027102"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Fauré, Gabriel",
@@ -2802,7 +2955,7 @@
    "form": "work",
    "set": null,
    "year": "1886",
-   "minutes": null,
+   "minutes": 33,
    "notes": "Four movements; the later of Fauré's two piano quartets",
    "popularity": "well-known",
    "level_guess": 8,
@@ -2813,13 +2966,14 @@
    "violin_id": null,
    "floor": {
     "published": "Hamelle, Paris, 1887",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Trio Wanderer, Antoine Tamestit: Fauré, Piano Quartets (harmonia mundi; Deezer album 46603502; 32:31)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Quartet_No.2,_Op.45_(Faur%C3%A9,_Gabriel)"
+    "https://imslp.org/wiki/Piano_Quartet_No.2,_Op.45_(Faur%C3%A9,_Gabriel)",
+    "https://www.deezer.com/album/46603502"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Fauré, Gabriel",
@@ -2839,7 +2993,7 @@
    "form": "work",
    "set": null,
    "year": "1890–1905",
-   "minutes": null,
+   "minutes": 30,
    "notes": "Three movements; worked on between 1890 and 1905; premiered by the Ysaÿe Quartet",
    "popularity": "well-known",
    "level_guess": 8,
@@ -2850,13 +3004,15 @@
    "violin_id": null,
    "floor": {
     "published": "Schirmer, New York, 1907",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Quintetto Fauré di Roma: Fauré, Piano Quintets Opp. 89 and 115 (Claves; Deezer album 1575766; Op. 89 30:09); also Jean Hubeau (Warner Classics; Deezer album 86373)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Quintet_No.1,_Op.89_(Faur%C3%A9,_Gabriel)"
+    "https://imslp.org/wiki/Piano_Quintet_No.1,_Op.89_(Faur%C3%A9,_Gabriel)",
+    "https://www.deezer.com/album/1575766",
+    "https://www.deezer.com/album/86373"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Fauré, Gabriel",
@@ -2887,13 +3043,15 @@
    "violin_id": null,
    "floor": {
     "published": "Durand, Paris, 1921",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Quintetto Fauré di Roma: Fauré, Piano Quintets Opp. 89 and 115 (Claves; Deezer album 1575766; Op. 115 33:11); also Jean Hubeau (Warner Classics; Deezer album 86373)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Quintet_No.2,_Op.115_(Faur%C3%A9,_Gabriel)"
+    "https://imslp.org/wiki/Piano_Quintet_No.2,_Op.115_(Faur%C3%A9,_Gabriel)",
+    "https://www.deezer.com/album/1575766",
+    "https://www.deezer.com/album/86373"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Fauré, Gabriel",
@@ -2998,13 +3156,14 @@
    "violin_id": null,
    "floor": {
     "published": "1881",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Gould Piano Trio, David Adams: Stanford, Piano Trio No. 2 & Piano Quartet No. 1 (Naxos; Deezer album 586145402; 29:57)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Quartet,_Op.15_(Stanford,_Charles_Villiers)"
+    "https://imslp.org/wiki/Piano_Quartet,_Op.15_(Stanford,_Charles_Villiers)",
+    "https://www.deezer.com/album/586145402"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Stanford, Charles Villiers",
@@ -3023,7 +3182,7 @@
    "form": "work",
    "set": null,
    "year": "1889",
-   "minutes": null,
+   "minutes": 32,
    "notes": "Four movements; dedicated to Hans von Bülow",
    "popularity": "lesser-known",
    "level_guess": 6,
@@ -3034,13 +3193,14 @@
    "violin_id": null,
    "floor": {
     "published": "1889",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Gould Piano Trio: Stanford, Chamber Music (Naxos; Deezer album 583037012; 31:33)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Trio_No.1,_Op.35_(Stanford,_Charles_Villiers)"
+    "https://imslp.org/wiki/Piano_Trio_No.1,_Op.35_(Stanford,_Charles_Villiers)",
+    "https://www.deezer.com/album/583037012"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Stanford, Charles Villiers",
@@ -3070,13 +3230,14 @@
    "violin_id": null,
    "floor": {
     "published": "1899",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Gould Piano Trio, David Adams: Stanford, Piano Trio No. 2 & Piano Quartet No. 1 (Naxos; Deezer album 586145402; 31:17)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Trio_No.2,_Op.73_(Stanford,_Charles_Villiers)"
+    "https://imslp.org/wiki/Piano_Trio_No.2,_Op.73_(Stanford,_Charles_Villiers)",
+    "https://www.deezer.com/album/586145402"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Stanford, Charles Villiers",
@@ -3106,13 +3267,14 @@
    "violin_id": null,
    "floor": {
     "published": "1918",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Gould Piano Trio: Stanford, Clarinet Sonata, Piano Trio No. 3 & 2 Fantasies (Naxos; Deezer album 579494791; 20:54)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Trio_No.3,_Op.158_(Stanford,_Charles_Villiers)"
+    "https://imslp.org/wiki/Piano_Trio_No.3,_Op.158_(Stanford,_Charles_Villiers)",
+    "https://www.deezer.com/album/579494791"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Stanford, Charles Villiers",
@@ -3415,6 +3577,281 @@
    "gap": true
   },
   {
+   "composer": "Stanford, Charles Villiers",
+   "title": "Piano Quintet in D minor, Op. 25",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "piano-quintet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1886",
+   "minutes": 38,
+   "notes": "Four movements; first edition 1887; Stanford's only piano quintet",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Piano at pre-diploma; strings about level 5",
+   "hardest_part_guess": "piano",
+   "imslpPage": "Piano Quintet, Op.25 (Stanford, Charles Villiers)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "1887 (first edition, per IMSLP)",
+    "recorded": "The Vanbrugh Quartet with pianist: Stanford, Piano Quintet and String Quintet No. 1 (Hyperion; Deezer album 563350902; 37:14)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quintet,_Op.25_(Stanford,_Charles_Villiers)",
+    "https://www.deezer.com/album/563350902"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Stanford, Charles Villiers",
+   "title": "String Quintet No. 1 in F major, Op. 85",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 2,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "string-quintet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1903",
+   "minutes": 28,
+   "notes": "Three movements; two violas; first of Stanford's two string quintets",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Violin 1 near the 'American' quintet (6)",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "String Quintet No.1, Op.85 (Stanford, Charles Villiers)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "1903 (first edition, per IMSLP)",
+    "recorded": "The Vanbrugh Quartet with a second viola: Stanford, Piano Quintet and String Quintet No. 1 (Hyperion; Deezer album 563350902; 27:23); also Krysia Osostowicz, Yuko Inoue, Richard Jenkinson, Ralph de Souza, Garfield Jackson: String Quintets and Intermezzi (SOMM, 2020; per MusicBrainz)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Quintet_No.1,_Op.85_(Stanford,_Charles_Villiers)",
+    "https://www.deezer.com/album/563350902",
+    "https://musicbrainz.org/release/0ee48c84-c0c9-40ee-b62a-44a78b2d4d7d"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Stanford, Charles Villiers",
+   "title": "String Quintet No. 2 in C minor, Op. 86",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 2,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "string-quintet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1903",
+   "minutes": 30,
+   "notes": "Four movements; two violas; unpublished, edited by Jeremy Dibble for its first recording (2020)",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Violin 1 near the 'American' quintet (6)",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Krysia Osostowicz, Ralph de Souza, Yuko Inoue, Garfield Jackson, Richard Jenkinson: Stanford, String Quintets and Intermezzi (SOMMCD0623, 2020; first recording, 30:15; per MusicBrainz and MusicWeb)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Charles_Villiers_Stanford",
+    "https://musicbrainz.org/release/0ee48c84-c0c9-40ee-b62a-44a78b2d4d7d",
+    "https://www.musicweb-international.com/classrev/2020/Nov/Stanford-chamber-SOMMCD0623.htm"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Stanford, Charles Villiers",
+   "title": "Piano Quartet No. 2 in C minor, Op. 133",
+   "aka": [],
+   "instruments": {
+    "violin": 1,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "piano-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1912",
+   "minutes": 30,
+   "notes": "Four movements; the second of Stanford's two piano quartets (the first is Op. 15)",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Piano at pre-diploma; strings about level 5",
+   "hardest_part_guess": "piano",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Gould Piano Trio with violist: Stanford, Chamber Music (Naxos; Deezer album 583037012; 29:59)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Charles_Villiers_Stanford",
+    "https://www.deezer.com/album/583037012"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Stanford, Charles Villiers",
+   "title": "Fantasy No. 1 in G minor for Clarinet and String Quartet",
+   "aka": [],
+   "instruments": {
+    "clarinet": 1,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1921",
+   "minutes": 12,
+   "notes": "Three linked movements; no opus number; for clarinet and string quartet",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Clarinet part about ABRSM 8; lyrical",
+   "hardest_part_guess": "clarinet",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Thea King, Britten String Quartet: Romberg, Fuchs & Stanford, Clarinet Quintets (Hyperion; Deezer album 536771832; 11:38); also Gould Piano Trio members with clarinet: Stanford, Clarinet Sonata, Piano Trio No. 3 & 2 Fantasies (Naxos; Deezer album 579494791)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Charles_Villiers_Stanford",
+    "https://www.deezer.com/album/536771832",
+    "https://www.deezer.com/album/579494791"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Stanford, Charles Villiers",
+   "title": "Fantasy No. 2 in F major for Clarinet and String Quartet",
+   "aka": [],
+   "instruments": {
+    "clarinet": 1,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1922",
+   "minutes": 14,
+   "notes": "Three movements; no opus number; companion to Fantasy No. 1",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Clarinet part about ABRSM 8; lyrical",
+   "hardest_part_guess": "clarinet",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Thea King, Britten String Quartet: Romberg, Fuchs & Stanford, Clarinet Quintets (Hyperion; Deezer album 536771832; 14:24); also Gould Piano Trio members with clarinet: Stanford, Clarinet Sonata, Piano Trio No. 3 & 2 Fantasies (Naxos; Deezer album 579494791)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Charles_Villiers_Stanford",
+    "https://www.deezer.com/album/536771832",
+    "https://www.deezer.com/album/579494791"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Stanford, Charles Villiers",
+   "title": "Phantasy for Horn and String Quartet in A minor",
+   "aka": [
+    "Fantasy for Horn and String Quartet"
+   ],
+   "instruments": {
+    "horn": 1,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "short",
+   "set": null,
+   "year": "1922",
+   "minutes": 12,
+   "notes": "Single continuous piece; no opus number; for horn and string quartet",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Horn part exposed over a long span; about pre-diploma",
+   "hardest_part_guess": "horn",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "RTÉ Vanbrugh Quartet, Stephen Stirling (horn): Stanford, String Quartets Nos. 1 and 2, Horn Fantasy (Hyperion CDA67434, 2005; per MusicBrainz)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Charles_Villiers_Stanford",
+    "https://musicbrainz.org/release/a76d8a02-2fcd-4078-845c-21a0ab970555"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
    "composer": "Chausson, Ernest",
    "title": "Concert for Violin, Piano and String Quartet in D major, Op. 21",
    "aka": [],
@@ -3481,13 +3918,14 @@
    "violin_id": null,
    "floor": {
     "published": "Durand, Paris, 1898",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "The Schubert Ensemble: Saint-Saëns & Chausson, Piano Quartets (Chandos; Deezer album 618040471; 36:23)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Quartet,_Op.30_(Chausson,_Ernest)"
+    "https://imslp.org/wiki/Piano_Quartet,_Op.30_(Chausson,_Ernest)",
+    "https://www.deezer.com/album/618040471"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Chausson, Ernest",
@@ -3671,13 +4109,14 @@
    "violin_id": null,
    "floor": {
     "published": "1914",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Mannheimer Streichquartett: Smyth, String Quartet in E minor; String Quintet in E major, Op. 1 (CPO; Deezer album 586616102; Quartet 41:53)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/String_Quartet_in_E_minor_(Smyth,_Ethel)"
+    "https://imslp.org/wiki/String_Quartet_in_E_minor_(Smyth,_Ethel)",
+    "https://www.deezer.com/album/586616102"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Smyth, Ethel",
@@ -3707,13 +4146,52 @@
    "violin_id": null,
    "floor": {
     "published": "C. F. Peters, Leipzig, 1884",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Mannheimer Streichquartett with Joachim Griesheimer: Smyth, String Quartet; String Quintet (CPO; Deezer album 586616102; Quintet 26:30)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/String_Quintet,_Op.1_(Smyth,_Ethel)"
+    "https://imslp.org/wiki/String_Quintet,_Op.1_(Smyth,_Ethel)",
+    "https://www.deezer.com/album/586616102"
    ],
-   "confidence": "medium"
+   "confidence": "high"
+  },
+  {
+   "composer": "Smyth, Ethel",
+   "title": "Piano Trio in D minor",
+   "aka": [],
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "piano-trio",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1880",
+   "minutes": 31,
+   "notes": "Four movements; early work of 1880, before the published Op. 1 quintet",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Piano at pre-diploma; strings about level 5",
+   "hardest_part_guess": "piano",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Neave Trio: A Room of Her Own (Chandos CHAN 20238, 2024; Deezer album 618054051; 31:10)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Ethel_Smyth",
+    "https://www.deezer.com/album/618054051"
+   ],
+   "confidence": "medium",
+   "gap": true
   },
   {
    "composer": "Pierné, Gabriel",
@@ -3810,7 +4288,7 @@
    "form": "work",
    "set": null,
    "year": "1920–21",
-   "minutes": null,
+   "minutes": 39,
    "notes": "Three movements; dedicated to Henri Rabaud",
    "popularity": "lesser-known",
    "level_guess": 7,
@@ -3821,13 +4299,15 @@
    "violin_id": null,
    "floor": {
     "published": "1922",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Trio Wanderer: Fauré & Pierné, Piano Trios (harmonia mundi; Deezer album 46597042; Op. 45 39:00); also Trio Hochelaga (ATMA Classique; Deezer album 883794312)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Trio,_Op.45_(Piern%C3%A9,_Gabriel)"
+    "https://imslp.org/wiki/Piano_Trio,_Op.45_(Piern%C3%A9,_Gabriel)",
+    "https://www.deezer.com/album/46597042",
+    "https://www.deezer.com/album/883794312"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Pierné, Gabriel",
@@ -3964,7 +4444,7 @@
    "form": "work",
    "set": null,
    "year": "1892–94",
-   "minutes": null,
+   "minutes": 24,
    "notes": "Unfinished: two movements, completed by Vincent d'Indy; dedicated to Eugène Ysaÿe",
    "popularity": "lesser-known",
    "level_guess": 8,
@@ -3975,13 +4455,15 @@
    "violin_id": null,
    "floor": {
     "published": "1895",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Frith Piano Quartet: Walton, Bridge & Lekeu, Piano Quartets (Nimbus Alliance; Deezer album 11655468; 24:22); also Ensemble Musique Oblique (harmonia mundi; Deezer album 869702572)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Piano_Quartet_(Lekeu,_Guillaume)"
+    "https://imslp.org/wiki/Piano_Quartet_(Lekeu,_Guillaume)",
+    "https://www.deezer.com/album/11655468",
+    "https://www.deezer.com/album/869702572"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Lekeu, Guillaume",
@@ -4283,11 +4765,89 @@
    "violin_id": null,
    "floor": {
     "published": "F. A. Urbánek, Prague, 1879",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "Panocha Quartet: Fibich, String Quartets (Supraphon; Deezer album 67011762; 25:26); also Kocian Quartet (Orfeo; Deezer album 587314682)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/String_Quartet_No.2,_Op.8_(Fibich,_Zden%C4%9Bk)"
+    "https://imslp.org/wiki/String_Quartet_No.2,_Op.8_(Fibich,_Zden%C4%9Bk)",
+    "https://www.deezer.com/album/67011762",
+    "https://www.deezer.com/album/587314682"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Fibich, Zdeněk",
+   "title": "String Quartet No. 1 in A major, H 189",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1874",
+   "minutes": 22,
+   "notes": "Four movements; first published in 1951",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Violin 1 about ABRSM 8",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "String Quartet No.1, H 189 (Fibich, Zdeněk)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "First published 1951 (per IMSLP)",
+    "recorded": "Panocha Quartet: Fibich, String Quartets (Supraphon; Deezer album 67011762; 21:44); also Kocian Quartet (Orfeo; Deezer album 587314682; 22:59)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.1,_H_189_(Fibich,_Zden%C4%9Bk)",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Zden%C4%9Bk_Fibich",
+    "https://www.deezer.com/album/67011762",
+    "https://www.deezer.com/album/587314682"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Fibich, Zdeněk",
+   "title": "Thema con variazioni in B-flat major, H 269",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "short",
+   "set": null,
+   "year": "1883",
+   "minutes": 12,
+   "notes": "Single-movement theme and variations; first published c. 1910",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Violin 1 about ABRSM 8",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Thema con variazione in B-flat major, H 269 (Fibich, Zdeněk)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "c. 1910, F. A. Urbánek, Prague (per IMSLP)",
+    "recorded": "Panocha Quartet: Fibich, String Quartets (Supraphon; Deezer album 67011762; 'Theme and Variations for String Quartet in B-flat major', 12:12)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Thema_con_variazione_in_B-flat_major,_H_269_(Fibich,_Zden%C4%9Bk)",
+    "https://www.deezer.com/album/67011762"
    ],
    "confidence": "medium"
   },
@@ -4405,6 +4965,47 @@
    "confidence": "high"
   },
   {
+   "composer": "Beach, Amy",
+   "title": "String Quartet, Op. 89",
+   "aka": [
+    "Quartet for Strings (in One Movement)"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1921–29",
+   "minutes": 12,
+   "notes": "One movement; first performed in 1929; edited by A. F. Block (1994)",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Dense one-movement writing; violin 1 about diploma",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "String Quartet, Op.89 (Beach, Amy Marcy)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "ed. A. F. Block, Music of the United States of America vol. 3, Madison, 1994 (per Wikipedia list)",
+    "recorded": "Quatuor Sine Qua Non: 4 for 4 (Skarbo, 2020; 13:32; per MusicBrainz); Crescent String Quartet: Women Composers: The Lost Tradition Found (Leonarda LE353, 1994; 11:26)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet,_Op.89_(Beach,_Amy_Marcy)",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Amy_Beach",
+    "https://musicbrainz.org/release/f1f26960-d31e-4084-a803-eba01f109161",
+    "https://musicbrainz.org/release/f7021669-680b-4f73-8de0-7dfd6a7005a0"
+   ],
+   "confidence": "medium"
+  },
+  {
    "composer": "Coleridge-Taylor, Samuel",
    "title": "Clarinet Quintet in F-sharp minor, Op. 10",
    "aka": [],
@@ -4433,13 +5034,15 @@
    "violin_id": null,
    "floor": {
     "published": "Breitkopf & Härtel, Leipzig, 1906",
-    "recorded": "IMSLP links a commercial recording (Naxos Music Library match, signal 'recorded'); the recording itself was not identified",
+    "recorded": "The Nash Ensemble: Coleridge-Taylor, Piano Quintet & Clarinet Quintet (Hyperion; Deezer album 536767682); also Kelly Burke (Centaur; Deezer album 579413101; 27:07)",
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/Clarinet_Quintet,_Op.10_(Coleridge-Taylor,_Samuel)"
+    "https://imslp.org/wiki/Clarinet_Quintet,_Op.10_(Coleridge-Taylor,_Samuel)",
+    "https://www.deezer.com/album/536767682",
+    "https://www.deezer.com/album/579413101"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "Coleridge-Taylor, Samuel",
@@ -4646,39 +5249,7 @@
    "imslpPage": "Barcarolle (Saint-Saëns, Camille)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "IMSLP holds only a manuscript scan of this undated version with organ; no edition or recording found. The published Barcarolle in F major, Op. 108 is kept."
-  },
-  {
-   "composer": "Saint-Saëns, Camille",
-   "title": "Piano Quartet in E major, R 107",
-   "imslpPage": "Piano Quartet in E major (Saint-Saëns, Camille)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Youthful work of 1851-53, first published in 1992 (not in the public domain); no commercial recording or concert found."
-  },
-  {
-   "composer": "Franck, César",
-   "title": "Grand Trio, Op. 6, CFF 108",
-   "imslpPage": "Piano Trio, CFF 108 (Franck, César)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "IMSLP holds only a manuscript scan (1834); no edition, recording or concert found."
-  },
-  {
-   "composer": "Stanford, Charles Villiers",
-   "title": "Piano Quintet in D minor, Op. 25",
-   "imslpPage": "Piano Quintet, Op.25 (Stanford, Charles Villiers)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "No commercial recording or concert could be confirmed (Apple catalogue, web searches); IMSLP signals: first-edition, published."
-  },
-  {
-   "composer": "Stanford, Charles Villiers",
-   "title": "String Quintet No. 1 in F major, Op. 85",
-   "imslpPage": "String Quintet No.1, Op.85 (Stanford, Charles Villiers)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "IMSLP shows only the 1903 first edition; no commercial recording or concert found in the Apple catalogue and web searches."
+   "evidence": "RECHECK 2026-10-17: Deezer (Saint-Saens Barcarolle query) and MusicBrainz find recordings only of the published Barcarolle, Op. 108 (kept); IMSLP holds only an undated manuscript of this organ version and no edition or separate recording turned up."
   },
   {
    "composer": "Smyth, Ethel",
@@ -4702,7 +5273,7 @@
    "imslpPage": "String Trio, Op.6 (Smyth, Ethel)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "IMSLP page has no score signals; a forum report places the 1887 trio in manuscript at the British Library; no edition, recording or concert found."
+   "evidence": "RECHECK 2026-10-17: Deezer (Ethel Smyth queries), Apple composerTerm 'Ethel Smyth' and MusicBrainz (all 82 works of Smyth: no string-trio recording) found nothing; Wikipedia's list gives only the 1887 String Trio in D with no edition; IMSLP page has no score signals."
   },
   {
    "composer": "Elgar, Edward",
@@ -4726,39 +5297,15 @@
    "imslpPage": "Harmony Music No.7 (Elgar, Edward)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "IMSLP: 2 flutes, oboe, clarinet, bassoon (or cello) and violin, 1881, unpublished; the one known recording (Chandos CHAN 24133) covers the wind-quintet pieces; none with violin found."
-  },
-  {
-   "composer": "Fibich, Zdeněk",
-   "title": "String Quartet No. 1 in A major, H 189",
-   "imslpPage": "String Quartet No.1, H 189 (Fibich, Zdeněk)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "No commercial recording or concert could be confirmed (Apple catalogue, web searches); IMSLP signals: published."
-  },
-  {
-   "composer": "Fibich, Zdeněk",
-   "title": "Thema con variazioni in B-flat major, H 269",
-   "imslpPage": "Thema con variazione in B-flat major, H 269 (Fibich, Zdeněk)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "IMSLP shows a c. 1910 Urbánek print (Hofmeister-listed); no commercial recording or concert found."
+   "evidence": "RECHECK 2026-10-17: Deezer ('Elgar Harmony Music': one unrelated Elgar album), Apple composerTerm 'Edward Elgar' and MusicBrainz (first 300 works of Elgar, no Harmony Music) found no recording with violin; the one known recording (Chandos CHAN 24133) covers the wind-quintet pieces."
   },
   {
    "composer": "Beach, Amy",
-   "title": "Two Songs with Violin and Violoncello, Op. 100",
+   "title": "Two Songs, Op. 100",
    "imslpPage": "2 Songs, Op.100 (Beach, Amy Marcy)",
    "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "IMSLP: 1924 Ditson print for high voice, violin, cello (obbligato) and piano; no recording or performance found in the Apple catalogue and web searches."
-  },
-  {
-   "composer": "Beach, Amy",
-   "title": "String Quartet, Op. 89",
-   "imslpPage": "String Quartet, Op.89 (Beach, Amy Marcy)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "No commercial recording or concert could be confirmed (Apple catalogue, web searches); IMSLP signals: none."
+   "reason": "doubtful: only one of the two songs is documented on disc, left off on the owner's instruction (2026-10-17)",
+   "evidence": "Added by the recheck as a chamber song set (voice with three instruments), but only No. 1 (A Mirage) is documented on discs; the full entry is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [
@@ -4777,25 +5324,25 @@
    "skipped": 0,
    "added_not_on_imslp": 4,
    "coverage": "complete",
-   "note": "Gap check against Wikipedia's list: added Quartet No. 6, Two Waltzes Op. 54, Quartet Movement B. 120, Andante appassionato B. 40a; the 3-violin Gavotte B. 164 stays in the violin catalogue"
+   "note": "Gap check against Wikipedia's list: added Quartet No. 6, Two Waltzes Op. 54, Quartet Movement B. 120, Andante appassionato B. 40a; the 3-violin Gavotte B. 164 stays in the violin catalogue RECHECK 2026-10-17: Miniatures Op. 75a now names the Supraphon disc (Josef Suk and colleagues)."
   },
   {
    "name": "Saint-Saëns, Camille",
    "candidates": 12,
-   "kept": 10,
-   "skipped": 2,
+   "kept": 11,
+   "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Wikipedia chamber list checked; most works rest on IMSLP's recorded signal (Apple lookups blocked)"
+   "note": "Wikipedia chamber list checked; most works rest on IMSLP's recorded signal (Apple lookups blocked) RECHECK 2026-10-17: Piano Quartet in E (R. 107) added after a Dabrin recording turned up; Romance Op. 27 and Serenade Op. 15 now rest on Hauk's Guild disc (violin, harp, organ) and Harmonium Pearls; Barcarolle, Quintet, Quartet and Quartet No. 2 name discs."
   },
   {
    "name": "Dohnányi, Ernő",
    "candidates": 8,
    "kept": 8,
    "skipped": 0,
-   "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Early unpublished works (String Quartet in D minor 1893, Piano Quartet in F minor 1894) not on IMSLP, not checked for recordings"
+   "added_not_on_imslp": 1,
+   "coverage": "complete",
+   "note": "Early unpublished works (String Quartet in D minor 1893, Piano Quartet in F minor 1894) not on IMSLP, not checked for recordings RECHECK 2026-10-17: Piano Quartet in F-sharp minor (1894, Hungaroton) added; String Quartet in D minor (1893, manuscript at the British Library) and the Minuet for string quartet (1894, manuscript) have no recording or edition found; the String Sextet now names the Hungaroton disc."
   },
   {
    "name": "Suk, Josef",
@@ -4804,16 +5351,16 @@
    "skipped": 0,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "No work list consulted beyond IMSLP and recording reviews; the piano-trio version of the Elegy is not a separate entry"
+   "note": "No work list consulted beyond IMSLP and recording reviews; the piano-trio version of the Elegy is not a separate entry RECHECK 2026-10-17: Elegy Op. 23 stays unconfirmed in its eight-player scoring: Deezer and MusicBrainz show only piano-trio (Suk Trio, Guarneri Trio Prague, Joachim, Florestan, Sitkovetsky, Trio 180) and cello-and-orchestra versions; the other works name discs as before."
   },
   {
    "name": "Franck, César",
    "candidates": 7,
-   "kept": 6,
-   "skipped": 1,
+   "kept": 7,
+   "skipped": 0,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Wikipedia chamber list matches the IMSLP pages"
+   "note": "Wikipedia chamber list matches the IMSLP pages RECHECK 2026-10-17: Grand Trio CFF 108 added (recorded by Klarthe and Cypres); the Op. 1 Nos. 2-3 and Op. 2 trios name the same two complete sets."
   },
   {
    "name": "Goldmark, Karl",
@@ -4822,7 +5369,7 @@
    "skipped": 0,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "All six works rest on IMSLP's recorded signal; the recordings were not identified"
+   "note": "All six works rest on IMSLP's recorded signal; the recordings were not identified RECHECK 2026-10-17: all six works now name a disc (CPO, Centaur, Gramola; Hungaroton as second recording)."
   },
   {
    "name": "Fauré, Gabriel",
@@ -4831,16 +5378,16 @@
    "skipped": 0,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "La bonne chanson with strings not added (authorship of the string parts doubtful)"
+   "note": "La bonne chanson with strings not added (authorship of the string parts doubtful) RECHECK 2026-10-17: Piano Quartet No. 2 and both Piano Quintets now name a disc (harmonia mundi, Claves)."
   },
   {
    "name": "Stanford, Charles Villiers",
    "candidates": 10,
-   "kept": 8,
-   "skipped": 2,
-   "added_not_on_imslp": 4,
-   "coverage": "partial",
-   "note": "Quartets 4, 6, 7, 8 added; Piano Quartet No. 2, String Quintet No. 2, Nonet and the clarinet/horn Fantasies not confirmed as recorded"
+   "kept": 10,
+   "skipped": 0,
+   "added_not_on_imslp": 9,
+   "coverage": "complete",
+   "note": "Quartets 4, 6, 7, 8 added; Piano Quartet No. 2, String Quintet No. 2, Nonet and the clarinet/horn Fantasies not confirmed as recorded RECHECK 2026-10-17: Piano Quintet Op. 25 and String Quintet No. 1 Op. 85 are recorded (Hyperion, Vanbrugh); added gap works Piano Quartet No. 2 Op. 133 (Naxos), Fantasies Nos. 1-2 for clarinet and string quartet (Hyperion, Naxos) and the Phantasy for horn and string quartet (Hyperion CDA67434). String Quintet No. 2 Op. 86 added from the SOMM disc (first recording; players from MusicWeb's listing). Not found: the Serenade (Nonet) Op. 95 (no recording in Deezer, Apple or MusicBrainz)."
   },
   {
    "name": "Chausson, Ernest",
@@ -4849,16 +5396,16 @@
    "skipped": 0,
    "added_not_on_imslp": 1,
    "coverage": "complete",
-   "note": "Chanson perpétuelle with piano quintet added from the IMSLP page of the song"
+   "note": "Chanson perpétuelle with piano quintet added from the IMSLP page of the song RECHECK 2026-10-17: Piano Quartet Op. 30 names the Chandos disc."
   },
   {
    "name": "Smyth, Ethel",
    "candidates": 6,
    "kept": 3,
    "skipped": 3,
-   "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Early quartets Nos. 1-5, the 1880 piano trio and the 1887 string trio exist only in manuscript; not checked beyond IMSLP and Wikipedia"
+   "added_not_on_imslp": 1,
+   "coverage": "complete",
+   "note": "Early quartets Nos. 1-5, the 1880 piano trio and the 1887 string trio exist only in manuscript; not checked beyond IMSLP and Wikipedia RECHECK 2026-10-17: Piano Trio in D minor (1880) added (Neave Trio, Chandos 2024); String Trio Op. 6 and the early quartets Nos. 1, 2, 4, 5 (manuscripts) have no recording in Deezer, Apple or MusicBrainz; the E minor Quartet and the Quintet name the CPO disc."
   },
   {
    "name": "Pierné, Gabriel",
@@ -4867,7 +5414,7 @@
    "skipped": 0,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "The Warner box lists all chamber pieces except the Piano Trio, which rests on IMSLP's recorded signal"
+   "note": "The Warner box lists all chamber pieces except the Piano Trio, which rests on IMSLP's recorded signal RECHECK 2026-10-17: Piano Trio Op. 45 names the harmonia mundi disc."
   },
   {
    "name": "Lekeu, Guillaume",
@@ -4876,7 +5423,7 @@
    "skipped": 0,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Piano Quartet recording not identified (IMSLP signal)"
+   "note": "Piano Quartet recording not identified (IMSLP signal) RECHECK 2026-10-17: Piano Quartet names the Nimbus Alliance and harmonia mundi discs."
   },
   {
    "name": "Elgar, Edward",
@@ -4885,25 +5432,25 @@
    "skipped": 3,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Harmony Music Nos. 5-7 skipped (wind scoring / no recording found)"
+   "note": "Harmony Music Nos. 5-7 skipped (wind scoring / no recording found) RECHECK 2026-10-17: Harmony Music No. 7 searched again in Deezer, Apple and MusicBrainz: no recording with violin found."
   },
   {
    "name": "Fibich, Zdeněk",
    "candidates": 6,
-   "kept": 4,
-   "skipped": 2,
+   "kept": 6,
+   "skipped": 0,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "No work list found beyond IMSLP; recordings of the string quartets and the Thema not confirmed"
+   "coverage": "complete",
+   "note": "No work list found beyond IMSLP; recordings of the string quartets and the Thema not confirmed RECHECK 2026-10-17: String Quartet No. 1 and the Thema con variazioni added (Panocha Quartet, Supraphon); Quartet No. 2 names the same disc; Wikipedia's list of Fibich's compositions shows no further chamber work in scope."
   },
   {
    "name": "Beach, Amy",
    "candidates": 5,
-   "kept": 3,
-   "skipped": 2,
+   "kept": 4,
+   "skipped": 1,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Op. 90 trio pieces and Invocation Op. 55 have editions but no recording was found; String Quartet Op. 89 recording not found"
+   "coverage": "complete",
+   "note": "Op. 90 trio pieces and Invocation Op. 55 have editions but no recording was found; String Quartet Op. 89 recording not found RECHECK 2026-10-17: String Quartet Op. 89 added (Quatuor Sine Qua Non, Crescent Quartet; MusicBrainz) and Two Songs Op. 100 (soprano with violin, cello, piano; Kirkby / Trio des Alpes). Pastorale and Water-Sprites Op. 90 (flute, cello, piano) have no recording in MusicBrainz or Deezer; Invocation Op. 55 is recorded only in the violin-and-piano form (Chandos CHAN 20030)."
   },
   {
    "name": "Coleridge-Taylor, Samuel",
@@ -4911,8 +5458,8 @@
    "kept": 5,
    "skipped": 0,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "No work list found (Wikipedia list page missing); the early D minor quartet etc. not checked"
+   "coverage": "complete",
+   "note": "No work list found (Wikipedia list page missing); the early D minor quartet etc. not checked RECHECK 2026-10-17: MusicBrainz lists no recorded chamber work beyond Op. 1, 2, 5, 10 and the piano trio; no D minor string quartet found; the Clarinet Quintet names the Hyperion and Centaur discs."
   },
   {
    "name": "Delius, Frederick",
@@ -4920,9 +5467,9 @@
    "kept": 1,
    "skipped": 0,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Two early string quartets (1888, 1893) listed by Wikipedia, not on IMSLP, not checked"
+   "coverage": "complete",
+   "note": "Two early string quartets (1888, 1893) listed by Wikipedia, not on IMSLP, not checked RECHECK 2026-10-17: Wikipedia's list shows only the 1916 String Quartet; no recording of early quartets found in Deezer, Apple or MusicBrainz."
   }
  ],
- "note": "RECORDING EVIDENCE: Apple Music lookups were blocked or throttled for most of the run (shared fetcher; only about 20 answers got through), so MusicBrainz release titles, label pages and web searches were used instead. About 32 works rest only on IMSLP's own 'recorded' signal (their floor.recorded starts 'IMSLP links a commercial recording', confidence 'medium'): the recording itself is not identified; please verify in bulk (Saint-Saëns PQ Op. 41/Quintet Op. 14/Septet is confirmed only for the Septet; all six Goldmark works; Fauré PQ 2 and both Piano Quintets; Stanford PQ Op. 15 and PT 1-3; Chausson PQ; Lekeu PQ; Franck Op. 1 Nos. 2-3 and Op. 2; Dohnányi PQ 2; Suk Elegy; and others). Works with no signal and no recording found were skipped as 'not performed or recorded' (Stanford Piano Quintet Op. 25 and String Quintet Op. 85, Beach String Quartet Op. 89, Fibich String Quartet No. 1 and Thema con variazioni, Saint-Saëns Piano Quartet in E, Franck Grand Trio Op. 6): this is 'not found', not proof of none. DECISIONS FOR THE OWNER: (1) Smyth's Two Interlinked French Folk Melodies and Variations on Bonny Sweet Robin (flute, oboe or violin/viola, piano) and Elgar's Harmony Music Nos. 5-6 (bassoon or cello) have a string only as a printed alternative: skipped as 'no string part in the original scoring'; the census had derived a string scoring from the alternative. (2) Fauré's La bonne chanson with string quintet and piano (IMSLP section 'Voice, String Quintet and Piano Version') is not added: the liner note says the string parts 'may or may not be the work of the composer'. (3) Suk's Elegy Op. 23 is kept in its eight-player scoring (IMSLP); the discs found (Denon, Meridian, Hyperion) carry the piano-trio version, which could be a separate entry. (4) Dvořák's Andante appassionato B. 40a is added with the key F major from Wikipedia's list (the Stamitz set calls it 'Quartettsatz in A minor'). GAP CHECK ADDED (not on IMSLP): Dvořák Quartet No. 6 Op. 12, Two Waltzes Op. 54 (quartet version), Quartet Movement B. 120 and Andante appassionato B. 40a (Stamitz Quartet cycle, Brilliant Classics); Stanford String Quartets 4, 6, 7, 8 (Dante Quartet, SOMM); Chausson Chanson perpétuelle with piano and string quartet (IMSLP holds the score under the song's page). Not added for lack of a recording or performance found: Stanford Piano Quartet No. 2 Op. 133, String Quintet No. 2 Op. 86, Serenade (Nonet) Op. 95, the clarinet and horn Fantasies (not checked beyond Wikipedia's list); Beach Pastorale/Water-Sprites Op. 90 and Invocation Op. 55 (editions exist, no recording found); Saint-Saëns's Wedding Cake Op. 76 (piano and strings, string-orchestra question); Dohnányi's unpublished early quartet, piano quartet and quartet minuet; Delius's two early string quartets; Smyth's early quartets and 1880 piano trio. Smyth's String Quartet in C minor (1881) is on a commercial disc (The Maier Quartet, DB Productions 2020); her E minor quartet and the Quintet rest on IMSLP's signal. Year of Suk's Elegy left blank (not confirmed in a source opened). Durations come from IMSLP's average duration, else a recording's timing."
+ "note": "RECORDING EVIDENCE: Apple Music lookups were blocked or throttled for most of the run (shared fetcher; only about 20 answers got through), so MusicBrainz release titles, label pages and web searches were used instead. About 32 works rest only on IMSLP's own 'recorded' signal (their floor.recorded starts 'IMSLP links a commercial recording', confidence 'medium'): the recording itself is not identified; please verify in bulk (Saint-Saëns PQ Op. 41/Quintet Op. 14/Septet is confirmed only for the Septet; all six Goldmark works; Fauré PQ 2 and both Piano Quintets; Stanford PQ Op. 15 and PT 1-3; Chausson PQ; Lekeu PQ; Franck Op. 1 Nos. 2-3 and Op. 2; Dohnányi PQ 2; Suk Elegy; and others). Works with no signal and no recording found were skipped as 'not performed or recorded' (Stanford Piano Quintet Op. 25 and String Quintet Op. 85, Beach String Quartet Op. 89, Fibich String Quartet No. 1 and Thema con variazioni, Saint-Saëns Piano Quartet in E, Franck Grand Trio Op. 6): this is 'not found', not proof of none. DECISIONS FOR THE OWNER: (1) Smyth's Two Interlinked French Folk Melodies and Variations on Bonny Sweet Robin (flute, oboe or violin/viola, piano) and Elgar's Harmony Music Nos. 5-6 (bassoon or cello) have a string only as a printed alternative: skipped as 'no string part in the original scoring'; the census had derived a string scoring from the alternative. (2) Fauré's La bonne chanson with string quintet and piano (IMSLP section 'Voice, String Quintet and Piano Version') is not added: the liner note says the string parts 'may or may not be the work of the composer'. (3) Suk's Elegy Op. 23 is kept in its eight-player scoring (IMSLP); the discs found (Denon, Meridian, Hyperion) carry the piano-trio version, which could be a separate entry. (4) Dvořák's Andante appassionato B. 40a is added with the key F major from Wikipedia's list (the Stamitz set calls it 'Quartettsatz in A minor'). GAP CHECK ADDED (not on IMSLP): Dvořák Quartet No. 6 Op. 12, Two Waltzes Op. 54 (quartet version), Quartet Movement B. 120 and Andante appassionato B. 40a (Stamitz Quartet cycle, Brilliant Classics); Stanford String Quartets 4, 6, 7, 8 (Dante Quartet, SOMM); Chausson Chanson perpétuelle with piano and string quartet (IMSLP holds the score under the song's page). Not added for lack of a recording or performance found: Stanford Piano Quartet No. 2 Op. 133, String Quintet No. 2 Op. 86, Serenade (Nonet) Op. 95, the clarinet and horn Fantasies (not checked beyond Wikipedia's list); Beach Pastorale/Water-Sprites Op. 90 and Invocation Op. 55 (editions exist, no recording found); Saint-Saëns's Wedding Cake Op. 76 (piano and strings, string-orchestra question); Dohnányi's unpublished early quartet, piano quartet and quartet minuet; Delius's two early string quartets; Smyth's early quartets and 1880 piano trio. Smyth's String Quartet in C minor (1881) is on a commercial disc (The Maier Quartet, DB Productions 2020); her E minor quartet and the Quintet rest on IMSLP's signal. Year of Suk's Elegy left blank (not confirmed in a source opened). Durations come from IMSLP's average duration, else a recording's timing. RECHECK 2026-10-17: 15 works added (Saint-Saëns Piano Quartet in E R. 107; Franck Grand Trio CFF 108; Stanford Piano Quintet Op. 25, String Quintet No. 1 Op. 85, String Quintet No. 2 Op. 86, Piano Quartet No. 2 Op. 133, Fantasies Nos. 1-2 for clarinet and string quartet, Phantasy for horn and string quartet; Dohnányi Piano Quartet in F-sharp minor; Smyth Piano Trio in D minor; Beach String Quartet Op. 89 and Two Songs Op. 100; Fibich String Quartet No. 1 and Thema con variazioni); 3 lines settled as not performed or recorded (Saint-Saëns Barcarolle manuscript version, Smyth String Trio Op. 6, Elgar Harmony Music No. 7) and 8 lines turned into works; 0 still not checked. Of the 32 works that rested on IMSLP's 'recorded' signal, 31 now name a real recording in floor.recorded (Deezer album ids in sources, MusicBrainz release pages where Deezer lacked the disc); Suk's Elegy Op. 23 stays unconfirmed: the discs found carry only the piano-trio version (Guarneri Trio Prague, Praga Digitals; Trio 180). Not found after Deezer, Apple composerTerm and MusicBrainz lookups: Stanford Serenade (Nonet) Op. 95; Beach Op. 90 trio pieces; Dohnányi's unpublished String Quartet in D minor; Delius's early quartets; a Coleridge-Taylor D minor quartet. Hand edits to kept works: floor.recorded and sources of 32 works (the 31 above and the Dohnányi String Sextet, whose floor had cited only Wikipedia's note of a 2006 Hungaroton recording); confidence medium to high on 29 of them (Barcarolle, Romance, Serenade stay medium: scoring on the discs unverified or a printed alternative); blank minutes filled from the cited recording's timing (Barcarolle in F major, Op. 108 9; Piano Trio in B minor, Op. 1 No. 3 30; Piano Trio in B minor, Op. 2 20; Piano Trio No. 1 in B-flat m, Op. 4 29; Piano Trio No. 2 in E minor, Op. 33 29; String Quintet in A minor, Op. 9 38; Piano Quartet No. 2 in G min, Op. 45 33; Piano Quintet No. 1 in D min, Op. 89 30; Piano Trio No. 1 in E-flat m, Op. 35 32; Piano Trio in C minor, Op. 45 39; Piano Quartet in B minor 24); alternatives {piano: [harp]} added to Romance Op. 27 (the print title reads 'piano ou harpe et orgue'). DECISIONS FOR THE OWNER: (a) Beach Two Songs Op. 100 (high voice with violin, cello and piano) is added as a chamber song set because the census rule keeps voice with three instruments, but only No. 1 'A Mirage' is documented on discs; (b) the Franck Grand Trio title omits IMSLP's 'Op. 6' (kept in aka) because a Klarthe track attaches Op. 6 to the violin-and-piano Andantino CFF 115; (c) Beach's Quartet year is IMSLP's '1921-29' (Wikipedia's list says 1929). Stanford's Piano Quartet No. 2, String Quintet No. 2, the Fantasies and the horn Phantasy are not on IMSLP pages that were found (guessed titles for Op. 86 and Op. 133 are missing); the Quintet No. 2 scoring (two violins, two violas, cello) comes from MusicWeb's list of the SOMM players. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): Beach's Two Songs Op. 100 (only No. 1 documented on disc) was moved to skipped (\"doubtful\") and parked. The Franck Grand Trio keeps its title without \"Op. 6\" (in aka), as the recheck decided."
 }

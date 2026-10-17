@@ -7956,5 +7956,52 @@
    ],
    "confidence": "medium"
   }
+ },
+ {
+  "slice": "c49_dvorak-saint-saens-dohnanyi",
+  "why": "song set for voice, violin, cello and piano of which only No. 1 is documented on disc: left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Beach, Amy",
+   "title": "Two Songs, Op. 100",
+   "aka": [
+    "A Mirage",
+    "Stella viatoris"
+   ],
+   "instruments": {
+    "voice": 1,
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "other",
+   "formationNote": null,
+   "form": "set",
+   "set": null,
+   "year": "1924",
+   "minutes": null,
+   "notes": "High voice with violin, cello and piano; the songs are 'A Mirage' and 'Stella viatoris'",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Voice about ABRSM 7-8; obbligati moderate",
+   "hardest_part_guess": "voice",
+   "imslpPage": "2 Songs, Op.100 (Beach, Amy Marcy)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Oliver Ditson, Boston, 1924 (per IMSLP)",
+    "recorded": "A Mirage (No. 1): Emma Kirkby, The Romantic Chamber Group of London: Chanson d'amour (BIS-CD-1245, 2002); Lorna Windsor, Trio des Alpes: 20th-Century Women Composers (Dynamic CDS 7717, 2015); per MusicBrainz",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/2_Songs,_Op.100_(Beach,_Amy_Marcy)",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Amy_Beach",
+    "https://musicbrainz.org/release/360dc79e-fadd-4bf9-ac72-e9555013e52d",
+    "https://musicbrainz.org/release/045ffeaf-b3ce-4603-bfce-8a7ff9dd90a9"
+   ],
+   "confidence": "medium"
+  }
  }
 ]
