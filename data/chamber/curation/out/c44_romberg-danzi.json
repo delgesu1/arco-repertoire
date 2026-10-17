@@ -268,7 +268,7 @@
    "form": "work",
    "set": "Three Flute Quintets, Op. 21",
    "year": "1807",
-   "minutes": null,
+   "minutes": 21,
    "notes": "Flute leads over violin, two violas and cello; first of the three Op. 21 quintets",
    "popularity": "lesser-known",
    "level_guess": 5,
@@ -279,12 +279,55 @@
    "violin_id": null,
    "floor": {
     "published": "Simrock, Bonn, c. 1808",
-    "recorded": "Ardinghello Ensemble (Karl Kaiser, flute), MDG 603 1843-2 (Vol. 1, 2014)",
+    "recorded": "Ardinghello Ensemble (Karl Kaiser, flute), MDG 603 1843-2 (Vol. 1, 2014; Deezer album 156405382, 20:34); William Bennett and the Novsak-Trio, Jecklin (IMSLP: 1991; Deezer album 9336678, 17:34)",
     "performed": ""
    },
    "sources": [
     "https://imslp.org/wiki/3_Flute_Quintets,_Op.21_(Romberg,_Andreas)",
     "https://www.radiotimescds.com/classical/117245/no.1%20in%20A%20minor.htm",
+    "https://de.wikipedia.org/wiki/Andreas_Romberg",
+    "https://www.deezer.com/album/156405382",
+    "https://www.deezer.com/album/9336678"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Romberg, Andreas",
+   "title": "Flute Quintet in B-flat major, Op. 21 No. 2",
+   "aka": [
+    "Flute Quintet in B-flat major, Op. 21 No. 5"
+   ],
+   "instruments": {
+    "flute": 1,
+    "violin": 1,
+    "viola": 2,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": "Three Flute Quintets, Op. 21",
+   "year": "1807",
+   "minutes": 21,
+   "notes": "Flute leads over violin, two violas and cello; second of the three Op. 21 quintets",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Flute part about ABRSM 8, brilliantly worked; strings about level 3",
+   "hardest_part_guess": "flute",
+   "imslpPage": "3 Flute Quintets, Op.21 (Romberg, Andreas)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Simrock, Bonn, c. 1808 (plate R.2)",
+    "recorded": "William Bennett (flute) and the Novsak-Trio, Jecklin (IMSLP: 1991; Deezer album 9336678, 21:20)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/3_Flute_Quintets,_Op.21_(Romberg,_Andreas)",
+    "https://www.deezer.com/album/9336678",
     "https://de.wikipedia.org/wiki/Andreas_Romberg"
    ],
    "confidence": "medium"
@@ -925,6 +968,166 @@
    ],
    "confidence": "high",
    "gap": true
+  },
+  {
+   "composer": "Danzi, Franz",
+   "title": "Flute Trio in G major, Op. 71 No. 1, P. 263",
+   "aka": [],
+   "instruments": {
+    "flute": 1,
+    "violin": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": "Three Flute Trios, Op. 71",
+   "year": "",
+   "minutes": 22,
+   "notes": "Flute, violin and cello; four movements ending in a Polacca; the flute leads",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Flute part about ABRSM 7; violin and cello about level 3",
+   "hardest_part_guess": "flute",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Anna Kaiser (flute), Lorenzo Gabriele and Johannes Berger, CPO (2026; 23:04); RBM 'Danzi: Chamber Music' (Philipp Naegele, Thaddeus Watson), 2025 (21:37)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/868675312",
+    "https://www.deezer.com/album/683823301",
+    "https://de.wikipedia.org/wiki/Franz_Danzi",
+    "https://en.wikipedia.org/wiki/Franz_Danzi"
+   ],
+   "confidence": "high",
+   "gap": true
+  },
+  {
+   "composer": "Danzi, Franz",
+   "title": "Flute Trio in E minor, Op. 71 No. 2",
+   "aka": [],
+   "instruments": {
+    "flute": 1,
+    "violin": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": "Three Flute Trios, Op. 71",
+   "year": "",
+   "minutes": 19,
+   "notes": "Flute, violin and cello; the finale is marked All'ungarese (in the Hungarian style)",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Flute part about ABRSM 7; violin and cello about level 3",
+   "hardest_part_guess": "flute",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Anna Kaiser (flute), Lorenzo Gabriele and Johannes Berger, CPO (2026; 19:12)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/868675312",
+    "https://de.wikipedia.org/wiki/Franz_Danzi",
+    "https://en.wikipedia.org/wiki/Franz_Danzi"
+   ],
+   "confidence": "high",
+   "gap": true
+  },
+  {
+   "composer": "Danzi, Franz",
+   "title": "Flute Trio in D major, Op. 71 No. 3",
+   "aka": [],
+   "instruments": {
+    "flute": 1,
+    "violin": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": "Three Flute Trios, Op. 71",
+   "year": "",
+   "minutes": 14,
+   "notes": "Flute, violin and cello; the shortest of the set, four brief movements",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Flute part about ABRSM 7; violin and cello about level 3",
+   "hardest_part_guess": "flute",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Anna Kaiser (flute), Lorenzo Gabriele and Johannes Berger, CPO (2026; 13:34)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/868675312",
+    "https://de.wikipedia.org/wiki/Franz_Danzi",
+    "https://en.wikipedia.org/wiki/Franz_Danzi"
+   ],
+   "confidence": "high",
+   "gap": true
+  },
+  {
+   "composer": "Danzi, Franz",
+   "title": "Trio in F major, Op. 23, P. 304",
+   "aka": [
+    "Trio in F major, Op. 24",
+    "Trio for Violin, Horn and Bassoon"
+   ],
+   "instruments": {
+    "violin": 1,
+    "horn": 1,
+    "bassoon": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 26,
+   "notes": "Six movements for violin, horn and bassoon; the Simrock edition numbers it Op. 24",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Horn part about ABRSM 7; violin and bassoon about level 3-4; three equal parts",
+   "hardest_part_guess": "horn",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Simrock (edition listed as Op. 24 by Boosey & Hawkes and Trevco)",
+    "recorded": "Philipp Naegele and colleagues, RBM 'Danzi: Chamber Music' (2025; 26:11)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/683823301",
+    "https://www.trevcomusic.com/products/sim-3241-danzi-trio-f-op24-vln-hn-bsn",
+    "https://www.boosey.com/cr/purchase-music/Franz-Danzi-Trio-in-F/28718"
+   ],
+   "confidence": "medium",
+   "gap": true
   }
  ],
  "skipped": [
@@ -934,7 +1137,7 @@
    "imslpPage": "3 Flute Quintets, Op.1 (Romberg, Andreas)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Nos. 1 (D major) and 2 (C major) are Andreas's; No. 3 (G major) is Bernhard Romberg's (IMSLP comment, which links it to a Bernhard Romberg page); it is recorded by the Ardinghello Ensemble as Bernhard's work (CPO 555 598-2, 2026), so it belongs with Bernhard Romberg. no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches for Andreas's Nos. 1 and 2."
+   "evidence": "Nos. 1 (D major) and 2 (C major) are Andreas's; No. 3 (G major) is Bernhard's (IMSLP comment), recorded as his by the Ardinghello Ensemble (CPO, 2026, Deezer 968785841) and John Wion, so it belongs with Bernhard Romberg. de.wikipedia lists the Op. 1 set (Leipzig 1803) among works by Andreas and Bernhard together; MusicBrainz lists the Quintetti with no recording. RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -942,7 +1145,7 @@
    "imslpPage": "3 String Quartets, Op.2 (Romberg, Andreas)",
    "works": 2,
    "reason": "not performed or recorded",
-   "evidence": "Only No. 2 is on MDG 307 1026-2 (a Noetzel Urtext edition of No. 1 also exists); no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches for Nos. 1 and 3."
+   "evidence": "No. 2 (A minor) is recorded (Leipziger Streichquartett, MDG, Vol. 2, Deezer 157299712); a Noetzel Urtext edition of No. 1 exists; Nos. 1 and 3 have no recording. RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -950,7 +1153,7 @@
    "imslpPage": "3 String Quartets, Op.16 (Romberg, Andreas)",
    "works": 2,
    "reason": "not performed or recorded",
-   "evidence": "Only No. 2 is on MDG 307 1026-2; no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches for Nos. 1 and 3."
+   "evidence": "No. 2 (G minor) is recorded (Leipziger Streichquartett, MDG, Vol. 2, Deezer 157299712); Nos. 1 and 3 have no recording. RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -958,15 +1161,15 @@
    "imslpPage": "3 String Quartets, Op.30 (Romberg, Andreas)",
    "works": 2,
    "reason": "not performed or recorded",
-   "evidence": "Only No. 1 is on MDG 307 1026-2 (IMSLP comment: the series has not continued); no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches for Nos. 2 and 3."
+   "evidence": "No. 1 (B minor) is recorded (Leipziger Streichquartett, MDG, Vol. 2); the Leipzig series stopped after two volumes (IMSLP comment); Nos. 2 and 3 have no recording. RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
-   "title": "3 Flute Quintets, Op. 21 (Nos. 2 in B-flat, 3 in G)",
+   "title": "3 Flute Quintets, Op. 21 (No. 3 in G)",
    "imslpPage": "3 Flute Quintets, Op.21 (Romberg, Andreas)",
-   "works": 2,
+   "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Only No. 1 is on MDG 603 1843-2 (the notes call Vol. 1 a first recording and promise a sequel). The IMSLP page comment mentions a 1991 Jecklin disc with the A minor and B-flat quintets, which I could not confirm in Apple Music, MusicBrainz or retailer listings; no recording of No. 3 found."
+   "evidence": "No. 2 (B-flat) moved to the kept works: the Jecklin disc with William Bennett (Deezer 9336678; IMSLP comment: A minor and B-flat quintets, 1991) records it. No. 3 (G major, 1798) is on neither the Jecklin disc nor Ardinghello Vol. 1 (Op. 21 No. 1 and Op. 41 Nos. 1 and 3, Deezer 156405382); no recording of it found. RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -974,7 +1177,7 @@
    "imslpPage": "3 String Quartets, Op.5 (Romberg, Andreas)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Artaria, Vienna, n.d.; no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "Artaria, Vienna, n.d. (IMSLP); de.wikipedia gives Paris 1803. RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -982,7 +1185,7 @@
    "imslpPage": "3 String Quartets, Op.7 (Romberg, Andreas)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Werckmeister / Artaria / Breitkopf prints, 1805; no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "Prints of 1805 (Werckmeister, Artaria, Breitkopf). RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -990,7 +1193,7 @@
    "imslpPage": "3 String Quartets, Op.53 (Romberg, Andreas)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Peters, c. 1819; a 2020 Noetzel Urtext edition of No. 2 (F-sharp minor, ed. Klaus G. Werner, AM 7852) is in library catalogues, but no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches; no documented performance."
+   "evidence": "Peters, c. 1819; a 2020 Noetzel Urtext edition of No. 2 (F-sharp minor, ed. Klaus G. Werner, AM 7852) is in library catalogues, but no documented performance. RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -998,7 +1201,7 @@
    "imslpPage": "3 String Quartets, Op.59 (Romberg, Andreas)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Peters, c. 1820; a 2020 Noetzel Urtext edition of No. 1 (E minor, ed. Klaus G. Werner, AM 7854) is in library catalogues, but no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches; no documented performance."
+   "evidence": "Peters, c. 1820; a 2020 Noetzel Urtext edition of No. 1 (E minor, ed. Klaus G. Werner, AM 7854) is in library catalogues, but no documented performance. RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -1014,7 +1217,7 @@
    "imslpPage": "String Quartet in C major, Op.67 No.1 (Romberg, Andreas)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Posthumous Simrock print (1828); no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "Posthumous Simrock print (1828; de.wikipedia: Bonn 1817, composed 1790-93). RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -1022,7 +1225,7 @@
    "imslpPage": "String Quartet in G major, Op.67 No.2 (Romberg, Andreas)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Posthumous Simrock print (1828); no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "Posthumous Simrock print (1828; de.wikipedia: Bonn 1817, composed 1790-93). RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -1030,7 +1233,7 @@
    "imslpPage": "String Quartet in F-sharp minor, Op.67 No.3 (Romberg, Andreas)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Posthumous Simrock print (1828); no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "Posthumous Simrock print (1828; de.wikipedia: Bonn 1817, composed 1790-93). RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -1038,7 +1241,7 @@
    "imslpPage": "String Quartet in A major, Op.11 (Romberg, Andreas)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Simrock / André prints; no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "Simrock / André prints (de.wikipedia: 'Quatuor brillant', Berlin 1805). RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -1046,7 +1249,7 @@
    "imslpPage": "3 Airs variés, Op.17 (Romberg, Andreas)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Three variation sets for solo violin with quartet accompaniment (Pleyel / André, c. 1807); no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "Three variation sets for solo violin with quartet accompaniment (Pleyel / André, c. 1807; de.wikipedia: 'Drei Lieder mit Variationen', Offenbach 1806). RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -1054,7 +1257,7 @@
    "imslpPage": "3 Rondi alla Pollacca, Op.34 (Romberg, Andreas)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Peters, c. 1815; no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "Peters, c. 1815 (de.wikipedia: Breslau 1814). RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -1062,7 +1265,7 @@
    "imslpPage": "Fantasie, Op.40 (Romberg, Andreas)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "IMSLP's audio is a home recording (\"Steve's bedroom band\", Creative Commons), not a commercial recording; no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "IMSLP's audio is a home recording ('Steve's bedroom band', Creative Commons), not a commercial one. A search hit for a Vechta concert on 1 Nov 2026 (Ardinghello Ensemble, 'Andreas Romberg und die frühe Romantik') names an 'op. 40'; the page could not be read and the date is in the future, so it was not used. RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -1070,7 +1273,7 @@
    "imslpPage": "Caprice, Op.52 (Romberg, Andreas)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Solo violin with quartet accompaniment (Pleyel); no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "Solo violin with quartet accompaniment (Pleyel); de.wikipedia: Capriccio d-Moll, Leipzig 1818. RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -1078,7 +1281,7 @@
    "imslpPage": "Piano Quartet in D minor, Op.19 (Romberg, Andreas)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Böhme, Hamburg, 1807; no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "Böhme, Hamburg, 1807 (de.wikipedia: SteR 112, 1806). RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -1086,7 +1289,7 @@
    "imslpPage": "String Quintet in E minor, Op.23 (Romberg, Andreas)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Böhme, Hamburg; no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "Böhme, Hamburg (de.wikipedia: Hamburg 1809, composed 1807). RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -1094,7 +1297,7 @@
    "imslpPage": "String Quintet in E-flat major, Op.58 (Romberg, Andreas)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Peters, c. 1819: the string-quintet version of the Clarinet Quintet Op. 57 (added by the gap check as its own entry); the recordings found are all of the clarinet version."
+   "evidence": "Peters, c. 1819: the string-quintet version of the Clarinet Quintet Op. 57 (de.wikipedia calls it a 'Bearbeitung', Leipzig 1818); the recordings found are all of the clarinet version (Deezer 536771832 and 580867281). RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Romberg, Andreas",
@@ -1102,7 +1305,7 @@
    "imslpPage": "Selmar und Selma (Romberg, Andreas)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Klopstock elegy for two voices and string quartet (Hoffmeister & Kühnel, 1805); no recording found on IMSLP, in the de.wikipedia discography, MusicBrainz (no Romberg chamber works listed) or the web searches."
+   "evidence": "Klopstock elegy for two voices and string quartet (Hoffmeister & Kühnel, 1805; de.wikipedia: SteR 266, 1803). RECHECK 2026-10-17: Deezer (all 141 albums returned for 'Romberg' and opus-number track searches), Apple (composerTerm 'Andreas Romberg', 98 hits, and album searches), MusicBrainz (33 works, no string chamber work), IMSLP page, de.wikipedia work list and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Danzi, Franz",
@@ -1110,7 +1313,7 @@
    "imslpPage": "3 String Quartets, Op.7 (Danzi, Franz)",
    "works": 2,
    "reason": "not performed or recorded",
-   "evidence": "Only No. 1 is recorded (Hohenloher Streichquartett); IMSLP's audio for No. 1 is a home recording (\"Steve's bedroom band\"). no recording found on IMSLP, in the Wikipedia work lists, MusicBrainz (no Danzi string chamber works listed), Apple Music searches or the web searches for Nos. 2 and 3."
+   "evidence": "No. 1 (E-flat) is recorded (Hohenloher Streichquartett, EigenArt, Deezer 587348062); IMSLP's audio for the set is a home recording; Nos. 2 and 3 have no recording. RECHECK 2026-10-17: Deezer (all 116 albums returned for 'Danzi', opus-number track searches, Mannheimer, Hohenloher and Ardinghello artist pages), Apple (composerTerm 'Franz Danzi', 199 hits, and album searches), MusicBrainz (168 works, no string chamber work), IMSLP page, en/de.wikipedia work lists and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Danzi, Franz",
@@ -1118,7 +1321,7 @@
    "imslpPage": "3 String Quartets, Op.29 (Danzi, Franz)",
    "works": 2,
    "reason": "not performed or recorded",
-   "evidence": "Only No. 2 is recorded (Mannheimer Streichquartett); no recording found on IMSLP, in the Wikipedia work lists, MusicBrainz (no Danzi string chamber works listed), Apple Music searches or the web searches for Nos. 1 and 3."
+   "evidence": "No. 2 (A minor) is recorded (Mannheimer Streichquartett, RBM, Deezer 681883011); Nos. 1 and 3 have no recording. RECHECK 2026-10-17: Deezer (all 116 albums returned for 'Danzi', opus-number track searches, Mannheimer, Hohenloher and Ardinghello artist pages), Apple (composerTerm 'Franz Danzi', 199 hits, and album searches), MusicBrainz (168 works, no string chamber work), IMSLP page, en/de.wikipedia work lists and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Danzi, Franz",
@@ -1126,7 +1329,7 @@
    "imslpPage": "3 String Quartets, Op.55 (Danzi, Franz)",
    "works": 2,
    "reason": "not performed or recorded",
-   "evidence": "Only No. 3 is recorded (Mannheimer Streichquartett); no recording found on IMSLP, in the Wikipedia work lists, MusicBrainz (no Danzi string chamber works listed), Apple Music searches or the web searches for Nos. 1 and 2."
+   "evidence": "No. 3 (E major, P. 273) is recorded (Mannheimer Streichquartett, RBM, Deezer 681883011); Nos. 1 and 2 have no recording. RECHECK 2026-10-17: Deezer (all 116 albums returned for 'Danzi', opus-number track searches, Mannheimer, Hohenloher and Ardinghello artist pages), Apple (composerTerm 'Franz Danzi', 199 hits, and album searches), MusicBrainz (168 works, no string chamber work), IMSLP page, en/de.wikipedia work lists and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Danzi, Franz",
@@ -1134,7 +1337,7 @@
    "imslpPage": "3 String Quartets, Op.6 (Danzi, Franz)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Falter, Munich, 1801; Bärenreiter Hortus Musicus 226 (1975, ed. Franz Beyer) exists. Only the first movement of No. 2 (\"Figaro\") is on the Mannheimer Streichquartett disc's Apple Music track list; no complete recording or documented performance of any of the three found."
+   "evidence": "Falter, Munich, 1801; Bärenreiter Hortus Musicus 226 (1975, ed. Franz Beyer) exists. Only the first movement of No. 2 ('Figaro', after Mozart, 6:48) is on the Mannheimer disc (Deezer 681883011); no complete recording of any of the three. en.wikipedia lists Op. 6 as six quartets, IMSLP as three. RECHECK 2026-10-17: Deezer (all 116 albums returned for 'Danzi', opus-number track searches, Mannheimer, Hohenloher and Ardinghello artist pages), Apple (composerTerm 'Franz Danzi', 199 hits, and album searches), MusicBrainz (168 works, no string chamber work), IMSLP page, en/de.wikipedia work lists and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Danzi, Franz",
@@ -1142,7 +1345,7 @@
    "imslpPage": "3 String Quartets, Op.5 (Danzi, Franz)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Falter, Munich, c. 1790 or later; IMSLP notes cross-references to Süßmayr's thematic catalogue, so the attribution may be questioned; no recording found on IMSLP, in the Wikipedia work lists, MusicBrainz (no Danzi string chamber works listed), Apple Music searches or the web searches."
+   "evidence": "Falter, Munich, c. 1790 or later; IMSLP notes cross-references to Süßmayr's thematic catalogue, so the attribution may be questioned. RECHECK 2026-10-17: Deezer (all 116 albums returned for 'Danzi', opus-number track searches, Mannheimer, Hohenloher and Ardinghello artist pages), Apple (composerTerm 'Franz Danzi', 199 hits, and album searches), MusicBrainz (168 works, no string chamber work), IMSLP page, en/de.wikipedia work lists and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Danzi, Franz",
@@ -1150,7 +1353,7 @@
    "imslpPage": "3 String Quartets, Op.44 (Danzi, Franz)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Kühnel, Leipzig, c. 1814; no recording found on IMSLP, in the Wikipedia work lists, MusicBrainz (no Danzi string chamber works listed), Apple Music searches or the web searches."
+   "evidence": "Kühnel, Leipzig, c. 1814 (announced in the AMZ Intelligenzblatt, November 1814). RECHECK 2026-10-17: Deezer (all 116 albums returned for 'Danzi', opus-number track searches, Mannheimer, Hohenloher and Ardinghello artist pages), Apple (composerTerm 'Franz Danzi', 199 hits, and album searches), MusicBrainz (168 works, no string chamber work), IMSLP page, en/de.wikipedia work lists and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Danzi, Franz",
@@ -1158,7 +1361,7 @@
    "imslpPage": "3 String Quintets, Op.66 (Danzi, Franz)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "André, Offenbach (two violas); no recording found on IMSLP, in the Wikipedia work lists, MusicBrainz (no Danzi string chamber works listed), Apple Music searches or the web searches."
+   "evidence": "André, Offenbach (two violas); en.wikipedia lists six quintets, IMSLP three. RECHECK 2026-10-17: Deezer (all 116 albums returned for 'Danzi', opus-number track searches, Mannheimer, Hohenloher and Ardinghello artist pages), Apple (composerTerm 'Franz Danzi', 199 hits, and album searches), MusicBrainz (168 works, no string chamber work), IMSLP page, en/de.wikipedia work lists and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Danzi, Franz",
@@ -1166,7 +1369,7 @@
    "imslpPage": "Piano Quartet, Op.40 (Danzi, Franz)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Breitkopf & Härtel, 1810; Edition Kunzelmann edition (1996, ed. Volkmar von Pechstaedt, P 269) is listed in library catalogues, but no recording found on IMSLP, in the Wikipedia work lists, MusicBrainz (no Danzi string chamber works listed), Apple Music searches or the web searches; no documented performance. Not to be confused with the recorded Bassoon Quartets Op. 40."
+   "evidence": "Breitkopf & Härtel, 1810; Edition Kunzelmann (P 269, ed. Volkmar von Pechstaedt, 1996) is in library catalogues. A Gramophone note seen in a web search says the D minor piano and wind quintet Op. 41 appeared in 1810 with a string version, Op. 40, so the quartet may be an arrangement of Op. 41 (arranger not confirmed). Not to be confused with the recorded Bassoon Quartets Op. 40. RECHECK 2026-10-17: Deezer (all 116 albums returned for 'Danzi', opus-number track searches, Mannheimer, Hohenloher and Ardinghello artist pages), Apple (composerTerm 'Franz Danzi', 199 hits, and album searches), MusicBrainz (168 works, no string chamber work), IMSLP page, en/de.wikipedia work lists and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Danzi, Franz",
@@ -1174,7 +1377,7 @@
    "imslpPage": "Pièces détachées, P.270 (Danzi, Franz)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Simrock, Bonn, 1812 (oboe or flute, violin, viola, cello); IMSLP holds only a modern edition by Nils Jönsson with synthesized audio; no recording found on IMSLP, in the Wikipedia work lists, MusicBrainz (no Danzi string chamber works listed), Apple Music searches or the web searches."
+   "evidence": "Simrock, Bonn, 1812 (oboe or flute, violin, viola, cello); IMSLP holds only a modern edition by Nils Jönsson with synthesized audio. RECHECK 2026-10-17: Deezer (all 116 albums returned for 'Danzi', opus-number track searches, Mannheimer, Hohenloher and Ardinghello artist pages), Apple (composerTerm 'Franz Danzi', 199 hits, and album searches), MusicBrainz (168 works, no string chamber work), IMSLP page, en/de.wikipedia work lists and web searches for concerts: no recording and no concert found."
   },
   {
    "composer": "Danzi, Franz",
@@ -1190,7 +1393,7 @@
    "imslpPage": "Sextet, Op.15 (Danzi, Franz)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Falter, Munich, 1803; modern edition Robert Ostermeyer Musikedition (ROM 326, corno.de). The only commercial recording found is Consortium Classicum's version for wind septet (Orfeo C674081, 2008; the Apple Music track titles read \"Version for Wind Septet\"), not the original horns-and-strings scoring; no documented performance of the original found."
+   "evidence": "Falter, Munich, 1803; modern edition Robert Ostermeyer Musikedition (ROM 326). IMSLP's 'recorded' signal is Consortium Classicum's Orfeo disc (Deezer 584527592), which plays 'Sextet in E Major, Op. 15 (Version for Wind Septet)', not the original 2 horns, 2 violins, viola and cello; en.wikipedia calls Op. 15 a Septet. No recording or concert of the original scoring found. RECHECK 2026-10-17: Deezer (all 116 albums returned for 'Danzi', opus-number track searches, Mannheimer, Hohenloher and Ardinghello artist pages), Apple (composerTerm 'Franz Danzi', 199 hits, and album searches), MusicBrainz (168 works, no string chamber work), IMSLP page, en/de.wikipedia work lists and web searches for concerts: no recording and no concert found."
   }
  ],
  "benchmark_issues": [],
@@ -1199,21 +1402,21 @@
   {
    "name": "Romberg, Andreas",
    "candidates": 24,
-   "kept": 11,
-   "skipped": 35,
+   "kept": 12,
+   "skipped": 34,
    "added_not_on_imslp": 1,
    "coverage": "complete",
-   "note": "Floor from the MDG string-quartet discs (Vol. 2 track list on Apple Music; Vol. 1 from de.wikipedia, IMSLP comments and the BBC Music review), Naxos 8.554765 and MDG 603 1843-2 (flute quintets), and the Hyperion, Orfeo and Rodin discs (Clarinet Quintet Op. 57, the gap-check addition). Gap check against de.wikipedia's work list (SteR numbers): Op. 57 added; the Horn Trio (Andante con variazioni, SteR 165) and the early Quartet for violin, clarinet, bassoon and cello were not checked individually for recordings (Apple Music lookup was blocked)."
+   "note": "Floor from the MDG string-quartet discs (Vol. 2 track list on Apple Music; Vol. 1 from de.wikipedia, IMSLP comments and the BBC Music review), Naxos 8.554765 and MDG 603 1843-2 (flute quintets), and the Hyperion, Orfeo and Rodin discs (Clarinet Quintet Op. 57, the gap-check addition). Gap check against de.wikipedia's work list (SteR numbers): Op. 57 added; the Horn Trio (Andante con variazioni, SteR 165) and the early Quartet for violin, clarinet, bassoon and cello were not checked individually for recordings (Apple Music lookup was blocked). RECHECK 2026-10-17: Op. 21 No. 2 added (Jecklin disc, William Bennett); Op. 21 No. 1 is on that disc too (Deezer album ids in its sources). The Horn Trio (Andante con variazioni, SteR 165: horn, violin, viola), the early Quartet SteR 154 (violin, clarinet, bassoon, cello) and the harp sonata SteR 166 (harp, violin, oboe, clarinet, bassoon, double bass) are manuscript works with no IMSLP page; Deezer track searches and Apple's composerTerm search found no recording, so none was entered."
   },
   {
    "name": "Danzi, Franz",
    "candidates": 13,
-   "kept": 12,
+   "kept": 16,
    "skipped": 22,
-   "added_not_on_imslp": 3,
+   "added_not_on_imslp": 7,
    "coverage": "complete",
-   "note": "Floor from Apple Music track lists (MDG flute quartets and CPO flute quintets by the Ardinghello Ensemble; EigenArt and RBM string-quartet discs; CRD, ASV and Bongiovanni bassoon-quartet discs) and checked the Orfeo septet disc (a wind-septet version of Op. 15, so not counted). Gap check against the English and German Wikipedia work lists: added the three Bassoon Quartets Op. 40 (recorded, not on IMSLP); the Flute Trios Op. 71 (flute, violin, cello) and the 'Septet' Op. 10 (wind sextet arrangement) have no string chamber recording found. The wind quintets (Op. 56, 67, 68) have no string part."
+   "note": "Floor from Apple Music track lists (MDG flute quartets and CPO flute quintets by the Ardinghello Ensemble; EigenArt and RBM string-quartet discs; CRD, ASV and Bongiovanni bassoon-quartet discs) and checked the Orfeo septet disc (a wind-septet version of Op. 15, so not counted). Gap check against the English and German Wikipedia work lists: added the three Bassoon Quartets Op. 40 (recorded, not on IMSLP); the Flute Trios Op. 71 (flute, violin, cello) and the 'Septet' Op. 10 (wind sextet arrangement) have no string chamber recording found. The wind quintets (Op. 56, 67, 68) have no string part. RECHECK 2026-10-17: the sentence above on the Flute Trios Op. 71 is superseded: they are entered now (CPO 2026, Anna Kaiser; No. 1 also on RBM). Also added the Trio for violin, horn and bassoon (RBM disc 'Danzi: Chamber Music'). The 'Septet' Op. 10 is a wind sextet (Naxos, Orfeo): no string part."
   }
  ],
- "note": "Andreas Romberg, not his cousin Bernhard: the Ardinghello/CPO disc 555 598-2 (2026) with \"Flute Quintet Op. 1 No. 3\", Divertimento Op. 40 and Grand Trio Op. 8 is Bernhard's, and IMSLP's Op. 1 flute-quintet page mixes Andreas (Nos. 1-2) with Bernhard (No. 3); that page is skipped here and No. 3 belongs with Bernhard Romberg. Gap check additions: Andreas Romberg's Clarinet Quintet in E-flat, Op. 57 (imslpPage null; IMSLP holds only the string version, Op. 58, skipped because no recording of it was found) and Danzi's three Bassoon Quartets, Op. 40 (recorded on CRD, ASV, Bongiovanni and SWR; not on IMSLP). Opus numbers collide: Danzi's Op. 40 is both the Piano Quartet (skipped) and the Bassoon Quartets, and Op. 56 is both the wind quintets (no strings) and the flute quartets kept. Uncertain: Romberg Op. 21 No. 2 is skipped because an IMSLP page comment mentioning a 1991 Jecklin disc could not be confirmed; Danzi's Sextet Op. 15 (2 horns and strings) is skipped because the only recording found, Consortium Classicum's Orfeo disc, plays a version for wind septet (Apple Music track titles); Danzi Op. 6 No. 2 (\"Figaro\") is on the RBM disc as a first movement only. Romberg's Op. 41 date (c. 1811, IMSLP and Edition HH) conflicts with de.wikipedia (Leipzig 1816). Apple Music and MusicBrainz answered 403/503 for most of the later lookups, so \"no recording found\" for the unrecorded works rests on IMSLP, Wikipedia discographies, MusicBrainz and web searches plus the first Apple searches by composer and genre; durations of Romberg's flute quintets are blank for the same reason. Catalogue numbers: Danzi's P. numbers only where a recording's track list gives them (Op. 7 No. 1, Op. 55 No. 3); Romberg's SteR numbers are left out."
+ "note": "Andreas Romberg, not his cousin Bernhard: the Ardinghello/CPO disc 555 598-2 (2026) with \"Flute Quintet Op. 1 No. 3\", Divertimento Op. 40 and Grand Trio Op. 8 is Bernhard's, and IMSLP's Op. 1 flute-quintet page mixes Andreas (Nos. 1-2) with Bernhard (No. 3); that page is skipped here and No. 3 belongs with Bernhard Romberg. Gap check additions: Andreas Romberg's Clarinet Quintet in E-flat, Op. 57 (imslpPage null; IMSLP holds only the string version, Op. 58, skipped because no recording of it was found) and Danzi's three Bassoon Quartets, Op. 40 (recorded on CRD, ASV, Bongiovanni and SWR; not on IMSLP). Opus numbers collide: Danzi's Op. 40 is both the Piano Quartet (skipped) and the Bassoon Quartets, and Op. 56 is both the wind quintets (no strings) and the flute quartets kept. Uncertain: Romberg Op. 21 No. 2 is skipped because an IMSLP page comment mentioning a 1991 Jecklin disc could not be confirmed; Danzi's Sextet Op. 15 (2 horns and strings) is skipped because the only recording found, Consortium Classicum's Orfeo disc, plays a version for wind septet (Apple Music track titles); Danzi Op. 6 No. 2 (\"Figaro\") is on the RBM disc as a first movement only. Romberg's Op. 41 date (c. 1811, IMSLP and Edition HH) conflicts with de.wikipedia (Leipzig 1816). Apple Music and MusicBrainz answered 403/503 for most of the later lookups, so \"no recording found\" for the unrecorded works rests on IMSLP, Wikipedia discographies, MusicBrainz and web searches plus the first Apple searches by composer and genre; durations of Romberg's flute quintets are blank for the same reason. Catalogue numbers: Danzi's P. numbers only where a recording's track list gives them (Op. 7 No. 1, Op. 55 No. 3); Romberg's SteR numbers are left out. RECHECK 2026-10-17: 5 works added (Romberg Flute Quintet in B-flat major, Op. 21 No. 2; Danzi Flute Trios Op. 71 Nos. 1-3 and Trio for violin, horn and bassoon, Op. 23, P. 304); 31 lines re-searched and kept as not performed or recorded (the Op. 21 line now holds 1 work); 0 still not checked; hand edits: Romberg Op. 21 No. 1 (confidence medium to high, minutes 21, Jecklin recording and two Deezer album ids added), skipped line Op. 21 (works 2 to 1, title and evidence rewritten), evidence text of the other 30 not-recorded lines rewritten (reasons unchanged), composers_checked counts and notes. Lookups this time: Deezer (all albums returned for 'Romberg' and 'Danzi', opus-number track searches, Ardinghello, Mannheimer and Hohenloher artist pages, album track lists), Apple composerTerm (98 and 199 hits) and album searches, MusicBrainz works lists (Romberg 33, Danzi 168: no string chamber work; the per-work recording lookups returned HTTP 400), IMSLP page texts, de.wikipedia's Romberg work list (SteR numbers), en/de.wikipedia's Danzi lists and three web searches. Findings: the Jecklin disc holds Romberg's A minor and B-flat flute quintets (Op. 21 Nos. 1-2; Deezer labels them 'Op. 21 No. 4' and 'No. 5', presumably a numbering continued from the three Op. 1 quintets, so No. 2 is medium confidence); the Ardinghello MDG disc has Op. 21 No. 1 and Op. 41 Nos. 1 and 3; Danzi's Flute Trios Op. 71 (flute, violin, cello per de/en.wikipedia) are on CPO and No. 1 on RBM; Danzi's Trio for violin, horn and bassoon is on RBM as Op. 23, P. 304, while Boosey and Trevco list the Simrock edition as Op. 24 (a Historic Brass Society Journal article seen in the search results also says Op. 23; its PDF would not load, so the dating c. 1800-05 it gives is not entered, and the Boosey and Trevco pages were seen only as search hits). Danzi's Piano Quartet Op. 40 may be the string version of the Piano and Wind Quintet Op. 41 (Gramophone note seen in a search; arranger unconfirmed) and is unrecorded either way. A concert listing for 1 Nov 2026 in Vechta (Ardinghello Ensemble, 'Andreas Romberg und die frühe Romantik') names an 'op. 40'; the page was not readable and the date is in the future, so nothing was added. No concert evidence was found for any unrecorded work."
 }
