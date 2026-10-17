@@ -432,6 +432,70 @@
    "gender": "M",
    "era": "20th-century",
    "in_catalogue": false
+  },
+  {
+   "name": "Harsányi, Tibor",
+   "dates": "1898–1954",
+   "nationality": "Hungarian",
+   "gender": "M",
+   "era": "20th-century",
+   "in_catalogue": false
+  },
+  {
+   "name": "Merikanto, Aarre",
+   "dates": "1893–1958",
+   "nationality": "Finnish",
+   "gender": "M",
+   "era": "20th-century",
+   "in_catalogue": false
+  },
+  {
+   "name": "Durey, Louis",
+   "dates": "1888–1979",
+   "nationality": "French",
+   "gender": "M",
+   "era": "20th-century",
+   "in_catalogue": false
+  },
+  {
+   "name": "Axman, Emil",
+   "dates": "",
+   "nationality": "Czech",
+   "gender": "M",
+   "era": "20th-century",
+   "in_catalogue": false
+  },
+  {
+   "name": "Chaushyan, Levon",
+   "dates": "",
+   "nationality": "Armenian",
+   "gender": "M",
+   "era": "20th-century",
+   "in_catalogue": false
+  },
+  {
+   "name": "Hadley, Henry Kimball",
+   "dates": "1871–1937",
+   "nationality": "American",
+   "gender": "M",
+   "era": "20th-century",
+   "in_catalogue": false
+  },
+  {
+   "name": "Jaques-Dalcroze, Emile",
+   "dates": "1865–1950",
+   "nationality": "Swiss",
+   "gender": "M",
+   "era": "20th-century",
+   "in_catalogue": false
+  },
+  {
+   "name": "Nystroem, Gösta",
+   "dates": "1890–1966",
+   "nationality": "Swedish",
+   "gender": "M",
+   "era": "20th-century",
+   "in_catalogue": false
   }
  ],
  "works": [
@@ -3573,14 +3637,14 @@
    "formationNote": null,
    "form": "work",
    "set": null,
-   "year": "1913",
+   "year": "1918",
    "minutes": 14,
    "notes": "Three movements",
    "popularity": "lesser-known",
    "level_guess": 5,
    "level_basis": "Compact Scottish quartet; three movements",
    "hardest_part_guess": "violin 1",
-   "imslpPage": "String Quartet No.8 (McEwen, John Blackwood)",
+   "imslpPage": null,
    "benchmark_id": null,
    "violin_id": null,
    "floor": {
@@ -3589,10 +3653,10 @@
     "performed": ""
    },
    "sources": [
-    "https://imslp.org/wiki/String_Quartet_No.8_(McEwen,_John_Blackwood)",
-    "https://www.deezer.com/album/618089891"
+    "https://www.deezer.com/album/618089891",
+    "https://en.wikipedia.org/wiki/John_Blackwood_McEwen"
    ],
-   "confidence": "high"
+   "confidence": "medium"
   },
   {
    "composer": "McEwen, John Blackwood",
@@ -3612,7 +3676,7 @@
    "set": null,
    "year": "",
    "minutes": 29,
-   "notes": "One of 17 McEwen quartets recorded by the Chilingirian Quartet",
+   "notes": "One of ten McEwen quartets on the Chilingirian Quartet's three Chandos volumes",
    "popularity": "lesser-known",
    "level_guess": 5,
    "level_basis": "Scottish late-Romantic quartet; moderate technique",
@@ -3648,7 +3712,7 @@
    "set": null,
    "year": "",
    "minutes": 18,
-   "notes": "One of 17 McEwen quartets recorded by the Chilingirian Quartet",
+   "notes": "One of ten McEwen quartets on the Chilingirian Quartet's three Chandos volumes",
    "popularity": "lesser-known",
    "level_guess": 5,
    "level_basis": "Scottish late-Romantic quartet; moderate technique",
@@ -3669,7 +3733,9 @@
   {
    "composer": "McEwen, John Blackwood",
    "title": "String Quartet No. 6 in A major (\"Biscay\")",
-   "aka": [],
+   "aka": [
+    "String Quartet No. 8 (published numbering)"
+   ],
    "instruments": {
     "violin": 2,
     "viola": 1,
@@ -3682,30 +3748,35 @@
    "formationNote": null,
    "form": "work",
    "set": null,
-   "year": "",
+   "year": "1913",
    "minutes": 17,
-   "notes": "One of 17 McEwen quartets recorded by the Chilingirian Quartet",
+   "notes": "One of ten McEwen quartets on the Chilingirian Quartet's three Chandos volumes",
    "popularity": "lesser-known",
    "level_guess": 5,
    "level_basis": "Scottish late-Romantic quartet; moderate technique",
    "hardest_part_guess": "violin 1",
-   "imslpPage": null,
+   "imslpPage": "String Quartet No.8 (McEwen, John Blackwood)",
    "benchmark_id": null,
    "violin_id": null,
    "floor": {
     "published": "",
-    "recorded": "Chilingirian Quartet, Chandos (2002-04)",
+    "recorded": "Chilingirian Quartet, Chandos (2002-04); Edinburgh Quartet, Meridian (2001)",
     "performed": ""
    },
    "sources": [
-    "https://www.deezer.com/album/618098051"
+    "https://www.deezer.com/album/618098051",
+    "https://imslp.org/wiki/String_Quartet_No.8_(McEwen,_John_Blackwood)",
+    "https://en.wikipedia.org/wiki/John_Blackwood_McEwen",
+    "https://music.apple.com/us/album/1175501834"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "McEwen, John Blackwood",
    "title": "String Quartet No. 7 in E-flat major (\"Threnody\")",
-   "aka": [],
+   "aka": [
+    "String Quartet No. 9 (published numbering)"
+   ],
    "instruments": {
     "violin": 2,
     "viola": 1,
@@ -3718,14 +3789,14 @@
    "formationNote": null,
    "form": "work",
    "set": null,
-   "year": "",
+   "year": "1916",
    "minutes": 16,
-   "notes": "One of 17 McEwen quartets recorded by the Chilingirian Quartet",
+   "notes": "One of ten McEwen quartets on the Chilingirian Quartet's three Chandos volumes",
    "popularity": "lesser-known",
    "level_guess": 5,
    "level_basis": "Scottish late-Romantic quartet; moderate technique",
    "hardest_part_guess": "violin 1",
-   "imslpPage": null,
+   "imslpPage": "String Quartet No.9 (McEwen, John Blackwood)",
    "benchmark_id": null,
    "violin_id": null,
    "floor": {
@@ -3734,9 +3805,11 @@
     "performed": ""
    },
    "sources": [
-    "https://www.deezer.com/album/618031801"
+    "https://www.deezer.com/album/618031801",
+    "https://imslp.org/wiki/String_Quartet_No.9_(McEwen,_John_Blackwood)",
+    "https://en.wikipedia.org/wiki/John_Blackwood_McEwen"
    ],
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "composer": "McEwen, John Blackwood",
@@ -3756,7 +3829,7 @@
    "set": null,
    "year": "",
    "minutes": 24,
-   "notes": "One of 17 McEwen quartets recorded by the Chilingirian Quartet",
+   "notes": "One of ten McEwen quartets on the Chilingirian Quartet's three Chandos volumes",
    "popularity": "lesser-known",
    "level_guess": 5,
    "level_basis": "Scottish late-Romantic quartet; moderate technique",
@@ -3792,7 +3865,7 @@
    "set": null,
    "year": "",
    "minutes": 17,
-   "notes": "One of 17 McEwen quartets recorded by the Chilingirian Quartet",
+   "notes": "One of ten McEwen quartets on the Chilingirian Quartet's three Chandos volumes",
    "popularity": "lesser-known",
    "level_guess": 5,
    "level_basis": "Scottish late-Romantic quartet; moderate technique",
@@ -3828,7 +3901,7 @@
    "set": null,
    "year": "",
    "minutes": 20,
-   "notes": "One of 17 McEwen quartets recorded by the Chilingirian Quartet",
+   "notes": "One of ten McEwen quartets on the Chilingirian Quartet's three Chandos volumes",
    "popularity": "lesser-known",
    "level_guess": 5,
    "level_basis": "Scottish late-Romantic quartet; moderate technique",
@@ -3864,7 +3937,7 @@
    "set": null,
    "year": "",
    "minutes": 11,
-   "notes": "One of 17 McEwen quartets recorded by the Chilingirian Quartet",
+   "notes": "One of ten McEwen quartets on the Chilingirian Quartet's three Chandos volumes",
    "popularity": "lesser-known",
    "level_guess": 5,
    "level_basis": "Scottish late-Romantic quartet; moderate technique",
@@ -5199,6 +5272,1210 @@
     "https://musicbrainz.org/artist/9cd3182a-e67a-44c4-82b7-10146482d452"
    ],
    "confidence": "medium"
+  },
+  {
+   "composer": "McEwen, John Blackwood",
+   "title": "Nugae",
+   "aka": [
+    "Nugae: Seven Bagatelles",
+    "String Quartet No. 5"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "set",
+   "set": null,
+   "year": "",
+   "minutes": 16,
+   "notes": "Seven bagatelles; the Berkeley Ensemble made the first complete recording (2025)",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Seven short Scottish-flavoured pieces; moderate technique",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "Nugae (McEwen, John Blackwood)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Berkeley Ensemble, EM Records (2025)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/773409631",
+    "https://imslp.org/wiki/Nugae_(McEwen,_John_Blackwood)",
+    "https://en.wikipedia.org/wiki/John_Blackwood_McEwen"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "String Quartet No. 2, Op. 7",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1926",
+   "minutes": 28,
+   "notes": "Four movements; recorded in the Auer Quartet's complete Lajtha cycle",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Hungarian modern idiom; rhythmic ensemble demands",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Auer String Quartet, Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/583589392",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "String Quartet No. 5, Op. 20",
+   "aka": [
+    "String Quartet No. 5 (5 études)"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1934",
+   "minutes": 21,
+   "notes": "Five movements; Wikipedia gives the subtitle 5 études",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Hungarian modern idiom; rhythmic ensemble demands",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Auer String Quartet, Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/584058622",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "String Quartet No. 6, Op. 36",
+   "aka": [
+    "String Quartet No. 6 (4 études)"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1942",
+   "minutes": 25,
+   "notes": "Four movements; Wikipedia gives the subtitle 4 études",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Hungarian modern idiom; rhythmic ensemble demands",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Auer String Quartet, Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/578909631",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "String Quartet No. 7, Op. 49",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1950",
+   "minutes": 20,
+   "notes": "Four movements; recorded in the Auer Quartet's complete Lajtha cycle",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Hungarian modern idiom; rhythmic ensemble demands",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Auer String Quartet, Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/584058622",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "String Quartet No. 8, Op. 53",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1951",
+   "minutes": 24,
+   "notes": "Four movements; recorded in the Auer Quartet's complete Lajtha cycle",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Hungarian modern idiom; rhythmic ensemble demands",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Auer String Quartet, Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/578909631",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "String Quartet No. 9, Op. 57",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1953",
+   "minutes": 27,
+   "notes": "Four movements; recorded in the Auer Quartet's complete Lajtha cycle",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Hungarian modern idiom; rhythmic ensemble demands",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Auer String Quartet, Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/584058622",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "String Quartet No. 10, Op. 58 (\"Soirs transylvains\")",
+   "aka": [
+    "Suite transylvaine"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1953",
+   "minutes": 22,
+   "notes": "Three movements; Wikipedia lists it as Suite transylvaine in 3 parts",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Hungarian modern idiom; rhythmic ensemble demands",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Auer String Quartet, Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/578909631",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "Piano Quintet, Op. 4 (\"Dramma per musica\")",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "piano-quintet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1922",
+   "minutes": 37,
+   "notes": "One 37-minute track on the Hungaroton recording",
+   "popularity": "lesser-known",
+   "level_guess": 8,
+   "level_basis": "Large early piano quintet; piano-led, long span",
+   "hardest_part_guess": "piano",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Auer String Quartet with pianist (not named on Deezer), Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/583589392",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "Marionnettes, Op. 26",
+   "aka": [
+    "Marionettes"
+   ],
+   "instruments": {
+    "flute": 1,
+    "violin": 1,
+    "viola": 1,
+    "cello": 1,
+    "harp": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1937",
+   "minutes": 26,
+   "notes": "Suite of four pieces for flute, violin, viola, cello and harp",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Suite for flute, strings and harp; exposed flute and harp",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Julia Szilvasy (harp), Istvan Matuz (flute) and colleagues, Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/584066922",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "Three Nocturnes, Op. 34",
+   "aka": [
+    "3 Nocturnes, Op. 34"
+   ],
+   "instruments": {
+    "voice": 1,
+    "flute": 1,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "harp": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 7,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1941",
+   "minutes": 17,
+   "notes": "Soprano, flute, harp and string quartet; Nuit de neige, Nuits de juin, Nuit d'automne",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Song cycle with flute, harp and strings; exposed voice",
+   "hardest_part_guess": "voice",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Julia Szilvasy (harp), Istvan Matuz (flute) and colleagues, Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/584066922",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "Quintet No. 2, Op. 46",
+   "aka": [
+    "Quintet No. 2 for flute, violin, viola, cello and harp"
+   ],
+   "instruments": {
+    "flute": 1,
+    "violin": 1,
+    "viola": 1,
+    "cello": 1,
+    "harp": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1948",
+   "minutes": 29,
+   "notes": "Four movements for flute, violin, viola, cello and harp",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Flute, strings and harp quintet; exposed flute and harp",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Julia Szilvasy (harp), Istvan Matuz (flute) and colleagues, Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/584066922",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "Flute Trio No. 1, Op. 22",
+   "aka": [
+    "Trio for flute, cello and harp, Op. 22"
+   ],
+   "instruments": {
+    "flute": 1,
+    "cello": 1,
+    "harp": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1935",
+   "minutes": 21,
+   "notes": "Four movements for flute, cello and harp",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Flute, cello and harp trio; exposed lines, intonation",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Istvan Matuz (flute) and colleagues, Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/586313472",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lajtha, László",
+   "title": "Flute Trio No. 2, Op. 47",
+   "aka": [
+    "Trio for flute, cello and harp, Op. 47"
+   ],
+   "instruments": {
+    "flute": 1,
+    "cello": 1,
+    "harp": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1949",
+   "minutes": 22,
+   "notes": "Three movements for flute, cello and harp",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Flute, cello and harp trio; exposed lines, intonation",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Gerhard Otto, Arthur Troester, Rose Stein, SWR Classic Archive (2018); Istvan Matuz and colleagues, Hungaroton (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/586212232",
+    "https://www.deezer.com/album/586313472",
+    "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lajtha"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Harsányi, Tibor",
+   "title": "Nonet",
+   "aka": [],
+   "instruments": {
+    "flute": 1,
+    "oboe": 1,
+    "clarinet": 1,
+    "bassoon": 1,
+    "horn": 1,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 9,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1930",
+   "minutes": 25,
+   "notes": "Four movements for wind quintet and string quartet",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Neoclassical nonet; nine exposed players, winds and strings",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Kammerensemble de Paris, VDE-Gallo (2010)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/499028",
+    "https://en.wikipedia.org/wiki/Tibor_Hars%C3%A1nyi"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Merikanto, Aarre",
+   "title": "Concerto for Nine Instruments (\"Schott Concerto\")",
+   "aka": [
+    "Concerto for Violin, Clarinet, Horn and String Sextet",
+    "Schott-konsertto",
+    "Konsertto yhdeksälle soittimelle"
+   ],
+   "instruments": {
+    "violin": 3,
+    "viola": 2,
+    "cello": 2,
+    "clarinet": 1,
+    "horn": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 9,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1925",
+   "minutes": 23,
+   "notes": "Solo violin, clarinet, horn and string sextet; prize work in Schott's 1925 competition",
+   "popularity": "lesser-known",
+   "level_guess": 8,
+   "level_basis": "Modernist nine-player concerto; soloist-led, exposed winds",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Oleg Kagan and ensemble, Ondine (Deezer lists 1986); a live recording by Storgårds, Brunner, Baborák and colleagues (MusicBrainz)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/587333182",
+    "https://musicbrainz.org/recording/33c62225-1534-44cb-b209-d13c399d2c36",
+    "https://en.wikipedia.org/wiki/Aarre_Merikanto",
+    "https://fi.wikipedia.org/wiki/Aarre_Merikanto"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Merikanto, Aarre",
+   "title": "Nonetto",
+   "aka": [
+    "Nonet"
+   ],
+   "instruments": {
+    "flute": 1,
+    "english-horn": 1,
+    "clarinet": 1,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "double-bass": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 9,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1926",
+   "minutes": 19,
+   "notes": "Three movements; scoring taken from the performers' credits on MusicBrainz; recorded with a conductor",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Modernist nonet with piano; nine exposed players",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Ensemble conducted by Ulf Söderblom, Ondine (MusicBrainz 1988; Deezer lists 1986)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/587333182",
+    "https://musicbrainz.org/recording/011ff726-2f86-4b51-a6c4-354b1ba0229b",
+    "https://en.wikipedia.org/wiki/Aarre_Merikanto"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Gilse, Jan van",
+   "title": "Nonet",
+   "aka": [],
+   "instruments": {
+    "oboe": 1,
+    "clarinet": 1,
+    "bassoon": 1,
+    "horn": 1,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "double-bass": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 9,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1916",
+   "minutes": 34,
+   "notes": "Four movements for oboe, clarinet, bassoon, horn and strings",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Large nonet; nine exposed players, long span",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Viotta Ensemble, Donemus (Apple: 1998 release, 2013 reissue)",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/nonet-quartet-trio/1550913396",
+    "https://en.wikipedia.org/wiki/Jan_van_Gilse"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Gilse, Jan van",
+   "title": "String Quartet",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1922",
+   "minutes": 9,
+   "notes": "Unfinished; two movements survive, recorded as they stand",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Short unfinished quartet; two movements",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Ebony Quartet, Donemus (Apple: 1998 release, 2013 reissue)",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/nonet-quartet-trio/1550913396",
+    "https://en.wikipedia.org/wiki/Jan_van_Gilse"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Kletzki, Paul",
+   "title": "String Quartet No. 4",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1942",
+   "minutes": 26,
+   "notes": "Unpublished; recorded in the Bacewicz Quartet's 2026 complete cycle",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Large Romantic-modern quartet; sustained ensemble demands",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Bacewicz String Quartet, Prelude Classics (2026)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/922495921",
+    "https://en.wikipedia.org/wiki/Paul_Kletzki"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Kletzki, Paul",
+   "title": "Piano Trio in D major, Op. 16",
+   "aka": [],
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "piano-trio",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 29,
+   "notes": "Four movements; on the DUX disc Kletzki: Piano Chamber Music",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Large Romantic piano trio, 29 min; piano heavy",
+   "hardest_part_guess": "piano",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Piano Chamber Music (Kling-Fender, Błaszczyk, R. Fender, Manijak), DUX 0974 (2014)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/586586052",
+    "https://en.wikipedia.org/wiki/Paul_Kletzki"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Durey, Louis",
+   "title": "String Quartet No. 1, Op. 10",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1917",
+   "minutes": 18,
+   "notes": "Four short movements; by a member of Les Six",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Les Six-era quartet; short movements, exposed intonation",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "String Quartet No.1, Op.10 (Durey, Louis)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Brother Tree Sound, First Hand Records (2024)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.1,_Op.10_(Durey,_Louis)",
+    "https://music.apple.com/us/album/1786078673"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Axman, Emil",
+   "title": "String Quartet No. 3",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 21,
+   "notes": "Three movements; Supraphon archive recording on 'Hába, Axman, Novák: String Quartets'",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Czech modern quartet in three movements",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Prague Quartet, Supraphon (℗ 2025 reissue)",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/1793358066"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Chaushyan, Levon",
+   "title": "String Quartet No. 7",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 15,
+   "notes": "Three movements (Andante, Larghetto, Andantino)",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Armenian quartet in three short movements",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Yerevan String Quartet, Amara (2023)",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/string-quartets-of-armenian-composers/1719598583"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Lyatoshinsky, Boris",
+   "title": "String Quartet No. 2 in A major, Op. 4",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1922",
+   "minutes": 25,
+   "notes": "Four movements; recorded with the Op. 21 quartet on Quatuor Tchalik's Ravel-Lyatoshynsky disc",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Late-Romantic quartet; four movements, ensemble demands",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "String Quartet No.2, Op.4 (Lyatoshinsky, Boris)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Quatuor Tchalik, Alkonost Classic (2024)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.2,_Op.4_(Lyatoshinsky,_Boris)",
+    "https://music.apple.com/us/album/1744591236"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Lyatoshinsky, Boris",
+   "title": "String Quartet No. 3, Op. 21 (\"Suite\")",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1928",
+   "minutes": 21,
+   "notes": "Five movements: Prelude, Nocturne, Scherzo, Intermezzo, Postlude",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Five-movement suite quartet; varied character, ensemble demands",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "String Quartet No.3, Op.21 (Lyatoshinsky, Boris)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Quatuor Tchalik, Alkonost Classic (2024)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.3,_Op.21_(Lyatoshinsky,_Boris)",
+    "https://music.apple.com/us/album/1744591236"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Lyatoshinsky, Boris",
+   "title": "Piano Quintet in G minor, Op. 42 (\"Ukrainian\")",
+   "aka": [
+    "Ukrainian Quintet"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "piano-quintet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1942",
+   "minutes": 40,
+   "notes": "Four movements on Ukrainian themes",
+   "popularity": "lesser-known",
+   "level_guess": 8,
+   "level_basis": "Large wartime piano quintet; piano-led, 40 min",
+   "hardest_part_guess": "piano",
+   "imslpPage": "Ukrainian Quintet, Op.42 (Lyatoshinsky, Boris)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Bogdana Pivnenko, Taras Yaropud and colleagues, Naxos (2021); Violina Petrychenko and Phoenix String Quartet, Ars Produktion (2025)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Ukrainian_Quintet,_Op.42_(Lyatoshinsky,_Boris)",
+    "https://music.apple.com/us/album/1596550355",
+    "https://music.apple.com/us/album/1817563120"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Hadley, Henry Kimball",
+   "title": "Piano Quintet in A minor, Op. 50",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "piano-quintet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1919",
+   "minutes": 26,
+   "notes": "Four movements; first recorded on Vox Box",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Large American piano quintet; piano-led",
+   "hardest_part_guess": "piano",
+   "imslpPage": "Piano Quintet, Op.50 (Hadley, Henry Kimball)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Isabelle Yalkovsky Byman and the Kohon String Quartet, Vox Box (1992; Naxos reissue 2023)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quintet,_Op.50_(Hadley,_Henry_Kimball)",
+    "https://music.apple.com/us/album/1718679040"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Hadley, Henry Kimball",
+   "title": "Piano Trio, Op. 132",
+   "aka": [],
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "piano-trio",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 22,
+   "notes": "Albany disc titles it Trio, Op. 132; IMSLP lists a string quartet under the same opus",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "American piano trio, four movements",
+   "hardest_part_guess": "piano",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Rawlins Piano Trio, Albany Records (2006)",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/199392288"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Jaques-Dalcroze, Emile",
+   "title": "String Quartet",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 39,
+   "notes": "Five movements, two of them Intermezzi",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Large late-Romantic quartet, 39 min; ensemble demands",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "String Quartet (Jaques-Dalcroze, Emile)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Ensemble Stanislas, VDE-Gallo (2000)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_(Jaques-Dalcroze,_Emile)",
+    "https://music.apple.com/us/album/592672771"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Nystroem, Gösta",
+   "title": "String Quartet",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1956",
+   "minutes": 23,
+   "notes": "Three movements (Lentando rigoroso, Allegro scherzando, Lento)",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Late modern quartet; three movements, exposed intonation",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "String Quartet (Nystroem, Gösta)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Berwald Quartet, Caprice (1988, on 'The Swedish String Quartet')",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_(Nystroem,_Gösta)",
+    "https://music.apple.com/us/album/1093919824"
+   ],
+   "confidence": "high"
   }
  ],
  "skipped": [
@@ -5239,8 +6516,8 @@
    "title": "Elegy for String Quartet, Op.62",
    "imslpPage": "Elegy for String Quartet, Op.62 (Achron, Joseph)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Joseph Achron (1886–1943): 146 works, 110 with recordings, chamber-titled: Serenade, op. 17; Suite no. 2 en style moderne, op. 22: II; Deezer: 7 album(s) with the surname, 3 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Joseph Achron' (50 results: theremin and violin arrangements) run now; no recording of this work found."
   },
   {
    "composer": "Aeschbacher, Karl",
@@ -5375,8 +6652,8 @@
    "title": "Variations, Fantasy and Scherzo",
    "imslpPage": "Variations, Fantasy and Scherzo (Axman, Emil)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match; Deezer: 3 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Emil Axman' (42 results) run now, and the Supraphon album page (composer fields): it holds Axman's String Quartet No. 3 only (added); no recording of this work found."
   },
   {
    "composer": "Ayres, Frederick",
@@ -5423,8 +6700,8 @@
    "title": "String Quartet No.2",
    "imslpPage": "String Quartet No.2 (Barati, George)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist George Barati (1913–1996): 21 works, 19 with recordings, chamber-titled: Chamber Concerto for Oboe, Clarinet, Bas; Chamber Concerto for Oboe, Clarinet, Bas; Chamber Concerto for Oboe, Clarinet, Bas; Deezer: 6 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'George Barati' (50 results: orchestral and choral works) run now; no recording of this work found."
   },
   {
    "composer": "Barkworth, John Edmund",
@@ -6047,16 +7324,16 @@
    "title": "Dance for Trio",
    "imslpPage": "Dance for Trio (Chaushyan, Levon)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Apple: the Yerevan String Quartet disc 'String Quartets of Armenian Composers' (2023) holds Nos. 3 and 7 (attribution inferred from the composerTerm hit), not the candidate No. 6; WEAK none found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple Music page of the Yerevan String Quartet album (composer fields): it holds Chaushyan's String Quartet No. 7 only (added); the first pass's 'No. 3' is Babajanian's. No recording of this work found."
   },
   {
    "composer": "Chaushyan, Levon",
    "title": "String Quartet No.6",
    "imslpPage": "String Quartet No.6 (Chaushyan, Levon)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "Apple: the Yerevan String Quartet disc 'String Quartets of Armenian Composers' (2023) holds Nos. 3 and 7 (attribution inferred from the composerTerm hit), not the candidate No. 6; WEAK none found"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple Music page of the Yerevan String Quartet album (composer fields): it holds Chaushyan's String Quartet No. 7 only (added); the first pass's 'No. 3' is Babajanian's. No recording of this work found."
   },
   {
    "composer": "Chen, Hsin-Lei",
@@ -6559,40 +7836,32 @@
    "title": "Piano Quartet",
    "imslpPage": "Piano Quartet (Dupuis, Albert)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Albert Dupuis (1877–1967): 0 works, 0 with recordings, none chamber-titled; Deezer: 5 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Albert Dupuis' (50 results) run now: orchestral and piano works only; no chamber recording found."
   },
   {
    "composer": "Dupuis, Albert",
    "title": "Piano Trio No.1",
    "imslpPage": "Piano Trio No.1 (Dupuis, Albert)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Albert Dupuis (1877–1967): 0 works, 0 with recordings, none chamber-titled; Deezer: 5 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Albert Dupuis' (50 results) run now: orchestral and piano works only; no chamber recording found."
   },
   {
    "composer": "Durey, Louis",
    "title": "Chansons basques, Op.23",
    "imslpPage": "Chansons basques, Op.23 (Durey, Louis)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Louis Durey (1888–1979): 69 works, 58 with recordings, none chamber-titled; Deezer: 6 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
-  },
-  {
-   "composer": "Durey, Louis",
-   "title": "String Quartet No.1, Op.10",
-   "imslpPage": "String Quartet No.1, Op.10 (Durey, Louis)",
-   "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Louis Durey (1888–1979): 69 works, 58 with recordings, none chamber-titled; Deezer: 6 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Louis Durey' (50 results) run now: the only chamber recording is the First Hand Records album with String Quartet No. 1 (added); no recording of this work found."
   },
   {
    "composer": "Durey, Louis",
    "title": "String Quartet No.2, Op.19",
    "imslpPage": "String Quartet No.2, Op.19 (Durey, Louis)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Louis Durey (1888–1979): 69 works, 58 with recordings, none chamber-titled; Deezer: 6 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Louis Durey' (50 results) run now: the only chamber recording is the First Hand Records album with String Quartet No. 1 (added); no recording of this work found."
   },
   {
    "composer": "Eckhardt-Gramatté, Sophie-Carmen",
@@ -7316,19 +8585,11 @@
   },
   {
    "composer": "Hadley, Henry Kimball",
-   "title": "Piano Quintet, Op.50",
-   "imslpPage": "Piano Quintet, Op.50 (Hadley, Henry Kimball)",
-   "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 39 results, no chamber-titled track attributable to this composer"
-  },
-  {
-   "composer": "Hadley, Henry Kimball",
    "title": "String Quartet, Op.132",
    "imslpPage": "String Quartet, Op.132 (Hadley, Henry Kimball)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 39 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Henry Hadley' (limit 200): the Albany disc holds Op. 132 as a Trio (added as a piano trio); no recording of the IMSLP string quartet found."
   },
   {
    "composer": "Haeser, Georg",
@@ -7407,16 +8668,16 @@
    "title": "Concertino for Piano and Strings",
    "imslpPage": "Concertino for Piano and Strings (Harsányi, Tibor)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Tibor Harsányi (1898–1954): 26 works, 21 with recordings, none chamber-titled; Deezer: 5 album(s) with the surname, 2 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer artist and album searches (Harsanyi; Tibor Harsanyi; nonet, chamber, trio, quartet, petit tailleur), Apple composerTerm 'Tibor Harsanyi' (50 results: piano works and duos only), Wikipedia work list. Only the Nonet (added) is a recorded chamber work with strings; no recording of this page found."
   },
   {
    "composer": "Harsányi, Tibor",
    "title": "String Quartet",
    "imslpPage": "String Quartet (Harsányi, Tibor)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Tibor Harsányi (1898–1954): 26 works, 21 with recordings, none chamber-titled; Deezer: 5 album(s) with the surname, 2 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer artist and album searches (Harsanyi; Tibor Harsanyi; nonet, chamber, trio, quartet), Apple composerTerm 'Tibor Harsanyi' (50 results: piano works and duos only), Wikipedia work list. No recording of this quartet found."
   },
   {
    "composer": "Hastings, John P.",
@@ -7791,32 +9052,24 @@
    "title": "12 Novelettes & Caprices for Piano, Violin and Cello",
    "imslpPage": "12 Novelettes & Caprices for Piano, Violin and Cello (Jaques-Dalcroze, Emile)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Émile Jaques-Dalcroze (1865–1950): 27 works, 21 with recordings, none chamber-titled; Deezer: 17 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm (limit 200) and the VDE-Gallo album page (Ensemble Stanislas, Vol. 2): it holds the String Quartet (added), 'Huit Novelettes et caprices', 'Quatre danses frivoles' and 'Rondo scherzando' with the scoring not stated; this page not matched to a recording."
   },
   {
    "composer": "Jaques-Dalcroze, Emile",
    "title": "Echos du Dancing",
    "imslpPage": "Echos du Dancing (Jaques-Dalcroze, Emile)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Émile Jaques-Dalcroze (1865–1950): 27 works, 21 with recordings, none chamber-titled; Deezer: 17 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm (limit 200) and the VDE-Gallo album page (Ensemble Stanislas, Vol. 2): it holds the String Quartet (added), 'Huit Novelettes et caprices', 'Quatre danses frivoles' and 'Rondo scherzando' with the scoring not stated; this page not matched to a recording."
   },
   {
    "composer": "Jaques-Dalcroze, Emile",
    "title": "Serenade for String Quartet, Op.61",
    "imslpPage": "Serenade for String Quartet, Op.61 (Jaques-Dalcroze, Emile)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Émile Jaques-Dalcroze (1865–1950): 27 works, 21 with recordings, none chamber-titled; Deezer: 17 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
-  },
-  {
-   "composer": "Jaques-Dalcroze, Emile",
-   "title": "String Quartet",
-   "imslpPage": "String Quartet (Jaques-Dalcroze, Emile)",
-   "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Émile Jaques-Dalcroze (1865–1950): 27 works, 21 with recordings, none chamber-titled; Deezer: 17 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm (limit 200) and the VDE-Gallo album page (Ensemble Stanislas, Vol. 2): it holds the String Quartet (added), 'Huit Novelettes et caprices', 'Quatre danses frivoles' and 'Rondo scherzando' with the scoring not stated; this page not matched to a recording."
   },
   {
    "composer": "Járay-Janetschek, István",
@@ -7919,88 +9172,88 @@
    "title": "Clarinet Quintet, Op.17",
    "imslpPage": "Clarinet Quintet, Op.17 (Kallstenius, Edvin)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Edvin Kallstenius' (limit 200, 147 results): the only chamber-titled album, 'Swedish Quintets', is Sigurd von Koch's piano quintet; no recording of this work found."
   },
   {
    "composer": "Kallstenius, Edvin",
    "title": "String Quartet No.3, Op.8",
    "imslpPage": "String Quartet No.3, Op.8 (Kallstenius, Edvin)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Edvin Kallstenius' (limit 200, 147 results): the only chamber-titled album, 'Swedish Quintets', is Sigurd von Koch's piano quintet; no recording of this work found."
   },
   {
    "composer": "Kallstenius, Edvin",
    "title": "String Quartet No.4, Op.14",
    "imslpPage": "String Quartet No.4, Op.14 (Kallstenius, Edvin)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Edvin Kallstenius' (limit 200, 147 results): the only chamber-titled album, 'Swedish Quintets', is Sigurd von Koch's piano quintet; no recording of this work found."
   },
   {
    "composer": "Kallstenius, Edvin",
    "title": "String Quartet No.5, Op.33",
    "imslpPage": "String Quartet No.5, Op.33 (Kallstenius, Edvin)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Edvin Kallstenius' (limit 200, 147 results): the only chamber-titled album, 'Swedish Quintets', is Sigurd von Koch's piano quintet; no recording of this work found."
   },
   {
    "composer": "Kallstenius, Edvin",
    "title": "String Quartet No.6, Op.41",
    "imslpPage": "String Quartet No.6, Op.41 (Kallstenius, Edvin)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Edvin Kallstenius' (limit 200, 147 results): the only chamber-titled album, 'Swedish Quintets', is Sigurd von Koch's piano quintet; no recording of this work found."
   },
   {
    "composer": "Kallstenius, Edvin",
    "title": "String Quartet No.7, Op.49",
    "imslpPage": "String Quartet No.7, Op.49 (Kallstenius, Edvin)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Edvin Kallstenius' (limit 200, 147 results): the only chamber-titled album, 'Swedish Quintets', is Sigurd von Koch's piano quintet; no recording of this work found."
   },
   {
    "composer": "Kallstenius, Edvin",
    "title": "String Quartet No.8, Op.54",
    "imslpPage": "String Quartet No.8, Op.54 (Kallstenius, Edvin)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Edvin Kallstenius' (limit 200, 147 results): the only chamber-titled album, 'Swedish Quintets', is Sigurd von Koch's piano quintet; no recording of this work found."
   },
   {
    "composer": "Kallstenius, Edvin",
    "title": "String Trio, Op.61",
    "imslpPage": "String Trio, Op.61 (Kallstenius, Edvin)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Edvin Kallstenius' (limit 200, 147 results): the only chamber-titled album, 'Swedish Quintets', is Sigurd von Koch's piano quintet; no recording of this work found."
   },
   {
    "composer": "Kallstenius, Edvin",
    "title": "Suite for 9 instruments, Op.23b",
    "imslpPage": "Suite for 9 instruments, Op.23b (Kallstenius, Edvin)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Edvin Kallstenius' (limit 200, 147 results): the only chamber-titled album, 'Swedish Quintets', is Sigurd von Koch's piano quintet; no recording of this work found."
   },
   {
    "composer": "Kallstenius, Edvin",
    "title": "Trio divertente, Op.39",
    "imslpPage": "Trio divertente, Op.39 (Kallstenius, Edvin)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Edvin Kallstenius' (limit 200, 147 results): the only chamber-titled album, 'Swedish Quintets', is Sigurd von Koch's piano quintet; no recording of this work found."
   },
   {
    "composer": "Kallstenius, Edvin",
    "title": "Trio svagante, Op.51",
    "imslpPage": "Trio svagante, Op.51 (Kallstenius, Edvin)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Edvin Kallstenius' (limit 200, 147 results): the only chamber-titled album, 'Swedish Quintets', is Sigurd von Koch's piano quintet; no recording of this work found."
   },
   {
    "composer": "Kaprál, Václav",
@@ -8111,8 +9364,8 @@
    "title": "Piano Quartet",
    "imslpPage": "Piano Quartet (Kohs, Ellis)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Ellis Kohs (1916–2000): 4 works, 3 with recordings, chamber-titled: Chamber Concerto for Viola and String No; Chamber Concerto for Viola and String No; Chamber Concerto for Viola and String No; Deezer: 3 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Ellis Kohs' (50 results) run now: only the Chamber Concerto for viola and string nonet (ten players, out of scope); no recording of the Piano Quartet."
   },
   {
    "composer": "Kollmaneck, Ferdinand",
@@ -8760,23 +10013,7 @@
    "imslpPage": "String Quartet No.1, Op.1 (Lyatoshinsky, Boris)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Recorded: Piano Trio No. 1, Op. 7; Piano Trio No. 2, Op. 41. Found through Deezer. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
-  },
-  {
-   "composer": "Lyatoshinsky, Boris",
-   "title": "String Quartet No.2, Op.4",
-   "imslpPage": "String Quartet No.2, Op.4 (Lyatoshinsky, Boris)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Recorded: Piano Trio No. 1, Op. 7; Piano Trio No. 2, Op. 41. Found through Deezer. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
-  },
-  {
-   "composer": "Lyatoshinsky, Boris",
-   "title": "String Quartet No.3, Op.21",
-   "imslpPage": "String Quartet No.3, Op.21 (Lyatoshinsky, Boris)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Recorded: Piano Trio No. 1, Op. 7; Piano Trio No. 2, Op. 41. Found through Deezer. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Boris Lyatoshinsky' (limit 200) and the album pages (composer fields): Quatuor Tchalik holds Nos. 2 and 3 only; no recording of this work found."
   },
   {
    "composer": "Lyatoshinsky, Boris",
@@ -8784,7 +10021,7 @@
    "imslpPage": "String Quartet No.4, Op.43 (Lyatoshinsky, Boris)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Recorded: Piano Trio No. 1, Op. 7; Piano Trio No. 2, Op. 41. Found through Deezer. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Boris Lyatoshinsky' (limit 200) and the album pages (composer fields): Quatuor Tchalik holds Nos. 2 and 3 only; no recording of this work found."
   },
   {
    "composer": "Lyatoshinsky, Boris",
@@ -8792,15 +10029,7 @@
    "imslpPage": "Suite on Ukrainian National Themes, Op.45 (Lyatoshinsky, Boris)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Recorded: Piano Trio No. 1, Op. 7; Piano Trio No. 2, Op. 41. Found through Deezer. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
-  },
-  {
-   "composer": "Lyatoshinsky, Boris",
-   "title": "Ukrainian Quintet, Op.42",
-   "imslpPage": "Ukrainian Quintet, Op.42 (Lyatoshinsky, Boris)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Recorded: Piano Trio No. 1, Op. 7; Piano Trio No. 2, Op. 41. Found through Deezer. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Boris Lyatoshinsky' (limit 200) and the album pages (composer fields): Quatuor Tchalik holds Nos. 2 and 3 only; no recording of this work found."
   },
   {
    "composer": "Mahle, Ernst",
@@ -8891,22 +10120,6 @@
    "evidence": "MusicBrainz: no artist match; Deezer: no album with the surname; Apple composerTerm: 14 results, no chamber-titled track attributable to this composer"
   },
   {
-   "composer": "McEwen, John Blackwood",
-   "title": "Nugae",
-   "imslpPage": "Nugae (McEwen, John Blackwood)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Recorded: String Quartet No. 4 in C minor; String Quartet No. 8 in E-flat major; String Quartet No. 2 in A minor; String Quartet No. 3 in E minor; String Quartet No. 6 in A major (\"Biscay\") .... Found through Deezer; 8 of these are not on IMSLP. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
-  },
-  {
-   "composer": "McEwen, John Blackwood",
-   "title": "String Quartet No.9",
-   "imslpPage": "String Quartet No.9 (McEwen, John Blackwood)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Recorded: String Quartet No. 4 in C minor; String Quartet No. 8 in E-flat major; String Quartet No. 2 in A minor; String Quartet No. 3 in E minor; String Quartet No. 6 in A major (\"Biscay\") .... Found through Deezer; 8 of these are not on IMSLP. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
-  },
-  {
    "composer": "Melikyan, Hrachya",
    "title": "String Quartet",
    "imslpPage": "String Quartet (Melikyan, Hrachya)",
@@ -8951,72 +10164,72 @@
    "title": "String Quartet, Op.17",
    "imslpPage": "String Quartet, Op.17 (Merikanto, Aarre)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Aarre Merikanto (1893–1958): 99 works, 82 with recordings, chamber-titled: Nonet: II. Largo; Nonet: I. Adagio - Molto allegro; Serenade a-moll für Streichorchester mit; Deezer: 8 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Aarre Merikanto; chamber; string quartet), MusicBrainz works with recordings (99 works; the Nonet and Schott Concerto are the only recorded chamber works), Apple composerTerm. Manuscript-only on IMSLP; no recording found."
   },
   {
    "composer": "Migot, Georges Elbert",
    "title": "5 Mouvements d'eau",
    "imslpPage": "5 Mouvements d'eau (Migot, Georges Elbert)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match; Deezer: no album with the surname; Apple composerTerm: 5 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Georges Migot' (limit 200, 194 results) run now: the ATMA album 'Suite à trois / Le livre des danceries' (Trio Hochelaga) holds a Trio (38 min) and a work for flute, violin and piano, scoring not stated; neither matched to this page."
   },
   {
    "composer": "Migot, Georges Elbert",
    "title": "Au bord de l'Eure",
    "imslpPage": "Au bord de l'Eure (Migot, Georges Elbert)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match; Deezer: no album with the surname; Apple composerTerm: 5 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Georges Migot' (limit 200, 194 results) run now: the ATMA album 'Suite à trois / Le livre des danceries' (Trio Hochelaga) holds a Trio (38 min) and a work for flute, violin and piano, scoring not stated; neither matched to this page."
   },
   {
    "composer": "Migot, Georges Elbert",
    "title": "Le paravent de laque aux 5 images",
    "imslpPage": "Le paravent de laque aux 5 images (Migot, Georges Elbert)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match; Deezer: no album with the surname; Apple composerTerm: 5 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Georges Migot' (limit 200, 194 results) run now: the ATMA album 'Suite à trois / Le livre des danceries' (Trio Hochelaga) holds a Trio (38 min) and a work for flute, violin and piano, scoring not stated; neither matched to this page."
   },
   {
    "composer": "Migot, Georges Elbert",
    "title": "Les Agrestides",
    "imslpPage": "Les Agrestides (Migot, Georges Elbert)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match; Deezer: no album with the surname; Apple composerTerm: 5 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Georges Migot' (limit 200, 194 results) run now: the ATMA album 'Suite à trois / Le livre des danceries' (Trio Hochelaga) holds a Trio (38 min) and a work for flute, violin and piano, scoring not stated; neither matched to this page."
   },
   {
    "composer": "Migot, Georges Elbert",
    "title": "Les parques",
    "imslpPage": "Les parques (Migot, Georges Elbert)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match; Deezer: no album with the surname; Apple composerTerm: 5 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Georges Migot' (limit 200, 194 results) run now: the ATMA album 'Suite à trois / Le livre des danceries' (Trio Hochelaga) holds a Trio (38 min) and a work for flute, violin and piano, scoring not stated; neither matched to this page."
   },
   {
    "composer": "Migot, Georges Elbert",
    "title": "String Quartet No.1",
    "imslpPage": "String Quartet No.1 (Migot, Georges Elbert)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match; Deezer: no album with the surname; Apple composerTerm: 5 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Georges Migot' (limit 200, 194 results) run now: the ATMA album 'Suite à trois / Le livre des danceries' (Trio Hochelaga) holds a Trio (38 min) and a work for flute, violin and piano, scoring not stated; neither matched to this page."
   },
   {
    "composer": "Migot, Georges Elbert",
    "title": "Trio for Oboe, Violin, and Piano",
    "imslpPage": "Trio for Oboe, Violin, and Piano (Migot, Georges Elbert)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match; Deezer: no album with the surname; Apple composerTerm: 5 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Georges Migot' (limit 200, 194 results) run now: the ATMA album 'Suite à trois / Le livre des danceries' (Trio Hochelaga) holds a Trio (38 min) and a work for flute, violin and piano, scoring not stated; neither matched to this page."
   },
   {
    "composer": "Migot, Georges Elbert",
    "title": "Trio for Violin, Viola, and Piano",
    "imslpPage": "Trio for Violin, Viola, and Piano (Migot, Georges Elbert)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: no artist match; Deezer: no album with the surname; Apple composerTerm: 5 results, no chamber-titled track attributable to this composer"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Apple composerTerm 'Georges Migot' (limit 200, 194 results) run now: the ATMA album 'Suite à trois / Le livre des danceries' (Trio Hochelaga) holds a Trio (38 min) and a work for flute, violin and piano, scoring not stated; neither matched to this page."
   },
   {
    "composer": "Mirzazade, Khayyam",
@@ -9243,14 +10456,6 @@
    "evidence": "MusicBrainz: artist Lionel Nowak (1911–1995): 5 works, 4 with recordings, none chamber-titled; Deezer: 2 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
   },
   {
-   "composer": "Nystroem, Gösta",
-   "title": "String Quartet",
-   "imslpPage": "String Quartet (Nystroem, Gösta)",
-   "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz: artist Gösta Nystroem (1890–1966): 59 works, 49 with recordings, none chamber-titled; Deezer: 11 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 49 results, no chamber-titled track attributable to this composer"
-  },
-  {
    "composer": "O'Hara, Geoffrey",
    "title": "I Love a Little Cottage",
    "imslpPage": "I Love a Little Cottage (O'Hara, Geoffrey)",
@@ -9344,7 +10549,7 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "MusicBrainz: artist Joseph Achron (1886–1943): 146 works, 110 with recordings, chamber-titled: Serenade, op. 17; Suite no. 2 en style moderne, op. 22: II; Deezer: 7 album(s) with the surname, 3 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "note": "MusicBrainz: artist Joseph Achron (1886–1943): 146 works, 110 with recordings, chamber-titled: Serenade, op. 17; Suite no. 2 en style moderne, op. 22: II; Deezer: 7 album(s) with the surname, 3 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit) | RECHECK 2026-10-17: wider Apple composerTerm search (limit 200) found no chamber recording of this page."
   },
   {
    "name": "Aeschbacher, Karl",
@@ -9504,9 +10709,9 @@
    "candidates": 1,
    "kept": 0,
    "skipped": 1,
-   "added_not_on_imslp": 0,
-   "coverage": "triage: none found",
-   "note": "MusicBrainz: no artist match; Deezer: 3 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "added_not_on_imslp": 1,
+   "coverage": "complete",
+   "note": "RECHECK 2026-10-17: added String Quartet No. 3. Earlier: MusicBrainz: no artist match; Deezer: 3 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
   },
   {
    "name": "Ayres, Frederick",
@@ -9560,7 +10765,7 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "MusicBrainz: artist George Barati (1913–1996): 21 works, 19 with recordings, chamber-titled: Chamber Concerto for Oboe, Clarinet, Bas; Chamber Concerto for Oboe, Clarinet, Bas; Chamber Concerto for Oboe, Clarinet, Bas; Deezer: 6 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "note": "MusicBrainz: artist George Barati (1913–1996): 21 works, 19 with recordings, chamber-titled: Chamber Concerto for Oboe, Clarinet, Bas; Chamber Concerto for Oboe, Clarinet, Bas; Chamber Concerto for Oboe, Clarinet, Bas; Deezer: 6 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer | RECHECK 2026-10-17: wider Apple composerTerm search (limit 200) found no chamber recording of this page."
   },
   {
    "name": "Barkworth, John Edmund",
@@ -10008,9 +11213,9 @@
    "candidates": 2,
    "kept": 0,
    "skipped": 2,
-   "added_not_on_imslp": 0,
-   "coverage": "triage: none found",
-   "note": "Apple: the Yerevan String Quartet disc 'String Quartets of Armenian Composers' (2023) holds Nos. 3 and 7 (attribution inferred from the composerTerm hit), not the candidate No. 6; WEAK none found"
+   "added_not_on_imslp": 1,
+   "coverage": "complete",
+   "note": "RECHECK 2026-10-17: added String Quartet No. 7. Earlier: Apple: the Yerevan String Quartet disc 'String Quartets of Armenian Composers' (2023) holds Nos. 3 and 7 (attribution inferred from the composerTerm hit), not the candidate No. 6; WEAK none found"
   },
   {
    "name": "Chen, Hsin-Lei",
@@ -10262,16 +11467,16 @@
    "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "MusicBrainz: artist Albert Dupuis (1877–1967): 0 works, 0 with recordings, none chamber-titled; Deezer: 5 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "note": "MusicBrainz: artist Albert Dupuis (1877–1967): 0 works, 0 with recordings, none chamber-titled; Deezer: 5 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit) | RECHECK 2026-10-17: wider Apple composerTerm search (limit 200) found no chamber recording of this page."
   },
   {
    "name": "Durey, Louis",
    "candidates": 3,
-   "kept": 0,
-   "skipped": 3,
+   "kept": 1,
+   "skipped": 2,
    "added_not_on_imslp": 0,
-   "coverage": "triage: none found",
-   "note": "MusicBrainz: artist Louis Durey (1888–1979): 69 works, 58 with recordings, none chamber-titled; Deezer: 6 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "coverage": "complete",
+   "note": "RECHECK 2026-10-17: added String Quartet No. 1, Op. 10. Earlier: MusicBrainz: artist Louis Durey (1888–1979): 69 works, 58 with recordings, none chamber-titled; Deezer: 6 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
   },
   {
    "name": "Duruflé, Maurice",
@@ -10638,9 +11843,9 @@
    "candidates": 1,
    "kept": 1,
    "skipped": 0,
-   "added_not_on_imslp": 0,
+   "added_not_on_imslp": 2,
    "coverage": "complete",
-   "note": "Recorded: Trio for Flute, Violin and Viola. Found through Apple. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
+   "note": "RECHECK 2026-10-17: added Nonet; String Quartet. Earlier: Recorded: Trio for Flute, Violin and Viola. Found through Apple. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
   },
   {
    "name": "Giunta, Héctor Fernando",
@@ -10807,11 +12012,11 @@
   {
    "name": "Hadley, Henry Kimball",
    "candidates": 2,
-   "kept": 0,
-   "skipped": 2,
-   "added_not_on_imslp": 0,
-   "coverage": "triage: none found",
-   "note": "MusicBrainz: no artist match; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 39 results, no chamber-titled track attributable to this composer"
+   "kept": 1,
+   "skipped": 1,
+   "added_not_on_imslp": 1,
+   "coverage": "complete",
+   "note": "RECHECK 2026-10-17: added Piano Quintet in A minor, Op. 50; Piano Trio, Op. 132. Earlier: MusicBrainz: no artist match; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 39 results, no chamber-titled track attributable to this composer"
   },
   {
    "name": "Haeser, Georg",
@@ -10881,9 +12086,9 @@
    "candidates": 2,
    "kept": 0,
    "skipped": 2,
-   "added_not_on_imslp": 0,
-   "coverage": "triage: none found",
-   "note": "MusicBrainz: artist Tibor Harsányi (1898–1954): 26 works, 21 with recordings, none chamber-titled; Deezer: 5 album(s) with the surname, 2 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "added_not_on_imslp": 1,
+   "coverage": "complete",
+   "note": "RECHECK 2026-10-17: added Nonet. Earlier: MusicBrainz: artist Tibor Harsányi (1898–1954): 26 works, 21 with recordings, none chamber-titled; Deezer: 5 album(s) with the surname, 2 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
   },
   {
    "name": "Hastings, John P.",
@@ -11140,11 +12345,11 @@
   {
    "name": "Jaques-Dalcroze, Emile",
    "candidates": 4,
-   "kept": 0,
-   "skipped": 4,
+   "kept": 1,
+   "skipped": 3,
    "added_not_on_imslp": 0,
-   "coverage": "triage: none found",
-   "note": "MusicBrainz: artist Émile Jaques-Dalcroze (1865–1950): 27 works, 21 with recordings, none chamber-titled; Deezer: 17 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "coverage": "complete",
+   "note": "RECHECK 2026-10-17: added String Quartet. Earlier: MusicBrainz: artist Émile Jaques-Dalcroze (1865–1950): 27 works, 21 with recordings, none chamber-titled; Deezer: 17 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 50 results, no chamber-titled tr"
   },
   {
    "name": "Járay-Janetschek, István",
@@ -11252,7 +12457,7 @@
    "skipped": 11,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "note": "MusicBrainz: artist Edvin Kallstenius (1881–1967): 16 works, 12 with recordings, none chamber-titled; Deezer: 1 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer | RECHECK 2026-10-17: wider Apple composerTerm search (limit 200) found no chamber recording of this page."
   },
   {
    "name": "Kaminski, Heinrich",
@@ -11358,9 +12563,9 @@
    "candidates": 1,
    "kept": 1,
    "skipped": 0,
-   "added_not_on_imslp": 2,
+   "added_not_on_imslp": 4,
    "coverage": "complete",
-   "note": "Recorded: String Quartet No. 2 in C minor, Op. 13; String Quartet No. 1 in A minor, Op. 1; String Quartet No. 3 in D minor, Op. 23. Found through Deezer; 2 of these are not on IMSLP. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
+   "note": "RECHECK 2026-10-17: added String Quartet No. 4; Piano Trio in D major, Op. 16. Earlier: Recorded: String Quartet No. 2 in C minor, Op. 13; String Quartet No. 1 in A minor, Op. 1; String Quartet No. 3 in D minor, Op. 23. Found through Deezer; 2 of these are not on IMSLP. A page of this composer not listed in `works` was not found on any disc or in"
   },
   {
    "name": "Kleven, Arvid",
@@ -11405,7 +12610,7 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "MusicBrainz: artist Ellis Kohs (1916–2000): 4 works, 3 with recordings, chamber-titled: Chamber Concerto for Viola and String No; Chamber Concerto for Viola and String No; Chamber Concerto for Viola and String No; Deezer: 3 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit)"
+   "note": "MusicBrainz: artist Ellis Kohs (1916–2000): 4 works, 3 with recordings, chamber-titled: Chamber Concerto for Viola and String No; Chamber Concerto for Viola and String No; Chamber Concerto for Viola and String No; Deezer: 3 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: not run (Deezer hit) | RECHECK 2026-10-17: wider Apple composerTerm search (limit 200) found no chamber recording of this page."
   },
   {
    "name": "Kollmaneck, Ferdinand",
@@ -11547,9 +12752,9 @@
    "candidates": 2,
    "kept": 2,
    "skipped": 0,
-   "added_not_on_imslp": 5,
+   "added_not_on_imslp": 18,
    "coverage": "complete",
-   "note": "Recorded: String Quartet No. 3, Op. 11; String Quartet No. 1, Op. 5; String Quartet No. 4, Op. 12; String Trio No. 1, Op. 9 (\"Serenade\"); String Trio No. 3, Op. 41 (\"Soirs transylvains\") .... Found through Deezer, Apple; 5 of these are not on IMSLP. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
+   "note": "RECHECK 2026-10-17: added String Quartet No. 2, Op. 7; String Quartet No. 5, Op. 20; String Quartet No. 6, Op. 36; String Quartet No. 7, Op. 49; String Quartet No. 8, Op. 53; String Quartet No. 9, Op. 57; String Quartet No. 10, Op. 58 (\"Soirs transylvains\"); Piano Quintet, Op. 4 (\"Dramma per musica\"); Marionnettes, Op. 26; Three Nocturnes, Op. 34; Quintet No. 2, Op. 46; Flute Trio No. 1, Op. 22; Flute Trio No. 2, Op. 47. Earlier: Recorded: String Quartet No. 3, Op. 11; String Quartet No. 1, Op. 5; String Quartet No. 4, Op. 12; String Trio No. 1, Op. 9 (\"Serenade\"); String Trio No. 3, Op. 41 (\"Soirs transylvains\") .... Found through Deezer, Apple; 5 of these are not on IMSLP. A page of "
   },
   {
    "name": "Lambert, Edward",
@@ -11770,11 +12975,11 @@
   {
    "name": "Lyatoshinsky, Boris",
    "candidates": 8,
-   "kept": 2,
-   "skipped": 6,
+   "kept": 5,
+   "skipped": 3,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Recorded: Piano Trio No. 1, Op. 7; Piano Trio No. 2, Op. 41. Found through Deezer. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
+   "note": "RECHECK 2026-10-17: added String Quartet No. 2 in A major, Op. 4; String Quartet No. 3, Op. 21 (\"Suite\"); Piano Quintet in G minor, Op. 42 (\"Ukrainian\"). Earlier: Recorded: Piano Trio No. 1, Op. 7; Piano Trio No. 2, Op. 41. Found through Deezer. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
   },
   {
    "name": "Maddison, Adela",
@@ -11869,11 +13074,11 @@
   {
    "name": "McEwen, John Blackwood",
    "candidates": 4,
-   "kept": 2,
-   "skipped": 2,
-   "added_not_on_imslp": 8,
+   "kept": 4,
+   "skipped": 0,
+   "added_not_on_imslp": 7,
    "coverage": "complete",
-   "note": "Recorded: String Quartet No. 4 in C minor; String Quartet No. 8 in E-flat major; String Quartet No. 2 in A minor; String Quartet No. 3 in E minor; String Quartet No. 6 in A major (\"Biscay\") .... Found through Deezer; 8 of these are not on IMSLP. A page of this composer not listed in `works` was not found on any disc or in MusicBrainz, Deezer or Apple."
+   "note": "RECHECK 2026-10-17: relinked the IMSLP pages (No.8 page = 'Biscay', No.9 page = 'Threnody'), added Nugae. Chandos issued three quartet volumes only (10 of 17 quartets). Earlier: RECHECK 2026-10-17: added Nugae. Earlier: Recorded: String Quartet No. 4 in C minor; String Quartet No. 8 in E-flat major; String Quartet No. 2 in A minor; String Quartet No. 3 in E minor; String Quar"
   },
   {
    "name": "Melikyan, Hrachya",
@@ -11925,9 +13130,9 @@
    "candidates": 1,
    "kept": 0,
    "skipped": 1,
-   "added_not_on_imslp": 0,
-   "coverage": "triage: none found",
-   "note": "MusicBrainz: artist Aarre Merikanto (1893–1958): 99 works, 82 with recordings, chamber-titled: Nonet: II. Largo; Nonet: I. Adagio - Molto allegro; Serenade a-moll für Streichorchester mit; Deezer: 8 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 50 results, no chamber-titled track attributable to this composer"
+   "added_not_on_imslp": 2,
+   "coverage": "complete",
+   "note": "RECHECK 2026-10-17: added Concerto for Nine Instruments (\"Schott Concerto\"); Nonetto. Earlier: MusicBrainz: artist Aarre Merikanto (1893–1958): 99 works, 82 with recordings, chamber-titled: Nonet: II. Largo; Nonet: I. Adagio - Molto allegro; Serenade a-moll für Streichorchester mit; Deezer: 8 album(s) with the surname, 1 chamber-titled, none a disc of t"
   },
   {
    "name": "Migot, Georges Elbert",
@@ -11936,7 +13141,7 @@
    "skipped": 8,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "MusicBrainz: no artist match; Deezer: no album with the surname; Apple composerTerm: 5 results, no chamber-titled track attributable to this composer"
+   "note": "MusicBrainz: no artist match; Deezer: no album with the surname; Apple composerTerm: 5 results, no chamber-titled track attributable to this composer | RECHECK 2026-10-17: wider Apple composerTerm search (limit 200) found no chamber recording of this page."
   },
   {
    "name": "Mirzazade, Khayyam",
@@ -12121,11 +13326,11 @@
   {
    "name": "Nystroem, Gösta",
    "candidates": 1,
-   "kept": 0,
-   "skipped": 1,
+   "kept": 1,
+   "skipped": 0,
    "added_not_on_imslp": 0,
-   "coverage": "triage: none found",
-   "note": "MusicBrainz: artist Gösta Nystroem (1890–1966): 59 works, 49 with recordings, none chamber-titled; Deezer: 11 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 49 results, no chamber-titled track attributable to this composer"
+   "coverage": "complete",
+   "note": "RECHECK 2026-10-17: added String Quartet. Earlier: MusicBrainz: artist Gösta Nystroem (1890–1966): 59 works, 49 with recordings, none chamber-titled; Deezer: 11 album(s) with the surname, 1 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 49 results, no chamber-titled track att"
   },
   {
    "name": "O'Hara, Geoffrey",
@@ -12155,5 +13360,5 @@
    "note": "MusicBrainz: no artist match; Deezer: 21 album(s) with the surname, 7 chamber-titled, none a disc of this composer's chamber music; Apple composerTerm: 26 results, no chamber-titled track attributable to this composer"
   }
  ],
- "note": "METHOD (about 70 tool calls, 0 WebSearch). One background script queried all 315 composers: MusicBrainz artist search (ten composers per request, matched on name and on dates against the candidates' years) and, for each matched artist, every work with its linked recordings (200 works at most); Deezer album search on 'Given Surname' (plus '<Surname> quartet' and '<Surname> trio' where the first search returned more than 25 albums), filtered by script for the surname and chamber words; Apple's composerTerm song search for every composer without a chamber-titled Deezer album of their own (the others had one), and a second Apple pass for composers with a hit, to find their other pages on mixed discs. Hits were opened through Deezer album and Apple lookup track lists, MusicBrainz recordings and releases, Apple Music album pages (the iTunes API gives no composer field, the web page does) and IMSLP's api.php. MusicBrainz was slow all run (shared clock), so the Apple queue was ordered by publishers' signals.\nRESULT: 59 composers have a commercial recording in scope: 128 works kept, 53 of them not on IMSLP (found on discs I opened); the other 256 composers are 'triage: none found' (10 of them proposed for exclusion). All three lookups returned for every composer; no page is skipped as 'not checked'.\nWEAK 'none found': namesake-swamped searches (Arnold, Becker, Brown, Busch, Chase, Clarke, Cooke, Costello, Davidson, Edmonds, Franco, Hall, Harris, Harrison, Hunter, Joseph, Lambert, Martin, Morgan, Müller, Oliveira); initials or pseudonyms (Arnold C., Decembertexture, Etceterovsky); composers MusicBrainz does not know (MusicBrainz 'no artist') whose only checks were Deezer and Apple.\nMEDIUM/LOW (the owner may drop): works whose floor is a MusicBrainz release only, without a track list I could open (Brandts Buys Op. 25 and Op. 21, Friedman, Kaminski's quartet, Mason, Menu, Duruflé Op. 3, Gruenberg's Four Diversions, Davidson's McLibel); Blacher's Octet (the Thorofon disc calls it 'Oktett für Klarinette, Horn, Fagott und Streichquartett'; scoring taken from IMSLP); Gibbs's E-minor quartet (matched to Op. 18 by key); Karel Hába's No. 3 (credited to him by Apple; the disc also holds a second 'No. 3' I did not enter); the gap works whose year is blank (no source opened).\nSCOPE CALLS. Not entered although recorded: Harsányi's Nonet (VDE-Gallo) and Merikanto's Nonetto and Schott Concerto (Ondine): scoring not found; Engel's Dybbuk Suite Op. 35 (Toccata): scoring unknown; Kohs's Chamber Concerto for viola and string nonet (ten players); van Gilse's Nonet and unfinished quartet (Donemus); Chaushyan's Nos. 3 and 7 and Axman's No. 3 (attribution on the Armenian and Supraphon discs not settled); Lajtha's quartets Nos. 2 and 5-10 and flute trio, McEwen's other quartets (Chandos vols. 4-5 not found), Kletzki's unpublished No. 4; single-movement digital singles (Dedieu-Peters, Bitzan, Durey). Skipped as arrangement: Atterberg's Suite No. 1 'Orientale' (IMSLP scores it for orchestra; the quartet-and-piano version names no arranger). Computer-synthesised or self-released albums: none relied on.\nDISCREPANCIES with IMSLP: Atterberg Op. 39 is 20 min on IMSLP, 30 on the CPO disc; Apostel's Op. 7 is dated 1949 (publication) on IMSLP, 1935 on the disc and by the Berg dedication; Moeran's E-flat quartet has only publication data (1956) and two movements on both discs; Mason's quartet and Menu's Sonatine have no duration (not found)."
+ "note": "METHOD (about 70 tool calls, 0 WebSearch). One background script queried all 315 composers: MusicBrainz artist search (ten composers per request, matched on name and on dates against the candidates' years) and, for each matched artist, every work with its linked recordings (200 works at most); Deezer album search on 'Given Surname' (plus '<Surname> quartet' and '<Surname> trio' where the first search returned more than 25 albums), filtered by script for the surname and chamber words; Apple's composerTerm song search for every composer without a chamber-titled Deezer album of their own (the others had one), and a second Apple pass for composers with a hit, to find their other pages on mixed discs. Hits were opened through Deezer album and Apple lookup track lists, MusicBrainz recordings and releases, Apple Music album pages (the iTunes API gives no composer field, the web page does) and IMSLP's api.php. MusicBrainz was slow all run (shared clock), so the Apple queue was ordered by publishers' signals.\nRESULT: 59 composers have a commercial recording in scope: 128 works kept, 53 of them not on IMSLP (found on discs I opened); the other 256 composers are 'triage: none found' (10 of them proposed for exclusion). All three lookups returned for every composer; no page is skipped as 'not checked'.\nWEAK 'none found': namesake-swamped searches (Arnold, Becker, Brown, Busch, Chase, Clarke, Cooke, Costello, Davidson, Edmonds, Franco, Hall, Harris, Harrison, Hunter, Joseph, Lambert, Martin, Morgan, Müller, Oliveira); initials or pseudonyms (Arnold C., Decembertexture, Etceterovsky); composers MusicBrainz does not know (MusicBrainz 'no artist') whose only checks were Deezer and Apple.\nMEDIUM/LOW (the owner may drop): works whose floor is a MusicBrainz release only, without a track list I could open (Brandts Buys Op. 25 and Op. 21, Friedman, Kaminski's quartet, Mason, Menu, Duruflé Op. 3, Gruenberg's Four Diversions, Davidson's McLibel); Blacher's Octet (the Thorofon disc calls it 'Oktett für Klarinette, Horn, Fagott und Streichquartett'; scoring taken from IMSLP); Gibbs's E-minor quartet (matched to Op. 18 by key); Karel Hába's No. 3 (credited to him by Apple; the disc also holds a second 'No. 3' I did not enter); the gap works whose year is blank (no source opened).\nSCOPE CALLS. Not entered although recorded: Harsányi's Nonet (VDE-Gallo) and Merikanto's Nonetto and Schott Concerto (Ondine): scoring not found; Engel's Dybbuk Suite Op. 35 (Toccata): scoring unknown; Kohs's Chamber Concerto for viola and string nonet (ten players); van Gilse's Nonet and unfinished quartet (Donemus); Chaushyan's Nos. 3 and 7 and Axman's No. 3 (attribution on the Armenian and Supraphon discs not settled); Lajtha's quartets Nos. 2 and 5-10 and flute trio, McEwen's other quartets (Chandos vols. 4-5 not found), Kletzki's unpublished No. 4; single-movement digital singles (Dedieu-Peters, Bitzan, Durey). Skipped as arrangement: Atterberg's Suite No. 1 'Orientale' (IMSLP scores it for orchestra; the quartet-and-piano version names no arranger). Computer-synthesised or self-released albums: none relied on.\nDISCREPANCIES with IMSLP: Atterberg Op. 39 is 20 min on IMSLP, 30 on the CPO disc; Apostel's Op. 7 is dated 1949 (publication) on IMSLP, 1935 on the disc and by the Berg dedication; Moeran's E-flat quartet has only publication data (1956) and two movements on both discs; Mason's quartet and Menu's Sonatine have no duration (not found).\nRECHECK 2026-10-17: 31 works added (Lajtha 13: quartets Nos. 2 and 5-10, Piano Quintet Op. 4, Marionnettes, Three Nocturnes, Quintet No. 2, Flute Trios Op. 22 and 47; McEwen Nugae; Harsányi Nonet; Merikanto Nonetto and Schott Concerto; van Gilse Nonet and unfinished quartet; Kletzki No. 4 and Piano Trio Op. 16; Durey No. 1; Axman No. 3; Chaushyan No. 7; Lyatoshinsky Nos. 2, 3 and Piano Quintet; Hadley Piano Quintet and Piano Trio Op. 132; Jaques-Dalcroze quartet; Nystroem quartet); 39 skipped lines re-searched and settled as not performed or recorded (Harsányi, Merikanto, Axman, Chaushyan, Durey, Achron, Kohs, Barati, Dupuis, Lyatoshinsky, Hadley, Jaques-Dalcroze, Kallstenius, Migot); leads not entered: EM Records 'Beauty Veil'd' (2025) also holds works by Dare, Howell and Matthay; Fitelberg's Nachtmusik Op. 9 (Chandos; scoring not stated); Migot's ATMA Trio and Jaques-Dalcroze's Novelettes (scoring not stated); Lajtha's Trio concertante Op. 10 (no recording found); McEwen's quartets Nos. 1, 9-12 and 14 (no recording found). Hand edits: McEwen first-pass errors repaired (IMSLP No.8 page is 'Biscay' = Chandos No. 6, No.9 page is 'Threnody' = Chandos No. 7; the E-flat quartet (Chandos No. 8, 1918 per Wikipedia) lost its IMSLP link; the skipped 'String Quartet No.9' line removed; eight notes saying 'one of 17 quartets recorded' corrected to ten, Chandos having issued three volumes; the Threnody's key is E-flat minor on IMSLP but E-flat major in Chandos's title, kept as recorded); the first pass's Chaushyan 'Nos. 3 and 7' corrected (No. 3 is Babajanian's); Karel Hába's No. 3 confirmed by Apple's composer fields; Hadley's Op. 132 is a piano trio on the Albany disc while IMSLP lists a string quartet with that opus. McEwen 'Biscay' = published No. 8 is confirmed by the Edinburgh Quartet's Meridian disc (Apple page, composer fields: 'String Quartet No. 8 in A Major'), added as a second recording."
 }
