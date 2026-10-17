@@ -1912,51 +1912,6 @@
   },
   {
    "composer": "Haydn, Michael",
-   "title": "Romance in A-flat major, MH 806",
-   "aka": [
-    "Romance for horn and string quartet",
-    "Romance pour un cor, deux violons, alto et violoncelle"
-   ],
-   "instruments": {
-    "horn": 1,
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 5,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "1795",
-   "minutes": 4,
-   "notes": "Horn and string quartet; after the Larghetto of Mozart's Horn Concerto K. 447",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Horn line of the Larghetto of Mozart's K. 447, about ABRSM 7; strings easy (estimate)",
-   "hardest_part_guess": "horn",
-   "imslpPage": "Romance, MH 806 (Haydn, Michael)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Kunst- und Industrie-Comptoir, Vienna, 1802",
-    "recorded": "Divertimento Salzburg, Claves CD 50-8703 (1987); Brilliant Classics, Michael Haydn Collection (2019); Hermann Baumann with string quartet (1993 album with Mozart, Beethoven, Reicha and J. Haydn)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Romance,_MH_806_(Haydn,_Michael)",
-    "https://itunes.apple.com/lookup?id=289068934&entity=song",
-    "https://swisscollections.k8s-001.unibas.ch/Record/991027032979705501",
-    "https://itunes.apple.com/lookup?id=1483759990&entity=song",
-    "https://musicbrainz.org/artist/760357b4-37da-4271-8cb7-52786d335745",
-    "https://en.wikipedia.org/wiki/List_of_compositions_by_Michael_Haydn"
-   ],
-   "confidence": "medium"
-  },
-  {
-   "composer": "Haydn, Michael",
    "title": "Divertimento in E-flat major, MH 516",
    "aka": [
     "Divertimento in E-flat major, P. 111",
@@ -2626,6 +2581,14 @@
    "works": 1,
    "reason": "not performed or recorded",
    "evidence": "Typeset edition (Malcolm Crowe, CC0) and manuscript scans only; the autograph lacks the end of the finale; not on the cpo, Claves or Da Vinci quartet discs (which hold MH 308–313 and the flute quartets). Apple Music (iTunes API: cpo, Accent, Claves, Da Vinci, Brilliant, Meridian and other Michael Haydn albums), MusicBrainz works list (437 works), web search"
+  },
+  {
+   "composer": "Haydn, Michael",
+   "title": "Romance in A-flat major, MH 806",
+   "imslpPage": "Romance, MH 806 (Haydn, Michael)",
+   "works": 1,
+   "reason": "arrangement",
+   "evidence": "owner 2026-10-17: arrangements by another hand and works of doubtful attribution are out; an arranger who is not named means out (moved by hand from works; was: Horn and string quartet; after the Larghetto of Mozart's Horn Concerto K. 447)"
   }
  ],
  "benchmark_issues": [],
@@ -2659,5 +2622,5 @@
    "note": "Gap check against the Wikipedia list (Perger and MH numbers): added the five recorded quartets MH 308, 309, 311-313, the quintets MH 189 and 367 (all on cpo) and the Divertimento MH 516 (Claves). Not added: Notturni MH 153 and 185 (chamber-orchestra recordings only), Serenade MH 86, Divertimento MH 68 (orchestral), the Divertimenti a 3 MH 5-8 and 10 (no recording found; MH 6 and 8 are Nos. 5-6 of the Hummel print filed under Joseph Haydn); MH 463, 464, 418 and the cassations not checked."
   }
  ],
- "note": "c39 (Kozeluch, Woelfl, Michael Haydn): all 41 candidate pages are kept or skipped. Floor evidence is mainly Apple Music track lists (iTunes API) with MusicBrainz, the Hungarian BMC database and a few label pages; Naxos and Presto were not available, so recordings on labels Apple lacks may be missed. Judgment calls: (1) Kozeluch's keyboard trios are listed as piano trios (violin, cello, piano; harpsichord alternative). Op. 34 and 40 were printed for flute or violin and are recorded with flute, so they are listed flute-first as strings-and-winds trios with a violin alternative (Op. 37 and P. IX:D1 are recorded with flute; their print scoring was not checked). Wikipedia swaps P. IX:42 and 43; IMSLP and cpo give 42 = C major (Op. 46 No. 3), 43 = F major (Op. 47 No. 1), which I follow. (2) Michael Haydn's quartets MH 308-313 are of disputed authenticity but recorded under his name (Constanze Quartet, cpo 2024; Sonare Quartet, Claves 1988); only MH 310 is on IMSLP, so five quartets and the quintets MH 189 and 367 are gap additions. (3) MH 806, the Romance for horn and string quartet, is the Larghetto of Mozart's K. 447 under Michael Haydn's name (Claves and Brilliant Classics list it so, and a Baumann disc); kept at medium confidence, drop it if you count it an arrangement. (4) Divertimento MH 406 rests on one 1960s Vienna Octet recording (low confidence). (5) Woelfl's Op. 42 (piano four hands with flute or violin; the title page names both) is listed with the violin and the flute as alternative, so that it has a string part; the recording uses flute (medium confidence). (6) Not added for lack of a one-to-a-part recording: Notturni MH 153 and 185 (chamber orchestras), Serenade MH 86; MH 463, 464, 418 and the cassations not checked. MH 516 (Claves) is a gap addition at low confidence: five players in Wikipedia, six with a bass in the CD record. IMSLP's Kozeluch Cassazione (flute, 2 clarinets, 2 bassoons, 2 horns, 2 violas) is not in the input and has no recording found. Trio 1790's cpo Kozeluch series is covered (the 3 Piano Trios disc, the 2018 Scottish disc, Vols. 3-5); P. IX:7, 13, 16, 24, 31 and 34-36 are on none of the discs found, so only Apple Music and MusicBrainz were checked for them (no Naxos or Presto access)."
+ "note": "c39 (Kozeluch, Woelfl, Michael Haydn): all 41 candidate pages are kept or skipped. Floor evidence is mainly Apple Music track lists (iTunes API) with MusicBrainz, the Hungarian BMC database and a few label pages; Naxos and Presto were not available, so recordings on labels Apple lacks may be missed. Judgment calls: (1) Kozeluch's keyboard trios are listed as piano trios (violin, cello, piano; harpsichord alternative). Op. 34 and 40 were printed for flute or violin and are recorded with flute, so they are listed flute-first as strings-and-winds trios with a violin alternative (Op. 37 and P. IX:D1 are recorded with flute; their print scoring was not checked). Wikipedia swaps P. IX:42 and 43; IMSLP and cpo give 42 = C major (Op. 46 No. 3), 43 = F major (Op. 47 No. 1), which I follow. (2) Michael Haydn's quartets MH 308-313 are of disputed authenticity but recorded under his name (Constanze Quartet, cpo 2024; Sonare Quartet, Claves 1988); only MH 310 is on IMSLP, so five quartets and the quintets MH 189 and 367 are gap additions. (3) MH 806, the Romance for horn and string quartet, is the Larghetto of Mozart's K. 447 under Michael Haydn's name (Claves and Brilliant Classics list it so, and a Baumann disc); kept at medium confidence, drop it if you count it an arrangement. (4) Divertimento MH 406 rests on one 1960s Vienna Octet recording (low confidence). (5) Woelfl's Op. 42 (piano four hands with flute or violin; the title page names both) is listed with the violin and the flute as alternative, so that it has a string part; the recording uses flute (medium confidence). (6) Not added for lack of a one-to-a-part recording: Notturni MH 153 and 185 (chamber orchestras), Serenade MH 86; MH 463, 464, 418 and the cassations not checked. MH 516 (Claves) is a gap addition at low confidence: five players in Wikipedia, six with a bass in the CD record. IMSLP's Kozeluch Cassazione (flute, 2 clarinets, 2 bassoons, 2 horns, 2 violas) is not in the input and has no recording found. Trio 1790's cpo Kozeluch series is covered (the 3 Piano Trios disc, the 2018 Scottish disc, Vols. 3-5); P. IX:7, 13, 16, 24, 31 and 34-36 are on none of the discs found, so only Apple Music and MusicBrainz were checked for them (no Naxos or Presto access). HAND EDIT (orchestrator, 2026-10-17): moved to skipped on the owner's ruling (arrangements by another hand and doubtful attributions are out): Romance in A-flat major, MH 806."
 }

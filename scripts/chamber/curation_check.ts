@@ -88,7 +88,7 @@ function check(slice: string) {
     const warn = (m: string) => warnings.push(`${id}: ${m}`);
     if (seen.has(id)) e("listed twice");
     seen.add(id);
-    if (!/^([^,]+, .+|\p{Lu}\p{Ll}+ \p{Lu}[\p{Ll}-]+)$/u.test(w.composer)) e(`composer "${w.composer}" is not "Surname, Given names"`);
+    if (!/^([^,]+, .+|\p{Lu}\p{Ll}+ \p{Lu}[\p{Ll}-]+|\p{Lu}[\p{Ll}-]+)$/u.test(w.composer)) e(`composer "${w.composer}" is not "Surname, Given names" (or one name)`);
     if (!known.has(w.composer) && !authors.has(w.composer)) e(`composer "${w.composer}" is in neither the violin catalogue, composers.json nor authors`);
     if (excluded[w.composer]) e("composer is excluded");
 

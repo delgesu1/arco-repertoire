@@ -29,7 +29,7 @@ const Work = z
     // Chinese names ("Tan Dun", "Chen Yi"); either way it must be in the violin catalogue or composers.json (below)
     composer: z
       .string()
-      .regex(/^([^,]+, .+|\p{Lu}\p{Ll}+ \p{Lu}[\p{Ll}-]+)$/u, 'composer must be "Surname, Given names" (or family name first: "Tan Dun")'),
+      .regex(/^([^,]+, .+|\p{Lu}\p{Ll}+ \p{Lu}[\p{Ll}-]+|\p{Lu}[\p{Ll}-]+)$/u, 'composer must be "Surname, Given names" (or family name first: "Tan Dun", or one name: "Carolo")'),
     title: z.string().min(1),
     aka: z.array(z.string().min(1)).optional(),
     formation: z.enum(keys(FORMATIONS)),

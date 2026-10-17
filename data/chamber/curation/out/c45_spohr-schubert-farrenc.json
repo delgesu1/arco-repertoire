@@ -2422,47 +2422,6 @@
    "confidence": "high"
   },
   {
-   "composer": "Spohr, Louis",
-   "title": "Trio for Violin, Cello and Harp, WoO 28",
-   "aka": [
-    "Trio in E minor for violin, cello and harp",
-    "Trio in F minor, WoO 28"
-   ],
-   "instruments": {
-    "harp": 1,
-    "violin": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "other",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 22,
-   "notes": "Violin, cello and harp; IMSLP calls it an arrangement of the Violin and Harp Sonata WoO 27; key E or F minor",
-   "popularity": "lesser-known",
-   "level_guess": 6,
-   "level_basis": "Harp part at pre-diploma level (Spohr's harp sonatas); violin and cello moderate",
-   "hardest_part_guess": "harp",
-   "imslpPage": "Trio for Violin, Cello, and Harp, WoO 28 (Spohr, Louis)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Sophie Langdon, Hugh Webb, Susan Dorey, Naxos (Spohr: Music for Violin and Harp Vol. 1, 2001); Klaus Storck, Helga Storck, Kurt Guntner, Profil Medien (2024)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Trio_for_Violin,_Cello,_and_Harp,_WoO_28_(Spohr,_Louis)",
-    "https://itunes.apple.com/lookup?id=1759387866&entity=song",
-    "https://itunes.apple.com/lookup?id=364185979&entity=song"
-   ],
-   "confidence": "medium"
-  },
-  {
    "composer": "Schubert, Franz",
    "title": "String Trio in B-flat major, D. 471",
    "aka": [],
@@ -4382,6 +4341,14 @@
    "works": 1,
    "reason": "not performed or recorded",
    "evidence": "IMSLP: print only; piano with violin, viola and cello accompaniment; no recording found"
+  },
+  {
+   "composer": "Spohr, Louis",
+   "title": "Trio for Violin, Cello and Harp, WoO 28",
+   "imslpPage": "Trio for Violin, Cello, and Harp, WoO 28 (Spohr, Louis)",
+   "works": 1,
+   "reason": "arrangement",
+   "evidence": "owner 2026-10-17: arrangements by another hand and works of doubtful attribution are out; an arranger who is not named means out (moved by hand from works; was: Violin, cello and harp; IMSLP calls it an arrangement of the Violin and Harp Sonata WoO 27; key E or)"
   }
  ],
  "benchmark_issues": [
@@ -4448,5 +4415,5 @@
    "note": "Only the three quartets (Talich Quartet, Calliope 2006) are recorded; the trios and the showpieces with accompaniment are print-only; Wikipedia has no work list, so the gap check rests on the IMSLP pages and the Apple Music/MusicBrainz searches"
   }
  ],
- "note": "Floor evidence is commercial recordings read through the Apple Music catalogue (iTunes lookups: album, performers, (P) line, track timings; Marco Polo/Naxos cycle of the 36 Spohr quartets, Hyperion, CPO, Orfeo, Naxos, Brilliant, Chandos and others), plus the Wikipedia discography for Kalliwoda's Talich recording (confirmed on Apple); Presto and the Naxos Music Library were not reachable. Apple and MusicBrainz blocked several searches (403/503); those searches were repeated until they answered, and the late ones went through the shared fetcher, so every 'none found' rests on a search that returned (Kalliwoda trios, Farrenc quartet, Spohr Op. 53 and the Jessonda potpourris). Judgement calls. (1) Spohr's Potpourris Opp. 5, 22, 24 and Variations Opp. 6, 8 are solo violin with accompaniment (IMSLP: 'violin, string trio'; Koch disc: 'Variations for Violin and String Trio'); they are entered under the owner's showpiece rule as formation 'other', and Op. 81 (clarinet and string quartet) is entered the same way, although it also belongs with the clarinet quintets (winds-strings would be the derived formation). (2) Spohr's quartets 35 and 36 carry Op. 155/157 (Marco Polo, IMSLP) and WoO 41/42; Spohr's own opus list ends at Op. 154. (3) The harp trio is titled without a key because the sources differ (E minor on Naxos, F minor on Profil and the Goethel edition); IMSLP calls it an arrangement of the Sonata WoO 27 and the arranger is not confirmed, kept at medium confidence because it is catalogued as Spohr's WoO 28 and recorded twice. (4) Schubert: D. 103 is recorded in the complete cycles as a single unfinished Allegro (kept as 'short'); D. 68 survives in two movements; D. 2c, D. 87a and D. 111a are fragments of one or two minutes (skipped). The Diogenes Quartet's complete set also records an 'Andante in C major, D. 3' and a quartet version of the Overture D. 470 (IMSLP: a one-minute arrangement fragment of c. 1818): not added, because their scoring and status are unclear and IMSLP has no quartet page for them. D. 8 is entered with two violas as on IMSLP, though some recordings pair it with the C-major Quintet's two-cello team. (5) Levels are estimates: Spohr's six quatuors brillants (Opp. 11, 43, 61, 68, 83, 93) rated by violin 1; Kalliwoda by analogy with Mayseder. (6) Spohr's Op. 53 (piano and strings) is probably the string version of Op. 52 (piano and winds) and is unrecorded. Gap check: Wikipedia's Spohr and Farrenc work lists and the IMSLP listings turned up nothing in scope that IMSLP lacks (Farrenc's Sextet Op. 40 and Spohr's Op. 52 have no strings; Spohr's Op. 103 songs, Schubert's voice-and-obbligato pieces are vocal repertoire). The nine Spohr and Schubert entries in the violin catalogue (ids 540, 554-557, 559-561, 4122) are duos for two violins and the Violinschule, so none is cross-listed. Titles follow IMSLP and Wikipedia where Marco Polo's track list differs: Op. 4 No. 2 is G minor (Marco Polo: C minor) and Op. 45 No. 3 is F major (Marco Polo: F minor). Schubert's D. 8 (IMSLP: two violins, two violas, cello) is also listed as D. 8a in the complete quartet cycles and played by two-cello quintet teams; the entry stays a five-player string quintet, medium confidence."
+ "note": "Floor evidence is commercial recordings read through the Apple Music catalogue (iTunes lookups: album, performers, (P) line, track timings; Marco Polo/Naxos cycle of the 36 Spohr quartets, Hyperion, CPO, Orfeo, Naxos, Brilliant, Chandos and others), plus the Wikipedia discography for Kalliwoda's Talich recording (confirmed on Apple); Presto and the Naxos Music Library were not reachable. Apple and MusicBrainz blocked several searches (403/503); those searches were repeated until they answered, and the late ones went through the shared fetcher, so every 'none found' rests on a search that returned (Kalliwoda trios, Farrenc quartet, Spohr Op. 53 and the Jessonda potpourris). Judgement calls. (1) Spohr's Potpourris Opp. 5, 22, 24 and Variations Opp. 6, 8 are solo violin with accompaniment (IMSLP: 'violin, string trio'; Koch disc: 'Variations for Violin and String Trio'); they are entered under the owner's showpiece rule as formation 'other', and Op. 81 (clarinet and string quartet) is entered the same way, although it also belongs with the clarinet quintets (winds-strings would be the derived formation). (2) Spohr's quartets 35 and 36 carry Op. 155/157 (Marco Polo, IMSLP) and WoO 41/42; Spohr's own opus list ends at Op. 154. (3) The harp trio is titled without a key because the sources differ (E minor on Naxos, F minor on Profil and the Goethel edition); IMSLP calls it an arrangement of the Sonata WoO 27 and the arranger is not confirmed, kept at medium confidence because it is catalogued as Spohr's WoO 28 and recorded twice. (4) Schubert: D. 103 is recorded in the complete cycles as a single unfinished Allegro (kept as 'short'); D. 68 survives in two movements; D. 2c, D. 87a and D. 111a are fragments of one or two minutes (skipped). The Diogenes Quartet's complete set also records an 'Andante in C major, D. 3' and a quartet version of the Overture D. 470 (IMSLP: a one-minute arrangement fragment of c. 1818): not added, because their scoring and status are unclear and IMSLP has no quartet page for them. D. 8 is entered with two violas as on IMSLP, though some recordings pair it with the C-major Quintet's two-cello team. (5) Levels are estimates: Spohr's six quatuors brillants (Opp. 11, 43, 61, 68, 83, 93) rated by violin 1; Kalliwoda by analogy with Mayseder. (6) Spohr's Op. 53 (piano and strings) is probably the string version of Op. 52 (piano and winds) and is unrecorded. Gap check: Wikipedia's Spohr and Farrenc work lists and the IMSLP listings turned up nothing in scope that IMSLP lacks (Farrenc's Sextet Op. 40 and Spohr's Op. 52 have no strings; Spohr's Op. 103 songs, Schubert's voice-and-obbligato pieces are vocal repertoire). The nine Spohr and Schubert entries in the violin catalogue (ids 540, 554-557, 559-561, 4122) are duos for two violins and the Violinschule, so none is cross-listed. Titles follow IMSLP and Wikipedia where Marco Polo's track list differs: Op. 4 No. 2 is G minor (Marco Polo: C minor) and Op. 45 No. 3 is F major (Marco Polo: F minor). Schubert's D. 8 (IMSLP: two violins, two violas, cello) is also listed as D. 8a in the complete quartet cycles and played by two-cello quintet teams; the entry stays a five-player string quintet, medium confidence. HAND EDIT (orchestrator, 2026-10-17): moved to skipped on the owner's ruling (arrangements by another hand and doubtful attributions are out): Trio for Violin, Cello and Harp, WoO 28."
 }
