@@ -1721,47 +1721,6 @@
  {
   "slice": "m03_baroque-loeillet-ravenscroft",
   "work": {
-   "composer": "Kühnel, August",
-   "title": "Sonatina à due No. 5 in C minor",
-   "aka": [
-    "Kühnel, Sonatina ò Partita No. 5"
-   ],
-   "instruments": {
-    "viola-da-gamba": 2,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": "Sonate ò Partite ad una ò due Viole da Gamba (1698)",
-   "year": "1698",
-   "minutes": 11,
-   "notes": "Sonatina for two violas da gamba over continuo; dance movements with divisions",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Bass-viol duet with divisions and double stops, somewhat lighter than the sonatas; about ABRSM 7",
-   "hardest_part_guess": "viola-da-gamba 1",
-   "imslpPage": "14 Sonate ò Partite (Kühnel, August)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Freek Borstlap, \"Kühnel: Viola da Gamba Sonatas\", Brilliant Classics (2014), Sonate No. 5 (10:44)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/14_Sonate_ò_Partite_(Kühnel,_August)",
-    "https://www.deezer.com/album/7454829"
-   ],
-   "confidence": "low"
-  }
- },
- {
-  "slice": "m03_baroque-loeillet-ravenscroft",
-  "work": {
    "composer": "Brade, William",
    "title": "Paduana, Galliard and Coranta, NPGCAC 9",
    "aka": [
@@ -1802,47 +1761,6 @@
     "https://imslp.org/wiki/Paduana,_Galliard_and_Coranta,_NPGCAC_9_(Brade,_William)",
     "https://www.deezer.com/album/581136611",
     "https://www.deezer.com/album/7058015"
-   ],
-   "confidence": "low"
-  }
- },
- {
-  "slice": "m03_baroque-loeillet-ravenscroft",
-  "work": {
-   "composer": "Stölzel, Gottfried Heinrich",
-   "title": "Sonata a 4 in F major, IGS 168",
-   "aka": [],
-   "instruments": {
-    "oboe": 1,
-    "horn": 1,
-    "violin": 1,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": null,
-   "notes": "Quartet sonata for oboe, horn, violin and continuo in three movements (Andante, Adagio, Vivace)",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Horn and oboe writing about ABRSM 7-8; the violin part is moderate",
-   "hardest_part_guess": "horn",
-   "imslpPage": "Sonata a 4 in F major, IGS 168 (Stölzel, Gottfried Heinrich)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "IMSLP links a commercial recording; Epoca Barocca, \"Stölzel: Quadri di Dresda e Bruxelles\", CPO (2013): Quadro No. 8 has the same movement markings (Andante, Adagio, Vivace), but the listing gives no IGS numbers",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Sonata_a_4_in_F_major,_IGS_168_(Stölzel,_Gottfried_Heinrich)",
-    "https://www.deezer.com/album/584483542"
    ],
    "confidence": "low"
   }
@@ -7951,6 +7869,93 @@
    ],
    "confidence": "medium",
    "gap": true
+  }
+ },
+ {
+  "slice": "m03_baroque-loeillet-ravenscroft",
+  "why": "matched to its recording by key, movement count and length only; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Ravenscroft, John",
+   "title": "Trio Sonata in A major, Op. 1 No. 6",
+   "aka": [
+    "Ravenscroft, Sonate a trè Op. 1 No. 6"
+   ],
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Trio Sonatas, Op. 1",
+   "year": "1695",
+   "minutes": 6,
+   "notes": "Roman church sonata in four short movements (Largo, Allegro, Grave, Allegro) for two violins and continuo",
+   "popularity": "lesser-known",
+   "level_guess": 2,
+   "level_basis": "Corellian church sonata in short movements; like Corelli's Op. 1 (2); not graded from the score",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "Trio Sonata in A major, Op.1 No.6 (Ravenscroft, John)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Alte Musik Köln with Léon Berben, \"Roma\", Myrios Classics (2009): \"Sonata Sesta in A Major\", four movements, 5:33; matched to Op. 1 No. 6 by key, movement count and length (the streaming titles do not name the composer)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_A_major,_Op.1_No.6_(Ravenscroft,_John)",
+    "https://www.deezer.com/album/470983665",
+    "https://music.apple.com/us/album/roma/1700428109"
+   ],
+   "confidence": "medium"
+  }
+ },
+ {
+  "slice": "m03_baroque-loeillet-ravenscroft",
+  "why": "also attributed to Buxtehude (BuxWV Anh. 5): doubtful attribution; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Nicolai, Johann Michael",
+   "title": "Sonata à 2 in D minor",
+   "aka": [
+    "Sonata à 2 in D minor, BuxWV Anh. 5 (attributed to Buxtehude)"
+   ],
+   "instruments": {
+    "violin": 1,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "short",
+   "set": null,
+   "year": "",
+   "minutes": 3,
+   "notes": "Violin and bass viol over continuo; Düben Collection IMHS 5:6a, also attributed to Buxtehude (BuxWV Anh. 5)",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Stylus phantasticus violin and gamba figuration, like Nicolai's trio sonatas (4); about ABRSM 7; not graded from the score",
+   "hardest_part_guess": "violin",
+   "imslpPage": "Sonata à 2 in D minor (Nicolai, Johann Michael)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Kirchheimer DübenConsort, \"Nunc Dimittis: Music from the Düben Collection\", Passacaille/Deutschlandradio (2020), track 7: \"Sonata à 2 in D Minor, Düben, IMHS 5:6a\" (3:18); found through Apple's composer search for Nicolai",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Sonata_à_2_in_D_minor_(Nicolai,_Johann_Michael)",
+    "https://www.deezer.com/album/178184412",
+    "https://itunes.apple.com/lookup?id=1535213365&entity=song"
+   ],
+   "confidence": "medium"
   }
  }
 ]

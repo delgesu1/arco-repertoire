@@ -192,6 +192,14 @@
    "gender": "M",
    "era": "baroque",
    "in_catalogue": false
+  },
+  {
+   "name": "Stölzel, Gottfried Heinrich",
+   "dates": "1690–1749",
+   "nationality": "German",
+   "gender": "M",
+   "era": "baroque",
+   "in_catalogue": false
   }
  ],
  "works": [
@@ -1221,6 +1229,48 @@
    "sources": [
     "https://imslp.org/wiki/Sonata_à_2_in_C_major_(Nicolai,_Johann_Michael)",
     "https://www.deezer.com/album/1018758671"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Nicolai, Johann Michael",
+   "title": "Sonata à 2 in G major",
+   "aka": [],
+   "instruments": {
+    "violin": 1,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {
+    "viola-da-gamba": [
+     "trombone"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "short",
+   "set": null,
+   "year": "",
+   "minutes": 3,
+   "notes": "Violin and bass viol (or trombone) over continuo; Düben Collection IMHS 5:6b",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Stylus phantasticus violin and gamba figuration, like Nicolai's trio sonatas (4); about ABRSM 7; not graded from the score",
+   "hardest_part_guess": "violin",
+   "imslpPage": "Sonata à 2 in G major (Nicolai, Johann Michael)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Kirchheimer DübenConsort, \"Nunc Dimittis: Music from the Düben Collection\", Passacaille/Deutschlandradio (2020), track 11: \"Sonata à 2 in G Major, Düben, IMHS 5:6b\" (2:52); found through Apple's composer search for Nicolai",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Sonata_à_2_in_G_major_(Nicolai,_Johann_Michael)",
+    "https://www.deezer.com/album/178184412",
+    "https://itunes.apple.com/lookup?id=1535213365&entity=song"
    ],
    "confidence": "medium"
   },
@@ -3488,6 +3538,42 @@
    "sources": [
     "https://imslp.org/wiki/Sonata_à_due_in_E_minor_(Kühnel,_August)",
     "https://www.deezer.com/album/6213305",
+    "https://www.deezer.com/album/7454829"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Kühnel, August",
+   "title": "Sonatina à due No. 5 in C minor",
+   "aka": [],
+   "instruments": {
+    "viola-da-gamba": 2,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Sonate ò Partite ad una ò due Viole da Gamba (1698)",
+   "year": "1698",
+   "minutes": 11,
+   "notes": "Sonatina for two violas da gamba over continuo; seven-movement serenata ending with a Retirata",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Bass-viol duet with divisions and double stops, somewhat lighter than the sonatas; about ABRSM 7",
+   "hardest_part_guess": "viola-da-gamba 1",
+   "imslpPage": "14 Sonate ò Partite (Kühnel, August)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Freek Borstlap, Ivanka Neeleman, Gesina Liedmeier, \"Kühnel: Viola da Gamba Sonatas\", Brilliant Classics (2014), Sonate No. 5 (Serenata: Sonatina, Entrata, Aria, Gavotta, Sarabande, Giga, Retirata; 10:44)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/14_Sonate_ò_Partite_(Kühnel,_August)",
     "https://www.deezer.com/album/7454829"
    ],
    "confidence": "medium"
@@ -5810,6 +5896,375 @@
     "https://www.deezer.com/album/584538672"
    ],
    "confidence": "high"
+  },
+  {
+   "composer": "Stölzel, Gottfried Heinrich",
+   "title": "Sonata a 4 No. 1 in F major",
+   "aka": [
+    "Stölzel, Quadro No. 1 (Dresden)",
+    "8 Sonatas à 4 in F major, Sonata No. 1"
+   ],
+   "instruments": {
+    "oboe": 1,
+    "horn": 1,
+    "violin": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Eight Sonatas à 4 in F major (Dresden)",
+   "year": "",
+   "minutes": 7,
+   "notes": "Dresden quadro for oboe, horn, violin and continuo in three movements",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Dresden court quadro: natural horn and oboe parts about ABRSM 7, violin part easier; not graded from the score",
+   "hardest_part_guess": "horn",
+   "imslpPage": "8 Sonatas à 4 in F major (Stölzel, Gottfried Heinrich)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Epoca Barocca, \"Stölzel: Quadri di Dresda e Bruxelles\", CPO (2013), Quadro No. 1 (6:36); also Xenia Löffler and others, \"The Oboe in Dresden\", Accent (2019), \"8 Sonatas à 4 in F Major, Sonata No. 1\" (6:35)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_à_4_in_F_major_(Stölzel,_Gottfried_Heinrich)",
+    "https://www.deezer.com/album/584483542",
+    "https://www.deezer.com/album/579231381"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Stölzel, Gottfried Heinrich",
+   "title": "Sonata a 4 No. 2 in F major",
+   "aka": [
+    "Stölzel, Quadro No. 2 (Dresden)",
+    "8 Sonatas à 4 in F major, Sonata No. 2"
+   ],
+   "instruments": {
+    "oboe": 1,
+    "horn": 1,
+    "violin": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Eight Sonatas à 4 in F major (Dresden)",
+   "year": "",
+   "minutes": 6,
+   "notes": "Dresden quadro for oboe, horn, violin and continuo in three movements",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Dresden court quadro: natural horn and oboe parts about ABRSM 7, violin part easier; not graded from the score",
+   "hardest_part_guess": "horn",
+   "imslpPage": "8 Sonatas à 4 in F major (Stölzel, Gottfried Heinrich)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Epoca Barocca, \"Stölzel: Quadri di Dresda e Bruxelles\", CPO (2013), Quadro No. 2 (6:26)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_à_4_in_F_major_(Stölzel,_Gottfried_Heinrich)",
+    "https://www.deezer.com/album/584483542"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Stölzel, Gottfried Heinrich",
+   "title": "Sonata a 4 No. 3 in F major",
+   "aka": [
+    "Stölzel, Quadro No. 3 (Dresden)",
+    "8 Sonatas à 4 in F major, Sonata No. 3"
+   ],
+   "instruments": {
+    "oboe": 1,
+    "horn": 1,
+    "violin": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Eight Sonatas à 4 in F major (Dresden)",
+   "year": "",
+   "minutes": 4,
+   "notes": "Dresden quadro for oboe, horn, violin and continuo in three movements",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Dresden court quadro: natural horn and oboe parts about ABRSM 7, violin part easier; not graded from the score",
+   "hardest_part_guess": "horn",
+   "imslpPage": "8 Sonatas à 4 in F major (Stölzel, Gottfried Heinrich)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Epoca Barocca, \"Stölzel: Quadri di Dresda e Bruxelles\", CPO (2013), Quadro No. 3 (3:56)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_à_4_in_F_major_(Stölzel,_Gottfried_Heinrich)",
+    "https://www.deezer.com/album/584483542"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Stölzel, Gottfried Heinrich",
+   "title": "Sonata a 4 No. 4 in F major",
+   "aka": [
+    "Stölzel, Quadro No. 4 (Dresden)",
+    "8 Sonatas à 4 in F major, Sonata No. 4"
+   ],
+   "instruments": {
+    "oboe": 1,
+    "horn": 1,
+    "violin": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Eight Sonatas à 4 in F major (Dresden)",
+   "year": "",
+   "minutes": 6,
+   "notes": "Dresden quadro for oboe, horn, violin and continuo in three movements",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Dresden court quadro: natural horn and oboe parts about ABRSM 7, violin part easier; not graded from the score",
+   "hardest_part_guess": "horn",
+   "imslpPage": "8 Sonatas à 4 in F major (Stölzel, Gottfried Heinrich)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Epoca Barocca, \"Stölzel: Quadri di Dresda e Bruxelles\", CPO (2013), Quadro No. 4 (5:35)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_à_4_in_F_major_(Stölzel,_Gottfried_Heinrich)",
+    "https://www.deezer.com/album/584483542"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Stölzel, Gottfried Heinrich",
+   "title": "Sonata a 4 No. 5 in F major",
+   "aka": [
+    "Stölzel, Quadro No. 5 (Dresden)",
+    "8 Sonatas à 4 in F major, Sonata No. 5"
+   ],
+   "instruments": {
+    "oboe": 1,
+    "horn": 1,
+    "violin": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Eight Sonatas à 4 in F major (Dresden)",
+   "year": "",
+   "minutes": 4,
+   "notes": "Dresden quadro for oboe, horn, violin and continuo in three movements",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Dresden court quadro: natural horn and oboe parts about ABRSM 7, violin part easier; not graded from the score",
+   "hardest_part_guess": "horn",
+   "imslpPage": "8 Sonatas à 4 in F major (Stölzel, Gottfried Heinrich)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Epoca Barocca, \"Stölzel: Quadri di Dresda e Bruxelles\", CPO (2013), Quadro No. 5 (4:28)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_à_4_in_F_major_(Stölzel,_Gottfried_Heinrich)",
+    "https://www.deezer.com/album/584483542"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Stölzel, Gottfried Heinrich",
+   "title": "Sonata a 4 No. 6 in F major",
+   "aka": [
+    "Stölzel, Quadro No. 6 (Dresden)",
+    "8 Sonatas à 4 in F major, Sonata No. 6"
+   ],
+   "instruments": {
+    "oboe": 1,
+    "horn": 1,
+    "violin": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Eight Sonatas à 4 in F major (Dresden)",
+   "year": "",
+   "minutes": 5,
+   "notes": "Dresden quadro for oboe, horn, violin and continuo in three movements",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Dresden court quadro: natural horn and oboe parts about ABRSM 7, violin part easier; not graded from the score",
+   "hardest_part_guess": "horn",
+   "imslpPage": "8 Sonatas à 4 in F major (Stölzel, Gottfried Heinrich)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Epoca Barocca, \"Stölzel: Quadri di Dresda e Bruxelles\", CPO (2013), Quadro No. 6 (5:03)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_à_4_in_F_major_(Stölzel,_Gottfried_Heinrich)",
+    "https://www.deezer.com/album/584483542"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Stölzel, Gottfried Heinrich",
+   "title": "Sonata a 4 No. 7 in F major",
+   "aka": [
+    "Stölzel, Quadro No. 7 (Dresden)",
+    "8 Sonatas à 4 in F major, Sonata No. 7"
+   ],
+   "instruments": {
+    "oboe": 1,
+    "horn": 1,
+    "violin": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Eight Sonatas à 4 in F major (Dresden)",
+   "year": "",
+   "minutes": 6,
+   "notes": "Dresden quadro for oboe, horn, violin and continuo in three movements",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Dresden court quadro: natural horn and oboe parts about ABRSM 7, violin part easier; not graded from the score",
+   "hardest_part_guess": "horn",
+   "imslpPage": "8 Sonatas à 4 in F major (Stölzel, Gottfried Heinrich)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Epoca Barocca, \"Stölzel: Quadri di Dresda e Bruxelles\", CPO (2013), Quadro No. 7 (5:55)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_à_4_in_F_major_(Stölzel,_Gottfried_Heinrich)",
+    "https://www.deezer.com/album/584483542"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Stölzel, Gottfried Heinrich",
+   "title": "Sonata a 4 No. 8 in F major",
+   "aka": [
+    "Stölzel, Quadro No. 8 (Dresden)",
+    "8 Sonatas à 4 in F major, Sonata No. 8"
+   ],
+   "instruments": {
+    "oboe": 1,
+    "horn": 1,
+    "violin": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Eight Sonatas à 4 in F major (Dresden)",
+   "year": "",
+   "minutes": 6,
+   "notes": "Dresden quadro for oboe, horn, violin and continuo in three movements",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Dresden court quadro: natural horn and oboe parts about ABRSM 7, violin part easier; not graded from the score",
+   "hardest_part_guess": "horn",
+   "imslpPage": "8 Sonatas à 4 in F major (Stölzel, Gottfried Heinrich)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Epoca Barocca, \"Stölzel: Quadri di Dresda e Bruxelles\", CPO (2013), Quadro No. 8 (6:18)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_à_4_in_F_major_(Stölzel,_Gottfried_Heinrich)",
+    "https://www.deezer.com/album/584483542"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Stölzel, Gottfried Heinrich",
+   "title": "Sonata a 4 in F major, IGS 168",
+   "aka": [
+    "Stölzel, Quadro \"Bruxelles\" (B-Bc 7108)"
+   ],
+   "instruments": {
+    "oboe": 1,
+    "horn": 1,
+    "violin": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 6,
+   "notes": "Brussels quadro for oboe, horn, violin and continuo in three movements",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Dresden-style quadro: natural horn and oboe parts about ABRSM 7, violin part easier; not graded from the score",
+   "hardest_part_guess": "horn",
+   "imslpPage": "Sonata a 4 in F major, IGS 168 (Stölzel, Gottfried Heinrich)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Epoca Barocca, \"Stölzel: Quadri di Dresda e Bruxelles\", CPO (2013), Quadro \"Bruxelles\" (5:48); matched to IGS 168 through the Brussels manuscript (B-Bc 7108) on IMSLP's page",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Sonata_a_4_in_F_major,_IGS_168_(Stölzel,_Gottfried_Heinrich)",
+    "https://www.deezer.com/album/584483542"
+   ],
+   "confidence": "medium"
   }
  ],
  "skipped": [
@@ -5843,7 +6298,7 @@
    "imslpPage": "Trio Sonata in A major, Op.2 No.3 (Loeillet, John)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two-violin sonatas of Op. 2: Deezer album and track searches (Loeillet; 4 albums) and Apple song search found recordings only of the flute/oboe sonatas (Epoca Barocca, CPO 2020); no modern performance found"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Loeillet; John Loeillet; Loeillet trio sonatas; Loeillet London sonatas violins) and track searches (Loeillet Op. 2; sonata violins; trio sonata; John Loeillet sonata a tre), albums opened; MusicBrainz artist search for John Loeillet returned nothing; Apple composer search (50 hits). Only flute, oboe and recorder sonatas are recorded (Epoca Barocca, CPO 2020: Op. 1 Nos. 1, 3, 5 and Op. 2 Nos. 2, 4, 6; La Caccia, Musica Ficta 2006; Les Goûts-Authentique, Etcetera 2012); no recording of the two-violin sonatas"
   },
   {
    "composer": "Loeillet, John",
@@ -5851,7 +6306,7 @@
    "imslpPage": "Trio Sonata in B-flat major, Op.2 No.1 (Loeillet, John)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two-violin sonatas of Op. 2: Deezer album and track searches (Loeillet; 4 albums) and Apple song search found recordings only of the flute/oboe sonatas (Epoca Barocca, CPO 2020); no modern performance found"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Loeillet; John Loeillet; Loeillet trio sonatas; Loeillet London sonatas violins) and track searches (Loeillet Op. 2; sonata violins; trio sonata; John Loeillet sonata a tre), albums opened; MusicBrainz artist search for John Loeillet returned nothing; Apple composer search (50 hits). Only flute, oboe and recorder sonatas are recorded (Epoca Barocca, CPO 2020: Op. 1 Nos. 1, 3, 5 and Op. 2 Nos. 2, 4, 6; La Caccia, Musica Ficta 2006; Les Goûts-Authentique, Etcetera 2012); no recording of the two-violin sonatas"
   },
   {
    "composer": "Loeillet, John",
@@ -5859,7 +6314,7 @@
    "imslpPage": "Trio Sonata in D major Op.2 No.11 (Loeillet, John)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two-violin sonatas of Op. 2: Deezer album and track searches (Loeillet; 4 albums) and Apple song search found recordings only of the flute/oboe sonatas (Epoca Barocca, CPO 2020); no modern performance found"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Loeillet; John Loeillet; Loeillet trio sonatas; Loeillet London sonatas violins) and track searches (Loeillet Op. 2; sonata violins; trio sonata; John Loeillet sonata a tre), albums opened; MusicBrainz artist search for John Loeillet returned nothing; Apple composer search (50 hits). Only flute, oboe and recorder sonatas are recorded (Epoca Barocca, CPO 2020: Op. 1 Nos. 1, 3, 5 and Op. 2 Nos. 2, 4, 6; La Caccia, Musica Ficta 2006; Les Goûts-Authentique, Etcetera 2012); no recording of the two-violin sonatas"
   },
   {
    "composer": "Loeillet, John",
@@ -5867,7 +6322,7 @@
    "imslpPage": "Trio Sonata in D major, Op.2 No.7 (Loeillet, John)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two-violin sonatas of Op. 2: Deezer album and track searches (Loeillet; 4 albums) and Apple song search found recordings only of the flute/oboe sonatas (Epoca Barocca, CPO 2020); no modern performance found"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Loeillet; John Loeillet; Loeillet trio sonatas; Loeillet London sonatas violins) and track searches (Loeillet Op. 2; sonata violins; trio sonata; John Loeillet sonata a tre), albums opened; MusicBrainz artist search for John Loeillet returned nothing; Apple composer search (50 hits). Only flute, oboe and recorder sonatas are recorded (Epoca Barocca, CPO 2020: Op. 1 Nos. 1, 3, 5 and Op. 2 Nos. 2, 4, 6; La Caccia, Musica Ficta 2006; Les Goûts-Authentique, Etcetera 2012); no recording of the two-violin sonatas"
   },
   {
    "composer": "Loeillet, John",
@@ -5875,7 +6330,7 @@
    "imslpPage": "Trio Sonata in G major, Op.2 No.12 (Loeillet, John)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two-violin sonatas of Op. 2: Deezer album and track searches (Loeillet; 4 albums) and Apple song search found recordings only of the flute/oboe sonatas (Epoca Barocca, CPO 2020); no modern performance found"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Loeillet; John Loeillet; Loeillet trio sonatas; Loeillet London sonatas violins) and track searches (Loeillet Op. 2; sonata violins; trio sonata; John Loeillet sonata a tre), albums opened; MusicBrainz artist search for John Loeillet returned nothing; Apple composer search (50 hits). Only flute, oboe and recorder sonatas are recorded (Epoca Barocca, CPO 2020: Op. 1 Nos. 1, 3, 5 and Op. 2 Nos. 2, 4, 6; La Caccia, Musica Ficta 2006; Les Goûts-Authentique, Etcetera 2012); no recording of the two-violin sonatas"
   },
   {
    "composer": "Loeillet, John",
@@ -5883,7 +6338,7 @@
    "imslpPage": "Trio Sonata in G minor, Op.2 No.5 (Loeillet, John)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two-violin sonatas of Op. 2: Deezer album and track searches (Loeillet; 4 albums) and Apple song search found recordings only of the flute/oboe sonatas (Epoca Barocca, CPO 2020); no modern performance found"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Loeillet; John Loeillet; Loeillet trio sonatas; Loeillet London sonatas violins) and track searches (Loeillet Op. 2; sonata violins; trio sonata; John Loeillet sonata a tre), albums opened; MusicBrainz artist search for John Loeillet returned nothing; Apple composer search (50 hits). Only flute, oboe and recorder sonatas are recorded (Epoca Barocca, CPO 2020: Op. 1 Nos. 1, 3, 5 and Op. 2 Nos. 2, 4, 6; La Caccia, Musica Ficta 2006; Les Goûts-Authentique, Etcetera 2012); no recording of the two-violin sonatas"
   },
   {
    "composer": "Loeillet, John",
@@ -5891,7 +6346,7 @@
    "imslpPage": "Trio Sonata in G minor, Op.2 No.9 (Loeillet, John)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two-violin sonatas of Op. 2: Deezer album and track searches (Loeillet; 4 albums) and Apple song search found recordings only of the flute/oboe sonatas (Epoca Barocca, CPO 2020); no modern performance found"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Loeillet; John Loeillet; Loeillet trio sonatas; Loeillet London sonatas violins) and track searches (Loeillet Op. 2; sonata violins; trio sonata; John Loeillet sonata a tre), albums opened; MusicBrainz artist search for John Loeillet returned nothing; Apple composer search (50 hits). Only flute, oboe and recorder sonatas are recorded (Epoca Barocca, CPO 2020: Op. 1 Nos. 1, 3, 5 and Op. 2 Nos. 2, 4, 6; La Caccia, Musica Ficta 2006; Les Goûts-Authentique, Etcetera 2012); no recording of the two-violin sonatas"
   },
   {
    "composer": "Ravenscroft, John",
@@ -5899,7 +6354,7 @@
    "imslpPage": "12 Trio Sonatas, Op.1 (Ravenscroft, John)",
    "works": 8,
    "reason": "not performed or recorded",
-   "evidence": "Sonate a tre, Rome 1695 (Mascardi); Deezer album/track and Apple song searches (Ravenscroft, Giovanni Ravenscroft, sonata a tre) found no recording"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz lists 5 works for John Ravenscroft (1665-1697), all of Op. 1 No. 8 (London Baroque, BIS); Deezer album searches (Ravenscroft; Ravenscroft trio sonata; Trio Sonata in 18th-Century England) and 4 track searches found nothing; Apple composer search (43 hits) adds only Op. 1 No. 6 (Alte Musik Köln, Myrios 2009, now kept). IMSLP's Op. 1 No. 3 page shows only synthesised audio and a recorder arrangement, so its recorded flag is not a commercial recording"
   },
   {
    "composer": "Ravenscroft, John",
@@ -5907,15 +6362,7 @@
    "imslpPage": "6 Trio Sonatas, Op.2 (Ravenscroft, John)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Deezer album/track searches (Ravenscroft trio sonata, sonata a tre) and Apple song search found no recording of any Ravenscroft sonata (IMSLP flags Op. 1 No. 3 as recorded; not confirmed); weak because of namesakes"
-  },
-  {
-   "composer": "Ravenscroft, John",
-   "title": "Trio Sonata in A major, Op.1 No.6",
-   "imslpPage": "Trio Sonata in A major, Op.1 No.6 (Ravenscroft, John)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Deezer album/track searches (Ravenscroft trio sonata, sonata a tre) and Apple song search found no recording of any Ravenscroft sonata (IMSLP flags Op. 1 No. 3 as recorded; not confirmed); weak because of namesakes"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz lists 5 works for John Ravenscroft (1665-1697), all of Op. 1 No. 8 (London Baroque, BIS); Deezer album searches (Ravenscroft; Ravenscroft trio sonata; Trio Sonata in 18th-Century England) and 4 track searches found nothing; Apple composer search (43 hits) adds only Op. 1 No. 6 (Alte Musik Köln, Myrios 2009, now kept). IMSLP's Op. 1 No. 3 page shows only synthesised audio and a recorder arrangement, so its recorded flag is not a commercial recording"
   },
   {
    "composer": "Ravenscroft, John",
@@ -5923,7 +6370,7 @@
    "imslpPage": "Trio Sonata in B minor, Op.1 No.3 (Ravenscroft, John)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer album/track searches (Ravenscroft trio sonata, sonata a tre) and Apple song search found no recording of any Ravenscroft sonata (IMSLP flags Op. 1 No. 3 as recorded; not confirmed); weak because of namesakes"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz lists 5 works for John Ravenscroft (1665-1697), all of Op. 1 No. 8 (London Baroque, BIS); Deezer album searches (Ravenscroft; Ravenscroft trio sonata; Trio Sonata in 18th-Century England) and 4 track searches found nothing; Apple composer search (43 hits) adds only Op. 1 No. 6 (Alte Musik Köln, Myrios 2009, now kept). IMSLP's Op. 1 No. 3 page shows only synthesised audio and a recorder arrangement, so its recorded flag is not a commercial recording"
   },
   {
    "composer": "Ravenscroft, John",
@@ -5931,7 +6378,7 @@
    "imslpPage": "Trio Sonata in C major, Op.1 No.1 (Ravenscroft, John)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer album/track searches (Ravenscroft trio sonata, sonata a tre) and Apple song search found no recording of any Ravenscroft sonata (IMSLP flags Op. 1 No. 3 as recorded; not confirmed); weak because of namesakes"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz lists 5 works for John Ravenscroft (1665-1697), all of Op. 1 No. 8 (London Baroque, BIS); Deezer album searches (Ravenscroft; Ravenscroft trio sonata; Trio Sonata in 18th-Century England) and 4 track searches found nothing; Apple composer search (43 hits) adds only Op. 1 No. 6 (Alte Musik Köln, Myrios 2009, now kept). IMSLP's Op. 1 No. 3 page shows only synthesised audio and a recorder arrangement, so its recorded flag is not a commercial recording"
   },
   {
    "composer": "Nicolai, Johann Michael",
@@ -5939,7 +6386,7 @@
    "imslpPage": "12 Sonatas, Teil 1 (Nicolai, Johann Michael)",
    "works": 5,
    "reason": "not performed or recorded",
-   "evidence": "Passamezzo Moderno (Deezer 10673112) records Nos. 1, 2, 4, 5, 8, 10, 11 a 3 only; no other recording found"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Nicolai sonata; Johann Michael Nicolai; Nicolai sonate a 3) and track searches (sonata a 3 / a 4 / arie a 3 / a 2), MusicBrainz (3 works: Sonata a 2 in A minor and C major, Sonata a 6) and Apple composer search (50 hits): Passamezzo Moderno (Deezer 10673112) records Nos. 1, 2, 4, 5, 8, 10, 11 only; Nos. 3, 6, 7, 9, 12 are on no disc found"
   },
   {
    "composer": "Nicolai, Johann Michael",
@@ -5947,23 +6394,7 @@
    "imslpPage": "12 Arie à 3 (Nicolai, Johann Michael)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer albums (L'Achéron, Ricercar; Passamezzo Moderno) and Apple search: no recording of this piece found (L'Achéron's \"Suite a 2 in D minor\" is a different, sonata-less work; \"Sonata a 4\" tracks on Passamezzo Moderno could not be tied to Partiturbuch Ludwig no. 68); manuscript-only"
-  },
-  {
-   "composer": "Nicolai, Johann Michael",
-   "title": "Sonata à 2 in D minor",
-   "imslpPage": "Sonata à 2 in D minor (Nicolai, Johann Michael)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Deezer albums (L'Achéron, Ricercar; Passamezzo Moderno) and Apple search: no recording of this piece found (L'Achéron's \"Suite a 2 in D minor\" is a different, sonata-less work; \"Sonata a 4\" tracks on Passamezzo Moderno could not be tied to Partiturbuch Ludwig no. 68); manuscript-only"
-  },
-  {
-   "composer": "Nicolai, Johann Michael",
-   "title": "Sonata à 2 in G major",
-   "imslpPage": "Sonata à 2 in G major (Nicolai, Johann Michael)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Deezer albums (L'Achéron, Ricercar; Passamezzo Moderno) and Apple search: no recording of this piece found (L'Achéron's \"Suite a 2 in D minor\" is a different, sonata-less work; \"Sonata a 4\" tracks on Passamezzo Moderno could not be tied to Partiturbuch Ludwig no. 68); manuscript-only"
+   "evidence": "RECHECK 2026-10-17: Same searches as for Teil 1 (Deezer, MusicBrainz, Apple composer search): no recording of the Arie à 3 (bassoon, 2 violins, continuo; manuscript) found"
   },
   {
    "composer": "Nicolai, Johann Michael",
@@ -5971,7 +6402,7 @@
    "imslpPage": "Sonata à 4 (Nicolai, Johann Michael)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer albums (L'Achéron, Ricercar; Passamezzo Moderno) and Apple search: no recording of this piece found (L'Achéron's \"Suite a 2 in D minor\" is a different, sonata-less work; \"Sonata a 4\" tracks on Passamezzo Moderno could not be tied to Partiturbuch Ludwig no. 68); manuscript-only"
+   "evidence": "RECHECK 2026-10-17: Same searches: Passamezzo Moderno's 'Sonata a 4' (10:22) and 'Sonata a 4 detta la Carolietta' (7:09) cannot be tied to IMSLP's Sonata à 4 (2 violins, viol, bassoon, continuo; Partiturbuch Ludwig 1662); not kept"
   },
   {
    "composer": "Brade, William",
@@ -6103,19 +6534,11 @@
   },
   {
    "composer": "Stölzel, Gottfried Heinrich",
-   "title": "8 Sonatas à 4 in F major (oboe, horn, violin, continuo)",
-   "imslpPage": "8 Sonatas à 4 in F major (Stölzel, Gottfried Heinrich)",
-   "works": 8,
-   "reason": "not performed or recorded",
-   "evidence": "Epoca Barocca (CPO 2013) records eight \"Quadro\" sonatas without keys or catalogue numbers, so the eight F-major sonatas for oboe, horn and violin could not be tied to it"
-  },
-  {
-   "composer": "Stölzel, Gottfried Heinrich",
    "title": "Trio Sonata in B-flat major, Am.B 411a (10)",
    "imslpPage": "Trio Sonata in B-flat major, Am.B 411a (10) (Stölzel, Gottfried Heinrich)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer searches (Stölzel; NeoBarock \"Kammermusik\", Epoca Barocca \"Quadri\"): C minor, B-flat and E minor trios for two violins are recorded but cannot be tied to this manuscript number; others not recorded"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Stölzel; Stoelzel; Stölzel Triosonaten) and track searches (triosonate; sonata; Am.B 411), MusicBrainz (all 319 works; only Sonata no. 1 of the Dresden set has a recording) and Apple composer search (200 hits). NeoBarock (ambitus 2020, Deezer 166034962) plays a C minor and a B-flat trio for two violins, an E minor quadro with cello and a D major quadro, but IMSLP's manuscript pages give only keys and no movements (Am.B 411a (6) '2 oboes (or 2 violins)', (10) '2 treble instruments'), a second C minor trio exists (Dresden Mus. 2450-Q-6) and the E minor on IMSLP is for flute and violin; not tied, the booklet would settle it"
   },
   {
    "composer": "Stölzel, Gottfried Heinrich",
@@ -6123,7 +6546,7 @@
    "imslpPage": "Trio Sonata in C minor (Stölzel, Gottfried Heinrich)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer searches (Stölzel; NeoBarock \"Kammermusik\", Epoca Barocca \"Quadri\"): C minor, B-flat and E minor trios for two violins are recorded but cannot be tied to this manuscript number; others not recorded"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Stölzel; Stoelzel; Stölzel Triosonaten) and track searches (triosonate; sonata; Am.B 411), MusicBrainz (all 319 works; only Sonata no. 1 of the Dresden set has a recording) and Apple composer search (200 hits). NeoBarock (ambitus 2020, Deezer 166034962) plays a C minor and a B-flat trio for two violins, an E minor quadro with cello and a D major quadro, but IMSLP's manuscript pages give only keys and no movements (Am.B 411a (6) '2 oboes (or 2 violins)', (10) '2 treble instruments'), a second C minor trio exists (Dresden Mus. 2450-Q-6) and the E minor on IMSLP is for flute and violin; not tied, the booklet would settle it"
   },
   {
    "composer": "Stölzel, Gottfried Heinrich",
@@ -6131,7 +6554,7 @@
    "imslpPage": "Trio Sonata in C minor, Am.B 411a (6) (Stölzel, Gottfried Heinrich)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer searches (Stölzel; NeoBarock \"Kammermusik\", Epoca Barocca \"Quadri\"): C minor, B-flat and E minor trios for two violins are recorded but cannot be tied to this manuscript number; others not recorded"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Stölzel; Stoelzel; Stölzel Triosonaten) and track searches (triosonate; sonata; Am.B 411), MusicBrainz (all 319 works; only Sonata no. 1 of the Dresden set has a recording) and Apple composer search (200 hits). NeoBarock (ambitus 2020, Deezer 166034962) plays a C minor and a B-flat trio for two violins, an E minor quadro with cello and a D major quadro, but IMSLP's manuscript pages give only keys and no movements (Am.B 411a (6) '2 oboes (or 2 violins)', (10) '2 treble instruments'), a second C minor trio exists (Dresden Mus. 2450-Q-6) and the E minor on IMSLP is for flute and violin; not tied, the booklet would settle it"
   },
   {
    "composer": "Stölzel, Gottfried Heinrich",
@@ -6139,7 +6562,7 @@
    "imslpPage": "Trio Sonata in E major, Am.B 411a (5) (Stölzel, Gottfried Heinrich)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer searches (Stölzel; NeoBarock \"Kammermusik\", Epoca Barocca \"Quadri\"): C minor, B-flat and E minor trios for two violins are recorded but cannot be tied to this manuscript number; others not recorded"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Stölzel; Stoelzel; Stölzel Triosonaten) and track searches (triosonate; sonata; Am.B 411), MusicBrainz (all 319 works; only Sonata no. 1 of the Dresden set has a recording) and Apple composer search (200 hits). NeoBarock (ambitus 2020, Deezer 166034962) plays a C minor and a B-flat trio for two violins, an E minor quadro with cello and a D major quadro, but IMSLP's manuscript pages give only keys and no movements (Am.B 411a (6) '2 oboes (or 2 violins)', (10) '2 treble instruments'), a second C minor trio exists (Dresden Mus. 2450-Q-6) and the E minor on IMSLP is for flute and violin; not tied, the booklet would settle it"
   },
   {
    "composer": "Stölzel, Gottfried Heinrich",
@@ -6147,7 +6570,7 @@
    "imslpPage": "Trio Sonata in E minor, Am.B 411a (12) (Stölzel, Gottfried Heinrich)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer searches (Stölzel; NeoBarock \"Kammermusik\", Epoca Barocca \"Quadri\"): C minor, B-flat and E minor trios for two violins are recorded but cannot be tied to this manuscript number; others not recorded"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Stölzel; Stoelzel; Stölzel Triosonaten) and track searches (triosonate; sonata; Am.B 411), MusicBrainz (all 319 works; only Sonata no. 1 of the Dresden set has a recording) and Apple composer search (200 hits). NeoBarock (ambitus 2020, Deezer 166034962) plays a C minor and a B-flat trio for two violins, an E minor quadro with cello and a D major quadro, but IMSLP's manuscript pages give only keys and no movements (Am.B 411a (6) '2 oboes (or 2 violins)', (10) '2 treble instruments'), a second C minor trio exists (Dresden Mus. 2450-Q-6) and the E minor on IMSLP is for flute and violin; not tied, the booklet would settle it"
   },
   {
    "composer": "Stölzel, Gottfried Heinrich",
@@ -6155,7 +6578,7 @@
    "imslpPage": "Trio Sonata in G major, Am.B 411a (3) (Stölzel, Gottfried Heinrich)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer searches (Stölzel; NeoBarock \"Kammermusik\", Epoca Barocca \"Quadri\"): C minor, B-flat and E minor trios for two violins are recorded but cannot be tied to this manuscript number; others not recorded"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Stölzel; Stoelzel; Stölzel Triosonaten) and track searches (triosonate; sonata; Am.B 411), MusicBrainz (all 319 works; only Sonata no. 1 of the Dresden set has a recording) and Apple composer search (200 hits). NeoBarock (ambitus 2020, Deezer 166034962) plays a C minor and a B-flat trio for two violins, an E minor quadro with cello and a D major quadro, but IMSLP's manuscript pages give only keys and no movements (Am.B 411a (6) '2 oboes (or 2 violins)', (10) '2 treble instruments'), a second C minor trio exists (Dresden Mus. 2450-Q-6) and the E minor on IMSLP is for flute and violin; not tied, the booklet would settle it"
   },
   {
    "composer": "Pezel, Johann Christoph",
@@ -6259,7 +6682,7 @@
    "imslpPage": "Sonate a trè stromenti con il basso continuo, Op.1 (Torelli, Giuseppe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer searches (Torelli sonate a tre op. 1; concerti da camera op. 2) and Apple song search found no recording of this work (only trumpet sinfonias and the Op. 2 concerti da camera are recorded); manuscript or print without a modern recording"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Torelli sonate a tre; trio sonatas; sonata a tre Op. 1; sinfonie a tre) and track searches (sonata a tre; sonate a tre Op. 1; trio sonata; sonata a 3), MusicBrainz (all 237 works: none is Op. 1 or a trio sonata) and Apple composer search (200 hits): only trumpet sinfonias, concertos and an unattributed 'Sonata a tre in do' on Musica Antiqua Latina's 'Corelli Bolognese' (DHM 2016) that cannot be tied to Op. 1; IMSLP's pages list no recording"
   },
   {
    "composer": "Torelli, Giuseppe",
@@ -6267,7 +6690,7 @@
    "imslpPage": "Trio Sonata in A major, P.A.3.3.25 (Torelli, Giuseppe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer searches (Torelli sonate a tre op. 1; concerti da camera op. 2) and Apple song search found no recording of this work (only trumpet sinfonias and the Op. 2 concerti da camera are recorded); manuscript or print without a modern recording"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Torelli sonate a tre; trio sonatas; sonata a tre Op. 1; sinfonie a tre) and track searches (sonata a tre; sonate a tre Op. 1; trio sonata; sonata a 3), MusicBrainz (all 237 works: none is Op. 1 or a trio sonata) and Apple composer search (200 hits): only trumpet sinfonias, concertos and an unattributed 'Sonata a tre in do' on Musica Antiqua Latina's 'Corelli Bolognese' (DHM 2016) that cannot be tied to Op. 1; IMSLP's pages list no recording"
   },
   {
    "composer": "Torelli, Giuseppe",
@@ -6275,7 +6698,7 @@
    "imslpPage": "Trio Sonata in D major, P.A.3.3.10 (Torelli, Giuseppe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer searches (Torelli sonate a tre op. 1; concerti da camera op. 2) and Apple song search found no recording of this work (only trumpet sinfonias and the Op. 2 concerti da camera are recorded); manuscript or print without a modern recording"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Torelli sonate a tre; trio sonatas; sonata a tre Op. 1; sinfonie a tre) and track searches (sonata a tre; sonate a tre Op. 1; trio sonata; sonata a 3), MusicBrainz (all 237 works: none is Op. 1 or a trio sonata) and Apple composer search (200 hits): only trumpet sinfonias, concertos and an unattributed 'Sonata a tre in do' on Musica Antiqua Latina's 'Corelli Bolognese' (DHM 2016) that cannot be tied to Op. 1; IMSLP's pages list no recording"
   },
   {
    "composer": "Torelli, Giuseppe",
@@ -6283,7 +6706,7 @@
    "imslpPage": "Trio Sonata in D major, P.A.3.3.11 (Torelli, Giuseppe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer searches (Torelli sonate a tre op. 1; concerti da camera op. 2) and Apple song search found no recording of this work (only trumpet sinfonias and the Op. 2 concerti da camera are recorded); manuscript or print without a modern recording"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Torelli sonate a tre; trio sonatas; sonata a tre Op. 1; sinfonie a tre) and track searches (sonata a tre; sonate a tre Op. 1; trio sonata; sonata a 3), MusicBrainz (all 237 works: none is Op. 1 or a trio sonata) and Apple composer search (200 hits): only trumpet sinfonias, concertos and an unattributed 'Sonata a tre in do' on Musica Antiqua Latina's 'Corelli Bolognese' (DHM 2016) that cannot be tied to Op. 1; IMSLP's pages list no recording"
   },
   {
    "composer": "Torelli, Giuseppe",
@@ -6291,7 +6714,7 @@
    "imslpPage": "Trio Sonata in D major, P.A.4.2.2 (Torelli, Giuseppe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer searches (Torelli sonate a tre op. 1; concerti da camera op. 2) and Apple song search found no recording of this work (only trumpet sinfonias and the Op. 2 concerti da camera are recorded); manuscript or print without a modern recording"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Torelli sonate a tre; trio sonatas; sonata a tre Op. 1; sinfonie a tre) and track searches (sonata a tre; sonate a tre Op. 1; trio sonata; sonata a 3), MusicBrainz (all 237 works: none is Op. 1 or a trio sonata) and Apple composer search (200 hits): only trumpet sinfonias, concertos and an unattributed 'Sonata a tre in do' on Musica Antiqua Latina's 'Corelli Bolognese' (DHM 2016) that cannot be tied to Op. 1; IMSLP's pages list no recording"
   },
   {
    "composer": "Torelli, Giuseppe",
@@ -6299,7 +6722,7 @@
    "imslpPage": "Trio Sonata in D minor, P.A.3.3.14 (Torelli, Giuseppe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer searches (Torelli sonate a tre op. 1; concerti da camera op. 2) and Apple song search found no recording of this work (only trumpet sinfonias and the Op. 2 concerti da camera are recorded); manuscript or print without a modern recording"
+   "evidence": "RECHECK 2026-10-17: Deezer album searches (Torelli sonate a tre; trio sonatas; sonata a tre Op. 1; sinfonie a tre) and track searches (sonata a tre; sonate a tre Op. 1; trio sonata; sonata a 3), MusicBrainz (all 237 works: none is Op. 1 or a trio sonata) and Apple composer search (200 hits): only trumpet sinfonias, concertos and an unattributed 'Sonata a tre in do' on Musica Antiqua Latina's 'Corelli Bolognese' (DHM 2016) that cannot be tied to Op. 1; IMSLP's pages list no recording"
   },
   {
    "composer": "Bassani, Giovanni Battista",
@@ -6375,11 +6798,11 @@
   },
   {
    "composer": "Kühnel, August",
-   "title": "14 Sonate ò Partite: Nos. 6-14",
+   "title": "14 Sonate ò Partite: Nos. 7-14",
    "imslpPage": "14 Sonate ò Partite (Kühnel, August)",
-   "works": 9,
-   "reason": "out of scope: solo viola da gamba with continuo (duo), or not recorded",
-   "evidence": "Print is for one or two violas da gamba: IMSLP shows Nos. 1-3 sonatas and Nos. 4-6 sonatinas \"à due\" and Nos. 7-9 \"solo\" (own pages); Nos. 3-5 kept; No. 6 and Nos. 10-14 not shown to be two-gamba works or not recorded"
+   "works": 8,
+   "reason": "out of scope: solo viola da gamba with continuo (duo)",
+   "evidence": "RECHECK 2026-10-17: IMSLP's page gives the second viola da gamba part for Nos. 1-6 only; Nos. 7-9 are 'solo' sonatas (own pages) and Nos. 10-14 solo partitas and an aria"
   },
   {
    "composer": "Lotti, Antonio",
@@ -6539,7 +6962,7 @@
    "imslpPage": "Fantasia (Okeover, John)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer, Apple and MusicBrainz: only an electronic realisation (Tempus Electronic Ensemble, \"Okeover: Volume I\", 2024) and a recorder-consort Fantasia in G minor (\"Anthology of the Recorder\", 2019) found; no viol-consort recording"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Okeover: no match) and track search (Okeover fantasia): only the electronic realisation 'Okeover: Volume I' (Tempus Electronic Ensemble, 2024), which does not meet the floor; earlier Apple and MusicBrainz searches found nothing else; IMSLP's audio is MIDI/synthesised only"
   },
   {
    "composer": "Okeover, John",
@@ -6547,7 +6970,7 @@
    "imslpPage": "Fantasias for 3 Viols (Okeover, John)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Deezer, Apple and MusicBrainz: only an electronic realisation (Tempus Electronic Ensemble, \"Okeover: Volume I\", 2024) and a recorder-consort Fantasia in G minor (\"Anthology of the Recorder\", 2019) found; no viol-consort recording"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Okeover: no match) and track search (Okeover fantasia): only the electronic realisation 'Okeover: Volume I' (Tempus Electronic Ensemble, 2024), which does not meet the floor; earlier Apple and MusicBrainz searches found nothing else; IMSLP's audio is MIDI/synthesised only"
   },
   {
    "composer": "Schein, Johann Hermann",
@@ -6627,7 +7050,7 @@
    "imslpPage": "12 Sinfonie da chiesa, Op.1 (Fioré, Andrea Stefano)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Concerto Classics (Deezer 569812351) records Nos. 2, 3, 5, 6, 8, 11 only; no recording of the other six found on Deezer or Apple"
+   "evidence": "RECHECK 2026-10-17: IMSLP's set page lists the 12 keys. Deezer album and track searches (Fiorè sinfonia da chiesa; Op. 1; Andrea Stefano Fiorè), MusicBrainz (artist found, no works) and Apple composer search (50 hits) find only Concerto Classics (Deezer 569812351: Nos. 2, 3, 5, 6, 8, 11); the other six are on no disc found"
   },
   {
    "composer": "Fritz, Gaspard",
@@ -6659,7 +7082,7 @@
    "imslpPage": "Noëls en Trio avec un Carillon, S.173.24 (Lalande, Michel Richard de)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Print \"pour les Flûtes, Violons et Hautbois\" (flute/violin, oboe, continuo, c. 1740): IMSLP flags a recording but Deezer, Apple and MusicBrainz searches found none: not confirmed"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz (all 394 works) lists the work without a recording; Deezer album searches (Lalande Noëls; Noels en trio; symphonies noels) and track searches, and Apple composer search (200 hits) find only the Symphonies pour les Soupers du Roy and Noëls for orchestra; the print names flutes, violins and oboes (flutes first), and IMSLP's audio is MIDI only"
   },
   {
    "composer": "Ludwig, Jakob",
@@ -6731,7 +7154,7 @@
    "imslpPage": "Browning My Dear (Stonings, Henry)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Short consort piece for five viols (c. 1578, 1 minute); IMSLP flags a recording but Deezer and Apple searches found none: not confirmed"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz (artist, no works), Deezer (Stonings; Browning my dear; Stonings browning; Browning my dear viols) and Apple composer search: only a recorder-quartet version ('Browning My Dere', Flanders' Recorder Quartet), not viols; IMSLP's audio is MIDI only"
   },
   {
    "composer": "Walther, Johann Jacob",
@@ -6750,25 +7173,9 @@
    "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   },
   {
-   "composer": "Kühnel, August",
-   "title": "Sonatina à due No. 5 in C minor",
-   "imslpPage": "14 Sonate ò Partite (Kühnel, August)",
-   "works": 1,
-   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
-   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
-  },
-  {
    "composer": "Brade, William",
    "title": "Paduana, Galliard and Coranta, NPGCAC 9",
    "imslpPage": "Paduana, Galliard and Coranta, NPGCAC 9 (Brade, William)",
-   "works": 1,
-   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
-   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
-  },
-  {
-   "composer": "Stölzel, Gottfried Heinrich",
-   "title": "Sonata a 4 in F major, IGS 168",
-   "imslpPage": "Sonata a 4 in F major, IGS 168 (Stölzel, Gottfried Heinrich)",
    "works": 1,
    "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
    "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
@@ -6788,6 +7195,30 @@
    "works": 1,
    "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
    "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Kühnel, August",
+   "title": "Sonatina à due No. 6 in C major",
+   "imslpPage": "14 Sonate ò Partite (Kühnel, August)",
+   "works": 1,
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: Deezer 'Kühnel' album and track searches, MusicBrainz (artist, no works) and Apple: Dunford (BNL/Syrius 2013, Nos. 2, 3, 4, 7, 8, 10, 11) and Borstlap (Brilliant 2014, Nos. 1, 2, 5, 7, 8, 10, 11, 12) do not include No. 6"
+  },
+  {
+   "composer": "Ravenscroft, John",
+   "title": "Trio Sonata in A major, Op. 1 No. 6",
+   "imslpPage": "Trio Sonata in A major, Op.1 No.6 (Ravenscroft, John)",
+   "works": 1,
+   "reason": "doubtful: matched to its recording by key, movement count and length only, left off on the owner's instruction (2026-10-17)",
+   "evidence": "Added by the recheck at medium confidence, then left off by the orchestrating session; the full entry is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Nicolai, Johann Michael",
+   "title": "Sonata à 2 in D minor",
+   "imslpPage": "Sonata à 2 in D minor (Nicolai, Johann Michael)",
+   "works": 1,
+   "reason": "doubtful: also attributed to Buxtehude (BuxWV Anh. 5): doubtful attribution, left off on the owner's instruction (2026-10-17)",
+   "evidence": "Added by the recheck at medium confidence, then left off by the orchestrating session; the full entry is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -6799,8 +7230,8 @@
    "kept": 0,
    "skipped": 10,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Only the flute and oboe sonatas (Op. 1 Nos. 1, 3, 5; Op. 2 Nos. 2, 4, 6) are recorded; the six two-violin sonatas of Op. 2 (Nos. 1, 3, 5, 7, 9, 11) found no recording on Deezer or Apple. Partial: the two-violin sonatas of Op. 2 may sit on compilations that carry no composer name."
+   "coverage": "complete",
+   "note": "Only the flute, oboe and recorder sonatas (Op. 1 Nos. 1, 3, 5; Op. 2 Nos. 2, 4, 6) are recorded. RECHECK: wider Deezer, Apple and MusicBrainz searches found no recording of the two-violin sonatas of Op. 2."
   },
   {
    "name": "Ravenscroft, John",
@@ -6808,17 +7239,17 @@
    "kept": 1,
    "skipped": 5,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Only Op. 1 No. 8 is recorded (London Baroque, BIS 2009), found via web search and MusicBrainz; Deezer/Apple searches by name missed it. IMSLP's recorded flag on No. 3 is unconfirmed, so the other sonatas are weak skips. Partial: only Op. 1 No. 8 confirmed recorded; IMSLP flags No. 3 but no recording was found."
+   "coverage": "complete",
+   "note": "Op. 1 No. 8 (London Baroque, BIS 2009) and No. 6 (Alte Musik Köln, Myrios 2009; found through Apple's composer search, composer not named in the streaming titles) are recorded; MusicBrainz lists no other Ravenscroft work with a recording; IMSLP's flag on No. 3 rests on synthesised audio."
   },
   {
    "name": "Nicolai, Johann Michael",
    "candidates": 6,
-   "kept": 8,
-   "skipped": 5,
+   "kept": 9,
+   "skipped": 4,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Teil 1 Nos. 1, 2, 4, 5, 8, 10, 11 are recorded by Passamezzo Moderno as \"Sonata No. N a 3\" (numbering taken from the recording and matched to IMSLP's Teil 1); Sonata à 2 in C major is on L'Achéron's viol disc."
+   "note": "Teil 1 Nos. 1, 2, 4, 5, 8, 10, 11 are recorded by Passamezzo Moderno as \"Sonata No. N a 3\" (numbering taken from the recording and matched to IMSLP's Teil 1); Sonata à 2 in C major is on L'Achéron's viol disc. RECHECK: Sonatas à 2 in D minor and G major (Düben IMHS 5:6a/b) added from the Kirchheimer DübenConsort disc (Passacaille 2020), found through Apple's composer search; the D minor is also attributed to Buxtehude (BuxWV Anh. 5). Teil 1 Nos. 3, 6, 7, 9, 12 and the Arie à 3 are on no disc found."
   },
   {
    "name": "Brade, William",
@@ -6832,11 +7263,11 @@
   {
    "name": "Stölzel, Gottfried Heinrich",
    "candidates": 8,
-   "kept": 0,
-   "skipped": 8,
+   "kept": 9,
+   "skipped": 6,
    "added_not_on_imslp": 0,
    "coverage": "partial",
-   "note": "NeoBarock (ambitus 2020, Deezer 166034962) records trio sonatas in C minor, B-flat and E minor for two violins, matching the keys of Am.B 411a (6), (10), (12), but nothing ties them to those manuscript numbers: not kept. Partial: recorded trios and quadri could not be tied to the IMSLP manuscript numbers."
+   "note": "RECHECK: the eight Dresden quadri of IMSLP's 8 Sonatas à 4 in F major are on Epoca Barocca's CPO disc (Quadri 1-8; No. 1 also on Accent's 'The Oboe in Dresden' under IMSLP's title) and the Brussels quadro IGS 168 on the same disc: kept. NeoBarock (ambitus 2020) trios and quadri cannot be tied to the Am.B 411a numbers (booklet needed)."
   },
   {
    "name": "Pezel, Johann Christoph",
@@ -6880,8 +7311,8 @@
    "kept": 12,
    "skipped": 6,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Op. 2 kept: complete recording (Battistoni, Challenge 2024), titles in the listing are \"Sonata I-XII\", keys not given. Op. 1 (Sonate a tre, 1686) and five manuscript trios: no recording found on Deezer or Apple. Partial: Op. 1 not found on Deezer, Apple or MusicBrainz."
+   "coverage": "complete",
+   "note": "Op. 2 kept: complete recording (Battistoni, Challenge 2024), titles in the listing are \"Sonata I-XII\", keys not given. RECHECK: Op. 1 (Sonate a tre, 1686) and the five manuscript trios are on no disc found (Deezer, MusicBrainz, Apple)."
   },
   {
    "name": "Bassani, Giovanni Battista",
@@ -6913,11 +7344,11 @@
   {
    "name": "Kühnel, August",
    "candidates": 3,
-   "kept": 4,
+   "kept": 5,
    "skipped": 2,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Nos. 1-5 kept (sonatas 1-3 and sonatinas 4-6 are \"à due\" on IMSLP; Dunford and Borstlap record them). Nos. 7-9 are solo sonatas (duos); Nos. 10-14 not checked against the print. Partial: Nos. 6 and 10-14 not checked against the print."
+   "coverage": "complete",
+   "note": "Nos. 1-5 kept (sonatas 1-3 and sonatinas 4-6 are à due; IMSLP's second gamba part covers Nos. 1-6 only); Nos. 7-14 are solo sonatas and partitas (duos, out of scope). Dunford (BNL/Syrius 2013) records Nos. 2, 3, 4, 7, 8, 10, 11 and Borstlap (Brilliant 2014) Nos. 1, 2, 5, 7, 8, 10, 11, 12; No. 6 is on neither. RECHECK: No. 5 added (Borstlap's seven movements match IMSLP's listing)."
   },
   {
    "name": "Lotti, Antonio",
@@ -7015,8 +7446,8 @@
    "kept": 0,
    "skipped": 2,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Partial: only an electronic realisation and a recorder-consort recording found."
+   "coverage": "complete",
+   "note": "RECHECK: only an electronic realisation and a recorder-consort recording found; neither meets the floor."
   },
   {
    "name": "Schein, Johann Hermann",
@@ -7124,7 +7555,7 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": ""
+   "note": "RECHECK: Nos. 1, 4, 7, 9, 10, 12 are on no disc found (Deezer, MusicBrainz, Apple); Concerto Classics records Nos. 2, 3, 5, 6, 8, 11."
   },
   {
    "name": "Fiorenza, Nicola",
@@ -7177,8 +7608,8 @@
    "kept": 0,
    "skipped": 1,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Partial: IMSLP recorded flag not confirmed."
+   "coverage": "complete",
+   "note": "RECHECK: no recording of the Noëls en trio found (MusicBrainz lists the work without one); the print names flutes first."
   },
   {
    "name": "Ludwig, Jakob",
@@ -7285,8 +7716,8 @@
    "kept": 0,
    "skipped": 1,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Partial: IMSLP recorded flag not confirmed."
+   "coverage": "complete",
+   "note": "RECHECK: only a recorder-quartet recording found (not viols)."
   },
   {
    "name": "Szarzyński, Stanisław Sylwester",
@@ -7316,5 +7747,5 @@
    "note": "All twelve sonatas of Op. 1 recorded by Ars Antiqua Austria (Pan Classics 2020); Nos. 1, 5, 12 add two trumpets (seven players)."
   }
  ],
- "note": "Slice m03 (58 baroque composers with one to four recorded IMSLP works). Sources: IMSLP API work pages (scorings, keys, dates), Deezer album and track lists (the /tracks endpoint, because the album endpoint cuts lists at 25 tracks), Apple song search, MusicBrainz works and recordings, and a few pages opened by WebFetch (MusicWeb reviews, The Bach Players). Compilation discs often carry no composer name in their streaming titles (Ravenscroft Op. 1 No. 8, McGibbon, Drese and Clérambault were found only through MusicBrainz and web search), so several 'not performed or recorded' skips are weak; each evidence line says what was searched. Multi-work sets are entered one work per sonata: Pezel's 25 Alphabet Sonatas, Veracini Op. 1 (10), Weichlein Op. 1 (12), Torelli Op. 2 (12), Manfredini Op. 2 (12), Bassani Op. 5 (12), Reincken's 6 Hortus Musicus partitas, Schein's Banchetto musicale (14 of 20 suites, scored for five viols with violins as alternatives; their IMSLP pages were filed as unspecified instruments), Fioré Op. 1 (6 of 12), Nicolai (7 of 12 sonatas and one sonata a 2), Kühnel (5 of 14). Scoring conventions: a violone or cello 'col basso per l'organo' is folded into the continuo, except where the print gives the cello its own part (Fioré; Bassani Op. 5 Nos. 7-12); the viola of Manfredini Op. 2 ('a beneplacito') and the cello of Bassani Op. 5 Nos. 1-6 are optional. String-orchestra questions: Barsanti Op. 4 overtures, Fritz Op. 1 Nos. 5 and 6 (La Stagione Frankfurt, CPO, called Sinfonia), Brant's Sinfonia, and the mandolin concertos of Cecere, Caudioso and Giuliani are skipped. Kept without a confirmed one-to-a-part recording: Pezel's Alphabet Sonatas (Acronym, a 12-member string band), Leo's Concerto for four violins, Fiorenza's recorder concerto, Blavet's flute concerto. Owner decisions: Bassani Op. 1 (second violin 'a beneplacito', recorded complete by Ensemble Armonico Cimento, Tactus) is skipped as a duo; Hotteterre Op. 3, Loeillet Op. 1 and Mouret print flutes first with violins only as an alternative and are skipped as 'no string part' (c10 entered such Boismortier prints with the violins first); Picchi's and Selma y Salaverde's canzonas (1-8 parts, unspecified instruments, recorded complete) are not itemised; Lully's Trios de la Chambre du Roi and Zanetti's Il scolaro are skipped. Levels are estimates from style and the benchmarks, not graded from scores; minutes come from the recordings named in each entry; no benchmarks or violin-catalogue entries in this slice. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 6 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Drese: Trio Sonata in A minor; Kühnel: Sonatina à due No. 5 in C minor; Brade: Paduana, Galliard and Coranta, NPGCAC 9; Stölzel: Sonata a 4 in F major, IGS 168; Leo: Concerto for 4 Violins in D major; Fiorenza: Recorder Concerto in A minor."
+ "note": "Slice m03 (58 baroque composers with one to four recorded IMSLP works). Sources: IMSLP API work pages (scorings, keys, dates), Deezer album and track lists (the /tracks endpoint, because the album endpoint cuts lists at 25 tracks), Apple song search, MusicBrainz works and recordings, and a few pages opened by WebFetch (MusicWeb reviews, The Bach Players). Compilation discs often carry no composer name in their streaming titles (Ravenscroft Op. 1 No. 8, McGibbon, Drese and Clérambault were found only through MusicBrainz and web search), so several 'not performed or recorded' skips are weak; each evidence line says what was searched. Multi-work sets are entered one work per sonata: Pezel's 25 Alphabet Sonatas, Veracini Op. 1 (10), Weichlein Op. 1 (12), Torelli Op. 2 (12), Manfredini Op. 2 (12), Bassani Op. 5 (12), Reincken's 6 Hortus Musicus partitas, Schein's Banchetto musicale (14 of 20 suites, scored for five viols with violins as alternatives; their IMSLP pages were filed as unspecified instruments), Fioré Op. 1 (6 of 12), Nicolai (7 of 12 sonatas and one sonata a 2), Kühnel (5 of 14). Scoring conventions: a violone or cello 'col basso per l'organo' is folded into the continuo, except where the print gives the cello its own part (Fioré; Bassani Op. 5 Nos. 7-12); the viola of Manfredini Op. 2 ('a beneplacito') and the cello of Bassani Op. 5 Nos. 1-6 are optional. String-orchestra questions: Barsanti Op. 4 overtures, Fritz Op. 1 Nos. 5 and 6 (La Stagione Frankfurt, CPO, called Sinfonia), Brant's Sinfonia, and the mandolin concertos of Cecere, Caudioso and Giuliani are skipped. Kept without a confirmed one-to-a-part recording: Pezel's Alphabet Sonatas (Acronym, a 12-member string band), Leo's Concerto for four violins, Fiorenza's recorder concerto, Blavet's flute concerto. Owner decisions: Bassani Op. 1 (second violin 'a beneplacito', recorded complete by Ensemble Armonico Cimento, Tactus) is skipped as a duo; Hotteterre Op. 3, Loeillet Op. 1 and Mouret print flutes first with violins only as an alternative and are skipped as 'no string part' (c10 entered such Boismortier prints with the violins first); Picchi's and Selma y Salaverde's canzonas (1-8 parts, unspecified instruments, recorded complete) are not itemised; Lully's Trios de la Chambre du Roi and Zanetti's Il scolaro are skipped. Levels are estimates from style and the benchmarks, not graded from scores; minutes come from the recordings named in each entry; no benchmarks or violin-catalogue entries in this slice. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 6 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Drese: Trio Sonata in A minor; Kühnel: Sonatina à due No. 5 in C minor; Brade: Paduana, Galliard and Coranta, NPGCAC 9; Stölzel: Sonata a 4 in F major, IGS 168; Leo: Concerto for 4 Violins in D major; Fiorenza: Recorder Concerto in A minor. RECHECK 2026-10-17: 13 works added (Ravenscroft Op. 1 No. 6; Kühnel Sonatina à due No. 5; Nicolai Sonatas à 2 in D minor and G major; Stölzel Sonatas à 4 in F major Nos. 1-8 and IGS 168 'Bruxelles'); 31 lines settled as not performed or recorded after wider searches (Loeillet Op. 2 two-violin sonatas 7, Ravenscroft 4, Nicolai 3, Stölzel trios 6, Torelli 6, Fioré 1, Lalande 1, Stonings 1, Okeover 2), plus Kühnel No. 6 split off a combined line; 41 'not performed or recorded' lines were not rechecked for lack of budget (Brade 15, Pezel 3, Bodinus 3, Speer 3, Lotti 2, Valentine 2, Farina 2, and one each Barsanti Op. 6, Manfredini London print, Cavalli, Cecere, Kindermann, Leo, Schein, Veracini, Zanetti, Montalbano, Playford); 0 still not checked. Hand edits: Kühnel line 'Nos. 6-14' split into 'Nos. 7-14' (out of scope, solo) and 'No. 6' (not recorded); the 'doubtful' lines for Kühnel No. 5 and Stölzel IGS 168 removed because both are kept again at medium confidence (parked-low-confidence.json untouched); Stölzel added to authors. For the owner to weigh: Ravenscroft Op. 1 No. 6 is matched to the Roma disc by key, movement count and length, and by Apple's composer search (Deezer titles name no composer); Nicolai's D minor sonata is also attributed to Buxtehude; Stölzel Nos. 2-8 take the numbering and F major from IMSLP's set, the CPO track titles carry no keys (No. 1 is confirmed by Accent's 'The Oboe in Dresden', same title); the two-gamba playing on Borstlap's disc is inferred from its three named players. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): the two recheck additions with identity or attribution flags were moved to skipped (\"doubtful\") and parked: Ravenscroft Op. 1 No. 6 (matched to the recording by key and length only) and Nicolai's Sonata a 2 in D minor (also attributed to Buxtehude). Kühnel Sonatina No. 5 and Stölzel IGS 168, reinstated by the recheck with better evidence, are removed from the parked file."
 }
