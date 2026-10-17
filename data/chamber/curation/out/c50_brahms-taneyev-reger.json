@@ -2098,6 +2098,49 @@
    "confidence": "high"
   },
   {
+   "composer": "Reger, Max",
+   "title": "String Quartet in D minor, WoO II/2",
+   "aka": [
+    "String Quartet No. 0",
+    "Jugendquartett",
+    "Streichquartett d-Moll, WoO II/2"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 23,
+   "notes": "Early quartet without opus number, often called No. 0; the finale is titled Aufschwung",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Early quartet, lighter and more conventional than Op. 54",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Keller Quartett, Reger: The Complete Chamber Music, Vol. 22 (Da Camera; MusicBrainz lists the set as Kammermusik Gesamtaufnahme, 2002); Berner Streichquartett, Reger: Complete String Quartets (MusicBrainz release, 1998)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/725812801",
+    "https://musicbrainz.org/recording/0d65f36f-903e-462b-8c9f-8835e34cb6ce",
+    "https://musicbrainz.org/recording/2c55c633-3f21-4a7b-b0ed-192d8ccaca86"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
    "composer": "Tchaikovsky, Pyotr Ilyich",
    "title": "String Quartet No. 1 in D major, Op. 11",
    "aka": [],
@@ -3219,6 +3262,47 @@
     "https://www.deezer.com/album/10467716",
     "https://www.deezer.com/album/578904591",
     "https://www.deezer.com/album/584523102"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Fuchs, Robert",
+   "title": "Piano Quartet No. 1 in G minor, Op. 15",
+   "aka": [
+    "Klavierquartett g-Moll, Op. 15"
+   ],
+   "instruments": {
+    "violin": 1,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "piano-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1876",
+   "minutes": 33,
+   "notes": "Earlier of Fuchs's two piano quartets; four movements, about 33 minutes",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Brahmsian quartet; piano about diploma level (as Op. 75)",
+   "hardest_part_guess": "piano",
+   "imslpPage": "Piano Quartet No.1, Op.15 (Fuchs, Robert)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "First edition 1876 (IMSLP)",
+    "recorded": "Adorján-Trio and Oliver Triendl, Robert Fuchs: Klavierquartette (Thorofon, 2009)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quartet_No.1,_Op.15_(Fuchs,_Robert)",
+    "https://www.deezer.com/album/277645",
+    "https://en.wikipedia.org/wiki/Robert_Fuchs_(composer)"
    ],
    "confidence": "high"
   },
@@ -4385,6 +4469,119 @@
    "gap": true
   },
   {
+   "composer": "Sibelius, Jean",
+   "title": "Trio in G major, JS 205",
+   "aka": [
+    "Trio for two violins and piano in G major"
+   ],
+   "instruments": {
+    "violin": 2,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "piano-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 10,
+   "notes": "Early trio for two violins and piano; three movements, the last under two minutes",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Early trio; both violins and piano about ABRSM 7",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Jaakko Kuusisto, Satu Vänskä, Marko Ylönen, Folke Gräsbeck, Sibelius: Complete Piano Trios, Vol. 1 (BIS, 2003)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/538591322"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Sibelius, Jean",
+   "title": "Piano Trio in A minor, JS 206",
+   "aka": [],
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "piano-trio",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 21,
+   "notes": "Early piano trio in three movements; a different work from the A-minor Hafträsk trio, JS 207",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Student piano trio; piano about ABRSM 8",
+   "hardest_part_guess": "piano",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Jaakko Kuusisto, Satu Vänskä, Marko Ylönen, Folke Gräsbeck, Sibelius: Complete Piano Trios, Vol. 1 (BIS, 2003)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/538591322"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Sibelius, Jean",
+   "title": "String Trio in G minor, JS 210",
+   "aka": [],
+   "instruments": {
+    "violin": 1,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "string-trio",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 12,
+   "notes": "Student string trio in three short movements; the second lasts under a minute",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Light student trio; violin about level 4",
+   "hardest_part_guess": "violin",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Various artists, Sibelius: Early Chamber Music, Vol. 1 (Ondine, 1994); Various artists, The Sibelius Edition, Vol. 9: Chamber Music II (BIS, 2015)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/583530822",
+    "https://www.deezer.com/album/538453172"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
    "composer": "Strauss, Richard",
    "title": "Piano Quartet in C minor, Op. 13, TrV 137",
    "aka": [
@@ -4947,6 +5144,50 @@
    "gap": true
   },
   {
+   "composer": "Bonis, Mel",
+   "title": "Fantaisie en septuor, Op. 72",
+   "aka": [
+    "Septuor",
+    "Septour-Fantaisie ou Concerto, Op. 72"
+   ],
+   "instruments": {
+    "flute": 2,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 7,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1906",
+   "minutes": 13,
+   "notes": "One-movement fantasy for two flutes, two violins, viola, cello and piano; also titled Septour-Fantaisie ou Concerto",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Late-romantic French septet; piano and flutes about level 5-6",
+   "hardest_part_guess": "piano",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Tatjana Ruhland and Christina Singer (flutes), Lukas Friederich and Gesa Jenne-Dönneweg (violins), Ingrid Philippi (viola), Ansgar Schneider (cello), Florian Wiek (piano), Bonis: Suite en trio, Scènes de la forêt, Suite dans le style ancien, Fantaisie \"Septuor\" (SWR Classic, 2008)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mel_Bonis",
+    "https://itunes.apple.com/lookup?id=336976961&entity=song",
+    "https://musicbrainz.org/recording/353dc1a0-5131-4845-b73e-65afa1f05603"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
    "composer": "Hahn, Reynaldo",
    "title": "Piano Quintet in F-sharp minor",
    "aka": [
@@ -5239,7 +5480,7 @@
    "imslpPage": "Canzona (Taneyev, Sergey)",
    "works": 1,
    "reason": "out of scope: string orchestra",
-   "evidence": "IMSLP: clarinet and strings (or string quintet); the only commercial recording found is with string orchestra (Dimitri Ashkenazy, Deezer album 335916567); none played one to a part found"
+   "evidence": "IMSLP: clarinet and strings (or string quintet); the only commercial recording found is with string orchestra (Dimitri Ashkenazy, Deezer album 335916567); none played one to a part found; RECHECK 2026-10-17: Deezer track searches again found only clarinet with string orchestra (Ashkenazy, Lovchikov, Blasberg), cello with piano (Rostropovich, Gomziakov) and cello with strings (Thomas-Mifune); no one-to-a-part recording (reason unchanged)"
   },
   {
    "composer": "Reger, Max",
@@ -5247,7 +5488,7 @@
    "imslpPage": "Piano Quintet in C-sharp minor (Reger, Max)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "One-movement student piece (1889), IMSLP Urtext edition only; no recording found on Deezer (searched \"Reger Klavierquintett cis-Moll\")"
+   "evidence": "RECHECK 2026-10-17: not on any of the 23 volumes of Reger: The Complete Chamber Music (Da Camera, Deezer; every track list opened), not among the 1,532 Reger works in MusicBrainz (artist browse with recordings), no hit in Deezer track/album searches (Klavierquintett cis-Moll, Quintett cis-Moll WoO, early chamber music) or in the Apple composerTerm search (200 songs). One-movement student piece (1889), IMSLP Urtext edition only; no concert-programme search was made."
   },
   {
    "composer": "Reger, Max",
@@ -5255,7 +5496,7 @@
    "imslpPage": "Scherzo, WoO II/1 (Reger, Max)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Unpublished student scherzo (1888-89), IMSLP Urtext edition only; no recording found on Deezer (searched \"Reger Scherzo\")"
+   "evidence": "RECHECK 2026-10-17: WoO II/1 is not on any of the 23 volumes of Reger: The Complete Chamber Music (Da Camera, Deezer), not among the 1,532 Reger works in MusicBrainz, no hit in Deezer (Reger Scherzo Flöte Streichquintett, early chamber music) or the Apple composerTerm search. Unpublished student scherzo (1888-89), IMSLP Urtext edition only; no concert-programme search was made."
   },
   {
    "composer": "Reger, Max",
@@ -5263,7 +5504,7 @@
    "imslpPage": "Scherzo, WoO II/6 (Reger, Max)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Unpublished student scherzo (1890-92), IMSLP Urtext edition only; no recording found on Deezer (searched \"Reger Scherzo\")"
+   "evidence": "RECHECK 2026-10-17: WoO II/6 is not on any of the 23 volumes of Reger: The Complete Chamber Music (Da Camera, Deezer), not among the 1,532 Reger works in MusicBrainz, no hit in Deezer (Reger Scherzo acht Streicher, early chamber music) or the Apple composerTerm search. Unpublished student scherzo (1890-92), IMSLP Urtext edition only; no concert-programme search was made."
   },
   {
    "composer": "Tchaikovsky, Pyotr Ilyich",
@@ -5343,7 +5584,7 @@
    "imslpPage": "String Quartet, Op.70 (Sinding, Christian)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Peters first edition (1904) and IMSLP free recordings only; no commercial recording found on Deezer, MusicBrainz or the web (\"no recording\" per an Unsung Composers forum thread); Apple Music lookup was blocked"
+   "evidence": "RECHECK 2026-10-17: Deezer track searches (Sinding String Quartet Op. 70, Streichquartett a-Moll, String Quartet A minor, strykekvartett) and album searches (string quartet, chamber music, Piano Quintet String Quartet) found only the Piano Quintet (Oslo String Quartet's own-label albums); MusicBrainz lists no Op. 70 recording among Sinding's 217 works; the Apple composerTerm search (199 songs) and the title search found no quartet. Peters first edition (1904) and IMSLP free recordings only; no concert-programme search was made."
   },
   {
    "composer": "Lalo, Édouard",
@@ -5359,7 +5600,7 @@
    "imslpPage": "Grand Quintette in A-flat major (Lalo, Édouard)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two-movement piano quintet of 1862-63 known as Fantaisie-Quintette; manuscript only on IMSLP; no recording found on Deezer (\"Lalo Quintette\", \"Lalo Fantaisie-Quintette\")"
+   "evidence": "RECHECK 2026-10-17: Deezer track/album searches (Lalo Grand Quintette, Quintette A-flat, Fantaisie Quintette, piano quintet, chamber music) found nothing; MusicBrainz lists no quintet recording among Lalo's 138 works; the Apple composerTerm search (200 songs) shows no quintet. Two-movement piano quintet of 1862-63 (Fantaisie-Quintette), manuscript only on IMSLP; no concert-programme search was made."
   },
   {
    "composer": "Bonis, Mel",
@@ -5367,7 +5608,15 @@
    "imslpPage": "Chant nuptial, Op.128 (Bonis, Mel)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Wedding song (harp or piano, violin, organ ad lib.), published 1928; no recording found on Deezer (\"Mel Bonis Chant nuptial\") or in the Apple Music search"
+   "evidence": "RECHECK 2026-10-17: Deezer searches (Mel Bonis Chant nuptial, album and track) found nothing; MusicBrainz lists no recording among Bonis's 220 works; the Apple composerTerm search (200 songs) and the title search (0 results) found none. Wedding song (harp or piano, violin, organ ad lib.), published 1928; no concert-programme search was made."
+  },
+  {
+   "composer": "Bonis, Mel",
+   "title": "Suite dans le style ancien, Op. 127 No. 1",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: low confidence",
+   "evidence": "RECHECK 2026-10-17: recorded on SWR Classic (2008; Apple 336976961, MusicBrainz op. 127/1, with Ruhland, Jenne-Dönneweg, Philippi, Wiek) as a version for flute, violin, viola and piano, but Wikipedia lists No. 1 for flute, violin and piano (1928); the scoring and the author of the four-player version are unconfirmed, so it is not added"
   },
   {
    "composer": "Fuchs, Robert",
@@ -5375,15 +5624,31 @@
    "imslpPage": "2 String Trios, Op.61 (Fuchs, Robert)",
    "works": 2,
    "reason": "not performed or recorded",
-   "evidence": "For two violins and viola, published 1898 and reprinted by Edition Silvertrust; only free videos (Renard Duo) on IMSLP; no commercial recording found on Deezer, MusicBrainz or the web"
+   "evidence": "RECHECK 2026-10-17: Deezer searches (Robert Fuchs Terzett, Trio two violins viola, Terzetto op. 107, chamber music, trio) found only piano trios, piano quartets, clarinet and viola works; MusicBrainz lists no recording among Fuchs's 51 works; the Apple composerTerm search (198 songs) shows none. For two violins and viola, published 1898 (reprinted by Edition Silvertrust); only free videos on IMSLP; no concert-programme search was made."
   },
   {
-   "composer": "Fuchs, Robert",
-   "title": "Piano Quartet No. 1 in G minor, Op. 15",
-   "imslpPage": "Piano Quartet No.1, Op.15 (Fuchs, Robert)",
+   "composer": "Sibelius, Jean",
+   "title": "Serenata in D minor, JS 169",
+   "imslpPage": null,
    "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "First edition 1876 only; no recording found on Deezer (\"Fuchs piano quartet\" finds only Op. 75) or MusicBrainz; Apple Music lookup was blocked"
+   "reason": "doubtful: minor student piece, left off on the owner's instruction (2026-10-17)",
+   "evidence": "Recorded on BIS (The Sibelius Edition, Vol. 9) but a short student piece whose status as a separate work is unclear (JS 128 and JS 169 may belong together); the full entry is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Sibelius, Jean",
+   "title": "Menuetto and Allegro, JS 128",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: minor student piece, left off on the owner's instruction (2026-10-17)",
+   "evidence": "Recorded on BIS (The Sibelius Edition, Vol. 9) but a short student piece whose status as a separate work is unclear (JS 128 and JS 169 may belong together); the full entry is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Sibelius, Jean",
+   "title": "Andante and Allegro, JS 31",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: minor student piece, left off on the owner's instruction (2026-10-17)",
+   "evidence": "Recorded on BIS (The Sibelius Edition, Vol. 9) but a short student piece whose status as a separate work is unclear (JS 128 and JS 169 may belong together); the full entry is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -5405,16 +5670,16 @@
    "skipped": 1,
    "added_not_on_imslp": 1,
    "coverage": "complete",
-   "note": "All 18 IMSLP pages judged: 17 kept, Canzona skipped (string orchestra). Gap check against Wikipedia and Deezer: the String Trio in B minor (three recordings, not on IMSLP) added. All nine quartets are on the Carpe Diem Quartet complete cycle."
+   "note": "All 18 IMSLP pages judged: 17 kept, Canzona skipped (string orchestra). Gap check against Wikipedia and Deezer: the String Trio in B minor (three recordings, not on IMSLP) added. All nine quartets are on the Carpe Diem Quartet complete cycle. RECHECK: Canzona searched again; only string-orchestra and cello versions are recorded."
   },
   {
    "name": "Reger, Max",
    "candidates": 20,
-   "kept": 17,
+   "kept": 18,
    "skipped": 3,
-   "added_not_on_imslp": 0,
+   "added_not_on_imslp": 1,
    "coverage": "complete",
-   "note": "All 20 IMSLP pages judged: 17 kept, 3 early unpublished pieces skipped. The Wikipedia list of Reger works shows no other 3-9 player work with strings that is recorded (the String Quartet \"No. 0\" and small pieces were not found). Recordings via Deezer."
+   "note": "All 20 IMSLP pages judged: 17 kept, 3 early unpublished pieces skipped. The Wikipedia list of Reger works shows no other 3-9 player work with strings that is recorded (the String Quartet \"No. 0\" and small pieces were not found). Recordings via Deezer. RECHECK: String Quartet in D minor WoO II/2 (No. 0) added, recorded by the Keller Quartett (Da Camera vol. 22) and the Berner Streichquartett; the three early pieces searched again in all 23 Da Camera volumes and MusicBrainz, none recorded."
   },
   {
    "name": "Tchaikovsky, Pyotr Ilyich",
@@ -5441,16 +5706,16 @@
    "skipped": 0,
    "added_not_on_imslp": 3,
    "coverage": "complete",
-   "note": "All 6 IMSLP pages kept. Gap check against Wikipedia's list: the two string quintets of 1918 (A minor, E-flat; two violins, two violas, cello; Nash Ensemble on Hyperion CDA68168 and the WDR players) and the Septet in E-flat of 1849 added; the juvenile String Quartets of 1850 and 1852 were not found on disc."
+   "note": "All 6 IMSLP pages kept. Gap check against Wikipedia's list: the two string quintets of 1918 (A minor, E-flat; two violins, two violas, cello; Nash Ensemble on Hyperion CDA68168 and the WDR players) and the Septet in E-flat of 1849 added; the juvenile String Quartets of 1850 and 1852 were not found on disc. RECHECK: Deezer and Apple again found no juvenile string quartets."
   },
   {
    "name": "Fuchs, Robert",
    "candidates": 13,
-   "kept": 11,
-   "skipped": 3,
+   "kept": 12,
+   "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "All 14 IMSLP pages judged: 11 kept (Op. 61 counts two trios, skipped with Op. 15). Recordings via Deezer (Gould Piano Trio, Minguet Quartett, Belcanto Strings, Carmina and Britten Quartets). Wikipedia article lists the serenades for string orchestra (out of scope)."
+   "note": "All 14 IMSLP pages judged: 11 kept (Op. 61 counts two trios, skipped with Op. 15). Recordings via Deezer (Gould Piano Trio, Minguet Quartett, Belcanto Strings, Carmina and Britten Quartets). Wikipedia article lists the serenades for string orchestra (out of scope). RECHECK: Piano Quartet No. 1 Op. 15 is recorded (Adorján-Trio and Oliver Triendl, Thorofon, Deezer 277645) and was added; Op. 61 searched again, none recorded; Terzetto Op. 107 is in C minor per Wikipedia, no recording found."
   },
   {
    "name": "Grieg, Edvard",
@@ -5468,16 +5733,16 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "All 7 IMSLP pages judged: 6 kept (both Serenades cross-listed with the violin catalogue), the String Quartet Op. 70 skipped. Serenade evidence is one CD (AllMusic listing) whose performers come from MusicBrainz; the AllMusic page itself could not be fetched (HTTP 403)."
+   "note": "All 7 IMSLP pages judged: 6 kept (both Serenades cross-listed with the violin catalogue), the String Quartet Op. 70 skipped. Serenade evidence is one CD (AllMusic listing) whose performers come from MusicBrainz; the AllMusic page itself could not be fetched (HTTP 403). RECHECK: Op. 70 searched again on Deezer, Apple and MusicBrainz, none recorded."
   },
   {
    "name": "Sibelius, Jean",
    "candidates": 3,
-   "kept": 13,
-   "skipped": 0,
-   "added_not_on_imslp": 10,
-   "coverage": "complete",
-   "note": "All 3 IMSLP pages kept. Gap check against Wikipedia's list (Dahlstrom JS numbers) and the BIS Sibelius Edition discs on Deezer: ten early chamber works added (piano quintet, two piano quartets, three string quartets, two piano trios, the string-trio suite, the harmonium quartet). The Trio in G (JS 205), the A-minor piano trio JS 206 and the many one-movement student pieces were not found on disc."
+   "kept": 16,
+   "skipped": 3,
+   "added_not_on_imslp": 16,
+   "coverage": "partial",
+   "note": "All 3 IMSLP pages kept. Gap check against Wikipedia's list (Dahlstrom JS numbers) and the BIS Sibelius Edition discs on Deezer: ten early chamber works added (piano quintet, two piano quartets, three string quartets, two piano trios, the string-trio suite, the harmonium quartet). The Trio in G (JS 205), the A-minor piano trio JS 206 and the many one-movement student pieces were not found on disc. RECHECK: JS 205, JS 206 (BIS Complete Piano Trios vol. 1), JS 210 (Ondine, BIS), JS 128, JS 169 and JS 31 (BIS Edition vol. 9) added; other short student pieces on BIS vols 2 and 9 not entered, so coverage is partial."
   },
   {
    "name": "Strauss, Richard",
@@ -5495,16 +5760,16 @@
    "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "All 6 IMSLP pages judged: 4 kept, Op. 19 (earlier version of Op. 45) and the Grand Quintette skipped. Trios recorded complete (Trio Parnassus, Leonore Piano Trio)."
+   "note": "All 6 IMSLP pages judged: 4 kept, Op. 19 (earlier version of Op. 45) and the Grand Quintette skipped. Trios recorded complete (Trio Parnassus, Leonore Piano Trio). RECHECK: Grand Quintette searched again on Deezer, Apple and MusicBrainz, none recorded."
   },
   {
    "name": "Bonis, Mel",
    "candidates": 5,
-   "kept": 5,
+   "kept": 6,
    "skipped": 1,
-   "added_not_on_imslp": 1,
+   "added_not_on_imslp": 2,
    "coverage": "complete",
-   "note": "All 5 IMSLP pages judged: 4 kept, Chant nuptial skipped. Gap check against Wikipedia: Piano Quartet No. 1 (Op. 69) added; the Fantaisie en septuor Op. 72, Suite dans le style ancien Op. 127 No. 1 and the Nocturne for violin, viola, cello and harp were not found on disc."
+   "note": "All 5 IMSLP pages judged: 4 kept, Chant nuptial skipped. Gap check against Wikipedia: Piano Quartet No. 1 (Op. 69) added; the Fantaisie en septuor Op. 72, Suite dans le style ancien Op. 127 No. 1 and the Nocturne for violin, viola, cello and harp were not found on disc. RECHECK: Fantaisie en septuor Op. 72 added (SWR Classic 2008); Suite dans le style ancien Op. 127 No. 1 recorded only as a flute, violin, viola and piano version (scoring doubtful, skipped); Chant nuptial and the Nocturne for violin, viola, cello and harp/piano not recorded."
   },
   {
    "name": "Hahn, Reynaldo",
@@ -5513,7 +5778,7 @@
    "skipped": 0,
    "added_not_on_imslp": 2,
    "coverage": "complete",
-   "note": "All 3 IMSLP pages kept. Gap check against Wikipedia's list: String Quartet No. 2 and Piano Quartet No. 3 added; the Piano Trio in F minor (1896), the Romance for flute and string trio (1939) and the string-quartet Serenade/Divertissement were not found on disc."
+   "note": "All 3 IMSLP pages kept. Gap check against Wikipedia's list: String Quartet No. 2 and Piano Quartet No. 3 added; the Piano Trio in F minor (1896), the Romance for flute and string trio (1939) and the string-quartet Serenade/Divertissement were not found on disc. RECHECK: Deezer and Apple again found no Piano Trio in F minor, flute and string-trio Romance or quartet Serenade (the Hyperion disc has a Romance in A major of unknown scoring)."
   },
   {
    "name": "Magnard, Albéric",
@@ -5525,5 +5790,5 @@
    "note": "Both IMSLP pages kept. Gap check: the Quintet Op. 8 is for piano and four winds (no strings), so nothing is added."
   }
  ],
- "note": "c50 (15 composers, 129 IMSLP pages, all judged). Floor evidence: Deezer album/track metadata (label, year and track timings from api.deezer.com), Apple Music (first Brahms lookups; later requests were blocked), MusicBrainz, IMSLP, Wikipedia work lists, one AllMusic listing; the Naxos Music Library and Presto were not used. The eight pages skipped for lack of a commercial recording (Fuchs Op. 61 and Op. 15, Reger's three early pieces, Lalo's Grand Quintette, Bonis's Chant nuptial, Sinding's Quartet Op. 70) were searched on Deezer and MusicBrainz and, where noted, the web; the Apple Music queue stayed blocked, so they may deserve a second look. GAP WORKS added (imslpPage null, none of them on IMSLP; Strauss's sextet is the opening of Capriccio): Bruch String Quintets in A minor and E-flat (1918) and Septet in E-flat (1849); Taneyev String Trio in B minor; Stenhammar Allegro brillante and Allegro ma non tanto; Sibelius Piano Quintet JS 159, Piano Quartets JS 157 and JS 156, String Quartets JS 184, JS 183 and Op. 4, Piano Trios JS 207 and JS 208, Suite JS 186, Harmonium Quartet JS 158; Strauss Piano Trios TrV 53 and TrV 71, Capriccio Sextet; Bonis Piano Quartet No. 1; Hahn String Quartet No. 2, Piano Quartet No. 3. NOT ADDED (not found on disc): Bruch's juvenile String Quartets (1850, 1852); Fuchs Terzetto in C-sharp minor Op. 107 (on Wikipedia's list, no IMSLP page or recording found); Bonis Fantaisie en septuor Op. 72, Suite dans le style ancien Op. 127 No. 1 and Nocturne (violin, viola, cello, harp), Hahn Piano Trio in F minor and Romance for flute and string trio; Sibelius Trio in G JS 205 and the A-minor piano trio JS 206. DECISIONS for the owner: (1) Tchaikovsky's seven 1863-64 student exercises (TH 152-159) are skipped as pedagogical, although three string-quartet pieces are recorded as \"Three Short Pieces\" (Moscow String Quartet, Russian Season). (2) Brahms's Piano Trio in A major (Anh. 4/5) is kept as a doubtful work because it is recorded under his name (Perlman, Mirecourt Trio, Vienna Piano Trio). (3) Taneyev's Canzona is skipped (the only recording is with string orchestra: string-orchestra question). (4) Stenhammar's withdrawn F-minor Quartet, Grieg's unfinished String Quartet No. 2 (completed by Röntgen) and Sibelius's one-movement Piano Quartet JS 156 are kept because they are recorded as they stand. (5) The viola alternative of Op. 114 is confirmed by Wikipedia (title page); that of Op. 115 rests on IMSLP's alternative title. (6) The violin list's Fuchs Op. 55 and Op. 105 and Reger Op. 131b are duos for two violins (2 players), so they stay in the violin section; Sinding's Serenades Op. 56 and 92 (two violins and piano) are cross-listed."
+ "note": "c50 (15 composers, 129 IMSLP pages, all judged). Floor evidence: Deezer album/track metadata (label, year and track timings from api.deezer.com), Apple Music (first Brahms lookups; later requests were blocked), MusicBrainz, IMSLP, Wikipedia work lists, one AllMusic listing; the Naxos Music Library and Presto were not used. The eight pages skipped for lack of a commercial recording (Fuchs Op. 61 and Op. 15, Reger's three early pieces, Lalo's Grand Quintette, Bonis's Chant nuptial, Sinding's Quartet Op. 70) were searched on Deezer and MusicBrainz and, where noted, the web; the Apple Music queue stayed blocked, so they may deserve a second look. GAP WORKS added (imslpPage null, none of them on IMSLP; Strauss's sextet is the opening of Capriccio): Bruch String Quintets in A minor and E-flat (1918) and Septet in E-flat (1849); Taneyev String Trio in B minor; Stenhammar Allegro brillante and Allegro ma non tanto; Sibelius Piano Quintet JS 159, Piano Quartets JS 157 and JS 156, String Quartets JS 184, JS 183 and Op. 4, Piano Trios JS 207 and JS 208, Suite JS 186, Harmonium Quartet JS 158; Strauss Piano Trios TrV 53 and TrV 71, Capriccio Sextet; Bonis Piano Quartet No. 1; Hahn String Quartet No. 2, Piano Quartet No. 3. NOT ADDED (not found on disc): Bruch's juvenile String Quartets (1850, 1852); Fuchs Terzetto in C-sharp minor Op. 107 (on Wikipedia's list, no IMSLP page or recording found); Bonis Fantaisie en septuor Op. 72, Suite dans le style ancien Op. 127 No. 1 and Nocturne (violin, viola, cello, harp), Hahn Piano Trio in F minor and Romance for flute and string trio; Sibelius Trio in G JS 205 and the A-minor piano trio JS 206. DECISIONS for the owner: (1) Tchaikovsky's seven 1863-64 student exercises (TH 152-159) are skipped as pedagogical, although three string-quartet pieces are recorded as \"Three Short Pieces\" (Moscow String Quartet, Russian Season). (2) Brahms's Piano Trio in A major (Anh. 4/5) is kept as a doubtful work because it is recorded under his name (Perlman, Mirecourt Trio, Vienna Piano Trio). (3) Taneyev's Canzona is skipped (the only recording is with string orchestra: string-orchestra question). (4) Stenhammar's withdrawn F-minor Quartet, Grieg's unfinished String Quartet No. 2 (completed by Röntgen) and Sibelius's one-movement Piano Quartet JS 156 are kept because they are recorded as they stand. (5) The viola alternative of Op. 114 is confirmed by Wikipedia (title page); that of Op. 115 rests on IMSLP's alternative title. (6) The violin list's Fuchs Op. 55 and Op. 105 and Reger Op. 131b are duos for two violins (2 players), so they stay in the violin section; Sinding's Serenades Op. 56 and 92 (two violins and piano) are cross-listed. RECHECK 2026-10-17: 9 works added (Fuchs Piano Quartet No. 1 Op. 15, recorded by the Adorján-Trio and Oliver Triendl; Reger String Quartet in D minor WoO II/2; Bonis Fantaisie en septuor Op. 72; Sibelius JS 205, JS 206, JS 210, JS 128, JS 169, JS 31); 7 lines settled as not performed or recorded after Deezer, Apple (composerTerm and title searches) and MusicBrainz (complete work lists), and for Reger all 23 volumes of the Da Camera Complete Chamber Music (Reger WoO II/1, WoO II/6 and the C-sharp minor Quintet, Sinding Op. 70, Lalo Grand Quintette, Bonis Chant nuptial, Fuchs Op. 61), no concert-programme search made; 1 line added as doubtful: low confidence (Bonis Suite dans le style ancien Op. 127 No. 1: recorded as a flute, violin, viola and piano version, Wikipedia gives flute, violin and piano); Taneyev's Canzona searched again, only string-orchestra and cello versions recorded. Superseded statements above: Fuchs Op. 15, Reger's quartet No. 0, Bonis's Fantaisie en septuor, Sibelius JS 205 and JS 206 ARE on disc; Fuchs's Terzetto Op. 107 is in C minor per Wikipedia (still not found on disc). Still unchecked: Sibelius's other short student pieces on BIS vols 2 and 9 (JS 38, a canon, Vivace HUL 0517, JS 195, themes and small pieces; scorings unconfirmed), Bruch's and Strauss's juvenile quartets, Hahn's Piano Trio in F minor, flute and string-trio Romance and quartet Serenade, Bonis's Nocturne (violin, viola, cello, harp or piano). Hand edits: Fuchs Op. 15 moved from skipped to works; evidence of seven skipped lines replaced and Taneyev's Canzona evidence extended; composers_checked counts and notes for Reger, Fuchs, Bonis, Sibelius (coverage now partial), Sinding, Lalo, Taneyev, Hahn and Bruch. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off minor works that raise flags): the three short Sibelius student pieces the recheck added (Menuetto and Allegro JS 128, Serenata JS 169, Andante and Allegro JS 31) were moved to skipped (\"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json; JS 205, JS 206 and JS 210 stay."
 }
