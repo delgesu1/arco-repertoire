@@ -1247,6 +1247,84 @@
    "confidence": "medium"
   },
   {
+   "composer": "Holbrooke, Joseph",
+   "title": "Horn Trio in D major, Op. 28",
+   "aka": [],
+   "instruments": {
+    "horn": 1,
+    "violin": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 27,
+   "notes": "For horn, violin and piano; three movements; Naxos labels the recording the original version",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Horn part at diploma level; violin and piano demanding",
+   "hardest_part_guess": "horn",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Mark Smith (horn), Kerenza Peacock (violin), Robert Louis Stevenson (piano), Naxos, 2011",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/452022558",
+    "https://www.deezer.com/album/578668221"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Holbrooke, Joseph",
+   "title": "Symphonic Quintet No. 1 in G minor, Op. 44 (\"Diabolique\")",
+   "aka": [
+    "Piano Quintet in G minor, Op. 44"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "piano-quintet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 27,
+   "notes": "For piano and string quartet; four movements including a Valse (Diabolique)",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Large-scale late-Romantic piano part; strings about level 6",
+   "hardest_part_guess": "piano",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Endre Hegedüs and the New Haydn Quartet, Marco Polo, 1995 (Holbrooke: Chamber Music)",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/361125945"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
    "composer": "Tovey, Donald Francis",
    "title": "Piano Trio in B minor, Op. 1",
    "aka": [],
@@ -1505,6 +1583,45 @@
    },
    "sources": [
     "https://www.deezer.com/album/579053771"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Tovey, Donald Francis",
+   "title": "Trio in D minor, Op. 14",
+   "aka": [
+    "Trio for Violin, English Horn and Piano"
+   ],
+   "instruments": {
+    "violin": 1,
+    "english-horn": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1903",
+   "minutes": 27,
+   "notes": "For violin, English horn and piano; four movements; written 1903, published 1913",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Brahmsian piano writing at diploma level; violin and English horn about level 6",
+   "hardest_part_guess": "piano",
+   "imslpPage": "Trio for Violin, English Horn and Piano, Op.14 (Tovey, Donald Francis)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Published 1913",
+    "recorded": "Miriam Jakes Fournet (English horn), Jacob Bogaart (violin), Marianne Behrendt (piano), The Art of the English Horn, 2012 (the English hornist's own release)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_for_Violin,_English_Horn_and_Piano,_Op.14_(Tovey,_Donald_Francis)",
+    "https://music.apple.com/us/album/507025340"
    ],
    "confidence": "medium"
   },
@@ -2114,6 +2231,43 @@
     "https://www.deezer.com/album/681322751"
    ],
    "confidence": "high"
+  },
+  {
+   "composer": "Glass, Louis",
+   "title": "String Quartet No. 3 in A minor, Op. 23",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 33,
+   "notes": "Four movements; recorded with String Quartet No. 4 by the Zapolski Quartet",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Large-scale quartet with dense writing; all four parts exposed",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Zapolski Quartet, Dacapo, 2000",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/388973357"
+   ],
+   "confidence": "medium",
+   "gap": true
   },
   {
    "composer": "Schumann, Georg",
@@ -3402,6 +3556,576 @@
     "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
    ],
    "confidence": "high"
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 3 in A minor (\"The Carnival\")",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 21,
+   "notes": "Four movements, the first headed \"In the Streets\"; Naxos vol. 1 with Nos. 1 and 2",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos 8.570491, 2007",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/257019150",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 4 in C minor",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 24,
+   "notes": "Four movements with a Rondo finale; later arranged, with No. 17, as Hill's Symphony No. 4",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos 8.572097, 2008",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/293138307",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 5 in E-flat major (\"The Allies\")",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1920",
+   "minutes": 29,
+   "notes": "Four movements headed Artistic, Syncopated, Romantic and Nautical; later arranged as Symphony No. 11",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos 8.572446, 2009",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/341887763",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "high",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 6 in G major (\"The Kids\")",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 15,
+   "notes": "Four short movements; also recorded by the Australian String Quartet (Marco Polo 8.223746)",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos 8.572097, 2008",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/293138307",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 7 in A major",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1934",
+   "minutes": 21,
+   "notes": "Four movements; Naxos vol. 3 with Nos. 5 and 9",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos 8.572446, 2009",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/341887763",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "high",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 8 in A major",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1934",
+   "minutes": 25,
+   "notes": "Four movements with a very short Intermezzo; Naxos vol. 2 with Nos. 4 and 6",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos 8.572097, 2008",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/293138307",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "high",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 9 in A minor",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 23,
+   "notes": "Four movements; Naxos vol. 3 with Nos. 5 and 7",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos 8.572446, 2009",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/341887763",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 10 in E major",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 20,
+   "notes": "Four movements; also recorded by the Sydney String Quartet (ABC Classics, 2012)",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos 8.572844, 2011",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/482770694",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 11 in D minor",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 20,
+   "notes": "Three movements; also recorded by the Australian String Quartet (Marco Polo 8.223746)",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos 8.572844, 2011",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/482770694",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 12 in E major",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 21,
+   "notes": "Four movements: Adagio-Allegro, Humoreske, Reverie and Finale; Naxos vol. 5",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos 8.573267, 2014",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/925695580",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 13 in E-flat major",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 20,
+   "notes": "Four movements including a Barcarole; Naxos vol. 5 with Nos. 12 and 14",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos 8.573267, 2014",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/925695580",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 14 in B minor",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 25,
+   "notes": "Four movements including a Menuet; Naxos vol. 5 with Nos. 12 and 13",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos 8.573267, 2014",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/925695580",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 15 in A minor",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 22,
+   "notes": "Four movements including a Canzona and a Serenade; Naxos vol. 6",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos, 2015",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/1055763165",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 16 in B-flat major (\"Celtic\")",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 24,
+   "notes": "Four movements; the second is headed \"Shule Agra\", the third is a Jig; Naxos vol. 6",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos, 2015",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/1055763165",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Hill, Alfred",
+   "title": "String Quartet No. 17 in C major",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 18,
+   "notes": "Three movements; later arranged, with No. 4, as Hill's Symphony No. 4",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Accessible Romantic quartet writing; first violin about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Dominion String Quartet, Naxos, 2015",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/1055763165",
+    "https://en.wikipedia.org/wiki/Alfred_Hill_(composer)"
+   ],
+   "confidence": "medium",
+   "gap": true
   },
   {
    "composer": "Kienzl, Wilhelm",
@@ -5166,6 +5890,44 @@
    "confidence": "medium"
   },
   {
+   "composer": "Schuberth, Carl",
+   "title": "Grand Nocturne élégiaque, Op. 6",
+   "aka": [
+    "L'Adieu"
+   ],
+   "instruments": {
+    "cello": 2,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "piano-strings",
+   "formationNote": null,
+   "form": "short",
+   "set": null,
+   "year": "1840",
+   "minutes": 7,
+   "notes": "Nocturne for two cellos and piano, headed \"L'Adieu\" on the recording; published 1840",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Romantic cello showpiece; first cello about ABRSM 8, second cello and piano moderate",
+   "hardest_part_guess": "cello 1",
+   "imslpPage": "Grand Nocturne élégiaque, Op.6 (Schuberth, Carl)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Published 1840",
+    "recorded": "Wunderkammer, MBM Mielke Bergfeld Musikproduktion, 2026 (Cello Sonatas of the Romantic Period)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Grand_Nocturne_élégiaque,_Op.6_(Schuberth,_Carl)",
+    "https://music.apple.com/us/album/1877739489"
+   ],
+   "confidence": "high"
+  },
+  {
    "composer": "Marteau, Henri",
    "title": "String Quartet No. 1 in D-flat major, Op. 5",
    "aka": [],
@@ -5356,6 +6118,47 @@
     "https://www.deezer.com/album/587777422"
    ],
    "confidence": "high"
+  },
+  {
+   "composer": "Marteau, Henri",
+   "title": "8 Mélodies, Op. 19c",
+   "aka": [
+    "Huit mélodies, Op. 19c"
+   ],
+   "instruments": {
+    "voice": 1,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "other",
+   "formationNote": null,
+   "form": "set",
+   "set": null,
+   "year": "",
+   "minutes": 23,
+   "notes": "Eight songs on poems by Hugo, Sully Prudhomme and Coppée, here for voice and string quartet",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Songs with a busy but supportive quartet",
+   "hardest_part_guess": "voice",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Karine Deshayes and the Isasi Quartet, cpo, 2018 (Complete Works for String Quartet, Vol. 1)",
+    "performed": ""
+   },
+   "sources": [
+    "https://music.apple.com/us/album/1394803376",
+    "https://en.wikipedia.org/wiki/Henri_Marteau"
+   ],
+   "confidence": "medium",
+   "gap": true
   },
   {
    "composer": "Andrée, Elfrida",
@@ -5706,7 +6509,7 @@
    "imslpPage": "Alpen Rosen, Op.162 (Lanner, Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Joseph Lanner) and 12 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Lanner: 50 songs); MusicBrainz work browse (44 works, 44 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
   },
   {
    "composer": "Lanner, Joseph",
@@ -5714,7 +6517,7 @@
    "imslpPage": "Die Aelpler, Op.124 (Lanner, Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Joseph Lanner) and 12 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Lanner: 50 songs); MusicBrainz work browse (44 works, 44 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
   },
   {
    "composer": "Lanner, Joseph",
@@ -5722,7 +6525,7 @@
    "imslpPage": "Die Flotten, Op.140 (Lanner, Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Joseph Lanner) and 12 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Lanner: 50 songs); MusicBrainz work browse (44 works, 44 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
   },
   {
    "composer": "Lanner, Joseph",
@@ -5730,15 +6533,15 @@
    "imslpPage": "Die Osmanen, Op.146 (Lanner, Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; Op. 146 appears on an Archiv album by Concerto Koeln/Sarband (6495061); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Joseph Lanner) and 12 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Lanner: 50 songs); MusicBrainz work browse (44 works, 44 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; Op. 146 appears on an Archiv album by Concerto Koeln/Sarband (6495061); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
   },
   {
    "composer": "Lanner, Joseph",
    "title": "Die Romantiker, Op.167",
    "imslpPage": "Die Romantiker, Op.167 (Lanner, Joseph)",
    "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; Op. 167 appears on Deezer albums by Ensemble Wien (VMS 2016, album 12969374) and the Johann Strauss Ensemble (Orfeo 2016, album 580868511); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
+   "reason": "doubtful: low confidence",
+   "evidence": "RECHECK 2026-10-17: MusicBrainz lists recordings of Op. 167 by the Johann Strauss Ensemble under Wildner ('Hofballtänze', 2016) and the Wiener Philharmoniker (New Year's Concert 2014). Whether these players take one part each, or play arrangements, is not established, so the original-scoring recording stays unconfirmed. Searches: Deezer album search (Joseph Lanner) and 12 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Lanner: 50 songs); MusicBrainz work browse (44 works, 44 with recordings) lists none of these pages. Earlier agent: Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; Op. 167 appears on Deezer albums by Ensemble Wien (VMS 2016, album 12969374) and the Johann Strauss Ensemble (Orfeo 2016, album 580868511); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
   },
   {
    "composer": "Lanner, Joseph",
@@ -5746,15 +6549,15 @@
    "imslpPage": "Elite-Tänze, Op.182 (Lanner, Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Joseph Lanner) and 12 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Lanner: 50 songs); MusicBrainz work browse (44 works, 44 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
   },
   {
    "composer": "Lanner, Joseph",
    "title": "Hofballtänze, Op.161",
    "imslpPage": "Hofballtänze, Op.161 (Lanner, Joseph)",
    "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; Op. 161 appears on albums by the Wiener Lanner Ensemble (66504242), the Johann Strauss Ensemble (580868511) and Otmar Suitner's orchestra; the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
+   "reason": "doubtful: low confidence",
+   "evidence": "RECHECK 2026-10-17: MusicBrainz lists recordings of Op. 161 by the Biedermeier Ensemble Wien ('Walzer à la Paganini', Musik des Biedermeier III) and the Johann Strauss Ensemble under Wildner ('Hofballtänze', 2016), besides orchestras (Staatskapelle Dresden, Vienna State Opera Orchestra). Whether these players take one part each, or play arrangements, is not established, so the original-scoring recording stays unconfirmed. Searches: Deezer album search (Joseph Lanner) and 12 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Lanner: 50 songs); MusicBrainz work browse (44 works, 44 with recordings) lists none of these pages. Earlier agent: Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; Op. 161 appears on albums by the Wiener Lanner Ensemble (66504242), the Johann Strauss Ensemble (580868511) and Otmar Suitner's orchestra; the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
   },
   {
    "composer": "Lanner, Joseph",
@@ -5762,7 +6565,7 @@
    "imslpPage": "Hoffnungs-Strahlen, Op.158 (Lanner, Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Joseph Lanner) and 12 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Lanner: 50 songs); MusicBrainz work browse (44 works, 44 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
   },
   {
    "composer": "Lanner, Joseph",
@@ -5770,15 +6573,15 @@
    "imslpPage": "Jubel-Walzer, Op.100 (Lanner, Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Joseph Lanner) and 12 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Lanner: 50 songs); MusicBrainz work browse (44 works, 44 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
   },
   {
    "composer": "Lanner, Joseph",
    "title": "Marien-Walzer, Op.143",
    "imslpPage": "Marien-Walzer, Op.143 (Lanner, Joseph)",
    "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; Op. 143 appears on albums by the Wiener Lanner Ensemble (66504242) and Gidon Kremer (12375202); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
+   "reason": "doubtful: low confidence",
+   "evidence": "RECHECK 2026-10-17: MusicBrainz lists recordings of Op. 143 by the Alban Berg Quartett (EMI 'Walzer', 2000) and the Tanzquartett Wien ('Dance Music From Old Vienna'); the earlier agent found the Wiener Lanner Ensemble and Gidon Kremer albums. Whether these players take one part each, or play arrangements, is not established, so the original-scoring recording stays unconfirmed. Searches: Deezer album search (Joseph Lanner) and 12 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Lanner: 50 songs); MusicBrainz work browse (44 works, 44 with recordings) lists none of these pages. Earlier agent: Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; Op. 143 appears on albums by the Wiener Lanner Ensemble (66504242) and Gidon Kremer (12375202); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
   },
   {
    "composer": "Lanner, Joseph",
@@ -5786,15 +6589,15 @@
    "imslpPage": "Nixen-Tänze, Op.198 (Lanner, Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Joseph Lanner) and 12 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Lanner: 50 songs); MusicBrainz work browse (44 works, 44 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; no recording of this waltz set found (Deezer track search, MusicBrainz); the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
   },
   {
    "composer": "Lanner, Joseph",
    "title": "Steyrische Tänze, Op.165",
    "imslpPage": "Steyrische Tänze, Op.165 (Lanner, Joseph)",
    "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; Op. 165 appears on albums by Ensemble Wien (12969374), the Johann Strauss Ensemble (580868511), Gidon Kremer (12375202) and Harnoncourt's orchestra; the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
+   "reason": "doubtful: low confidence",
+   "evidence": "RECHECK 2026-10-17: MusicBrainz lists recordings of Op. 165 by the Johann Strauss Ensemble under Wildner ('Hofballtänze', 2016) and the Staatskapelle Dresden; the earlier agent found Ensemble Wien (VMS 2016). Whether these players take one part each, or play arrangements, is not established, so the original-scoring recording stays unconfirmed. Searches: Deezer album search (Joseph Lanner) and 12 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Lanner: 50 songs); MusicBrainz work browse (44 works, 44 with recordings) lists none of these pages. Earlier agent: Original scoring 3 violins and bass (Silvertrust edition notes) or orchestra; Op. 165 appears on albums by Ensemble Wien (12969374), the Johann Strauss Ensemble (580868511), Gidon Kremer (12375202) and Harnoncourt's orchestra; the one string-quartet disc found (Lanner Quartet, Hungaroton 2016, Deezer 584165282) plays Opp. 165, 103 and 135 in A. Weinmann's arrangement, so no one-to-a-part recording of the original scoring was found"
   },
   {
    "composer": "Jadassohn, Salomon",
@@ -5802,7 +6605,7 @@
    "imslpPage": "Piano Quartet No.2, Op.86 (Jadassohn, Salomon)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "no recording found (Deezer album and track searches, Apple, MusicBrainz lists only piano concertos); IMSLP note of June 2013: none of the other two piano quartets recorded"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Salomon Jadassohn) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Salomon Jadassohn: 50 songs); MusicBrainz work browse (9 works, 6 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: no recording found (Deezer album and track searches, Apple, MusicBrainz lists only piano concertos); IMSLP note of June 2013: none of the other two piano quartets recorded"
   },
   {
    "composer": "Jadassohn, Salomon",
@@ -5810,7 +6613,7 @@
    "imslpPage": "Piano Quartet No.3, Op.109 (Jadassohn, Salomon)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "no recording found (Deezer album and track searches, Apple, MusicBrainz lists only piano concertos); IMSLP note of June 2013: none of the other two piano quartets recorded"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Salomon Jadassohn) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Salomon Jadassohn: 50 songs); MusicBrainz work browse (9 works, 6 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: no recording found (Deezer album and track searches, Apple, MusicBrainz lists only piano concertos); IMSLP note of June 2013: none of the other two piano quartets recorded"
   },
   {
    "composer": "Jadassohn, Salomon",
@@ -5818,7 +6621,7 @@
    "imslpPage": "Piano Quintet No.1, Op.70 (Jadassohn, Salomon)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "no recording found (Deezer album and track searches, Apple, MusicBrainz lists only piano concertos); only the Op. 126 quintet is on a disc"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Salomon Jadassohn) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Salomon Jadassohn: 50 songs); MusicBrainz work browse (9 works, 6 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: no recording found (Deezer album and track searches, Apple, MusicBrainz lists only piano concertos); only the Op. 126 quintet is on a disc"
   },
   {
    "composer": "Jadassohn, Salomon",
@@ -5826,7 +6629,7 @@
    "imslpPage": "Piano Quintet No.2, Op.76 (Jadassohn, Salomon)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "no recording found (Deezer album and track searches, Apple, MusicBrainz lists only piano concertos); only the Op. 126 quintet is on a disc"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Salomon Jadassohn) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Salomon Jadassohn: 50 songs); MusicBrainz work browse (9 works, 6 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: no recording found (Deezer album and track searches, Apple, MusicBrainz lists only piano concertos); only the Op. 126 quintet is on a disc"
   },
   {
    "composer": "Jadassohn, Salomon",
@@ -5834,7 +6637,7 @@
    "imslpPage": "Piano Sextet, Op.100 (Jadassohn, Salomon)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "no recording found (Deezer album and track searches, Apple, MusicBrainz lists only piano concertos); IMSLP links an audio file only; scored for piano four hands and strings"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Salomon Jadassohn) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Salomon Jadassohn: 50 songs); MusicBrainz work browse (9 works, 6 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: no recording found (Deezer album and track searches, Apple, MusicBrainz lists only piano concertos); IMSLP links an audio file only; scored for piano four hands and strings"
   },
   {
    "composer": "Jadassohn, Salomon",
@@ -5842,7 +6645,7 @@
    "imslpPage": "String Quartet in C minor, Op.10 (Jadassohn, Salomon)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "no recording found (Deezer album and track searches, Apple, MusicBrainz lists only piano concertos); 1858 print, no modern edition or recording found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Salomon Jadassohn) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Salomon Jadassohn: 50 songs); MusicBrainz work browse (9 works, 6 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: no recording found (Deezer album and track searches, Apple, MusicBrainz lists only piano concertos); 1858 print, no modern edition or recording found"
   },
   {
    "composer": "Jadassohn, Salomon",
@@ -5858,7 +6661,7 @@
    "imslpPage": "Nur Tropfen (Kirchner, Theodor)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Seven very small pieces for string quartet (1903); no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Theodor Kirchner) and 3 track searches (composer with title, opus or form words); Apple composerTerm song search (Theodor Kirchner: 50 songs); MusicBrainz work browse (67 works, 45 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Seven very small pieces for string quartet (1903); no recording found (Deezer, Apple)"
   },
   {
    "composer": "Kirchner, Theodor",
@@ -5866,7 +6669,7 @@
    "imslpPage": "String Quartet, Op.20 (Kirchner, Theodor)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1874 print; no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Theodor Kirchner) and 3 track searches (composer with title, opus or form words); Apple composerTerm song search (Theodor Kirchner: 50 songs); MusicBrainz work browse (67 works, 45 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1874 print; no recording found (Deezer, Apple)"
   },
   {
    "composer": "Holbrooke, Joseph",
@@ -5874,7 +6677,7 @@
    "imslpPage": "4 Dances, Op.20 (Holbrooke, Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Piano sextet with double bass (first printed by 1920); no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Joseph Holbrooke) and 6 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Holbrooke: 50 songs); MusicBrainz work browse (91 works, 65 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Piano sextet with double bass (first printed by 1920); no recording found (Deezer, Apple)"
   },
   {
    "composer": "Holbrooke, Joseph",
@@ -5882,7 +6685,7 @@
    "imslpPage": "Sextet No.2, Op.33a (Holbrooke, Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Version of a sextet for piano and winds/strings (1906 print); no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Joseph Holbrooke) and 6 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Holbrooke: 50 songs); MusicBrainz work browse (91 works, 65 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Version of a sextet for piano and winds/strings (1906 print); no recording found (Deezer, Apple)"
   },
   {
    "composer": "Holbrooke, Joseph",
@@ -5890,7 +6693,7 @@
    "imslpPage": "String Quartet No.5, Op.72 (Holbrooke, Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Folksong Suite No. 2 (4 movements, 1920 print); only the single movement Song of the Bottle is on the Dutton disc, no complete recording found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Joseph Holbrooke) and 6 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Holbrooke: 50 songs); MusicBrainz work browse (91 works, 65 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Folksong Suite No. 2 (4 movements, 1920 print); only the single movement Song of the Bottle is on the Dutton disc, no complete recording found"
   },
   {
    "composer": "Holbrooke, Joseph",
@@ -5898,7 +6701,7 @@
    "imslpPage": "The Pickwick Club, Op.68 (Holbrooke, Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "String Quartet No. 3 (1916 print); no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Joseph Holbrooke) and 6 track searches (composer with title, opus or form words); Apple composerTerm song search (Joseph Holbrooke: 50 songs); MusicBrainz work browse (91 works, 65 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: String Quartet No. 3 (1916 print); no recording found (Deezer, Apple)"
   },
   {
    "composer": "Tovey, Donald Francis",
@@ -5906,15 +6709,7 @@
    "imslpPage": "String Quartet No.2, Op.24 (Tovey, Donald Francis)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1914 print; IMSLP says a Toccata recording was announced but unreleased; not on Toccata vols 1-3 or any disc found (Deezer, Apple)"
-  },
-  {
-   "composer": "Tovey, Donald Francis",
-   "title": "Trio for Violin, English Horn and Piano, Op. 14",
-   "imslpPage": "Trio for Violin, English Horn and Piano, Op.14 (Tovey, Donald Francis)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "1913 print; only a piano-trio version was announced by Toccata; no recording of this scoring found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Donald Tovey) and 4 track searches (composer with title, opus or form words); Apple composerTerm song search (Donald Tovey: 50 songs); MusicBrainz work browse (59 works, 46 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1914 print; IMSLP says a Toccata recording was announced but unreleased; not on Toccata vols 1-3 or any disc found (Deezer, Apple)"
   },
   {
    "composer": "Tovey, Donald Francis",
@@ -5938,7 +6733,7 @@
    "imslpPage": "String Trio (Bretón, Tomás)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1913 manuscript for violin, viola and piano; no recording found (Deezer, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Tomás Bretón) and 2 track searches (composer with title, opus or form words); Apple composerTerm song search (Tomás Bretón: 50 songs); MusicBrainz work browse (85 works, 73 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1913 manuscript for violin, viola and piano; no recording found (Deezer, Apple, MusicBrainz)"
   },
   {
    "composer": "Koessler, Hans",
@@ -5946,7 +6741,7 @@
    "imslpPage": "String Quartet No.2 (Koessler, Hans)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "no recording of this work found (Deezer albums and track search, Apple, MusicBrainz, web search); cpo 777269-2 holds only the String Quintet and Sextet; 1902 Bote & Bock print"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Hans Koessler; Hans Kößler) and 5 track searches (composer with title, opus or form words); Apple composerTerm song search (Hans Koessler: 50 songs; Hans Kößler: 50 songs); MusicBrainz work browse (2 works, 0 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: no recording of this work found (Deezer albums and track search, Apple, MusicBrainz, web search); cpo 777269-2 holds only the String Quintet and Sextet; 1902 Bote & Bock print"
   },
   {
    "composer": "Koessler, Hans",
@@ -5954,7 +6749,7 @@
    "imslpPage": "Suite for 3 Cellos (Koessler, Hans)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Manuscript only; no recording found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Hans Koessler; Hans Kößler) and 5 track searches (composer with title, opus or form words); Apple composerTerm song search (Hans Koessler: 50 songs; Hans Kößler: 50 songs); MusicBrainz work browse (2 works, 0 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Manuscript only; no recording found"
   },
   {
    "composer": "David, Félicien",
@@ -5962,7 +6757,7 @@
    "imslpPage": "Les quatre saisons (David, Félicien)",
    "works": 24,
    "reason": "not performed or recorded",
-   "evidence": "24 quintets in 4 series (1845 Paris print); no recording found (Deezer, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Félicien David) and 3 track searches (composer with title, opus or form words); Apple composerTerm song search (Félicien David: 50 songs); MusicBrainz artist search returned only a namesake (no entry for the composer); no recording or performance of this work found. Earlier agent: 24 quintets in 4 series (1845 Paris print); no recording found (Deezer, Apple, MusicBrainz)"
   },
   {
    "composer": "David, Félicien",
@@ -5970,7 +6765,7 @@
    "imslpPage": "String Quartet in F minor (David, Félicien)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No publication data on IMSLP; no recording found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Félicien David) and 3 track searches (composer with title, opus or form words); Apple composerTerm song search (Félicien David: 50 songs); MusicBrainz artist search returned only a namesake (no entry for the composer); no recording or performance of this work found. Earlier agent: No publication data on IMSLP; no recording found"
   },
   {
    "composer": "Glass, Louis",
@@ -5978,7 +6773,7 @@
    "imslpPage": "Piano Trio, Op.19 (Glass, Louis)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1895 print; no recording found (Deezer album and track searches)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Louis Glass) and 4 track searches (composer with title, opus or form words); Apple composerTerm song search (Louis Glass: 50 songs); MusicBrainz work browse (29 works, 23 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1895 print; no recording found (Deezer album and track searches)"
   },
   {
    "composer": "Glass, Louis",
@@ -5986,7 +6781,7 @@
    "imslpPage": "Trio, Op.76 (Glass, Louis)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Trio for guitar, violin and viola (1934, published 1995, still in copyright); no recording found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Louis Glass) and 4 track searches (composer with title, opus or form words); Apple composerTerm song search (Louis Glass: 50 songs); MusicBrainz work browse (29 works, 23 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Trio for guitar, violin and viola (1934, published 1995, still in copyright); no recording found"
   },
   {
    "composer": "Schumann, Georg",
@@ -5994,7 +6789,7 @@
    "imslpPage": "Piano Quintet No.1, Op.18 (Schumann, Georg)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1898 Breitkopf print; no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Georg Schumann) and 3 track searches (composer with title, opus or form words); Apple composerTerm song search (Georg Schumann: 50 songs); MusicBrainz work browse (6 works, 3 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1898 Breitkopf print; no recording found (Deezer, Apple)"
   },
   {
    "composer": "Schumann, Georg",
@@ -6002,7 +6797,7 @@
    "imslpPage": "Piano Quintet No.2, Op.49 (Schumann, Georg)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1909 print; no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Georg Schumann) and 3 track searches (composer with title, opus or form words); Apple composerTerm song search (Georg Schumann: 50 songs); MusicBrainz work browse (6 works, 3 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1909 print; no recording found (Deezer, Apple)"
   },
   {
    "composer": "Sgambati, Giovanni",
@@ -6010,7 +6805,7 @@
    "imslpPage": "Te Deum laudamus, Op.20 or Op.28 (Sgambati, Giovanni)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Andante solenne for strings with organ or harmonium (1893 print); no recording found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Giovanni Sgambati) and 1 track searches (composer with title, opus or form words); Apple composerTerm song search (Giovanni Sgambati: 50 songs); MusicBrainz work browse (115 works, 97 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Andante solenne for strings with organ or harmonium (1893 print); no recording found"
   },
   {
    "composer": "Doppler, Franz",
@@ -6034,7 +6829,7 @@
    "imslpPage": "Flute Quartet, Op.84 (Thieriot, Ferdinand)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1905 print; no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Ferdinand Thieriot) and 13 track searches (composer with title, opus or form words); Apple composerTerm song search (Ferdinand Thieriot: 50 songs); MusicBrainz work browse (15 works, 12 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1905 print; no recording found (Deezer, Apple)"
   },
   {
    "composer": "Thieriot, Ferdinand",
@@ -6042,7 +6837,7 @@
    "imslpPage": "Piano Quartet, Op.9 (Thieriot, Ferdinand)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1863 print; no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Ferdinand Thieriot) and 13 track searches (composer with title, opus or form words); Apple composerTerm song search (Ferdinand Thieriot: 50 songs); MusicBrainz work browse (15 works, 12 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1863 print; no recording found (Deezer, Apple)"
   },
   {
    "composer": "Thieriot, Ferdinand",
@@ -6050,7 +6845,7 @@
    "imslpPage": "Piano Trio, Op.1 (Thieriot, Ferdinand)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1858 print; no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Ferdinand Thieriot) and 13 track searches (composer with title, opus or form words); Apple composerTerm song search (Ferdinand Thieriot: 50 songs); MusicBrainz work browse (15 works, 12 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1858 print; no recording found (Deezer, Apple)"
   },
   {
    "composer": "Thieriot, Ferdinand",
@@ -6058,7 +6853,7 @@
    "imslpPage": "Piano Trio, Op.14 (Thieriot, Ferdinand)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1868 print dedicated to Brahms; no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Ferdinand Thieriot) and 13 track searches (composer with title, opus or form words); Apple composerTerm song search (Ferdinand Thieriot: 50 songs); MusicBrainz work browse (15 works, 12 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1868 print dedicated to Brahms; no recording found (Deezer, Apple)"
   },
   {
    "composer": "Thieriot, Ferdinand",
@@ -6066,7 +6861,7 @@
    "imslpPage": "Piano Trio, Op.47 (Thieriot, Ferdinand)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1890 print; no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Ferdinand Thieriot) and 13 track searches (composer with title, opus or form words); Apple composerTerm song search (Ferdinand Thieriot: 50 songs); MusicBrainz work browse (15 works, 12 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1890 print; no recording found (Deezer, Apple)"
   },
   {
    "composer": "Thieriot, Ferdinand",
@@ -6074,15 +6869,7 @@
    "imslpPage": "Piano Trio, Op.90 (Thieriot, Ferdinand)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1909 print; no recording found (Deezer, Apple)"
-  },
-  {
-   "composer": "Thieriot, Ferdinand",
-   "title": "String Octet, Op. 78",
-   "imslpPage": "String Octet, Op.78 (Thieriot, Ferdinand)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Only Toccata vol. 5 (Magisterra Soloists), listed on Deezer with a release date of 6 Nov 2026, i.e. not yet issued"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Ferdinand Thieriot) and 13 track searches (composer with title, opus or form words); Apple composerTerm song search (Ferdinand Thieriot: 50 songs); MusicBrainz work browse (15 works, 12 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1909 print; no recording found (Deezer, Apple)"
   },
   {
    "composer": "Thieriot, Ferdinand",
@@ -6090,7 +6877,7 @@
    "imslpPage": "String Quartet No.2, Op.93 (Thieriot, Ferdinand)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1912 print; the quartets on Toccata vol. 4 are in G minor, B-flat and C minor, not this one; no recording found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Ferdinand Thieriot) and 13 track searches (composer with title, opus or form words); Apple composerTerm song search (Ferdinand Thieriot: 50 songs); MusicBrainz work browse (15 works, 12 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1912 print; the quartets on Toccata vol. 4 are in G minor, B-flat and C minor, not this one; no recording found"
   },
   {
    "composer": "Chapí, Ruperto",
@@ -6106,7 +6893,7 @@
    "imslpPage": "Feuilles mortes, Op.52 (Grechaninov, Aleksandr)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Three sketches for contralto and string quartet (c. 1912 print); no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Alexander Gretchaninov) and 2 track searches (composer with title, opus or form words); Apple composerTerm song search (Alexander Gretchaninov: 50 songs; Aleksandr Grechaninov: 50 songs); MusicBrainz artist not matched; no recording or performance of this work found. Earlier agent: Three sketches for contralto and string quartet (c. 1912 print); no recording found (Deezer, Apple)"
   },
   {
    "composer": "Hill, Alfred",
@@ -6114,7 +6901,7 @@
    "imslpPage": "2 Miniature Piano Trios, 1.2.2.1 MTr1-2 (Hill, Alfred)",
    "works": 2,
    "reason": "not performed or recorded",
-   "evidence": "1927-28 Schirmer trios for clarinet or violin, cello and piano; no recording found (Deezer, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Alfred Hill) and 2 track searches (composer with title, opus or form words); Apple composerTerm song search (Alfred Hill: 50 songs); MusicBrainz work browse (40 works, 32 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1927-28 Schirmer trios for clarinet or violin, cello and piano; no recording found (Deezer, Apple, MusicBrainz)"
   },
   {
    "composer": "Boëllmann, Léon",
@@ -6122,7 +6909,7 @@
    "imslpPage": "Rhapsodie carnavalesque (Boëllmann, Léon)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Orchestral-style parts (trombone, harp, strings, piano) of c. 1890, printed in a piano-and-orchestra arrangement; no chamber performance or recording found"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Léon Boëllmann) and 1 track searches (composer with title, opus or form words); Apple composerTerm song search (Léon Boëllmann: 50 songs); MusicBrainz work browse (129 works, 101 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Orchestral-style parts (trombone, harp, strings, piano) of c. 1890, printed in a piano-and-orchestra arrangement; no chamber performance or recording found"
   },
   {
    "composer": "Caetani, Roffredo",
@@ -6130,7 +6917,7 @@
    "imslpPage": "Piano Quintet, Op.4 (Caetani, Roffredo)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1897 print dedicated to Sgambati; no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Roffredo Caetani) and 2 track searches (composer with title, opus or form words); Apple composerTerm song search (Roffredo Caetani: 50 songs); MusicBrainz work browse (1 works, 0 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1897 print dedicated to Sgambati; no recording found (Deezer, Apple)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6146,7 +6933,7 @@
    "imslpPage": "Andante, Op.52 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Cello, piano and organ; IMSLP says the wind version looks primary; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: Cello, piano and organ; IMSLP says the wind version looks primary; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6154,7 +6941,7 @@
    "imslpPage": "Andantino capriccioso, Op.51 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Violin with piano and organ ad lib., or winds or orchestra (1870); no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: Violin with piano and organ ad lib., or winds or orchestra (1870); no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6162,7 +6949,7 @@
    "imslpPage": "Piano Quartet No.3, Op.44 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1862 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1862 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6170,7 +6957,7 @@
    "imslpPage": "Piano Quintet, Op.39 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Quintette de concert for piano, strings and double bass (1860); no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: Quintette de concert for piano, strings and double bass (1860); no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6178,7 +6965,7 @@
    "imslpPage": "Piano Trio No.3, Op.24 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1857 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1857 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6186,7 +6973,7 @@
    "imslpPage": "Piano Trio No.4, Op.35 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1859 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1859 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6194,7 +6981,7 @@
    "imslpPage": "Piano Trio, Op.14 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Flute, cello and piano; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: Flute, cello and piano; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6202,7 +6989,7 @@
    "imslpPage": "Septet, Op.54 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Flute, oboe, horn, viola, cello, bass and piano; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: Flute, oboe, horn, viola, cello, bass and piano; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6210,7 +6997,7 @@
    "imslpPage": "String Quartet No.3, Op.38 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1860 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1860 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6218,7 +7005,7 @@
    "imslpPage": "String Quartet No.4, Op.53 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1876 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1876 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6226,7 +7013,7 @@
    "imslpPage": "String Quintet No.1, Op.15 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two violas; 1856 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: Two violas; 1856 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6234,7 +7021,7 @@
    "imslpPage": "String Quintet No.2, Op.19 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two violas; 1857 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: Two violas; 1857 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6242,7 +7029,7 @@
    "imslpPage": "String Quintet No.5, Op.29 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two violas; 1858 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: Two violas; 1858 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6250,7 +7037,7 @@
    "imslpPage": "String Quintet No.6, Op.36 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1859 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1859 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6258,7 +7045,7 @@
    "imslpPage": "String Trio No.1, Op.25 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1857 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1857 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6266,7 +7053,7 @@
    "imslpPage": "String Trio No.2, Op.41 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1861 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1861 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6274,7 +7061,7 @@
    "imslpPage": "String Trio No.3, Op.48 (Blanc, Adolphe)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "c. 1848/1866 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Adolphe Blanc) and 24 track searches (composer with title, opus or form words); Apple composerTerm song search (Adolphe Blanc: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: c. 1848/1866 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Blanc, Adolphe",
@@ -6290,7 +7077,7 @@
    "imslpPage": "6 Flute Quartets, Op.5 (Walckiers, Eugène)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "c. 1810 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: c. 1810 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6298,7 +7085,7 @@
    "imslpPage": "Fantaisie sur 'Le Postillon de Lonjumeau', Op.65 (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Flute fantasy with piano or string quartet; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Flute fantasy with piano or string quartet; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6306,7 +7093,7 @@
    "imslpPage": "Fantaisie sur 'Le Serment', Op.51 (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Flute fantasy on Auber with strings; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Flute fantasy on Auber with strings; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6314,7 +7101,7 @@
    "imslpPage": "Fantaisie sur des motifs du Brasseur de Preston, Op.74 (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Flute fantasy on Adam with strings; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Flute fantasy on Adam with strings; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6322,7 +7109,7 @@
    "imslpPage": "Flute Quintet, Op.90 (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "The same work as String Quintet No. 1, Op. 90 in another scoring; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: The same work as String Quintet No. 1, Op. 90 in another scoring; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6330,7 +7117,7 @@
    "imslpPage": "L'attente, Op.25 (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Air varié for flute with piano or string quartet; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Air varié for flute with piano or string quartet; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6338,7 +7125,7 @@
    "imslpPage": "Piano Quintet No.1, Op.103 (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1861 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1861 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6346,7 +7133,7 @@
    "imslpPage": "Piano Quintet No.2, Op.105 (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Undated print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Undated print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6354,7 +7141,7 @@
    "imslpPage": "Piano Trio, Op.104 (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1862 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1862 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6362,7 +7149,7 @@
    "imslpPage": "Piano Trio, Op.95 (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Flute (or violin or clarinet), viola and piano, 1856; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Flute (or violin or clarinet), viola and piano, 1856; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6370,7 +7157,7 @@
    "imslpPage": "Rondeau villageois, Op.18 (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Flute with piano or strings, c. 1825; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Flute with piano or strings, c. 1825; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6378,7 +7165,7 @@
    "imslpPage": "Rondo savoyard (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Flute with strings, 1819; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Flute with strings, 1819; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6386,7 +7173,7 @@
    "imslpPage": "String Quintet No.1, Op.90 (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "The same work as the Flute Quintet, Op. 90; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: The same work as the Flute Quintet, Op. 90; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Walckiers, Eugène",
@@ -6394,15 +7181,7 @@
    "imslpPage": "String Quintet No.3, Op.102 (Walckiers, Eugène)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1862 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
-  },
-  {
-   "composer": "Schuberth, Carl",
-   "title": "Grand Nocturne élégiaque, Op. 6",
-   "imslpPage": "Grand Nocturne élégiaque, Op.6 (Schuberth, Carl)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Two cellos and piano (1840); no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Eugène Walckiers) and 19 track searches (composer with title, opus or form words); Apple composerTerm song search (Eugène Walckiers: 50 songs); MusicBrainz work browse (3 works, 2 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1862 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Schuberth, Carl",
@@ -6410,7 +7189,7 @@
    "imslpPage": "String Quartet No.1, Op.34 (Schuberth, Carl)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1856 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Carl Schuberth) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Carl Schuberth: 20 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1856 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Schuberth, Carl",
@@ -6418,7 +7197,7 @@
    "imslpPage": "String Quartet No.2, Op.35 (Schuberth, Carl)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1860 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Carl Schuberth) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Carl Schuberth: 20 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1860 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Schuberth, Carl",
@@ -6426,7 +7205,7 @@
    "imslpPage": "String Quartet No.3, Op.37 (Schuberth, Carl)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1862 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Carl Schuberth) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Carl Schuberth: 20 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1862 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Schuberth, Carl",
@@ -6434,7 +7213,7 @@
    "imslpPage": "String Quartet No.4, Op.40 (Schuberth, Carl)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1863 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Carl Schuberth) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Carl Schuberth: 20 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1863 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Schuberth, Carl",
@@ -6442,7 +7221,7 @@
    "imslpPage": "String Quintet No.1, Op.15 (Schuberth, Carl)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1846 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Carl Schuberth) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Carl Schuberth: 20 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1846 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Schuberth, Carl",
@@ -6450,7 +7229,7 @@
    "imslpPage": "String Quintet No.2 'Fantaisie Concertante', Op.19 (Schuberth, Carl)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Four cellos and double bass; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Carl Schuberth) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Carl Schuberth: 20 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: Four cellos and double bass; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Schuberth, Carl",
@@ -6458,7 +7237,7 @@
    "imslpPage": "String Quintet No.3, Op.24 (Schuberth, Carl)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1852 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Carl Schuberth) and 10 track searches (composer with title, opus or form words); Apple composerTerm song search (Carl Schuberth: 20 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: 1852 print; no recording found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Marteau, Henri",
@@ -6466,7 +7245,7 @@
    "imslpPage": "String Trio, Op.12 (Marteau, Henri)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1907 print dedicated to Max Reger; not on the cpo quartet series or any disc found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Henri Marteau) and 2 track searches (composer with title, opus or form words); Apple composerTerm song search (Henri Marteau: 50 songs); MusicBrainz work browse (28 works, 20 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1907 print dedicated to Max Reger; not on the cpo quartet series or any disc found (Deezer, Apple)"
   },
   {
    "composer": "Andrée, Elfrida",
@@ -6474,7 +7253,7 @@
    "imslpPage": "String Quartet in A major (Andrée, Elfrida)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Written 1861, first published only in 2000; no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Elfrida Andrée) and 2 track searches (composer with title, opus or form words); Apple composerTerm song search (Elfrida Andrée: 50 songs); MusicBrainz work browse (161 works, 21 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Written 1861, first published only in 2000; no recording found (Deezer, Apple)"
   },
   {
    "composer": "Mackenzie, Alexander",
@@ -6482,7 +7261,7 @@
    "imslpPage": "Ancient Scots Tunes, Op.82 (Mackenzie, Alexander Campbell)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two folk-tune pieces for string quartet (Hawkes 1915); no recording found (Deezer album and track searches, Apple, MusicBrainz, web search)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Alexander Mackenzie) and 3 track searches (composer with title, opus or form words); Apple composerTerm song search (Alexander Mackenzie: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: Two folk-tune pieces for string quartet (Hawkes 1915); no recording found (Deezer album and track searches, Apple, MusicBrainz, web search)"
   },
   {
    "composer": "Mackenzie, Alexander",
@@ -6490,7 +7269,7 @@
    "imslpPage": "String Quartet in G major (Mackenzie, Alexander Campbell)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Written 1868, published 2013 by Heaven Publishing; no recording found (Deezer album and track searches, Apple, MusicBrainz, web search)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Alexander Mackenzie) and 3 track searches (composer with title, opus or form words); Apple composerTerm song search (Alexander Mackenzie: 50 songs); MusicBrainz lists the artist but no works; no recording or performance of this work found. Earlier agent: Written 1868, published 2013 by Heaven Publishing; no recording found (Deezer album and track searches, Apple, MusicBrainz, web search)"
   },
   {
    "composer": "Nováček, Ottokar",
@@ -6498,7 +7277,7 @@
    "imslpPage": "String Quartet in E minor (Nováček, Ottokar)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "IMSLP's recorded flag refers to a piano arrangement of one movement; no recording of the quartet found (Deezer album and track searches, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Ottokar Nováček) and 4 track searches (composer with title, opus or form words); Apple composerTerm song search (Ottokar Nováček: 50 songs); MusicBrainz work browse (6 works, 4 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: IMSLP's recorded flag refers to a piano arrangement of one movement; no recording of the quartet found (Deezer album and track searches, Apple, MusicBrainz)"
   },
   {
    "composer": "Nováček, Ottokar",
@@ -6506,7 +7285,7 @@
    "imslpPage": "String Quartet, Op.10 (Nováček, Ottokar)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1898 print; no recording found (Deezer, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Ottokar Nováček) and 4 track searches (composer with title, opus or form words); Apple composerTerm song search (Ottokar Nováček: 50 songs); MusicBrainz work browse (6 works, 4 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1898 print; no recording found (Deezer, Apple, MusicBrainz)"
   },
   {
    "composer": "Nováček, Ottokar",
@@ -6514,7 +7293,7 @@
    "imslpPage": "String Quartet, Op.13 (Nováček, Ottokar)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "1904 Schirmer print dedicated to Franz Kneisel; no recording found (Deezer, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Ottokar Nováček) and 4 track searches (composer with title, opus or form words); Apple composerTerm song search (Ottokar Nováček: 50 songs); MusicBrainz work browse (6 works, 4 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: 1904 Schirmer print dedicated to Franz Kneisel; no recording found (Deezer, Apple, MusicBrainz)"
   },
   {
    "composer": "Moszkowski, Moritz",
@@ -6522,7 +7301,7 @@
    "imslpPage": "Piano Quintet (Moszkowski, Moritz)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Manuscript only; no recording found (Deezer, Apple)"
+   "evidence": "RECHECK 2026-10-17: Deezer album search (Moritz Moszkowski) and 2 track searches (composer with title, opus or form words); Apple composerTerm song search (Moritz Moszkowski: 50 songs); MusicBrainz work browse (363 works, 282 with recordings) lists none of these pages; no recording or performance of this work found. Earlier agent: Manuscript only; no recording found (Deezer, Apple)"
   },
   {
    "composer": "Seybold, Arthur",
@@ -6531,6 +7310,14 @@
    "works": 1,
    "reason": "arrangement",
    "evidence": "Five volumes of violin pieces (arrangements of Schumann's Op. 68 pieces and others) for violin, violin and piano or with cello; IMSLP's recorded flag is a title match; no recording found"
+  },
+  {
+   "composer": "Thieriot, Ferdinand",
+   "title": "String Octet in C major, Op. 78",
+   "imslpPage": "String Octet, Op.78 (Thieriot, Ferdinand)",
+   "works": 1,
+   "reason": "not performed or recorded: the only recording is a pre-release disc",
+   "evidence": "Toccata Classics Chamber Music Vol. 5 (Magisterra Soloists) is listed for 6 Nov 2026 and was not issued on 17 Oct 2026; re-check once it is out (full entry parked in data/chamber/curation/parked-low-confidence.json)."
   }
  ],
  "benchmark_issues": [],
@@ -6543,7 +7330,7 @@
    "skipped": 12,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "All 12 skipped: dance sets for 3 violins and bass (or orchestra); recordings are orchestral, ensemble or arrangements for quartet, none one to a part in the original scoring."
+   "note": "All 12 skipped: dance sets for 3 violins and bass (or orchestra); recordings are orchestral, ensemble or arrangements for quartet, none one to a part in the original scoring. Opp. 143, 161, 165 and 167 have small-ensemble recordings of unconfirmed scoring: parked as doubtful at the recheck."
   },
   {
    "name": "Marx, Joseph",
@@ -6575,20 +7362,20 @@
   {
    "name": "Holbrooke, Joseph",
    "candidates": 9,
-   "kept": 6,
+   "kept": 8,
    "skipped": 4,
-   "added_not_on_imslp": 1,
+   "added_not_on_imslp": 3,
    "coverage": "complete",
-   "note": "Piano Quartet No. 1, Op. 21 added from the Marco Polo disc (not on IMSLP)."
+   "note": "Piano Quartet No. 1, Op. 21 added from the Marco Polo disc (not on IMSLP). Horn Trio, Op. 28 (Naxos) and Symphonic Quintet No. 1, Op. 44 (Marco Polo) added at the recheck; neither is on IMSLP."
   },
   {
    "name": "Tovey, Donald Francis",
    "candidates": 9,
-   "kept": 7,
-   "skipped": 3,
+   "kept": 8,
+   "skipped": 2,
    "added_not_on_imslp": 1,
    "coverage": "complete",
-   "note": "Piano Trio, Op. 8 added from Toccata vol. 1."
+   "note": "Piano Trio, Op. 8 added from Toccata vol. 1. Trio, Op. 14 (violin, English horn, piano) added at the recheck from The Art of the English Horn (2012)."
   },
   {
    "name": "Bretón, Tomás",
@@ -6620,11 +7407,11 @@
   {
    "name": "Glass, Louis",
    "candidates": 5,
-   "kept": 3,
+   "kept": 4,
    "skipped": 2,
-   "added_not_on_imslp": 0,
+   "added_not_on_imslp": 1,
    "coverage": "complete",
-   "note": ""
+   "note": "String Quartet No. 3, Op. 23 added at the recheck (Dacapo disc with No. 4)."
   },
   {
    "name": "Schumann, Georg",
@@ -6660,7 +7447,7 @@
    "skipped": 8,
    "added_not_on_imslp": 9,
    "coverage": "complete",
-   "note": "Nine works added from the Toccata and Naxos Thieriot discs (not on IMSLP)."
+   "note": "Nine works added from the Toccata and Naxos Thieriot discs (not on IMSLP). String Octet, Op. 78 added at the recheck from Toccata vol. 5 (release listed for 6 Nov 2026)."
   },
   {
    "name": "Chapí, Ruperto",
@@ -6692,11 +7479,11 @@
   {
    "name": "Hill, Alfred",
    "candidates": 3,
-   "kept": 2,
+   "kept": 17,
    "skipped": 2,
-   "added_not_on_imslp": 0,
+   "added_not_on_imslp": 15,
    "coverage": "complete",
-   "note": ""
+   "note": "String Quartets Nos. 3-17 added at the recheck from the six Naxos volumes (Dominion String Quartet); the Life Quintet (strings with voices) is not added."
   },
   {
    "name": "Kienzl, Wilhelm",
@@ -6836,20 +7623,20 @@
   {
    "name": "Schuberth, Carl",
    "candidates": 9,
-   "kept": 1,
-   "skipped": 8,
+   "kept": 2,
+   "skipped": 7,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": ""
+   "note": "Grand Nocturne élégiaque, Op. 6 added at the recheck from the Wunderkammer disc (2026)."
   },
   {
    "name": "Marteau, Henri",
    "candidates": 6,
-   "kept": 5,
+   "kept": 6,
    "skipped": 1,
-   "added_not_on_imslp": 0,
+   "added_not_on_imslp": 1,
    "coverage": "complete",
-   "note": ""
+   "note": "8 Mélodies, Op. 19c (voice and string quartet, cpo) added at the recheck."
   },
   {
    "name": "Andrée, Elfrida",
@@ -6915,5 +7702,5 @@
    "note": ""
   }
  ],
- "note": "Method: IMSLP API wikitext for all 231 pages; Deezer (per-work track searches, album sweeps, about 190 album track lists), MusicBrainz, Apple (partly, it was slow) and 14 web searches. Deezer and MusicBrainz missed discs on other labels or spellings (cpo's Kößler, Albany, Resonus, EM Records), so 'not performed or recorded' is weaker for the print-only pages of Blanc, Walckiers, Jadassohn, Thieriot, Caetani, Marteau (String Trio) and Nováček. For the owner: (1) Lanner's 12 waltz sets (original scoring 3 violins and bass): only orchestral, ensemble or quartet-arrangement recordings found, all skipped. (2) Doppler Op. 36 is kept in the flute/violin/piano version that the print names beside two flutes (recorded by Arimany); Op. 37 and Op. 34 are out (recorded without strings). (3) Walckiers' flute quartets Opp. 46, 70, 103 on the same discs are for four flutes, so out. (4) Busoni's Op. 17 concerto is kept for its piano and string quartet version on a MusicBrainz recording listing (release and players not opened). (5) Keys where IMSLP and labels disagree: Jadassohn Op. 20 (key left out), Dietrich Op. 9 (two labels: C major), Glass Op. 22 (cpo: C minor), Busoni Quartet 1 (labels: C major), Kienzl Quartet 1 (IMSLP B-flat minor, Deezer B minor). Holbrooke's IMSLP Clarinet Quintet No. 1, Op. 27a is cpo's Quintet No. 2, Op. 27 (Ligeia) in G minor. (6) Marteau's Bogenstudien Op. 14 (violin id 3893) is a duo for two violins, not cross-listed. (7) 15 works not on IMSLP were added from discs: Marx's three quartets, Holbrooke Piano Quartet Op. 21, Tovey Trio Op. 8, Andrée Trio No. 1 and nine by Thieriot (3 string quartets, 2 piano quartets, 2 string trios, a sextet, the Op. 29 variations). (8) Thieriot's String Octet Op. 78 appears only on Toccata vol. 5, listed for 6 Nov 2026 (not yet issued). (9) Kirchner's Kindertrios (flagged pedagogical?) are kept because they are on a commercial disc. The Mackenzie, Kirchner Op. 84, Friskin trio Phantasie, Schuberth, Busoni Op. 17 and Thieriot additions rest on weaker evidence (library record, retailer or Qobuz listings, an IMSLP note, a single track) and carry medium confidence."
+ "note": "Method: IMSLP API wikitext for all 231 pages; Deezer (per-work track searches, album sweeps, about 190 album track lists), MusicBrainz, Apple (partly, it was slow) and 14 web searches. Deezer and MusicBrainz missed discs on other labels or spellings (cpo's Kößler, Albany, Resonus, EM Records), so 'not performed or recorded' is weaker for the print-only pages of Blanc, Walckiers, Jadassohn, Thieriot, Caetani, Marteau (String Trio) and Nováček. For the owner: (1) Lanner's 12 waltz sets (original scoring 3 violins and bass): only orchestral, ensemble or quartet-arrangement recordings found, all skipped. (2) Doppler Op. 36 is kept in the flute/violin/piano version that the print names beside two flutes (recorded by Arimany); Op. 37 and Op. 34 are out (recorded without strings). (3) Walckiers' flute quartets Opp. 46, 70, 103 on the same discs are for four flutes, so out. (4) Busoni's Op. 17 concerto is kept for its piano and string quartet version on a MusicBrainz recording listing (release and players not opened). (5) Keys where IMSLP and labels disagree: Jadassohn Op. 20 (key left out), Dietrich Op. 9 (two labels: C major), Glass Op. 22 (cpo: C minor), Busoni Quartet 1 (labels: C major), Kienzl Quartet 1 (IMSLP B-flat minor, Deezer B minor). Holbrooke's IMSLP Clarinet Quintet No. 1, Op. 27a is cpo's Quintet No. 2, Op. 27 (Ligeia) in G minor. (6) Marteau's Bogenstudien Op. 14 (violin id 3893) is a duo for two violins, not cross-listed. (7) 15 works not on IMSLP were added from discs: Marx's three quartets, Holbrooke Piano Quartet Op. 21, Tovey Trio Op. 8, Andrée Trio No. 1 and nine by Thieriot (3 string quartets, 2 piano quartets, 2 string trios, a sextet, the Op. 29 variations). (8) Thieriot's String Octet Op. 78 appears only on Toccata vol. 5, listed for 6 Nov 2026 (not yet issued). (9) Kirchner's Kindertrios (flagged pedagogical?) are kept because they are on a commercial disc. The Mackenzie, Kirchner Op. 84, Friskin trio Phantasie, Schuberth, Busoni Op. 17 and Thieriot additions rest on weaker evidence (library record, retailer or Qobuz listings, an IMSLP note, a single track) and carry medium confidence. RECHECK 2026-10-17: 22 works added (3 from skipped pages: Tovey Trio Op. 14 [The Art of the English Horn, 2012], Schuberth Grand Nocturne élégiaque Op. 6 [Wunderkammer, 2026], Thieriot String Octet Op. 78 [Toccata vol. 5, release listed for 6 Nov 2026: confirm once issued]; 19 gap works seen on discs opened: Glass String Quartet No. 3 Op. 23 [Dacapo], Holbrooke Horn Trio Op. 28 [Naxos] and Symphonic Quintet No. 1 Op. 44 [Marco Polo], Marteau 8 Mélodies Op. 19c [cpo], Hill String Quartets Nos. 3-17 [Naxos, six volumes]); 88 lines settled as not performed or recorded (fresh Deezer album and track searches, Apple composerTerm song search, MusicBrainz work browse; Presto and Naxos Music Library are not reachable and no concert-programme searches were made); 4 Lanner lines (Opp. 143, 161, 165, 167) moved to 'doubtful: low confidence' because small-ensemble recordings exist (Alban Berg Quartett, Tanzquartett Wien, Biedermeier Ensemble Wien, Johann Strauss Ensemble) but one part each in the original scoring is unconfirmed; 0 still not checked. Weak spots: MusicBrainz returned only a namesake for Félicien David, no artist for Grechaninov and no works for Blanc, Schuberth and Mackenzie, so those lines rest on Deezer and Apple. Not added: Hill's Life Quintet (strings with voices, Naxos vol. 4); Walckiers's Flute Trio Op. 93, Wind Quartet Op. 48 and Flute Quartet Op. 70 on the Kossenko disc have no strings; Boëllmann's 'Unedited Chamber Works' (Aulicus 2025) holds duos only. Hand edits: the evidence of every 'not performed or recorded' line was replaced by what the recheck searched (the earlier text follows it); the three skipped lines that became works were removed; the composers_checked counts and notes of Tovey, Schuberth, Thieriot, Glass, Holbrooke, Marteau, Hill and Lanner were updated; no kept work was changed. BY HAND (orchestrating session, 2026-10-17): Thieriot's String Octet Op. 78, added by the recheck on a pre-release disc (6 Nov 2026), was moved back to skipped (\"not performed or recorded\") and parked until the disc is issued."
 }
