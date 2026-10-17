@@ -2937,49 +2937,6 @@
   },
   {
    "composer": "Shield, William",
-   "title": "Quartet in F major, Op. 3 No. 2",
-   "aka": [],
-   "instruments": {
-    "oboe": 1,
-    "violin": 1,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {
-    "oboe": [
-     "flute"
-    ]
-   },
-   "optional": {},
-   "players": 4,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": "Six Quartets, Op. 3",
-   "year": "c. 1782",
-   "minutes": 8,
-   "notes": "Printed for oboe (or flute) and strings; Naxos lists the set as string quartets, so the top line may be on violin",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Easy English Classical quartet by a violist; violin 1 about ABRSM 6, other parts easier",
-   "hardest_part_guess": "oboe",
-   "imslpPage": "6 Quartets, Op.3 (Shield, William)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "William Napier, London (c. 1782)",
-    "recorded": "The Dorrit Ensemble, Naxos 8.574446, Complete Chamber Works Vol. 1 (2025)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/6_Quartets,_Op.3_(Shield,_William)",
-    "https://itunes.apple.com/lookup?id=1825809383&entity=song",
-    "https://api.deezer.com/album/784771781"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Shield, William",
    "title": "String Quartet in C major, Op. 3 No. 3",
    "aka": [],
    "instruments": {
@@ -3896,46 +3853,6 @@
     "https://itunes.apple.com/lookup?id=605396972&entity=song"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Sperger, Johann Matthias",
-   "title": "Cassatio in E-flat major, M.C III:28",
-   "aka": [
-    "Divertimento in E-flat major, M.C III:28",
-    "Cassatio in E-flat major, M.C III:29"
-   ],
-   "instruments": {
-    "horn": 2,
-    "viola": 1,
-    "double-bass": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 17,
-   "notes": "Two horns, viola and violone. The disc numbers it III:29 and plays five of IMSLP's seven movements",
-   "popularity": "lesser-known",
-   "level_guess": 5,
-   "level_basis": "Two high natural-horn parts, about ABRSM 8; viola and violone moderate",
-   "hardest_part_guess": "horn 1",
-   "imslpPage": "Divertimento in E-flat major, M.C III:28 (Sperger, Johann Matthias)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Musica Orphea, VDE-Gallo (2022)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Divertimento_in_E-flat_major,_M.C_III:28_(Sperger,_Johann_Matthias)",
-    "https://itunes.apple.com/lookup?id=1660052425&entity=song"
-   ],
-   "confidence": "low"
   }
  ],
  "skipped": [
@@ -5810,6 +5727,22 @@
    "works": 1,
    "reason": "not performed or recorded (composer triage)",
    "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm): no commercial recording of this composer's chamber music found"
+  },
+  {
+   "composer": "Shield, William",
+   "title": "Quartet in F major, Op. 3 No. 2",
+   "imslpPage": "6 Quartets, Op.3 (Shield, William)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Sperger, Johann Matthias",
+   "title": "Cassatio in E-flat major, M.C III:28",
+   "imslpPage": "Divertimento in E-flat major, M.C III:28 (Sperger, Johann Matthias)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -6430,8 +6363,8 @@
   {
    "name": "Shield, William",
    "candidates": 3,
-   "kept": 15,
-   "skipped": 0,
+   "kept": 14,
+   "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "Naxos 'Complete Chamber Works' Vols. 1-2 (Dorrit Ensemble, 2025) record all six Op. 3 quartets and all nine string trios; Vol. 3 is violin duets. Op. 3 No. 2 is printed for oboe (or flute)"
@@ -6511,8 +6444,8 @@
   {
    "name": "Sperger, Johann Matthias",
    "candidates": 16,
-   "kept": 5,
-   "skipped": 13,
+   "kept": 4,
+   "skipped": 14,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Kept: Op. 1 quartets (CPO), the D-major flute quartet with double bass, and one cassatio for two horns (catalogue number uncertain); the manuscript divertimenti, flute quartets and the Terzetto were not found recorded"
@@ -6572,5 +6505,5 @@
    "note": "Apple finds trumpet divertimenti without strings (other composers' discs)"
   }
  ],
- "note": "METHOD: one background script worked through all 84 composers: Deezer album search and MusicBrainz (artist match, then works with recording relations) for everyone, then Apple's composerTerm song search for every composer both had missed, with two supplementary Apple passes for composers the first pass skipped on spurious hits (namesakes, symphonies); Apple and Deezer track lists confirmed the hits. No lookup failed. MusicBrainz has no matching artist for 48 composers, so their 'none found' rests on Deezer and Apple. About 75 tool calls, 4 WebSearch, 4 WebFetch.\nHITS: something turned up for 15 of 84 composers (Rasetti, Rinck, G.W. Ritter, Roeser, B. Romberg, Ricci, Sacchini, Saint-Georges, Schnabel, G.A. Schneider, Schobert, J.A.P. Schulz, Shield, Sirmen, Sperger): 98 works kept, 23 of them added without an IMSLP page (Rinck 10 from two MDG discs, Ricci Op. 8 x6, Saint-Georges Op. 14 x6, Schulz 1). The other 69 composers are 'triage: none found'; the weak ones (namesakes: P. Ritter, Robertson, F. Rousseau, Rey, Shaw, Shepherd, Sieber, Sixt, Starke, G.L. Schneider, L.J. Schulz; single-name IMSLP entries Schencker, Schiesser, Schoarsbach, Smetana, Romain de Brasseur, which cannot be identified) say so in their notes.\nRasetti Op. 13: the census left Nos. 2 and 3 out as 'fewer than 3 players', but the Naderman print is for piano, flute or violin, and bassoon or cello; all three trios are kept as piano trios with the wind alternatives, and the only recording (Trio Amédée, MDG 2005) uses flute and bassoon.\nRinck: the IMSLP 'Piano Trio in D major' (Zulehner print, 3 movements) is matched to the 3-movement D-major trio on MDG Vol. 2 by key and layout only; the disc also holds a one-movement 'Sonata in D major' (Vol. 1) that is entered separately. Years of the added trios are unknown. Two Rinck violin-and-piano 'Sonates très faciles' on the discs are duos and left out.\nRicci: the Op. 8 quartets (Urania, Alla Maniera Italiana) are added without an IMSLP page; Urania LDV 14063 (Alla Maniera Italiana Ensemble, recorded Como 2019) is a world-premiere recording; the print's year was not found (blank), and the booklet was not seen.\nSaint-Georges: Wikipedia (read) lists three quartet sets: Op. 1 (Sieber 1773; C, E-flat, G minor, C minor, G minor, D), 'au gout du jour' (Durieu 1779; B-flat, G minor, C, F, G, B-flat) and Op. 14 (Boyer 1785; D, B-flat, F minor, G, E-flat, G minor). The Catalyst Quartet's digital album (Azica, 29 May 2026) records all 18; Op. 14 is not on IMSLP. Op. 1 durations are IMSLP's averages.\nSperger: the Musica Orphea disc titles its cassatio 'E-flat major, M.C III:29' with five movements; on IMSLP III:29 is a D-major cassatio (two horns in D, seven movements) and the E-flat one is III:28 (two horns in E-flat, viola, violone, seven movements). Matched to III:28 by key and scoring, confidence low.\nSchulz J.A.P.: the A-minor Trio Sonata is attributed to him only by the title of Audax's single release on Deezer ('Johann Abraham Peter Schulz: Trio Sonata in A Minor'); the album's track list does not name composers.\nSchobert: the IMSLP first editions mark the violins and cello ad libitum; kept works are those recorded with the strings (Banchini/Ensemble 415, harmonia mundi 1989; Gester/Arte dei Suonatori, Ligia 2017). Op. 14 No. 1 is E-flat major on Ligia and B-flat major on harmonia mundi (same three movements); E-flat used. The 'Symphonies' Op. 9-10 (harpsichord, violin, two horns ad lib.) are recorded on the Ligia disc as 'Sonate Op. 9 No. 2'; scoring not confirmed, not entered.\nShield: all three IMSLP pages are recorded in full by the Dorrit Ensemble (Naxos, Oct 2025 and Dec 2025). Op. 3 No. 2 is printed for oboe (or flute), violin, viola, cello (IMSLP; 'five for two violins, a tenor & violoncello and one for oboe'); Naxos calls the set '6 String Quartets', so it is entered with the oboe line and confidence low.\nRomberg, Bernhard: the CPO disc 555 598-2 (Ardinghello Ensemble, 2026; number from the Andreas Romberg slice c44) is the only chamber evidence; the IMSLP Flute Quintet page is filed under Op. 1 of Andreas Romberg, whose Nos. 1-2 are Andreas's (c44).\nOPEN POINTS for the owner: (1) Rasetti Op. 13 is entered as a piano trio with violin/cello and the printed flute/bassoon alternatives although the only recording uses flute and bassoon. (2) Sperger's cassatio: catalogue number and key of the recorded piece uncertain (low). (3) Schneider Op. 52: IMSLP lists the G-major quartet first, the recording and MusicBrainz call it No. 3 (title follows the recording). (4) Shield Op. 3 No. 2 is printed for oboe (or flute); Naxos calls the set string quartets (low). (5) Rinck's IMSLP D-major trio is matched to the recording by key and layout only. (6) Schulz's A-minor Trio Sonata is attributed by a Deezer single's title only. (7) Roeser's Op. 3 sonatas are recorded only in a mandolin-violin-bass version on a self-released album (not entered). (8) Apple shows 'G.' numbers for Saint-Georges (G. 002 ...) from a catalogue I could not identify; not used. (9) The Urania catalogue number LDV 14063 (Ricci) and Naxos 8.574446 / 8.574444 (Shield) come from web-search result summaries, not from pages I opened; the Op. 14 quartets and the 'Schobert Symphonies' Op. 9-10 (recorded as sonatas, scoring unclear) need the owner's eye."
+ "note": "METHOD: one background script worked through all 84 composers: Deezer album search and MusicBrainz (artist match, then works with recording relations) for everyone, then Apple's composerTerm song search for every composer both had missed, with two supplementary Apple passes for composers the first pass skipped on spurious hits (namesakes, symphonies); Apple and Deezer track lists confirmed the hits. No lookup failed. MusicBrainz has no matching artist for 48 composers, so their 'none found' rests on Deezer and Apple. About 75 tool calls, 4 WebSearch, 4 WebFetch.\nHITS: something turned up for 15 of 84 composers (Rasetti, Rinck, G.W. Ritter, Roeser, B. Romberg, Ricci, Sacchini, Saint-Georges, Schnabel, G.A. Schneider, Schobert, J.A.P. Schulz, Shield, Sirmen, Sperger): 98 works kept, 23 of them added without an IMSLP page (Rinck 10 from two MDG discs, Ricci Op. 8 x6, Saint-Georges Op. 14 x6, Schulz 1). The other 69 composers are 'triage: none found'; the weak ones (namesakes: P. Ritter, Robertson, F. Rousseau, Rey, Shaw, Shepherd, Sieber, Sixt, Starke, G.L. Schneider, L.J. Schulz; single-name IMSLP entries Schencker, Schiesser, Schoarsbach, Smetana, Romain de Brasseur, which cannot be identified) say so in their notes.\nRasetti Op. 13: the census left Nos. 2 and 3 out as 'fewer than 3 players', but the Naderman print is for piano, flute or violin, and bassoon or cello; all three trios are kept as piano trios with the wind alternatives, and the only recording (Trio Amédée, MDG 2005) uses flute and bassoon.\nRinck: the IMSLP 'Piano Trio in D major' (Zulehner print, 3 movements) is matched to the 3-movement D-major trio on MDG Vol. 2 by key and layout only; the disc also holds a one-movement 'Sonata in D major' (Vol. 1) that is entered separately. Years of the added trios are unknown. Two Rinck violin-and-piano 'Sonates très faciles' on the discs are duos and left out.\nRicci: the Op. 8 quartets (Urania, Alla Maniera Italiana) are added without an IMSLP page; Urania LDV 14063 (Alla Maniera Italiana Ensemble, recorded Como 2019) is a world-premiere recording; the print's year was not found (blank), and the booklet was not seen.\nSaint-Georges: Wikipedia (read) lists three quartet sets: Op. 1 (Sieber 1773; C, E-flat, G minor, C minor, G minor, D), 'au gout du jour' (Durieu 1779; B-flat, G minor, C, F, G, B-flat) and Op. 14 (Boyer 1785; D, B-flat, F minor, G, E-flat, G minor). The Catalyst Quartet's digital album (Azica, 29 May 2026) records all 18; Op. 14 is not on IMSLP. Op. 1 durations are IMSLP's averages.\nSperger: the Musica Orphea disc titles its cassatio 'E-flat major, M.C III:29' with five movements; on IMSLP III:29 is a D-major cassatio (two horns in D, seven movements) and the E-flat one is III:28 (two horns in E-flat, viola, violone, seven movements). Matched to III:28 by key and scoring, confidence low.\nSchulz J.A.P.: the A-minor Trio Sonata is attributed to him only by the title of Audax's single release on Deezer ('Johann Abraham Peter Schulz: Trio Sonata in A Minor'); the album's track list does not name composers.\nSchobert: the IMSLP first editions mark the violins and cello ad libitum; kept works are those recorded with the strings (Banchini/Ensemble 415, harmonia mundi 1989; Gester/Arte dei Suonatori, Ligia 2017). Op. 14 No. 1 is E-flat major on Ligia and B-flat major on harmonia mundi (same three movements); E-flat used. The 'Symphonies' Op. 9-10 (harpsichord, violin, two horns ad lib.) are recorded on the Ligia disc as 'Sonate Op. 9 No. 2'; scoring not confirmed, not entered.\nShield: all three IMSLP pages are recorded in full by the Dorrit Ensemble (Naxos, Oct 2025 and Dec 2025). Op. 3 No. 2 is printed for oboe (or flute), violin, viola, cello (IMSLP; 'five for two violins, a tenor & violoncello and one for oboe'); Naxos calls the set '6 String Quartets', so it is entered with the oboe line and confidence low.\nRomberg, Bernhard: the CPO disc 555 598-2 (Ardinghello Ensemble, 2026; number from the Andreas Romberg slice c44) is the only chamber evidence; the IMSLP Flute Quintet page is filed under Op. 1 of Andreas Romberg, whose Nos. 1-2 are Andreas's (c44).\nOPEN POINTS for the owner: (1) Rasetti Op. 13 is entered as a piano trio with violin/cello and the printed flute/bassoon alternatives although the only recording uses flute and bassoon. (2) Sperger's cassatio: catalogue number and key of the recorded piece uncertain (low). (3) Schneider Op. 52: IMSLP lists the G-major quartet first, the recording and MusicBrainz call it No. 3 (title follows the recording). (4) Shield Op. 3 No. 2 is printed for oboe (or flute); Naxos calls the set string quartets (low). (5) Rinck's IMSLP D-major trio is matched to the recording by key and layout only. (6) Schulz's A-minor Trio Sonata is attributed by a Deezer single's title only. (7) Roeser's Op. 3 sonatas are recorded only in a mandolin-violin-bass version on a self-released album (not entered). (8) Apple shows 'G.' numbers for Saint-Georges (G. 002 ...) from a catalogue I could not identify; not used. (9) The Urania catalogue number LDV 14063 (Ricci) and Naxos 8.574446 / 8.574444 (Shield) come from web-search result summaries, not from pages I opened; the Op. 14 quartets and the 'Schobert Symphonies' Op. 9-10 (recorded as sonatas, scoring unclear) need the owner's eye. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 2 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Shield: Quartet in F major, Op. 3 No. 2; Sperger: Cassatio in E-flat major, M.C III:28."
 }

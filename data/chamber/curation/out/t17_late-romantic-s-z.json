@@ -50,14 +50,6 @@
    "in_catalogue": false
   },
   {
-   "name": "Stolpe, Antoni",
-   "dates": "1851–1872",
-   "nationality": "Polish",
-   "gender": "M",
-   "era": "late-romantic",
-   "in_catalogue": false
-  },
-  {
    "name": "Suter, Hermann",
    "dates": "1870–1926",
    "nationality": "Swiss",
@@ -2206,45 +2198,6 @@
     "https://music.apple.com/album/1689636643"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Stolpe, Antoni",
-   "title": "Romance (Duettino)",
-   "aka": [
-    "Romance in A-flat major with contrast"
-   ],
-   "instruments": {
-    "violin": 1,
-    "cello": 1,
-    "piano": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "piano-trio",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "1866",
-   "minutes": 6,
-   "notes": "Salon miniature for violin and cello with piano; manuscript only on IMSLP",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Short salon piece; piano about ABRSM 7, strings level 3",
-   "hardest_part_guess": "piano",
-   "imslpPage": "Romance in A-flat major with contrast (Stolpe, Antoni)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Apeiron Trio, DUX DUX1900 (Polish Piano Trios, 2023)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Romance_in_A-flat_major_with_contrast_(Stolpe,_Antoni)",
-    "https://music.apple.com/album/1664575213"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Sowinski, Albert",
@@ -5847,6 +5800,14 @@
    "works": 1,
    "reason": "not performed or recorded (composer triage)",
    "evidence": "MusicBrainz: no artist found; Deezer: 13 album(s) with the surname, none a chamber disc; Apple composerTerm: 50 results, no chamber track attributable to this composer (screened for the surname and the candidates' opus numbers)"
+  },
+  {
+   "composer": "Stolpe, Antoni",
+   "title": "Romance (Duettino)",
+   "imslpPage": "Romance in A-flat major with contrast (Stolpe, Antoni)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -6602,8 +6563,8 @@
   {
    "name": "Stolpe, Antoni",
    "candidates": 3,
-   "kept": 1,
-   "skipped": 2,
+   "kept": 0,
+   "skipped": 3,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Romance (Duettino) recorded (DUX 2023) and matched to the 1866 page by year and scoring (low confidence); the polonaise and the other romance not recorded"
@@ -7878,5 +7839,5 @@
    "note": "No result under 'Vasily Zolotarev' on Apple; Deezer finds namesake pop albums"
   }
  ],
- "note": "METHOD (about 68 tool calls, 10 WebSearch and 2 WebFetch). One background script queried all 225 composers: MusicBrainz (artist search ten names at a time, matched on name and dates; then every work with its linked recordings), Deezer album search on 'Given Surname' (plus '<name> quartet / trio / quintet' where the first search returned a full page of namesake albums) and Apple's composerTerm song search for the composers both missed (a second run for eight whose MusicBrainz or Deezer hit was a famous namesake). Apple results were screened for chamber-titled tracks that carry the surname or a candidate's opus number (the first digest's five-item cap hid Tcherepnin's quartet; the stricter screen and alternative transliterations for the Russian composers found it and Winkler's trio). No lookup failed (no FetchError). Apple was not run for composers with a MusicBrainz or Deezer hit; a later Apple search for twelve of them found Philipp Scharwenka's Piano Quintet (Apple only) and further recordings of others. RESULT: 32 composers had a commercial recording in scope: 54 works kept, 10 of them not on IMSLP (Woyrsch's trio, Wood's G-minor quartet movement, Suter's Quartet No. 2, Zellner's two string trios, Somervell's Clarinet Quintet, Witkowski's Piano Quintet, J. Wieniawski's quartet, Sowinski's trio, Vila de Forns's E-minor piano quartet); 4 more composers (Sobeck, Walthew, Velásquez, Vycpálek) had a lead that gave no kept work; the other 189 composers are 'triage: none found'. WEAK 'none found' (initials or common surnames, marked WEAK in each composer's note): 60 composers, among them Weber (Edmond, Edmund von, F., Friedrich, Gustav, Otto), Seipp J. H., Simia G.R., Toby H. P., Vautrin J., Wohlgemuth R., Zimmermann H., White, Werner, Wolf, Schmidt, Schubert, Schumann, Thomas, Thomson, Wagner, Weiss, Stephens, Street, Simon. LOW CONFIDENCE (the owner may drop it): Stolpe's Romance (Duettino) is matched to IMSLP's 1866 page by year and scoring only. MEDIUM: Sowinski's Piano Trio Op. 76 (IMSLP's list of works confirms Op. 76 as his first trio; the attribution of the Orphée Classics 2022 track rests on Apple's composer search, the disc's other trio being Chopin's Op. 8), Vila de Forns's Piano Quartet in E minor (his second piano quartet, not on IMSLP), P. Scharwenka Op. 105 (violin, viola, piano; IMSLP 'Duo'), Voigt (see below), A. Zimmermann (the Galos Piano Trio's own release), Tkalčić (3-minute miniature on a Croatian anthology), J. Wieniawski, Witkowski's quintet (key from the disc title only), the Woyrsch and Wood scorings from the discs. SCOPE CALLS. Sobeck's Trio Op. 20 is out: IMSLP prints '2 clarinets, bassoon (or cello)' and Trio Pleyel plays it with bassoon. Voigt's Nocturne Op. 75 is IMSLP 'clarinet, horn (or cello), piano'; kept with the cello (the recorded scoring) and horn in alternatives. Weismann's quartets Op. 133 and 147 are recorded only in string-orchestra arrangements (out). Stephan's Liebeszauber for baritone and seven strings is an arrangement (out). Zitterbart Jr. (1845-1915, American; 43 pages, three flagged not-public-domain editions) has no professional recording (Deezer: a 2023 single by a band); not proposed for exclusion because he is not a living composer. No living or self-published composer needed an exclusion proposal in this slice. CROSS-SLICE (t16): Melcer-Szczawinski's Piano Trio Op. 2, skipped there as a one-track excerpt, is recorded complete on DUX1900 'Polish Piano Trios' (Apeiron Trio, 2023, 4 movements, 37.7 min) (Acte Préalable also has a Melcer chamber disc, AP0333, reviewed on MusicWeb, which was not opened); Rozycki's Rhapsody Op. 33 is on the same DUX disc. The Naxos 'History of the Russian Piano Trio' (Brahms Trio, 10 volumes) holds many trios by composers of other slices (Aloiz, Rimsky-Korsakov's trio completed by Steinberg, Borodin, ...)."
+ "note": "METHOD (about 68 tool calls, 10 WebSearch and 2 WebFetch). One background script queried all 225 composers: MusicBrainz (artist search ten names at a time, matched on name and dates; then every work with its linked recordings), Deezer album search on 'Given Surname' (plus '<name> quartet / trio / quintet' where the first search returned a full page of namesake albums) and Apple's composerTerm song search for the composers both missed (a second run for eight whose MusicBrainz or Deezer hit was a famous namesake). Apple results were screened for chamber-titled tracks that carry the surname or a candidate's opus number (the first digest's five-item cap hid Tcherepnin's quartet; the stricter screen and alternative transliterations for the Russian composers found it and Winkler's trio). No lookup failed (no FetchError). Apple was not run for composers with a MusicBrainz or Deezer hit; a later Apple search for twelve of them found Philipp Scharwenka's Piano Quintet (Apple only) and further recordings of others. RESULT: 32 composers had a commercial recording in scope: 54 works kept, 10 of them not on IMSLP (Woyrsch's trio, Wood's G-minor quartet movement, Suter's Quartet No. 2, Zellner's two string trios, Somervell's Clarinet Quintet, Witkowski's Piano Quintet, J. Wieniawski's quartet, Sowinski's trio, Vila de Forns's E-minor piano quartet); 4 more composers (Sobeck, Walthew, Velásquez, Vycpálek) had a lead that gave no kept work; the other 189 composers are 'triage: none found'. WEAK 'none found' (initials or common surnames, marked WEAK in each composer's note): 60 composers, among them Weber (Edmond, Edmund von, F., Friedrich, Gustav, Otto), Seipp J. H., Simia G.R., Toby H. P., Vautrin J., Wohlgemuth R., Zimmermann H., White, Werner, Wolf, Schmidt, Schubert, Schumann, Thomas, Thomson, Wagner, Weiss, Stephens, Street, Simon. LOW CONFIDENCE (the owner may drop it): Stolpe's Romance (Duettino) is matched to IMSLP's 1866 page by year and scoring only. MEDIUM: Sowinski's Piano Trio Op. 76 (IMSLP's list of works confirms Op. 76 as his first trio; the attribution of the Orphée Classics 2022 track rests on Apple's composer search, the disc's other trio being Chopin's Op. 8), Vila de Forns's Piano Quartet in E minor (his second piano quartet, not on IMSLP), P. Scharwenka Op. 105 (violin, viola, piano; IMSLP 'Duo'), Voigt (see below), A. Zimmermann (the Galos Piano Trio's own release), Tkalčić (3-minute miniature on a Croatian anthology), J. Wieniawski, Witkowski's quintet (key from the disc title only), the Woyrsch and Wood scorings from the discs. SCOPE CALLS. Sobeck's Trio Op. 20 is out: IMSLP prints '2 clarinets, bassoon (or cello)' and Trio Pleyel plays it with bassoon. Voigt's Nocturne Op. 75 is IMSLP 'clarinet, horn (or cello), piano'; kept with the cello (the recorded scoring) and horn in alternatives. Weismann's quartets Op. 133 and 147 are recorded only in string-orchestra arrangements (out). Stephan's Liebeszauber for baritone and seven strings is an arrangement (out). Zitterbart Jr. (1845-1915, American; 43 pages, three flagged not-public-domain editions) has no professional recording (Deezer: a 2023 single by a band); not proposed for exclusion because he is not a living composer. No living or self-published composer needed an exclusion proposal in this slice. CROSS-SLICE (t16): Melcer-Szczawinski's Piano Trio Op. 2, skipped there as a one-track excerpt, is recorded complete on DUX1900 'Polish Piano Trios' (Apeiron Trio, 2023, 4 movements, 37.7 min) (Acte Préalable also has a Melcer chamber disc, AP0333, reviewed on MusicWeb, which was not opened); Rozycki's Rhapsody Op. 33 is on the same DUX disc. The Naxos 'History of the Russian Piano Trio' (Brahms Trio, 10 volumes) holds many trios by composers of other slices (Aloiz, Rimsky-Korsakov's trio completed by Steinberg, Borodin, ...). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Stolpe: Romance (Duettino)."
 }

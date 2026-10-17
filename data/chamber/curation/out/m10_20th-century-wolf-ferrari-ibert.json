@@ -82,14 +82,6 @@
    "in_catalogue": false
   },
   {
-   "name": "Fine, Vivian",
-   "dates": "1913–2000",
-   "nationality": "American",
-   "gender": "F",
-   "era": "20th-century",
-   "in_catalogue": false
-  },
-  {
    "name": "Gaubert, Philippe",
    "dates": "1879–1941",
    "nationality": "French",
@@ -2099,47 +2091,6 @@
     "https://music.apple.com/album/1493421737"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Fine, Vivian",
-   "title": "Canticles from the Other Side of the River",
-   "aka": [],
-   "instruments": {
-    "flute": 1,
-    "clarinet": 1,
-    "percussion": 1,
-    "violin": 1,
-    "cello": 1,
-    "piano": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 6,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1993",
-   "minutes": 14,
-   "notes": "Four movements; Albany's credits list a bass clarinet and conductor, no pianist (IMSLP lists piano)",
-   "popularity": "lesser-known",
-   "level_guess": 6,
-   "level_basis": "Moderate technique; rhythmic ensemble work with percussion",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Canticles from the Other Side of the River (Fine, Vivian)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Erin K. Murphy (flute), Babette Belter, Laura Talbott-Clark, Bree Ahern, Derek Johnson, cond. Brad Genevro, Albany Records TROY1938 (2023), on 'Dreamscape'",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Canticles_from_the_Other_Side_of_the_River_(Fine,_Vivian)",
-    "https://www.deezer.com/album/447840455",
-    "https://www.albanyrecords.com/catalog/troy1938/"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Jongen, Joseph",
@@ -7604,6 +7555,14 @@
    "works": 1,
    "reason": "pedagogical",
    "evidence": "The Ditson Easy Trio Album: easy trio arrangements for teaching"
+  },
+  {
+   "composer": "Fine, Vivian",
+   "title": "Canticles from the Other Side of the River",
+   "imslpPage": "Canticles from the Other Side of the River (Fine, Vivian)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -7729,8 +7688,8 @@
   {
    "name": "Fine, Vivian",
    "candidates": 21,
-   "kept": 1,
-   "skipped": 20,
+   "kept": 0,
+   "skipped": 21,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Only Canticles is recorded commercially as far as I could find (Albany TROY1938, 2023); the Albany credits differ from IMSLP's scoring (bass clarinet, no pianist), so the IMSLP scoring is kept and the confidence is low. Older LP/CD releases may exist that these services miss."
@@ -8132,5 +8091,5 @@
    "note": "The suite has eight pieces in two books; a second Rawlins Piano Trio disc is said to hold Nos. 1-4 (not opened)."
   }
  ],
- "note": "Mid slice of 58 twentieth-century composers. Evidence came from Deezer, Apple and MusicBrainz lookups through the shared fetcher (album track lists with timings) and about a dozen web searches; Presto and the Naxos Music Library were unreachable, and the earsense and Albany pages could not be opened. 31 recorded works that IMSLP's list lacks were added (Toch Nos. 6-7, Gal Nos. 3-4 and a piano quartet, Busch, Pejacevic, Cassado, Langgaard, Jongen, Bowen, Carpenter, Pizzetti, Bliss, Weiner, Zanella), mostly without years. Violin-catalogue entry 4293 (Berg's Chamber Concerto) has 15 players and is out of scope. Weak 'none found' skips: Graener's quartets, Fine (all but Canticles, whose Albany credits differ from IMSLP's scoring), Goossens's quartets and quintet, Stohr's unpublished late works, Melartin, Kuula, Sekles, Samazeuilh, Zanella. Wolf-Ferrari's String Quintet Op. 24 (recorded, Brilliant 2024) was not added because its scoring is unconfirmed. The Weigl Nos. 4 and 6 disc is dated 2026 on Deezer. The Ollone piano trio is matched to a disc listing a 'Trio a cordes' of the same length; the Wilson entry covers the four pieces of Book 2 that IMSLP and the recording hold."
+ "note": "Mid slice of 58 twentieth-century composers. Evidence came from Deezer, Apple and MusicBrainz lookups through the shared fetcher (album track lists with timings) and about a dozen web searches; Presto and the Naxos Music Library were unreachable, and the earsense and Albany pages could not be opened. 31 recorded works that IMSLP's list lacks were added (Toch Nos. 6-7, Gal Nos. 3-4 and a piano quartet, Busch, Pejacevic, Cassado, Langgaard, Jongen, Bowen, Carpenter, Pizzetti, Bliss, Weiner, Zanella), mostly without years. Violin-catalogue entry 4293 (Berg's Chamber Concerto) has 15 players and is out of scope. Weak 'none found' skips: Graener's quartets, Fine (all but Canticles, whose Albany credits differ from IMSLP's scoring), Goossens's quartets and quintet, Stohr's unpublished late works, Melartin, Kuula, Sekles, Samazeuilh, Zanella. Wolf-Ferrari's String Quintet Op. 24 (recorded, Brilliant 2024) was not added because its scoring is unconfirmed. The Weigl Nos. 4 and 6 disc is dated 2026 on Deezer. The Ollone piano trio is matched to a disc listing a 'Trio a cordes' of the same length; the Wilson entry covers the four pieces of Book 2 that IMSLP and the recording hold. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Fine: Canticles from the Other Side of the River."
 }

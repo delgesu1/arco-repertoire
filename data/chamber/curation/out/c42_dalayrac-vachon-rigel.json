@@ -72,14 +72,6 @@
    "gender": "M",
    "era": "early-romantic",
    "in_catalogue": false
-  },
-  {
-   "name": "Salieri, Antonio",
-   "dates": "1750–1825",
-   "nationality": "Italian",
-   "gender": "M",
-   "era": "classical",
-   "in_catalogue": false
   }
  ],
  "works": [
@@ -1857,88 +1849,6 @@
     "https://itunes.apple.com/lookup?id=276056200&entity=song"
    ],
    "confidence": "high"
-  },
-  {
-   "composer": "Salieri, Antonio",
-   "title": "Scherzi armonici istrumentali",
-   "aka": [
-    "Scherzi strumentali di stile fugato",
-    "Scherzi istrumentali a 4"
-   ],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "string-quartet",
-   "formationNote": null,
-   "form": "set",
-   "set": null,
-   "year": "c. 1800",
-   "minutes": null,
-   "notes": "Four short scherzi in fugal style for string quartet; known from manuscripts, no modern edition found",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Four short fugal movements; all four parts equally exposed",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "4 Scherzi armonici istrumentali (Salieri, Antonio)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "",
-    "performed": "Members of the Berliner Philharmoniker, Chamber Music Hall, Philharmonie Berlin, 4 March 2026 (Series Q; streamed on the Digital Concert Hall), as 'Scherzi strumentali di stile fugato'"
-   },
-   "sources": [
-    "https://imslp.org/wiki/4_Scherzi_armonici_istrumentali_(Salieri,_Antonio)",
-    "https://www.berliner-philharmoniker.de/en/concert/calendar/56452/",
-    "https://en.wikipedia.org/wiki/List_of_compositions_by_Antonio_Salieri"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Salieri, Antonio",
-   "title": "Fugue in G major",
-   "aka": [
-    "Fugue for String Quartet",
-    "Tema H.! b.e.n. Die m. ist ein s. Ma non il testo"
-   ],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "string-quartet",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "",
-   "minutes": null,
-   "notes": "Single-movement fugue for string quartet; known from manuscripts, no modern edition found",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Single fugue for four equal voices; violin 1 about ABRSM 6",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Fugue for String Quartet (Salieri, Antonio)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "",
-    "performed": "Members of the Berliner Philharmoniker, Chamber Music Hall, Philharmonie Berlin, 4 March 2026 (Series Q; streamed on the Digital Concert Hall)"
-   },
-   "sources": [
-    "https://imslp.org/wiki/Fugue_for_String_Quartet_(Salieri,_Antonio)",
-    "https://www.berliner-philharmoniker.de/en/concert/calendar/56452/",
-    "https://en.wikipedia.org/wiki/List_of_compositions_by_Antonio_Salieri"
-   ],
-   "confidence": "low"
   }
  ],
  "skipped": [
@@ -2101,6 +2011,22 @@
    "works": 4,
    "reason": "out of scope: wind ensemble, no string part",
    "evidence": "Only No. 1 (2 clarinets, 2 bassoons, 2 horns and violone; Suvini Zerboni 1981, ed. Carli Ballola) has a string part, and no recording of it was found (Tactus 'Musica per Harmonie' holds the C, F and G major serenades; Genuin's 'Picciola serenata' is for 2 oboes, 2 horns and bassoon); Nos. 2-4 are for winds alone"
+  },
+  {
+   "composer": "Salieri, Antonio",
+   "title": "Scherzi armonici istrumentali",
+   "imslpPage": "4 Scherzi armonici istrumentali (Salieri, Antonio)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Salieri, Antonio",
+   "title": "Fugue in G major",
+   "imslpPage": "Fugue for String Quartet (Salieri, Antonio)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -2199,12 +2125,12 @@
   {
    "name": "Salieri, Antonio",
    "candidates": 3,
-   "kept": 2,
-   "skipped": 4,
+   "kept": 0,
+   "skipped": 6,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "Both kept works rest on one documented professional concert (Berlin Philharmonic members, 4 March 2026); no recording (Apple Music, MusicBrainz, web) and no modern edition were found, hence low confidence. Wikipedia's list adds only fugues for two or three instruments and a lost guitar set"
   }
  ],
- "note": "Slice c42 (Dalayrac, Vachon, Rigel, Hoffstetter, Exaudet, Paisiello, Pla, Soler, Rosetti, Kuhlau, Salieri): all 39 candidate pages are kept or skipped. Floor evidence is mostly Apple Music track lists, MusicBrainz, IMSLP and Wikipedia; Presto and the Naxos Music Library were not reachable and Apple's search endpoint answered 403 for a while late in the run. (1) Dalayrac and Vachon's Op. 11 are known only from 1939-59 LPs: the Loewenguth Quartet's Archiv disc (Dalayrac 'Op. 1 No. 5' = Op. 7 No. 5, Op. 7 No. 3; Vachon Op. 11 Nos. 1 and 5) and the Quatuor Pascal; confidence medium. (2) Paisiello Op. 23: two key schemes (IMSLP and Ferrarini D, G, G, C, G, G; Robinson, Brilliant and Aulicus C, D, E minor, G, G, G); titles follow IMSLP, the R. number and the other key are in aka. (3) Hoffstetter Op. 3 are the benchmark's set; no benchmark issue (recorded timings of No. 5 run 9-14 minutes). (4) Kuhlau Op. 51 No. 2: discs say E major, IMSLP E minor with an E-major introduction. (5) Soler: year 1776 (IMSLP 1766); minutes average two discs that differ by up to ten minutes. (6) Added from the gap check: Vachon's Op. 5 No. 1 (Auvidis, 1996) and Exaudet's Concerto à cinq instruments (Audax ADX 13782, 2021; one to a part per the Classical Music review; a violin concerto, so say if the owner wants it out). Not added: Vachon's quartet labelled Op. 5 No. 3 in F minor on MusicBrainz; Rosetti quartets D6-D8, D15, D17, Flute Quartet D16 and Notturno B24 (a 2013 Deutsche Harmonia Mundi disc named only in Wikipedia's Murray table; not found); Paisiello's nine string quartets (no recording found). (7) Salieri's Scherzi and Fugue pass only on a Berlin Philharmonic concert (4 March 2026); the owner may prefer to drop them."
+ "note": "Slice c42 (Dalayrac, Vachon, Rigel, Hoffstetter, Exaudet, Paisiello, Pla, Soler, Rosetti, Kuhlau, Salieri): all 39 candidate pages are kept or skipped. Floor evidence is mostly Apple Music track lists, MusicBrainz, IMSLP and Wikipedia; Presto and the Naxos Music Library were not reachable and Apple's search endpoint answered 403 for a while late in the run. (1) Dalayrac and Vachon's Op. 11 are known only from 1939-59 LPs: the Loewenguth Quartet's Archiv disc (Dalayrac 'Op. 1 No. 5' = Op. 7 No. 5, Op. 7 No. 3; Vachon Op. 11 Nos. 1 and 5) and the Quatuor Pascal; confidence medium. (2) Paisiello Op. 23: two key schemes (IMSLP and Ferrarini D, G, G, C, G, G; Robinson, Brilliant and Aulicus C, D, E minor, G, G, G); titles follow IMSLP, the R. number and the other key are in aka. (3) Hoffstetter Op. 3 are the benchmark's set; no benchmark issue (recorded timings of No. 5 run 9-14 minutes). (4) Kuhlau Op. 51 No. 2: discs say E major, IMSLP E minor with an E-major introduction. (5) Soler: year 1776 (IMSLP 1766); minutes average two discs that differ by up to ten minutes. (6) Added from the gap check: Vachon's Op. 5 No. 1 (Auvidis, 1996) and Exaudet's Concerto à cinq instruments (Audax ADX 13782, 2021; one to a part per the Classical Music review; a violin concerto, so say if the owner wants it out). Not added: Vachon's quartet labelled Op. 5 No. 3 in F minor on MusicBrainz; Rosetti quartets D6-D8, D15, D17, Flute Quartet D16 and Notturno B24 (a 2013 Deutsche Harmonia Mundi disc named only in Wikipedia's Murray table; not found); Paisiello's nine string quartets (no recording found). (7) Salieri's Scherzi and Fugue pass only on a Berlin Philharmonic concert (4 March 2026); the owner may prefer to drop them. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 2 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Salieri: Scherzi armonici istrumentali; Salieri: Fugue in G major."
 }

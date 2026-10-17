@@ -1609,43 +1609,6 @@
    "confidence": "high"
   },
   {
-   "composer": "Kammel, Antonín",
-   "title": "String Quartet in E-flat major",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "string-quartet",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 12,
-   "notes": "Recorded as 'String Quartet No. 2 in E-flat major'; the opus is not confirmed",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Early Classical quartet like Haydn Op. 1 (3)",
-   "hardest_part_guess": "violin 1",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "The Schein String Quartet, Proprius PRCD 9082, 1994: 18th-Century Drawing-Room Music; Apple credits the quartet to Antonín Kammel (Apple album 1788086423, Deezer album 579389111)",
-    "performed": ""
-   },
-   "sources": [
-    "https://music.apple.com/us/album/1788086423",
-    "https://www.deezer.com/album/579389111"
-   ],
-   "confidence": "low"
-  },
-  {
    "composer": "Kocžwara, František",
    "title": "Sonata No. 6 in C major for Two Violas and Cello",
    "aka": [],
@@ -3721,6 +3684,14 @@
    "works": 1,
    "reason": "not performed or recorded (composer triage)",
    "evidence": "MusicBrainz: no artist match; Deezer: no album or track hit; Apple composerTerm: 1 results, none a chamber work by this composer"
+  },
+  {
+   "composer": "Kammel, Antonín",
+   "title": "String Quartet in E-flat major",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -3833,8 +3804,8 @@
   {
    "name": "Kammel, Antonín",
    "candidates": 12,
-   "kept": 2,
-   "skipped": 59,
+   "kept": 1,
+   "skipped": 60,
    "added_not_on_imslp": 1,
    "coverage": "complete",
    "note": "The E-flat quartet (Proprius) could not be tied to an opus or an IMSLP page; confidence low"
@@ -4515,5 +4486,5 @@
    "note": ""
   }
  ],
- "note": "Tail slice, triage first: MusicBrainz (artist match, then works with recordings), Deezer (album and track search) and Apple (composerTerm song search) for all 87 composers, plus targeted Deezer searches for the larger names. 14 composers turned up chamber recordings in scope (Hofmann; Ivanschiz; Jadin; Just; Kammel; Kayser; Kleczyński; Kocžwara; Kreutzer; Küffner; Lamoninary; Leduc; Lessel; Liebmann). 48 works kept, 21 of them not on IMSLP (Just Op. 2 x6, Hofmann Op. 1 Nos. 1–5, Ivanschiz x5, Lessel x3, Liebmann Op. 11, Kammel's E-flat quartet). Judgement calls: (1) Kammel's 'String Quartet No. 2 in E-flat' (Proprius, Schein Quartet) has no confirmed opus: confidence low, drop if unwanted. (2) Just's Op. 2 trios: whether the strings are ad libitum in the first edition was not checked. (3) Lidarti's 'Quartetto in G major (Sinfonia)' (Auser Musici, Hyperion) is a string-orchestra question, not added. (4) Mandolin-ensemble streaming singles by 'Have Mandolin Will Travel' (Kammel Op. 14 No. 3, Kreutzer Op. 1 No. 1, Kocžwara Op. 1 No. 3) are arrangements and were not counted. (5) Kayser's Christmas Cantata (two sopranos and string quartet, same Guild disc) is a cantata and left out as vocal repertoire. (6) Lessel's Grand Trio, Op. 4 (on a disc of Polish wind chamber music) was not checked for a string part; his one-movement String Quartet No. 1 is kept as recorded. (7) Kohaut: IMSLP's Joseph Kohaut 'Huit trios' may be confused with Karl Kohaut's recorded lute trios. (8) Leduc's Op. 5 No. 6 is on the Vivaldi Project's own label (professional period ensemble). Lookups for names shared with others (Hofmann, Hook, Horn, Key, Kapp, Koch, Kraft, Lang, Lebrun, Lorenz, Magnus, Mackintosh ...) give a weak 'none found'. Küffner's 53 pages were not opened one by one: only the recordings found were matched. (9) Hofmann's Op. 1 turned up only through the spelling 'Hoffmann' in Apple's composer credit (its Deezer title names no composer): the 'none found' verdicts rest on name searches and may miss albums credited under variant spellings or without the composer in the title. (10) Hofmann Op. 1 No. 6 is matched to IMSLP's 'Divertimento in F major' (Edition Papier.Klänge) by key, scoring and four movements; Nos. 1–5 are not on IMSLP. Naxos Music Library and Presto search were not used (login, script block)."
+ "note": "Tail slice, triage first: MusicBrainz (artist match, then works with recordings), Deezer (album and track search) and Apple (composerTerm song search) for all 87 composers, plus targeted Deezer searches for the larger names. 14 composers turned up chamber recordings in scope (Hofmann; Ivanschiz; Jadin; Just; Kammel; Kayser; Kleczyński; Kocžwara; Kreutzer; Küffner; Lamoninary; Leduc; Lessel; Liebmann). 48 works kept, 21 of them not on IMSLP (Just Op. 2 x6, Hofmann Op. 1 Nos. 1–5, Ivanschiz x5, Lessel x3, Liebmann Op. 11, Kammel's E-flat quartet). Judgement calls: (1) Kammel's 'String Quartet No. 2 in E-flat' (Proprius, Schein Quartet) has no confirmed opus: confidence low, drop if unwanted. (2) Just's Op. 2 trios: whether the strings are ad libitum in the first edition was not checked. (3) Lidarti's 'Quartetto in G major (Sinfonia)' (Auser Musici, Hyperion) is a string-orchestra question, not added. (4) Mandolin-ensemble streaming singles by 'Have Mandolin Will Travel' (Kammel Op. 14 No. 3, Kreutzer Op. 1 No. 1, Kocžwara Op. 1 No. 3) are arrangements and were not counted. (5) Kayser's Christmas Cantata (two sopranos and string quartet, same Guild disc) is a cantata and left out as vocal repertoire. (6) Lessel's Grand Trio, Op. 4 (on a disc of Polish wind chamber music) was not checked for a string part; his one-movement String Quartet No. 1 is kept as recorded. (7) Kohaut: IMSLP's Joseph Kohaut 'Huit trios' may be confused with Karl Kohaut's recorded lute trios. (8) Leduc's Op. 5 No. 6 is on the Vivaldi Project's own label (professional period ensemble). Lookups for names shared with others (Hofmann, Hook, Horn, Key, Kapp, Koch, Kraft, Lang, Lebrun, Lorenz, Magnus, Mackintosh ...) give a weak 'none found'. Küffner's 53 pages were not opened one by one: only the recordings found were matched. (9) Hofmann's Op. 1 turned up only through the spelling 'Hoffmann' in Apple's composer credit (its Deezer title names no composer): the 'none found' verdicts rest on name searches and may miss albums credited under variant spellings or without the composer in the title. (10) Hofmann Op. 1 No. 6 is matched to IMSLP's 'Divertimento in F major' (Edition Papier.Klänge) by key, scoring and four movements; Nos. 1–5 are not on IMSLP. Naxos Music Library and Presto search were not used (login, script block). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Kammel: String Quartet in E-flat major."
 }

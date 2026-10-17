@@ -825,50 +825,6 @@
   },
   {
    "composer": "Boismortier, Joseph Bodin de",
-   "title": "Sérénade No. 2 in E minor, Op. 39 No. 2, PB 449",
-   "aka": [
-    "Deuxième Sérénade",
-    "Simphonie françoise No. 2"
-   ],
-   "instruments": {
-    "violin": 2,
-    "continuo": 1
-   },
-   "alternatives": {
-    "violin": [
-     "flute",
-     "oboe"
-    ]
-   },
-   "optional": {},
-   "players": 3,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": "Deux Sérénades ou Simphonies françoises, Op. 39",
-   "year": "1732",
-   "minutes": null,
-   "notes": "Twelve dances in three parts for flutes, violins or oboes; also played with several players to a part",
-   "popularity": "lesser-known",
-   "level_guess": 2,
-   "level_basis": "Like the First Sérénade (2)",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "2 Sérénades en trois parties, Op.39 (Boismortier, Joseph Bodin de)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Le Concert Spirituel/Niquet, \"Sérénades chez Marie Leczinska\", Glossa (1998)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/2_Sérénades_en_trois_parties,_Op.39_(Boismortier,_Joseph_Bodin_de)",
-    "https://musicbrainz.org/work/9509049a-d6e9-4779-8a13-04bd116d216a"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Boismortier, Joseph Bodin de",
    "title": "Trio Sonata in D major, Op. 50 No. 6",
    "aka": [],
    "instruments": {
@@ -4805,43 +4761,6 @@
     "https://music.apple.com/album/1503053290"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Vitali, Giovanni Battista",
-   "title": "Capriccio in F major",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "",
-   "minutes": 5,
-   "notes": "Four-part capriccio in a Kalmus reprint of an old edition; source opus not identified",
-   "popularity": "lesser-known",
-   "level_guess": 2,
-   "level_basis": "Simple four-part writing; like Corelli's trio sonatas (2)",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Capriccio in F major (Vitali, Giovanni Battista)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Quartetto Italiano, \"The Quartetto Italiano Plays Vitali, Vivaldi …\" (1998 reissue)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Capriccio_in_F_major_(Vitali,_Giovanni_Battista)",
-    "https://musicbrainz.org/work/76f1fe03-e606-4478-8da9-9e27d533da21"
-   ],
-   "confidence": "low"
   }
  ],
  "skipped": [
@@ -5020,6 +4939,22 @@
    "works": 1,
    "reason": "not performed or recorded",
    "evidence": "A modern compilation of nine dances (IMSLP); no recording found"
+  },
+  {
+   "composer": "Boismortier, Joseph Bodin de",
+   "title": "Sérénade No. 2 in E minor, Op. 39 No. 2, PB 449",
+   "imslpPage": "2 Sérénades en trois parties, Op.39 (Boismortier, Joseph Bodin de)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Vitali, Giovanni Battista",
+   "title": "Capriccio in F major",
+   "imslpPage": "Capriccio in F major (Vitali, Giovanni Battista)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -5028,8 +4963,8 @@
   {
    "name": "Boismortier, Joseph Bodin de",
    "candidates": 15,
-   "kept": 29,
-   "skipped": 7,
+   "kept": 28,
+   "skipped": 8,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "Gap check against MusicBrainz's 1,154 Boismortier works and Apple Music: Op. 7 is for three flutes without bass; Op. 18, 24, 30, 53, 55 unrecorded; Op. 33/45/57 Gentillesses need musette/vielle. Op. 37 Nos. 1, 2, 4, 5 come from pages the census left out."
@@ -5055,12 +4990,12 @@
   {
    "name": "Vitali, Giovanni Battista",
    "candidates": 21,
-   "kept": 58,
-   "skipped": 9,
+   "kept": 57,
+   "skipped": 10,
    "added_not_on_imslp": 6,
    "coverage": "complete",
    "note": "Gap check against IMSLP's opus list, MusicBrainz and Apple Music (Tactus's Italico Splendore cycle, Brilliant's Semperconsort): added the six Op. 7 pieces IMSLP lacks. Not found recorded: Op. 1, 3, 10, 14 (only arranged excerpts). Op. 12 Balli a 5 (census: 'unspecified instruments'): two balli recorded live (Musica Fiorita, 2014), not added."
   }
  ],
- "note": "(1) Boismortier Op. 37 Nos. 1, 2, 4 and 5 (PB 436, 437, 439, 440) come from IMSLP pages the census left out as 'unspecified instruments'; that reason is wrong: the print names the instruments (a treble for flute, oboe or violin, a bass for viol, bassoon or cello, and continuo), so they are kept with their own pages. (2) Boismortier's and Vitali's prints often allow flutes, violins or oboes in the upper parts: entered with the IMSLP primary scoring, or with violins and the others as alternatives (as c06 did for Sammartini); Boismortier's Op. 34 is printed 'pour 3 flûtes, violons ou autres instruments' and is mostly recorded on flutes and recorders. (3) The violone of Vitali's Op. 2 and Op. 5 (and Op. 7, 8, 11 'violone o spinetta') is entered as part of the continuo; Buxtehude's 'con cembalo' (Op. 1 and 2) as continuo. (4) Vitali Op. 11: keys are left out because the recordings name keys but not numbers (Semperconsort) or numbers but not keys (Italico Splendore). (5) Boismortier's Op. 39 Sérénades are 'simphonies' in three parts also played with several players to a part (Le Concert Spirituel); kept with medium/low confidence. Op. 50 No. 6: IMSLP says violin, cello and continuo, but the Tancredi Trio recording uses a bassoonist; medium confidence. (6) Vitali's Capriccio in F (a Kalmus reprint, source opus unknown) has only a Quartetto Italiano recording: low confidence. (7) Fontana's Sonatas 1–6 (violin and continuo, recorded complete by Gruppo Seicento and Lux Terrae) are not in the violin catalogue; the owner may want them there. (8) Vitali's Op. 12 Balli in stile francese a 5 (census: 'unspecified instruments'; IMSLP: strings and continuo) has two balli recorded live (Musica Fiorita, 2014); not added. (9) Levels are by analogy with the benchmarks (Corelli Op. 1 No. 1 = 2, Handel = 4, Vivaldi La Follia = 5), not graded from the scores. (10) Floor evidence is from the Apple Music catalogue (iTunes Search/Lookup API) and MusicBrainz; catalogue numbers of the discs are mostly missing. No WebSearch was used."
+ "note": "(1) Boismortier Op. 37 Nos. 1, 2, 4 and 5 (PB 436, 437, 439, 440) come from IMSLP pages the census left out as 'unspecified instruments'; that reason is wrong: the print names the instruments (a treble for flute, oboe or violin, a bass for viol, bassoon or cello, and continuo), so they are kept with their own pages. (2) Boismortier's and Vitali's prints often allow flutes, violins or oboes in the upper parts: entered with the IMSLP primary scoring, or with violins and the others as alternatives (as c06 did for Sammartini); Boismortier's Op. 34 is printed 'pour 3 flûtes, violons ou autres instruments' and is mostly recorded on flutes and recorders. (3) The violone of Vitali's Op. 2 and Op. 5 (and Op. 7, 8, 11 'violone o spinetta') is entered as part of the continuo; Buxtehude's 'con cembalo' (Op. 1 and 2) as continuo. (4) Vitali Op. 11: keys are left out because the recordings name keys but not numbers (Semperconsort) or numbers but not keys (Italico Splendore). (5) Boismortier's Op. 39 Sérénades are 'simphonies' in three parts also played with several players to a part (Le Concert Spirituel); kept with medium/low confidence. Op. 50 No. 6: IMSLP says violin, cello and continuo, but the Tancredi Trio recording uses a bassoonist; medium confidence. (6) Vitali's Capriccio in F (a Kalmus reprint, source opus unknown) has only a Quartetto Italiano recording: low confidence. (7) Fontana's Sonatas 1–6 (violin and continuo, recorded complete by Gruppo Seicento and Lux Terrae) are not in the violin catalogue; the owner may want them there. (8) Vitali's Op. 12 Balli in stile francese a 5 (census: 'unspecified instruments'; IMSLP: strings and continuo) has two balli recorded live (Musica Fiorita, 2014); not added. (9) Levels are by analogy with the benchmarks (Corelli Op. 1 No. 1 = 2, Handel = 4, Vivaldi La Follia = 5), not graded from the scores. (10) Floor evidence is from the Apple Music catalogue (iTunes Search/Lookup API) and MusicBrainz; catalogue numbers of the discs are mostly missing. No WebSearch was used. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 2 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Boismortier: Sérénade No. 2 in E minor, Op. 39 No. 2, PB 449; Vitali: Capriccio in F major."
 }

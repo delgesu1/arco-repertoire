@@ -1254,44 +1254,6 @@
    "confidence": "medium"
   },
   {
-   "composer": "Dauprat, Louis-François",
-   "title": "Horn Quintet, Op. 6 No. 1",
-   "aka": [],
-   "instruments": {
-    "horn": 1,
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 5,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": "Three Horn Quintets, Op. 6",
-   "year": "",
-   "minutes": 18,
-   "notes": "Natural horn with string quartet; polacca finale",
-   "popularity": "lesser-known",
-   "level_guess": 6,
-   "level_basis": "horn part of a horn professor, about pre-diploma",
-   "hardest_part_guess": "horn",
-   "imslpPage": "3 Horn Quintets, Op.6 (Dauprat, Louis-François)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Bochsa père, Paris (c. 1813–19)",
-    "recorded": "Travis Bennett and others: \"Collage\" (self-released, 2019)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/3_Horn_Quintets,_Op.6_(Dauprat,_Louis-François)",
-    "https://itunes.apple.com/lookup?id=1492114634&entity=song"
-   ],
-   "confidence": "low"
-  },
-  {
    "composer": "Delange, François",
    "title": "Sonata a tre No. 2",
    "aka": [],
@@ -3834,6 +3796,14 @@
    "works": 2,
    "reason": "not performed or recorded",
    "evidence": "Only the Piano Quartet Op. 6 and his sextet arrangement of Beethoven's Pastoral are recorded"
+  },
+  {
+   "composer": "Dauprat, Louis-François",
+   "title": "Horn Quintet, Op. 6 No. 1",
+   "imslpPage": "3 Horn Quintets, Op.6 (Dauprat, Louis-François)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -4271,8 +4241,8 @@
   {
    "name": "Dauprat, Louis-François",
    "candidates": 1,
-   "kept": 2,
-   "skipped": 1,
+   "kept": 1,
+   "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "Op. 6 No. 1 rests on one self-released recording; key not confirmed"
@@ -4773,5 +4743,5 @@
    "note": "MusicBrainz (works with linked recordings) and an Apple Music catalogue search on the composer name: no commercial recording of any chamber work; MusicBrainz match is a 17th-century namesake"
   }
  ],
- "note": "Pilot of the tail brief. METHOD: one background script queried, for all 100 composers, MusicBrainz (artist search, then work?artist=<mbid>&inc=recording-rels: every work with its linked recordings in one call) and the Apple Music catalogue (iTunes Search API, no key); hits were then checked with iTunes Lookup track lists (timings give durations) and IMSLP work info via api.php. About 55 tool calls, 1 WebSearch. WHERE THE BRIEF FAILED OR WAS UNCLEAR: (1) Presto's search page returns a Cloudflare challenge to curl and Naxos Music Library needs a login, so the two named catalogues were unusable; Apple Music (itunes.apple.com/search and /lookup) worked well and should be added to 'Sources' (it is a commercial catalogue and gives track timings). (2) The MusicBrainz query in the brief (work?query=artist:\"Surname, Given\") is weaker than artist search + work browse with inc=recording-rels; MusicBrainz misses most small-label discs found on Apple Music. (3) 'Check each composer once for any commercial recording of their chamber music': unclear whether recordings of non-chamber works, or of chamber works that are not candidates, count as 'something turned up'. I treated concertos, symphonies, operas and songs as 'none found' (triage reason), and for composers with other chamber recordings I skipped the pages one by one as 'not performed or recorded'. (4) Whether tail slices may add works not on IMSLP is not said; I added 11 found on discs I opened (Cardon Op. 9 harp trios, Catel's three manuscript clarinet quartets, six Del Cinque sonatas for three cellos). Recorded but not added (details unchecked): Cannabich Flute Quintets Op. 7 Nos. 3–6 (CPO), Elsner Septet in D and String Quartets Op. 1, Du Puy Bassoon Quintet in A minor (Gringolts Quartet), Kellie's Kilravock quartets and trio sonatas (Concerto Caledonia). (5) A page holding several works of which only some are recorded: I wrote a second skipped line for the same page with works = the unrecorded count (Delange, Dauprat); the brief should say so. (6) 'year' has no rule for undated prints; I used 'c. 1775', 'c. 1789' and left n.d. prints blank. OPEN PROBLEMS: possible recordings not matched to these pages: Družecký Oboe Quartet in D (CPO 2023 has one in D), Cannabich Oboe Quartet in B-flat (1999 album, composer of the track unclear), Ferrandini String Quartet in G minor (Scholl/Echo du Danube 'Quartet in G minor'), Call Variations Op. 68 (Guitart 2023), Dauprat Op. 6 No. 2 (MusicBrainz numbering conflicts with No. 3). Keys of Cirri Opp. 9 and 13 come from the recordings; Il Fuggilotio may play Op. 9 Nos. 1–4 on flutes; Cirri Op. 13 and Dauprat Op. 6 No. 1 rest on self-released discs. Name searches for common names (Carter, Cooper, Dale, Edwards, Dolphin, Festoni, Fleury) are swamped by namesakes, so 'none found' is weaker there. Eight living or recent self-uploading composers sit in this 'classical' slice (census era looks wrong for them); proposed in exclude_composers on the MusicBrainz/Apple Music check only. Census: outOfScope 'Demachi 6 Sonatas for 3 Flutes, Op.17' is labelled 'violins alone' (probably 'no string part'; not checked); the census gives Classical harpsichord trios formation 'other' (Eichner Op. 2) although the brief maps Classical keyboard to piano. Levels are estimates; no work here was graded above 6."
+ "note": "Pilot of the tail brief. METHOD: one background script queried, for all 100 composers, MusicBrainz (artist search, then work?artist=<mbid>&inc=recording-rels: every work with its linked recordings in one call) and the Apple Music catalogue (iTunes Search API, no key); hits were then checked with iTunes Lookup track lists (timings give durations) and IMSLP work info via api.php. About 55 tool calls, 1 WebSearch. WHERE THE BRIEF FAILED OR WAS UNCLEAR: (1) Presto's search page returns a Cloudflare challenge to curl and Naxos Music Library needs a login, so the two named catalogues were unusable; Apple Music (itunes.apple.com/search and /lookup) worked well and should be added to 'Sources' (it is a commercial catalogue and gives track timings). (2) The MusicBrainz query in the brief (work?query=artist:\"Surname, Given\") is weaker than artist search + work browse with inc=recording-rels; MusicBrainz misses most small-label discs found on Apple Music. (3) 'Check each composer once for any commercial recording of their chamber music': unclear whether recordings of non-chamber works, or of chamber works that are not candidates, count as 'something turned up'. I treated concertos, symphonies, operas and songs as 'none found' (triage reason), and for composers with other chamber recordings I skipped the pages one by one as 'not performed or recorded'. (4) Whether tail slices may add works not on IMSLP is not said; I added 11 found on discs I opened (Cardon Op. 9 harp trios, Catel's three manuscript clarinet quartets, six Del Cinque sonatas for three cellos). Recorded but not added (details unchecked): Cannabich Flute Quintets Op. 7 Nos. 3–6 (CPO), Elsner Septet in D and String Quartets Op. 1, Du Puy Bassoon Quintet in A minor (Gringolts Quartet), Kellie's Kilravock quartets and trio sonatas (Concerto Caledonia). (5) A page holding several works of which only some are recorded: I wrote a second skipped line for the same page with works = the unrecorded count (Delange, Dauprat); the brief should say so. (6) 'year' has no rule for undated prints; I used 'c. 1775', 'c. 1789' and left n.d. prints blank. OPEN PROBLEMS: possible recordings not matched to these pages: Družecký Oboe Quartet in D (CPO 2023 has one in D), Cannabich Oboe Quartet in B-flat (1999 album, composer of the track unclear), Ferrandini String Quartet in G minor (Scholl/Echo du Danube 'Quartet in G minor'), Call Variations Op. 68 (Guitart 2023), Dauprat Op. 6 No. 2 (MusicBrainz numbering conflicts with No. 3). Keys of Cirri Opp. 9 and 13 come from the recordings; Il Fuggilotio may play Op. 9 Nos. 1–4 on flutes; Cirri Op. 13 and Dauprat Op. 6 No. 1 rest on self-released discs. Name searches for common names (Carter, Cooper, Dale, Edwards, Dolphin, Festoni, Fleury) are swamped by namesakes, so 'none found' is weaker there. Eight living or recent self-uploading composers sit in this 'classical' slice (census era looks wrong for them); proposed in exclude_composers on the MusicBrainz/Apple Music check only. Census: outOfScope 'Demachi 6 Sonatas for 3 Flutes, Op.17' is labelled 'violins alone' (probably 'no string part'; not checked); the census gives Classical harpsichord trios formation 'other' (Eichner Op. 2) although the brief maps Classical keyboard to piano. Levels are estimates; no work here was graded above 6. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Dauprat: Horn Quintet, Op. 6 No. 1."
 }

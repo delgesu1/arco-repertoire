@@ -1890,43 +1890,6 @@
    "confidence": "high"
   },
   {
-   "composer": "Chen Yi",
-   "title": "Sound of the Five",
-   "aka": [],
-   "instruments": {
-    "cello": 1,
-    "violin": 2,
-    "viola": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "string-quartet",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 18,
-   "notes": "Solo cello with string quartet (as listed by Wikipedia); four movements, about 18 minutes",
-   "popularity": "lesser-known",
-   "level_guess": 7,
-   "level_basis": "Cello solo over quartet; folk-instrument imitation",
-   "hardest_part_guess": "cello",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Third Angle New Music Ensemble (Hamilton Cheifetz, cello), Chen Yi: Sound of the Five, New World Records 2009 (Deezer 1112315, 17:32)",
-    "performed": ""
-   },
-   "sources": [
-    "https://www.deezer.com/album/1112315",
-    "https://en.wikipedia.org/wiki/Chen_Yi_(composer)"
-   ],
-   "confidence": "low"
-  },
-  {
    "composer": "Zhou Long",
    "title": "Soul",
    "aka": [],
@@ -2890,44 +2853,6 @@
     "https://en.wikipedia.org/wiki/Carl_Vine"
    ],
    "confidence": "high"
-  },
-  {
-   "composer": "Vine, Carl",
-   "title": "String Quintet",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "cello": 2
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 5,
-   "formation": "string-quintet",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "2009",
-   "minutes": 18,
-   "notes": "Four movements; the fifth part (second cello) is assumed, Faber lists only 'string quintet'",
-   "popularity": "lesser-known",
-   "level_guess": 7,
-   "level_basis": "Five-part writing; stamina",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Goldner String Quartet and guest, Vine: Child's Play, Piano Quintet & Other Chamber Music, Hyperion 2026 (Deezer 943726481, 5:35 + 5:02 + 2:39 + 4:47)",
-    "performed": ""
-   },
-   "sources": [
-    "https://www.deezer.com/album/943726481",
-    "https://www.fabermusic.com/composers/carl-vine/works",
-    "https://en.wikipedia.org/wiki/Carl_Vine"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Vine, Carl",
@@ -4526,6 +4451,22 @@
    "works": 1,
    "reason": "out of scope: duo",
    "evidence": "Violin and marimba: two players"
+  },
+  {
+   "composer": "Chen Yi",
+   "title": "Sound of the Five",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Vine, Carl",
+   "title": "String Quintet",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -4579,8 +4520,8 @@
   {
    "name": "Chen Yi",
    "candidates": 0,
-   "kept": 9,
-   "skipped": 10,
+   "kept": 8,
+   "skipped": 11,
    "added_not_on_imslp": 9,
    "coverage": "partial",
    "note": "Wikipedia work list checked; kept the works recorded on Deezer; Eleanor's Gift, From the Path of Beauty, Joy of the Reunion, The Han Figurines, Tunes From My Home, Xian Shi, YangKo and others not found recorded in this scoring"
@@ -4624,8 +4565,8 @@
   {
    "name": "Vine, Carl",
    "candidates": 0,
-   "kept": 9,
-   "skipped": 7,
+   "kept": 8,
+   "skipped": 8,
    "added_not_on_imslp": 9,
    "coverage": "partial",
    "note": "Wikipedia and Faber lists checked; kept the recorded works"
@@ -4703,5 +4644,5 @@
    "note": "No chamber work with strings for 3-9 players with a recording or a published score was found (searches of IMI, VIAF, Deezer and MusicBrainz; his recorded works are orchestral or vocal)"
   }
  ],
- "note": "All 19 composers have no IMSLP page in scope, so every entry is a gap-check addition (imslpPage null) and the skipped lines are notes on violin-catalogue items and works left out. METHOD: work lists from English and German Wikipedia, Faber Music (Sculthorpe, Vine) and mozetich.com, read through WebFetch (model-written summaries) or as raw HTML (Faber Music, whose years and durations are used for Sculthorpe and Vine); recordings from Deezer album and track lists (album ids in sources) and MusicBrainz recording relations (recording ids in floor.recorded). The Boosey & Hawkes, Australian Music Centre and Canadian Music Centre catalogues refused scripts, so Dean, Kats-Chernin, Edwards and Hosokawa durations come from recordings. No publisher page was opened for most works, so floor.published is mostly empty; the B&H Epitaphs, UNT, CMC and IMI pages were seen only as search-result summaries or WebFetch text. INSTRUMENT KEYS: the pipa is entered as lute (Ghost Opera, Zhou Long's Soul), the shō as accordion (Hosokawa's Landscape V), bandoneons as accordion (Takemitsu's Sonant), a harmonium with organ as alternative (Mozetich); the optional didjeridu of Sculthorpe's quartets is named in notes only. FORMATIONS: Schafer Nos. 4 and 7, Dean No. 2 and Sculthorpe No. 13 add a voice and are filed as string quartets with a formationNote. LOW OR MEDIUM CONFIDENCE (owner may drop): Chen Yi's Sound of the Five (recorded forces unconfirmed), Vine's String Quintet (second cello assumed), Takemitsu's Le Son calligraphié (DG credits two conductors), Sonant, Valeria and Entre-temps (MusicBrainz recordings only), Yun's String Quartet No. 5 and the oboe, harp and cello Sonata (MusicBrainz only), Somers's quartets (years blank), Tal's String Quartet No. 2 (an LP named by the IMI page), Sculthorpe's Nos. 9, 10 and 13. NOT COVERED OR THIN: Noam Sheriff (nothing found), Josef Tal and Harry Somers (only the recorded quartets), Zhou Long, Fujikura and Unsuk Chin (ensemble works whose forces could not be read), Hosokawa's Dan-so, Piano Trio and Landscape IV (no recording found), Dean's and Edwards's unrecorded chamber works. OWNER MAY RULE: Tan Dun's Eight Colors and Takemitsu's Le Son calligraphié I-III are entered as sets; Ghost Opera and the pipa and shō works have formation 'other'; Vine's Piano Trio is dated 2013 by Faber and 2014 by Wikipedia."
+ "note": "All 19 composers have no IMSLP page in scope, so every entry is a gap-check addition (imslpPage null) and the skipped lines are notes on violin-catalogue items and works left out. METHOD: work lists from English and German Wikipedia, Faber Music (Sculthorpe, Vine) and mozetich.com, read through WebFetch (model-written summaries) or as raw HTML (Faber Music, whose years and durations are used for Sculthorpe and Vine); recordings from Deezer album and track lists (album ids in sources) and MusicBrainz recording relations (recording ids in floor.recorded). The Boosey & Hawkes, Australian Music Centre and Canadian Music Centre catalogues refused scripts, so Dean, Kats-Chernin, Edwards and Hosokawa durations come from recordings. No publisher page was opened for most works, so floor.published is mostly empty; the B&H Epitaphs, UNT, CMC and IMI pages were seen only as search-result summaries or WebFetch text. INSTRUMENT KEYS: the pipa is entered as lute (Ghost Opera, Zhou Long's Soul), the shō as accordion (Hosokawa's Landscape V), bandoneons as accordion (Takemitsu's Sonant), a harmonium with organ as alternative (Mozetich); the optional didjeridu of Sculthorpe's quartets is named in notes only. FORMATIONS: Schafer Nos. 4 and 7, Dean No. 2 and Sculthorpe No. 13 add a voice and are filed as string quartets with a formationNote. LOW OR MEDIUM CONFIDENCE (owner may drop): Chen Yi's Sound of the Five (recorded forces unconfirmed), Vine's String Quintet (second cello assumed), Takemitsu's Le Son calligraphié (DG credits two conductors), Sonant, Valeria and Entre-temps (MusicBrainz recordings only), Yun's String Quartet No. 5 and the oboe, harp and cello Sonata (MusicBrainz only), Somers's quartets (years blank), Tal's String Quartet No. 2 (an LP named by the IMI page), Sculthorpe's Nos. 9, 10 and 13. NOT COVERED OR THIN: Noam Sheriff (nothing found), Josef Tal and Harry Somers (only the recorded quartets), Zhou Long, Fujikura and Unsuk Chin (ensemble works whose forces could not be read), Hosokawa's Dan-so, Piano Trio and Landscape IV (no recording found), Dean's and Edwards's unrecorded chamber works. OWNER MAY RULE: Tan Dun's Eight Colors and Takemitsu's Le Son calligraphié I-III are entered as sets; Ghost Opera and the pipa and shō works have formation 'other'; Vine's Piano Trio is dated 2013 by Faber and 2014 by Wikipedia. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 2 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Chen Yi: Sound of the Five; Vine: String Quintet."
 }

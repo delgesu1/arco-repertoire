@@ -3889,43 +3889,6 @@
   },
   {
    "composer": "Kernis, Aaron Jay",
-   "title": "Trio in Red",
-   "aka": [],
-   "instruments": {
-    "violin": 1,
-    "cello": 1,
-    "piano": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "piano-trio",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1999",
-   "minutes": 16,
-   "notes": "Piano trio of 1999",
-   "popularity": "lesser-known",
-   "level_guess": 8,
-   "level_basis": "Dense modern writing for all three; professional level",
-   "hardest_part_guess": "piano",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Phoenix USA, 'On Distant Shores' (2015; Deezer 10199906); the violin, cello and piano scoring is inferred from the performers",
-    "performed": ""
-   },
-   "sources": [
-    "https://www.deezer.com/album/10199906"
-   ],
-   "confidence": "low",
-   "gap": true
-  },
-  {
-   "composer": "Kernis, Aaron Jay",
    "title": "100 Greatest Dance Hits",
    "aka": [],
    "instruments": {
@@ -5297,6 +5260,14 @@
    "works": 1,
    "reason": "not checked (usage limit)",
    "evidence": "no recording found in the Deezer, Apple and MusicBrainz lookups of this run (one automated pass, so a weak negative); score and performance not checked"
+  },
+  {
+   "composer": "Kernis, Aaron Jay",
+   "title": "Trio in Red",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -5323,9 +5294,9 @@
   {
    "name": "Kernis, Aaron Jay",
    "candidates": 0,
-   "kept": 4,
-   "skipped": 6,
-   "added_not_on_imslp": 4,
+   "kept": 3,
+   "skipped": 7,
+   "added_not_on_imslp": 3,
    "coverage": "partial",
    "note": "Found through recordings only (no work list reachable; his site refused the connection). Trio in Red scoring inferred from the performers."
   },
@@ -5483,5 +5454,5 @@
    "note": "Only the String Quartet No. 1 on the Albany disc."
   }
  ],
- "note": "USAGE LIMIT: the run was cut short, so every composer is partial. Method: scoring from the composers' own pages (Liebermann, Thomas, Currier, Mackey, Puts, Del Tredici) and Wikipedia work lists; floor evidence from Deezer and Apple Music album pages found by one automated pass (composer-named Deezer albums, Apple composer-field searches, live Deezer track searches). A work with no hit is therefore 'not checked (usage limit)', not unrecorded; durations are recording timings where no composer figure was given. Not reached: Hartke (nothing), Bolcom (all candidates), most of Kernis, Higdon, Puts and Mackey beyond the kept works. Violin catalogue: id 4610 (Liebermann Chamber Concerto No. 1) is cross-listed; 360, 4920 and 4375 exceed 9 players; 472, 4507, 4360, 4356, 4609 and 4923 are duos; 4530 and 4773 are with orchestra. Decisions for the owner: Thomas's Sun Threads is kept as one entry (its four quartets are recorded only as its movements); Corigliano's String Quartet is titled as on his site, with the Naxos label 'Farewell' in aka; Kernis's String Quartet No. 1 is the four-movement quartet whose slow movement is Musica celestis; medium or low confidence marks scoring taken from performers or album titles (Kernis Trio in Red, Higdon Zaka and Scenes from the Poet's Dreams, Rouse years, Daugherty Oklahoma disc, Mackey Physical Property). Levels are estimates. Benchmark 100092 (Cafe Music) reported unchanged; no benchmark issues."
+ "note": "USAGE LIMIT: the run was cut short, so every composer is partial. Method: scoring from the composers' own pages (Liebermann, Thomas, Currier, Mackey, Puts, Del Tredici) and Wikipedia work lists; floor evidence from Deezer and Apple Music album pages found by one automated pass (composer-named Deezer albums, Apple composer-field searches, live Deezer track searches). A work with no hit is therefore 'not checked (usage limit)', not unrecorded; durations are recording timings where no composer figure was given. Not reached: Hartke (nothing), Bolcom (all candidates), most of Kernis, Higdon, Puts and Mackey beyond the kept works. Violin catalogue: id 4610 (Liebermann Chamber Concerto No. 1) is cross-listed; 360, 4920 and 4375 exceed 9 players; 472, 4507, 4360, 4356, 4609 and 4923 are duos; 4530 and 4773 are with orchestra. Decisions for the owner: Thomas's Sun Threads is kept as one entry (its four quartets are recorded only as its movements); Corigliano's String Quartet is titled as on his site, with the Naxos label 'Farewell' in aka; Kernis's String Quartet No. 1 is the four-movement quartet whose slow movement is Musica celestis; medium or low confidence marks scoring taken from performers or album titles (Kernis Trio in Red, Higdon Zaka and Scenes from the Poet's Dreams, Rouse years, Daugherty Oklahoma disc, Mackey Physical Property). Levels are estimates. Benchmark 100092 (Cafe Music) reported unchanged; no benchmark issues. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Kernis: Trio in Red."
 }

@@ -2682,46 +2682,6 @@
   },
   {
    "composer": "Rawsthorne, Alan",
-   "title": "Clarinet Quintet",
-   "aka": [
-    "Quintet for clarinet, horn, violin, cello and piano"
-   ],
-   "instruments": {
-    "clarinet": 1,
-    "horn": 1,
-    "violin": 1,
-    "cello": 1,
-    "piano": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 5,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1970",
-   "minutes": 9,
-   "notes": "For clarinet, horn, violin, cello and piano; commissioned by the Music Group of London",
-   "popularity": "lesser-known",
-   "level_guess": 7,
-   "level_basis": "Clarinet, horn and piano at diploma level; mixed ensemble balance",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Clarinet Quintet (Rawsthorne, Alan)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Oxford University Press, 1972",
-    "recorded": "",
-    "performed": "Premiered 16 February 1971 by the Music Group of London (commissioner), per IMSLP; no recording found"
-   },
-   "sources": [
-    "https://imslp.org/wiki/Clarinet_Quintet_(Rawsthorne,_Alan)"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Rawsthorne, Alan",
    "title": "Piano Quintet",
    "aka": [],
    "instruments": {
@@ -5037,45 +4997,6 @@
    "gap": true
   },
   {
-   "composer": "Musgrave, Thea",
-   "title": "Cantilena",
-   "aka": [],
-   "instruments": {
-    "oboe": 1,
-    "violin": 1,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "2008",
-   "minutes": 11,
-   "notes": "Oboe quartet of 2008, recorded by Nicholas Daniel",
-   "popularity": "lesser-known",
-   "level_guess": 7,
-   "level_basis": "Oboe at diploma level; lyrical strings about level 5",
-   "hardest_part_guess": "oboe",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Nicholas Daniel and others, harmonia mundi (Deezer 270232682, 10:59)",
-    "performed": ""
-   },
-   "sources": [
-    "https://en.wikipedia.org/wiki/Thea_Musgrave",
-    "https://www.deezer.com/album/270232682"
-   ],
-   "confidence": "low",
-   "gap": true
-  },
-  {
    "composer": "Williams, Grace",
    "title": "Sextet",
    "aka": [
@@ -5458,6 +5379,22 @@
    "works": 1,
    "reason": "out of scope: violins alone",
    "evidence": "Two violins with an optional cello; a two-minute miniature (Naxos version for two violins and cello, Deezer 586288042)"
+  },
+  {
+   "composer": "Rawsthorne, Alan",
+   "title": "Clarinet Quintet",
+   "imslpPage": "Clarinet Quintet (Rawsthorne, Alan)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Musgrave, Thea",
+   "title": "Cantilena",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -5520,8 +5457,8 @@
   {
    "name": "Rawsthorne, Alan",
    "candidates": 7,
-   "kept": 7,
-   "skipped": 3,
+   "kept": 6,
+   "skipped": 4,
    "added_not_on_imslp": 1,
    "coverage": "complete",
    "note": "All seven IMSLP candidates judged: six kept (the Clarinet Quintet only at low confidence, on its documented premiere), the Oboe Quartet skipped. String Quartet No. 2 (not on IMSLP) added from the Naxos disc. Concerto for Ten Instruments (ten players) and the piano/wind quintet left out."
@@ -5592,9 +5529,9 @@
   {
    "name": "Musgrave, Thea",
    "candidates": 0,
-   "kept": 5,
-   "skipped": 4,
-   "added_not_on_imslp": 5,
+   "kept": 4,
+   "skipped": 5,
+   "added_not_on_imslp": 4,
    "coverage": "partial",
    "note": "Five works on the 2013 and 2026 chamber discs kept; Cantilena at low confidence because its string parts are assumed, the others from Wise Music, Penn and Maryland catalogue records. Most of her other chamber music has no strings or no recording."
   },
@@ -5608,5 +5545,5 @@
    "note": "Sextet, Suite for Nine Instruments (Naxos) and the Hopkins Poems (Chandos; contralto and string sextet, string distribution assumed to be 2-2-2) kept. The Phantasy Quintet is unrecorded as far as found."
   }
  ],
- "note": "EVIDENCE: Deezer album and track lists (labels, timings; album ids in sources) are the main recording evidence, with MusicBrainz work lists (Lutyens, Maconchy, Rawsthorne, Frankel, Williams, Musgrave, Leighton, Tippett, Finzi), Apple composerTerm searches, Wikipedia work lists, the IMSLP pages for Finzi and Rawsthorne, and eight web searches (dates of Alwyn's early quartets, Musgrave, Berkeley, Finzi and Williams scorings). Naxos Library and Presto were not used. Deezer shows 2023-24 digital reissue dates for the Hyperion albums and aggregator labels (Treasure Island, Ameritz) for some old recordings; labels are given as Deezer shows them. VIOLIN CATALOGUE: neither entry falls in scope, so no violin_id: id 421 (Arnold, Concerto for Two Violins and String Orchestra, Op. 77) is with string orchestra and id 530 (Rawsthorne, Theme and Variations for two violins) is a duo. BENCHMARK: Britten's Simple Symphony (100050) is reported unchanged; Wikipedia confirms it is a work for string orchestra or string quartet. OWNER MAY RULE: (1) Rawsthorne's Clarinet Quintet is kept at low confidence on its documented 1971 premiere (OUP 1972, no recording found); his Oboe Quartet has no performers named and is skipped. (2) Alwyn's eight early quartets (Nos. 6-13, 1927-36) are first recordings on Lyrita (2020) and SOMM (2017); numbering and dates as on the discs and in MusicWeb; Nos. 4-5 not found. (3) Voice works kept under the vocal rule: Finzi's By Footpath and Stile, Williams's Hopkins Poems, Lutyens's Requiescat and Walton's Façade (reciter) and Façade 2. (4) Scorings inferred from a catalogue record or from the recording, medium or low confidence: Simpson's two String Quintets (two cellos), Britten's Phantasy in F minor (two violas), Musgrave's Cantilena (oboe with violin, viola, cello; confidence low), Williams's Hopkins Poems (2-2-2). (5) The Finzi Prelude and Fugue rests on search-result summaries (Eblana 2021, Thamyse 1987), not on a page I opened. (6) Years left blank because not confirmed: Rubbra Quartets Nos. 2 and 3 and both piano trios, Maconchy's Clarinet Quintet, Berkeley's Oboe Quartet and Alwyn's Seven Irish Tunes. NOT ADDED (scoring unconfirmed): Leighton's Fantasy Octet Op. 87 (recorded by the ASMF Chamber Ensemble, Chandos CHAN 9346) and Lutyens's Chamber Concerto No. 1 (NMC); the Chandos booklet is an image PDF. NOT ADDED (no recording found): most of Lutyens's quartets and string works (the Wikipedia table marks CD for Op. 81 and Op. 122), Leighton's quartets, piano quintet and piano quartet, Frankel's string trios and piano quartet, Rubbra's Lyric Movement and Machaut Fantasia, Simpson's Clarinet Trio, Piano Trio and recorder variations, Maconchy's Piccola Musica, Tippett's In Memoriam Magistri (MusicBrainz lists only a 33-second recording), Rawsthorne's Suite for flute, viola and harp. LEFT OUT BY RULE: Britten's Sinfonietta Op. 1 (ten players), Frankel's Cinque pezzi notturni (eleven), Rawsthorne's Concerto for Ten Instruments, Berkeley's piano and wind quintet, and the many duos and solos. WEAK SPOTS: Berkeley's Horn Trio duration (26 min from two recordings); Britten's Miniature Suite (origin not identified); Maconchy and Lutyens recordings are old reissues."
+ "note": "EVIDENCE: Deezer album and track lists (labels, timings; album ids in sources) are the main recording evidence, with MusicBrainz work lists (Lutyens, Maconchy, Rawsthorne, Frankel, Williams, Musgrave, Leighton, Tippett, Finzi), Apple composerTerm searches, Wikipedia work lists, the IMSLP pages for Finzi and Rawsthorne, and eight web searches (dates of Alwyn's early quartets, Musgrave, Berkeley, Finzi and Williams scorings). Naxos Library and Presto were not used. Deezer shows 2023-24 digital reissue dates for the Hyperion albums and aggregator labels (Treasure Island, Ameritz) for some old recordings; labels are given as Deezer shows them. VIOLIN CATALOGUE: neither entry falls in scope, so no violin_id: id 421 (Arnold, Concerto for Two Violins and String Orchestra, Op. 77) is with string orchestra and id 530 (Rawsthorne, Theme and Variations for two violins) is a duo. BENCHMARK: Britten's Simple Symphony (100050) is reported unchanged; Wikipedia confirms it is a work for string orchestra or string quartet. OWNER MAY RULE: (1) Rawsthorne's Clarinet Quintet is kept at low confidence on its documented 1971 premiere (OUP 1972, no recording found); his Oboe Quartet has no performers named and is skipped. (2) Alwyn's eight early quartets (Nos. 6-13, 1927-36) are first recordings on Lyrita (2020) and SOMM (2017); numbering and dates as on the discs and in MusicWeb; Nos. 4-5 not found. (3) Voice works kept under the vocal rule: Finzi's By Footpath and Stile, Williams's Hopkins Poems, Lutyens's Requiescat and Walton's Façade (reciter) and Façade 2. (4) Scorings inferred from a catalogue record or from the recording, medium or low confidence: Simpson's two String Quintets (two cellos), Britten's Phantasy in F minor (two violas), Musgrave's Cantilena (oboe with violin, viola, cello; confidence low), Williams's Hopkins Poems (2-2-2). (5) The Finzi Prelude and Fugue rests on search-result summaries (Eblana 2021, Thamyse 1987), not on a page I opened. (6) Years left blank because not confirmed: Rubbra Quartets Nos. 2 and 3 and both piano trios, Maconchy's Clarinet Quintet, Berkeley's Oboe Quartet and Alwyn's Seven Irish Tunes. NOT ADDED (scoring unconfirmed): Leighton's Fantasy Octet Op. 87 (recorded by the ASMF Chamber Ensemble, Chandos CHAN 9346) and Lutyens's Chamber Concerto No. 1 (NMC); the Chandos booklet is an image PDF. NOT ADDED (no recording found): most of Lutyens's quartets and string works (the Wikipedia table marks CD for Op. 81 and Op. 122), Leighton's quartets, piano quintet and piano quartet, Frankel's string trios and piano quartet, Rubbra's Lyric Movement and Machaut Fantasia, Simpson's Clarinet Trio, Piano Trio and recorder variations, Maconchy's Piccola Musica, Tippett's In Memoriam Magistri (MusicBrainz lists only a 33-second recording), Rawsthorne's Suite for flute, viola and harp. LEFT OUT BY RULE: Britten's Sinfonietta Op. 1 (ten players), Frankel's Cinque pezzi notturni (eleven), Rawsthorne's Concerto for Ten Instruments, Berkeley's piano and wind quintet, and the many duos and solos. WEAK SPOTS: Berkeley's Horn Trio duration (26 min from two recordings); Britten's Miniature Suite (origin not identified); Maconchy and Lutyens recordings are old reissues. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 2 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Rawsthorne: Clarinet Quintet; Musgrave: Cantilena."
 }

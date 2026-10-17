@@ -138,14 +138,6 @@
    "in_catalogue": false
   },
   {
-   "name": "Brisson, Frédéric",
-   "dates": "1821–",
-   "nationality": "French",
-   "gender": "M",
-   "era": "late-romantic",
-   "in_catalogue": false
-  },
-  {
    "name": "Bronsart von Schellendorff, Hans",
    "dates": "1830–1913",
    "nationality": "German",
@@ -2632,49 +2624,6 @@
     "https://itunes.apple.com/lookup?id=1826980897&entity=song"
    ],
    "confidence": "high"
-  },
-  {
-   "composer": "Brisson, Frédéric",
-   "title": "Trio sur Norma, Op. 58",
-   "aka": [
-    "Trio on Bellini's Norma"
-   ],
-   "instruments": {
-    "violin": 1,
-    "piano": 1,
-    "harmonium": 1
-   },
-   "alternatives": {
-    "violin": [
-     "cello"
-    ]
-   },
-   "optional": {},
-   "players": 3,
-   "formation": "other",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1855",
-   "minutes": null,
-   "notes": "Fantasy on themes from Bellini's Norma for piano, violin (or cello) and harmonium",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Salon fantasy; moderate technique",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Trio sur 'Norma', Op.58 (Brisson, Frédéric)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "published by 1855",
-    "recorded": "Claudio Brizi, Costantino Catena, Paolo Franceschini: 'Harmonium Pearls' (2013)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Trio_sur_'Norma',_Op.58_(Brisson,_Frédéric)",
-    "https://musicbrainz.org/artist/1100c53a-693d-49e4-8053-fee316943d36"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Byström, Oscar",
@@ -7258,6 +7207,14 @@
    "works": 1,
    "reason": "not performed or recorded (composer triage)",
    "evidence": "MusicBrainz: no artist record matches the name and dates; Deezer album search: no chamber album under the name; Apple Music composer search: no chamber track found (no commercial recording of any chamber work)"
+  },
+  {
+   "composer": "Brisson, Frédéric",
+   "title": "Trio sur Norma, Op. 58",
+   "imslpPage": "Trio sur 'Norma', Op.58 (Brisson, Frédéric)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -8400,8 +8357,8 @@
   {
    "name": "Brisson, Frédéric",
    "candidates": 4,
-   "kept": 1,
-   "skipped": 3,
+   "kept": 0,
+   "skipped": 4,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "Only recording found is MusicBrainz's 'Harmonium Pearls' (2013), for piano, violin or cello and harmonium; confidence low"
@@ -9514,5 +9471,5 @@
    "note": "MusicBrainz: no artist record matches the name and dates; Deezer album search: no chamber album under the name; Apple Music composer search: no chamber track found (no commercial recording of any chamber work); weak: the name is common or ambiguous, so namesakes swamp the searches"
   }
  ],
- "note": "METHOD: one background script queried MusicBrainz (batched artist search, 6 names a request, then works with linked recordings), Deezer (album search) and, for composers neither found, Apple's composerTerm song search, for all 250 composers; every hit was confirmed on an album track list (Deezer API or Apple lookup, timings give the minutes) and, for the kept pages, on IMSLP's work info (api.php). Composers with a hit were then checked page by page; their unrecorded pages are skipped as 'not performed or recorded'. WEAK POINTS: none-found for common or initial-only names (Alexander, Becker, Dumas, Fall, Fink, Fiedler, Busch, Behr) is weak because namesakes swamp the searches; MusicBrainz lists several Russian composers only under Cyrillic names (matched through the sort name); Apple's composerTerm search is fuzzy and returns no composer field, so only albums with several chamber-titled tracks were read. OPEN POINTS: Ansorge's CPO album is a pre-release (23 Oct 2026); Baussnern's Serenade and Brisson's Trio sur Norma rest on one thin recording each; Caro's two String Quintets (DUX 2025) and Čiurlionis's canons are recorded but not added; Blumenthal's and Beneš's dates and Campos's dates are unknown (authors left blank); no composer in this slice is a recent self-published upload, so there are no exclusion proposals."
+ "note": "METHOD: one background script queried MusicBrainz (batched artist search, 6 names a request, then works with linked recordings), Deezer (album search) and, for composers neither found, Apple's composerTerm song search, for all 250 composers; every hit was confirmed on an album track list (Deezer API or Apple lookup, timings give the minutes) and, for the kept pages, on IMSLP's work info (api.php). Composers with a hit were then checked page by page; their unrecorded pages are skipped as 'not performed or recorded'. WEAK POINTS: none-found for common or initial-only names (Alexander, Becker, Dumas, Fall, Fink, Fiedler, Busch, Behr) is weak because namesakes swamp the searches; MusicBrainz lists several Russian composers only under Cyrillic names (matched through the sort name); Apple's composerTerm search is fuzzy and returns no composer field, so only albums with several chamber-titled tracks were read. OPEN POINTS: Ansorge's CPO album is a pre-release (23 Oct 2026); Baussnern's Serenade and Brisson's Trio sur Norma rest on one thin recording each; Caro's two String Quintets (DUX 2025) and Čiurlionis's canons are recorded but not added; Blumenthal's and Beneš's dates and Campos's dates are unknown (authors left blank); no composer in this slice is a recent self-published upload, so there are no exclusion proposals. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Brisson: Trio sur Norma, Op. 58."
 }

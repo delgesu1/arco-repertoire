@@ -1274,50 +1274,6 @@
     "https://www.prestomusic.com/classical/labels/693/browse?page=21"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Vanhal, Johann Baptist",
-   "title": "Piano Trio in F minor, Op. 1",
-   "aka": [
-    "Sonata for harpsichord with violin and cello in F minor, Op. 1"
-   ],
-   "instruments": {
-    "piano": 1,
-    "violin": 1,
-    "cello": 1
-   },
-   "alternatives": {
-    "piano": [
-     "harpsichord"
-    ]
-   },
-   "optional": {},
-   "players": 3,
-   "formation": "piano-trio",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 10,
-   "notes": "Strings ad lib. in the first edition, if it belongs to André's Op. 1; harpsichord leads",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Galant keyboard part about grade 6; violin and cello accompany",
-   "hardest_part_guess": "piano",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Aestas Musica (harpsichord, violin, cello), Aulos (2015)",
-    "performed": ""
-   },
-   "sources": [
-    "https://music.apple.com/us/album/ivan-krstitelj-va%C5%88hal/1504058955",
-    "https://imslp.org/wiki/6_Harpsichord_Trios,_Op.1_(Vanhal,_Johann_Baptist)"
-   ],
-   "confidence": "low",
-   "gap": true
   }
  ],
  "skipped": [
@@ -1488,6 +1444,14 @@
    "works": 1,
    "reason": "not performed or recorded",
    "evidence": "Merton Music edition (2007); once attributed to Haydn (Hob. III:C13); no recording found on iTunes or MusicBrainz"
+  },
+  {
+   "composer": "Vanhal, Johann Baptist",
+   "title": "Piano Trio in F minor, Op. 1",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -1496,12 +1460,12 @@
   {
    "name": "Vanhal, Johann Baptist",
    "candidates": 30,
-   "kept": 23,
-   "skipped": 21,
-   "added_not_on_imslp": 9,
+   "kept": 22,
+   "skipped": 22,
+   "added_not_on_imslp": 8,
    "coverage": "complete",
    "note": "Floor from Apple Music track lists: Op. 6 complete (Eybler) and the Kubin, Lotus, Stamic, Camesina and Bennewitz quartet discs; Op. 7 complete (Hyperion) and Nos. 2, 3, 6 on Naxos; Op. 20 trios Nos. 1-3 (Cesky rozhlas). MusicBrainz holds almost no Vanhal chamber recordings. Gap check against the de.wikipedia and klassika.info work lists (selections; no complete public list exists) and the recordings found: added Op. 1 Nos. 3-4, Op. 2 No. 3 and Op. 33 No. 3 quartets, the three Op. 40 piano quartets and a trio sonata."
   }
  ],
- "note": "Vanhal (c18): 1) Accompanied keyboard sonatas with all strings ad lib. in the first edition, kept under the brief's rule because they are recorded with the strings: the three Op. 12 quintets (Spányi, Authentic Quartet, Hungaroton 2009; source pages seen only as search results, as AllMusic and Presto refuse scripts) and an F minor 'Op. 1' trio (Aestas Musica, Aulos 2015) whose key is not among the six of André's Op. 1 on IMSLP (C, F, B-flat, E-flat, G, A), so it has no IMSLP page and low confidence. The rest of Op. 1 is skipped as 'keyboard sonata, strings ad lib.'; Op. 5 and the Sonata facile stay skipped as duos (one obbligato string part). 2) Not added for lack of identification: a 'Quartet for clarinet and string trio' on Centaur CRC 3055 (Crusell Quartet, 17:17, per AllMusic; key not found) and one unnumbered Op. 17 trio on a Nota Bene EP. klassika.info also lists a String Quartet in G major, Op. 4 No. 1 and 'Op. 13a Nos. 1-6' that could not be matched to a recording. 3) Op. 40 piano quartets: the only recording (Richard Fuller, Musica Aeterna Bratislava) is sold by the pianist; label, year and timings not found. 4) Catalogue numbers: IMSLP calls Op. 6 No. 1 'Bryan F6' where the Kubin disc says 'F14', so opus-only titles there; IMSLP's 'Bryan A4' for Op. 33 No. 2 is Weinmann Va:A4 on the cpo disc. Opus numbers of Op. 1, Op. 2 and the 'Op. 3' trio sonata are as on the recordings. Minutes are medians of the recordings; Hyperion's Op. 7 timings run well below Naxos's (repeats). Levels are estimates without score inspection."
+ "note": "Vanhal (c18): 1) Accompanied keyboard sonatas with all strings ad lib. in the first edition, kept under the brief's rule because they are recorded with the strings: the three Op. 12 quintets (Spányi, Authentic Quartet, Hungaroton 2009; source pages seen only as search results, as AllMusic and Presto refuse scripts) and an F minor 'Op. 1' trio (Aestas Musica, Aulos 2015) whose key is not among the six of André's Op. 1 on IMSLP (C, F, B-flat, E-flat, G, A), so it has no IMSLP page and low confidence. The rest of Op. 1 is skipped as 'keyboard sonata, strings ad lib.'; Op. 5 and the Sonata facile stay skipped as duos (one obbligato string part). 2) Not added for lack of identification: a 'Quartet for clarinet and string trio' on Centaur CRC 3055 (Crusell Quartet, 17:17, per AllMusic; key not found) and one unnumbered Op. 17 trio on a Nota Bene EP. klassika.info also lists a String Quartet in G major, Op. 4 No. 1 and 'Op. 13a Nos. 1-6' that could not be matched to a recording. 3) Op. 40 piano quartets: the only recording (Richard Fuller, Musica Aeterna Bratislava) is sold by the pianist; label, year and timings not found. 4) Catalogue numbers: IMSLP calls Op. 6 No. 1 'Bryan F6' where the Kubin disc says 'F14', so opus-only titles there; IMSLP's 'Bryan A4' for Op. 33 No. 2 is Weinmann Va:A4 on the cpo disc. Opus numbers of Op. 1, Op. 2 and the 'Op. 3' trio sonata are as on the recordings. Minutes are medians of the recordings; Hyperion's Op. 7 timings run well below Naxos's (repeats). Levels are estimates without score inspection. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Vanhal: Piano Trio in F minor, Op. 1."
 }

@@ -2681,46 +2681,6 @@
   },
   {
    "composer": "Sammartini, Giuseppe",
-   "title": "Trio Sonata No. 6",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "continuo": 1
-   },
-   "alternatives": {
-    "violin": [
-     "flute"
-    ]
-   },
-   "optional": {},
-   "players": 3,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": "Twelve Trio Sonatas for Two Flutes or Violins (London, 1727)",
-   "year": "1727",
-   "minutes": 7,
-   "notes": "Key given as D major by the Fiori Musicali recording, D minor by IMSLP's list; for two flutes or violins",
-   "popularity": "lesser-known",
-   "level_guess": 2,
-   "level_basis": "Simple galant writing in a flute's range; like Corelli's trio sonatas (2)",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "12 Trio Sonatas (Sammartini, Giuseppe)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Fiori Musicali, Tactus (2012), complete set",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/12_Trio_Sonatas_(Sammartini,_Giuseppe)",
-    "https://music.apple.com/album/571403427"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Sammartini, Giuseppe",
    "title": "Trio Sonata No. 7 in F major",
    "aka": [],
    "instruments": {
@@ -3056,6 +3016,14 @@
    "works": 1,
    "reason": "out of scope: string orchestra",
    "evidence": "Concerto grosso of the Six Grand Concertos in 8 Parts, Op. 8 (Walsh 1752); the four-part 'quartet/manuscript version' is Maunder's edition with orchestral parts (Violins 1, Violas); no one-to-a-part recording found"
+  },
+  {
+   "composer": "Sammartini, Giuseppe",
+   "title": "Trio Sonata No. 6",
+   "imslpPage": "12 Trio Sonatas (Sammartini, Giuseppe)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -3082,12 +3050,12 @@
   {
    "name": "Sammartini, Giuseppe",
    "candidates": 9,
-   "kept": 12,
-   "skipped": 8,
+   "kept": 11,
+   "skipped": 9,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Kept the 1727 set (complete recording by Fiori Musicali). Op. 3 has no recording found. Wikipedia counts '30 trios for flutes or violins'; the six beyond IMSLP's 24 were not identified. Trios for two flutes or recorders and continuo alone (Op. 1 No. 4 in G, Camerata Köln's trios) have no string part. No Grove list was reachable, hence partial."
   }
  ],
- "note": "(1) Locatelli Op. 5 is one set entry because the violin catalogue lists it as one work (id 490, title and level 5 copied); the one-entry-per-work rule would want six entries, which the cross-listing rule does not allow. The owner may want the violin entry split. (2) IMSLP's page 'Trio Sonata in C major, Op.3 No.8 (Corelli)' says E minor in its work info; every recording has C major. Op. 3 No. 12 is A major (IMSLP's Op. 3 page lists A minor). (3) Floor evidence is the Apple Music catalogue (iTunes Search/Lookup API: album, artist, (P) line, timings) and MusicBrainz; catalogue numbers are mostly missing. (4) Corelli levels: all trio sonatas at 2 like the benchmark Op. 1 No. 1; not graded sonata by sonata from the scores. WoO 4 (trumpet) at 4. (5) Corelli WoO 7 has no year on IMSLP; it is one of WoO 5–10 (the others printed 1714), year left blank. (6) Sammartini's 1727 set is printed 'for two German flutes or violins': entered as two violins and continuo with flute as the alternative so that it has its string part; No. 6's key is disputed (D major on the recording, D minor in IMSLP's list), so the title has no key. (7) Not resolved: a 'Sonata in D major for transverse flute, 2 violins and b.c.' on Camerata Köln's 'Sammartini: Concertos' (BMG/DHM 1994) mixes Giuseppe and G. B. Sammartini; the composer of that sonata was not confirmed, so it is not added."
+ "note": "(1) Locatelli Op. 5 is one set entry because the violin catalogue lists it as one work (id 490, title and level 5 copied); the one-entry-per-work rule would want six entries, which the cross-listing rule does not allow. The owner may want the violin entry split. (2) IMSLP's page 'Trio Sonata in C major, Op.3 No.8 (Corelli)' says E minor in its work info; every recording has C major. Op. 3 No. 12 is A major (IMSLP's Op. 3 page lists A minor). (3) Floor evidence is the Apple Music catalogue (iTunes Search/Lookup API: album, artist, (P) line, timings) and MusicBrainz; catalogue numbers are mostly missing. (4) Corelli levels: all trio sonatas at 2 like the benchmark Op. 1 No. 1; not graded sonata by sonata from the scores. WoO 4 (trumpet) at 4. (5) Corelli WoO 7 has no year on IMSLP; it is one of WoO 5–10 (the others printed 1714), year left blank. (6) Sammartini's 1727 set is printed 'for two German flutes or violins': entered as two violins and continuo with flute as the alternative so that it has its string part; No. 6's key is disputed (D major on the recording, D minor in IMSLP's list), so the title has no key. (7) Not resolved: a 'Sonata in D major for transverse flute, 2 violins and b.c.' on Camerata Köln's 'Sammartini: Concertos' (BMG/DHM 1994) mixes Giuseppe and G. B. Sammartini; the composer of that sonata was not confirmed, so it is not added. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Sammartini: Trio Sonata No. 6."
 }

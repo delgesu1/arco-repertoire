@@ -2727,43 +2727,6 @@
    ],
    "confidence": "medium",
    "gap": true
-  },
-  {
-   "composer": "Tartini, Giuseppe",
-   "title": "Sinfonia in A major, GT 5.A01",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "string-quartet",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 13,
-   "notes": "Four-part sinfonia (Allegro assai, Andante assai, Menuet); also played by string orchestra",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Plain galant part-writing; violin 1 about ABRSM 6",
-   "hardest_part_guess": "violin 1",
-   "imslpPage": "Sinfonia in A major, GT 5.A01 (Tartini, Giuseppe)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Bärenreiter, Hortus Musicus 53, ed. Hans Erdmann, 1950",
-    "recorded": "Brescia Orchestra, Francesco De Angelis, Fondazione Provincia di Brescia Eventi (Tartini: Violin Concertos and Symphonies, 2013)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Sinfonia_in_A_major,_GT_5.A01_(Tartini,_Giuseppe)",
-    "https://itunes.apple.com/lookup?id=742300183&entity=song"
-   ],
-   "confidence": "low"
   }
  ],
  "skipped": [
@@ -2918,6 +2881,14 @@
    "works": 1,
    "reason": "out of scope: scoring unconfirmed",
    "evidence": "No score on IMSLP, only a 1959 Harmonia Mundi LP transfer; IMSLP's tagging is a guess; no modern edition found"
+  },
+  {
+   "composer": "Tartini, Giuseppe",
+   "title": "Sinfonia in A major, GT 5.A01",
+   "imslpPage": "Sinfonia in A major, GT 5.A01 (Tartini, Giuseppe)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -2953,12 +2924,12 @@
   {
    "name": "Tartini, Giuseppe",
    "candidates": 9,
-   "kept": 15,
-   "skipped": 7,
+   "kept": 14,
+   "skipped": 8,
    "added_not_on_imslp": 12,
    "coverage": "partial",
    "note": "Trio sonatas (Grove: about 40) checked against three trio-sonata albums: 14 recorded ones found, 2 from IMSLP pages and 12 added (Brainard letters as printed by Tactus; Brilliant prints the same codes without 'B.'). Unidentified IMSLP collections skipped and may overlap the additions. Sinfonias in D (GT 5.D01, recorded by Collegium Academicum de Genève 2025) and B-flat are on IMSLP but not in the census input: not added. L'arte dell'arco and the violin sonatas are duos."
   }
  ],
- "note": "All four composers are in the violin catalogue, so no authors are listed. Open points: (1) Albinoni's Balletti a cinque and Tartini's Sinfonia in A are four- and five-part ensemble works recorded by small orchestras; kept as chamber works one to a part, the owner may prefer to drop them. (2) Albinoni's Op. 2 Sinfonie a cinque (six sonatas without soloist; census: string orchestra) are recorded by Ensemble 415 and Insieme Strumentale di Roma and could be treated like the Balletti a cinque. (3) Albinoni Op. 8: the Ferrarini (Arte Sonora) volumes are the only recording found; vol. 2's track titles are garbled (keys and numbering inferred from the Wikipedia list), and the players were not checked (Ferrarini is a flautist). (4) Tartini trio sonatas added with imslpPage null may duplicate the unidentified IMSLP collections (12 Trio Sonatas, 2 Trio Sonatas, 3 Trio Sonatas, Op. 8). (5) IMSLP dates Leonarda's Op. 16 1683; the print is 1693."
+ "note": "All four composers are in the violin catalogue, so no authors are listed. Open points: (1) Albinoni's Balletti a cinque and Tartini's Sinfonia in A are four- and five-part ensemble works recorded by small orchestras; kept as chamber works one to a part, the owner may prefer to drop them. (2) Albinoni's Op. 2 Sinfonie a cinque (six sonatas without soloist; census: string orchestra) are recorded by Ensemble 415 and Insieme Strumentale di Roma and could be treated like the Balletti a cinque. (3) Albinoni Op. 8: the Ferrarini (Arte Sonora) volumes are the only recording found; vol. 2's track titles are garbled (keys and numbering inferred from the Wikipedia list), and the players were not checked (Ferrarini is a flautist). (4) Tartini trio sonatas added with imslpPage null may duplicate the unidentified IMSLP collections (12 Trio Sonatas, 2 Trio Sonatas, 3 Trio Sonatas, Op. 8). (5) IMSLP dates Leonarda's Op. 16 1683; the print is 1693. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Tartini: Sinfonia in A major, GT 5.A01."
 }

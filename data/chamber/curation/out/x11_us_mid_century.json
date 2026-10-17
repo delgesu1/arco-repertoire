@@ -1198,46 +1198,6 @@
   },
   {
    "composer": "Schuman, William",
-   "title": "Amaryllis (Variations for String Trio)",
-   "aka": [
-    "Amaryllis Variations for String Trio",
-    "Amaryllis: Variations on an Old English Round"
-   ],
-   "instruments": {
-    "violin": 1,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "string-trio",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1964",
-   "minutes": null,
-   "notes": "Variations on an old English round; the same material became the orchestral Amaryllis of 1976",
-   "popularity": "lesser-known",
-   "level_guess": 6,
-   "level_basis": "Variations of moderate technique; each part exposed",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Theodore Presser",
-    "recorded": "No commercial recording found; published by Theodore Presser; premiered 31 Oct 1964 by the New York String Trio in Washington (retailer listing)",
-    "performed": "Premiere by the New York String Trio, Washington, 31 October 1964"
-   },
-   "sources": [
-    "https://en.wikipedia.org/wiki/William_Schuman"
-   ],
-   "confidence": "low",
-   "gap": true
-  },
-  {
-   "composer": "Schuman, William",
    "title": "In Sweet Music",
    "aka": [
     "In Sweet Music: Serenade on a Setting of Shakespeare"
@@ -2059,46 +2019,6 @@
     "https://www.deezer.com/album/586177352"
    ],
    "confidence": "medium",
-   "gap": true
-  },
-  {
-   "composer": "Persichetti, Vincent",
-   "title": "Piano Quintet, Op. 66",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "cello": 1,
-    "piano": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 5,
-   "formation": "piano-quintet",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1954",
-   "minutes": 23,
-   "notes": "Published by Theodore Presser; recorded in 1979 with Persichetti at the piano",
-   "popularity": "lesser-known",
-   "level_guess": 8,
-   "level_basis": "Piano part of concerto difficulty; strings near diploma level",
-   "hardest_part_guess": "piano",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Theodore Presser",
-    "recorded": "New Art String Quartet with Vincent Persichetti, piano, Arizona State University release JMP-102679 (1979; library record); Presser lists 23 minutes",
-    "performed": ""
-   },
-   "sources": [
-    "https://en.wikipedia.org/wiki/Vincent_Persichetti",
-    "https://keep.lib.asu.edu/items/7803",
-    "https://www.sheetmusicplus.com/en/product/quintet-1823407.html"
-   ],
-   "confidence": "low",
    "gap": true
   },
   {
@@ -2938,44 +2858,6 @@
    ],
    "confidence": "high",
    "gap": true
-  },
-  {
-   "composer": "Menotti, Gian Carlo",
-   "title": "Suite for Two Cellos and Piano",
-   "aka": [],
-   "instruments": {
-    "cello": 2,
-    "piano": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "piano-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1973",
-   "minutes": null,
-   "notes": "For two cellos and piano",
-   "popularity": "lesser-known",
-   "level_guess": 6,
-   "level_basis": "Two cello parts and piano at about ABRSM 8",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Michelle Beauchesne, McCusic Records 'Dolce' (Deezer 1045048, 2009): the album lists a track 'Suite for Two Cellos, Arioso' and MusicBrainz links the recording to Menotti's Suite; complete recording unconfirmed",
-    "performed": ""
-   },
-   "sources": [
-    "https://en.wikipedia.org/wiki/Gian_Carlo_Menotti",
-    "https://www.deezer.com/album/1045048",
-    "https://musicbrainz.org/artist/f1b60091-96a3-49d5-a2c9-563a24ea8840/works"
-   ],
-   "confidence": "low",
-   "gap": true
   }
  ],
  "skipped": [
@@ -3242,6 +3124,30 @@
    "works": 5,
    "reason": "out of scope: orchestra, chorus or string orchestra",
    "evidence": "Wikipedia work list"
+  },
+  {
+   "composer": "Schuman, William",
+   "title": "Amaryllis (Variations for String Trio)",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Persichetti, Vincent",
+   "title": "Piano Quintet, Op. 66",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Menotti, Gian Carlo",
+   "title": "Suite for Two Cellos and Piano",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -3288,9 +3194,9 @@
    "candidates": 0,
    "coverage": "partial",
    "note": "Quartets 2 to 5 (Lydian Quartet, Harmonia Mundi, and a 1953 Juilliard LP), Amaryllis (low confidence: score and premiere only) and In Sweet Music kept. Quartet No. 4 rests on a 1953 Juilliard LP found through a web search (medium confidence).",
-   "kept": 6,
-   "skipped": 7,
-   "added_not_on_imslp": 6
+   "kept": 5,
+   "skipped": 8,
+   "added_not_on_imslp": 5
   },
   {
    "name": "Diamond, David",
@@ -3306,9 +3212,9 @@
    "candidates": 0,
    "coverage": "partial",
    "note": "The four quartets are recorded complete (Lydian Quartet, Centaur); the Piano Quintet rests on a 1979 university recording (low confidence). Four other works with strings (Wikipedia's selected-works list) have no recording found. Movement counts in notes are from the Lydian track listing only where marked; check before use.",
-   "kept": 5,
-   "skipped": 4,
-   "added_not_on_imslp": 5
+   "kept": 4,
+   "skipped": 5,
+   "added_not_on_imslp": 4
   },
   {
    "name": "Harris, Roy",
@@ -3396,10 +3302,10 @@
    "candidates": 0,
    "coverage": "complete",
    "note": "Trio, Cantilena e Scherzo, Nocturne and the Suite for Two Cellos kept. The Suite is at low confidence: the only recording found is a cellist's album that names one movement.",
-   "kept": 4,
-   "skipped": 6,
-   "added_not_on_imslp": 4
+   "kept": 3,
+   "skipped": 7,
+   "added_not_on_imslp": 3
   }
  ],
- "note": "EVIDENCE: Wikipedia work lists and the Wikipedia articles on Piston's quartets (their discographies), Deezer album track lists (label, year, timings; album ids in sources), Apple lookups, MusicBrainz work and recording lists (Piston, Hanson, Creston, Menotti, Walker), the IMSLP API for the four candidate pages, the Lydian Quartet page for Schuman's Harmonia Mundi disc, and ten web searches whose summaries I relied on for Schuman's Quartet No. 4, Persichetti's Piano Quintet, Amaryllis, Still's Danzas and the Piston disc. Naxos Music Library was not used; Presto and one retailer page were blocked (403). VIOLIN CATALOGUE: the input held no violin entries, so no violin_id. BENCHMARKS: Barber's Quartet Op. 11 and Dover Beach are reported unchanged (aka copied from works.json); no issues. OWNER MAY RULE: (1) Low confidence: Schuman's Amaryllis (Presser score and 1964 premiere from a retailer listing, no recording found), Persichetti's Piano Quintet (Presser score; a 1979 Arizona State University recording with the composer at the piano) and Menotti's Suite for Two Cellos and Piano (only a cellist's album that names one movement). Medium: Copland's Movement for String Quartet, Bernstein's Music for String Quartet, Schuman's Quartet No. 4 (1953 Juilliard LP), Creston's Quartet Op. 8 (MusicBrainz release only), Walker's Quartet No. 2 and Modus, Still's Danzas de Panama, Persichetti's Quartets 3 and 4. (2) Kay's IMSLP quartet is skipped: no recording or documented performance found (no other Kay chamber work confirmed). (3) Blank years or durations where unconfirmed: Walker Quartet No. 2 and Modus (year); Piston Quartets 2 and 4, Schuman Quartet No. 4, Creston Quartet Op. 8, Danzas de Panama, Amaryllis, In Sweet Music, Menotti's Suite (minutes). Vitebsk is dated 1928-29 because sources differ. (4) Voice works kept under the vocal rule: Barber's Dover Beach (benchmark), Thomson's Stabat Mater, Schuman's In Sweet Music, Menotti's Nocturne. (5) Out: Piston's Concerto for String Quartet, Wind Instruments and Percussion (recorded with orchestral winds) and Walker's Poem (soprano, seven instruments and percussion). Walker's Lyric for Strings (quartet version) is the slow movement of his Quartet No. 1, so it is not a separate entry. NOT CHECKED FOR PERFORMANCES (published or listed but no recording found, so skipped as not performed or recorded; concert performances were not searched and some may pass the floor): Piston Three Counterpoints, Partita for violin, viola and organ, Souvenirs; Persichetti Serenades 3 and 6, Parable XXIII, Concertato; Diamond Piano Quartet, String Trio, Nonet for strings; Harris Concerto for String Quartet, Piano and Clarinet; Hanson Elegy for viola and string quartet and the early Quintet; Mennin Quartet No. 1; Creston Partita and Suite; Barber's Commemorative March; Menotti's Pastoral and Dance; Thomson's Campion songs (recorded scoring unconfirmed). Levels are researcher estimates; movement counts in notes come from track listings or Wikipedia. The ten Diamond quartets share one source set (the Potomac Quartet cycle on Albany, reissued by Steven Honigberg in 2023)."
+ "note": "EVIDENCE: Wikipedia work lists and the Wikipedia articles on Piston's quartets (their discographies), Deezer album track lists (label, year, timings; album ids in sources), Apple lookups, MusicBrainz work and recording lists (Piston, Hanson, Creston, Menotti, Walker), the IMSLP API for the four candidate pages, the Lydian Quartet page for Schuman's Harmonia Mundi disc, and ten web searches whose summaries I relied on for Schuman's Quartet No. 4, Persichetti's Piano Quintet, Amaryllis, Still's Danzas and the Piston disc. Naxos Music Library was not used; Presto and one retailer page were blocked (403). VIOLIN CATALOGUE: the input held no violin entries, so no violin_id. BENCHMARKS: Barber's Quartet Op. 11 and Dover Beach are reported unchanged (aka copied from works.json); no issues. OWNER MAY RULE: (1) Low confidence: Schuman's Amaryllis (Presser score and 1964 premiere from a retailer listing, no recording found), Persichetti's Piano Quintet (Presser score; a 1979 Arizona State University recording with the composer at the piano) and Menotti's Suite for Two Cellos and Piano (only a cellist's album that names one movement). Medium: Copland's Movement for String Quartet, Bernstein's Music for String Quartet, Schuman's Quartet No. 4 (1953 Juilliard LP), Creston's Quartet Op. 8 (MusicBrainz release only), Walker's Quartet No. 2 and Modus, Still's Danzas de Panama, Persichetti's Quartets 3 and 4. (2) Kay's IMSLP quartet is skipped: no recording or documented performance found (no other Kay chamber work confirmed). (3) Blank years or durations where unconfirmed: Walker Quartet No. 2 and Modus (year); Piston Quartets 2 and 4, Schuman Quartet No. 4, Creston Quartet Op. 8, Danzas de Panama, Amaryllis, In Sweet Music, Menotti's Suite (minutes). Vitebsk is dated 1928-29 because sources differ. (4) Voice works kept under the vocal rule: Barber's Dover Beach (benchmark), Thomson's Stabat Mater, Schuman's In Sweet Music, Menotti's Nocturne. (5) Out: Piston's Concerto for String Quartet, Wind Instruments and Percussion (recorded with orchestral winds) and Walker's Poem (soprano, seven instruments and percussion). Walker's Lyric for Strings (quartet version) is the slow movement of his Quartet No. 1, so it is not a separate entry. NOT CHECKED FOR PERFORMANCES (published or listed but no recording found, so skipped as not performed or recorded; concert performances were not searched and some may pass the floor): Piston Three Counterpoints, Partita for violin, viola and organ, Souvenirs; Persichetti Serenades 3 and 6, Parable XXIII, Concertato; Diamond Piano Quartet, String Trio, Nonet for strings; Harris Concerto for String Quartet, Piano and Clarinet; Hanson Elegy for viola and string quartet and the early Quintet; Mennin Quartet No. 1; Creston Partita and Suite; Barber's Commemorative March; Menotti's Pastoral and Dance; Thomson's Campion songs (recorded scoring unconfirmed). Levels are researcher estimates; movement counts in notes come from track listings or Wikipedia. The ten Diamond quartets share one source set (the Potomac Quartet cycle on Albany, reissued by Steven Honigberg in 2023). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 3 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Schuman: Amaryllis (Variations for String Trio); Persichetti: Piano Quintet, Op. 66; Menotti: Suite for Two Cellos and Piano."
 }

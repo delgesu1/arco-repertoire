@@ -2416,48 +2416,6 @@
   },
   {
    "composer": "Desyatnikov, Leonid",
-   "title": "Sketches to Sunset (version for flute, clarinet, violin, double bass and piano)",
-   "aka": [],
-   "instruments": {
-    "flute": 1,
-    "clarinet": 1,
-    "violin": 1,
-    "double-bass": 1,
-    "piano": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 5,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1996",
-   "minutes": 18,
-   "notes": "Chamber version of the nine-movement Sketches to Sunset (orchestral version 1992)",
-   "popularity": "lesser-known",
-   "level_guess": 7,
-   "level_basis": "Nine short movements in mixed styles; lively ensemble writing, exposed violin and bass",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Ekaterina Gofman et al., Baltic Music (Leonid Desyatnikov: Sketches to Sunset, 2020; the 18-minute track is not confirmed as the quintet version)",
-    "performed": ""
-   },
-   "sources": [
-    "https://en.wikipedia.org/wiki/Leonid_Desyatnikov",
-    "https://ru.wikipedia.org/wiki/Десятников,_Леонид_Аркадьевич",
-    "https://www.deezer.com/album/194789262",
-    "https://www.deezer.com/album/587754192"
-   ],
-   "confidence": "low",
-   "gap": true
-  },
-  {
-   "composer": "Desyatnikov, Leonid",
    "title": "Return",
    "aka": [
     "Vozvrashchenie",
@@ -3276,6 +3234,14 @@
    "works": 1,
    "reason": "not performed or recorded",
    "evidence": "Lepo Sumera: Kammermusik (Antes Edition 2008) holds duos for cello or violin with guitar, solo pieces and works for saxophone quartet; Musica tenera and the rest are for chamber orchestra"
+  },
+  {
+   "composer": "Desyatnikov, Leonid",
+   "title": "Sketches to Sunset (version for flute, clarinet, violin, double bass and piano)",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -3374,9 +3340,9 @@
   {
    "name": "Desyatnikov, Leonid",
    "candidates": 0,
-   "kept": 2,
-   "skipped": 6,
-   "added_not_on_imslp": 2,
+   "kept": 1,
+   "skipped": 7,
+   "added_not_on_imslp": 1,
    "coverage": "partial",
    "note": "No IMSLP pages; not in the violin catalogue (authors entry added). Two chamber works kept; Sketches to Sunset is weak (low confidence)."
   },
@@ -3417,5 +3383,5 @@
    "note": "No chamber work for 3-9 players with strings found recorded (searched Deezer, Apple composerTerm, MusicBrainz, Wikipedia en/et); none kept."
   }
  ],
- "note": "EVIDENCE: Deezer album and track lists (labels, years, timings; album ids in sources) are the main recording evidence, with MusicBrainz work-to-recording-to-release lookups (labels and catalogue numbers for Pärt, Tüür, Vasks, Tubin), Apple composerTerm searches (Raskatov, Skoryk, Sumera, Desyatnikov, Firsova, Mansurian) and Wikipedia work lists (en, ru) for the work lists; the Universal Edition composer page answered 404 and Schott 403, so publisher pages were seen only through web searches (UE and the Pärt Centre for Silouan's Song, Missa brevis and the Mozart-Adagio clarinet edition; Boosey for Akhmatova Songs; Louth CMS and Gramophone for Monk's Music). VIOLIN CATALOGUE: none of the 12 violin entries is cross-listed. 46 (Pärt, Darf ich…), 363 (Vasks), 512 (Pärt, Tabula rasa), 4571, 4574, 4579 (Kancheli), 4777 (Raskatov) and 4913, 4916 (Tavener) are for strings or string orchestra; 465 (Górecki) and 4967 (Vasks) are duos; 4962 (Tüür, Conversio II, violin and percussion duo) has no recording or publication of the chamber scoring found. OWNER MAY RULE: (1) the nine Pärt versions for eight cellos (Fratres, Summa, Psalom, Pari intervallo, Silouan's Song, Missa brevis, Da pacem Domine, O-Antiphonen, Solfeggio) are kept as the composer's own versions: UE and the Pärt Centre say he rewrote Silouan's Song and Missa brevis for the Cello Octet Amsterdam; for the others the evidence is the Wikipedia list (versions of 2008-2012 under Pärt) and the Cello Octet Amsterdam discs, and Fratres for eight cellos rests on the Telarc and Brilliant discs; (2) voice-with-ensemble works kept under the vocal rule: Pärt's Stabat Mater, Silvestrov's Postludium DSCH, Tavener's The World and Akhmatova Songs, Raskatov's Prayer (Kaddish) and Monk's Music (bass and string quartet); (3) Pärt's Mozart-Adagio for clarinet, cello and piano is kept as the composer's own version (UE 38019; IRCAM dates it 2017, commissioned by Patrick Messina) although no source calls it his arrangement; Górecki's Five Kurpian Songs for string quartet, Vasks's Lonely Angel for piano trio and Skoryk's Melody for string quartet are skipped as arrangements whose arrangers no source names. WEAK SPOTS: Desyatnikov's Sketches to Sunset (the 18-minute track on the 2020 disc is not confirmed as the quintet version; confidence low); Tavener's The World and Diódia carry no composition date; Auerbach's String Quartet No. 3 rests on MusicBrainz and Wikipedia's discography (Capriccio 2006); Firsova's quartets Nos. 3 and 10 and her Marsyas Trio works rest on Wikipedia's discography (Lydian Quartet, Brodsky Quartet, Meridian CDE 84635), and her other quartets, the Piano Quintet and the Clarinet Quintet were skipped as unrecorded on that evidence alone; Kancheli's In l'istesso tempo is entered as a piano quartet (violin, viola, cello, piano assumed); Silvestrov's Piano Quintet and Postludium DSCH rest on one recording each. NOT CHECKED (budget): Tavener's Many Years; Tubin's Elegy; Kancheli's Magnum Ignotum; Desyatnikov's The Leaden Echo; Auerbach's Postscriptum. NO CHAMBER WORK FOUND RECORDED: Skoryk, Sumera. SOURCES: Wikipedia and MusicBrainz artist pages stand for the work lists and release data read through their APIs; Deezer album pages (https://www.deezer.com/album/<id>) were read through the Deezer API. LEVELS: Pärt's cello-octet and string-quartet pieces follow the benchmarks Summa (3) and Fratres (4); other levels are estimates from the recorded durations and idiom and have not been checked against scores."
+ "note": "EVIDENCE: Deezer album and track lists (labels, years, timings; album ids in sources) are the main recording evidence, with MusicBrainz work-to-recording-to-release lookups (labels and catalogue numbers for Pärt, Tüür, Vasks, Tubin), Apple composerTerm searches (Raskatov, Skoryk, Sumera, Desyatnikov, Firsova, Mansurian) and Wikipedia work lists (en, ru) for the work lists; the Universal Edition composer page answered 404 and Schott 403, so publisher pages were seen only through web searches (UE and the Pärt Centre for Silouan's Song, Missa brevis and the Mozart-Adagio clarinet edition; Boosey for Akhmatova Songs; Louth CMS and Gramophone for Monk's Music). VIOLIN CATALOGUE: none of the 12 violin entries is cross-listed. 46 (Pärt, Darf ich…), 363 (Vasks), 512 (Pärt, Tabula rasa), 4571, 4574, 4579 (Kancheli), 4777 (Raskatov) and 4913, 4916 (Tavener) are for strings or string orchestra; 465 (Górecki) and 4967 (Vasks) are duos; 4962 (Tüür, Conversio II, violin and percussion duo) has no recording or publication of the chamber scoring found. OWNER MAY RULE: (1) the nine Pärt versions for eight cellos (Fratres, Summa, Psalom, Pari intervallo, Silouan's Song, Missa brevis, Da pacem Domine, O-Antiphonen, Solfeggio) are kept as the composer's own versions: UE and the Pärt Centre say he rewrote Silouan's Song and Missa brevis for the Cello Octet Amsterdam; for the others the evidence is the Wikipedia list (versions of 2008-2012 under Pärt) and the Cello Octet Amsterdam discs, and Fratres for eight cellos rests on the Telarc and Brilliant discs; (2) voice-with-ensemble works kept under the vocal rule: Pärt's Stabat Mater, Silvestrov's Postludium DSCH, Tavener's The World and Akhmatova Songs, Raskatov's Prayer (Kaddish) and Monk's Music (bass and string quartet); (3) Pärt's Mozart-Adagio for clarinet, cello and piano is kept as the composer's own version (UE 38019; IRCAM dates it 2017, commissioned by Patrick Messina) although no source calls it his arrangement; Górecki's Five Kurpian Songs for string quartet, Vasks's Lonely Angel for piano trio and Skoryk's Melody for string quartet are skipped as arrangements whose arrangers no source names. WEAK SPOTS: Desyatnikov's Sketches to Sunset (the 18-minute track on the 2020 disc is not confirmed as the quintet version; confidence low); Tavener's The World and Diódia carry no composition date; Auerbach's String Quartet No. 3 rests on MusicBrainz and Wikipedia's discography (Capriccio 2006); Firsova's quartets Nos. 3 and 10 and her Marsyas Trio works rest on Wikipedia's discography (Lydian Quartet, Brodsky Quartet, Meridian CDE 84635), and her other quartets, the Piano Quintet and the Clarinet Quintet were skipped as unrecorded on that evidence alone; Kancheli's In l'istesso tempo is entered as a piano quartet (violin, viola, cello, piano assumed); Silvestrov's Piano Quintet and Postludium DSCH rest on one recording each. NOT CHECKED (budget): Tavener's Many Years; Tubin's Elegy; Kancheli's Magnum Ignotum; Desyatnikov's The Leaden Echo; Auerbach's Postscriptum. NO CHAMBER WORK FOUND RECORDED: Skoryk, Sumera. SOURCES: Wikipedia and MusicBrainz artist pages stand for the work lists and release data read through their APIs; Deezer album pages (https://www.deezer.com/album/<id>) were read through the Deezer API. LEVELS: Pärt's cello-octet and string-quartet pieces follow the benchmarks Summa (3) and Fratres (4); other levels are estimates from the recorded durations and idiom and have not been checked against scores. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Desyatnikov: Sketches to Sunset (version for flute, clarinet, violin, double bass and piano)."
 }

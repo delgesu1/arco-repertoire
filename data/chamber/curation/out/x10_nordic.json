@@ -3106,48 +3106,6 @@
    "gap": true
   },
   {
-   "composer": "Rautavaara, Einojuhani",
-   "title": "Eingang",
-   "aka": [
-    "Entrance"
-   ],
-   "instruments": {
-    "voice": 1,
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 5,
-   "formation": "other",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "2009",
-   "minutes": null,
-   "notes": "Song for soprano and string quartet",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Slow, lyrical quartet accompaniment; the demand is balance with the voice",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Piia Komsi, Proprius PRCD 2070 (Solaris (Solace in Song), 2012)",
-    "performed": ""
-   },
-   "sources": [
-    "https://en.wikipedia.org/wiki/List_of_compositions_by_Einojuhani_Rautavaara",
-    "https://musicbrainz.org/artist/bb94bbf5-b2b3-4a5a-bcab-7ba8b60cccea",
-    "https://musicbrainz.org/release/c9007908-4798-4284-b333-12e4edf2aaef"
-   ],
-   "confidence": "low",
-   "gap": true
-  },
-  {
    "composer": "Kokkonen, Joonas",
    "title": "String Quartet No. 1",
    "aka": [],
@@ -4001,51 +3959,6 @@
    "gap": true
   },
   {
-   "composer": "Lindberg, Magnus",
-   "title": "Duo concertante",
-   "aka": [],
-   "instruments": {
-    "clarinet": 1,
-    "cello": 1,
-    "flute": 1,
-    "percussion": 1,
-    "harp": 1,
-    "guitar": 1,
-    "viola": 1,
-    "double-bass": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 8,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1992",
-   "minutes": 13,
-   "notes": "Clarinet and cello soloists with six players: flute, vibraphone, harp, guitar, viola and double bass",
-   "popularity": "lesser-known",
-   "level_guess": 8,
-   "level_basis": "Two virtuoso soloists and six independent parts; ensemble balance",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Accord 465 308-2 (UR / Corrente / Duo Concertante / Joy, 1994)",
-    "performed": ""
-   },
-   "sources": [
-    "https://en.wikipedia.org/wiki/Magnus_Lindberg",
-    "https://musicbrainz.org/artist/ca23d6ea-6e57-4636-b285-4dd35fc354d3",
-    "https://musicbrainz.org/release/fd335347-067a-4229-9001-fdb7fea51d88",
-    "https://core.musicfinland.fi/works/duo-concertante-e64b176b-46c2-4721-a4c7-43cdf9078687"
-   ],
-   "confidence": "low",
-   "gap": true
-  },
-  {
    "composer": "Salonen, Esa-Pekka",
    "title": "Homunculus",
    "aka": [],
@@ -4685,50 +4598,6 @@
    ],
    "confidence": "medium",
    "gap": true
-  },
-  {
-   "composer": "Thorvaldsdottir, Anna",
-   "title": "Ró",
-   "aka": [
-    "Rest"
-   ],
-   "instruments": {
-    "flute": 1,
-    "bass-clarinet": 1,
-    "percussion": 1,
-    "piano": 1,
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 8,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "2013",
-   "minutes": 11,
-   "notes": "Eight players: bass flute, bass clarinet, percussion, piano, two violins, viola and cello",
-   "popularity": "lesser-known",
-   "level_guess": 7,
-   "level_basis": "Eight parts with slow, layered textures; ensemble balance",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Caput Ensemble, Aerial (2014; remastered 2022)",
-    "performed": ""
-   },
-   "sources": [
-    "https://en.wikipedia.org/wiki/Anna_Thorvaldsdottir",
-    "https://itunes.apple.com/search?term=Anna+Thorvaldsdottir&media=music&entity=song&attribute=composerTerm&limit=50"
-   ],
-   "confidence": "low",
-   "gap": true
   }
  ],
  "skipped": [
@@ -5139,6 +5008,30 @@
    "works": 4,
    "reason": "out of scope: more than nine players or no string part",
    "evidence": "Wikipedia list scorings"
+  },
+  {
+   "composer": "Rautavaara, Einojuhani",
+   "title": "Eingang",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Lindberg, Magnus",
+   "title": "Duo concertante",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Thorvaldsdottir, Anna",
+   "title": "Ró",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -5192,9 +5085,9 @@
   {
    "name": "Rautavaara, Einojuhani",
    "candidates": 0,
-   "kept": 5,
-   "skipped": 10,
-   "added_not_on_imslp": 5,
+   "kept": 4,
+   "skipped": 11,
+   "added_not_on_imslp": 4,
    "coverage": "partial",
    "note": "No IMSLP pages. SQ 1, 2, 4 and the first quintet are recorded; Eingang is a vocal chamber song kept at low confidence. None of the violin-catalogue entries (all with piano, orchestra or a violin-cello duo) is in scope."
   },
@@ -5228,9 +5121,9 @@
   {
    "name": "Lindberg, Magnus",
    "candidates": 0,
-   "kept": 4,
-   "skipped": 19,
-   "added_not_on_imslp": 4,
+   "kept": 3,
+   "skipped": 20,
+   "added_not_on_imslp": 3,
    "coverage": "partial",
    "note": "No IMSLP pages. Four recorded chamber works kept (the Duo concertante at low confidence, scoring from a Music Finland page seen in a search). The Wikipedia list shows no string quartets; Fennica Gehrman and Wise Music catalogues were not opened."
   },
@@ -5273,12 +5166,12 @@
   {
    "name": "Thorvaldsdottir, Anna",
    "candidates": 0,
-   "kept": 3,
-   "skipped": 10,
-   "added_not_on_imslp": 3,
+   "kept": 2,
+   "skipped": 11,
+   "added_not_on_imslp": 2,
    "coverage": "partial",
    "note": "No IMSLP pages. Enigma, Spectra and Ró are recorded (Spectra and Ró found through Apple; their scorings come from the Wikipedia list). Her own site could not be read (it answered with the domain name only)."
   }
  ],
- "note": "EVIDENCE: the slice has no IMSLP candidates (all 15 composers are modern), so every entry is a gap-check addition. Work lists come from the Wikipedia lists (en; da and sv for Abrahamsen, Hillborg, Pettersson) and from the discs found through Deezer (album pages with labels and timings), MusicBrainz (work to recording to release lookups, with catalogue numbers), Apple composerTerm searches and eight web searches (scorings of Ruders's Serenade, Abrahamsen's Nocturnes, Rautavaara's quintet, Lindberg's Duo concertante, Holmboe's chamber discs). Publisher catalogues (Wise Music, Fennica Gehrman, Edition S) and the composers' own sites could not be read, so floor.published is empty throughout; Anna Thorvaldsdottir's site answered with nothing. VIOLIN CATALOGUE: none of the eight entries is cross-listed. 417 (Aho), 479 (Holmboe, Sværm Op. 190a), 513 (Pettersson), 533 and 4823 (Saariaho) are for two violins, 4206 (Aho, ER-OS) is a violin-clarinet duo, 4827 (Saariaho, Graal théâtre for violin and ensemble) needs about 17 players. 478 (Holmboe, Isomeric, 2 violins and piano) is in scope by scoring, but no recording or performance was found, so it is skipped; the string-quartet version Sværm Op. 190b is kept without violin_id. OWNER MAY RULE: (1) Pettersson's Concerto No. 1 for violin and string quartet is listed as a solo showpiece with quartet accompaniment (formation other, soloist counted as a third violin). (2) Holmboe's String Quartet No. 21 was left unfinished in 1996 and completed by Per Nørgård; kept as recorded. (3) Low-confidence entries: Rautavaara's Eingang (soprano and string quartet), Lindberg's Duo concertante (scoring from a Music Finland page seen in a search), Thorvaldsdottir's Ró (scoring from Wikipedia, recording seen in an Apple search), Nordgren's Equivocations (kantele listed as harp). (4) Electronics count as no player (Saariaho's Nymphéa, Aer, Lichtbogen; Nørgård's Quartet No. 4 with tape). (5) Saariaho's Neiges is recorded only for 12 cellos, so the 8-cello version is skipped. (6) Arrangements by an unnamed arranger are skipped: Nørgård's Spell for piano trio and Abrahamsen's Traumlieder (the Six Pieces for piano trio). OPEN PROBLEMS: Holmboe's Quartet No. 3 is Op. 48 on MusicBrainz and the Nightingale discs but Op. 49 on the Kontra set (Op. 48 used). Sallinen's Quartet No. 1 is Op. 2 in the Wikipedia list but Op. 14 on the Ondine track list, so its title has no opus. The durations of Lindberg's Clarinet Quintet, Nordgren's Quartet No. 3 (taken from Apple) and Rautavaara's Eingang are weak or missing. Recorded but not kept because the scoring could not be confirmed: Thorvaldsdottir's In the Light of Air and Illumine, Salonen's Mania, Ruders's Nightshade pieces, Nørgård's Cao Shu and Babette's Feast suite. Works with no recording found (checked on Deezer, MusicBrainz and Apple only, so 'none found' is weak for the little-known ones): Holmboe's Isomeric and Tropos, Rautavaara's Quartet No. 3, Aho's Quartets 4 and 5 and his string quintets, Nordgren's Quartets 1, 2 and 6-9, Ruders's Quartet No. 4, Lindberg's Quintetto dell'estate and UR. Levels are estimates against the Nielsen, Rosenberg and Langgaard quartets in other slices."
+ "note": "EVIDENCE: the slice has no IMSLP candidates (all 15 composers are modern), so every entry is a gap-check addition. Work lists come from the Wikipedia lists (en; da and sv for Abrahamsen, Hillborg, Pettersson) and from the discs found through Deezer (album pages with labels and timings), MusicBrainz (work to recording to release lookups, with catalogue numbers), Apple composerTerm searches and eight web searches (scorings of Ruders's Serenade, Abrahamsen's Nocturnes, Rautavaara's quintet, Lindberg's Duo concertante, Holmboe's chamber discs). Publisher catalogues (Wise Music, Fennica Gehrman, Edition S) and the composers' own sites could not be read, so floor.published is empty throughout; Anna Thorvaldsdottir's site answered with nothing. VIOLIN CATALOGUE: none of the eight entries is cross-listed. 417 (Aho), 479 (Holmboe, Sværm Op. 190a), 513 (Pettersson), 533 and 4823 (Saariaho) are for two violins, 4206 (Aho, ER-OS) is a violin-clarinet duo, 4827 (Saariaho, Graal théâtre for violin and ensemble) needs about 17 players. 478 (Holmboe, Isomeric, 2 violins and piano) is in scope by scoring, but no recording or performance was found, so it is skipped; the string-quartet version Sværm Op. 190b is kept without violin_id. OWNER MAY RULE: (1) Pettersson's Concerto No. 1 for violin and string quartet is listed as a solo showpiece with quartet accompaniment (formation other, soloist counted as a third violin). (2) Holmboe's String Quartet No. 21 was left unfinished in 1996 and completed by Per Nørgård; kept as recorded. (3) Low-confidence entries: Rautavaara's Eingang (soprano and string quartet), Lindberg's Duo concertante (scoring from a Music Finland page seen in a search), Thorvaldsdottir's Ró (scoring from Wikipedia, recording seen in an Apple search), Nordgren's Equivocations (kantele listed as harp). (4) Electronics count as no player (Saariaho's Nymphéa, Aer, Lichtbogen; Nørgård's Quartet No. 4 with tape). (5) Saariaho's Neiges is recorded only for 12 cellos, so the 8-cello version is skipped. (6) Arrangements by an unnamed arranger are skipped: Nørgård's Spell for piano trio and Abrahamsen's Traumlieder (the Six Pieces for piano trio). OPEN PROBLEMS: Holmboe's Quartet No. 3 is Op. 48 on MusicBrainz and the Nightingale discs but Op. 49 on the Kontra set (Op. 48 used). Sallinen's Quartet No. 1 is Op. 2 in the Wikipedia list but Op. 14 on the Ondine track list, so its title has no opus. The durations of Lindberg's Clarinet Quintet, Nordgren's Quartet No. 3 (taken from Apple) and Rautavaara's Eingang are weak or missing. Recorded but not kept because the scoring could not be confirmed: Thorvaldsdottir's In the Light of Air and Illumine, Salonen's Mania, Ruders's Nightshade pieces, Nørgård's Cao Shu and Babette's Feast suite. Works with no recording found (checked on Deezer, MusicBrainz and Apple only, so 'none found' is weak for the little-known ones): Holmboe's Isomeric and Tropos, Rautavaara's Quartet No. 3, Aho's Quartets 4 and 5 and his string quintets, Nordgren's Quartets 1, 2 and 6-9, Ruders's Quartet No. 4, Lindberg's Quintetto dell'estate and UR. Levels are estimates against the Nielsen, Rosenberg and Langgaard quartets in other slices. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 3 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Rautavaara: Eingang; Lindberg: Duo concertante; Thorvaldsdottir: Ró."
 }

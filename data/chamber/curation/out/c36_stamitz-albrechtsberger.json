@@ -955,46 +955,6 @@
    ],
    "confidence": "medium",
    "gap": true
-  },
-  {
-   "composer": "Albrechtsberger, Johann Georg",
-   "title": "Sonata in D minor",
-   "aka": [
-    "Sonata per due violini, due viole, due violoncelli in D minor"
-   ],
-   "instruments": {
-    "violin": 2,
-    "viola": 2,
-    "cello": 2
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 6,
-   "formation": "large-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 7,
-   "notes": "Two movements, Adagio and fugue; the second cello part is a violone on the recording",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Short prelude and six-part fugue; parts about ABRSM 6, the voices must stay even",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Ensemble baroque de Limoges, Christophe Coin (cello), Laborie LC08 (BnF; LC24508 in the Quatuor Mosaïques discography on Wikipedia), \"Entre ciel et terre\", recorded 2009, released 2011; players per part not confirmed",
-    "performed": ""
-   },
-   "sources": [
-    "https://mag.highresaudio.com/album/view/pdugre/ensemble-baroque-de-limoges-christophe-coin-entre-ciel-et-terre",
-    "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.anywhere%20all%20%22Albrechtsberger%20Entre%20ciel%20et%20terre%22"
-   ],
-   "confidence": "low",
-   "gap": true
   }
  ],
  "skipped": [
@@ -1181,6 +1141,14 @@
    "works": 1,
    "reason": "not performed or recorded",
    "evidence": "3 violins, viola, cello; two movements; Bureau d'Arts et d'Industrie plate 173 (1798) and DTÖ 33 (Kapp, 1909); no recording found"
+  },
+  {
+   "composer": "Albrechtsberger, Johann Georg",
+   "title": "Sonata in D minor",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -1198,12 +1166,12 @@
   {
    "name": "Albrechtsberger, Johann Georg",
    "candidates": 14,
-   "kept": 23,
-   "skipped": 12,
-   "added_not_on_imslp": 13,
+   "kept": 22,
+   "skipped": 13,
+   "added_not_on_imslp": 12,
    "coverage": "partial",
    "note": "Floor from Apple Music, BnF, MusicWeb and the Hungaroton booklets HCD 32647 and 32653. Thirteen works added that IMSLP lacks (Op. 7 Nos. 4-6; six pieces of Hungaroton HCD 32647; four pieces of Laborie \"Entre ciel et terre\"). No Weinmann thematic catalogue online, so the gap check rests on recordings and the de.wikipedia list."
   }
  ],
- "note": "Stamitz: only Op. 1 No. 2 has a one-to-a-part recording (Der Musikalische Garten, ARS38185); Op. 4 Nos. 3 and 5 are on a Camerata Berolinensis disc whose size I could not find (string-orchestra question). Albrechtsberger: kept Op. 9 Nos. 1-3 (Belvedere Trio Wien, Hungaroton HCD 32109; No. 1 also Dresden Philharmonic String Trio, Genuin), the Divertimento in F for violin, cello and bass (Hungaroton) and Op. 21 Nos. 1-6, which the Authentic Quartet recorded as 'Op. 16' (the HCD 32653 booklet gives the keys and says the set was published as Op. 21). Gap check, works IMSLP lacks: Op. 7 Nos. 4-6 (Hungaroton HCD 32495; Nos. 1-3 may be the DTÖ quartets in D, A and F, unconfirmed); six chamber pieces with flute on Hungaroton HCD 32647 (scorings from the booklet; the Divertimento in C and the Notturno are described only as 'flute quartet', read as flute, violin, viola, cello); four pieces on Laborie 'Entre ciel et terre' (Quatuor Mosaïques, Ensemble baroque de Limoges/C. Coin): two string trios, a divertimento for viola, cello and violone, and a D-minor sextet sonata whose players per part are not confirmed (low confidence; it may be one of the Op. 13 sextets). Not added: the Jew's-harp concerto and the Sonata II a due cori on the Laborie disc (Jew's harp not in the vocabulary; scoring of the double-choir sonata unknown); the Sonata in C 'pro festo Paschalis' (HCD 32653; church sonata with harpsichord continuo, scoring beyond the continuo not found); the Concertino a 5 in E-flat (original for trumpet and strings, Argo/Wilbraham; the 2008 Talitman version for flute, violin, viola, cello and harp looks like an arrangement); the Divertimento in D for two violas and double bass (named in the de.wikipedia list; no recording found). Quatuor Rincontro (Zig-Zag ZZT 091003) also plays an 'Adagio et fugue op. 24 no 4', not matched to any IMSLP page. Levels are estimates from style and recording timings; no scores were read."
+ "note": "Stamitz: only Op. 1 No. 2 has a one-to-a-part recording (Der Musikalische Garten, ARS38185); Op. 4 Nos. 3 and 5 are on a Camerata Berolinensis disc whose size I could not find (string-orchestra question). Albrechtsberger: kept Op. 9 Nos. 1-3 (Belvedere Trio Wien, Hungaroton HCD 32109; No. 1 also Dresden Philharmonic String Trio, Genuin), the Divertimento in F for violin, cello and bass (Hungaroton) and Op. 21 Nos. 1-6, which the Authentic Quartet recorded as 'Op. 16' (the HCD 32653 booklet gives the keys and says the set was published as Op. 21). Gap check, works IMSLP lacks: Op. 7 Nos. 4-6 (Hungaroton HCD 32495; Nos. 1-3 may be the DTÖ quartets in D, A and F, unconfirmed); six chamber pieces with flute on Hungaroton HCD 32647 (scorings from the booklet; the Divertimento in C and the Notturno are described only as 'flute quartet', read as flute, violin, viola, cello); four pieces on Laborie 'Entre ciel et terre' (Quatuor Mosaïques, Ensemble baroque de Limoges/C. Coin): two string trios, a divertimento for viola, cello and violone, and a D-minor sextet sonata whose players per part are not confirmed (low confidence; it may be one of the Op. 13 sextets). Not added: the Jew's-harp concerto and the Sonata II a due cori on the Laborie disc (Jew's harp not in the vocabulary; scoring of the double-choir sonata unknown); the Sonata in C 'pro festo Paschalis' (HCD 32653; church sonata with harpsichord continuo, scoring beyond the continuo not found); the Concertino a 5 in E-flat (original for trumpet and strings, Argo/Wilbraham; the 2008 Talitman version for flute, violin, viola, cello and harp looks like an arrangement); the Divertimento in D for two violas and double bass (named in the de.wikipedia list; no recording found). Quatuor Rincontro (Zig-Zag ZZT 091003) also plays an 'Adagio et fugue op. 24 no 4', not matched to any IMSLP page. Levels are estimates from style and recording timings; no scores were read. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Albrechtsberger: Sonata in D minor."
 }

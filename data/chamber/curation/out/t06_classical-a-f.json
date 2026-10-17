@@ -2871,46 +2871,6 @@
   },
   {
    "composer": "Bortniansky, Dmytro",
-   "title": "Sinfonia Concertante in B-flat major",
-   "aka": [],
-   "instruments": {
-    "piano": 1,
-    "harp": 1,
-    "violin": 2,
-    "viola-da-gamba": 1,
-    "cello": 1,
-    "bassoon": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 7,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1790",
-   "minutes": 17,
-   "notes": "For fortepiano, harp, bassoon, two violins, viola da gamba and cello; three movements",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Concertante writing for seven soloists; harp and keyboard about ABRSM 7-8",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Sinfonia Concertante in B-flat major (Bortniansky, Dmytro)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Melodiya (2017 re-release), Bortniansky: Sinfonia Concertante & Quintet; also Pratum Integrum Orchestra, Caro Mitis CM 0052003 (2005), Bortnyansky: The Russian Album",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Sinfonia_Concertante_in_B-flat_major_(Bortniansky,_Dmytro)",
-    "https://www.deezer.com/album/150000772"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Bortniansky, Dmytro",
    "title": "Quintet in C major",
    "aka": [
     "Piano Quintet in C major",
@@ -2995,47 +2955,6 @@
    "confidence": "medium"
   },
   {
-   "composer": "Abela, Placido",
-   "title": "Armonia in F major",
-   "aka": [
-    "Concerto for Cello, Piano and Harmonium in F major",
-    "Armonia per Piano-forte, Fisarmonico con Violoncello"
-   ],
-   "instruments": {
-    "cello": 1,
-    "piano": 1,
-    "harmonium": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "other",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1875",
-   "minutes": null,
-   "notes": "Monk-composer's piece for cello, piano and harmonium; manuscript from Montecassino Abbey",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Modest monastery trio; cello solo about ABRSM 7, keyboards easier",
-   "hardest_part_guess": "cello",
-   "imslpPage": "Concerto for Cello, Piano and Harmonium in F major (Abela, Placido)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Matteo Malagoli (cello), Lisa De Polo (piano), Alvise Mason (harmonium), Brilliant Classics 96713 (2022), The Cello at the Montecassino Abbey: two tracks 'Concerto armónico' (about 14 and 6 minutes); the booklet does not say which manuscript is which",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Concerto_for_Cello,_Piano_and_Harmonium_in_F_major_(Abela,_Placido)",
-    "https://brilliantclassics.com/articles/t/the-cello-at-the-montecassino-abbey",
-    "https://itunes.apple.com/lookup?id=1666220705&entity=song"
-   ],
-   "confidence": "low"
-  },
-  {
    "composer": "Bochsa, Charles",
    "title": "Oboe Quartet No. 2 in D minor",
    "aka": [],
@@ -3115,46 +3034,6 @@
     "https://www.deezer.com/album/552574002"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Asplmayr, Franz",
-   "title": "Trio moderne No. 1, Op. 3",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "continuo": 1
-   },
-   "alternatives": {
-    "violin": [
-     "viola-da-gamba"
-    ]
-   },
-   "optional": {},
-   "players": 3,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": "Six Trios modernes, Op. 3",
-   "year": "",
-   "minutes": 8,
-   "notes": "Two violins (or pardessus de viole) and bass in three movements; the disc plays it on pardessus de viole",
-   "popularity": "lesser-known",
-   "level_guess": 2,
-   "level_basis": "Simple early-Classical trio; about ABRSM 5-6",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "6 String Trios, Op.3 (Asplmayr, Franz)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Catacoustic Consort (own label, 2014), Secret of the Muse: Six Trio Modernes ... avec la basse, No. 1, on two pardessus de viole",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/6_String_Trios,_Op.3_(Asplmayr,_Franz)",
-    "https://itunes.apple.com/lookup?id=895265303&entity=song"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Brandl, Johann Evangelist",
@@ -4517,6 +4396,30 @@
    "works": 5,
    "reason": "not performed or recorded (composer triage)",
    "evidence": "MusicBrainz and Apple list piano sonatas, a keyboard concerto and a symphony, no piano quartet or trio; no recording of the candidate pages found"
+  },
+  {
+   "composer": "Bortniansky, Dmytro",
+   "title": "Sinfonia Concertante in B-flat major",
+   "imslpPage": "Sinfonia Concertante in B-flat major (Bortniansky, Dmytro)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Abela, Placido",
+   "title": "Armonia in F major",
+   "imslpPage": "Concerto for Cello, Piano and Harmonium in F major (Abela, Placido)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Asplmayr, Franz",
+   "title": "Trio moderne No. 1, Op. 3",
+   "imslpPage": "6 String Trios, Op.3 (Asplmayr, Franz)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -4525,8 +4428,8 @@
   {
    "name": "Abela, Placido",
    "candidates": 2,
-   "kept": 2,
-   "skipped": 0,
+   "kept": 1,
+   "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "Found through Apple's composerTerm search. Brilliant Classics' 2022 set has two 'Concerto armónico' tracks for the cello, piano and harmonium trio (booklet: Abela wrote his concerti armonici for this trio); the two IMSLP pages (G minor 1871, F major 1875) are the only such works on IMSLP, but the booklet does not say which manuscript is which, so the F-major entry is low confidence (its own title is 'Armonia'). Durations (14 and 6 min) cannot be assigned, so minutes are blank. Era set to early-romantic by date (the slice lists him as classical); the booklet calls him a monk from Siracusa."
@@ -4678,8 +4581,8 @@
   {
    "name": "Asplmayr, Franz",
    "candidates": 10,
-   "kept": 7,
-   "skipped": 8,
+   "kept": 6,
+   "skipped": 9,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "Op. 2 Nos. 1-6 are recorded complete (Eybler Quartet, keys match the IMSLP set page: G, D, F, E, C, E-flat); No. 2 uses the single-work page (first edition with figured bass), the other five the set page. Trio moderne No. 1 of Op. 3 is on the Catacoustic Consort's own-label disc (low confidence, key not given). Op. 5 trios, Op. 6 quartets, the three manuscript quartets and the Op. 1 serenades are not found recorded."
@@ -5056,8 +4959,8 @@
   {
    "name": "Bortniansky, Dmytro",
    "candidates": 1,
-   "kept": 2,
-   "skipped": 0,
+   "kept": 1,
+   "skipped": 1,
    "added_not_on_imslp": 1,
    "coverage": "complete",
    "note": "Both works are on Melodiya's disc (Deezer 150000772). Confidence is low for the Sinfonia Concertante because the track list does not give the line-up (one to a part is assumed from the chamber scoring on IMSLP); the Quintet has its own IMSLP page (Piano Quintet in C major) outside the census candidates, hence gap. Web listings confirm both scorings (the Sinfonia is a septet for fortepiano, harp, two violins, viola da gamba, bassoon and cello); the Czech 'Russian Album' disc plays the Sinfonia with the Moscow Chamber Orchestra, i.e. perhaps not one to a part. The Russian Compact Disc release names the Quintet's keyboards as harpsichord and piano and omits the harp."
@@ -5216,5 +5119,5 @@
    "note": "MusicBrainz and Apple list piano sonatas, a keyboard concerto and a symphony, no piano quartet or trio; no recording of the candidate pages found"
   }
  ],
- "note": "METHOD (about 75 tool calls, 3 WebSearch, 3 WebFetch). One background script with three threads, every request through scripts/chamber/fetch_throttled.py, worked through the 77 composers: MusicBrainz (artist match on name and dates, then work?artist=<mbid>&inc=recording-rels), Deezer (album and track search on the name) and Apple's composerTerm song search for every composer without a chamber-titled Deezer hit. A second Apple pass covered the 16 composers whose first Apple search my script had skipped because Deezer showed a chamber-sounding title (duos, sonatas, symphonies): that shortcut was a mistake and found Bochsa, Böck and the Asplmayr trios. No lookup failed (no FetchError anywhere). The harness killed the first run of the script after 154 s (exit 144); it is resumable and was restarted under another name. Hits were confirmed with Deezer and Apple track lists, IMSLP api.php and three web searches (Abela, Anna Amalia, Bortniansky).\nRESULT: recordings of in-scope chamber works turned up for 13 of the 77 composers (81 works kept): Brunetti (47), André (6), Barbella (6), Asplmayr (7), Balbastre (4), Abela (2), Agus (2), Bortniansky (2) and one each for Antes, Anna Amalia of Brunswick-Wolfenbüttel, Bochsa (the father), Böck and Brandl. Of the other 64, 62 are 'none found', Bevilacqua is out of scope by scoring and Benincori is partial; for many only duos, solo sonatas, orchestral or vocal works exist (Amon, Bréval, Bruni, Berbiguier, Fodor, Auber, Adam ...); I counted duos as none. 'None found' is weak for common names (Adam, Arnold, Bauer, Berg, Bowie, Brand, Braun, Bury, Albanese ...) and for Bauerschmidt, Bury and Angkistro, whose first names IMSLP does not give.\nADDED, NOT ON IMSLP (32), from discs I opened: Brunetti's string quartets (18: Concerto 1700, Carmen Veneris, Cuarteto Trifolium, Schuppanzigh-Quartett), six trios for two violins and bass L. 109-114 (Exordium Musicae, SEdeM) and six bassoon quintets Op. 2 (Tactus); André's Piano Trio Op. 17 (eda records); Bortniansky's Quintet in C major (it has an IMSLP page outside the census candidates: gap = true). Brunetti's 15 string-trio divertimenti are matched to IMSLP's collection page '23 Divertissements' by scoring and count only (the page lists no L. numbers). Brunetti's L. numbers are the discs'; the CPO disc is cited with MusicBrainz's BruWV numbers; the opus numbers in the titles are only those the discs give (Op. 3 No. 6, Op. 2 Nos. 1, 3, 4; the other Op. 3 quartets carry the opus in the set only).\nWHERE THE BRIEF OR DATA FAILED: (1) Deezer's surname search is swamped by namesakes and foreign words (Antes), and Apple's composerTerm search is fuzzy: it also returns other composers' tracks from the same album, so an attribution needs a second source (Anna Amalia's Divertimento: confirmed on AllMusic/Radio Swiss Classic). (2) The brief does not say whether duos or sonatas with piano count as 'something turned up'; I counted them as none. (3) A print that names flutes first and violins as an alternative (Bevilacqua Op. 47: 2 flutes or 2 violins and guitar, recorded by Guitart 2023) has no string part in its first scoring; the census derived violins. I left it out as 'out of scope'. (4) Collection pages without keys or numbers (Brunetti 23 Divertissements, Böck Op. 6) cannot be matched reliably to a recording's numbering.\nSCOPE CALLS FOR THE OWNER: Böck's Op. 6 (2 horns and bass) is kept as one set at medium confidence: four pieces are on Pan Classics (double bass instead of cello), all ten only on the editor's own label (I Ching Music), which does not count alone. Low confidence, drop if unwanted: Asplmayr's Trio moderne No. 1 (Catacoustic Consort's own label, pardessus de viole), Abela's F-major piece (the booklet does not say which manuscript is which 'Concerto armónico'), Bortniansky's Sinfonia Concertante (a septet; the Czech 'Russian Album' disc plays it with the Moscow Chamber Orchestra). Self-released mandolin singles (Have Mandolin Will Travel: Bevilacqua Op. 47, Böcklin Op. 30) were ignored. The Agus's author dates come from MusicBrainz (1749-1798); Böck's are unknown.\nOPEN PROBLEMS: Benincori: Trio Arté (Gamma Musica 2014) record a three-movement G-minor trio (id IAB1) that could not be matched to an IMSLP page or a scoring, so no entry. Brunetti: further Carmen Veneris/Brilliant volumes may hold more trios and quartets, and the divertimenti L. 134, 135, 137-139, 141, 143, 144 are not on Deezer. Bruni's, Amon's and Bréval's quartets and trios, and Baillot's, are not recorded as far as MusicBrainz, Deezer and Apple show, but small-label discs may be missing."
+ "note": "METHOD (about 75 tool calls, 3 WebSearch, 3 WebFetch). One background script with three threads, every request through scripts/chamber/fetch_throttled.py, worked through the 77 composers: MusicBrainz (artist match on name and dates, then work?artist=<mbid>&inc=recording-rels), Deezer (album and track search on the name) and Apple's composerTerm song search for every composer without a chamber-titled Deezer hit. A second Apple pass covered the 16 composers whose first Apple search my script had skipped because Deezer showed a chamber-sounding title (duos, sonatas, symphonies): that shortcut was a mistake and found Bochsa, Böck and the Asplmayr trios. No lookup failed (no FetchError anywhere). The harness killed the first run of the script after 154 s (exit 144); it is resumable and was restarted under another name. Hits were confirmed with Deezer and Apple track lists, IMSLP api.php and three web searches (Abela, Anna Amalia, Bortniansky).\nRESULT: recordings of in-scope chamber works turned up for 13 of the 77 composers (81 works kept): Brunetti (47), André (6), Barbella (6), Asplmayr (7), Balbastre (4), Abela (2), Agus (2), Bortniansky (2) and one each for Antes, Anna Amalia of Brunswick-Wolfenbüttel, Bochsa (the father), Böck and Brandl. Of the other 64, 62 are 'none found', Bevilacqua is out of scope by scoring and Benincori is partial; for many only duos, solo sonatas, orchestral or vocal works exist (Amon, Bréval, Bruni, Berbiguier, Fodor, Auber, Adam ...); I counted duos as none. 'None found' is weak for common names (Adam, Arnold, Bauer, Berg, Bowie, Brand, Braun, Bury, Albanese ...) and for Bauerschmidt, Bury and Angkistro, whose first names IMSLP does not give.\nADDED, NOT ON IMSLP (32), from discs I opened: Brunetti's string quartets (18: Concerto 1700, Carmen Veneris, Cuarteto Trifolium, Schuppanzigh-Quartett), six trios for two violins and bass L. 109-114 (Exordium Musicae, SEdeM) and six bassoon quintets Op. 2 (Tactus); André's Piano Trio Op. 17 (eda records); Bortniansky's Quintet in C major (it has an IMSLP page outside the census candidates: gap = true). Brunetti's 15 string-trio divertimenti are matched to IMSLP's collection page '23 Divertissements' by scoring and count only (the page lists no L. numbers). Brunetti's L. numbers are the discs'; the CPO disc is cited with MusicBrainz's BruWV numbers; the opus numbers in the titles are only those the discs give (Op. 3 No. 6, Op. 2 Nos. 1, 3, 4; the other Op. 3 quartets carry the opus in the set only).\nWHERE THE BRIEF OR DATA FAILED: (1) Deezer's surname search is swamped by namesakes and foreign words (Antes), and Apple's composerTerm search is fuzzy: it also returns other composers' tracks from the same album, so an attribution needs a second source (Anna Amalia's Divertimento: confirmed on AllMusic/Radio Swiss Classic). (2) The brief does not say whether duos or sonatas with piano count as 'something turned up'; I counted them as none. (3) A print that names flutes first and violins as an alternative (Bevilacqua Op. 47: 2 flutes or 2 violins and guitar, recorded by Guitart 2023) has no string part in its first scoring; the census derived violins. I left it out as 'out of scope'. (4) Collection pages without keys or numbers (Brunetti 23 Divertissements, Böck Op. 6) cannot be matched reliably to a recording's numbering.\nSCOPE CALLS FOR THE OWNER: Böck's Op. 6 (2 horns and bass) is kept as one set at medium confidence: four pieces are on Pan Classics (double bass instead of cello), all ten only on the editor's own label (I Ching Music), which does not count alone. Low confidence, drop if unwanted: Asplmayr's Trio moderne No. 1 (Catacoustic Consort's own label, pardessus de viole), Abela's F-major piece (the booklet does not say which manuscript is which 'Concerto armónico'), Bortniansky's Sinfonia Concertante (a septet; the Czech 'Russian Album' disc plays it with the Moscow Chamber Orchestra). Self-released mandolin singles (Have Mandolin Will Travel: Bevilacqua Op. 47, Böcklin Op. 30) were ignored. The Agus's author dates come from MusicBrainz (1749-1798); Böck's are unknown.\nOPEN PROBLEMS: Benincori: Trio Arté (Gamma Musica 2014) record a three-movement G-minor trio (id IAB1) that could not be matched to an IMSLP page or a scoring, so no entry. Brunetti: further Carmen Veneris/Brilliant volumes may hold more trios and quartets, and the divertimenti L. 134, 135, 137-139, 141, 143, 144 are not on Deezer. Bruni's, Amon's and Bréval's quartets and trios, and Baillot's, are not recorded as far as MusicBrainz, Deezer and Apple show, but small-label discs may be missing. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 3 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Bortniansky: Sinfonia Concertante in B-flat major; Abela: Armonia in F major; Asplmayr: Trio moderne No. 1, Op. 3."
 }

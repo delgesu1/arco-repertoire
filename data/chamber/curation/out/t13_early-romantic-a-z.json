@@ -130,14 +130,6 @@
    "in_catalogue": false
   },
   {
-   "name": "Kurpiński, Karol",
-   "dates": "1785–1857",
-   "nationality": "Polish",
-   "gender": "M",
-   "era": "early-romantic",
-   "in_catalogue": false
-  },
-  {
    "name": "Limmer, Franz",
    "dates": "",
    "nationality": "",
@@ -395,44 +387,6 @@
    "confidence": "medium"
   },
   {
-   "composer": "Alyabyev, Aleksandr",
-   "title": "Piano Quintet in E-flat major",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "cello": 1,
-    "piano": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 5,
-   "formation": "piano-quintet",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "",
-   "minutes": 11,
-   "notes": "Single track of 11 minutes; played by Gilels with the Beethoven Quartet",
-   "popularity": "lesser-known",
-   "level_guess": 5,
-   "level_basis": "Piano about grade 8; strings modest",
-   "hardest_part_guess": "piano",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Emil Gilels and the Beethoven Quartet, Melodiya (reissued by Doremi 2017)",
-    "performed": ""
-   },
-   "sources": [
-    "https://www.deezer.com/album/580090811",
-    "https://musicbrainz.org/recording/15eaea9e-31fe-4734-a5ff-678dc9db71e1"
-   ],
-   "confidence": "low"
-  },
-  {
    "composer": "Arnold, Carl",
    "title": "Piano Sextet, Op. 23",
    "aka": [
@@ -676,45 +630,6 @@
     "https://musicbrainz.org/release/27d4b38e-4209-4463-b808-4a2d89810fe6"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Boëly, Alexandre-Pierre-François",
-   "title": "Adagio in E major",
-   "aka": [
-    "Mouvement pour quatuor en mi majeur"
-   ],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "string-quartet",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "1804",
-   "minutes": 8,
-   "notes": "Single slow movement for string quartet; recorded as 'Mouvement pour quatuor en mi majeur'",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Slow, sustained writing; the demand is blend and tone",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Adagio (Boëly, Alexandre-Pierre-François)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Quatuor Mosaïques, 'Musique de chambre', Laborie Records LC05 (2009); the match with the IMSLP page is inferred from key and length (8 and 7:47 minutes)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Adagio_(Boëly,_Alexandre-Pierre-François)",
-    "https://musicbrainz.org/release/27d4b38e-4209-4463-b808-4a2d89810fe6"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Bree, Johannes Bernardus van",
@@ -1714,43 +1629,6 @@
     "https://itunes.apple.com/lookup?id=1454689939&entity=song"
    ],
    "confidence": "high"
-  },
-  {
-   "composer": "Kurpiński, Karol",
-   "title": "Fantasy for String Quartet in C major",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "string-quartet",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "1825",
-   "minutes": 11,
-   "notes": "Single-movement fantasy; first recorded in 2017",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Moderate technique; violin 1 about ABRSM 7",
-   "hardest_part_guess": "violin 1",
-   "imslpPage": "Fantasy for String Quartet (Kurpiński, Karol)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Kwartet Wilanów, Acte Préalable (2017), world premiere recording",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Fantasy_for_String_Quartet_(Kurpiński,_Karol)",
-    "https://www.deezer.com/album/52728392"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Limmer, Franz",
@@ -6840,6 +6718,30 @@
    "works": 1,
    "reason": "not performed or recorded (composer triage)",
    "evidence": "MusicBrainz: no matching artist; Deezer: 11 album(s) with the surname, none a chamber disc of this composer; Apple composerTerm: 50 results, chamber-titled tracks not attributable to this composer (screened for the surname and the candidates' opus numbers)"
+  },
+  {
+   "composer": "Alyabyev, Aleksandr",
+   "title": "Piano Quintet in E-flat major",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Boëly, Alexandre-Pierre-François",
+   "title": "Adagio in E major",
+   "imslpPage": "Adagio (Boëly, Alexandre-Pierre-François)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Kurpiński, Karol",
+   "title": "Fantasy for String Quartet in C major",
+   "imslpPage": "Fantasy for String Quartet (Kurpiński, Karol)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -6866,8 +6768,8 @@
   {
    "name": "Alyabyev, Aleksandr",
    "candidates": 2,
-   "kept": 5,
-   "skipped": 0,
+   "kept": 4,
+   "skipped": 1,
    "added_not_on_imslp": 3,
    "coverage": "complete",
    "note": "Both IMSLP trios are recorded; the two string quartets and the piano quintet on the Melodiya/Doremi discs are not on IMSLP (added; scoring of the quintet inferred from the players)"
@@ -7001,8 +6903,8 @@
   {
    "name": "Boëly, Alexandre-Pierre-François",
    "candidates": 8,
-   "kept": 3,
-   "skipped": 6,
+   "kept": 2,
+   "skipped": 7,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Laborie LC05 (2009) opened through MusicBrainz; its sextet arrangement of a symphony (scoring not confirmed) and the cello-and-organ melodies are not added"
@@ -7694,8 +7596,8 @@
   {
    "name": "Kurpiński, Karol",
    "candidates": 1,
-   "kept": 1,
-   "skipped": 0,
+   "kept": 0,
+   "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "The disc has two C-major quartet fantasies (11:03 and 11:18), one by Kurpiński and one by Lessel; which is which was not confirmed"
@@ -8601,5 +8503,5 @@
    "note": "MusicBrainz: no matching artist; Deezer: 11 album(s) with the surname, none a chamber disc of this composer; Apple composerTerm: 50 results, chamber-titled tracks not attributable to this composer (screened for the surname and the candidates' opus numbers)"
   }
  ],
- "note": "METHOD (about 65 tool calls, 2 WebSearch). One background script queried all 195 composers: Deezer album search on 'Given Surname' and on the surname; MusicBrainz (artist match on name and dates, then every work with its linked recordings); and Apple's composerTerm song search for the 183 composers without a counting chamber hit on MusicBrainz or Deezer (the other 12 had a clearly in-scope hit; Apple's results never carry the composer, so they were screened by script for chamber-titled tracks that carry the composer's surname or a candidate's opus number, and the first chamber-titled collections of the rest were read by eye; a chamber piece on a mixed disc without either clue could be missed). About 40 extra Deezer searches with chamber words covered common surnames and composers with many pages (David, Hallé, Müller, Schmitt, Jansa, Aimon, Praeger …). Hits were opened through Deezer album and Apple lookup track lists, MusicBrainz recordings and one release, and IMSLP (api.php). No lookup failed; the script was killed once by the harness and restarted (answers are cached). RESULT: 32 composers had a commercial recording in scope: 79 works kept, 21 of them not on IMSLP; the other composers are 'triage: none found' and their pages are skipped as composer triage. 'None found' is weak where only a surname or initials could be searched (Lequint, Müller (three), Hermes, Ossaus, Sörgel, Keith) and for common surnames (Berger, Klein, Louis, Lucas, Roger, Walter, Braun, Stahl, Krug, Hesse, Schmitt, Schneider, Schubert, David). ADDED NOT ON IMSLP: Alyabyev's String Quartets Nos. 1 and 3 and Piano Quintet in E-flat (Melodiya, Doremi); Bertini's Nonet Op. 107 (IMSLP page outside the candidates, gap); Bomtempo's Piano Quintet Op. 16 (Toccata Next 2022); Corticelli's three Gran Trios and Pensieri di Bellini (Da Vinci Classics 2021); Dancla's Quatuor brillant No. 2 (naïve 2017); Dobrzyński's Souvenir de Dresde (Acte Préalable 2022); Fröhlich's quartets in E major and C minor (CPO 2016); Kreutzer's Trio Op. 9 No. 2; Loewe's Piano Trio Op. 12 (Christophorus 2011); Reber's Piano Trio No. 7; Späth's Op. 133; Backofen's Quintet Op. 9 (Analekta 2010); Wilms's Piano Quartet Op. 30 and Piano Trio Op. 4; Friedrich Schneider's Piano Trio Op. 38 (Genuin 2016, world premiere recording). LOW CONFIDENCE (the owner may drop them): Alyabyev's Piano Quintet (one 11-minute track; the scoring is inferred from the players); Boëly's Adagio (matched to 'Mouvement pour quatuor en mi majeur' by key and length) and String Trio Op. 5 No. 2 (players not named); Kurpiński's Fantasy (the disc has two C-major quartet fantasies, 11:03 and 11:18, one by Kurpiński and one by Lessel; which is which was not confirmed). MEDIUM: Kreutzer's trios (matched to Op. 9 by key only: IMSLP's pages carry no opus), Alyabyev's Piano Trio in E-flat (one recording credits an arrangement by Dobrokhotov), Bomtempo (attribution from Apple's metadata). SCOPE CALLS. Recordings that do not count: Blondeau (Ad Fontes: his arrangements of Beethoven's Op. 2 sonatas), Castil-Blaze and Gallay (bassoon and horn trios without strings), Grund (Op. 8 recorded as a wind quintet), Grandval (Navona's Grand Trio is for oboe, bassoon and piano), Corticelli's Terzetti (oboe, bassoon, piano), Kummer (cello and piano), Lütgen (pieces for horns), Neukomm's CPO disc (wind ensembles by IMSLP's scorings), Bohrer (MusicBrainz credits Pixis's Trio concertant to him), Rigel Henri-Jean (the ATMA Op. 10 quartets are Henri-Joseph's, slice c42). Dickhut's pieces (flute, guitar, viola, horn as the printed alternative) and Kreutzer's trios (flute, violin, guitar) are salon music that is on commercial discs, so they pass. KEY CONFLICTS: Bertini's Op. 43 (IMSLP and MusicBrainz A major, the CPO release A minor: no key in the title); Krogulski's Octet Op. 6 (IMSLP D major, both recordings D minor: D minor used). Pappalardo's Op. 4 is dated 1828 on IMSLP although he was born in 1817: year left blank. Hiller: only 3 of 16 pages are recorded. Wilms's Trio in D major, Op. 6 (flute and two players on MDG, scoring not confirmed) and Boëly's sextet arrangement of a symphony (scoring not confirmed) are not added. Donizetti's String Quintet: no recording found. No exclusion proposals (all composers are 19th-century)."
+ "note": "METHOD (about 65 tool calls, 2 WebSearch). One background script queried all 195 composers: Deezer album search on 'Given Surname' and on the surname; MusicBrainz (artist match on name and dates, then every work with its linked recordings); and Apple's composerTerm song search for the 183 composers without a counting chamber hit on MusicBrainz or Deezer (the other 12 had a clearly in-scope hit; Apple's results never carry the composer, so they were screened by script for chamber-titled tracks that carry the composer's surname or a candidate's opus number, and the first chamber-titled collections of the rest were read by eye; a chamber piece on a mixed disc without either clue could be missed). About 40 extra Deezer searches with chamber words covered common surnames and composers with many pages (David, Hallé, Müller, Schmitt, Jansa, Aimon, Praeger …). Hits were opened through Deezer album and Apple lookup track lists, MusicBrainz recordings and one release, and IMSLP (api.php). No lookup failed; the script was killed once by the harness and restarted (answers are cached). RESULT: 32 composers had a commercial recording in scope: 79 works kept, 21 of them not on IMSLP; the other composers are 'triage: none found' and their pages are skipped as composer triage. 'None found' is weak where only a surname or initials could be searched (Lequint, Müller (three), Hermes, Ossaus, Sörgel, Keith) and for common surnames (Berger, Klein, Louis, Lucas, Roger, Walter, Braun, Stahl, Krug, Hesse, Schmitt, Schneider, Schubert, David). ADDED NOT ON IMSLP: Alyabyev's String Quartets Nos. 1 and 3 and Piano Quintet in E-flat (Melodiya, Doremi); Bertini's Nonet Op. 107 (IMSLP page outside the candidates, gap); Bomtempo's Piano Quintet Op. 16 (Toccata Next 2022); Corticelli's three Gran Trios and Pensieri di Bellini (Da Vinci Classics 2021); Dancla's Quatuor brillant No. 2 (naïve 2017); Dobrzyński's Souvenir de Dresde (Acte Préalable 2022); Fröhlich's quartets in E major and C minor (CPO 2016); Kreutzer's Trio Op. 9 No. 2; Loewe's Piano Trio Op. 12 (Christophorus 2011); Reber's Piano Trio No. 7; Späth's Op. 133; Backofen's Quintet Op. 9 (Analekta 2010); Wilms's Piano Quartet Op. 30 and Piano Trio Op. 4; Friedrich Schneider's Piano Trio Op. 38 (Genuin 2016, world premiere recording). LOW CONFIDENCE (the owner may drop them): Alyabyev's Piano Quintet (one 11-minute track; the scoring is inferred from the players); Boëly's Adagio (matched to 'Mouvement pour quatuor en mi majeur' by key and length) and String Trio Op. 5 No. 2 (players not named); Kurpiński's Fantasy (the disc has two C-major quartet fantasies, 11:03 and 11:18, one by Kurpiński and one by Lessel; which is which was not confirmed). MEDIUM: Kreutzer's trios (matched to Op. 9 by key only: IMSLP's pages carry no opus), Alyabyev's Piano Trio in E-flat (one recording credits an arrangement by Dobrokhotov), Bomtempo (attribution from Apple's metadata). SCOPE CALLS. Recordings that do not count: Blondeau (Ad Fontes: his arrangements of Beethoven's Op. 2 sonatas), Castil-Blaze and Gallay (bassoon and horn trios without strings), Grund (Op. 8 recorded as a wind quintet), Grandval (Navona's Grand Trio is for oboe, bassoon and piano), Corticelli's Terzetti (oboe, bassoon, piano), Kummer (cello and piano), Lütgen (pieces for horns), Neukomm's CPO disc (wind ensembles by IMSLP's scorings), Bohrer (MusicBrainz credits Pixis's Trio concertant to him), Rigel Henri-Jean (the ATMA Op. 10 quartets are Henri-Joseph's, slice c42). Dickhut's pieces (flute, guitar, viola, horn as the printed alternative) and Kreutzer's trios (flute, violin, guitar) are salon music that is on commercial discs, so they pass. KEY CONFLICTS: Bertini's Op. 43 (IMSLP and MusicBrainz A major, the CPO release A minor: no key in the title); Krogulski's Octet Op. 6 (IMSLP D major, both recordings D minor: D minor used). Pappalardo's Op. 4 is dated 1828 on IMSLP although he was born in 1817: year left blank. Hiller: only 3 of 16 pages are recorded. Wilms's Trio in D major, Op. 6 (flute and two players on MDG, scoring not confirmed) and Boëly's sextet arrangement of a symphony (scoring not confirmed) are not added. Donizetti's String Quintet: no recording found. No exclusion proposals (all composers are 19th-century). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 3 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Alyabyev: Piano Quintet in E-flat major; Boëly: Adagio in E major; Kurpiński: Fantasy for String Quartet in C major."
 }

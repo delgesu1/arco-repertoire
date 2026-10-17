@@ -979,44 +979,6 @@
    ],
    "confidence": "medium",
    "gap": true
-  },
-  {
-   "composer": "Coprario, John",
-   "title": "Fantasia-Suite No. 7, RC 115",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola-da-gamba": 1,
-    "organ": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "other",
-   "formationNote": null,
-   "form": "work",
-   "set": "Eight Fantasia-Suites for Two Violins, Bass Viol and Organ",
-   "year": "",
-   "minutes": 7,
-   "notes": "Fancy, almain and galliard; key uncertain (recording: D major; Christ Church catalogue: D minor)",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Two moderate violin parts over bass viol and written-out organ, about level 3",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Leonhardt-Consort, English Consort and Keyboard Music (Dowland, Lawes, Cooper …), 'Fantasia-Suite in D major, RC 115' (6.7 min)",
-    "performed": ""
-   },
-   "sources": [
-    "https://library.chch.ox.ac.uk/music/microfilms.php?msid=2621",
-    "https://music.apple.com/us/album/1606203811"
-   ],
-   "confidence": "low",
-   "gap": true
   }
  ],
  "skipped": [
@@ -1499,6 +1461,14 @@
    "works": 1,
    "reason": "not performed or recorded",
    "evidence": "No commercial recording found: MusicBrainz (all 34 Coprario works with recordings), Apple Music track search for Coprario/Coperario and the composer credits of 20 albums of his consort music; IMSLP has only amateur WIMA/Folop typesettings. Textless villanelle; no edition beyond the Folop typesetting"
+  },
+  {
+   "composer": "Coprario, John",
+   "title": "Fantasia-Suite No. 7, RC 115",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -1507,12 +1477,12 @@
   {
    "name": "Coprario, John",
    "candidates": 83,
-   "kept": 24,
-   "skipped": 59,
-   "added_not_on_imslp": 3,
+   "kept": 23,
+   "skipped": 60,
+   "added_not_on_imslp": 2,
    "coverage": "complete",
    "note": "IMSLP spells him 'Coperario, John'; entries use the usual English spelling 'Coprario' (Grove, recordings). Gap check against Charteris's numbering via the Christ Church library catalogue and the Viola da Gamba Network list"
   }
  ],
- "note": "Kept only works whose recording I could tie to an RC number. Recorded but unmatched: Hathor Consort 'Fantasia No. 6' and 'Udite, lagrimosi spirti' (a 5); Private Musicke two fantasias a 4; Consort of Musicke a fantasia a 3, a 4, two 'Fantasia-Almand-Ayre' suites and three suites 'for 2 bass viols and organ'; Jacobean Ensemble/Thurston Dart suites Musica Britannica IX Nos. 98, 99 (one violin) and 102 (two violins). A booklet or the Charteris catalogue would let these be added. RC 101 and 104 numbers come from the Christ Church catalogue (VdGS 9 = RC 101, VdGS 12 = RC 104). RC 115: the Leonhardt recording says D major, Christ Church lists RC 115 in D minor and RC 116 in D major; the entry may be RC 116. Coprario's fantasia-suites are entered with organ as an obbligato part (formation 'other'): treating the organ as continuo would make the one-violin suites duos. The fantasia-suites recorded by Marq and Coolen use recorder for the violin part. Lyra-viol pieces kept as one set (Savall recorded six of eleven)."
+ "note": "Kept only works whose recording I could tie to an RC number. Recorded but unmatched: Hathor Consort 'Fantasia No. 6' and 'Udite, lagrimosi spirti' (a 5); Private Musicke two fantasias a 4; Consort of Musicke a fantasia a 3, a 4, two 'Fantasia-Almand-Ayre' suites and three suites 'for 2 bass viols and organ'; Jacobean Ensemble/Thurston Dart suites Musica Britannica IX Nos. 98, 99 (one violin) and 102 (two violins). A booklet or the Charteris catalogue would let these be added. RC 101 and 104 numbers come from the Christ Church catalogue (VdGS 9 = RC 101, VdGS 12 = RC 104). RC 115: the Leonhardt recording says D major, Christ Church lists RC 115 in D minor and RC 116 in D major; the entry may be RC 116. Coprario's fantasia-suites are entered with organ as an obbligato part (formation 'other'): treating the organ as continuo would make the one-violin suites duos. The fantasia-suites recorded by Marq and Coolen use recorder for the violin part. Lyra-viol pieces kept as one set (Savall recorded six of eleven). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Coprario: Fantasia-Suite No. 7, RC 115."
 }

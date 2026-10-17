@@ -2802,42 +2802,6 @@
   },
   {
    "composer": "Telemann, Georg Philipp",
-   "title": "Trio Sonata in G minor, TWV 42:g13",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": null,
-   "notes": "Two violins and continuo",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Between Corelli's Op. 1 (2) and Handel's Op. 5 (4); melody parts about ABRSM 6",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Trio Sonata, TWV 42:g13 (Telemann, Georg Philipp)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "MusicBrainz: 4 recording(s) linked to the work or its movements; performers not checked",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:g13_(Telemann,_Georg_Philipp)",
-    "https://musicbrainz.org/work/07ea32da-804f-4f59-920e-f55f3f67e04a"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Telemann, Georg Philipp",
    "title": "Trio Sonata in G minor, TWV 42:g15",
    "aka": [],
    "instruments": {
@@ -4372,43 +4336,6 @@
   },
   {
    "composer": "Telemann, Georg Philipp",
-   "title": "Concerto à 4 in E major, TWV 43:E2",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 9,
-   "notes": "Two violins, viola and continuo",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Concerto-style violin 1 about ABRSM 6; viola and continuo easy",
-   "hardest_part_guess": "violin 1",
-   "imslpPage": "Concerto à 4, TWV 43:E2 (Telemann, Georg Philipp)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Arion Orchestre Baroque & Alexander Weimann, \"Rebelles baroques\" (2017)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Concerto_%C3%A0_4,_TWV_43:E2_(Telemann,_Georg_Philipp)",
-    "https://itunes.apple.com/search?term=Telemann+TWV+43%3AE2&media=music&entity=song&limit=200"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Telemann, Georg Philipp",
    "title": "Concerto à 4 in E minor, TWV 43:e5",
    "aka": [],
    "instruments": {
@@ -4756,43 +4683,6 @@
     "https://musicbrainz.org/work/73d04c7c-35e6-4630-ad9c-e0c9cb4baf59"
    ],
    "confidence": "high"
-  },
-  {
-   "composer": "Telemann, Georg Philipp",
-   "title": "Quartet in B-flat major, TWV 43:B2",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": null,
-   "notes": "Two violins, viola and continuo",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Concerto-style violin 1 about ABRSM 6; viola and continuo easy",
-   "hardest_part_guess": "violin 1",
-   "imslpPage": "Quartetto, TWV 43:B2 (Telemann, Georg Philipp)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "MusicBrainz: 7 recording(s) linked to the work or its movements; performers not checked",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Quartetto,_TWV_43:B2_(Telemann,_Georg_Philipp)",
-    "https://musicbrainz.org/work/08e88967-c2b5-4de4-a1ce-644b125b3e39"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Telemann, Georg Philipp",
@@ -6484,6 +6374,30 @@
    "works": 6,
    "reason": "out of scope: duo (flute and obbligato harpsichord), as usually recorded",
    "evidence": "Collection of 12; kept the two suites recorded in the violin trio version (TWV 42:a3, d3); four concertos skipped on their own pages; for these six only duo or unconfirmed scorings found (Camerata Köln recorded all twelve)"
+  },
+  {
+   "composer": "Telemann, Georg Philipp",
+   "title": "Trio Sonata in G minor, TWV 42:g13",
+   "imslpPage": "Trio Sonata, TWV 42:g13 (Telemann, Georg Philipp)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Telemann, Georg Philipp",
+   "title": "Concerto à 4 in E major, TWV 43:E2",
+   "imslpPage": "Concerto à 4, TWV 43:E2 (Telemann, Georg Philipp)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Telemann, Georg Philipp",
+   "title": "Quartet in B-flat major, TWV 43:B2",
+   "imslpPage": "Quartetto, TWV 43:B2 (Telemann, Georg Philipp)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -6492,12 +6406,12 @@
   {
    "name": "Telemann, Georg Philipp",
    "candidates": 182,
-   "kept": 154,
-   "skipped": 47,
+   "kept": 151,
+   "skipped": 50,
    "added_not_on_imslp": 1,
    "coverage": "complete",
    "note": "All 182 candidate pages handled. Floor evidence from Apple Music track lists (iTunes Search API, one query per TWV number, 238 queries) and MusicBrainz; minutes are the median per-album total of matching tracks. Gap check against MusicBrainz's 5,251 Telemann works and all TWV 42-44 numbers seen on Apple Music: added the Concerto polonois TWV 43:B3; TWV 43:D7 (trumpet, 2 oboes), 42:c7, 42:e6, 42:a6, 42:F14, 42:C1 have no string part; 42:F15 (recorder, oboe or violin) left open."
   }
  ],
- "note": "Telemann, continuo and winds-with-strings formations: all 182 candidate pages handled. Floor evidence is Apple Music track metadata (iTunes Search API, one query per TWV number) and MusicBrainz (5,251 Telemann works browsed with recording links); track labels were filtered against collection names because some albums mislabel TWV numbers (Musica Ad Rhenum labels the Paris Quartets as TWV 43:e5, D6, A6, a5, G2; one \"Musique de table\" album as 43:A7 and 43:g3). Three works kept on MusicBrainz evidence alone (TWV 42:f2, 42:g13, 43:B2; low or medium confidence). Kept as chamber music, assuming one player to a part as Telemann's TWV 43/44 chamber categories imply: the Concerti à 4 for strings (some recorded only by small orchestras, e.g. TWV 43:E2 by Arion), the Concerti à 7 (TWV 44:41-43) and the Sinfonia spirituosa TWV 44:1 (optional trumpet). Open problems: (1) Six Concerts et six suites (1734): only the suites TWV 42:a3 and d3 are confirmed recorded in Telemann's alternative for flute, violin and continuo; the other ten (recorded complete by Camerata Köln, scoring unchecked) are skipped as duos. (2) Gap candidates not added because their scoring could not be confirmed: TWV 42:F7, F9, F16, G13, 43:C3, D8, F8 (all recorded). TWV 43:D7 is for trumpet, 2 oboes and continuo (no strings), 42:c7 is for recorder and oboe; 42:F15 is for recorder and oboe (or violin), recorded by Tripla Concordia with scoring unchecked. (3) Essercizii trios with obbligato harpsichord (TWV 42:G6) skipped as duos. (4) Durations are medians of per-album sums of matching tracks; single-track recordings left minutes empty. Levels are estimates calibrated on the Paris Quartet benchmark (5)."
+ "note": "Telemann, continuo and winds-with-strings formations: all 182 candidate pages handled. Floor evidence is Apple Music track metadata (iTunes Search API, one query per TWV number) and MusicBrainz (5,251 Telemann works browsed with recording links); track labels were filtered against collection names because some albums mislabel TWV numbers (Musica Ad Rhenum labels the Paris Quartets as TWV 43:e5, D6, A6, a5, G2; one \"Musique de table\" album as 43:A7 and 43:g3). Three works kept on MusicBrainz evidence alone (TWV 42:f2, 42:g13, 43:B2; low or medium confidence). Kept as chamber music, assuming one player to a part as Telemann's TWV 43/44 chamber categories imply: the Concerti à 4 for strings (some recorded only by small orchestras, e.g. TWV 43:E2 by Arion), the Concerti à 7 (TWV 44:41-43) and the Sinfonia spirituosa TWV 44:1 (optional trumpet). Open problems: (1) Six Concerts et six suites (1734): only the suites TWV 42:a3 and d3 are confirmed recorded in Telemann's alternative for flute, violin and continuo; the other ten (recorded complete by Camerata Köln, scoring unchecked) are skipped as duos. (2) Gap candidates not added because their scoring could not be confirmed: TWV 42:F7, F9, F16, G13, 43:C3, D8, F8 (all recorded). TWV 43:D7 is for trumpet, 2 oboes and continuo (no strings), 42:c7 is for recorder and oboe; 42:F15 is for recorder and oboe (or violin), recorded by Tripla Concordia with scoring unchecked. (3) Essercizii trios with obbligato harpsichord (TWV 42:G6) skipped as duos. (4) Durations are medians of per-album sums of matching tracks; single-track recordings left minutes empty. Levels are estimates calibrated on the Paris Quartet benchmark (5). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 3 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Telemann: Trio Sonata in G minor, TWV 42:g13; Telemann: Concerto à 4 in E major, TWV 43:E2; Telemann: Quartet in B-flat major, TWV 43:B2."
 }

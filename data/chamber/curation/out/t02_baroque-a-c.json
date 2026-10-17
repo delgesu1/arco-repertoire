@@ -10,14 +10,6 @@
    "in_catalogue": false
   },
   {
-   "name": "Albicastro, Henricus",
-   "dates": "c. 1660–1730",
-   "nationality": "Swiss",
-   "gender": "M",
-   "era": "baroque",
-   "in_catalogue": false
-  },
-  {
    "name": "Albrici, Vincenzo",
    "dates": "1631–1695",
    "nationality": "Italian",
@@ -2165,44 +2157,6 @@
   },
   {
    "composer": "Buonamente, Giovanni Battista",
-   "title": "Sonata quinta sopra Poi che noi rimena",
-   "aka": [
-    "Sonata V, Op. 11 No. 5"
-   ],
-   "instruments": {
-    "violin": 2,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "short",
-   "set": "Il quarto libro de varie sonate (1626)",
-   "year": "1626",
-   "minutes": 5,
-   "notes": "Sonata on the tune 'Poi che noi rimena' for two violins and continuo; Huggett's disc labels it Book 6, IMSLP Book 4",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Divisions on a popular tune in first to third position; a step above Corelli's Op. 1 (2)",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Sonata V sopra Poi che noi rimena (Buonamente, Giovanni Battista)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Venice: Alessandro Vincenti, 1626",
-    "recorded": "Monica Huggett, Buonamente: Balli, sonate & canzoni (Stradivarius, 2003): Sonata No. 5 'Poi che noi rimena'",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Sonata_V_sopra_Poi_che_noi_rimena_(Buonamente,_Giovanni_Battista)",
-    "https://www.deezer.com/album/580798111"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Buonamente, Giovanni Battista",
    "title": "Sonata prima à 3",
    "aka": [],
    "instruments": {
@@ -3612,43 +3566,6 @@
    "confidence": "medium"
   },
   {
-   "composer": "Albicastro, Henricus",
-   "title": "Trio Sonata No. 9 in D minor, Op. 3",
-   "aka": [],
-   "instruments": {
-    "violin": 1,
-    "cello": 1,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": "Twelve Trio Sonatas, Op. 3",
-   "year": "",
-   "minutes": null,
-   "notes": "Five movements, among them an allemande, a courante and a chaconne; violin, cello and continuo",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Dance-suite sonata for violin and cello in first to third position; a step above Corelli's Op. 1 (2)",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "12 Trio Sonatas, Op.3 (Albicastro, Henricus)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Daniel Deuter, Heike Johanna Lindner, Markus Märkl, Treasures: Chamber Music from the collection ... (2007, MusicBrainz); opus inferred from the violin-cello-keyboard forces",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/12_Trio_Sonatas,_Op.3_(Albicastro,_Henricus)",
-    "https://musicbrainz.org/work/cdb87bdb-28f0-4af2-9fdb-61d9023089b1"
-   ],
-   "confidence": "low"
-  },
-  {
    "composer": "Albrici, Vincenzo",
    "title": "Sonata à 5 in C major",
    "aka": [
@@ -3765,42 +3682,6 @@
     "https://music.apple.com/album/326679784"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Bertouch, Georg von",
-   "title": "Trio Sonata No. 7 in E minor",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": "Twenty-Four Trio Sonatas",
-   "year": "",
-   "minutes": 10,
-   "notes": "From the set of 24 in all modes, built on canons and fugues; the only source is a Copenhagen manuscript",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Canonic and fugal writing in first to third position, sectional movements; about ABRSM 7",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "24 Sonatas (Bertouch, Georg von)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Hovkapell, Nordic Baroque Music (live album, 2022)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/24_Sonatas_(Bertouch,_Georg_von)",
-    "https://music.apple.com/album/1660036516"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Bertouch, Georg von",
@@ -6597,6 +6478,30 @@
    "works": 3,
    "reason": "out of scope: duos",
    "evidence": "Op. 2 Nos. 1-3 are duo sonatas for flute or violin and continuo"
+  },
+  {
+   "composer": "Buonamente, Giovanni Battista",
+   "title": "Sonata quinta sopra Poi che noi rimena",
+   "imslpPage": "Sonata V sopra Poi che noi rimena (Buonamente, Giovanni Battista)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Albicastro, Henricus",
+   "title": "Trio Sonata No. 9 in D minor, Op. 3",
+   "imslpPage": "12 Trio Sonatas, Op.3 (Albicastro, Henricus)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Bertouch, Georg von",
+   "title": "Trio Sonata No. 7 in E minor",
+   "imslpPage": "24 Sonatas (Bertouch, Georg von)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -6650,8 +6555,8 @@
   {
    "name": "Albicastro, Henricus",
    "candidates": 3,
-   "kept": 1,
-   "skipped": 3,
+   "kept": 0,
+   "skipped": 4,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Op. 3 No. 9 recorded (opus inferred from the forces, low); Op. 7 concertos recorded by Collegium Marianum, not shown one to a part"
@@ -6911,8 +6816,8 @@
   {
    "name": "Bertouch, Georg von",
    "candidates": 1,
-   "kept": 5,
-   "skipped": 1,
+   "kept": 4,
+   "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Sonatas 7, 8, 10, 13 and 14 recorded (Hovkapell live; Dahl/Freithoff; Bergen Baroque; Trondheim Barokk); 19 others not found"
@@ -7100,8 +7005,8 @@
   {
    "name": "Buonamente, Giovanni Battista",
    "candidates": 11,
-   "kept": 6,
-   "skipped": 9,
+   "kept": 5,
+   "skipped": 10,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Ballo del Gran Duca, Sonata sopra Poi che noi rimena and four pieces of Book 6 matched to Monica Huggett's disc by title"
@@ -7224,5 +7129,5 @@
    "note": "The four trio sonatas of Op. 2 recorded by Ensemble Matís (2018); the three duos are out of scope"
   }
  ],
- "note": "METHOD: one background triage script (MusicBrainz and Deezer for 68 composers, then Apple's composerTerm song search for the composers both missed); MusicBrainz and Apple were skipped where Deezer showed a chamber-titled hit, so a supplementary MusicBrainz/Apple run covered 18 composers whose Deezer 'hit' was a namesake, and a last Apple pass covered Becker, Bertouch, Aubert, Aufschnaiter and Buffardin. No lookup failed. About 70 tool calls, 1 WebSearch. LESSON: Apple's composerTerm results rarely carry the composer in the track or album title, so a surname filter hides hits (Arnold, Böhm, Bertouch, Aufschnaiter, Campioni were found only by reading the results for chamber-titled tracks); the brief's triage should say so.\nHITS (113 works): Boyce (12 trio sonatas; Chandos and Hyperion), Becker (14 pieces of the 1674 print, 2 sonatas of 1668), Avitrano Op. 1 (10), Aldrovandini Op. 5 (10), Aufschnaiter Op. 4 (8), Bernardi Op. 2 (10, added, not on IMSLP), Buchner Op. 4 (10), Carolo (9), Buonamente (6), Bertouch (5), Campioni (2, The Vivaldi Project), Chéron Op. 2 (4 trios), Bononcini (2), Albrici (2), Heinrich and Johann Michael Bach (one each, Clematis/Ricercar 2026), Buffardin, Barbella, Böhm (viola d'amore trio), Albicastro Op. 3 No. 9 (low), Abel's Sonata sopra Cuccu (added).\nSCOPE CALLS: Carolo is known by one name only; the checker needs 'Surname, Given', so the works carry 'Carolo' (rename or drop). Boyce's single pages are filed as 2 violins and cello by the census; the 1747 print says bass for violoncello or harpsichord, so the entries are 2 violins and continuo. Aldrovandini Op. 5: IMSLP dates the print 1710, the recording's title says Bologna 1706; I used 1706. Avitrano's sonatas are 'a 4' on the recording (violone folded into continuo). Buchner: the Parnassi Musici disc credits the Bavarian Chamber Orchestra, so the four five-part sonatas (Nos. 19, 21-23) are skipped as string-orchestra question; the ten kept use small forces. Buonamente's Book 6 pieces are matched to Monica Huggett's track titles only, Sonata quinta 'Poi che noi rimena' is low (her disc says Book 6, IMSLP Book 4). Bertouch No. 7 rests on a live album (low). Bernardi's Op. 2 and Abel's Cuccu are added from discs; Cuccu's scoring (violin, viola da gamba, continuo) is from Stretta Music's edition. Böhm's trio is the Concerto in G (viola d'amore, oboe d'amore, bassoon); the oboe d'amore is entered as oboe.\nSTRING-ORCHESTRA QUESTION: Albicastro Op. 7 (12 concerti a quattro; Collegium Marianum, Pan Classics, complete), Bononcini Op. 3 No. 8 and No. 10 (sinfonias with trumpet: I Musici, ASMF/Marriner, La Follia), Beer's Concerto a 4 for horn and posthorn (Kammerorchester C. P. E. Bach, Haenchen), Aubert's Concert de simphonies Suite No. 5 (Collegium Musicum 90). No one-to-a-part recording found for any.\nUNMATCHED OR WEAK: Becker's D minor sonata and Sonata à 5 of 1668 (several recordings, no numbers); Deuter's Partiturbuch Ludwig disc (Accent 2012) records unnumbered 'Canzona a 4' and 'Ciaccona a 3' that may be Anonymous Nos. 71 and 63; Arnold's Op. 3 (capriccios, canzon, aria: Ars Antiqua Austria, Vita & Anima, Capella Ornamentata) cannot be matched to the pages; Camerloher Op. 2 No. 2 (Neue Freisinger Hofmusik, 2015, 'Kammerensemble'); Heinrich Bach's Sonata in F major (Clematis) and Bertouch's Suite for two violins (Trondheim Barokk) have no page here. OUT-OF-SCOPE PAGES WORTH A LOOK: Aufschnaiter 'Concors Discordia, Op.2' (serenades à 4 and à 5, L'Orfeo Barockorchester, CPO; Ars Antiqua Austria) and Bononcini '12 Sinfonie, Op.3'.\nWEAK 'none found' (namesakes or odd names): Bart, Beck, Bertram, Bianchi, Carusi, Anderssen, Bornong-Bros, Bononcini G. M., Cattaneo, Antonii. Anonymous: 24 distinctive titles searched on Deezer and 5 on Apple, nothing matched; pages known only by shelfmark cannot be searched. Levels: Corellian trio-sonata writing is graded 2-3 (benchmark Corelli Op. 1 No. 1 = 2); most entries are 3; years and minutes come from the discs and IMSLP. HAND EDIT (orchestrator, 2026-10-17): the single-name composer 'Carolo, (given name unknown)' is written 'Carolo' (owner's single-name rule)."
+ "note": "METHOD: one background triage script (MusicBrainz and Deezer for 68 composers, then Apple's composerTerm song search for the composers both missed); MusicBrainz and Apple were skipped where Deezer showed a chamber-titled hit, so a supplementary MusicBrainz/Apple run covered 18 composers whose Deezer 'hit' was a namesake, and a last Apple pass covered Becker, Bertouch, Aubert, Aufschnaiter and Buffardin. No lookup failed. About 70 tool calls, 1 WebSearch. LESSON: Apple's composerTerm results rarely carry the composer in the track or album title, so a surname filter hides hits (Arnold, Böhm, Bertouch, Aufschnaiter, Campioni were found only by reading the results for chamber-titled tracks); the brief's triage should say so.\nHITS (113 works): Boyce (12 trio sonatas; Chandos and Hyperion), Becker (14 pieces of the 1674 print, 2 sonatas of 1668), Avitrano Op. 1 (10), Aldrovandini Op. 5 (10), Aufschnaiter Op. 4 (8), Bernardi Op. 2 (10, added, not on IMSLP), Buchner Op. 4 (10), Carolo (9), Buonamente (6), Bertouch (5), Campioni (2, The Vivaldi Project), Chéron Op. 2 (4 trios), Bononcini (2), Albrici (2), Heinrich and Johann Michael Bach (one each, Clematis/Ricercar 2026), Buffardin, Barbella, Böhm (viola d'amore trio), Albicastro Op. 3 No. 9 (low), Abel's Sonata sopra Cuccu (added).\nSCOPE CALLS: Carolo is known by one name only; the checker needs 'Surname, Given', so the works carry 'Carolo' (rename or drop). Boyce's single pages are filed as 2 violins and cello by the census; the 1747 print says bass for violoncello or harpsichord, so the entries are 2 violins and continuo. Aldrovandini Op. 5: IMSLP dates the print 1710, the recording's title says Bologna 1706; I used 1706. Avitrano's sonatas are 'a 4' on the recording (violone folded into continuo). Buchner: the Parnassi Musici disc credits the Bavarian Chamber Orchestra, so the four five-part sonatas (Nos. 19, 21-23) are skipped as string-orchestra question; the ten kept use small forces. Buonamente's Book 6 pieces are matched to Monica Huggett's track titles only, Sonata quinta 'Poi che noi rimena' is low (her disc says Book 6, IMSLP Book 4). Bertouch No. 7 rests on a live album (low). Bernardi's Op. 2 and Abel's Cuccu are added from discs; Cuccu's scoring (violin, viola da gamba, continuo) is from Stretta Music's edition. Böhm's trio is the Concerto in G (viola d'amore, oboe d'amore, bassoon); the oboe d'amore is entered as oboe.\nSTRING-ORCHESTRA QUESTION: Albicastro Op. 7 (12 concerti a quattro; Collegium Marianum, Pan Classics, complete), Bononcini Op. 3 No. 8 and No. 10 (sinfonias with trumpet: I Musici, ASMF/Marriner, La Follia), Beer's Concerto a 4 for horn and posthorn (Kammerorchester C. P. E. Bach, Haenchen), Aubert's Concert de simphonies Suite No. 5 (Collegium Musicum 90). No one-to-a-part recording found for any.\nUNMATCHED OR WEAK: Becker's D minor sonata and Sonata à 5 of 1668 (several recordings, no numbers); Deuter's Partiturbuch Ludwig disc (Accent 2012) records unnumbered 'Canzona a 4' and 'Ciaccona a 3' that may be Anonymous Nos. 71 and 63; Arnold's Op. 3 (capriccios, canzon, aria: Ars Antiqua Austria, Vita & Anima, Capella Ornamentata) cannot be matched to the pages; Camerloher Op. 2 No. 2 (Neue Freisinger Hofmusik, 2015, 'Kammerensemble'); Heinrich Bach's Sonata in F major (Clematis) and Bertouch's Suite for two violins (Trondheim Barokk) have no page here. OUT-OF-SCOPE PAGES WORTH A LOOK: Aufschnaiter 'Concors Discordia, Op.2' (serenades à 4 and à 5, L'Orfeo Barockorchester, CPO; Ars Antiqua Austria) and Bononcini '12 Sinfonie, Op.3'.\nWEAK 'none found' (namesakes or odd names): Bart, Beck, Bertram, Bianchi, Carusi, Anderssen, Bornong-Bros, Bononcini G. M., Cattaneo, Antonii. Anonymous: 24 distinctive titles searched on Deezer and 5 on Apple, nothing matched; pages known only by shelfmark cannot be searched. Levels: Corellian trio-sonata writing is graded 2-3 (benchmark Corelli Op. 1 No. 1 = 2); most entries are 3; years and minutes come from the discs and IMSLP. HAND EDIT (orchestrator, 2026-10-17): the single-name composer 'Carolo, (given name unknown)' is written 'Carolo' (owner's single-name rule). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 3 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Buonamente: Sonata quinta sopra Poi che noi rimena; Albicastro: Trio Sonata No. 9 in D minor, Op. 3; Bertouch: Trio Sonata No. 7 in E minor."
 }

@@ -3715,47 +3715,6 @@
   },
   {
    "composer": "Rubinstein, Anton",
-   "title": "Piano Quartet in F major, Op. 55bis",
-   "aka": [
-    "Piano Quartet, Op. 55a"
-   ],
-   "instruments": {
-    "violin": 1,
-    "viola": 1,
-    "cello": 1,
-    "piano": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "piano-quartet",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1860",
-   "minutes": 37,
-   "notes": "String version of the wind quintet Op. 55, published together with it in 1860",
-   "popularity": "lesser-known",
-   "level_guess": 7,
-   "level_basis": "Piano at diploma level; strings about level 6",
-   "hardest_part_guess": "piano",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "1860",
-    "recorded": "Leslie Howard with Rita Manning, Morgan Goff and Justin Pearson, Hyperion CDA68018 (2014)",
-    "performed": ""
-   },
-   "sources": [
-    "https://musicbrainz.org/release/af2755a3-bf74-473c-a2fe-22dbd9264918",
-    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68018"
-   ],
-   "confidence": "low",
-   "gap": true
-  },
-  {
-   "composer": "Rubinstein, Anton",
    "title": "Piano Trio No. 2 in G minor, Op. 15 No. 2",
    "aka": [],
    "instruments": {
@@ -4258,6 +4217,14 @@
    "works": 2,
    "reason": "not performed or recorded",
    "evidence": "No recording found (as above); two quartets on the page"
+  },
+  {
+   "composer": "Rubinstein, Anton",
+   "title": "Piano Quartet in F major, Op. 55bis",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -4347,9 +4314,9 @@
   {
    "name": "Rubinstein, Anton",
    "candidates": 21,
-   "kept": 9,
-   "skipped": 12,
-   "added_not_on_imslp": 1,
+   "kept": 8,
+   "skipped": 13,
+   "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Recordings found for the Octet, Piano Quartet Op. 66, Piano Trio Op. 15 No. 2 and five of the ten quartets (Etcetera, cpo). Others not found recorded; the CPO series may still be growing. Added Op. 55bis (string version of the wind quintet; composer authorship unconfirmed). Quintet for piano and winds Op. 55 has no strings."
   },
@@ -4363,5 +4330,5 @@
    "note": "Quartet Op. 12, Piano Trio, the fugue and the Chorale variations recorded; sextet and quartet in G not found recorded. MusicBrainz release scan covered 226 of 592 releases, so a recording of the sextet may exist. The Quintet for piano and winds has no strings; collaborative quartet movements (B-la-F, Jour de fête, Les Vendredis) belong to the collective works."
   }
  ],
- "note": "Evidence: MusicBrainz work and release data through the shared fetcher, Wikipedia work lists and discographies, a few label and review pages, web searches. Apple lookups were blocked or queued for most of the run and were dropped; nothing here rests on Apple data. Gap additions (imslpPage null): Dubois Cantilène; Juon String Quartet Op. 11 (unpublished) and Legende Op. 83; Kahn Piano Trio No. 4 Op. 72; Reinecke Quartets Op. 16 and Op. 287; Rimsky-Korsakov Four Variations on a Chorale; Rubinstein Piano Quartet Op. 55bis (string version published with the wind quintet in 1860; the composer's own authorship is not confirmed, confidence low). Judgement calls: Kahn's Serenade Op. 73 is printed for oboe, horn and piano with violin, viola or cello as alternatives and is recorded as a horn trio, so it is listed as violin, horn, piano (medium). Dubois's Piano Quintet is printed for oboe (or second violin or clarinet). Juon's Op. 39 is B minor on IMSLP and the Challenge disc (Wikipedia says D major). Juon's Trio-Miniaturen are entered in the clarinet version that Trio Catch recorded. Skipped as unrecorded in the original scoring: Dubois Hymne nuptial, Méditation-prière and Deux pièces canoniques (only transcriptions or a reduced version recorded). 'None found' is weaker for Glière (quartets 3-4, sextets), Rimsky-Korsakov (sextet, quartet in G) and Rubinstein (piano trios, quintets, sextet, quartets Op. 47 No. 2, Op. 90, Op. 106): the MusicBrainz release scans were partial (Rimsky-Korsakov 226 of 592, Glière 53 of 57). Rachmaninoff's two quartets are unfinished two-movement works recorded as they stand. Wind-only works (Reinecke Op. 188, 216, 271, 274; Herzogenberg Op. 43, 61; Juon Op. 51, 73, 84; Rimsky-Korsakov and Rubinstein piano-and-wind quintets; Dubois Dixtuor, ten players) are out of scope. Glière's 12 Duos Op. 49 (violin catalogue 463) are a duo."
+ "note": "Evidence: MusicBrainz work and release data through the shared fetcher, Wikipedia work lists and discographies, a few label and review pages, web searches. Apple lookups were blocked or queued for most of the run and were dropped; nothing here rests on Apple data. Gap additions (imslpPage null): Dubois Cantilène; Juon String Quartet Op. 11 (unpublished) and Legende Op. 83; Kahn Piano Trio No. 4 Op. 72; Reinecke Quartets Op. 16 and Op. 287; Rimsky-Korsakov Four Variations on a Chorale; Rubinstein Piano Quartet Op. 55bis (string version published with the wind quintet in 1860; the composer's own authorship is not confirmed, confidence low). Judgement calls: Kahn's Serenade Op. 73 is printed for oboe, horn and piano with violin, viola or cello as alternatives and is recorded as a horn trio, so it is listed as violin, horn, piano (medium). Dubois's Piano Quintet is printed for oboe (or second violin or clarinet). Juon's Op. 39 is B minor on IMSLP and the Challenge disc (Wikipedia says D major). Juon's Trio-Miniaturen are entered in the clarinet version that Trio Catch recorded. Skipped as unrecorded in the original scoring: Dubois Hymne nuptial, Méditation-prière and Deux pièces canoniques (only transcriptions or a reduced version recorded). 'None found' is weaker for Glière (quartets 3-4, sextets), Rimsky-Korsakov (sextet, quartet in G) and Rubinstein (piano trios, quintets, sextet, quartets Op. 47 No. 2, Op. 90, Op. 106): the MusicBrainz release scans were partial (Rimsky-Korsakov 226 of 592, Glière 53 of 57). Rachmaninoff's two quartets are unfinished two-movement works recorded as they stand. Wind-only works (Reinecke Op. 188, 216, 271, 274; Herzogenberg Op. 43, 61; Juon Op. 51, 73, 84; Rimsky-Korsakov and Rubinstein piano-and-wind quintets; Dubois Dixtuor, ten players) are out of scope. Glière's 12 Duos Op. 49 (violin catalogue 463) are a duo. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Rubinstein: Piano Quartet in F major, Op. 55bis."
 }

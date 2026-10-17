@@ -1713,80 +1713,6 @@
    ],
    "confidence": "medium",
    "gap": true
-  },
-  {
-   "composer": "Pleyel, Ignaz",
-   "title": "String Trio in E-flat major, B. 401",
-   "aka": [],
-   "instruments": {
-    "violin": 1,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "string-trio",
-   "formationNote": null,
-   "form": "work",
-   "set": "Three String Trios, B. 401–403 (\"Trios concertans\")",
-   "year": "1787",
-   "minutes": null,
-   "notes": "Two movements: Allegro assai and Rondo",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Intermediate writing (IMSLP files the set as intermediate violin music); violin about ABRSM 6",
-   "hardest_part_guess": "violin",
-   "imslpPage": "3 String Trios, B.401-403 (Pleyel, Ignaz)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Vienna: Hoffmeister, 1787 (first edition, IMSLP)",
-    "recorded": "IPG-CD 24, \"Kammermusik – Streichtrio, Flötenquartette und Violinsonaten\", Internationale Ignaz Joseph Pleyel Gesellschaft (performers not named on the shop page)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/3_String_Trios,_B.401-403_(Pleyel,_Ignaz)",
-    "https://pleyel.at/shop3_detail.php?spr=de&artnr=23"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Pleyel, Ignaz",
-   "title": "String Trio in F major, B. 403",
-   "aka": [],
-   "instruments": {
-    "violin": 1,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "string-trio",
-   "formationNote": null,
-   "form": "work",
-   "set": "Three String Trios, B. 401–403 (\"Trios concertans\")",
-   "year": "1787",
-   "minutes": null,
-   "notes": "Two movements: Allegro con spirito and Rondo",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Intermediate writing (IMSLP files the set as intermediate violin music); violin about ABRSM 6",
-   "hardest_part_guess": "violin",
-   "imslpPage": "3 String Trios, B.401-403 (Pleyel, Ignaz)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Artaria Editions AE461 (modern edition, seen in a search listing)",
-    "recorded": "IPG-CD 20 (live recording of the IPG concert, Schloss Niederleis, 2 July 2006)",
-    "performed": "IPG concert series, Schloss Niederleis, 2 July 2006 (81st concert; IPG-CD 20)"
-   },
-   "sources": [
-    "https://imslp.org/wiki/3_String_Trios,_B.401-403_(Pleyel,_Ignaz)",
-    "https://pleyel.at/shop3_detail.php?spr=de&artnr=19"
-   ],
-   "confidence": "low"
   }
  ],
  "skipped": [
@@ -2053,6 +1979,22 @@
    "works": 1,
    "reason": "not performed or recorded",
    "evidence": "no recording found: Apple Music catalogue (album and track searches by Benton number), MusicBrainz (Pleyel works with recordings), the IPG CD list (pleyel.at)"
+  },
+  {
+   "composer": "Pleyel, Ignaz",
+   "title": "String Trio in E-flat major, B. 401",
+   "imslpPage": "3 String Trios, B.401-403 (Pleyel, Ignaz)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Pleyel, Ignaz",
+   "title": "String Trio in F major, B. 403",
+   "imslpPage": "3 String Trios, B.401-403 (Pleyel, Ignaz)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -2061,12 +2003,12 @@
   {
    "name": "Pleyel, Ignaz",
    "candidates": 52,
-   "kept": 46,
-   "skipped": 33,
+   "kept": 44,
+   "skipped": 35,
    "added_not_on_imslp": 1,
    "coverage": "complete",
    "note": "Gap check against Benton's numbering as cited in the IPG booklets (string quintets B. 271–290, sextet B. 261, quartets B. 301–370, trios B. 401–416; Pleyel wrote about 70 string quartets): added the String Quintet in G minor, B. 287 (recorded, not on IMSLP). Not added: Quartet in G minor, B. 370 (left unfinished, recorded only in a completion); Quintets B. 280–282 are for flute, oboe, violin, viola and cello (IMSLP, Edition HH), so they belong to the winds slice (live IPG recording: IPG-CD 20, 2006); \"String Quartets Op. 41–42\" (Hungaroton HCD 32783: quartet arrangements of the piano trios B. 443–447, probably by the publisher André)."
   }
  ],
- "note": "c19 Pleyel strings: one composer, covered completely. Scoring and dates from IMSLP (api.php wikitext); floor and durations from Apple Music track lists (iTunes Search API), MusicBrainz and the booklets and CD list of the Internationale Ignaz Joseph Pleyel Gesellschaft (pleyel.at), whose recordings appear on Ars Produktion and on its own IPG label. Judgment calls: (1) Op. 1 (B. 301–306) rests on the Janáček Quartet's IPG-label set IPG-CD 56 (2018), not on Apple Music; (2) the trios B. 401 and B. 403 rest only on IPG-label CDs (B. 403 a live concert recording), confidence low; (3) the IPG booklet keys B. 261 as F major (the shop page says E-flat) and B. 352 as E-flat for violin, two violas and cello (Ars track lists say E major); (4) Pleyel's opus numbers are inconsistent, so titles use Benton numbers and give the opus only for Opp. 1 and 2. Durations are means over the recordings found. Pleyel's piano trios and works with winds are in another slice."
+ "note": "c19 Pleyel strings: one composer, covered completely. Scoring and dates from IMSLP (api.php wikitext); floor and durations from Apple Music track lists (iTunes Search API), MusicBrainz and the booklets and CD list of the Internationale Ignaz Joseph Pleyel Gesellschaft (pleyel.at), whose recordings appear on Ars Produktion and on its own IPG label. Judgment calls: (1) Op. 1 (B. 301–306) rests on the Janáček Quartet's IPG-label set IPG-CD 56 (2018), not on Apple Music; (2) the trios B. 401 and B. 403 rest only on IPG-label CDs (B. 403 a live concert recording), confidence low; (3) the IPG booklet keys B. 261 as F major (the shop page says E-flat) and B. 352 as E-flat for violin, two violas and cello (Ars track lists say E major); (4) Pleyel's opus numbers are inconsistent, so titles use Benton numbers and give the opus only for Opp. 1 and 2. Durations are means over the recordings found. Pleyel's piano trios and works with winds are in another slice. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 2 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Pleyel: String Trio in E-flat major, B. 401; Pleyel: String Trio in F major, B. 403."
 }

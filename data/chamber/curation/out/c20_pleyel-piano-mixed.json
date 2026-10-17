@@ -808,48 +808,6 @@
     "https://www.pleyel.at/shop3_detail.php?spr=de&artnr=19"
    ],
    "confidence": "high"
-  },
-  {
-   "composer": "Pleyel, Ignaz",
-   "title": "Septet in E-flat major, B. 251",
-   "aka": [
-    "Septet Op. 8"
-   ],
-   "instruments": {
-    "horn": 2,
-    "violin": 2,
-    "viola": 1,
-    "cello": 1,
-    "double-bass": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 7,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1787",
-   "minutes": null,
-   "notes": "Two horns with string quintet including double bass; Romance and Minuet between the outer movements",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Classical divertimento writing; violin 1 and horn 1 about ABRSM 7",
-   "hardest_part_guess": "violin 1",
-   "imslpPage": "Septet in E-flat major, B.251 (Pleyel, Ignaz)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Amadeus, Winterthur, 2011 (ed. Bernhard Päuler)",
-    "recorded": "IPG-CD 14, Septett und Oktette (live IPG concerts; the septet is not identified by number)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Septet_in_E-flat_major,_B.251_(Pleyel,_Ignaz)",
-    "https://swisscollections.ch/Record/991035645169705501",
-    "https://www.pleyel.at/shop3_detail.php?spr=de&artnr=13"
-   ],
-   "confidence": "low"
   }
  ],
  "skipped": [
@@ -1036,6 +994,14 @@
    "works": 1,
    "reason": "not performed or recorded",
    "evidence": "Apple Music catalogue (13 Pleyel searches, ~330 albums), MusicBrainz works list, IPG CD catalogue (pleyel.at), Artaria Editions: none found; first print only (André, 1787)"
+  },
+  {
+   "composer": "Pleyel, Ignaz",
+   "title": "Septet in E-flat major, B. 251",
+   "imslpPage": "Septet in E-flat major, B.251 (Pleyel, Ignaz)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -1044,12 +1010,12 @@
   {
    "name": "Pleyel, Ignaz",
    "candidates": 34,
-   "kept": 19,
-   "skipped": 23,
+   "kept": 18,
+   "skipped": 24,
    "added_not_on_imslp": 2,
    "coverage": "complete",
    "note": "Gap check against Benton numbers in Artaria, Hungaroton and IPG catalogues: added Oboe Quartets B. 391 and B. 394 (not on IMSLP). No recordings found of the late trios B. 443–476 or of B. 382–385. B. 428 is Hob. XV:3, recorded under Haydn's name; B. 429 (Hob. XV:4) has a Henle edition but no recording or performance found."
   }
  ],
- "note": "Trios B. 431–436 are printed \"flute (or violin)\"; listed as piano trios with a flute alternative because all three commercial recordings use violin. Several floors rest on CDs of the Internationale Ignaz Pleyel Gesellschaft (IPG, pleyel.at), mostly live concert recordings. Septet B. 251 kept at low confidence (Amadeus 2011 edition; an IPG septet CD that does not name the work). For c19: Hungaroton 2013 \"Flute Quartets Ben 319–324\" (Németh, Vitárius) are flute versions of the String Quartets B. 319–324; the wind Sextet B. 283 (Consortium Classicum) has no strings. Not checked: the Hungaroton HCD 32572 booklet and IPG booklets (performers of IPG-CD 47)."
+ "note": "Trios B. 431–436 are printed \"flute (or violin)\"; listed as piano trios with a flute alternative because all three commercial recordings use violin. Several floors rest on CDs of the Internationale Ignaz Pleyel Gesellschaft (IPG, pleyel.at), mostly live concert recordings. Septet B. 251 kept at low confidence (Amadeus 2011 edition; an IPG septet CD that does not name the work). For c19: Hungaroton 2013 \"Flute Quartets Ben 319–324\" (Németh, Vitárius) are flute versions of the String Quartets B. 319–324; the wind Sextet B. 283 (Consortium Classicum) has no strings. Not checked: the Hungaroton HCD 32572 booklet and IPG booklets (performers of IPG-CD 47). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Pleyel: Septet in E-flat major, B. 251."
 }

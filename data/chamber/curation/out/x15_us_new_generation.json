@@ -1449,45 +1449,6 @@
   },
   {
    "composer": "Norman, Andrew",
-   "title": "The Companion Guide to Rome",
-   "aka": [],
-   "instruments": {
-    "violin": 1,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "string-trio",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "2010",
-   "minutes": 30,
-   "notes": "Nine movements for string trio; the last is titled Sabina",
-   "popularity": "lesser-known",
-   "level_guess": 8,
-   "level_basis": "Nine demanding movements with extended techniques; exposed trio writing",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "",
-    "performed": "Chamber Music Conference faculty recording (released 2022); A Far Cry's The Law of Mosaics (Crier, 2014) also holds the work"
-   },
-   "sources": [
-    "http://andrewnormanmusic.com/archives/category/music",
-    "https://music.apple.com/us/album/1634384695",
-    "https://www.deezer.com/album/8729875"
-   ],
-   "confidence": "low",
-   "gap": true
-  },
-  {
-   "composer": "Norman, Andrew",
    "title": "Music in Circles",
    "aka": [],
    "instruments": {
@@ -2132,45 +2093,6 @@
    "gap": true
   },
   {
-   "composer": "León, Tania",
-   "title": "Elegía a Paul Robeson",
-   "aka": [],
-   "instruments": {
-    "violin": 1,
-    "cello": 1,
-    "piano": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "piano-trio",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "1987",
-   "minutes": 3,
-   "notes": "Short piano trio in memory of Paul Robeson",
-   "popularity": "lesser-known",
-   "level_guess": 6,
-   "level_basis": "Short lyrical trio; moderate technique, balance",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Ensemble for These Times, Aerocade Music (2026), El tiempo latine (2:50)",
-    "performed": ""
-   },
-   "sources": [
-    "https://www.tanialeon.com/works",
-    "https://www.deezer.com/album/956893561",
-    "https://music.apple.com/us/album/1891610715"
-   ],
-   "confidence": "low",
-   "gap": true
-  },
-  {
    "composer": "Perkinson, Coleridge-Taylor",
    "title": "String Quartet No. 1 (\"Calvary\")",
    "aka": [],
@@ -2207,44 +2129,6 @@
     "https://music.apple.com/us/album/351820709"
    ],
    "confidence": "medium",
-   "gap": true
-  },
-  {
-   "composer": "Perkinson, Coleridge-Taylor",
-   "title": "Movement for String Trio",
-   "aka": [],
-   "instruments": {
-    "violin": 1,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "string-trio",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "",
-   "minutes": 4,
-   "notes": "Single movement for string trio; recorded by Stanford Allen, Jesse Levine and Carter Brey",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Single short movement; moderate technique",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Stanford Allen, Jesse Levine, Carter Brey, Perkinson: a Celebration (4:01)",
-    "performed": ""
-   },
-   "sources": [
-    "https://en.wikipedia.org/wiki/Coleridge-Taylor_Perkinson",
-    "https://music.apple.com/us/album/351820709"
-   ],
-   "confidence": "low",
    "gap": true
   },
   {
@@ -2437,43 +2321,6 @@
     "https://music.apple.com/us/album/65363683"
    ],
    "confidence": "medium",
-   "gap": true
-  },
-  {
-   "composer": "Sierra, Roberto",
-   "title": "Recordando una melodía olvidada",
-   "aka": [],
-   "instruments": {
-    "clarinet": 1,
-    "violin": 1,
-    "piano": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 13,
-   "notes": "Trio for clarinet, violin and piano, recorded by the Verdehr Trio",
-   "popularity": "lesser-known",
-   "level_guess": 6,
-   "level_basis": "Lyrical trio; clarinet and violin balance",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Verdehr Trio, American Images 5 (12:42)",
-    "performed": ""
-   },
-   "sources": [
-    "https://music.apple.com/us/album/523579371"
-   ],
-   "confidence": "low",
    "gap": true
   },
   {
@@ -3212,6 +3059,38 @@
    "works": 1,
    "reason": "out of scope: violins alone",
    "evidence": "Two violins (violin catalogue 4716)"
+  },
+  {
+   "composer": "Norman, Andrew",
+   "title": "The Companion Guide to Rome",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "León, Tania",
+   "title": "Elegía a Paul Robeson",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Perkinson, Coleridge-Taylor",
+   "title": "Movement for String Trio",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Sierra, Roberto",
+   "title": "Recordando una melodía olvidada",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -3292,9 +3171,9 @@
   {
    "name": "Norman, Andrew",
    "candidates": 0,
-   "kept": 3,
-   "skipped": 7,
-   "added_not_on_imslp": 3,
+   "kept": 2,
+   "skipped": 8,
+   "added_not_on_imslp": 2,
    "coverage": "complete",
    "note": "Composer's chamber list read; three recorded works kept; Gran Turismo (violin octet) skipped as violins alone."
   },
@@ -3328,9 +3207,9 @@
   {
    "name": "Perkinson, Coleridge-Taylor",
    "candidates": 0,
-   "kept": 2,
-   "skipped": 3,
-   "added_not_on_imslp": 2,
+   "kept": 1,
+   "skipped": 4,
+   "added_not_on_imslp": 1,
    "coverage": "partial",
    "note": "String Quartet No. 1 and the string-trio movement kept; the rest not checked."
   },
@@ -3355,9 +3234,9 @@
   {
    "name": "León, Tania",
    "candidates": 0,
-   "kept": 4,
-   "skipped": 14,
-   "added_not_on_imslp": 4,
+   "kept": 3,
+   "skipped": 15,
+   "added_not_on_imslp": 3,
    "coverage": "complete",
    "note": "Composer's work list read; four recorded works kept, nine unrecorded."
   },
@@ -3382,12 +3261,12 @@
   {
    "name": "Sierra, Roberto",
    "candidates": 0,
-   "kept": 6,
-   "skipped": 4,
-   "added_not_on_imslp": 6,
+   "kept": 5,
+   "skipped": 5,
+   "added_not_on_imslp": 5,
    "coverage": "partial",
    "note": "Quartet, guitar quintet, three piano trios and a clarinet trio kept; Kandinsky and others not confirmed."
   }
  ],
- "note": "PHASE 3, no IMSLP candidates (all 19 composers have 0 IMSLP works). Sources: composer or publisher work lists (Montgomery, Mazzoli, Leon, Norman, Snider, Shaw's store), Wikipedia lists, Apple Music composerTerm searches and Deezer album pages for the recordings. Apple matches are fuzzy: every kept title was matched to the composer's own list or to a performing ensemble that fixes the scoring. USAGE LIMIT: the run was cut short, so Simon (all), Moore, Hailstork (only the Detroit quintet), Marsalis (A Fiddler's Tale), Frank (Hilos, Quijotadas, Kanto Kechua, Inca Dances, Milagros), Esmail (Zeher), Sierra (Kandinsky), Baker (Bay Chamber pieces), Roumain and Perkinson (rest) are marked 'not checked (usage limit)'; 'not performed or recorded' lines rest on a weak Apple/Deezer search. Scoring was inferred from the performers for Three Essays, Microfictions, Leyendas, Calvary, Roots II, Sierra's quartet/trios and Shotgun Houses (confidence medium). The eight violin-catalogue entries in the input (444, 4342, 4345, 4419, 4425, 4494, 4496, 4716) are duos or string orchestra: none is cross-listed. Gran Turismo (violin octet) is skipped because the checker rejects violins-only scorings; the owner may rule. The Companion Guide to Rome rests on a Chamber Music Conference faculty release (A Far Cry's disc may be the string-orchestra version): confidence low."
+ "note": "PHASE 3, no IMSLP candidates (all 19 composers have 0 IMSLP works). Sources: composer or publisher work lists (Montgomery, Mazzoli, Leon, Norman, Snider, Shaw's store), Wikipedia lists, Apple Music composerTerm searches and Deezer album pages for the recordings. Apple matches are fuzzy: every kept title was matched to the composer's own list or to a performing ensemble that fixes the scoring. USAGE LIMIT: the run was cut short, so Simon (all), Moore, Hailstork (only the Detroit quintet), Marsalis (A Fiddler's Tale), Frank (Hilos, Quijotadas, Kanto Kechua, Inca Dances, Milagros), Esmail (Zeher), Sierra (Kandinsky), Baker (Bay Chamber pieces), Roumain and Perkinson (rest) are marked 'not checked (usage limit)'; 'not performed or recorded' lines rest on a weak Apple/Deezer search. Scoring was inferred from the performers for Three Essays, Microfictions, Leyendas, Calvary, Roots II, Sierra's quartet/trios and Shotgun Houses (confidence medium). The eight violin-catalogue entries in the input (444, 4342, 4345, 4419, 4425, 4494, 4496, 4716) are duos or string orchestra: none is cross-listed. Gran Turismo (violin octet) is skipped because the checker rejects violins-only scorings; the owner may rule. The Companion Guide to Rome rests on a Chamber Music Conference faculty release (A Far Cry's disc may be the string-orchestra version): confidence low. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 4 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Norman: The Companion Guide to Rome; León: Elegía a Paul Robeson; Perkinson: Movement for String Trio; Sierra: Recordando una melodía olvidada."
 }

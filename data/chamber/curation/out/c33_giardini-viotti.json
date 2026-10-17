@@ -705,80 +705,6 @@
   },
   {
    "composer": "Giardini, Felice",
-   "title": "String Trio in G major (op. posth.)",
-   "aka": [],
-   "instruments": {
-    "violin": 1,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "string-trio",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 10,
-   "notes": "Violin, viola and cello; Andante, Siciliano and Allegro; posthumous, without opus number",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Galant violin-led trio; violin about ABRSM 6–7 with some upper positions, like Stamitz's quartets (3–4)",
-   "hardest_part_guess": "violin",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Budapest String Trio, Hungaroton (2000, 'Trios for Strings – Complete Edition', 3 CDs)",
-    "performed": ""
-   },
-   "sources": [
-    "https://music.apple.com/us/album/trios-for-strings-complete-edition/408087573"
-   ],
-   "confidence": "low",
-   "gap": true
-  },
-  {
-   "composer": "Giardini, Felice",
-   "title": "String Trio in F major (op. posth.)",
-   "aka": [],
-   "instruments": {
-    "violin": 1,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "string-trio",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 9,
-   "notes": "Violin, viola and cello; Andante, Grazioso and Allegro; posthumous, without opus number",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Galant violin-led trio; violin about ABRSM 6–7 with some upper positions, like Stamitz's quartets (3–4)",
-   "hardest_part_guess": "violin",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Budapest String Trio, Hungaroton (2000, 'Trios for Strings – Complete Edition', 3 CDs)",
-    "performed": ""
-   },
-   "sources": [
-    "https://music.apple.com/us/album/trios-for-strings-complete-edition/408087573"
-   ],
-   "confidence": "low",
-   "gap": true
-  },
-  {
-   "composer": "Giardini, Felice",
    "title": "Harpsichord Quartet in F major, Op. 21 No. 1",
    "aka": [],
    "instruments": {
@@ -2193,6 +2119,22 @@
    "works": 1,
    "reason": "arrangement",
    "evidence": "owner 2026-10-17: arrangements by another hand and works of doubtful attribution are out; an arranger who is not named means out (moved by hand from works; was: Reworking of Violin Concerto No. 18: new introduction and slow movement, the concerto's finale; viol)"
+  },
+  {
+   "composer": "Giardini, Felice",
+   "title": "String Trio in G major (op. posth.)",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Giardini, Felice",
+   "title": "String Trio in F major (op. posth.)",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -2201,9 +2143,9 @@
   {
    "name": "Giardini, Felice",
    "candidates": 9,
-   "kept": 30,
-   "skipped": 6,
-   "added_not_on_imslp": 8,
+   "kept": 28,
+   "skipped": 8,
+   "added_not_on_imslp": 6,
    "coverage": "complete",
    "note": "Floor from Apple Music track lists (Hungaroton, Tactus, Opus 111, cpo, Pavane). Gap check against the IMSLP work list (from Grove) and Italian Wikipedia: added the six Op. 26 trios and two posthumous trios from the Budapest String Trio's complete set. Op. 11 quintets, Op. 22 quartets, Op. 18 and the c. 1760 guitar trios: no identifiable recording."
   },
@@ -2217,5 +2159,5 @@
    "note": "Gap check against Chappell White's catalogue as given on Italian Wikipedia and IMSLP's work list: not on IMSLP and unrecorded are the trios W. III:7–9 (London 1796), the piano trios Op. 7 (W. VI:4–6), W. VI:7–8 and the incomplete Suite W. VIII:1; Op. 23 'quatuors d'airs connus' are spurious. Nothing added. Trios: only Op. 17 Nos. 2–3 found on record (Apple Music, MusicBrainz, one web search); 'none found' for the others is moderately strong."
   }
  ],
- "note": "Giardini: 1) The Budapest String Trio set (Hungaroton 2000) names trios only 'No. 1–6' per disc; disc 1 = Op. 17 (No. 1 in E-flat per Edition Silvertrust), disc 2 = Op. 20 (keys B-flat, F, D, C, A, G match Silvertrust's Op. 20 Nos. 8–10, 12 and Earsense's Op. 20 No. 2 in F), so disc 3 = Op. 26 by elimination (Grove's third violin–viola–cello set); the two 'Op. posth.' trios are known only from the track list. 2) Op. 23 No. 6 is C major on the cpo release, F major in MusicBrainz; cpo followed. 3) Op. 25 No. 5 taken as a string quartet (Grove: Nos. 4–6 for strings); the Opus 111 disc's line-up was not checked. 4) 'Giardini, Noferi: Sonate e trii con chitarra' (Ensemble Pian & Forte, Nar 1993) may hold Giardini's trios with guitar (c. 1760 or Op. 18), but the tracks do not say which pieces are his: not added. Viotti: 1) Op. 3 No. 6 (W. II:12) is E major on IMSLP and in White's list (Italian Wikipedia), E-flat on the Brilliant release; IMSLP followed. 2) The E minor quartet W. IIa:2 reworks Violin Concerto No. 18 with a new introduction and slow movement; White files it among arrangements without naming an arranger; kept because Quartetto Viotti record it as Viotti's, medium confidence. 3) The 1817 quartets W. II:13–15 carry Giazotto numbers G. 112–114 on the Dynamic and SWR releases (in aka). 4) The Serenades Op. 23 and the duos recorded with the trios are for two violins: violin section. HAND EDIT (orchestrator, 2026-10-17): moved to skipped on the owner's ruling (arrangements by another hand and doubtful attributions are out): String Quartet in E minor, W. IIa:2."
+ "note": "Giardini: 1) The Budapest String Trio set (Hungaroton 2000) names trios only 'No. 1–6' per disc; disc 1 = Op. 17 (No. 1 in E-flat per Edition Silvertrust), disc 2 = Op. 20 (keys B-flat, F, D, C, A, G match Silvertrust's Op. 20 Nos. 8–10, 12 and Earsense's Op. 20 No. 2 in F), so disc 3 = Op. 26 by elimination (Grove's third violin–viola–cello set); the two 'Op. posth.' trios are known only from the track list. 2) Op. 23 No. 6 is C major on the cpo release, F major in MusicBrainz; cpo followed. 3) Op. 25 No. 5 taken as a string quartet (Grove: Nos. 4–6 for strings); the Opus 111 disc's line-up was not checked. 4) 'Giardini, Noferi: Sonate e trii con chitarra' (Ensemble Pian & Forte, Nar 1993) may hold Giardini's trios with guitar (c. 1760 or Op. 18), but the tracks do not say which pieces are his: not added. Viotti: 1) Op. 3 No. 6 (W. II:12) is E major on IMSLP and in White's list (Italian Wikipedia), E-flat on the Brilliant release; IMSLP followed. 2) The E minor quartet W. IIa:2 reworks Violin Concerto No. 18 with a new introduction and slow movement; White files it among arrangements without naming an arranger; kept because Quartetto Viotti record it as Viotti's, medium confidence. 3) The 1817 quartets W. II:13–15 carry Giazotto numbers G. 112–114 on the Dynamic and SWR releases (in aka). 4) The Serenades Op. 23 and the duos recorded with the trios are for two violins: violin section. HAND EDIT (orchestrator, 2026-10-17): moved to skipped on the owner's ruling (arrangements by another hand and doubtful attributions are out): String Quartet in E minor, W. IIa:2. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 2 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Giardini: String Trio in G major (op. posth.); Giardini: String Trio in F major (op. posth.)."
 }

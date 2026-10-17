@@ -1462,44 +1462,6 @@
   },
   {
    "composer": "Bertali, Antonio",
-   "title": "Sonata à 3 in A minor",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola-da-gamba": 1,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "by 1662",
-   "minutes": 4,
-   "notes": "Two violins and an obbligato bass viol; also No. 6 of Prothimia suavissima, Book 1 (1672)",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Stylus fantasticus: quick changes of tempo and passagework for the violins; about ABRSM 7",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Sonata à 3 in A minor (Bertali, Antonio)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Il Giardino Corrupto: 17th-Century German Chamber Music, Wildboar Recordings (2011; \"Sonata à 3 in A minor\")",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Sonata_à_3_in_A_minor_(Bertali,_Antonio)",
-    "https://itunes.apple.com/lookup?id=482341420&entity=song",
-    "https://imslp.org/wiki/Prothimia_Suavissima_(Various)"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Bertali, Antonio",
    "title": "Sonata à 5 in G minor",
    "aka": [],
    "instruments": {
@@ -2727,6 +2689,14 @@
    "works": 1,
    "reason": "out of scope: duo",
    "evidence": "Cello and continuo (IMSLP); the second keyboard part is a realisation"
+  },
+  {
+   "composer": "Bertali, Antonio",
+   "title": "Sonata à 3 in A minor",
+   "imslpPage": "Sonata à 3 in A minor (Bertali, Antonio)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -2762,8 +2732,8 @@
   {
    "name": "Bertali, Antonio",
    "candidates": 9,
-   "kept": 6,
-   "skipped": 3,
+   "kept": 5,
+   "skipped": 4,
    "added_not_on_imslp": 2,
    "coverage": "partial",
    "note": "Gap check against the A.C.R.O.N.Y.M. Paradise source list: added two Partiturbuch Ludwig sonatas (à 5 in G minor, à 6 in E minor); its Sonata à 2 in D minor (No. 51) is listed under Young (Durham Sonata 21, attribution disputed). Not added (scoring or source unconfirmed): Kroměříž A 515 sonatas à 6, the sonatas à 8, the Freiburger \"Sonatellas\". The Prothimia suavissima recording (Ars Antiqua Austria) is of Book 2, mostly by Capricornus, Schmelzer and Pohle"
@@ -2787,5 +2757,5 @@
    "note": "Gap check against Apple Music: Porpora's other chamber works found are duos (12 violin sonatas, cello sonatas) or concertos; a Sonata in D major for violin, cello and continuo (Batzdorfer Hofkapelle, Dresden Pisendel collection) and a Trio in D major (Ensemble Animantica) not added, composer and scoring unconfirmed"
   }
  ],
- "note": "Open points for the owner: (1) Tessarini's Introduzioni Op. 11 and Contrasto armonico Op. 10 skipped as orchestral; their only recordings are by a chamber orchestra. (2) Bertali: IMSLP's \"recorded\" pages were matched to recordings through the A.C.R.O.N.Y.M. booklet's manuscript shelfmarks; violone parts counted as their own part where the title counts them (à 4, à 6). (3) Besozzi's Walsh trio-sonata sets: no recording identified. (4) Porpora's six sonatas for violin, cello and continuo are a joint Porpora/Costanzi print, kept under Porpora as IMSLP files them. (5) Young's Durham sonatas à 2 and Eckert's \"3 Sonatas\" not added; scoring unconfirmed."
+ "note": "Open points for the owner: (1) Tessarini's Introduzioni Op. 11 and Contrasto armonico Op. 10 skipped as orchestral; their only recordings are by a chamber orchestra. (2) Bertali: IMSLP's \"recorded\" pages were matched to recordings through the A.C.R.O.N.Y.M. booklet's manuscript shelfmarks; violone parts counted as their own part where the title counts them (à 4, à 6). (3) Besozzi's Walsh trio-sonata sets: no recording identified. (4) Porpora's six sonatas for violin, cello and continuo are a joint Porpora/Costanzi print, kept under Porpora as IMSLP files them. (5) Young's Durham sonatas à 2 and Eckert's \"3 Sonatas\" not added; scoring unconfirmed. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Bertali: Sonata à 3 in A minor."
 }

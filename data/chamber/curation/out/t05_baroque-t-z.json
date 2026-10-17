@@ -16,14 +16,6 @@
    "gender": "M",
    "era": "baroque",
    "in_catalogue": false
-  },
-  {
-   "name": "Ziani, Pietro Andrea",
-   "dates": "1616–1684",
-   "nationality": "Italian",
-   "gender": "M",
-   "era": "baroque",
-   "in_catalogue": false
   }
  ],
  "works": [
@@ -104,44 +96,6 @@
     "https://musicbrainz.org/work/8f5c5c46-0e33-488a-a752-27dbf3300c4d"
    ],
    "confidence": "medium"
-  },
-  {
-   "aka": [
-    "Sinfonia a tre"
-   ],
-   "alternatives": {},
-   "optional": {},
-   "formationNote": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "composer": "Turini, Francesco",
-   "title": "Sinfonia a 3 in G minor",
-   "instruments": {
-    "violin": 2,
-    "continuo": 1
-   },
-   "players": 3,
-   "formation": "continuo",
-   "form": "short",
-   "set": "Madrigali, Libro 1",
-   "year": "1621",
-   "minutes": 2,
-   "notes": "Short sinfonia for two violins and continuo from Turini's first madrigal book (1621)",
-   "popularity": "lesser-known",
-   "level_guess": 2,
-   "level_basis": "Short early-Baroque piece, simple figuration, like Corelli Op. 1 No. 1 (2)",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Sinfonia (Turini, Francesco)",
-   "floor": {
-    "published": "Venice, Vincenti, 1621 (Madrigali, Libro 1; IMSLP)",
-    "recorded": "Ensemble Sonnerie, Sonatas (1996, reissued 2007): MusicBrainz links two recordings titled 'Sonata a 3' (2:22 and 6:00) to the work 'Sinfonia a tre'; identity not confirmed",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Sinfonia_(Turini,_Francesco)",
-    "https://musicbrainz.org/work/39092768-809d-4822-aa0c-0dd016c98f3f"
-   ],
-   "confidence": "low"
   },
   {
    "aka": [],
@@ -856,80 +810,6 @@
     "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66670"
    ],
    "confidence": "medium"
-  },
-  {
-   "aka": [],
-   "alternatives": {},
-   "optional": {},
-   "formationNote": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "composer": "Ziani, Pietro Andrea",
-   "title": "Sonata in G minor, Op. 7 No. 11",
-   "instruments": {
-    "violin": 2,
-    "viola": 2,
-    "continuo": 1
-   },
-   "players": 5,
-   "formation": "continuo",
-   "form": "work",
-   "set": "Sonate a 3, 4, 5, 6 voci, Op. 7",
-   "year": "1678",
-   "minutes": 9,
-   "notes": "Church sonata for five parts; scoring inferred from library records of the recording, not from the score",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Venetian church sonata with imitative writing; violins about ABRSM 6, violas easier; five parts to balance",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "20 Sonatas, Op.7 (Ziani, Pietro Andrea)",
-   "floor": {
-    "published": "Venice, 1678 (Sonate a 3, 4, 5, 6 voci, dedicated to Johann Georg II of Saxony; IMSLP)",
-    "recorded": "Musica Antiqua Köln, dir. Reinhard Goebel, 'Sonaten aus Dresden' (Challenge Classics reissue 2007; Apple 264301786, track 'Sonate No. 11' 9:22)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/20_Sonatas,_Op.7_(Ziani,_Pietro_Andrea)",
-    "https://itunes.apple.com/lookup?id=264301786&entity=song"
-   ],
-   "confidence": "low"
-  },
-  {
-   "aka": [],
-   "alternatives": {},
-   "optional": {},
-   "formationNote": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "composer": "Ziani, Pietro Andrea",
-   "title": "Sonata in D minor, Op. 7 No. 12",
-   "instruments": {
-    "violin": 2,
-    "viola": 2,
-    "continuo": 1
-   },
-   "players": 5,
-   "formation": "continuo",
-   "form": "work",
-   "set": "Sonate a 3, 4, 5, 6 voci, Op. 7",
-   "year": "1678",
-   "minutes": 7,
-   "notes": "Church sonata for five parts; scoring inferred from library records of the recording, not from the score",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Venetian church sonata with imitative writing; violins about ABRSM 6, violas easier; five parts to balance",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "20 Sonatas, Op.7 (Ziani, Pietro Andrea)",
-   "floor": {
-    "published": "Venice, 1678 (Sonate a 3, 4, 5, 6 voci, dedicated to Johann Georg II of Saxony; IMSLP)",
-    "recorded": "Musica Antiqua Köln, dir. Reinhard Goebel, 'Sonaten aus Dresden' (Challenge Classics reissue 2007; Apple 264301786, track 'Sonate No. 12' 6:51)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/20_Sonatas,_Op.7_(Ziani,_Pietro_Andrea)",
-    "https://itunes.apple.com/lookup?id=264301786&entity=song"
-   ],
-   "confidence": "low"
   }
  ],
  "skipped": [
@@ -1660,6 +1540,30 @@
    "works": 1,
    "reason": "not performed or recorded",
    "evidence": "Manuscript with works by Jommelli, C. P. E. Bach, Cocchi and Majo in various scorings; no recording signal"
+  },
+  {
+   "composer": "Turini, Francesco",
+   "title": "Sinfonia a 3 in G minor",
+   "imslpPage": "Sinfonia (Turini, Francesco)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Ziani, Pietro Andrea",
+   "title": "Sonata in G minor, Op. 7 No. 11",
+   "imslpPage": "20 Sonatas, Op.7 (Ziani, Pietro Andrea)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Ziani, Pietro Andrea",
+   "title": "Sonata in D minor, Op. 7 No. 12",
+   "imslpPage": "20 Sonatas, Op.7 (Ziani, Pietro Andrea)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -1673,8 +1577,8 @@
   {
    "name": "Turini, Francesco",
    "candidates": 5,
-   "kept": 3,
-   "skipped": 2,
+   "kept": 2,
+   "skipped": 3,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Entered the Trio Sonata 'E tanto tempo hormai' (Prisma, Les Enemis Confus, Ensemble Sonnerie) and, on MusicBrainz evidence only, the Gagliarda and Sinfonia (Ensemble Sonnerie); the two madrigal books are vocal. Recorded but not entered (no IMSLP page of their own): Sonata a 3 'Il Corisino', Sonata a 2 violini / 'a due canti di Ruggiero', Sonata a 3 'Secondo tuono'"
@@ -1925,8 +1829,8 @@
   {
    "name": "Ziani, Pietro Andrea",
    "candidates": 1,
-   "kept": 2,
-   "skipped": 1,
+   "kept": 0,
+   "skipped": 3,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Op. 7 Nos. 11 and 12 entered at confidence low (Musica Antiqua Köln); the other 18 sonatas are not recorded as far as found"
@@ -1941,5 +1845,5 @@
    "note": "nothing found"
   }
  ],
- "note": "METHOD: one background script (MusicBrainz artist search then work?artist=...&inc=recording-rels; Deezer album and track search; Apple composerTerm song search for composers without a chamber hit, repeated for ten names), then album lookups (Apple, Deezer), MusicBrainz recording-to-release lookups and the IMSLP API for work info. About 70 tool calls, 7 WebSearch, 7 WebFetch (three of them empty or blocked). The slice is 29 composers plus IMSLP's pseudo-composer 'Various' (43 anthology pages), 101 pages in all. MOST COMPOSERS HAVE NOTHING: 24 of 29 are 'triage: none found' (several weak: Valli, Wiseman, Witt, Zach, Vodička, Withy, Weideman). STRING-ORCHESTRA QUESTION: the six Wassenaer Concerti armonici (seven part-books: four violins, viola, cello, continuo) are kept as one to a part on the strength of a Gramophone review snippet seen in a search result (Brandenburg Consort, Hyperion CDA66670, 1993, 'original complement of strings (4.1.1.1)'; the review page itself returned 403, the NYPL record was empty and Hyperion's page names no players), so confidence is medium; other recordings are by directed bands (I Musici, Amsterdam Baroque Orchestra/Koopman, ASMF/Marriner) or by ensembles whose personnel I did not see (La Sfera Armoniosa/Fentross 2023, Innovation Chamber Ensemble 2016). Drop the six entries if the owner wants a named-players recording. The IUW numbers are IMSLP's for Nos. 1 and 4 and come from Deezer album titles (Stereo Arts Classics) for Nos. 2, 3, 5, 6. VITALI: the twelve Op. 1 trio sonatas rest on Naxos 8.570182 (Semperconsort, 2006; Wikipedia's Tomaso Antonio Vitali page lists it with its five players); keys and timings are from the Deezer track list of the same album; Semperconsort's Brilliant 'Op. 2' disc is Giovanni Battista Vitali's (its keys match his sonatas in slice c10). The scoring follows IMSLP and the print (two violins, cello and organ; the cello is folded into the continuo). Op. 4 is skipped as violin sonatas with continuo (a duo); Wikipedia mentions a recording of Op. 4 No. 12 (Classica CL 101) that I did not check. 'VARIOUS' CANNOT BE A COMPOSER: the checker needs 'Surname, Given names', so no 'Various' page is kept. Five real chamber works need the owner's ruling on attribution: the four Belaieff-circle collaborations (Les vendredis, recorded complete by the Szymanowski Quartet (SWR Classic 2017) and the Quatuor Alcan (ATMA 2025); B-la-F; Jour de fête; Variations on a Russian Theme) and Prothimia suavissima (1672; signed 'J. S. A. B.', twelve sonatas recorded by Ars Antiqua Austria as Bertali's). The IMSLP anthologies of Jacobean consort music, Viennese dance music and 24 Naples recorder concertos hold pieces that belong to named composers elsewhere. RECORDED BUT NOT ENTERED: Turini's Il Corisino, Sonata a 2 violini / a due canti di Ruggiero and Secondo tuono (inside the madrigal books on IMSLP); Vejvanovský's sonatas a 5 and a 6 (Pro Arte Antiqua Praha, Bona Nova 1995; scoring unseen), Sonata Natalis (an out-of-scope IMSLP page, recorded by directed bands: Marriner, Hogwood, King) and La Posta (only Marriner's ASMF: a string-orchestra question with no one-to-a-part recording); the Supraphon 'Baroque Czech Sonatas' disc (Musica Philharmonica Pragensis, 2018) with trio sonatas by Benda, Zach, Čart, Vodička and Stamitz (MusicBrainz has no release; track composers unknown, so the Zach and Vodička pages could not be matched). ZIANI: Op. 7 Nos. 11 and 12 are entered at confidence low: the recording (Musica Antiqua Köln, Goebel; 'Sonaten aus Dresden') is on Apple, but the scoring (two violins, two violas, continuo) is inferred from library records of the disc and a publisher's description of the Dresden sonatas, not from the score; the year 1678 is from a Dutch library record; drop them if that is too thin. OTHER: Zehar (four pages) is proposed for exclusion. Utrecht's Paduana is 'for 5 sackbuts (or trombones or viols)' on IMSLP. The 72 out-of-scope pages were looked at by title only; none was added."
+ "note": "METHOD: one background script (MusicBrainz artist search then work?artist=...&inc=recording-rels; Deezer album and track search; Apple composerTerm song search for composers without a chamber hit, repeated for ten names), then album lookups (Apple, Deezer), MusicBrainz recording-to-release lookups and the IMSLP API for work info. About 70 tool calls, 7 WebSearch, 7 WebFetch (three of them empty or blocked). The slice is 29 composers plus IMSLP's pseudo-composer 'Various' (43 anthology pages), 101 pages in all. MOST COMPOSERS HAVE NOTHING: 24 of 29 are 'triage: none found' (several weak: Valli, Wiseman, Witt, Zach, Vodička, Withy, Weideman). STRING-ORCHESTRA QUESTION: the six Wassenaer Concerti armonici (seven part-books: four violins, viola, cello, continuo) are kept as one to a part on the strength of a Gramophone review snippet seen in a search result (Brandenburg Consort, Hyperion CDA66670, 1993, 'original complement of strings (4.1.1.1)'; the review page itself returned 403, the NYPL record was empty and Hyperion's page names no players), so confidence is medium; other recordings are by directed bands (I Musici, Amsterdam Baroque Orchestra/Koopman, ASMF/Marriner) or by ensembles whose personnel I did not see (La Sfera Armoniosa/Fentross 2023, Innovation Chamber Ensemble 2016). Drop the six entries if the owner wants a named-players recording. The IUW numbers are IMSLP's for Nos. 1 and 4 and come from Deezer album titles (Stereo Arts Classics) for Nos. 2, 3, 5, 6. VITALI: the twelve Op. 1 trio sonatas rest on Naxos 8.570182 (Semperconsort, 2006; Wikipedia's Tomaso Antonio Vitali page lists it with its five players); keys and timings are from the Deezer track list of the same album; Semperconsort's Brilliant 'Op. 2' disc is Giovanni Battista Vitali's (its keys match his sonatas in slice c10). The scoring follows IMSLP and the print (two violins, cello and organ; the cello is folded into the continuo). Op. 4 is skipped as violin sonatas with continuo (a duo); Wikipedia mentions a recording of Op. 4 No. 12 (Classica CL 101) that I did not check. 'VARIOUS' CANNOT BE A COMPOSER: the checker needs 'Surname, Given names', so no 'Various' page is kept. Five real chamber works need the owner's ruling on attribution: the four Belaieff-circle collaborations (Les vendredis, recorded complete by the Szymanowski Quartet (SWR Classic 2017) and the Quatuor Alcan (ATMA 2025); B-la-F; Jour de fête; Variations on a Russian Theme) and Prothimia suavissima (1672; signed 'J. S. A. B.', twelve sonatas recorded by Ars Antiqua Austria as Bertali's). The IMSLP anthologies of Jacobean consort music, Viennese dance music and 24 Naples recorder concertos hold pieces that belong to named composers elsewhere. RECORDED BUT NOT ENTERED: Turini's Il Corisino, Sonata a 2 violini / a due canti di Ruggiero and Secondo tuono (inside the madrigal books on IMSLP); Vejvanovský's sonatas a 5 and a 6 (Pro Arte Antiqua Praha, Bona Nova 1995; scoring unseen), Sonata Natalis (an out-of-scope IMSLP page, recorded by directed bands: Marriner, Hogwood, King) and La Posta (only Marriner's ASMF: a string-orchestra question with no one-to-a-part recording); the Supraphon 'Baroque Czech Sonatas' disc (Musica Philharmonica Pragensis, 2018) with trio sonatas by Benda, Zach, Čart, Vodička and Stamitz (MusicBrainz has no release; track composers unknown, so the Zach and Vodička pages could not be matched). ZIANI: Op. 7 Nos. 11 and 12 are entered at confidence low: the recording (Musica Antiqua Köln, Goebel; 'Sonaten aus Dresden') is on Apple, but the scoring (two violins, two violas, continuo) is inferred from library records of the disc and a publisher's description of the Dresden sonatas, not from the score; the year 1678 is from a Dutch library record; drop them if that is too thin. OTHER: Zehar (four pages) is proposed for exclusion. Utrecht's Paduana is 'for 5 sackbuts (or trombones or viols)' on IMSLP. The 72 out-of-scope pages were looked at by title only; none was added. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 3 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Turini: Sinfonia a 3 in G minor; Ziani: Sonata in G minor, Op. 7 No. 11; Ziani: Sonata in D minor, Op. 7 No. 12."
 }

@@ -26,14 +26,6 @@
    "in_catalogue": false
   },
   {
-   "name": "Brade, William",
-   "dates": "1560–1630",
-   "nationality": "English",
-   "gender": "M",
-   "era": "baroque",
-   "in_catalogue": false
-  },
-  {
    "name": "Böddecker, Philipp Friedrich",
    "dates": "1607–1683",
    "nationality": "German",
@@ -50,24 +42,8 @@
    "in_catalogue": false
   },
   {
-   "name": "Drese, Adam",
-   "dates": "1620–1701",
-   "nationality": "German",
-   "gender": "M",
-   "era": "baroque",
-   "in_catalogue": false
-  },
-  {
    "name": "Farina, Carlo",
    "dates": "c. 1604–1639",
-   "nationality": "Italian",
-   "gender": "M",
-   "era": "baroque",
-   "in_catalogue": false
-  },
-  {
-   "name": "Fiorenza, Nicola",
-   "dates": "c. 1700–1764",
    "nationality": "Italian",
    "gender": "M",
    "era": "baroque",
@@ -101,14 +77,6 @@
    "name": "Kühnel, August",
    "dates": "1645–c. 1700",
    "nationality": "German",
-   "gender": "M",
-   "era": "baroque",
-   "in_catalogue": false
-  },
-  {
-   "name": "Leo, Leonardo",
-   "dates": "1694–1744",
-   "nationality": "Italian",
    "gender": "M",
    "era": "baroque",
    "in_catalogue": false
@@ -180,14 +148,6 @@
   {
    "name": "Schein, Johann Hermann",
    "dates": "1586–1630",
-   "nationality": "German",
-   "gender": "M",
-   "era": "baroque",
-   "in_catalogue": false
-  },
-  {
-   "name": "Stölzel, Gottfried Heinrich",
-   "dates": "1690–1749",
    "nationality": "German",
    "gender": "M",
    "era": "baroque",
@@ -805,45 +765,6 @@
    "confidence": "medium"
   },
   {
-   "composer": "Drese, Adam",
-   "title": "Trio Sonata in A minor",
-   "aka": [
-    "Sonata a 2 in A minor"
-   ],
-   "instruments": {
-    "violin": 1,
-    "viola-da-gamba": 1,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "c. 1662",
-   "minutes": 4,
-   "notes": "Sonata a 2 for violin and viola da gamba over continuo; no. 47 of the Partiturbuch Ludwig (1662)",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Moderate German sonata with divisions for violin and gamba; about ABRSM 6-7",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Trio Sonata in A minor (Drese, Adam)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Ensemble Echo du Danube, Christian Zincke, \"Das Partiturbuch\" (2006), Sonata a 2 in A minor (4:10), per MusicBrainz",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Trio_Sonata_in_A_minor_(Drese,_Adam)",
-    "https://musicbrainz.org/recording/ebce4d55-81cc-40f4-aa0c-c15279988a43"
-   ],
-   "confidence": "low"
-  },
-  {
    "composer": "McGibbon, William",
    "title": "Trio Sonata in G major (\"In Imitation of Corelli\")",
    "aka": [
@@ -961,44 +882,6 @@
     "https://www.deezer.com/album/6213305"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Kühnel, August",
-   "title": "Sonatina à due No. 5 in C minor",
-   "aka": [
-    "Kühnel, Sonatina ò Partita No. 5"
-   ],
-   "instruments": {
-    "viola-da-gamba": 2,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": "Sonate ò Partite ad una ò due Viole da Gamba (1698)",
-   "year": "1698",
-   "minutes": 11,
-   "notes": "Sonatina for two violas da gamba over continuo; dance movements with divisions",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Bass-viol duet with divisions and double stops, somewhat lighter than the sonatas; about ABRSM 7",
-   "hardest_part_guess": "viola-da-gamba 1",
-   "imslpPage": "14 Sonate ò Partite (Kühnel, August)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Freek Borstlap, \"Kühnel: Viola da Gamba Sonatas\", Brilliant Classics (2014), Sonate No. 5 (10:44)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/14_Sonate_ò_Partite_(Kühnel,_August)",
-    "https://www.deezer.com/album/7454829"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Nicolai, Johann Michael",
@@ -1340,88 +1223,6 @@
     "https://www.deezer.com/album/1018758671"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Brade, William",
-   "title": "Paduana, Galliard and Coranta, NPGCAC 9",
-   "aka": [
-    "Brade, Paduana, Galliarda, Coranta a 5"
-   ],
-   "instruments": {
-    "viola-da-gamba": 5
-   },
-   "alternatives": {
-    "viola-da-gamba": [
-     "violin",
-     "viola",
-     "cello"
-    ]
-   },
-   "optional": {},
-   "players": 5,
-   "formation": "viol-consort",
-   "formationNote": null,
-   "form": "work",
-   "set": "Newe ausserlesene Paduanen, Galliarden, Cantzonen, Allmand und Couranten (1609)",
-   "year": "1609",
-   "minutes": null,
-   "notes": "Five-part dance suite for two trebles, alto, tenor and bass; the print says \"auff Violen\" (viols or violins)",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Simple dance writing in five parts, like Byrd's consort pieces (3); about ABRSM 6",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Paduana, Galliard and Coranta, NPGCAC 9 (Brade, William)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "IMSLP links a commercial recording to this page; Weser-Renaissance Bremen, Manfred Cordes, CPO (2013) records a \"Paduana, Galliard and Coranta a 5 in A minor\" without the NPGCAC number; Savall/Hesperion XX, Deutsche Harmonia Mundi (1994) also record the 1609 print",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Paduana,_Galliard_and_Coranta,_NPGCAC_9_(Brade,_William)",
-    "https://www.deezer.com/album/581136611",
-    "https://www.deezer.com/album/7058015"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Stölzel, Gottfried Heinrich",
-   "title": "Sonata a 4 in F major, IGS 168",
-   "aka": [],
-   "instruments": {
-    "oboe": 1,
-    "horn": 1,
-    "violin": 1,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": null,
-   "notes": "Quartet sonata for oboe, horn, violin and continuo in three movements (Andante, Adagio, Vivace)",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Horn and oboe writing about ABRSM 7-8; the violin part is moderate",
-   "hardest_part_guess": "horn",
-   "imslpPage": "Sonata a 4 in F major, IGS 168 (Stölzel, Gottfried Heinrich)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "IMSLP links a commercial recording; Epoca Barocca, \"Stölzel: Quadri di Dresda e Bruxelles\", CPO (2013): Quadro No. 8 has the same movement markings (Andante, Adagio, Vivace), but the listing gives no IGS numbers",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Sonata_a_4_in_F_major,_IGS_168_(Stölzel,_Gottfried_Heinrich)",
-    "https://www.deezer.com/album/584483542"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Pezel, Johann Christoph",
@@ -3813,44 +3614,6 @@
    "gap": true
   },
   {
-   "composer": "Leo, Leonardo",
-   "title": "Concerto for 4 Violins in D major",
-   "aka": [
-    "Concerto a quattro violini in D major"
-   ],
-   "instruments": {
-    "violin": 4,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 5,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 13,
-   "notes": "Concerto for four solo violins and continuo; IMSLP files it with concertos",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Four equal violin parts with fast passagework, about ABRSM 7; all exposed",
-   "hardest_part_guess": "violin 1",
-   "imslpPage": "Concerto for 4 Violins (Leo, Leonardo)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Cosimo Prontera, \"Leonardo Leo: La Musica per Stanza\", Tactus (2013), Concerto for 4 Violins in D major",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Concerto_for_4_Violins_(Leo,_Leonardo)",
-    "https://www.deezer.com/album/585053962"
-   ],
-   "confidence": "low"
-  },
-  {
    "composer": "Schein, Johann Hermann",
    "title": "Suite No. 1 in D minor",
    "aka": [
@@ -5191,46 +4954,6 @@
     "https://www.deezer.com/album/569812351"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Fiorenza, Nicola",
-   "title": "Recorder Concerto in A minor",
-   "aka": [
-    "Sinfonia a flauto, due violini e basso in La minore"
-   ],
-   "instruments": {
-    "recorder": 1,
-    "violin": 2,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1726",
-   "minutes": 9,
-   "notes": "Concerto da camera for recorder, two violins and continuo (Grave, Allegro, Grave, Allegro); modern edition 2012",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Recorder part about ABRSM 8 with quick divisions; the strings are moderate",
-   "hardest_part_guess": "recorder",
-   "imslpPage": "Recorder Concerto in A minor (Fiorenza, Nicola)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Dolce & Tempesta, \"Fiorenza: Concerti & sonate\", Fuga Libera (2009), \"Sinfonia a flauto, due violini e basso in la minore\" (4 movements); Collegium Pro Musica, Stefano Bagliano, Brilliant Classics (2013)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Recorder_Concerto_in_A_minor_(Fiorenza,_Nicola)",
-    "https://www.deezer.com/album/236673382",
-    "https://www.deezer.com/album/6701340"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Funck, David",
@@ -7017,6 +6740,54 @@
    "works": 1,
    "reason": "out of scope: duo (violin and continuo)",
    "evidence": "Hortulus chelicus (1688) is for violin with basso continuo; recorded by Sean Yung-Hsiang Wang and Eco dell'Anima (Centaur 2016)"
+  },
+  {
+   "composer": "Drese, Adam",
+   "title": "Trio Sonata in A minor",
+   "imslpPage": "Trio Sonata in A minor (Drese, Adam)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Kühnel, August",
+   "title": "Sonatina à due No. 5 in C minor",
+   "imslpPage": "14 Sonate ò Partite (Kühnel, August)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Brade, William",
+   "title": "Paduana, Galliard and Coranta, NPGCAC 9",
+   "imslpPage": "Paduana, Galliard and Coranta, NPGCAC 9 (Brade, William)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Stölzel, Gottfried Heinrich",
+   "title": "Sonata a 4 in F major, IGS 168",
+   "imslpPage": "Sonata a 4 in F major, IGS 168 (Stölzel, Gottfried Heinrich)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Leo, Leonardo",
+   "title": "Concerto for 4 Violins in D major",
+   "imslpPage": "Concerto for 4 Violins (Leo, Leonardo)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Fiorenza, Nicola",
+   "title": "Recorder Concerto in A minor",
+   "imslpPage": "Recorder Concerto in A minor (Fiorenza, Nicola)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -7052,8 +6823,8 @@
   {
    "name": "Brade, William",
    "candidates": 17,
-   "kept": 1,
-   "skipped": 16,
+   "kept": 0,
+   "skipped": 17,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Brade is recorded (Savall 1994, Weser-Renaissance 2013) but the streaming titles do not give the NPGCAC numbers; only no. 9 is kept, on IMSLP's own recorded flag (low confidence). Canzonas 5, 14, 15 (unspecified instruments) not added. Partial: recordings exist but the pieces could not be tied to NPGCAC numbers."
@@ -7061,8 +6832,8 @@
   {
    "name": "Stölzel, Gottfried Heinrich",
    "candidates": 8,
-   "kept": 1,
-   "skipped": 7,
+   "kept": 0,
+   "skipped": 8,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "NeoBarock (ambitus 2020, Deezer 166034962) records trio sonatas in C minor, B-flat and E minor for two violins, matching the keys of Am.B 411a (6), (10), (12), but nothing ties them to those manuscript numbers: not kept. Partial: recorded trios and quadri could not be tied to the IMSLP manuscript numbers."
@@ -7142,8 +6913,8 @@
   {
    "name": "Kühnel, August",
    "candidates": 3,
-   "kept": 5,
-   "skipped": 1,
+   "kept": 4,
+   "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "partial",
    "note": "Nos. 1-5 kept (sonatas 1-3 and sonatinas 4-6 are \"à due\" on IMSLP; Dunford and Borstlap record them). Nos. 7-9 are solo sonatas (duos); Nos. 10-14 not checked against the print. Partial: Nos. 6 and 10-14 not checked against the print."
@@ -7205,8 +6976,8 @@
   {
    "name": "Leo, Leonardo",
    "candidates": 2,
-   "kept": 1,
-   "skipped": 1,
+   "kept": 0,
+   "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "Leo's concerto for four violins is often played with string orchestra; kept on the Tactus chamber recording (players not confirmed). Brief: violins with continuo are listed in both sections, but the violin catalogue holds no entry for it."
@@ -7340,8 +7111,8 @@
   {
    "name": "Drese, Adam",
    "candidates": 1,
-   "kept": 1,
-   "skipped": 0,
+   "kept": 0,
+   "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": ""
@@ -7358,8 +7129,8 @@
   {
    "name": "Fiorenza, Nicola",
    "candidates": 1,
-   "kept": 1,
-   "skipped": 0,
+   "kept": 0,
+   "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "Concerto flag: kept as a concerto for recorder, 2 violins and continuo (4 players); the Dolce & Tempesta track is matched by key, scoring and four movements, and one-to-a-part playing is not confirmed."
@@ -7545,5 +7316,5 @@
    "note": "All twelve sonatas of Op. 1 recorded by Ars Antiqua Austria (Pan Classics 2020); Nos. 1, 5, 12 add two trumpets (seven players)."
   }
  ],
- "note": "Slice m03 (58 baroque composers with one to four recorded IMSLP works). Sources: IMSLP API work pages (scorings, keys, dates), Deezer album and track lists (the /tracks endpoint, because the album endpoint cuts lists at 25 tracks), Apple song search, MusicBrainz works and recordings, and a few pages opened by WebFetch (MusicWeb reviews, The Bach Players). Compilation discs often carry no composer name in their streaming titles (Ravenscroft Op. 1 No. 8, McGibbon, Drese and Clérambault were found only through MusicBrainz and web search), so several 'not performed or recorded' skips are weak; each evidence line says what was searched. Multi-work sets are entered one work per sonata: Pezel's 25 Alphabet Sonatas, Veracini Op. 1 (10), Weichlein Op. 1 (12), Torelli Op. 2 (12), Manfredini Op. 2 (12), Bassani Op. 5 (12), Reincken's 6 Hortus Musicus partitas, Schein's Banchetto musicale (14 of 20 suites, scored for five viols with violins as alternatives; their IMSLP pages were filed as unspecified instruments), Fioré Op. 1 (6 of 12), Nicolai (7 of 12 sonatas and one sonata a 2), Kühnel (5 of 14). Scoring conventions: a violone or cello 'col basso per l'organo' is folded into the continuo, except where the print gives the cello its own part (Fioré; Bassani Op. 5 Nos. 7-12); the viola of Manfredini Op. 2 ('a beneplacito') and the cello of Bassani Op. 5 Nos. 1-6 are optional. String-orchestra questions: Barsanti Op. 4 overtures, Fritz Op. 1 Nos. 5 and 6 (La Stagione Frankfurt, CPO, called Sinfonia), Brant's Sinfonia, and the mandolin concertos of Cecere, Caudioso and Giuliani are skipped. Kept without a confirmed one-to-a-part recording: Pezel's Alphabet Sonatas (Acronym, a 12-member string band), Leo's Concerto for four violins, Fiorenza's recorder concerto, Blavet's flute concerto. Owner decisions: Bassani Op. 1 (second violin 'a beneplacito', recorded complete by Ensemble Armonico Cimento, Tactus) is skipped as a duo; Hotteterre Op. 3, Loeillet Op. 1 and Mouret print flutes first with violins only as an alternative and are skipped as 'no string part' (c10 entered such Boismortier prints with the violins first); Picchi's and Selma y Salaverde's canzonas (1-8 parts, unspecified instruments, recorded complete) are not itemised; Lully's Trios de la Chambre du Roi and Zanetti's Il scolaro are skipped. Levels are estimates from style and the benchmarks, not graded from scores; minutes come from the recordings named in each entry; no benchmarks or violin-catalogue entries in this slice."
+ "note": "Slice m03 (58 baroque composers with one to four recorded IMSLP works). Sources: IMSLP API work pages (scorings, keys, dates), Deezer album and track lists (the /tracks endpoint, because the album endpoint cuts lists at 25 tracks), Apple song search, MusicBrainz works and recordings, and a few pages opened by WebFetch (MusicWeb reviews, The Bach Players). Compilation discs often carry no composer name in their streaming titles (Ravenscroft Op. 1 No. 8, McGibbon, Drese and Clérambault were found only through MusicBrainz and web search), so several 'not performed or recorded' skips are weak; each evidence line says what was searched. Multi-work sets are entered one work per sonata: Pezel's 25 Alphabet Sonatas, Veracini Op. 1 (10), Weichlein Op. 1 (12), Torelli Op. 2 (12), Manfredini Op. 2 (12), Bassani Op. 5 (12), Reincken's 6 Hortus Musicus partitas, Schein's Banchetto musicale (14 of 20 suites, scored for five viols with violins as alternatives; their IMSLP pages were filed as unspecified instruments), Fioré Op. 1 (6 of 12), Nicolai (7 of 12 sonatas and one sonata a 2), Kühnel (5 of 14). Scoring conventions: a violone or cello 'col basso per l'organo' is folded into the continuo, except where the print gives the cello its own part (Fioré; Bassani Op. 5 Nos. 7-12); the viola of Manfredini Op. 2 ('a beneplacito') and the cello of Bassani Op. 5 Nos. 1-6 are optional. String-orchestra questions: Barsanti Op. 4 overtures, Fritz Op. 1 Nos. 5 and 6 (La Stagione Frankfurt, CPO, called Sinfonia), Brant's Sinfonia, and the mandolin concertos of Cecere, Caudioso and Giuliani are skipped. Kept without a confirmed one-to-a-part recording: Pezel's Alphabet Sonatas (Acronym, a 12-member string band), Leo's Concerto for four violins, Fiorenza's recorder concerto, Blavet's flute concerto. Owner decisions: Bassani Op. 1 (second violin 'a beneplacito', recorded complete by Ensemble Armonico Cimento, Tactus) is skipped as a duo; Hotteterre Op. 3, Loeillet Op. 1 and Mouret print flutes first with violins only as an alternative and are skipped as 'no string part' (c10 entered such Boismortier prints with the violins first); Picchi's and Selma y Salaverde's canzonas (1-8 parts, unspecified instruments, recorded complete) are not itemised; Lully's Trios de la Chambre du Roi and Zanetti's Il scolaro are skipped. Levels are estimates from style and the benchmarks, not graded from scores; minutes come from the recordings named in each entry; no benchmarks or violin-catalogue entries in this slice. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 6 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Drese: Trio Sonata in A minor; Kühnel: Sonatina à due No. 5 in C minor; Brade: Paduana, Galliard and Coranta, NPGCAC 9; Stölzel: Sonata a 4 in F major, IGS 168; Leo: Concerto for 4 Violins in D major; Fiorenza: Recorder Concerto in A minor."
 }

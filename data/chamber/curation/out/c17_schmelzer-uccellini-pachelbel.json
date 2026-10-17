@@ -2328,44 +2328,6 @@
   },
   {
    "composer": "Uccellini, Marco",
-   "title": "Sonata overo canzone a 4, Op. 7 No. 18",
-   "aka": [],
-   "instruments": {
-    "violin": 1,
-    "viola": 2,
-    "cello": 1,
-    "continuo": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 5,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": "Ozio regio, Op. 7",
-   "year": "1660",
-   "minutes": 3,
-   "notes": "Violin, alto, tenor and bass with continuo",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "early Italian trio writing in short sections; about ABRSM 6",
-   "hardest_part_guess": "violin",
-   "imslpPage": "Ozio Regio, Op.7 (Uccellini, Marco)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Venice: Gardano, 1660 (IMSLP)",
-    "recorded": "MusicBrainz recording on \"Les Plus Beaux CD du mois — janvier 2023\" (performer not listed)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Ozio_Regio,_Op.7_(Uccellini,_Marco)",
-    "https://musicbrainz.org/work/e78945d6-2dbc-44fc-bf17-f42f121626bb"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Uccellini, Marco",
    "title": "Sinfonia nona a tre violini, Op. 9",
    "aka": [],
    "instruments": {
@@ -4885,6 +4847,14 @@
    "works": 6,
    "reason": "not performed or recorded",
    "evidence": "Apple Music (Savall, A.C.R.O.N.Y.M.) and MusicBrainz: no recording of these numbers identified"
+  },
+  {
+   "composer": "Uccellini, Marco",
+   "title": "Sonata overo canzone a 4, Op. 7 No. 18",
+   "imslpPage": "Ozio Regio, Op.7 (Uccellini, Marco)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -4902,8 +4872,8 @@
   {
    "name": "Uccellini, Marco",
    "candidates": 11,
-   "kept": 28,
-   "skipped": 154,
+   "kept": 27,
+   "skipped": 155,
    "added_not_on_imslp": 3,
    "coverage": "complete",
    "note": "Gap check against the Wikipedia work list and Apple Music: Op. 9 added (not on IMSLP); Op. 6 is vocal; Opp. 1–2 are in neither IMSLP nor Wikipedia and were not checked"
@@ -4936,5 +4906,5 @@
    "note": "Gap check against Apple Music and MusicBrainz; the rest of the output is vocal"
   }
  ],
- "note": "Schmelzer: Sacro-profanus and Duodena sonatas titled 'Sonata a N No. n' (the print's numbering) with the collection as set; keys only where a recording or IMSLP gives them. Gap check from de.wikipedia's work list: Serenata con altre arie a 5, Balletti a 4 and a 5, Sonata a 8 per chiesa e camera and the Sonata a 3 for violin, clarino and trombone are recorded but their exact scorings (bass/continuo) were not confirmed, so not added. Uccellini: Op. 3/4 pieces kept only where a recording names the piece; 'a 3' pieces with 'basso' get a cello beside the continuo, as IMSLP lists a separate bass part. The Op. 9 sinfonie (not on IMSLP) are attributed to Op. 9 from the Manze album; the Clematis tracks' opus is inferred, not printed. Pachelbel: the Aria con variazioni in A major, P. 28 (recorded by Musica Antiqua Köln) and the Suite in F-sharp minor, P. 449, were not added: their scorings (Wikipedia: 'vn, 2vg'; 'vn, 2va, b.c.') could not be confirmed against an edition and no recording of P. 449 was found. Locke: the Broken Consort and Little Consort suites are given as three viols (IMSLP's editions) with violins as printed alternatives; the Locke Consort plays Part I on violins with continuo. Broken Consort Part II (5 suites) is not on IMSLP: its scoring is assumed to match Part I. Tripla Concordia (1677) is an anthology and was not added. Rosenmüller: the 1682 sonatas' bass part is IMSLP's 'viol/bassoon' (given as viola da gamba, bassoon as alternative). Studentenmusik (1654; recorded by The King's Noyse) is for unspecified 3 or 5 parts and was not added. Evidence comes from Apple Music (iTunes Search API) track lists, MusicBrainz works and IMSLP; Presto and Naxos were not consulted. Levels are estimates from the scoring and recordings, not from reading the scores. Uccellini's Op. 7 No. 18 rests on a single MusicBrainz recording with no performer listed (confidence low)."
+ "note": "Schmelzer: Sacro-profanus and Duodena sonatas titled 'Sonata a N No. n' (the print's numbering) with the collection as set; keys only where a recording or IMSLP gives them. Gap check from de.wikipedia's work list: Serenata con altre arie a 5, Balletti a 4 and a 5, Sonata a 8 per chiesa e camera and the Sonata a 3 for violin, clarino and trombone are recorded but their exact scorings (bass/continuo) were not confirmed, so not added. Uccellini: Op. 3/4 pieces kept only where a recording names the piece; 'a 3' pieces with 'basso' get a cello beside the continuo, as IMSLP lists a separate bass part. The Op. 9 sinfonie (not on IMSLP) are attributed to Op. 9 from the Manze album; the Clematis tracks' opus is inferred, not printed. Pachelbel: the Aria con variazioni in A major, P. 28 (recorded by Musica Antiqua Köln) and the Suite in F-sharp minor, P. 449, were not added: their scorings (Wikipedia: 'vn, 2vg'; 'vn, 2va, b.c.') could not be confirmed against an edition and no recording of P. 449 was found. Locke: the Broken Consort and Little Consort suites are given as three viols (IMSLP's editions) with violins as printed alternatives; the Locke Consort plays Part I on violins with continuo. Broken Consort Part II (5 suites) is not on IMSLP: its scoring is assumed to match Part I. Tripla Concordia (1677) is an anthology and was not added. Rosenmüller: the 1682 sonatas' bass part is IMSLP's 'viol/bassoon' (given as viola da gamba, bassoon as alternative). Studentenmusik (1654; recorded by The King's Noyse) is for unspecified 3 or 5 parts and was not added. Evidence comes from Apple Music (iTunes Search API) track lists, MusicBrainz works and IMSLP; Presto and Naxos were not consulted. Levels are estimates from the scoring and recordings, not from reading the scores. Uccellini's Op. 7 No. 18 rests on a single MusicBrainz recording with no performer listed (confidence low). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Uccellini: Sonata overo canzone a 4, Op. 7 No. 18."
 }

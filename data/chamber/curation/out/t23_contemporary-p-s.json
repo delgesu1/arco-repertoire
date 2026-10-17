@@ -18,14 +18,6 @@
    "in_catalogue": false
   },
   {
-   "name": "Sardelli, Federico Maria",
-   "dates": "1963–",
-   "nationality": "Italian",
-   "gender": "M",
-   "era": "contemporary",
-   "in_catalogue": false
-  },
-  {
    "name": "Salzedo, Leonard",
    "dates": "1921–2000",
    "nationality": "British",
@@ -45,14 +37,6 @@
    "name": "Skoumal, Adam",
    "dates": "1969–",
    "nationality": "Czech",
-   "gender": "M",
-   "era": "contemporary",
-   "in_catalogue": false
-  },
-  {
-   "name": "Pepples, Craig",
-   "dates": "",
-   "nationality": "",
    "gender": "M",
    "era": "contemporary",
    "in_catalogue": false
@@ -405,45 +389,6 @@
    "confidence": "medium"
   },
   {
-   "composer": "Sardelli, Federico Maria",
-   "title": "Fuga postale a 4 in G major",
-   "aka": [
-    "Fuga postale"
-   ],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "string-quartet",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "2009",
-   "minutes": 3,
-   "notes": "Four-part fugue in Baroque style; the recording is by the Modo Antiquo band, players per part not stated",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Baroque-style fugue with even textures; about ABRSM 6",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "Fuga postale a 4 (Sardelli, Federico Maria)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Federico Maria Sardelli (IMSLP)",
-    "recorded": "Modo Antiquo, F. M. Sardelli, Brilliant Classics 94749 'Sardelli: Baroque Concertos, Psalm, Chamber Music' (2013), 2:39",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Fuga_postale_a_4_(Sardelli,_Federico_Maria)",
-    "https://api.deezer.com/album/6897080"
-   ],
-   "confidence": "low"
-  },
-  {
    "composer": "Salzedo, Leonard",
    "title": "String Quartet No. 1, Op. 1",
    "aka": [],
@@ -718,43 +663,6 @@
     "https://api.deezer.com/album/67062332"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Pepples, Craig",
-   "title": "String Quartet No. 1",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "string-quartet",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "2014",
-   "minutes": 8,
-   "notes": "Recorded by the Mivos Quartet on Open Space CD 42 (2020), per the composer's IMSLP note",
-   "popularity": "lesser-known",
-   "level_guess": 7,
-   "level_basis": "Contemporary quartet writing; diploma level",
-   "hardest_part_guess": "balanced",
-   "imslpPage": "String Quartet No.1 (Pepples, Craig)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Craig Pepples (IMSLP)",
-    "recorded": "Mivos Quartet, Open Space CD 42 'Boretz-Pepples' (2020); named only in the composer's IMSLP note, track list not seen",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/String_Quartet_No.1_(Pepples,_Craig)",
-    "https://theopenspace.bandcamp.com/music"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Queipo de Llano, Pablo",
@@ -5364,6 +5272,22 @@
    "works": 1,
    "reason": "composer without a professional track record",
    "evidence": "MusicBrainz: no artist match; Deezer: nothing carries the name; Apple composerTerm: 0 result(s), none a chamber work of the composer. IMSLP (16 page(s)): uploader Z Q Sysmoebius; publisher: Z Q Sysmoebius, 2020.; performers: none named; first performances: none named. pseudonymous uploader with 16 pages of computer-generated titles"
+  },
+  {
+   "composer": "Sardelli, Federico Maria",
+   "title": "Fuga postale a 4 in G major",
+   "imslpPage": "Fuga postale a 4 (Sardelli, Federico Maria)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Pepples, Craig",
+   "title": "String Quartet No. 1",
+   "imslpPage": "String Quartet No.1 (Pepples, Craig)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -5895,8 +5819,8 @@
   {
    "name": "Pepples, Craig",
    "candidates": 3,
-   "kept": 1,
-   "skipped": 2,
+   "kept": 0,
+   "skipped": 3,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "Recorded by Paul Zukofsky (Syzygia, Pine Cones Fall, Snow's Falling; the last is for orchestra, Pine Cones Fall has a shakuhachi). String Quartet No. 1 kept at confidence low: the Mivos recording on Open Space CD 42 is attested only by the IMSLP note and the label's Bandcamp listing 'Boretz-Pepples'"
@@ -6597,8 +6521,8 @@
   {
    "name": "Sardelli, Federico Maria",
    "candidates": 25,
-   "kept": 1,
-   "skipped": 24,
+   "kept": 0,
+   "skipped": 25,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "Professional conductor, recorder player and Vivaldi scholar writing Baroque-style music. Fuga postale a 4 kept at confidence low: IMSLP calls it a string quartet, the recording is by a band and may not be one to a part (string-orchestra question; drop it if the owner wants named players). Fuga arguta a 4, also on the disc, is an out-of-scope IMSLP page ('4 instruments' / strings and continuo); Fuga del sepolcro has no IMSLP page. IMSLP dates Fuga postale 2009, a retailer 2007"
@@ -7144,5 +7068,5 @@
    "note": "pseudonymous uploader with 16 pages of computer-generated titles"
   }
  ],
- "note": "METHOD: one background script queried all 149 composers: MusicBrainz (artist match on name, then every work with linked recordings), Deezer (album, artist and track search on the name) and Apple's composerTerm song search (for every composer except those where Deezer had a chamber-titled hit or MusicBrainz a work with recordings); all 567 IMSLP pages were read through api.php (publisher, uploader, performers, first performance) to judge the track record. Hits were opened through Deezer and Apple track lists, MusicBrainz releases and the NEOS, Mode, MusicWeb, Wikipedia and Bandcamp pages (12 WebSearch calls). RESULT: 9 composers have something in scope (Pape, Salbert, Sardelli, Salzedo, Ritzen, Skoumal, Pepples, Queipo de Llano, Petering): 22 works kept, 6 of them not on IMSLP. 32 composers are 'triage: none found': some professional footprint (a publisher, other works recorded by others, named performers on IMSLP) but nothing for the candidates. 108 are proposed in exclude_composers: living composers whose IMSLP pages are the composer's own uploads (uploader and publisher are the composer, or none is named) and for whom no recording by anyone else, no publisher and no professional performance turned up; their pages are skipped as 'composer without a professional track record'. The proposal rests mainly on the IMSLP upload data; for common names the lookups are swamped by namesakes and 'none found' is weak: Peters (Rob), Ray (Nick), Reed (Jacob), Rees (Harry), Ricci (Luca), Roberts (Hayden and Harry M.), Robinson (Rick), Rogers (Chris), Santos (Jonathan; Marcos V. R. dos), Sanz (Andrés), Schmidt (Johannes V.; Steven), Scott (Douglas W.), Shi (Jack), Shirley (Nathan), Shoemaker (Craig), Shute (Benjamin), Simpson (Daniel L.), Sokolov (Alexander), Song (Ruoshui), St. Clair (Richard), Steiner (Wolfgang), Stine (Robert), Sumbler (David), Pandolfo (Paolo), Politano (Antonio), Pièce (Adrien), Romano (Juan O.). ADDED, NOT ON IMSLP: Salzedo's string quartets Nos. 1, 2, 5, 7 and 10 (Archaeus Quartet; Dutton Epoch CDLX 7113 and MPR 104) and Queipo de Llano's Trio Sonata Op. 2 No. 4b (Ensemble Guidantus, Enchiriadis 2013). WEAK ENTRIES (confidence low; drop if too thin): Sardelli's Fuga postale a 4 (Modo Antiquo is a band: string-orchestra question, and a retailer dates it 2007, IMSLP 2009), Pepples's String Quartet No. 1 (the Mivos recording on Open Space CD 42 is known only from the IMSLP note and the label's Bandcamp listing 'Boretz-Pepples'). MEDIUM: Ritzen's Piano Quintet (Naxos 9.70142, only Ritzen credited), Petering's four works (a live Fifth House Ensemble album on his own label Zebrina Records), Pape's Le Fleuve du Desir III (quartet with tape; the NEOS disc has a later version, IX), Salbert's three works (a 1993 disc on the small label prospect Studio-Label-Verlag). RECORDED BUT NOT ENTERED: Salzedo's Sonata for violin and viola Op. 132 (duo); Seco de Arpe's Clarinet Trio No. 2, Op. 18 (EMEC Records, scoring not established); Queipo de Llano's fugue collections (53/60 fugues for strings and continuo, Ensemble Fisarchi), concertos and sinfonias (scoring and players per part not established); Sardelli's Fuga arguta a 4 (an out-of-scope IMSLP page, 'unspecified instruments') and Fuga del sepolcro (no page); Sauter's possible 'Aria et fugue' on Teth (Phasma Music, 2021): Apple does not attribute the track to him and the label is unidentified; Pape's quartet-and-seven-quartets version IX. LOOKUPS: MusicBrainz was slow under the shared clock but answered for all 149 composers (the first lookup for Cyril Plante failed with a FetchError; a retry returned no artist); Deezer returned for all and Apple for all but the Deezer-hit composers.  OPEN PROBLEMS: levels are estimates; the dates of Salzedo's Nos. 2 and 7 come from a review snippet; Pape is spelled as on IMSLP ('Gerard', usually 'Gérard'); Petering, Ritzen and Skoumal have no confirmed birth dates or nationality beyond what is stated in the authors list."
+ "note": "METHOD: one background script queried all 149 composers: MusicBrainz (artist match on name, then every work with linked recordings), Deezer (album, artist and track search on the name) and Apple's composerTerm song search (for every composer except those where Deezer had a chamber-titled hit or MusicBrainz a work with recordings); all 567 IMSLP pages were read through api.php (publisher, uploader, performers, first performance) to judge the track record. Hits were opened through Deezer and Apple track lists, MusicBrainz releases and the NEOS, Mode, MusicWeb, Wikipedia and Bandcamp pages (12 WebSearch calls). RESULT: 9 composers have something in scope (Pape, Salbert, Sardelli, Salzedo, Ritzen, Skoumal, Pepples, Queipo de Llano, Petering): 22 works kept, 6 of them not on IMSLP. 32 composers are 'triage: none found': some professional footprint (a publisher, other works recorded by others, named performers on IMSLP) but nothing for the candidates. 108 are proposed in exclude_composers: living composers whose IMSLP pages are the composer's own uploads (uploader and publisher are the composer, or none is named) and for whom no recording by anyone else, no publisher and no professional performance turned up; their pages are skipped as 'composer without a professional track record'. The proposal rests mainly on the IMSLP upload data; for common names the lookups are swamped by namesakes and 'none found' is weak: Peters (Rob), Ray (Nick), Reed (Jacob), Rees (Harry), Ricci (Luca), Roberts (Hayden and Harry M.), Robinson (Rick), Rogers (Chris), Santos (Jonathan; Marcos V. R. dos), Sanz (Andrés), Schmidt (Johannes V.; Steven), Scott (Douglas W.), Shi (Jack), Shirley (Nathan), Shoemaker (Craig), Shute (Benjamin), Simpson (Daniel L.), Sokolov (Alexander), Song (Ruoshui), St. Clair (Richard), Steiner (Wolfgang), Stine (Robert), Sumbler (David), Pandolfo (Paolo), Politano (Antonio), Pièce (Adrien), Romano (Juan O.). ADDED, NOT ON IMSLP: Salzedo's string quartets Nos. 1, 2, 5, 7 and 10 (Archaeus Quartet; Dutton Epoch CDLX 7113 and MPR 104) and Queipo de Llano's Trio Sonata Op. 2 No. 4b (Ensemble Guidantus, Enchiriadis 2013). WEAK ENTRIES (confidence low; drop if too thin): Sardelli's Fuga postale a 4 (Modo Antiquo is a band: string-orchestra question, and a retailer dates it 2007, IMSLP 2009), Pepples's String Quartet No. 1 (the Mivos recording on Open Space CD 42 is known only from the IMSLP note and the label's Bandcamp listing 'Boretz-Pepples'). MEDIUM: Ritzen's Piano Quintet (Naxos 9.70142, only Ritzen credited), Petering's four works (a live Fifth House Ensemble album on his own label Zebrina Records), Pape's Le Fleuve du Desir III (quartet with tape; the NEOS disc has a later version, IX), Salbert's three works (a 1993 disc on the small label prospect Studio-Label-Verlag). RECORDED BUT NOT ENTERED: Salzedo's Sonata for violin and viola Op. 132 (duo); Seco de Arpe's Clarinet Trio No. 2, Op. 18 (EMEC Records, scoring not established); Queipo de Llano's fugue collections (53/60 fugues for strings and continuo, Ensemble Fisarchi), concertos and sinfonias (scoring and players per part not established); Sardelli's Fuga arguta a 4 (an out-of-scope IMSLP page, 'unspecified instruments') and Fuga del sepolcro (no page); Sauter's possible 'Aria et fugue' on Teth (Phasma Music, 2021): Apple does not attribute the track to him and the label is unidentified; Pape's quartet-and-seven-quartets version IX. LOOKUPS: MusicBrainz was slow under the shared clock but answered for all 149 composers (the first lookup for Cyril Plante failed with a FetchError; a retry returned no artist); Deezer returned for all and Apple for all but the Deezer-hit composers.  OPEN PROBLEMS: levels are estimates; the dates of Salzedo's Nos. 2 and 7 come from a review snippet; Pape is spelled as on IMSLP ('Gerard', usually 'Gérard'); Petering, Ritzen and Skoumal have no confirmed birth dates or nationality beyond what is stated in the authors list. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 2 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Sardelli: Fuga postale a 4 in G major; Pepples: String Quartet No. 1."
 }

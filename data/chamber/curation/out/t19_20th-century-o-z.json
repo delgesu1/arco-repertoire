@@ -1078,46 +1078,6 @@
    "confidence": "medium"
   },
   {
-   "composer": "Porter, Quincy",
-   "title": "Clarinet Quintet",
-   "aka": [
-    "Quintet for Clarinet and String Quartet"
-   ],
-   "instruments": {
-    "clarinet": 1,
-    "violin": 2,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 5,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1929",
-   "minutes": 11,
-   "notes": "For clarinet and string quartet; recorded by David Shifrin and Chamber Music Northwest",
-   "popularity": "lesser-known",
-   "level_guess": 6,
-   "level_basis": "Clarinet about pre-diploma; strings about level 5",
-   "hardest_part_guess": "clarinet",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "David Shifrin and Chamber Music Northwest, 'American Chamber Music' (1991)",
-    "performed": ""
-   },
-   "sources": [
-    "https://musicbrainz.org/recording/21052732-8fb2-4bc2-9cab-582c0fd34065",
-    "https://en.wikipedia.org/wiki/Quincy_Porter"
-   ],
-   "confidence": "low"
-  },
-  {
    "composer": "Reed, William Henry",
    "title": "String Quartet No. 5 in A minor",
    "aka": [],
@@ -1418,45 +1378,6 @@
     "https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/riisager-knudage-0"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Rieti, Vittorio",
-   "title": "Partita for Flute, Oboe, String Quartet and Harpsichord",
-   "aka": [],
-   "instruments": {
-    "flute": 1,
-    "oboe": 1,
-    "violin": 2,
-    "viola": 1,
-    "cello": 1,
-    "harpsichord": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 7,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 19,
-   "notes": "Three movements; recorded with Sylvia Marlowe at the harpsichord",
-   "popularity": "lesser-known",
-   "level_guess": 6,
-   "level_basis": "Neoclassical partita in three movements; moderate technique for all seven",
-   "hardest_part_guess": "balanced",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Sylvia Marlowe and ensemble, Composers Recordings Inc. (reissue 2007)",
-    "performed": ""
-   },
-   "sources": [
-    "https://www.deezer.com/album/1080376"
-   ],
-   "confidence": "low"
   },
   {
    "composer": "Rogister, Jean",
@@ -6846,6 +6767,22 @@
    "works": 1,
    "reason": "not performed or recorded (composer triage)",
    "evidence": "MusicBrainz: no artist of that name; Deezer: 0 album(s) with the surname, none a chamber disc of this composer; Apple composerTerm: 5 results, no chamber-titled track attributable to this composer (screened for the surname and the candidates' opus numbers)"
+  },
+  {
+   "composer": "Porter, Quincy",
+   "title": "Clarinet Quintet",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Rieti, Vittorio",
+   "title": "Partita for Flute, Oboe, String Quartet and Harpsichord",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -7195,8 +7132,8 @@
   {
    "name": "Porter, Quincy",
    "candidates": 11,
-   "kept": 13,
-   "skipped": 3,
+   "kept": 12,
+   "skipped": 4,
    "added_not_on_imslp": 5,
    "coverage": "complete",
    "note": "Quartets 3-9 and the Little Trio are recorded; Quartets 1 and 2, In Monasterio, the Oboe Quintet and the Clarinet Quintet are on discs I opened and not on IMSLP (added). Bagatelle, Divertimento and Quintet on a Childhood Theme not found recorded"
@@ -7366,8 +7303,8 @@
   {
    "name": "Rieti, Vittorio",
    "candidates": 1,
-   "kept": 2,
-   "skipped": 1,
+   "kept": 1,
+   "skipped": 2,
    "added_not_on_imslp": 2,
    "coverage": "complete",
    "note": "The 1926 quartet is not recorded; the Partita (CRI/New World reissue) and the Piano Trio (Brilliant Classics 2022) are not on IMSLP (added from track titles and MusicBrainz release data; years and durations not confirmed)"
@@ -8768,5 +8705,5 @@
    "note": "Found by the Apple composerTerm search: the D-major quartet (IMSLP key D) is on MarchVivo MV014 (2025), a first recording"
   }
  ],
- "note": "METHOD (about 52 tool calls, 4 WebSearch, 3 WebFetch). One background script queried all 198 composers (the publisher imprint Wilhelm Hansen was not searched): Deezer album search on 'Given Surname' and on transliteration variants (for composers whose first search returned 15 or more albums and no chamber disc, a second pass '<Surname> string quartet / piano trio / chamber music'); MusicBrainz (artist search eight composers per request, matched on name and dates, then every work with its linked recordings, up to 600 works); and Apple's composerTerm song search for the composers without a strict Deezer chamber hit (screened by script for chamber-titled tracks that carry the surname or a candidate's opus number; the other chamber-titled collections were read by eye in a digest). Hits were opened through Deezer album and track lists, Apple lookups, MusicBrainz recordings and releases, IMSLP (api.php) and Wikipedia work lists. One MusicBrainz works browse failed (Schmid) and was retried successfully; no other lookup failed. RESULT: 39 composers had a commercial recording in scope: 107 works kept (52 IMSLP pages, 55 not on IMSLP); the other composers are 'triage: none found'. ADDED NOT ON IMSLP: Pijper SQ 2; Porter SQ 1-2, In Monasterio, Oboe Quintet, Clarinet Quintet; Reed SQ 4; Reizenstein Piano Quintet; Riisager Op. 4, 9, 15; Rieti Partita and Piano Trio; Rogister SQ 2, 6; Rogowski SQ 2; Rosenberg SQ 1, 3-6, 8-12 and the Divertimento for string trio; Rózsa SQ 1-2; Valen SQ 0; Watson SQ 1, 3; Wehrli Trio for violin, horn and piano; Weisse Clarinet Quintet; Wertheim Lanceloet preludes; Scott's two piano trios, clarinet quintet and clarinet trio; Slavenski SQ 2-4; Smit Quintet and clarinet trio; Sorabji Il tessuto d'arabeschi; Sowerby SQ in G minor and D minor, two piano trios and the flute trio; Spain-Dunk Piano Quartet; Tcherepnin SQ 1, A-minor quartet, Piano Quintet, Piano Trio. EXCLUSION PROPOSALS: 31 composers with recent self-uploads (see exclude_composers); borderline and NOT proposed because they may be professional (not searched): Żołnowski, Saral, Wang Che-Yuan, Yılmaz, Todorov, Otero, Soriano Thebas, Schwenkglenks, Strohbach, Rickman, Szervác, Webber. WEAK 'none found': common surnames (Smith, Scott, Weber, Walker, Ward, Watson, Webber, Shaw, Richter, Ritter, Rinaldi, Ryan, Petersen, Roe, Stahl), initials or pseudonyms (Z., Yudit; Ravpapa) and Russian or Armenian transliterations (Yevlachov, Yevseyev, Ryazanov, Shirinsky, Zhitomirsky, Polovinkin, Stephanian). LOW CONFIDENCE (the owner may drop them): Porter Clarinet Quintet (MusicBrainz release only), Rieti Partita (scoring and year from an Italian track title), Weber (MusicBrainz release only), Sammons Phantasy Quartet (historical recording on a 2023 Dutton release, performers not confirmed), the Sowerby, Smit and Spain-Dunk additions (MusicBrainz release data only), Riisager Op. 4 and 9 (scoring from a work list by title and year), Rosenberg years (Wikipedia). OPEN: Rosenberg SQ 7 (no recording found); Straesser Quintet Op. 9b and Schmid Trio Op. 114 (scoring unclear); Scott's Piano Quintet No. 2 and string trios, Poulenc's other Gendarme versions and Rogowski's later quartets not checked; IMSLP gives Scott's Piano Quintet No. 1 as 1904, Wikipedia 1920. FOUND ONLY BY A TITLE SCREEN of the Apple composerTerm results (the track names carry no chamber word): Pillois's 5 Haïkaï, Rohozinski's Suite brève, Shepherd's Triptych for high voice and string quartet, Zurrón's Piano Quartet; the same screen on the other composers' candidate titles found nothing more. LEFT OUT AS VOCAL REPERTOIRE: Quilter's Three Pastoral Songs and Petyrek's two Lieder (recorded only with violin and piano)."
+ "note": "METHOD (about 52 tool calls, 4 WebSearch, 3 WebFetch). One background script queried all 198 composers (the publisher imprint Wilhelm Hansen was not searched): Deezer album search on 'Given Surname' and on transliteration variants (for composers whose first search returned 15 or more albums and no chamber disc, a second pass '<Surname> string quartet / piano trio / chamber music'); MusicBrainz (artist search eight composers per request, matched on name and dates, then every work with its linked recordings, up to 600 works); and Apple's composerTerm song search for the composers without a strict Deezer chamber hit (screened by script for chamber-titled tracks that carry the surname or a candidate's opus number; the other chamber-titled collections were read by eye in a digest). Hits were opened through Deezer album and track lists, Apple lookups, MusicBrainz recordings and releases, IMSLP (api.php) and Wikipedia work lists. One MusicBrainz works browse failed (Schmid) and was retried successfully; no other lookup failed. RESULT: 39 composers had a commercial recording in scope: 107 works kept (52 IMSLP pages, 55 not on IMSLP); the other composers are 'triage: none found'. ADDED NOT ON IMSLP: Pijper SQ 2; Porter SQ 1-2, In Monasterio, Oboe Quintet, Clarinet Quintet; Reed SQ 4; Reizenstein Piano Quintet; Riisager Op. 4, 9, 15; Rieti Partita and Piano Trio; Rogister SQ 2, 6; Rogowski SQ 2; Rosenberg SQ 1, 3-6, 8-12 and the Divertimento for string trio; Rózsa SQ 1-2; Valen SQ 0; Watson SQ 1, 3; Wehrli Trio for violin, horn and piano; Weisse Clarinet Quintet; Wertheim Lanceloet preludes; Scott's two piano trios, clarinet quintet and clarinet trio; Slavenski SQ 2-4; Smit Quintet and clarinet trio; Sorabji Il tessuto d'arabeschi; Sowerby SQ in G minor and D minor, two piano trios and the flute trio; Spain-Dunk Piano Quartet; Tcherepnin SQ 1, A-minor quartet, Piano Quintet, Piano Trio. EXCLUSION PROPOSALS: 31 composers with recent self-uploads (see exclude_composers); borderline and NOT proposed because they may be professional (not searched): Żołnowski, Saral, Wang Che-Yuan, Yılmaz, Todorov, Otero, Soriano Thebas, Schwenkglenks, Strohbach, Rickman, Szervác, Webber. WEAK 'none found': common surnames (Smith, Scott, Weber, Walker, Ward, Watson, Webber, Shaw, Richter, Ritter, Rinaldi, Ryan, Petersen, Roe, Stahl), initials or pseudonyms (Z., Yudit; Ravpapa) and Russian or Armenian transliterations (Yevlachov, Yevseyev, Ryazanov, Shirinsky, Zhitomirsky, Polovinkin, Stephanian). LOW CONFIDENCE (the owner may drop them): Porter Clarinet Quintet (MusicBrainz release only), Rieti Partita (scoring and year from an Italian track title), Weber (MusicBrainz release only), Sammons Phantasy Quartet (historical recording on a 2023 Dutton release, performers not confirmed), the Sowerby, Smit and Spain-Dunk additions (MusicBrainz release data only), Riisager Op. 4 and 9 (scoring from a work list by title and year), Rosenberg years (Wikipedia). OPEN: Rosenberg SQ 7 (no recording found); Straesser Quintet Op. 9b and Schmid Trio Op. 114 (scoring unclear); Scott's Piano Quintet No. 2 and string trios, Poulenc's other Gendarme versions and Rogowski's later quartets not checked; IMSLP gives Scott's Piano Quintet No. 1 as 1904, Wikipedia 1920. FOUND ONLY BY A TITLE SCREEN of the Apple composerTerm results (the track names carry no chamber word): Pillois's 5 Haïkaï, Rohozinski's Suite brève, Shepherd's Triptych for high voice and string quartet, Zurrón's Piano Quartet; the same screen on the other composers' candidate titles found nothing more. LEFT OUT AS VOCAL REPERTOIRE: Quilter's Three Pastoral Songs and Petyrek's two Lieder (recorded only with violin and piano). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 2 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Porter: Clarinet Quintet; Rieti: Partita for Flute, Oboe, String Quartet and Harpsichord."
 }

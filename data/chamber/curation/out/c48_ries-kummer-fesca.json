@@ -2471,45 +2471,6 @@
     "https://musicbrainz.org/release/e0b9dc23-898b-4633-9584-9ab2a6fc8148"
    ],
    "confidence": "medium"
-  },
-  {
-   "composer": "Field, John",
-   "title": "Divertissement No. 1 in E major, H 13",
-   "aka": [],
-   "instruments": {
-    "violin": 2,
-    "viola": 1,
-    "cello": 1,
-    "piano": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 5,
-   "formation": "piano-quintet",
-   "formationNote": null,
-   "form": "short",
-   "set": null,
-   "year": "",
-   "minutes": 6,
-   "notes": "Single movement, Allegro moderato; piano with strings",
-   "popularity": "lesser-known",
-   "level_guess": 5,
-   "level_basis": "Lyrical piano part at about ABRSM 8; strings easy (level 3)",
-   "hardest_part_guess": "piano",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Míċeál O'Rourke with string soloists David Juritz, Jennifer Godson, Sarah-Jane Bradley and Julia Desbruslais, Chandos CHAN 9534 (recorded 1996, issued 1997)",
-    "performed": ""
-   },
-   "sources": [
-    "https://www.chandos.net/products/catalogue/CHAN%209534",
-    "https://musicbrainz.org/release/e0b9dc23-898b-4633-9584-9ab2a6fc8148"
-   ],
-   "confidence": "low",
-   "gap": true
   }
  ],
  "skipped": [
@@ -2776,6 +2737,14 @@
    "works": 1,
    "reason": "out of scope: keyboard piece, strings ad lib.",
    "evidence": "First editions (Richault, Diabelli 1836) mark the two violins, viola and bass ad libitum; Chandos CHAN 9534 includes Nocturne No. 16 but its page does not say it is played with strings; no other recording with strings found"
+  },
+  {
+   "composer": "Field, John",
+   "title": "Divertissement No. 1 in E major, H 13",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -2838,12 +2807,12 @@
   {
    "name": "Field, John",
    "candidates": 4,
-   "kept": 4,
-   "skipped": 1,
-   "added_not_on_imslp": 1,
+   "kept": 3,
+   "skipped": 2,
+   "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "All chamber recordings found are on Chandos CHAN 9534; the gap check added Divertissement No. 1 (H 13), whose string scoring is inferred from the disc credits."
   }
  ],
- "note": "Ries: Op. 25 (septet), Op. 128 (octet) and Op. 142 (sextet) are entered with the winds scoring that is recorded; Op. 25 also exists as a piano quintet and Op. 142 with violin, viola and cello for the winds (unrecorded, so not separate entries). Kummer: Op. 75 is entered in its recorded quintet scoring (2 flutes, viola, cello, guitar), whose parts sit on the IMSLP trio page; the trio (flute, viola or violin, piano) is unrecorded. Op. 81 is not on IMSLP. The Red Cedar page and booklet credits disagree on the scoring of Op. 92 No. 2 (flute, violin, guitar vs two flutes and guitar). Glinka: the Divertimento brillante is scored with viola on IMSLP (string quintet), while Wikipedia's list names 2 violins, cello and double bass; the Regis disc does not say. The Septet is entered with the alternatives named on Wikipedia's list. Field: the Chandos page lists four string soloists without saying which works they play; the string-quartet scoring of H 13, H 14, H 18 and H 34 is taken from the IMSLP pages (H 34, H 14, H 18) and inferred for H 13. Recordings were checked in MusicBrainz release data and, after the coordinator's notice, in Apple Music through the shared throttled fetcher; label pages (Chandos, Europadisc) and the Ries-Gesellschaft work pages filled gaps. The Ries-Gesellschaft's claim of a Raphael Quartet CD of Op. 150 No. 2 and of Jecklin and Thorofon discs could not be confirmed and is not relied on, except that Jecklin is named beside the confirmed cpo disc of Op. 107. All levels are estimates. Apple searches redone through the shared fetcher: the Glinka Divertimento search stayed blocked (HTTP 403 after five tries, so not counted as none found; its recording comes from MusicBrainz) and the last Field-nocturne search was still queued when I stopped. Open points: the piano-quartet versions of Fesca's septets have no named arranger; the Chandos page does not say which works the four string soloists play (Field H 13 is the least certain entry)."
+ "note": "Ries: Op. 25 (septet), Op. 128 (octet) and Op. 142 (sextet) are entered with the winds scoring that is recorded; Op. 25 also exists as a piano quintet and Op. 142 with violin, viola and cello for the winds (unrecorded, so not separate entries). Kummer: Op. 75 is entered in its recorded quintet scoring (2 flutes, viola, cello, guitar), whose parts sit on the IMSLP trio page; the trio (flute, viola or violin, piano) is unrecorded. Op. 81 is not on IMSLP. The Red Cedar page and booklet credits disagree on the scoring of Op. 92 No. 2 (flute, violin, guitar vs two flutes and guitar). Glinka: the Divertimento brillante is scored with viola on IMSLP (string quintet), while Wikipedia's list names 2 violins, cello and double bass; the Regis disc does not say. The Septet is entered with the alternatives named on Wikipedia's list. Field: the Chandos page lists four string soloists without saying which works they play; the string-quartet scoring of H 13, H 14, H 18 and H 34 is taken from the IMSLP pages (H 34, H 14, H 18) and inferred for H 13. Recordings were checked in MusicBrainz release data and, after the coordinator's notice, in Apple Music through the shared throttled fetcher; label pages (Chandos, Europadisc) and the Ries-Gesellschaft work pages filled gaps. The Ries-Gesellschaft's claim of a Raphael Quartet CD of Op. 150 No. 2 and of Jecklin and Thorofon discs could not be confirmed and is not relied on, except that Jecklin is named beside the confirmed cpo disc of Op. 107. All levels are estimates. Apple searches redone through the shared fetcher: the Glinka Divertimento search stayed blocked (HTTP 403 after five tries, so not counted as none found; its recording comes from MusicBrainz) and the last Field-nocturne search was still queued when I stopped. Open points: the piano-quartet versions of Fesca's septets have no named arranger; the Chandos page does not say which works the four string soloists play (Field H 13 is the least certain entry). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Field: Divertissement No. 1 in E major, H 13."
 }

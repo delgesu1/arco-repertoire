@@ -3050,41 +3050,6 @@
    "confidence": "medium"
   },
   {
-   "composer": "Lauber, Joseph",
-   "title": "Quartet for Four Double Basses",
-   "aka": [],
-   "instruments": {
-    "double-bass": 4
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 4,
-   "formation": "string-quartet",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "1942",
-   "minutes": 15,
-   "notes": "Four double basses; four movements; first published by Yorke Edition in 1975",
-   "popularity": "lesser-known",
-   "level_guess": 6,
-   "level_basis": "Four bass parts in lyrical writing; each about pre-diploma",
-   "hardest_part_guess": "double-bass 1",
-   "imslpPage": "Double Bass Quartet (Lauber, Joseph)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Yorke Edition, 1975",
-    "recorded": "Bass Band with Martin Babjak, Bass Band label (\"Otec / Father\", 2018)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Double_Bass_Quartet_(Lauber,_Joseph)",
-    "https://itunes.apple.com/lookup?id=1458210307&entity=song"
-   ],
-   "confidence": "low"
-  },
-  {
    "composer": "Hofmann, Heinrich",
    "title": "Octet in F major, Op. 80",
    "aka": [],
@@ -7787,6 +7752,14 @@
    "works": 1,
    "reason": "not performed or recorded (composer triage)",
    "evidence": "MusicBrainz (works with linked recordings), Deezer (album search) and Apple Music (composerTerm song search): no commercial recording of any chamber work; MusicBrainz has no artist entry for the composer; Apple's composer-search hits are other composers' works, arrangements or non-chamber music (fuzzy name matches); nothing by this composer; none found is weak: common surname, so hits for namesakes were discarded"
+  },
+  {
+   "composer": "Lauber, Joseph",
+   "title": "Quartet for Four Double Basses",
+   "imslpPage": "Double Bass Quartet (Lauber, Joseph)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -10000,8 +9973,8 @@
   {
    "name": "Lauber, Joseph",
    "candidates": 1,
-   "kept": 3,
-   "skipped": 0,
+   "kept": 2,
+   "skipped": 1,
    "added_not_on_imslp": 2,
    "coverage": "complete",
    "note": "Piano Quintet Op. 6 and the Fantasia added from the discs; the Double Bass Quartet rests on the ensemble's own 2018 release (composer matched by Apple's composer search only), so confidence is low"
@@ -10097,5 +10070,5 @@
    "note": "MusicBrainz (works with linked recordings), Deezer (album search) and Apple Music (composerTerm song search): no commercial recording of any chamber work; MusicBrainz has no artist entry for the composer; Apple's composer-search hits are other composers' works, arrangements or non-chamber music (fuzzy name matches); nothing by this composer; none found is weak: common surname, so hits for namesakes were discarded"
   }
  ],
- "note": "METHOD (about 60 tool calls, 2 WebSearch). One detached script worked through all 256 composers: MusicBrainz (artist search on name and dates, then every work with its linked recordings), Deezer (album search on 'Given Surname', then on the surname alone) and, for composers without a chamber-titled Deezer or MusicBrainz hit, Apple's composerTerm song search; a second Apple pass covered the composers whose Deezer or MusicBrainz hit was off-target (namesakes, ensemble names such as the Keller or Henschel Quartet). A MusicBrainz retry for 35 composers with no artist (surname only, ae/oe/ue spellings) found 4 more artists, none with recorded chamber works. Hits were opened through Deezer album pages, Apple lookups, MusicBrainz release track lists (label, catalogue number, timings) and IMSLP category listings (to see whether a recorded work has a page). RESULT: 36 composers had a commercial recording in scope: 99 works kept, 28 of them not on IMSLP; 219 composers are 'triage: none found' (459 pages). No page is skipped for budget. ADDED NOT ON IMSLP: J. B. Foerster (Piano Trio No. 3 Op. 105, String Quartets Nos. 2, 4, 5; Supraphon), Eduard Franck (Piano Trios Op. 22, E major and Op. 53; String Quartets Opp. 54, 55; audite, Naxos), Richard Franck (Piano Trio Op. 32; audite), Héritte-Viardot (Piano Quartets Nos. 1 and 3; Chandos), Kauffmann (Piano Trios Opp. 9, 20; CPO), Hans Huber (Trio Op. 76 and Suite Op. 71 for two violins and piano; Acte Préalable), Lauber (Piano Quintet Op. 6; Fantasia for flute, strings and harp), Emil Hartmann (String Quartet in A minor; Dacapo), Paul Lacombe (Piano Trio No. 2 Op. 90; Dutton), Klengel (Grand trio concertant Op. 36; Concert Waltz Op. 13 for four cellos), Humperdinck (Piano Quintet in G), Huss (Piano Trio Op. 23), Rubin Goldmark (Piano Trio Op. 1), Karel (Nonet Op. 43), Franchomme (Air russe varié Op. 32 for cello and string quartet), and Heinrich Hofmann's Serenade Op. 65 (an IMSLP page exists, 'Serenade for Flute and Strings', but the census lacks it: gap true). LOW OR MEDIUM CONFIDENCE (the owner may drop them): Lauber's Double Bass Quartet rests on the ensemble's own 2018 release, matched by Apple's composer search only (low); Lauber's Piano Quintet has only MusicBrainz track data (no duration); Foerster's Nonet is a 2014 release of an SWR broadcast; Foerster's String Quartet No. 5 has no confirmed opus number; Hans Huber's Op. 76 and Op. 71 are numbered as on Apple (IMSLP lists a 'Variationen, Op. 71'); Karel's Nonet was completed from a short score by another hand (scoring from a web search of the Carus listing); Le Beau's D minor trio is listed as Op. 1 by the FSM disc and MusicBrainz but matches the Op. 15 page by key, scoring and timing; Lacombe's Trios Nos. 2 and 3 are given without a key (IMSLP: A minor for No. 3, the Dutton titles: A); Jaëll's quartet page is a manuscript; Heilman's trio runs 38 minutes on the disc against 22 on IMSLP and Hartmann's quintet 27 against 40. MATCHING CALLS. Ignaz Lachner's Quartet No. 3 (Op. 54) has no page of its own, so the collection page 'seven String Quartets' is its imslpPage; the six piano trios are for violin, viola and piano (formation piano-strings). Franchomme's Op. 32 is entered as a solo showpiece with quartet accompaniment (formation other); his Op. 39 on a harmonia mundi disc has no scoring on the track list and is not entered. Vinzenz Lachner's collection page is skipped as a duplicate of the Op. 27 and Op. 36 pages (Op. 42 unrecorded). Gabrielli's '3 Trios for Two Violins and Piano' (violin id 461) and Godard's 'Duettini' (id 2460) are not cross-listed: no recording found. OPEN PROBLEMS. (1) Single movements on compilations were not accepted as a recording: Kaun's String Quintet Op. 28 (Scherzo only, Berolina Ensemble sampler 2017), Héritte-Viardot's Spanisches Quartett Op. 11 (one movement, Leonarda 1994), Köhler's Flute Quartet Op. 92 (live sampler 1998). (2) Knorr's Variations Op. 1 for piano trio (Hyperion Trio, Thorofon 2011) and Richard Franck's Three Fantasies Op. 28 (audite) are on discs I opened but not entered (theme credit conflicting; scoring not checked); Humperdinck's disc also holds two quartet movements, a Menuet for piano quintet and a Notturno. (3) Apple's composerTerm results often carry no composerName in the JSON although the match is on the composer field, so hits without a composer name had to be read by hand; MusicBrainz was the bottleneck (about 30 s per composer with eight agents), so three workers (forward, backward, from the middle) shared it. 'None found' is weak where MusicBrainz has no artist entry or the name is incomplete or common (stated in each composer's note). (4) One tool call that exited 144 killed all background workers once; they were restarted in detached sessions and resumed from the per-composer JSON lines."
+ "note": "METHOD (about 60 tool calls, 2 WebSearch). One detached script worked through all 256 composers: MusicBrainz (artist search on name and dates, then every work with its linked recordings), Deezer (album search on 'Given Surname', then on the surname alone) and, for composers without a chamber-titled Deezer or MusicBrainz hit, Apple's composerTerm song search; a second Apple pass covered the composers whose Deezer or MusicBrainz hit was off-target (namesakes, ensemble names such as the Keller or Henschel Quartet). A MusicBrainz retry for 35 composers with no artist (surname only, ae/oe/ue spellings) found 4 more artists, none with recorded chamber works. Hits were opened through Deezer album pages, Apple lookups, MusicBrainz release track lists (label, catalogue number, timings) and IMSLP category listings (to see whether a recorded work has a page). RESULT: 36 composers had a commercial recording in scope: 99 works kept, 28 of them not on IMSLP; 219 composers are 'triage: none found' (459 pages). No page is skipped for budget. ADDED NOT ON IMSLP: J. B. Foerster (Piano Trio No. 3 Op. 105, String Quartets Nos. 2, 4, 5; Supraphon), Eduard Franck (Piano Trios Op. 22, E major and Op. 53; String Quartets Opp. 54, 55; audite, Naxos), Richard Franck (Piano Trio Op. 32; audite), Héritte-Viardot (Piano Quartets Nos. 1 and 3; Chandos), Kauffmann (Piano Trios Opp. 9, 20; CPO), Hans Huber (Trio Op. 76 and Suite Op. 71 for two violins and piano; Acte Préalable), Lauber (Piano Quintet Op. 6; Fantasia for flute, strings and harp), Emil Hartmann (String Quartet in A minor; Dacapo), Paul Lacombe (Piano Trio No. 2 Op. 90; Dutton), Klengel (Grand trio concertant Op. 36; Concert Waltz Op. 13 for four cellos), Humperdinck (Piano Quintet in G), Huss (Piano Trio Op. 23), Rubin Goldmark (Piano Trio Op. 1), Karel (Nonet Op. 43), Franchomme (Air russe varié Op. 32 for cello and string quartet), and Heinrich Hofmann's Serenade Op. 65 (an IMSLP page exists, 'Serenade for Flute and Strings', but the census lacks it: gap true). LOW OR MEDIUM CONFIDENCE (the owner may drop them): Lauber's Double Bass Quartet rests on the ensemble's own 2018 release, matched by Apple's composer search only (low); Lauber's Piano Quintet has only MusicBrainz track data (no duration); Foerster's Nonet is a 2014 release of an SWR broadcast; Foerster's String Quartet No. 5 has no confirmed opus number; Hans Huber's Op. 76 and Op. 71 are numbered as on Apple (IMSLP lists a 'Variationen, Op. 71'); Karel's Nonet was completed from a short score by another hand (scoring from a web search of the Carus listing); Le Beau's D minor trio is listed as Op. 1 by the FSM disc and MusicBrainz but matches the Op. 15 page by key, scoring and timing; Lacombe's Trios Nos. 2 and 3 are given without a key (IMSLP: A minor for No. 3, the Dutton titles: A); Jaëll's quartet page is a manuscript; Heilman's trio runs 38 minutes on the disc against 22 on IMSLP and Hartmann's quintet 27 against 40. MATCHING CALLS. Ignaz Lachner's Quartet No. 3 (Op. 54) has no page of its own, so the collection page 'seven String Quartets' is its imslpPage; the six piano trios are for violin, viola and piano (formation piano-strings). Franchomme's Op. 32 is entered as a solo showpiece with quartet accompaniment (formation other); his Op. 39 on a harmonia mundi disc has no scoring on the track list and is not entered. Vinzenz Lachner's collection page is skipped as a duplicate of the Op. 27 and Op. 36 pages (Op. 42 unrecorded). Gabrielli's '3 Trios for Two Violins and Piano' (violin id 461) and Godard's 'Duettini' (id 2460) are not cross-listed: no recording found. OPEN PROBLEMS. (1) Single movements on compilations were not accepted as a recording: Kaun's String Quintet Op. 28 (Scherzo only, Berolina Ensemble sampler 2017), Héritte-Viardot's Spanisches Quartett Op. 11 (one movement, Leonarda 1994), Köhler's Flute Quartet Op. 92 (live sampler 1998). (2) Knorr's Variations Op. 1 for piano trio (Hyperion Trio, Thorofon 2011) and Richard Franck's Three Fantasies Op. 28 (audite) are on discs I opened but not entered (theme credit conflicting; scoring not checked); Humperdinck's disc also holds two quartet movements, a Menuet for piano quintet and a Notturno. (3) Apple's composerTerm results often carry no composerName in the JSON although the match is on the composer field, so hits without a composer name had to be read by hand; MusicBrainz was the bottleneck (about 30 s per composer with eight agents), so three workers (forward, backward, from the middle) shared it. 'None found' is weak where MusicBrainz has no artist entry or the name is incomplete or common (stated in each composer's note). (4) One tool call that exited 144 killed all background workers once; they were restarted in detached sessions and resumed from the per-composer JSON lines. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Lauber: Quartet for Four Double Basses."
 }

@@ -2682,48 +2682,6 @@
   },
   {
    "composer": "Corrette, Michel",
-   "title": "Concerto in G major, Op. 3 No. 6",
-   "aka": [],
-   "instruments": {
-    "violin": 3,
-    "continuo": 1
-   },
-   "alternatives": {
-    "violin": [
-     "flute",
-     "oboe"
-    ]
-   },
-   "optional": {},
-   "players": 4,
-   "formation": "continuo",
-   "formationNote": null,
-   "form": "work",
-   "set": "Six Concertos, Op. 3",
-   "year": "1728",
-   "minutes": null,
-   "notes": "From Corrette's first concerto set, for three trebles and figured bass",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Italianate concerto writing a little above Corelli's trio sonatas (2)",
-   "hardest_part_guess": "violin 1",
-   "imslpPage": "Concerto in G major, Op.3 No.6 (Corrette, Michel)",
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "",
-    "recorded": "Jean-Pierre Rampal, Erato 'The Complete Erato Recordings Vol. 1' (MusicBrainz)",
-    "performed": ""
-   },
-   "sources": [
-    "https://imslp.org/wiki/Concerto_in_G_major,_Op.3_No.6_(Corrette,_Michel)",
-    "https://musicbrainz.org/work/3e01faf8-d374-442e-b2c1-002add6ff06e",
-    "https://imslp.org/wiki/6_Concertos,_Op.3_(Corrette,_Michel)"
-   ],
-   "confidence": "low"
-  },
-  {
-   "composer": "Corrette, Michel",
    "title": "Concerto in E minor, Op. 4 No. 6",
    "aka": [],
    "instruments": {
@@ -3336,6 +3294,14 @@
    "works": 0,
    "reason": "out of scope: duo (violin and bass)",
    "evidence": "IMSLP title: minuets for violin with a bass for cello, viol or bassoon; no recording found"
+  },
+  {
+   "composer": "Corrette, Michel",
+   "title": "Concerto in G major, Op. 3 No. 6",
+   "imslpPage": "Concerto in G major, Op.3 No.6 (Corrette, Michel)",
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -3353,12 +3319,12 @@
   {
    "name": "Corrette, Michel",
    "candidates": 32,
-   "kept": 22,
-   "skipped": 19,
+   "kept": 21,
+   "skipped": 20,
    "added_not_on_imslp": 0,
    "coverage": "complete",
    "note": "Gap check against IMSLP's list of the 25 Concertos comiques and MusicBrainz's recorded works: added Nos. 10, 19 and 24 from the 25 Concertos comiques page (gap). Six Symphonies de Noëls kept one entry each (all six recorded by La Fantasia)."
   }
  ],
- "note": "Not added, for the owner: Beethoven's Hess 32 (first version of Op. 18 No. 1; recorded, DG Beethoven 2020) and the tiny quartet fugues Hess 36 and prelude (Borciani) were left out as an early version and exercises; the piano-trio version of Symphony No. 2 (recorded by the Beaux Arts Trio) was left out because its arranger is uncertain (possibly Ries, authorised by Beethoven); the Mödlinger Tänze WoO 17 are orchestral on IMSLP and of doubtful authenticity. Corrette's six Organ Concertos Op. 26 'a sei strumenti' (organ, 3 violins, flute, viola, cello; recorded by La Risonanza, Stradivaria, Slovak Chamber Orchestra) were left out by the census as orchestral; they could qualify if played one to a part. Corrette's concertos comiques are filed by IMSLP as concertos but are four-part works played one to a part in the recordings found. Keys of Concerto comique No. 7 differ: IMSLP says C minor, the Arion and Stradivaria recordings C major (used)."
+ "note": "Not added, for the owner: Beethoven's Hess 32 (first version of Op. 18 No. 1; recorded, DG Beethoven 2020) and the tiny quartet fugues Hess 36 and prelude (Borciani) were left out as an early version and exercises; the piano-trio version of Symphony No. 2 (recorded by the Beaux Arts Trio) was left out because its arranger is uncertain (possibly Ries, authorised by Beethoven); the Mödlinger Tänze WoO 17 are orchestral on IMSLP and of doubtful authenticity. Corrette's six Organ Concertos Op. 26 'a sei strumenti' (organ, 3 violins, flute, viola, cello; recorded by La Risonanza, Stradivaria, Slovak Chamber Orchestra) were left out by the census as orchestral; they could qualify if played one to a part. Corrette's concertos comiques are filed by IMSLP as concertos but are four-part works played one to a part in the recordings found. Keys of Concerto comique No. 7 differ: IMSLP says C minor, the Arion and Stradivaria recordings C major (used). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 1 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Corrette: Concerto in G major, Op. 3 No. 6."
 }

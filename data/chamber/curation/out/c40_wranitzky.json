@@ -1063,86 +1063,6 @@
    ],
    "confidence": "medium",
    "gap": true
-  },
-  {
-   "composer": "Wranitzky, Paul",
-   "title": "String Trio in A minor",
-   "aka": [],
-   "instruments": {
-    "violin": 1,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "string-trio",
-   "formationNote": null,
-   "form": "work",
-   "set": "Six String Trios (Hoffmeister, 1788)",
-   "year": "1788",
-   "minutes": null,
-   "notes": "No. 1 of the Hoffmeister set, aimed at amateurs: violin leads; Allegro, Poco adagio, Allegretto",
-   "popularity": "lesser-known",
-   "level_guess": 3,
-   "level_basis": "Easy amateur-oriented trio, violin about ABRSM 6; viola and cello accompany",
-   "hardest_part_guess": "violin",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Free score and parts, ed. D. Bernhardsson (wranitzky.com)",
-    "recorded": "",
-    "performed": "Gideon String Trio, Wranitzky Festival, Nová Říše, 10 Aug 2008"
-   },
-   "sources": [
-    "https://www.wranitzky.com/works_oo_trios_hoffmeister.htm",
-    "https://wranitzky.com/festival_2008.htm",
-    "https://www.wranitzky.com/listofworks.htm",
-    "https://www.klassika.info/Komponisten/Wranitzky/wv_gattung.html"
-   ],
-   "confidence": "low",
-   "gap": true
-  },
-  {
-   "composer": "Wranitzky, Paul",
-   "title": "Flute Trio in E-flat major",
-   "aka": [],
-   "instruments": {
-    "flute": 1,
-    "viola": 1,
-    "cello": 1
-   },
-   "alternatives": {},
-   "optional": {},
-   "players": 3,
-   "formation": "winds-strings",
-   "formationNote": null,
-   "form": "work",
-   "set": null,
-   "year": "",
-   "minutes": 12,
-   "notes": "Three movements (Allegro, Andantino, Allegro); also arranged for wind quintet as a Partita in E-flat",
-   "popularity": "lesser-known",
-   "level_guess": 4,
-   "level_basis": "Light Classical trio; flute about ABRSM 7, viola and cello moderate",
-   "hardest_part_guess": "flute",
-   "imslpPage": null,
-   "benchmark_id": null,
-   "violin_id": null,
-   "floor": {
-    "published": "Score and parts for flute, viola and cello listed by Notenlager",
-    "recorded": "In Camera Caritatis, \"Lovely Chateau Trios\", EDIT 41 0090-2 131 (1994); track list names it only \"Trio in E-flat major\"",
-    "performed": ""
-   },
-   "sources": [
-    "https://www.wranitzky.com/discography.htm",
-    "https://www.wranitzky.com/listofworks.htm",
-    "https://music.apple.com/us/album/lovely-chateau-trios/1609991692",
-    "https://www.notenlager.de/Komponisten/Paul_Wranitzky"
-   ],
-   "confidence": "low",
-   "gap": true
   }
  ],
  "skipped": [
@@ -1417,6 +1337,22 @@
    "works": 1,
    "reason": "not performed or recorded",
    "evidence": "Porro, Paris (\"Varietés Musicales\" No. 2); wranitzky.com lists a Divertimento \"La Chasse\" as an extract from the Symphony in G minor (P 42), arranger not identified. No recording or performance found."
+  },
+  {
+   "composer": "Wranitzky, Paul",
+   "title": "String Trio in A minor",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Wranitzky, Paul",
+   "title": "Flute Trio in E-flat major",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -1425,12 +1361,12 @@
   {
    "name": "Wranitzky, Paul",
    "candidates": 36,
-   "kept": 27,
-   "skipped": 34,
-   "added_not_on_imslp": 5,
+   "kept": 25,
+   "skipped": 36,
+   "added_not_on_imslp": 3,
    "coverage": "complete",
    "note": "Floor from Apple Music track lists (Op. 16 complete; Op. 2/2, 32/4 and 49 on cpo; trios and sextets), the ARTA, cdmusic.cz and MusicBrainz listings, and the Wranitzky Project discography and concert pages (Stamic Quartet, Prague Trio, Gideon String Trio, festival 2008). Gap check against the Wranitzky Project list of works, the klassika.info Werkverzeichnis and Notenlager: added the three Op. 28 flute quartets (recorded), the Hoffmeister String Trio in A minor and the Flute Trio in E-flat (low confidence)."
   }
  ],
- "note": "Paul Wranitzky (Pavel Vranický), not his brother Anton (violin catalogue: \"Vranický, Antonín\"). Ensemble Cordia's two Brilliant Classics discs are split between the brothers: the trios (94339) are by Paul, but the String Quintet Op. 8 No. 3 and String Sextet in G (94168) are by Anton and are NOT included; the G major sextet on Supraphon SU 3788 is Anton's No. 7. 1) Numbering: Paul's opus numbers differ between publishers (Op. 16 = André Op. 26; Op. 17 = Opp. 1 and 2; Op. 3 = André Op. 20; Op. 45 No. 3 = Op. 49; Op. 11 and 14 = Op. 18). The Brilliant disc is titled \"Op. 17 No. 1\" but plays the E-flat trio, No. 2; the G major trio is Op. 3 No. 3 on the recordings but Op. 3/2 in the Doblinger edition. 2) Years: André's catalogue dates (via wranitzky.com) are used where IMSLP only has \"ca. 1790\" (Op. 23: 1793; Op. 29: 1794; Op. 32 piano trios: 1799); Op. 16, Op. 17 and Op. 2 keep IMSLP's c. 1790. 3) Not added for lack of evidence: Oboe Quintets Op. 1 (André 1789; No. 1 in F played by Concilium musicum Wien, Haydn-Gesellschaft, 27 Feb 2013, no recording or edition found), a Flute Trio in G (one 2014 New York concert), Piano Quartets Op. 34, Piano Trios Op. 21, the Hoffmeister String Trios Nos. 2-6, the other Hoffmeister flute quartets, and the \"Quartet No. 3 in F for flute and strings\" on a 1979 Supraphon LP (Musica da camera Praga) credited only to \"Vranický\". The Divertimenti Nos. 4 and 6 for oboe, horns and strings on ArcoDiva (Wranitzky Kapelle, 2022) are not one to a part (string-orchestra question). IMSLP's \"Variations on O du lieber Augustin\" (xylophone, cymbals, drum, 2 violins, cello) is not in the census and no recording was found. 4) Flute Trio in E-flat: the Apple track list names the composer nowhere; the identification rests on wranitzky.com's discography. Op. 28 durations unknown (Apple Music page not retrievable by script). 5) Op. 23 No. 1: the Bremen concert page does not give the year or name the players; its four profiled players suggest a quartet. 6) Levels are estimates from period and style (scores not examined); no benchmark issues."
+ "note": "Paul Wranitzky (Pavel Vranický), not his brother Anton (violin catalogue: \"Vranický, Antonín\"). Ensemble Cordia's two Brilliant Classics discs are split between the brothers: the trios (94339) are by Paul, but the String Quintet Op. 8 No. 3 and String Sextet in G (94168) are by Anton and are NOT included; the G major sextet on Supraphon SU 3788 is Anton's No. 7. 1) Numbering: Paul's opus numbers differ between publishers (Op. 16 = André Op. 26; Op. 17 = Opp. 1 and 2; Op. 3 = André Op. 20; Op. 45 No. 3 = Op. 49; Op. 11 and 14 = Op. 18). The Brilliant disc is titled \"Op. 17 No. 1\" but plays the E-flat trio, No. 2; the G major trio is Op. 3 No. 3 on the recordings but Op. 3/2 in the Doblinger edition. 2) Years: André's catalogue dates (via wranitzky.com) are used where IMSLP only has \"ca. 1790\" (Op. 23: 1793; Op. 29: 1794; Op. 32 piano trios: 1799); Op. 16, Op. 17 and Op. 2 keep IMSLP's c. 1790. 3) Not added for lack of evidence: Oboe Quintets Op. 1 (André 1789; No. 1 in F played by Concilium musicum Wien, Haydn-Gesellschaft, 27 Feb 2013, no recording or edition found), a Flute Trio in G (one 2014 New York concert), Piano Quartets Op. 34, Piano Trios Op. 21, the Hoffmeister String Trios Nos. 2-6, the other Hoffmeister flute quartets, and the \"Quartet No. 3 in F for flute and strings\" on a 1979 Supraphon LP (Musica da camera Praga) credited only to \"Vranický\". The Divertimenti Nos. 4 and 6 for oboe, horns and strings on ArcoDiva (Wranitzky Kapelle, 2022) are not one to a part (string-orchestra question). IMSLP's \"Variations on O du lieber Augustin\" (xylophone, cymbals, drum, 2 violins, cello) is not in the census and no recording was found. 4) Flute Trio in E-flat: the Apple track list names the composer nowhere; the identification rests on wranitzky.com's discography. Op. 28 durations unknown (Apple Music page not retrievable by script). 5) Op. 23 No. 1: the Bremen concert page does not give the year or name the players; its four profiled players suggest a quartet. 6) Levels are estimates from period and style (scores not examined); no benchmark issues. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 2 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Wranitzky: String Trio in A minor; Wranitzky: Flute Trio in E-flat major."
 }
