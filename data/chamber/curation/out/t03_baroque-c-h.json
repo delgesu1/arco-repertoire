@@ -998,6 +998,47 @@
   },
   {
    "composer": "Fesch, Willem de",
+   "title": "Trio Sonata in G minor, Op. 7 No. 4",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Ten Trio Sonatas, Op. 7",
+   "year": "1733",
+   "minutes": 6,
+   "notes": "Print (London, 1733): for two German flutes or two violins with a thorough bass; recorded with flute and violin",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Galant English-Dutch trio sonata, easy violin parts; about Handel Op. 5 (3-4)",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "10 Trio Sonatas, Op.7 (Fesch, Willem de)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Amsterdams Barok Ensemble (Ton Koopman, harpsichord; performer per the release title), 'Muziek in de Nederlanden', Wijnand van Hooff Producties WVH 010 (1990), flute, violin and continuo; also Musical Heritage Society 513041W (1992) and Astoria 'Barok - de collectie' (1995)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/10_Trio_Sonatas,_Op.7_(Fesch,_Willem_de)",
+    "https://musicbrainz.org/artist/dbbb0fa5-f58d-428e-9b30-47d3324bf715/works",
+    "https://musicbrainz.org/recording/7bbe47c1-e886-4793-b9ab-9a16fb83f909"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Fesch, Willem de",
    "title": "Trio Sonata in A major, Op. 7 No. 5",
    "aka": [],
    "instruments": {
@@ -1016,7 +1057,7 @@
    "form": "work",
    "set": "Ten Trio Sonatas, Op. 7",
    "year": "1733",
-   "minutes": null,
+   "minutes": 5,
    "notes": "Print (London, 1733): for two German flutes or two violins with a thorough bass",
    "popularity": "lesser-known",
    "level_guess": 3,
@@ -1027,12 +1068,13 @@
    "violin_id": null,
    "floor": {
     "published": "",
-    "recorded": "Globe, 'Willem de Fesch: Chamber Music' (Globe GLO 5186; MusicBrainz lists Op. 7 No. 5: Andante, Vivace); performers not confirmed",
+    "recorded": "Ensemble d'Auvergne, 'Willem de Fesch: Chamber Music', Globe GLO 5186 (2006); MusicBrainz lists Op. 7 No. 5: Andante, Vivace, Minuetto I-II",
     "performed": ""
    },
    "sources": [
     "https://imslp.org/wiki/10_Trio_Sonatas,_Op.7_(Fesch,_Willem_de)",
-    "https://musicbrainz.org/artist/dbbb0fa5-f58d-428e-9b30-47d3324bf715/works"
+    "https://musicbrainz.org/artist/dbbb0fa5-f58d-428e-9b30-47d3324bf715/works",
+    "https://musicbrainz.org/recording/31561165-9f35-4b01-b806-f70230f0c100"
    ],
    "confidence": "medium"
   },
@@ -1056,7 +1098,7 @@
    "form": "work",
    "set": "Twelve Trio Sonatas, Op. 12",
    "year": "",
-   "minutes": null,
+   "minutes": 7,
    "notes": "Print (Walsh, London): for two German flutes or two violins with a bass for cello or harpsichord",
    "popularity": "lesser-known",
    "level_guess": 3,
@@ -1067,12 +1109,13 @@
    "violin_id": null,
    "floor": {
     "published": "",
-    "recorded": "Globe, 'Willem de Fesch: Chamber Music' (Globe GLO 5186; MusicBrainz lists Op. 12 No. 3: Largo, Allemanda); performers not confirmed",
+    "recorded": "Ensemble d'Auvergne, 'Willem de Fesch: Chamber Music', Globe GLO 5186 (2006); MusicBrainz lists Op. 12 No. 3: Largo, Allemanda, Menuetto",
     "performed": ""
    },
    "sources": [
     "https://imslp.org/wiki/12_Trio_Sonatas,_Op.12_(Fesch,_Willem_de)",
-    "https://musicbrainz.org/artist/dbbb0fa5-f58d-428e-9b30-47d3324bf715/works"
+    "https://musicbrainz.org/artist/dbbb0fa5-f58d-428e-9b30-47d3324bf715/works",
+    "https://musicbrainz.org/recording/1f708c32-c0fc-4de3-9de8-e47ee7ff8089"
    ],
    "confidence": "medium"
   },
@@ -2173,6 +2216,50 @@
   },
   {
    "composer": "Guerrieri, Agostino",
+   "title": "Sonata a 2, Op. 1 (\"La Lucina\")",
+   "aka": [
+    "Sonata a 2 \"La Lucina\""
+   ],
+   "instruments": {
+    "violin": 1,
+    "harp": 1,
+    "continuo": 1
+   },
+   "alternatives": {
+    "harp": [
+     "lute"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "short",
+   "set": "Sonate di violino a 1, 2, 3, 4, Op. 1",
+   "year": "1673",
+   "minutes": 6,
+   "notes": "Violin and harp or theorbo with continuo (CPO uses the theorbo); among the more virtuosic sonatas of the print",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Virtuosic early-Baroque violin writing over harp or theorbo (MusicWeb); Corelli Op. 1 (2) plus passagework and stamina",
+   "hardest_part_guess": "violin",
+   "imslpPage": "13 Sonatas, Op.1 (Guerrieri, Agostino)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Parnassi Musici, 'Guerrieri: Sonate di Violino', CPO 777 543-2 (2012), track 8, Sonata a 2 'La Lucina' (6:17), violin and theorbo with continuo",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/13_Sonatas,_Op.1_(Guerrieri,_Agostino)",
+    "https://www.deezer.com/album/580282201",
+    "https://www.musicweb-international.com/classrev/2012/July12/Guerrieri_sonate_7775432.htm"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Guerrieri, Agostino",
    "title": "Sonata a 2 violini e basso di viola, Op. 1 (\"La Pietra\")",
    "aka": [
     "Sonata a due violini e basso di viola overo teorba \"La Pietra\""
@@ -2374,6 +2461,46 @@
   },
   {
    "composer": "Hasse, Johann Adolph",
+   "title": "Trio Sonata in C major, Op. 2 No. 2",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six Trio Sonatas, Op. 2",
+   "year": "c. 1739",
+   "minutes": 14,
+   "notes": "Print (London, c. 1739): for two flutes or two violins with a thorough bass; three movements",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Galant trio sonata, easy to moderate violin parts; about Handel Op. 5 (3-4)",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "Trio Sonata in C major, Op.2 No.2 (Hasse, Johann Adolph)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Artificii Musicali, 'Hasse: 6 Sonate a Tre, Op. 2', EG Classics (1994), complete Op. 2",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_C_major,_Op.2_No.2_(Hasse,_Johann_Adolph)",
+    "https://www.deezer.com/album/301472567"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Hasse, Johann Adolph",
    "title": "Trio Sonata in A major, Op. 2 No. 3",
    "aka": [],
    "instruments": {
@@ -2449,6 +2576,166 @@
    "sources": [
     "https://imslp.org/wiki/Trio_Sonata_in_G_major,_Op.2_No.4_(Hasse,_Johann_Adolph)",
     "https://www.deezer.com/album/618031571"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Hasse, Johann Adolph",
+   "title": "Trio Sonata, Op. 2 No. 5",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six Trio Sonatas, Op. 2",
+   "year": "c. 1739",
+   "minutes": 10,
+   "notes": "Print (London, c. 1739): for two flutes or two violins with a thorough bass; four movements",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Galant trio sonata, easy to moderate violin parts; about Handel Op. 5 (3-4)",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "6 Trio Sonatas, Op.2 (Hasse, Johann Adolph)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Artificii Musicali, 'Hasse: 6 Sonate a Tre, Op. 2', EG Classics (1994), complete Op. 2",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.2_(Hasse,_Johann_Adolph)",
+    "https://www.deezer.com/album/301472567"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Hasse, Johann Adolph",
+   "title": "Trio Sonata, Op. 2 No. 6",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six Trio Sonatas, Op. 2",
+   "year": "c. 1739",
+   "minutes": 11,
+   "notes": "Print (London, c. 1739): for two flutes or two violins with a thorough bass; four movements",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Galant trio sonata, easy to moderate violin parts; about Handel Op. 5 (3-4)",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "6 Trio Sonatas, Op.2 (Hasse, Johann Adolph)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Artificii Musicali, 'Hasse: 6 Sonate a Tre, Op. 2', EG Classics (1994), complete Op. 2",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.2_(Hasse,_Johann_Adolph)",
+    "https://www.deezer.com/album/301472567"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Hasse, Johann Adolph",
+   "title": "Trio Sonata in E minor, Op. 3 No. 2",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six Trio Sonatas, Op. 3",
+   "year": "c. 1757",
+   "minutes": 9,
+   "notes": "Print (c. 1757): for two German flutes or two violins with a thorough bass; recorded on two flutes",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Galant trio sonata, easy to moderate violin parts; about Handel Op. 5 (3-4)",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "6 Trio Sonatas, Op.3 (Hasse, Johann Adolph)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Accademia del Ricercare (Pietro Busca), 'Hasse Cantatas, Vol. 1', Brilliant Classics (2013), played on two flutes and continuo",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.3_(Hasse,_Johann_Adolph)",
+    "https://www.deezer.com/album/7128464"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Hasse, Johann Adolph",
+   "title": "Trio Sonata in D major, Op. 3 No. 3",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six Trio Sonatas, Op. 3",
+   "year": "c. 1757",
+   "minutes": 9,
+   "notes": "Print (c. 1757): for two German flutes or two violins with a thorough bass; recorded on two flutes",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Galant trio sonata, easy to moderate violin parts; about Handel Op. 5 (3-4)",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "6 Trio Sonatas, Op.3 (Hasse, Johann Adolph)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Accademia del Ricercare (Pietro Busca), 'Hasse Cantatas, Vol. 1', Brilliant Classics (2013), played on two flutes and continuo",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.3_(Hasse,_Johann_Adolph)",
+    "https://www.deezer.com/album/7128464"
    ],
    "confidence": "medium"
   },
@@ -2618,9 +2905,9 @@
    "composer": "Fesch, Willem de",
    "title": "10 Trio Sonatas, Op.7",
    "imslpPage": "10 Trio Sonatas, Op.7 (Fesch, Willem de)",
-   "works": 9,
+   "works": 8,
    "reason": "not performed or recorded",
-   "evidence": "Only Op. 7 No. 5 is linked to a recording (MusicBrainz); Deezer and Apple show nothing for the others"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse (57 Fesch works) links recordings to only three trio sonatas: Op. 7 Nos. 4 and 5 and Op. 12 No. 3 (Nos. 4 and 5 entered; No. 4 is on three Dutch compilations). Deezer album and track search and Apple composerTerm (50 rows) show only cello, flute and concerto discs. Globe GLO 5186 (Ensemble d'Auvergne) holds Op. 7 No. 5 and Op. 12 No. 3, not the other numbers."
   },
   {
    "composer": "Fesch, Willem de",
@@ -2628,7 +2915,7 @@
    "imslpPage": "12 Trio Sonatas, Op.12 (Fesch, Willem de)",
    "works": 11,
    "reason": "not performed or recorded",
-   "evidence": "Only Op. 12 No. 3 is linked to a recording (MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse (57 Fesch works) links only Op. 12 No. 3 (entered, Globe GLO 5186, Ensemble d'Auvergne) among the twelve sonatas; Deezer album and track search ('Fesch trio sonata op. 12') and Apple composerTerm (50 rows) show nothing else."
   },
   {
    "composer": "Fesch, Willem de",
@@ -2644,7 +2931,7 @@
    "imslpPage": "10 Sonatas for 2 Violins and Continuo, Op.5 (Finger, Gottfried)",
    "works": 10,
    "reason": "not performed or recorded",
-   "evidence": "No commercial recording found on MusicBrainz, Deezer or Apple (the IMSLP audio is a bassoon playback)"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse (84 works, 74 with recordings: Op. 1, gamba, recorder and trumpet sonatas) and Deezer (six searches) link no recording to this piece; the only Op. 2 disc is by Tempus Electronic Ensemble (synthesised); Apple composerTerm (50 rows) likewise."
   },
   {
    "composer": "Finger, Gottfried",
@@ -2652,7 +2939,7 @@
    "imslpPage": "A Collection of Musick in Two Parts (Finger, Gottfried)",
    "works": 0,
    "reason": "not performed or recorded",
-   "evidence": "Ayres, chaconnes and sonatas for recorders or violins; no recording found"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse (84 works, 74 with recordings: Op. 1, gamba, recorder and trumpet sonatas) and Deezer (six searches) link no recording to this piece; the only Op. 2 disc is by Tempus Electronic Ensemble (synthesised); Apple composerTerm (50 rows) likewise."
   },
   {
    "composer": "Finger, Gottfried",
@@ -2660,7 +2947,7 @@
    "imslpPage": "Sonata in B-flat major (Finger, Gottfried)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Two oboes or violins and continuo; no recording found"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse (84 works, 74 with recordings: Op. 1, gamba, recorder and trumpet sonatas) and Deezer (six searches) link no recording to this piece; the only Op. 2 disc is by Tempus Electronic Ensemble (synthesised); Apple composerTerm (50 rows) likewise."
   },
   {
    "composer": "Franchi, Giovanni Pietro",
@@ -2668,7 +2955,7 @@
    "imslpPage": "La Cetra sonora, Op.1 (Franchi, Giovanni Pietro)",
    "works": 11,
    "reason": "not performed or recorded",
-   "evidence": "Only Op. 1 No. 1 is on the BariAntiqua disc (Apple lookup); Nos. 2-12 not found"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz artist search matched no Giovanni Pietro Franchi; Deezer album and track search ('Giovanni Pietro Franchi', 'Franchi La cetra sonora', 'Franchi trio sonata') and Apple composerTerm (5 rows, all La cetra sonora Op. 1 No. 1 on BariAntiqua 'Il viaggio fantastico del Sig. Burney', 2022) show no other number."
   },
   {
    "composer": "Gautier, Pierre",
@@ -2684,15 +2971,23 @@
    "imslpPage": "Symphonies divisées par suites de tons (Gautier, Pierre)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "The F-major trio suite is not on Hugo Reyne's disc"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse (recordings of the G-minor and C-minor suites), Deezer (Hugo Reyne, naïve, 'Gautier de Marseille: Symphonies', 27 tracks: C major/minor, G minor and D minor trio suites) and Apple composerTerm (50 rows) show no F-major suite en trio."
   },
   {
    "composer": "Guerrieri, Agostino",
    "title": "Sonate di violino, Op. 1 (remaining sonatas, Ruggiero partite)",
    "imslpPage": "13 Sonatas, Op.1 (Guerrieri, Agostino)",
-   "works": 5,
+   "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "Not on the CPO disc: La Rezonica, La Spinola, La Pinella, the three a 3 violini sonatas and the Partite sopra Ruggiero; La Sevasca (a 4) and La Lucina (violin and harp or theorbo) are recorded but their parts could not be confirmed"
+   "evidence": "RECHECK 2026-10-17: CPO 777 543-2 (Parnassi Musici; full Deezer track list 580282201 and the MusicWeb review) holds La Galeazza, La Brignoli, La Marchetta, La Benedetta, La Rosciana, La Pietra, La Lucina, La Sevesca, both balletti, four solo sonatas and two pieces by Turati; La Rezonica, La Spinola and La Pinella are not on it. MusicBrainz has no Guerrieri works; Apple composerTerm (50 rows) shows only the CPO disc and one unidentified Op. 1 track on Enrico Gatti's 'L'arte del Violino in Italia'."
+  },
+  {
+   "composer": "Guerrieri, Agostino",
+   "title": "Sonata a 4, Op. 1 (\"La Sevesca\")",
+   "imslpPage": "13 Sonatas, Op.1 (Guerrieri, Agostino)",
+   "works": 1,
+   "reason": "doubtful: low confidence",
+   "evidence": "RECHECK 2026-10-17: Recorded on CPO 777 543-2 (track 1, Sonata a 4 'La Sevesca', 3:00; MusicWeb 'La Sevescia, Sonata a 4'), but IMSLP's typeset sonatas hold no a 4 piece and no source gives the four parts (violins, viola), so the scoring is unconfirmed."
   },
   {
    "composer": "Guignon, Jean-Pierre",
@@ -2704,27 +2999,11 @@
   },
   {
    "composer": "Hasse, Johann Adolph",
-   "title": "6 Trio Sonatas, Op.2 (Nos. 5 and 6)",
-   "imslpPage": "6 Trio Sonatas, Op.2 (Hasse, Johann Adolph)",
-   "works": 2,
-   "reason": "not performed or recorded",
-   "evidence": "Only Nos. 1-4 are recorded (Christophorus, Chandos)"
-  },
-  {
-   "composer": "Hasse, Johann Adolph",
-   "title": "Trio Sonata in C major, Op.2 No.2",
-   "imslpPage": "Trio Sonata in C major, Op.2 No.2 (Hasse, Johann Adolph)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Chandos's Epoca Barocca disc has a four-movement Trio Sonata in C major, but IMSLP's Op. 2 No. 2 has three movements; not matched"
-  },
-  {
-   "composer": "Hasse, Johann Adolph",
    "title": "6 Trio Sonatas, Op.3",
    "imslpPage": "6 Trio Sonatas, Op.3 (Hasse, Johann Adolph)",
-   "works": 6,
+   "works": 4,
    "reason": "not performed or recorded",
-   "evidence": "No recording found (Deezer, Apple, MusicBrainz)"
+   "evidence": "RECHECK 2026-10-17: Nos. 2 and 3 entered (Brilliant Classics 'Hasse Cantatas, Vol. 1', Accademia del Ricercare, on two flutes). Nos. 1, 4, 5 and 6: Deezer album and track search ('Hasse trio sonata op. 3', 'Hasse sonata a tre') and Apple composerTerm (50 rows, 8 chamber-titled) show no other recording; MusicBrainz artist search did not match in this pass."
   },
   {
    "composer": "Hasse, Johann Adolph",
@@ -2732,7 +3011,7 @@
    "imslpPage": "6 Sinfonie a quattro, Op.5 (Hasse, Johann Adolph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track search ('Hasse sinfonia a quattro', 'Hasse sonata a tre', 'Hasse trio sonatas') and Apple composerTerm (50 rows, 8 chamber-titled, none of this work) show no recording; MusicBrainz artist search did not match in this pass (the first pass found none)."
   },
   {
    "composer": "Hasse, Johann Adolph",
@@ -2740,7 +3019,7 @@
    "imslpPage": "Trio Sonata in D major, Schrank II/37/53 (Hasse, Johann Adolph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Manuscript trio sonata for flute, violin and continuo; no recording found"
+   "evidence": "RECHECK 2026-10-17: Deezer album and track search ('Hasse sinfonia a quattro', 'Hasse sonata a tre', 'Hasse trio sonatas') and Apple composerTerm (50 rows, 8 chamber-titled, none of this work) show no recording; MusicBrainz artist search did not match in this pass (the first pass found none)."
   },
   {
    "composer": "Hasse, Johann Adolph",
@@ -3012,7 +3291,7 @@
    "imslpPage": "6 Divertimentos, Op.2 (Croes, Henri-Jacques de)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Only the Op. 5 trio sonatas (BarrocoTout) are found; Weverbergh/Terra Nova (Vladrecords 2012) record Divertimenti Nos. 12-14 and 'Douze Morceaux', whose numbering cannot be matched to Opp. 2 and 4"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz has the artist but no linked works; Deezer (albums and tracks 'Croes', 'De Croes') and Apple composerTerm (50 rows) show BarrocoTout's Op. 5, Weverbergh's 'De Croes Divertimenti' (Vladrecords 2012: Divertimenti Nos. 12-14 in E-flat and B-flat and 'Douze Morceaux in D', another numbering from manuscripts), Project Boussu's 'Brussels Trio Sonatas' (Etcetera 2020; the tracks are not attributed to composers) and violin concertos. Nothing found for Op. 2."
   },
   {
    "composer": "Croes, Henri-Jacques de",
@@ -3020,7 +3299,7 @@
    "imslpPage": "6 Divertimentos, Op.4 (Croes, Henri-Jacques de)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Only the Op. 5 trio sonatas (BarrocoTout) are found; Weverbergh/Terra Nova (Vladrecords 2012) record Divertimenti Nos. 12-14 and 'Douze Morceaux', whose numbering cannot be matched to Opp. 2 and 4"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz has the artist but no linked works; Deezer (albums and tracks 'Croes', 'De Croes') and Apple composerTerm (50 rows) show BarrocoTout's Op. 5, Weverbergh's 'De Croes Divertimenti' (Vladrecords 2012: Divertimenti Nos. 12-14 in E-flat and B-flat and 'Douze Morceaux in D', another numbering from manuscripts), Project Boussu's 'Brussels Trio Sonatas' (Etcetera 2020; the tracks are not attributed to composers) and violin concertos. Op. 4 No. 6 in D major (three movements) is on 'Croes: Motetten' (Etcetera, 2017) played by Collegium Instrumentale Brugense with strings, a chamber orchestra rather than one to a part (string-orchestra question), so it is not entered."
   },
   {
    "composer": "Croubelis, Simoni dall",
@@ -3411,48 +3690,48 @@
    "title": "Herzlich tut mich verlangen",
    "imslpPage": "Herzlich tut mich verlangen (Fischer, Johann)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz (artist match and linked works), Deezer and Apple Music (composerTerm song search): Musikalisch Divertissement Suite 3 only in an organ arrangement; Ensemble Théodora's 'Suite en trio' (Alpha 2026) cannot be matched to the candidate suites"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: MusicBrainz (Johann Fischer, 16 works), Deezer (album 'Tranquilles Cœurs' track list) and Apple composerTerm (50 rows): the recorded Fischer chamber music is the 'Suite en trio' (Allemande, Angloise, Gigue, Menuets, Ballets) of Ensemble Théodora, 'Tranquilles Cœurs' (Alpha ALPHA 1197, 2026), 'Musikalische Composition über die ... Lüneburger Sültze' (Berliner Barock-Compagney, Capriccio 1999), Suite 3 of the Divertissement and the chorale only on organ. The 'Suite en trio' matches none of the IMSLP pages (Suites Nos. 5-7 are 2-violin, cello and continuo editions; Suites Nos. 1-3 and Tafelmusik are unspecified-instruments pages), so no candidate is entered."
   },
   {
    "composer": "Fischer, Johann",
    "title": "Musicalische Fürsten-Lust",
    "imslpPage": "Musicalische Fürsten-Lust (Fischer, Johann)",
    "works": 0,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz (artist match and linked works), Deezer and Apple Music (composerTerm song search): Musikalisch Divertissement Suite 3 only in an organ arrangement; Ensemble Théodora's 'Suite en trio' (Alpha 2026) cannot be matched to the candidate suites"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: MusicBrainz (Johann Fischer, 16 works), Deezer (album 'Tranquilles Cœurs' track list) and Apple composerTerm (50 rows): the recorded Fischer chamber music is the 'Suite en trio' (Allemande, Angloise, Gigue, Menuets, Ballets) of Ensemble Théodora, 'Tranquilles Cœurs' (Alpha ALPHA 1197, 2026), 'Musikalische Composition über die ... Lüneburger Sültze' (Berliner Barock-Compagney, Capriccio 1999), Suite 3 of the Divertissement and the chorale only on organ. The 'Suite en trio' matches none of the IMSLP pages (Suites Nos. 5-7 are 2-violin, cello and continuo editions; Suites Nos. 1-3 and Tafelmusik are unspecified-instruments pages), so no candidate is entered."
   },
   {
    "composer": "Fischer, Johann",
    "title": "Polnische Tänze",
    "imslpPage": "Polnische Tänze (Fischer, Johann)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz (artist match and linked works), Deezer and Apple Music (composerTerm song search): Musikalisch Divertissement Suite 3 only in an organ arrangement; Ensemble Théodora's 'Suite en trio' (Alpha 2026) cannot be matched to the candidate suites"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: MusicBrainz (Johann Fischer, 16 works), Deezer (album 'Tranquilles Cœurs' track list) and Apple composerTerm (50 rows): the recorded Fischer chamber music is the 'Suite en trio' (Allemande, Angloise, Gigue, Menuets, Ballets) of Ensemble Théodora, 'Tranquilles Cœurs' (Alpha ALPHA 1197, 2026), 'Musikalische Composition über die ... Lüneburger Sültze' (Berliner Barock-Compagney, Capriccio 1999), Suite 3 of the Divertissement and the chorale only on organ. The 'Suite en trio' matches none of the IMSLP pages (Suites Nos. 5-7 are 2-violin, cello and continuo editions; Suites Nos. 1-3 and Tafelmusik are unspecified-instruments pages), so no candidate is entered."
   },
   {
    "composer": "Fischer, Johann",
    "title": "Suite No.5 in C major",
    "imslpPage": "Suite No.5 in C major (Fischer, Johann)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz (artist match and linked works), Deezer and Apple Music (composerTerm song search): Musikalisch Divertissement Suite 3 only in an organ arrangement; Ensemble Théodora's 'Suite en trio' (Alpha 2026) cannot be matched to the candidate suites"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: MusicBrainz (Johann Fischer, 16 works), Deezer (album 'Tranquilles Cœurs' track list) and Apple composerTerm (50 rows): the recorded Fischer chamber music is the 'Suite en trio' (Allemande, Angloise, Gigue, Menuets, Ballets) of Ensemble Théodora, 'Tranquilles Cœurs' (Alpha ALPHA 1197, 2026), 'Musikalische Composition über die ... Lüneburger Sültze' (Berliner Barock-Compagney, Capriccio 1999), Suite 3 of the Divertissement and the chorale only on organ. The 'Suite en trio' matches none of the IMSLP pages (Suites Nos. 5-7 are 2-violin, cello and continuo editions; Suites Nos. 1-3 and Tafelmusik are unspecified-instruments pages), so no candidate is entered."
   },
   {
    "composer": "Fischer, Johann",
    "title": "Suite No.6 in G major",
    "imslpPage": "Suite No.6 in G major (Fischer, Johann)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz (artist match and linked works), Deezer and Apple Music (composerTerm song search): Musikalisch Divertissement Suite 3 only in an organ arrangement; Ensemble Théodora's 'Suite en trio' (Alpha 2026) cannot be matched to the candidate suites"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: MusicBrainz (Johann Fischer, 16 works), Deezer (album 'Tranquilles Cœurs' track list) and Apple composerTerm (50 rows): the recorded Fischer chamber music is the 'Suite en trio' (Allemande, Angloise, Gigue, Menuets, Ballets) of Ensemble Théodora, 'Tranquilles Cœurs' (Alpha ALPHA 1197, 2026), 'Musikalische Composition über die ... Lüneburger Sültze' (Berliner Barock-Compagney, Capriccio 1999), Suite 3 of the Divertissement and the chorale only on organ. The 'Suite en trio' matches none of the IMSLP pages (Suites Nos. 5-7 are 2-violin, cello and continuo editions; Suites Nos. 1-3 and Tafelmusik are unspecified-instruments pages), so no candidate is entered."
   },
   {
    "composer": "Fischer, Johann",
    "title": "Suite No.7 in G minor",
    "imslpPage": "Suite No.7 in G minor (Fischer, Johann)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz (artist match and linked works), Deezer and Apple Music (composerTerm song search): Musikalisch Divertissement Suite 3 only in an organ arrangement; Ensemble Théodora's 'Suite en trio' (Alpha 2026) cannot be matched to the candidate suites"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-17: MusicBrainz (Johann Fischer, 16 works), Deezer (album 'Tranquilles Cœurs' track list) and Apple composerTerm (50 rows): the recorded Fischer chamber music is the 'Suite en trio' (Allemande, Angloise, Gigue, Menuets, Ballets) of Ensemble Théodora, 'Tranquilles Cœurs' (Alpha ALPHA 1197, 2026), 'Musikalische Composition über die ... Lüneburger Sültze' (Berliner Barock-Compagney, Capriccio 1999), Suite 3 of the Divertissement and the chorale only on organ. The 'Suite en trio' matches none of the IMSLP pages (Suites Nos. 5-7 are 2-violin, cello and continuo editions; Suites Nos. 1-3 and Tafelmusik are unspecified-instruments pages), so no candidate is entered."
   },
   {
    "composer": "Fischer, Johann Caspar Ferdinand",
@@ -3563,8 +3842,8 @@
    "title": "Sonata à 5 in A minor",
    "imslpPage": "Sonata à 5 in A minor (Furchheim, Johann Wilhelm)",
    "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Not on the Musica Antiqua Köln or L'Arpa Festante discs"
+   "reason": "doubtful: low confidence",
+   "evidence": "RECHECK 2026-10-17: The Düben database (IMHS 3:16) gives 2 cornetti, 2 violins, bassoon and continuo. Two recordings are titled only 'Sonata a 5' under Furchheim: Les Cornets Noirs (Raumklang RK 3101, 3:29, MusicBrainz) and Spiritato (Delphian, 2022, 6:36, Apple composerTerm). Neither names the key, so the match to this sonata rather than the E-flat 'a 5' is unconfirmed. L'Arpa Festante's 'Splendid Harmony' (Sony, 2017) has a 'Sonate à 3 in E minor' and a 'Suite à 5 in B minor', but Apple and Deezer give no composer per track."
   },
   {
    "composer": "Furloni, Gaetano",
@@ -3876,7 +4155,7 @@
    "imslpPage": "Sonata in F major, S.255 (Heinichen, Johann David)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Sonata (suite) for two horns, two violins, violetta and continuo; no recording found"
+   "evidence": "Sonata (suite) for two horns, two violins, violetta and continuo; no recording found. RECHECK 2026-10-17: MusicBrainz works browse (173 works, 147 with recordings): the chamber works with linked recordings are S.254 (Carus 2022; CPO 2005), the B-flat trio S.257 and concertos; Deezer (CPO 'Concertos & Sonatas', Stradivarius 'Unpublished Dresden Sonatas', Carus 'Pisendel & Dresden', Kapellmeister) and Apple composerTerm (50 rows, 6 chamber-titled) show no recording of this piece."
   },
   {
    "composer": "Heinichen, Johann David",
@@ -3884,7 +4163,7 @@
    "imslpPage": "Sonata in G major, H.3.17 (Heinichen, Johann David)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Flute, two violins and continuo; no recording found"
+   "evidence": "Flute, two violins and continuo; no recording found. RECHECK 2026-10-17: MusicBrainz works browse (173 works, 147 with recordings): the chamber works with linked recordings are S.254 (Carus 2022; CPO 2005), the B-flat trio S.257 and concertos; Deezer (CPO 'Concertos & Sonatas', Stradivarius 'Unpublished Dresden Sonatas', Carus 'Pisendel & Dresden', Kapellmeister) and Apple composerTerm (50 rows, 6 chamber-titled) show no recording of this piece."
   },
   {
    "composer": "Heinichen, Johann David",
@@ -3900,7 +4179,7 @@
    "imslpPage": "Trio Sonata in C minor, S.258 (Heinichen, Johann David)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Three-movement oboe, violin and continuo sonata; not found on the discs"
+   "evidence": "Three-movement oboe, violin and continuo sonata; not found on the discs. RECHECK 2026-10-17: MusicBrainz works browse (173 works, 147 with recordings): the chamber works with linked recordings are S.254 (Carus 2022; CPO 2005), the B-flat trio S.257 and concertos; Deezer (CPO 'Concertos & Sonatas', Stradivarius 'Unpublished Dresden Sonatas', Carus 'Pisendel & Dresden', Kapellmeister) and Apple composerTerm (50 rows, 6 chamber-titled) show no recording of this piece."
   },
   {
    "composer": "Heinichen, Johann David",
@@ -3916,7 +4195,7 @@
    "imslpPage": "Trio Sonata in F major, S.256 (Heinichen, Johann David)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Flute, viola d'amore (or violin) and continuo; the F-major trio sonata on the Sans Souci disc is for two oboes (MusicWeb), so it is not this scoring"
+   "evidence": "Flute, viola d'amore (or violin) and continuo; the F-major trio sonata on the Sans Souci disc is for two oboes (MusicWeb), so it is not this scoring. RECHECK 2026-10-17: MusicBrainz works browse (173 works, 147 with recordings): the chamber works with linked recordings are S.254 (Carus 2022; CPO 2005), the B-flat trio S.257 and concertos; Deezer (CPO 'Concertos & Sonatas', Stradivarius 'Unpublished Dresden Sonatas', Carus 'Pisendel & Dresden', Kapellmeister) and Apple composerTerm (50 rows, 6 chamber-titled) show no recording of this piece."
   },
   {
    "composer": "Heinichen, Johann David",
@@ -3924,7 +4203,7 @@
    "imslpPage": "Trio Sonata in G major, S.246 (Heinichen, Johann David)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Three movements; the Sans Souci disc's four-movement G-major trio is another work"
+   "evidence": "Three movements; the Sans Souci disc's four-movement G-major trio is another work. RECHECK 2026-10-17: MusicBrainz works browse (173 works, 147 with recordings): the chamber works with linked recordings are S.254 (Carus 2022; CPO 2005), the B-flat trio S.257 and concertos; Deezer (CPO 'Concertos & Sonatas', Stradivarius 'Unpublished Dresden Sonatas', Carus 'Pisendel & Dresden', Kapellmeister) and Apple composerTerm (50 rows, 6 chamber-titled) show no recording of this piece."
   },
   {
    "composer": "Helmbreecker, Cornelis sr Janszoon",
@@ -4127,8 +4406,8 @@
    "kept": 6,
    "skipped": 2,
    "added_not_on_imslp": 6,
-   "coverage": "partial",
-   "note": "Op. 5 trio sonatas added (BarrocoTout, Linn); the Op. 2 and Op. 4 divertimenti could not be matched to the Weverbergh/Terra Nova disc (Nos. 12-14)"
+   "coverage": "complete",
+   "note": "Op. 5 trio sonatas added (BarrocoTout, Linn); the Op. 2 and Op. 4 divertimenti could not be matched to the Weverbergh/Terra Nova disc (Nos. 12-14) RECHECK 2026-10-17: Op. 2 and Op. 4 divertimenti checked again (MusicBrainz, Deezer, Apple): not matched to any recording one to a part; Op. 4 No. 6 only by a chamber orchestra."
   },
   {
    "name": "Croubelis, Simoni dall",
@@ -4349,11 +4628,11 @@
   {
    "name": "Fesch, Willem de",
    "candidates": 3,
-   "kept": 2,
+   "kept": 3,
    "skipped": 3,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Op. 7 No. 5 and Op. 12 No. 3 (a Globe CD per MusicBrainz; performers unconfirmed); the CD's track list was not seen, so further trio sonatas may be recorded"
+   "coverage": "complete",
+   "note": "Op. 7 No. 5 and Op. 12 No. 3 (a Globe CD per MusicBrainz; performers unconfirmed); the CD's track list was not seen, so further trio sonatas may be recorded RECHECK 2026-10-17: Trio Sonata Op. 7 No. 4 added (three Dutch compilations); Globe GLO 5186 is by Ensemble d'Auvergne and holds Op. 7 No. 5 and Op. 12 No. 3 among the trio sonatas."
   },
   {
    "name": "Festing, Michael Christian",
@@ -4371,7 +4650,7 @@
    "skipped": 3,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Op. 1 complete (Echo du Danube, Accent 2011); Op. 5 and the 1691 collection not recorded; the theatre suites (unspecified instruments pages) were not checked"
+   "note": "Op. 1 complete (Echo du Danube, Accent 2011); Op. 5 and the 1691 collection not recorded; the theatre suites (unspecified instruments pages) were not checked RECHECK 2026-10-17: Op. 5, the 1691 collection and the B-flat sonata checked again (MusicBrainz works browse, Deezer, Apple): no recording."
   },
   {
    "name": "Fischer, Johann",
@@ -4379,8 +4658,8 @@
    "kept": 0,
    "skipped": 6,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Musikalisch Divertissement Suite 3 only in an organ arrangement; Ensemble Théodora's 'Suite en trio' (Alpha 2026) cannot be matched to the candidate suites"
+   "coverage": "complete",
+   "note": "Musikalisch Divertissement Suite 3 only in an organ arrangement; Ensemble Théodora's 'Suite en trio' (Alpha 2026) cannot be matched to the candidate suites RECHECK 2026-10-17: All six pages checked again; Ensemble Théodora's 'Suite en trio' (Alpha 2026) matches no candidate page."
   },
   {
    "name": "Fischer, Johann Caspar Ferdinand",
@@ -4425,7 +4704,7 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Op. 1 No. 1 only (BariAntiqua 2022)"
+   "note": "Op. 1 No. 1 only (BariAntiqua 2022) RECHECK 2026-10-17: Nos. 2-12 checked again (Deezer, Apple): only No. 1 is recorded."
   },
   {
    "name": "Freake, John George",
@@ -4478,8 +4757,8 @@
    "kept": 3,
    "skipped": 2,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Three sonatas of the Musica Antiqua Köln disc and the E-minor trio of L'Arpa Festante (matched by key only); the 'Suite a 5 in B minor' (unspecified-instruments page) may be on the L'Arpa Festante disc, attribution unconfirmed"
+   "coverage": "complete",
+   "note": "Three sonatas of the Musica Antiqua Köln disc and the E-minor trio of L'Arpa Festante (matched by key only); the 'Suite a 5 in B minor' (unspecified-instruments page) may be on the L'Arpa Festante disc, attribution unconfirmed RECHECK 2026-10-17: Sonata à 5 in A minor moved to doubtful: two recordings titled 'Sonata a 5' cannot be matched to it."
   },
   {
    "name": "Furloni, Gaetano",
@@ -4542,7 +4821,7 @@
    "skipped": 3,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Four of the five trio suites (Hugo Reyne, naïve); the duo suites are out of scope"
+   "note": "Four of the five trio suites (Hugo Reyne, naïve); the duo suites are out of scope RECHECK 2026-10-17: The F-major suite en trio checked again (MusicBrainz, Deezer, Apple): not recorded."
   },
   {
    "name": "Gehra, August Heinrich",
@@ -4637,11 +4916,11 @@
   {
    "name": "Guerrieri, Agostino",
    "candidates": 1,
-   "kept": 8,
-   "skipped": 1,
+   "kept": 9,
+   "skipped": 2,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Eight pieces of the CPO disc; La Sevasca (a 4) and La Lucina (violin and harp or theorbo) are recorded but their scoring could not be confirmed"
+   "coverage": "complete",
+   "note": "Eight pieces of the CPO disc; La Sevasca (a 4) and La Lucina (violin and harp or theorbo) are recorded but their scoring could not be confirmed RECHECK 2026-10-17: La Lucina added (violin, theorbo or harp, continuo); La Sevesca (a 4) recorded but its parts are unconfirmed; La Rezonica, La Spinola and La Pinella are not on the CPO disc."
   },
   {
    "name": "Guignon, Jean-Pierre",
@@ -4718,11 +4997,11 @@
   {
    "name": "Hasse, Johann Adolph",
    "candidates": 8,
-   "kept": 3,
-   "skipped": 6,
+   "kept": 8,
+   "skipped": 4,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Op. 2 Nos. 1, 3 and 4 recorded on flute-led discs; No. 2 not matched; Op. 3 and Op. 5 not recorded"
+   "note": "Op. 2 Nos. 1, 3 and 4 recorded on flute-led discs; No. 2 not matched; Op. 3 and Op. 5 not recorded RECHECK 2026-10-17: Op. 2 Nos. 2, 5 and 6 and Op. 3 Nos. 2 and 3 added (Artificii Musicali, EG Classics 1994; Accademia del Ricercare, Brilliant 2013); Op. 3 Nos. 1, 4-6, Op. 5 and the Schrank trio are not recorded."
   },
   {
    "name": "Hayes, William",
@@ -4740,7 +5019,7 @@
    "skipped": 7,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "S.254 kept (Carus 2022); Ensemble Barocco Sans Souci's disc (Stradivarius 2015) is oboe and bassoon trios without strings and matches no other string page"
+   "note": "S.254 kept (Carus 2022); Ensemble Barocco Sans Souci's disc (Stradivarius 2015) is oboe and bassoon trios without strings and matches no other string page RECHECK 2026-10-17: Five lines checked again (MusicBrainz works browse, Deezer, Apple): no recording."
   },
   {
    "name": "Helmbreecker, Cornelis sr Janszoon",
@@ -4842,5 +5121,5 @@
    "note": "only trumpet concertos and Mozart horn editions by another John Humphries; weak"
   }
  ],
- "note": "METHOD. One background script (triage.py) searched all 87 composers: MusicBrainz (batched artist search on name and dates, then work?artist=<mbid>&inc=recording-rels), Deezer (album and track search), and Apple's composerTerm song search for every composer without a Deezer or MusicBrainz hit; a second Apple pass covered nine composers whose Deezer 'hits' were namesakes (Cima, Cobb, Coleman, Colombi, Saint-Germain, Dupuits, Flackton, Guerini, Herwich) and twelve more for composers with Deezer or MusicBrainz hits. Albums were confirmed with Deezer track lists and Apple lookups; IMSLP work pages came through api.php. 7 WebSearch and 1 successful WebFetch (MusicWeb); Presto, Alibris, Gramophone and Linn refused WebFetch. All lookups returned (no FetchError left). SCOPE CALLS. (1) Prints that name flutes before violins (Hasse Op. 2, Fesch Opp. 7 and 12, Croes Op. 5, Gautier's suites) are kept as two violins and continuo with the flute as alternative, as the census files them; several recordings are flute-led (Laurence Dean, BarrocoTout, Hugo Reyne), so the owner may prefer to drop them. (2) Hammerschmidt's Erster Fleiß and Hilton's Prelude and Fantasias are one 'set' entry each: the suite numbers on Savall's disc are inconsistent. (3) Viol consorts recorded only by Phillip W. Serna (De Cousu, Duarte's own set) are not counted; Duarte rests on Ensemble PHOENIX. STRING-ORCHESTRA QUESTIONS (skipped, no one-to-a-part recording found): J. C. F. Fischer, Le Journal du Printemps Op. 1 (L'Orfeo Barockorchester, Freiburger Barockorchester); Durante, Concerti per quartetto (EUCO/Aadland, Ensemble Vox Aurae); Festing Opp. 3 and 5 (Festival Strings Lucerne); Gregori Op. 2 (Capriccio Barockorchester). WORTH A SECOND LOOK. Croes: Divertimenti on the Weverbergh/Terra Nova disc (Nos. 12-14) versus Opp. 2 and 4. Furchheim: 'Suite a 5 in B minor' (Düben collection, filed as unspecified instruments) seems to be on the L'Arpa Festante disc; the E-minor trio is matched by key only. Heinichen: the Sans Souci disc (Stradivarius 2015) is oboe and bassoon trios, so only S.254 (Carus 2022) is kept; the Seibel numbers of S.254 and S.256 differ between IMSLP and Wikipedia. Guerrieri: La Sevasca (a 4) and La Lucina are recorded; their parts are unverified. Guignon: BIS has Op. 4 No. 2 in D major in four movements, Audax (Pramsohler) lists a D-minor Op. 4 No. 2 in three. Fesch: the Globe CD's performers and full track list were not seen. Finger's theatre suites and Dumanoir's Allemande et Sarabande (unspecified-instruments pages) were not checked. Duarte No. 4 is only a 'Seconda Parte' track. WEAK 'none found' (namesake-heavy or variant spellings): Cobb, Drew, Hartley, Hayes, Humble, Humphries, Eyre, Frey, Geist, Hager, Hoffer, Freake, Croubelis. Apple's composerTerm results carry no composer field, so tracks on mixed discs could only be attributed by title, key and movement plan. NAMES. 'Comte de Saint Germain' is written 'Saint-Germain, Comte de'. Frederick II, Ghelardi, Hennersdorff and Gillier le jeune keep the input spelling in composers_checked. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 4 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Duarte: Sinfonia a 5 No. 4; Furchheim: Sonata a 3 in E minor; Gautier: Suite en trio in C major; Hammerschmidt: Neuer Paduanen, Galliarden, Balletten, Courenten und Sarabanden (Erster Fleiß)."
+ "note": "METHOD. One background script (triage.py) searched all 87 composers: MusicBrainz (batched artist search on name and dates, then work?artist=<mbid>&inc=recording-rels), Deezer (album and track search), and Apple's composerTerm song search for every composer without a Deezer or MusicBrainz hit; a second Apple pass covered nine composers whose Deezer 'hits' were namesakes (Cima, Cobb, Coleman, Colombi, Saint-Germain, Dupuits, Flackton, Guerini, Herwich) and twelve more for composers with Deezer or MusicBrainz hits. Albums were confirmed with Deezer track lists and Apple lookups; IMSLP work pages came through api.php. 7 WebSearch and 1 successful WebFetch (MusicWeb); Presto, Alibris, Gramophone and Linn refused WebFetch. All lookups returned (no FetchError left). SCOPE CALLS. (1) Prints that name flutes before violins (Hasse Op. 2, Fesch Opp. 7 and 12, Croes Op. 5, Gautier's suites) are kept as two violins and continuo with the flute as alternative, as the census files them; several recordings are flute-led (Laurence Dean, BarrocoTout, Hugo Reyne), so the owner may prefer to drop them. (2) Hammerschmidt's Erster Fleiß and Hilton's Prelude and Fantasias are one 'set' entry each: the suite numbers on Savall's disc are inconsistent. (3) Viol consorts recorded only by Phillip W. Serna (De Cousu, Duarte's own set) are not counted; Duarte rests on Ensemble PHOENIX. STRING-ORCHESTRA QUESTIONS (skipped, no one-to-a-part recording found): J. C. F. Fischer, Le Journal du Printemps Op. 1 (L'Orfeo Barockorchester, Freiburger Barockorchester); Durante, Concerti per quartetto (EUCO/Aadland, Ensemble Vox Aurae); Festing Opp. 3 and 5 (Festival Strings Lucerne); Gregori Op. 2 (Capriccio Barockorchester). WORTH A SECOND LOOK. Croes: Divertimenti on the Weverbergh/Terra Nova disc (Nos. 12-14) versus Opp. 2 and 4. Furchheim: 'Suite a 5 in B minor' (Düben collection, filed as unspecified instruments) seems to be on the L'Arpa Festante disc; the E-minor trio is matched by key only. Heinichen: the Sans Souci disc (Stradivarius 2015) is oboe and bassoon trios, so only S.254 (Carus 2022) is kept; the Seibel numbers of S.254 and S.256 differ between IMSLP and Wikipedia. Guerrieri: La Sevasca (a 4) and La Lucina are recorded; their parts are unverified. Guignon: BIS has Op. 4 No. 2 in D major in four movements, Audax (Pramsohler) lists a D-minor Op. 4 No. 2 in three. Fesch: the Globe CD's performers and full track list were not seen. Finger's theatre suites and Dumanoir's Allemande et Sarabande (unspecified-instruments pages) were not checked. Duarte No. 4 is only a 'Seconda Parte' track. WEAK 'none found' (namesake-heavy or variant spellings): Cobb, Drew, Hartley, Hayes, Humble, Humphries, Eyre, Frey, Geist, Hager, Hoffer, Freake, Croubelis. Apple's composerTerm results carry no composer field, so tracks on mixed discs could only be attributed by title, key and movement plan. NAMES. 'Comte de Saint Germain' is written 'Saint-Germain, Comte de'. Frederick II, Ghelardi, Hennersdorff and Gillier le jeune keep the input spelling in composers_checked. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 4 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Duarte: Sinfonia a 5 No. 4; Furchheim: Sonata a 3 in E minor; Gautier: Suite en trio in C major; Hammerschmidt: Neuer Paduanen, Galliarden, Balletten, Courenten und Sarabanden (Erster Fleiß). RECHECK 2026-10-17: 7 works added (Fesch Trio Sonata Op. 7 No. 4; Guerrieri Sonata a 2 'La Lucina'; Hasse Trio Sonatas Op. 2 Nos. 2, 5, 6 and Op. 3 Nos. 2, 3); 24 lines settled as not performed or recorded (Fesch 2, Croes 2, Fischer 6, Guerrieri 1, Hasse 3, Heinichen 5, Finger 3, Franchi 1, Gautier 1); 2 lines set to doubtful: low confidence (Furchheim Sonata a 5 in A minor; Guerrieri 'La Sevesca', a 4); 0 still not checked. Lookups used: MusicBrainz works browse, Deezer album and track searches with album track lists, Apple composerTerm song search, the IMSLP api and the Düben database; no FetchError was left. HAND EDITS: Fesch Op. 7 No. 5 and Op. 12 No. 3 (kept entries) now name Ensemble d'Auvergne (Globe GLO 5186, MusicBrainz release) in floor.recorded, have minutes 5 and 7 from the MusicBrainz track lengths and a MusicBrainz recording URL in sources; Guerrieri's Op. 1 skipped line was split in two (3 works not recorded, 1 doubtful) and now counts 3 + 1; Hasse's two Op. 2 skipped lines were removed and the Op. 3 line now counts 4 works. SCOPE CALLS: the Hasse Op. 3 and Op. 2 recordings added here are flute-led (Accademia del Ricercare plays two flutes; Artificii Musicali's instruments are not stated), the same call as the earlier Hasse entries, so the owner may drop all of them together; Op. 2 Nos. 5 and 6 are titled without a key because the Artificii Musicali track labels are unreliable (No. 1 is labelled E major, IMSLP has E minor; the labels give E and D). Fesch Op. 7 No. 4 is recorded with flute and violin (the print allows flutes). Guerrieri 'La Lucina' is entered as violin, harp (alternative lute/theorbo) and continuo, as the print and MusicWeb give it; IMSLP's PDF is labelled 2 violins and continuo. OPEN: Croes Op. 4 No. 6 (D major) is recorded by a chamber orchestra only (Collegium Instrumentale Brugense, Etcetera 2017); Project Boussu's 'Brussels Trio Sonatas' (Etcetera 2020) may hold Croes trios but its tracks carry no composer. Furchheim: Les Cornets Noirs (Raumklang RK 3101) and Spiritato (Delphian 2022) each record a 'Sonata a 5' that could be the A-minor or the E-flat sonata; L'Arpa Festante's 'Splendid Harmony' has a 'Sonate à 3 in E minor' and a 'Suite à 5 in B minor' with no composer per track. Fischer: Ensemble Théodora's 'Suite en trio' is unmatched. Finger's trumpet sonatas (trumpet, violin(s), continuo; Güttler on Berlin Classics) are recorded but have no page among the candidates and were not entered. Not rechecked: Guignon, Saint-Germain, Festing, Gianotti, Düben, Hammerschmidt and the other lines with several lookups."
 }
