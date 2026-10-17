@@ -8003,5 +8003,133 @@
    ],
    "confidence": "medium"
   }
+ },
+ {
+  "slice": "m04_classical-hoffmeister-edelmann",
+  "why": "whether this Trio concertant is the same music as the flute trios Op. 11 is unsettled and the attribution rests on Apple's composer field and a search snippet; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Hoffmeister, Franz Anton",
+   "title": "String Trio in G major, Op. 11 No. 3",
+   "aka": [
+    "Trio concertant in G major, Op. 11 No. 3"
+   ],
+   "instruments": {
+    "violin": 2,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "string-trio",
+   "formationNote": null,
+   "form": "work",
+   "set": "Three String Trios, Op. 11",
+   "year": "c. 1790",
+   "minutes": 10,
+   "notes": "Trio concertant in two movements (Allegro; Allegretto – Andantino) for two violins and cello",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Violin 1 about ABRSM 6–7; light texture",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "3 String Trios, Op.11 (Hoffmeister, Franz Anton)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "J. Schmitt, Amsterdam, c. 1790 ('Trois trios concertants pour deux violons & violoncelle', per IMSLP)",
+    "recorded": "The Vivaldi Project, MSR Classics MS 1623 (2021), 'Discovering the Classical String Trio, Vol. 3' (Deezer 237510382; 6:31 + 3:51)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/3_String_Trios,_Op.11_(Hoffmeister,_Franz_Anton)",
+    "https://www.deezer.com/album/237510382",
+    "https://itunes.apple.com/search?term=Franz+Anton+Hoffmeister&media=music&entity=song&attribute=composerTerm&limit=200"
+   ],
+   "confidence": "medium",
+   "gap": true
+  }
+ },
+ {
+  "slice": "m10_20th-century-wolf-ferrari-ibert",
+  "why": "no edition or recording, only two 2011 concert programmes; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Wolf-Ferrari, Ermanno",
+   "title": "String Sextet in C minor",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 2,
+    "cello": 2
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 6,
+   "formation": "large-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1894–95",
+   "minutes": null,
+   "notes": "Early manuscript work; also exists as a string trio",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Student work in a late-Romantic idiom; violin 1 about ABRSM 7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "String Sextet in C minor (Wolf-Ferrari, Ermanno)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "",
+    "performed": "Kathrin ten Hagen's ensemble with Peter Buck (cello), Alzenau 23 Oct 2011 and Offenbach 24 Oct 2011, from the manuscript (no modern edition or recording found)"
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Sextet_in_C_minor_(Wolf-Ferrari,_Ermanno)",
+    "https://www.kathrintenhagen.de/en/schedule.html",
+    "https://en.wikipedia.org/wiki/Ermanno_Wolf-Ferrari"
+   ],
+   "confidence": "medium"
+  }
+ },
+ {
+  "slice": "m10_20th-century-wolf-ferrari-ibert",
+  "why": "four cellos with a taped voice counted as electronics: an unusual scoring; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Fine, Vivian",
+   "title": "Missa Brevis for Four Cellos and Taped Voice",
+   "aka": [],
+   "instruments": {
+    "cello": 4,
+    "electronics": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1972",
+   "minutes": 21,
+   "notes": "Four cellos with a pre-recorded voice on tape; about 21 minutes",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Contemporary idiom; cellos about level 6, coordination with the tape",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Jan De Gaetani (taped voice) with David Finckel, Maxine Neuman, Michael Finckel and Eric Bartlett (cellos), New World Records/CRI, Music of Vivian Fine (digital reissue 2007)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/11670460",
+    "https://music.apple.com/us/album/missa-brevis-for-four-cellos-and-taped-voice/951646086?i=951646128",
+    "https://en.wikipedia.org/wiki/Missa_brevis"
+   ],
+   "confidence": "medium",
+   "gap": true
+  }
  }
 ]
