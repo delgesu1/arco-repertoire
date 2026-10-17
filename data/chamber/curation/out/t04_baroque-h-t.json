@@ -18,9 +18,25 @@
    "in_catalogue": false
   },
   {
+   "name": "Kirnberger, Johann Philipp",
+   "dates": "1721–1783",
+   "nationality": "German",
+   "gender": "M",
+   "era": "baroque",
+   "in_catalogue": false
+  },
+  {
    "name": "Krause, Christian Gottfried",
    "dates": "1719–1770",
    "nationality": "German",
+   "gender": "M",
+   "era": "baroque",
+   "in_catalogue": false
+  },
+  {
+   "name": "La Barre, Michel de",
+   "dates": "1675–1745",
+   "nationality": "French",
    "gender": "M",
    "era": "baroque",
    "in_catalogue": false
@@ -71,6 +87,14 @@
    "nationality": "Italian",
    "gender": "M",
    "era": "baroque",
+   "in_catalogue": false
+  },
+  {
+   "name": "Noferi, Giovan Battista",
+   "dates": "",
+   "nationality": "Italian",
+   "gender": "M",
+   "era": "classical",
    "in_catalogue": false
   },
   {
@@ -133,6 +157,14 @@
    "name": "Schaffrath, Christoph",
    "dates": "1709–1763",
    "nationality": "German",
+   "gender": "M",
+   "era": "baroque",
+   "in_catalogue": false
+  },
+  {
+   "name": "Schenck, Johann",
+   "dates": "1660–1712",
+   "nationality": "Dutch",
    "gender": "M",
    "era": "baroque",
    "in_catalogue": false
@@ -3381,6 +3413,928 @@
     "https://musicbrainz.org/release/738f34fb-b7a7-4f0d-b2b1-8adcf4b47c07"
    ],
    "confidence": "high"
+  },
+  {
+   "composer": "Schenck, Johann",
+   "title": "Trio Sonata in D major, Op. 3 No. 1",
+   "aka": [
+    "Il giardino armonico, Sonata prima"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Twelve Trio Sonatas, Op. 3 (\"Il giardino armonico\")",
+   "year": "1692",
+   "minutes": 5,
+   "notes": "For two violins, viola da gamba and continuo (Amsterdam, 1692); the gamba has its own line",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Amsterdam 1692 sonata with imitative sections and fast figuration for two violins; about ABRSM 6-7; active gamba part",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Amsterdam: Amedeo le Chevallier, 1692 (facsimile on IMSLP)",
+    "recorded": "La Suave Melodia, Schenck: Il Giardino Armonico, 12 Trio Sonatas Op. III (Etcetera, 2008; all twelve)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Schenck, Johann",
+   "title": "Trio Sonata in B-flat major, Op. 3 No. 2",
+   "aka": [
+    "Il giardino armonico, Sonata seconda"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Twelve Trio Sonatas, Op. 3 (\"Il giardino armonico\")",
+   "year": "1692",
+   "minutes": 5,
+   "notes": "For two violins, viola da gamba and continuo (Amsterdam, 1692); the gamba has its own line",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Amsterdam 1692 sonata with imitative sections and fast figuration for two violins; about ABRSM 6-7; active gamba part",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Amsterdam: Amedeo le Chevallier, 1692 (facsimile on IMSLP)",
+    "recorded": "La Suave Melodia, Schenck: Il Giardino Armonico, 12 Trio Sonatas Op. III (Etcetera, 2008; all twelve)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Schenck, Johann",
+   "title": "Trio Sonata in G minor, Op. 3 No. 3",
+   "aka": [
+    "Il giardino armonico, Sonata terza"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Twelve Trio Sonatas, Op. 3 (\"Il giardino armonico\")",
+   "year": "1692",
+   "minutes": 11,
+   "notes": "For two violins, viola da gamba and continuo (Amsterdam, 1692); the gamba has its own line",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Amsterdam 1692 sonata with imitative sections and fast figuration for two violins; about ABRSM 6-7; active gamba part",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Amsterdam: Amedeo le Chevallier, 1692 (facsimile on IMSLP)",
+    "recorded": "La Suave Melodia, Schenck: Il Giardino Armonico, 12 Trio Sonatas Op. III (Etcetera, 2008; all twelve)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Schenck, Johann",
+   "title": "Trio Sonata in D minor, Op. 3 No. 4",
+   "aka": [
+    "Il giardino armonico, Sonata quarta"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Twelve Trio Sonatas, Op. 3 (\"Il giardino armonico\")",
+   "year": "1692",
+   "minutes": 8,
+   "notes": "For two violins, viola da gamba and continuo (Amsterdam, 1692); the gamba has its own line",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Amsterdam 1692 sonata with imitative sections and fast figuration for two violins; about ABRSM 6-7; active gamba part",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Amsterdam: Amedeo le Chevallier, 1692 (facsimile on IMSLP)",
+    "recorded": "La Suave Melodia, Schenck: Il Giardino Armonico, 12 Trio Sonatas Op. III (Etcetera, 2008; all twelve)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Schenck, Johann",
+   "title": "Trio Sonata in C minor, Op. 3 No. 5",
+   "aka": [
+    "Il giardino armonico, Sonata quinta"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Twelve Trio Sonatas, Op. 3 (\"Il giardino armonico\")",
+   "year": "1692",
+   "minutes": 6,
+   "notes": "For two violins, viola da gamba and continuo (Amsterdam, 1692); the gamba has its own line",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Amsterdam 1692 sonata with imitative sections and fast figuration for two violins; about ABRSM 6-7; active gamba part",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Amsterdam: Amedeo le Chevallier, 1692 (facsimile on IMSLP)",
+    "recorded": "La Suave Melodia, Schenck: Il Giardino Armonico, 12 Trio Sonatas Op. III (Etcetera, 2008; all twelve)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Schenck, Johann",
+   "title": "Trio Sonata in E major, Op. 3 No. 6",
+   "aka": [
+    "Il giardino armonico, Sonata sesta"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Twelve Trio Sonatas, Op. 3 (\"Il giardino armonico\")",
+   "year": "1692",
+   "minutes": 4,
+   "notes": "For two violins, viola da gamba and continuo (Amsterdam, 1692); the gamba has its own line",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Amsterdam 1692 sonata with imitative sections and fast figuration for two violins; about ABRSM 6-7; active gamba part",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Amsterdam: Amedeo le Chevallier, 1692 (facsimile on IMSLP)",
+    "recorded": "La Suave Melodia, Schenck: Il Giardino Armonico, 12 Trio Sonatas Op. III (Etcetera, 2008; all twelve)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Schenck, Johann",
+   "title": "Trio Sonata in F major, Op. 3 No. 7",
+   "aka": [
+    "Il giardino armonico, Sonata settima"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Twelve Trio Sonatas, Op. 3 (\"Il giardino armonico\")",
+   "year": "1692",
+   "minutes": 5,
+   "notes": "For two violins, viola da gamba and continuo (Amsterdam, 1692); the gamba has its own line",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Amsterdam 1692 sonata with imitative sections and fast figuration for two violins; about ABRSM 6-7; active gamba part",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Amsterdam: Amedeo le Chevallier, 1692 (facsimile on IMSLP)",
+    "recorded": "La Suave Melodia, Schenck: Il Giardino Armonico, 12 Trio Sonatas Op. III (Etcetera, 2008; all twelve)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Schenck, Johann",
+   "title": "Trio Sonata in C major, Op. 3 No. 8",
+   "aka": [
+    "Il giardino armonico, Sonata ottava"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Twelve Trio Sonatas, Op. 3 (\"Il giardino armonico\")",
+   "year": "1692",
+   "minutes": 9,
+   "notes": "For two violins, viola da gamba and continuo (Amsterdam, 1692); the gamba has its own line",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Amsterdam 1692 sonata with imitative sections and fast figuration for two violins; about ABRSM 6-7; active gamba part",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Amsterdam: Amedeo le Chevallier, 1692 (facsimile on IMSLP)",
+    "recorded": "La Suave Melodia, Schenck: Il Giardino Armonico, 12 Trio Sonatas Op. III (Etcetera, 2008; all twelve)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Schenck, Johann",
+   "title": "Trio Sonata in A major, Op. 3 No. 9",
+   "aka": [
+    "Il giardino armonico, Sonata nona"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Twelve Trio Sonatas, Op. 3 (\"Il giardino armonico\")",
+   "year": "1692",
+   "minutes": 6,
+   "notes": "For two violins, viola da gamba and continuo (Amsterdam, 1692); the gamba has its own line",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Amsterdam 1692 sonata with imitative sections and fast figuration for two violins; about ABRSM 6-7; active gamba part",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Amsterdam: Amedeo le Chevallier, 1692 (facsimile on IMSLP)",
+    "recorded": "La Suave Melodia, Schenck: Il Giardino Armonico, 12 Trio Sonatas Op. III (Etcetera, 2008; all twelve)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Schenck, Johann",
+   "title": "Trio Sonata in B minor, Op. 3 No. 10",
+   "aka": [
+    "Il giardino armonico, Sonata decima"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Twelve Trio Sonatas, Op. 3 (\"Il giardino armonico\")",
+   "year": "1692",
+   "minutes": 5,
+   "notes": "For two violins, viola da gamba and continuo (Amsterdam, 1692); the gamba has its own line",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Amsterdam 1692 sonata with imitative sections and fast figuration for two violins; about ABRSM 6-7; active gamba part",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Amsterdam: Amedeo le Chevallier, 1692 (facsimile on IMSLP)",
+    "recorded": "La Suave Melodia, Schenck: Il Giardino Armonico, 12 Trio Sonatas Op. III (Etcetera, 2008; all twelve)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Schenck, Johann",
+   "title": "Trio Sonata in A minor, Op. 3 No. 11",
+   "aka": [
+    "Il giardino armonico, Sonata undecima"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Twelve Trio Sonatas, Op. 3 (\"Il giardino armonico\")",
+   "year": "1692",
+   "minutes": 6,
+   "notes": "For two violins, viola da gamba and continuo (Amsterdam, 1692); the gamba has its own line",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Amsterdam 1692 sonata with imitative sections and fast figuration for two violins; about ABRSM 6-7; active gamba part",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Amsterdam: Amedeo le Chevallier, 1692 (facsimile on IMSLP)",
+    "recorded": "La Suave Melodia, Schenck: Il Giardino Armonico, 12 Trio Sonatas Op. III (Etcetera, 2008; all twelve)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Schenck, Johann",
+   "title": "Trio Sonata in D minor, Op. 3 No. 12",
+   "aka": [
+    "Il giardino armonico, Sonata duodecima"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Twelve Trio Sonatas, Op. 3 (\"Il giardino armonico\")",
+   "year": "1692",
+   "minutes": 9,
+   "notes": "For two violins, viola da gamba and continuo (Amsterdam, 1692); the gamba has its own line",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Amsterdam 1692 sonata with imitative sections and fast figuration for two violins; about ABRSM 6-7; active gamba part",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Amsterdam: Amedeo le Chevallier, 1692 (facsimile on IMSLP)",
+    "recorded": "La Suave Melodia, Schenck: Il Giardino Armonico, 12 Trio Sonatas Op. III (Etcetera, 2008; all twelve)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Noferi, Giovan Battista",
+   "title": "Trio, Op. 16 No. 1",
+   "aka": [
+    "Trio for guitar, violin and cello, Op. 16 No. 1"
+   ],
+   "instruments": {
+    "guitar": 1,
+    "violin": 1,
+    "cello": 1
+   },
+   "alternatives": {
+    "cello": [
+     "piano"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "other",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six Trios, Op. 16",
+   "year": "",
+   "minutes": 6,
+   "notes": "Printed for English guitar (cittern), violin and cello or piano; recorded with guitar",
+   "popularity": "lesser-known",
+   "level_guess": 2,
+   "level_basis": "Galant trio for English guitar, violin and cello; easy figuration, about ABRSM 5-6",
+   "hardest_part_guess": "violin",
+   "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Andrea Dandolo and Ensemble Pian & Forte, Giardini, Noferi: Sonate e trii con chitarra (NAR International, 1993); six multi-movement trios by the ensemble, numbered 1-6 on the disc (taken as the print's Op. 16 order)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.16_(Noferi,_Giovan_Battista)",
+    "https://www.deezer.com/album/299453672"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Noferi, Giovan Battista",
+   "title": "Trio, Op. 16 No. 2",
+   "aka": [
+    "Trio for guitar, violin and cello, Op. 16 No. 2"
+   ],
+   "instruments": {
+    "guitar": 1,
+    "violin": 1,
+    "cello": 1
+   },
+   "alternatives": {
+    "cello": [
+     "piano"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "other",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six Trios, Op. 16",
+   "year": "",
+   "minutes": 6,
+   "notes": "Printed for English guitar (cittern), violin and cello or piano; recorded with guitar",
+   "popularity": "lesser-known",
+   "level_guess": 2,
+   "level_basis": "Galant trio for English guitar, violin and cello; easy figuration, about ABRSM 5-6",
+   "hardest_part_guess": "violin",
+   "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Andrea Dandolo and Ensemble Pian & Forte, Giardini, Noferi: Sonate e trii con chitarra (NAR International, 1993); six multi-movement trios by the ensemble, numbered 1-6 on the disc (taken as the print's Op. 16 order)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.16_(Noferi,_Giovan_Battista)",
+    "https://www.deezer.com/album/299453672"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Noferi, Giovan Battista",
+   "title": "Trio, Op. 16 No. 3",
+   "aka": [
+    "Trio for guitar, violin and cello, Op. 16 No. 3"
+   ],
+   "instruments": {
+    "guitar": 1,
+    "violin": 1,
+    "cello": 1
+   },
+   "alternatives": {
+    "cello": [
+     "piano"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "other",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six Trios, Op. 16",
+   "year": "",
+   "minutes": 7,
+   "notes": "Printed for English guitar (cittern), violin and cello or piano; recorded with guitar",
+   "popularity": "lesser-known",
+   "level_guess": 2,
+   "level_basis": "Galant trio for English guitar, violin and cello; easy figuration, about ABRSM 5-6",
+   "hardest_part_guess": "violin",
+   "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Andrea Dandolo and Ensemble Pian & Forte, Giardini, Noferi: Sonate e trii con chitarra (NAR International, 1993); six multi-movement trios by the ensemble, numbered 1-6 on the disc (taken as the print's Op. 16 order)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.16_(Noferi,_Giovan_Battista)",
+    "https://www.deezer.com/album/299453672"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Noferi, Giovan Battista",
+   "title": "Trio, Op. 16 No. 4",
+   "aka": [
+    "Trio for guitar, violin and cello, Op. 16 No. 4"
+   ],
+   "instruments": {
+    "guitar": 1,
+    "violin": 1,
+    "cello": 1
+   },
+   "alternatives": {
+    "cello": [
+     "piano"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "other",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six Trios, Op. 16",
+   "year": "",
+   "minutes": 7,
+   "notes": "Printed for English guitar (cittern), violin and cello or piano; recorded with guitar",
+   "popularity": "lesser-known",
+   "level_guess": 2,
+   "level_basis": "Galant trio for English guitar, violin and cello; easy figuration, about ABRSM 5-6",
+   "hardest_part_guess": "violin",
+   "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Andrea Dandolo and Ensemble Pian & Forte, Giardini, Noferi: Sonate e trii con chitarra (NAR International, 1993); six multi-movement trios by the ensemble, numbered 1-6 on the disc (taken as the print's Op. 16 order)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.16_(Noferi,_Giovan_Battista)",
+    "https://www.deezer.com/album/299453672"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Noferi, Giovan Battista",
+   "title": "Trio, Op. 16 No. 5",
+   "aka": [
+    "Trio for guitar, violin and cello, Op. 16 No. 5"
+   ],
+   "instruments": {
+    "guitar": 1,
+    "violin": 1,
+    "cello": 1
+   },
+   "alternatives": {
+    "cello": [
+     "piano"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "other",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six Trios, Op. 16",
+   "year": "",
+   "minutes": 8,
+   "notes": "Printed for English guitar (cittern), violin and cello or piano; recorded with guitar",
+   "popularity": "lesser-known",
+   "level_guess": 2,
+   "level_basis": "Galant trio for English guitar, violin and cello; easy figuration, about ABRSM 5-6",
+   "hardest_part_guess": "violin",
+   "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Andrea Dandolo and Ensemble Pian & Forte, Giardini, Noferi: Sonate e trii con chitarra (NAR International, 1993); six multi-movement trios by the ensemble, numbered 1-6 on the disc (taken as the print's Op. 16 order)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.16_(Noferi,_Giovan_Battista)",
+    "https://www.deezer.com/album/299453672"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Noferi, Giovan Battista",
+   "title": "Trio, Op. 16 No. 6",
+   "aka": [
+    "Trio for guitar, violin and cello, Op. 16 No. 6"
+   ],
+   "instruments": {
+    "guitar": 1,
+    "violin": 1,
+    "cello": 1
+   },
+   "alternatives": {
+    "cello": [
+     "piano"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "other",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six Trios, Op. 16",
+   "year": "",
+   "minutes": 8,
+   "notes": "Printed for English guitar (cittern), violin and cello or piano; recorded with guitar",
+   "popularity": "lesser-known",
+   "level_guess": 2,
+   "level_basis": "Galant trio for English guitar, violin and cello; easy figuration, about ABRSM 5-6",
+   "hardest_part_guess": "violin",
+   "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Andrea Dandolo and Ensemble Pian & Forte, Giardini, Noferi: Sonate e trii con chitarra (NAR International, 1993); six multi-movement trios by the ensemble, numbered 1-6 on the disc (taken as the print's Op. 16 order)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.16_(Noferi,_Giovan_Battista)",
+    "https://www.deezer.com/album/299453672"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "composer": "Kirnberger, Johann Philipp",
+   "title": "Trio Sonata in G major",
+   "aka": [
+    "Trio 1 in G-Dur für 2 Violinen und Basso continuo"
+   ],
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 6,
+   "notes": "Two movements (Ouverture, Prestissimo); Trio 1 on NeoBarock's Kirnberger album",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Galant trio for two violins and continuo; both violins about ABRSM 6",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "NeoBarock (Maren Ries, Volker Möller, Ariane Spiegel), Johann Philipp Kirnberger (ambitus, 2020; trios 1-6)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/166022482"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Kirnberger, Johann Philipp",
+   "title": "Trio Sonata in E major",
+   "aka": [
+    "Trio 2 in E-Dur für zwei Violinen und Basso continuo"
+   ],
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 18,
+   "notes": "Three movements (Andante, Allegro, Allegretto); Trio 2 on NeoBarock's Kirnberger album",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Galant trio for two violins and continuo; both violins about ABRSM 6",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "NeoBarock (Maren Ries, Volker Möller, Ariane Spiegel), Johann Philipp Kirnberger (ambitus, 2020; trios 1-6)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/166022482"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Kirnberger, Johann Philipp",
+   "title": "Trio Sonata in C major",
+   "aka": [
+    "Trio 3 in C-Dur für zwei Violinen und Basso continuo"
+   ],
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 8,
+   "notes": "Three movements (Allabreve, Andante, Allegro); Trio 3 on NeoBarock's Kirnberger album",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Galant trio for two violins and continuo; both violins about ABRSM 6",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "NeoBarock (Maren Ries, Volker Möller, Ariane Spiegel), Johann Philipp Kirnberger (ambitus, 2020; trios 1-6)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/166022482"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Kirnberger, Johann Philipp",
+   "title": "Trio Sonata in G minor",
+   "aka": [
+    "Trio 5 in G-Moll für zwei Violinen und Basso continuo"
+   ],
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 10,
+   "notes": "Three movements (Andante, Allabreve, Allegro); Trio 5 on NeoBarock's Kirnberger album",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Galant trio for two violins and continuo; both violins about ABRSM 6",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "NeoBarock (Maren Ries, Volker Möller, Ariane Spiegel), Johann Philipp Kirnberger (ambitus, 2020; trios 1-6)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/166022482"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "La Barre, Michel de",
+   "title": "Suite No. 2 in G major",
+   "aka": [
+    "Pièces en trio, Livre 1: Suite II",
+    "Premier livre des trio"
+   ],
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute",
+     "oboe"
+    ]
+   },
+   "optional": {},
+   "players": 3,
+   "formation": "continuo",
+   "formationNote": null,
+   "form": "work",
+   "set": "Pièces en trio, Livre 1",
+   "year": "1694",
+   "minutes": 10,
+   "notes": "From the 1694 book of six suites for two treble instruments (violins, flutes or oboes) and continuo",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Short French dance movements for two equal treble parts; about ABRSM 6; ornaments and style matter more than the notes",
+   "hardest_part_guess": "balanced",
+   "imslpPage": "Pièces en trio, Livre 1 (La Barre, Michel de)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Paris: Christophe Ballard, 1694",
+    "recorded": "Harmonices Mvndi Chile, Suite II en Sol Majeur from Pièces en trio, Livre 1 (own label, 2021; eight movements, 9:47)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Pièces_en_trio,_Livre_1_(La_Barre,_Michel_de)",
+    "https://www.deezer.com/album/270867262"
+   ],
+   "confidence": "medium"
   }
  ],
  "skipped": [
@@ -3414,7 +4368,7 @@
    "imslpPage": "Quadro in E-flat major, CSWV D:6 (Schaffrath, Christoph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (81) and Deezer 'Schaffrath quartet', 'Schaffrath trio sonata', 'Christoph Schaffrath' (CPO Trios & Sonatas has E:18 only; the other discs are keyboard and concertos): not this work. MusicBrainz also lists an A-major sonata for viola da gamba, violin, cello and harpsichord (Balestracci, Beyer and others, 2005) that no page here matches; not entered. Earlier: Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
   },
   {
    "composer": "Schaffrath, Christoph",
@@ -3422,7 +4376,7 @@
    "imslpPage": "Quadro in F major, CSWV D:8 (Schaffrath, Christoph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (81) and Deezer 'Schaffrath quartet', 'Schaffrath trio sonata', 'Christoph Schaffrath' (CPO Trios & Sonatas has E:18 only; the other discs are keyboard and concertos): not this work. MusicBrainz also lists an A-major sonata for viola da gamba, violin, cello and harpsichord (Balestracci, Beyer and others, 2005) that no page here matches; not entered. Earlier: Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
   },
   {
    "composer": "Schaffrath, Christoph",
@@ -3430,7 +4384,7 @@
    "imslpPage": "Quartet in E major, CSWV D:7 (Schaffrath, Christoph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (81) and Deezer 'Schaffrath quartet', 'Schaffrath trio sonata', 'Christoph Schaffrath' (CPO Trios & Sonatas has E:18 only; the other discs are keyboard and concertos): not this work. MusicBrainz also lists an A-major sonata for viola da gamba, violin, cello and harpsichord (Balestracci, Beyer and others, 2005) that no page here matches; not entered. Earlier: Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
   },
   {
    "composer": "Schaffrath, Christoph",
@@ -3438,7 +4392,7 @@
    "imslpPage": "Sonata à 4 in C major, CSWV D:4 (Schaffrath, Christoph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (81) and Deezer 'Schaffrath quartet', 'Schaffrath trio sonata', 'Christoph Schaffrath' (CPO Trios & Sonatas has E:18 only; the other discs are keyboard and concertos): not this work. MusicBrainz also lists an A-major sonata for viola da gamba, violin, cello and harpsichord (Balestracci, Beyer and others, 2005) that no page here matches; not entered. Earlier: Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
   },
   {
    "composer": "Schaffrath, Christoph",
@@ -3446,7 +4400,7 @@
    "imslpPage": "Sonata à 4 in C major, CSWV Dm:10 (Schaffrath, Christoph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (81) and Deezer 'Schaffrath quartet', 'Schaffrath trio sonata', 'Christoph Schaffrath' (CPO Trios & Sonatas has E:18 only; the other discs are keyboard and concertos): not this work. MusicBrainz also lists an A-major sonata for viola da gamba, violin, cello and harpsichord (Balestracci, Beyer and others, 2005) that no page here matches; not entered. Earlier: Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
   },
   {
    "composer": "Schaffrath, Christoph",
@@ -3454,7 +4408,7 @@
    "imslpPage": "Sonata in C minor, CSWV D:2 (Schaffrath, Christoph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (81) and Deezer 'Schaffrath quartet', 'Schaffrath trio sonata', 'Christoph Schaffrath' (CPO Trios & Sonatas has E:18 only; the other discs are keyboard and concertos): not this work. MusicBrainz also lists an A-major sonata for viola da gamba, violin, cello and harpsichord (Balestracci, Beyer and others, 2005) that no page here matches; not entered. Earlier: Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
   },
   {
    "composer": "Schaffrath, Christoph",
@@ -3462,7 +4416,7 @@
    "imslpPage": "Trio Sonata in D major, CSWV E:3 (Schaffrath, Christoph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (81) and Deezer 'Schaffrath quartet', 'Schaffrath trio sonata', 'Christoph Schaffrath' (CPO Trios & Sonatas has E:18 only; the other discs are keyboard and concertos): not this work. MusicBrainz also lists an A-major sonata for viola da gamba, violin, cello and harpsichord (Balestracci, Beyer and others, 2005) that no page here matches; not entered. Earlier: Not on the CPO disc (E:18 and E:20 only); no other recording of this work in the MusicBrainz, Deezer or Apple lookups"
   },
   {
    "composer": "Tůma, František Ignác Antonín",
@@ -3478,7 +4432,7 @@
    "imslpPage": "6 Trio Sonatas (Tůma, František Ignác Antonín)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found (Concerto Italiano and Stryncl play a quattro/a tre pieces in other keys)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (12) and Deezer 'Tuma trio sonata', 'František Ignác Antonín Tůma', 'Tůma sonata a 3' (Supraphon discs: Collegium 1704 and Stryncl sonatas, sinfonias, partitas): nothing identified with this page by key and scoring. Earlier: No recording of this work found (Concerto Italiano and Stryncl play a quattro/a tre pieces in other keys)"
   },
   {
    "composer": "Tůma, František Ignác Antonín",
@@ -3486,7 +4440,7 @@
    "imslpPage": "Parthia in F minor (Tůma, František Ignác Antonín)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found (Concerto Italiano and Stryncl play a quattro/a tre pieces in other keys)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (12) and Deezer 'Tuma trio sonata', 'František Ignác Antonín Tůma', 'Tůma sonata a 3' (Supraphon discs: Collegium 1704 and Stryncl sonatas, sinfonias, partitas): nothing identified with this page by key and scoring. Earlier: No recording of this work found (Concerto Italiano and Stryncl play a quattro/a tre pieces in other keys)"
   },
   {
    "composer": "Tůma, František Ignác Antonín",
@@ -3494,7 +4448,7 @@
    "imslpPage": "Partita in A minor (Tůma, František Ignác Antonín)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found (Concerto Italiano and Stryncl play a quattro/a tre pieces in other keys)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (12) and Deezer 'Tuma trio sonata', 'František Ignác Antonín Tůma', 'Tůma sonata a 3' (Supraphon discs: Collegium 1704 and Stryncl sonatas, sinfonias, partitas): nothing identified with this page by key and scoring. Earlier: No recording of this work found (Concerto Italiano and Stryncl play a quattro/a tre pieces in other keys)"
   },
   {
    "composer": "Tůma, František Ignác Antonín",
@@ -3502,7 +4456,7 @@
    "imslpPage": "Trio in A major (Tůma, František Ignác Antonín)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found (Concerto Italiano and Stryncl play a quattro/a tre pieces in other keys)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (12) and Deezer 'Tuma trio sonata', 'František Ignác Antonín Tůma', 'Tůma sonata a 3' (Supraphon discs: Collegium 1704 and Stryncl sonatas, sinfonias, partitas): nothing identified with this page by key and scoring. Earlier: No recording of this work found (Concerto Italiano and Stryncl play a quattro/a tre pieces in other keys)"
   },
   {
    "composer": "Schuchbauer, Franz Simon",
@@ -3534,7 +4488,7 @@
    "imslpPage": "6 Trio Sonatas (Pla, José)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Six Sonates en Trio (Paris 1759): no recording found; the Meridian and Ramee discs have Pla trios, but their Dolcet numbers cannot be tied to this print"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz has no Pla page (namesakes only) and Deezer 'Jose Pla trio sonatas', 'Pla sonates en trio' find nothing for the 1759 print. Earlier: Six Sonates en Trio (Paris 1759): no recording found; the Meridian and Ramee discs have Pla trios, but their Dolcet numbers cannot be tied to this print"
   },
   {
    "composer": "Noferi, Giovan Battista",
@@ -3582,7 +4536,7 @@
    "imslpPage": "Trio Sonata in A minor, D-Dl Mus.2376-Q-6 (Linike, Johann Georg)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Not matched: the Concert Royal Köln disc has an oboe sonata in F (oboe and continuo), a double-oboe sonata in G and sonatas in B-flat and D that no page here covers"
+   "evidence": "Rechecked 2026-10-17: Deezer 581220101 (Concert Royal Köln, Linike: Chamber Works, Musicaphon 2019) opened in full: double-oboe concerto and sonata, oboe sonata in F, trio sonatas in B-flat and D, violin-and-oboe sonata in G minor, oboe concerto; no trio sonata in A minor, C major, F major or G major. MusicBrainz lists only a D-major string suite. Earlier: Not matched: the Concert Royal Köln disc has an oboe sonata in F (oboe and continuo), a double-oboe sonata in G and sonatas in B-flat and D that no page here covers"
   },
   {
    "composer": "Linike, Johann Georg",
@@ -3590,7 +4544,7 @@
    "imslpPage": "Trio Sonata in C major (Linike, Johann Georg)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Not matched: the Concert Royal Köln disc has an oboe sonata in F (oboe and continuo), a double-oboe sonata in G and sonatas in B-flat and D that no page here covers"
+   "evidence": "Rechecked 2026-10-17: Deezer 581220101 (Concert Royal Köln, Linike: Chamber Works, Musicaphon 2019) opened in full: double-oboe concerto and sonata, oboe sonata in F, trio sonatas in B-flat and D, violin-and-oboe sonata in G minor, oboe concerto; no trio sonata in A minor, C major, F major or G major. MusicBrainz lists only a D-major string suite. Earlier: Not matched: the Concert Royal Köln disc has an oboe sonata in F (oboe and continuo), a double-oboe sonata in G and sonatas in B-flat and D that no page here covers"
   },
   {
    "composer": "Linike, Johann Georg",
@@ -3598,7 +4552,7 @@
    "imslpPage": "Trio Sonata in F major (Linike, Johann Georg)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Not matched: the Concert Royal Köln disc has an oboe sonata in F (oboe and continuo), a double-oboe sonata in G and sonatas in B-flat and D that no page here covers"
+   "evidence": "Rechecked 2026-10-17: Deezer 581220101 (Concert Royal Köln, Linike: Chamber Works, Musicaphon 2019) opened in full: double-oboe concerto and sonata, oboe sonata in F, trio sonatas in B-flat and D, violin-and-oboe sonata in G minor, oboe concerto; no trio sonata in A minor, C major, F major or G major. MusicBrainz lists only a D-major string suite. Earlier: Not matched: the Concert Royal Köln disc has an oboe sonata in F (oboe and continuo), a double-oboe sonata in G and sonatas in B-flat and D that no page here covers"
   },
   {
    "composer": "Linike, Johann Georg",
@@ -3606,7 +4560,7 @@
    "imslpPage": "Trio Sonata in G major (Linike, Johann Georg)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Not matched: the Concert Royal Köln disc has an oboe sonata in F (oboe and continuo), a double-oboe sonata in G and sonatas in B-flat and D that no page here covers"
+   "evidence": "Rechecked 2026-10-17: Deezer 581220101 (Concert Royal Köln, Linike: Chamber Works, Musicaphon 2019) opened in full: double-oboe concerto and sonata, oboe sonata in F, trio sonatas in B-flat and D, violin-and-oboe sonata in G minor, oboe concerto; no trio sonata in A minor, C major, F major or G major. MusicBrainz lists only a D-major string suite. Earlier: Not matched: the Concert Royal Köln disc has an oboe sonata in F (oboe and continuo), a double-oboe sonata in G and sonatas in B-flat and D that no page here covers"
   },
   {
    "composer": "Orschler, Johann Georg",
@@ -3638,7 +4592,7 @@
    "imslpPage": "3 Trio Sonatas (Pepusch, John Christopher)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (68) list the F-major trio sonata (entered), recorder sonatas, concertos and vocal works; Deezer 'Pepusch trio sonata', 'Johann Christoph Pepusch sonatas', 'Pepusch Trio Sonata in F' find recorder and flute sonatas and the Op. 8 concertos only: no recording of this work. Earlier: No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
   },
   {
    "composer": "Pepusch, John Christopher",
@@ -3646,7 +4600,7 @@
    "imslpPage": "Concerto a 6, Dlb 2160-O-3 (Pepusch, John Christopher)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (68) list the F-major trio sonata (entered), recorder sonatas, concertos and vocal works; Deezer 'Pepusch trio sonata', 'Johann Christoph Pepusch sonatas', 'Pepusch Trio Sonata in F' find recorder and flute sonatas and the Op. 8 concertos only: no recording of this work. Earlier: No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
   },
   {
    "composer": "Pepusch, John Christopher",
@@ -3654,7 +4608,7 @@
    "imslpPage": "Concerto Grosso, Add.64965 (Pepusch, John Christopher)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (68) list the F-major trio sonata (entered), recorder sonatas, concertos and vocal works; Deezer 'Pepusch trio sonata', 'Johann Christoph Pepusch sonatas', 'Pepusch Trio Sonata in F' find recorder and flute sonatas and the Op. 8 concertos only: no recording of this work. Earlier: No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
   },
   {
    "composer": "Pepusch, John Christopher",
@@ -3662,7 +4616,7 @@
    "imslpPage": "Concerto, Ten.1131 (Pepusch, John Christopher)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (68) list the F-major trio sonata (entered), recorder sonatas, concertos and vocal works; Deezer 'Pepusch trio sonata', 'Johann Christoph Pepusch sonatas', 'Pepusch Trio Sonata in F' find recorder and flute sonatas and the Op. 8 concertos only: no recording of this work. Earlier: No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
   },
   {
    "composer": "Pepusch, John Christopher",
@@ -3670,7 +4624,7 @@
    "imslpPage": "Sonata in G minor (Pepusch, John Christopher)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (68) list the F-major trio sonata (entered), recorder sonatas, concertos and vocal works; Deezer 'Pepusch trio sonata', 'Johann Christoph Pepusch sonatas', 'Pepusch Trio Sonata in F' find recorder and flute sonatas and the Op. 8 concertos only: no recording of this work. Earlier: No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
   },
   {
    "composer": "Pepusch, John Christopher",
@@ -3678,7 +4632,7 @@
    "imslpPage": "Trio Sonata in A minor (Pepusch, John Christopher)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (68) list the F-major trio sonata (entered), recorder sonatas, concertos and vocal works; Deezer 'Pepusch trio sonata', 'Johann Christoph Pepusch sonatas', 'Pepusch Trio Sonata in F' find recorder and flute sonatas and the Op. 8 concertos only: no recording of this work. Earlier: No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
   },
   {
    "composer": "Pepusch, John Christopher",
@@ -3686,7 +4640,7 @@
    "imslpPage": "Trio Sonata in C major (Pepusch, John Christopher)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (68) list the F-major trio sonata (entered), recorder sonatas, concertos and vocal works; Deezer 'Pepusch trio sonata', 'Johann Christoph Pepusch sonatas', 'Pepusch Trio Sonata in F' find recorder and flute sonatas and the Op. 8 concertos only: no recording of this work. Earlier: No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
   },
   {
    "composer": "Pepusch, John Christopher",
@@ -3694,7 +4648,7 @@
    "imslpPage": "Trio Sonata in C major, Op.3 No.6 (Pepusch, John Christopher)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (68) list the F-major trio sonata (entered), recorder sonatas, concertos and vocal works; Deezer 'Pepusch trio sonata', 'Johann Christoph Pepusch sonatas', 'Pepusch Trio Sonata in F' find recorder and flute sonatas and the Op. 8 concertos only: no recording of this work. Earlier: No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
   },
   {
    "composer": "Pepusch, John Christopher",
@@ -3702,7 +4656,7 @@
    "imslpPage": "Trio Sonata in D major (Pepusch, John Christopher)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (68) list the F-major trio sonata (entered), recorder sonatas, concertos and vocal works; Deezer 'Pepusch trio sonata', 'Johann Christoph Pepusch sonatas', 'Pepusch Trio Sonata in F' find recorder and flute sonatas and the Op. 8 concertos only: no recording of this work. Earlier: No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
   },
   {
    "composer": "Pepusch, John Christopher",
@@ -3710,7 +4664,7 @@
    "imslpPage": "Trio Sonata in D minor (Pepusch, John Christopher)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (68) list the F-major trio sonata (entered), recorder sonatas, concertos and vocal works; Deezer 'Pepusch trio sonata', 'Johann Christoph Pepusch sonatas', 'Pepusch Trio Sonata in F' find recorder and flute sonatas and the Op. 8 concertos only: no recording of this work. Earlier: No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
   },
   {
    "composer": "Pepusch, John Christopher",
@@ -3718,7 +4672,7 @@
    "imslpPage": "Trio Sonata in E minor (Pepusch, John Christopher)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (68) list the F-major trio sonata (entered), recorder sonatas, concertos and vocal works; Deezer 'Pepusch trio sonata', 'Johann Christoph Pepusch sonatas', 'Pepusch Trio Sonata in F' find recorder and flute sonatas and the Op. 8 concertos only: no recording of this work. Earlier: No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
   },
   {
    "composer": "Pepusch, John Christopher",
@@ -3726,7 +4680,7 @@
    "imslpPage": "Trio Sonata in G major (Pepusch, John Christopher)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (68) list the F-major trio sonata (entered), recorder sonatas, concertos and vocal works; Deezer 'Pepusch trio sonata', 'Johann Christoph Pepusch sonatas', 'Pepusch Trio Sonata in F' find recorder and flute sonatas and the Op. 8 concertos only: no recording of this work. Earlier: No recording of this work found; the Pepusch recordings found are the F-major trio above, solo sonatas, concertos and vocal works"
   },
   {
    "composer": "Strungk, Nicolaus Adam",
@@ -3734,7 +4688,7 @@
    "imslpPage": "Sonata à 3 (Strungk, Nicolaus Adam)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "CordArte's Pan Classics disc (2006) has D-minor and other sonatas by Becker, Strungk, Theile and others, but the tracks are not tied to this page"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz lists 11 Strungk works with recordings, none a Sonata à 3 (Sonata à 6 and keyboard pieces); Deezer 'Strungk sonata', 'CordArte Becker Strungk Theile sonatas' find nothing; the CordArte Ensemble disc (Apple 342456066) has a Sonata in D minor (4:14) but shows no composer per track. Earlier: CordArte's Pan Classics disc (2006) has D-minor and other sonatas by Becker, Strungk, Theile and others, but the tracks are not tied to this page"
   },
   {
    "composer": "Peerson, Martin",
@@ -3750,7 +4704,7 @@
    "imslpPage": "Ah were she pityful (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3758,7 +4712,7 @@
    "imslpPage": "At her fair hands (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3766,7 +4720,7 @@
    "imslpPage": "Can a maid (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3774,7 +4728,7 @@
    "imslpPage": "Come pretty wag (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3782,7 +4736,7 @@
    "imslpPage": "Disdaine that so doth fill me (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3790,7 +4744,7 @@
    "imslpPage": "Gaze not on youth (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3798,7 +4752,7 @@
    "imslpPage": "Hey the Horn (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3806,7 +4760,7 @@
    "imslpPage": "Is not that my fancy's queen? (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3814,7 +4768,7 @@
    "imslpPage": "Lock up fair lids (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3822,7 +4776,7 @@
    "imslpPage": "Love her no more (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3830,7 +4784,7 @@
    "imslpPage": "Now Robin laugh and sing (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3838,7 +4792,7 @@
    "imslpPage": "O I do love, then kiss me (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3846,7 +4800,7 @@
    "imslpPage": "O Precious Time (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3854,7 +4808,7 @@
    "imslpPage": "Open the dore (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3862,7 +4816,7 @@
    "imslpPage": "Pretty wantons, sweetly sing (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3870,7 +4824,7 @@
    "imslpPage": "Resolved to love (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3878,7 +4832,7 @@
    "imslpPage": "See, see, O see who is here come a-maying (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3886,7 +4840,7 @@
    "imslpPage": "Since just disdain began to rise (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3894,7 +4848,7 @@
    "imslpPage": "Sing, love is blind (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3902,7 +4856,7 @@
    "imslpPage": "The spring of joy is dry (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Peerson, Martin",
@@ -3910,7 +4864,7 @@
    "imslpPage": "What need the morning rise (Peerson, Martin)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (24: motets, Upon my lap, keyboard pieces), Deezer 'Martin Peerson', 'Peerson Private Musicke', 'Wren Baroque Soloists Private Musicke' and Apple composerTerm: the Private Musicke tracks on the Ameritz discs (Jan Waterfield; Martin Elliott Conducts: Private Musicke) name no singer or viol players, Peerson Vol. 1 is computer-synthesised (Tempus), and Fretwork's An Elizabethan Christmas has only Upon my lap (entered). Not shown to be recorded with voice and viols. Earlier: No recording with voice and viols found; the Wren Baroque Soloists 'Private Musicke' tracks are credited to the keyboard player Jan Waterfield (apparently keyboard arrangements)"
   },
   {
    "composer": "Theile, Johann",
@@ -3926,7 +4880,7 @@
    "imslpPage": "Sonata à 4 in A major (Theile, Johann)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Theile's sonatas appear on mixed discs (CordArte, Pan Classics 2006; Ensemble Stravaganza 2018) but no track fits the A major, C major or F major pages"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz lists four Theile works (sacred); Deezer 'Johann Theile', 'Theile sonata': CPO's Psalm Motets - Mass - Sonata (Weser-Renaissance Bremen) and Ensemble Stravaganza's Abendmusiken have a Sonata duplex a 3, a different piece from these pages (A major à 4, C major à 4 with trombone and bassoon, F major for two violins, cello and continuo); the CordArte tracks carry no composer. Earlier: Theile's sonatas appear on mixed discs (CordArte, Pan Classics 2006; Ensemble Stravaganza 2018) but no track fits the A major, C major or F major pages"
   },
   {
    "composer": "Theile, Johann",
@@ -3934,7 +4888,7 @@
    "imslpPage": "Sonata à 4 in C major (Theile, Johann)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Theile's sonatas appear on mixed discs (CordArte, Pan Classics 2006; Ensemble Stravaganza 2018) but no track fits the A major, C major or F major pages"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz lists four Theile works (sacred); Deezer 'Johann Theile', 'Theile sonata': CPO's Psalm Motets - Mass - Sonata (Weser-Renaissance Bremen) and Ensemble Stravaganza's Abendmusiken have a Sonata duplex a 3, a different piece from these pages (A major à 4, C major à 4 with trombone and bassoon, F major for two violins, cello and continuo); the CordArte tracks carry no composer. Earlier: Theile's sonatas appear on mixed discs (CordArte, Pan Classics 2006; Ensemble Stravaganza 2018) but no track fits the A major, C major or F major pages"
   },
   {
    "composer": "Theile, Johann",
@@ -3942,7 +4896,7 @@
    "imslpPage": "Trio Sonata in F major (Theile, Johann)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Theile's sonatas appear on mixed discs (CordArte, Pan Classics 2006; Ensemble Stravaganza 2018) but no track fits the A major, C major or F major pages"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz lists four Theile works (sacred); Deezer 'Johann Theile', 'Theile sonata': CPO's Psalm Motets - Mass - Sonata (Weser-Renaissance Bremen) and Ensemble Stravaganza's Abendmusiken have a Sonata duplex a 3, a different piece from these pages (A major à 4, C major à 4 with trombone and bassoon, F major for two violins, cello and continuo); the CordArte tracks carry no composer. Earlier: Theile's sonatas appear on mixed discs (CordArte, Pan Classics 2006; Ensemble Stravaganza 2018) but no track fits the A major, C major or F major pages"
   },
   {
    "composer": "Löwe, Johann Jacob",
@@ -3950,7 +4904,7 @@
    "imslpPage": "Sonata à 5 in C major (Löwe, Johann Jacob)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "L'Arpa Festante (2017) has pieces in B-flat and E minor that Apple's composer search returns for Löwe; neither is the C-major sonata or the G-major suite of the pages"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz has a Johann Jacob Löwe page with no works; Deezer 'Johann Jacob Löwe', 'Löwe von Eisenach', 'L'Arpa Festante Löwe' find nothing; Apple composerTerm gives L'Arpa Festante's Splendid Harmony (2017): suite à 5 in B-flat, sonatas à 3 and à 5 in E minor, sonata à 5 in D minor, none the C-major sonata or G-major suite of these pages (attribution of those tracks to Löwe not checked; no IMSLP pages for them). Earlier: L'Arpa Festante (2017) has pieces in B-flat and E minor that Apple's composer search returns for Löwe; neither is the C-major sonata or the G-major suite of the pages"
   },
   {
    "composer": "Löwe, Johann Jacob",
@@ -3958,15 +4912,7 @@
    "imslpPage": "Suite in G major (Löwe, Johann Jacob)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "L'Arpa Festante (2017) has pieces in B-flat and E minor that Apple's composer search returns for Löwe; neither is the C-major sonata or the G-major suite of the pages"
-  },
-  {
-   "composer": "La Barre, Michel de",
-   "title": "Pièces en trio, Livre 1",
-   "imslpPage": "Pièces en trio, Livre 1 (La Barre, Michel de)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "The recordings found (Tic-Toc-Choc, Suites et sonates, Incises 2020; MusicBrainz) are suites numbered up to no. 16, some 'pour deux flûtes'; none identified as the 1694 trio book"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz has a Johann Jacob Löwe page with no works; Deezer 'Johann Jacob Löwe', 'Löwe von Eisenach', 'L'Arpa Festante Löwe' find nothing; Apple composerTerm gives L'Arpa Festante's Splendid Harmony (2017): suite à 5 in B-flat, sonatas à 3 and à 5 in E minor, sonata à 5 in D minor, none the C-major sonata or G-major suite of these pages (attribution of those tracks to Löwe not checked; no IMSLP pages for them). Earlier: L'Arpa Festante (2017) has pieces in B-flat and E minor that Apple's composer search returns for Löwe; neither is the C-major sonata or the G-major suite of the pages"
   },
   {
    "composer": "Kelz, Matthias",
@@ -3974,7 +4920,7 @@
    "imslpPage": "Primitiae Musicales (Kelz, Matthias)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Ensemble Fama's Augsburger Weihnacht (2019) has a 'Partita C-Dur' that Apple's composer field gives to Kelz; it is not identified with a piece of Primitiae Musicales"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz artist search for Matthias Kelz returns namesakes only; Deezer 'Matthias Kelz' and 'Kelz Primitiae Musicales' find nothing; Apple composerTerm gives one track, Partita C-Dur (3:59) on Ensemble Fama's Augsburger Weihnacht (Perfect Noise 2019, Deezer 416200927), which the IMSLP contents (Sonate, Intrade, Mascarade, Balletti, Alemande ...) do not tie to the 1658 print. Earlier: Ensemble Fama's Augsburger Weihnacht (2019) has a 'Partita C-Dur' that Apple's composer field gives to Kelz; it is not identified with a piece of Primitiae Musicales"
   },
   {
    "composer": "Mayr, Rupert Ignaz",
@@ -3982,7 +4928,7 @@
    "imslpPage": "Pythagorische Schmids-Fuencklein (Mayr, Rupert Ignaz)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Recordings found are sacred music (Ars Antiqua Austria, Capella Weilburgensis); no Pythagorische Schmids-Fünklein (weak: mixed Habsburg-empire discs)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz has no Rupert Ignaz Mayr page (search returns Simon Mayr and namesakes); Deezer 'Rupert Ignaz Mayr' and 'Pythagorische Schmids-Füncklein' find only the Sacri Concentus 1681 psalms (Ars Antiqua Austria, Challenge Classics 2018); Apple composerTerm returns the mixed live disc The Music of the Habsburg Empire, with no track tied to the Schmids-Fünklein. Earlier: Recordings found are sacred music (Ars Antiqua Austria, Capella Weilburgensis); no Pythagorische Schmids-Fünklein (weak: mixed Habsburg-empire discs)"
   },
   {
    "composer": "Mayr, Rupert Ignaz",
@@ -3990,15 +4936,7 @@
    "imslpPage": "Suite (Mayr, Rupert Ignaz)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Recordings found are sacred music (Ars Antiqua Austria, Capella Weilburgensis); no Pythagorische Schmids-Fünklein (weak: mixed Habsburg-empire discs)"
-  },
-  {
-   "composer": "Schenck, Johann",
-   "title": "Il giardino armonico, Op.3",
-   "imslpPage": "Il giardino armonico, Op.3 (Schenck, Johann)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "No recording of Op. 3 (Il giardino armonico) found; the recordings of Opp. 7, 8 and 9 are for violin or viol with continuo (duos)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz has no Rupert Ignaz Mayr page (search returns Simon Mayr and namesakes); Deezer 'Rupert Ignaz Mayr' and 'Pythagorische Schmids-Füncklein' find only the Sacri Concentus 1681 psalms (Ars Antiqua Austria, Challenge Classics 2018); Apple composerTerm returns the mixed live disc The Music of the Habsburg Empire, with no track tied to the Schmids-Fünklein. Earlier: Recordings found are sacred music (Ars Antiqua Austria, Capella Weilburgensis); no Pythagorische Schmids-Fünklein (weak: mixed Habsburg-empire discs)"
   },
   {
    "composer": "Jacchini, Giuseppe Maria",
@@ -4006,7 +4944,7 @@
    "imslpPage": "Sonate da camera a trè e quattro stromenti, Op.2 (Jacchini, Giuseppe Maria)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of Op. 2 found (MusicBrainz, Deezer and Apple show Opp. 1, 3 and 5)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (Giuseppe Maria Jacchini: 13 works, recordings of Opp. 1, 3 and 5 only), Deezer 'Jacchini', 'Giuseppe Maria Jacchini sonate', 'Jacchini Trombe d'Aria' and Apple composerTerm: no recording of the Op. 2 sonate da camera. The Op. 5 trumpet sonatas (out-of-scope pages) were not reopened. Earlier: No recording of Op. 2 found (MusicBrainz, Deezer and Apple show Opp. 1, 3 and 5)"
   },
   {
    "composer": "Rathgeber, Valentin",
@@ -4046,7 +4984,7 @@
    "imslpPage": "Divine lodi musicali, Libro 3 (Riccio, Giovanni Battista)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Estrovagante Ensemble's Sacred and Instrumental Music (2026) has canzonas a due, a quattro from Riccio's Divine lodi musicali; not tied to the Libro 3 page's pieces for two violins"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (23, all from Divine lodi musicali Books I and II or canzonas) and Deezer 'Giovanni Battista Riccio' (Estrovagante Ensemble, Dynamic 2026, 20 tracks opened: Books I and II only, reconstructed): nothing from Libro 3; Apple composerTerm no Riccio hit. Earlier: Estrovagante Ensemble's Sacred and Instrumental Music (2026) has canzonas a due, a quattro from Riccio's Divine lodi musicali; not tied to the Libro 3 page's pieces for two violins"
   },
   {
    "composer": "Rosier, Carl",
@@ -4078,7 +5016,7 @@
    "imslpPage": "6 Trio Sonatas, Op.5 (Somis, Giovanni Battista)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Violin sonatas Opp. 1 and 4 and cello sonatas are recorded; no recording of the trio sonatas Op. 5"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4: a recorder sonata) and Deezer 'Somis trio sonatas', 'Giovanni Battista Somis' (violin sonatas Opp. 1, 2 and 4, cello sonatas): no recording of the trio sonatas Op. 5. Earlier: Violin sonatas Opp. 1 and 4 and cello sonatas are recorded; no recording of the trio sonatas Op. 5"
   },
   {
    "composer": "Moffat, Alfred",
@@ -4134,7 +5072,7 @@
    "imslpPage": "10 Trio Sonatas, Op.1 (Reali, Giovanni Battista)",
    "works": 5,
    "reason": "not performed or recorded",
-   "evidence": "Nos. 3, 5, 6, 7 and 8 are not on Le Consort's disc and no other recording turned up"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (44: recordings of Op. 1 Nos. 1 and 9 only) and Deezer 'Reali sonate a tre', 'Giovanni Battista Reali trio sonatas', 'Reali Op. 1' (no results): Nos. 3, 5, 6, 7 and 8 not recorded as far as found. Earlier: Nos. 3, 5, 6, 7 and 8 are not on Le Consort's disc and no other recording turned up"
   },
   {
    "composer": "Krause, Christian Gottfried",
@@ -4190,7 +5128,7 @@
    "imslpPage": "6 Trio Sonatas, Op.1 (Solnitz, Anton Wilhelm)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4198,7 +5136,7 @@
    "imslpPage": "6 Trio Sonatas, Op.2 (Solnitz, Anton Wilhelm)",
    "works": 5,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4206,7 +5144,7 @@
    "imslpPage": "Trio Sonata in A major, ULB Mus Ms 1022-11 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4214,7 +5152,7 @@
    "imslpPage": "Trio Sonata in A minor, ULB Mus Ms 1022-08 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4222,7 +5160,7 @@
    "imslpPage": "Trio Sonata in B-flat major, ULB Mus Ms 1022-02 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4230,7 +5168,7 @@
    "imslpPage": "Trio Sonata in C major, ULB Mus Ms 1022-07 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4238,7 +5176,7 @@
    "imslpPage": "Trio Sonata in D major, ULB Mus Ms 1022-03 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4246,7 +5184,7 @@
    "imslpPage": "Trio Sonata in D major, ULB Mus Ms 1022-09 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4254,7 +5192,7 @@
    "imslpPage": "Trio Sonata in D major, ULB Mus Ms 1022-10 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4262,7 +5200,7 @@
    "imslpPage": "Trio Sonata in D minor, Op.2 No.4 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4270,7 +5208,7 @@
    "imslpPage": "Trio Sonata in E minor, ULB Mus Ms 1022-06 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4278,7 +5216,7 @@
    "imslpPage": "Trio Sonata in F major, ULB Mus Ms 1022-01 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4286,7 +5224,7 @@
    "imslpPage": "Trio Sonata in G major, ULB Mus Ms 1022-05 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4294,7 +5232,7 @@
    "imslpPage": "Trio Sonata in G major, ULB Mus Ms 1022-12 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Solnitz, Anton Wilhelm",
@@ -4302,7 +5240,7 @@
    "imslpPage": "Trio Sonata in G major, ULB Mus Ms 1023 (Solnitz, Anton Wilhelm)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the trio sonatas found"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (4; only Sinfonia Op. 3 No. 4 recorded) and Deezer 'Solnitz trio sonata', 'Anton Wilhelm Solnitz': no recording of the trio sonatas. Earlier: No recording of the trio sonatas found"
   },
   {
    "composer": "Martin, François",
@@ -4318,7 +5256,7 @@
    "imslpPage": "6 Trios, Op.3 (Martin, François)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "No recording of the six trios Op. 3 found (weak: common name)"
+   "evidence": "Rechecked 2026-10-17: MusicBrainz (François Martin 1727-1757: 4 works, Symphony Op. 4 No. 2) and Deezer 'Francois Martin trios op. 3', 'Francois Martin symphonies op. 4', 'François Martin 1727': nothing for the six trios Op. 3. Earlier: No recording of the six trios Op. 3 found (weak: common name)"
   },
   {
    "composer": "Hupfeld, Bernhard",
@@ -4333,32 +5271,32 @@
    "title": "6 Pieces for 3 Lyra Viols",
    "imslpPage": "6 Pieces for 3 Lyra Viols (Ives, Simon)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (Simon Ives 1600-1662: two Ayres for two bass viols) and Deezer 'Simon Ives fantasia viols', 'Simon Ives ayres', 'Ives consort viols fantasia': no recording of the consort music."
   },
   {
    "composer": "Ives, Simon",
    "title": "Airs for 3 Viols",
    "imslpPage": "Airs for 3 Viols (Ives, Simon)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (Simon Ives 1600-1662: two Ayres for two bass viols) and Deezer 'Simon Ives fantasia viols', 'Simon Ives ayres', 'Ives consort viols fantasia': no recording of the consort music."
   },
   {
    "composer": "Ives, Simon",
    "title": "Fantasias for 4 Viols",
    "imslpPage": "Fantasias for 4 Viols (Ives, Simon)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (Simon Ives 1600-1662: two Ayres for two bass viols) and Deezer 'Simon Ives fantasia viols', 'Simon Ives ayres', 'Ives consort viols fantasia': no recording of the consort music."
   },
   {
    "composer": "Ives, Simon",
    "title": "Fantasias for 6 Viols",
    "imslpPage": "Fantasias for 6 Viols (Ives, Simon)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (Simon Ives 1600-1662: two Ayres for two bass viols) and Deezer 'Simon Ives fantasia viols', 'Simon Ives ayres', 'Ives consort viols fantasia': no recording of the consort music."
   },
   {
    "composer": "Jerace, Michelangelo",
@@ -4373,24 +5311,24 @@
    "title": "Trio Sonata in A major, KapM Jiranek 25",
    "imslpPage": "Trio Sonata in A major, KapM Jiranek 25 (Jiránek, František)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (29: concertos and sinfonias) and Deezer 'Jiranek sonata', 'František Jiránek trio sonata': nothing for the trio sonata."
   },
   {
    "composer": "Jommelli, Niccolò",
    "title": "6 Trio Sonatas, Op.1",
    "imslpPage": "6 Trio Sonatas, Op.1 (Jommelli, Niccolò)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (55: operas, flute concerto, sonata for flute, violin and guitar) and Deezer 'Jommelli trio sonata', 'Jommelli sonata a tre', 'Jommelli sonate': the only trio-sonata disc is Claudio Ferrarini's Sei Trio Sonate for flute, oboe and harpsichord (Arte Sonora 2021), with no string part, so it does not count for the two-violin Op. 1; nothing for the Divertimento."
   },
   {
    "composer": "Jommelli, Niccolò",
    "title": "Divertimento",
    "imslpPage": "Divertimento (Jommelli, Niccolò)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (55: operas, flute concerto, sonata for flute, violin and guitar) and Deezer 'Jommelli trio sonata', 'Jommelli sonata a tre', 'Jommelli sonate': the only trio-sonata disc is Claudio Ferrarini's Sei Trio Sonate for flute, oboe and harpsichord (Arte Sonora 2021), with no string part, so it does not count for the two-violin Op. 1; nothing for the Divertimento."
   },
   {
    "composer": "Kennis, Willem Gommaar",
@@ -4437,32 +5375,24 @@
    "title": "Der allezeit fertige Polonoisen- und Menuettencomponist",
    "imslpPage": "Der allezeit fertige Polonoisen- und Menuettencomponist (Kirnberger, Johann Philipp)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
-  },
-  {
-   "composer": "Kirnberger, Johann Philipp",
-   "title": "Trio Sonata in D minor",
-   "imslpPage": "Trio Sonata in D minor (Kirnberger, Johann Philipp)",
-   "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (21) and Deezer 'Johann Philipp Kirnberger' (NeoBarock's trios, sinfonias, flute sonatas): no recording of this 1767 dance-composition book; the trios on NeoBarock's disc are separate works (entered)."
   },
   {
    "composer": "Krebs, Johann Ludwig",
    "title": "6 Trios, Krebs-WV 317-322",
    "imslpPage": "6 Trios, Krebs-WV 317-322 (Krebs, Johann Ludwig)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (219: keyboard, organ, flute and organ, guitar concerto) and Deezer 'Krebs trio flute violin', 'Johann Ludwig Krebs trio', 'Krebs Trio in D major': no recording of the trios."
   },
   {
    "composer": "Krebs, Johann Ludwig",
    "title": "Trio in D major, Krebs-WV 317",
    "imslpPage": "Trio in D major, Krebs-WV 317 (Krebs, Johann Ludwig)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (219: keyboard, organ, flute and organ, guitar concerto) and Deezer 'Krebs trio flute violin', 'Johann Ludwig Krebs trio', 'Krebs Trio in D major': no recording of the trios."
   },
   {
    "composer": "Kunzen, Johann Paul",
@@ -4485,24 +5415,24 @@
    "title": "6 Trio Sonatas, Op.1a",
    "imslpPage": "6 Trio Sonatas, Op.1a (Lampugnani, Giovanni Battista)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (1: an opera aria) and Deezer 'Lampugnani trio sonata', 'Giovanni Battista Lampugnani': no recording of the trio sonatas."
   },
   {
    "composer": "Lampugnani, Giovanni Battista",
    "title": "6 Trio Sonatas, Set 1",
    "imslpPage": "6 Trio Sonatas, Set 1 (Lampugnani, Giovanni Battista)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (1: an opera aria) and Deezer 'Lampugnani trio sonata', 'Giovanni Battista Lampugnani': no recording of the trio sonatas."
   },
   {
    "composer": "Lampugnani, Giovanni Battista",
    "title": "6 Trio Sonatas, Set 2",
    "imslpPage": "6 Trio Sonatas, Set 2 (Lampugnani, Giovanni Battista)",
    "works": 6,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: MusicBrainz works (1: an opera aria) and Deezer 'Lampugnani trio sonata', 'Giovanni Battista Lampugnani': no recording of the trio sonatas."
   },
   {
    "composer": "Lapis, Santo",
@@ -4533,16 +5463,16 @@
    "title": "Sonata in G major for Violin, Cello and Piano",
    "imslpPage": "Sonata in G major for Violin, Cello and Piano (Loeillet, Jean Baptiste)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: IMSLP: the G-major page is for violin, cello and piano, the E-minor page a transposition of Op. 2 No. 4 for viola d'amore and viola da gamba (an arrangement). Loeillet's own trio sonatas are recorded (Epoca Barocca, CPO 2020; La Caccia; Ensemble Mediolanum) but none is either page (MusicBrainz works, Deezer 'Loeillet trio sonata', 'Jean Baptiste Loeillet of London', 'Loeillet sonata')."
   },
   {
    "composer": "Loeillet, Jean Baptiste",
    "title": "Trio Sonata in E minor",
    "imslpPage": "Trio Sonata in E minor (Loeillet, Jean Baptiste)",
    "works": 1,
-   "reason": "not performed or recorded (composer triage)",
-   "evidence": "MusicBrainz, Deezer and Apple Music (composerTerm song search): no commercial recording of this composer's chamber music"
+   "reason": "not performed or recorded",
+   "evidence": "Rechecked 2026-10-17: IMSLP: the G-major page is for violin, cello and piano, the E-minor page a transposition of Op. 2 No. 4 for viola d'amore and viola da gamba (an arrangement). Loeillet's own trio sonatas are recorded (Epoca Barocca, CPO 2020; La Caccia; Ensemble Mediolanum) but none is either page (MusicBrainz works, Deezer 'Loeillet trio sonata', 'Jean Baptiste Loeillet of London', 'Loeillet sonata')."
   },
   {
    "composer": "Logroscino, Nicola Bonifacio",
@@ -5214,7 +6144,7 @@
    "imslpPage": "Sonata à 5 in C major, Düben IMHS 5:09 (Pohle, David)",
    "works": 1,
    "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
-   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json. Recheck 2026-10-17: Clematis (Ricercar 2024, Deezer 552750732) opened: several sonatas à 5 in C major (G. 8, G. 22 ...), but no concordance of IMHS 5:9 / 5:10 to the G. numbers found; still unconfirmed."
   },
   {
    "composer": "Pohle, David",
@@ -5222,55 +6152,7 @@
    "imslpPage": "Sonata à 5 in C major, Düben IMHS 5:10 (Pohle, David)",
    "works": 1,
    "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
-   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
-  },
-  {
-   "composer": "Noferi, Giovan Battista",
-   "title": "Trio, Op. 16 No. 1",
-   "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
-   "works": 1,
-   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
-   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
-  },
-  {
-   "composer": "Noferi, Giovan Battista",
-   "title": "Trio, Op. 16 No. 2",
-   "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
-   "works": 1,
-   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
-   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
-  },
-  {
-   "composer": "Noferi, Giovan Battista",
-   "title": "Trio, Op. 16 No. 3",
-   "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
-   "works": 1,
-   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
-   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
-  },
-  {
-   "composer": "Noferi, Giovan Battista",
-   "title": "Trio, Op. 16 No. 4",
-   "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
-   "works": 1,
-   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
-   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
-  },
-  {
-   "composer": "Noferi, Giovan Battista",
-   "title": "Trio, Op. 16 No. 5",
-   "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
-   "works": 1,
-   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
-   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
-  },
-  {
-   "composer": "Noferi, Giovan Battista",
-   "title": "Trio, Op. 16 No. 6",
-   "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
-   "works": 1,
-   "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
-   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json. Recheck 2026-10-17: Clematis (Ricercar 2024, Deezer 552750732) opened: several sonatas à 5 in C major (G. 8, G. 22 ...), but no concordance of IMHS 5:9 / 5:10 to the G. numbers found; still unconfirmed."
   },
   {
    "composer": "Linike, Johann Georg",
@@ -5278,7 +6160,7 @@
    "imslpPage": "Trio Sonata in G minor (Linike, Johann Georg)",
    "works": 1,
    "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
-   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json. Recheck 2026-10-17: Deezer 581220101 opened in full: the 'Sonata for Violin & Oboe in G Minor' has three movements (Largo, Allegro, Alla breve; 6:28); the match with the page is still unconfirmed."
   },
   {
    "composer": "Strungk, Nicolaus Adam",
@@ -5286,7 +6168,7 @@
    "imslpPage": "Sonata à 6 (Strungk, Nicolaus Adam)",
    "works": 1,
    "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
-   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+   "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json. Recheck 2026-10-17: MusicBrainz lists one 'Sonata à 6' (2:32) for Strungk; no Deezer album found to confirm its scoring or to tie it to the Düben manuscript."
   },
   {
    "composer": "Maldere, Pierre van",
@@ -5295,6 +6177,14 @@
    "works": 1,
    "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
    "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Kirnberger, Johann Philipp",
+   "title": "Trio Sonata in D minor",
+   "imslpPage": "Trio Sonata in D minor (Kirnberger, Johann Philipp)",
+   "works": 1,
+   "reason": "doubtful: also attributed to Handel (HWV Anh. B 427), left off on the owner's instruction (2026-10-17)",
+   "evidence": "Recorded under Kirnberger's name on the NeoBarock album (ambitus 2020) but attributed to Handel in one source; the full entry is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -5316,7 +6206,7 @@
    "skipped": 4,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "Only the Ayres for two bass viols (duos) are recorded; none of the consorts MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work."
+   "note": "Only the Ayres for two bass viols (duos) are recorded; none of the consorts MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work. Rechecked 2026-10-17: Still only the two-bass-viol Ayres."
   },
   {
    "name": "Jacchini, Giuseppe Maria",
@@ -5324,8 +6214,8 @@
    "kept": 0,
    "skipped": 1,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Op. 5 trumpet sonatas (outOfScope pages, 2 trumpets, strings, continuo) are recorded (Trombe d'Aria 2016) but one to a part is not established"
+   "coverage": "complete",
+   "note": "Op. 5 trumpet sonatas (outOfScope pages, 2 trumpets, strings, continuo) are recorded (Trombe d'Aria 2016) but one to a part is not established Rechecked 2026-10-17: Op. 2 not recorded (MusicBrainz works, Deezer, Apple composerTerm); Op. 5 trumpet sonatas on out-of-scope pages not reopened."
   },
   {
    "name": "Jerace, Michelangelo",
@@ -5343,7 +6233,7 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "Concertos and sinfonias recorded (Collegium Marianum); no recording of the trio sonata MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work."
+   "note": "Concertos and sinfonias recorded (Collegium Marianum); no recording of the trio sonata MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work. Rechecked 2026-10-17: Still none."
   },
   {
    "name": "Jommelli, Niccolò",
@@ -5352,7 +6242,7 @@
    "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "Operas, sacred music, a flute concerto and a sonata for flute, violin and guitar are recorded; not the trio sonatas or the Divertimento MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work."
+   "note": "Operas, sacred music, a flute concerto and a sonata for flute, violin and guitar are recorded; not the trio sonatas or the Divertimento MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work. Rechecked 2026-10-17: Only a flute-oboe-harpsichord disc of six trio sonatas turned up (no string part); still none found."
   },
   {
    "name": "Keller, Gottfried",
@@ -5369,8 +6259,8 @@
    "kept": 0,
    "skipped": 1,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "A single Kelz track on a mixed disc, not matched to the 27 pieces of the print"
+   "coverage": "complete",
+   "note": "A single Kelz track on a mixed disc, not matched to the 27 pieces of the print Rechecked 2026-10-17: Partita C-Dur on Ensemble Fama's disc is not tied to the 1658 print."
   },
   {
    "name": "Kennis, Willem Gommaar",
@@ -5413,9 +6303,9 @@
    "candidates": 2,
    "kept": 0,
    "skipped": 2,
-   "added_not_on_imslp": 0,
-   "coverage": "triage: none found",
-   "note": "Trio sonatas in C major and G minor are recorded (flute and harp, flutes); the page is in D minor MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work."
+   "added_not_on_imslp": 4,
+   "coverage": "complete",
+   "note": "Trio sonatas in C major and G minor are recorded (flute and harp, flutes); the page is in D minor MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work. Rechecked 2026-10-17: NeoBarock (ambitus 2020) record six trios: the D-minor sonata (IMSLP page) and Trios 1, 2, 3, 5 (not on IMSLP) entered; Trio 6 is for violin and obbligato harpsichord (a duo), not entered."
   },
   {
    "name": "Krause, Christian Gottfried",
@@ -5433,7 +6323,7 @@
    "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "Organ and keyboard music, a guitar concerto and flute-and-organ pieces are recorded; no recording of the flute-violin trios MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work."
+   "note": "Organ and keyboard music, a guitar concerto and flute-and-organ pieces are recorded; no recording of the flute-violin trios MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work. Rechecked 2026-10-17: Still none found."
   },
   {
    "name": "Kunzen, Johann Paul",
@@ -5447,11 +6337,11 @@
   {
    "name": "La Barre, Michel de",
    "candidates": 1,
-   "kept": 0,
-   "skipped": 1,
+   "kept": 1,
+   "skipped": 0,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Recordings are of the flute suites, not of the 1694 trios (weak: the books overlap in title)"
+   "coverage": "complete",
+   "note": "Recordings are of the flute suites, not of the 1694 trios (weak: the books overlap in title) Rechecked 2026-10-17: Suite II of the 1694 trio book entered (Harmonices Mvndi Chile 2021, own label); Suites I and III-VI not found; the Tic-Toc-Choc and Preston/Savall discs are the flute books."
   },
   {
    "name": "Laborde, Jean-Benjamin de",
@@ -5469,7 +6359,7 @@
    "skipped": 3,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "Nothing for the trio sonatas MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work."
+   "note": "Nothing for the trio sonatas MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work. Rechecked 2026-10-17: Still none."
   },
   {
    "name": "Lapis, Santo",
@@ -5495,8 +6385,8 @@
    "kept": 0,
    "skipped": 5,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Only the G-minor trio is matched, with a movement-count mismatch (4 on the page, 3 on the disc)"
+   "coverage": "complete",
+   "note": "Only the G-minor trio is matched, with a movement-count mismatch (4 on the page, 3 on the disc) Rechecked 2026-10-17: Disc opened in full; G-minor trio stays doubtful; the B-flat and D trio sonatas on the disc have no page here and no instruments named."
   },
   {
    "name": "Litzkau, Heinrich",
@@ -5514,7 +6404,7 @@
    "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "triage: none found",
-   "note": "MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work."
+   "note": "MusicBrainz: artist page, recordings of other works only; Deezer and Apple (composerTerm): nothing for the page's work. Rechecked 2026-10-17: Both pages are arrangements or other scorings; his own trio sonatas are recorded but are not these pages."
   },
   {
    "name": "Logroscino, Nicola Bonifacio",
@@ -5540,8 +6430,8 @@
    "kept": 0,
    "skipped": 2,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Mixed-disc recordings (L'Arpa Festante 2017) are in other keys than the two pages"
+   "coverage": "complete",
+   "note": "Mixed-disc recordings (L'Arpa Festante 2017) are in other keys than the two pages Rechecked 2026-10-17: Recorded pieces on L'Arpa Festante's disc are not the two pages."
   },
   {
    "name": "Mahaut, Antoine",
@@ -5586,7 +6476,7 @@
    "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Weak: common name. Op. 4 symphonies (2 violins, viola, continuo) recorded by Concerto Köln: string-orchestra question"
+   "note": "Weak: common name. Op. 4 symphonies (2 violins, viola, continuo) recorded by Concerto Köln: string-orchestra question Rechecked 2026-10-17: Still none for Op. 3."
   },
   {
    "name": "Martyn, Bendall",
@@ -5639,8 +6529,8 @@
    "kept": 0,
    "skipped": 2,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Only sacred music turned up; the Habsburg-empire live discs (Pan Classics) are not itemised by composer"
+   "coverage": "complete",
+   "note": "Only sacred music turned up; the Habsburg-empire live discs (Pan Classics) are not itemised by composer Rechecked 2026-10-17: No recording of the Schmids-Fünklein found (MusicBrainz, Deezer, Apple)."
   },
   {
    "name": "Mazzaferrata, Giovanni Battista",
@@ -5744,11 +6634,11 @@
   {
    "name": "Noferi, Giovan Battista",
    "candidates": 6,
-   "kept": 0,
-   "skipped": 11,
+   "kept": 6,
+   "skipped": 5,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Six guitar trios on the NAR disc are read as Op. 16 in print order (low); the disc mixes them with Giardini's duos"
+   "coverage": "complete",
+   "note": "Six guitar trios on the NAR disc are read as Op. 16 in print order (low); the disc mixes them with Giardini's duos Rechecked 2026-10-17: Op. 16 trios entered at medium (NAR disc opened in full: six multi-movement trios by Ensemble Pian & Forte numbered 1-6, taken as the print's order, minutes 6-8 each); Opp. 10, 13, 15, 17 and the Celebrated Dances not recorded."
   },
   {
    "name": "Novell, Matthew",
@@ -5819,8 +6709,8 @@
    "kept": 1,
    "skipped": 22,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Only 'Upon my lap' (Rose Consort of Viols) is recorded with viols; the Wren Baroque Soloists tracks are keyboard arrangements"
+   "coverage": "complete",
+   "note": "Only 'Upon my lap' (Rose Consort of Viols) is recorded with viols; the Wren Baroque Soloists tracks are keyboard arrangements Rechecked 2026-10-17: Private Musicke songs not shown to be recorded with voice and viols (Ameritz discs credit the keyboard player only)."
   },
   {
    "name": "Pepusch, John Christopher",
@@ -5829,7 +6719,7 @@
    "skipped": 13,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Only the flute-oboe trio in F is recorded as scored; Op. 8 has no string part as first named"
+   "note": "Only the flute-oboe trio in F is recorded as scored; Op. 8 has no string part as first named Rechecked 2026-10-17: Still only the F-major trio sonata."
   },
   {
    "name": "Pezold, Christian",
@@ -5892,7 +6782,7 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "The D-minor trio for oboe and violin matches the Ramee track by key, scoring and movements; the sonatas of 1759 are not recorded"
+   "note": "The D-minor trio for oboe and violin matches the Ramee track by key, scoring and movements; the sonatas of 1759 are not recorded Rechecked 2026-10-17: Still unmatched."
   },
   {
    "name": "Poglietti, Alessandro",
@@ -6000,7 +6890,7 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Le Consort (Alpha 2021) plays five of the ten sonatas; the Folia of the print (with obligato cello) is not on the page's list"
+   "note": "Le Consort (Alpha 2021) plays five of the ten sonatas; the Folia of the print (with obligato cello) is not on the page's list Rechecked 2026-10-17: MusicBrainz and Deezer again find only Op. 1 Nos. 1 and 9 (kept ones included)."
   },
   {
    "name": "Reed, Charlie",
@@ -6044,8 +6934,8 @@
    "kept": 0,
    "skipped": 1,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Canzonas from the Divine lodi musicali are recorded (2026) but the Libro 3 page was not matched"
+   "coverage": "complete",
+   "note": "Canzonas from the Divine lodi musicali are recorded (2026) but the Libro 3 page was not matched Rechecked 2026-10-17: The 2026 Dynamic disc has Books I and II only."
   },
   {
    "name": "Riedel, Fortunato",
@@ -6135,16 +7025,16 @@
    "skipped": 7,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Two of nine pages recorded (CPO 2006); other recordings found are keyboard, gamba, oboe and cello sonatas"
+   "note": "Two of nine pages recorded (CPO 2006); other recordings found are keyboard, gamba, oboe and cello sonatas Rechecked 2026-10-17: A recorded A-major sonata for gamba, violin, cello and harpsichord (MusicBrainz release ac537ed7-8c61-4ab6-8e9c-bc0eb7cea02c) has no matching page; not entered."
   },
   {
    "name": "Schenck, Johann",
    "candidates": 1,
-   "kept": 0,
-   "skipped": 1,
+   "kept": 12,
+   "skipped": 0,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Op. 3 (2 violins, viol, continuo) not found; the recorded Opp. 7-9 are duos"
+   "note": "Op. 3 (2 violins, viol, continuo) not found; the recorded Opp. 7-9 are duos Rechecked 2026-10-17: Op. 3 Il giardino armonico is recorded complete by La Suave Melodia (Etcetera 2008, Deezer 6222945); entered as twelve works."
   },
   {
    "name": "Scherer, Johann",
@@ -6261,7 +7151,7 @@
    "skipped": 16,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "String-orchestra question: Op. 3 sinfonias (2 violins, viola, continuo), No. 4 recorded by Musica ad Rhenum; the trio sonatas are not recorded"
+   "note": "String-orchestra question: Op. 3 sinfonias (2 violins, viola, continuo), No. 4 recorded by Musica ad Rhenum; the trio sonatas are not recorded Rechecked 2026-10-17: Still none for the trio sonatas."
   },
   {
    "name": "Somis, Giovanni Battista",
@@ -6270,7 +7160,7 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Op. 5 trio sonatas not found; recorded Somis works are duos"
+   "note": "Op. 5 trio sonatas not found; recorded Somis works are duos Rechecked 2026-10-17: Still none for Op. 5."
   },
   {
    "name": "Spourni, Wenceslaus Joseph",
@@ -6305,8 +7195,8 @@
    "kept": 0,
    "skipped": 2,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Sonata à 6 rests on a MusicBrainz work link and a 2:32 track (low); the sonata à 3 is on mixed discs, attribution not settled"
+   "coverage": "complete",
+   "note": "Sonata à 6 rests on a MusicBrainz work link and a 2:32 track (low); the sonata à 3 is on mixed discs, attribution not settled Rechecked 2026-10-17: Sonata à 6 stays doubtful (MusicBrainz link only); Sonata à 3 not tied to a track."
   },
   {
    "name": "Stulick, Matthäus Nikolaus",
@@ -6368,8 +7258,8 @@
    "kept": 0,
    "skipped": 4,
    "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Recorded sonatas of his could not be matched to these pages by key and scoring"
+   "coverage": "complete",
+   "note": "Recorded sonatas of his could not be matched to these pages by key and scoring Rechecked 2026-10-17: The recorded Sonata duplex a 3 is not one of the three pages."
   },
   {
    "name": "Thiel, Johann Georg",
@@ -6441,8 +7331,8 @@
    "skipped": 5,
    "added_not_on_imslp": 0,
    "coverage": "complete",
-   "note": "Concerto Italiano's disc also has sonatas/partitas a quattro and a tre in other keys that no IMSLP page here matches; not added"
+   "note": "Concerto Italiano's disc also has sonatas/partitas a quattro and a tre in other keys that no IMSLP page here matches; not added Rechecked 2026-10-17: Collegium 1704's F-major sonata for 2 violins and continuo (Supraphon 2014, Deezer 73544392) is not tied to Tůma or to a page; not entered."
   }
  ],
- "note": "METHOD: tail triage in one background script over all 127 composers (MusicBrainz artist + works with recording-rels; Deezer album and artist search; Apple composerTerm song search for every composer because the Apple clock was idle), then Deezer/Apple track lists and the IMSLP wikitext of the pages that turned up (about 65 tool calls). MusicBrainz was the slow service on the shared clock but answered for all 127 composers; no lookup failed. WEAK 'none found': mixed discs list no composer (Düben-collection and Habsburg-empire programmes), Apple's composer field is the only link there; namesakes swamp Martin, Simon, Schultz, Reed, Roger, Müller. LOW CONFIDENCE (drop if the floor needs named performers or a certain track): Noferi's six guitar trios (disc numbering assumed), Linike G minor (4 movements on the page, 3 on the disc), Strungk Sonata à 6 (MusicBrainz link, 2:32 track), Pohle IMHS 5:9 and 5:10 (two of three C-major sonatas à 5 on the Clematis disc). VIOLONE: counted as a part (double-bass) where the print is 'à N' with a violone as the Nth voice (Kirchhoff, Pohle IMHS 5:10, Strungk Sonata à 6); the census had folded it into continuo. Meister's cello/violone line is counted as a part too (the print lists it beside the continuo for harpsichord); Mannelli's and Migali's violone/lute/archlute is folded into continuo. ALTERNATIVES: Scherer Op. 3 viola da gamba or bassoon, Meister cello or viol or violone, Mazzaferrata's ad lib. bass viola, Stricker recorded with two violins instead of flute and violin. STRING-ORCHESTRA QUESTION (concertos with no one-to-a-part recording identified): Sarro's Recorder Concerto in A minor (Gudrun Heyens with Musica Antiqua Köln, Archiv 1985, probably a chamber cast), Rathgeber Chelys sonora Op. 6 (Cappella Murensis), L. Taglietti Op. 6 (L'Accademico Formato, HR Recordings 2025), Schieferdecker Concert No. 13 (Elbipolis Barockorchester, Challenge Classics 2011), Solnitz Sinfonias Op. 3 (Musica ad Rhenum, Brilliant 2021), F. Martin Symphonies Op. 4 (Concerto Köln). OUT-OF-SCOPE PAGES worth a look: Jacchini's Trattenimenti per camera Op. 5 and the trumpet sonatas (2 trumpets, strings, continuo; recorded by Trombe d'Aria 2016, Cassone, Preston/Smithers) are chamber works by title ('a 3, 4, 5 e 6 strumenti'). VIOLIN CATALOGUE: Matteis 'Aria Amorosa' (2 violins, continuo) is not recorded in that scoring; entry 2062 stays a violin duo. BENCHMARKS: none in this slice. EXCLUSIONS: none proposed; Hiram Samuel Lopez (Canon in D minor) and Charlie Reed (Trio Sonata in G) may be modern composers but have no recent-upload signal, so they are skipped as not recorded. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 11 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Pohle: Sonata à 5 in C major, IMHS 5:9; Pohle: Sonata à 5 in C major, IMHS 5:10; Noferi: Trio, Op. 16 No. 1; Noferi: Trio, Op. 16 No. 2; Noferi: Trio, Op. 16 No. 3; Noferi: Trio, Op. 16 No. 4; Noferi: Trio, Op. 16 No. 5; Noferi: Trio, Op. 16 No. 6; Linike: Trio Sonata in G minor; Strungk: Sonata à 6 in A minor; Maldere: Trio Sonata in E-flat major."
+ "note": "METHOD: tail triage in one background script over all 127 composers (MusicBrainz artist + works with recording-rels; Deezer album and artist search; Apple composerTerm song search for every composer because the Apple clock was idle), then Deezer/Apple track lists and the IMSLP wikitext of the pages that turned up (about 65 tool calls). MusicBrainz was the slow service on the shared clock but answered for all 127 composers; no lookup failed. WEAK 'none found': mixed discs list no composer (Düben-collection and Habsburg-empire programmes), Apple's composer field is the only link there; namesakes swamp Martin, Simon, Schultz, Reed, Roger, Müller. LOW CONFIDENCE (drop if the floor needs named performers or a certain track): Noferi's six guitar trios (disc numbering assumed), Linike G minor (4 movements on the page, 3 on the disc), Strungk Sonata à 6 (MusicBrainz link, 2:32 track), Pohle IMHS 5:9 and 5:10 (two of three C-major sonatas à 5 on the Clematis disc). VIOLONE: counted as a part (double-bass) where the print is 'à N' with a violone as the Nth voice (Kirchhoff, Pohle IMHS 5:10, Strungk Sonata à 6); the census had folded it into continuo. Meister's cello/violone line is counted as a part too (the print lists it beside the continuo for harpsichord); Mannelli's and Migali's violone/lute/archlute is folded into continuo. ALTERNATIVES: Scherer Op. 3 viola da gamba or bassoon, Meister cello or viol or violone, Mazzaferrata's ad lib. bass viola, Stricker recorded with two violins instead of flute and violin. STRING-ORCHESTRA QUESTION (concertos with no one-to-a-part recording identified): Sarro's Recorder Concerto in A minor (Gudrun Heyens with Musica Antiqua Köln, Archiv 1985, probably a chamber cast), Rathgeber Chelys sonora Op. 6 (Cappella Murensis), L. Taglietti Op. 6 (L'Accademico Formato, HR Recordings 2025), Schieferdecker Concert No. 13 (Elbipolis Barockorchester, Challenge Classics 2011), Solnitz Sinfonias Op. 3 (Musica ad Rhenum, Brilliant 2021), F. Martin Symphonies Op. 4 (Concerto Köln). OUT-OF-SCOPE PAGES worth a look: Jacchini's Trattenimenti per camera Op. 5 and the trumpet sonatas (2 trumpets, strings, continuo; recorded by Trombe d'Aria 2016, Cassone, Preston/Smithers) are chamber works by title ('a 3, 4, 5 e 6 strumenti'). VIOLIN CATALOGUE: Matteis 'Aria Amorosa' (2 violins, continuo) is not recorded in that scoring; entry 2062 stays a violin duo. BENCHMARKS: none in this slice. EXCLUSIONS: none proposed; Hiram Samuel Lopez (Canon in D minor) and Charlie Reed (Trio Sonata in G) may be modern composers but have no recent-upload signal, so they are skipped as not recorded. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 11 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Pohle: Sonata à 5 in C major, IMHS 5:9; Pohle: Sonata à 5 in C major, IMHS 5:10; Noferi: Trio, Op. 16 No. 1; Noferi: Trio, Op. 16 No. 2; Noferi: Trio, Op. 16 No. 3; Noferi: Trio, Op. 16 No. 4; Noferi: Trio, Op. 16 No. 5; Noferi: Trio, Op. 16 No. 6; Linike: Trio Sonata in G minor; Strungk: Sonata à 6 in A minor; Maldere: Trio Sonata in E-flat major. RECHECK 2026-10-17: 24 works added (Schenck, Il giardino armonico Op. 3, twelve trio sonatas, La Suave Melodia, Etcetera 2008; Noferi, six guitar trios Op. 16, Ensemble Pian & Forte, NAR 1993; Kirnberger, the D-minor trio sonata and four trios not on IMSLP, NeoBarock, ambitus 2020; La Barre, Suite II of the Pièces en trio, Livre 1, Harmonices Mvndi Chile 2021); 93 lines settled as not performed or recorded (MusicBrainz works browse, Deezer album search and opening, Apple composerTerm; the 11 partial composers plus Reali, Pepusch, Tůma, Jommelli, Krebs, Kirnberger, Martin, Somis, Solnitz, Lampugnani, Schaffrath, Ives, Loeillet, Jiránek, Pla); 9 lines removed because their works were entered; 0 still not checked; the remaining triage lines of lesser-known composers were not reopened. Hand edits: the six Noferi 'doubtful' lines were removed and the six Op. 16 trios entered at medium confidence on the evidence of the disc opened in full (six multi-movement trios by the ensemble, numbered 1-6, 6-8 minutes each; disc order taken as the print's) - they are still listed in parked-low-confidence.json, which this agent did not edit; Linike G minor, Strungk Sonata à 6, Pohle IMHS 5:9 and 5:10 stay 'doubtful' with the recheck added to their evidence (the recorded track cannot be tied to the page); the Kirnberger D-minor trio carries a first movement marked Andante on the disc and Adagio on IMSLP and is attributed to Handel in one source (HWV Anh. B 427), so medium; the Schenck sonatas are called trio sonatas on the disc although the print adds a continuo to two violins and gamba. Recorded but not entered: Kirnberger Trio 6 (violin and obbligato harpsichord, a duo); Schaffrath's A-major sonata for viola da gamba, violin, cello and harpsichord (Balestracci, Beyer and others, 2005; no catalogue number or page matched); Linike's trio sonatas in B-flat and D major (Concert Royal Köln, Musicaphon 2019; players' instruments not named); Collegium 1704's F-major sonata for two violins and continuo (Supraphon 2014; composer not shown); Jommelli's six trio sonatas exist only on a flute-oboe-harpsichord disc (no string part); Jacchini's Op. 5 trumpet sonatas were not reopened (out-of-scope pages, one-to-a-part not established); Loeillet's E-minor page is a transposition of Op. 2 No. 4 (arrangement). BY HAND (orchestrating session, 2026-10-17, on the owner's instruction: doubtful attributions out): Kirnberger's Trio Sonata in D minor (also attributed to Handel, HWV Anh. B 427) was moved to skipped (\"doubtful\") and parked. The six Noferi Op. 16 trios stay at medium confidence (removed from the parked file)."
 }
