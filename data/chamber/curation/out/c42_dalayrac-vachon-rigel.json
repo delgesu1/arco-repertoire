@@ -268,6 +268,47 @@
    "gap": true
   },
   {
+   "composer": "Vachon, Pierre",
+   "title": "String Quartet in F minor, Op. 5 No. 3",
+   "aka": [
+    "Quatuor à cordes en fa mineur, Op. 5 No. 3"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": "Six String Quartets, Op. 5",
+   "year": "",
+   "minutes": 12,
+   "notes": "Three movements: Allegro non tanto, Andante, Rondeau. Allegro non tanto; in F minor",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Galant quartet in three short movements; violin 1 about ABRSM 6-7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Quatuor Cambini-Paris, on the compilation '200 ans de musique à Versailles' (2008, MBF1107, per MusicBrainz)",
+    "performed": ""
+   },
+   "sources": [
+    "https://musicbrainz.org/ws/2/recording/d3563167-bf97-4fca-8945-94bd40abb175?inc=releases+artist-credits+artist-rels&fmt=json",
+    "https://musicbrainz.org/ws/2/release/18c1f41f-45e2-46b3-b4b0-010d300781c3?inc=artist-credits+labels+recordings&fmt=json",
+    "https://api.deezer.com/album/15100031"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
    "composer": "Rigel, Henri Joseph",
    "title": "String Quartet in G minor, Op. 10 No. 1",
    "aka": [
@@ -1330,6 +1371,49 @@
   },
   {
    "composer": "Rosetti, Antonio",
+   "title": "String Quartet in A major, Op. 4 No. 1",
+   "aka": [
+    "String Quartet in A major, Op. 2 No. 1",
+    "Streichquartett A-Dur, op. 2 Nr. 1",
+    "Murray D6"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": "Three String Quartets, Op. 4",
+   "year": "",
+   "minutes": 17,
+   "notes": "Four movements (Allegro con spirito, Adagio, Menuetto, Rondeau); the Gramola disc numbers it Op. 2 No. 1",
+   "popularity": "lesser-known",
+   "level_guess": 3,
+   "level_basis": "Haydn-style Classical writing; violin 1 about ABRSM 6-7",
+   "hardest_part_guess": "violin 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Demmler Quartett, Gramola 99015, 2013 ('Mecklenburg - 450 Jahre Kammermusik', listed as Op. 2 No. 1; Deezer album 587757082, MusicBrainz release 926314ff)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Antonio_Rosetti",
+    "https://api.deezer.com/album/587757082",
+    "https://musicbrainz.org/ws/2/release/926314ff-7f08-4c1f-8147-e102d6768155?inc=artist-credits+labels+recordings&fmt=json"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Rosetti, Antonio",
    "title": "String Quartet in A major, Op. 6 No. 1",
    "aka": [
     "Murray D9",
@@ -1573,6 +1657,140 @@
     "https://en.wikipedia.org/wiki/Antonio_Rosetti"
    ],
    "confidence": "high"
+  },
+  {
+   "composer": "Rosetti, Antonio",
+   "title": "Flute Quartet in G major, Murray D16",
+   "aka": [
+    "Quartet in G major, D16"
+   ],
+   "instruments": {
+    "flute": 1,
+    "violin": 1,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 15,
+   "notes": "Flute leads; three movements (Allegro, Andante, Rondo); violin, viola and cello accompany",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Flute about ABRSM 7; strings easier",
+   "hardest_part_guess": "flute",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Compagnia di Punto, Deutsche Harmonia Mundi 88765477822, 2013 ('Trovatello'; Deezer album 7067706, MusicBrainz release db6d00a5)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Antonio_Rosetti",
+    "https://api.deezer.com/album/7067706",
+    "https://musicbrainz.org/ws/2/release/db6d00a5-6c51-4e43-94d6-6987320ddf47?inc=artist-credits+labels+recordings&fmt=json",
+    "https://jahrbuch.gfbm-online.de/index.php/mib/article/download/92/165"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Rosetti, Antonio",
+   "title": "Sextet in D major, Murray B24",
+   "aka": [
+    "Notturno in D major, Murray B24",
+    "Sextet in D major, Op. 1",
+    "Sextet in D major, M.B24"
+   ],
+   "instruments": {
+    "flute": 1,
+    "horn": 2,
+    "violin": 1,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 6,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1783",
+   "minutes": 15,
+   "notes": "Notturno for flute, two horns, violin, viola and cello; three movements; IMSLP also gives Op. 1",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Flute and horns about ABRSM 7; strings easier",
+   "hardest_part_guess": "horn 1",
+   "imslpPage": "Sextet in D major, M.B24 (Rosetti, Antonio)",
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Compagnia di Punto, Deutsche Harmonia Mundi 88765477822, 2013 ('Trovatello'; Deezer album 7067706, MusicBrainz release db6d00a5)",
+    "performed": ""
+   },
+   "sources": [
+    "https://imslp.org/wiki/Sextet_in_D_major,_M.B24_(Rosetti,_Antonio)",
+    "https://en.wikipedia.org/wiki/Antonio_Rosetti",
+    "https://api.deezer.com/album/7067706",
+    "https://musicbrainz.org/ws/2/release/db6d00a5-6c51-4e43-94d6-6987320ddf47?inc=artist-credits+labels+recordings&fmt=json"
+   ],
+   "confidence": "high"
+  },
+  {
+   "composer": "Rosetti, Antonio",
+   "title": "Notturno in E-flat major, Murray B27",
+   "aka": [
+    "Notturno for 2 flutes, 2 horns and strings"
+   ],
+   "instruments": {
+    "flute": 2,
+    "horn": 2,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "double-bass": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 9,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 13,
+   "notes": "Four movements framed by marches; the DHM recording uses nine players, one to a part",
+   "popularity": "lesser-known",
+   "level_guess": 4,
+   "level_basis": "Flutes and horns about ABRSM 7; strings easier; nine parts to balance",
+   "hardest_part_guess": "horn 1",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Compagnia di Punto, Deutsche Harmonia Mundi 88765477822, 2013 ('Trovatello'; Deezer album 7067706, MusicBrainz release db6d00a5); the nine-part scoring and the ensemble's nine players are from the GfBM review. Also Bayerische Kammerphilharmonie, CPO 999 734-2 (orchestral strings, not counted)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Antonio_Rosetti",
+    "https://secm.org/links/discographies/rosetti-disc.html",
+    "https://api.deezer.com/album/7067706",
+    "https://musicbrainz.org/ws/2/release/db6d00a5-6c51-4e43-94d6-6987320ddf47?inc=artist-credits+labels+recordings&fmt=json",
+    "https://jahrbuch.gfbm-online.de/index.php/mib/article/download/92/165"
+   ],
+   "confidence": "medium",
+   "gap": true
   },
   {
    "composer": "Kuhlau, Friedrich",
@@ -1858,7 +2076,7 @@
    "imslpPage": "6 String Quartets, Op.1 (Dalayrac, Nicolas)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "IMSLP's only audio is the Loewenguth Quartet's 'Op. 1 No. 5 in E-flat' (Archiv 1959), which is the Op. 7 No. 5 quartet (same two movements, Allegro commodo and Minuetto; the Sibley scan on the Op. 7 page 'assigns this quartet mistakenly to Op.1'); no score on the page, no other recording found (Apple Music, MusicBrainz, web)"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse (recording relations) for the composer, 16 Dalayrac works, 11 with recordings; the only chamber works among them are the quartets Op. 1 No. 5 and Op. 7 No. 3. Deezer album searches 'Dalayrac quatuor / quartet / trio / Op. 7': no result; Apple composerTerm 'Nicolas Dalayrac' (50 results): no chamber album. The only recording is the Loewenguth Quartet's 'Op. 1 No. 5 in E-flat' (Archiv 1959), which is the Op. 7 No. 5 quartet (same two movements; the Sibley scan on the Op. 7 page 'assigns this quartet mistakenly to Op.1'); no score on the page."
   },
   {
    "composer": "Dalayrac, Nicolas",
@@ -1866,7 +2084,7 @@
    "imslpPage": "6 String Quartets, Op.7 (Dalayrac, Nicolas)",
    "works": 4,
    "reason": "not performed or recorded",
-   "evidence": "Only Nos. 3 (D) and 5 (E-flat) are recorded (Loewenguth, Archiv 1959; No. 5 also Quatuor Pascal, 1939); Nos. 1, 2, 4 and 6 have no recording found, and the only modern edition on the page is No. 5 (Senart, 1921)"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse (recording relations) for the composer, Deezer and Apple searches as for Op. 1: only Nos. 3 (D) and 5 (E-flat) are recorded (Loewenguth, Archiv 1959; No. 5 also Quatuor Pascal, 1939) and are kept as entries; Nos. 1, 2, 4 and 6 have no recording in MusicBrainz, Deezer or Apple, and the only modern edition on the page is No. 5 (Senart, 1921)."
   },
   {
    "composer": "Dalayrac, Nicolas",
@@ -1874,7 +2092,7 @@
    "imslpPage": "6 String Trios, Op.2 (Dalayrac, Nicolas)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Six trios for two violins and bass (Paris print, c. 1770-77); IMSLP holds the print only; no recording, modern edition or performance found (Apple Music, MusicBrainz, web)"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse (recording relations) for the composer, Deezer 'Dalayrac trio / quatuor' and Apple composerTerm 'Nicolas Dalayrac' (50 results): no recording of the Op. 2 trios (two violins and bass, Paris print c. 1770-77); the page holds the print only; no modern edition or performance found."
   },
   {
    "composer": "Vachon, Pierre",
@@ -1882,7 +2100,7 @@
    "imslpPage": "6 String Quartets, Op.6 (Vachon, Pierre)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "London print c. 1776 ('Six Quartettos for two violins, a tenor and bass', dedicated to the Earl of Kelly), not the 1773 Paris Op. 6 of the catalogues; no recording or edition found (Apple Music, MusicBrainz, web)"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse for Vachon (artist record dated 1738): recordings only of Op. 5 No. 3 (Cambini-Paris), a 'String Trio Op. 5 No. 2' (Jerusalem String Trio, 1995) and Op. 11 Nos. 1 and 5 (Loewenguth); Deezer 'Vachon quatuor / quartet / trio', 'Pierre Vachon', Apple composerTerm 'Pierre Vachon' (5 results, Op. 5 No. 1 only): no Op. 6 recording. London print c. 1776 ('Six Quartettos for two violins, a tenor and bass'), not the 1773 Paris Op. 6 of the catalogues."
   },
   {
    "composer": "Vachon, Pierre",
@@ -1890,7 +2108,7 @@
    "imslpPage": "6 Trio Sonatas, Op.4 (Vachon, Pierre)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Six trios for two violins and continuo; IMSLP lists the print only; no recording, modern edition or performance found"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse for Vachon, Deezer 'Vachon trio / quatuor / Op. 5' and Apple composerTerm 'Pierre Vachon': no recording of the Op. 4 trios (two violins and continuo; IMSLP lists the print only); no modern edition or performance found."
   },
   {
    "composer": "Vachon, Pierre",
@@ -1898,7 +2116,7 @@
    "imslpPage": "6 String Quartets, Op.11 (Vachon, Pierre)",
    "works": 4,
    "reason": "not performed or recorded",
-   "evidence": "Only Nos. 1 (A) and 5 (F minor) are recorded (Loewenguth, Archiv 1959); Nos. 2 (E), 3 (G), 4 (A) and 6 (E-flat) have no recording found"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz recording-to-release lookups for Vachon: only Nos. 1 (A) and 5 (F minor) are recorded (Loewenguth Quartet, Archiv Produktion; the 2016 box 'Analogue Stereo Recordings 1959-1981', 479 5555) and are kept as entries; Nos. 2 (E), 3 (G), 4 (A) and 6 (E-flat) have no recording in MusicBrainz, Deezer or Apple."
   },
   {
    "composer": "Rigel, Henri Joseph",
@@ -1906,7 +2124,7 @@
    "imslpPage": "6 String Quartets, Op.4 (Rigel, Henri Joseph)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "'Six quatuors dialogués pour deux violons, quinte et violoncelle' (figured bass in the score); the ATMA disc by the Quatuor Franz Joseph is of Op. 10; no recording of Op. 4 found (Apple Music, MusicBrainz, web)"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse for Rigel (20 works, all symphonies), Deezer 'Rigel quatuor / quartet', 'Henri-Joseph Rigel' and Apple composerTerm 'Henri-Joseph Rigel' (50 results): the ATMA disc 'Rigel: Quatuors dialogués' (Quatuor Franz Joseph) holds Op. 10 Nos. 1-6 (18 tracks), none of Op. 4 ('quatuors dialogués pour deux violons, quinte et violoncelle', figured bass in the score)."
   },
   {
    "composer": "Rigel, Henri Joseph",
@@ -1930,7 +2148,7 @@
    "imslpPage": "Harpsichord Concerto in A major, Op.3 (Rigel, Henri Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Concerto 'pour le clavessin avec accompagnement de deux violons, viola et violoncelle'; no recording or performance found (Apple Music, MusicBrainz, web), so whether it is played one to a part is moot"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse for Rigel, Deezer 'Rigel concerto clavecin / harpsichord concerto' and Apple composerTerm 'Henri-Joseph Rigel': no recording of this concerto ('pour le clavessin avec accompagnement de deux violons, viola et violoncelle'); the keyboard concerto found on disc is a fortepiano concerto in F (so neither Op. 2 in D nor Op. 3 in A) played with Arion Orchestre Baroque (ATMA 2024). No performance found."
   },
   {
    "composer": "Rigel, Henri Joseph",
@@ -1938,7 +2156,7 @@
    "imslpPage": "Harpsichord Concerto in D major, Op.2 (Rigel, Henri Joseph)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Concerto 'pour le clavecin avec accompagnement de deux violons, viola et violoncelle'; no recording or performance found (Apple Music, MusicBrainz, web)"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse for Rigel, Deezer 'Rigel concerto clavecin / harpsichord concerto' and Apple composerTerm 'Henri-Joseph Rigel': no recording of this concerto ('pour le clavecin avec accompagnement de deux violons, viola et violoncelle'); the fortepiano concerto in F on ATMA 2024 (with Arion Orchestre Baroque) is a different work, played with orchestra. No performance found."
   },
   {
    "composer": "Hoffstetter, Roman",
@@ -1946,7 +2164,7 @@
    "imslpPage": "String Quartet in F major, Hob.III:F3 (Hoffstetter, Roman)",
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "Manuscript-only quartet in F (Hob. III:F3, outside the six of Op. 3); no recording found (MusicBrainz lists recordings of Op. 3 only), no modern edition or performance found"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse for Hoffstetter (30 works, recordings of Op. 3 only), Deezer 'Hoffstetter quartet' (9 results; the albums naming Hoffstetter hold Op. 3) and Apple composerTerm 'Roman Hoffstetter' (50 results; only Op. 3 quartets seen): no recording of Hob. III:F3; manuscript only, no modern edition or performance found."
   },
   {
    "composer": "Hoffstetter, Roman",
@@ -1962,7 +2180,7 @@
    "imslpPage": "6 Trio Sonatas, Op.2 (Exaudet, André-Joseph)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "The IMSLP 'recorded' signal comes from the standalone 'Menuet d'Exaudet' (Sonata No. 1, Minuet), recorded in arrangements; Apple Music and MusicBrainz show no recording of the trio sonatas and a web search found none; no performance found"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse for Exaudet (6 works: the Concerto à cinq instruments, the Menuet d'Exaudet, La Puce), Deezer 'Exaudet' and 'Exaudet trio sonata', Apple composerTerm 'Exaudet' (50 results): the only trace of Op. 2 is the Menuet (Sonata No. 1, third movement) in Paillard's chamber-orchestra arrangement (Warner, 1961), which is an arrangement and not one to a part; no recording of the sonatas, no performance found."
   },
   {
    "composer": "Pla, Joan Baptista",
@@ -1970,7 +2188,7 @@
    "imslpPage": "6 Trio Sonatas (Pla, Joan Baptista)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Six sonatas for two German flutes, violins or oboes with bass (London: J. Hardy, [1754]), a joint work of Joan Baptista and José Pla. The only trio-sonata disc found (Barcelona Consort, La Mà de Guido, 1999; Apple Music) holds seven manuscript sonatas numbered 2a, 4, 12, 13, 15, 16, 29, so a recording of this London set is not confirmed (keys C, D minor and F overlap in part); no performance found"
+   "evidence": "RECHECK 2026-10-17: MusicBrainz works browse for Pla (the work '6 Trio Sonatas' has no recording), Deezer 'Pla trio sonatas', 'Joan Baptista Pla', Apple composerTerm 'Joan Baptista Pla' (50 results) and album lookups: other trio sonatas of the Pla brothers are recorded (Barcelona Consort, La Mà de Guido 1999: manuscript sonatas 2a, 4, 12, 13, 15, 16, 29; Rossi Piceno, Ramée 2006: sonatas in F, D minor, G, E-flat, C minor, C; Rampal, Arimany, Pertis, Sony 1995: D minor, C, D), but none is confirmed to be the London print (J. Hardy [1754]: Sonatas I-VI in C, D minor, F, F, G, E minor). IMSLP's notes relate Sonata II to the manuscript DolP 3.2b ('very similar'), Sonata VI to DolP 3.6 ('might be the original setting') and Sonata V to No. 3 of José Pla's 1759 Miroglio set ('essentially the same')."
   },
   {
    "composer": "Rosetti, Antonio",
@@ -1978,7 +2196,7 @@
    "imslpPage": "3 Keyboard Trios, Op.5 (Rosetti, Antonio)",
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "'Trois sonates pour le clavecin ou piano forte avec accompagnement de violon et violoncello' (print c. 1787); Wikipedia's Murray table lists no recording of any Rosetti keyboard trio and none was found on Apple Music"
+   "evidence": "RECHECK 2026-10-17: Wikipedia's Murray table (Piano Trios Op. 1, 5, 7 = D26-D38: no recordings listed), the SECM Rosetti discography (no keyboard trio), MusicBrainz works browse for Rosetti (414 works, no keyboard trio recorded), Deezer 'Rosetti keyboard trio / Klaviertrio / piano trio' and Apple composerTerm 'Antonio Rosetti' (200 results): no recording; print c. 1787 ('Trois sonates pour le clavecin ou piano forte avec accompagnement de violon et violoncello'); no performance found."
   },
   {
    "composer": "Rosetti, Antonio",
@@ -1986,7 +2204,7 @@
    "imslpPage": "6 Keyboard Trios (Rosetti, Antonio)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "Sonatas for harpsichord or fortepiano with violin and cello (Murray D29-34, Mannheim 1784-85); no recording or performance found (Apple Music, Wikipedia's Murray table)"
+   "evidence": "RECHECK 2026-10-17: Wikipedia's Murray table (D29-D34 have no recording listed), the SECM Rosetti discography, MusicBrainz works browse for Rosetti (414 works), Deezer 'Rosetti keyboard trio / Klaviertrio / piano trio' and Apple composerTerm 'Antonio Rosetti' (200 results): no recording of the Mannheim 1784-85 trios (harpsichord or fortepiano with violin and cello); no performance found."
   },
   {
    "composer": "Rosetti, Antonio",
@@ -1994,15 +2212,7 @@
    "imslpPage": "6 String Quartets, Op.7 (Rosetti, Antonio)",
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "1788 print on IMSLP; no recording found (the CPO and SWR discs are Op. 6; Wikipedia's Murray table lists recordings only for Op. 6 and one quartet of Op. 4)"
-  },
-  {
-   "composer": "Rosetti, Antonio",
-   "title": "Sextet in D major, M.B24",
-   "imslpPage": "Sextet in D major, M.B24 (Rosetti, Antonio)",
-   "works": 1,
-   "reason": "not performed or recorded",
-   "evidence": "Notturno in D for flute, 2 horns, violin, viola and cello; modern editions exist (Musica antiqua Bohemica 1966; Amadeus 2002 per the BnF), but the Deutsche Harmonia Mundi (2013) recording that Wikipedia's Murray table lists could not be found on Apple Music, MusicBrainz or the web; no performance found. Worth a recheck"
+   "evidence": "RECHECK 2026-10-17: 1788 print on IMSLP (Sibley Project scan; two violins, viola, cello). Wikipedia's Murray table has no string quartets Op. 7 (Op. 7 = four piano trios, D35-D38) and lists recordings only for Op. 6 (CPO 1995, SWR 2020) and D6; the SECM discography, MusicBrainz works browse for Rosetti (414 works), Deezer ('Rosetti string quartet / quartet / Op. 7 / Quatuor') and Apple composerTerm 'Antonio Rosetti' (200 results) show no recording of an Op. 7 quartet; no performance found."
   },
   {
    "composer": "Salieri, Antonio",
@@ -2044,11 +2254,11 @@
   {
    "name": "Vachon, Pierre",
    "candidates": 3,
-   "kept": 3,
+   "kept": 4,
    "skipped": 16,
-   "added_not_on_imslp": 1,
-   "coverage": "partial",
-   "note": "Gap check from en/fr Wikipedia (Op. 1 violin sonatas, Op. 4 trios, Op. 5 and Op. 7 quartets, Op. 9 lost, Op. 11). Op. 5 No. 1 in A is on the Auvidis disc; MusicBrainz lists a quartet 'Op. 5 No. 3 in F minor' with the same movement titles but other timings, so the Op. 5 numbering is uncertain (not added twice)"
+   "added_not_on_imslp": 2,
+   "coverage": "complete",
+   "note": "Gap check from en/fr Wikipedia (Op. 1 violin sonatas, Op. 4 trios, Op. 5 and Op. 7 quartets, Op. 9 lost, Op. 11). RECHECK: MusicBrainz works browse of Vachon (artist record dated 1738): quartet Op. 5 No. 3 in F minor (Quatuor Cambini-Paris, 2008 compilation) added at medium confidence; Op. 11 Nos. 1 and 5 (Loewenguth) as before; Op. 5 No. 1 in A is also on the naïve classique disc (Quatuor Les Adieux, 2017 reissue). A 'String Trio in E-flat, Op. 5 No. 2' (Jerusalem String Trio, 'Buried Treasure', 1995) is not added: it clashes with Op. 5 being a set of quartets, and its scoring and label are unconfirmed."
   },
   {
    "name": "Rigel, Henri Joseph",
@@ -2107,11 +2317,11 @@
   {
    "name": "Rosetti, Antonio",
    "candidates": 6,
-   "kept": 6,
-   "skipped": 16,
-   "added_not_on_imslp": 0,
-   "coverage": "partial",
-   "note": "Op. 6 complete. Not added (unverified, from Wikipedia's Murray table only): quartets D6-D8 (D6 recorded by Gramola 2013 per the table), D15 and D17, Flute Quartet D16 and Notturno B27 (DHM 2013); a University of Augsburg edition files D6-D8 under Op. 2, so the Op. 4 numbering is doubtful"
+   "kept": 10,
+   "skipped": 15,
+   "added_not_on_imslp": 3,
+   "coverage": "complete",
+   "note": "Op. 6 complete (Arioso Quartet, CPO 1994). RECHECK: the Murray chamber works with strings were checked against Wikipedia's Murray table, the SECM discography, MusicBrainz, Deezer and Apple. Recorded: D6 (Op. 4 No. 1 in A, listed as Op. 2 No. 1; Demmler Quartett, Gramola 2013), and on one disc by Compagnia di Punto (Deutsche Harmonia Mundi, 2013) the Flute Quartet D16, the Sextet B24 and the Notturno B27 (nine players); all four added. No recording found: string trios D1-D5, quartets D7, D8, D15, D17, bassoon quartet D18, piano trios D26-D38 and the IMSLP Op. 7 quartets. B6 (a wind quintet on other discs) and B26 (sextet in E-flat) are on the same DHM disc, but their scoring is unconfirmed, so they are not added."
   },
   {
    "name": "Kuhlau, Friedrich",
@@ -2132,5 +2342,5 @@
    "note": "Both kept works rest on one documented professional concert (Berlin Philharmonic members, 4 March 2026); no recording (Apple Music, MusicBrainz, web) and no modern edition were found, hence low confidence. Wikipedia's list adds only fugues for two or three instruments and a lost guitar set"
   }
  ],
- "note": "Slice c42 (Dalayrac, Vachon, Rigel, Hoffstetter, Exaudet, Paisiello, Pla, Soler, Rosetti, Kuhlau, Salieri): all 39 candidate pages are kept or skipped. Floor evidence is mostly Apple Music track lists, MusicBrainz, IMSLP and Wikipedia; Presto and the Naxos Music Library were not reachable and Apple's search endpoint answered 403 for a while late in the run. (1) Dalayrac and Vachon's Op. 11 are known only from 1939-59 LPs: the Loewenguth Quartet's Archiv disc (Dalayrac 'Op. 1 No. 5' = Op. 7 No. 5, Op. 7 No. 3; Vachon Op. 11 Nos. 1 and 5) and the Quatuor Pascal; confidence medium. (2) Paisiello Op. 23: two key schemes (IMSLP and Ferrarini D, G, G, C, G, G; Robinson, Brilliant and Aulicus C, D, E minor, G, G, G); titles follow IMSLP, the R. number and the other key are in aka. (3) Hoffstetter Op. 3 are the benchmark's set; no benchmark issue (recorded timings of No. 5 run 9-14 minutes). (4) Kuhlau Op. 51 No. 2: discs say E major, IMSLP E minor with an E-major introduction. (5) Soler: year 1776 (IMSLP 1766); minutes average two discs that differ by up to ten minutes. (6) Added from the gap check: Vachon's Op. 5 No. 1 (Auvidis, 1996) and Exaudet's Concerto à cinq instruments (Audax ADX 13782, 2021; one to a part per the Classical Music review; a violin concerto, so say if the owner wants it out). Not added: Vachon's quartet labelled Op. 5 No. 3 in F minor on MusicBrainz; Rosetti quartets D6-D8, D15, D17, Flute Quartet D16 and Notturno B24 (a 2013 Deutsche Harmonia Mundi disc named only in Wikipedia's Murray table; not found); Paisiello's nine string quartets (no recording found). (7) Salieri's Scherzi and Fugue pass only on a Berlin Philharmonic concert (4 March 2026); the owner may prefer to drop them. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 2 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Salieri: Scherzi armonici istrumentali; Salieri: Fugue in G major."
+ "note": "Slice c42 (Dalayrac, Vachon, Rigel, Hoffstetter, Exaudet, Paisiello, Pla, Soler, Rosetti, Kuhlau, Salieri): all 39 candidate pages are kept or skipped. Floor evidence is mostly Apple Music track lists, MusicBrainz, IMSLP and Wikipedia; Presto and the Naxos Music Library were not reachable and Apple's search endpoint answered 403 for a while late in the run. (1) Dalayrac and Vachon's Op. 11 are known only from 1939-59 LPs: the Loewenguth Quartet's Archiv disc (Dalayrac 'Op. 1 No. 5' = Op. 7 No. 5, Op. 7 No. 3; Vachon Op. 11 Nos. 1 and 5) and the Quatuor Pascal; confidence medium. (2) Paisiello Op. 23: two key schemes (IMSLP and Ferrarini D, G, G, C, G, G; Robinson, Brilliant and Aulicus C, D, E minor, G, G, G); titles follow IMSLP, the R. number and the other key are in aka. (3) Hoffstetter Op. 3 are the benchmark's set; no benchmark issue (recorded timings of No. 5 run 9-14 minutes). (4) Kuhlau Op. 51 No. 2: discs say E major, IMSLP E minor with an E-major introduction. (5) Soler: year 1776 (IMSLP 1766); minutes average two discs that differ by up to ten minutes. (6) Added from the gap check: Vachon's Op. 5 No. 1 (Auvidis, 1996) and Exaudet's Concerto à cinq instruments (Audax ADX 13782, 2021; one to a part per the Classical Music review; a violin concerto, so say if the owner wants it out). Not added: Vachon's quartet labelled Op. 5 No. 3 in F minor on MusicBrainz; Rosetti quartets D6-D8, D15, D17, Flute Quartet D16 and Notturno B24 (a 2013 Deutsche Harmonia Mundi disc named only in Wikipedia's Murray table; not found); Paisiello's nine string quartets (no recording found). (7) Salieri's Scherzi and Fugue pass only on a Berlin Philharmonic concert (4 March 2026); the owner may prefer to drop them. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 2 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Salieri: Scherzi armonici istrumentali; Salieri: Fugue in G major. RECHECK 2026-10-17: 5 works added (Rosetti: Sextet in D major, Murray B24 [IMSLP page], String Quartet in A major, Op. 4 No. 1 [D6], Flute Quartet in G major [D16], Notturno in E-flat major [B27]; Vachon: String Quartet in F minor, Op. 5 No. 3); 15 lines settled as not performed or recorded (MusicBrainz works browse, Deezer album searches, Apple composerTerm searches, Wikipedia's Murray table and the SECM Rosetti discography; the lookups made while Apple and MusicBrainz were blocking are replaced); 0 still not checked. Rosetti: D6, D16, B24 and B27 are all recorded; the Compagnia di Punto disc (DHM 88765477822, 2013: Mayumi Hirasaki, Shunske Sato violins, Florian Schulte viola, Alexander Scherf cello, Roberto Fernandez de Larrinoa double bass, Annie Laflamme and Gudrun Knop flutes, Christian Binde and Christoph Thelen horns) is the one the first agent could not find (it did not turn up in the Apple searches; found through MusicBrainz and Deezer). B27 is entered as nine parts (2 flutes, 2 horns, 2 violins, viola, cello, double bass) from the GfBM review's 'neunstimmige Bläser-Streicherbesetzung' and the ensemble's nine players; the score's own string parts are not confirmed (medium confidence; drop it if the owner prefers). D6 appears as Op. 2 No. 1 on the Gramola disc (Murray: Op. 4 No. 1). The first-pass notes that wrote Notturno B24 or B27 as 'not found' are superseded. Not added: Rosetti B6 and B26 (same disc, scoring unconfirmed), D7, D8, D15, D17 (no recording); Vachon's 'String Trio Op. 5 No. 2' (Jerusalem String Trio, 1995; scoring and label unconfirmed); Pla's London trio sonatas (related manuscript sonatas are recorded, see the Pla line; the owner may want the recorded Pla trio sonatas looked at in another pass). Hand edits: removed the skipped line of the Rosetti Sextet (now a work); rewrote the composers_checked lines of Vachon and Rosetti (counts, coverage, note); replaced the evidence of the 15 remaining 'not performed or recorded' lines, keeping the earlier findings inside them."
 }
