@@ -7914,5 +7914,97 @@
    ],
    "confidence": "medium"
   }
+ },
+ {
+  "slice": "x10_nordic",
+  "why": "the instrument list comes from Wikipedia and search-result summaries only; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Thorvaldsdottir, Anna",
+   "title": "In the Light of Air",
+   "aka": [],
+   "instruments": {
+    "viola": 1,
+    "cello": 1,
+    "piano": 1,
+    "harp": 1,
+    "percussion": 1,
+    "electronics": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "other",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "2014",
+   "minutes": 38,
+   "notes": "Viola, cello, piano, harp and percussion with fixed electronics; four connected movements, about 40 minutes",
+   "popularity": "lesser-known",
+   "level_guess": 8,
+   "level_basis": "Forty-minute work, extended techniques, fixed electronics; endurance and balance",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "International Contemporary Ensemble, Sono Luminus DSL-92192 (In the Light of Air, 2015)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.annathorvalds.com/-inthelightofair",
+    "https://en.wikipedia.org/wiki/Anna_Thorvaldsdottir",
+    "https://musicbrainz.org/release/0ae8fa4f-4c52-4da2-a848-23cdaa43260c",
+    "https://www.deezer.com/album/580804921"
+   ],
+   "confidence": "medium",
+   "gap": true
+  }
+ },
+ {
+  "slice": "x10_nordic",
+  "why": "the instrument list comes from Wikipedia and search-result summaries only; the recording is conducted, so one player to a part is assumed; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Thorvaldsdottir, Anna",
+   "title": "Illumine",
+   "aka": [],
+   "instruments": {
+    "violin": 3,
+    "viola": 2,
+    "cello": 2,
+    "double-bass": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 8,
+   "formation": "large-strings",
+   "formationNote": null,
+   "form": "short",
+   "set": null,
+   "year": "2016",
+   "minutes": 7,
+   "notes": "Three violins, two violas, two cellos and double bass; conducted; the score also allows multiples of each part",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Sustained textures and glissandi in eight parts; blend, intonation, conductor",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "International Contemporary Ensemble, cond. Steven Schick, Sono Luminus DSL-92227 (AEQUA, 2018)",
+    "performed": ""
+   },
+   "sources": [
+    "https://annathorvalds.com/illumine",
+    "https://itunes.apple.com/lookup?id=1440068462&entity=song",
+    "https://musicbrainz.org/release/9b624ca8-c5dc-4382-acfb-a39243ae7aaf",
+    "https://en.wikipedia.org/wiki/Anna_Thorvaldsdottir"
+   ],
+   "confidence": "medium",
+   "gap": true
+  }
  }
 ]

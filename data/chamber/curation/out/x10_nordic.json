@@ -3959,6 +3959,47 @@
    "gap": true
   },
   {
+   "composer": "Lindberg, Magnus",
+   "title": "UR",
+   "aka": [],
+   "instruments": {
+    "clarinet": 1,
+    "violin": 1,
+    "cello": 1,
+    "double-bass": 1,
+    "piano": 1,
+    "electronics": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "short",
+   "set": null,
+   "year": "1986",
+   "minutes": 14,
+   "notes": "Pianist also plays synthesizer, clarinet doubles bass clarinet; live electronics; conducted on the recording",
+   "popularity": "lesser-known",
+   "level_guess": 8,
+   "level_basis": "Dense rhythmic writing with live electronics and a conductor",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Alain Damiens, Maryvonne Le Dizes, Pierre Strauch, Frederic Stochl, Dimitri Vassilakis, cond. Peter Eotvos, Accord 465 308-2 (1994)",
+    "performed": ""
+   },
+   "sources": [
+    "https://resources.ircam.fr/work/ur",
+    "https://musicbrainz.org/release/fd335347-067a-4229-9001-fdb7fea51d88"
+   ],
+   "confidence": "high",
+   "gap": true
+  },
+  {
    "composer": "Salonen, Esa-Pekka",
    "title": "Homunculus",
    "aka": [],
@@ -3996,6 +4037,49 @@
     "https://www.deezer.com/album/579277481"
    ],
    "confidence": "high",
+   "gap": true
+  },
+  {
+   "composer": "Salonen, Esa-Pekka",
+   "title": "Floof",
+   "aka": [
+    "Floof: Songs of a Homeostatic Homer"
+   ],
+   "instruments": {
+    "voice": 1,
+    "clarinet": 1,
+    "percussion": 1,
+    "piano": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "short",
+   "set": null,
+   "year": "1988",
+   "minutes": 10,
+   "notes": "Soprano with clarinet (also bass clarinet), percussion, piano (also synthesizer) and cello; conducted",
+   "popularity": "lesser-known",
+   "level_guess": 8,
+   "level_basis": "Wide-ranging soprano part and rhythmically complex ensemble writing",
+   "hardest_part_guess": "voice",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Anu Komsi, Ensemble Toimii, cond. Esa-Pekka Salonen, Finlandia (Esa-Pekka Salonen: Works 1992-1978, 2002), per IRCAM; MusicBrainz lists a 9:37 recording",
+    "performed": ""
+   },
+   "sources": [
+    "https://resources.ircam.fr/work/floof",
+    "https://en.wikipedia.org/wiki/Esa-Pekka_Salonen",
+    "https://musicbrainz.org/artist/66b01c9c-3344-46b1-b5fe-cab3c2834e32"
+   ],
+   "confidence": "medium",
    "gap": true
   },
   {
@@ -4790,8 +4874,8 @@
    "title": "Nightshade Trilogy; Trio transcendentale; Corpus cum figuris; Dramaphonia and other ensemble works",
    "imslpPage": null,
    "works": 6,
-   "reason": "not checked (budget)",
-   "evidence": "Recorded (Bridge, Point) but scoring not confirmed"
+   "reason": "doubtful: low confidence",
+   "evidence": "RECHECK 2026-10-18: recorded but no scoring confirmed, so not added. Deezer, MusicBrainz and Apple show Nightshade Trilogy (Capricorn, cond. Knussen, Bridge 2014), Trio transcendentale (one performer, Nicholas Wearne, 4:40, Bridge Vol. 7), Corpus cum figuris (Ensemble Intercontemporain, Point 1988; Arhus Sinfonietta, BIS 1997) and Dramaphonia (credited to the pianist Erik Kaltoft with the Arhus Sinfonietta, BIS); the scorings were not found"
   },
   {
    "composer": "Rautavaara, Einojuhani",
@@ -4870,8 +4954,8 @@
    "title": "Three Tangos; Ballad; Quartet for Accordion and String Trio; Sonata concertante for accordion and string quintet; works for 4 cellos; Sateen aikaan (mezzo and quartet); Trio for accordion, double bass and percussion",
    "imslpPage": null,
    "works": 8,
-   "reason": "not checked (budget)",
-   "evidence": "Chamber works with strings per the Wikipedia list; no recording found in the searches run"
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-18: Deezer track searches (Three Tangos, Ballad, Sateen aikaan, HAHE/ARS/Earegberg/ERA, Kimasen lento, accordion with string trio, Kumaus), the Apple composerTerm search for Kalevi Aho (200 results) and the MusicBrainz works browse found no recording of these scorings; the only accordion-and-strings recording is the string-orchestra Sonata Concertante (BIS, Saimaa Sinfonietta, 2023), not one to a part. No publisher page opened"
   },
   {
    "composer": "Aho, Kalevi",
@@ -4891,11 +4975,11 @@
   },
   {
    "composer": "Lindberg, Magnus",
-   "title": "UR (1986); Zona (cello and seven instruments, 1983); Quintetto dell'estate (1979); Decorrente; Action-Situation-Signification; Kiri",
+   "title": "Zona (cello and seven instruments, 1983); Quintetto dell'estate (1979); Decorrente (1992); Action-Situation-Signification (1982); Kiri (1993)",
    "imslpPage": null,
-   "works": 6,
-   "reason": "not checked (budget)",
-   "evidence": "Scoring of UR, Decorrente and Action not confirmed; Zona and Quintetto dell'estate found no recording with a label"
+   "works": 5,
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-18: IRCAM (resources.ircam.fr/work/zona, /decorrente, /action-situation-signification, /kiri) gives the scorings (Zona: cello with alto flute, bass clarinet, percussion, harp, piano, violin, double bass; Decorrente: clarinet, vibraphone, piano, guitar, cello; Action-Situation-Signification: clarinet, percussion, piano, cello; Kiri: clarinet, cello, percussion with electronics) and performances (London Sinfonietta, Ensemble Toimii) but no recording; none found on Deezer, MusicBrainz or Apple composerTerm; the IRCAM page for Quintetto dell'estate is empty; no publisher page opened. UR was added"
   },
   {
    "composer": "Lindberg, Magnus",
@@ -4915,11 +4999,35 @@
   },
   {
    "composer": "Salonen, Esa-Pekka",
-   "title": "Mania (cello and ensemble, 2000); Floof (soprano and ensemble); Five Images after Sappho; Catch and Release; Memoria; FOG; Nachtlieder",
+   "title": "Mania (cello and ensemble, 2000); Five Images after Sappho (soprano and ensemble, 1999); FOG (13 instrumentalists, 2019)",
    "imslpPage": null,
-   "works": 7,
-   "reason": "not checked (budget)",
-   "evidence": "Mania is recorded (Sony Classical) but the size of its ensemble was not confirmed; the others are vocal or larger ensembles, have no strings or have no recording"
+   "works": 3,
+   "reason": "out of scope: more than nine players",
+   "evidence": "RECHECK 2026-10-18: IRCAM (resources.ircam.fr/work/mania, /five-images-after-sappho) lists the cello or the soprano with an ensemble of 10 to 25 instruments (Mania: flute, oboe, clarinet, bassoon, horn, trumpet, trombone, percussion, harp, piano, two violins, viola, double bass); FOG is for 13 instrumentalists (Wikipedia list)"
+  },
+  {
+   "composer": "Salonen, Esa-Pekka",
+   "title": "Memoria (wind quintet, 2003)",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "out of scope: no string part",
+   "evidence": "RECHECK 2026-10-18: wind quintet per the Wikipedia list (premiered by Avanti!, 2003)"
+  },
+  {
+   "composer": "Salonen, Esa-Pekka",
+   "title": "Nachtlieder (clarinet and piano, 1978)",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "out of scope: duo",
+   "evidence": "RECHECK 2026-10-18: clarinet and piano per the Wikipedia list and MusicBrainz"
+  },
+  {
+   "composer": "Salonen, Esa-Pekka",
+   "title": "Catch and Release (chamber ensemble, 2006)",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-18: IRCAM (resources.ircam.fr/work/catch-and-release) gives seven players (trumpet, trombone, percussion, bassoon, clarinet, violin, double bass) and a performance by Avanti!, cond. Storgards, but no recording on Deezer, MusicBrainz or Apple composerTerm and no publisher page opened; a premiere alone is not enough for the floor (owner may add)"
   },
   {
    "composer": "Salonen, Esa-Pekka",
@@ -4979,27 +5087,11 @@
   },
   {
    "composer": "Thorvaldsdottir, Anna",
-   "title": "In the Light of Air (2014)",
-   "imslpPage": null,
-   "works": 1,
-   "reason": "not checked (budget)",
-   "evidence": "Recorded by the International Contemporary Ensemble (Sono Luminus, 2015) but the Wikipedia scoring (percussion, harp, piano, viola, cello, electronics) lists the harp twice and could not be confirmed"
-  },
-  {
-   "composer": "Thorvaldsdottir, Anna",
    "title": "Scape; Sequences; Reflections; Fields (ICE, AEQUA)",
    "imslpPage": null,
    "works": 4,
-   "reason": "not checked (budget)",
-   "evidence": "Recorded by the International Contemporary Ensemble (Sono Luminus, 2018) but their scorings were not looked up"
-  },
-  {
-   "composer": "Thorvaldsdottir, Anna",
-   "title": "Illumine (string octet, 2016)",
-   "imslpPage": null,
-   "works": 1,
-   "reason": "not checked (budget)",
-   "evidence": "Recorded by the International Contemporary Ensemble (AEQUA, Sono Luminus 2018) but the instrumentation of the octet was not confirmed"
+   "reason": "doubtful: low confidence",
+   "evidence": "RECHECK 2026-10-18: all four are tracks of AEQUA (International Contemporary Ensemble, Sono Luminus DSL-92227, 2018; Apple 1440068462), Fields also on More Field Recordings (Bang on a Can All-Stars, Cantaloupe 2017), but no scoring was found: the annathorvalds.com pages guessed for these titles gave 404 and Wikipedia's list omits them; the track credits (Scape: one pianist; Reflections: a violin, a viola and a cello player; Sequences: three players) suggest but do not confirm the scorings"
   },
   {
    "composer": "Thorvaldsdottir, Anna",
@@ -5032,6 +5124,30 @@
    "works": 1,
    "reason": "doubtful: kept at low confidence by the agent, left off on the owner's instruction (2026-10-17)",
    "evidence": "A lesser-known work whose details the agent could not confirm; the owner asked to leave such works off. The full entry with its sources is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Hillborg, Anders",
+   "title": "Heisenbergminiatyrer (Heisenberg Miniatures) for string quartet (2006-07)",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "not checked (budget)",
+   "evidence": "RECHECK 2026-10-18: en.wikipedia lists it for string quartet (2006-2007) and sv.wikipedia lists it next to the Kongsgaard Variations (stråkkvartett, 2006), so it is a separate work, not the Kongsgaard Variations; no recording lookup was made for it in this pass"
+  },
+  {
+   "composer": "Thorvaldsdottir, Anna",
+   "title": "In the Light of Air",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: scoring not confirmed from a primary source, left off on the owner's instruction (2026-10-18)",
+   "evidence": "Added by the recheck at medium confidence (the instrument list comes from Wikipedia and search-result summaries only), then left off by the orchestrating session; the full entry is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Thorvaldsdottir, Anna",
+   "title": "Illumine",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: scoring not confirmed from a primary source, left off on the owner's instruction (2026-10-18)",
+   "evidence": "Added by the recheck at medium confidence (the instrument list comes from Wikipedia and search-result summaries only; the recording is conducted, so one player to a part is assumed), then left off by the orchestrating session; the full entry is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [],
@@ -5080,7 +5196,7 @@
    "skipped": 10,
    "added_not_on_imslp": 6,
    "coverage": "partial",
-   "note": "No IMSLP pages. Six recorded chamber works with strings kept; the work list comes from Deezer and MusicBrainz plus two web searches, because the Wikipedia article has no work list and the publisher's catalogue was not opened."
+   "note": "No IMSLP pages. Six recorded chamber works with strings kept; the work list comes from Deezer and MusicBrainz plus two web searches, because the Wikipedia article has no work list and the publisher's catalogue was not opened. RECHECK 2026-10-18: Nightshade Trilogy, Trio transcendentale, Corpus cum figuris and Dramaphonia are recorded but their scorings were not found (doubtful)."
   },
   {
    "name": "Rautavaara, Einojuhani",
@@ -5116,25 +5232,25 @@
    "skipped": 19,
    "added_not_on_imslp": 8,
    "coverage": "partial",
-   "note": "No IMSLP pages. Eight recorded works kept (SQ 1-3, three quintets with winds, the clarinet trio and the horn quintet). Aho's output is very large; only works found on Deezer or MusicBrainz were checked and the rest carry 'not performed or recorded' or 'not checked (budget)'."
+   "note": "No IMSLP pages. Eight recorded works kept (SQ 1-3, three quintets with winds, the clarinet trio and the horn quintet). Aho's output is very large; only works found on Deezer or MusicBrainz were checked and the rest carry 'not performed or recorded' or 'not checked (budget)'. RECHECK 2026-10-18: the accordion, tango, cello-quartet and song lines found no recording (Deezer, Apple composerTerm, MusicBrainz)."
   },
   {
    "name": "Lindberg, Magnus",
    "candidates": 0,
-   "kept": 3,
-   "skipped": 20,
-   "added_not_on_imslp": 3,
+   "kept": 4,
+   "skipped": 19,
+   "added_not_on_imslp": 4,
    "coverage": "partial",
-   "note": "No IMSLP pages. Four recorded chamber works kept (the Duo concertante at low confidence, scoring from a Music Finland page seen in a search). The Wikipedia list shows no string quartets; Fennica Gehrman and Wise Music catalogues were not opened."
+   "note": "No IMSLP pages. Four recorded chamber works kept (the Duo concertante at low confidence, scoring from a Music Finland page seen in a search). The Wikipedia list shows no string quartets; Fennica Gehrman and Wise Music catalogues were not opened. RECHECK 2026-10-18: UR added (IRCAM scoring, Accord disc 1994); Zona, Quintetto dell'estate, Decorrente, Action-Situation-Signification and Kiri found no recording. Publisher catalogues still unopened."
   },
   {
    "name": "Salonen, Esa-Pekka",
    "candidates": 0,
-   "kept": 1,
-   "skipped": 12,
-   "added_not_on_imslp": 1,
-   "coverage": "partial",
-   "note": "No IMSLP pages. Homunculus is the only chamber work with strings that has a recording and a confirmed scoring; its duration is not known."
+   "kept": 2,
+   "skipped": 11,
+   "added_not_on_imslp": 2,
+   "coverage": "complete",
+   "note": "No IMSLP pages. Homunculus is the only chamber work with strings that has a recording and a confirmed scoring; its duration is not known. RECHECK 2026-10-18: Floof added (IRCAM scoring, Finlandia recording); Mania, Five Images after Sappho, FOG, Memoria and Nachtlieder settled as out of scope; Catch and Release has no recording. Every listed work is now checked."
   },
   {
    "name": "Nordgren, Pehr Henrik",
@@ -5158,10 +5274,10 @@
    "name": "Hillborg, Anders",
    "candidates": 0,
    "kept": 1,
-   "skipped": 4,
+   "skipped": 5,
    "added_not_on_imslp": 1,
    "coverage": "partial",
-   "note": "No IMSLP pages. Only the Kongsgaard Variations were found recorded in the string-quartet version; the English Wikipedia lists a quartet 'Heisenbergminiatyrer' (2006-07) that may be the same work, which I could not settle."
+   "note": "No IMSLP pages. Only the Kongsgaard Variations were found recorded in the string-quartet version; the English Wikipedia lists a quartet 'Heisenbergminiatyrer' (2006-07) that may be the same work, which I could not settle. RECHECK 2026-10-18: Heisenbergminiatyrer is a separate string-quartet work from the Kongsgaard Variations (sv.wikipedia lists both); its recording was not looked up."
   },
   {
    "name": "Thorvaldsdottir, Anna",
@@ -5170,8 +5286,8 @@
    "skipped": 11,
    "added_not_on_imslp": 2,
    "coverage": "partial",
-   "note": "No IMSLP pages. Enigma, Spectra and Ró are recorded (Spectra and Ró found through Apple; their scorings come from the Wikipedia list). Her own site could not be read (it answered with the domain name only)."
+   "note": "No IMSLP pages. Enigma, Spectra and Ró are recorded (Spectra and Ró found through Apple; their scorings come from the Wikipedia list). Her own site could not be read (it answered with the domain name only). RECHECK 2026-10-18: In the Light of Air and Illumine added (composer's site annathorvalds.com, not annathorvaldsdottir.com, which was the wrong address); Scape, Sequences, Reflections and Fields stay doubtful (no scoring found)."
   }
  ],
- "note": "EVIDENCE: the slice has no IMSLP candidates (all 15 composers are modern), so every entry is a gap-check addition. Work lists come from the Wikipedia lists (en; da and sv for Abrahamsen, Hillborg, Pettersson) and from the discs found through Deezer (album pages with labels and timings), MusicBrainz (work to recording to release lookups, with catalogue numbers), Apple composerTerm searches and eight web searches (scorings of Ruders's Serenade, Abrahamsen's Nocturnes, Rautavaara's quintet, Lindberg's Duo concertante, Holmboe's chamber discs). Publisher catalogues (Wise Music, Fennica Gehrman, Edition S) and the composers' own sites could not be read, so floor.published is empty throughout; Anna Thorvaldsdottir's site answered with nothing. VIOLIN CATALOGUE: none of the eight entries is cross-listed. 417 (Aho), 479 (Holmboe, Sværm Op. 190a), 513 (Pettersson), 533 and 4823 (Saariaho) are for two violins, 4206 (Aho, ER-OS) is a violin-clarinet duo, 4827 (Saariaho, Graal théâtre for violin and ensemble) needs about 17 players. 478 (Holmboe, Isomeric, 2 violins and piano) is in scope by scoring, but no recording or performance was found, so it is skipped; the string-quartet version Sværm Op. 190b is kept without violin_id. OWNER MAY RULE: (1) Pettersson's Concerto No. 1 for violin and string quartet is listed as a solo showpiece with quartet accompaniment (formation other, soloist counted as a third violin). (2) Holmboe's String Quartet No. 21 was left unfinished in 1996 and completed by Per Nørgård; kept as recorded. (3) Low-confidence entries: Rautavaara's Eingang (soprano and string quartet), Lindberg's Duo concertante (scoring from a Music Finland page seen in a search), Thorvaldsdottir's Ró (scoring from Wikipedia, recording seen in an Apple search), Nordgren's Equivocations (kantele listed as harp). (4) Electronics count as no player (Saariaho's Nymphéa, Aer, Lichtbogen; Nørgård's Quartet No. 4 with tape). (5) Saariaho's Neiges is recorded only for 12 cellos, so the 8-cello version is skipped. (6) Arrangements by an unnamed arranger are skipped: Nørgård's Spell for piano trio and Abrahamsen's Traumlieder (the Six Pieces for piano trio). OPEN PROBLEMS: Holmboe's Quartet No. 3 is Op. 48 on MusicBrainz and the Nightingale discs but Op. 49 on the Kontra set (Op. 48 used). Sallinen's Quartet No. 1 is Op. 2 in the Wikipedia list but Op. 14 on the Ondine track list, so its title has no opus. The durations of Lindberg's Clarinet Quintet, Nordgren's Quartet No. 3 (taken from Apple) and Rautavaara's Eingang are weak or missing. Recorded but not kept because the scoring could not be confirmed: Thorvaldsdottir's In the Light of Air and Illumine, Salonen's Mania, Ruders's Nightshade pieces, Nørgård's Cao Shu and Babette's Feast suite. Works with no recording found (checked on Deezer, MusicBrainz and Apple only, so 'none found' is weak for the little-known ones): Holmboe's Isomeric and Tropos, Rautavaara's Quartet No. 3, Aho's Quartets 4 and 5 and his string quintets, Nordgren's Quartets 1, 2 and 6-9, Ruders's Quartet No. 4, Lindberg's Quintetto dell'estate and UR. Levels are estimates against the Nielsen, Rosenberg and Langgaard quartets in other slices. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 3 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Rautavaara: Eingang; Lindberg: Duo concertante; Thorvaldsdottir: Ró."
+ "note": "EVIDENCE: the slice has no IMSLP candidates (all 15 composers are modern), so every entry is a gap-check addition. Work lists come from the Wikipedia lists (en; da and sv for Abrahamsen, Hillborg, Pettersson) and from the discs found through Deezer (album pages with labels and timings), MusicBrainz (work to recording to release lookups, with catalogue numbers), Apple composerTerm searches and eight web searches (scorings of Ruders's Serenade, Abrahamsen's Nocturnes, Rautavaara's quintet, Lindberg's Duo concertante, Holmboe's chamber discs). Publisher catalogues (Wise Music, Fennica Gehrman, Edition S) and the composers' own sites could not be read, so floor.published is empty throughout; Anna Thorvaldsdottir's site answered with nothing. VIOLIN CATALOGUE: none of the eight entries is cross-listed. 417 (Aho), 479 (Holmboe, Sværm Op. 190a), 513 (Pettersson), 533 and 4823 (Saariaho) are for two violins, 4206 (Aho, ER-OS) is a violin-clarinet duo, 4827 (Saariaho, Graal théâtre for violin and ensemble) needs about 17 players. 478 (Holmboe, Isomeric, 2 violins and piano) is in scope by scoring, but no recording or performance was found, so it is skipped; the string-quartet version Sværm Op. 190b is kept without violin_id. OWNER MAY RULE: (1) Pettersson's Concerto No. 1 for violin and string quartet is listed as a solo showpiece with quartet accompaniment (formation other, soloist counted as a third violin). (2) Holmboe's String Quartet No. 21 was left unfinished in 1996 and completed by Per Nørgård; kept as recorded. (3) Low-confidence entries: Rautavaara's Eingang (soprano and string quartet), Lindberg's Duo concertante (scoring from a Music Finland page seen in a search), Thorvaldsdottir's Ró (scoring from Wikipedia, recording seen in an Apple search), Nordgren's Equivocations (kantele listed as harp). (4) Electronics count as no player (Saariaho's Nymphéa, Aer, Lichtbogen; Nørgård's Quartet No. 4 with tape). (5) Saariaho's Neiges is recorded only for 12 cellos, so the 8-cello version is skipped. (6) Arrangements by an unnamed arranger are skipped: Nørgård's Spell for piano trio and Abrahamsen's Traumlieder (the Six Pieces for piano trio). OPEN PROBLEMS: Holmboe's Quartet No. 3 is Op. 48 on MusicBrainz and the Nightingale discs but Op. 49 on the Kontra set (Op. 48 used). Sallinen's Quartet No. 1 is Op. 2 in the Wikipedia list but Op. 14 on the Ondine track list, so its title has no opus. The durations of Lindberg's Clarinet Quintet, Nordgren's Quartet No. 3 (taken from Apple) and Rautavaara's Eingang are weak or missing. Recorded but not kept because the scoring could not be confirmed: Thorvaldsdottir's In the Light of Air and Illumine, Salonen's Mania, Ruders's Nightshade pieces, Nørgård's Cao Shu and Babette's Feast suite. Works with no recording found (checked on Deezer, MusicBrainz and Apple only, so 'none found' is weak for the little-known ones): Holmboe's Isomeric and Tropos, Rautavaara's Quartet No. 3, Aho's Quartets 4 and 5 and his string quintets, Nordgren's Quartets 1, 2 and 6-9, Ruders's Quartet No. 4, Lindberg's Quintetto dell'estate and UR. Levels are estimates against the Nielsen, Rosenberg and Langgaard quartets in other slices. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 3 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Rautavaara: Eingang; Lindberg: Duo concertante; Thorvaldsdottir: Ró. RECHECK 2026-10-18: 4 works added (Thorvaldsdottir: In the Light of Air, Illumine; Lindberg: UR; Salonen: Floof); 29 works settled (14 as not performed or recorded: Aho 8, Lindberg 5, Salonen's Catch and Release; 10 as doubtful: low confidence: Ruders 6, Thorvaldsdottir's Scape, Sequences, Reflections and Fields; 5 as out of scope: Salonen's Mania, Five Images after Sappho, FOG, Memoria, Nachtlieder); 1 still not checked (Hillborg's Heisenbergminiatyrer, added as its own line); hand edits: the Salonen 'not checked' line was split into five lines by reason, the Lindberg line lost UR, the Thorvaldsdottir lines for In the Light of Air and Illumine were removed because the works were added, composers_checked counts and notes updated. Scorings come from IRCAM resources pages (UR, Floof, Mania, Five Images, Catch and Release, Zona, Kiri, Decorrente, Action-Situation-Signification), the composer's pages annathorvalds.com (the earlier note that her site answered with nothing was a wrong address), the MusicBrainz releases Sono Luminus DSL-92192 and DSL-92227 and Accord 465 308-2, and the Apple AEQUA album. In the Light of Air and Illumine are medium because their instrument lists come from Wikipedia and search-result summaries of the composer's and publisher's pages (the pages' own text was not extracted); the recording of Illumine is conducted, so one player to a part is assumed. POSSIBLE ADDS for the owner: Salonen's Catch and Release, Lindberg's Zona, Action-Situation-Signification and Kiri (scorings and professional performances documented by IRCAM, no recording found). Thorvaldsdottir's Reflections looks like a string trio (violin, viola and cello players on AEQUA) but its scoring is unconfirmed. Apple's composerTerm search for Aho returned 'Introduction & Tango Overture, Op. 74b' on Mr McFall's Chamber, Solitudes: Baltic Reflections (Delphian 2015) with no composer credit; it is not attributed to Aho (he does not number works by opus) and was not added. BY HAND (orchestrating session, 2026-10-18, on the owner's instruction to leave off lesser-known works that raise flags): Thorvaldsdottir's In the Light of Air and Illumine (scorings from Wikipedia and search summaries only; Illumine recorded conducted) were moved to skipped (\"doubtful\") and parked."
 }
