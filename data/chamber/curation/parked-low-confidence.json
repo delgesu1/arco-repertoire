@@ -8246,5 +8246,93 @@
    "confidence": "medium",
    "gap": true
   }
+ },
+ {
+  "slice": "x15_us_new_generation",
+  "why": "the work is published for string quartet, string orchestra or saxophone quartet and the version on the Navona disc is not verified; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Simon, Carlos",
+   "title": "Elegy (A Cry from the Grave)",
+   "aka": [
+    "Elegy: A Cry from the Grave",
+    "An Elegy (A Cry from the Grave)"
+   ],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "short",
+   "set": null,
+   "year": "2015",
+   "minutes": 5,
+   "notes": "Also published for string orchestra or saxophone quartet; dedicated to Trayvon Martin, Eric Garner and Michael Brown",
+   "popularity": "lesser-known",
+   "level_guess": 5,
+   "level_basis": "Five-minute elegy; sustained lines, blend and intonation",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Teagan Faran et al., Navona (2018), My Ancestor's Gift, An Elegy (A Cry from the Grave) (5:21); version on the disc not verified",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.carlossimonmusic.com/works-all",
+    "https://en.wikipedia.org/wiki/Carlos_Simon_(composer)",
+    "https://www.deezer.com/album/578700311"
+   ],
+   "confidence": "medium",
+   "gap": true
+  }
+ },
+ {
+  "slice": "x15_us_new_generation",
+  "why": "identified only because the Albany disc is an all-Hailstork disc (Wikipedia lists three of its works); left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Hailstork, Adolphus",
+   "title": "String Quartet No. 1",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 19,
+   "notes": "Four movements: Allegro con brio, Adagio, Vivace, Allegretto; recorded on Albany Records' As Falling Leaves",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Four-movement quartet; ensemble precision and blend",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Albany Records (2004), As Falling Leaves, with Vahn Armstrong, Beverly Baker and Debra Cross credited (4 tracks, 18:59)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Adolphus_Hailstork",
+    "https://www.deezer.com/album/1120366"
+   ],
+   "confidence": "medium",
+   "gap": true
+  }
  }
 ]
