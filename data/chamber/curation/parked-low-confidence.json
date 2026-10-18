@@ -8872,5 +8872,47 @@
    "confidence": "medium",
    "gap": true
   }
+ },
+ {
+  "slice": "x07_italy_iberia_greece",
+  "why": "no recording found: it rests on a Universal Edition score and two documented performances (premiere 1998, concert 2000); left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Berio, Luciano",
+   "title": "Korót",
+   "aka": [
+    "Korot"
+   ],
+   "instruments": {
+    "cello": 8
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 8,
+   "formation": "large-strings",
+   "formationNote": null,
+   "form": "short",
+   "set": null,
+   "year": "1998",
+   "minutes": 9,
+   "notes": "Eight cellos; first played by the Octuor de Violoncelles de Beauvais in 1998 (IRCAM)",
+   "popularity": "lesser-known",
+   "level_guess": 8,
+   "level_basis": "Eight demanding cello parts; tight ensemble",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Universal Edition",
+    "recorded": "",
+    "performed": "Premiere by the Octuor de Violoncelles de Beauvais, Beauvais, 11 May 1998; concert of 24 June 2000 documented by IRCAM"
+   },
+   "sources": [
+    "https://brahms.ircam.fr/work/korot",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luciano_Berio"
+   ],
+   "confidence": "medium",
+   "gap": true
+  }
  }
 ]
