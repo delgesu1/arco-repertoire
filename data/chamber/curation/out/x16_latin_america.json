@@ -3309,6 +3309,86 @@
    "confidence": "medium"
   },
   {
+   "composer": "Brouwer, Leo",
+   "title": "Manuscrito antiguo encontrado en una botella",
+   "aka": [
+    "Ancient Manuscript Found in a Bottle"
+   ],
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "piano-trio",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1983",
+   "minutes": 20,
+   "notes": "Two movements: \"La palabra amor escrita mil veces\" and \"De la vida y la muerte\"",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Contemporary piano trio of about 20 minutes; each part around diploma level",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Trío Bretón, Brouwer / J. L. Turina / J. Turina trios, Tañidos (Deezer 718001521, 8:50 + 10:58); also listed on Antología Selecta: Leo Brouwer, Vol. 2, Legacy Recordings (Deezer 48298662; Cuarteto de Cuerdas de La Habana, Trío White, Orquesta de Cámara Brindis de Salas)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/718001521",
+    "https://www.deezer.com/album/48298662",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Leo_Brouwer"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
+   "composer": "Brouwer, Leo",
+   "title": "Per suonare a tre",
+   "aka": [],
+   "instruments": {
+    "flute": 1,
+    "viola": 1,
+    "guitar": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 3,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "short",
+   "set": null,
+   "year": "",
+   "minutes": 10,
+   "notes": "Trio for flute, viola and guitar; track on Oscar Cáceres's Warner Classics album Brouwer: Guitar Pieces",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Contemporary trio; guitar and flute parts around pre-diploma level",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Oscar Cáceres (guitar) with flute and viola, Brouwer: Guitar Pieces, Warner Classics (Deezer 108932722, 9:57; track titled 'for Guitar, Flute and Viola')",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/108932722",
+    "https://api.deezer.com/album/108932722",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Leo_Brouwer"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
    "composer": "Lavista, Mario",
    "title": "String Quartet No. 1 (\"Diacronía\")",
    "aka": [
@@ -3860,7 +3940,7 @@
    "imslpPage": null,
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "In the Wikipedia work list; no recording found on Deezer or in the MusicBrainz work list"
+   "evidence": "RECHECK 2026-10-18: Deezer track searches 'Golijov Qohelet', 'Golijov Um Dia Bom', 'Golijov Drag Down the Sky' and album search 'Golijov Qohelet string quartet' returned no track or album with these titles. Earlier: Wikipedia work list, Deezer album titles, MusicBrainz work list."
   },
   {
    "composer": "Golijov, Osvaldo",
@@ -3868,7 +3948,7 @@
    "imslpPage": null,
    "works": 4,
    "reason": "not performed or recorded",
-   "evidence": "In the Wikipedia work list; no album found on Deezer (searches for the titles returned nothing)"
+   "evidence": "RECHECK 2026-10-18: Deezer track searches 'Golijov Lullaby and Doina', 'Golijov Tekyah', 'Golijov Radio hyperaccordion string quartet' returned nothing with these titles; a Brodsky Quartet track 'Lullaby' (Rhythm & Texture, 9:54) came up in the Apple 'Mario Lavista' search with no composer field and could not be tied to Golijov. Earlier: Wikipedia work list, Deezer album titles."
   },
   {
    "composer": "Golijov, Osvaldo",
@@ -3972,7 +4052,7 @@
    "imslpPage": null,
    "works": 6,
    "reason": "not performed or recorded",
-   "evidence": "In the Portuguese Wikipedia work list; no recording on MusicBrainz, Deezer or the Apple composer search; a 2011 news item announces a CD by the Quarteto Camargo Guarnieri but names no works; the Quarteto No. 3 has a 2018 critical edition (not a recording)"
+   "evidence": "RECHECK 2026-10-18: Deezer album searches 'Camargo Guarnieri', 'Guarnieri quarteto de cordas', 'Quarteto Camargo Guarnieri' (piano, symphonic and cello-piano discs only; the Quarteto Camargo Guarnieri disc, Deezer 12517612, is Borodin and Dvorak, an ensemble named after him); Deezer track searches 'Guarnieri quarteto de cordas', 'Camargo Guarnieri quarteto n. 3', 'Guarnieri trio violino violoncelo piano', 'Guarnieri Angustia': no recording; Apple composerTerm 'Camargo Guarnieri' and 'Guarnieri': only guitar-quartet arrangements. Portuguese Wikipedia list confirms the works (quartets 1932, 1944, 1962; Angustia 1976; trios 1931). Earlier: MusicBrainz, a 2011 news item, the 2018 critical edition of Quarteto No. 3 (not a recording)."
   },
   {
    "composer": "Guarnieri, Camargo",
@@ -3988,7 +4068,7 @@
    "imslpPage": null,
    "works": 1,
    "reason": "not performed or recorded",
-   "evidence": "No chamber recording found: MusicBrainz and Deezer show piano sonatas, the solo violin sonata, symphonies and concertos; the Apple composer search lists no chamber albums"
+   "evidence": "RECHECK 2026-10-18: Deezer album searches 'Claudio Santoro', 'Claudio Santoro quarteto de cordas' (piano, cello-piano and symphony discs) and track searches 'Claudio Santoro quarteto de cordas', 'string quartet', 'trio': no hit; Apple composerTerm 'Claudio Santoro': only guitar-quartet arrangements (including String Quartet No. 2 by the Brazilian Guitar Quartet, Encantamento); Portuguese Wikipedia list shows Trio a cordes (1942) and Trio avec piano (1973), no recording found. Earlier: MusicBrainz."
   },
   {
    "composer": "Orbón, Julián",
@@ -3996,7 +4076,7 @@
    "imslpPage": null,
    "works": 2,
    "reason": "not performed or recorded",
-   "evidence": "In the English and Spanish Wikipedia lists; no recording found on MusicBrainz, Deezer or the Apple composer search (the Cuarteto Latinoamericano album Latin American String Quartets lists no composer names)"
+   "evidence": "RECHECK 2026-10-18: Deezer album searches 'Julian Orbon', 'Orbon chamber music' and track searches 'Orbon cuarteto de cuerdas', 'Julian Orbon quinteto clarinete': no hit; Apple composerTerm 'Julian Orbon': only the Concerto Grosso for string quartet and orchestra (Asturias SO) and a Cuarteto Latino Americano 'String Quartet No. 1' (four movements, no composer field) that cannot be tied to him. Earlier: MusicBrainz, English and Spanish Wikipedia lists."
   },
   {
    "composer": "Nobre, Marlos",
@@ -4004,31 +4084,39 @@
    "imslpPage": null,
    "works": 3,
    "reason": "not performed or recorded",
-   "evidence": "In the Portuguese Wikipedia work list; no recording found on Deezer, MusicBrainz or the Apple composer search (the Léman Classics 2025 album has orchestral, vocal and percussion works only)"
+   "evidence": "RECHECK 2026-10-18: Deezer album searches 'Marlos Nobre', 'Marlos Nobre quarteto' (piano, cello octet and the Leman Classics orchestral, vocal and chamber compilation) and track searches 'Marlos Nobre quarteto de cordas', 'Marlos Nobre trio', 'Marlos Nobre Desafio' (only Desafio XXXII, already kept, and Desafio XXXIII for flute and guitar): no recording of the quartets (No. 1 1967, No. 2 1985), the piano trio (1960) or Desafio V; Apple composerTerm 'Marlos Nobre': duo and piano-quintet tracks without a composer field, not tied to him. Earlier: MusicBrainz, Portuguese Wikipedia list."
   },
   {
    "composer": "Brouwer, Leo",
-   "title": "Piano trios: Manuscrito antiguo encontrado en una botella (1983); Sonata, sones y danzones (1992); Cuadros de otra exposición; El triángulo de las Bermudas; El oráculo de Ifá",
+   "title": "Piano trios: Sonata, sones y danzones (1992); Cuadros de otra exposición; El triángulo de las Bermudas; El oráculo de Ifá",
    "imslpPage": null,
-   "works": 5,
-   "reason": "not checked (budget)",
-   "evidence": "In the Wikipedia work list; one album (Legacy, Deezer 48298662) carries Manuscrito antiguo but its performers were not identified"
+   "works": 4,
+   "reason": "not performed or recorded",
+   "evidence": "RECHECK 2026-10-18: Manuscrito antiguo encontrado en una botella left this line (added: Trio Breton, Tanidos, Deezer 718001521; also Legacy 48298662). Deezer track searches 'Brouwer Sonata sones y danzones', 'Brouwer Cuadros de otra exposicion', 'Brouwer El oraculo de Ifa' and album search 'Leo Brouwer piano trio': no hit; 'El triangulo de las Bermudas' appears only as a 2:56 track by 'B3: Brouwer Trio' (Deezer 144254892) whose scoring and identity with the piano trio are not confirmed, so not entered."
   },
   {
    "composer": "Brouwer, Leo",
-   "title": "Per suonare a tre (flute, viola, guitar); Cantos yorubá (baritone, flute, cello, percussion, piano); Exaedros; Dos conceptos del tiempo; Beatlerianas (guitar and string quartet)",
+   "title": "Cantos yorubá (baritone, flute, cello, percussion, piano); Exaedros; Dos conceptos del tiempo; Beatlerianas (guitar and string quartet)",
    "imslpPage": null,
-   "works": 5,
+   "works": 4,
    "reason": "not checked (budget)",
-   "evidence": "In the Wikipedia work list; Beatlerianas arranges Beatles songs (an arrangement of other composers' music, so out)"
+   "evidence": "RECHECK 2026-10-18: Per suonare a tre left this line (added). Deezer track searches: 'Dos conceptos del tiempo' no hit; 'Exaedros' only as a guitar-solo track (Leo Brouwer, DG, 6:11), chamber scoring not confirmed; 'Cantos yoruba' only 'Angulo: Cantos Yoruba de Cuba' (Leo Brouwer, Warner Classics, 8:29), not tied to the five-player work; Beatlerianas arranges Beatles songs (arrangement, out). Not settled."
   },
   {
    "composer": "Lavista, Mario",
-   "title": "String Quartet No. 7 (2015); String Quartet No. 8 'Toque de silencio' (2017); Trio for violin, cello and piano (1976); Gargantúa (string quartet and woodwinds); Antífona (mixed quintet)",
+   "title": "String Quartet No. 7 (2015); String Quartet No. 8 'Toque de silencio' (2017); Trio for violin, cello and piano (1976); Antífona (mixed quintet)",
    "imslpPage": null,
-   "works": 5,
+   "works": 4,
    "reason": "not performed or recorded",
-   "evidence": "In the Spanish and English Wikipedia lists; the Toccata Classics set covers Nos. 1-6 and no recording of the others was found"
+   "evidence": "RECHECK 2026-10-18: Deezer album searches 'Mario Lavista', 'Lavista cuartetos de cuerda', 'Lavista Toccata Classics string quartets' (the Toccata Classics set 'Lavista: Complete String Quartets', Cuarteto Latinoamericano, has Deezer release date 2012, before Nos. 7 and 8 were written) and track searches 'Lavista cuarteto de cuerdas', 'Lavista Toque de silencio', 'Lavista Antifona', 'Lavista trio violin violonchelo piano': no hit; Apple composerTerm 'Mario Lavista': Brodsky Quartet No. 2 and piano pieces only. Earlier: Spanish and English Wikipedia lists."
+  },
+  {
+   "composer": "Lavista, Mario",
+   "title": "Gargantúa (string quartet and woodwinds)",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "not checked (budget)",
+   "evidence": "RECHECK 2026-10-18: a Disques Triton CD 'Mario Lavista: Gargantua' exists (Deezer 9863992: Philippe Murgier, Orchestre de Picardie, with Guillermo Sheridan; six pieces); whether that version is the one for string quartet and woodwinds, one to a part, was not checked."
   },
   {
    "composer": "Ortiz, Gabriela",
@@ -4044,7 +4132,7 @@
    "imslpPage": null,
    "works": 8,
    "reason": "not performed or recorded",
-   "evidence": "On the composer's chamber-music list; Deezer title searches found no album"
+   "evidence": "RECHECK 2026-10-18: Deezer track searches 'Gabriela Ortiz' + Corporea, Pico-Bite-Beat, Alien Studies, Trifolium, Vitrales de ambar, De animos y quebrantos, El aguila bicefala, Tepito Barrio de Resistencia: no track with these titles; Deezer album searches 'Gabriela Ortiz', 'Gabriela Ortiz cuarteto': Dudamel/LA Phil discs, Denibee (Escuer), Altar de cuerda and the Cuarteto Latinoamericano disc only; Apple composerTerm 'Gabriela Ortiz': no title from this list. Earlier: composer's chamber-music list."
   },
   {
    "composer": "Ortiz, Gabriela",
@@ -4052,7 +4140,7 @@
    "imslpPage": null,
    "works": 5,
    "reason": "not checked (budget)",
-   "evidence": "On the composer's chamber-music list (Deezer lists an Exilios album by a Mexican ensemble whose scoring and timing differ from the 16-minute work)"
+   "evidence": "RECHECK 2026-10-18: Deezer 'Exilios' (Vector de Ideas, 2022, Deezer 382842617: Classical Laguna Experience Orchestra, Alejandro Escuer, Gabriela Ortiz; three pieces, 19:27) has an ensemble and scoring that are not confirmed against the 16-minute quartet-and-flute work, so not entered; Deezer track searches 'Tres haikus', 'A tarde ser', 'Denibee Yucunana' found nothing under these titles, but Escuer's flute album 'Gabriela Ortiz: Denibee' (Deezer 579425761, 18 tracks) may hold Denibee-Yucunana and its track list was not read; 'Rios' was not searched. Not settled."
   },
   {
    "composer": "Ortiz, Gabriela",
@@ -4085,6 +4173,70 @@
    "works": 3,
    "reason": "out of scope: duo, no string part or ensemble over nine",
    "evidence": "Musuq Peru track list (Deezer 45020591)"
+  },
+  {
+   "composer": "Piazzolla, Astor",
+   "title": "Soledad",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: personnel and scoring of the recordings not verified, left off on the owner's instruction (2026-10-18)",
+   "evidence": "Added by the recheck at medium confidence (one more short quintet tango identified only by the Deezer artist name and album track list (personnel not read); the long tail of Piazzolla tangos is not important to keep), then left off by the orchestrating session; the full entry is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Piazzolla, Astor",
+   "title": "Fugata",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: personnel and scoring of the recordings not verified, left off on the owner's instruction (2026-10-18)",
+   "evidence": "Added by the recheck at medium confidence (one more short quintet tango identified only by the Deezer artist name and album track list (personnel not read); the long tail of Piazzolla tangos is not important to keep), then left off by the orchestrating session; the full entry is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Piazzolla, Astor",
+   "title": "Chin Chin",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: personnel and scoring of the recordings not verified, left off on the owner's instruction (2026-10-18)",
+   "evidence": "Added by the recheck at medium confidence (one more short quintet tango identified only by the Deezer artist name and album track list (personnel not read); the long tail of Piazzolla tangos is not important to keep), then left off by the orchestrating session; the full entry is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Piazzolla, Astor",
+   "title": "Calambre",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: personnel and scoring of the recordings not verified, left off on the owner's instruction (2026-10-18)",
+   "evidence": "Added by the recheck at medium confidence (one more short quintet tango identified only by the Deezer artist name and album track list (personnel not read); the long tail of Piazzolla tangos is not important to keep), then left off by the orchestrating session; the full entry is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Piazzolla, Astor",
+   "title": "Triunfal",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: personnel and scoring of the recordings not verified, left off on the owner's instruction (2026-10-18)",
+   "evidence": "Added by the recheck at medium confidence (one more short quintet tango identified only by the Deezer artist name and album track list (personnel not read); the long tail of Piazzolla tangos is not important to keep), then left off by the orchestrating session; the full entry is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Piazzolla, Astor",
+   "title": "Canto de Octubre",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: personnel and scoring of the recordings not verified, left off on the owner's instruction (2026-10-18)",
+   "evidence": "Added by the recheck at medium confidence (one more short quintet tango identified only by the Deezer artist name and album track list (personnel not read); the long tail of Piazzolla tangos is not important to keep), then left off by the orchestrating session; the full entry is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Piazzolla, Astor",
+   "title": "Mar del Plata 70",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: personnel and scoring of the recordings not verified, left off on the owner's instruction (2026-10-18)",
+   "evidence": "Added by the recheck at medium confidence (one more short quintet tango identified only by the Deezer artist name and album track list (personnel not read); the long tail of Piazzolla tangos is not important to keep), then left off by the orchestrating session; the full entry is in data/chamber/curation/parked-low-confidence.json."
+  },
+  {
+   "composer": "Piazzolla, Astor",
+   "title": "Todo Buenos Aires",
+   "imslpPage": null,
+   "works": 1,
+   "reason": "doubtful: personnel and scoring of the recordings not verified, left off on the owner's instruction (2026-10-18)",
+   "evidence": "Added by the recheck at medium confidence (one more short quintet tango identified only by the Deezer artist name and album track list (personnel not read); the long tail of Piazzolla tangos is not important to keep), then left off by the orchestrating session; the full entry is in data/chamber/curation/parked-low-confidence.json."
   }
  ],
  "benchmark_issues": [
@@ -4100,10 +4252,10 @@
    "name": "Piazzolla, Astor",
    "candidates": 0,
    "kept": 24,
-   "skipped": 0,
+   "skipped": 8,
    "added_not_on_imslp": 24,
    "coverage": "partial",
-   "note": "Gap check against the Wikipedia work lists and the Deezer/Apple/MusicBrainz discography: the benchmark Four, for Tango, Five Tango Sensations, the Four Seasons of Buenos Aires, and eleven quintet tangos with recordings by Piazzolla's own quintet or its heirs. Many more quintet tangos exist (see note); violin catalogue ids 273, 1128-1130, 2183 are arrangements, 2071 and 3966 are duos or solos."
+   "note": "Gap check against the Wikipedia work lists and the Deezer/Apple/MusicBrainz discography: the benchmark Four, for Tango, Five Tango Sensations, the Four Seasons of Buenos Aires, and eleven quintet tangos with recordings by Piazzolla's own quintet or its heirs. Many more quintet tangos exist (see note); violin catalogue ids 273, 1128-1130, 2183 are arrangements, 2071 and 3966 are duos or solos. RECHECK 2026-10-18: added Soledad, Fugata, Chin Chin, Calambre, Triunfal, Canto de Octubre, Mar del Plata 70, Todo Buenos Aires (Deezer album track lists; medium confidence); not entered: Oblivion (only a tribute quintet, Quintetto Libermusic, Videoradio), La Camorra I-III, Tres minutos con la realidad, Tanguedia, Violentango and other tangos (no hit or not read)."
   },
   {
    "name": "Ginastera, Alberto",
@@ -4121,7 +4273,7 @@
    "skipped": 3,
    "added_not_on_imslp": 6,
    "coverage": "partial",
-   "note": "Wikipedia work list checked against Deezer: the benchmark, Yiddishbbuk, Last Round (two string quartets and double bass), Tenebrae (quartet version), Ever Yours (quartet version) and Tintype kept. Qohelet, Um Dia Bom, Drag Down the Sky, Lullaby and Doina, Radio and Tekyah have no recording found."
+   "note": "Wikipedia work list checked against Deezer: the benchmark, Yiddishbbuk, Last Round (two string quartets and double bass), Tenebrae (quartet version), Ever Yours (quartet version) and Tintype kept. Qohelet, Um Dia Bom, Drag Down the Sky, Lullaby and Doina, Radio and Tekyah have no recording found. RECHECK 2026-10-18: Deezer track searches for Qohelet, Um Dia Bom, Drag Down the Sky, Lullaby and Doina, Tekyah, Radio: no hit."
   },
   {
    "name": "Villa-Lobos, Heitor",
@@ -4157,7 +4309,7 @@
    "skipped": 2,
    "added_not_on_imslp": 0,
    "coverage": "partial",
-   "note": "No recording of the string quartets or trios found (MusicBrainz, Deezer, Apple composer search); Flor de Tremembé needs fifteen players."
+   "note": "No recording of the string quartets or trios found (MusicBrainz, Deezer, Apple composer search); Flor de Tremembé needs fifteen players. RECHECK 2026-10-18: Deezer and Apple second pass: still no recording of the quartets or trios."
   },
   {
    "name": "Santoro, Claudio",
@@ -4166,7 +4318,7 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "partial",
-   "note": "No chamber work with strings found on a recording (MusicBrainz, Deezer, Apple); no work list with scorings was opened."
+   "note": "No chamber work with strings found on a recording (MusicBrainz, Deezer, Apple); no work list with scorings was opened. RECHECK 2026-10-18: Deezer and Apple second pass: no chamber recording with strings (only guitar-quartet arrangements)."
   },
   {
    "name": "Nobre, Marlos",
@@ -4175,7 +4327,7 @@
    "skipped": 1,
    "added_not_on_imslp": 1,
    "coverage": "partial",
-   "note": "Desafio XXXII (eight cellos) kept on one Channel Classics album; the quartet and the piano trio have no recording found."
+   "note": "Desafio XXXII (eight cellos) kept on one Channel Classics album; the quartet and the piano trio have no recording found. RECHECK 2026-10-18: Deezer and Apple second pass: no recording of the quartets, the piano trio or Desafio V."
   },
   {
    "name": "Orbón, Julián",
@@ -4184,25 +4336,25 @@
    "skipped": 1,
    "added_not_on_imslp": 0,
    "coverage": "partial",
-   "note": "Clarinet Quintet (1944) and String Quartet (1951) are listed on Wikipedia; no recording found."
+   "note": "Clarinet Quintet (1944) and String Quartet (1951) are listed on Wikipedia; no recording found. RECHECK 2026-10-18: Deezer and Apple second pass: no recording of the clarinet quintet or the string quartet."
   },
   {
    "name": "Brouwer, Leo",
    "candidates": 0,
-   "kept": 6,
+   "kept": 8,
    "skipped": 2,
-   "added_not_on_imslp": 6,
+   "added_not_on_imslp": 8,
    "coverage": "partial",
-   "note": "Wikipedia work list checked: four string quartets, the String Trio and the guitar quintet kept (Havana String Quartet and Fuga Libera discs). The String Trio (two violins and viola) is dated 1959 by a score catalogue and a review of the Zoho disc, 1958 by its distributor and 1956 by Wikipedia; 1959 is used. Piano trios and the other chamber works were not checked (budget)."
+   "note": "Wikipedia work list checked: four string quartets, the String Trio and the guitar quintet kept (Havana String Quartet and Fuga Libera discs). The String Trio (two violins and viola) is dated 1959 by a score catalogue and a review of the Zoho disc, 1958 by its distributor and 1956 by Wikipedia; 1959 is used. Piano trios and the other chamber works were not checked (budget). RECHECK 2026-10-18: added Manuscrito antiguo encontrado en una botella (piano trio) and Per suonare a tre (flute, viola, guitar); the other piano trios have no recording found; Cantos yoruba, Exaedros and Dos conceptos del tiempo not settled."
   },
   {
    "name": "Lavista, Mario",
    "candidates": 0,
    "kept": 6,
-   "skipped": 1,
+   "skipped": 2,
    "added_not_on_imslp": 6,
    "coverage": "partial",
-   "note": "String Quartets Nos. 1-6 kept (Cuarteto Latinoamericano, Toccata Classics); Nos. 7-8, the piano trio and the ensemble works have no recording found or were not checked."
+   "note": "String Quartets Nos. 1-6 kept (Cuarteto Latinoamericano, Toccata Classics); Nos. 7-8, the piano trio and the ensemble works have no recording found or were not checked. RECHECK 2026-10-18: Nos. 7-8, the piano trio and Antifona settled as not recorded; Gargantua (Disques Triton CD exists) left as not checked."
   },
   {
    "name": "Márquez, Arturo",
@@ -4220,7 +4372,7 @@
    "skipped": 4,
    "added_not_on_imslp": 5,
    "coverage": "partial",
-   "note": "Composer's chamber-music list checked against Deezer and Apple: Altar de muertos, Baalkah, Seis piezas a Violeta, Aroma foliado and Lío de 4 kept; the others have no recording found or were not checked (budget)."
+   "note": "Composer's chamber-music list checked against Deezer and Apple: Altar de muertos, Baalkah, Seis piezas a Violeta, Aroma foliado and Lío de 4 kept; the others have no recording found or were not checked (budget). RECHECK 2026-10-18: Deezer and Apple second pass: Corporea line settled as not recorded; Exilios, Denibee-Yucunana and the rest not settled."
   },
   {
    "name": "Assad, Clarice",
@@ -4241,5 +4393,5 @@
    "note": "Only La Caresse du Couteau (string quartet) found; the rest of the catalogue is orchestral or for duos."
   }
  ],
- "note": "PIAZZOLLA: the quintet tangos are entered with the scoring of Piazzolla's own Quinteto (bandoneon as accordion, violin, piano, electric guitar, double bass; first quintet 1960, second quintet 1978); years are given only where a source opened here states them. Left out (not entered, budget): Oblivion, Fugata, Soledad, Tres minutos con la realidad, Tanguedia and Camorra pieces beyond those entered, Chin Chin, Prepárense, La Camorra I-III, Tango Ballet (string orchestra) and the Sexteto and Octeto repertoire. Out of scope: Histoire du tango (flute and guitar), Le Grand Tango (cello and piano), Tango Suite (two guitars) and the violin-catalogue arrangements (ids 273 Desyatnikov, 1128-1130, 2183). EVIDENCE: Deezer album and track lists (the earlier lookups of this slice were cached; the albums cited by id were read in full or in grouped form), Apple composer searches and album lookups, MusicBrainz work lists and recording lookups, Wikipedia work lists (English, Spanish, Portuguese), the composers' own pages (Ortiz) and a few web searches. The IMSLP pages were not opened one by one: titles, years and publication dates of the IMSLP candidates come from the census input. Naxos Library, Presto and publisher pages (Boosey & Hawkes, Schott, Eschig, Peermusic) were not used, so no `published` field is filled except where the input names the first edition. OWNER MAY RULE: (1) Piazzolla's quintet tangos (bandoneon as accordion, with his own quintet scoring) are entered as chamber repertoire; the owner may prefer only the Kronos works and the Four Seasons. (2) The Four Seasons of Buenos Aires is one entry (form set) because the cycle is played as a group, although the four tangos were written separately (1965-70). (3) Villa-Lobos's Chôros No. 7 is a septet with tam-tam ad lib. (Wikipedia list), so the percussion is optional; IMSLP counts it as a part. (4) Toccata (sin fuga) is cross-listed with violin id 4789 although the only recording found is by the M-G-M Chamber Orchestra. (5) Medium or low confidence: Ginastera's Cantos del Tucumán and Impresiones de la Puna (MusicBrainz recordings, performers read from MusicBrainz), Golijov's Ever Yours and Tintype (a 2026 release by the Arethusa Quartet), Brouwer's String Quartet No. 4 and String Trio, Márquez's Homenaje a Gismonti, Ortiz's Aroma foliado and Lío de 4, Assad's Clash, López's La Caresse du Couteau (a live album on an own label), Nobre's Desafio XXXII, Chávez's Fuga H-A-G-C. (6) Years left blank where no opened source gives them (most Piazzolla tangos, Assad's Clash, López's quartet). (7) Golijov's Last Round is entered in its original scoring, two string quartets and double bass (nine players, IRCAM and Boosey as read in a web search); the Jupiter Quartet plays a string-quartet version whose arranger was not identified, so that version is not entered. NOT FOUND OR NOT CHECKED: no recording was found for Guarnieri's quartets and trios, Santoro, Orbón, Nobre's quartet, Lavista's Nos. 7-8, Ortiz's Corpórea and Pico-Bite-Beat, Golijov's Qohelet; Brouwer's piano trios, Assad's Four Scenes and Chávez's Sextet scoring were not settled. The Ortiz track 'Cuarteto No. 1' on a Quindecim disc could not be tied to her. Years of the Villa-Lobos quartets follow the IMSLP input (Wikipedia gives 1917 for No. 3 and 1948 for No. 11). Durations are rounded from the recordings cited, or taken from the composer's list (Ortiz)."
+ "note": "PIAZZOLLA: the quintet tangos are entered with the scoring of Piazzolla's own Quinteto (bandoneon as accordion, violin, piano, electric guitar, double bass; first quintet 1960, second quintet 1978); years are given only where a source opened here states them. Left out (not entered, budget): Oblivion, Fugata, Soledad, Tres minutos con la realidad, Tanguedia and Camorra pieces beyond those entered, Chin Chin, Prepárense, La Camorra I-III, Tango Ballet (string orchestra) and the Sexteto and Octeto repertoire. Out of scope: Histoire du tango (flute and guitar), Le Grand Tango (cello and piano), Tango Suite (two guitars) and the violin-catalogue arrangements (ids 273 Desyatnikov, 1128-1130, 2183). EVIDENCE: Deezer album and track lists (the earlier lookups of this slice were cached; the albums cited by id were read in full or in grouped form), Apple composer searches and album lookups, MusicBrainz work lists and recording lookups, Wikipedia work lists (English, Spanish, Portuguese), the composers' own pages (Ortiz) and a few web searches. The IMSLP pages were not opened one by one: titles, years and publication dates of the IMSLP candidates come from the census input. Naxos Library, Presto and publisher pages (Boosey & Hawkes, Schott, Eschig, Peermusic) were not used, so no `published` field is filled except where the input names the first edition. OWNER MAY RULE: (1) Piazzolla's quintet tangos (bandoneon as accordion, with his own quintet scoring) are entered as chamber repertoire; the owner may prefer only the Kronos works and the Four Seasons. (2) The Four Seasons of Buenos Aires is one entry (form set) because the cycle is played as a group, although the four tangos were written separately (1965-70). (3) Villa-Lobos's Chôros No. 7 is a septet with tam-tam ad lib. (Wikipedia list), so the percussion is optional; IMSLP counts it as a part. (4) Toccata (sin fuga) is cross-listed with violin id 4789 although the only recording found is by the M-G-M Chamber Orchestra. (5) Medium or low confidence: Ginastera's Cantos del Tucumán and Impresiones de la Puna (MusicBrainz recordings, performers read from MusicBrainz), Golijov's Ever Yours and Tintype (a 2026 release by the Arethusa Quartet), Brouwer's String Quartet No. 4 and String Trio, Márquez's Homenaje a Gismonti, Ortiz's Aroma foliado and Lío de 4, Assad's Clash, López's La Caresse du Couteau (a live album on an own label), Nobre's Desafio XXXII, Chávez's Fuga H-A-G-C. (6) Years left blank where no opened source gives them (most Piazzolla tangos, Assad's Clash, López's quartet). (7) Golijov's Last Round is entered in its original scoring, two string quartets and double bass (nine players, IRCAM and Boosey as read in a web search); the Jupiter Quartet plays a string-quartet version whose arranger was not identified, so that version is not entered. NOT FOUND OR NOT CHECKED: no recording was found for Guarnieri's quartets and trios, Santoro, Orbón, Nobre's quartet, Lavista's Nos. 7-8, Ortiz's Corpórea and Pico-Bite-Beat, Golijov's Qohelet; Brouwer's piano trios, Assad's Four Scenes and Chávez's Sextet scoring were not settled. The Ortiz track 'Cuarteto No. 1' on a Quindecim disc could not be tied to her. Years of the Villa-Lobos quartets follow the IMSLP input (Wikipedia gives 1917 for No. 3 and 1948 for No. 11). Durations are rounded from the recordings cited, or taken from the composer's list (Ortiz). RECHECK 2026-10-18: 10 works added at medium confidence (Piazzolla: Soledad, Fugata, Chin Chin, Calambre, Triunfal, Canto de Octubre, Mar del Plata 70, Todo Buenos Aires; Brouwer: Manuscrito antiguo encontrado en una botella, Per suonare a tre); 9 lines settled as not performed or recorded (Golijov x2, Guarnieri, Santoro, Orbón, Nobre, Brouwer piano trios, Lavista Nos. 7-8 and trio, Ortiz Corpórea line); 4 lines still not checked (Brouwer remainder, Lavista Gargantúa, Ortiz Exilios line, Assad Four Scenes) and the Chávez Sextet's string parts are still unnamed (Wikipedia: 'piano and strings'). Method: one pass of Deezer album and track searches, Apple composerTerm song searches and Wikipedia raw work lists through fetch_throttled; no MusicBrainz pass this time. The new Piazzolla recordings are identified by the Deezer artist name (Astor Piazzolla, Quinteto Astor Piazzolla) and album track lists only, personnel not read; Oblivion was left out (only a tribute quintet, Quintetto Libermusic on Videoradio, was found). Hand edits: new Piazzolla entries use form 'short' (brief rule) while the earlier quintet tangos keep 'work'; the Brouwer and Lavista skipped lines were retitled and recounted (Lavista split in two, Gargantúa separate); the Brouwer piano-trio line changed from 'not checked (budget)' to 'not performed or recorded'; composers_checked counts and notes updated. BY HAND (orchestrating session, 2026-10-18, on the owner's instruction to leave off lesser-known works that raise flags): the eight further Piazzolla quintet tangos the recheck added (Soledad, Fugata, Chin Chin, Calambre, Triunfal, Canto de Octubre, Mar del Plata 70, Todo Buenos Aires: recordings identified by artist name and track list only, personnel not read) were moved to skipped (\"doubtful\") and parked; the 22 earlier Piazzolla entries stay. Brouwer's Manuscrito antiguo and Per suonare a tre stay."
 }
