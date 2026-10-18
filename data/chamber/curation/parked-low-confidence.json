@@ -8379,5 +8379,136 @@
    ],
    "confidence": "medium"
   }
+ },
+ {
+  "slice": "x17_asia_pacific_canada_israel",
+  "why": "a single premiere and no recording; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Vine, Carl",
+   "title": "Endless",
+   "aka": [],
+   "instruments": {
+    "guitar": 1,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "other",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "2021",
+   "minutes": 17,
+   "notes": "Guitar quintet (guitar with string quartet) for Karin Schaupp; also arranged for guitar and string orchestra",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Exposed guitar part with string quartet; ensemble balance",
+   "hardest_part_guess": "guitar",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Faber Music (work list: guitar quintet, 17 min)",
+    "recorded": "",
+    "performed": "Premiered 2023/24 for Karin Schaupp (Faber Music composer biography); no recording found"
+   },
+   "sources": [
+    "https://www.fabermusic.com/composers/carl-vine/works",
+    "https://www.fabermusic.com/composers/carl-vine"
+   ],
+   "confidence": "medium"
+  }
+ },
+ {
+  "slice": "x17_asia_pacific_canada_israel",
+  "why": "the recording credits the pipa player alone and does not name the quartet; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Tan Dun",
+   "title": "Concerto for String Quartet and Pipa",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "lute": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 5,
+   "formation": "other",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1999",
+   "minutes": 21,
+   "notes": "Four movements; the pipa is entered as lute",
+   "popularity": "lesser-known",
+   "level_guess": 8,
+   "level_basis": "Pipa soloist with string quartet; rhythmic drive and balance over four movements",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Julia Tom (credited alone, quartet not named), Schumann & Chen Yi & De Falla & De Kanter & Tan Dun, Etcetera 2019 (Deezer 118889662; 4:01 + 7:06 + 4:18 + 5:54)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/118889662",
+    "https://en.wikipedia.org/wiki/Tan_Dun"
+   ],
+   "confidence": "medium"
+  }
+ },
+ {
+  "slice": "x17_asia_pacific_canada_israel",
+  "why": "the scoring comes from MusicBrainz performer credits only; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Zhou Long",
+   "title": "Five Elements",
+   "aka": [
+    "5 Elements"
+   ],
+   "instruments": {
+    "flute": 1,
+    "clarinet": 1,
+    "violin": 1,
+    "cello": 1,
+    "percussion": 1,
+    "lute": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 6,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "",
+   "minutes": 23,
+   "notes": "Five movements; pipa entered as lute; dizi and erhu replace flute and violin in one recording",
+   "popularity": "lesser-known",
+   "level_guess": 7,
+   "level_basis": "Pipa and percussion with winds and strings; balance of six parts",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Civitas Ensemble with Yihan Chen (pipa), Emma Gerstein (flute), Lawrie Bloom (clarinet), Cynthia Yeh (percussion), Jin Yin, Cedille 2020 (Deezer 579429471; 11:05 + 3:05 + 4:21 + 3:13 + 1:44); Music From China, Tales From the Cave, 2004 (MusicBrainz)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.deezer.com/album/579429471",
+    "https://musicbrainz.org/recording/a47580a1-4019-4b4a-84a0-42ff227b6b4d",
+    "https://musicbrainz.org/recording/cec46d59-87b5-4c17-947d-94c897173f9b"
+   ],
+   "confidence": "medium"
+  }
  }
 ]
