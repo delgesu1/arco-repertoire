@@ -8006,5 +8006,102 @@
    "confidence": "medium",
    "gap": true
   }
+ },
+ {
+  "slice": "x06_france_belgium_netherlands",
+  "why": "the six instruments are decoded from a Wise Music code, not read from a score or a programme; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Murail, Tristan",
+   "title": "Ethers",
+   "aka": [],
+   "instruments": {
+    "flute": 1,
+    "trombone": 1,
+    "violin": 1,
+    "viola": 1,
+    "cello": 1,
+    "double-bass": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 6,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1978",
+   "minutes": 21,
+   "notes": "Solo flute (bass flute to piccolo) with trombone and four strings; maracas",
+   "popularity": "lesser-known",
+   "level_guess": 8,
+   "level_basis": "Like Winter Fragments; very demanding solo flute",
+   "hardest_part_guess": "flute",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "Editions Musicales Transatlantiques (Wise Music Classical)",
+    "recorded": "Argento Chamber Ensemble, Michel Galante, Aeon (2008, 18:33; Deezer album 236522682); also Pierre-Yves Artaud, Ami Flammer, Joëlle Léandre, Christian Marchand, Geneviève Renon, David Simpson, Jacques Mercier, 'Mémoire/Erosion / Ethers / C'est un jardin secret, ma soeur, ma fiancée... / Les Courantes de l'espace' (2000, 20:38; MusicBrainz)",
+    "performed": ""
+   },
+   "sources": [
+    "https://www.wisemusicclassical.com/work/43911/Ethers--Tristan-Murail",
+    "https://en.wikipedia.org/wiki/Tristan_Murail",
+    "https://fr.wikipedia.org/wiki/Tristan_Murail",
+    "https://api.deezer.com/album/236522682",
+    "https://musicbrainz.org/work/080b5bae-8df5-46e9-948b-bf89c1ceddb7",
+    "https://itunes.apple.com/search?term=Tristan+Murail&media=music&entity=song&attribute=composerTerm&limit=200"
+   ],
+   "confidence": "medium",
+   "gap": true
+  }
+ },
+ {
+  "slice": "x06_france_belgium_netherlands",
+  "why": "a conducted voice-and-ensemble piece recorded by the Boston Modern Orchestra Project: one player to a part not shown; left off on the owner's instruction to leave off lesser-known works that raise flags",
+  "work": {
+   "composer": "Andriessen, Louis",
+   "title": "Letter from Cathy",
+   "aka": [],
+   "instruments": {
+    "voice": 1,
+    "harp": 1,
+    "violin": 1,
+    "double-bass": 1,
+    "piano": 1,
+    "percussion": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 6,
+   "formation": "other",
+   "formationNote": null,
+   "form": "short",
+   "set": null,
+   "year": "2003",
+   "minutes": 7,
+   "notes": "Jazz voice with harp, violin, double bass, piano and percussion; text from a letter by Cathy Berberian",
+   "popularity": "lesser-known",
+   "level_guess": 8,
+   "level_basis": "Like Zilver; jazz voice and ensemble, needs a conductor",
+   "hardest_part_guess": "voice",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Cristina Zavalloni, Monica Germino and the Boston Modern Orchestra Project, Gil Rose, BMOP/sound, 'Louis Andriessen: La Passione' (2009, 7:05; Deezer album 1048283)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Louis_Andriessen",
+    "https://fr.wikipedia.org/wiki/Louis_Andriessen",
+    "https://brahms.ircam.fr/fr/work/letter-from-cathy",
+    "https://api.deezer.com/album/1048283",
+    "https://itunes.apple.com/search?term=Louis+Andriessen&media=music&entity=song&attribute=composerTerm&limit=200"
+   ],
+   "confidence": "medium",
+   "gap": true
+  }
  }
 ]
