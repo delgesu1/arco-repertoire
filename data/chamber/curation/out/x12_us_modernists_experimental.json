@@ -561,6 +561,91 @@
    "gap": true
   },
   {
+   "composer": "Cage, John",
+   "title": "Four",
+   "aka": [],
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 4,
+   "formation": "string-quartet",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1989",
+   "minutes": 30,
+   "notes": "Late Number Piece for string quartet, titled for its four players; recorded in about 30 minutes",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Slow, quiet lines with free timing over half an hour; stamina and listening rather than technique",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Quatuor Bozzini, Collection QB / DAME, John Cage: Four (Deezer 11780572, 30:01; Apple 1061736343, 30:02)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_John_Cage",
+    "https://www.deezer.com/album/11780572",
+    "https://itunes.apple.com/lookup?id=1061736343&entity=song",
+    "https://musicbrainz.org/work/16de8c26-577f-322a-9ca6-d416c3e0f5e2"
+   ],
+   "confidence": "high",
+   "gap": true
+  },
+  {
+   "composer": "Cage, John",
+   "title": "Seven²",
+   "aka": [
+    "Seven2"
+   ],
+   "instruments": {
+    "flute": 1,
+    "bass-clarinet": 1,
+    "trombone": 1,
+    "percussion": 2,
+    "cello": 1,
+    "double-bass": 1
+   },
+   "alternatives": {},
+   "optional": {},
+   "players": 7,
+   "formation": "winds-strings",
+   "formationNote": null,
+   "form": "work",
+   "set": null,
+   "year": "1990",
+   "minutes": 52,
+   "notes": "Late Number Piece: bass flute, bass clarinet, bass trombone, two percussion, cello, double bass; about 52 minutes",
+   "popularity": "lesser-known",
+   "level_guess": 6,
+   "level_basis": "Very long, quiet and free in timing; exposed low winds and bass; stamina and listening over notes",
+   "hardest_part_guess": "balanced",
+   "imslpPage": null,
+   "benchmark_id": null,
+   "violin_id": null,
+   "floor": {
+    "published": "",
+    "recorded": "Ives Ensemble, Hat Hut, Two4 / Five2 / Seven / Two6 / Five5 / Seven2 (Deezer 11166492, Apple 1025030542, 52:05); The Barton Workshop, Etcetera (Apple 1888847801, listed as Seven (1990), 51:26)",
+    "performed": ""
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_John_Cage",
+    "https://itunes.apple.com/lookup?id=1025030542&entity=song",
+    "https://itunes.apple.com/lookup?id=1888847801&entity=song",
+    "https://musicbrainz.org/work/e82a5357-d955-49dc-a1c0-7e6d9b3e440e"
+   ],
+   "confidence": "medium",
+   "gap": true
+  },
+  {
    "composer": "Sessions, Roger",
    "title": "String Quartet No. 1 in E minor",
    "aka": [],
@@ -5703,11 +5788,11 @@
   {
    "name": "Cage, John",
    "candidates": 0,
-   "kept": 5,
+   "kept": 7,
    "skipped": 2,
-   "added_not_on_imslp": 5,
-   "coverage": "partial",
-   "note": "Chamber works with strings by the Wikipedia list: String Quartet in Four Parts, Thirty Pieces, Sixteen Dances, Seven, Five3 kept. Four (1989, string quartet) and Seven2 not confirmed on a recording. Ten, Thirteen, Fourteen and Sixteen exceed nine players."
+   "added_not_on_imslp": 7,
+   "coverage": "complete",
+   "note": "Chamber works with strings by the Wikipedia list: String Quartet in Four Parts, Thirty Pieces, Sixteen Dances, Seven, Five3 kept. Four (1989, string quartet) and Seven2 not confirmed on a recording. Ten, Thirteen, Fourteen and Sixteen exceed nine players. RECHECK 2026-10-18: Wikipedia work list and the MusicBrainz works browse (934 works) scanned for 3-9 players with a string part; Four (string quartet, 1989) and Seven2 (1990) added after albums by Quatuor Bozzini and the Ives Ensemble were found. Ten, Thirteen, Fourteen, Twenty-Three and Twenty-Nine exceed nine players; Eight, Five2, Five4, Five5 and Four5 have no string; Four3 and Four6 have version-dependent scoring; Prelude for Six Instruments (1946) is an arrangement with no named arranger."
   },
   {
    "name": "Sessions, Roger",
@@ -5827,5 +5912,5 @@
    "note": "Wikipedia lists most ensemble works only as 'for chamber ensemble' without scoring; Times Five (scoring from the score record) and two chamber pieces kept. Novara, Hodograph I and Pentathis are recorded (Apple 1542681888) but their scorings were not confirmed, so they are not entered."
   }
  ],
- "note": "EVIDENCE: Deezer album and track lists, Apple catalogue lookups (composerTerm searches, album lookups with label and copyright), MusicBrainz work lists (Carter, Crumb, Feldman, Sessions, Babbitt; the MusicBrainz service was blocking most of the run and the lists for the other composers were not fetched), Wikipedia work lists. The IMSLP pages were not opened individually; years, scorings and timings of the IMSLP candidates come from the census input and from the recordings. Naxos Library and Presto were not used. Publisher pages (Peters, Boosey, Presser) were not opened; no `published` field is filled. OWNER MAY RULE: (1) Vocal works: Crumb's Madrigals Book I and Shapey's Songs of Life (voice with two instruments) are left out as vocal repertoire; works with a voice and four or more instruments are kept (Crumb, Carter's Tempo e Tempi, Feldman's For Franz Kline and Intervals). (2) Feldman and Cage works whose scoring comes from the Wikipedia work list only (Projection 5 with nine players, Samoa, Intervals, Trio) are kept at medium or low confidence. (3) Crumb's Dream Sequence counts its off-stage glass harmonica (two players) as celesta, per the house rule. (4) Cowell's HC 802 is scored for harpsichord on IMSLP; the only recording uses harp. (5) Violin catalogue cross-list: only Feldman's Violin and String Quartet (id 4435); ids 426, 595, 1455 and other duos or solos are not in scope, ids 4595 and 4998 have more than nine players. NOT FOUND OR NOT CHECKED: Cage's Four (string quartet, 1989) and Seven2 were not found on a recording; Feldman's Four Instruments (two versions), I Met Heine, The O'Hara Songs, Rabbi Akiba and Vertical Thoughts 5 have scorings or recordings that could not be matched; Hovhaness's quartets Nos. 5 and the flute/oboe/cello/harpsichord quartets were not found recorded; Kirchner's Trio No. 2 year is unconfirmed (left blank). Labels in `floor` come from Apple copyright lines or Deezer; catalogue numbers are given only where a source showed them. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 6 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Carter: Tempo e Tempi; Feldman: Trio; Feldman: Intervals; Feldman: Samoa; Cowell: Quartet Romantic; Hovhaness: String Trio, Op. 201."
+ "note": "EVIDENCE: Deezer album and track lists, Apple catalogue lookups (composerTerm searches, album lookups with label and copyright), MusicBrainz work lists (Carter, Crumb, Feldman, Sessions, Babbitt; the MusicBrainz service was blocking most of the run and the lists for the other composers were not fetched), Wikipedia work lists. The IMSLP pages were not opened individually; years, scorings and timings of the IMSLP candidates come from the census input and from the recordings. Naxos Library and Presto were not used. Publisher pages (Peters, Boosey, Presser) were not opened; no `published` field is filled. OWNER MAY RULE: (1) Vocal works: Crumb's Madrigals Book I and Shapey's Songs of Life (voice with two instruments) are left out as vocal repertoire; works with a voice and four or more instruments are kept (Crumb, Carter's Tempo e Tempi, Feldman's For Franz Kline and Intervals). (2) Feldman and Cage works whose scoring comes from the Wikipedia work list only (Projection 5 with nine players, Samoa, Intervals, Trio) are kept at medium or low confidence. (3) Crumb's Dream Sequence counts its off-stage glass harmonica (two players) as celesta, per the house rule. (4) Cowell's HC 802 is scored for harpsichord on IMSLP; the only recording uses harp. (5) Violin catalogue cross-list: only Feldman's Violin and String Quartet (id 4435); ids 426, 595, 1455 and other duos or solos are not in scope, ids 4595 and 4998 have more than nine players. NOT FOUND OR NOT CHECKED: Cage's Four (string quartet, 1989) and Seven2 were not found on a recording; Feldman's Four Instruments (two versions), I Met Heine, The O'Hara Songs, Rabbi Akiba and Vertical Thoughts 5 have scorings or recordings that could not be matched; Hovhaness's quartets Nos. 5 and the flute/oboe/cello/harpsichord quartets were not found recorded; Kirchner's Trio No. 2 year is unconfirmed (left blank). Labels in `floor` come from Apple copyright lines or Deezer; catalogue numbers are given only where a source showed them. BY HAND (orchestrating session, 2026-10-17, on the owner's instruction to leave off lesser-known works that raise flags): 6 work(s) the agent kept at low confidence were moved to skipped (reason \"doubtful\") and parked in data/chamber/curation/parked-low-confidence.json: Carter: Tempo e Tempi; Feldman: Trio; Feldman: Intervals; Feldman: Samoa; Cowell: Quartet Romantic; Hovhaness: String Trio, Op. 201. RECHECK 2026-10-18 (cut short by the usage limit): 2 works added (Cage: Four, Seven2); 0 lines settled as not performed or recorded; everything else still not checked: the 11 weak 'not performed or recorded' lines (Crumb String Quartet 1954, Feldman Four Instruments, Wuorinen x2, Rochberg, Hovhaness Op. 97, Cowell x3, Shapey, Wolff) and the partial composers other than Cage (Feldman, Babbitt, Hovhaness, Cowell, Wolff, Brown, Perle, Shapey, Harrison, Kirchner, Rochberg, Wuorinen). Lookups for them (MusicBrainz, Deezer, Apple) ran but were not evaluated. Hand edits: the two Cage entries, Cage's composers_checked line, this paragraph; no kept work changed."
 }
