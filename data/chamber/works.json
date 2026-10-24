@@ -4840,7 +4840,7 @@
   "year": "1611",
   "minutes": 3,
   "set": "Psalmes, Songs, and Sonnets (1611)",
-  "notes": "Printed in the 1611 collection \"apt for voices or viols\"",
+  "notes": "Printed in the 1611 collection, \"fit for voyces or viols\"",
   "popularity": "lesser-known",
   "imslpPage": "Fantasia a 4, T 380 (Byrd, William)",
   "mode": null,
@@ -4892,7 +4892,7 @@
   "year": "1611",
   "minutes": 5,
   "set": "Psalmes, Songs, and Sonnets (1611)",
-  "notes": "Printed in the 1611 collection \"apt for voices or viols\"",
+  "notes": "Printed in the 1611 collection, \"fit for voyces or viols\"",
   "popularity": "lesser-known",
   "imslpPage": "Fantasia a 6, T 390 (Byrd, William)",
   "mode": null,
@@ -5754,7 +5754,7 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1588",
-  "minutes": null,
+  "minutes": 13,
   "set": "Psalmes, Sonets and Songs of Sadnes and Pietie (1588)",
   "notes": "Cradle song for the Massacre of the Innocents; printed in 1588 as a five-voice song",
   "popularity": "lesser-known",
@@ -23003,7 +23003,7 @@
   "form": "work",
   "level": 2,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1714",
   "minutes": 6,
   "set": null,
   "notes": "One of the six trio sonatas WoO 5–10: Largo, Allegro, Grave, Allegro",
@@ -30203,18 +30203,18 @@
   "title": "Concerto in G major, Op. 21 No. 3",
   "formation": "continuo",
   "instruments": {
-   "flute": 2,
-   "violin": 2,
+   "flute": 1,
+   "violin": 1,
    "continuo": 1
   },
-  "players": 5,
+  "players": 3,
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1728",
   "minutes": 8,
   "set": "Six Concertos, Op. 21",
-  "notes": "Chamber concerto one to a part for two flutes, two violins and continuo",
+  "notes": "Chamber concerto for flute, violin (or second flute) and continuo; an ad lib. third treble ripieno part exists",
   "popularity": "lesser-known",
   "imslpPage": "Concerto, Op.21 No.3 (Boismortier, Joseph Bodin de)",
   "mode": "major",
@@ -30222,7 +30222,17 @@
   "character": [
    "dance",
    "playful"
-  ]
+  ],
+  "alternatives": {
+   "flute": [
+    "violin",
+    "oboe"
+   ],
+   "violin": [
+    "flute",
+    "oboe"
+   ]
+  }
  },
  {
   "id": 101055,
@@ -30230,18 +30240,18 @@
   "title": "Concerto in B minor, Op. 21 No. 4",
   "formation": "continuo",
   "instruments": {
-   "flute": 2,
-   "violin": 2,
+   "flute": 1,
+   "violin": 1,
    "continuo": 1
   },
-  "players": 5,
+  "players": 3,
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1728",
   "minutes": 8,
   "set": "Six Concertos, Op. 21",
-  "notes": "Chamber concerto one to a part for two flutes, two violins and continuo",
+  "notes": "Chamber concerto for flute, violin (or second flute) and continuo; an ad lib. third treble ripieno part exists",
   "popularity": "lesser-known",
   "imslpPage": "Concerto, Op.21 No.4 (Boismortier, Joseph Bodin de)",
   "mode": "minor",
@@ -30249,7 +30259,17 @@
   "character": [
    "lyrical",
    "dance"
-  ]
+  ],
+  "alternatives": {
+   "flute": [
+    "violin",
+    "oboe"
+   ],
+   "violin": [
+    "flute",
+    "oboe"
+   ]
+  }
  },
  {
   "id": 101056,
@@ -36857,7 +36877,7 @@
  {
   "id": 101288,
   "composer": "Dornel, Antoine",
-  "title": "Suite en trio No. 3 in E minor, Op. 1",
+  "title": "Suite en trio No. 3 in D minor, Op. 1",
   "aka": [
    "Suitte en trio No. 3"
   ],
@@ -36925,7 +36945,7 @@
  {
   "id": 101290,
   "composer": "Dornel, Antoine",
-  "title": "Suite en trio No. 5, Op. 1",
+  "title": "Suite en trio No. 5 in F major, Op. 1",
   "aka": [
    "Suitte en trio No. 5"
   ],
@@ -36947,7 +36967,7 @@
   "year": "1709",
   "minutes": 10,
   "set": "Livre de simphonies, Op. 1 (1709)",
-  "notes": "Ouverture, Air grave, Rondeaux, Plainte, Gigue; recorded in G major (Naxos) and D minor (Hazelzet)",
+  "notes": "Ouverture, Air grave, Rondeaux, Plainte, Gigue; Naxos records it a tone higher, in G major",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "moderate",
@@ -39250,7 +39270,7 @@
   "year": "",
   "minutes": 9,
   "set": "Concerti a tre",
-  "notes": "Trio sonatas for two violins and continuo, written for the Stuttgart court",
+  "notes": "Two violins and continuo in the Corellian church-sonata form; date and place of composition unknown",
   "popularity": "lesser-known",
   "imslpPage": "6 Concerti à tre (Brescianello, Giuseppe Antonio)",
   "mode": "major",
@@ -39276,7 +39296,7 @@
   "year": "",
   "minutes": 12,
   "set": "Concerti a tre",
-  "notes": "Trio sonatas for two violins and continuo, written for the Stuttgart court",
+  "notes": "Two violins and continuo in the Corellian church-sonata form; date and place of composition unknown",
   "popularity": "lesser-known",
   "imslpPage": "6 Concerti à tre (Brescianello, Giuseppe Antonio)",
   "mode": "minor",
@@ -39303,7 +39323,7 @@
   "year": "",
   "minutes": 11,
   "set": "Concerti a tre",
-  "notes": "Trio sonatas for two violins and continuo, written for the Stuttgart court",
+  "notes": "Two violins and continuo in the Corellian church-sonata form; date and place of composition unknown",
   "popularity": "lesser-known",
   "imslpPage": "6 Concerti à tre (Brescianello, Giuseppe Antonio)",
   "mode": "major",
@@ -39334,7 +39354,7 @@
   "year": "",
   "minutes": 10,
   "set": "Concerti a tre",
-  "notes": "Trio sonatas for two violins and continuo, written for the Stuttgart court",
+  "notes": "Two violins and continuo in the Corellian church-sonata form; date and place of composition unknown",
   "popularity": "lesser-known",
   "imslpPage": "Trio Sonata in E-flat major (Brescianello, Giuseppe Antonio)",
   "mode": "major",
@@ -39360,7 +39380,7 @@
   "year": "",
   "minutes": 12,
   "set": "Concerti a tre",
-  "notes": "Trio sonatas for two violins and continuo, written for the Stuttgart court",
+  "notes": "Two violins and continuo in the Corellian church-sonata form; date and place of composition unknown",
   "popularity": "lesser-known",
   "imslpPage": "6 Concerti à tre (Brescianello, Giuseppe Antonio)",
   "mode": "minor",
@@ -39419,7 +39439,7 @@
   "year": "",
   "minutes": 9,
   "set": "Concerti a tre",
-  "notes": "Trio sonatas for two violins and continuo, written for the Stuttgart court",
+  "notes": "Two violins and continuo in the Corellian church-sonata form; date and place of composition unknown",
   "popularity": "lesser-known",
   "mode": "minor",
   "pace": "moderate",
@@ -39447,7 +39467,7 @@
   "year": "",
   "minutes": 7,
   "set": "Concerti a tre",
-  "notes": "Trio sonatas for two violins and continuo, written for the Stuttgart court",
+  "notes": "Two violins and continuo in the Corellian church-sonata form; date and place of composition unknown",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "lively",
@@ -39475,7 +39495,7 @@
   "year": "",
   "minutes": 6,
   "set": "Concerti a tre",
-  "notes": "Trio sonatas for two violins and continuo, written for the Stuttgart court",
+  "notes": "Two violins and continuo in the Corellian church-sonata form; date and place of composition unknown",
   "popularity": "lesser-known",
   "mode": "minor",
   "pace": "moderate",
@@ -39503,7 +39523,7 @@
   "year": "",
   "minutes": 6,
   "set": "Concerti a tre",
-  "notes": "Trio sonatas for two violins and continuo, written for the Stuttgart court",
+  "notes": "Two violins and continuo in the Corellian church-sonata form; date and place of composition unknown",
   "popularity": "lesser-known",
   "mode": "minor",
   "pace": "moderate",
@@ -39532,7 +39552,7 @@
   "year": "",
   "minutes": 14,
   "set": "Concerti a tre",
-  "notes": "Trio sonatas for two violins and continuo, written for the Stuttgart court",
+  "notes": "Two violins and continuo in the Corellian church-sonata form; date and place of composition unknown",
   "popularity": "lesser-known",
   "mode": "minor",
   "pace": "moderate",
@@ -39560,7 +39580,7 @@
   "year": "",
   "minutes": 9,
   "set": "Concerti a tre",
-  "notes": "Trio sonatas for two violins and continuo, written for the Stuttgart court",
+  "notes": "Two violins and continuo in the Corellian church-sonata form; date and place of composition unknown",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -43283,7 +43303,7 @@
   "level": 5,
   "hardestPart": "violin",
   "year": "1629",
-  "minutes": null,
+  "minutes": 6,
   "set": "Sonate concertate in stil moderno, Libro secondo (1629)",
   "notes": "Soprano (violin or cornett) and bassoon or viola over organ continuo",
   "popularity": "lesser-known",
@@ -43463,7 +43483,7 @@
   "level": 5,
   "hardestPart": "violin 1",
   "year": "1629",
-  "minutes": null,
+  "minutes": 6,
   "set": "Sonate concertate in stil moderno, Libro secondo (1629)",
   "notes": "Two sopranos and two trombones (or violettas) over organ continuo",
   "popularity": "lesser-known",
@@ -43527,7 +43547,7 @@
   "level": 4,
   "hardestPart": "violin",
   "year": "1629",
-  "minutes": null,
+  "minutes": 6,
   "set": "Sonate concertate in stil moderno, Libro secondo (1629)",
   "notes": "For bowed strings: violin, two violettas and bass viola, over organ continuo",
   "popularity": "lesser-known",
@@ -51594,7 +51614,7 @@
   "level": 2,
   "hardestPart": "violin 1",
   "year": "1743",
-  "minutes": null,
+  "minutes": 2,
   "set": "Concertos comiques",
   "notes": "For three violins and continuo",
   "popularity": "lesser-known",
@@ -51953,7 +51973,7 @@
  {
   "id": 101792,
   "composer": "Corrette, Michel",
-  "title": "Symphonie de Noëls No. 5 in A minor",
+  "title": "Symphonie de Noëls No. 5",
   "aka": [
    "Symphonie en quatuor sur les noëls No. 5"
   ],
@@ -63143,7 +63163,7 @@
   "level": 5,
   "hardestPart": "violin 1",
   "year": "1788",
-  "minutes": 15,
+  "minutes": 10,
   "set": "Six String Quintets, Op. 40",
   "notes": "Two cellos; Grave assai – Fandango – Minuetto; the original of the Fandango reused in the guitar quintet G. 448",
   "popularity": "lesser-known",
@@ -65985,7 +66005,7 @@
   "year": "1774",
   "minutes": 11,
   "set": "Six Flute Quintets, Op. 19",
-  "notes": "Programmatic finale 'Las Parejas' (Entrada, Galope)",
+  "notes": "Programmatic quintet 'Las Parejas' (the couples): Entrada-Marcha, Galope, then the Entrada returns",
   "popularity": "lesser-known",
   "imslpPage": "6 Flute Quintets, Op.19 (Boccherini, Luigi)",
   "mode": "major",
@@ -66911,7 +66931,7 @@
   "year": "c. 1780",
   "minutes": 15,
   "set": "Six Sonatas for Keyboard, Violin and Cello, Op. 12",
-  "notes": "Keyboard-led, 'with the accompaniment of a violin and cello'; not in Boccherini's own catalogue",
+  "notes": "Keyboard-led, with violin and cello accompaniment; authenticity doubtful (Gerard); not in Boccherini's own catalogue",
   "popularity": "lesser-known",
   "imslpPage": "6 Keyboard Trios, G.143-148 (Boccherini, Luigi)",
   "mode": "major",
@@ -66948,7 +66968,7 @@
   "year": "c. 1780",
   "minutes": 9,
   "set": "Six Sonatas for Keyboard, Violin and Cello, Op. 12",
-  "notes": "Keyboard-led, 'with the accompaniment of a violin and cello'; not in Boccherini's own catalogue",
+  "notes": "Keyboard-led, with violin and cello accompaniment; authenticity doubtful (Gerard); not in Boccherini's own catalogue",
   "popularity": "lesser-known",
   "imslpPage": "6 Keyboard Trios, G.143-148 (Boccherini, Luigi)",
   "mode": "minor",
@@ -66984,7 +67004,7 @@
   "year": "c. 1780",
   "minutes": 11,
   "set": "Six Sonatas for Keyboard, Violin and Cello, Op. 12",
-  "notes": "Keyboard-led, 'with the accompaniment of a violin and cello'; not in Boccherini's own catalogue",
+  "notes": "Keyboard-led, with violin and cello accompaniment; authenticity doubtful (Gerard); not in Boccherini's own catalogue",
   "popularity": "lesser-known",
   "imslpPage": "6 Keyboard Trios, G.143-148 (Boccherini, Luigi)",
   "mode": "major",
@@ -67021,7 +67041,7 @@
   "year": "c. 1780",
   "minutes": 13,
   "set": "Six Sonatas for Keyboard, Violin and Cello, Op. 12",
-  "notes": "Keyboard-led, 'with the accompaniment of a violin and cello'; not in Boccherini's own catalogue",
+  "notes": "Keyboard-led, with violin and cello accompaniment; authenticity doubtful (Gerard); not in Boccherini's own catalogue",
   "popularity": "lesser-known",
   "imslpPage": "6 Keyboard Trios, G.143-148 (Boccherini, Luigi)",
   "mode": "major",
@@ -67058,7 +67078,7 @@
   "year": "c. 1780",
   "minutes": 8,
   "set": "Six Sonatas for Keyboard, Violin and Cello, Op. 12",
-  "notes": "Keyboard-led, 'with the accompaniment of a violin and cello'; not in Boccherini's own catalogue",
+  "notes": "Keyboard-led, with violin and cello accompaniment; authenticity doubtful (Gerard); not in Boccherini's own catalogue",
   "popularity": "lesser-known",
   "imslpPage": "6 Keyboard Trios, G.143-148 (Boccherini, Luigi)",
   "mode": "major",
@@ -67095,7 +67115,7 @@
   "year": "c. 1780",
   "minutes": 9,
   "set": "Six Sonatas for Keyboard, Violin and Cello, Op. 12",
-  "notes": "Keyboard-led, 'with the accompaniment of a violin and cello'; not in Boccherini's own catalogue",
+  "notes": "Keyboard-led, with violin and cello accompaniment; authenticity doubtful (Gerard); not in Boccherini's own catalogue",
   "popularity": "lesser-known",
   "imslpPage": "6 Keyboard Trios, G.143-148 (Boccherini, Luigi)",
   "mode": "minor",
@@ -67109,9 +67129,6 @@
   "id": 102309,
   "composer": "Boccherini, Luigi",
   "title": "Stabat Mater, G. 532 (1781 version)",
-  "aka": [
-   "Stabat Mater, Op. 61"
-  ],
   "formation": "other",
   "instruments": {
    "voice": 1,
@@ -68388,7 +68405,7 @@
  {
   "id": 102354,
   "composer": "Cambini, Giuseppe Maria",
-  "title": "String Quartet in E-flat major",
+  "title": "String Quartet in E-flat major, T. 169",
   "aka": [
    "Lacépède Quartet No. 1",
    "Quatuor pour Monsieur Lacépède No. 1"
@@ -68419,7 +68436,7 @@
  {
   "id": 102355,
   "composer": "Cambini, Giuseppe Maria",
-  "title": "String Quartet in F major",
+  "title": "String Quartet in F major, T. 170",
   "aka": [
    "Lacépède Quartet No. 2",
    "Quatuor pour Monsieur Lacépède No. 2"
@@ -68450,7 +68467,7 @@
  {
   "id": 102356,
   "composer": "Cambini, Giuseppe Maria",
-  "title": "String Quartet in B minor",
+  "title": "String Quartet in B minor, T. 171",
   "aka": [
    "Lacépède Quartet No. 3",
    "Quatuor pour Monsieur Lacépède No. 3"
@@ -68656,7 +68673,7 @@
  {
   "id": 102363,
   "composer": "Cambini, Giuseppe Maria",
-  "title": "String Quartet, Op. 21 No. 4",
+  "title": "String Quartet in E-flat major, Op. 21 No. 4, T. 69",
   "formation": "string-quartet",
   "instruments": {
    "violin": 1,
@@ -68683,7 +68700,7 @@
  {
   "id": 102364,
   "composer": "Cambini, Giuseppe Maria",
-  "title": "String Quartet, Op. 21 No. 5",
+  "title": "String Quartet in A major, Op. 21 No. 5, T. 70",
   "formation": "string-quartet",
   "instruments": {
    "violin": 1,
@@ -68710,7 +68727,7 @@
  {
   "id": 102365,
   "composer": "Cambini, Giuseppe Maria",
-  "title": "String Quartet, Op. 21 No. 6",
+  "title": "String Quartet in B-flat major, Op. 21 No. 6, T. 71",
   "formation": "string-quartet",
   "instruments": {
    "violin": 1,
@@ -68754,7 +68771,7 @@
   "year": "",
   "minutes": 16,
   "set": "Six String Trios, Op. 33",
-  "notes": "Two movements; viola often carries the melody",
+  "notes": "Two movements, Allegro and Allegretto cantabile e con grazia; gallant style led by the first violin",
   "popularity": "lesser-known",
   "imslpPage": "6 String Trios, Op.33 (Cambini, Giuseppe Maria)",
   "mode": "major",
@@ -68856,8 +68873,7 @@
   "composer": "Cambini, Giuseppe Maria",
   "title": "String Quartet in G minor, T. 116",
   "aka": [
-   "Quartet Book XVIII No. 2",
-   "Op. 18 No. 2"
+   "Quartet Book XVIII No. 2"
   ],
   "formation": "string-quartet",
   "instruments": {
@@ -69336,7 +69352,7 @@
   "form": "work",
   "level": 4,
   "hardestPart": "flute",
-  "year": "",
+  "year": "c. 1778",
   "minutes": 9,
   "set": "Three Flute Quintets, Op. 9",
   "notes": "Flute and oboe (or second violin) with violin, viola and cello",
@@ -69373,7 +69389,7 @@
   "form": "work",
   "level": 4,
   "hardestPart": "flute",
-  "year": "",
+  "year": "c. 1778",
   "minutes": 10,
   "set": "Three Flute Quintets, Op. 9",
   "notes": "Flute and oboe (or second violin) with violin, viola and cello",
@@ -69410,7 +69426,7 @@
   "form": "work",
   "level": 4,
   "hardestPart": "flute",
-  "year": "",
+  "year": "c. 1778",
   "minutes": 10,
   "set": "Three Flute Quintets, Op. 9",
   "notes": "Flute and oboe (or second violin) with violin, viola and cello",
@@ -72658,9 +72674,6 @@
     "harpsichord"
    ]
   },
-  "optional": {
-   "cello": 1
-  },
   "players": 3,
   "form": "work",
   "level": 5,
@@ -72668,7 +72681,7 @@
   "year": "1788",
   "minutes": 14,
   "set": null,
-  "notes": "Written 1788: obbligato keyboard, flute and viola; cello ad lib. Andantino, Largo e sostenuto, Allegro assai",
+  "notes": "Written 1788: obbligato keyboard, flute and viola; no cello by Bach. Andantino, Largo e sostenuto, Allegro assai",
   "popularity": "lesser-known",
   "imslpPage": "Flute Quartet in A minor, H.537 (Bach, Carl Philipp Emanuel)",
   "mode": "minor",
@@ -76184,7 +76197,7 @@
   "year": "1759",
   "minutes": 9,
   "set": null,
-  "notes": "First part for violino piccolo or violin, then second violin and viola; four movements including a Scherzo",
+  "notes": "First part for violino piccolo, then second violin and viola; four movements including a Scherzo",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -79436,9 +79449,10 @@
  {
   "id": 102711,
   "composer": "Clementi, Muzio",
-  "title": "Nonet in E-flat major, WoO 30",
+  "title": "Nonet in E-flat major, WoO 30–31",
   "aka": [
-   "Nonetto in E-flat major, WoO 30–31",
+   "Nonetto in E-flat major",
+   "Nonetto, WoO 30",
    "Nonetto, WoO 31"
   ],
   "formation": "winds-strings",
@@ -83277,7 +83291,7 @@
   "year": "1835",
   "minutes": 25,
   "set": null,
-  "notes": "Shortest of the six (about 25 minutes); violin 1 leads the scherzo and the fugal finale",
+  "notes": "Shortest of the six quartets, about 25 minutes",
   "popularity": "lesser-known",
   "imslpPage": "String Quartet No.5 (Cherubini, Luigi)",
   "mode": "major",
@@ -96991,7 +97005,7 @@
   "title": "Two Waltzes, Op. 54 Nos. 1 and 4, B. 105 (version for string quartet)",
   "aka": [
    "Dva valčíky",
-   "2 Waltzes in A and D major"
+   "2 Waltzes in A and D-flat major"
   ],
   "formation": "string-quartet",
   "instruments": {
@@ -97050,7 +97064,7 @@
   "composer": "Dvořák, Antonín",
   "title": "Andante appassionato in F major, B. 40a",
   "aka": [
-   "Quartettsatz in A minor, B. 40a"
+   "Quartettsatz, B. 40a"
   ],
   "formation": "string-quartet",
   "instruments": {
@@ -97820,7 +97834,7 @@
   "year": "1906",
   "minutes": 27,
   "set": null,
-  "notes": "Three movements; first performed by the Klinger Quartet in Berlin (1907)",
+  "notes": "Three movements; first performed by the Klingler Quartet in Berlin (1907)",
   "popularity": "lesser-known",
   "imslpPage": "String Quartet No.2, Op.15 (Dohnányi, Ernő)",
   "mode": "major",
@@ -97845,7 +97859,7 @@
   "level": 8,
   "hardestPart": "balanced",
   "year": "1926",
-  "minutes": null,
+  "minutes": 27,
   "set": null,
   "notes": "Three movements; the middle one is a set of variations (Andante religioso)",
   "popularity": "lesser-known",
@@ -99271,7 +99285,7 @@
   "level": 6,
   "hardestPart": "balanced",
   "year": "1898",
-  "minutes": 10,
+  "minutes": 7,
   "set": null,
   "notes": "Soprano with piano and string quartet (the composer's own chamber version of the orchestral song)",
   "popularity": "lesser-known",
@@ -99953,7 +99967,7 @@
   "year": "1921–29",
   "minutes": 12,
   "set": null,
-  "notes": "One movement; first performed in 1929; edited by A. F. Block (1994)",
+  "notes": "One movement on three Inuit melodies; sketched 1921, finished 1929; ed. A. F. Block (1994)",
   "popularity": "lesser-known",
   "imslpPage": "String Quartet, Op.89 (Beach, Amy Marcy)",
   "mode": null,
@@ -100014,7 +100028,7 @@
   "level": 7,
   "hardestPart": "piano",
   "year": "1893–94",
-  "minutes": null,
+  "minutes": 26,
   "set": null,
   "notes": "Piano with oboe, clarinet, bassoon, horn, violin, viola, cello and double bass; modern editions since 1998",
   "popularity": "lesser-known",
@@ -100024,6 +100038,9 @@
   "character": [
    "lyrical",
    "dramatic"
+  ],
+  "aka": [
+   "Gradus ad Parnassum"
   ]
  },
  {
@@ -100042,7 +100059,7 @@
   "level": 6,
   "hardestPart": "piano",
   "year": "1893",
-  "minutes": null,
+  "minutes": 28,
   "set": null,
   "notes": "Four movements; student work, modern performing edition from the Royal College of Music manuscript",
   "popularity": "lesser-known",
@@ -100069,9 +100086,9 @@
   "level": 6,
   "hardestPart": "piano",
   "year": "1893",
-  "minutes": null,
+  "minutes": 9,
   "set": null,
-  "notes": "Three movements; student work, first modern performances in the 1990s",
+  "notes": "Three short movements; student work, from a Royal College of Music manuscript",
   "popularity": "lesser-known",
   "imslpPage": "Piano Trio in E minor (Coleridge-Taylor, Samuel)",
   "mode": "minor",
@@ -102007,7 +102024,7 @@
   "level": 5,
   "hardestPart": "violin 1",
   "year": "1849",
-  "minutes": 26,
+  "minutes": 22,
   "set": null,
   "notes": "Written at ten or eleven; modelled on Beethoven's Septet, with two violins instead of violin and viola",
   "popularity": "lesser-known",
@@ -108965,7 +108982,7 @@
   "year": "c. 1860",
   "minutes": 22,
   "set": null,
-  "notes": "Unfinished: three movements survive and the finale is lost; published in 1950",
+  "notes": "Unfinished: three movements survive and there is no finale; published in 1950",
   "popularity": "lesser-known",
   "imslpPage": "Piano Trio (Borodin, Aleksandr)",
   "mode": "major",
@@ -110812,7 +110829,7 @@
   "level": 6,
   "hardestPart": "violin 1",
   "year": "",
-  "minutes": null,
+  "minutes": 26,
   "set": null,
   "notes": "Second cello instead of a double bass; first recorded in 2022",
   "popularity": "lesser-known",
@@ -110839,7 +110856,7 @@
   "level": 6,
   "hardestPart": "violin 1",
   "year": "",
-  "minutes": null,
+  "minutes": 25,
   "set": null,
   "notes": "Two violas; first recorded in 2022",
   "popularity": "lesser-known",
@@ -110853,7 +110870,7 @@
  {
   "id": 103802,
   "composer": "Bottesini, Giovanni",
-  "title": "String Quartet in B-flat major, Op. 2, BOT. 143",
+  "title": "String Quartet in B-flat major, Op. 2, BOT. 142",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -110869,7 +110886,6 @@
   "set": null,
   "notes": "Recorded by Quartetto Elisa as Op. 2; IMSLP has only the manuscript",
   "popularity": "lesser-known",
-  "imslpPage": "String Quartet in B-flat major (Bottesini, Giovanni)",
   "mode": "major",
   "pace": "moderate",
   "character": [
@@ -112225,9 +112241,6 @@
   "id": 103852,
   "composer": "Bridge, Frank",
   "title": "String Quartet in B-flat major, H. 3",
-  "aka": [
-   "String Quartet in B major"
-  ],
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -117979,7 +117992,7 @@
   "form": "work",
   "level": 8,
   "hardestPart": "balanced",
-  "year": "1924",
+  "year": "1923–24",
   "minutes": 28,
   "set": null,
   "notes": "Four movements: Sinfonia, Siciliana, Minuetto-Recitativo-Aria and Canzone",
@@ -118265,7 +118278,7 @@
   "year": "1924",
   "minutes": 9,
   "set": null,
-  "notes": "Three short, slow-moving pieces for piano trio",
+  "notes": "Three short pieces for piano trio: Andante, Andante quieto, Tempestoso",
   "popularity": "lesser-known",
   "imslpPage": "3 Nocturnes, B.56 (Bloch, Ernest)",
   "mode": null,
@@ -124873,7 +124886,7 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1683",
-  "minutes": 7,
+  "minutes": 10,
   "set": "Sinfonie a 2 e 3 strumenti, Op. 5",
   "notes": "Church sonata a 2 (two violins) over continuo; the violoncello is ad libitum in Nos. 1-6",
   "popularity": "lesser-known",
@@ -124905,7 +124918,7 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1683",
-  "minutes": 8,
+  "minutes": 7,
   "set": "Sinfonie a 2 e 3 strumenti, Op. 5",
   "notes": "Church sonata a 2 (two violins) over continuo; the violoncello is ad libitum in Nos. 1-6",
   "popularity": "lesser-known",
@@ -124937,7 +124950,7 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1683",
-  "minutes": 10,
+  "minutes": 7,
   "set": "Sinfonie a 2 e 3 strumenti, Op. 5",
   "notes": "Church sonata a 2 (two violins) over continuo; the violoncello is ad libitum in Nos. 1-6",
   "popularity": "lesser-known",
@@ -125001,7 +125014,7 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1683",
-  "minutes": 5,
+  "minutes": 7,
   "set": "Sinfonie a 2 e 3 strumenti, Op. 5",
   "notes": "Church sonata a 2 (two violins) over continuo; the violoncello is ad libitum in Nos. 1-6",
   "popularity": "lesser-known",
@@ -125033,7 +125046,7 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1683",
-  "minutes": 7,
+  "minutes": 5,
   "set": "Sinfonie a 2 e 3 strumenti, Op. 5",
   "notes": "Church sonata a 2 (two violins) over continuo; the violoncello is ad libitum in Nos. 1-6",
   "popularity": "lesser-known",
@@ -125123,7 +125136,7 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1683",
-  "minutes": 5,
+  "minutes": 6,
   "set": "Sinfonie a 2 e 3 strumenti, Op. 5",
   "notes": "Sonata a 3 with an obbligato violoncello beside the continuo (Nos. 7-12)",
   "popularity": "lesser-known",
@@ -125183,7 +125196,7 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1683",
-  "minutes": 6,
+  "minutes": 5,
   "set": "Sinfonie a 2 e 3 strumenti, Op. 5",
   "notes": "Sonata a 3 with an obbligato violoncello beside the continuo (Nos. 7-12)",
   "popularity": "lesser-known",
@@ -125257,8 +125270,10 @@
  {
   "id": 104307,
   "composer": "Clérambault, Louis-Nicolas",
-  "title": "Sonade en trio in E minor (\"La Magnifique\")",
+  "title": "Trio Sonata in E minor (\"La Magnifique\")",
   "aka": [
+   "Sonade en trio in E minor",
+   "Sonata VII in E minor \"La Magnifique\"",
    "Sonata VIIa \"La Magnifique\"",
    "La Magnifique"
   ],
@@ -125269,8 +125284,7 @@
   },
   "alternatives": {
    "violin": [
-    "flute",
-    "oboe"
+    "flute"
    ]
   },
   "players": 3,
@@ -125280,7 +125294,7 @@
   "year": "",
   "minutes": 9,
   "set": null,
-  "notes": "Italianate trio sonata from the Brossard collection; edition for two violins (or flutes, oboes) and continuo",
+  "notes": "Trio sonata from Sébastien de Brossard's manuscript collection; two violins (or flutes) and continuo",
   "popularity": "lesser-known",
   "imslpPage": "La Magnifique (Clérambault, Louis-Nicolas)",
   "mode": "minor",
@@ -129578,7 +129592,7 @@
   "level": 3,
   "hardestPart": "piano",
   "year": "1780–81",
-  "minutes": null,
+  "minutes": 14,
   "set": "Sammlung vermischter Clavierstücke, Part 1",
   "notes": "Sonata I of Part 1 with accompaniment for 2 violins, viola and cello; keyboard leads",
   "popularity": "lesser-known",
@@ -129608,9 +129622,9 @@
   "level": 3,
   "hardestPart": "piano",
   "year": "1780–81",
-  "minutes": null,
+  "minutes": 17,
   "set": "Sammlung vermischter Clavierstücke, Part 3",
-  "notes": "Sonata II of Part 3 (con accompagnamento); IMSLP has the keyboard part only; strings from the recording",
+  "notes": "Sonata II of Part 3, con accompagnamento (2 violins, viola, cello); keyboard leads; modern edition Grancino",
   "popularity": "lesser-known",
   "imslpPage": "Sammlung Vermischter Stücke (Benda, Georg)",
   "mode": "major",
@@ -129636,7 +129650,7 @@
   "form": "work",
   "level": 3,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "by 1756",
   "minutes": 11,
   "set": null,
   "notes": "Three movements (Moderato, Largo, Allegro); by Jiří Antonín (Georg) Benda, not Franz; ms. copy of 1756",
@@ -131306,7 +131320,7 @@
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "c. 1809",
   "minutes": 18,
   "set": null,
   "notes": "Largo, Allegro, theme (after Pleyel) with variations, Rondo; IMSLP page gives no opus number",
@@ -133393,7 +133407,7 @@
   "year": "1823",
   "minutes": 22,
   "set": null,
-  "notes": "Flute version of Clarinet Quartet No. 3, Op. 7 (string parts identical); Peters 1823; arranger not named",
+  "notes": "Crusell's own flute version of Clarinet Quartet No. 3, Op. 7; string parts identical; Peters 1823",
   "popularity": "lesser-known",
   "imslpPage": "Flute Quartet, Op.8 (Crusell, Bernhard Henrik)",
   "mode": "major",
@@ -135370,9 +135384,6 @@
   "id": 104645,
   "composer": "Beecke, Ignaz von",
   "title": "String Quartet in C major",
-  "aka": [
-   "String Quartet in C major, BEEV 120"
-  ],
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -135399,9 +135410,6 @@
   "id": 104646,
   "composer": "Beecke, Ignaz von",
   "title": "Piano Quintet in A minor",
-  "aka": [
-   "Piano Quintet in A minor, BEEV 96"
-  ],
   "formation": "piano-quintet",
   "instruments": {
    "piano": 1,
@@ -135416,7 +135424,7 @@
   "year": "c. 1770",
   "minutes": 26,
   "set": null,
-  "notes": "Early piano quintet (about 1770); three movements, recorded on a modern piano",
+  "notes": "Early piano quintet (about 1770); three movements, the piano part in the style of a reduced-forces concerto",
   "popularity": "lesser-known",
   "mode": "minor",
   "pace": "moderate",
@@ -137127,7 +137135,7 @@
   "form": "work",
   "level": 4,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1831",
   "minutes": 19,
   "set": null,
   "notes": "Early four-movement quartet; not on IMSLP",
@@ -141871,7 +141879,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "piano",
-  "year": "1870",
+  "year": "1865",
   "minutes": 23,
   "set": null,
   "notes": "Three movements; first published only in 1999",
@@ -141953,7 +141961,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "piano",
-  "year": "",
+  "year": "1860",
   "minutes": 25,
   "set": null,
   "notes": "Four movements; recorded with the Second Trio and the Piano Quartet; not on IMSLP",
@@ -147810,7 +147818,7 @@
  {
   "id": 105082,
   "composer": "Cassadó, Gaspar",
-  "title": "String Quartet No. 2",
+  "title": "String Quartet No. 2 in G major",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -147837,7 +147845,7 @@
  {
   "id": 105083,
   "composer": "Cassadó, Gaspar",
-  "title": "String Quartet No. 3",
+  "title": "String Quartet No. 3 in C minor",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -147848,7 +147856,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1933",
   "minutes": 27,
   "set": null,
   "notes": "Four movements, about 27 minutes",
@@ -147990,7 +147998,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "piano",
-  "year": "",
+  "year": "1945–46",
   "minutes": 23,
   "set": null,
   "notes": "Three movements, about 23 minutes",
@@ -148019,7 +148027,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "c. 1918",
   "minutes": 29,
   "set": null,
   "notes": "Three movements, about 29 minutes; Op. 41 also holds a Fantasy for four violas",
@@ -148046,7 +148054,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1919",
   "minutes": 27,
   "set": null,
   "notes": "Three movements, about 27 minutes",
@@ -148556,7 +148564,7 @@
   "level": 5,
   "hardestPart": "balanced",
   "year": "1911–12",
-  "minutes": null,
+  "minutes": 12,
   "set": null,
   "notes": "Four songs on poems by W. E. Henley for baritone and string quartet; also with piano and orchestra",
   "popularity": "lesser-known",
@@ -148610,7 +148618,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "piano",
-  "year": "",
+  "year": "1934",
   "minutes": 25,
   "set": null,
   "notes": "Three movements, about 25 minutes",
@@ -149080,7 +149088,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1913",
   "minutes": 20,
   "set": null,
   "notes": "Three movements, about 20 minutes; an early quartet",
@@ -151411,7 +151419,7 @@
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1696",
   "minutes": 7,
   "set": "Sonate a due violini e basso, Op. 2",
   "notes": "Trio sonata for two violins and continuo (Sonata prima of Op. 2)",
@@ -151439,7 +151447,7 @@
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1696",
   "minutes": 6,
   "set": "Sonate a due violini e basso, Op. 2",
   "notes": "Trio sonata for two violins and continuo (Sonata seconda of Op. 2)",
@@ -151467,7 +151475,7 @@
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1696",
   "minutes": 5,
   "set": "Sonate a due violini e basso, Op. 2",
   "notes": "Trio sonata for two violins and continuo (Sonata terza of Op. 2)",
@@ -151495,7 +151503,7 @@
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1696",
   "minutes": 6,
   "set": "Sonate a due violini e basso, Op. 2",
   "notes": "Trio sonata for two violins and continuo (Sonata quarta of Op. 2)",
@@ -151523,7 +151531,7 @@
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1696",
   "minutes": 6,
   "set": "Sonate a due violini e basso, Op. 2",
   "notes": "Trio sonata for two violins and continuo (Sonata quinta of Op. 2)",
@@ -151551,7 +151559,7 @@
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1696",
   "minutes": 4,
   "set": "Sonate a due violini e basso, Op. 2",
   "notes": "Trio sonata for two violins and continuo (Sonata sesta of Op. 2)",
@@ -151579,7 +151587,7 @@
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1696",
   "minutes": 5,
   "set": "Sonate a due violini e basso, Op. 2",
   "notes": "Trio sonata for two violins and continuo (Sonata settima of Op. 2)",
@@ -151607,7 +151615,7 @@
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1696",
   "minutes": 5,
   "set": "Sonate a due violini e basso, Op. 2",
   "notes": "Trio sonata for two violins and continuo (Sonata ottava of Op. 2)",
@@ -151635,7 +151643,7 @@
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1696",
   "minutes": 5,
   "set": "Sonate a due violini e basso, Op. 2",
   "notes": "Trio sonata for two violins and continuo (Sonata nona of Op. 2)",
@@ -151663,7 +151671,7 @@
   "form": "work",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1696",
   "minutes": 4,
   "set": "Sonate a due violini e basso, Op. 2",
   "notes": "Trio sonata for two violins and continuo (Sonata decima of Op. 2)",
@@ -151774,15 +151782,19 @@
   "form": "short",
   "level": 3,
   "hardestPart": "balanced",
-  "year": "1674–76",
+  "year": "",
   "minutes": 6,
-  "set": "Erstlinge musicalischer Blumen",
-  "notes": "Violin and viola da gamba over continuo, with cuckoo calls; from Abel's three volumes of 1674, 1676 and 1677",
+  "set": null,
+  "notes": "Violin and viola da gamba over continuo, with cuckoo calls; survives only in English manuscripts",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "lively",
   "character": [
    "playful"
+  ],
+  "aka": [
+   "Sonata Cuccu",
+   "Sonata sopra CucCuc"
   ]
  },
  {
@@ -152207,7 +152219,7 @@
   "year": "1636",
   "minutes": 4,
   "set": "Sonate et canzoni, Libro 6 (1636)",
-  "notes": "From the sixth book of 1636 (23 pieces for 2 to 6 parts); a part may go to cornetto or bass viol",
+  "notes": "From the sixth book of 1636 (23 pieces for 2 to 6 parts); bass part for fagotto or basso da brazzo",
   "popularity": "lesser-known",
   "imslpPage": "Sonate et canzoni, Libro 6 (Buonamente, Giovanni Battista)",
   "mode": null,
@@ -152233,7 +152245,7 @@
   "year": "1636",
   "minutes": 6,
   "set": "Sonate et canzoni, Libro 6 (1636)",
-  "notes": "From the sixth book of 1636 (23 pieces for 2 to 6 parts); a part may go to cornetto or bass viol",
+  "notes": "From the sixth book of 1636 (23 pieces for 2 to 6 parts); for three violins and continuo",
   "popularity": "lesser-known",
   "imslpPage": "Sonate et canzoni, Libro 6 (Buonamente, Giovanni Battista)",
   "mode": null,
@@ -152259,7 +152271,7 @@
   "year": "1636",
   "minutes": 5,
   "set": "Sonate et canzoni, Libro 6 (1636)",
-  "notes": "From the sixth book of 1636 (23 pieces for 2 to 6 parts); a part may go to cornetto or bass viol",
+  "notes": "From the sixth book of 1636 (23 pieces for 2 to 6 parts); second violin part may go to cornetto",
   "popularity": "lesser-known",
   "imslpPage": "Sonate et canzoni, Libro 6 (Buonamente, Giovanni Battista)",
   "mode": null,
@@ -152291,7 +152303,7 @@
   "year": "1636",
   "minutes": 4,
   "set": "Sonate et canzoni, Libro 6 (1636)",
-  "notes": "From the sixth book of 1636 (23 pieces for 2 to 6 parts); a part may go to cornetto or bass viol",
+  "notes": "From the sixth book of 1636 (23 pieces for 2 to 6 parts); bass part for dolzaina (dulcian) or basso da brazzo",
   "popularity": "lesser-known",
   "imslpPage": "Sonate et canzoni, Libro 6 (Buonamente, Giovanni Battista)",
   "mode": null,
@@ -152347,7 +152359,7 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1729",
-  "minutes": null,
+  "minutes": 12,
   "set": "Sonates en duo et en trio, Op. 2",
   "notes": "French trio sonata for flute and violin (or two flutes or violins) with continuo; dance movements",
   "popularity": "lesser-known",
@@ -152379,7 +152391,7 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1729",
-  "minutes": null,
+  "minutes": 11,
   "set": "Sonates en duo et en trio, Op. 2",
   "notes": "French trio sonata for flute and violin (or two flutes or violins) with continuo; dance movements",
   "popularity": "lesser-known",
@@ -152411,9 +152423,9 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1729",
-  "minutes": null,
+  "minutes": 10,
   "set": "Sonates en duo et en trio, Op. 2",
-  "notes": "French trio sonata for flute and violin (or two flutes or violins) with continuo; dance movements",
+  "notes": "French trio sonata for flute and violin (or two flutes or violins) with continuo; two fugues",
   "popularity": "lesser-known",
   "imslpPage": "Sonates en duo et en trio, Op.2 (Chéron, André)",
   "mode": "major",
@@ -152443,9 +152455,9 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1729",
-  "minutes": null,
+  "minutes": 12,
   "set": "Sonates en duo et en trio, Op. 2",
-  "notes": "French trio sonata for flute and violin (or two flutes or violins) with continuo; dance movements",
+  "notes": "French trio sonata for flute and violin (or two flutes or violins) with continuo; prelude and chaconne",
   "popularity": "lesser-known",
   "imslpPage": "Sonates en duo et en trio, Op.2 (Chéron, André)",
   "mode": "major",
@@ -152471,7 +152483,7 @@
   "year": "1662",
   "minutes": 4,
   "set": "Plectrum musicum, Op. 4",
-  "notes": "Short sonata from the Frankfurt print of 1662; the print's sonatas use one to five voices over continuo",
+  "notes": "Short sonata from the Frankfurt print of 1662 (24 sonatas for two to five instruments and continuo)",
   "popularity": "lesser-known",
   "imslpPage": "Plectrum musicum, Op.4 (Buchner, Philip Friedrich)",
   "mode": "minor",
@@ -152497,7 +152509,7 @@
   "year": "1662",
   "minutes": 4,
   "set": "Plectrum musicum, Op. 4",
-  "notes": "Short sonata from the Frankfurt print of 1662; the print's sonatas use one to five voices over continuo",
+  "notes": "Short sonata from the Frankfurt print of 1662 (24 sonatas for two to five instruments and continuo)",
   "popularity": "lesser-known",
   "imslpPage": "Plectrum musicum, Op.4 (Buchner, Philip Friedrich)",
   "mode": "minor",
@@ -152523,7 +152535,7 @@
   "year": "1662",
   "minutes": 4,
   "set": "Plectrum musicum, Op. 4",
-  "notes": "Short sonata from the Frankfurt print of 1662; the print's sonatas use one to five voices over continuo",
+  "notes": "Short sonata from the Frankfurt print of 1662 (24 sonatas for two to five instruments and continuo)",
   "popularity": "lesser-known",
   "imslpPage": "Plectrum musicum, Op.4 (Buchner, Philip Friedrich)",
   "mode": "minor",
@@ -152550,7 +152562,7 @@
   "year": "1662",
   "minutes": 8,
   "set": "Plectrum musicum, Op. 4",
-  "notes": "Short sonata from the Frankfurt print of 1662; the print's sonatas use one to five voices over continuo",
+  "notes": "Short sonata from the Frankfurt print of 1662 (24 sonatas for two to five instruments and continuo)",
   "popularity": "lesser-known",
   "imslpPage": "Plectrum musicum, Op.4 (Buchner, Philip Friedrich)",
   "mode": "minor",
@@ -152577,7 +152589,7 @@
   "year": "1662",
   "minutes": 6,
   "set": "Plectrum musicum, Op. 4",
-  "notes": "Short sonata from the Frankfurt print of 1662; the print's sonatas use one to five voices over continuo",
+  "notes": "Short sonata from the Frankfurt print of 1662 (24 sonatas for two to five instruments and continuo)",
   "popularity": "lesser-known",
   "imslpPage": "Plectrum musicum, Op.4 (Buchner, Philip Friedrich)",
   "mode": "minor",
@@ -152604,7 +152616,7 @@
   "year": "1662",
   "minutes": 5,
   "set": "Plectrum musicum, Op. 4",
-  "notes": "Short sonata from the Frankfurt print of 1662; the print's sonatas use one to five voices over continuo",
+  "notes": "Short sonata from the Frankfurt print of 1662 (24 sonatas for two to five instruments and continuo)",
   "popularity": "lesser-known",
   "imslpPage": "Plectrum musicum, Op.4 (Buchner, Philip Friedrich)",
   "mode": "major",
@@ -152631,7 +152643,7 @@
   "year": "1662",
   "minutes": 5,
   "set": "Plectrum musicum, Op. 4",
-  "notes": "Short sonata from the Frankfurt print of 1662; the print's sonatas use one to five voices over continuo",
+  "notes": "Short sonata from the Frankfurt print of 1662 (24 sonatas for two to five instruments and continuo)",
   "popularity": "lesser-known",
   "imslpPage": "Plectrum musicum, Op.4 (Buchner, Philip Friedrich)",
   "mode": "minor",
@@ -152658,7 +152670,7 @@
   "year": "1662",
   "minutes": 4,
   "set": "Plectrum musicum, Op. 4",
-  "notes": "Short sonata from the Frankfurt print of 1662; the print's sonatas use one to five voices over continuo",
+  "notes": "Short sonata from the Frankfurt print of 1662 (24 sonatas for two to five instruments and continuo)",
   "popularity": "lesser-known",
   "imslpPage": "Plectrum musicum, Op.4 (Buchner, Philip Friedrich)",
   "mode": "minor",
@@ -152685,7 +152697,7 @@
   "year": "1662",
   "minutes": 5,
   "set": "Plectrum musicum, Op. 4",
-  "notes": "Short sonata from the Frankfurt print of 1662; the print's sonatas use one to five voices over continuo",
+  "notes": "Short sonata from the Frankfurt print of 1662 (24 sonatas for two to five instruments and continuo)",
   "popularity": "lesser-known",
   "imslpPage": "Plectrum musicum, Op.4 (Buchner, Philip Friedrich)",
   "mode": "minor",
@@ -152712,7 +152724,7 @@
   "year": "1662",
   "minutes": 5,
   "set": "Plectrum musicum, Op. 4",
-  "notes": "Short sonata from the Frankfurt print of 1662; the print's sonatas use one to five voices over continuo",
+  "notes": "Short sonata from the Frankfurt print of 1662 (24 sonatas for two to five instruments and continuo)",
   "popularity": "lesser-known",
   "imslpPage": "Plectrum musicum, Op.4 (Buchner, Philip Friedrich)",
   "mode": "minor",
@@ -152866,7 +152878,7 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1697",
-  "minutes": 6,
+  "minutes": 10,
   "set": "Twelve Trio Sonatas, Op. 1",
   "notes": "Neapolitan church-style sonata for two violins and bass (violone, organ); the recording calls it 'a 4'",
   "popularity": "lesser-known",
@@ -152892,7 +152904,7 @@
   "level": 3,
   "hardestPart": "balanced",
   "year": "1697",
-  "minutes": 3,
+  "minutes": 8,
   "set": "Twelve Trio Sonatas, Op. 1",
   "notes": "Neapolitan church-style sonata for two violins and bass (violone, organ); the recording calls it 'a 4'",
   "popularity": "lesser-known",
@@ -152988,17 +153000,17 @@
   "title": "Trio Sonata No. 1 in B-flat major",
   "formation": "continuo",
   "instruments": {
-   "cello": 2,
+   "viola-da-gamba": 2,
    "continuo": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "cello 1",
-  "year": "1702",
+  "hardestPart": "viola-da-gamba 1",
+  "year": "c. 1702",
   "minutes": 5,
   "set": "Ten Trio Sonatas",
-  "notes": "Trio sonata for two cellos and continuo in short movements",
+  "notes": "Two viols (or two bassoons or bass violins) and continuo, in short movements; printed under the name Carolo",
   "popularity": "lesser-known",
   "imslpPage": "10 Trio Sonatas (Carolo)",
   "mode": "major",
@@ -153006,7 +153018,13 @@
   "character": [
    "lyrical",
    "dance"
-  ]
+  ],
+  "alternatives": {
+   "viola-da-gamba": [
+    "bassoon",
+    "cello"
+   ]
+  }
  },
  {
   "id": 105275,
@@ -153014,17 +153032,17 @@
   "title": "Trio Sonata No. 2 in F major",
   "formation": "continuo",
   "instruments": {
-   "cello": 2,
+   "viola-da-gamba": 2,
    "continuo": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "cello 1",
-  "year": "1702",
+  "hardestPart": "viola-da-gamba 1",
+  "year": "c. 1702",
   "minutes": 4,
   "set": "Ten Trio Sonatas",
-  "notes": "Trio sonata for two cellos and continuo in short movements",
+  "notes": "Two viols (or two bassoons or bass violins) and continuo, in short movements; printed under the name Carolo",
   "popularity": "lesser-known",
   "imslpPage": "10 Trio Sonatas (Carolo)",
   "mode": "major",
@@ -153032,7 +153050,13 @@
   "character": [
    "lyrical",
    "dance"
-  ]
+  ],
+  "alternatives": {
+   "viola-da-gamba": [
+    "bassoon",
+    "cello"
+   ]
+  }
  },
  {
   "id": 105276,
@@ -153040,17 +153064,17 @@
   "title": "Trio Sonata No. 4 in D major",
   "formation": "continuo",
   "instruments": {
-   "cello": 2,
+   "viola-da-gamba": 2,
    "continuo": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "cello 1",
-  "year": "1702",
+  "hardestPart": "viola-da-gamba 1",
+  "year": "c. 1702",
   "minutes": 6,
   "set": "Ten Trio Sonatas",
-  "notes": "Trio sonata for two cellos and continuo in short movements",
+  "notes": "Two viols (or two bassoons or bass violins) and continuo, in short movements; printed under the name Carolo",
   "popularity": "lesser-known",
   "imslpPage": "10 Trio Sonatas (Carolo)",
   "mode": "major",
@@ -153058,7 +153082,13 @@
   "character": [
    "lyrical",
    "dance"
-  ]
+  ],
+  "alternatives": {
+   "viola-da-gamba": [
+    "bassoon",
+    "cello"
+   ]
+  }
  },
  {
   "id": 105277,
@@ -153066,17 +153096,17 @@
   "title": "Trio Sonata No. 5 in G major",
   "formation": "continuo",
   "instruments": {
-   "cello": 2,
+   "viola-da-gamba": 2,
    "continuo": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "cello 1",
-  "year": "1702",
+  "hardestPart": "viola-da-gamba 1",
+  "year": "c. 1702",
   "minutes": 4,
   "set": "Ten Trio Sonatas",
-  "notes": "Trio sonata for two cellos and continuo in short movements",
+  "notes": "Two viols (or two bassoons or bass violins) and continuo, in short movements; printed under the name Carolo",
   "popularity": "lesser-known",
   "imslpPage": "10 Trio Sonatas (Carolo)",
   "mode": "major",
@@ -153084,7 +153114,13 @@
   "character": [
    "lyrical",
    "dance"
-  ]
+  ],
+  "alternatives": {
+   "viola-da-gamba": [
+    "bassoon",
+    "cello"
+   ]
+  }
  },
  {
   "id": 105278,
@@ -153092,17 +153128,17 @@
   "title": "Trio Sonata No. 6 in B-flat major",
   "formation": "continuo",
   "instruments": {
-   "cello": 2,
+   "viola-da-gamba": 2,
    "continuo": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "cello 1",
-  "year": "1702",
+  "hardestPart": "viola-da-gamba 1",
+  "year": "c. 1702",
   "minutes": 6,
   "set": "Ten Trio Sonatas",
-  "notes": "Trio sonata for two cellos and continuo in short movements",
+  "notes": "Two viols (or two bassoons or bass violins) and continuo, in short movements; printed under the name Carolo",
   "popularity": "lesser-known",
   "imslpPage": "10 Trio Sonatas (Carolo)",
   "mode": "major",
@@ -153110,7 +153146,13 @@
   "character": [
    "lyrical",
    "dance"
-  ]
+  ],
+  "alternatives": {
+   "viola-da-gamba": [
+    "bassoon",
+    "cello"
+   ]
+  }
  },
  {
   "id": 105279,
@@ -153118,17 +153160,17 @@
   "title": "Trio Sonata No. 7 in D minor",
   "formation": "continuo",
   "instruments": {
-   "cello": 2,
+   "viola-da-gamba": 2,
    "continuo": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "cello 1",
-  "year": "1702",
+  "hardestPart": "viola-da-gamba 1",
+  "year": "c. 1702",
   "minutes": 5,
   "set": "Ten Trio Sonatas",
-  "notes": "Trio sonata for two cellos and continuo in short movements",
+  "notes": "Two viols (or two bassoons or bass violins) and continuo, in short movements; printed under the name Carolo",
   "popularity": "lesser-known",
   "imslpPage": "10 Trio Sonatas (Carolo)",
   "mode": "minor",
@@ -153136,7 +153178,13 @@
   "character": [
    "lyrical",
    "dance"
-  ]
+  ],
+  "alternatives": {
+   "viola-da-gamba": [
+    "bassoon",
+    "cello"
+   ]
+  }
  },
  {
   "id": 105280,
@@ -153144,17 +153192,17 @@
   "title": "Trio Sonata No. 8 in A minor",
   "formation": "continuo",
   "instruments": {
-   "cello": 2,
+   "viola-da-gamba": 2,
    "continuo": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "cello 1",
-  "year": "1702",
+  "hardestPart": "viola-da-gamba 1",
+  "year": "c. 1702",
   "minutes": 5,
   "set": "Ten Trio Sonatas",
-  "notes": "Trio sonata for two cellos and continuo in short movements",
+  "notes": "Two viols (or two bassoons or bass violins) and continuo, in short movements; printed under the name Carolo",
   "popularity": "lesser-known",
   "imslpPage": "10 Trio Sonatas (Carolo)",
   "mode": "minor",
@@ -153162,7 +153210,13 @@
   "character": [
    "lyrical",
    "dance"
-  ]
+  ],
+  "alternatives": {
+   "viola-da-gamba": [
+    "bassoon",
+    "cello"
+   ]
+  }
  },
  {
   "id": 105281,
@@ -153170,17 +153224,17 @@
   "title": "Trio Sonata No. 9 in C major",
   "formation": "continuo",
   "instruments": {
-   "cello": 2,
+   "viola-da-gamba": 2,
    "continuo": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "cello 1",
-  "year": "1702",
+  "hardestPart": "viola-da-gamba 1",
+  "year": "c. 1702",
   "minutes": 6,
   "set": "Ten Trio Sonatas",
-  "notes": "Trio sonata for two cellos and continuo in short movements",
+  "notes": "Two viols (or two bassoons or bass violins) and continuo, in short movements; printed under the name Carolo",
   "popularity": "lesser-known",
   "imslpPage": "10 Trio Sonatas (Carolo)",
   "mode": "major",
@@ -153188,7 +153242,13 @@
   "character": [
    "lyrical",
    "dance"
-  ]
+  ],
+  "alternatives": {
+   "viola-da-gamba": [
+    "bassoon",
+    "cello"
+   ]
+  }
  },
  {
   "id": 105282,
@@ -153196,17 +153256,17 @@
   "title": "Trio Sonata No. 10 in G major",
   "formation": "continuo",
   "instruments": {
-   "cello": 2,
+   "viola-da-gamba": 2,
    "continuo": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "cello 1",
-  "year": "1702",
+  "hardestPart": "viola-da-gamba 1",
+  "year": "c. 1702",
   "minutes": 4,
   "set": "Ten Trio Sonatas",
-  "notes": "Trio sonata for two cellos and continuo in short movements",
+  "notes": "Two viols (or two bassoons or bass violins) and continuo, in short movements; printed under the name Carolo",
   "popularity": "lesser-known",
   "imslpPage": "10 Trio Sonatas (Carolo)",
   "mode": "major",
@@ -153214,7 +153274,13 @@
   "character": [
    "lyrical",
    "dance"
-  ]
+  ],
+  "alternatives": {
+   "viola-da-gamba": [
+    "bassoon",
+    "cello"
+   ]
+  }
  },
  {
   "id": 105283,
@@ -159898,12 +159964,12 @@
   "form": "work",
   "level": 4,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "c. 1802",
   "minutes": 26,
   "set": "Three String Quartets, Op. 14",
   "notes": "Four movements; the first of three quartets, recorded by the Polish String Quartet Berlin",
   "popularity": "lesser-known",
-  "imslpPage": "3 String Quartets, Op.14 (André, Johann Anton)",
+  "imslpPage": "String Quartet, Op.14 No.1 (André, Johann Anton)",
   "mode": "major",
   "pace": "moderate",
   "character": [
@@ -160540,10 +160606,10 @@
   "form": "work",
   "level": 3,
   "hardestPart": "violin",
-  "year": "",
+  "year": "1784",
   "minutes": 12,
   "set": null,
-  "notes": "Three-movement trio for violin, viola and cello (Serie 4)",
+  "notes": "Three-movement trio for violin, viola and cello; from the set dated 1784",
   "popularity": "lesser-known",
   "imslpPage": "23 Divertissements (Brunetti, Gaetano)",
   "mode": "major",
@@ -160567,10 +160633,10 @@
   "form": "work",
   "level": 3,
   "hardestPart": "violin",
-  "year": "",
+  "year": "1784",
   "minutes": 12,
   "set": null,
-  "notes": "Three-movement trio for violin, viola and cello (Serie 4)",
+  "notes": "Three-movement trio for violin, viola and cello; from the set dated 1784",
   "popularity": "lesser-known",
   "imslpPage": "23 Divertissements (Brunetti, Gaetano)",
   "mode": "major",
@@ -160594,10 +160660,10 @@
   "form": "work",
   "level": 3,
   "hardestPart": "violin",
-  "year": "",
+  "year": "1784",
   "minutes": 12,
   "set": null,
-  "notes": "Three-movement trio for violin, viola and cello (Serie 4)",
+  "notes": "Three-movement trio for violin, viola and cello; from the set dated 1784",
   "popularity": "lesser-known",
   "imslpPage": "23 Divertissements (Brunetti, Gaetano)",
   "mode": "minor",
@@ -160621,10 +160687,10 @@
   "form": "work",
   "level": 3,
   "hardestPart": "violin",
-  "year": "",
+  "year": "1784",
   "minutes": 10,
   "set": null,
-  "notes": "Three-movement trio for violin, viola and cello (Serie 4)",
+  "notes": "Three-movement trio for violin, viola and cello; from the set dated 1784",
   "popularity": "lesser-known",
   "imslpPage": "23 Divertissements (Brunetti, Gaetano)",
   "mode": "major",
@@ -160649,10 +160715,10 @@
   "form": "work",
   "level": 3,
   "hardestPart": "violin",
-  "year": "",
+  "year": "1784",
   "minutes": 11,
   "set": null,
-  "notes": "Three-movement trio for violin, viola and cello (Serie 4)",
+  "notes": "Three-movement trio for violin, viola and cello; from the set dated 1784",
   "popularity": "lesser-known",
   "imslpPage": "23 Divertissements (Brunetti, Gaetano)",
   "mode": "major",
@@ -161054,7 +161120,7 @@
  {
   "id": 105550,
   "composer": "Brunetti, Gaetano",
-  "title": "String Quartet in F major, L. 156",
+  "title": "String Quartet in F major, Op. 3 No. 1, L. 156",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -161065,10 +161131,10 @@
   "form": "work",
   "level": 3,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1774",
   "minutes": 11,
   "set": "Six String Quartets, Op. 3",
-  "notes": "Two movements; Concerto 1700 record all six of Op. 3 on period instruments",
+  "notes": "Two movements; one of the six quartets of Op. 3 (1774)",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -161081,7 +161147,7 @@
  {
   "id": 105551,
   "composer": "Brunetti, Gaetano",
-  "title": "String Quartet in A major, L. 157",
+  "title": "String Quartet in A major, Op. 3 No. 2, L. 157",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -161092,10 +161158,10 @@
   "form": "work",
   "level": 3,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1774",
   "minutes": 10,
   "set": "Six String Quartets, Op. 3",
-  "notes": "Two movements; Concerto 1700 record all six of Op. 3 on period instruments",
+  "notes": "Two movements; one of the six quartets of Op. 3 (1774)",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -161108,7 +161174,7 @@
  {
   "id": 105552,
   "composer": "Brunetti, Gaetano",
-  "title": "String Quartet in C major, L. 158",
+  "title": "String Quartet in C major, Op. 3 No. 3, L. 158",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -161119,10 +161185,10 @@
   "form": "work",
   "level": 3,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1774",
   "minutes": 8,
   "set": "Six String Quartets, Op. 3",
-  "notes": "Two movements; Concerto 1700 record all six of Op. 3 on period instruments",
+  "notes": "Two movements; one of the six quartets of Op. 3 (1774)",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -161135,7 +161201,7 @@
  {
   "id": 105553,
   "composer": "Brunetti, Gaetano",
-  "title": "String Quartet in A major, L. 159",
+  "title": "String Quartet in A major, Op. 3 No. 4, L. 159",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -161146,10 +161212,10 @@
   "form": "work",
   "level": 3,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1774",
   "minutes": 10,
   "set": "Six String Quartets, Op. 3",
-  "notes": "Two movements; Concerto 1700 record all six of Op. 3 on period instruments",
+  "notes": "Two movements; one of the six quartets of Op. 3 (1774)",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -161162,7 +161228,7 @@
  {
   "id": 105554,
   "composer": "Brunetti, Gaetano",
-  "title": "String Quartet in E-flat major, L. 160",
+  "title": "String Quartet in E-flat major, Op. 3 No. 5, L. 160",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -161173,10 +161239,10 @@
   "form": "work",
   "level": 3,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1774",
   "minutes": 15,
   "set": "Six String Quartets, Op. 3",
-  "notes": "Two movements; Concerto 1700 record all six of Op. 3 on period instruments",
+  "notes": "Two movements; one of the six quartets of Op. 3 (1774)",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -161200,10 +161266,10 @@
   "form": "work",
   "level": 3,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1774",
   "minutes": 10,
   "set": "Six String Quartets, Op. 3",
-  "notes": "Two movements; Concerto 1700 record all six of Op. 3 on period instruments",
+  "notes": "Two movements: Andantino con variazioni, then Allegro; last of the six quartets of Op. 3 (1774)",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -161425,7 +161491,7 @@
  {
   "id": 105564,
   "composer": "Brunetti, Gaetano",
-  "title": "String Quartet in A major, BruWV VI:A8",
+  "title": "String Quartet in A major",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -161439,7 +161505,7 @@
   "year": "",
   "minutes": 16,
   "set": null,
-  "notes": "Three movements; BruWV numbers as in MusicBrainz",
+  "notes": "Three movements, the last a theme with variations",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -161451,7 +161517,7 @@
  {
   "id": 105565,
   "composer": "Brunetti, Gaetano",
-  "title": "String Quartet in G minor, Op. 2 No. 1, BruWV VI:g1",
+  "title": "String Quartet in G minor, Op. 2 No. 1, L. 150",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -161465,7 +161531,7 @@
   "year": "",
   "minutes": 18,
   "set": "Six String Quartets, Op. 2",
-  "notes": "Four movements; BruWV numbers as in MusicBrainz",
+  "notes": "Four movements with minuet and trio",
   "popularity": "lesser-known",
   "mode": "minor",
   "pace": "moderate",
@@ -161477,7 +161543,7 @@
  {
   "id": 105566,
   "composer": "Brunetti, Gaetano",
-  "title": "String Quartet in B-flat major, BruWV VI:B7",
+  "title": "String Quartet in B-flat major, L. 192",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -161491,7 +161557,7 @@
   "year": "",
   "minutes": 18,
   "set": null,
-  "notes": "Four movements; BruWV numbers as in MusicBrainz",
+  "notes": "Four movements with minuet and trio",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -161503,7 +161569,7 @@
  {
   "id": 105567,
   "composer": "Brunetti, Gaetano",
-  "title": "String Quartet in E-flat major, Op. 2 No. 3, BruWV VI:Es2",
+  "title": "String Quartet in E-flat major, Op. 2 No. 3, L. 152",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -161517,7 +161583,7 @@
   "year": "",
   "minutes": 14,
   "set": "Six String Quartets, Op. 2",
-  "notes": "Four movements; BruWV numbers as in MusicBrainz",
+  "notes": "Four movements with minuet and trio",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -162074,7 +162140,7 @@
   "year": "1796–99",
   "minutes": 15,
   "set": "Three Clarinet Quartets (manuscripts)",
-  "notes": "Two movements; from manuscripts first recorded in 2021",
+  "notes": "Two movements; from manuscripts, recorded in 2021",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -162101,7 +162167,7 @@
   "year": "1796–99",
   "minutes": 18,
   "set": "Three Clarinet Quartets (manuscripts)",
-  "notes": "Two movements; from manuscripts first recorded in 2021",
+  "notes": "Two movements; from manuscripts, recorded in 2021",
   "popularity": "lesser-known",
   "mode": "minor",
   "pace": "moderate",
@@ -162128,7 +162194,7 @@
   "year": "1796–99",
   "minutes": 14,
   "set": "Three Clarinet Quartets (manuscripts)",
-  "notes": "Two movements; from manuscripts first recorded in 2021",
+  "notes": "Two movements; from manuscripts, recorded in 2021",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "lively",
@@ -172156,10 +172222,10 @@
   "form": "work",
   "level": 4,
   "hardestPart": "piano",
-  "year": "1812",
+  "year": "1815",
   "minutes": 13,
   "set": null,
-  "notes": "One-movement early trio; Melodiya credits an arrangement by Boris Dobrokhotov",
+  "notes": "Unfinished one-movement trio; edited by Boris Dobrokhotov (Muzgiz, c. 1952)",
   "popularity": "lesser-known",
   "imslpPage": "Piano Trio in E-flat major (Alyabyev, Aleksandr)",
   "mode": "major",
@@ -172182,7 +172248,7 @@
   "form": "work",
   "level": 4,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1815",
   "minutes": 24,
   "set": null,
   "notes": "Early Russian quartet in Classical style; four movements",
@@ -172207,7 +172273,7 @@
   "form": "work",
   "level": 4,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1825",
   "minutes": 25,
   "set": null,
   "notes": "Early Russian quartet in Classical style; four movements",
@@ -172253,7 +172319,7 @@
  {
   "id": 105941,
   "composer": "Bertini, Henri",
-  "title": "Piano Trio, Op. 43",
+  "title": "Piano Trio in A major, Op. 43",
   "aka": [
    "Grand Trio, Op. 43"
   ],
@@ -172484,35 +172550,6 @@
   ]
  },
  {
-  "id": 105949,
-  "composer": "Dancla, Charles",
-  "title": "String Quartet No. 2",
-  "aka": [
-   "Quatuor à cordes brillant No. 2"
-  ],
-  "formation": "string-quartet",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 5,
-  "hardestPart": "violin 1",
-  "year": "",
-  "minutes": 20,
-  "set": null,
-  "notes": "Quatuor brillant with a showy first violin; three movements",
-  "popularity": "lesser-known",
-  "mode": null,
-  "pace": "lively",
-  "character": [
-   "virtuosic",
-   "playful"
-  ]
- },
- {
   "id": 105950,
   "composer": "Dickhut, Christian",
   "title": "Serenade in A major, Op. 3",
@@ -172569,9 +172606,10 @@
  {
   "id": 105952,
   "composer": "Dickhut, Christian",
-  "title": "Serenade in D major, ICD 1",
+  "title": "Serenade in D major (without opus number)",
   "aka": [
-   "Sérénade pour guitarre, flûte et cor ou alto"
+   "Sérénade pour guitarre, flûte et cor ou alto",
+   "Serenade in D major, ICD 1"
   ],
   "formation": "winds-strings",
   "instruments": {
@@ -172767,7 +172805,7 @@
   "form": "short",
   "level": 5,
   "hardestPart": "piano",
-  "year": "",
+  "year": "1846",
   "minutes": 8,
   "set": null,
   "notes": "Showpiece trio; recorded with violin and with oboe",
@@ -174106,18 +174144,18 @@
   "title": "Pensieri di Bellini, Op. 55",
   "formation": "winds-strings",
   "instruments": {
-   "clarinet": 1,
+   "flute": 1,
    "cello": 1,
    "piano": 1
   },
   "players": 3,
   "form": "short",
   "level": 6,
-  "hardestPart": "clarinet",
+  "hardestPart": "flute",
   "year": "",
   "minutes": 6,
   "set": null,
-  "notes": "Short clarinet trio on themes of Bellini; played by the same trio as the Gran Trios",
+  "notes": "Homage to Bellini's melodies for flute, cello and piano; Trio Clementi play it on clarinet",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "moderate",
@@ -174636,7 +174674,7 @@
  {
   "id": 106025,
   "composer": "Castillon, Alexis de",
-  "title": "String Quartet, Op. 3",
+  "title": "String Quartet in A minor, Op. 3",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -174931,7 +174969,7 @@
  {
   "id": 106036,
   "composer": "Čiurlionis, Mikalojus Konstantinas",
-  "title": "String Quartet in C minor",
+  "title": "String Quartet in C minor, VL 83",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -174942,7 +174980,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1901–02",
   "minutes": 24,
   "set": null,
   "notes": "Three movements",
@@ -175395,7 +175433,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1938",
   "minutes": 21,
   "set": null,
   "notes": "Three movements",
@@ -176014,7 +176052,7 @@
   "form": "set",
   "level": 4,
   "hardestPart": "violin 1",
-  "year": "1889",
+  "year": "c. 1900",
   "minutes": 13,
   "set": null,
   "notes": "Three short movements, the first a minuet",
@@ -176078,6 +176116,9 @@
   "character": [
    "lyrical",
    "dance"
+  ],
+  "aka": [
+   "String Quartet No. 1"
   ]
  },
  {
@@ -176104,6 +176145,9 @@
   "character": [
    "lyrical",
    "dance"
+  ],
+  "aka": [
+   "String Quartet No. 3"
   ]
  },
  {
@@ -176120,7 +176164,7 @@
   "form": "work",
   "level": 5,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1902",
   "minutes": 27,
   "set": null,
   "notes": "Four movements",
@@ -176130,6 +176174,9 @@
   "character": [
    "lyrical",
    "dance"
+  ],
+  "aka": [
+   "String Quartet No. 4"
   ]
  },
  {
@@ -176146,7 +176193,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "piano",
-  "year": "",
+  "year": "1886",
   "minutes": 27,
   "set": null,
   "notes": "Four movements with an introduction to the scherzo; by a pupil of Bruckner",
@@ -176281,7 +176328,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "flute",
-  "year": "1901",
+  "year": "1886–87",
   "minutes": 23,
   "set": null,
   "notes": "Flute with string quartet; four movements ending in a Basque dance (Pordon Dantza)",
@@ -176435,7 +176482,7 @@
  },
  {
   "id": 106091,
-  "composer": "Bériot, Charles-Wilfrid",
+  "composer": "Bériot, Charles de",
   "title": "Piano Trio No. 2 in D major, Op. 58",
   "formation": "piano-trio",
   "instruments": {
@@ -176447,16 +176494,20 @@
   "form": "work",
   "level": 6,
   "hardestPart": "piano",
-  "year": "",
+  "year": "1847",
   "minutes": 18,
   "set": null,
-  "notes": "Three movements; composer identified through the opus sequence after his Piano Quartets Opp. 50 and 55",
+  "notes": "Three movements; Troupenas 1847 as Op. 58 (Schott: Op. 59); IMSLP: from Concertant Duet Op. 57 No. 3",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
   "character": [
    "lyrical"
-  ]
+  ],
+  "aka": [
+   "Piano Trio No. 2 in D major, Op. 59"
+  ],
+  "imslpPage": "Piano Trio in D major, Op.59 (Bériot, Charles-Auguste de)"
  },
  {
   "id": 106092,
@@ -183097,7 +183148,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "balanced",
-  "year": "1914 (rev. 1924)",
+  "year": "1914–18 (rev. 1924)",
   "minutes": 33,
   "set": null,
   "notes": "Three movements; the recording is of the 1924 revised version",
@@ -183181,7 +183232,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "piano",
-  "year": "",
+  "year": "1945",
   "minutes": 28,
   "set": null,
   "notes": "Three movements; recorded with the Violin Sonata of 1923",
@@ -183207,7 +183258,7 @@
   "form": "work",
   "level": 8,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1932",
   "minutes": 28,
   "set": null,
   "notes": "Chamber concerto for piano trio (no orchestra), three movements",
@@ -183348,7 +183399,7 @@
   "year": "1909–38",
   "minutes": 30,
   "set": null,
-  "notes": "Four movements with Scherzo and Romance; IMSLP dates it 1909-38",
+  "notes": "Four movements; the Scherzo and Romance come from the withdrawn 1909 quartet, Op. 2",
   "popularity": "lesser-known",
   "imslpPage": "String Quartet No.3, Op.39 (Atterberg, Kurt)",
   "mode": "major",
@@ -183518,10 +183569,10 @@
   "form": "work",
   "level": 6,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1936",
   "minutes": 9,
   "set": null,
-  "notes": "Four short movements; fast, then a Largo, then Allegro quasi presto",
+  "notes": "Four short movements: Allegretto, Largo, Moderato, Allegro quasi presto",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "moderate",
@@ -183576,7 +183627,7 @@
   "year": "1940",
   "minutes": 11,
   "set": null,
-  "notes": "Three movements; also on a Thorofon chamber-music disc",
+  "notes": "Two movements (Andante - Allegro; Sostenuto - Vivace); also on a Thorofon chamber-music disc",
   "popularity": "lesser-known",
   "imslpPage": "String Quartet No.2, Op.16 (Blacher, Boris)",
   "mode": null,
@@ -183656,7 +183707,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1923",
   "minutes": 28,
   "set": null,
   "notes": "Four movements: two landscapes, a Satire and a Song of the Hills",
@@ -183682,7 +183733,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1923",
   "minutes": 27,
   "set": null,
   "notes": "Four movements: Apollonian, Dionysian, Threnody, Aphrodisian",
@@ -183987,7 +184038,7 @@
   "form": "work",
   "level": 8,
   "hardestPart": "organ",
-  "year": "",
+  "year": "1960",
   "minutes": 21,
   "set": null,
   "notes": "Three movements: Calme, Lento, Energico - Largo - Presto",
@@ -185937,7 +185988,7 @@
   "form": "work",
   "level": 8,
   "hardestPart": "balanced",
-  "year": "1951",
+  "year": "1949",
   "minutes": 55,
   "set": null,
   "notes": "Four long movements; dedicated to Ida Rubinstein in memory of Ravel",
@@ -186134,8 +186185,8 @@
   "form": "work",
   "level": 5,
   "hardestPart": "balanced",
-  "year": "1910",
-  "minutes": null,
+  "year": "1905",
+  "minutes": 26,
   "set": null,
   "notes": "Serenade in several movements for string quartet",
   "popularity": "lesser-known",
@@ -186436,7 +186487,7 @@
   "level": 7,
   "hardestPart": "balanced",
   "year": "1965",
-  "minutes": 20,
+  "minutes": 15,
   "set": null,
   "notes": "Clarinet, bassoon, horn and string quintet; the Thorofon disc lists four movements",
   "popularity": "lesser-known",
@@ -186576,7 +186627,7 @@
   "form": "short",
   "level": 7,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "2000",
   "minutes": 7,
   "set": null,
   "notes": "For saxophone, violin, viola and double bass with tape; written for the Brisbane ensemble Topology",
@@ -190626,7 +190677,7 @@
   "form": "short",
   "level": 6,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "2009",
   "minutes": 9,
   "set": null,
   "notes": "Tango quintet piece (bandoneón/accordion, guitar, violin, double bass, keyboard); on Diz's Fragor Urbano (2018)",
@@ -197007,6 +197058,9 @@
   "character": [
    "dramatic",
    "virtuosic"
+  ],
+  "aka": [
+   "Triptych: The Mirror with Three Faces"
   ]
  },
  {
@@ -197084,6 +197138,9 @@
   "character": [
    "dark",
    "dramatic"
+  ],
+  "aka": [
+   "Sonnet for String Quartet No. 3"
   ]
  },
  {
@@ -197997,7 +198054,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "violin 1",
-  "year": "1942",
+  "year": "1943",
   "minutes": 22,
   "set": null,
   "notes": "Three movements: Allegro ma non troppo, Andante and Allegro",
@@ -203025,7 +203082,7 @@
   "year": "1995",
   "minutes": 12,
   "set": null,
-  "notes": "Single movement of about 12 minutes",
+  "notes": "Premiered by the Arditti Quartet in 1996; published by Schott",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "moderate",
@@ -203051,7 +203108,7 @@
   "year": "1994",
   "minutes": 10,
   "set": null,
-  "notes": "For accordion, alto saxophone and double bass",
+  "notes": "For accordion (or alto sho, as on the Mode recording), alto saxophone and double bass",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "moderate",
@@ -203550,7 +203607,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "clarinet",
-  "year": "",
+  "year": "1941",
   "minutes": 27,
   "set": null,
   "notes": "Three movements for clarinet and string quartet",
@@ -203576,7 +203633,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "piano",
-  "year": "",
+  "year": "1939",
   "minutes": 20,
   "set": null,
   "notes": "Single-movement variations for piano trio",
@@ -203836,7 +203893,7 @@
  {
   "id": 107080,
   "composer": "Castelnuovo-Tedesco, Mario",
-  "title": "Piano Trio No. 2, Op. 70",
+  "title": "Piano Trio No. 2 in G minor, Op. 70",
   "formation": "piano-trio",
   "instruments": {
    "violin": 1,
@@ -207154,7 +207211,7 @@
   "form": "work",
   "level": 8,
   "hardestPart": "oboe",
-  "year": "1991 (1985)",
+  "year": "1985–91",
   "minutes": 14,
   "set": null,
   "notes": "Diptych for oboe, harpsichord, double bass and percussion; first part 'For Aldeburgh 85'",
@@ -207206,7 +207263,8 @@
    "clarinet": 1,
    "violin": 1,
    "cello": 1,
-   "percussion": 2
+   "piano": 1,
+   "percussion": 1
   },
   "players": 6,
   "form": "short",
@@ -207215,7 +207273,7 @@
   "year": "1984",
   "minutes": 6,
   "set": null,
-  "notes": "Flute, clarinet, violin, cello, vibraphone and marimba; built on the Sacher hexachord",
+  "notes": "Flute, clarinet, violin, cello, vibraphone and piano; built on the Sacher hexachord",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "moderate",
@@ -207268,7 +207326,7 @@
   "form": "work",
   "level": 10,
   "hardestPart": "balanced",
-  "year": "1948 (rev. 2011–12)",
+  "year": "1948–49 (rev. 2011–12)",
   "minutes": 55,
   "set": null,
   "notes": "Boulez's string quartet; two movements were reworked for string orchestra as Livre pour cordes (1968)",
@@ -207288,7 +207346,7 @@
   "instruments": {
    "flute": 1,
    "clarinet": 1,
-   "violin": 1,
+   "viola": 1,
    "cello": 1,
    "piano": 1
   },
@@ -207299,7 +207357,7 @@
   "year": "1969 (rev. 2005)",
   "minutes": 2,
   "set": null,
-  "notes": "Flute, clarinet, piano, violin and cello; unpublished; recorded in the 2013 complete-works edition",
+  "notes": "Flute, clarinet, piano, viola and cello; for Alfred Kalmus's 80th birthday; recorded in the 2013 complete works",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "lively",
@@ -208278,7 +208336,7 @@
   "level": 9,
   "hardestPart": "balanced",
   "year": "1989",
-  "minutes": 31,
+  "minutes": 37,
   "set": null,
   "notes": "Built from numbered short 'zones'; the Arditti Quartet recorded it twice",
   "popularity": "lesser-known",
@@ -208562,7 +208620,7 @@
   "level": 8,
   "hardestPart": "balanced",
   "year": "1994",
-  "minutes": null,
+  "minutes": 15,
   "set": null,
   "notes": "Flute, clarinet, violin, cello, piano, vibraphone and marimba",
   "popularity": "lesser-known",
@@ -208644,7 +208702,7 @@
   "level": 7,
   "hardestPart": "violin 1",
   "year": "2010",
-  "minutes": null,
+  "minutes": 13,
   "set": null,
   "notes": "Three movements: Très calme, Furieux, Triste",
   "popularity": "lesser-known",
@@ -208883,7 +208941,7 @@
   "level": 9,
   "hardestPart": "balanced",
   "year": "1985",
-  "minutes": null,
+  "minutes": 18,
   "set": null,
   "notes": "Clarinet, violin and piano, written for Boulez's 60th birthday; first performed by the Ensemble intercontemporain",
   "popularity": "lesser-known",
@@ -208906,11 +208964,11 @@
    "trombone": 1
   },
   "players": 3,
-  "form": "short",
+  "form": "work",
   "level": 8,
   "hardestPart": "balanced",
   "year": "1993",
-  "minutes": null,
+  "minutes": 18,
   "set": null,
   "notes": "Violin, saxophone (alto and tenor) and trombone; commissioned by the Ensemble intercontemporain",
   "popularity": "lesser-known",
@@ -208994,7 +209052,7 @@
   "level": 8,
   "hardestPart": "balanced",
   "year": "2012",
-  "minutes": null,
+  "minutes": 18,
   "set": null,
   "notes": "Commissioned by the Opéra de Dijon",
   "popularity": "lesser-known",
@@ -214391,7 +214449,7 @@
   "year": "1931",
   "minutes": 13,
   "set": null,
-  "notes": "Early quartet in three movements",
+  "notes": "Early quartet: six very brief movements and a finale as long as the six together",
   "popularity": "lesser-known",
   "mode": "minor",
   "pace": "moderate",
@@ -214539,7 +214597,7 @@
   "form": "set",
   "level": 4,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1923",
   "minutes": 9,
   "set": null,
   "notes": "Folk-tune settings for string quartet",
@@ -215002,7 +215060,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "oboe",
-  "year": "",
+  "year": "1967",
   "minutes": 14,
   "set": null,
   "notes": "Three movements of about 14 minutes",
@@ -215019,17 +215077,17 @@
   "title": "Concertino, Op. 49",
   "formation": "winds-strings",
   "instruments": {
-   "flute": 1,
+   "recorder": 1,
    "violin": 1,
    "cello": 1,
-   "piano": 1
+   "harpsichord": 1
   },
   "alternatives": {
-   "flute": [
-    "recorder"
+   "recorder": [
+    "flute"
    ],
-   "piano": [
-    "harpsichord"
+   "harpsichord": [
+    "piano"
    ]
   },
   "players": 4,
@@ -216149,7 +216207,7 @@
   "year": "2000",
   "minutes": 20,
   "set": null,
-  "notes": "Premiered by Adès and the Arditti Quartet (Melbourne Festival, 2001); three movements",
+  "notes": "One movement in sonata form, tracked in three parts; premiered by Adès and the Arditti Quartet in Melbourne, 2001",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "lively",
@@ -216208,35 +216266,6 @@
   "pace": "lively",
   "character": [
    "virtuosic",
-   "playful"
-  ]
- },
- {
-  "id": 107524,
-  "composer": "Adès, Thomas",
-  "title": "Cardiac Arrest",
-  "formation": "winds-strings",
-  "instruments": {
-   "clarinet": 1,
-   "bass-clarinet": 1,
-   "viola": 1,
-   "cello": 1,
-   "double-bass": 1,
-   "piano": 2
-  },
-  "players": 7,
-  "form": "short",
-  "level": 7,
-  "hardestPart": "balanced",
-  "year": "1995",
-  "minutes": 3,
-  "set": null,
-  "notes": "Based on a song by Madness; seven players with the piano part for four hands",
-  "popularity": "lesser-known",
-  "mode": null,
-  "pace": "lively",
-  "character": [
-   "humorous",
    "playful"
   ]
  },
@@ -217661,7 +217690,7 @@
    "viola-da-gamba": 5
   },
   "players": 6,
-  "form": "work",
+  "form": "short",
   "level": 7,
   "hardestPart": "voice",
   "year": "1990",
@@ -218335,7 +218364,7 @@
   "form": "work",
   "level": 8,
   "hardestPart": "balanced",
-  "year": "1996-97",
+  "year": "1996–97",
   "minutes": 15,
   "set": null,
   "notes": "Eight short movements after Tom Phillips; premiered by the Nash Ensemble in 1997",
@@ -222823,7 +222852,7 @@
   "year": "1963–64",
   "minutes": 23,
   "set": null,
-  "notes": "Two movements: Introduzione, then an Adagio leading to a fugue",
+  "notes": "Two movements: Introduzione, Allegro agitato and theme with 13 variations; then Adagio, fugue and Allegro",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "slow",
@@ -222849,7 +222878,7 @@
   "year": "1964",
   "minutes": 18,
   "set": null,
-  "notes": "Three movements: Adagio, Largo, Presto con brio",
+  "notes": "Three movements: Adagio, Largo, Presto con bravura ending in a fugue",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "lively",
@@ -222875,7 +222904,7 @@
   "year": "1965–68",
   "minutes": 16,
   "set": null,
-  "notes": "One continuous movement, Andante to Lento",
+  "notes": "One continuous movement in three tempos: Andante, Lento, Presto",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "slow",
@@ -223368,7 +223397,7 @@
   "level": 6,
   "hardestPart": "balanced",
   "year": "1936",
-  "minutes": null,
+  "minutes": 19,
   "set": null,
   "notes": "Movements III and IV were later arranged for string orchestra (Gregorian Chant, Fugue)",
   "popularity": "lesser-known",
@@ -223967,7 +223996,7 @@
   "year": "1969",
   "minutes": 9,
   "set": "Madrigals, Books I–IV",
-  "notes": "Soprano with flute/alto flute/piccolo, harp, double bass and percussion; three Lorca settings; Book I is out of scope",
+  "notes": "Soprano with flute/alto flute/piccolo, harp, double bass and percussion; three Lorca settings",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "slow",
@@ -224296,7 +224325,7 @@
   "form": "work",
   "level": 10,
   "hardestPart": "balanced",
-  "year": "1951",
+  "year": "1950–51",
   "minutes": 40,
   "set": null,
   "notes": "Landmark of metric modulation; each player keeps an independent line throughout",
@@ -224732,11 +224761,11 @@
    "piano": 1
   },
   "players": 3,
-  "form": "short",
+  "form": "work",
   "level": 8,
   "hardestPart": "balanced",
   "year": "2012",
-  "minutes": null,
+  "minutes": 13,
   "set": null,
   "notes": "Piano trio in a series of brief epigrammatic movements; one of Carter's last works",
   "popularity": "lesser-known",
@@ -225565,8 +225594,8 @@
   "form": "work",
   "level": 9,
   "hardestPart": "balanced",
-  "year": "1970",
-  "minutes": null,
+  "year": "1969–70",
+  "minutes": 19,
   "set": null,
   "notes": "Twelve-tone quartet of 1969-70; precise rhythmic coordination of the four parts",
   "popularity": "lesser-known",
@@ -226842,9 +226871,9 @@
   "level": 5,
   "hardestPart": "balanced",
   "year": "1954",
-  "minutes": 14,
+  "minutes": 11,
   "set": null,
-  "notes": "Recorded with harp in place of the harpsichord (Mode, 1999); four movements",
+  "notes": "Four movements; Cowell later made a harp version (1962)",
   "popularity": "lesser-known",
   "imslpPage": "Quartet for Flute, Oboe, Cello and Harpsichord, HC 802 (Cowell, Henry)",
   "mode": null,
@@ -227225,7 +227254,7 @@
   "year": "1952",
   "minutes": 3,
   "set": null,
-  "notes": "Early graphic-style trio of about three minutes",
+  "notes": "Early (1952) twelve-tone serial trio in strictly metric notation; about three minutes",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "moderate",
@@ -230246,9 +230275,9 @@
   "level": 5,
   "hardestPart": "violin 1",
   "year": "2003",
-  "minutes": 2,
+  "minutes": 3,
   "set": null,
-  "notes": "The composer's 2003 quartet arrangement of his 1972 chorus on a Richard Wilbur poem; about two minutes",
+  "notes": "The composer's 2003 quartet arrangement of his 1972 chorus on a Richard Wilbur poem; about three minutes",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "slow",
@@ -231554,7 +231583,7 @@
    "electronics": 1
   },
   "players": 4,
-  "form": "work",
+  "form": "short",
   "level": 7,
   "hardestPart": "balanced",
   "year": "1992",
@@ -231638,7 +231667,7 @@
    "piano": 1
   },
   "players": 3,
-  "form": "work",
+  "form": "short",
   "level": 7,
   "hardestPart": "balanced",
   "year": "2006",
@@ -232476,9 +232505,9 @@
   "level": 9,
   "hardestPart": "balanced",
   "year": "1995",
-  "minutes": 45,
+  "minutes": 36,
   "set": null,
-  "notes": "Large-scale string quartet of about 45 minutes",
+  "notes": "Seven movements, about 36 minutes; written for the Cassatt Quartet",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "moderate",
@@ -233153,7 +233182,7 @@
   "form": "set",
   "level": 5,
   "hardestPart": "violin 1",
-  "year": "",
+  "year": "1989",
   "minutes": 11,
   "set": null,
   "notes": "The Graceful Ghost, Poltergeist and Incineratorag, the composer's quartet version of his piano rags",
@@ -233458,7 +233487,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "clarinet",
-  "year": "",
+  "year": "2015–16",
   "minutes": 19,
   "set": null,
   "notes": "Two movements: Agitato, con energia; Adagietto e triste",
@@ -233468,6 +233497,9 @@
   "character": [
    "dramatic",
    "dark"
+  ],
+  "aka": [
+   "Clarinet Quintet"
   ]
  },
  {
@@ -233955,7 +233987,8 @@
   "instruments": {
    "violin": 2,
    "viola": 1,
-   "cello": 1
+   "cello": 1,
+   "electronics": 1
   },
   "players": 4,
   "form": "short",
@@ -233964,7 +233997,7 @@
   "year": "2007",
   "minutes": 10,
   "set": null,
-  "notes": "String quartet recorded on the composer's own album Blue Moth (Tzadik, 2012)",
+  "notes": "String quartet and tape; on Blue Moth (Tzadik, 2012)",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "lively",
@@ -234016,10 +234049,10 @@
   "form": "work",
   "level": 7,
   "hardestPart": "clarinet",
-  "year": "2021",
+  "year": "2020",
   "minutes": 20,
   "set": null,
-  "notes": "Clarinet quintet; recorded in 2026 by Mark van de Wiel with Philharmonia Orchestra soloists",
+  "notes": "Clarinet quintet; first recorded by Mark van de Wiel with Philharmonia soloists (Signum, 2026)",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "lively",
@@ -234047,7 +234080,7 @@
   "year": "2008",
   "minutes": 8,
   "set": null,
-  "notes": "For bass flute, bass clarinet, violin, cello and tape; recorded by the Seattle Chamber Players",
+  "notes": "Bass flute, bass clarinet, violin, cello and tape; premiered by the Seattle Chamber Players",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "moderate",
@@ -235428,7 +235461,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "clarinet",
-  "year": "",
+  "year": "2019",
   "minutes": 18,
   "set": null,
   "notes": "Clarinet quintet in three movements; recorded by David Shifrin and by Anthony McGill",
@@ -235438,6 +235471,9 @@
   "character": [
    "folk",
    "dramatic"
+  ],
+  "aka": [
+   "Shotgun Houses: Homage to Ali and West Louisville"
   ]
  },
  {
@@ -235510,7 +235546,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "piano",
-  "year": "",
+  "year": "1992",
   "minutes": 26,
   "set": null,
   "notes": "Piano trio in five movements, from Incantation to Jubilee",
@@ -238001,7 +238037,7 @@
   "year": "1958",
   "minutes": 16,
   "set": null,
-  "notes": "Guitar with string quartet in three movements; the finale is the Finale of 1957",
+  "notes": "Guitar with string quartet in three movements (Allegro, slow movement, Finale)",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "moderate",
@@ -238053,7 +238089,7 @@
   "form": "short",
   "level": 6,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1970",
   "minutes": 10,
   "set": null,
   "notes": "Trio for flute, viola and guitar; track on Oscar Cáceres's Warner Classics album Brouwer: Guitar Pieces",
@@ -239660,7 +239696,7 @@
   "form": "work",
   "level": 8,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1992",
   "minutes": 12,
   "set": null,
   "notes": "Octet: flute (piccolo), E-flat clarinet, 2 percussion, piano, violin, cello, double bass",
@@ -239687,7 +239723,7 @@
   "form": "short",
   "level": 7,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "1997",
   "minutes": 10,
   "set": null,
   "notes": "Flute, cello, percussion and piano",
@@ -239794,7 +239830,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "balanced",
-  "year": "",
+  "year": "2004",
   "minutes": 11,
   "set": null,
   "notes": "Flute, clarinet, violin, cello and piano",

@@ -1,0 +1,618 @@
+{
+ "chunk": "v007",
+ "results": [
+  {
+   "id": 107067,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.deezer.com/album/581278941",
+    "https://www.musicweb-international.com/classrev/2014/May14/BenHaim_chamber_TOCC0214.htm",
+    "https://de.wikipedia.org/wiki/Paul_Ben-Haim"
+   ],
+   "note": "Carmel Quartet, Toccata TOCC0214: 4 movements, 28:57; review dates it 1937; de.wikipedia has the 'first work written in Palestine' and 'most popular' claims"
+  },
+  {
+   "id": 107068,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.deezer.com/album/618117061",
+    "https://www.chandos.net/products/catalogue/CHAN%2010769"
+   ],
+   "note": "Chandos CHAN 10769 (ARC Ensemble): C minor, 1920-21, completed Munich 1921; 3 movements 29:27"
+  },
+  {
+   "id": 107069,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1941"
+   },
+   "sources": [
+    "https://www.deezer.com/album/618117061",
+    "https://www.chandos.net/products/catalogue/CHAN%2010769"
+   ],
+   "note": "Chandos gives 1941 (rev. 1965); 3 movements 27:20 on the ARC disc"
+  },
+  {
+   "id": 107070,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1939"
+   },
+   "sources": [
+    "https://www.deezer.com/album/360036627",
+    "https://www.deezer.com/album/579471851",
+    "https://www.meridian-records.co.uk/acatalog/CDE84669-Enlighten.html"
+   ],
+   "note": "Meridian CDE84669 (Ben-Haim Trio) titles it '(1939)'; trio recordings run 20:25 and 21:15 (Garcia, Wuerzburg)"
+  },
+  {
+   "id": 107071,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.deezer.com/album/581278941",
+    "https://www.musicweb-international.com/classrev/2014/May14/BenHaim_chamber_TOCC0214.htm"
+   ],
+   "note": "Review dates it 1919, first recording, 3 movements, 32:56 with 2 violas (Waterman)"
+  },
+  {
+   "id": 104445,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 14
+   },
+   "sources": [
+    "https://imslp.org/wiki/Sammlung_Vermischter_Stücke_(Benda,_Georg)",
+    "https://itunes.apple.com/lookup?id=733759565&entity=song",
+    "https://find.library.upenn.edu/catalog/999843773503681"
+   ],
+   "note": "Brilliant 94433 (Arcomelo) plays it 'with Accompaniment for Two Violins, Viola and Cello': 7:22+2:36+4:28 = 14 min; IMSLP: strings in the revised c.1785 print; modern edition Grancino (T. Roberts). Strings-ad-lib status of the 1780 print not found"
+  },
+  {
+   "id": 104446,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 17,
+    "notes": "Sonata II of Part 3, con accompagnamento (2 violins, viola, cello); keyboard leads; modern edition Grancino"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Sammlung_Vermischter_Stücke_(Benda,_Georg)",
+    "https://itunes.apple.com/lookup?id=733759565&entity=song",
+    "https://find.library.upenn.edu/catalog/999843773503681"
+   ],
+   "note": "Recorded with strings (Brilliant 94433, 7:47+4:26+4:24 = 17 min); modern edition with parts exists (Grancino, ed. Roberts, from the first edition), so the old note 'strings from the recording' is wrong. IMSLP dates Part 3 (Schwickert) c.1782-85, so year 1780-81 is uncertain"
+  },
+  {
+   "id": 104447,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "by 1756"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_E_major_(Benda,_Georg)",
+    "https://www.deezer.com/album/73480472",
+    "https://itunes.apple.com/lookup?id=1452226870&entity=song"
+   ],
+   "note": "By Georg (Jiri Antonin) Benda per IMSLP/score; Supraphon 71 0077-2 (Musica Philharmonica Pragensis, 4:41+3:30+2:54 = 11 min) credits J. A. Benda; Oistrakhs record the same 3 movements with piano. IMSLP: 1756 manuscript copy (RISM 469411410)"
+  },
+  {
+   "id": 107576,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.fabermusic.com/music/octet-756",
+    "https://brahms.ircam.fr/work/octet",
+    "https://www.deezer.com/album/12857652"
+   ],
+   "note": "Scoring fl(picc).cl, perc, celesta, vn va vc db confirmed; 10 min (Nimbus 11:07); premiere 24 Feb 1979 Purcell Room. Single Nimbus track and no movements named: 'short' may fit better than 'work' if it is one movement (not verified)"
+  },
+  {
+   "id": 107577,
+   "verdict": "fixed",
+   "fixes": {
+    "form": "short"
+   },
+   "sources": [
+    "https://www.fabermusic.com/music/upon-silence-1309",
+    "https://www.fabermusic.com/music/upon-silence-1895",
+    "https://www.deezer.com/album/12857652",
+    "https://www.deezer.com/album/403724587"
+   ],
+   "note": "Faber: 1990 mezzo + 5 viols (1 treble, 2 tenor, 2 bass), 10 min; a separate 1991 version for mezzo + 7 strings (2 vla, 3 vc, 2 db) exists and is recorded (Nimbus 10:28), which could be its own entry. One song in three verses, so 'short'"
+  },
+  {
+   "id": 104705,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1831"
+   },
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1436060457&entity=song",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_William_Sterndale_Bennett"
+   ],
+   "note": "Naxos (Villiers Quartet, 2018): 'String Quartet in G Major, WoO 17', 4 movements 18:59. Wikipedia work list dates the quartet 1831"
+  },
+  {
+   "id": 107266,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luciano_Berio",
+    "https://www.deezer.com/album/883774462"
+   ],
+   "note": "Wikipedia: 'Study for string quartet (1952)'; Molinari ATMA 2025 'Study' 4:41"
+  },
+  {
+   "id": 107267,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luciano_Berio",
+    "https://www.deezer.com/album/883774462"
+   ],
+   "note": "Wikipedia lists Quartetto for string quartet (1955); Molinari 7:32; the 1955-56 span is acceptable"
+  },
+  {
+   "id": 107268,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luciano_Berio",
+    "https://www.deezer.com/album/883774462"
+   ],
+   "note": "Sincronie 1964, Molinari 16:54"
+  },
+  {
+   "id": 107269,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luciano_Berio",
+    "https://www.deezer.com/album/883774462",
+    "https://www.deezer.com/album/320717"
+   ],
+   "note": "Notturno 1993 (string orchestra version 1995); Molinari 22:23, Alban Berg Quartett 22:49"
+  },
+  {
+   "id": 107270,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luciano_Berio",
+    "https://www.deezer.com/album/883774462"
+   ],
+   "note": "Glosse 1997, Molinari 8:13"
+  },
+  {
+   "id": 107271,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luciano_Berio",
+    "https://www.deezer.com/album/3881441"
+   ],
+   "note": "Wikipedia: flute, clarinet, harp, viola, cello and tape (1959); Contempoartensemble 14:37; electronics counted as no player"
+  },
+  {
+   "id": 107272,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luciano_Berio",
+    "https://www.deezer.com/album/9344650",
+    "https://www.deezer.com/album/583535672",
+    "https://www.deezer.com/album/579242791"
+   ],
+   "note": "Voice, clarinet, cello, harp (1953); three Joyce settings; recordings 7:48 to 8:23"
+  },
+  {
+   "id": 107273,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luciano_Berio",
+    "https://www.deezer.com/album/9344650",
+    "https://www.deezer.com/album/583535672",
+    "https://www.deezer.com/album/301258217"
+   ],
+   "note": "Voice + 7 players (fl, cl, 2 perc, harp, va, vc), 1964; Fassbender timings sum to 23:24. Brief lists 'folk-song settings' among vocal works that are out; I kept it because it is a voice-with-ensemble work programmed as chamber music, but the owner may want to rule"
+  },
+  {
+   "id": 107274,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luciano_Berio",
+    "https://www.deezer.com/album/156522842",
+    "https://www.deezer.com/album/301258217"
+   ],
+   "note": "Mezzo + fl, cl, vn, vc, pf, 1968; MDG (Ensemble Avantgarde) 4:57 'for Voice and Five Instruments'"
+  },
+  {
+   "id": 106091,
+   "verdict": "fixed",
+   "fixes": {
+    "composer": "Bériot, Charles de",
+    "year": "1847",
+    "aka": [
+     "Piano Trio No. 2 in D major, Op. 59"
+    ],
+    "imslpPage": "Piano Trio in D major, Op.59 (Bériot, Charles-Auguste de)",
+    "notes": "Three movements; Troupenas 1847 as Op. 58 (Schott: Op. 59); IMSLP: from Concertant Duet Op. 57 No. 3"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio_in_D_major,_Op.59_(Bériot,_Charles-Auguste_de)",
+    "https://musicweb-international.com/classrev/2008/nov08/Beriot_DOM2911127.htm",
+    "https://www.europadisc.co.uk/classical/89544/Loewe__Beriot_-_Piano_Trios.htm",
+    "https://www.deezer.com/album/581005101"
+   ],
+   "note": "Wrong composer: the D-major trio (Moderato / Adagio / Rondo-Allegretto, as on the Christophorus disc) is by Charles-Auguste de Beriot (1802-70), the violinist, IMSLP 'Piano Trio No.2, Op.59', Schott 1847; IMSLP says Troupenas issued a 2nd trio as Op. 58 the same year. Charles-Wilfrid's IMSLP works stop at Opp. 50, 55, 56, 61. Op. 58/59 numbering is unsettled (a MusicWeb review calls Op. 58 'No. 1'). IMSLP lists it as arranged from Concertant Duet Op. 57 No. 3, arranger not named: owner may want to check the arrangement rule. Earlier slice m07 skipped the same trio as 'not confirmed'; the Gobel disc confirms it. Recording 18:23 matches 18 min"
+  },
+  {
+   "id": 107474,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lennox_Berkeley",
+    "https://www.deezer.com/album/587703572"
+   ],
+   "note": "Wikipedia: Op. 6 (1935); Maggini (Naxos) 4 movements 26:27"
+  },
+  {
+   "id": 107475,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lennox_Berkeley",
+    "https://www.deezer.com/album/587703572",
+    "https://www.deezer.com/album/618106301"
+   ],
+   "note": "Wikipedia: Op. 15 (1941); Maggini 18:27, Chilingirian 17:42, 3 movements"
+  },
+  {
+   "id": 107476,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lennox_Berkeley",
+    "https://www.deezer.com/album/587703572"
+   ],
+   "note": "Wikipedia: Op. 76 (1970); Maggini 18:01, 4 movements"
+  },
+  {
+   "id": 107477,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lennox_Berkeley",
+    "https://www.deezer.com/album/426579337",
+    "https://www.deezer.com/album/9847950"
+   ],
+   "note": "Wikipedia: Op. 19 (1943); Tagore 15:45, Berkeley Ensemble 15:50, 3 movements"
+  },
+  {
+   "id": 107478,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lennox_Berkeley",
+    "https://en.wikipedia.org/wiki/Trio_for_horn,_violin,_and_piano_(Berkeley)",
+    "https://www.deezer.com/album/587710632",
+    "https://www.deezer.com/album/223154342"
+   ],
+   "note": "Wikipedia list gives 1952 (the work's article says sources vary 1952-54); recordings 26 min (Naxos 26:24), finale theme and variations; keep"
+  },
+  {
+   "id": 107479,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lennox_Berkeley",
+    "https://www.deezer.com/album/9847950",
+    "https://www.deezer.com/album/353530797",
+    "https://www.deezer.com/album/580691641"
+   ],
+   "note": "Wikipedia: Op. 47 (1954); three recordings 14:32 to 15:00"
+  },
+  {
+   "id": 107480,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1967"
+   },
+   "sources": [
+    "https://lennoxberkeley.org.uk/articles/lennox-berkeley-oboe-quartet",
+    "https://www.deezer.com/album/353530797",
+    "https://www.deezer.com/album/426579337"
+   ],
+   "note": "Berkeley Society: written Sept-30 Nov 1967, 'less than fifteen minutes'; recordings 14:11-14:46"
+  },
+  {
+   "id": 107481,
+   "verdict": "fixed",
+   "fixes": {
+    "instruments": {
+     "recorder": 1,
+     "violin": 1,
+     "cello": 1,
+     "harpsichord": 1
+    },
+    "alternatives": {
+     "recorder": [
+      "flute"
+     ],
+     "harpsichord": [
+      "piano"
+     ]
+    },
+    "players": 4,
+    "formation": "winds-strings"
+   },
+   "sources": [
+    "https://www.wisemusicclassical.com/work/12122/Concertino--Lennox-Berkeley/",
+    "https://www.lennoxberkeley.org.uk/articles/berkeley-chamber-works",
+    "https://www.deezer.com/album/353530797"
+   ],
+   "note": "Chester/Wise Music scoring is 'rec(fl)/vln.vc/hpd(pf)': written 1955 for Carl Dolmetsch's recorder and harpsichord; flute and piano are the printed alternatives (Endymion plays flute and piano). Wise gives 13 min, Endymion 12:15"
+  },
+  {
+   "id": 105216,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1696"
+   },
+   "sources": [
+    "https://www.deezer.com/album/626563911",
+    "https://it.wikipedia.org/wiki/Bartolomeo_Bernardi",
+    "https://de.wikipedia.org/wiki/Bartolomeo_Bernardi"
+   ],
+   "note": "Hortensia Virtuosa (Baryton, 2016) Sonata Prima: 6:40, matches minutes. Op. 2 = ten 'Sonate a tre, due violini e violoncello, con il basso per l'organo', Bologna: Fagnani, 1696 (it/de Wikipedia); cello folded into continuo. Year added from the print"
+  },
+  {
+   "id": 105217,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1696"
+   },
+   "sources": [
+    "https://www.deezer.com/album/626563911",
+    "https://it.wikipedia.org/wiki/Bartolomeo_Bernardi",
+    "https://de.wikipedia.org/wiki/Bartolomeo_Bernardi"
+   ],
+   "note": "Hortensia Virtuosa (Baryton, 2016) Sonata Seconda: 6:29, matches minutes. Op. 2 = ten 'Sonate a tre, due violini e violoncello, con il basso per l'organo', Bologna: Fagnani, 1696 (it/de Wikipedia); cello folded into continuo. Year added from the print"
+  },
+  {
+   "id": 105218,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1696"
+   },
+   "sources": [
+    "https://www.deezer.com/album/626563911",
+    "https://it.wikipedia.org/wiki/Bartolomeo_Bernardi",
+    "https://de.wikipedia.org/wiki/Bartolomeo_Bernardi"
+   ],
+   "note": "Hortensia Virtuosa (Baryton, 2016) Sonata Terza: 4:52, matches minutes. Op. 2 = ten 'Sonate a tre, due violini e violoncello, con il basso per l'organo', Bologna: Fagnani, 1696 (it/de Wikipedia); cello folded into continuo. Year added from the print"
+  },
+  {
+   "id": 105219,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1696"
+   },
+   "sources": [
+    "https://www.deezer.com/album/626563911",
+    "https://it.wikipedia.org/wiki/Bartolomeo_Bernardi",
+    "https://de.wikipedia.org/wiki/Bartolomeo_Bernardi"
+   ],
+   "note": "Hortensia Virtuosa (Baryton, 2016) Sonata Quarta: 5:35, matches minutes. Op. 2 = ten 'Sonate a tre, due violini e violoncello, con il basso per l'organo', Bologna: Fagnani, 1696 (it/de Wikipedia); cello folded into continuo. Year added from the print"
+  },
+  {
+   "id": 105220,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1696"
+   },
+   "sources": [
+    "https://www.deezer.com/album/626563911",
+    "https://it.wikipedia.org/wiki/Bartolomeo_Bernardi",
+    "https://de.wikipedia.org/wiki/Bartolomeo_Bernardi"
+   ],
+   "note": "Hortensia Virtuosa (Baryton, 2016) Sonata Quinta: 5:34, matches minutes. Op. 2 = ten 'Sonate a tre, due violini e violoncello, con il basso per l'organo', Bologna: Fagnani, 1696 (it/de Wikipedia); cello folded into continuo. Year added from the print"
+  },
+  {
+   "id": 105221,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1696"
+   },
+   "sources": [
+    "https://www.deezer.com/album/626563911",
+    "https://it.wikipedia.org/wiki/Bartolomeo_Bernardi",
+    "https://de.wikipedia.org/wiki/Bartolomeo_Bernardi"
+   ],
+   "note": "Hortensia Virtuosa (Baryton, 2016) Sonata Sesta: 4:18, matches minutes. Op. 2 = ten 'Sonate a tre, due violini e violoncello, con il basso per l'organo', Bologna: Fagnani, 1696 (it/de Wikipedia); cello folded into continuo. Year added from the print"
+  },
+  {
+   "id": 105222,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1696"
+   },
+   "sources": [
+    "https://www.deezer.com/album/626563911",
+    "https://it.wikipedia.org/wiki/Bartolomeo_Bernardi",
+    "https://de.wikipedia.org/wiki/Bartolomeo_Bernardi"
+   ],
+   "note": "Hortensia Virtuosa (Baryton, 2016) Sonata Settima: 4:59, matches minutes. Op. 2 = ten 'Sonate a tre, due violini e violoncello, con il basso per l'organo', Bologna: Fagnani, 1696 (it/de Wikipedia); cello folded into continuo. Year added from the print"
+  },
+  {
+   "id": 105223,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1696"
+   },
+   "sources": [
+    "https://www.deezer.com/album/626563911",
+    "https://it.wikipedia.org/wiki/Bartolomeo_Bernardi",
+    "https://de.wikipedia.org/wiki/Bartolomeo_Bernardi"
+   ],
+   "note": "Hortensia Virtuosa (Baryton, 2016) Sonata Ottava: 4:33, matches minutes. Op. 2 = ten 'Sonate a tre, due violini e violoncello, con il basso per l'organo', Bologna: Fagnani, 1696 (it/de Wikipedia); cello folded into continuo. Year added from the print"
+  },
+  {
+   "id": 105224,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1696"
+   },
+   "sources": [
+    "https://www.deezer.com/album/626563911",
+    "https://it.wikipedia.org/wiki/Bartolomeo_Bernardi",
+    "https://de.wikipedia.org/wiki/Bartolomeo_Bernardi"
+   ],
+   "note": "Hortensia Virtuosa (Baryton, 2016) Sonata Nona: 5:14, matches minutes. Op. 2 = ten 'Sonate a tre, due violini e violoncello, con il basso per l'organo', Bologna: Fagnani, 1696 (it/de Wikipedia); cello folded into continuo. Year added from the print"
+  },
+  {
+   "id": 105225,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1696"
+   },
+   "sources": [
+    "https://www.deezer.com/album/626563911",
+    "https://it.wikipedia.org/wiki/Bartolomeo_Bernardi",
+    "https://de.wikipedia.org/wiki/Bartolomeo_Bernardi"
+   ],
+   "note": "Hortensia Virtuosa (Baryton, 2016) Sonata Decima: 3:54, matches minutes. Op. 2 = ten 'Sonate a tre, due violini e violoncello, con il basso per l'organo', Bologna: Fagnani, 1696 (it/de Wikipedia); cello folded into continuo. Year added from the print"
+  },
+  {
+   "id": 107738,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Leonard_Bernstein",
+    "https://www.deezer.com/album/581103351",
+    "https://www.deezer.com/album/257651022",
+    "https://www.deezer.com/album/583631432"
+   ],
+   "note": "1937, three movements; recordings 14:51-16:31"
+  },
+  {
+   "id": 107739,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Leonard_Bernstein",
+    "https://itunes.apple.com/lookup?id=1702691020&entity=song"
+   ],
+   "note": "Wikipedia: Music for String Quartet (1936, edited by Garth Edwin Sunderland); Navona 2023: two movements 7:32+3:25"
+  },
+  {
+   "id": 101304,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_à_4_in_D_minor_(Bertali,_Antonio)",
+    "https://www.newfocusrecordings.com/catalogue/acronym-paradise-instrumental-sonatas-of-antonio-bertali/",
+    "https://itunes.apple.com/lookup?id=805821894&entity=song",
+    "https://itunes.apple.com/lookup?id=781547259&entity=song"
+   ],
+   "note": "IMSLP: 2 violins, viola da gamba, violone, continuo (separate violone and continuo parts), Partiturbuch Ludwig No. 76 (1662); ACRONYM 10:04 (Guelf. 34.7 Aug. 2-76), Dongois 11:18; MusicBrainz lists a Das Partiturbuch (Echo du Danube, 2006) recording 'for 2 violins, viola da gamba & bassoon'"
+  },
+  {
+   "id": 101308,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_à_3_in_G_major_(Bertali,_Antonio)",
+    "https://itunes.apple.com/lookup?id=781547259&entity=song",
+    "https://musicbrainz.org/ws/2/work?artist=fbce7e9d-2805-4c59-b735-fc24b3d63b47&inc=recording-rels&limit=100&fmt=json"
+   ],
+   "note": "IMSLP: Sonata a 3 for 2 violins and bassoon, Partiturbuch Ludwig No. 93, parts vn1 vn2 bassoon continuo; MusicBrainz has 'Sonata a 3 in G major for 2 violins & bassoon' (3:19, Das Partiturbuch, Echo du Danube 2006); Accent/Dongois 'a due violini fagotto IV' 3:41"
+  },
+  {
+   "id": 105941,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "Piano Trio in A major, Op. 43"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio,_Op.43_(Bertini,_Henri)",
+    "https://www.musicweb-international.com/classrev/2021/Dec/Bertini-nonetto-5553632.htm",
+    "https://www.radiotimescds.com/classical/213516/Bertini_-_Nonetto_op.107,_Grand_Trio_op.43.htm",
+    "https://itunes.apple.com/lookup?id=1589269343&entity=song"
+   ],
+   "note": "Add the key: IMSLP, the cpo track list quoted by MusicWeb ('Grand Trio, Op 43 in A major') and Radio Times give A major (Apple/Deezer metadata say A minor, probably an error). 35:55 matches 36 min. Year left: Op. 43 sits between Freischutz-era Opp. 41-45 (c.1825), but cpo says 1836 / 'late 1830s' and IMSLP notes an 1835 Simrock print"
+  },
+  {
+   "id": 105286,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/24_Sonatas_(Bertouch,_Georg_von)",
+    "https://itunes.apple.com/lookup?id=1441445820&entity=song",
+    "https://www.deezer.com/album/580174151"
+   ],
+   "note": "No. 8 in G major as titled on the recordings; timings 6:24 (Dahl, Lawo LWC1165) and 6:58 (Bergen Barokk, Toccata) match. IMSLP lists '2 violins, cello, continuo' (a 3 + bc); recordings use 2 violins and continuo, cello folded into continuo. Source is one Copenhagen manuscript c.1738"
+  },
+  {
+   "id": 105287,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/24_Sonatas_(Bertouch,_Georg_von)",
+    "https://itunes.apple.com/lookup?id=925782841&entity=song"
+   ],
+   "note": "No. 10 in A minor as titled on the recordings; timings 7:53 (Trondheim Barokk, Ostsee) match. IMSLP lists '2 violins, cello, continuo' (a 3 + bc); recordings use 2 violins and continuo, cello folded into continuo. Source is one Copenhagen manuscript c.1738"
+  },
+  {
+   "id": 105288,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/24_Sonatas_(Bertouch,_Georg_von)",
+    "https://itunes.apple.com/lookup?id=925782841&entity=song"
+   ],
+   "note": "No. 13 in C minor as titled on the recordings; timings 10:22 (Trondheim Barokk, Ostsee) match. IMSLP lists '2 violins, cello, continuo' (a 3 + bc); recordings use 2 violins and continuo, cello folded into continuo. Source is one Copenhagen manuscript c.1738"
+  },
+  {
+   "id": 105289,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/24_Sonatas_(Bertouch,_Georg_von)",
+    "https://itunes.apple.com/lookup?id=1441445820&entity=song",
+    "https://www.deezer.com/album/580174151"
+   ],
+   "note": "No. 14 in G minor as titled on the recordings; timings 9:17 (Dahl) and 9:02 (Bergen Barokk) match. IMSLP lists '2 violins, cello, continuo' (a 3 + bc); recordings use 2 violins and continuo, cello folded into continuo. Source is one Copenhagen manuscript c.1738"
+  },
+  {
+   "id": 103219,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quintet_No.2,_Op.6_(Berwald,_Franz)",
+    "https://musicbrainz.org/release/f7931b2c-6a0e-4107-b8db-2bdacc81d1fd",
+    "https://musicbrainz.org/release/bf7d079a-9059-43d9-8395-7d04f4345da9",
+    "https://en.wikipedia.org/wiki/Franz_Berwald",
+    "https://fr.wikipedia.org/wiki/Quintette_pour_piano_et_cordes_no_2_de_Berwald"
+   ],
+   "note": "Op. 6 and A major per Explore EXP0003 and IMSLP; en.wikipedia 1850-57 (fr.wikipedia 1857); Schuberth 1858, dedicated to Liszt; Naxos 8.553970 31:48, Explore 28:24; IMSLP 32 min"
+  },
+  {
+   "id": 103222,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio_No.2_(Berwald,_Franz)",
+    "https://musicbrainz.org/release/930b0958-329e-4a0a-84c1-c90d0321468e",
+    "https://musicbrainz.org/release/b8707839-d3ad-480f-a2b6-1deaaac8d7ec",
+    "https://en.wikipedia.org/wiki/Franz_Berwald"
+   ],
+   "note": "IMSLP: Op. 2, March 1851, first edition 1853, 22 min, dedicated to Matheas von Rosthorn zu Oed; Naxos 8.555001 21:27, Hyperion 22:00"
+  }
+ ],
+ "note": "Bériot trio 106091 is by Charles-Auguste (the violinist), not Charles-Wilfrid; the same trio was skipped as unconfirmed in slice m07 (IMSLP Op.59, Schott 1847; recorded by Göbel Trio, Christophorus). Berio Folk Songs (voice + 7 players) is kept despite the 'folk-song settings' exclusion; owner may rule. Upon Silence also exists in a 1991 version for mezzo + 7 strings (Faber; recorded Nimbus), which may deserve its own entry. Bernardi Op. 2 years added from the 1696 Bologna print. Benda keyboard-sonata strings: ad lib. status of the 1780 print not established."
+}

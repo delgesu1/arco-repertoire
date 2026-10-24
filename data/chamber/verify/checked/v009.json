@@ -1,0 +1,605 @@
+{
+ "chunk": "v009",
+ "results": [
+  {
+   "id": 102200,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_in_C_minor,_G.159_(Boccherini,_Luigi)",
+    "https://imslp.org/wiki/6_String_Quartets,_G.159-164_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/581569202",
+    "https://www.deezer.com/album/578615541",
+    "https://www.deezer.com/album/46109962",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.159 Op.2 No.1 C minor, 1761 (IMSLP, Wikipedia list); 3 movements; Deezer: Alea (Stradivarius) 19:47, Trifolium (Lindoro) 19:42, Sonare (CPO) 14:01, so 20 min stands"
+  },
+  {
+   "id": 102202,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_in_D_major,_G.161_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/581569202",
+    "https://www.deezer.com/album/578615541",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.161 Op.2 No.3 D major, 1761; 3 movements; Alea 11:35, Sonare 12:36 (entry 13 within tolerance)"
+  },
+  {
+   "id": 102219,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_in_C_minor,_G.182_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/585007202",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb4.html"
+   ],
+   "note": "G.182 Op.15 No.6 C minor, 1772; 2 movements (Larghetto, Minuetto) as the Gerard catalogue and Alea (Dynamic 2022) show; 8:09"
+  },
+  {
+   "id": 102245,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_in_E-flat_major,_G212_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/580738041",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.212 Op.33 No.6 E-flat, 1781; 2 movements; Revolutionary Drawing Room (CPO) 10:27"
+  },
+  {
+   "id": 102248,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/4_String_Quartets,_G.232-235_(Op.52)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/580306201",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.234 Op.52 No.3 G major, 1795 (IMSLP); 4 movements; Quartetto d'Archi di Venezia (Dynamic) 17:51"
+  },
+  {
+   "id": 102261,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb4.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/587668752"
+   ],
+   "note": "G.248 Op.64 No.1 F major, 1804 (Gerard); Venezia (Dynamic) 15:16, 3 movements; G.249 is incomplete, so 'last completed' holds"
+  },
+  {
+   "id": 102262,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb4.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/587668752"
+   ],
+   "note": "Gerard marks G.249 'incomplet' with one movement (Allegro con brio); Venezia (Dynamic, 1995) records it as a single 5:23 track, so it passes as an unfinished piece performed as it stands; form 'short' matches the Quartettsatz entries"
+  },
+  {
+   "id": 102274,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Programmatic quintet 'Las Parejas' (the couples): Entrada-Marcha, Galope, then the Entrada returns"
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Flute_Quintets,_Op.19_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/581253461",
+    "https://www.deezer.com/album/609437142",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html"
+   ],
+   "note": "'Las Parejas' is the title of the whole quintet (Hyperion and Avie track lists: Entrada-Marcia, Galope, Entrada-Marcia again), not of a finale; 11:41 / 11:23 matches 11 min"
+  },
+  {
+   "id": 102278,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Oboe_Quintets,_Op.55_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/578800681",
+    "https://www.deezer.com/album/472313305",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html"
+   ],
+   "note": "G.434 Op.55 No.4 A major (CPO's Deezer tag 'G major' is a mislabel); 2 movements; Sarah Francis oboe (Decca) 11:45, Faust flute (CPO) 10:20; IMSLP shows Op.55 (Op.45) and flute or oboe"
+  },
+  {
+   "id": 102281,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=216515055&entity=song",
+    "https://www.deezer.com/album/580787951",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.437 F major. Scoring flute, violin, viola, 2 cellos confirmed by Rampal/Pasquier (Sony 1997, 'Quintets for Flute, Violin, Viola and 2 Violoncellos') and Wikipedia ('with cello concertante'); Gerard's list gives the usual 2-violin scoring, which the recordings contradict; no date found for the set, year left blank. Rampal 11:53, Tourte 14:54 (14 ok)"
+  },
+  {
+   "id": 102282,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=216515055&entity=song",
+    "https://www.deezer.com/album/584565232",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.438 G major. Rampal 13:57, Guidetti (Tactus 2012) 23:13; 19 is the midpoint"
+  },
+  {
+   "id": 102283,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=216515055&entity=song",
+    "https://www.deezer.com/album/580787951",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.439 C major. Rampal 14:59, Tourte (Dynamic) 21:05; 18 is the midpoint"
+  },
+  {
+   "id": 102284,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.deezer.com/album/584565232",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.440 is F major (Gerard, Guidetti; the Wikipedia list's 'D major' looks like a slip). Only recording found: Guidetti (Tactus 2012) 24:56, a slow reading (about 1.6x Rampal's timings for G.438), so 25 may be high but is not disproved"
+  },
+  {
+   "id": 102285,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=216515055&entity=song",
+    "https://www.deezer.com/album/580787951",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.441 G major. Rampal 12:54, Tourte 15:06 (14 ok)"
+  },
+  {
+   "id": 102286,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=216515055&entity=song",
+    "https://www.deezer.com/album/584565232",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.442 B-flat major. Rampal 15:05, Guidetti 20:22 (18 ok)"
+  },
+  {
+   "id": 102288,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Flute_Sextets,_G.461-466_(Op.16)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/586311982",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb6.html"
+   ],
+   "note": "G.462 Op.16 No.2, 1773; Piccolo Concerto (Accent) 30:39, 4 movements; Gerard confirms the cadenza for two cellos in the second Grave and the variation finale"
+  },
+  {
+   "id": 102293,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sextet_in_E-flat_major,_G.467_(Boccherini,_Luigi)",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb6.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/609437142"
+   ],
+   "note": "IMSLP mismatch is only numbering: Op.38 No.1 is Boccherini's own opus (Gerard, Wikipedia), Op.42 is Pleyel's print (already in aka). Scoring fl/ob, bn, hn, vn, va, db confirmed (IMSLP's Pleyel title, Gerard); 1787. Floor: Sally Walker, Avie Records 2024 (Deezer label is Avie, not self-released), 13:08; only recording found"
+  },
+  {
+   "id": 102294,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb6.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/10117812",
+    "https://musicbrainz.org/work/89cddb0f-fea5-41eb-8987-eb4bc70f342e",
+    "https://itunes.apple.com/lookup?id=367109113&entity=song"
+   ],
+   "note": "G.470 Op.38 No.4 octet (2 vn, va, 2 vc, fl/ob, hn, bn) per Gerard; Tafelmusik/Bylsma 'Octet (Notturno)' on Sony Classical 2015, 15:10 (17 ok). The Goritzki/Stuttgart Chamber Orchestra disc (CPO) is an orchestral reading of the same piece (Op.41) and should not count as the floor"
+  },
+  {
+   "id": 102295,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb6.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://itunes.apple.com/lookup?id=1604344061&entity=song"
+   ],
+   "note": "G.472 Op.38 No.6, 2 vn, va, vc, oboe, bassoon (Gerard); 2 movements; Ensemble Alraune (Musica Novantiqua 2022) 9:53; only recording found"
+  },
+  {
+   "id": 102303,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Keyboard-led, with violin and cello accompaniment; authenticity doubtful (Gerard); not in Boccherini's own catalogue"
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Keyboard_Trios,_G.143-148_(Boccherini,_Luigi)",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/586288412"
+   ],
+   "note": "G.143 (also flagged doubtful on the Wikipedia list); Galimathias (Tactus) 14:26. Gerard's catalogue marks the six 'Sonates en trio' [authenticite douteuse], c. 1780; first print 1781 (IMSLP; clavecin with violin and cello accompaniment, strings not ad lib.). Published/recorded under his name, so they stay, but the doubt must be in notes. Piano with harpsichord alternative follows the house rule for a post-1770 print, so the IMSLP scoring mismatch is not an error"
+  },
+  {
+   "id": 102304,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Keyboard-led, with violin and cello accompaniment; authenticity doubtful (Gerard); not in Boccherini's own catalogue"
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Keyboard_Trios,_G.143-148_(Boccherini,_Luigi)",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/586288412"
+   ],
+   "note": "G.144; Galimathias 9:04. Gerard's catalogue marks the six 'Sonates en trio' [authenticite douteuse], c. 1780; first print 1781 (IMSLP; clavecin with violin and cello accompaniment, strings not ad lib.). Published/recorded under his name, so they stay, but the doubt must be in notes. Piano with harpsichord alternative follows the house rule for a post-1770 print, so the IMSLP scoring mismatch is not an error"
+  },
+  {
+   "id": 102305,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Keyboard-led, with violin and cello accompaniment; authenticity doubtful (Gerard); not in Boccherini's own catalogue"
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Keyboard_Trios,_G.143-148_(Boccherini,_Luigi)",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/586288412"
+   ],
+   "note": "G.145; Galimathias 10:44. Gerard's catalogue marks the six 'Sonates en trio' [authenticite douteuse], c. 1780; first print 1781 (IMSLP; clavecin with violin and cello accompaniment, strings not ad lib.). Published/recorded under his name, so they stay, but the doubt must be in notes. Piano with harpsichord alternative follows the house rule for a post-1770 print, so the IMSLP scoring mismatch is not an error"
+  },
+  {
+   "id": 102306,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Keyboard-led, with violin and cello accompaniment; authenticity doubtful (Gerard); not in Boccherini's own catalogue"
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Keyboard_Trios,_G.143-148_(Boccherini,_Luigi)",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/586288412"
+   ],
+   "note": "G.146; Galimathias 12:30. Gerard's catalogue marks the six 'Sonates en trio' [authenticite douteuse], c. 1780; first print 1781 (IMSLP; clavecin with violin and cello accompaniment, strings not ad lib.). Published/recorded under his name, so they stay, but the doubt must be in notes. Piano with harpsichord alternative follows the house rule for a post-1770 print, so the IMSLP scoring mismatch is not an error"
+  },
+  {
+   "id": 102307,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Keyboard-led, with violin and cello accompaniment; authenticity doubtful (Gerard); not in Boccherini's own catalogue"
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Keyboard_Trios,_G.143-148_(Boccherini,_Luigi)",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/586288412"
+   ],
+   "note": "G.147; Galimathias 8:16. Gerard's catalogue marks the six 'Sonates en trio' [authenticite douteuse], c. 1780; first print 1781 (IMSLP; clavecin with violin and cello accompaniment, strings not ad lib.). Published/recorded under his name, so they stay, but the doubt must be in notes. Piano with harpsichord alternative follows the house rule for a post-1770 print, so the IMSLP scoring mismatch is not an error"
+  },
+  {
+   "id": 102308,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Keyboard-led, with violin and cello accompaniment; authenticity doubtful (Gerard); not in Boccherini's own catalogue"
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Keyboard_Trios,_G.143-148_(Boccherini,_Luigi)",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/586288412"
+   ],
+   "note": "G.148; Galimathias 8:31. Gerard's catalogue marks the six 'Sonates en trio' [authenticite douteuse], c. 1780; first print 1781 (IMSLP; clavecin with violin and cello accompaniment, strings not ad lib.). Published/recorded under his name, so they stay, but the doubt must be in notes. Piano with harpsichord alternative follows the house rule for a post-1770 print, so the IMSLP scoring mismatch is not an error"
+  },
+  {
+   "id": 102309,
+   "verdict": "fixed",
+   "fixes": {
+    "aka": []
+   },
+   "sources": [
+    "https://imslp.org/wiki/Stabat_Mater,_G.532_(Boccherini,_Luigi)",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/302974757"
+   ],
+   "note": "Op.61 belongs to the 1800 version for three voices (IMSLP, Wikipedia G 532b), not the 1781 soprano and string quintet version (G 532a), so the aka 'Stabat Mater, Op. 61' is wrong here. Rest holds: Agnes Mellon (Harmonia Mundi) 11 numbers, 42:28. Scope: a sacred vocal work with five strings, in under the voice-with-chamber-ensemble rule but the owner may see it as vocal repertoire"
+  },
+  {
+   "id": 102310,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.77-82_(Op.1)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/356998527",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "Op.1 in Boccherini's catalogue, published 1767 as Op.2 (IMSLP), composed 1760, 2 violins and cello; Trio Arcophon (Newton Classics) 14:16, movements Moderato-Largo-Presto match notes"
+  },
+  {
+   "id": 102311,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.77-82_(Op.1)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/356998527",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "Op.1 in Boccherini's catalogue, published 1767 as Op.2 (IMSLP), composed 1760, 2 violins and cello; Trio Arcophon (Newton Classics) 11:42, movements Allegro-Largo-Presto assai match notes"
+  },
+  {
+   "id": 102312,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.77-82_(Op.1)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/356998527",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "Op.1 in Boccherini's catalogue, published 1767 as Op.2 (IMSLP), composed 1760, 2 violins and cello; Trio Arcophon (Newton Classics) 10:29, movements Largo-Allegro-Minuetto match notes"
+  },
+  {
+   "id": 102313,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.77-82_(Op.1)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/356998527",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "Op.1 in Boccherini's catalogue, published 1767 as Op.2 (IMSLP), composed 1760, 2 violins and cello; Trio Arcophon (Newton Classics) 12:29, movements Lento-Allegro con spirito-Fuga match notes"
+  },
+  {
+   "id": 102314,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.77-82_(Op.1)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/356998527",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "Op.1 in Boccherini's catalogue, published 1767 as Op.2 (IMSLP), composed 1760, 2 violins and cello; Trio Arcophon (Newton Classics) 10:16, movements Larghetto-Allegro con brio-Allegro match notes"
+  },
+  {
+   "id": 102315,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.77-82_(Op.1)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/356998527",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "Op.1 in Boccherini's catalogue, published 1767 as Op.2 (IMSLP), composed 1760, 2 violins and cello; Trio Arcophon (Newton Classics) 11:32, movements Largo-Allegro espressivo-Tempo di minuetto match notes"
+  },
+  {
+   "id": 102316,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.89-94_(Op.6)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/39999171",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.90: 'Op.6' in Boccherini's catalogue, first print as Op.9 (IMSLP), 1769, 2 violins and cello; Lubotsky Trio (Brilliant 2017) 12:05, movements match notes"
+  },
+  {
+   "id": 102317,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.89-94_(Op.6)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/39999171",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.92: 'Op.6' in Boccherini's catalogue, first print as Op.9 (IMSLP), 1769, 2 violins and cello; Lubotsky Trio (Brilliant 2017) 15:55, movements match notes"
+  },
+  {
+   "id": 102318,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.89-94_(Op.6)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/39999171",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.93: 'Op.6' in Boccherini's catalogue, first print as Op.9 (IMSLP), 1769, 2 violins and cello; Lubotsky Trio (Brilliant 2017) 9:01 (entry 10 ok), movements match notes"
+  },
+  {
+   "id": 102319,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.89-94_(Op.6)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/39999171",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.94: 'Op.6' in Boccherini's catalogue, first print as Op.9 (IMSLP), 1769, 2 violins and cello; Lubotsky Trio (Brilliant 2017) 19:27, movements match notes"
+  },
+  {
+   "id": 102321,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.95-100_(Op.14)_(Boccherini,_Luigi)",
+    "https://fr.wikipedia.org/wiki/Six_trios_opus_14_de_Luigi_Boccherini",
+    "https://www.deezer.com/album/579435351"
+   ],
+   "note": "G.96 Op.14 No.2, 1772, violin-viola-cello (La Chevardiere print 1773, 'violino, viola e violoncello obligato'; the Gerard page's '2 violins' is wrong); 4 movements ending Prestissimo; fr.wikipedia says the cello leads the set and gives about 16 min; La Real Camara (Glossa) 16:39"
+  },
+  {
+   "id": 102338,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/7341296",
+    "https://www.deezer.com/album/587335722"
+   ],
+   "note": "G.407 Op.56, 1797, fortepiano and string quartet (Gerard, Wikipedia; the string quintets G.379-384 derive from them). Galimathias 23:56, Claviere 27:46; 4 movements"
+  },
+  {
+   "id": 102339,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/7341296",
+    "https://www.deezer.com/album/587335722"
+   ],
+   "note": "G.408 Op.56, 1797, fortepiano and string quartet (Gerard, Wikipedia; the string quintets G.379-384 derive from them). Claviere 17:18; Minuetto amoroso second"
+  },
+  {
+   "id": 102340,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/7341296",
+    "https://www.deezer.com/album/587335722"
+   ],
+   "note": "G.409 Op.56, 1797, fortepiano and string quartet (Gerard, Wikipedia; the string quintets G.379-384 derive from them). Claviere 23:40; 3 movements, Maestoso assai first"
+  },
+  {
+   "id": 102341,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/7341296",
+    "https://www.deezer.com/album/587335722"
+   ],
+   "note": "G.410 Op.56, 1797, fortepiano and string quartet (Gerard, Wikipedia; the string quintets G.379-384 derive from them). Claviere 16:10; 3 movements"
+  },
+  {
+   "id": 102342,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/7341296",
+    "https://www.deezer.com/album/587335722"
+   ],
+   "note": "G.411 Op.56, 1797, fortepiano and string quartet (Gerard, Wikipedia; the string quintets G.379-384 derive from them). Galimathias 24:46, Claviere 21:12; Allegro a modo di marcia then variations"
+  },
+  {
+   "id": 102343,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb5a.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini",
+    "https://www.deezer.com/album/7341296",
+    "https://www.deezer.com/album/587335722"
+   ],
+   "note": "G.412 Op.56, 1797, fortepiano and string quartet (Gerard, Wikipedia; the string quintets G.379-384 derive from them). Galimathias 21:02, Claviere 19:42; Andantino returns before the finale"
+  },
+  {
+   "id": 102350,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.113-118_(Op.54)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/580130891",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.114 Op.54, 1796, 2 violins and cello (IMSLP); La Real Camara (Glossa, Deezer tags it 'Op.52') 18:13, 3 movements; Nagels 1930 and Bärenreiter parts per IMSLP"
+  },
+  {
+   "id": 102351,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.113-118_(Op.54)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/580130891",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.116 Op.54, 1796, 2 violins and cello (IMSLP); La Real Camara (Glossa, Deezer tags it 'Op.52') 17:05, 4 movements"
+  },
+  {
+   "id": 102352,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.113-118_(Op.54)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/580130891",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.117 Op.54, 1796, 2 violins and cello (IMSLP); La Real Camara (Glossa, Deezer tags it 'Op.52') 18:09, 4 movements"
+  },
+  {
+   "id": 102353,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_G.113-118_(Op.54)_(Boccherini,_Luigi)",
+    "https://www.deezer.com/album/580130891",
+    "http://www.musiqueorguequebec.ca/catal/boccherini/boclchb3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Boccherini"
+   ],
+   "note": "G.118 Op.54, 1796, 2 violins and cello (IMSLP); La Real Camara (Glossa, Deezer tags it 'Op.52') 14:41, 4 movements"
+  },
+  {
+   "id": 105572,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/2_Oboe_Quartets_(Bochsa,_Charles)",
+    "https://www.deezer.com/album/707097831"
+   ],
+   "note": "IMSLP: Deux quatuors pour hautbois, violon, alto et basse (Sieber, c. 1810), No.2 in D minor. A second, complete recording: Masashi Honma et al., Denon 2006 ('Oboe Quartets (Mozart / Bochsa / ...)'), D minor in 2 movements (Allegro non troppo con espressione 9:01, Rondo moderato 7:22 = 16 min)"
+  },
+  {
+   "id": 105573,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/10_Pieces_for_2_Horns_and_Bass,_Op.6_(Böck,_Ignaz)",
+    "https://www.deezer.com/album/586323752",
+    "https://www.deezer.com/album/552574002"
+   ],
+   "note": "Scoring (2 horns and bass; cello per IMSLP, double bass on the Pan Classics disc) and 10 pieces confirmed. Floor is thin but met: Kalmus edition (Belwin Mills 4798), Pan Classics (Stoll, Contrabasso vivace 2020) records only Nos. 2, 3, 6, 7, and the complete set (18:47, 10 pieces) is Richard Burdick's own I Ching Music album 2024. Year 1803 rests on IMSLP alone; Kalmus credits Ignaz and Anton Bock"
+  },
+  {
+   "id": 104408,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_sopra_'La_Monica'_(Böddecker,_Philipp_Friedrich)",
+    "https://imslp.org/wiki/Sacra_partitura_(Böddecker,_Philipp_Friedrich)",
+    "https://www.deezer.com/album/1581413"
+   ],
+   "note": "IMSLP gives bassoon + continuo, or bassoon + violin (ad lib.) + continuo; the UE (Waterhouse) edition has no violin, while Seiffert (1924), TrevCo and the Brilliant recording (van Sambeek, 5:53, 'for Bassoon, Violin and Basso Continuo') use the violin. If the violin is ad lib. the work is a duo with continuo and out of scope; the owner should decide whether to count it. Year 1651, ~6 min, floor (Brilliant 2012) hold"
+  }
+ ],
+ "note": "Boccherini quartets, trios, quintets and sextets hold up (minutes and movements checked against Deezer/Apple track lists). Fixes: Op.12 keyboard trios need 'authenticity doubtful (Gerard)' in notes; Stabat Mater aka loses Op.61 (1800 version); G.430 notes. Doubt: Boddecker (violin ad lib.). G.470 floor rests on Tafelmusik only. Op.2 quartets were first printed as Op.1 (not in aka)."
+}

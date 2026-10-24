@@ -1,0 +1,615 @@
+{
+ "chunk": "v012",
+ "results": [
+  {
+   "id": 108303,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/7115516",
+    "https://api.deezer.com/album/48298662",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Leo_Brouwer"
+   ],
+   "note": "Recorded twice (Havana SQ, Zoho 19:26; Cuarteto de Cuerdas de La Habana, Legacy 21:56); 1961 per Wikipedia and Zoho track titles"
+  },
+  {
+   "id": 108304,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/7115516",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Leo_Brouwer"
+   ],
+   "note": "1968 per Wikipedia list and Zoho track title; Havana SQ 6:19"
+  },
+  {
+   "id": 108305,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/7115516",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Leo_Brouwer"
+   ],
+   "note": "1991-97 per Wikipedia and Zoho; movements total 20:59"
+  },
+  {
+   "id": 108306,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/7115516",
+    "https://www.audaud.com/leo-brouwer-the-string-quartets-string-trio-the-havana-string-quartet-zoho-classix"
+   ],
+   "note": "2007 and 'premiere recording of the Fourth Quartet' per Audiophile Audition review; absent from the Wikipedia list; 13:13 on Zoho"
+  },
+  {
+   "id": 108307,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/7115516",
+    "https://music4viola.com/work-info/4/Brouwer%20L./trio-for-2-violins-and-viola?l=en",
+    "https://www.audaud.com/leo-brouwer-the-string-quartets-string-trio-the-havana-string-quartet-zoho-classix"
+   ],
+   "note": "1959 per Zoho track title, review and Music4Viola (2 violins + viola, 5 movements, c. 15 min); Wikipedia's list says 1956, which is the outlier"
+  },
+  {
+   "id": 108308,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Guitar with string quartet in three movements (Allegro, slow movement, Finale)"
+   },
+   "sources": [
+    "https://api.deezer.com/album/236673022",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Leo_Brouwer"
+   ],
+   "note": "Work, scoring, 1958 (Wikipedia) and 16:23 timing hold. The claim 'the finale is the Finale of 1957' is not shown by any source opened (Wikipedia lists a separate 1957 'Finale' for guitar and string quartet): removed. A catalogue search hit lists a Ricordi score (1993, c1989), so an edition exists"
+  },
+  {
+   "id": 108309,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/718001521",
+    "https://api.deezer.com/album/48298662",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Leo_Brouwer",
+    "https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/brouwer-leo-0"
+   ],
+   "note": "Two recordings (Trio Breton 19:48; Trio White). Year: Wikipedia 1983, Baker's (encyclopedia.com) 1982; kept 1983"
+  },
+  {
+   "id": 108310,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1970"
+   },
+   "sources": [
+    "https://api.deezer.com/album/108932722",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Leo_Brouwer",
+    "https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/brouwer-leo-0",
+    "https://music4viola.com/work-info/2/Brouwer%20L./per-suonare-a-tre-for-flute-viola-and-guitar?l=en"
+   ],
+   "note": "Wikipedia list and Baker's both give 1970 for Per suonare a tre (flute, viola, guitar); Music4Viola gives 1978, which is the publication (Eschig edition). 9:57 on the Warner album"
+  },
+  {
+   "id": 107920,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1343924810&entity=song",
+    "https://itunes.apple.com/lookup?id=1400964141&entity=song",
+    "https://api.deezer.com/album/459286795",
+    "https://en.wikipedia.org/wiki/Earle_Brown"
+   ],
+   "note": "Three recordings (Concord SQ 11:56, Ne(x)tworks 11:40, LaSalle 9:50); 1965 per Wikipedia and Del Sol note"
+  },
+  {
+   "id": 107921,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Early (1952) twelve-tone serial trio in strictly metric notation; about three minutes"
+   },
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1542681888&entity=song",
+    "https://itunes.apple.com/lookup?id=1400964141&entity=song",
+    "https://www.newworldrecords.org/products/earle-brown-selected-works-1952-1965",
+    "https://en.wikipedia.org/wiki/Earle_Brown"
+   ],
+   "note": "'Graphic-style' is wrong: Brown's own liner note (New World) calls it a very early 1952 twelve-tone serial piece in very strictly metric notation (graphic scores are the Folio pieces). Two recordings (3:10, 3:04); year 1952 and 3 min hold"
+  },
+  {
+   "id": 107927,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://earle-brown.org/?p=147",
+    "https://search.library.wisc.edu/catalog/9910024695902121",
+    "https://itunes.apple.com/lookup?id=1542681888&entity=song",
+    "https://www.newworldrecords.org/products/earle-brown-selected-works-1952-1965"
+   ],
+   "note": "Flute, trombone, harp, violin, cello + 4-channel tape, 1963, commissioned by Service de la Recherche, ORTF Paris (earle-brown.org, via WebFetch); Brown's page gives 16 min, recording 15:07"
+  },
+  {
+   "id": 103486,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/536775672",
+    "https://api.deezer.com/album/228008322",
+    "https://api.deezer.com/album/584565672",
+    "https://www.musicweb-international.com/classrev/2017/May/Bruch_quintets_CDA68168.htm",
+    "https://www.henle.de/media/f1/6e/2e/1690886067/0844-1690886067-sync.pdf"
+   ],
+   "note": "Composed Nov 1918 (Henle preface); three recordings (Nash 23:24); tarantella-like scherzo and rondo finale per MusicWeb review"
+  },
+  {
+   "id": 103487,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/536775672",
+    "https://api.deezer.com/album/228008322",
+    "https://www.musicweb-international.com/classrev/2017/May/Bruch_quintets_CDA68168.htm",
+    "https://www.henle.de/media/f1/6e/2e/1690886067/0844-1690886067-sync.pdf"
+   ],
+   "note": "Composed Dec 1918 (Henle preface, which also gives 17 minutes); Nash 17:15, WDR 18:48"
+  },
+  {
+   "id": 103488,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 22
+   },
+   "sources": [
+    "https://api.deezer.com/album/580061011",
+    "https://boosey.com/shop/prod/Bruch-Max-Septet-Set-Of-Parts/630844",
+    "https://www.henle.de/media/f1/6e/2e/1690886067/0844-1690886067-sync.pdf"
+   ],
+   "note": "Only recording found (Consortium Classicum, orfeo) runs 22:28, against 26 given; 26 is an earsense estimate. Scoring (clarinet, horn, bassoon, 2 violins, cello, double bass), Simrock edition and age-eleven origin (Henle) hold; year 1849 consistent"
+  },
+  {
+   "id": 103747,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Intermezzo,_WAB_113_(Bruckner,_Anton)",
+    "https://api.deezer.com/album/580754761",
+    "https://api.deezer.com/album/6291638",
+    "https://api.deezer.com/album/837060632",
+    "https://en.wikipedia.org/wiki/Intermezzo_in_D_minor_(Bruckner)"
+   ],
+   "note": "Completed 21 Dec 1879; first performed Vienna 23 Jan 1904 (Fitzner Quartet) per IMSLP; recordings 3:57-4:17"
+  },
+  {
+   "id": 105521,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/280441522",
+    "https://api.deezer.com/album/265591782",
+    "https://www.musicweb-international.com/classrev/2022/Sep/Brunetti-divertimenti-170004.htm",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "Two recordings (Brilliant 10:11, 1700 Classics 9:48); key G per 1700 Classics and MusicWeb. Brilliant booklet's key table for L.127-132 disagrees (E-flat for L.127) and does not match its own track tempos: ignored. Composed 1770s (booklet: 1772-74; other note: 1773-75), year left blank"
+  },
+  {
+   "id": 105522,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/280441522",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "Brilliant (Proyecto Brunetti) 6:37; key not given by recording, left out. Composed c. 1772-75, year left blank"
+  },
+  {
+   "id": 105523,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/280441522",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "Brilliant 7:10; key not given by recording, left out"
+  },
+  {
+   "id": 105524,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/280441522",
+    "https://api.deezer.com/album/265591782",
+    "https://www.musicweb-international.com/classrev/2022/Sep/Brunetti-divertimenti-170004.htm",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "Two recordings (Brilliant 11:02, 1700 Classics 9:56); key E-flat per 1700 Classics and MusicWeb"
+  },
+  {
+   "id": 105525,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/280441522",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "Brilliant 6:32; key not given by recording, left out"
+  },
+  {
+   "id": 105526,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/280441522",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "Brilliant 6:24; key not given by recording, left out"
+  },
+  {
+   "id": 105527,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/265591782",
+    "https://www.musicweb-international.com/classrev/2022/Sep/Brunetti-divertimenti-170004.htm",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "1700 Classics 7:22; key E-flat per recording and MusicWeb (one recording only, passes the floor)"
+  },
+  {
+   "id": 105528,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/265591782",
+    "https://www.musicweb-international.com/classrev/2022/Sep/Brunetti-divertimenti-170004.htm",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "1700 Classics 5:04; key D minor per recording and MusicWeb"
+  },
+  {
+   "id": 105529,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/265591782",
+    "https://www.musicweb-international.com/classrev/2022/Sep/Brunetti-divertimenti-170004.htm",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "1700 Classics 9:35; key B-flat per recording and MusicWeb"
+  },
+  {
+   "id": 105530,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/265591782",
+    "https://www.musicweb-international.com/classrev/2022/Sep/Brunetti-divertimenti-170004.htm",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "1700 Classics 12:10; key D minor per recording and MusicWeb"
+  },
+  {
+   "id": 105531,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1784",
+    "notes": "Three-movement trio for violin, viola and cello; from the set dated 1784"
+   },
+   "sources": [
+    "https://api.deezer.com/album/7371435",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://mag.highresaudio.com/album/view/43orga/concerto-1700-daniel-pinten-o-gaetano-brunetti-string-quartets-op-3",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "Carmen Veneris (Lindoro 2014) 12:20, key A as titled. Year added: Brilliant booklet says Brunetti himself dated the last divertimento series (five works, here L.145-149) 1784; a 1700 Classics note also dates L.145-149 to 1784. 'Serie 4' in the old notes is only Lindoro's own numbering"
+  },
+  {
+   "id": 105532,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1784",
+    "notes": "Three-movement trio for violin, viola and cello; from the set dated 1784"
+   },
+   "sources": [
+    "https://api.deezer.com/album/7371435",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://mag.highresaudio.com/album/view/43orga/concerto-1700-daniel-pinten-o-gaetano-brunetti-string-quartets-op-3",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "Carmen Veneris (Lindoro 2014) 12:04, key B-flat as titled. Year added: Brilliant booklet says Brunetti himself dated the last divertimento series (five works, here L.145-149) 1784; a 1700 Classics note also dates L.145-149 to 1784. 'Serie 4' in the old notes is only Lindoro's own numbering"
+  },
+  {
+   "id": 105533,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1784",
+    "notes": "Three-movement trio for violin, viola and cello; from the set dated 1784"
+   },
+   "sources": [
+    "https://api.deezer.com/album/7371435",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://mag.highresaudio.com/album/view/43orga/concerto-1700-daniel-pinten-o-gaetano-brunetti-string-quartets-op-3",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "Carmen Veneris (Lindoro 2014) 12:14, key C minor as titled. Year added: Brilliant booklet says Brunetti himself dated the last divertimento series (five works, here L.145-149) 1784; a 1700 Classics note also dates L.145-149 to 1784. 'Serie 4' in the old notes is only Lindoro's own numbering"
+  },
+  {
+   "id": 105534,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1784",
+    "notes": "Three-movement trio for violin, viola and cello; from the set dated 1784"
+   },
+   "sources": [
+    "https://api.deezer.com/album/7371435",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://mag.highresaudio.com/album/view/43orga/concerto-1700-daniel-pinten-o-gaetano-brunetti-string-quartets-op-3",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "Carmen Veneris (Lindoro 2014) 9:39, key C as titled. Year added: Brilliant booklet says Brunetti himself dated the last divertimento series (five works, here L.145-149) 1784; a 1700 Classics note also dates L.145-149 to 1784. 'Serie 4' in the old notes is only Lindoro's own numbering"
+  },
+  {
+   "id": 105535,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1784",
+    "notes": "Three-movement trio for violin, viola and cello; from the set dated 1784"
+   },
+   "sources": [
+    "https://api.deezer.com/album/7371435",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://mag.highresaudio.com/album/view/43orga/concerto-1700-daniel-pinten-o-gaetano-brunetti-string-quartets-op-3",
+    "https://imslp.org/wiki/23_Divertissements_(Brunetti,_Gaetano)"
+   ],
+   "note": "Carmen Veneris (Lindoro 2014) 10:35, key E-flat as titled. Year added: Brilliant booklet says Brunetti himself dated the last divertimento series (five works, here L.145-149) 1784; a 1700 Classics note also dates L.145-149 to 1784. 'Serie 4' in the old notes is only Lindoro's own numbering"
+  },
+  {
+   "id": 105536,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/718242721",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://www.musicweb-international.com/classrev/2022/Sep/Brunetti-divertimenti-170004.htm"
+   ],
+   "note": "Exordium Musicae (SEdeM 2019) 12:31, four movements; Brilliant booklet (citing Labrador's catalogue) confirms Brunetti's 'trios' are for two violins and cello. Year unknown"
+  },
+  {
+   "id": 105537,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/718242721",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://www.musicweb-international.com/classrev/2022/Sep/Brunetti-divertimenti-170004.htm"
+   ],
+   "note": "Exordium Musicae (SEdeM 2019) 11:22, four movements; Brilliant booklet (citing Labrador's catalogue) confirms Brunetti's 'trios' are for two violins and cello. Year unknown"
+  },
+  {
+   "id": 105538,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/718242721",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://www.musicweb-international.com/classrev/2022/Sep/Brunetti-divertimenti-170004.htm"
+   ],
+   "note": "Exordium Musicae (SEdeM 2019) 13:51, four movements; Brilliant booklet (citing Labrador's catalogue) confirms Brunetti's 'trios' are for two violins and cello. Year unknown"
+  },
+  {
+   "id": 105539,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/718242721",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://www.musicweb-international.com/classrev/2022/Sep/Brunetti-divertimenti-170004.htm"
+   ],
+   "note": "Exordium Musicae (SEdeM 2019) 14:49, four movements; Brilliant booklet (citing Labrador's catalogue) confirms Brunetti's 'trios' are for two violins and cello. Year unknown"
+  },
+  {
+   "id": 105540,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/718242721",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://www.musicweb-international.com/classrev/2022/Sep/Brunetti-divertimenti-170004.htm"
+   ],
+   "note": "Exordium Musicae (SEdeM 2019) 14:07, four movements; Brilliant booklet (citing Labrador's catalogue) confirms Brunetti's 'trios' are for two violins and cello. Year unknown"
+  },
+  {
+   "id": 105541,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/718242721",
+    "https://www.brilliantclassics.com/media/1622108/digital-booklet-brunetti-divertimenti.pdf",
+    "https://www.musicweb-international.com/classrev/2022/Sep/Brunetti-divertimenti-170004.htm"
+   ],
+   "note": "Exordium Musicae (SEdeM 2019) 13:48, four movements; Brilliant booklet (citing Labrador's catalogue) confirms Brunetti's 'trios' are for two violins and cello. Year unknown"
+  },
+  {
+   "id": 105542,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/578621131",
+    "https://search.ub.tum.de/vufind/Search/Results?lookfor=Brunetti+Quintetos+fagotto+Opera+II&type=AllFields"
+   ],
+   "note": "Tactus recording (Carlini) and Ars Hispana critical edition 2023 ('Quintetos Vol. 2, a due violini, viola, fagotto e violoncello, Opera II, L 208-L 213') pass the floor; four movements as stated. L numbers L 208-213 (Quintetto I-VI) could be added to the titles but the No.-to-L mapping was not opened, so titles left alone"
+  },
+  {
+   "id": 105543,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/578621131",
+    "https://search.ub.tum.de/vufind/Search/Results?lookfor=Brunetti+Quintetos+fagotto+Opera+II&type=AllFields"
+   ],
+   "note": "Tactus recording (Carlini) and Ars Hispana critical edition 2023 ('Quintetos Vol. 2, a due violini, viola, fagotto e violoncello, Opera II, L 208-L 213') pass the floor; four movements as stated. L numbers L 208-213 (Quintetto I-VI) could be added to the titles but the No.-to-L mapping was not opened, so titles left alone"
+  },
+  {
+   "id": 105544,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/578621131",
+    "https://search.ub.tum.de/vufind/Search/Results?lookfor=Brunetti+Quintetos+fagotto+Opera+II&type=AllFields"
+   ],
+   "note": "Tactus recording (Carlini) and Ars Hispana critical edition 2023 ('Quintetos Vol. 2, a due violini, viola, fagotto e violoncello, Opera II, L 208-L 213') pass the floor; four movements as stated. L numbers L 208-213 (Quintetto I-VI) could be added to the titles but the No.-to-L mapping was not opened, so titles left alone"
+  },
+  {
+   "id": 105545,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/578621131",
+    "https://search.ub.tum.de/vufind/Search/Results?lookfor=Brunetti+Quintetos+fagotto+Opera+II&type=AllFields"
+   ],
+   "note": "Tactus recording (Carlini) and Ars Hispana critical edition 2023 ('Quintetos Vol. 2, a due violini, viola, fagotto e violoncello, Opera II, L 208-L 213') pass the floor; four movements as stated. L numbers L 208-213 (Quintetto I-VI) could be added to the titles but the No.-to-L mapping was not opened, so titles left alone"
+  },
+  {
+   "id": 105546,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/578621131",
+    "https://search.ub.tum.de/vufind/Search/Results?lookfor=Brunetti+Quintetos+fagotto+Opera+II&type=AllFields"
+   ],
+   "note": "Tactus recording (Carlini) and Ars Hispana critical edition 2023 ('Quintetos Vol. 2, a due violini, viola, fagotto e violoncello, Opera II, L 208-L 213') pass the floor; four movements as stated. L numbers L 208-213 (Quintetto I-VI) could be added to the titles but the No.-to-L mapping was not opened, so titles left alone"
+  },
+  {
+   "id": 105547,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/578621131",
+    "https://search.ub.tum.de/vufind/Search/Results?lookfor=Brunetti+Quintetos+fagotto+Opera+II&type=AllFields"
+   ],
+   "note": "Tactus recording (Carlini) and Ars Hispana critical edition 2023 ('Quintetos Vol. 2, a due violini, viola, fagotto e violoncello, Opera II, L 208-L 213') pass the floor; four movements as stated. L numbers L 208-213 (Quintetto I-VI) could be added to the titles but the No.-to-L mapping was not opened, so titles left alone"
+  },
+  {
+   "id": 105548,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Sextets,_Op.1_(Brunetti,_Gaetano)",
+    "https://api.deezer.com/album/580167271",
+    "https://sactx.aspendiscovery.org/NaxosMusicLibrary/on1155045812"
+   ],
+   "note": "Floor not shown for the string version. The only recording found (Quantz Collegium, K&K 2020, live) is of the flute arrangement: Naxos record of Op. 1 No. 5 reads 'for flute, 2 violins, viola & 2 cellos... arranged for flute and string quintet'; the same group's No. 2 is titled 'Version for Flute...'. IMSLP scoring (3 vn, va, 2 vc) is right; looks like L. 270 (No. 4). No edition or string-version performance found"
+  },
+  {
+   "id": 105549,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Sextets,_Op.1_(Brunetti,_Gaetano)",
+    "https://api.deezer.com/album/584059562",
+    "https://sactx.aspendiscovery.org/NaxosMusicLibrary/on1155045812"
+   ],
+   "note": "Floor not shown for the string version: the Quantz Collegium recording of Op. 1 No. 5 (G major, L. 271 in Naxos's uniform title) is catalogued as 'for flute, 2 violins, viola & 2 cellos', arranged for flute and string quintet. Scoring on IMSLP (3 vn, va, 2 vc) and 13 min otherwise hold. No other recording or edition found"
+  },
+  {
+   "id": 105550,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet in F major, Op. 3 No. 1, L. 156",
+    "year": "1774",
+    "notes": "Two movements; one of the six quartets of Op. 3 (1774)"
+   },
+   "sources": [
+    "https://api.deezer.com/album/725673751",
+    "https://www.stretta-music.se/brunetti-string-quartets-2-nr-1009490.html",
+    "https://api.deezer.com/album/5997740"
+   ],
+   "note": "Opus 3 is L.156-161 as Primo..6th (Ars Hispana edition via Stretta; Lindoro CD confirms L.161 = Op. 3 No. 6), so this is No. 1; Ars Hispana dates Op. 3 1774. Old note 'on period instruments' not shown by the pages opened. Concerto 1700 (2025) timing agrees"
+  },
+  {
+   "id": 105551,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet in A major, Op. 3 No. 2, L. 157",
+    "year": "1774",
+    "notes": "Two movements; one of the six quartets of Op. 3 (1774)"
+   },
+   "sources": [
+    "https://api.deezer.com/album/725673751",
+    "https://www.stretta-music.se/brunetti-string-quartets-2-nr-1009490.html",
+    "https://api.deezer.com/album/5997740"
+   ],
+   "note": "Opus 3 is L.156-161 as Primo..6th (Ars Hispana edition via Stretta; Lindoro CD confirms L.161 = Op. 3 No. 6), so this is No. 2; Ars Hispana dates Op. 3 1774. Old note 'on period instruments' not shown by the pages opened. Concerto 1700 (2025) timing agrees"
+  },
+  {
+   "id": 105552,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet in C major, Op. 3 No. 3, L. 158",
+    "year": "1774",
+    "notes": "Two movements; one of the six quartets of Op. 3 (1774)"
+   },
+   "sources": [
+    "https://api.deezer.com/album/725673751",
+    "https://www.stretta-music.se/brunetti-string-quartets-2-nr-1009490.html",
+    "https://api.deezer.com/album/5997740"
+   ],
+   "note": "Opus 3 is L.156-161 as Primo..6th (Ars Hispana edition via Stretta; Lindoro CD confirms L.161 = Op. 3 No. 6), so this is No. 3; Ars Hispana dates Op. 3 1774. Old note 'on period instruments' not shown by the pages opened. Concerto 1700 (2025) timing agrees"
+  },
+  {
+   "id": 105553,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet in A major, Op. 3 No. 4, L. 159",
+    "year": "1774",
+    "notes": "Two movements; one of the six quartets of Op. 3 (1774)"
+   },
+   "sources": [
+    "https://api.deezer.com/album/725673751",
+    "https://www.stretta-music.se/brunetti-string-quartets-2-nr-1009490.html",
+    "https://api.deezer.com/album/5997740"
+   ],
+   "note": "Opus 3 is L.156-161 as Primo..6th (Ars Hispana edition via Stretta; Lindoro CD confirms L.161 = Op. 3 No. 6), so this is No. 4; Ars Hispana dates Op. 3 1774. Old note 'on period instruments' not shown by the pages opened. Concerto 1700 (2025) timing agrees"
+  },
+  {
+   "id": 105554,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet in E-flat major, Op. 3 No. 5, L. 160",
+    "year": "1774",
+    "notes": "Two movements; one of the six quartets of Op. 3 (1774)"
+   },
+   "sources": [
+    "https://api.deezer.com/album/725673751",
+    "https://www.stretta-music.se/brunetti-string-quartets-2-nr-1009490.html",
+    "https://api.deezer.com/album/5997740"
+   ],
+   "note": "Opus 3 is L.156-161 as Primo..6th (Ars Hispana edition via Stretta; Lindoro CD confirms L.161 = Op. 3 No. 6), so this is No. 5; Ars Hispana dates Op. 3 1774. Old note 'on period instruments' not shown by the pages opened. Concerto 1700 (2025) timing agrees"
+  },
+  {
+   "id": 105555,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1774",
+    "notes": "Two movements: Andantino con variazioni, then Allegro; last of the six quartets of Op. 3 (1774)"
+   },
+   "sources": [
+    "https://api.deezer.com/album/725673751",
+    "https://api.deezer.com/album/5997740",
+    "https://www.stretta-music.se/brunetti-string-quartets-2-nr-1009490.html"
+   ],
+   "note": "Two recordings (Concerto 1700 9:53, Carmen Veneris 10:42); Ars Hispana dates Op. 3 1774; 'period instruments' claim dropped (not shown)"
+  }
+ ],
+ "note": "Brunetti: the L. numbers are Labrador's catalogue. Brilliant's booklet key table for L.127-132 contradicts the recordings' titled keys; the recordings were followed. Sextets Op. 1 Nos. 4-5 are the only real concern (only recording is a flute arrangement). Bruch Septet minutes cut to 22. Brown trio note corrected (not graphic). Per suonare a tre now dated 1970. earle-brown.org is behind a Cloudflare challenge; its text was read through WebFetch."
+}
