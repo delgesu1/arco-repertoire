@@ -1,0 +1,1816 @@
+{
+ "chunk": "v067",
+ "items": [
+  {
+   "id": 103099,
+   "composer": "Raff, Joachim",
+   "title": "String Quartet No. 5 in G major, Op. 138",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1867",
+   "minutes": 32,
+   "set": null,
+   "notes": "Dedicated to Nikolay Rubinstein; Apple Music lists it as C major, IMSLP and Wikipedia as G major",
+   "imslpPage": "String Quartet No.5, Op.138 (Raff, Joachim)",
+   "tier": 3,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/String_Quartet_No.5,_Op.138_(Raff,_Joachim)",
+     "https://itunes.apple.com/lookup?id=1764919762&entity=song",
+     "https://en.wikipedia.org/wiki/List_of_compositions_by_Joachim_Raff"
+    ],
+    "floor": {
+     "published": "J. Schuberth & Co., Leipzig, 1869",
+     "recorded": "Leipziger Streichquartett, MDG, Raff Chamber Music Vol. 2 (2022)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 103150,
+   "composer": "Raff, Joachim",
+   "title": "Fantasie in G minor, Op. 207b",
+   "aka": [
+    "Fantasy for Piano Quintet in G minor"
+   ],
+   "formation": "piano-quintet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "players": 5,
+   "form": "work",
+   "year": "1877",
+   "minutes": 17,
+   "set": null,
+   "notes": "Single-movement fantasy for piano quintet of about 17 minutes; the opus number carries a \"b\"",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://itunes.apple.com/lookup?id=394704265&entity=song",
+     "https://itunes.apple.com/lookup?id=1782112182&entity=song",
+     "https://en.wikipedia.org/wiki/List_of_compositions_by_Joachim_Raff"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Ensemble Il Trittico, Divox, \"Swiss Piano Quintets\" (2011); Leipziger Streichquartett with Rudolph Meister, MDG, Raff Chamber Music Vol. 3 (2022)",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 100497,
+   "composer": "Rameau, Jean-Philippe",
+   "title": "Premier Concert in C minor, RCT 7",
+   "aka": [
+    "First Concert (Pièces de clavecin en concerts)"
+   ],
+   "formation": "other",
+   "instruments": {
+    "violin": 1,
+    "viola-da-gamba": 1,
+    "harpsichord": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ],
+    "viola-da-gamba": [
+     "violin"
+    ]
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1741",
+   "minutes": 10,
+   "set": "Pièces de clavecin en concerts, RCT 7–11",
+   "notes": "La Coulicam, La Livri and Le Vézinet; harpsichord with violin (or flute) and viol (or second violin)",
+   "imslpPage": "First Concert in C minor, RCT 7 (Rameau, Jean-Philippe)",
+   "tier": 1,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/First_Concert_in_C_minor,_RCT_7_(Rameau,_Jean-Philippe)",
+     "https://imslp.org/wiki/Pièces_de_clavecin_en_concerts,_RCT_7-11_(Rameau,_Jean-Philippe)",
+     "https://itunes.apple.com/lookup?id=1669527822&entity=song"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Rachel Podger, Jonathan Manson, Trevor Pinnock, Channel Classics (2006); Sigiswald, Barthold and Wieland Kuijken, Robert Kohnen, Accent (2010)",
+     "performed": ""
+    },
+    "gapCheck": false
+   },
+   "imslpMismatch": [
+    {
+     "field": "year",
+     "ours": "1741",
+     "imslp": 1726
+    },
+    {
+     "field": "scoring",
+     "ours": "1 harpsichord, 1 viola-da-gamba, 1 violin",
+     "imslp": "flute, viol, harpsichord | 2 violins, harpsichord | flute, violin, harpsichord | violin, viol, harpsichord"
+    }
+   ]
+  },
+  {
+   "id": 100498,
+   "composer": "Rameau, Jean-Philippe",
+   "title": "Deuxième Concert in G major, RCT 8",
+   "aka": [
+    "Second Concert (Pièces de clavecin en concerts)"
+   ],
+   "formation": "other",
+   "instruments": {
+    "violin": 1,
+    "viola-da-gamba": 1,
+    "harpsichord": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ],
+    "viola-da-gamba": [
+     "violin"
+    ]
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1741",
+   "minutes": 19,
+   "set": "Pièces de clavecin en concerts, RCT 7–11",
+   "notes": "La Laborde, La Boucon, L'Agaçante and two Menuets; the longest of the five",
+   "imslpPage": "Second Concert in G major, RCT 8 (Rameau, Jean-Philippe)",
+   "tier": 1,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/Second_Concert_in_G_major,_RCT_8_(Rameau,_Jean-Philippe)",
+     "https://imslp.org/wiki/Pièces_de_clavecin_en_concerts,_RCT_7-11_(Rameau,_Jean-Philippe)",
+     "https://itunes.apple.com/lookup?id=1669527822&entity=song"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Rachel Podger, Jonathan Manson, Trevor Pinnock, Channel Classics (2006); Sigiswald, Barthold and Wieland Kuijken, Robert Kohnen, Accent (2010)",
+     "performed": ""
+    },
+    "gapCheck": false
+   },
+   "imslpMismatch": [
+    {
+     "field": "year",
+     "ours": "1741",
+     "imslp": 1726
+    },
+    {
+     "field": "scoring",
+     "ours": "1 harpsichord, 1 viola-da-gamba, 1 violin",
+     "imslp": "flute, viol, harpsichord | 2 violins, harpsichord | flute, violin, harpsichord | violin, viol, harpsichord"
+    }
+   ]
+  },
+  {
+   "id": 100499,
+   "composer": "Rameau, Jean-Philippe",
+   "title": "Troisième Concert in A major, RCT 9",
+   "aka": [
+    "Third Concert (Pièces de clavecin en concerts)"
+   ],
+   "formation": "other",
+   "instruments": {
+    "violin": 1,
+    "viola-da-gamba": 1,
+    "harpsichord": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ],
+    "viola-da-gamba": [
+     "violin"
+    ]
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1741",
+   "minutes": 13,
+   "set": "Pièces de clavecin en concerts, RCT 7–11",
+   "notes": "La Lapoplinière, La Timide and two Tambourins",
+   "imslpPage": "Third Concert in A major, RCT 9 (Rameau, Jean-Philippe)",
+   "tier": 1,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/Third_Concert_in_A_major,_RCT_9_(Rameau,_Jean-Philippe)",
+     "https://imslp.org/wiki/Pièces_de_clavecin_en_concerts,_RCT_7-11_(Rameau,_Jean-Philippe)",
+     "https://itunes.apple.com/lookup?id=1669527822&entity=song"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Rachel Podger, Jonathan Manson, Trevor Pinnock, Channel Classics (2006); Sigiswald, Barthold and Wieland Kuijken, Robert Kohnen, Accent (2010)",
+     "performed": ""
+    },
+    "gapCheck": false
+   },
+   "imslpMismatch": [
+    {
+     "field": "year",
+     "ours": "1741",
+     "imslp": 1726
+    },
+    {
+     "field": "scoring",
+     "ours": "1 harpsichord, 1 viola-da-gamba, 1 violin",
+     "imslp": "flute, viol, harpsichord | 2 violins, harpsichord | flute, violin, harpsichord | violin, viol, harpsichord"
+    }
+   ]
+  },
+  {
+   "id": 100500,
+   "composer": "Rameau, Jean-Philippe",
+   "title": "Quatrième Concert in B-flat major, RCT 10",
+   "aka": [
+    "Fourth Concert (Pièces de clavecin en concerts)"
+   ],
+   "formation": "other",
+   "instruments": {
+    "violin": 1,
+    "viola-da-gamba": 1,
+    "harpsichord": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ],
+    "viola-da-gamba": [
+     "violin"
+    ]
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1741",
+   "minutes": 11,
+   "set": "Pièces de clavecin en concerts, RCT 7–11",
+   "notes": "La Pantomime, L'Indiscrète and La Rameau",
+   "imslpPage": "Fourth Concert in B-flat major, RCT 10 (Rameau, Jean-Philippe)",
+   "tier": 1,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/Fourth_Concert_in_B-flat_major,_RCT_10_(Rameau,_Jean-Philippe)",
+     "https://imslp.org/wiki/Pièces_de_clavecin_en_concerts,_RCT_7-11_(Rameau,_Jean-Philippe)",
+     "https://itunes.apple.com/lookup?id=1669527822&entity=song"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Rachel Podger, Jonathan Manson, Trevor Pinnock, Channel Classics (2006); Sigiswald, Barthold and Wieland Kuijken, Robert Kohnen, Accent (2010)",
+     "performed": ""
+    },
+    "gapCheck": false
+   },
+   "imslpMismatch": [
+    {
+     "field": "year",
+     "ours": "1741",
+     "imslp": 1726
+    },
+    {
+     "field": "scoring",
+     "ours": "1 harpsichord, 1 viola-da-gamba, 1 violin",
+     "imslp": "flute, violin, harpsichord | 2 violins, harpsichord | flute, viol, harpsichord | violin, viol, harpsichord"
+    }
+   ]
+  },
+  {
+   "id": 100501,
+   "composer": "Rameau, Jean-Philippe",
+   "title": "Cinquième Concert in D minor, RCT 11",
+   "aka": [
+    "Fifth Concert (Pièces de clavecin en concerts)"
+   ],
+   "formation": "other",
+   "instruments": {
+    "violin": 1,
+    "viola-da-gamba": 1,
+    "harpsichord": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ],
+    "viola-da-gamba": [
+     "violin"
+    ]
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1741",
+   "minutes": 13,
+   "set": "Pièces de clavecin en concerts, RCT 7–11",
+   "notes": "La Forqueray (a fugue), La Cupis and La Marais",
+   "imslpPage": "Fifth Concert in D minor, RCT 11 (Rameau, Jean-Philippe)",
+   "tier": 1,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/Fifth_Concert_in_D_minor,_RCT_11_(Rameau,_Jean-Philippe)",
+     "https://imslp.org/wiki/Pièces_de_clavecin_en_concerts,_RCT_7-11_(Rameau,_Jean-Philippe)",
+     "https://itunes.apple.com/lookup?id=1669527822&entity=song"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Rachel Podger, Jonathan Manson, Trevor Pinnock, Channel Classics (2006); Sigiswald, Barthold and Wieland Kuijken, Robert Kohnen, Accent (2010)",
+     "performed": ""
+    },
+    "gapCheck": false
+   },
+   "imslpMismatch": [
+    {
+     "field": "year",
+     "ours": "1741",
+     "imslp": 1726
+    },
+    {
+     "field": "scoring",
+     "ours": "1 harpsichord, 1 viola-da-gamba, 1 violin",
+     "imslp": "flute, viol, harpsichord | 2 violins, harpsichord | flute, violin, harpsichord | violin, viol, harpsichord"
+    }
+   ]
+  },
+  {
+   "id": 105783,
+   "composer": "Rasetti, Amédée",
+   "title": "Piano Trio in F major, Op. 13 No. 1",
+   "aka": [
+    "Trio No. 1 for Flute, Bassoon and Piano, Op. 13",
+    "Trois trios pour le pianoforte avec accompagnement de flûte ou violon, et basson ou violoncelle"
+   ],
+   "formation": "piano-trio",
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ],
+    "cello": [
+     "bassoon"
+    ]
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1810",
+   "minutes": 24,
+   "set": "Three Piano Trios, Op. 13",
+   "notes": "Piano leads; violin (or flute) and cello (or bassoon) accompany. Recorded with flute and bassoon",
+   "imslpPage": "Piano Trio, Op.13 No.1 (Rasetti, Amédée)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/Piano_Trio,_Op.13_No.1_(Rasetti,_Amédée)",
+     "https://api.deezer.com/album/157024262"
+    ],
+    "floor": {
+     "published": "Naderman, Paris (1810)",
+     "recorded": "Trio Amédée (flute, bassoon, piano), Musikproduktion Dabringhaus und Grimm (2005)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 105784,
+   "composer": "Rasetti, Amédée",
+   "title": "Piano Trio in C major, Op. 13 No. 2",
+   "aka": [
+    "Trio No. 2 for Flute, Bassoon and Piano, Op. 13",
+    "Trois trios pour le pianoforte avec accompagnement de flûte ou violon, et basson ou violoncelle"
+   ],
+   "formation": "piano-trio",
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ],
+    "cello": [
+     "bassoon"
+    ]
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1810",
+   "minutes": 18,
+   "set": "Three Piano Trios, Op. 13",
+   "notes": "Piano leads; violin (or flute) and cello (or bassoon) accompany. Recorded with flute and bassoon",
+   "imslpPage": "Piano Trio, Op.13 No.2 (Rasetti, Amédée)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/Piano_Trio,_Op.13_No.2_(Rasetti,_Amédée)",
+     "https://api.deezer.com/album/157024262"
+    ],
+    "floor": {
+     "published": "Naderman, Paris (1810)",
+     "recorded": "Trio Amédée (flute, bassoon, piano), Musikproduktion Dabringhaus und Grimm (2005)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 105785,
+   "composer": "Rasetti, Amédée",
+   "title": "Piano Trio in B-flat major, Op. 13 No. 3",
+   "aka": [
+    "Trio No. 3 for Flute, Bassoon and Piano, Op. 13",
+    "Trois trios pour le pianoforte avec accompagnement de flûte ou violon, et basson ou violoncelle"
+   ],
+   "formation": "piano-trio",
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {
+    "violin": [
+     "flute"
+    ],
+    "cello": [
+     "bassoon"
+    ]
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1810",
+   "minutes": 14,
+   "set": "Three Piano Trios, Op. 13",
+   "notes": "Piano leads; violin (or flute) and cello (or bassoon) accompany. Recorded with flute and bassoon",
+   "imslpPage": "Piano Trio, Op.13 No.3 (Rasetti, Amédée)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/Piano_Trio,_Op.13_No.3_(Rasetti,_Amédée)",
+     "https://api.deezer.com/album/157024262"
+    ],
+    "floor": {
+     "published": "Naderman, Paris (1810)",
+     "recorded": "Trio Amédée (flute, bassoon, piano), Musikproduktion Dabringhaus und Grimm (2005)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 106838,
+   "composer": "Raskatov, Alexander",
+   "title": "Prayer (Kaddish)",
+   "aka": [
+    "Gebet (Kaddish)"
+   ],
+   "formation": "other",
+   "instruments": {
+    "voice": 1,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 5,
+   "form": "work",
+   "year": "1996",
+   "minutes": 12,
+   "set": null,
+   "notes": "Soprano and string quartet of about 12 minutes",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Alexander_Raskatov",
+     "https://www.deezer.com/album/132833"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Elena Vassilieva with a string quartet, Claves (Russian Works for Soprano & String Quartet, 2003)",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 106839,
+   "composer": "Raskatov, Alexander",
+   "title": "Monk's Music",
+   "aka": [
+    "Seven Words by Starets Silouan"
+   ],
+   "formation": "other",
+   "instruments": {
+    "voice": 1,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 5,
+   "form": "work",
+   "year": "2005",
+   "minutes": 54,
+   "set": null,
+   "notes": "Bass and string quartet: seven texts by Starets Silouan, each followed by a movement; after Haydn's Seven Last Words",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Alexander_Raskatov",
+     "https://www.louthcms.org/portfolio/monks-music",
+     "https://gramophone.co.uk/review/raskatov-monks-music",
+     "https://www.deezer.com/album/306307607"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Gordon Jones (bass) and the Carducci Quartet, Louth Contemporary Music Society LCMS 1302 (2013)",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 106267,
+   "composer": "Rasse, François",
+   "title": "Piano Trio in B minor, Op. 16",
+   "formation": "piano-trio",
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1897",
+   "minutes": 23,
+   "set": null,
+   "notes": "Three movements",
+   "imslpPage": "Piano Trio, Op.16 (Rasse, François)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/Piano_Trio,_Op.16_(Rasse,_François)",
+     "https://itunes.apple.com/lookup?id=1259849588&entity=song"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "I Giocatori Piano Trio, Phaedra (In Flanders' Fields Vol. 80, 2013)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 107148,
+   "composer": "Rathaus, Karol",
+   "title": "String Quartet No. 3, Op. 41",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1936",
+   "minutes": 25,
+   "set": null,
+   "notes": "Five movements, including a Sarabande and an Episode",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://www.deezer.com/album/335613107",
+     "https://en.wikipedia.org/wiki/Karol_Rathaus"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Amar Corde String Quartet, Acte Préalable AP069, 2022",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 107149,
+   "composer": "Rathaus, Karol",
+   "title": "String Quartet No. 4, Op. 59",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1946",
+   "minutes": 22,
+   "set": null,
+   "notes": "Prelude, Andante con moto and a lively finale",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://www.deezer.com/album/335613107",
+     "https://en.wikipedia.org/wiki/Karol_Rathaus"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Amar Corde String Quartet, Acte Préalable AP069, 2022",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 107150,
+   "composer": "Rathaus, Karol",
+   "title": "String Quartet No. 5, Op. 72",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1954",
+   "minutes": 16,
+   "set": null,
+   "notes": "Three movements; his last quartet",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://www.deezer.com/album/335613107",
+     "https://www.deezer.com/album/948248191",
+     "https://en.wikipedia.org/wiki/Karol_Rathaus"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Amar Corde String Quartet, Acte Préalable AP069, 2022; Polish String Quartet Berlin, eda records, 2019",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 107151,
+   "composer": "Rathaus, Karol",
+   "title": "Trio, Op. 53",
+   "aka": [
+    "Trio for Clarinet, Violin and Piano"
+   ],
+   "formation": "winds-strings",
+   "instruments": {
+    "clarinet": 1,
+    "violin": 1,
+    "piano": 1
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1944",
+   "minutes": 23,
+   "set": null,
+   "notes": "For clarinet, violin and piano; three movements",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://www.deezer.com/album/579323541",
+     "https://en.wikipedia.org/wiki/Karol_Rathaus"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Karol Rathaus Ensemble, DUX, 2021",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 107152,
+   "composer": "Rathaus, Karol",
+   "title": "Trio Serenade, Op. 69",
+   "formation": "piano-trio",
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1953",
+   "minutes": 25,
+   "set": null,
+   "notes": "Four movements for piano trio",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://www.deezer.com/album/579323541",
+     "https://en.wikipedia.org/wiki/Karol_Rathaus"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Karol Rathaus Ensemble, DUX, 2021",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 106232,
+   "composer": "Rauchenecker, Georg Wilhelm",
+   "title": "String Quartet No. 1 in C minor",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1874",
+   "minutes": 28,
+   "set": null,
+   "notes": "Four movements; Brahmsian in tone",
+   "imslpPage": "String Quartet No.1 in C minor (Rauchenecker, Georg Wilhelm)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/String_Quartet_No.1_in_C_minor_(Rauchenecker,_Georg_Wilhelm)",
+     "https://www.deezer.com/album/9326602"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Winterthurer Streichquartett, Jecklin (2014)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 107686,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "String Quartet No. 1 (\"Quartettino\")",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1952",
+   "minutes": 11,
+   "set": null,
+   "notes": "Three short movements; the title means Little Quartet",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_compositions_by_Einojuhani_Rautavaara",
+     "https://musicbrainz.org/artist/bb94bbf5-b2b3-4a5a-bcab-7ba8b60cccea",
+     "https://www.deezer.com/album/584943752"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Ondine (Rautavaara: String Quintet 'Les Cieux Inconnues' / String Quartets Nos. 1 and 2, 1998)",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 107687,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "String Quartet No. 2, Op. 12",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1958",
+   "minutes": 25,
+   "set": null,
+   "notes": "Four movements",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_compositions_by_Einojuhani_Rautavaara",
+     "https://musicbrainz.org/artist/bb94bbf5-b2b3-4a5a-bcab-7ba8b60cccea",
+     "https://www.deezer.com/album/584943752"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Ondine (Rautavaara: String Quintet 'Les Cieux Inconnues' / String Quartets Nos. 1 and 2, 1998)",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 107688,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "String Quartet No. 4, Op. 87",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1975",
+   "minutes": 22,
+   "set": null,
+   "notes": "Three movements",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_compositions_by_Einojuhani_Rautavaara",
+     "https://musicbrainz.org/artist/bb94bbf5-b2b3-4a5a-bcab-7ba8b60cccea",
+     "https://www.deezer.com/album/538558332"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "BIS (Rautavaara: Chamber Music, 1993)",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 107689,
+   "composer": "Rautavaara, Einojuhani",
+   "title": "String Quintet No. 1 (\"Les cieux inconnus\")",
+   "aka": [
+    "Unknown Heavens",
+    "The Unknown Heavens"
+   ],
+   "formation": "string-quintet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 2
+   },
+   "players": 5,
+   "form": "work",
+   "year": "1997",
+   "minutes": 26,
+   "set": null,
+   "notes": "Four movements for two violins, viola and two cellos; first commissioned as a quartet",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_compositions_by_Einojuhani_Rautavaara",
+     "https://musicbrainz.org/artist/bb94bbf5-b2b3-4a5a-bcab-7ba8b60cccea",
+     "https://www.deezer.com/album/584943752"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Ondine (Rautavaara: String Quintet 'Les Cieux Inconnues' / String Quartets Nos. 1 and 2, 1998); Ondine ODE 909-2",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 105185,
+   "composer": "Raval, Sebastián",
+   "title": "Il primo libro di ricercari a quattro voci",
+   "aka": [
+    "Il primo libro di ricercari a quattro voci cantabili"
+   ],
+   "formation": "viol-consort",
+   "instruments": {
+    "viola-da-gamba": 4
+   },
+   "players": 4,
+   "form": "set",
+   "year": "1596",
+   "minutes": null,
+   "set": null,
+   "notes": "Ricercars for four voices or instruments ('per liuti, cimbali e viole d'arco'); La violondrina play eight on viols",
+   "imslpPage": "Ricercari a 4 voci, Libro 1 (Raval, Sebastián)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/Ricercari_a_4_voci,_Libro_1_(Raval,_Sebastián)",
+     "https://music.apple.com/album/1774509920"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "La violondrina, María Saturno, Raval: Ricercari & Canzonette (Brilliant Classics 97226, 2024; viols and organ, eight ricercars)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 105182,
+   "composer": "Ravenscroft, Thomas",
+   "title": "Fantasia a 5 No. 1",
+   "formation": "viol-consort",
+   "instruments": {
+    "viola-da-gamba": 5
+   },
+   "players": 5,
+   "form": "short",
+   "year": "",
+   "minutes": 4,
+   "set": null,
+   "notes": "Five-part fantasia for viols (VdGS No. 1); The Consort of Musicke record Nos. 1, 3 and 4",
+   "imslpPage": "Fantasias for 5 Viols (Ravenscroft, Thomas)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/Fantasias_for_5_Viols_(Ravenscroft,_Thomas)",
+     "https://www.deezer.com/album/557328462"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "The Consort of Musicke, There Were Three Ravens (Warner Classics, 2024 reissue of the Oiseau-Lyre recording), 3:52",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 105183,
+   "composer": "Ravenscroft, Thomas",
+   "title": "Fantasia a 5 No. 3",
+   "formation": "viol-consort",
+   "instruments": {
+    "viola-da-gamba": 5
+   },
+   "players": 5,
+   "form": "short",
+   "year": "",
+   "minutes": 3,
+   "set": null,
+   "notes": "Five-part fantasia for viols; The Consort of Musicke record Nos. 1, 3 and 4",
+   "imslpPage": "Fantasia à5 No.3 (Ravenscroft, Thomas)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/Fantasia_à5_No.3_(Ravenscroft,_Thomas)",
+     "https://www.deezer.com/album/557328462"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "The Consort of Musicke, There Were Three Ravens (Warner Classics, 2024 reissue of the Oiseau-Lyre recording), 2:42",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 105184,
+   "composer": "Ravenscroft, Thomas",
+   "title": "Fantasia a 5 No. 4",
+   "formation": "viol-consort",
+   "instruments": {
+    "viola-da-gamba": 5
+   },
+   "players": 5,
+   "form": "short",
+   "year": "",
+   "minutes": 3,
+   "set": null,
+   "notes": "Five-part fantasia for viols; The Consort of Musicke record Nos. 1, 3 and 4",
+   "imslpPage": "Fantasia à5 No.4 (Ravenscroft, Thomas)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/Fantasia_à5_No.4_(Ravenscroft,_Thomas)",
+     "https://www.deezer.com/album/557328462"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "The Consort of Musicke, There Were Three Ravens (Warner Classics, 2024 reissue of the Oiseau-Lyre recording), 3:25",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 107434,
+   "composer": "Rawsthorne, Alan",
+   "title": "Clarinet Quartet",
+   "formation": "winds-strings",
+   "instruments": {
+    "clarinet": 1,
+    "violin": 1,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1948",
+   "minutes": 17,
+   "set": null,
+   "notes": "Three movements; written in February 1948",
+   "imslpPage": "Clarinet Quartet (Rawsthorne, Alan)",
+   "tier": 3,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/Clarinet_Quartet_(Rawsthorne,_Alan)",
+     "https://www.deezer.com/album/580691641"
+    ],
+    "floor": {
+     "published": "Oxford University Press, 1950",
+     "recorded": "Lyrita compilation Rawsthorne, Berkeley & Bush: Chamber Music (Deezer 580691641, 17:05)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 107435,
+   "composer": "Rawsthorne, Alan",
+   "title": "Piano Quintet",
+   "formation": "piano-quintet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "players": 5,
+   "form": "work",
+   "year": "1968",
+   "minutes": 16,
+   "set": null,
+   "notes": "Four movements; premiered in March 1968",
+   "imslpPage": "Piano Quintet (Rawsthorne, Alan)",
+   "tier": 3,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/Piano_Quintet_(Rawsthorne,_Alan)",
+     "https://www.deezer.com/album/587095182"
+    ],
+    "floor": {
+     "published": "Oxford University Press, 1969",
+     "recorded": "Naxos: Rawsthorne, Piano Quintet / Piano Trio / Viola Sonata (Deezer 587095182, 15:40)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 107436,
+   "composer": "Rawsthorne, Alan",
+   "title": "Piano Trio",
+   "formation": "piano-trio",
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1962",
+   "minutes": 14,
+   "set": null,
+   "notes": "Three sections; commissioned for the 1962 Festival of the City of London",
+   "imslpPage": "Piano Trio (Rawsthorne, Alan)",
+   "tier": 3,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/Piano_Trio_(Rawsthorne,_Alan)",
+     "https://www.deezer.com/album/587095182"
+    ],
+    "floor": {
+     "published": "Oxford University Press, 1963",
+     "recorded": "Naxos: Rawsthorne, Piano Quintet / Piano Trio / Viola Sonata (Deezer 587095182, about 14:00)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 107438,
+   "composer": "Rawsthorne, Alan",
+   "title": "String Quartet No. 2",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1954",
+   "minutes": 18,
+   "set": null,
+   "notes": "Four movements of about 18 minutes",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Alan_Rawsthorne",
+     "https://www.deezer.com/album/587656412"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Maggini Quartet, Naxos (Deezer 587656412, 17:38)",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 105449,
+   "composer": "Reali, Giovanni Battista",
+   "title": "Trio Sonata in D major, Op. 1 No. 4",
+   "aka": [
+    "Sinfonia IV"
+   ],
+   "formation": "continuo",
+   "instruments": {
+    "violin": 2,
+    "continuo": 1
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1709",
+   "minutes": 6,
+   "set": "Ten Trio Sonatas, Op. 1",
+   "notes": "From Suonate e capricci (Venice, 1709); a cello shares the bass line with the continuo",
+   "imslpPage": "10 Trio Sonatas, Op.1 (Reali, Giovanni Battista)",
+   "tier": 3,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/10_Trio_Sonatas,_Op.1_(Reali,_Giovanni_Battista)",
+     "https://music.apple.com/album/1586647043",
+     "https://musicbrainz.org/release/f2f20173-8e4d-4c9e-a9fb-d52df55d7783"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Le Consort, Specchio veneziano (Alpha, 2021): Sinfonia IV, Reali's Op. 1 (five of the ten sonatas)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 101252,
+   "composer": "Rebel, Jean-Féry",
+   "title": "Trio Sonata in A major (\"La Flore\")",
+   "formation": "continuo",
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1695",
+   "minutes": 8,
+   "set": "Recueil de douze sonates à II et III parties",
+   "notes": "Separate bass-viol part with solo récits beside the harpsichord continuo",
+   "imslpPage": "12 Trio Sonatas, JFR.30-41 (Rebel, Jean-Féry)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/12_Trio_Sonatas,_JFR.30-41_(Rebel,_Jean-F%C3%A9ry)",
+     "https://music.apple.com/album/403125756",
+     "https://www.musicweb-international.com/classrev/2004/oct04/rebel.htm"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Ensemble Rebel/Jörg-Michael Schwarz, DHM 74321 935552 (complete trios)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 101253,
+   "composer": "Rebel, Jean-Féry",
+   "title": "Trio Sonata in E minor (\"La Junon\")",
+   "formation": "continuo",
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1695",
+   "minutes": 7,
+   "set": "Recueil de douze sonates à II et III parties",
+   "notes": "Separate bass-viol part with solo récits beside the harpsichord continuo",
+   "imslpPage": "12 Trio Sonatas, JFR.30-41 (Rebel, Jean-Féry)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/12_Trio_Sonatas,_JFR.30-41_(Rebel,_Jean-F%C3%A9ry)",
+     "https://music.apple.com/album/403125756",
+     "https://www.musicweb-international.com/classrev/2004/oct04/rebel.htm"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Ensemble Rebel/Jörg-Michael Schwarz, DHM 74321 935552 (complete trios)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 101254,
+   "composer": "Rebel, Jean-Féry",
+   "title": "Trio Sonata in F major (\"La Venus\")",
+   "formation": "continuo",
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1695",
+   "minutes": 7,
+   "set": "Recueil de douze sonates à II et III parties",
+   "notes": "Separate bass-viol part with solo récits beside the harpsichord continuo",
+   "imslpPage": "12 Trio Sonatas, JFR.30-41 (Rebel, Jean-Féry)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/12_Trio_Sonatas,_JFR.30-41_(Rebel,_Jean-F%C3%A9ry)",
+     "https://music.apple.com/album/403125756",
+     "https://www.musicweb-international.com/classrev/2004/oct04/rebel.htm"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Ensemble Rebel/Jörg-Michael Schwarz, DHM 74321 935552 (complete trios)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 101255,
+   "composer": "Rebel, Jean-Féry",
+   "title": "Trio Sonata in C minor (\"Le Tombeau de Monsieur de Lully\")",
+   "aka": [
+    "Tombeau de Lully"
+   ],
+   "formation": "continuo",
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1695",
+   "minutes": 15,
+   "set": "Recueil de douze sonates à II et III parties",
+   "notes": "Lament for Lully ending 'Les Regrets'; separate bass-viol part with récits",
+   "imslpPage": "12 Trio Sonatas, JFR.30-41 (Rebel, Jean-Féry)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/12_Trio_Sonatas,_JFR.30-41_(Rebel,_Jean-F%C3%A9ry)",
+     "https://music.apple.com/album/403125756",
+     "https://music.apple.com/album/1572129957",
+     "https://www.musicweb-international.com/classrev/2004/oct04/rebel.htm"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Ensemble Rebel/Jörg-Michael Schwarz, DHM 74321 935552 (complete trios); Amandine Beyer, Zig-Zag Territoires (2005)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 101256,
+   "composer": "Rebel, Jean-Féry",
+   "title": "Trio Sonata in D major (\"La Pallas\")",
+   "formation": "continuo",
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1695",
+   "minutes": 8,
+   "set": "Recueil de douze sonates à II et III parties",
+   "notes": "Separate bass-viol part with solo récits beside the harpsichord continuo",
+   "imslpPage": "12 Trio Sonatas, JFR.30-41 (Rebel, Jean-Féry)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/12_Trio_Sonatas,_JFR.30-41_(Rebel,_Jean-F%C3%A9ry)",
+     "https://music.apple.com/album/403125756",
+     "https://music.apple.com/album/1572129957",
+     "https://www.musicweb-international.com/classrev/2004/oct04/rebel.htm"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Ensemble Rebel/Jörg-Michael Schwarz, DHM 74321 935552 (complete trios); Amandine Beyer, Zig-Zag Territoires (2005)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 101257,
+   "composer": "Rebel, Jean-Féry",
+   "title": "Trio Sonata in G minor (\"L'Immortelle\")",
+   "formation": "continuo",
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1695",
+   "minutes": 6,
+   "set": "Recueil de douze sonates à II et III parties",
+   "notes": "Separate bass-viol part with solo récits beside the harpsichord continuo",
+   "imslpPage": "12 Trio Sonatas, JFR.30-41 (Rebel, Jean-Féry)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/12_Trio_Sonatas,_JFR.30-41_(Rebel,_Jean-F%C3%A9ry)",
+     "https://music.apple.com/album/403125756",
+     "https://www.musicweb-international.com/classrev/2004/oct04/rebel.htm"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Ensemble Rebel/Jörg-Michael Schwarz, DHM 74321 935552 (complete trios)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 101258,
+   "composer": "Rebel, Jean-Féry",
+   "title": "Trio Sonata in B-flat major (\"L'Apollon\")",
+   "formation": "continuo",
+   "instruments": {
+    "violin": 2,
+    "viola-da-gamba": 1,
+    "continuo": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1695",
+   "minutes": 9,
+   "set": "Recueil de douze sonates à II et III parties",
+   "notes": "Separate bass-viol part with solo récits beside the harpsichord continuo",
+   "imslpPage": "12 Trio Sonatas, JFR.30-41 (Rebel, Jean-Féry)",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://imslp.org/wiki/12_Trio_Sonatas,_JFR.30-41_(Rebel,_Jean-F%C3%A9ry)",
+     "https://music.apple.com/album/403125756",
+     "https://music.apple.com/album/1572129957",
+     "https://www.musicweb-international.com/classrev/2004/oct04/rebel.htm"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Ensemble Rebel/Jörg-Michael Schwarz, DHM 74321 935552 (complete trios); Amandine Beyer, Zig-Zag Territoires (2005)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 105992,
+   "composer": "Reber, Napoléon Henri",
+   "title": "Piano Trio No. 6 in E major, Op. 34",
+   "formation": "piano-trio",
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "alternatives": {
+    "cello": [
+     "viola"
+    ]
+   },
+   "players": 3,
+   "form": "work",
+   "year": "1876",
+   "minutes": 23,
+   "set": null,
+   "notes": "Four movements; also published with viola instead of cello",
+   "imslpPage": "Piano Trio No.6, Op.34 (Reber, Napoléon Henri)",
+   "tier": 3,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/Piano_Trio_No.6,_Op.34_(Reber,_Napoléon_Henri)",
+     "https://www.deezer.com/album/580242751",
+     "https://www.deezer.com/album/580809511"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Trio Élégiaque, Timpani (2013: Nos. 3, 5, 7; 2016: Nos. 2, 4, 6)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 105993,
+   "composer": "Reber, Napoléon Henri",
+   "title": "Piano Trio No. 7 in A minor, Op. 37",
+   "formation": "piano-trio",
+   "instruments": {
+    "violin": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "players": 3,
+   "form": "work",
+   "year": "",
+   "minutes": 25,
+   "set": null,
+   "notes": "Four movements; the piano leads",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://www.deezer.com/album/580242751",
+     "https://www.deezer.com/album/580809511"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Trio Élégiaque, Timpani (2013: Nos. 3, 5, 7; 2016: Nos. 2, 4, 6)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 106516,
+   "composer": "Reed, William Henry",
+   "title": "String Quartet No. 4 in C major",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "",
+   "minutes": 30,
+   "set": null,
+   "notes": "Four movements; recorded with No. 5 and the Légende",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://www.deezer.com/album/579042871"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Cirrus String Quartet, MPR (2022)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 103452,
+   "composer": "Reger, Max",
+   "title": "Piano Quartet No. 2 in A minor, Op. 133",
+   "formation": "piano-quartet",
+   "instruments": {
+    "violin": 1,
+    "viola": 1,
+    "cello": 1,
+    "piano": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1914",
+   "minutes": 38,
+   "set": null,
+   "notes": "Dedicated to Heinrich Walther; about 38 minutes, shorter than Piano Quartet No. 1",
+   "imslpPage": "Piano Quartet No.2, Op.133 (Reger, Max)",
+   "tier": 3,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/Piano_Quartet_No.2,_Op.133_(Reger,_Max)",
+     "https://www.deezer.com/album/46475222",
+     "https://www.deezer.com/album/583957312",
+     "https://www.deezer.com/album/584827582"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Trio Lirico, Detlev Eisinger, Reger: Complete String Trios & Piano Quartet in A Minor, Op. 133 (audite Musikproduktion, 2017); Fanny Mendelssohn Quartet, Reger: Piano Chamber Music, Vol. 3 (Troubadisc, 2012); Aperto Piano Quartet, Reger, M: String Trios and Piano Quartets (Complete), Vol. 2 - Piano Quartet, Op. 133 / String Trio, Op. 141B (Naxos, 2008)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 103467,
+   "composer": "Reger, Max",
+   "title": "String Quartet in D minor, WoO II/2",
+   "aka": [
+    "String Quartet No. 0",
+    "Jugendquartett",
+    "Streichquartett d-Moll, WoO II/2"
+   ],
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "",
+   "minutes": 23,
+   "set": null,
+   "notes": "Early quartet without opus number, often called No. 0; the finale is titled Aufschwung",
+   "tier": 2,
+   "evidence": {
+    "confidence": "medium",
+    "sources": [
+     "https://www.deezer.com/album/725812801",
+     "https://musicbrainz.org/recording/0d65f36f-903e-462b-8c9f-8835e34cb6ce",
+     "https://musicbrainz.org/recording/2c55c633-3f21-4a7b-b0ed-192d8ccaca86"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Keller Quartett, Reger: The Complete Chamber Music, Vol. 22 (Da Camera; MusicBrainz lists the set as Kammermusik Gesamtaufnahme, 2002); Berner Streichquartett, Reger: Complete String Quartets (MusicBrainz release, 1998)",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 107942,
+   "composer": "Reich, Steve",
+   "title": "Triple Quartet",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "electronics": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1998",
+   "minutes": 15,
+   "set": null,
+   "notes": "Amplified quartet against two pre-recorded quartets (or three live quartets); three movements; for Kronos",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Steve_Reich",
+     "https://en.wikipedia.org/wiki/Triple_Quartet",
+     "https://www.deezer.com/album/273333",
+     "https://www.deezer.com/album/400976237"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Kronos Quartet, Nonesuch (2001, 14:42); Mivos Quartet, Deutsche Grammophon (2023)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 107943,
+   "composer": "Reich, Steve",
+   "title": "WTC 9/11",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1,
+    "electronics": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "2010",
+   "minutes": 16,
+   "set": null,
+   "notes": "String quartet with tape of speech and pre-recorded quartets; three movements; recorded by Kronos",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Steve_Reich",
+     "https://www.deezer.com/album/1258284",
+     "https://www.deezer.com/album/400976237"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "Kronos Quartet, Nonesuch (2011, 15:41); Mivos Quartet, Deutsche Grammophon (2023)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 107944,
+   "composer": "Reich, Steve",
+   "title": "Double Sextet",
+   "formation": "winds-strings",
+   "instruments": {
+    "flute": 1,
+    "clarinet": 1,
+    "violin": 1,
+    "cello": 1,
+    "percussion": 1,
+    "piano": 1,
+    "electronics": 1
+   },
+   "players": 6,
+   "form": "work",
+   "year": "2007",
+   "minutes": 22,
+   "set": null,
+   "notes": "Six players with a pre-recorded second sextet (or 12 players): flute, clarinet, violin, cello, vibraphone, piano",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Steve_Reich",
+     "https://www.deezer.com/album/661610",
+     "https://www.deezer.com/album/269651242",
+     "https://www.deezer.com/album/581191261"
+    ],
+    "floor": {
+     "published": "",
+     "recorded": "eighth blackbird, Nonesuch (2010, 22:14); Ensemble Signal, harmonia mundi (2016); Ekkozone, Mode (2018)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 102537,
+   "composer": "Reicha, Anton",
+   "title": "String Quartet in F minor, Op. 94 No. 3",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1824",
+   "minutes": 27,
+   "set": "Three String Quartets, Op. 94",
+   "notes": "Lento introduction, Andante maestoso and a Minuetto with a canon; published in Paris, 1824",
+   "tier": 2,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://musicbrainz.org/release/164ceeea-24a9-4e22-ad34-136bd98cbee2",
+     "https://en.wikipedia.org/wiki/List_of_compositions_by_Anton_Reicha"
+    ],
+    "floor": {
+     "published": "Paris, 1824 (first edition)",
+     "recorded": "Quatuor Ardeo, l'empreinte digitale ED13240 (2014, Trois Quatuors)",
+     "performed": ""
+    },
+    "gapCheck": true
+   }
+  },
+  {
+   "id": 102538,
+   "composer": "Reicha, Anton",
+   "title": "String Quartet in E major, Op. 95 No. 1",
+   "formation": "string-quartet",
+   "instruments": {
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 4,
+   "form": "work",
+   "year": "1824",
+   "minutes": 30,
+   "set": "Three String Quartets, Op. 95",
+   "notes": "First of the three Op. 95 quartets (Paris, 1824); Poco andante slow movement",
+   "imslpPage": "3 String Quartets, Op.95 (Reicha, Anton)",
+   "tier": 3,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/3_String_Quartets,_Op.95_(Reicha,_Anton)",
+     "https://musicbrainz.org/release/9d022f6f-4f20-426a-8ba6-c54549e48bdc",
+     "https://arkivmusic.com/products/reicha-musique-de-chambre-various-55787",
+     "https://en.wikipedia.org/wiki/List_of_compositions_by_Anton_Reicha"
+    ],
+    "floor": {
+     "published": "Paris, 1824 (first edition)",
+     "recorded": "Quatuor Girard, Alpha Classics ALPHA 369 (2017, Musique de chambre, 3 CDs)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  },
+  {
+   "id": 102553,
+   "composer": "Reicha, Anton",
+   "title": "Bassoon Quintet in B-flat major",
+   "aka": [
+    "Grand Quintetto for bassoon and string quartet",
+    "Quintet for Bassoon and String Quartet"
+   ],
+   "formation": "winds-strings",
+   "instruments": {
+    "bassoon": 1,
+    "violin": 2,
+    "viola": 1,
+    "cello": 1
+   },
+   "players": 5,
+   "form": "work",
+   "year": "1826",
+   "minutes": 33,
+   "set": null,
+   "notes": "Grand quintetto with solo bassoon, published 1826; four movements",
+   "imslpPage": "Bassoon Quintet (Reicha, Anton)",
+   "tier": 3,
+   "evidence": {
+    "confidence": "high",
+    "sources": [
+     "https://imslp.org/wiki/Bassoon_Quintet_(Reicha,_Anton)",
+     "https://music.apple.com/us/album/351591614",
+     "https://music.apple.com/us/album/1452555443",
+     "https://en.wikipedia.org/wiki/List_of_compositions_by_Anton_Reicha"
+    ],
+    "floor": {
+     "published": "1826 (first edition)",
+     "recorded": "Nomos Quartet with Eckart Hübner, cpo 999 061-2 (1992); Daniel Smith and the Coull Quartet, ASV (1988)",
+     "performed": ""
+    },
+    "gapCheck": false
+   }
+  }
+ ]
+}
