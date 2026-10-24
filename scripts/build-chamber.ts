@@ -141,7 +141,11 @@ if (errors.length) {
     const secs = group[0].recording!.seconds;
     const fit = (p: ChamberPiece) => (p.minutes && secs ? Math.abs(Math.log(secs / 60 / p.minutes)) : 9);
     const keep = [...group].sort((a, b) => fit(a) - fit(b))[0];
-    for (const p of group) if (p !== keep) ((p.recording = null), dropped++);
+    for (const p of group)
+      if (p !== keep) {
+        p.recording = null;
+        dropped++;
+      }
   }
   if (dropped) console.log(`Recordings: dropped ${dropped} that shared a video with another work`);
 }
