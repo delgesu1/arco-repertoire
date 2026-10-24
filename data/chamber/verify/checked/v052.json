@@ -1,0 +1,545 @@
+{
+ "chunk": "v052",
+ "results": [
+  {
+   "id": 107402,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/9628860",
+    "https://en.wikipedia.org/wiki/Elizabeth_Maconchy"
+   ],
+   "note": "Mistry SQ recording 13:10; Wikipedia list gives 1979"
+  },
+  {
+   "id": 107403,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/9628860",
+    "https://en.wikipedia.org/wiki/Elizabeth_Maconchy"
+   ],
+   "note": "Wikipedia list: 1982-83 (the recording page says 1984); recording 7:39"
+  },
+  {
+   "id": 107404,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1963"
+   },
+   "sources": [
+    "https://api.deezer.com/album/536768912",
+    "https://www.boullard.ch/en/product/bookstore/ensemble-sheet-music/mixed-ensemble-sheet-music/195298-clarinet-quintet-1963-clarinet-and-string-quartet-elizabeth-maconchy-chester-music/",
+    "https://musicweb-international.com/classrev/2003/Apr03/brit_clar_5tets.htm"
+   ],
+   "note": "Year was blank; Chester Music and the MusicWeb review date it 1963; Britten Quartet recording runs 12:54"
+  },
+  {
+   "id": 107300,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/15083597",
+    "https://api.deezer.com/album/684867",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Bruno_Maderna"
+   ],
+   "note": "Wikipedia list: 1955; two recordings, 14:40 and 13:54"
+  },
+  {
+   "id": 107301,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/15083597",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Bruno_Maderna"
+   ],
+   "note": "Wikipedia list: 'before 1946'; only the Arditti recording found (6:42, the track before 'in due tempi')"
+  },
+  {
+   "id": 106195,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1873–74"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio_in_E-flat_major_(Maier,_Amanda)",
+    "https://en.wikipedia.org/wiki/Amanda_Maier",
+    "https://api.deezer.com/album/854453532"
+   ],
+   "note": "IMSLP gives 1873-74, Wikipedia 1874; Trio Ernest recording 23:52"
+  },
+  {
+   "id": 106196,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Four movements; manuscript incomplete, completed by Bengt Tommy Andersson (2018)"
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Amanda_Maier",
+    "https://api.deezer.com/album/578894011",
+    "https://wtju.net/zillacus-quartet-present-collaborative-masterworks",
+    "https://www.editionsilvertrust.com/maier-string-quartet.htm"
+   ],
+   "note": "Manuscript has gaps (Silvertrust); recorded in a completion by Bengt Tommy Andersson (2018). Kept: unfinished-as-performed; owner may judge the completion"
+  },
+  {
+   "id": 105452,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "Trio Sonata No. 6 in D minor, VR 6",
+    "year": "1752",
+    "set": "Six Trio Sonatas, VR 1–6"
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_VR.1-6_(Maldere,_Pierre_van)",
+    "https://api.deezer.com/album/190407392",
+    "https://en.wikipedia.org/wiki/Pieter_van_Maldere",
+    "https://www.edition-offenburg.com/products/pieter-van-maldere-vi-triosonatas-volume-ii-sonata-4-6",
+    "https://www.edition-walhall.de/en/strings/2-violins/maldere-piere-van-17291768br6-trio-sonatasbrno-13-d-g-a-major.html"
+   ],
+   "note": "Work, key, edition (Edition Offenburg, D minor = VR6) and recording (Project Boussu, 7:08) hold. The six were first printed in Dublin in 1752 (Offenburg, Wikipedia); 1760 is only IMSLP's date for Walsh's undated London reprint"
+  },
+  {
+   "id": 107306,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/586156512",
+    "https://api.deezer.com/album/579346291",
+    "https://en.wikipedia.org/wiki/Gian_Francesco_Malipiero"
+   ],
+   "note": "Dynamic complete edition 15:39, Sincronie 16:38; Wikipedia list 1923"
+  },
+  {
+   "id": 107307,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/586156512",
+    "https://api.deezer.com/album/579346291",
+    "https://en.wikipedia.org/wiki/Gian_Francesco_Malipiero"
+   ],
+   "note": "Dynamic 16:29, Sincronie 16:55; Wikipedia list 1931"
+  },
+  {
+   "id": 107309,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/586156512",
+    "https://en.wikipedia.org/wiki/Gian_Francesco_Malipiero"
+   ],
+   "note": "Dynamic 16:45; Wikipedia list 1941-1950"
+  },
+  {
+   "id": 107310,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/586156512",
+    "https://api.deezer.com/album/579346291",
+    "https://en.wikipedia.org/wiki/Gian_Francesco_Malipiero"
+   ],
+   "note": "Dynamic 16:57, Sincronie 19:13; Wikipedia list 1947"
+  },
+  {
+   "id": 107311,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/586156512",
+    "https://en.wikipedia.org/wiki/Gian_Francesco_Malipiero"
+   ],
+   "note": "Dynamic 12:25; Wikipedia list 1950"
+  },
+  {
+   "id": 107312,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/586156512",
+    "https://api.deezer.com/album/582982792",
+    "https://en.wikipedia.org/wiki/Gian_Francesco_Malipiero"
+   ],
+   "note": "Dynamic 11:12, Mitja 11:45; Wikipedia list 1964"
+  },
+  {
+   "id": 107313,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_(Malipiero,_Gian_Francesco)",
+    "https://api.deezer.com/album/135122112",
+    "https://www.brilliantclassics.com/media/1621733/digital-booklet-malipiero-chamber-music.pdf"
+   ],
+   "note": "Work exists (UE 1928, Coolidge) but the cited Brilliant disc is Riccardo Malipiero's Trio (1968). IMSLP mentions a 1979 LP (26.5 min), none found; UE reprint only. If kept, minutes about 27, not 20"
+  },
+  {
+   "id": 107314,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/579375911",
+    "https://en.wikipedia.org/wiki/Gian_Francesco_Malipiero"
+   ],
+   "note": "Freon Ensemble track 9:03; Wikipedia list: violin, oboe, viola, bassoon, 1932"
+  },
+  {
+   "id": 106197,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.1,_Op.2_(Maliszewski,_Witold)",
+    "https://api.deezer.com/album/518118532",
+    "https://en.wikipedia.org/wiki/Witold_Maliszewski"
+   ],
+   "note": "Year 1903 = Belaieff first publication; en.wikipedia gives 1902, pl.wikipedia 'before 1903'. Recording 35:06"
+  },
+  {
+   "id": 106198,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Three movements: introduction, theme and eight variations; Andante tranquillo; finale"
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.3,_Op.15_(Maliszewski,_Witold)",
+    "https://api.deezer.com/album/518118532",
+    "https://en.wikipedia.org/wiki/Witold_Maliszewski"
+   ],
+   "note": "Notes claimed it is the largest of his quartets; Op. 6 runs longer (38:52 vs 36:40). Movements from the recording"
+  },
+  {
+   "id": 106199,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.2,_Op.6_(Maliszewski,_Witold)",
+    "https://itunes.apple.com/lookup?id=1562735435&entity=song",
+    "https://en.wikipedia.org/wiki/Witold_Maliszewski"
+   ],
+   "note": "Camerata Quartet 38:52; 1905 = composition per Wikipedia and Belaieff publication"
+  },
+  {
+   "id": 106200,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1562735435&entity=song",
+    "https://en.wikipedia.org/wiki/Witold_Maliszewski"
+   ],
+   "note": "Camerata Quartet (PSCM 2020) 25:15 confirms key, opus and four movements; no date found"
+  },
+  {
+   "id": 104914,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio,_Op.36_(Malling,_Otto)",
+    "https://api.deezer.com/album/584013762",
+    "https://en.wikipedia.org/wiki/Otto_Malling"
+   ],
+   "note": "Dacapo recording 23:07; Wikipedia says 1889; IMSLP average 25 min"
+  },
+  {
+   "id": 106448,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1989"
+   },
+   "sources": [
+    "https://api.deezer.com/album/586314632",
+    "https://newyorkwomencomposers.org/catalog/rhapsody-for-clarinet-viola-and-piano/"
+   ],
+   "note": "Year was blank; 1989, C.F. Peters; Naxos track 7:51, other listings 8:28-8:39; also Centaur CRC 2274 and Bridge recordings"
+  },
+  {
+   "id": 104271,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Recorder_Concerto_in_D_minor_(Mancini,_Francesco)",
+    "https://api.deezer.com/album/121953192"
+   ],
+   "note": "IMSLP: 'Sonata sesta', 1725 or before, same four movements as Kanji recording (9:07; entry's 8 is within tolerance)"
+  },
+  {
+   "id": 104272,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Recorder_Concerto_in_E_minor_(Mancini,_Francesco)",
+    "https://api.deezer.com/album/121953192"
+   ],
+   "note": "IMSLP: 'Sonata decima nona', c. 1725; Kanji recording 8:56 matches"
+  },
+  {
+   "id": 104352,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sinfonie_da_chiesa,_Op.2_(Manfredini,_Francesco_Onofrio)",
+    "https://api.deezer.com/album/579341481"
+   ],
+   "note": "IMSLP mismatch resolved: the 1709 title page says 'due violini, col basso per l'organo & una viola a beneplacito', so the entry's scoring is right; Capricornus timing matches"
+  },
+  {
+   "id": 104353,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sinfonie_da_chiesa,_Op.2_(Manfredini,_Francesco_Onofrio)",
+    "https://api.deezer.com/album/579341481"
+   ],
+   "note": "IMSLP mismatch resolved: the 1709 title page says 'due violini, col basso per l'organo & una viola a beneplacito', so the entry's scoring is right; Capricornus timing matches"
+  },
+  {
+   "id": 104354,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sinfonie_da_chiesa,_Op.2_(Manfredini,_Francesco_Onofrio)",
+    "https://api.deezer.com/album/579341481"
+   ],
+   "note": "IMSLP mismatch resolved: the 1709 title page says 'due violini, col basso per l'organo & una viola a beneplacito', so the entry's scoring is right; Capricornus timing matches"
+  },
+  {
+   "id": 104355,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sinfonie_da_chiesa,_Op.2_(Manfredini,_Francesco_Onofrio)",
+    "https://api.deezer.com/album/579341481"
+   ],
+   "note": "IMSLP mismatch resolved: the 1709 title page says 'due violini, col basso per l'organo & una viola a beneplacito', so the entry's scoring is right; Capricornus timing matches"
+  },
+  {
+   "id": 104356,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sinfonie_da_chiesa,_Op.2_(Manfredini,_Francesco_Onofrio)",
+    "https://api.deezer.com/album/579341481"
+   ],
+   "note": "IMSLP mismatch resolved: the 1709 title page says 'due violini, col basso per l'organo & una viola a beneplacito', so the entry's scoring is right; Capricornus timing matches"
+  },
+  {
+   "id": 104357,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sinfonie_da_chiesa,_Op.2_(Manfredini,_Francesco_Onofrio)",
+    "https://api.deezer.com/album/579341481"
+   ],
+   "note": "IMSLP mismatch resolved: the 1709 title page says 'due violini, col basso per l'organo & una viola a beneplacito', so the entry's scoring is right; Capricornus timing matches"
+  },
+  {
+   "id": 104358,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sinfonie_da_chiesa,_Op.2_(Manfredini,_Francesco_Onofrio)",
+    "https://api.deezer.com/album/579341481"
+   ],
+   "note": "IMSLP mismatch resolved: the 1709 title page says 'due violini, col basso per l'organo & una viola a beneplacito', so the entry's scoring is right; Capricornus timing matches"
+  },
+  {
+   "id": 104359,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sinfonie_da_chiesa,_Op.2_(Manfredini,_Francesco_Onofrio)",
+    "https://api.deezer.com/album/579341481"
+   ],
+   "note": "IMSLP mismatch resolved: the 1709 title page says 'due violini, col basso per l'organo & una viola a beneplacito', so the entry's scoring is right; Capricornus timing matches"
+  },
+  {
+   "id": 104360,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sinfonie_da_chiesa,_Op.2_(Manfredini,_Francesco_Onofrio)",
+    "https://api.deezer.com/album/579341481"
+   ],
+   "note": "IMSLP mismatch resolved: the 1709 title page says 'due violini, col basso per l'organo & una viola a beneplacito', so the entry's scoring is right; Capricornus timing matches"
+  },
+  {
+   "id": 104361,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sinfonie_da_chiesa,_Op.2_(Manfredini,_Francesco_Onofrio)",
+    "https://api.deezer.com/album/579341481"
+   ],
+   "note": "IMSLP mismatch resolved: the 1709 title page says 'due violini, col basso per l'organo & una viola a beneplacito', so the entry's scoring is right; Capricornus timing matches"
+  },
+  {
+   "id": 104362,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sinfonie_da_chiesa,_Op.2_(Manfredini,_Francesco_Onofrio)",
+    "https://api.deezer.com/album/579341481"
+   ],
+   "note": "IMSLP mismatch resolved: the 1709 title page says 'due violini, col basso per l'organo & una viola a beneplacito', so the entry's scoring is right; Capricornus timing matches"
+  },
+  {
+   "id": 104363,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Christmas pastorale closing the set (12/8); two violins and organ bass, viola ad lib. in the print"
+   },
+   "sources": [
+    "https://imslp.org/wiki/12_Sinfonie_da_chiesa,_Op.2_(Manfredini,_Francesco_Onofrio)",
+    "https://api.deezer.com/album/579341481"
+   ],
+   "note": "IMSLP mismatch resolved: the 1709 title page says 'due violini, col basso per l'organo & una viola a beneplacito', so the entry's scoring is right. No. 12 is the 'Pastorale per il Santissimo Natale'"
+  },
+  {
+   "id": 106824,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/6450609",
+    "https://en.wikipedia.org/wiki/Tigran_Mansurian"
+   ],
+   "note": "Rosamunde recording 22:34; Wikipedia 1983-84"
+  },
+  {
+   "id": 106825,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/6450609",
+    "https://en.wikipedia.org/wiki/Tigran_Mansurian"
+   ],
+   "note": "Rosamunde recording 21:33; Wikipedia 1984"
+  },
+  {
+   "id": 106826,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/182976852",
+    "https://en.wikipedia.org/wiki/Tigran_Mansurian",
+    "https://www.thestrad.com/reviews/movses-pogossian-con-anima/11883.article"
+   ],
+   "note": "ECM recording 16:55; 1993 (Wikipedia, The Strad)"
+  },
+  {
+   "id": 106827,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/6450609",
+    "https://en.wikipedia.org/wiki/Tigran_Mansurian"
+   ],
+   "note": "Rosamunde recording 4:58; Wikipedia: Testament 2004"
+  },
+  {
+   "id": 106828,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "2008"
+   },
+   "sources": [
+    "https://api.deezer.com/album/182976852",
+    "https://www.thestrad.com/reviews/movses-pogossian-con-anima/11883.article",
+    "https://www.ecmreviews.com/2022/07/03/tigran-mansurian-con-anima-ecm-new-series-2687/"
+   ],
+   "note": "Year was blank; The Strad and ecmreviews date the String Trio 2008; ECM recording 12:57"
+  },
+  {
+   "id": 106829,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/292803802",
+    "https://en.wikipedia.org/wiki/Tigran_Mansurian"
+   ],
+   "note": "Delta Piano Trio 14:19; Wikipedia 1985"
+  },
+  {
+   "id": 107262,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/429388557",
+    "https://musicbrainz.org/ws/2/work/a963da44-6354-4b16-bc41-0d82bedec3c6?inc=artist-rels+recording-rels&fmt=json"
+   ],
+   "note": "Quatuor Voce recording 10:27; no composition year found"
+  },
+  {
+   "id": 107263,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://musicbrainz.org/ws/2/work/a4ecf95e-1dd7-41fa-9665-a1c019c7cc64?inc=artist-rels+recording-rels&fmt=json"
+   ],
+   "note": "MusicBrainz: Kuss Quartet live recording 2019-10-21, 11:59; no composition year found"
+  },
+  {
+   "id": 107264,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://musicbrainz.org/ws/2/work/b51e13c7-1e61-47bc-8c1a-c1f07b116e71?inc=artist-rels+recording-rels&fmt=json",
+    "https://en.wikipedia.org/wiki/Bruno_Mantovani"
+   ],
+   "note": "Wikipedia lists '8 Moments musicaux' 2008 (MusicBrainz also 2008); Trio Wanderer recording 15:06"
+  },
+  {
+   "id": 100461,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_à_3_in_G_minor_(Marais,_Marin)",
+    "https://imslp.org/wiki/Pièces_en_trio_(Marais,_Marin)",
+    "https://itunes.apple.com/lookup?id=1572122940&entity=song"
+   ],
+   "note": "IMSLP: 13 movements, 'flûtes, violon et dessus de viole'; Ricercar Consort tracks sum to 30:03"
+  },
+  {
+   "id": 100467,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Pièces_de_viole,_Livre_1_(Marais,_Marin)",
+    "https://itunes.apple.com/lookup?id=342013034&entity=song",
+    "https://itunes.apple.com/lookup?id=1593216048&entity=song"
+   ],
+   "note": "IMSLP Nos. 73-81 = G major suite; Les Voix Humaines tracks 1-9 total 20:29"
+  },
+  {
+   "id": 100470,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Pièces_de_viole,_Livre_4_(Marais,_Marin)",
+    "https://itunes.apple.com/lookup?id=1872725304&entity=song"
+   ],
+   "note": "ATMA recording: 'Première suite à trois violes en ré majeur', nine pieces, 24:00; IMSLP: 3 viols or 2 viols and continuo"
+  },
+  {
+   "id": 105748,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://catalogue.bnf.fr/ark:/12148/cb158548907",
+    "https://api.deezer.com/album/306148687",
+    "https://www.musicweb-international.com/classrev/2008/Nov08/Marcel_Marin_cd505012.htm"
+   ],
+   "note": "Recorded (Harp & Co, 27:23) and scoring right, but BnF files the trio as 'Variations' and its movements as 'd'après' Mozart (K. 542 andante, K. 331 Turkish march; K. 254 adagio, K. 481 finale): near-transcriptions, so the arrangement rule may apply. No date found"
+  },
+  {
+   "id": 101466,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Affetti_musicali,_Op.1_(Marini,_Biagio)",
+    "https://itunes.apple.com/lookup?id=1572075983&entity=song"
+   ],
+   "note": "IMSLP: 'La Soranza, Aria a 3, Doi violini e basso'. Recording found is La Fenice/Jean Tubery (Ricercar, 2:14), not Musica Fiorita as the evidence says"
+  }
+ ],
+ "note": "Manfredini entries carry a pointless aka (composer plus title); harmless. The Malipiero Sonata a tre floor evidence was a recording of Riccardo Malipiero's Trio. Nothing in this chunk is a duplicate."
+}

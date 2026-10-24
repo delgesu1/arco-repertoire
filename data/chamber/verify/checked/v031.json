@@ -1,0 +1,574 @@
+{
+ "chunk": "v031",
+ "results": [
+  {
+   "id": 105019,
+   "verdict": "fixed",
+   "fixes": {
+    "alternatives": {
+     "flute": [
+      "violin"
+     ]
+    }
+   },
+   "sources": [
+    "https://imslp.org/wiki/4_Sketches_(Goossens,_Eugene)",
+    "https://www.musicweb-international.com/classrev/2004/Oct04/Goossens_chamber.htm",
+    "https://api.deezer.com/album/618050431"
+   ],
+   "note": "Chandos disc lists Flute (or Violin), Violin and Piano; IMSLP 'flute, violin, piano (or 2 violins, piano)'. Year 1913 and 15 min (15:07) hold."
+  },
+  {
+   "id": 105020,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1914"
+   },
+   "sources": [
+    "https://imslp.org/wiki/5_Impressions_of_a_Holiday,_Op.7_(Goossens,_Eugene)",
+    "https://www.musicweb-international.com/classrev/2004/Oct04/Goossens_chamber.htm",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Eugene_Aynsley_Goossens",
+    "https://api.deezer.com/album/618050431"
+   ],
+   "note": "Year was blank: the Chandos listing (MusicWeb) dates Op. 7 to 1914; IMSLP and Wikipedia give only the 1916 Chester print. Scoring, alternative and 16 min (15:59) hold."
+  },
+  {
+   "id": 107979,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://michaelgordonmusic.com/music/clouded-yellow/",
+    "https://api.deezer.com/album/579245791",
+    "https://en.wikipedia.org/wiki/Michael_Gordon_(composer)"
+   ],
+   "note": "Premiered 2 Oct 2010 by Kronos; 10:22 on the Cantaloupe disc."
+  },
+  {
+   "id": 107980,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://michaelgordonmusic.com/music/potassium/",
+    "https://brahms.ircam.fr/work/potassium",
+    "https://api.deezer.com/album/579245791",
+    "https://en.wikipedia.org/wiki/Michael_Gordon_(composer)"
+   ],
+   "note": "IRCAM dates it 2000 (12 min); premiere 16 March 2001. Wikipedia's 2001/15 min is the outlier. Fuzz-box electronics, none counted as a player."
+  },
+  {
+   "id": 107981,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://michaelgordonmusic.com/music/the-sad-park/",
+    "https://api.deezer.com/album/579245791",
+    "https://en.wikipedia.org/wiki/Michael_Gordon_(composer)"
+   ],
+   "note": "Premiered 11 Sept 2006; four parts total 28:21 on the Kronos disc (30 min stands within tolerance)."
+  },
+  {
+   "id": 107982,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://michaelgordonmusic.com/music/acdc/",
+    "https://api.deezer.com/album/580954741",
+    "https://en.wikipedia.org/wiki/Michael_Gordon_(composer)"
+   ],
+   "note": "Composer's page and Wikipedia: flute, clarinet, violin, cello, piano, 1996, 10 min; Sentieri Selvaggi disc 9:38. First performed Alternate Currents, April 1997."
+  },
+  {
+   "id": 107983,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://michaelgordonmusic.com/music/i-buried-paul/",
+    "https://api.deezer.com/album/587770312",
+    "https://en.wikipedia.org/wiki/Michael_Gordon_(composer)"
+   ],
+   "note": "Bang on a Can All-Stars (cl, perc, keyboard sampler, e-guitar, cello, bass); 1996 first performance; 9:41 on Renegade Heaven."
+  },
+  {
+   "id": 107984,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://michaelgordonmusic.com/music/for-madeline/",
+    "https://api.deezer.com/album/583529832",
+    "https://en.wikipedia.org/wiki/Michael_Gordon_(composer)"
+   ],
+   "note": "Recorded by the Bang on a Can All-Stars on Big Beautiful Dark and Scary (Cantaloupe, 2012), 7:52; premiered 3 March 2009."
+  },
+  {
+   "id": 107985,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://michaelgordonmusic.com/music/gene-takes-drink/",
+    "https://api.deezer.com/album/587745152",
+    "https://en.wikipedia.org/wiki/Michael_Gordon_(composer)"
+   ],
+   "note": "Bang on a Can All-Stars, Field Recordings (2015), 5:57; first performed London 20 March 2012."
+  },
+  {
+   "id": 107986,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://michaelgordonmusic.com/music/light-of-dark/",
+    "https://api.deezer.com/album/581040821",
+    "https://en.wikipedia.org/wiki/Michael_Gordon_(composer)"
+   ],
+   "note": "fl, cl, perc, pno, vn, vc; eighth blackbird, Cedille 2020, 11:41 (composer 13 min)."
+  },
+  {
+   "id": 107987,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://michaelgordonmusic.com/music/strange-quiet/",
+    "https://api.deezer.com/album/1080387",
+    "https://en.wikipedia.org/wiki/Michael_Gordon_(composer)"
+   ],
+   "note": "cl(bcl), e-guitar, piano, perc, vn, va; 1985; 13:47 on Bang on a Can Live Vol. 1 (CRI)."
+  },
+  {
+   "id": 107988,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://michaelgordonmusic.com/music/thou-shalt-thou-shalt-not/",
+    "https://api.deezer.com/album/187770052",
+    "https://en.wikipedia.org/wiki/Michael_Gordon_(composer)"
+   ],
+   "note": "Six players as listed. Composer began it in early 1982; first performed Dec 1983, which is the year Wikipedia gives; 1983 kept."
+  },
+  {
+   "id": 107989,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://michaelgordonmusic.com/music/four-kings-fight-five/",
+    "https://api.deezer.com/album/187770052",
+    "https://en.wikipedia.org/wiki/Michael_Gordon_(composer)"
+   ],
+   "note": "Nine players (oboe, clarinet, bass clarinet, perc, organ, guitar, vn, va, vc); premiered 25 Oct 1988 under the composer; 23:31 on CRI."
+  },
+  {
+   "id": 107990,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://michaelgordonmusic.com/music/acid-rain/",
+    "https://api.deezer.com/album/187770052",
+    "https://en.wikipedia.org/wiki/Michael_Gordon_(composer)"
+   ],
+   "note": "Flute, clarinet, organ, 1.1.1.1.1 strings = 8 players; premiered Hartford 1 April 1986; 7:45 on CRI."
+  },
+  {
+   "id": 106801,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Henryk_G%C3%B3recki",
+    "https://api.deezer.com/album/365541",
+    "https://api.deezer.com/album/508269301",
+    "https://www.musicweb-international.com/classrev/2019/Feb/Gorecki_quartets_8573919.htm"
+   ],
+   "note": "Op. 62, 1988; recordings run 14:01-16:07, 15 min fine."
+  },
+  {
+   "id": 106802,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Henryk_G%C3%B3recki",
+    "https://api.deezer.com/album/365541",
+    "https://api.deezer.com/album/584543912",
+    "https://www.musicweb-international.com/classrev/2019/Feb/Gorecki_quartets_8573919.htm"
+   ],
+   "note": "Op. 64, 1991; Kronos movements total 32:08, Tippett 32:46."
+  },
+  {
+   "id": 106803,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1995–2005"
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Henryk_G%C3%B3recki",
+    "https://api.deezer.com/album/88531",
+    "https://api.deezer.com/album/586211362",
+    "https://api.deezer.com/album/508269301"
+   ],
+   "note": "Wikipedia list gives 1995/2005 (commissioned 1995, completed 2005); '1995 (2005)' is not house form. Recordings run 50-58 min, 55 stands."
+  },
+  {
+   "id": 106804,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Henryk_G%C3%B3recki",
+    "https://www.musicweb-international.com/classrev/2019/Feb/Gorecki_quartets_8573919.htm",
+    "https://www.europadisc.co.uk/classical/125950/Whispers_of_Titans:_String_trios_by_Gorecki_and_Korndorf.htm",
+    "https://api.deezer.com/album/584543912"
+   ],
+   "note": "Op. 19 No. 1, string trio, 1962; Tippett 12:41; also on Goeyvaerts String Trio's Whispers of Titans (Challenge Classics)."
+  },
+  {
+   "id": 106805,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Henryk_G%C3%B3recki",
+    "https://api.deezer.com/album/12193988",
+    "https://api.deezer.com/album/64765442"
+   ],
+   "note": "Clarinet, cello, piano; Wikipedia 1986; movements total 40:38 on Nonesuch, 40:43 on Aparte."
+  },
+  {
+   "id": 104678,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Ave_Maria,_CG_89_(Gounod,_Charles)",
+    "https://en.wikipedia.org/wiki/Ave_Maria_(Bach/Gounod)"
+   ],
+   "note": "Scoring and number in doubt. IMSLP: the original (CG 89a, Heugel 1853) is violin, piano 'and optional organ'; a BnF record (via search, not opened) says organ ad libitum; if so it is a violin-piano duo (out) and the Swarts harmonium recording is a trio version. CG 89 itself is the 1853 choir/orchestra version; the title should read CG 89a. Wikipedia credits the arrangement to Zimmerman."
+  },
+  {
+   "id": 104680,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1885–87"
+   },
+   "sources": [
+    "https://bruzanemediabase.com/en/node/3305",
+    "https://imslp.org/wiki/String_Quartet_No.2_(Gounod,_Charles)",
+    "https://itunes.apple.com/lookup?id=1372216258&entity=song"
+   ],
+   "note": "Bru Zane dates it 1887 (premiered March 1887, Marsick Quartet); IMSLP's BnF manuscript is dated 1885. Span used. 19.7 min on Cambini-Paris."
+  },
+  {
+   "id": 104682,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1889"
+   },
+   "sources": [
+    "https://bruzanemediabase.com/en/node/5741",
+    "https://itunes.apple.com/lookup?id=1372216258&entity=song"
+   ],
+   "note": "Year was blank: Bru Zane dates CG 563 to 1889 (Bolbec, September 1889). Five movements, 25.0 min confirmed."
+  },
+  {
+   "id": 104683,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1891–92"
+   },
+   "sources": [
+    "https://bruzanemediabase.com/en/node/5743",
+    "https://itunes.apple.com/lookup?id=1372216258&entity=song"
+   ],
+   "note": "Year was blank: Bru Zane dates the manuscript to 1891/1892. Four movements, 20.8 min confirmed."
+  },
+  {
+   "id": 103723,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio_No.2,_Op.18_(Gouvy,_Louis_Th%C3%A9odore)",
+    "https://en.wikipedia.org/wiki/Louis_Th%C3%A9odore_Gouvy",
+    "https://musicweb-international.com/classrev/2013/June13/Gouvy_trios_CC72571.htm",
+    "https://api.deezer.com/album/6255542"
+   ],
+   "note": "1847 is the composition year (Wikipedia list; MusicWeb review lists it as Op. 18 (1847)); IMSLP's 1856 is the Richault print. Recordings 28-33 min."
+  },
+  {
+   "id": 103724,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio_No.3,_Op.19_(Gouvy,_Louis_Th%C3%A9odore)",
+    "https://en.wikipedia.org/wiki/Louis_Th%C3%A9odore_Gouvy",
+    "https://musicweb-international.com/classrev/2013/June13/Gouvy_trios_CC72571.htm",
+    "https://api.deezer.com/album/6255542"
+   ],
+   "note": "1855 per Wikipedia list and MusicWeb review (IMSLP: mid-1850s?, print 1856). B-flat per IMSLP movement keys (one label says B). Recordings 30-32 min."
+  },
+  {
+   "id": 103726,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quintet,_Op.24_(Gouvy,_Louis_Th%C3%A9odore)",
+    "https://en.wikipedia.org/wiki/Louis_Th%C3%A9odore_Gouvy",
+    "https://fugueforthought.de/2018/06/02/louis-theodore-gouvy-piano-quintet-in-a-op-24/",
+    "https://itunes.apple.com/lookup?id=1184649835&entity=song"
+   ],
+   "note": "c. 1850 per Wikipedia list and fugueforthought; IMSLP's 1859 is the Richault print. Quatuor Denis Clavier/Saroglou, Phaia Music, 28:59."
+  },
+  {
+   "id": 103728,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 30
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Louis_Th%C3%A9odore_Gouvy",
+    "https://api.deezer.com/album/236470952"
+   ],
+   "note": "Minutes were blank: Quatuor Cambini-Paris (Bru Zane Portraits) plays Op. 56 No. 2 in 29:31. Year 1873 per Wikipedia list; the disc calls it 'No. 2, Op. 56'."
+  },
+  {
+   "id": 103729,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1888"
+   },
+   "sources": [
+    "https://www.toccataclassics.com/product/gouvy-serenades-for-flute-and-strings/",
+    "https://api.deezer.com/album/583020702"
+   ],
+   "note": "Toccata dates Serenade No. 1, Op. 82 to 1888 (No. 2, Op. 84 to 1889). Scoring (flute, string quartet, double bass) and 22:24 confirmed."
+  },
+  {
+   "id": 103730,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.toccataclassics.com/product/gouvy-serenades-for-flute-and-strings/",
+    "https://api.deezer.com/album/583020702"
+   ],
+   "note": "Op. 84, 1889 (Toccata); 18:55 on the disc."
+  },
+  {
+   "id": 103731,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.toccataclassics.com/product/gouvy-serenades-for-flute-and-strings/",
+    "https://api.deezer.com/album/583020702"
+   ],
+   "note": "Op. posth., 1891 (Toccata); one movement, 11:06."
+  },
+  {
+   "id": 105650,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Quartets_(Graf,_Christian_Ernst)",
+    "https://musicbrainz.org/release/72802418-2aed-4740-9251-72c660cb0efe"
+   ],
+   "note": "D major per IMSLP movement list (Adagio, Allegro, Gratioso) matches the Via Nova track 'without op. no. 4' (15:16). 1774 is the first print; the Durieu reissue is c. 1778-79."
+  },
+  {
+   "id": 105651,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Quartets_(Graf,_Christian_Ernst)",
+    "https://musicbrainz.org/release/72802418-2aed-4740-9251-72c660cb0efe"
+   ],
+   "note": "F major (Largo, Fuga, Andantino con variazione) matches the Via Nova track (11:30); IMSLP confirms it is also No. 6 of the Op. 15 set."
+  },
+  {
+   "id": 105652,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Quartets,_Op.17_(Graf,_Christian_Ernst)",
+    "https://musicbrainz.org/release/72802418-2aed-4740-9251-72c660cb0efe"
+   ],
+   "note": "Op. 17/1, 11:20 on the Via Nova disc; keys are not given by IMSLP or the disc, so none in the title."
+  },
+  {
+   "id": 105653,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Quartets,_Op.17_(Graf,_Christian_Ernst)",
+    "https://musicbrainz.org/release/72802418-2aed-4740-9251-72c660cb0efe",
+    "https://itunes.apple.com/lookup?id=1500616826&entity=song"
+   ],
+   "note": "G major confirmed by the Kokkola Quartet track list; Via Nova 11:42."
+  },
+  {
+   "id": 105654,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Quartets,_Op.17_(Graf,_Christian_Ernst)",
+    "https://musicbrainz.org/release/72802418-2aed-4740-9251-72c660cb0efe"
+   ],
+   "note": "Op. 17/4, 11:15 on the Via Nova disc; no key given by IMSLP or the disc."
+  },
+  {
+   "id": 105655,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Flute_Quartets,_Op.12_(Graf,_Christian_Ernst)",
+    "https://musicbrainz.org/release/720cbbd5-cecd-495b-97e1-ccdfc09d4b90"
+   ],
+   "note": "D minor, three movements, 14:02 (Helasvuo/Kokkola Quartet, Alba); IMSLP: flute (or violin), violin, viola, continuo."
+  },
+  {
+   "id": 105656,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Flute_Quartet_in_G_major,_Op.5_No.1_(Graf,_Friedrich_Hartmann)",
+    "https://imslp.org/wiki/6_Flute_Quartets,_Op.5_(Graf,_Friedrich_Hartmann)",
+    "https://api.deezer.com/album/157083152"
+   ],
+   "note": "Hunteler's No. 1; 13:45. 1779 is the first-print year."
+  },
+  {
+   "id": 105657,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Flute_Quartets,_Op.5_(Graf,_Friedrich_Hartmann)",
+    "https://api.deezer.com/album/157083152"
+   ],
+   "note": "Op. 5 No. 2 = Hunteler No. 2; 10:54."
+  },
+  {
+   "id": 105658,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Flute_Quartets,_Op.5_(Graf,_Friedrich_Hartmann)",
+    "https://api.deezer.com/album/157083152"
+   ],
+   "note": "Op. 5 No. 3 = Hunteler No. 3; 13:05."
+  },
+  {
+   "id": 105659,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Flute_Quartets,_Op.5_(Graf,_Friedrich_Hartmann)",
+    "https://api.deezer.com/album/157083152"
+   ],
+   "note": "Op. 5 No. 4 = Hunteler No. 4; 13:09."
+  },
+  {
+   "id": 105660,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Flute_Quartets,_Op.5_(Graf,_Friedrich_Hartmann)",
+    "https://api.deezer.com/album/157083152"
+   ],
+   "note": "Op. 5 No. 6 in C is Hunteler's No. 5 (two movements, 10:42), as the aka says."
+  },
+  {
+   "id": 105661,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Flute_Quartet_in_G_major,_Op.5_No.5_(Graf,_Friedrich_Hartmann)",
+    "https://imslp.org/wiki/6_Flute_Quartets,_Op.5_(Graf,_Friedrich_Hartmann)",
+    "https://api.deezer.com/album/157083152"
+   ],
+   "note": "Op. 5 No. 5 in G is Hunteler's No. 6 (three movements, 12:55), as the aka says."
+  },
+  {
+   "id": 105077,
+   "verdict": "fixed",
+   "fixes": {
+    "optional": {
+     "viola": 1
+    },
+    "year": "1911–12",
+    "notes": "Room-Music Tit-Bits No. 2; viola ad lib. in the 1912 Schott edition; recorded as a piano trio"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Handel_in_the_Strand_(Grainger,_Percy)",
+    "https://api.deezer.com/album/227699822"
+   ],
+   "note": "IMSLP: composed 1911-12 for violin, viola (ad libitum), cello, piano (Schott 1912); the trio is the version Trio Animae record (3:57). Viola belongs in optional, not in the notes' 'piano quartet' remark."
+  },
+  {
+   "id": 106104,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quintet_in_G_minor,_Op.49_(Granados,_Enrique)",
+    "https://api.deezer.com/album/46596702"
+   ],
+   "note": "Harmonia mundi disc (Perianes/Quartet Casals) 15:55; premiered Feb 1895; IMSLP dates composition 1894-95, entry's 1894 left as is."
+  },
+  {
+   "id": 101158,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_B-flat_major,_GraunWV_A:XV:16_(Graun,_Johann_Gottlieb)",
+    "https://itunes.apple.com/lookup?id=674872130&entity=song",
+    "https://api.deezer.com/album/538421382"
+   ],
+   "note": "Named GraunWV A:XV:16 on cpo (16:23, keyboard-obbligato version) and on London Baroque's BIS disc (13:35). Print year 1770 (Musikalisches Vielerley)."
+  },
+  {
+   "id": 101160,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_C_minor,_GraunWV_C:XV:79_(Graun,_Johann_Gottlieb)",
+    "https://itunes.apple.com/lookup?id=1454006741&entity=song",
+    "https://sactx.aspendiscovery.org/NaxosMusicLibrary/on1062360044"
+   ],
+   "note": "cpo 999 623-2 catalogue record lists GraunWV C:XV:79; movements Adagio, Allegro moderato, Scherzo match IMSLP; 13:51."
+  },
+  {
+   "id": 101162,
+   "verdict": "fixed",
+   "fixes": {
+    "alternatives": {}
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_D_major,_GraunWV_C:XV:80_(Graun,_Johann_Gottlieb)",
+    "https://itunes.apple.com/lookup?id=1454006741&entity=song",
+    "https://sactx.aspendiscovery.org/NaxosMusicLibrary/on1062360044"
+   ],
+   "note": "Recorded on cpo 999 623-2 (library record lists C:XV:80; 17:04). The flute alternative rests on one manuscript only (IMSLP), not on a first edition or the composer, so it is dropped."
+  },
+  {
+   "id": 101167,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_G_major,_GraunWV_Av:XV:34_(Graun,_Johann_Gottlieb)",
+    "https://itunes.apple.com/lookup?id=1454006741&entity=song",
+    "https://sactx.aspendiscovery.org/NaxosMusicLibrary/on1062360044"
+   ],
+   "note": "cpo 999 623-2 record lists Av:XV:34; Adagio, Allegro, Allegretto match IMSLP; 17:14. Notes do not mention that the Av section is a doubtful attribution to J. G. Graun, which I could not confirm."
+  },
+  {
+   "id": 101171,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1529460879&entity=song",
+    "https://www.audax-records.fr/adx13726",
+    "https://itunes.apple.com/lookup?id=1716362659&entity=song"
+   ],
+   "note": "Audax (Ensemble Diderot) lists GWV A:XV:11 'Melancholicus & Sanguineus'; label says probably the model for C.P.E. Bach's work, world premiere recording; 12:56."
+  },
+  {
+   "id": 101172,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1529460879&entity=song",
+    "https://www.audax-records.fr/adx13726"
+   ],
+   "note": "Audax lists GWV Av:XV:41, three movements, 16:12; world premiere recording."
+  }
+ ],
+ "note": "Neighbouring catalogue entries (not in this chunk): Gounod CG 564 (104681) is dated 1895 but Bru Zane gives 1890 (premiered Feb/Mar 1890), and CG 561 (104679) is Bru Zane 1885 only by guess. GraunWV 'Av' entries carry no doubt note and I could not confirm what 'Av' means. The Gounod Meditation (104678) needs an owner ruling on the optional organ."
+}

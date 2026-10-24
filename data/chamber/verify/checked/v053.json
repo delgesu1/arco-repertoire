@@ -1,0 +1,579 @@
+{
+ "chunk": "v053",
+ "results": [
+  {
+   "id": 101467,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Affetti_musicali,_Op.1_(Marini,_Biagio)",
+    "https://itunes.apple.com/lookup?id=1442909390&entity=song",
+    "https://musicbrainz.org/ws/2/work?artist=79a0aee1-a05c-42e3-a3bd-43cc7046248b&inc=recording-rels&limit=100&fmt=json"
+   ],
+   "note": "Pomo d'Oro track 'Sinfonia grave La Zorzi' 3:25 (Parlophone 2019); Op. 1 contents: 'Sinfonia grave a 3, doi violini e basso'; IMSLP single page spells it La Zozri"
+  },
+  {
+   "id": 101468,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Affetti_musicali,_Op.1_(Marini,_Biagio)",
+    "https://itunes.apple.com/lookup?id=1407466649&entity=song"
+   ],
+   "note": "Musica Antiqua Praha (Supraphon) 'Sinfonia La Martinenga' 2:08; Op. 1 contents: sinfonia a 2, violins or cornetts, all with continuo"
+  },
+  {
+   "id": 101469,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 1
+   },
+   "sources": [
+    "https://imslp.org/wiki/Affetti_musicali,_Op.1_(Marini,_Biagio)",
+    "https://api.deezer.com/album/6259435",
+    "https://musicbrainz.org/work/7c4d817a-8aa9-4aae-bae7-77e3ec04140c"
+   ],
+   "note": "Altri Stromenti, Magnatune 2007, 'Il Barizone (Biagio Marini)' 1:18; Op. 1: 'Brando a 3, doi violini e basso'"
+  },
+  {
+   "id": 101472,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 4
+   },
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1572135810&entity=song",
+    "https://musicbrainz.org/ws/2/work?artist=79a0aee1-a05c-42e3-a3bd-43cc7046248b&inc=recording-rels&limit=100&fmt=json",
+    "https://musicbrainz.org/work/35f81858-8f89-4f24-a175-c127c7c98523"
+   ],
+   "note": "recordings run 4:35 (La Fenice/Tubery, Ricercar), 4:41 and 4:15 (MusicBrainz), 3:22 (Repicco); entry gave 3"
+  },
+  {
+   "id": 101473,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 3
+   },
+   "sources": [
+    "https://api.deezer.com/album/65181312",
+    "https://imslp.org/wiki/Sonate,_symphonie,_canzoni,_passe'mezzi,_baletti,_corenti,_gagliarde_e_retornelli,_Op.8_(Marini,_Biagio)",
+    "https://musicbrainz.org/work/a748a714-4dfd-4db7-86ac-6d03033a77b9"
+   ],
+   "note": "The Gonzaga Band, Resonus 'Venice 1629', Canzon prima per quattro violini o cornetti 3:12; Op. 8 No. 46 per IMSLP contents"
+  },
+  {
+   "id": 101474,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonate,_symphonie,_canzoni,_passe'mezzi,_baletti,_corenti,_gagliarde_e_retornelli,_Op.8_(Marini,_Biagio)",
+    "https://itunes.apple.com/lookup?id=1572105425&entity=song"
+   ],
+   "note": "La Fenice/Tubery, Ricercar 1995: 'Sonata terza per violini o cornetti' 4:53; IMSLP contents: Sonata Terza a doi violini o cornetti"
+  },
+  {
+   "id": 101475,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Per_ogni_sorte_di_strumento_musicale,_Op.22_(Marini,_Biagio)",
+    "https://www.lysator.liu.se/~tuben/scores/marop22/",
+    "https://itunes.apple.com/lookup?id=1614509322&entity=song",
+    "https://musicbrainz.org/work/c62e2377-4074-35ee-bb4d-2294ba3b526c"
+   ],
+   "note": "IMSLP's own Op. 22 contents give 'due Violini, Viola ad lib. e Basso', so the researcher's 2 violins + continuo with optional viola is right; the single page's '2 violins, viola, continuo' overstates the viola. Recordings 3:00-7:40 with repeats; 5 is fair"
+  },
+  {
+   "id": 101476,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_sopra_'Fuggi_dolente_core',_Op.22_No.21_(Marini,_Biagio)",
+    "https://itunes.apple.com/lookup?id=1442909390&entity=song",
+    "https://itunes.apple.com/lookup?id=1572117489&entity=song"
+   ],
+   "note": "recordings 3:06, 2:57, 2:40; 2 violins and bass per IMSLP"
+  },
+  {
+   "id": 101477,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 7
+   },
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1607192313&entity=song",
+    "https://musicbrainz.org/work/7a12e5a2-39f8-4d53-8f05-735a7979e071",
+    "https://imslp.org/wiki/Per_ogni_sorte_di_strumento_musicale,_Op.22_(Marini,_Biagio)"
+   ],
+   "note": "Quartetto Italiano (Warner 2022): Entrata 2:33, Gagliarda 1:52, Corrente 1:37, Commiato 1:03 = about 7 min; movements as in notes; IMSLP contents: balletto a 3, 2 violins and basso"
+  },
+  {
+   "id": 101478,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 6
+   },
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1614509322&entity=song",
+    "https://itunes.apple.com/lookup?id=1587007977&entity=song",
+    "https://imslp.org/wiki/Per_ogni_sorte_di_strumento_musicale,_Op.22_(Marini,_Biagio)"
+   ],
+   "note": "five sections (Entrata grave, Balletto allegro, Gagliarda, Corrente, Retirata) run 5:37 (Manze, harmonia mundi) and 6:41 (Passacaille 2021); viola a beneplacito per IMSLP contents"
+  },
+  {
+   "id": 101479,
+   "verdict": "fixed",
+   "fixes": {
+    "form": "short",
+    "minutes": 1,
+    "notes": "Short dance for two violins and bass; a viola may join (à 3 & à 4)"
+   },
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1614509322&entity=song",
+    "https://api.deezer.com/search/track?q=Marini%20%22Balletto%20terzo%22",
+    "https://imslp.org/wiki/Per_ogni_sorte_di_strumento_musicale,_Op.22_(Marini,_Biagio)"
+   ],
+   "note": "Manze/Romanesca (harmonia mundi) records Balletto terzo as one 0:51 track (secondo is split into five sections); another listing gives 0:31. It is a short dance, not a suite: form short, 1 min"
+  },
+  {
+   "id": 101480,
+   "verdict": "fixed",
+   "fixes": {
+    "form": "short",
+    "minutes": 1,
+    "notes": "Short dance (allemano) for two violins and bass; a viola may join (à 3 & à 4)"
+   },
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1614509322&entity=song",
+    "https://api.deezer.com/search/track?q=Marini%20%22balletto%20quarto%22",
+    "https://imslp.org/wiki/Per_ogni_sorte_di_strumento_musicale,_Op.22_(Marini,_Biagio)"
+   ],
+   "note": "Manze/Romanesca records Balletto quarto allemano as one 1:03 track; another listing gives 0:31. It is a short dance, not a suite: form short, 1 min"
+  },
+  {
+   "id": 101481,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Per_ogni_sorte_di_strumento_musicale,_Op.22_(Marini,_Biagio)",
+    "https://itunes.apple.com/lookup?id=1614509322&entity=song",
+    "https://musicbrainz.org/work/475cb447-72db-4eae-8c78-81ebcfd21ba1"
+   ],
+   "note": "Manze 1:46, MusicBrainz recording 3:01; scoring (2 violins, viola, continuo) as in IMSLP's contents list of Op. 22"
+  },
+  {
+   "id": 101482,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Per_ogni_sorte_di_strumento_musicale,_Op.22_(Marini,_Biagio)",
+    "https://itunes.apple.com/lookup?id=1614509322&entity=song"
+   ],
+   "note": "Manze/Romanesca 1:11; scoring as in IMSLP's contents list of Op. 22"
+  },
+  {
+   "id": 101483,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Per_ogni_sorte_di_strumento_musicale,_Op.22_(Marini,_Biagio)",
+    "https://itunes.apple.com/lookup?id=1614509322&entity=song"
+   ],
+   "note": "Manze/Romanesca 2:04; scoring as in IMSLP's contents list of Op. 22"
+  },
+  {
+   "id": 101484,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Per_ogni_sorte_di_strumento_musicale,_Op.22_(Marini,_Biagio)",
+    "https://itunes.apple.com/lookup?id=1614509322&entity=song",
+    "https://itunes.apple.com/lookup?id=1475802639&entity=song",
+    "https://itunes.apple.com/lookup?id=1571971750&entity=song",
+    "https://musicbrainz.org/work/b7b1b81f-3c1f-478b-85a5-1dfe1c67aa29"
+   ],
+   "note": "four recordings 1:40-2:23; scoring as in IMSLP's contents list of Op. 22"
+  },
+  {
+   "id": 108302,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://es.wikipedia.org/wiki/Arturo_M%C3%A1rquez",
+    "https://itunes.apple.com/lookup?id=1688061821&entity=song"
+   ],
+   "note": "es.wikipedia: composed 1993 for the Cuarteto Latinoamericano; Mr McFall's Chamber (Delphian 2023) 9:36"
+  },
+  {
+   "id": 108225,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1995",
+    "notes": "Seven movements; commissioned for the Orion String Quartet by the Chamber Music Society of Lincoln Center"
+   },
+   "sources": [
+    "https://cvnc.org/emfs-friends-and-great-performers-series-orion-quartet-samples-marsalis",
+    "https://api.deezer.com/album/98003",
+    "https://wyntonmarsalis.org/compositions"
+   ],
+   "note": "commissioned by the Chamber Music Society of Lincoln Center, premiered by the Orion Quartet on 7 May 1995 (CVNC); Orion/Sony Classical 1999: seven movements, 44:54"
+  },
+  {
+   "id": 104694,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1855",
+    "notes": "Last of Marschner's seven piano trios; four movements"
+   },
+   "sources": [
+    "https://www.thestrad.com/reviews/gould-piano-trio-marschner/19076.article",
+    "https://itunes.apple.com/lookup?id=1771594777&entity=song",
+    "https://en.wikipedia.org/wiki/Heinrich_Marschner"
+   ],
+   "note": "The Strad: Marschner's seven piano trios were published between 1823 and 1855; No. 7 (Op. 167) is the last. Gould Piano Trio, Naxos 2024: four movements, 34:24. Year is the publication year; 'not on IMSLP' dropped from notes"
+  },
+  {
+   "id": 104872,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1394803376&entity=song",
+    "https://en.wikipedia.org/wiki/Henri_Marteau"
+   ],
+   "note": "Isasi Quartet/Karine Deshayes, cpo 2018: eight songs 22:44; Wikipedia lists Huit melodies Op. 19c with the poets Hugo, Sully Prudhomme and Coppee. No composition year found, left blank"
+  },
+  {
+   "id": 103872,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Nonet_No.2,_H.374_(Martin%C5%AF,_Bohuslav)",
+    "https://api.deezer.com/album/6584926",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Bohuslav_Martin%C5%AF"
+   ],
+   "note": "IMSLP: 16 min, 1959; DG recording 15:38"
+  },
+  {
+   "id": 103873,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quartet_No.1,_H.287_(Martin%C5%AF,_Bohuslav)",
+    "https://api.deezer.com/album/617966541"
+   ],
+   "note": "IMSLP: 23 min, composed April 1942 in Jamaica NY; Schubert Ensemble (Chandos) 24:04"
+  },
+  {
+   "id": 103888,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/71120322",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Bohuslav_Martin%C5%AF"
+   ],
+   "note": "Panocha Quartet (Supraphon): four movements, 20:01; Wikipedia list: 1937 Paris"
+  },
+  {
+   "id": 103890,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.6,_H.312_(Martin%C5%AF,_Bohuslav)",
+    "https://api.deezer.com/album/71120322",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Bohuslav_Martin%C5%AF"
+   ],
+   "note": "IMSLP: three movements, 20 min, 1946; Panocha 22:47; Wikipedia list: 1946 New York"
+  },
+  {
+   "id": 103896,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/43344531",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Bohuslav_Martin%C5%AF"
+   ],
+   "note": "Jacques Thibaud String Trio (audite): three movements, 19:04; Wikipedia list: 1923 Paris"
+  },
+  {
+   "id": 103898,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://database.martinu.cz/works/public_view/64/lang:eng",
+    "https://imslp.org/wiki/Serenade_No.1,_H.217_(Martin%C5%AF,_Bohuslav)",
+    "https://api.deezer.com/album/73480462"
+   ],
+   "note": "Martinu Institute, IMSLP and the Supraphon recording (7:15) all give one clarinet, horn, three violins, viola; Wikipedia's list says two clarinets, which looks wrong"
+  },
+  {
+   "id": 103901,
+   "verdict": "fixed",
+   "fixes": {
+    "aka": [
+     "Chamber Music No. 1",
+     "Kammermusik Nr. 1",
+     "Les fêtes nocturnes"
+    ]
+   },
+   "sources": [
+    "https://database.martinu.cz/works/public_view/298/lang:eng",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Bohuslav_Martin%C5%AF",
+    "https://api.deezer.com/album/584045792",
+    "https://api.deezer.com/album/586314182"
+   ],
+   "note": "scoring, 1959 and Eschig 1966 confirmed by the Martinu Institute; recordings 18:24 (Timpani) and 20:01 (Naxos). Wikipedia's list gives the subtitle 'Les fetes nocturnes', added to aka"
+  },
+  {
+   "id": 104723,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/586636392",
+    "https://api.deezer.com/album/843425172",
+    "https://en.wikipedia.org/wiki/Joseph_Marx"
+   ],
+   "note": "cpo 25:01, Decca 25:43; Wikipedia: 1938"
+  },
+  {
+   "id": 104724,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/586636392",
+    "https://api.deezer.com/album/843425172",
+    "https://en.wikipedia.org/wiki/Joseph_Marx"
+   ],
+   "note": "cpo 21:54, Decca 24:49; Wikipedia: 1941"
+  },
+  {
+   "id": 104725,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/586636392",
+    "https://api.deezer.com/album/843425172",
+    "https://en.wikipedia.org/wiki/Joseph_Marx"
+   ],
+   "note": "cpo 28:05, Decca 28:42; Wikipedia: String Quartet in A major (1936, rev. 1948 as Quartetto Chromatico)"
+  },
+  {
+   "id": 101147,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sonatas,_Op.1_(Mascitti,_Michele)",
+    "https://itunes.apple.com/lookup?id=1612308596&entity=song",
+    "https://itunes.apple.com/lookup?id=1740520217&entity=song"
+   ],
+   "note": "Recorded three times (7:37-7:55, 4 movements, 1704). Doubt on scoring only: IMSLP says the cello line of Nos. 7-8 is distinct from the continuo bass 'less so with no. 9'; if it mostly doubles the bass, the brief's rule (fold into continuo when unsure) would make it 2 violins + continuo, 3 players"
+  },
+  {
+   "id": 101153,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/14_Sonatas,_Op.4_(Mascitti,_Michele)",
+    "https://itunes.apple.com/lookup?id=1612308596&entity=song",
+    "https://itunes.apple.com/lookup?id=1535706689&entity=song"
+   ],
+   "note": "IMSLP: Op. 4 Nos. 9-10, 12-13 are for 2 violins and continuo; recordings 7:46 and 8:25, Paris 1711"
+  },
+  {
+   "id": 101155,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/14_Sonatas,_Op.4_(Mascitti,_Michele)",
+    "https://itunes.apple.com/lookup?id=1612308596&entity=song",
+    "https://itunes.apple.com/lookup?id=1625303484&entity=song"
+   ],
+   "note": "recordings 8:01 and 9:07 (Nar Classical 1996; Music Square 2022). IMSLP tags this one '2 flutes, continuo' while its file list puts the second violin part for Sonatas 9-14 in the violin book, so violins with a flute alternative is plausible; the print itself was not seen"
+  },
+  {
+   "id": 106447,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1918-19",
+    "minutes": 27
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Daniel_Gregory_Mason",
+    "https://imslp.org/wiki/String_Quartet_on_Negro_Themes,_Op.19_(Mason,_Daniel_Gregory)",
+    "https://musicbrainz.org/ws/2/work?artist=90f3033e-7dae-4fa5-a14a-05b961e1d99d&inc=recording-rels&limit=100&fmt=json",
+    "https://musicbrainz.org/ws/2/recording/d9355440-b073-418f-817e-3e9d626d991b?inc=releases+artist-credits&fmt=json"
+   ],
+   "note": "Wikipedia's work list gives 1918-19 (IMSLP only dates the print 'ca. 1917-1924'). Kohon Quartet, 'The Early String Quartet in the U.S.A.' (1992): three movements totalling about 27 min (8:00, 12:29, 6:37 on MusicBrainz)"
+  },
+  {
+   "id": 106622,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Skyriana,_Op.15_(Masotti,_Celestina)",
+    "https://api.deezer.com/album/54793362"
+   ],
+   "note": "Work exists as described (IMSLP: recorder, violin, cello, 2010, first performed 27 May 2012; 8:41 on the album 'All in One'). The album is on the composer's own Preludio label with student-level performers and I found no professional performance, commission or established publisher, so her track record is unproven; not enough to reject"
+  },
+  {
+   "id": 105761,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Oboe with violin, viola and cello; three movements; probably published in 1798"
+   },
+   "sources": [
+    "https://api.deezer.com/album/6031938",
+    "https://www.musicweb-international.com/classrev/2005/nov05/MASSONNEAU_92562.htm"
+   ],
+   "note": "Ensemble Piu (audite 92.562, 2005) timings match the entry; MusicWeb says only that the set was 'probably published in 1798' and does not name Hamburg, so 'published in Hamburg' is dropped from the notes"
+  },
+  {
+   "id": 105762,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Oboe with violin, viola and cello; three movements; probably published in 1798"
+   },
+   "sources": [
+    "https://api.deezer.com/album/6031938",
+    "https://www.musicweb-international.com/classrev/2005/nov05/MASSONNEAU_92562.htm"
+   ],
+   "note": "Ensemble Piu (audite 92.562, 2005) timings match the entry; MusicWeb says only that the set was 'probably published in 1798' and does not name Hamburg, so 'published in Hamburg' is dropped from the notes"
+  },
+  {
+   "id": 105763,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Oboe with violin, viola and cello; three movements; probably published in 1798"
+   },
+   "sources": [
+    "https://api.deezer.com/album/6031938",
+    "https://www.musicweb-international.com/classrev/2005/nov05/MASSONNEAU_92562.htm"
+   ],
+   "note": "Ensemble Piu (audite 92.562, 2005) timings match the entry; MusicWeb says only that the set was 'probably published in 1798' and does not name Hamburg, so 'published in Hamburg' is dropped from the notes"
+  },
+  {
+   "id": 104613,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Grand_Trio_pour_Violon,_Alto_et_Guitarre_(Matiegka,_Wenzel_Thomas)",
+    "https://api.deezer.com/album/580791281"
+   ],
+   "note": "five movements as in notes (31:33 on EMEC); Artaria plate 1881, [1807]. The recording labels it Op. 9, which Wikipedia's work list does not show, so no opus added. Not a duplicate of the Op. 24 trio (different movements)"
+  },
+  {
+   "id": 104614,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/580791281",
+    "https://en.wikipedia.org/wiki/Wenzel_Thomas_Matiegka"
+   ],
+   "note": "Wikipedia: Grand Trio op. 24 for violin, viola and guitar; EMEC recording 36:58, five movements as in notes; a different work from the Grand Trio in A major (see 104613)"
+  },
+  {
+   "id": 106266,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quartet_in_One_Movement,_Op.20_(Matthay,_Tobias)",
+    "https://itunes.apple.com/lookup?id=1822509726&entity=song"
+   ],
+   "note": "IMSLP: composed 1882, revised 1905, published 1906; Berkeley Ensemble, EM Records 2025: 12:54"
+  },
+  {
+   "id": 107555,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.fabermusic.com/composers/colin-matthews/works",
+    "https://api.deezer.com/album/476607615"
+   ],
+   "note": "Faber: 1986/89, 15 min; NMC (Brindisi Quartet) six sections, 14:27"
+  },
+  {
+   "id": 107556,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.fabermusic.com/composers/colin-matthews/works",
+    "https://api.deezer.com/album/476607615"
+   ],
+   "note": "Faber: 1981, oboe and string trio, 10 min; NMC (Melinda Maxwell) 11:03"
+  },
+  {
+   "id": 107557,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.fabermusic.com/composers/colin-matthews/works",
+    "https://api.deezer.com/album/476607615"
+   ],
+   "note": "Faber: 1982, double string quartet, 21 min; NMC (Divertimenti Ensemble) three movements, 19:53"
+  },
+  {
+   "id": 107558,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.fabermusic.com/composers/colin-matthews/works",
+    "https://api.deezer.com/album/476607615"
+   ],
+   "note": "Faber: Triptych 1984, 'Tripartite Inventions for piano quintet', 6 min; NMC (Schubert Ensemble) 6:30"
+  },
+  {
+   "id": 107559,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.fabermusic.com/composers/colin-matthews/works",
+    "https://itunes.apple.com/lookup?id=1460769200&entity=song"
+   ],
+   "note": "Faber: 1989, oboe and string trio, 9 min; Berlin Oboe Quartet (Costa 2019) 10:15"
+  },
+  {
+   "id": 107536,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/David_Matthews_(composer)",
+    "https://www.fabermusic.com/composers/david-matthews/works",
+    "https://api.deezer.com/album/583560802"
+   ],
+   "note": "Wikipedia: 1969-70, rev. 1980; Kreutzer Quartet six sections, 23:44"
+  },
+  {
+   "id": 107537,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/David_Matthews_(composer)",
+    "https://www.fabermusic.com/composers/david-matthews/works",
+    "https://api.deezer.com/album/583560802"
+   ],
+   "note": "Wikipedia: 1974-76; Kreutzer Quartet three movements, 16:38. Note text is vague but not wrong"
+  },
+  {
+   "id": 107538,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/David_Matthews_(composer)",
+    "https://www.fabermusic.com/composers/david-matthews/works",
+    "https://api.deezer.com/album/583560802",
+    "https://api.deezer.com/album/880255372"
+   ],
+   "note": "Wikipedia: 1977-78; Kreutzer 20:13, Brindisi 18:02"
+  },
+  {
+   "id": 107539,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.fabermusic.com/composers/david-matthews/works",
+    "https://api.deezer.com/album/583971112"
+   ],
+   "note": "Faber: 1981, 30 min; Kreutzer Quartet four movements, 30:57"
+  }
+ ],
+ "note": "Most Marini pieces are tiny single dances or sinfonias, so minutes were set from recordings. Op. 22 Zarabanda/Corrente/Sinfonia scoring follows IMSLP's contents list (viola vs basso could not be checked against the 1655 print). Wikipedia's Martinu list gives two clarinets for Serenade I; the Martinu Institute says one."
+}

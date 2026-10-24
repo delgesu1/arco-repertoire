@@ -1,0 +1,59 @@
+{
+ "chunk": "zz-followups",
+ "note": "Changes that follow from other chunks' findings, applied after them (scripts/chamber/verify_apply.ts reads files in name order).",
+ "results": [
+  {
+   "id": 108289,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet No. 2 (\"Magueyes\")"
+   },
+   "note": "R. numbers are IMSLP's own, not a scholarly catalogue (v068, Quartet No. 1)"
+  },
+  {
+   "id": 108290,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet No. 3"
+   },
+   "note": "R. numbers are IMSLP's own (v068)"
+  },
+  {
+   "id": 108291,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet No. 4 (\"Música de feria\")"
+   },
+   "note": "R. numbers are IMSLP's own (v068)"
+  },
+  {
+   "id": 108292,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "Ocho por radio"
+   },
+   "note": "R. numbers are IMSLP's own (v068)"
+  },
+  {
+   "id": 108423,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "With soprano obbligato (the CMC list also names percussion)"
+   },
+   "note": "the old note's 'about 18 minutes' contradicted v075's corrected 28"
+  },
+  {
+   "id": 108422,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 18,
+    "notes": "One track of about 18 minutes on the Molinari recording"
+   },
+   "sources": [
+    "MusicWeb review of the Molinari set (No. 6 18:02)",
+    "eClassical track list (18:02)"
+   ],
+   "note": "v075 found Deezer swaps the timings of Quartets 6 and 7; MusicWeb and eClassical give No. 6 18:02"
+  }
+ ]
+}

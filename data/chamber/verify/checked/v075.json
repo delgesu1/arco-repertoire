@@ -1,0 +1,560 @@
+{
+ "chunk": "v075",
+ "results": [
+  {
+   "id": 108423,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 28
+   },
+   "sources": [
+    "https://www.deezer.com/album/902853032",
+    "https://www.musicweb-international.com/classrev/2013/Aug13/Schafer_quartets_ACD22188_672p.htm",
+    "https://en.wikipedia.org/wiki/R._Murray_Schafer"
+   ],
+   "note": "Minutes 18 -> 28: MusicWeb gives No.7 [27:34] and No.6 [18:02] (eClassical also 18:02 for No.6, Earsense ~28 for No.7); Deezer's two timings look swapped (so id 108422 is probably ~18, not 28). Wikipedia/CMC: soprano and percussion; recording has soprano only."
+  },
+  {
+   "id": 108424,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.deezer.com/album/891961092",
+    "https://www.deezer.com/album/883774532",
+    "https://en.wikipedia.org/wiki/R._Murray_Schafer"
+   ],
+   "note": "Tape part and 2001 per Wikipedia work list; recording 9:51+12:34."
+  },
+  {
+   "id": 108425,
+   "verdict": "fixed",
+   "fixes": {
+    "instruments": {
+     "violin": 2,
+     "viola": 1,
+     "cello": 1,
+     "electronics": 1
+    },
+    "notes": "With pre-recorded children's voices on tape; about 24 minutes"
+   },
+   "sources": [
+    "https://www.deezer.com/album/891961092",
+    "https://www.musicweb-international.com/classrev/2013/Aug13/Schafer_quartets_ACD22188_672p.htm",
+    "https://www.classical-music.com/reviews/chamber/schafer-string-quartets-nos-8-12"
+   ],
+   "note": "Recording 23:39 fits. Pre-recorded children's voices are part of the work (MusicWeb, review); tape does not change players."
+  },
+  {
+   "id": 108426,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet No. 10 (\"Winter Birds\")"
+   },
+   "sources": [
+    "https://www.deezer.com/album/891961092",
+    "https://www.musicweb-international.com/classrev/2013/Aug13/Schafer_quartets_ACD22188_672p.htm",
+    "https://www.classical-music.com/reviews/chamber/schafer-string-quartets-nos-8-12"
+   ],
+   "note": "Nickname 'Winter Birds' in both reviews. Schafer narrates his own short poem on the Molinari recording; if the narrator is in the score, add voice (players 5) - not confirmed."
+  },
+  {
+   "id": 108427,
+   "verdict": "fixed",
+   "fixes": {
+    "instruments": {
+     "violin": 2,
+     "viola": 1,
+     "cello": 1,
+     "electronics": 1
+    },
+    "notes": "Five movements; pre-recorded Aeolian harp in the finale; about 24 minutes"
+   },
+   "sources": [
+    "https://www.deezer.com/album/891961092",
+    "https://www.musicweb-international.com/classrev/2013/Aug13/Schafer_quartets_ACD22188_672p.htm",
+    "https://www.classical-music.com/reviews/chamber/schafer-string-quartets-nos-8-12"
+   ],
+   "note": "Recording 24:21 fits. A pre-recorded Aeolian harp sounds in the finale (MusicWeb, review)."
+  },
+  {
+   "id": 108428,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.deezer.com/album/891961092",
+    "https://en.wikipedia.org/wiki/R._Murray_Schafer"
+   ],
+   "note": "Recording 16:55."
+  },
+  {
+   "id": 108429,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.deezer.com/album/883774532",
+    "https://en.wikipedia.org/wiki/R._Murray_Schafer"
+   ],
+   "note": "Wikipedia work list: Theseus 1983, harp and string quartet, Centrediscs (Loman); Molinari 19:10."
+  },
+  {
+   "id": 106287,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Duo_for_Violin_and_Viola,_Op.105_(Scharwenka,_Philipp)",
+    "https://www.deezer.com/album/579359901"
+   ],
+   "note": "IMSLP: violin, viola, piano; 'also known as Piano Trio Op.105'; recording titles it Piano Trio in A major, 13:35."
+  },
+  {
+   "id": 104382,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.1_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/583573442",
+    "https://www.deezer.com/album/580680511"
+   ],
+   "note": "IMSLP key d; Sex Chordae 8:05."
+  },
+  {
+   "id": 104383,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.2_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/330498"
+   ],
+   "note": "IMSLP key d; Hesperion XX 8:21."
+  },
+  {
+   "id": 104384,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.3_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/583573442",
+    "https://www.deezer.com/album/53056902"
+   ],
+   "note": "IMSLP key e; Sex Chordae 7:21, Chatham Baroque 7:45."
+  },
+  {
+   "id": 104385,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.6_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/583573442",
+    "https://www.deezer.com/album/330498"
+   ],
+   "note": "IMSLP key a; recordings 8:27 and 10:27."
+  },
+  {
+   "id": 104386,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.7_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/583573442"
+   ],
+   "note": "IMSLP key a; Sex Chordae 6:34."
+  },
+  {
+   "id": 104387,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.8_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/580680511"
+   ],
+   "note": "IMSLP key C; Busca 10:10."
+  },
+  {
+   "id": 104388,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.10_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/583573442"
+   ],
+   "note": "IMSLP key d; Sex Chordae 7:08."
+  },
+  {
+   "id": 104389,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.13_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/580680511"
+   ],
+   "note": "IMSLP key g; Busca 11:40 (incl. an added intrada)."
+  },
+  {
+   "id": 104390,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.14_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/583573442"
+   ],
+   "note": "IMSLP key G; Sex Chordae 6:22."
+  },
+  {
+   "id": 104391,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.15_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/583573442"
+   ],
+   "note": "IMSLP key G; Sex Chordae 5:55."
+  },
+  {
+   "id": 104392,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.16_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/583573442",
+    "https://www.deezer.com/album/330498",
+    "https://www.deezer.com/album/580680511"
+   ],
+   "note": "IMSLP key a; recordings 7:39 to 10:43."
+  },
+  {
+   "id": 104393,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.18_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/580680511"
+   ],
+   "note": "IMSLP key C; Busca 12:29 (incl. intrada)."
+  },
+  {
+   "id": 104394,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.19_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/580680511"
+   ],
+   "note": "IMSLP key F; Busca 9:22."
+  },
+  {
+   "id": 104395,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_No.20_(Schein,_Johann_Hermann)",
+    "https://www.deezer.com/album/330498"
+   ],
+   "note": "IMSLP key e; Hesperion XX 6:38."
+  },
+  {
+   "id": 105458,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "note": "IMSLP: 2 violins, viola da gamba, continuo (Amsterdam 1692); La Suave Melodia plays No.5 in C minor, 5:47."
+  },
+  {
+   "id": 105462,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Il_giardino_armonico,_Op.3_(Schenck,_Johann)",
+    "https://www.deezer.com/album/6222945"
+   ],
+   "note": "IMSLP: 2 violins, viola da gamba, continuo (Amsterdam 1692); La Suave Melodia plays No.9 in A major, 5:56."
+  },
+  {
+   "id": 101522,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sacro-profanus_concentus_musicus_(Schmelzer,_Johann_Heinrich)",
+    "https://www.deezer.com/album/435571937"
+   ],
+   "note": "IMSLP Sonata I a otto: 2 trumpets, 2 violins, 3 violas, cello, continuo; Harnoncourt 4:01."
+  },
+  {
+   "id": 101523,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sacro-profanus_concentus_musicus_(Schmelzer,_Johann_Heinrich)",
+    "https://www.deezer.com/album/435571937"
+   ],
+   "note": "Tier-1 mismatch is IMSLP's collection-level scoring; Sonata II is violin/2 violas/cello + cornett/3 trombones + continuo as entered; Harnoncourt 5:22."
+  },
+  {
+   "id": 101532,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sacro-profanus_concentus_musicus_(Schmelzer,_Johann_Heinrich)",
+    "https://www.deezer.com/album/1417587",
+    "https://de.wikipedia.org/wiki/Johann_Heinrich_Schmelzer"
+   ],
+   "note": "Sonata XI a quattro; Grove list: also 'Sonata amabilis a 4' (A 534, 1665) = Sonata 11; Preiser recording 3:59."
+  },
+  {
+   "id": 101533,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sacro-profanus_concentus_musicus_(Schmelzer,_Johann_Heinrich)",
+    "https://musicbrainz.org/work/2800bac3-c7f3-4619-b022-21cf3679e5e3"
+   ],
+   "note": "MusicBrainz: Gabrieli Consort & Players recordings on 'Sacred and Profane' (2013) and 'Biber Requiem' (2004), 3:44. Two violins + continuo: also a violin-catalogue cross-listing candidate."
+  },
+  {
+   "id": 101544,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Lamento_sopra_la_morte_di_Ferdinand_III_(Schmelzer,_Johann_Heinrich)",
+    "https://de.wikipedia.org/wiki/Johann_Heinrich_Schmelzer",
+    "https://www.deezer.com/album/10117886"
+   ],
+   "note": "Year 1657 (Grove list, Tafelmusik track title); IMSLP's 1680 is 'or before' (copy). IMSLP scoring violin+2 violas+bc; Grove's other source lists 2 violins, gamba, organ (4 players either way)."
+  },
+  {
+   "id": 101545,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Harmonia_%C3%A0_5_(Schmelzer,_Johann_Heinrich)",
+    "https://www.deezer.com/album/53056902"
+   ],
+   "note": "B-flat (MusicBrainz recording 'B-dur'; its work title says D-Dur); Chatham Baroque 5:06."
+  },
+  {
+   "id": 101548,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1673"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_F_major_(Schmelzer,_Johann_Heinrich)",
+    "https://de.wikipedia.org/wiki/Johann_Heinrich_Schmelzer",
+    "https://www.deezer.com/album/586350842"
+   ],
+   "note": "Grove list (de.wikipedia): Sonata a 2 violini verstimbt (2 violini, bc ad lib), 1673, Kromeriz A 639; IMSLP title gives F major. Kept as trio sonata with continuo."
+  },
+  {
+   "id": 101549,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://de.wikipedia.org/wiki/Johann_Heinrich_Schmelzer",
+    "https://www.deezer.com/album/435571937",
+    "https://www.deezer.com/album/10117886",
+    "https://musicbrainz.org/work/efc3bc7e-7d33-4a2e-b0c2-dd30351753bd"
+   ],
+   "note": "3 violini, organo, 1677, A 528a (Grove list); Harnoncourt 7:12, Tafelmusik 6:37. Three violins + continuo: violin-catalogue cross-listing candidate."
+  },
+  {
+   "id": 101550,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1668"
+   },
+   "sources": [
+    "https://de.wikipedia.org/wiki/Johann_Heinrich_Schmelzer",
+    "https://en.wikipedia.org/wiki/Johann_Heinrich_Schmelzer",
+    "https://www.deezer.com/album/236613802",
+    "https://musicbrainz.org/work/87b50238-06cf-4e08-892c-409c487c5a37"
+   ],
+   "note": "G major (MusicBrainz); 2 violins, violetta, organ (Grove list); recordings 7:11-7:53. Year added: English Wikipedia lists 'Die musikalische Fechtschul, 1668'."
+  },
+  {
+   "id": 101551,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://de.wikipedia.org/wiki/Johann_Heinrich_Schmelzer",
+    "https://www.deezer.com/album/236613802",
+    "https://musicbrainz.org/work/96392477-3977-445b-bf04-f59b73e3326b"
+   ],
+   "note": "Grove list: 2 violini, bc, 1660-70; Masques 6:28. Two violins + continuo: violin-catalogue cross-listing candidate."
+  },
+  {
+   "id": 101552,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://de.wikipedia.org/wiki/Johann_Heinrich_Schmelzer",
+    "https://www.deezer.com/album/10117886",
+    "https://www.deezer.com/album/236613802"
+   ],
+   "note": "Grove list: 2 violini, 2 violae, fagotto con violone et organo, 3 June 1678 (A 496); Tafelmusik 6:00."
+  },
+  {
+   "id": 101553,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://de.wikipedia.org/wiki/Johann_Heinrich_Schmelzer",
+    "https://www.deezer.com/album/435571937",
+    "https://musicbrainz.org/work/2bd8ad45-a936-4393-be4f-52dc7aad5700"
+   ],
+   "note": "Grove list: 2 violini, clarino, fagotto, viola da gamba con cimbalo (A 552), undated; recordings in C major, 7:06-8:14."
+  },
+  {
+   "id": 101554,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://de.wikipedia.org/wiki/Johann_Heinrich_Schmelzer",
+    "https://www.deezer.com/album/435571937",
+    "https://musicbrainz.org/work/f41b44da-8a2e-4d18-9e8a-71e8707f3edf"
+   ],
+   "note": "Violin, 2 violas, organ, violone (A 589a); Harnoncourt 5:52. Not the Lamento: Freiburger Barockorchester records both (6:40 and 6:43), both in B minor."
+  },
+  {
+   "id": 101555,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://de.wikipedia.org/wiki/Johann_Heinrich_Schmelzer",
+    "https://www.deezer.com/album/10117886",
+    "https://musicbrainz.org/work/d9740d8d-7ffa-4a9e-9623-8827e0123069"
+   ],
+   "note": "Grove list: 2 violini, 2 flautae con organo, 1670 (A 869); Tafelmusik 4:54."
+  },
+  {
+   "id": 104102,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Trio,_Op.105_(Schmitt,_Florent)",
+    "https://florentschmitt.com/2020/06/08/just-announced-prisma-string-trio-to-make-a-new-recording-of-florent-schmitts-extraordinary-trio-a-cordes-1944/",
+    "https://musicbrainz.org/work/8c5f674d-3f34-4a69-8e8b-a0ec225e9d0a"
+   ],
+   "note": "Recorded by Pasquier Trio (Pathe 1946), Albert Roussel Trio (1980s), Prisma (2020); MusicBrainz movement recordings total 33:50."
+  },
+  {
+   "id": 104103,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet,_Op.112_(Schmitt,_Florent)",
+    "https://florentschmitt.com/2017/09/01/substance-as-well-as-style-the-quartet-for-strings-1948-of-florent-schmitt/"
+   ],
+   "note": "Page: 'String Quartet in G-sharp', about forty minutes; Quatuor Champeil recording (1956)."
+  },
+  {
+   "id": 104104,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite_en_Rocaille,_Op.84_(Schmitt,_Florent)",
+    "https://www.deezer.com/album/380308987",
+    "https://musicbrainz.org/work/da33a0d8-bd3c-4aa2-ab79-d000f6d4ca7f"
+   ],
+   "note": "Flute, harp, violin, viola, cello; Praga recording 14:40; MusicBrainz: third movement 'mouvement tres modere de menuet'."
+  },
+  {
+   "id": 104636,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.deezer.com/album/709810041",
+    "https://itunes.apple.com/lookup?id=1795134774&entity=song",
+    "https://www.allmusic.com/album/joseph-schmitt-early-symphonies-and-chamber-music-mw0001867330"
+   ],
+   "note": "New Dutch Academy recording 17:03; Op. 3 No. 3 numbering from AllMusic (search snippet). The 'Six ... Op. 3' set count is not independently confirmed."
+  },
+  {
+   "id": 104637,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.deezer.com/album/709810041",
+    "https://itunes.apple.com/lookup?id=1795134774&entity=song",
+    "https://www.allmusic.com/album/joseph-schmitt-early-symphonies-and-chamber-music-mw0001867330"
+   ],
+   "note": "Recording 12:40; Op. 3 No. 6 numbering from AllMusic (search snippet). Set count not independently confirmed."
+  },
+  {
+   "id": 104638,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Flute_Quartets,_Op.10_(Schmitt,_Joseph)",
+    "https://www.deezer.com/album/558822982"
+   ],
+   "note": "WIG Society (Arcana 2024) plays Op. 10 No. 6 in E minor in four movements, 11:56."
+  },
+  {
+   "id": 105844,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Guitar_Quintet_(Schnabel,_Joseph)",
+    "https://www.deezer.com/album/583580482"
+   ],
+   "note": "Karol Lipinski Ensemble (DUX 2018), four movements, 20:03; IMSLP average 18 min."
+  },
+  {
+   "id": 106011,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.genuinclassics.com/gen16426-found",
+    "https://itunes.apple.com/lookup?id=1105540124&entity=song"
+   ],
+   "note": "Genuin: Trio in E-flat Op. 38 (1816), four movements, world premiere recording; 23:41."
+  },
+  {
+   "id": 105846,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_Flute_Quartets,_Op.52_(Schneider,_Georg_Abraham)",
+    "https://www.deezer.com/album/584462442",
+    "https://musicbrainz.org/work/942e13d6-eb29-4e97-a7f2-d56474b97b32"
+   ],
+   "note": "Recording (Adorjan Quartet, 12:10) and MusicBrainz call the G-major quartet Op. 52 No. 3, but IMSLP lists it first and says the parts are printed 'Quartets IV to VI': the number is uncertain, and the aka 'No. 1' is a guess."
+  },
+  {
+   "id": 106720,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.deezer.com/album/883775582",
+    "https://www.deezer.com/album/381091"
+   ],
+   "note": "Sonata, Canon, Cadenza; Kronos 16:33, Molinari 18:53; 1966 (Wikipedia list)."
+  },
+  {
+   "id": 106721,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1980"
+   },
+   "sources": [
+    "https://www.deezer.com/album/381091",
+    "https://eclassical.com/orchestras/tale-quartet/schnittke-string-quartets-nos1-3.html",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Alfred_Schnittke"
+   ],
+   "note": "eClassical and the BIS booklet date it 1980 (in memory of Larissa Shepitko); Wikipedia's list says 1981 (first performance). Recordings 21-22 min."
+  },
+  {
+   "id": 106722,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.deezer.com/album/381091",
+    "https://eclassical.com/orchestras/tale-quartet/schnittke-string-quartets-nos1-3.html"
+   ],
+   "note": "1983; three movements (Andante, Agitato, Pesante); Kronos 19:08, Molinari 20:09."
+  }
+ ],
+ "note": "Deezer's ATMA listing swaps the timings of Schafer's Quartets 6 and 7 (id 108422 No.6 is probably ~18 min, not 28; checked outside this chunk). Schafer Quartets 9-11 use tape/narrator (see results). Schmelzer 101533, 101548, 101549, 101551 are 2-3 violins + continuo: cross-list candidates for the violin catalogue. Schein suites 4, 5, 9, 11, 12, 17 are not in the catalogue."
+}

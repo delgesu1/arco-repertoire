@@ -1,0 +1,557 @@
+{
+ "chunk": "v072",
+ "results": [
+  {
+   "id": 101632,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonate_e_Sinfonie_da_camera_(Rosenm%C3%BCller,_Johann)",
+    "https://itunes.apple.com/lookup?id=1200550194&entity=song",
+    "https://itunes.apple.com/lookup?id=325620847&entity=song",
+    "https://de.wikipedia.org/wiki/Johann_Rosenm%C3%BCller"
+   ],
+   "note": "Recording (New Focus 2017) titles it 'No. N in <key>' as in our title. 1667 is the Vincenti print (RISM R 2565); IMSLP's ca.1660 composition date is an estimate, so the house fallback (publication year) stays. Recorded 6.9 min."
+  },
+  {
+   "id": 101633,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonate_e_Sinfonie_da_camera_(Rosenm%C3%BCller,_Johann)",
+    "https://itunes.apple.com/lookup?id=1200550194&entity=song",
+    "https://itunes.apple.com/lookup?id=325620847&entity=song",
+    "https://de.wikipedia.org/wiki/Johann_Rosenm%C3%BCller"
+   ],
+   "note": "Same print and recording; 8.8 min on the recording, 9 kept."
+  },
+  {
+   "id": 101634,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonate_e_Sinfonie_da_camera_(Rosenm%C3%BCller,_Johann)",
+    "https://itunes.apple.com/lookup?id=1200550194&entity=song",
+    "https://itunes.apple.com/lookup?id=325620847&entity=song",
+    "https://de.wikipedia.org/wiki/Johann_Rosenm%C3%BCller"
+   ],
+   "note": "Same print and recording; 7.3 min."
+  },
+  {
+   "id": 102874,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Antonio_Rosetti",
+    "https://api.deezer.com/album/587757082"
+   ],
+   "note": "Murray D6 = Quartet Op. 4/1 in A (Wikipedia work list); Gramola disc (Demmler Quartet) calls it Op. 2 No. 1, movements and 16.6 min match."
+  },
+  {
+   "id": 102881,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Antonio_Rosetti",
+    "https://api.deezer.com/album/7067706"
+   ],
+   "note": "Murray D16 = Flute Quartet in G; Compagnia di Punto, DHM 2013: three movements, 15.6 min."
+  },
+  {
+   "id": 102883,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Antonio_Rosetti",
+    "https://api.deezer.com/album/7067706",
+    "https://www.musikhug.ch/en/music-sheets/orchestra/orchestra-partitions/francesco-antonio-rosetti-notturno-e-flat-major-2f-70218.html"
+   ],
+   "note": "B27 is Kaul I:58 (orchestral series) and the Amadeus (Scheck) edition is for 2 flutes, 2 horns and string orchestra; the other recording (CPO) is orchestral. The one-to-a-part claim (nine players on the DHM disc) rests on a PDF review I could not read, and MusicBrainz lists only the ensemble. Notes say 'framed by marches' but the DHM tracks show only one March (first movement). Possibly string-orchestra scope; keep only if a one-to-a-part source is found"
+  },
+  {
+   "id": 105067,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1921"
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nikolai_Roslavets",
+    "https://imslp.org/wiki/List_of_works_by_Nikolay_Roslavets",
+    "https://imslp.org/wiki/Piano_Trio_No.3_(Roslavets,_Nikolay)",
+    "https://api.deezer.com/album/6704303",
+    "https://api.deezer.com/album/92373"
+   ],
+   "note": "1925 is the Muzgiz publication year (IMSLP); Wikipedia and IMSLP's work list date the composition 1921. One movement, 13.8-14.8 min on two recordings."
+  },
+  {
+   "id": 105068,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.3_(Roslavets,_Nikolay)",
+    "https://api.deezer.com/album/157160212",
+    "https://api.deezer.com/album/7057650"
+   ],
+   "note": "IMSLP: 1920, one movement (Moderato); recordings 12.4 and 13.0 min."
+  },
+  {
+   "id": 105133,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nikolai_Roslavets",
+    "https://imslp.org/wiki/List_of_works_by_Nikolay_Roslavets",
+    "https://api.deezer.com/album/92373"
+   ],
+   "note": "1920, reconstructed by Lobanova (Schott ED 8059); Trio Fontenay 19.4 min, one movement."
+  },
+  {
+   "id": 105134,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nikolai_Roslavets",
+    "https://imslp.org/wiki/List_of_works_by_Nikolay_Roslavets",
+    "https://api.deezer.com/album/92373"
+   ],
+   "note": "1927, edited by Lobanova (Schott ED 8036); four movements, 38.2 min on Trio Fontenay."
+  },
+  {
+   "id": 104960,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1914"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Fantastischer_Tanz_%C3%BCber_ein_hebr%C3%A4isches_Thema,_Op.6_(Rosowsky,_Solomon)",
+    "https://api.deezer.com/album/584982012"
+   ],
+   "note": "Year was blank: IMSLP's scan is the St Petersburg Society for Jewish Folk Music edition of 1914, which is the house fallback. Toccata Classics (Russian Jewish Classics Vol. 4) plays it in 10.0 min; scoring violin, cello, piano per IMSLP."
+  },
+  {
+   "id": 101509,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 4
+   },
+   "sources": [
+    "https://imslp.org/wiki/Varie_sonate,_sinfonie,_gagliarde,_brandi,_e_corrente,_Libro_3_(Rossi,_Salamone)",
+    "https://itunes.apple.com/lookup?id=652482217&entity=song",
+    "https://itunes.apple.com/lookup?id=361430792&entity=song"
+   ],
+   "note": "Libro 3 (1613) No. 2; complete Tactus recording 4.3 min, Pan Classics 'Sonata Seconda' 4.2 min."
+  },
+  {
+   "id": 101510,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_terza_sopra_l'arie_della_Romanesca_(Rossi,_Salamone)",
+    "https://itunes.apple.com/lookup?id=652482217&entity=song",
+    "https://itunes.apple.com/lookup?id=1730492384&entity=song"
+   ],
+   "note": "Libro 3 (1613); Tactus complete Libro 3 (3.3 min) and Dolente partita 2024 (2.8 min)."
+  },
+  {
+   "id": 101513,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Varie_sonate,_sinfonie,_gagliarde,_brandi,_e_corrente,_Libro_3_(Rossi,_Salamone)",
+    "https://itunes.apple.com/lookup?id=652482217&entity=song"
+   ],
+   "note": "Dances of Libro 3 as IMSLP counts them (9 sinfonie, 8 gagliarde, 3 brandi, 7 correnti); the Tactus disc records the whole book."
+  },
+  {
+   "id": 101514,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Varie_sonate,_sinfonie,_gagliarde,_brandi,_e_corrente,_Libro_4_(Rossi,_Salamone)",
+    "https://itunes.apple.com/lookup?id=361430792&entity=song",
+    "https://itunes.apple.com/lookup?id=1333554705&entity=song"
+   ],
+   "note": "Pan Classics 2.4 min. IMSLP's Libro 4 page lists no contents; membership of Libro 4 follows the sonata numbering seen on Bongiovanni/Dolente partita discs (Sonata sesta, settima, ottava, undecima, duodecima all labelled Book 4)."
+  },
+  {
+   "id": 101515,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Varie_sonate,_sinfonie,_gagliarde,_brandi,_e_corrente,_Libro_4_(Rossi,_Salamone)",
+    "https://itunes.apple.com/lookup?id=361430792&entity=song",
+    "https://itunes.apple.com/lookup?id=1333554705&entity=song"
+   ],
+   "note": "Bongiovanni labels it 'Book 4, RISM R2765'; 4.4 and 3.8 min on two discs."
+  },
+  {
+   "id": 101519,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Varie_sonate,_sinfonie,_gagliarde,_brandi,_e_corrente,_Libro_4_(Rossi,_Salamone)",
+    "https://itunes.apple.com/lookup?id=361430792&entity=song",
+    "https://itunes.apple.com/lookup?id=1333554705&entity=song",
+    "https://itunes.apple.com/lookup?id=1730492384&entity=song"
+   ],
+   "note": "Dances of Libro 4 recorded in selections (Bongiovanni, Dolente partita)."
+  },
+  {
+   "id": 101520,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sinfonie_et_gagliarde,_Libro_1_(Rossi,_Salamone)",
+    "https://itunes.apple.com/lookup?id=361430792&entity=song"
+   ],
+   "note": "IMSLP: 15 sinfonie a 3, 12 pieces a 4-5; title page says two viole or two cornetti and chitarrone. Recorded only in selections (Sinfonia decima on Pan Classics, others per MusicBrainz); kept as a set."
+  },
+  {
+   "id": 101521,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sinfonie_et_gagliarde,_Libro_2_(Rossi,_Salamone)",
+    "https://itunes.apple.com/lookup?id=361430792&entity=song"
+   ],
+   "note": "IMSLP's 'viols' tag rests on the title 'due viole'; Rossi's 1613 title says 'viole da braccio' and the 1622 one 'violini', and the canto parts are treble, so two violins stays (a modern edition note says Libro 1 suggests violins or cornetti). Recorded only in selections (Sinfonia 17, Pan Classics)."
+  },
+  {
+   "id": 107315,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Nino_Rota",
+    "https://www.musicweb-international.com/classrev/2001/Jan01/rota.htm",
+    "https://api.deezer.com/album/538494772",
+    "https://api.deezer.com/album/583541582",
+    "https://api.deezer.com/album/228286512"
+   ],
+   "note": "Nonetto 1959, rev. 1974 and 1977 (Wikipedia list); five movements; recordings 24.6-30.6 min."
+  },
+  {
+   "id": 107316,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Nino_Rota",
+    "https://www.musicweb-international.com/classrev/2001/Jan01/rota.htm",
+    "https://api.deezer.com/album/583541582",
+    "https://api.deezer.com/album/579498831"
+   ],
+   "note": "Quintetto 1935; three movements, 16.1 and 14.6 min; also on the ASV Ex Novo Ensemble disc."
+  },
+  {
+   "id": 107317,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Nino_Rota",
+    "https://www.musicweb-international.com/classrev/2001/Jan01/rota.htm",
+    "https://api.deezer.com/album/538494772",
+    "https://api.deezer.com/album/618047761",
+    "https://api.deezer.com/album/228286512"
+   ],
+   "note": "Trio dated September 1958; three movements, 12.5-13.1 min."
+  },
+  {
+   "id": 107318,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Nino_Rota",
+    "https://www.musicweb-international.com/classrev/2001/Jan01/rota.htm",
+    "https://api.deezer.com/album/618047761",
+    "https://api.deezer.com/album/228286512"
+   ],
+   "note": "Trio 1973; three movements, 14-16 min."
+  },
+  {
+   "id": 107319,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Nino_Rota",
+    "https://www.musicweb-international.com/classrev/2001/Jan01/rota.htm",
+    "https://itunes.apple.com/lookup?id=286199820&entity=song",
+    "https://musicbrainz.org/ws/2/work/010fa722-3ab6-4cc8-9a8c-2fad49f2725b?inc=recording-rels&fmt=json"
+   ],
+   "note": "Quartetto 1948-54; movements Allegro moderato, Adagio non troppo, Allegro robusto; full recording by Ex Novo Ensemble (ASV DCA 1072, per MusicWeb and MusicBrainz), about 14 min."
+  },
+  {
+   "id": 107320,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Nino_Rota",
+    "https://api.deezer.com/album/538494772",
+    "https://api.deezer.com/album/14643466"
+   ],
+   "note": "Wikipedia: 'Quartetto d'archi con voce (1929)'; BIS (Kremer) 6.8 min."
+  },
+  {
+   "id": 106268,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=721846752&entity=song",
+    "https://itunes.apple.com/lookup?id=1551207639&entity=song",
+    "https://en.wikipedia.org/wiki/Hans_Rott"
+   ],
+   "note": "Five movements, 31.6 min (Mainz) and 34.9 min (Israel Quartet, Quintone). Wikipedia dates it 1876-77 (year left blank in entry; not set as only one source)."
+  },
+  {
+   "id": 108222,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Three movements, one titled Klap Ur Handz; recorded by the Lark Quartet"
+   },
+   "sources": [
+    "https://api.deezer.com/album/1115627",
+    "https://itunes.apple.com/lookup?id=203192237&entity=song"
+   ],
+   "note": "Lark Quartet, Endeavour Classics 2006: three movements, 20.7 min. Movement order differs between the CD and other sources, so 'the first titled Klap Ur Handz' is unsafe; notes made order-neutral."
+  },
+  {
+   "id": 108075,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://musicweb-international.com/classrev/2009/Dec09/Rouse_KICCD7752p.htm",
+    "https://api.deezer.com/album/6463566"
+   ],
+   "note": "MusicWeb: String Quartet No. 1 (1982) [16:30], six movements, completed 7 June 1982 (largely written 1981)."
+  },
+  {
+   "id": 108076,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://musicweb-international.com/classrev/2009/Dec09/Rouse_KICCD7752p.htm",
+    "https://api.deezer.com/album/6463566"
+   ],
+   "note": "String Quartet No. 2 (1988) [21:13]."
+  },
+  {
+   "id": 108077,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://musicweb-international.com/classrev/2009/Dec09/Rouse_KICCD7752p.htm",
+    "https://api.deezer.com/album/6463566",
+    "https://itunes.apple.com/lookup?id=334573587&entity=song"
+   ],
+   "note": "Compline (1996) [18:37] for flute, clarinet, harp and string quartet (septet)."
+  },
+  {
+   "id": 106536,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/587648372",
+    "https://api.deezer.com/album/6297130"
+   ],
+   "note": "Op. 22 (1950), four movements; 24.2 min (Tippett) and 24.4 min (Flesch)."
+  },
+  {
+   "id": 106537,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/587648372",
+    "https://api.deezer.com/album/6297130"
+   ],
+   "note": "Op. 38 (1981 on Decca), four movements; 20.5 and 20.8 min."
+  },
+  {
+   "id": 106237,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quintet,_Op.35_(R%C3%B3%C5%BCycki,_Ludomir)",
+    "https://api.deezer.com/album/545603882",
+    "https://api.deezer.com/album/348234567"
+   ],
+   "note": "IMSLP: 1913-15, three movements, avg 38 min; Hyperion 42.0 and Acte Prealable 41.5 min, 41 kept."
+  },
+  {
+   "id": 107427,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Edmund_Rubbra",
+    "https://api.deezer.com/album/376618217",
+    "https://api.deezer.com/album/587332172"
+   ],
+   "note": "Three movements; finale revised 1946 (Naxos); 19.8 and 19.1 min."
+  },
+  {
+   "id": 107428,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Edmund_Rubbra",
+    "https://api.deezer.com/album/584716602"
+   ],
+   "note": "Four movements, 22.7 min (Maggini, Naxos)."
+  },
+  {
+   "id": 107429,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Edmund_Rubbra",
+    "https://api.deezer.com/album/376618217",
+    "https://api.deezer.com/album/587332172"
+   ],
+   "note": "Three movements, 20.5 and 19.3 min."
+  },
+  {
+   "id": 107430,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Edmund_Rubbra",
+    "https://api.deezer.com/album/587332172"
+   ],
+   "note": "Two movements, 16.2 min; Wikipedia: written 1977 in memory of Bennett Tarshish."
+  },
+  {
+   "id": 107431,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Edmund_Rubbra",
+    "https://api.deezer.com/album/353528787",
+    "https://api.deezer.com/album/584716602"
+   ],
+   "note": "One movement, 19.6 and 21.1 min."
+  },
+  {
+   "id": 107432,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Edmund_Rubbra",
+    "https://api.deezer.com/album/353528787"
+   ],
+   "note": "Two movements, 13.3 min; Wikipedia: first performed 1970 by members of the Army Classical Music Group."
+  },
+  {
+   "id": 107433,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Edmund_Rubbra",
+    "https://api.deezer.com/album/353528787"
+   ],
+   "note": "Phantasy for two violins and piano, Op. 16, 11.4 min (Endymion Ensemble, Dutton Epoch)."
+  },
+  {
+   "id": 103647,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quintet,_Op.99_(Rubinstein,_Anton)",
+    "https://api.deezer.com/album/950591031"
+   ],
+   "note": "IMSLP: 1876?, first performed 1877, Senff 1878, four movements (third in variation form); eda records recording 49.1 min (IMSLP avg 45)."
+  },
+  {
+   "id": 103648,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio_No.1,_Op.15_No.1_(Rubinstein,_Anton)",
+    "https://musicweb-international.com/classrev/2010/Nov10/Rubinstein_METCD1081.htm"
+   ],
+   "note": "IMSLP: 1851, published 1855, dedicated to Grand Duchess Olga Nikolaevna; MusicWeb: Edlian Piano Trio, Metronome MET CD 1081, 24:04."
+  },
+  {
+   "id": 103651,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio_No.4,_Op.85_(Rubinstein,_Anton)",
+    "https://musicweb-international.com/classrev/2010/Nov10/Rubinstein_METCD1081.htm"
+   ],
+   "note": "MusicWeb: Op. 85 (1870) [39:20]; IMSLP: four movements, Lewy, Vienna, 1871."
+  },
+  {
+   "id": 107680,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 13,
+    "notes": "Two movements (Senza problema, Siciliano); written six months before the Motet quartet"
+   },
+   "sources": [
+    "https://www.wisemusicclassical.com/work/19175/Strygekvartet-nr-2--Poul-Ruders",
+    "https://itunes.apple.com/lookup?id=342922138&entity=song",
+    "https://api.deezer.com/album/584039292"
+   ],
+   "note": "Publisher (Wise Music, Edition Wilhelm Hansen) gives 12 min, not 28; Kontra Quartet (Dacapo 1992) plays it in two movements, Senza problema and Siciliano, 13.4 min. The 'six movements' and 28 minutes look wrong. 1979 is right (Ruders: second and third quartets written six months apart in 1979)."
+  },
+  {
+   "id": 107681,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=342922138&entity=song",
+    "https://api.deezer.com/album/584039292",
+    "https://www.prestomusic.com/sheet-music/products/7051104--poul-ruders-string-quartet-no-3-motet"
+   ],
+   "note": "One movement, 9.0 min on the Kontra Quartet recording; 1979 per Ruders's own note on his Quartet No. 4."
+  },
+  {
+   "id": 107682,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/579062001",
+    "https://en.wikipedia.org/wiki/Poul_Ruders"
+   ],
+   "note": "OUR Recordings 6.220680: Clarinet Quintet (2014 per sources), three movements, 20.6 min."
+  },
+  {
+   "id": 107683,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/579062001",
+    "https://en.wikipedia.org/wiki/Poul_Ruders"
+   ],
+   "note": "Piano Quartet (2016; one review says 2015-16), four movements, 23.6 min."
+  },
+  {
+   "id": 107684,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/580276321",
+    "https://en.wikipedia.org/wiki/Poul_Ruders"
+   ],
+   "note": "Piano Trio, three movements (second 'Slow Motion'), 21.5 min (Trio con Brio Copenhagen, OUR Recordings); year left blank."
+  },
+  {
+   "id": 107685,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/580747041",
+    "https://en.wikipedia.org/wiki/Poul_Ruders"
+   ],
+   "note": "Bridge 9336: nine movements, 33.4 min, accordion and string quartet (iO Quartet, Mikko Luoma); 2004 per Bridge; 'continuous' in notes not checked."
+  },
+  {
+   "id": 106274,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Sextet,_Op.5_(Rudorff,_Ernst)",
+    "https://api.deezer.com/album/156568532"
+   ],
+   "note": "IMSLP: composed 24 Dec 1862, three movements, 3 vn, va, 2 vc; Berolina Ensemble 29.3 min."
+  }
+ ],
+ "note": "Ruders SQ2 had wrong movement count and duration. Rosetti Notturno B27 may be orchestral (doubt). Roslavets PT3 year is the 1925 publication; composed 1921. Rossi Libro 1/2/4 sets are recorded only in selections."
+}

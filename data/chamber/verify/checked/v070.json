@@ -1,0 +1,592 @@
+{
+ "chunk": "v070",
+ "results": [
+  {
+   "id": 105792,
+   "verdict": "fixed",
+   "fixes": {
+    "alternatives": {
+     "piano": [
+      "harpsichord"
+     ]
+    }
+   },
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio_in_D_major_(Rinck,_Christian_Heinrich)",
+    "https://api.deezer.com/album/397828317",
+    "https://www.musicweb-international.com/classrev/2021/Feb/Rinck-chamber-v2-MDG90321886.htm"
+   ],
+   "note": "IMSLP: title page says Piano-Forte but the keyboard part says cembalo, so both are printed; recorded by Trio Parnassus (MDG, 14:55 matches 15 min); publication year uncertain (IMSLP 1790s?, review 1804), year left blank"
+  },
+  {
+   "id": 105793,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1803"
+   },
+   "sources": [
+    "https://api.deezer.com/album/294622992",
+    "https://musicweb-international.com/classrev/2020/Jul/Rinck_chamber_v1_90321716.htm",
+    "https://de.wikipedia.org/wiki/Christian_Heinrich_Rinck"
+   ],
+   "note": "Dated 1803 by the MusicWeb review and de.wikipedia's work list; 13:40 on the MDG recording"
+  },
+  {
+   "id": 105794,
+   "verdict": "fixed",
+   "fixes": {
+    "form": "short",
+    "aka": [
+     "Sonata No. 1 for Violin, Cello and Piano"
+    ]
+   },
+   "sources": [
+    "https://musicweb-international.com/classrev/2020/Jul/Rinck_chamber_v1_90321716.htm",
+    "https://de.wikipedia.org/wiki/Christian_Heinrich_Rinck",
+    "https://api.deezer.com/album/294622992"
+   ],
+   "note": "Single-movement sonata of 10:23 (de.wikipedia: 'Sonate Nr.1 ... D-Dur (einsätzig)') so form is short; the old aka duplicated the title of the D-major Piano Trio (105792), a different work"
+  },
+  {
+   "id": 105795,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Strings ad lib. in the first edition; two movements: Allegro and Rondo"
+   },
+   "sources": [
+    "https://musicweb-international.com/classrev/2020/Jul/Rinck_chamber_v1_90321716.htm",
+    "https://api.deezer.com/album/294622992",
+    "https://de.wikipedia.org/wiki/Christian_Heinrich_Rinck"
+   ],
+   "note": "First print: 'Trois Sonates favorites ... avec accompagnement de Violon et Violoncelle ad libitum' (MusicWeb review); de.wikipedia also marks both strings ad lib.; recorded with the strings (5:11)"
+  },
+  {
+   "id": 105796,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Strings ad lib. in the first edition; two movements: Allegro and Rondo"
+   },
+   "sources": [
+    "https://musicweb-international.com/classrev/2020/Jul/Rinck_chamber_v1_90321716.htm",
+    "https://api.deezer.com/album/294622992",
+    "https://de.wikipedia.org/wiki/Christian_Heinrich_Rinck"
+   ],
+   "note": "Same set as 105795; 6:42 on the recording"
+  },
+  {
+   "id": 105797,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Strings ad lib. in the first edition; two movements: Allegro and Rondo"
+   },
+   "sources": [
+    "https://musicweb-international.com/classrev/2020/Jul/Rinck_chamber_v1_90321716.htm",
+    "https://api.deezer.com/album/294622992",
+    "https://de.wikipedia.org/wiki/Christian_Heinrich_Rinck"
+   ],
+   "note": "Same set as 105795; 5:42 on the recording"
+  },
+  {
+   "id": 105798,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/397828317",
+    "https://www.musicweb-international.com/classrev/2021/Feb/Rinck-chamber-v2-MDG90321886.htm",
+    "https://de.wikipedia.org/wiki/Christian_Heinrich_Rinck"
+   ],
+   "note": "Op. 34 trios have the strings 'obligés'; dates disagree (1815 review, 1834 de.wikipedia), year left blank; 9:10 matches"
+  },
+  {
+   "id": 105799,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/397828317",
+    "https://www.musicweb-international.com/classrev/2021/Feb/Rinck-chamber-v2-MDG90321886.htm"
+   ],
+   "note": "10:02 on the MDG recording"
+  },
+  {
+   "id": 105800,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/397828317",
+    "https://www.musicweb-international.com/classrev/2021/Feb/Rinck-chamber-v2-MDG90321886.htm"
+   ],
+   "note": "9:57 on the MDG recording"
+  },
+  {
+   "id": 105801,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "Trio in D major for Flute, Cello and Piano"
+   },
+   "sources": [
+    "https://www.musicweb-international.com/classrev/2021/Feb/Rinck-chamber-v2-MDG90321886.htm",
+    "https://de.wikipedia.org/wiki/Christian_Heinrich_Rinck",
+    "https://api.deezer.com/album/397828317"
+   ],
+   "note": "Key D major missing from the title (review: 'Rinck's only flute trio ... in D'; de.wikipedia 'Trio für Flöte, Violoncello und Klavier D-Dur'); 12:23"
+  },
+  {
+   "id": 105802,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "Sonata in B-flat major for Violin, Cello and Piano",
+    "formation": "piano-trio",
+    "instruments": {
+     "violin": 1,
+     "cello": 1,
+     "piano": 1
+    },
+    "players": 3,
+    "year": "1818",
+    "aka": [
+     "Sonata No. 2 for Violin, Cello and Piano"
+    ]
+   },
+   "sources": [
+    "https://www.musicweb-international.com/classrev/2021/Feb/Rinck-chamber-v2-MDG90321886.htm",
+    "https://de.wikipedia.org/wiki/Christian_Heinrich_Rinck",
+    "https://api.deezer.com/album/397828317"
+   ],
+   "note": "Scored for violin, cello and piano, not flute: the review's track list and de.wikipedia ('Sonate Nr.2 ... B-Dur (1818) (einsätzig)') agree; Deezer's flute label looks wrong; single movement 5:08, dated 1 Jan 1818"
+  },
+  {
+   "id": 105805,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Bassoon_Quartets,_Op.1_(Ritter,_Georg_Wenzel)",
+    "https://api.deezer.com/album/579397561",
+    "https://itunes.apple.com/lookup?id=261404235&entity=song"
+   ],
+   "note": "Naxos album (Carlini, I Virtuosi Italiani) track list: No. 3 in B-flat, two movements, 10:40; IMSLP Sieber print n.d. (ca. 1779)"
+  },
+  {
+   "id": 105807,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Bassoon_Quartets,_Op.1_(Ritter,_Georg_Wenzel)",
+    "https://api.deezer.com/album/579397561",
+    "https://itunes.apple.com/lookup?id=261404235&entity=song"
+   ],
+   "note": "Naxos album: No. 5 in G, Allegro and Minuetto, 9:31"
+  },
+  {
+   "id": 106642,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quintet_(Ritzen,_Peter)",
+    "https://api.deezer.com/album/579429431",
+    "https://en.wikipedia.org/wiki/Peter_Ritzen"
+   ],
+   "note": "Naxos 9.70142 (Deezer label Naxos) names it 'Klavierquintett Fis-Moll Nr. 1', four movements, 30:02; IMSLP: composed 2006, first performance 2008/12, dedication and Arriaga-variation finale as in notes"
+  },
+  {
+   "id": 107880,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=George_Rochberg&action=raw",
+    "https://api.deezer.com/album/12046320"
+   ],
+   "note": "Wikipedia: 1952, SPAM award 1956; New World/CRI recording 24:13"
+  },
+  {
+   "id": 107881,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=George_Rochberg&action=raw",
+    "https://api.deezer.com/album/190019122"
+   ],
+   "note": "Wikipedia: 'String Quartet No. 2, with soprano (1959-61)'; New World/CRI recording 27:39; formationNote is right (voice makes the derived formation 'other')"
+  },
+  {
+   "id": 107882,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=George_Rochberg&action=raw",
+    "https://api.deezer.com/album/1112113",
+    "https://itunes.apple.com/lookup?id=613187985&entity=song"
+   ],
+   "note": "Wikipedia: 1972, Naumburg Chamber Composition Award 1972, Grammy nomination 1998; Concord 47:31, Kreutzer about 43 min"
+  },
+  {
+   "id": 107883,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=George_Rochberg&action=raw",
+    "https://api.deezer.com/album/1112113"
+   ],
+   "note": "Wikipedia: 1977, Concord Quartets Nos. 4-6; 27:39 on the Concord recording"
+  },
+  {
+   "id": 107884,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=George_Rochberg&action=raw",
+    "https://api.deezer.com/album/1112113"
+   ],
+   "note": "Wikipedia: 1978, Grammy nomination 2004; 26:24 on the Concord recording"
+  },
+  {
+   "id": 107885,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=George_Rochberg&action=raw",
+    "https://api.deezer.com/album/1112113"
+   ],
+   "note": "Wikipedia: 1978; 34:45 on the Concord recording; Pachelbel-variation movement"
+  },
+  {
+   "id": 107886,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=George_Rochberg&action=raw",
+    "https://api.deezer.com/album/12046320",
+    "https://itunes.apple.com/lookup?id=1036759314&entity=song"
+   ],
+   "note": "Wikipedia: violin, flute, clarinet, piano (1965); two recordings, 11:37 and 11:36; one continuous piece near the 12-minute line between work and short, left as is"
+  },
+  {
+   "id": 107887,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=George_Rochberg&action=raw",
+    "https://itunes.apple.com/lookup?id=389419370&entity=song"
+   ],
+   "note": "Wikipedia: Octet 1980 for flute, clarinet, horn, piano, violin, viola, cello, double bass; Apple/CRI track list has twelve sections totalling about 22 min"
+  },
+  {
+   "id": 107888,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=George_Rochberg&action=raw",
+    "https://api.deezer.com/album/13516739",
+    "https://www.deezer.com/album/13516739"
+   ],
+   "note": "Wikipedia: Piano Trio No. 3 'Summer' (1990); Beaux Arts Trio on Philips/Decca 20:41; a search result says it was commissioned by the Philadelphia Chamber Music Society and written for the Beaux Arts Trio"
+  },
+  {
+   "id": 105809,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.1_(Roeser,_Valentin)",
+    "https://api.deezer.com/album/584515702",
+    "https://itunes.apple.com/lookup?id=1540179870&entity=song"
+   ],
+   "note": "IMSLP: Op. 1 for 2 violins and continuo (or full strings), dedicated to the Prince of Monaco; Urania LDV14060 (Furiosi Affetti) track list: No. 2 in G minor, four movements, 12:51. The recording is by a baroque orchestra, so one-to-a-part playing is not shown, but it is a trio sonata by form"
+  },
+  {
+   "id": 105810,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.1_(Roeser,_Valentin)",
+    "https://api.deezer.com/album/584515702",
+    "https://itunes.apple.com/lookup?id=1540179870&entity=song"
+   ],
+   "note": "Same Urania album: No. 3 in D major, four movements, 13:28"
+  },
+  {
+   "id": 106522,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1914"
+   },
+   "sources": [
+    "https://api.deezer.com/album/1265568",
+    "https://en.wikipedia.org/w/index.php?title=Jean_Rogister&action=raw",
+    "https://fr.wikipedia.org/w/index.php?title=Jean_Rogister&action=raw"
+   ],
+   "note": "Both Wikipedias list String Quartet No. 2 in F minor (1914); Cypres CYP1620 (Quatuor Gong) track list shows four movements, 28:42"
+  },
+  {
+   "id": 106523,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1928"
+   },
+   "sources": [
+    "https://api.deezer.com/album/1265568",
+    "https://en.wikipedia.org/w/index.php?title=Jean_Rogister&action=raw",
+    "https://fr.wikipedia.org/w/index.php?title=Jean_Rogister&action=raw"
+   ],
+   "note": "Both Wikipedias list String Quartet No. 6 in C minor (1928); Cypres recording four movements, 28:38"
+  },
+  {
+   "id": 106591,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1715512098&entity=song",
+    "https://musicwebinternational.com/2024/01/polish-string-quartets-acte-prealable/"
+   ],
+   "note": "MusicWeb review: 'String Quartet No.2 (1939)', four movements, about 17 minutes, Tono Quartet, Acte Prealable AP0565; Apple track list 16.8 min"
+  },
+  {
+   "id": 106593,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 18
+   },
+   "sources": [
+    "https://imslp.org/wiki/Suite_br%C3%AAve_(Rohozinski,_Ladislas)",
+    "https://itunes.apple.com/lookup?id=1449709234&entity=song"
+   ],
+   "note": "Six movements totalling about 18 min on the Formosa Trio album (studio 18.1, live 17.7); IMSLP: Senart, Paris 1923. Own-label album (Formosa Trio, 2018) names the work and scoring, so it passes the floor; Senart print shows a publisher track record"
+  },
+  {
+   "id": 102071,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_Concertant_String_Trios,_Op.1_(BI_348,_342,_343)_(Rolla,_Alessandro)",
+    "https://imslp.org/wiki/3_Concertant_String_Trios,_BI_351,_344,_349_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=406586044&entity=song",
+    "https://itunes.apple.com/lookup?id=1522767971&entity=song&limit=200",
+    "https://grandemusica.editionsilvertrust.com/rolla-string-trio-1.htm"
+   ],
+   "note": "BI 348 and BI 351 are two different B-flat trios: Pan Classics 'Op. 1 No. 1, BI 348' has a variation slow movement, while Hungaroton's Op. 1 No. 1 (Allegro assai, Largo ma non troppo, Rondo; the entry's source) is BI 351 per Edition Silvertrust, which dates the six trios 1800 (Artaria 1801) against c. 1790 here. Aka should probably hold BI 351 only and the BI 348 set may be a separate work; unresolved"
+  },
+  {
+   "id": 102072,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_Concertant_String_Trios,_Op.1_(BI_348,_342,_343)_(Rolla,_Alessandro)",
+    "https://imslp.org/wiki/3_Concertant_String_Trios,_BI_351,_344,_349_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=406586044&entity=song",
+    "https://itunes.apple.com/lookup?id=1522767971&entity=song&limit=200"
+   ],
+   "note": "Same conflation: Hungaroton's A-major trio (Allegro brillante, Andante sostenuto, Rondo) is not Pan Classics' BI 342 (Allegro, Allegro ma non troppo, Rondo); the entry matches the BI 349 set. Year c. 1790 vs 1800-01 also unresolved. Minutes 21.5 on Hungaroton"
+  },
+  {
+   "id": 102073,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_Concertant_String_Trios,_Op.1_(BI_348,_342,_343)_(Rolla,_Alessandro)",
+    "https://imslp.org/wiki/3_Concertant_String_Trios,_BI_351,_344,_349_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=406586044&entity=song",
+    "https://itunes.apple.com/lookup?id=1522767971&entity=song&limit=200"
+   ],
+   "note": "Same conflation: Hungaroton's E-flat trio (variations, Prestissimo finale, 26 min) matches the BI 344 set, not Pan Classics' BI 343 (Polonaise finale). Year unresolved"
+  },
+  {
+   "id": 102074,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_Concertant_String_Trios,_Op.2_(BI_346,_341,_347)_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=406586044&entity=song"
+   ],
+   "note": "Exists and is recorded (Hungaroton, F major: Allegro, Thema con variazioni, Rondo, 19.9 min); IMSLP flags BI 346 vs 236. Year c. 1790 rests on an undated Imbault print; Edition Silvertrust dates the six trios 1800 (Artaria 1801)"
+  },
+  {
+   "id": 102075,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_Concertant_String_Trios,_Op.2_(BI_346,_341,_347)_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=406586044&entity=song"
+   ],
+   "note": "Exists and is recorded (Hungaroton, C major: Allegro, Adagio ma non tanto, Rondo, 17.6 min). Only the year (c. 1790 vs 1800-01 per Edition Silvertrust) is unresolved"
+  },
+  {
+   "id": 102076,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 25
+   },
+   "sources": [
+    "https://imslp.org/wiki/3_Concertant_String_Trios,_Op.2_(BI_346,_341,_347)_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=406586044&entity=song",
+    "https://itunes.apple.com/lookup?id=263711999&entity=song"
+   ],
+   "note": "Hungaroton G major runs 24.8 min (9.1+8.2+7.5), not 20; movements as in notes. Year c. 1790 vs 1800-01 (Edition Silvertrust) unresolved"
+  },
+  {
+   "id": 102077,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_Concertant_Trios_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=1522767971&entity=song&limit=200"
+   ],
+   "note": "Pan Classics: 'Trio No. 1, BI 410' Allegro brillante, Andante un poco sostenuto, Rondo, 23.4 min; Ricordi 1828. Caution: the same BI 410/405/397 are also given to the Op. 2 quartets by IMSLP and Pan Classics, so one set's BI numbers is wrong"
+  },
+  {
+   "id": 102078,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_Concertant_Trios_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=1522767971&entity=song&limit=200"
+   ],
+   "note": "Pan Classics: 'Trio No. 2, BI 405' Allegro, Adagio, Polonaise, 24.1 min; Ricordi 1828 (same BI clash with the quartets)"
+  },
+  {
+   "id": 102079,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_Concertant_Trios_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=1522767971&entity=song&limit=200"
+   ],
+   "note": "Pan Classics: 'Trio No. 3, BI 397' Allegro moderato, Adagio, Allegro, 23.6 min; Ricordi 1828 (same BI clash with the quartets)"
+  },
+  {
+   "id": 102081,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_String_Quartets,_Op.2_(BI_410,_405,_397)_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=1522767971&entity=song&limit=200",
+    "https://it.wikipedia.org/w/index.php?title=Alessandro_Rolla&action=raw"
+   ],
+   "note": "Recorded by Pan Classics, four movements ending Allegro agitato, 22.5 min. But Pan Classics labels it 'F Major' (IMSLP says F minor); BI 405 is also given to a C-minor trio, and IMSLP's BI numbers for the quartets look copied from the trios (other Rolla quartets sit near BI 399-411); it.wikipedia dates the Op. 2 quartets 1824 and Ricordi printed them c. 1823, against c. 1810 here"
+  },
+  {
+   "id": 102083,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_String_Quartets,_Op.5_(BI_406,_399,_401)_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=347866024&entity=song"
+   ],
+   "note": "Dynamic (Quartetto Rolla) lists it as Op. 5 No. 5 in G, four movements, 22.9 min (aka covers that numbering); Dynamic's Nos. 3-5 vs IMSLP's Nos. 1-3 is a numbering difference only"
+  },
+  {
+   "id": 102084,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_String_Quartets,_Op.5_(BI_406,_399,_401)_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=347866024&entity=song"
+   ],
+   "note": "Dynamic lists it as Op. 5 No. 4 in D minor, Allegro, Minuetto, Andantino con variazioni, Rondo, 27.6 min"
+  },
+  {
+   "id": 102085,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_String_Quartets,_Op.5_(BI_406,_399,_401)_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=347866024&entity=song"
+   ],
+   "note": "Dynamic lists it as Op. 5 No. 3 in E-flat, four movements with Adagio cantabile, 22.3 min"
+  },
+  {
+   "id": 102088,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=667203869&entity=song&limit=200",
+    "https://itunes.apple.com/lookup?id=1612289655&entity=song&limit=200"
+   ],
+   "note": "Tactus 6 quartetti per flauto e archi: No. 1 in C, Largo and Allegretto, 10.5 min. Not the same as the BI 415 C-major flute quartet (102087), whose movements differ"
+  },
+  {
+   "id": 102089,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=667203869&entity=song&limit=200"
+   ],
+   "note": "Tactus: No. 2 in E-flat, Largo, Minuetto, Presto, 10.3 min"
+  },
+  {
+   "id": 102090,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=667203869&entity=song&limit=200",
+    "https://itunes.apple.com/lookup?id=1612289655&entity=song&limit=200"
+   ],
+   "note": "Tactus No. 3 in D, Largo, Moderato, Andantino brillante, 14.3 min; second recording by Quartetto Academica (Nar, 1990), same movements"
+  },
+  {
+   "id": 102091,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=667203869&entity=song&limit=200"
+   ],
+   "note": "Tactus No. 4 in E minor, Moderato, Largo cantabile, Minuetto, 11.9 min. Not the BI 418 E-minor quartet (102086), whose movements are Allegro, Largo, Rondo"
+  },
+  {
+   "id": 102092,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=667203869&entity=song&limit=200"
+   ],
+   "note": "Tactus No. 5 in A, Largo sostenuto, Allegretto, Minuetto grazioso, 17.3 min"
+  },
+  {
+   "id": 102093,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=667203869&entity=song&limit=200"
+   ],
+   "note": "Tactus No. 6 in B-flat, Andantino sostenuto, Moderato, Minuetto, 14.0 min"
+  },
+  {
+   "id": 102094,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Divertimento_for_Viola_and_String_Quartet,_BI_330_(Rolla,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=1555825987&entity=song",
+    "https://itunes.apple.com/lookup?id=967315572&entity=song&limit=200"
+   ],
+   "note": "IMSLP: solo viola, 2 violins, viola, cello, F major, 1808, about 11 min, two linked movements; Ema Vinci recording 9.3 min, Brilliant 11.3 min"
+  },
+  {
+   "id": 102095,
+   "verdict": "fixed",
+   "fixes": {
+    "instruments": {
+     "oboe": 1,
+     "violin": 1,
+     "viola": 1,
+     "cello": 1
+    },
+    "alternatives": {
+     "oboe": [
+      "clarinet"
+     ]
+    },
+    "year": "1814",
+    "notes": "Two movements, Romance and Allegro; written in 1814 for an oboist, also played on C clarinet",
+    "aka": [
+     "Oboe Quartet in C major, BI 425"
+    ]
+   },
+   "sources": [
+    "https://www.editionhh.co.uk/hh285cat.htm",
+    "https://www.editionhh.co.uk/hh285_review01.htm",
+    "https://itunes.apple.com/lookup?id=1572086156&entity=song",
+    "https://itunes.apple.com/lookup?id=6784272159&entity=song&limit=200"
+   ],
+   "note": "Edition HH publishes it as 'Oboe quartet in C major, BI 425' (autograph in Copenhagen, written 1814 for an oboist); the clarinet is the Brilliant 2026 recording's choice, not a printed alternative, so the owner may drop it from alternatives. Minutes 8 fit both recordings"
+  }
+ ],
+ "note": "Rolla's Bianchi-Inzaghi numbers are tangled in IMSLP and on the Pan Classics album: two different B-flat/A/E-flat trio sets (BI 348/342/343 and BI 351/349/344) are merged in the Op. 1 trios, and the 1828 trios and the Op. 2 quartets share BI 410/405/397. Rinck's B-flat sonata is for violin, not flute (Deezer mislabels it). Rolla's BI 425 is primarily an oboe quartet."
+}

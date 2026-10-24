@@ -1,5 +1,39 @@
 [
  {
+  "id": 104924,
+  "composer": "Frühling, Carl",
+  "title": "Clarinet Trio in D minor, Op. 3",
+  "formation": "winds-strings",
+  "instruments": {
+   "clarinet": 1,
+   "cello": 1,
+   "piano": 1
+  },
+  "players": 3,
+  "form": "work",
+  "level": 6,
+  "hardestPart": "balanced",
+  "year": "",
+  "minutes": 30,
+  "set": null,
+  "notes": "Three movements: Allegro ma non troppo, Andante, Allegro; early trio",
+  "popularity": "lesser-known",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical"
+  ],
+  "rejectReason": "duplicate of 104089",
+  "rejectNote": "The 'Clarinet Trio in D minor, Op. 3' on the Brilliant disc is Zemlinsky's (Op. 3, 1896, D minor, 3 movements, already in the catalogue as 104089); Fruehling's clarinet trio is Op. 40 in A minor (104921)",
+  "rejectSources": [
+   "https://api.deezer.com/album/63873372",
+   "https://brilliantclassics.com/articles/f/fruehling-zemlinsky-clarinet-trios",
+   "https://en.wikipedia.org/wiki/Clarinet_Trio_(Zemlinsky)"
+  ],
+  "chunk": "v027"
+ },
+ {
   "id": 105949,
   "composer": "Dancla, Charles",
   "title": "String Quartet No. 2",
@@ -39,6 +73,108 @@
   "chunk": "v020"
  },
  {
+  "id": 106170,
+  "composer": "Klengel, Julius",
+  "title": "Grand trio concertant in C minor, Op. 36",
+  "formation": "piano-trio",
+  "instruments": {
+   "violin": 1,
+   "cello": 1,
+   "piano": 1
+  },
+  "players": 3,
+  "form": "work",
+  "level": 7,
+  "hardestPart": "piano",
+  "year": "",
+  "minutes": 32,
+  "set": null,
+  "notes": "Four movements; not on IMSLP",
+  "popularity": "lesser-known",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "dramatic",
+   "lyrical",
+   "virtuosic"
+  ],
+  "rejectReason": "duplicate of 104940",
+  "rejectNote": "The Grand trio concertant in C minor, Op. 36 on Toccata TOCC 0417 (Trio Klengel) is by August Alexander Klengel (1783-1852), not the cellist Julius; Wikipedia lists it in his discography and IMSLP has it under him. Same work as 104940, with the same key, opus and four movements",
+  "rejectSources": [
+   "https://toccataclassics.com/?p=15132",
+   "https://www.deezer.com/album/578912811",
+   "https://en.wikipedia.org/wiki/August_Alexander_Klengel",
+   "https://imslp.org/wiki/Piano_Trio,_Op.36_(Klengel,_August_Alexander)"
+  ],
+  "chunk": "v043"
+ },
+ {
+  "id": 106171,
+  "composer": "Klengel, Julius",
+  "title": "Concert Waltz, Op. 13",
+  "formation": "string-quartet",
+  "instruments": {
+   "cello": 4
+  },
+  "players": 4,
+  "form": "short",
+  "level": 5,
+  "hardestPart": "cello 1",
+  "year": "",
+  "minutes": 7,
+  "set": null,
+  "notes": "For four cellos; not on IMSLP",
+  "popularity": "lesser-known",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "dance",
+   "virtuosic"
+  ],
+  "rejectReason": "not found",
+  "rejectNote": "The only recording found (Naxos 8.574301, '48 Strings', track 18, 7:02) is of Wilhelm Fitzenhagen's Concert-Walzer for four cellos (Op. 31 per IMSLP and Radio Times; the Apple track says Op. 13). Julius Klengel's published list has no concert waltz; his Hymnus Op. 57 is the only Klengel work on that disc",
+  "rejectSources": [
+   "https://radiotimescds.com/classical/225172/48_Strings_Music_for_One,_Two,_Four_and_Twelve_Cellos.htm",
+   "https://en.wikipedia.org/wiki/Julius_Klengel",
+   "https://en.wikipedia.org/wiki/Wilhelm_Fitzenhagen",
+   "https://itunes.apple.com/lookup?id=1624565909&entity=song"
+  ],
+  "chunk": "v043"
+ },
+ {
+  "id": 106244,
+  "composer": "Ryelandt, Joseph Victor Marie",
+  "title": "Piano Trio, Op. 16",
+  "formation": "piano-trio",
+  "instruments": {
+   "violin": 1,
+   "cello": 1,
+   "piano": 1
+  },
+  "players": 3,
+  "form": "work",
+  "level": 6,
+  "hardestPart": "piano",
+  "year": "1882",
+  "minutes": 28,
+  "set": null,
+  "notes": "Piano trio; years from the recording's track titles",
+  "popularity": "lesser-known",
+  "mode": null,
+  "pace": "moderate",
+  "character": [
+   "lyrical"
+  ],
+  "rejectReason": "not found",
+  "rejectNote": "Etcetera KTC1730 credits the Piano Trio Op. 16 (1882) to Joseph Callaerts, not Ryelandt; Presto lists 'Callaerts: Piano Trio, Op. 16'. Wikipedia gives Ryelandt two piano trios (Op. 57, Op. 131). Callaerts's trio could be its own entry if he passes the track-record rule.",
+  "rejectSources": [
+   "https://www.etcetera-records.com/?p=1788",
+   "https://live.prestomusic.com/classical/products/9251888--late-romantic-piano-trios-from-flanders",
+   "https://en.wikipedia.org/wiki/Joseph_Ryelandt"
+  ],
+  "chunk": "v073"
+ },
+ {
   "id": 107524,
   "composer": "Adès, Thomas",
   "title": "Cardiac Arrest",
@@ -74,5 +210,41 @@
    "https://www.deezer.com/album/936925"
   ],
   "chunk": "v001"
+ },
+ {
+  "id": 108194,
+  "composer": "Esmail, Reena",
+  "title": "The History of Red",
+  "formation": "other",
+  "instruments": {
+   "voice": 1,
+   "violin": 1,
+   "cello": 1,
+   "piano": 1
+  },
+  "players": 4,
+  "form": "work",
+  "level": 6,
+  "hardestPart": "balanced",
+  "year": "2020",
+  "minutes": 20,
+  "set": null,
+  "notes": "For mezzo-soprano, piano, violin and cello; recorded live by ROCO",
+  "popularity": "lesser-known",
+  "mode": null,
+  "pace": "moderate",
+  "character": [
+   "tender",
+   "dramatic",
+   "lyrical"
+  ],
+  "rejectReason": "arrangement",
+  "rejectNote": "Composer's site: the work is for soprano and chamber orchestra; the piano-trio version was arranged by soprano Karen Hogle Brown from Esmail's piano reduction and score; the ROCO recording (20:28) is the chamber-orchestra version. Voice is soprano, not mezzo (Wikipedia's 'mezzo, piano, violin, cello' is wrong)",
+  "rejectSources": [
+   "https://www.reenaesmail.com/the-history-of-red",
+   "https://www.reenaesmail.com/the-history-of-red-piano-trio-version",
+   "https://itunes.apple.com/lookup?id=6790393669&entity=song"
+  ],
+  "chunk": "v024"
  }
 ]

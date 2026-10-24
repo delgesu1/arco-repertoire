@@ -1,0 +1,554 @@
+{
+ "chunk": "v060",
+ "results": [
+  {
+   "id": 104313,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sonatas,_Teil_1_(Nicolai,_Johann_Michael)",
+    "https://www.deezer.com/album/10673112",
+    "https://www.edition-walhall.de/en/strings/2-violins/nicolai-johann-michael-16291685-12-trio-sonatas-volume-1.html"
+   ],
+   "note": "IMSLP: no. IV in G, 2 violins, viola da gamba/trombone, continuo; Passamezzo Moderno disc has it (4:59); modern edition Edition Offenburg NC3191. IMSLP gives keys (not in title)."
+  },
+  {
+   "id": 104314,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Two violins and bassoon over continuo; recorded as \"Sonata a 3\""
+   },
+   "sources": [
+    "https://imslp.org/wiki/12_Sonatas,_Teil_1_(Nicolai,_Johann_Michael)",
+    "https://www.deezer.com/album/10673112",
+    "https://www.edition-walhall.de/en/strings/2-violins/nicolai-johann-michael-16291685-12-trio-sonatas-volume-1.html"
+   ],
+   "note": "IMSLP lists no. V for 2 violins, fagotto, continuo; violone is named as alternative only from no. VII on. Scoring fields stay; the note's '(or violone)' is dropped."
+  },
+  {
+   "id": 104315,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sonatas,_Teil_1_(Nicolai,_Johann_Michael)",
+    "https://www.deezer.com/album/10673112",
+    "https://www.edition-walhall.de/en/strings/2-violins/nicolai-johann-michael-16291685-12-trio-sonatas-volume-1.html"
+   ],
+   "note": "IMSLP: no. VIII, 2 violins, fagotto/violone, continuo; recorded (4:23)."
+  },
+  {
+   "id": 104316,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sonatas,_Teil_1_(Nicolai,_Johann_Michael)",
+    "https://www.deezer.com/album/10673112",
+    "https://www.edition-walhall.de/en/strings/2-violins/nicolai-johann-michael-16291685-12-trio-sonatas-volume-1.html"
+   ],
+   "note": "IMSLP: no. X, 2 violins, fagotto/violone, continuo; recorded (5:00)."
+  },
+  {
+   "id": 104317,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Sonatas,_Teil_1_(Nicolai,_Johann_Michael)",
+    "https://www.deezer.com/album/10673112",
+    "https://www.edition-walhall.de/en/strings/2-violins/nicolai-johann-michael-16291685-12-trio-sonatas-volume-1.html"
+   ],
+   "note": "IMSLP: no. XI, 2 violins, fagotto/violone, continuo; recorded (4:04)."
+  },
+  {
+   "id": 104033,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.2,_Op.5_(Nielsen,_Carl)",
+    "https://www.kb.dk/dcm/cnw/document.xq?n=56",
+    "https://www.deezer.com/album/586674542"
+   ],
+   "note": "Op. 5, FS 11, composed 1890, published 1892; Danish SQ movements add to 34:15."
+  },
+  {
+   "id": 104035,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.4,_Op.44_(Nielsen,_Carl)",
+    "https://www.kb.dk/dcm/cnw/document.xq?n=58",
+    "https://www.deezer.com/album/586674542",
+    "https://www.deezer.com/album/587759082"
+   ],
+   "note": "IMSLP mismatch is only its own 'Op.19 / 44' wording (original version 'Piacevolezza', Op. 19, 1906; revised 1919, published 1923 as Op. 44); Op. 44, FS 36 on both recordings; 26:00 and 26:38."
+  },
+  {
+   "id": 104036,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1888–89"
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Quintet,_CNW_59_(Nielsen,_Carl)",
+    "https://www.kb.dk/dcm/cnw/document.xq?n=59",
+    "https://www.deezer.com/album/618071371",
+    "https://www.deezer.com/album/586674542"
+   ],
+   "note": "CNW and IMSLP date the composition 1888-89 (finished 1 Jan 1889, first performed 13 Feb 1889); published 1937. Rest holds (25:22)."
+  },
+  {
+   "id": 104037,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "c. 1880",
+    "notes": "Three short movements; an early work, dated 1880(?) in the Carl Nielsen catalogue"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio,_CNW_68_(Nielsen,_Carl)",
+    "https://www.kb.dk/dcm/cnw/document.xq?n=68",
+    "https://www.deezer.com/album/581704802"
+   ],
+   "note": "CNW dates it '1880(?)' (no details known; probably Odense years in the 1880s), Dutch and English Wikipedia say 1883, so 'written at 15' is not safe. FS 3i, 10:51 on Dacapo."
+  },
+  {
+   "id": 104039,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1883"
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_in_D_minor,_CNW_49_(Nielsen,_Carl)",
+    "https://www.kb.dk/dcm/cnw/document.xq?n=49",
+    "https://www.deezer.com/album/538449242"
+   ],
+   "note": "CNW and IMSLP: composed 1883 (he took it to Gade in May 1883), not 1882-83. FS 3d; BIS recording 14:45; first published 2003."
+  },
+  {
+   "id": 104040,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Early quartet, four movements as recorded; CNW 50–51 are probably from the one played in January 1888"
+   },
+   "sources": [
+    "https://www.kb.dk/dcm/cnw/document.xq?n=50",
+    "https://www.kb.dk/dcm/cnw/document.xq?n=51",
+    "https://imslp.org/wiki/Allegro_in_F_major,_CNW_50_(Nielsen,_Carl)",
+    "https://www.deezer.com/album/538449242"
+   ],
+   "note": "FS 3k is recorded (BIS, New Hellenic Quartet) as a 4-movement quartet (20:49), so it stays in. But CNW only says CNW 50 and 51 (two F-major movements, 1887-88) were 'probably part of' a quartet played 25 Jan 1888 and that it cannot be told which surviving movements were played; the note overstated this."
+  },
+  {
+   "id": 104994,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1903–04"
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.2,_Op.5_(Nielsen,_Ludolf)",
+    "https://itunes.apple.com/lookup?id=791627353&entity=song"
+   ],
+   "note": "IMSLP gives composition 1903-1904 (a review of the CPO disc says 1904), published Breitkopf 1906; Aros Quartet movements add to 30:39."
+  },
+  {
+   "id": 105781,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://musicweb-international.com/classrev/2014/Apr14/Nisle_chamber_7772662.htm",
+    "https://www.deezer.com/album/580108651"
+   ],
+   "note": "Review: Quintet in C, Op. 26, for flute, horn and string trio, first recording (CPO 777 266-2, rec. 2009), works dated 1806-09; Deezer 20:11. No IMSLP page."
+  },
+  {
+   "id": 106215,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1879"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio_No.1_(Nixon,_Henry_Cotter)",
+    "https://www.deezer.com/album/10732422",
+    "https://www.radiotimescds.com/classical/108101/Mendelssohn__Cotter_Nixon_-_Piano_Trios.htm"
+   ],
+   "note": "Guild GMCD7392 (London Piano Trio) is a first recording of the C-major trio; the label dates it 1879 (year was blank). Four movements, 47:36 on the disc."
+  },
+  {
+   "id": 108301,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1669527033&entity=song",
+    "https://musicweb-international.com/classRev/2000/july00/villa2.htm",
+    "https://www.prestomusic.com/classical/composers/4724--nobre"
+   ],
+   "note": "Channel Classics CCS 15598 (Conjunto Iberico, 8 cellos), track 'Desafio XXXII para 8 violoncelos' 9:13, not an arrangement. Year unknown."
+  },
+  {
+   "id": 105466,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.16_(Noferi,_Giovan_Battista)",
+    "https://www.deezer.com/album/299453672",
+    "https://itunes.apple.com/lookup?id=1612316927&entity=song"
+   ],
+   "note": "Op. 16 exists (IMSLP: Six Trios for guittar, violin and Piano Forte or Violoncello, Rutherford). The only recording found is NAR's mixed Giardini/Noferi disc: its tracks name neither composer nor opus. Six 3-4 movement trios (Pian & Forte with Dandolo; durations match this entry) may be Op. 16, but disc numbers 1-6 = Op. 16 Nos. 1-6 is an assumption, and a second group of six 'Sonata' tracks (guitar quartet) is unassigned (Noferi also wrote Op. 12 solo guitar sonatas). Also: the 'cello or piano' bass could fold into continuo."
+  },
+  {
+   "id": 105467,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.16_(Noferi,_Giovan_Battista)",
+    "https://www.deezer.com/album/299453672",
+    "https://itunes.apple.com/lookup?id=1612316927&entity=song"
+   ],
+   "note": "Op. 16 exists (IMSLP: Six Trios for guittar, violin and Piano Forte or Violoncello, Rutherford). The only recording found is NAR's mixed Giardini/Noferi disc: its tracks name neither composer nor opus. Six 3-4 movement trios (Pian & Forte with Dandolo; durations match this entry) may be Op. 16, but disc numbers 1-6 = Op. 16 Nos. 1-6 is an assumption, and a second group of six 'Sonata' tracks (guitar quartet) is unassigned (Noferi also wrote Op. 12 solo guitar sonatas). Also: the 'cello or piano' bass could fold into continuo."
+  },
+  {
+   "id": 105468,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.16_(Noferi,_Giovan_Battista)",
+    "https://www.deezer.com/album/299453672",
+    "https://itunes.apple.com/lookup?id=1612316927&entity=song"
+   ],
+   "note": "Op. 16 exists (IMSLP: Six Trios for guittar, violin and Piano Forte or Violoncello, Rutherford). The only recording found is NAR's mixed Giardini/Noferi disc: its tracks name neither composer nor opus. Six 3-4 movement trios (Pian & Forte with Dandolo; durations match this entry) may be Op. 16, but disc numbers 1-6 = Op. 16 Nos. 1-6 is an assumption, and a second group of six 'Sonata' tracks (guitar quartet) is unassigned (Noferi also wrote Op. 12 solo guitar sonatas). Also: the 'cello or piano' bass could fold into continuo."
+  },
+  {
+   "id": 105469,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.16_(Noferi,_Giovan_Battista)",
+    "https://www.deezer.com/album/299453672",
+    "https://itunes.apple.com/lookup?id=1612316927&entity=song"
+   ],
+   "note": "Op. 16 exists (IMSLP: Six Trios for guittar, violin and Piano Forte or Violoncello, Rutherford). The only recording found is NAR's mixed Giardini/Noferi disc: its tracks name neither composer nor opus. Six 3-4 movement trios (Pian & Forte with Dandolo; durations match this entry) may be Op. 16, but disc numbers 1-6 = Op. 16 Nos. 1-6 is an assumption, and a second group of six 'Sonata' tracks (guitar quartet) is unassigned (Noferi also wrote Op. 12 solo guitar sonatas). Also: the 'cello or piano' bass could fold into continuo."
+  },
+  {
+   "id": 105470,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.16_(Noferi,_Giovan_Battista)",
+    "https://www.deezer.com/album/299453672",
+    "https://itunes.apple.com/lookup?id=1612316927&entity=song"
+   ],
+   "note": "Op. 16 exists (IMSLP: Six Trios for guittar, violin and Piano Forte or Violoncello, Rutherford). The only recording found is NAR's mixed Giardini/Noferi disc: its tracks name neither composer nor opus. Six 3-4 movement trios (Pian & Forte with Dandolo; durations match this entry) may be Op. 16, but disc numbers 1-6 = Op. 16 Nos. 1-6 is an assumption, and a second group of six 'Sonata' tracks (guitar quartet) is unassigned (Noferi also wrote Op. 12 solo guitar sonatas). Also: the 'cello or piano' bass could fold into continuo."
+  },
+  {
+   "id": 105471,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Trio_Sonatas,_Op.16_(Noferi,_Giovan_Battista)",
+    "https://www.deezer.com/album/299453672",
+    "https://itunes.apple.com/lookup?id=1612316927&entity=song"
+   ],
+   "note": "Op. 16 exists (IMSLP: Six Trios for guittar, violin and Piano Forte or Violoncello, Rutherford). The only recording found is NAR's mixed Giardini/Noferi disc: its tracks name neither composer nor opus. Six 3-4 movement trios (Pian & Forte with Dandolo; durations match this entry) may be Op. 16, but disc numbers 1-6 = Op. 16 Nos. 1-6 is an assumption, and a second group of six 'Sonata' tracks (guitar quartet) is unassigned (Noferi also wrote Op. 12 solo guitar sonatas). Also: the 'cello or piano' bass could fold into continuo."
+  },
+  {
+   "id": 107275,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Nono",
+    "https://www.deezer.com/album/6448084",
+    "https://www.deezer.com/album/78887502",
+    "https://musicbrainz.org/work/1cf3e95c-8c06-4243-b477-98598ea4b024"
+   ],
+   "note": "String quartet 1979-80; recordings 38:00 (LaSalle), 36:10 (naive), 27:15 (Moscow). 36 is within range."
+  },
+  {
+   "id": 107276,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Luigi_Nono",
+    "https://www.deezer.com/album/78887542"
+   ],
+   "note": "Wikipedia: two altos, flute, clarinet, tuba, viola, cello, double bass, live electronics (1983); naive disc parts add to 43:46 (first part 26:35)."
+  },
+  {
+   "id": 107714,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pehr_Henrik_Nordgren",
+    "https://itunes.apple.com/lookup?id=1381470142&entity=song"
+   ],
+   "note": "String Quartet No. 3, Op. 27 (1976) per Wikipedia work list; Kokkola Quartet track 15:52 on ALBA (Evocations)."
+  },
+  {
+   "id": 107715,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pehr_Henrik_Nordgren",
+    "https://www.deezer.com/album/579159481"
+   ],
+   "note": "No. 4, Op. 60 (1983); three movements, 25:49 on Ondine."
+  },
+  {
+   "id": 107716,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pehr_Henrik_Nordgren",
+    "https://www.deezer.com/album/579159481"
+   ],
+   "note": "No. 5, Op. 69 (1986); two movements, 28:40 on Ondine."
+  },
+  {
+   "id": 107717,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pehr_Henrik_Nordgren",
+    "https://www.deezer.com/album/586281852"
+   ],
+   "note": "No. 10, Op. 142 (2007); four movements, 27:13 on ALBA."
+  },
+  {
+   "id": 107718,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pehr_Henrik_Nordgren",
+    "https://www.deezer.com/album/586281852"
+   ],
+   "note": "No. 11, Op. 144 (2008); four movements, 20:51 on ALBA."
+  },
+  {
+   "id": 107719,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pehr_Henrik_Nordgren",
+    "https://www.deezer.com/album/950590741"
+   ],
+   "note": "Piano Quintet, Op. 44 (1978); one track 18:53 (eda records, Pihtipudas Kvintetti)."
+  },
+  {
+   "id": 107720,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pehr_Henrik_Nordgren",
+    "https://www.deezer.com/album/580890931"
+   ],
+   "note": "Quintet for guitar and string quartet, Op. 119 (2003); ALBA track 'Guitar Quintet' 23:32."
+  },
+  {
+   "id": 107721,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pehr_Henrik_Nordgren",
+    "https://www.deezer.com/album/580890931"
+   ],
+   "note": "Spellbound Tones, Op. 132 (2005) for horn, guitar, cello (also percussion); ALBA 22:50."
+  },
+  {
+   "id": 107722,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pehr_Henrik_Nordgren",
+    "https://itunes.apple.com/lookup?id=1381470142&entity=song"
+   ],
+   "note": "Equivocations, Op. 55 (1981) for kantele and string trio; Evocations track 17:38."
+  },
+  {
+   "id": 107723,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pehr_Henrik_Nordgren",
+    "https://itunes.apple.com/lookup?id=1381470142&entity=song"
+   ],
+   "note": "String Quintet, Op. 110 (2000), 2 violins, viola, 2 cellos; two tracks 18:08."
+  },
+  {
+   "id": 107659,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.wisemusicclassical.com/work/21659/",
+    "https://www.deezer.com/album/51289282",
+    "https://itunes.apple.com/lookup?id=275472492&entity=song"
+   ],
+   "note": "Wise/Hansen: 1952, 7 min; two movements on the Danish SQ disc (7:06)."
+  },
+  {
+   "id": 107660,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet No. 2, Op. 21 (\"Quartetto brioso\")"
+   },
+   "sources": [
+    "https://www.wisemusicclassical.com/work/21660/",
+    "https://itunes.apple.com/lookup?id=275472492&entity=song"
+   ],
+   "note": "Publisher (Edition Wilhelm Hansen via Wise) lists it as Op. 21 (1958), 20 min; Kontra Quartet 19:27."
+  },
+  {
+   "id": 107661,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet No. 3, Op. 26 (\"Three Miniatures\")"
+   },
+   "sources": [
+    "https://www.wisemusicclassical.com/work/21661/",
+    "https://itunes.apple.com/lookup?id=275472492&entity=song"
+   ],
+   "note": "Publisher lists it as Op. 26 (1959), three miniatures, 5 min; Kontra Quartet 4:21."
+  },
+  {
+   "id": 107662,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.wisemusicclassical.com/work/21662/",
+    "https://musicbrainz.org/ws/2/release/deb2a2f0-aef7-4b48-877b-dc71c35fd6fd?inc=recordings+work-rels&fmt=json"
+   ],
+   "note": "Wise: 'Kvartet i 3 sfaerer (Dreamscape)' 1969, string quartet and tape, 12 min; MusicBrainz title 'Dreamscape. Quartet in Three Spheres' (11:56)."
+  },
+  {
+   "id": 107663,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.wisemusicclassical.com/work/21663/",
+    "https://itunes.apple.com/lookup?id=275472492&entity=song"
+   ],
+   "note": "Inscape 1969, 15 min (Kontra 14:46)."
+  },
+  {
+   "id": 107664,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.wisemusicclassical.com/work/21676/",
+    "https://musicbrainz.org/ws/2/release/deb2a2f0-aef7-4b48-877b-dc71c35fd6fd?inc=recordings+work-rels&fmt=json"
+   ],
+   "note": "Tintinnabulary 1986; MusicBrainz track title 'Tintinnabulary. Wie ein maechtiger Walzer' confirms the subtitle; Wise 11 min, Kontra 10:20."
+  },
+  {
+   "id": 107665,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1993"
+   },
+   "sources": [
+    "https://www.wisemusicclassical.com/work/21688/",
+    "https://www.deezer.com/album/583558512"
+   ],
+   "note": "Publisher's note: composed for the Royal Library's 200th anniversary and introduced 1993, premiered publicly 1994 after revising the first movement; Wise dates it 1993 (Wikipedia 1994). Three movements, 15:44."
+  },
+  {
+   "id": 107666,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Per_N%C3%B8rg%C3%A5rd",
+    "https://www.deezer.com/album/583558512"
+   ],
+   "note": "No. 8 (1997); five movements, 20:59 (Kroger Quartet, Dacapo)."
+  },
+  {
+   "id": 107667,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Per_N%C3%B8rg%C3%A5rd",
+    "https://www.deezer.com/album/583558512"
+   ],
+   "note": "No. 9 (2001); three movements, 20:25."
+  },
+  {
+   "id": 107668,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Per_N%C3%B8rg%C3%A5rd",
+    "https://www.deezer.com/album/583558512"
+   ],
+   "note": "No. 10 (2005); one movement, 13:40."
+  },
+  {
+   "id": 107669,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.wisemusicclassical.com/work/21667/",
+    "https://itunes.apple.com/lookup?id=275928798&entity=song",
+    "https://www.deezer.com/album/580729531"
+   ],
+   "note": "Wise: Spell (1973), 'Clarinet trio no. 2', vc/cl/pf, 18 min (recordings 16:36, 15:55). The piano-trio version is an arrangement by another hand (Thomas Agerfeldt Olesen, per IRCAM), not a separate entry."
+  },
+  {
+   "id": 107670,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=275928798&entity=song",
+    "https://en.wikipedia.org/wiki/Per_N%C3%B8rg%C3%A5rd"
+   ],
+   "note": "Trio Op. 15 (Clarinet Trio No. 1, 1955): four movements, 26:42 on Kontrapunkt (LINensemble)."
+  },
+  {
+   "id": 107671,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.wisemusicclassical.com/work/21677/",
+    "https://itunes.apple.com/lookup?id=275928798&entity=song"
+   ],
+   "note": "Wise: Lin (1986), cl/vc/pf, 19 min; recording 'Lin (Approach)' 18:25."
+  },
+  {
+   "id": 108196,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://andrewnormanmusic.com/archives/category/music",
+    "https://www.deezer.com/album/792925131"
+   ],
+   "note": "Composer's list: Music in Circles (2012) for flute, clarinet, trumpet, violin, viola, cello; yMusic, New Amsterdam (two tracks 2:29 + 7:13)."
+  },
+  {
+   "id": 108197,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://andrewnormanmusic.com/archives/category/music",
+    "https://www.deezer.com/album/581290181"
+   ],
+   "note": "Composer's list: Mine Mime Meme (2015) for flute, clarinet, violin, cello, piano, percussion; eighth blackbird, Cedille, 9:42."
+  },
+  {
+   "id": 104318,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_%C3%A0_2_in_C_major_(Nicolai,_Johann_Michael)",
+    "https://www.deezer.com/album/1018758671"
+   ],
+   "note": "IMSLP: 'Sonata a 2. Violino e Fagotto', violin/bassoon/continuo, in the Rost Codex violin/viol/continuo, 1662 or before, no. 35 of Partiturbuch Ludwig. L'Achéron (Ricercar, viols) plays it in five movements, 10:19."
+  },
+  {
+   "id": 104319,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_%C3%A0_2_in_G_major_(Nicolai,_Johann_Michael)",
+    "https://www.deezer.com/album/178184412",
+    "https://www.europadisc.co.uk/classical/149534/Nunc_dimittis_Music_from_the_Duben_Collection.htm"
+   ],
+   "note": "IMSLP: violin, viola da gamba (or trombone), organ, Duben IMHS 5:6b. Europadisc contents credit 'Nicolai: Sonata a 2 in G major' on the Passacaille disc (2:52, two movements)."
+  }
+ ],
+ "note": "Noferi Op. 16 (6 entries) is doubtful: the only recording is a mixed Giardini/Noferi disc without composer or opus per track. Per Norgard SQ 2 and 3: Op. 21 and Op. 26 added from the publisher. Nielsen FS 3k is recorded as a 4-movement quartet though CNW only names two movements. Nicolai sonata keys (IMSLP) are not in the titles."
+}

@@ -1,0 +1,581 @@
+{
+ "chunk": "v074",
+ "results": [
+  {
+   "id": 106638,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://www.musicweb-international.com/classrev/2002/mar02/Salzedo.htm",
+    "https://musicbrainz.org/ws/2/work?artist=f496aa56-8766-492f-aa35-e682b9e269fe&inc=recording-rels&limit=100&fmt=json",
+    "https://musicbrainz.org/ws/2/release?artist=f496aa56-8766-492f-aa35-e682b9e269fe&inc=labels&limit=30&fmt=json"
+   ],
+   "note": "Dutton CDLX 7113 (Archaeus Q, rec. 2001); review header 1942-43, rev. 1995; MusicBrainz movement timings sum to 24:00, four movements"
+  },
+  {
+   "id": 106639,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/584015202",
+    "http://www.musicweb-international.com/classrev/2019/Jan/Salzedo_quartets_104.htm",
+    "https://en.wikipedia.org/wiki/Leonard_Salzedo"
+   ],
+   "note": "MPR 104 (2018): two movements, 9:03 + 14:49 = 23:52; header 1950-52 rev. 1995"
+  },
+  {
+   "id": 106640,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Four movements; a tribute to the composer's father; the slow movement quotes a Sephardic melody"
+   },
+   "sources": [
+    "http://www.musicweb-international.com/classrev/2002/mar02/Salzedo.htm",
+    "https://musicbrainz.org/ws/2/work?artist=f496aa56-8766-492f-aa35-e682b9e269fe&inc=recording-rels&limit=100&fmt=json"
+   ],
+   "note": "Work, year 1969 and ~20 min (four movements, 441+173+315+270 s) hold. Review says conceived as a tribute to the father, not 'after his death'; no source found for the death claim"
+  },
+  {
+   "id": 106641,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/584015202",
+    "http://www.musicweb-international.com/classrev/2019/Jan/Salzedo_quartets_104.htm",
+    "https://en.wikipedia.org/wiki/Leonard_Salzedo"
+   ],
+   "note": "20:15 on MPR 104; Wikipedia: ten quartets, No. 10 (op 140) of 1997 the last"
+  },
+  {
+   "id": 105066,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 21
+   },
+   "sources": [
+    "https://imslp.org/wiki/Suite_en_trio_(Samazeuilh,_Gustave)",
+    "https://api.deezer.com/album/578636611"
+   ],
+   "note": "IMSLP: six movements, dedicated to Trio Pasquier, c. 1937, Durand 1938. Black Oak Ensemble (Cedille, 2022) movements sum to 21:00; duration was blank"
+  },
+  {
+   "id": 101185,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/581579012",
+    "https://imslp.org/wiki/6_Sonatas,_Op.9_(Sammartini,_Giovanni_Battista)",
+    "https://imslp.org/wiki/Flute_Quartet_in_C_major_(Sammartini,_Giovanni_Battista)"
+   ],
+   "note": "Il Rossignolo (Tactus TC704401) names it 'Op. 9 No. 5 in C major', Tempo giusto / Largo / Presto, 17:04; Walsh print for flute, 2 violins and bass. Year blank is fine (undated print)"
+  },
+  {
+   "id": 101186,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/581579012",
+    "https://imslp.org/wiki/6_Sonatas,_Op.9_(Sammartini,_Giovanni_Battista)",
+    "https://imslp.org/wiki/12_Sonatas,_Op.5_(Sammartini,_Giovanni_Battista)"
+   ],
+   "note": "IMSLP: Op. 9 No. 6 = Op. 5 No. 9 (Le Clerc c. 1750); Il Rossignolo A major, Affettuoso / Spiritoso, 13:44"
+  },
+  {
+   "id": 100820,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Trio_Sonatas_(Sammartini,_Giuseppe)",
+    "https://itunes.apple.com/lookup?id=571403427&entity=song",
+    "https://api.deezer.com/album/298913052"
+   ],
+   "note": "IMSLP key list and both cycles (Fiori Musicali, Tactus; Matteoli, NAR) agree on No. 1 in F major; Apple timings 5:04 (Fiori Musicali), 3 movements"
+  },
+  {
+   "id": 100821,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Trio_Sonatas_(Sammartini,_Giuseppe)",
+    "https://itunes.apple.com/lookup?id=571403427&entity=song",
+    "https://api.deezer.com/album/298913052"
+   ],
+   "note": "IMSLP key list and both cycles (Fiori Musicali, Tactus; Matteoli, NAR) agree on No. 2 in F major; 5:30 (Fiori Musicali), 7:15 (Matteoli)"
+  },
+  {
+   "id": 100822,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Trio_Sonatas_(Sammartini,_Giuseppe)",
+    "https://itunes.apple.com/lookup?id=571403427&entity=song",
+    "https://api.deezer.com/album/298913052"
+   ],
+   "note": "IMSLP key list and both cycles (Fiori Musicali, Tactus; Matteoli, NAR) agree on No. 3 in G major; Fiori Musicali 5:51, 3 movements"
+  },
+  {
+   "id": 100823,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Trio_Sonatas_(Sammartini,_Giuseppe)",
+    "https://itunes.apple.com/lookup?id=571403427&entity=song",
+    "https://api.deezer.com/album/298913052"
+   ],
+   "note": "IMSLP key list and both cycles (Fiori Musicali, Tactus; Matteoli, NAR) agree on No. 4 in F major; Fiori Musicali 4:55"
+  },
+  {
+   "id": 100824,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Trio_Sonatas_(Sammartini,_Giuseppe)",
+    "https://itunes.apple.com/lookup?id=571403427&entity=song",
+    "https://api.deezer.com/album/298913052"
+   ],
+   "note": "IMSLP key list and both cycles (Fiori Musicali, Tactus; Matteoli, NAR) agree on No. 5 in F major; 4:42 (Fiori Musicali), 5:49 (Matteoli)"
+  },
+  {
+   "id": 100825,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Trio_Sonatas_(Sammartini,_Giuseppe)",
+    "https://itunes.apple.com/lookup?id=571403427&entity=song",
+    "https://api.deezer.com/album/298913052"
+   ],
+   "note": "IMSLP key list and both cycles (Fiori Musicali, Tactus; Matteoli, NAR) agree on No. 7 in F major; 4:23 (Fiori Musicali), 6:07 (Matteoli)"
+  },
+  {
+   "id": 100826,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Trio_Sonatas_(Sammartini,_Giuseppe)",
+    "https://itunes.apple.com/lookup?id=571403427&entity=song",
+    "https://api.deezer.com/album/298913052"
+   ],
+   "note": "IMSLP key list and both cycles (Fiori Musicali, Tactus; Matteoli, NAR) agree on No. 8 in F major; 6:32 (Fiori Musicali), four movements"
+  },
+  {
+   "id": 100827,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Trio_Sonatas_(Sammartini,_Giuseppe)",
+    "https://itunes.apple.com/lookup?id=571403427&entity=song",
+    "https://api.deezer.com/album/298913052"
+   ],
+   "note": "IMSLP key list and both cycles (Fiori Musicali, Tactus; Matteoli, NAR) agree on No. 9 in G major; 8:24 (Fiori Musicali), four movements"
+  },
+  {
+   "id": 100828,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Trio_Sonatas_(Sammartini,_Giuseppe)",
+    "https://itunes.apple.com/lookup?id=571403427&entity=song",
+    "https://api.deezer.com/album/298913052"
+   ],
+   "note": "IMSLP key list and both cycles (Fiori Musicali, Tactus; Matteoli, NAR) agree on No. 10 in F major; 6:22 (Fiori Musicali)"
+  },
+  {
+   "id": 100829,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Trio_Sonatas_(Sammartini,_Giuseppe)",
+    "https://itunes.apple.com/lookup?id=571403427&entity=song",
+    "https://api.deezer.com/album/298913052"
+   ],
+   "note": "IMSLP key list and both cycles (Fiori Musicali, Tactus; Matteoli, NAR) agree on No. 11 in F major; 7:18 (Fiori Musicali), four movements"
+  },
+  {
+   "id": 100830,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/12_Trio_Sonatas_(Sammartini,_Giuseppe)",
+    "https://itunes.apple.com/lookup?id=571403427&entity=song",
+    "https://api.deezer.com/album/298913052"
+   ],
+   "note": "IMSLP key list and both cycles (Fiori Musicali, Tactus; Matteoli, NAR) agree on No. 12 in B-flat major; 6:03 (Fiori Musicali)"
+  },
+  {
+   "id": 106581,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1915"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Phantasy_Quartet,_Op.8_(Sammons,_Albert)",
+    "https://en.wikipedia.org/wiki/Albert_Sammons",
+    "https://en.wikipedia.org/wiki/Cobbett_Competition",
+    "https://musicbrainz.org/ws/2/release?recording=554302e7-710f-47fd-b76a-3674685d69ba&inc=labels+artist-credits&fmt=json"
+   ],
+   "note": "Wikipedia: Op. 8 'of 1915', won the Cobbett prize, published by Hawkes 1916; entry had the publication year. IMSLP says 8:30, recording 9:00. Recorded by the Tippett Quartet (Dutton Epoch, 2023)"
+  },
+  {
+   "id": 107058,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.rebeccasaunders.net/quartet",
+    "https://api.deezer.com/album/391034737",
+    "https://en.wikipedia.org/wiki/Rebecca_Saunders"
+   ],
+   "note": "Composer's page: Quartet (1998) for clarinet, accordion, piano, double bass, WDR commission, Kairos CD; Kairos track 14:01 (composer says 15')"
+  },
+  {
+   "id": 107059,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.rebeccasaunders.net/into-the-blue",
+    "https://api.deezer.com/album/391034737",
+    "https://en.wikipedia.org/wiki/Rebecca_Saunders"
+   ],
+   "note": "Into the Blue (1996), clarinet, bassoon, percussion, piano, cello, double bass; 13' (Kairos 12:56)"
+  },
+  {
+   "id": 107060,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1995–96"
+   },
+   "sources": [
+    "https://www.rebeccasaunders.net/mollys-song-3",
+    "https://api.deezer.com/album/391034737",
+    "https://en.wikipedia.org/wiki/Rebecca_Saunders"
+   ],
+   "note": "Composer's list says 1996, Kairos booklet title 1995-1996, Wikipedia 1995; scoring alto flute, viola, steel-string guitar with 4 radios and music box confirmed; 8-9 min"
+  },
+  {
+   "id": 107061,
+   "verdict": "fixed",
+   "fixes": {
+    "instruments": {
+     "accordion": 1,
+     "guitar": 1,
+     "piano": 1,
+     "percussion": 2,
+     "cello": 1,
+     "double-bass": 2
+    },
+    "players": 8,
+    "notes": "For eight players: piano, two percussionists, cello, two double basses, accordion and electric guitar"
+   },
+   "sources": [
+    "https://www.rebeccasaunders.net/dichroic-seventeen",
+    "https://api.deezer.com/album/391034737"
+   ],
+   "note": "Composer's page lists '2Perc, Pf, Egtr, Acn, Vc, 2Db' (1998, 16'30''); Kairos title also names a cello. Wikipedia omits it and gives 1996. Formation stays 'other'"
+  },
+  {
+   "id": 107062,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.rebeccasaunders.net/vermilion",
+    "https://api.deezer.com/album/476938065",
+    "https://en.wikipedia.org/wiki/Rebecca_Saunders"
+   ],
+   "note": "vermilion (2003) for clarinet in B-flat, electric guitar and cello, 17' per composer; wergo recording 15:35"
+  },
+  {
+   "id": 107063,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.rebeccasaunders.net/fletch",
+    "https://itunes.apple.com/lookup?id=1179702828&entity=song",
+    "https://itunes.apple.com/lookup?id=1731093108&entity=song"
+   ],
+   "note": "Fletch (2012) for string quartet, Arditti first performance 5 Oct 2012, 15'; Arditti (col legno) 14:41, Fabrik Quartet 16:52"
+  },
+  {
+   "id": 107064,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.rebeccasaunders.net/unbreathed",
+    "https://itunes.apple.com/lookup?id=1699223760&entity=song"
+   ],
+   "note": "Unbreathed (2017) for string quartet; composer says ca 16', Diotima recording (NMC, 2022) runs 18:46, so 19 kept"
+  },
+  {
+   "id": 101455,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Recorder_Concerto_in_D_major_(Scarlatti,_Alessandro)",
+    "https://imslp.org/wiki/24_Concertos_for_Recorder,_Strings_and_Continuo_(Various)",
+    "https://itunes.apple.com/lookup?id=648403740&entity=song"
+   ],
+   "note": "Naples ms (S. Pietro a Majella) No. 7 'Sonata settima', five movements; Sardelli/Modo Antiquo (Tactus) 'Flute Sonata No. 1 in D' 7:22"
+  },
+  {
+   "id": 101456,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Recorder_Concerto_in_A_major_(Scarlatti,_Alessandro)",
+    "https://imslp.org/wiki/24_Concertos_for_Recorder,_Strings_and_Continuo_(Various)",
+    "https://itunes.apple.com/lookup?id=648403740&entity=song"
+   ],
+   "note": "Naples ms No. 22 'Sonata vigesima seconda', four movements; Sardelli 'No. 5 in A' runs 5:44 (IMSLP 7 min), kept 7"
+  },
+  {
+   "id": 101457,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Recorder_Concerto_in_C_major_(Scarlatti,_Alessandro)",
+    "https://imslp.org/wiki/24_Concertos_for_Recorder,_Strings_and_Continuo_(Various)",
+    "https://itunes.apple.com/lookup?id=648403740&entity=song"
+   ],
+   "note": "Naples ms No. 23; Sardelli 'No. 6 in C' 6:42 (IMSLP 8 min)"
+  },
+  {
+   "id": 101458,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Recorder_Concerto_in_G_minor_(Scarlatti,_Alessandro)",
+    "https://imslp.org/wiki/24_Concertos_for_Recorder,_Strings_and_Continuo_(Various)",
+    "https://itunes.apple.com/lookup?id=648403740&entity=song",
+    "https://itunes.apple.com/lookup?id=1545224932&entity=song"
+   ],
+   "note": "Naples ms No. 24; Sardelli 'No. 7 in G minor' 6:41; La Serenissima plays it as recorder, 2 violins and continuo"
+  },
+  {
+   "id": 101459,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "Recorder Concerto No. 12 in C minor",
+    "aka": [
+     "Sonata duo decima in C minor",
+     "Flute Sonata No. 3 in C minor"
+    ],
+    "imslpPage": "Recorder Concerto in C minor (Scarlatti, Alessandro)"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Recorder_Concerto_in_C_minor_(Scarlatti,_Alessandro)",
+    "https://imslp.org/wiki/24_Concertos_for_Recorder,_Strings_and_Continuo_(Various)",
+    "https://itunes.apple.com/lookup?id=1545224932&entity=song",
+    "https://itunes.apple.com/lookup?id=419838941&entity=song",
+    "https://itunes.apple.com/lookup?id=648403740&entity=song"
+   ],
+   "note": "IMSLP has a page: Naples ms No. 12 'Sonata duo decima' (the collection also holds three Mancini concertos in C minor, so the number is needed). Recorded by Sardelli 8:15, La Serenissima 8:38, Capella Savaria"
+  },
+  {
+   "id": 101460,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_for_2_Flutes,_2_Violins_and_Continuo_in_A_major_(Scarlatti,_Alessandro)",
+    "https://itunes.apple.com/lookup?id=648403740&entity=song"
+   ],
+   "note": "IMSLP: Grave, Allegro, Minuet, Moeck Urtext edition; Sardelli/Modo Antiquo record it 8:19. Flutes may be recorders (IMSLP remark)"
+  },
+  {
+   "id": 101462,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1561004560&entity=song",
+    "https://itunes.apple.com/lookup?id=1530280870&entity=song",
+    "https://imslp.org/wiki/Sonata_seconda_a_quattro,_al_tavolino,_senza_cimbalo_(Scarlatti,_Alessandro)"
+   ],
+   "note": "Sonata 1 of four 'a quattro senza cembalo': Les Récréations (2021) 7:13, Musica Fiorita (Pan Classics, 2020) 7:28; four movements Grave/Allegro/Largo/Allemanda"
+  },
+  {
+   "id": 101463,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1561004560&entity=song",
+    "https://itunes.apple.com/lookup?id=1530280870&entity=song",
+    "https://imslp.org/wiki/Sonata_seconda_a_quattro,_al_tavolino,_senza_cimbalo_(Scarlatti,_Alessandro)"
+   ],
+   "note": "IMSLP page is the C-minor second sonata (F-Pc D. 9172, 4 movements, 8 min); recordings 7:43 and 6:41"
+  },
+  {
+   "id": 101464,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=382751328&entity=song",
+    "https://itunes.apple.com/lookup?id=1561004560&entity=song",
+    "https://itunes.apple.com/lookup?id=1530280870&entity=song"
+   ],
+   "note": "Sonata 4 in D minor on Casal Quartet (6:34), Les Récréations (6:33), Musica Fiorita (5:56); five or four short movements"
+  },
+  {
+   "id": 107277,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Giacinto_Scelsi",
+    "https://api.deezer.com/album/916119791"
+   ],
+   "note": "Molinari (ATMA, 2024): four movements, 33:42"
+  },
+  {
+   "id": 107278,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Giacinto_Scelsi",
+    "https://api.deezer.com/album/916119791"
+   ],
+   "note": "Five movements, 19:04 on Molinari"
+  },
+  {
+   "id": 107279,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Giacinto_Scelsi",
+    "https://api.deezer.com/album/916119791"
+   ],
+   "note": "Five movements with French subtitles (last 'Libération, catharsis'), 17:57"
+  },
+  {
+   "id": 107280,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Giacinto_Scelsi",
+    "https://api.deezer.com/album/916119791",
+    "https://api.deezer.com/album/391027047",
+    "https://musicbrainz.org/ws/2/work/5b95fa4c-30e4-4017-bc45-0e0a2a6cbb8b?inc=recording-rels&fmt=json"
+   ],
+   "note": "Four recordings run 10:04, 10:17, 11:26 and 14:09 (Klangforum); 10 min kept"
+  },
+  {
+   "id": 107281,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Giacinto_Scelsi",
+    "https://api.deezer.com/album/916119791",
+    "https://musicbrainz.org/ws/2/work/ad02f134-1446-474d-bb49-e01cb1900880?inc=recording-rels&fmt=json"
+   ],
+   "note": "Wikipedia: Aitsi (1974) 'version as String Quartet No. 5 (1985)' and 'String Quartet No. 5 (1984)'; recordings 6:32 and 6:54"
+  },
+  {
+   "id": 107282,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Giacinto_Scelsi",
+    "https://api.deezer.com/album/916119791",
+    "https://api.deezer.com/album/487518335",
+    "https://musicbrainz.org/ws/2/work?artist=11714cac-2329-4983-9627-c83b0d5475b4&inc=recording-rels&limit=100&fmt=json"
+   ],
+   "note": "String Trio (1958), four movements; 13:52 (Molinari), 16:04 (LCO)"
+  },
+  {
+   "id": 107283,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Giacinto_Scelsi",
+    "https://api.deezer.com/album/391737777",
+    "https://api.deezer.com/album/10986014",
+    "https://musicbrainz.org/ws/2/work?artist=11714cac-2329-4983-9627-c83b0d5475b4&inc=recording-rels&limit=100&fmt=json"
+   ],
+   "note": "Okanagon (1968) for harp, double bass and tam-tam; four recordings 8:33-10:16; formation 'other' matches the derived one"
+  },
+  {
+   "id": 107284,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Giacinto_Scelsi",
+    "https://api.deezer.com/album/391737777",
+    "https://api.deezer.com/album/10447344",
+    "https://musicbrainz.org/ws/2/work?artist=11714cac-2329-4983-9627-c83b0d5475b4&inc=recording-rels&limit=100&fmt=json"
+   ],
+   "note": "Yamaon (1954-58): bass voice, alto and baritone sax, contrabassoon, double bass, percussion (Wikipedia); three movements, 12:03-12:20"
+  },
+  {
+   "id": 107285,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Giacinto_Scelsi",
+    "https://medias.ircam.fr/en/work/kya",
+    "https://api.deezer.com/album/10447344",
+    "https://musicbrainz.org/ws/2/work?artist=11714cac-2329-4983-9627-c83b0d5475b4&inc=recording-rels&limit=100&fmt=json"
+   ],
+   "note": "IRCAM scoring: clarinet solo, English horn, bass clarinet, horn, trumpet, trombone, viola, cello. IRCAM gives 11 min but all recordings run 17-19 min, so 17 kept"
+  },
+  {
+   "id": 108417,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/R._Murray_Schafer",
+    "https://api.deezer.com/album/902853032",
+    "https://musicbrainz.org/ws/2/recording/2e116d4c-5040-43ce-afd4-be1246484ce1?inc=releases+artist-credits+work-rels&fmt=json",
+    "https://composers21.com/compdocs/schaferm.htm"
+   ],
+   "note": "1970; Molinari 16:36, Orford 15:51; composers21: Prix Honegger 1980 for String Quartet No. 1"
+  },
+  {
+   "id": 108418,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/R._Murray_Schafer",
+    "https://api.deezer.com/album/902853032"
+   ],
+   "note": "Wikipedia work list: No. 2 ('Waves') 1976; Molinari 17:34, Orford 17:58"
+  },
+  {
+   "id": 108419,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/R._Murray_Schafer",
+    "https://api.deezer.com/album/902853032"
+   ],
+   "note": "1981; three movements (Slowly, with great passion / Allegro energico / Slow, calm, mystical) sum to 28:36"
+  },
+  {
+   "id": 108420,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/R._Murray_Schafer",
+    "https://api.deezer.com/album/902853032",
+    "https://musicbrainz.org/ws/2/recording/d6a1bb41-c719-44b5-a347-28deef066aa2?inc=releases+artist-credits+work-rels&fmt=json"
+   ],
+   "note": "Wikipedia: 1989, string quartet and soprano; Orford recording titles the three sections as in notes; Molinari 18:46, Orford 20:14. Formation note is needed (derived 'other')"
+  },
+  {
+   "id": 108421,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/R._Murray_Schafer",
+    "https://api.deezer.com/album/902853032",
+    "https://musicbrainz.org/ws/2/recording/034aa08c-d65c-41e9-96f7-0d923a33bae2?inc=releases+artist-credits+work-rels&fmt=json"
+   ],
+   "note": "'Rosalind', 1989; Molinari 17:17, Orford 17:45"
+  },
+  {
+   "id": 108422,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/R._Murray_Schafer",
+    "https://api.deezer.com/album/902853032"
+   ],
+   "note": "1993; single track 27:34 on Molinari (ATMA)"
+  }
+ ],
+ "note": "Giuseppe Sammartini's 12 Sonatas (Walsh 1727) are printed 'for two German flutes or violins', flutes first, and are recorded on flutes; No. 6 (D minor) is recorded in both cycles but absent from the catalogue. Scarlatti Naples-manuscript concertos: the 'flute' alternative for the recorder is modern practice, not in the 'flauto' manuscript; the C minor is No. 12 (IMSLP page exists). Scelsi's Kya is also recorded with soprano saxophone as solo."
+}
