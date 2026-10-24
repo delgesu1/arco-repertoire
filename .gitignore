@@ -61,3 +61,5 @@ __pycache__/
 
 # chamber curation: per-slice agent inputs (regenerate with npx tsx scripts/chamber/curation_slices.ts --inputs)
 /data/chamber/curation/input/
+# chamber recordings: the judges' inputs, built from the git-ignored YouTube cache (npx tsx scripts/chamber/recordings.ts export)
+/data/chamber/recordings/to-judge/
