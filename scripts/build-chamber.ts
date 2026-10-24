@@ -5,6 +5,7 @@
  *   data/chamber/composers.json   metadata for composers who have no violin entries
  *   data/build/catalogue.json     the violin catalogue: composer metadata, and the works listed in both sections
  *   data/source/levels.json       level names / exam equivalents
+ *   data/chamber/recordings-judged.json   YouTube picks for chamber-only works (scripts/chamber/recordings.ts); optional
  *
  * Writes data/build/chamber.json (server) and public/data/chamber.json (client). Run it after scripts/build-data.ts.
  * A work also in the violin catalogue (violinId) keeps its violin id, address and recording, so it is one entry in both.
@@ -12,7 +13,7 @@
  *   npx tsx scripts/build-chamber.ts
  */
 import { createHash } from "node:crypto";
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { ChamberCatalogue, ChamberComposer, ChamberPiece, ChamberWork, InstrumentKey } from "../lib/chamber/types";
 import { FORMATIONS, FORMS, INSTRUMENTS } from "../lib/chamber/vocab";
@@ -26,6 +27,19 @@ const works: ChamberWork[] = read("data/chamber/works.json");
 const chamberComposers: Record<string, ChamberComposer> = read("data/chamber/composers.json");
 const violin = (read("data/build/catalogue.json") as Catalogue).pieces;
 const levels = read("data/source/levels.json");
+interface Judged {
+  confidence: "high" | "medium" | "low" | "none";
+  video: { id: string; title: string | null; channel: string | null; seconds: number | null } | null;
+  alternates: string[];
+  compilation?: boolean;
+}
+const judged: Record<string, Judged> = existsSync(join(ROOT, "data/chamber/recordings-judged.json")) ? read("data/chamber/recordings-judged.json") : {};
+const recordingOf = (id: number): Piece["recording"] => {
+  const j = judged[String(id)];
+  return j?.video && (j.confidence === "high" || j.confidence === "medium")
+    ? { id: j.video.id, title: j.video.title ?? "", channel: j.video.channel ?? "", seconds: j.video.seconds, alternates: j.alternates }
+    : null;
+};
 
 const errors: string[] = [];
 const err = (w: ChamberWork, m: string) => errors.push(`${w.id} ${w.title}: ${m}`);
@@ -94,7 +108,7 @@ for (const w of works) {
     pace: w.pace ?? null,
     character: w.character ?? [],
     popularity: w.popularity,
-    recording: v?.recording ?? null,
+    recording: v ? v.recording : recordingOf(w.id),
     sections: v ? ["violin", "chamber"] : ["chamber"],
     chamber: {
       formation: w.formation,
@@ -113,6 +127,23 @@ for (const w of works) {
 if (errors.length) {
   console.error(`Chamber build failed with ${errors.length} problem(s):\n  ` + errors.slice(0, 40).join("\n  "));
   process.exit(1);
+}
+
+// a video two chamber-only works share (one search answering two) stays with the work its length fits best, unless it is
+// an album or programme that includes both (compilation)
+{
+  const byVideo = new Map<string, ChamberPiece[]>();
+  for (const p of pieces)
+    if (p.recording && !p.sections.includes("violin") && !judged[String(p.id)]?.compilation) byVideo.set(p.recording.id, [...(byVideo.get(p.recording.id) ?? []), p]);
+  let dropped = 0;
+  for (const group of byVideo.values()) {
+    if (group.length < 2) continue;
+    const secs = group[0].recording!.seconds;
+    const fit = (p: ChamberPiece) => (p.minutes && secs ? Math.abs(Math.log(secs / 60 / p.minutes)) : 9);
+    const keep = [...group].sort((a, b) => fit(a) - fit(b))[0];
+    for (const p of group) if (p !== keep) ((p.recording = null), dropped++);
+  }
+  if (dropped) console.log(`Recordings: dropped ${dropped} that shared a video with another work`);
 }
 
 pieces.sort((a, b) => a.id - b.id);
