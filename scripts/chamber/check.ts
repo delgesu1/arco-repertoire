@@ -150,15 +150,15 @@ for (const w of works) {
 
 // level × formation table
 const pad = (s: string | number, n: number) => String(s).padStart(n);
-console.log(`${"".padEnd(24)}${Array.from({ length: 10 }, (_, i) => pad(i + 1, 4)).join("")}   all`);
+console.log(`${"".padEnd(24)}${Array.from({ length: 10 }, (_, i) => pad(i + 1, 5)).join("")}   all`);
 for (const f of FORMATIONS) {
   const ws = works.filter((w) => w.formation === f.key);
   if (!ws.length) continue;
   const row = Array.from({ length: 10 }, (_, i) => ws.filter((w) => w.level === i + 1).length);
-  console.log(`${f.label.padEnd(24)}${row.map((n) => pad(n || "·", 4)).join("")}${pad(ws.length, 6)}`);
+  console.log(`${f.label.padEnd(24)}${row.map((n) => pad(n || "·", 5)).join("")}${pad(ws.length, 6)}`);
 }
 const all = Array.from({ length: 10 }, (_, i) => works.filter((w) => w.level === i + 1).length);
-console.log(`${"All".padEnd(24)}${all.map((n) => pad(n || "·", 4)).join("")}${pad(works.length, 6)}`);
+console.log(`${"All".padEnd(24)}${all.map((n) => pad(n || "·", 5)).join("")}${pad(works.length, 6)}`);
 const bench = works.filter((w) => w.benchmark);
 console.log(
   `\n${works.length} works (${bench.length} benchmarks: ${bench.filter((w) => w.benchmark === "approved").length} approved), ` +
