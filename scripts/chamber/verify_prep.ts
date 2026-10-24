@@ -53,8 +53,10 @@ for (let i = 0; i < chunks; i++) {
   const path = join(ROOT, "data/chamber/verify/to-check", `${name}.json`);
   if (existsSync(path)) continue; // never reshuffle a chunk an agent may be working on
   const items = todo.slice(i * CHUNK, (i + 1) * CHUNK).map((w) => {
-    const { benchmark, basis, level, hardestPart, mode, pace, character, popularity, ...facts } = w;
-    void benchmark, basis, level, hardestPart, mode, pace, character, popularity; // not the checker's job
+    // level, hardest part, popularity and tags are not the checker's job, so they are left out of its file
+    const facts = Object.fromEntries(
+      Object.entries(w).filter(([k]) => !["benchmark", "basis", "level", "hardestPart", "mode", "pace", "character", "popularity"].includes(k)),
+    );
     const s = sources[w.id];
     return {
       ...facts,
