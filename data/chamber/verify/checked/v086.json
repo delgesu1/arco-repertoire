@@ -1,0 +1,592 @@
+{
+ "chunk": "v086",
+ "results": [
+  {
+   "id": 108001,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.michaeltorke.com/chalk",
+    "https://api.deezer.com/album/12874680",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Michael_Torke"
+   ],
+   "note": "1992, 16' on the composer's page; Balanescu Quartet recording 16:15 (Decca reissue)"
+  },
+  {
+   "id": 108002,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.michaeltorke.com/yellow-pages",
+    "https://api.deezer.com/album/642023",
+    "https://api.deezer.com/album/13655222",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Michael_Torke"
+   ],
+   "note": "Written 1985 on its own (first performed at Yale 8 Apr 1985), later movement 1 of Telephone Book (1995); recorded separately (Decca 6:49), so kept as its own work"
+  },
+  {
+   "id": 108003,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.michaeltorke.com/telephone-book",
+    "https://api.deezer.com/album/13655222",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Michael_Torke"
+   ],
+   "note": "Composer gives 18'; recording 16:35, entry 17 stays"
+  },
+  {
+   "id": 108004,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.michaeltorke.com/flint",
+    "https://api.deezer.com/album/13655222",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Michael_Torke"
+   ],
+   "note": "Composer's page: 4 sax, 2 pianos, cello, bass; 9'; 1995"
+  },
+  {
+   "id": 108005,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.michaeltorke.com/music-on-the-floor",
+    "https://api.deezer.com/album/13632944",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Michael_Torke"
+   ],
+   "note": "Composer: 22', nine players (fl, cl, 2 vibraphones, pno, vn, va, vc, db); London Sinfonietta recording 20:44"
+  },
+  {
+   "id": 108006,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.michaeltorke.com/october",
+    "https://api.deezer.com/album/375481277",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Michael_Torke"
+   ],
+   "note": "2017, 10'; Deezer album 375481277 is Torke's own Ecstatic Records release"
+  },
+  {
+   "id": 108007,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.michaeltorke.com/after-the-forest-fire",
+    "https://api.deezer.com/album/583525542",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Michael_Torke"
+   ],
+   "note": "2005, 14'; marimba, flute, cello"
+  },
+  {
+   "id": 108008,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.michaeltorke.com/corner-in-manhattan",
+    "https://api.deezer.com/album/581154121",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Michael_Torke"
+   ],
+   "note": "Composer gives 18' (recording 19:34), entry 20 within tolerance; string-quartet version premiered by the Ying Quartet, 13 Feb 2000"
+  },
+  {
+   "id": 106650,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "2017"
+   },
+   "sources": [
+    "https://dtoub.bandcamp.com/album/three-chamber-works",
+    "https://dbtmusic.wordpress.com/",
+    "https://api.deezer.com/album/530780702"
+   ],
+   "note": "Own-label (Bandcamp/Deezer) album, performers not credited; composer's list and Bandcamp date it 2017 (41')"
+  },
+  {
+   "id": 106651,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "2022"
+   },
+   "sources": [
+    "https://dtoub.bandcamp.com/album/three-chamber-works",
+    "https://dbtmusic.wordpress.com/",
+    "https://api.deezer.com/album/530780702"
+   ],
+   "note": "Own-label (Bandcamp/Deezer) album, performers not credited; composer's list and Bandcamp date it 2022 (20')"
+  },
+  {
+   "id": 106652,
+   "verdict": "fixed",
+   "fixes": {
+    "instruments": {
+     "violin": 2,
+     "viola": 1,
+     "cello": 2
+    },
+    "players": 5,
+    "formation": "string-quintet",
+    "year": "2021",
+    "aka": [
+     "Consonance/Dissidence for String Quintet"
+    ],
+    "notes": "For string quintet (two violins, viola, two cellos); one 21-minute track on the album 'Days of Rage'"
+   },
+   "sources": [
+    "https://dtoub.bandcamp.com/album/days-of-rage",
+    "https://dbtmusic.wordpress.com/",
+    "https://dtoub.bandcamp.com/track/consonance-dissidence-2021-for-string-quartet",
+    "https://api.deezer.com/album/543106832"
+   ],
+   "note": "Composer's work list and the Bandcamp release of the same album give a string quintet (2 violins, viola, 2 cellos), 2021, 21'; he says it was revised to add a second cellist. Deezer's track title still says quartet"
+  },
+  {
+   "id": 106653,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "2018"
+   },
+   "sources": [
+    "https://dtoub.bandcamp.com/album/days-of-rage",
+    "https://dbtmusic.wordpress.com/",
+    "https://api.deezer.com/album/543106832"
+   ],
+   "note": "Own-label (Bandcamp/Deezer) album, performers not credited; composer's list and Bandcamp date it 2018 (30')"
+  },
+  {
+   "id": 104753,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1895",
+    "imslpPage": "Trio for Clarinet, Horn and Piano, Op.8 (Tovey, Donald Francis)",
+    "notes": "Tovey's own violin, cello and piano version of his Trio for clarinet, horn and piano; three movements"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_for_Clarinet,_Horn_and_Piano,_Op.8_(Tovey,_Donald_Francis)",
+    "https://www.editionsilvertrust.com/tovey-piano-trio2.htm",
+    "https://api.deezer.com/album/579053771",
+    "https://www.radiotimescds.com/classical/66275/Tovey_-_Chamber_Music_Vol.1.htm"
+   ],
+   "note": "Op. 8 is the same work as IMSLP's 'Trio for Clarinet, Horn and Piano, Op.8' (Style tragique), composed 1895; the violin-cello-piano version is Tovey's own, published with it by Schott in 1912. It is on IMSLP (arrangement section), so 'not on IMSLP' is wrong. The clarinet-horn original has no string part (out of scope). Toccata TOCC0068 recording 27:24"
+  },
+  {
+   "id": 104754,
+   "verdict": "fixed",
+   "fixes": {
+    "alternatives": {
+     "english-horn": [
+      "viola"
+     ]
+    }
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_for_Violin,_English_Horn_and_Piano,_Op.14_(Tovey,_Donald_Francis)",
+    "https://imslp.org/wiki/List_of_works_by_Donald_Francis_Tovey",
+    "https://itunes.apple.com/lookup?id=507025340&entity=song",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Donald_Tovey"
+   ],
+   "note": "IMSLP's page title for the 1913 Schott print reads 'Violin, English Horn or Viola and Piano' (parts file 'Violin, English Horn and Viola Parts'): viola is the printed alternative. 1903/1913 and D minor confirmed. Recording has four tracks (IMSLP lists three movements)"
+  },
+  {
+   "id": 108055,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/1080356"
+   ],
+   "note": "1977, flute/clarinet/violin/cello/piano; NWR recording 13:08"
+  },
+  {
+   "id": 108056,
+   "verdict": "fixed",
+   "fixes": {
+    "form": "short"
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/1080356"
+   ],
+   "note": "Single piece of about 6 minutes (NWR recording 5:42), so form 'short'"
+  },
+  {
+   "id": 108057,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 18
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/1080356"
+   ],
+   "note": "Minutes were blank: New World recording runs 17:56"
+  },
+  {
+   "id": 108058,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 16
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/1080356",
+    "https://api.deezer.com/album/1119571"
+   ],
+   "note": "Minutes were blank: parts I and II run 7:28 + 8:37 (New World) and 7:27 + 8:34 (Summit)"
+  },
+  {
+   "id": 108059,
+   "verdict": "fixed",
+   "fixes": {
+    "form": "short"
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/581123881",
+    "https://www.musicweb-international.com/classrev/2005/Oct05/Tower_8559215.htm"
+   ],
+   "note": "Naxos recording (Woodhams with the Tokyo Quartet) is the oboe and string quartet version, 1989, 11:12; a single piece of 11 minutes, so form 'short'"
+  },
+  {
+   "id": 108060,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/1111725"
+   ],
+   "note": "1994; Muir Quartet 15:45"
+  },
+  {
+   "id": 108061,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 7,
+    "form": "short"
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/581123881",
+    "https://www.musicweb-international.com/classrev/2005/Oct05/Tower_8559215.htm"
+   ],
+   "note": "Violin, cello and piano (premiered by Chee-Yun, Finckel, Wu Han, 2000; not a violin duo). Single piece of 7 minutes (Naxos 7:10): minutes were blank, form should be 'short'"
+  },
+  {
+   "id": 108062,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/581123881"
+   ],
+   "note": "2002, Tokyo Quartet 14:59 (entry 15)"
+  },
+  {
+   "id": 108063,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/681183201"
+   ],
+   "note": "2003; 17:23"
+  },
+  {
+   "id": 108064,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/681183201"
+   ],
+   "note": "2008; 16:21"
+  },
+  {
+   "id": 108065,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/681183201"
+   ],
+   "note": "2008, piano quintet; 12:52"
+  },
+  {
+   "id": 108066,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://itunes.apple.com/lookup?id=1502592628&entity=song"
+   ],
+   "note": "2009, flute and string quartet; Wincenc recording 16:08 (Bridge)"
+  },
+  {
+   "id": 108067,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/681183201"
+   ],
+   "note": "2011; Daedalus Quartet 17:00"
+  },
+  {
+   "id": 108141,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://itunes.apple.com/lookup?id=1881478238&entity=song"
+   ],
+   "note": "1995, clarinet and string quartet; Shifrin/CMS Delos 17:46"
+  },
+  {
+   "id": 108142,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://itunes.apple.com/lookup?id=494518172&entity=song"
+   ],
+   "note": "1997, violin/clarinet/piano; Verdehr Trio 11:41"
+  },
+  {
+   "id": 108143,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joan_Tower",
+    "https://api.deezer.com/album/579297561"
+   ],
+   "note": "2007 piano trio; Lincoln Trio 19:17"
+  },
+  {
+   "id": 105903,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Quatuors_concertants_(Traversa,_Gioachino)",
+    "https://api.deezer.com/album/10565343",
+    "https://it.wikipedia.org/wiki/Gioachino_Traversa"
+   ],
+   "note": "Six quartets of Op. 4 (Wikipedia: his quartets are Opp. 1, 3, 4, 6). The Quartetto Martinů disc (Multimedia San Paolo, 2015) is titled 'Six quatuors concertantes, Op. 4' with track titles '6 Quatuors dialogués sur des airs connus'; movement count and timing match the entry; No. 1 three movements, 11:20"
+  },
+  {
+   "id": 105904,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Quatuors_concertants_(Traversa,_Gioachino)",
+    "https://api.deezer.com/album/10565343",
+    "https://it.wikipedia.org/wiki/Gioachino_Traversa"
+   ],
+   "note": "No. 2 two movements, 7:35 on the disc"
+  },
+  {
+   "id": 105905,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Quatuors_concertants_(Traversa,_Gioachino)",
+    "https://api.deezer.com/album/10565343",
+    "https://it.wikipedia.org/wiki/Gioachino_Traversa"
+   ],
+   "note": "No. 3 two movements, 11:55 on the disc"
+  },
+  {
+   "id": 105906,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Quatuors_concertants_(Traversa,_Gioachino)",
+    "https://api.deezer.com/album/10565343",
+    "https://it.wikipedia.org/wiki/Gioachino_Traversa"
+   ],
+   "note": "No. 4 two movements, 9:25 on the disc"
+  },
+  {
+   "id": 105907,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Quatuors_concertants_(Traversa,_Gioachino)",
+    "https://api.deezer.com/album/10565343",
+    "https://it.wikipedia.org/wiki/Gioachino_Traversa"
+   ],
+   "note": "No. 5 two movements, 8:51 on the disc"
+  },
+  {
+   "id": 105908,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Quatuors_concertants_(Traversa,_Gioachino)",
+    "https://api.deezer.com/album/10565343",
+    "https://it.wikipedia.org/wiki/Gioachino_Traversa"
+   ],
+   "note": "No. 6 three movements, 11:07 on the disc"
+  },
+  {
+   "id": 105187,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Balla_d'amore_(Tregian,_Francis)",
+    "https://itunes.apple.com/lookup?id=1742973124&entity=song",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66240"
+   ],
+   "note": "Only recording found (Parley of Instruments, Hyperion CDA66240) is credited 'Arr. Philips for String Ensemble' and played by a consort of renaissance violins and violas, not viols; Hyperion's notes say Tregian's score-book section holds Philips's arrangements and original pieces, and that Tregian was mainly the copyist. Unclear whether Tregian composed the piece and whether the 5-viol IMSLP edition is Philips's own arrangement; leans to arrangement / not recorded on viols"
+  },
+  {
+   "id": 106767,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sulkhan_Tsintsadze",
+    "https://api.deezer.com/album/1150583"
+   ],
+   "note": "Wikipedia list: No. 5 (1962), twelve quartets in all; Georgian State Quartet recording 20:04 (track subtitled 'Con sordino')"
+  },
+  {
+   "id": 106768,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sulkhan_Tsintsadze",
+    "https://api.deezer.com/album/1150583"
+   ],
+   "note": "Wikipedia list: No. 6 (1967); recording 19:25"
+  },
+  {
+   "id": 106769,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sulkhan_Tsintsadze",
+    "https://api.deezer.com/album/1150583",
+    "https://api.deezer.com/album/586250232",
+    "https://geoclassic.nplg.gov.ge/en/composer/tsintsadze-sulkhan/",
+    "https://www.ficksmusic.com/ja-jp/collections/hard-to-find/products/tsintsadze-miniatures-for-string-quartet-sikorski"
+   ],
+   "note": "Wikipedia lists 'Eight Miniatures on Georgian Folk Tunes' (1988), but the only 8-track recording (St Petersburg Classics 1994) is titled just 'Miniatures ... Based on Georgian Folksongs' and mixes pieces from earlier sets (Indi Mindi and Sachidao are in the 1945 Three Miniatures; Firefly is in the Twelve). The Georgian catalogue has sets of 21, 5, 6 and 8 Miniatures. Not shown that the disc is the 1988 set. The Caprice album (2004) holds other numbered sets, not these eight"
+  },
+  {
+   "id": 106830,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Eduard_Tubin",
+    "https://api.deezer.com/album/538555022",
+    "https://api.deezer.com/album/803717851"
+   ],
+   "note": "Wikipedia: ETW 59, 1929-30; BIS recording 15:40 and Dabringhaus & Grimm 2025 recording 15:38 (one movement)"
+  },
+  {
+   "id": 106831,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Eduard_Tubin",
+    "https://api.deezer.com/album/538555022"
+   ],
+   "note": "Wikipedia: ETW 64, 1979; Tallinn Quartet 20:15, four movements ending in a fugue"
+  },
+  {
+   "id": 105396,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_C_minor_(T%C5%AFma,_Franti%C5%A1ek_Ign%C3%A1c_Anton%C3%ADn)",
+    "https://itunes.apple.com/lookup?id=1593425748&entity=song",
+    "https://europadisc.co.uk/classical/121832/The_Dresden_Album.htm"
+   ],
+   "note": "Europadisc lists 'Tuma, Frantisek: Trio Sonata in C minor' on The Dresden Album (Ensemble Diderot, Audax 2014); two tracks 1:39 + 3:59"
+  },
+  {
+   "id": 104041,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet,_Op.4_(Turina,_Joaqu%C3%ADn)",
+    "https://api.deezer.com/album/171809",
+    "https://api.deezer.com/album/580692211",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Joaqu%C3%ADn_Turina"
+   ],
+   "note": "1910 (Wikipedia list), published 1912; five movements; Greenwich 29:30, Latinoamericano 31:41; some labels call it 'String Quartet No. 1'"
+  },
+  {
+   "id": 104042,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Serenata,_Op.87_(Turina,_Joaqu%C3%ADn)",
+    "https://api.deezer.com/album/171809",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Joaqu%C3%ADn_Turina"
+   ],
+   "note": "Wikipedia gives 1935 (IMSLP 1933-35); Greenwich recording 9:32; also for string orchestra"
+  },
+  {
+   "id": 104046,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quartet_in_A_minor,_Op.67_(Turina,_Joaqu%C3%ADn)",
+    "https://api.deezer.com/album/173183",
+    "https://api.deezer.com/album/132859",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Joaqu%C3%ADn_Turina"
+   ],
+   "note": "1931 composed, published 1932; IMSLP 18 min, recordings 15:16-17:08 (inside tolerance)"
+  },
+  {
+   "id": 104047,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/C%C3%ADrculo,_Op.91_(Turina,_Joaqu%C3%ADn)",
+    "https://api.deezer.com/album/173183",
+    "https://api.deezer.com/album/579104401",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Joaqu%C3%ADn_Turina"
+   ],
+   "note": "1936 is right: IMSLP's year fields look swapped ('composition 1942?', 'first publication 1936?') while its own scan is UME 1936; Wikipedia list gives 1936. Recordings 10:04"
+  },
+  {
+   "id": 104048,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1912"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Scene_andalouse_(Turina,_Joaqu%C3%ADn)",
+    "https://api.deezer.com/album/132859",
+    "https://www.hollywoodbowl.com/musicdb/pieces/3278/sextet-for-viola-piano-and-string-quartet-op-7-escena-andaluza",
+    "https://grandemusica.editionsilvertrust.com/turina-scene-andalouse.htm",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Joaqu%C3%ADn_Turina"
+   ],
+   "note": "Hollywood Bowl note and Edition Silvertrust date the work 1912; 1913 is the Paris (Mathot) publication year that IMSLP and Wikipedia give. Op. 7 and scoring confirmed by Claves track title 'Piano Sextet for Viola Solo, Piano & String Quartet, Op. 7'; recording 10:54"
+  },
+  {
+   "id": 104049,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/579104401",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Joaqu%C3%ADn_Turina"
+   ],
+   "note": "Wikipedia list: Trio in F major, 1904; IBS Classical 'Complete Piano Trios' (2023) four movements, 23:26"
+  },
+  {
+   "id": 105477,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_D_minor_'E_tanto_tempo_hormai'_(Turini,_Francesco)",
+    "https://api.deezer.com/album/77060722",
+    "https://api.deezer.com/album/6255533"
+   ],
+   "note": "IMSLP: printed 1621 in Madrigali, Libro 1; two violins and bass; recordings by Prisma 3:27 and Les Enemis Confus 3:46"
+  }
+ ],
+ "note": "Torke, Tower, Toub (own-label Bandcamp/Deezer albums, performers not credited, probably computer realisations; the composer reports Sub Rosa/World Edition recordings of other works), Tovey, Traversa, Tregian, Tsintsadze, Tubin, Tuma, Turina, Turini. Torke's Yellow Pages (1985) is also movement 1 of Telephone Book (1995); both kept. Tovey Op. 8 is the composer's own piano-trio version of his clarinet-horn trio (IMSLP page given)."
+}

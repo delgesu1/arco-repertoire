@@ -1,0 +1,645 @@
+{
+ "chunk": "v083",
+ "results": [
+  {
+   "id": 100513,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 7
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:B1_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/579481001",
+    "https://api.deezer.com/album/796551651",
+    "https://rism.online/sources/450002838?format=json"
+   ],
+   "note": "Recordings run 7:05 (Les Timbres) and 7:34 (Camerata Köln); Darmstadt MS: oboe, violin, cembalo; 3 movements"
+  },
+  {
+   "id": 100528,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:A2_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/584867192"
+   ],
+   "note": "Parnassi Musici (CPO 2003) 7:33; TWV catalogue: 2 violins/flutes, no. 3 of '6 Trio a Violini e Basso'"
+  },
+  {
+   "id": 100529,
+   "verdict": "fixed",
+   "fixes": {
+    "aka": [
+     "Sonate polonaise"
+    ]
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:a5_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/7061952"
+   ],
+   "note": "2 vn + bc confirmed (TWV catalogue, 4 mvts match Concerto Melante, harmonia mundi 2010, 7:51); IMSLP and TWV call it 'Sonate polonaise'"
+  },
+  {
+   "id": 100531,
+   "verdict": "fixed",
+   "fixes": {
+    "aka": [
+     "Sonata Polonese No. 1"
+    ]
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:a8_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/81278242"
+   ],
+   "note": "Violin, viola, bc confirmed (TWV catalogue 'Sonate polonaise'); recorded by The Danish Violon-Bande (Rondo 1995, 8:10); IMSLP alternative title 'Sonata Polonese No.1'"
+  },
+  {
+   "id": 100533,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:c1_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/584867192"
+   ],
+   "note": "Parnassi Musici 6:51; TWV catalogue lists '2 violins / flutes' (no. 2 of '6 Trio a Violini e Basso'), IMSLP: flute+violin MS"
+  },
+  {
+   "id": 100534,
+   "verdict": "fixed",
+   "fixes": {
+    "alternatives": {
+     "viola-da-gamba": [
+      "violin"
+     ]
+    }
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:C2_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/278191672",
+    "https://api.deezer.com/album/578800341",
+    "https://api.deezer.com/album/618066631"
+   ],
+   "note": "IMSLP mismatch resolved: TWV catalogue gives 'recorder and viola da gamba / violin' and IMSLP tags it rec-vn-bc; recorded with recorder + gamba/dessus de viole (Bosgraaf, Brilliant 2021, 8:13; Hamburger Ratsmusik, CPO 2016); so primary stays recorder + gamba, violin added as alternative"
+  },
+  {
+   "id": 100535,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:c3_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/9693774"
+   ],
+   "note": "TWV catalogue: viola da gamba, oboe, bc, 5 movements; Opera Prima (Brilliant 2015) 9:50 as one track"
+  },
+  {
+   "id": 100539,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:c8_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/59250782",
+    "https://musicbrainz.org/work/904db898-209b-4118-a1f3-c82747146dd1"
+   ],
+   "note": "Exists (TWV catalogue, IMSLP: 2 violins, 4 mvts) but no complete recording found: the only one (Kooij/L'Armonia Sonora, Passacaille 2018) has just 'I. Affetuoso' (1:31) as an interlude; MusicBrainz recording search shows nothing else; IMSLP has MS parts only"
+  },
+  {
+   "id": 100541,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:D10_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/636072731",
+    "https://api.deezer.com/album/581238591",
+    "https://api.deezer.com/album/583023312",
+    "https://rism.online/sources/450002854?format=json",
+    "https://musicbrainz.org/ws/2/work/?query=%22TWV%2042%3AD10%22&fmt=json&limit=15"
+   ],
+   "note": "Exists (RISM Darmstadt Mus.ms 1042/62; TWV catalogue: 'Intrada' for flute, violin, bc, 6 mvts incl. Tournee, Aria, Menuet alternativo, Trio, Balletto, so suite-like, no Presto). The cited Zefirelli track 'IV. Presto' (1:54) and the Biondi and Extempore tracks labelled 'D10' are TWV 42:d10 in D minor (Allegro-Adagio-Allegro-Presto, same as Chandos Baroque Players and Il Rossignolo). No recording of the D major Intrada found"
+  },
+  {
+   "id": 100544,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:D13_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/584006602"
+   ],
+   "note": "TWV catalogue: 2 violins, bc, 4 mvts; L'Accademia Giocosa (Oehms 2014) 6:58; MusicBrainz lists the work"
+  },
+  {
+   "id": 100545,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:D15_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/736731581"
+   ],
+   "note": "La Serenissima (Signum 2025) flute + viola d'amore, 11:56; TWV catalogue: flute, violin / viola d'amore, bc; IMSLP has both MS versions"
+  },
+  {
+   "id": 100547,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:D4_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/584867192"
+   ],
+   "note": "Parnassi Musici (CPO 2003) 7:51, movements Soave-Allegro assai-Andante-Vivace match TWV catalogue; Triomphe de l'Amour (Lyrichord 1999, 8:10) has the same sonata. Tracks labelled 'D4' in the Essercizii musici are TWV 42:d4 (flute, oboe), a different work"
+  },
+  {
+   "id": 100550,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:d9_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/584780562"
+   ],
+   "note": "Publick Musick (Centaur 2002) 9:11 labels it 'D9' but 'D minor' with movements Spirituoso-Allegro-Adagio-Presto matching d9 in the TWV catalogue (2 violins); Essercizii musici 'D9' is the D major trio, a different work"
+  },
+  {
+   "id": 100551,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:e1_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/584867192"
+   ],
+   "note": "Parnassi Musici 8:02; TWV catalogue: 2 violins/flutes (no. 5 of '6 Trio a Violini e Basso'), IMSLP: flute+violin MS"
+  },
+  {
+   "id": 100553,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Two violins (or oboes) and continuo"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:e12_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/7061952"
+   ],
+   "note": "Notes said 'two movements' (IMSLP field); TWV catalogue, MusicBrainz and Concerto Melante (harmonia mundi 2010, 6:52) all give four: Adagio-Allegro-Adagio-Presto"
+  },
+  {
+   "id": 100555,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:E6_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/9693774"
+   ],
+   "note": "Opera Prima (Brilliant 2015) 9:37, three movements as in TWV catalogue; MusicBrainz lists it. Tripla Concordia's 'E6' (4 movements, E minor) is TWV 42:e6, a different work"
+  },
+  {
+   "id": 100556,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:e7_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/38464131"
+   ],
+   "note": "Concerto Melante (hm 2017) 7:30; mvts Largo-Allegro-Largo-Allegro match TWV catalogue (flute, violin)"
+  },
+  {
+   "id": 100558,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:e8_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/38464131"
+   ],
+   "note": "Concerto Melante 6:53; mvts match TWV catalogue (2 violins; also a G minor version for 2 recorders)"
+  },
+  {
+   "id": 100559,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:e9_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/587656972",
+    "https://rism.online/sources/450002853?format=json"
+   ],
+   "note": "Exists and is recorded (Epoca Barocca, CPO 2011, 6:51; mvts Largo-Allegro-Affettuoso-Vivace) but the scoring may be wrong: TWV catalogue says 'flute, oboe, bc' and the Darmstadt MS (RISM 450002853, Mus.ms 1042/61) is 'Flute-Traversiere, Hautbois, Basse', no strings; only IMSLP (Dresden parts, Garty edition) gives 2 violins. If violins are not original the work is out of scope (no string part)"
+  },
+  {
+   "id": 100561,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:F12_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/584780562"
+   ],
+   "note": "Publick Musick (Centaur 2002) 5:26; TWV catalogue: violin, oboe, bc, same movements"
+  },
+  {
+   "id": 100562,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 7
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:f2_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://musicbrainz.org/ws/2/recording/?query=%22TWV%2042%3Af2%22&fmt=json",
+    "https://api.deezer.com/album/581238591"
+   ],
+   "note": "Recorded by Bosgraaf (recorder), Sinkovsky (violin) et al., 4 mvts 7:09 (MusicBrainz); TWV catalogue: flute, violin, bc; Biondi's tracks are labelled 'F2' (that is the Sonate corellisante)"
+  },
+  {
+   "id": 100568,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:g11_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/9693774"
+   ],
+   "note": "Opera Prima (Brilliant 2015) 10:48; mvts Cantabile-Vivace-Dolce-Allegro match TWV catalogue (violin, viola da gamba); MusicBrainz lists it"
+  },
+  {
+   "id": 100569,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:G11_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/584780562"
+   ],
+   "note": "Publick Musick (Centaur 2002) 9:02; mvts match TWV catalogue (2 violins)"
+  },
+  {
+   "id": 100570,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:g12_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/579231381"
+   ],
+   "note": "Xenia Loeffler, Daniel Deuter et al. (Accent 2019) 6:21, 3 mvts as in TWV catalogue (violin, oboe)"
+  },
+  {
+   "id": 100571,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:G12_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/1065409"
+   ],
+   "note": "Recorded only by Le Triomphe de l'Amour (Lyrichord 1999, 9:00); the tracks carry no TWV number but the flute-violin G major sonata has the movements Affetuoso-Vivace-Grave-Vivace of G12 (TWV catalogue, IMSLP); the MusicBrainz G12 work has no recording; 43:G12 is a different work"
+  },
+  {
+   "id": 100577,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:G8_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/578800341",
+    "https://api.deezer.com/album/9693774"
+   ],
+   "note": "Hamburger Ratsmusik (CPO 2016) 7:46; Opera Prima 7:04; oboe + dessus de viole as in TWV catalogue"
+  },
+  {
+   "id": 100578,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata,_TWV_42:g9_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/278191672",
+    "https://api.deezer.com/album/618066631",
+    "https://api.deezer.com/album/9693774"
+   ],
+   "note": "Several recordings (Bosgraaf, Da Camera/Chandos, Opera Prima) 6:35-7:30; recorder + viola da gamba as in TWV catalogue"
+  },
+  {
+   "id": 100581,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trietto_No.1,_TWV_42:G2_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/581652972"
+   ],
+   "note": "Parnassi Musici (CPO 2008) 8:21; set page title spelling is 'methodichi' (entry set says 'metodichi'); print names flutes before violins; slow-movement ornaments confirmed by the Amadeus edition preface"
+  },
+  {
+   "id": 100582,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Scherzo_No.1,_TWV_42:A1_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/581652972"
+   ],
+   "note": "Parnassi Musici 8:07 (3 mvts); TWV catalogue: 2 flutes/violins, scherzo no. 1"
+  },
+  {
+   "id": 100583,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trietto_No.2,_TWV_42:D2_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/581652972"
+   ],
+   "note": "Parnassi Musici 7:59; ornamented slow movement as for no. 1"
+  },
+  {
+   "id": 100584,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Scherzo_No.2,_TWV_42:E1_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/581652972"
+   ],
+   "note": "Parnassi Musici 7:35; second recording on Sony (1999)"
+  },
+  {
+   "id": 100586,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_Trietti_methodichi_e_3_Scherzi_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/581652972"
+   ],
+   "note": "Parnassi Musici 6:08; TWV catalogue scherzo no. 3"
+  },
+  {
+   "id": 100597,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Pyrmonter_Kurwoche_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp42.html",
+    "https://api.deezer.com/album/6806745"
+   ],
+   "note": "Ensemble Symposium (Brilliant 2013) 7:58, 7 mvts as in TWV catalogue (Friday = no. 5 of the Pyrmonter Kurwoche); year 1734 per IMSLP"
+  },
+  {
+   "id": 100603,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Quatuors_ou_Trios_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp43.html",
+    "https://api.deezer.com/album/625310001"
+   ],
+   "note": "Camerata Koeln (CPO 2024) 7:43, 'Quartetto No. 4'; TWV catalogue: no. 4 of '6 Quatuors ou Trios', 2 flutes/violins + cello/bassoon + continuo"
+  },
+  {
+   "id": 100606,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 10,
+    "year": "c. 1752",
+    "notes": "Two violins (or flute and violin), viola and continuo; from the fourth book of quartets (Paris, c. 1752)"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Concerto_à_4,_TWV_43:A4_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp43.html",
+    "https://api.deezer.com/album/157093722",
+    "https://api.deezer.com/album/240749752",
+    "https://api.deezer.com/album/587604782"
+   ],
+   "note": "Three recordings run 9:04, 10:02 and 10:07; the print (Le Clerc/Boivin, Paris) is dated 'ca. 1752' on IMSLP and names flute, violin, viola, bc; TWV catalogue: no. 3 of the 4th book"
+  },
+  {
+   "id": 100607,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 6
+   },
+   "sources": [
+    "https://imslp.org/wiki/Concerto_à_4,_TWV_43:B1_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp43.html",
+    "https://api.deezer.com/album/584006602",
+    "https://musicbrainz.org/work/bb56d8cb-bbf0-4f64-b57c-cafc6c94fd8a"
+   ],
+   "note": "L'Accademia Giocosa (Oehms 2014) 6:14 in three movements (Allegro-Adagio-Vivace as in TWV catalogue); minutes was empty"
+  },
+  {
+   "id": 100611,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Concerto_à_4,_TWV_43:G8_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp43.html",
+    "https://api.deezer.com/album/76606552"
+   ],
+   "note": "Les Esprits Animaux (Musica Ficta 2018) 6:09; 4 mvts as in TWV catalogue"
+  },
+  {
+   "id": 100614,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "c. 1752",
+    "notes": "Flute, violin, viola and continuo; from the fourth book of quartets (Paris, c. 1752)"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Concerto_à_4,_TWV_43:D4_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp43.html",
+    "https://api.deezer.com/album/587604782",
+    "https://api.deezer.com/album/618103941",
+    "https://api.deezer.com/album/157110162"
+   ],
+   "note": "IMSLP Misc. Notes: print 'ca. 1752' (Le Clerc, Boivin), flute, violin, viola, bc; a Dresden MS copy is for 2 violins; recordings 7:03-7:57"
+  },
+  {
+   "id": 100618,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Quartetto,_TWV_43:D5_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp43.html",
+    "https://api.deezer.com/album/880413992"
+   ],
+   "note": "Exists (TWV catalogue: 2 violins, viola, bc; Allemande-Ballo-Giga). The only recording found is on a 111-track budget compilation by 'The Telemann Society Orchestra' (Menuetto Classics), an orchestra, so not shown to be one to a part; no published edition (IMSLP: MS and a private typeset); no MusicBrainz entry"
+  },
+  {
+   "id": 100619,
+   "verdict": "fixed",
+   "fixes": {
+    "alternatives": {
+     "violin": [
+      "flute"
+     ]
+    },
+    "year": "c. 1752",
+    "notes": "Two violins (or flute and violin), viola and continuo; from the fourth book of quartets (Paris, c. 1752)"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Quartetto,_TWV_43:G5_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp43.html",
+    "https://api.deezer.com/album/587604782",
+    "https://api.deezer.com/album/240749752",
+    "https://api.deezer.com/album/157110072"
+   ],
+   "note": "TWV catalogue: no. 5 of the 4th book, 'flute, violin, viola, bc' (print named flute first, as for A4 and C1); print dated ca. 1752; recordings 8:45-10:09"
+  },
+  {
+   "id": 100620,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Quartetto,_TWV_43:D6_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp43.html",
+    "https://api.deezer.com/album/584443062"
+   ],
+   "note": "Camerata Koeln (CPO 2021) 5:32, 4 mvts as in TWV catalogue; MusicBrainz lists it"
+  },
+  {
+   "id": 100622,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "c. 1752",
+    "notes": "Two violins (or flute and violin), viola and continuo; from the fourth book of quartets (Paris, c. 1752)"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Sonata_à_4,_TWV_43:C1_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp43.html",
+    "https://api.deezer.com/album/587604782",
+    "https://api.deezer.com/album/68244081"
+   ],
+   "note": "Print dated ca. 1752 (IMSLP); TWV catalogue: no. 4 of the 4th book; recordings 7:15-7:26"
+  },
+  {
+   "id": 100624,
+   "verdict": "fixed",
+   "fixes": {
+    "alternatives": {
+     "violin": [
+      "flute"
+     ]
+    },
+    "year": "c. 1752",
+    "notes": "Two violins (or flute and violin), viola and continuo; from the fourth book of quartets (Paris, c. 1752)"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Sonata_à_4,_TWV_43:F1_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp43.html",
+    "https://api.deezer.com/album/587604782",
+    "https://api.deezer.com/album/236657422",
+    "https://api.deezer.com/album/68244081"
+   ],
+   "note": "TWV catalogue: no. 2 of the 4th book, 'flute, violin, viola, bc' (flute versions recorded by Camerata Bachiensis); print dated ca. 1752"
+  },
+  {
+   "id": 100626,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_à_4,_TWV_43:F3_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp43.html",
+    "https://api.deezer.com/album/71287532"
+   ],
+   "note": "L'Arpa Festante (hm 2018) 6:51, 3 mvts as in TWV catalogue (Vivace-Andante-Allegro); 2 violins, viola, bc"
+  },
+  {
+   "id": 100627,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_à_4,_TWV_43:F4_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp43.html",
+    "https://api.deezer.com/album/579490901"
+   ],
+   "note": "Berliner Barock-Compagney (Capriccio 1999) 5:23; 4 mvts incl. Siciliana as in TWV catalogue"
+  },
+  {
+   "id": 100637,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_à_5_in_F_major,_TWV_44:11_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp44.html",
+    "https://api.deezer.com/album/240749752",
+    "https://api.deezer.com/album/578706571",
+    "https://api.deezer.com/album/702745891"
+   ],
+   "note": "Three recordings 8:22-8:50 (Harmonie Universelle, Michaelstein Telemann-Collegium, Capricornus Consort Basel); TWV catalogue: quintet for 2 violins, 2 violas, bc"
+  },
+  {
+   "id": 100639,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_à_6_in_G_minor,_TWV_44:33_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp44.html",
+    "https://api.deezer.com/album/702745891",
+    "https://rism.online/sources/450002844"
+   ],
+   "note": "RISM: 'Sextets, G minor, TWV 44:33'; MusicBrainz: 2 violins, 2 violas, cello, bc; Capricornus Consort Basel (Christophorus 2025, 8:29, called 'à 5' there); TWV catalogue 'Sextuor'"
+  },
+  {
+   "id": 100641,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Concerto_à_7_in_A_minor,_TWV_44:42_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp44.html",
+    "https://api.deezer.com/album/579301661",
+    "https://api.deezer.com/album/578706571"
+   ],
+   "note": "La Stagione Frankfurt (CPO 2014) 6:56 and Michaelstein Telemann-Collegium (CPO 2006); TWV catalogue 'Septuor', flutes (recorders on the recording); MusicBrainz lists it"
+  },
+  {
+   "id": 100644,
+   "verdict": "fixed",
+   "fixes": {
+    "aka": [
+     "Ouverture-Suite, TWV 55:F4"
+    ]
+   },
+   "sources": [
+    "https://imslp.org/wiki/Ouverture_à_5_in_F_major,_TWV_44:7_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp44.html",
+    "https://api.deezer.com/album/95138",
+    "https://api.deezer.com/album/604512252",
+    "https://rism.online/sources/450003066?format=json",
+    "https://musicbrainz.org/work/40d88807-52c4-49f6-b575-a94b29aad374"
+   ],
+   "note": "Harnoncourt (Warner/Teldec) plays it as 'Quintet for 2 Horns, 2 Violins and Continuo' (16:50); Ifor James (9:38) and Riga CO are orchestral; Darmstadt MS (RISM) also lists a viola part; MusicBrainz title 'TWV 44:7, 55:F4'"
+  },
+  {
+   "id": 100645,
+   "verdict": "fixed",
+   "fixes": {
+    "aka": [
+     "Ouverture \"La Joie\""
+    ]
+   },
+   "sources": [
+    "https://imslp.org/wiki/Ouverture_à_5_in_F_major,_TWV_44:8_(Telemann,_Georg_Philipp)",
+    "http://www.musiqueorguequebec.ca/catal/telemann/telgp44.html",
+    "https://api.deezer.com/album/120029322",
+    "https://api.deezer.com/album/580378371",
+    "https://rism.online/sources/450003069?format=json"
+   ],
+   "note": "Darmstadt MS: 'Ouverture a 5, 2 Corn di Caccia, 2 Hautbois ou Violons, Basson' (no continuo); recorded on oboes by Les Sarbacanes (Initiale 2019, 12:36) and L'Orfeo Blaserensemble (CPO 2018, 13:22); TWV catalogue: Ouverture 'La Joie'"
+  }
+ ],
+ "note": "TWV codes: streaming labels often capitalise the key letter (a minor work is tagged 'D9' or 'E9'), so every recording was matched on movement titles as well; TWV 42:D10 and 43:D5 have no usable recording and TWV 42:c8 only one movement of one. TWV 42:e9 may not be a string work (Darmstadt MS: flute, oboe). TWV 43:A4, C1, D4, F1, G5 are in the 'Quatrieme livre de quatuors' print (Paris, Le Clerc/Boivin, dated ca. 1752 by IMSLP; Dresden MS copies are 1710-35), first-edition scoring flute, violin, viola, bc. Not changed but worth a look: the set 'Trietti metodichi e scherzi' (sources spell 'methodichi'; 100585 outside this chunk shares it) and the Trietti/Scherzi print names flutes before violins (other flute-or-violin prints in the catalogue list the flutes first); TWV 42:A2, c1, D4, e1 (and G3, d2) are nos. 3, 2, 6, 5 of '6 Trio a Violini e Basso' per the TWV catalogue, entries have no set; c1 and e1 give flute+violin, A2 and D4 two violins with a flute alternative (same possibilities). Sources: IMSLP pages via api.php, the TWV catalogue at musiqueorguequebec.ca (telgp42/43/44.html), Deezer album track lists, MusicBrainz, RISM Darmstadt records; no Apple lookups were needed."
+}

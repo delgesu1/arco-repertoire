@@ -1,0 +1,568 @@
+{
+ "chunk": "v093",
+ "results": [
+  {
+   "id": 101420,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Sonatas_in_Three_Parts_(Williams,_William)",
+    "https://itunes.apple.com/lookup?id=1454062302&entity=song",
+    "https://musicweb-international.com/classrev/2002/Jun02/William_Williams.htm"
+   ],
+   "note": "Print (Cross, 1700): Nos. 1,3,5 for two violins, Nos. 2,4,6 for two flutes (recorders), each with bass-violin or viol and figured bass; Camerata Koln plays No. 5 on violins; 6.4 min"
+  },
+  {
+   "id": 101421,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Sonatas_in_Three_Parts_(Williams,_William)",
+    "https://itunes.apple.com/lookup?id=1454062302&entity=song",
+    "https://musicweb-international.com/classrev/2002/Jun02/William_Williams.htm",
+    "https://musicbrainz.org/work/23ac3fdf-5c3f-4e01-a2e5-530e393195fb"
+   ],
+   "note": "IMSLP's mismatch is its page-level 'violins' scoring: the title page says three sonatas for two flutes, and No. 6 is played on two recorders; entry is right"
+  },
+  {
+   "id": 106001,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "c. 1812"
+   },
+   "sources": [
+    "https://www.deezer.com/album/584802932",
+    "https://www.deezer.com/album/415288527",
+    "https://en.wikipedia.org/wiki/Johann_Wilhelm_Wilms",
+    "https://de.wikipedia.org/wiki/Johann_Wilhelm_Wilms"
+   ],
+   "note": "Year blank; en.wikipedia dates it 1812, de.wikipedia 'ed. um 1812'. Three movements, 30:19 and 30:30 on the two CDs"
+  },
+  {
+   "id": 106002,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "c. 1799"
+   },
+   "sources": [
+    "https://www.deezer.com/album/415288527",
+    "https://www.deezer.com/album/584000562",
+    "https://de.wikipedia.org/wiki/Johann_Wilhelm_Wilms"
+   ],
+   "note": "Year blank; de.wikipedia lists the C-major trio Op. 4 as 'ed. um 1799'. Three movements, 20 min on both CDs"
+  },
+  {
+   "id": 105116,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/From_My_Youth,_Op.5_(Wilson,_Mortimer)",
+    "https://itunes.apple.com/lookup?id=195325164&entity=song"
+   ],
+   "note": "Rahter 1911 print holds Nos. 5-8; Rawlins Trio (Albany) plays those four, 7.8 min in all"
+  },
+  {
+   "id": 106318,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.deezer.com/album/731373"
+   ],
+   "note": "Quatuor Debussy with piano (Arion 2006) plays 'Quintette en si mineur', three movements, 37:16; year left blank (not found)"
+  },
+  {
+   "id": 105930,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=675886632&entity=song",
+    "https://www.corno.de/shop/en/chamber-music/quartet/Quartet-40/rom246.html"
+   ],
+   "note": "cpo disc plays the E-flat quartet in 3 movements (Adagio-Allegro, Andante, Alla polacca), 14.1 min; corno.de publishes it for horn, violin, viola, cello"
+  },
+  {
+   "id": 105931,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=675886632&entity=song",
+    "https://www.radioswissclassic.ch/en/music-database/title/14861095048c72875ba7db92d974270fcf16"
+   ],
+   "note": "Swiss Classic database: 'Quartett fur Fagott, Violine, Viola und Violoncello F-Dur', Consortium Classicum, rec. Munich 25 May 2009 (cpo 2013); three movements, finale a theme with variations, 15.6 min"
+  },
+  {
+   "id": 102750,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Quartets,_Op.10_(Woelfl,_Joseph)",
+    "https://itunes.apple.com/lookup?id=1637089311&entity=song",
+    "https://en.wikipedia.org/wiki/Joseph_W%C3%B6lfl"
+   ],
+   "note": "Mosaiques recording 25.3 min, four movements; dedication to Count Fries confirmed; c. 1802 is IMSLP's guess for the undated Breitkopf print"
+  },
+  {
+   "id": 102751,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Quartets,_Op.10_(Woelfl,_Joseph)",
+    "https://itunes.apple.com/lookup?id=1637089311&entity=song",
+    "https://en.wikipedia.org/wiki/Joseph_W%C3%B6lfl"
+   ],
+   "note": "Mosaiques recording 20.6 min; c. 1802 is IMSLP's guess for the undated Breitkopf print"
+  },
+  {
+   "id": 102755,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sonata_for_Piano_4_Hands_and_Flute,_Op.42_(Woelfl,_Joseph)",
+    "https://itunes.apple.com/lookup?id=1319841542&entity=song"
+   ],
+   "note": "Title page of the Breitkopf print reads 'avec Flute ou Violon', flute first, and the only recording found (Euridice, 25.4 min) uses flute. Entry makes violin the main part and flute the alternative, which is the reverse; with flute first the work would have no string part. No recording with violin found. Owner to decide scope and order"
+  },
+  {
+   "id": 104962,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio_No.1,_Op.5_(Wolf-Ferrari,_Ermanno)",
+    "https://www.deezer.com/album/156841882",
+    "https://www.deezer.com/album/93996142",
+    "https://en.wikipedia.org/wiki/Ermanno_Wolf-Ferrari"
+   ],
+   "note": "Recordings run 32:46 (MDG) and 39:27 (Brilliant), IMSLP 40; 36 is a fair mean. No. 2 (Op. 7) runs about 26 min"
+  },
+  {
+   "id": 104966,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_in_A_minor_(Wolf-Ferrari,_Ermanno)",
+    "https://itunes.apple.com/lookup?id=1753717516&entity=song"
+   ],
+   "note": "Brilliant titles it 'Unpublished, 1894'; four movements, 22.6 min (IMSLP gives 1894-95)"
+  },
+  {
+   "id": 104967,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Trio_in_B_minor_(Wolf-Ferrari,_Ermanno)",
+    "https://itunes.apple.com/lookup?id=1454007164&entity=song",
+    "https://itunes.apple.com/lookup?id=1753717516&entity=song"
+   ],
+   "note": "Three movements, 21.9 (CPO) and 21.2 min (Brilliant); 1894"
+  },
+  {
+   "id": 104968,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "Manuscript has four movements, the first two reused from the B minor Trio; the recording plays only the new III-IV"
+   },
+   "sources": [
+    "https://imslp.org/wiki/String_Trio_in_C_minor_(Wolf-Ferrari,_Ermanno)",
+    "https://itunes.apple.com/lookup?id=1753717516&entity=song"
+   ],
+   "note": "IMSLP: four movements, I-II are the B minor Trio's movements transposed, III-IV are new. Brilliant records only III (Scherzo) and IV (Adagio molto-Presto), 8.4 min. Notes corrected; entry kept because the recording is of this trio"
+  },
+  {
+   "id": 104969,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Trio,_Op.32_(Wolf-Ferrari,_Ermanno)",
+    "https://itunes.apple.com/lookup?id=1454007164&entity=song",
+    "https://itunes.apple.com/lookup?id=1753717516&entity=song"
+   ],
+   "note": "Three movements, 15.9 and 17.8 min; 1945 on the manuscript. IMSLP gives a 1994 'first publication' but Brilliant calls it unpublished"
+  },
+  {
+   "id": 105131,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ermanno_Wolf-Ferrari",
+    "https://www.deezer.com/album/156841882",
+    "https://www.deezer.com/album/606136032"
+   ],
+   "note": "Wikipedia: Op. 24 (1942) for 2 violins, 2 violas, cello; four movements, 27:49 (Brilliant) and 27:17 (MDG)"
+  },
+  {
+   "id": 104496,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_String_Quartets,_Op.3_(Wolf,_Ernst_Wilhelm)",
+    "https://api.deezer.com/album/584443502",
+    "https://musicweb-international.com/classrev/2015/Oct/Wolf_quartets_7778562.htm"
+   ],
+   "note": "cpo: 14:19, three movements, Adagio 'Le lacrime di Petrarca'; autographs of Op. 3 dated 1785"
+  },
+  {
+   "id": 104499,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/584443502",
+    "https://musicweb-international.com/classrev/2015/Oct/Wolf_quartets_7778562.htm"
+   ],
+   "note": "MusicWeb: unpublished at Wolf's death, perhaps his last quartet, viola more active; 12:31 on the cpo disc"
+  },
+  {
+   "id": 104500,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/584443502",
+    "https://musicweb-international.com/classrev/2015/Oct/Wolf_quartets_7778562.htm"
+   ],
+   "note": "MusicWeb: earlier work whose score has a figured bass part; recorded as a quartet, 11:17. Whether a continuo player joins is not stated"
+  },
+  {
+   "id": 107971,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://juliawolfemusic.com/music/dig-deep/",
+    "https://www.deezer.com/album/581677902"
+   ],
+   "note": "Composer's list: 1995, 14', first performance Kultur Haus Klagenfurt 12 Sept 1995; Cantaloupe disc 13:51"
+  },
+  {
+   "id": 107972,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://juliawolfemusic.com/music/four-marys/",
+    "https://www.deezer.com/album/581677902"
+   ],
+   "note": "Composer's list: 1991, 11', first performance Cassatt Quartet, La Mama, New York, 12 May 1991; Cantaloupe disc 10:47"
+  },
+  {
+   "id": 107973,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://juliawolfemusic.com/music/early-that-summer/",
+    "https://www.deezer.com/album/581677902",
+    "https://www.deezer.com/album/587708972"
+   ],
+   "note": "Composer's list: 1993, 12', first performance Lark Quartet, The Kitchen, New York, 30 May 1993; also on Ethel's Heavy"
+  },
+  {
+   "id": 107974,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://juliawolfemusic.com/music/believing/",
+    "https://www.deezer.com/album/587770312"
+   ],
+   "note": "Composer's list: 1997, 10', cl/perc/kbd/egtr/vc/db, players all sing, especially cellist; recording 8:57"
+  },
+  {
+   "id": 107975,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://juliawolfemusic.com/music/big-beautiful-dark-scary/",
+    "https://www.coreliaproject.org/composers/wolfe/julia",
+    "https://www.deezer.com/album/583529832",
+    "https://itunes.apple.com/search?term=Julia+Wolfe+Big+Beautiful+Dark+and+Scary&media=music&entity=song&limit=15"
+   ],
+   "note": "Duration conflict: the composer's list and Corelia give 15 min (2002, six players, one movement); the only recording (Bang on a Can All-Stars, Cantaloupe) runs 8:44 on Deezer and 8.7 on Apple. Entry has 9. If 15 is right the form becomes 'work'. The notes' 'also an orchestral version' is not on the composer's list; worth a second look"
+  },
+  {
+   "id": 107976,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://juliawolfemusic.com/music/lick/",
+    "https://www.deezer.com/album/586137012"
+   ],
+   "note": "Composer's list: 1994, 10', ssx/perc/pf/egtr/vc/db, first performance Walter Reade Theater, Lincoln Center, 11 April 1994; recording 9:18"
+  },
+  {
+   "id": 107977,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://juliawolfemusic.com/music/reeling/",
+    "https://www.deezer.com/album/587745152"
+   ],
+   "note": "Composer's list: 2012, 5', cl, egtr, perc, pno, vc, db; recording 5:49"
+  },
+  {
+   "id": 107978,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://juliawolfemusic.com/music/singing-in-dead-of-night/",
+    "https://www.deezer.com/album/581040821"
+   ],
+   "note": "Composer's list: 2008, 18', fl.cl/perc/pno/vn.vc; first performance Richmond VA, 26 March 2008; eighth blackbird disc 18:54"
+  },
+  {
+   "id": 107919,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/Christian_Wolff_(composer)",
+    "https://itunes.apple.com/lookup?id=1343924810&entity=song"
+   ],
+   "note": "Wikipedia: Summer (for string quartet), 1961; Concord Quartet recording 4:42"
+  },
+  {
+   "id": 107191,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Stefan_Wolpe",
+    "https://www.deezer.com/album/587735902",
+    "https://www.deezer.com/album/585004722"
+   ],
+   "note": "Wolpe list: Piece for Oboe, Cello, Percussion and Piano (1955); four movements, 24:00 (Naxos) and 24:49 (cpo)"
+  },
+  {
+   "id": 106294,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Variations_on_an_Irish_Folk_Tune_(Wood,_Charles)",
+    "https://www.deezer.com/album/1040266682",
+    "https://en.wikipedia.org/wiki/Charles_Wood_(composer)",
+    "https://www.britishmusicsociety.co.uk/events/charles-wood-centenary-concert/"
+   ],
+   "note": "IMSLP: autograph dated 25 Aug 1916, 12 min; Bridge Quartet (Heritage) 13:20; Wikipedia says c. 1917"
+  },
+  {
+   "id": 106295,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "c. 1916",
+    "notes": "Unfinished single movement (listed as a fragment), recorded as it stands; not on IMSLP"
+   },
+   "sources": [
+    "https://www.deezer.com/album/1040266682",
+    "https://en.wikipedia.org/wiki/Charles_Wood_(composer)",
+    "https://www.britishmusicsociety.co.uk/events/charles-wood-centenary-concert/"
+   ],
+   "note": "Wikipedia lists a 'Quartet in G minor (fragment; c. 1916/17)'; the Bridge Quartet record it as Quartet-Movement in G minor, 7:44. Kept as an unfinished single movement performed as it stands (Bridge Quartet CD and a Wigmore Hall centenary concert programme); year added, notes say 'unfinished' per the curation brief"
+  },
+  {
+   "id": 106289,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1927"
+   },
+   "sources": [
+    "https://de.wikipedia.org/wiki/Felix_Woyrsch",
+    "https://www.deezer.com/album/578721451"
+   ],
+   "note": "de.wikipedia: Op. 65 Klaviertrio e-Moll, Simrock, Berlin, 1927 (publication; composition date not found). Four movements 28:54 on the cpo disc"
+  },
+  {
+   "id": 102780,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Quartets,_Op.16_(Wranitzky,_Paul)",
+    "https://itunes.apple.com/lookup?id=1401839253&entity=song",
+    "https://www.wranitzky.com/listofworks.htm",
+    "https://www.wranitzky.com/works_published_by_andre.htm"
+   ],
+   "note": "Stamic Quartet: Allegro vivace, Poco adagio, Allegro di molto, 23.9 min; D minor is No. 6. Same set as Op. 26 (Andre, Aug 1793), so the aka is right; c. 1790 is IMSLP's date for the Sieber print and may be a little early"
+  },
+  {
+   "id": 102781,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Quartets,_Op.23_(Wranitzky,_Paul)",
+    "https://www.wranitzky.com/works_op23_quartets.htm",
+    "https://www.kammerphilharmonie.com/erleben/konzertkalender/stuerme-und-idyllen/",
+    "https://www.wranitzky.com/works_published_by_andre.htm"
+   ],
+   "note": "Andre published Op. 23 in June 1793; the set was written for the cello-playing Frederick William II (the 'Prussian' quartets), four movements in C major. No commercial recording found; free modern score (Bernhardsson/Ackerman) plus a Kammerphilharmonie Bremen programme listing it (Friday 17 May, year not shown) pass the floor. Minutes unknown"
+  },
+  {
+   "id": 102786,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Quartets,_Op.32_(Wranitzky,_Paul)",
+    "https://www.wranitzky.com/works_published_by_gombart.htm",
+    "https://itunes.apple.com/lookup?id=1718936442&entity=song"
+   ],
+   "note": "IMSLP's 1790 is its date for an undated Sieber print; Gombart (Augsburg) issued the set in 1798 per the Rheinfurth list on wranitzky.com, so 'c. 1798' stands. cpo (Almaviva Quartett): Allegro 11.3, Adagio 8.1, Rondo 5.3 = 24.7 min"
+  },
+  {
+   "id": 102788,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_String_Quintets,_Op.29_(Wranitzky,_Paul)",
+    "https://wranitzky.com/festival_2008.htm",
+    "https://www.wranitzky.com/discography.htm",
+    "https://www.wranitzky.com/works_published_by_andre.htm"
+   ],
+   "note": "Andre issued Op. 29 on 6 Oct 1794 (keys F, C, A), two violins, two violas, cello. Festival page: first known modern performance of the first quintet, Stamic Quartet with K. Plocek, 2008. Minutes unknown"
+  },
+  {
+   "id": 102790,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_String_Trios,_Op.17_(Wranitzky,_Paul)",
+    "https://itunes.apple.com/lookup?id=587010285&entity=song",
+    "https://www.wranitzky.com/works_published_by_andre.htm",
+    "https://musicbrainz.org/artist/737f5176-e10b-427f-bab6-3346f435f9b3"
+   ],
+   "note": "Brilliant: four movements incl. Menuetto grazioso, 19.8 min. Andre's catalogue dates Op. 17 Livre 1 (B-flat, E-flat, C) to 16 March 1792, so 'c. 1790' is a little early; left as it may be a composition date"
+  },
+  {
+   "id": 102792,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_String_Trios_(Wranitzky,_Paul)",
+    "https://itunes.apple.com/lookup?id=587010285&entity=song",
+    "https://www.wranitzky.com/works_published_by_andre.htm",
+    "https://musicbrainz.org/artist/737f5176-e10b-427f-bab6-3346f435f9b3"
+   ],
+   "note": "Brilliant titles it Op. 3 No. 3: Allegro moderato, Adagio, Menuetto, Finale, 19.0 min. Andre Op. 20 (15 Feb 1793) has F, C, G, hence the other numberings in aka"
+  },
+  {
+   "id": 102793,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/3_Piano_Trios,_Op.32_(Wranitzky,_Paul)",
+    "https://itunes.apple.com/lookup?id=1563106321&entity=song",
+    "https://www.wranitzky.com/works_published_by_andre.htm",
+    "https://www.wranitzky.com/discography.htm"
+   ],
+   "note": "Andre Op. 32 Livre 1 (G), 20 May 1799; Prague Trio: Allegro brillante, Andante, Rondo, 15.5 min"
+  },
+  {
+   "id": 102794,
+   "verdict": "fixed",
+   "fixes": {
+    "alternatives": {}
+   },
+   "sources": [
+    "https://imslp.org/wiki/6_Sextets_(Wranitzky,_Paul)",
+    "https://itunes.apple.com/lookup?id=1401840690&entity=song",
+    "https://www.wranitzky.com/discography.htm"
+   ],
+   "note": "The Hoffmeister print is for flute, oboe, violin, two violas and cello. The only violin-for-viola source found is a 2025 IMSLP arrangement of No. IV by T. Bolzonella, or the Stamic Quartet's own seating; neither is a composer or first-edition alternative. Entry otherwise right (E-flat is No. 3, 14.6 min)"
+  },
+  {
+   "id": 102795,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Sextets_(Wranitzky,_Paul)",
+    "https://itunes.apple.com/lookup?id=1401840690&entity=song",
+    "https://www.wranitzky.com/discography.htm"
+   ],
+   "note": "Supraphon: C major, four movements as in notes, 20.3 min"
+  },
+  {
+   "id": 102796,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/6_Sextets_(Wranitzky,_Paul)",
+    "https://itunes.apple.com/lookup?id=1401840690&entity=song",
+    "https://www.wranitzky.com/discography.htm"
+   ],
+   "note": "Supraphon: D minor, three movements ending Andantino con variazioni, 15.6 min"
+  },
+  {
+   "id": 102797,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.wranitzky.com/works_published_by_andre.htm",
+    "https://www.wranitzky.com/discography.htm",
+    "https://www.wranitzky.com/listofworks.htm",
+    "https://musicbrainz.org/ws/2/work?artist=737f5176-e10b-427f-bab6-3346f435f9b3&inc=recording-rels&limit=100&fmt=json"
+   ],
+   "note": "Andre issued Op. 28 (G, C, A minor) for flute, violin, viola, cello on 11 Aug 1794; Poulain/Dolezal Quartet recording (ADDA 581300) listed on wranitzky.com, and MusicBrainz has a track of No. 1. Minutes unknown"
+  },
+  {
+   "id": 102798,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.wranitzky.com/works_published_by_andre.htm",
+    "https://www.wranitzky.com/discography.htm",
+    "https://www.wranitzky.com/listofworks.htm",
+    "https://musicbrainz.org/ws/2/work?artist=737f5176-e10b-427f-bab6-3346f435f9b3&inc=recording-rels&limit=100&fmt=json"
+   ],
+   "note": "Andre issued Op. 28 (G, C, A minor) for flute, violin, viola, cello on 11 Aug 1794; Poulain/Dolezal Quartet recording (ADDA 581300) listed on wranitzky.com, and MusicBrainz has a track of No. 1. Minutes unknown"
+  },
+  {
+   "id": 102799,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.wranitzky.com/works_published_by_andre.htm",
+    "https://www.wranitzky.com/discography.htm",
+    "https://www.wranitzky.com/listofworks.htm",
+    "https://musicbrainz.org/ws/2/work?artist=737f5176-e10b-427f-bab6-3346f435f9b3&inc=recording-rels&limit=100&fmt=json"
+   ],
+   "note": "Andre issued Op. 28 (G, C, A minor) for flute, violin, viola, cello on 11 Aug 1794; Poulain/Dolezal Quartet recording (ADDA 581300) listed on wranitzky.com, and MusicBrainz has a track of No. 1. Minutes unknown"
+  },
+  {
+   "id": 107869,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.charleswuorinen.com/compositions/string-trio/",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Charles_Wuorinen",
+    "https://www.deezer.com/album/581214641",
+    "https://itunes.apple.com/lookup?id=453011300&entity=song"
+   ],
+   "note": "Composer's page: 1968, one movement, 15:00 (recording 16:40), premiered by the Potomac String Trio, National Gallery, Washington, 27 Oct 1968"
+  },
+  {
+   "id": 107870,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Charles_Wuorinen",
+    "https://www.deezer.com/album/579025361",
+    "https://www.deezer.com/album/587311422"
+   ],
+   "note": "Wikipedia: First String Quartet 1971, premiered by the Fine Arts Quartet; Naxos 22:22, Music & Arts 23:55, three movements"
+  },
+  {
+   "id": 107871,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Charles_Wuorinen",
+    "https://www.deezer.com/album/578909581",
+    "https://itunes.apple.com/lookup?id=187662037&entity=song"
+   ],
+   "note": "Wikipedia: Second String Quartet 1979, premiered by the Columbia String Quartet; Naxos four movements, 20:14"
+  },
+  {
+   "id": 107872,
+   "verdict": "fixed",
+   "fixes": {
+    "form": "short"
+   },
+   "sources": [
+    "https://www.charleswuorinen.com/compositions/divertimento-for-string-quartet/",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Charles_Wuorinen",
+    "https://itunes.apple.com/lookup?id=187662037&entity=song"
+   ],
+   "note": "Composer's page: 1982, 2vn va vc, 'in a single movement', 11:15 (Naxos 11:36). A single piece of about 12 minutes or less is form 'short'"
+  }
+ ],
+ "note": "Fixes: Wilms Op. 30 and Op. 4 and Woyrsch Op. 65 gained years (publication dates from Wikipedia); Wranitzky Sextet No. 3 lost an unsanctioned viola-for-violin alternative; Wuorinen Divertimento is a single movement of about 11 min (form short); Wolf-Ferrari C minor trio notes and Wood G minor movement year/notes corrected. Doubts: Woelfl Op. 42 (flute named first and the only recording is with flute, so the string part is the alternative) and Wolfe Big Beautiful Dark and Scary (15 min per composer, 8:44 on the recording). IMSLP mismatches for Williams No. 6 and Wranitzky Op. 32 No. 4 were IMSLP errors. Wranitzky Op. 17 No. 2 and Op. 16 No. 6 dates (c. 1790) may be a little early (Andre printed Op. 17 in 1792); left. The Presto page could not be read by script. By mistake one lookup (a Wigmore Hall programme PDF) went through the shared fetcher and sits in its git-ignored cache; nothing was saved elsewhere."
+}

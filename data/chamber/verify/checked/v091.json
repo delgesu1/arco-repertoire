@@ -1,0 +1,575 @@
+{
+ "chunk": "v091",
+ "results": [
+  {
+   "id": 105492,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Concerto_armonico_in_B-flat_major_(Wassenaer,_Unico_Wilhelm)",
+    "https://somm-recordings.com/recording/wassenaer-six-concerti-armonici/",
+    "https://api.deezer.com/album/584827002",
+    "https://api.deezer.com/album/459101345",
+    "https://api.deezer.com/album/681326141",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66670",
+    "https://en.wikipedia.org/wiki/Unico_Wilhelm_van_Wassenaer"
+   ],
+   "note": "String-orchestra question: title, key, IUW no. (Deezer 'Concerti armonici, IUW 1' lists) and timing hold, and IMSLP gives 7 part-books, but every recording found is a directed band (Goodman, Jenkinson, Fentross, Mallon) and none is shown one to a part."
+  },
+  {
+   "id": 105493,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Concerto_armonico_in_A_major_(Wassenaer,_Unico_Wilhelm)",
+    "https://somm-recordings.com/recording/wassenaer-six-concerti-armonici/",
+    "https://api.deezer.com/album/584827002",
+    "https://api.deezer.com/album/459101345",
+    "https://api.deezer.com/album/681326141",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66670",
+    "https://en.wikipedia.org/wiki/Unico_Wilhelm_van_Wassenaer"
+   ],
+   "note": "String-orchestra question: title, key, IUW no. (Deezer 'Concerti armonici, IUW 1' lists) and timing hold, and IMSLP gives 7 part-books, but every recording found is a directed band (Goodman, Jenkinson, Fentross, Mallon) and none is shown one to a part."
+  },
+  {
+   "id": 105494,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Concerto_armonico_in_G_major,_IUW_3_(Wassenaer,_Unico_Wilhelm)",
+    "https://somm-recordings.com/recording/wassenaer-six-concerti-armonici/",
+    "https://api.deezer.com/album/584827002",
+    "https://api.deezer.com/album/459101345",
+    "https://api.deezer.com/album/681326141",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66670",
+    "https://en.wikipedia.org/wiki/Unico_Wilhelm_van_Wassenaer"
+   ],
+   "note": "String-orchestra question: title, key, IUW no. (Deezer 'Concerti armonici, IUW 1' lists) and timing hold, and IMSLP gives 7 part-books, but every recording found is a directed band (Goodman, Jenkinson, Fentross, Mallon) and none is shown one to a part."
+  },
+  {
+   "id": 105495,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Concerto_armonico_in_F_minor_(Wassenaer,_Unico_Wilhelm)",
+    "https://somm-recordings.com/recording/wassenaer-six-concerti-armonici/",
+    "https://api.deezer.com/album/584827002",
+    "https://api.deezer.com/album/459101345",
+    "https://api.deezer.com/album/681326141",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66670",
+    "https://en.wikipedia.org/wiki/Unico_Wilhelm_van_Wassenaer"
+   ],
+   "note": "String-orchestra question: title, key, IUW no. (Deezer 'Concerti armonici, IUW 1' lists) and timing hold, and IMSLP gives 7 part-books, but every recording found is a directed band (Goodman, Jenkinson, Fentross, Mallon) and none is shown one to a part."
+  },
+  {
+   "id": 105496,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Concerto_armonico_in_E-flat_major_(Wassenaer,_Unico_Wilhelm)",
+    "https://somm-recordings.com/recording/wassenaer-six-concerti-armonici/",
+    "https://api.deezer.com/album/584827002",
+    "https://api.deezer.com/album/459101345",
+    "https://api.deezer.com/album/681326141",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66670",
+    "https://en.wikipedia.org/wiki/Unico_Wilhelm_van_Wassenaer"
+   ],
+   "note": "String-orchestra question: title, key, IUW no. (Deezer 'Concerti armonici, IUW 1' lists) and timing hold, and IMSLP gives 7 part-books, but every recording found is a directed band (Goodman, Jenkinson, Fentross, Mallon) and none is shown one to a part."
+  },
+  {
+   "id": 106547,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.2_(Watson,_Anthony)",
+    "https://waiteatamusicpress.co.nz/watson-string-quartet-no-2",
+    "https://api.deezer.com/album/146149412"
+   ],
+   "note": "Wai-te-ata Music Press: 1962, c. 15 min; NZ String Quartet 14:57 (Continuum CCD 1065). IMSLP says 15.5 min; the mismatch is a parsing artefact."
+  },
+  {
+   "id": 106548,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1959"
+   },
+   "sources": [
+    "https://waiteatamusicpress.co.nz/watson-string-quartet-no-1",
+    "https://api.deezer.com/album/146149412"
+   ],
+   "note": "Year was blank; Wai-te-ata Music Press: composed 1959, c. 20 min; NZSQ recording 19:18, three movements."
+  },
+  {
+   "id": 106549,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1971"
+   },
+   "sources": [
+    "https://waiteatamusicpress.co.nz/watson-string-quartet-no-3",
+    "https://api.deezer.com/album/146149412"
+   ],
+   "note": "Year was blank; Wai-te-ata Music Press: composed 1971 (Mozart Fellow, Otago), c. 20 min; NZSQ recording 18:33, three movements."
+  },
+  {
+   "id": 106550,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.2,_Op.35_(Weber,_Ben)",
+    "https://musicbrainz.org/ws/2/recording/10362676-acf4-445c-91a3-83b51b6b2218?inc=work-rels+releases+artist-credits&fmt=json",
+    "https://en.wikipedia.org/wiki/Ben_Weber_(composer)"
+   ],
+   "note": "IMSLP: composed 1951, 11 min; New Music Quartet recording (CRI, 'Gay American Composers, Vol. 2') runs 10:43."
+  },
+  {
+   "id": 103084,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_in_G_minor,_Op.63_(Weber,_Carl_Maria_von)",
+    "https://api.deezer.com/album/12879224",
+    "https://api.deezer.com/album/563351122",
+    "https://api.deezer.com/album/274476802",
+    "https://api.deezer.com/album/982001901"
+   ],
+   "note": "Flute, cello, piano; 1818-19, first ed. 1820 (IMSLP). Four commercial recordings run 20:30-24:18 (Schmeiser 24:18)."
+  },
+  {
+   "id": 104931,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Septet_(Weber,_Joseph_Miroslav)",
+    "https://api.deezer.com/album/580693221"
+   ],
+   "note": "Instrumentation and Bennewitz dedication per IMSLP; Consortium Classicum (Orfeo) runs 31:31 in four movements, first 'An den Ufern der Moldau'."
+  },
+  {
+   "id": 104932,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quintet_in_D_major_(Weber,_Joseph_Miroslav)",
+    "https://www.musicweb-international.com/classrev/2007/Apr07/Brahms_Weber_cc1017.htm"
+   ],
+   "note": "IMSLP: 2 vn, va, 2 vc, 1898 (first ed. 1899), dedicated to Vaclav Petr; Divertimenti Ensemble, Cello Classics CC1017, rec. April 2006, 28:14 (MusicWeb)."
+  },
+  {
+   "id": 104013,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Trio,_Op.20_(Webern,_Anton)",
+    "https://api.deezer.com/album/7063908",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Anton_Webern"
+   ],
+   "note": "IMSLP: 1926-27, first ed. 1927, two movements; Juilliard Quartet (Sony) 9:24."
+  },
+  {
+   "id": 104015,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Concerto,_Op.24_(Webern,_Anton)",
+    "https://api.deezer.com/album/7063908",
+    "https://api.deezer.com/album/584940502",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Anton_Webern"
+   ],
+   "note": "Nine players as listed on IMSLP; composed 1931-34 (Wikipedia list; IMSLP gives 1934); recordings run 6:31-7:57."
+  },
+  {
+   "id": 104017,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_(Webern,_Anton)",
+    "https://api.deezer.com/album/320926707",
+    "https://api.deezer.com/album/12219760",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Anton_Webern"
+   ],
+   "note": "IMSLP gives M.79 and 1905; LaSalle 12:10, Diotima 18:12, IMSLP 15 min. Separate work from the Langsamer Satz (id 100051)."
+  },
+  {
+   "id": 104018,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/667124",
+    "https://api.deezer.com/album/12219760",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Anton_Webern"
+   ],
+   "note": "Bartholdy Quartet 6:37, Diotima 8:17; composed 1906, published 1970 (Wikipedia list). No IMSLP page."
+  },
+  {
+   "id": 104019,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quintet_(Webern,_Anton)",
+    "https://api.deezer.com/album/320926707",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Anton_Webern"
+   ],
+   "note": "IMSLP: 1907, first ed. 1962 (Bomart), 13 min; LaSalle/Litwin recording runs 10:59."
+  },
+  {
+   "id": 104020,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/7063908",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Anton_Webern",
+    "https://imslp.org/wiki/6_Lieder_nach_Gedichten_von_Georg_Trakl,_Op.14_(Webern,_Anton)"
+   ],
+   "note": "Songs run 7:32 (Boulez). UE lists clarinet and bass clarinet as separate parts (5 players); the IMSLP list shows one clarinettist doubling bass clarinet (4 players)."
+  },
+  {
+   "id": 104021,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/7063908",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Anton_Webern"
+   ],
+   "note": "IMSLP scoring: voice, flute, clarinet (also bass clarinet), trumpet, harp, violin (also viola) = 6 players; songs run 4:48 (Boulez)."
+  },
+  {
+   "id": 104022,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/7063908",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Anton_Webern"
+   ],
+   "note": "IMSLP scoring: voice, clarinet, bass clarinet, violin (also viola); first ed. 1955 (UE). Boulez recording runs 2:22, so 3 min is a round-up."
+  },
+  {
+   "id": 104112,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Pavan_a_5_No.2_(Weelkes,_Thomas)",
+    "https://api.deezer.com/album/440800357"
+   ],
+   "note": "IMSLP lists it as 'VdGS No.2' for 5 viols (2 trebles, 2 tenors, bass); Rose Consort of Viols (Regent REGCD571) plays 'Pavane no 2' in 3:21."
+  },
+  {
+   "id": 104114,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Pavan_a_5_No.5_(Weelkes,_Thomas)",
+    "https://api.deezer.com/album/587708452",
+    "https://api.deezer.com/album/498836631"
+   ],
+   "note": "IMSLP: 'VdGS No.5', 5 viols; recorded on viols by Fretwork/David Skinner (Obsidian, 'Pavan (5)' 2:28) and on cornetts and sackbuts (3:30)."
+  },
+  {
+   "id": 104115,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Pavan_a_5_No.6_(Weelkes,_Thomas)",
+    "https://api.deezer.com/album/498836631",
+    "https://musicbrainz.org/ws/2/work?artist=a6d912fa-3a2c-401e-86fa-074a9d722402&inc=recording-rels&fmt=json"
+   ],
+   "note": "Title, VdGS 6 and scoring hold, but the only recording found (also on MusicBrainz) is by the English Cornett & Sackbut Ensemble (2:27); no viol or string recording found."
+  },
+  {
+   "id": 104117,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/In_Nomine_No.2_(Weelkes,_Thomas)",
+    "https://api.deezer.com/album/440800357",
+    "https://api.deezer.com/album/324549"
+   ],
+   "note": "IMSLP 'In Nomine No.2' (5 viols; No.1 is the 4-part one). Rose Consort of Viols labels its two 5-part In Nomines 'a 5 no 1/no 2' (3:37, 3:16), so the numbering follows IMSLP, not that disc."
+  },
+  {
+   "id": 104118,
+   "verdict": "fixed",
+   "fixes": {
+    "aka": [
+     "Fantasia of Six Parts",
+     "Fantasia for 2 Basses"
+    ]
+   },
+   "sources": [
+    "https://imslp.org/wiki/Fantasia_of_Six_Parts_(Weelkes,_Thomas)",
+    "https://api.deezer.com/album/498836631",
+    "https://api.deezer.com/album/587708452",
+    "https://musicbrainz.org/ws/2/work?artist=a6d912fa-3a2c-401e-86fa-074a9d722402&inc=recording-rels&fmt=json"
+   ],
+   "note": "MusicBrainz files the six-part fantasia as 'Fantasia for 2 Basses, for viols (a6)'; Fretwork record it on viols as 'Fantasia for 2 Basses' (1:30, Obsidian). Added that name to aka."
+  },
+  {
+   "id": 106553,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1921",
+    "set": "Three Trios, Op. 11"
+   },
+   "sources": [
+    "https://www.wernerwehrli.ch/de/werkverzeichnis/werkverzeichnis-nach-jahr.php",
+    "https://api.deezer.com/album/9425742"
+   ],
+   "note": "Wehrli Fonds work list: Op. 11 is a set (Nr. 1 Trio A-Dur 1920, Nr. 2 Trio D-Dur 1919/20, Nr. 3 Trio d-Moll 1921); year was blank. Jecklin disc: 22:41, three movements. AllMusic gives 1920."
+  },
+  {
+   "id": 104431,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Encaenia_musices,_Op.1_(Weichlein,_Romanus)",
+    "https://api.deezer.com/album/584538672",
+    "https://api.deezer.com/album/579384081"
+   ],
+   "note": "IMSLP (Sonata VIII = 2 vn, 2 va, continuo; one to a part probably intended; 1695). Ars Antiqua Austria/Letzbor (Pan Classics 2020) plays Sonata No. 8 in 9:22."
+  },
+  {
+   "id": 105914,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/653892541",
+    "https://propermusic.com/products/carinvanheerdenmartinjoppkatiestephens-josephweigl6triosforoboeviolinandvioloncello"
+   ],
+   "note": "CPO 555455-2 (2024), Joseph Weigl (1766-1846), 6 Trios for Oboe, Violin & Violoncello; No. 5 in D major runs 15:53 in three movements (Moderato, Andante, Allegro). No composition year found."
+  },
+  {
+   "id": 105040,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.2_(Weigl,_Karl)",
+    "https://api.deezer.com/album/583491102",
+    "https://uraniarecords.com/en/prodotto/weigl-string-quartet-works/",
+    "https://en.wikipedia.org/wiki/Karl_Weigl"
+   ],
+   "note": "Urania and Wikipedia title it 'String Quartet No. 2 in E major with Viola d'amore (1906)'; IMSLP lists 2 vn, va, vc. The viola part may be for viola d'amore (Urania violist plays both). 25:50, 1906 hold."
+  },
+  {
+   "id": 105042,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.4_(Weigl,_Karl)",
+    "https://api.deezer.com/album/583491102",
+    "https://api.deezer.com/album/933515131"
+   ],
+   "note": "IMSLP: D minor, 1924, 4 movements; Urania 31:02, CPO 32:00 ('Requiem fuer Eva' slow movement)."
+  },
+  {
+   "id": 105044,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.6_(Weigl,_Karl)",
+    "https://api.deezer.com/album/933515131"
+   ],
+   "note": "IMSLP: C major, 1939, dedicated to E. S. Coolidge, 4 movements; CPO (2026) 28:21, slow movement 'De profundis'."
+  },
+  {
+   "id": 107175,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/157298012",
+    "https://api.deezer.com/album/579474931",
+    "https://en.wikipedia.org/wiki/Kurt_Weill"
+   ],
+   "note": "Wikipedia: 1918, B minor, no opus number; Leipziger Quartet 25:15, Melos Quartet 22:18, four movements."
+  },
+  {
+   "id": 107176,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Frauentanz,_Op.10_(Weill,_Kurt)",
+    "https://musicwebinternational.com/2023/05/the-wild-sound-of-the-20s-1923-br-klassik/",
+    "https://en.wikipedia.org/wiki/Kurt_Weill"
+   ],
+   "note": "IMSLP: Op. 10, 1923, first ed. 1924, seven songs for soprano, flute, viola, clarinet, horn, bassoon; BR Klassik recording 2023."
+  },
+  {
+   "id": 106695,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020174",
+    "https://api.deezer.com/album/579272981",
+    "https://api.deezer.com/album/617973181"
+   ],
+   "note": "Chandos Vol. 2: C major, Op. 2/141, 20:44, three movements, 1937 revised later (Chandos says Op. 141 published 1985; Wikipedia 1986)."
+  },
+  {
+   "id": 106696,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020158",
+    "https://api.deezer.com/album/583535632"
+   ],
+   "note": "Chandos Vol. 1: G major, Op. 3/145, 26:05, four movements; composed 1939-40, revised 1987."
+  },
+  {
+   "id": 106697,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020328",
+    "https://api.deezer.com/album/579272981"
+   ],
+   "note": "Chandos Vol. 5: D minor, 1944, 20:18, three movements."
+  },
+  {
+   "id": 106698,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020180",
+    "https://api.deezer.com/album/618082681"
+   ],
+   "note": "Chandos Vol. 3: E-flat major, 1945, 35:35, four movements, III Largo marciale."
+  },
+  {
+   "id": 106699,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020158",
+    "https://api.deezer.com/album/581282821"
+   ],
+   "note": "Chandos Vol. 1: B-flat major, 1945, 26:30, five movements, 4th 'Improvisation'."
+  },
+  {
+   "id": 106700,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020281",
+    "https://api.deezer.com/album/586643492"
+   ],
+   "note": "Chandos Vol. 4: E minor, 1946, 35:03 (Danel 33:29), six movements ending Andante maestoso."
+  },
+  {
+   "id": 106701,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020174",
+    "https://api.deezer.com/album/583990122"
+   ],
+   "note": "Chandos Vol. 2: C major, 1957, 27:40, three movements, finale Adagio-Allegro-Adagio."
+  },
+  {
+   "id": 106702,
+   "verdict": "fixed",
+   "fixes": {
+    "notes": "One movement in three linked sections with a coda; dedicated to the Borodin Quartet"
+   },
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020158",
+    "https://api.deezer.com/album/145525102",
+    "https://api.deezer.com/album/586643492"
+   ],
+   "note": "Chandos calls it a one-movement work in three sections with a coda (Danel lists one track). Key: Chandos page says C major, its track titles and EarSense say C minor; title left as is."
+  },
+  {
+   "id": 106703,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020328",
+    "https://api.deezer.com/album/724017781"
+   ],
+   "note": "Chandos Vol. 5: F-sharp minor, 1963, 29:26, four movements."
+  },
+  {
+   "id": 106704,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020363",
+    "https://api.deezer.com/album/579272981"
+   ],
+   "note": "Chandos Vol. 6: A minor, 24:08, four movements (Adagio, Allegro, Adagio, Allegretto); 1964."
+  },
+  {
+   "id": 106705,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020174",
+    "https://api.deezer.com/album/583990122"
+   ],
+   "note": "Chandos Vol. 2: F major, composed Oct 1965-Dec 1966, 21:00, four movements."
+  },
+  {
+   "id": 106706,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020363",
+    "https://api.deezer.com/album/583535632"
+   ],
+   "note": "Chandos Vol. 6: 35:27 (Danel 31:27), four movements, finale Moderato 12:57-14:36."
+  },
+  {
+   "id": 106707,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020281",
+    "https://api.deezer.com/album/583990122"
+   ],
+   "note": "Chandos Vol. 4: composed 1977, single movement, 14:28."
+  },
+  {
+   "id": 106708,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020328",
+    "https://api.deezer.com/album/581282821"
+   ],
+   "note": "Chandos Vol. 5: 1978, 24:24, five movements."
+  },
+  {
+   "id": 106709,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020281",
+    "https://api.deezer.com/album/586643492"
+   ],
+   "note": "Chandos Vol. 4: 1979, 25:55, nine movements without titles."
+  },
+  {
+   "id": 106710,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020180",
+    "https://api.deezer.com/album/580816981"
+   ],
+   "note": "Chandos Vol. 3: A-flat minor, composed Jan-Feb 1981, 30:50, four movements."
+  },
+  {
+   "id": 106711,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet No. 17 in D major, Op. 146",
+    "year": "1986"
+   },
+   "sources": [
+    "https://www.chandos.net/products/catalogue/CHAN%2020363",
+    "https://www.westcorkmusic.ie/works/string-quartet-no-17-op-146/",
+    "https://api.deezer.com/album/583535632"
+   ],
+   "note": "Chandos Vol. 6 gives D major (16:16, four movements); West Cork Music gives composed 1986 (AllMusic and Wikipedia list say 1987)."
+  }
+ ],
+ "note": "Keys, dates and timings of the Weinberg quartets come from the Chandos Arcadia pages (CHAN 20158-20363). Wassenaer: same string-orchestra doubt as v090. Weinberg No. 8 key is C major on Chandos page but C minor in its track titles. Karl Weigl No. 2 may need viola d'amore."
+}

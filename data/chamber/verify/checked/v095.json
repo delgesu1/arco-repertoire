@@ -1,0 +1,422 @@
+{
+ "chunk": "v095",
+ "results": [
+  {
+   "id": 107192,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/269447932",
+    "https://en.wikipedia.org/wiki/Erich_Zeisl"
+   ],
+   "note": "Piano Trio Suite Op. 8 (1923-24) per Wikipedia; Harmonia Mundi recording 31:32 total. Another source gives a looser 1920-c.1924, so year is approximate."
+  },
+  {
+   "id": 107193,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/269447932",
+    "https://en.wikipedia.org/wiki/Erich_Zeisl"
+   ],
+   "note": "Second string quartet (1953); recording 27:03."
+  },
+  {
+   "id": 107194,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/269447932",
+    "https://en.wikipedia.org/wiki/Erich_Zeisl"
+   ],
+   "note": "Trio for flute, viola, harp (1956), Debussy Trio on the Harmonia Mundi album, 13:59; Doblinger/Boosey publish it per search listings."
+  },
+  {
+   "id": 106278,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.1,_Op.28_(%C5%BBele%C5%84ski,_W%C5%82adys%C5%82aw)",
+    "https://api.deezer.com/album/52078932"
+   ],
+   "note": "IMSLP gives only the 1883 Kistner publication year (no composition date); Four Strings Quartet recording 36:15."
+  },
+  {
+   "id": 106302,
+   "verdict": "reject",
+   "reason": "not found",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1268050406&entity=song",
+    "https://imslp.org/wiki/String_Trio,_Op.12_(Perger,_Richard_von)",
+    "https://imslp.org/wiki/List_of_works_by_Julius_Zellner",
+    "https://www.bradley.edu/news-articles/the-concordia-string-trio-to-perform-on-february-7/"
+   ],
+   "note": "Misattributed: the D-minor String Trio Op. 12 on the Centaur album 'Zellner & Perger: String Trios' is Richard von Perger's (IMSLP: String Trio, Op.12, D minor, 4 mvts Allegro moderato/Presto/Largo/Allegro vivace, publ. 1888; Zellner's Op. 12 is a piano concerto). Perger is not in the catalogue; his trio (c. 33 min) could be added under him."
+  },
+  {
+   "id": 106303,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://itunes.apple.com/lookup?id=1268050406&entity=song",
+    "https://imslp.org/wiki/List_of_works_by_Julius_Zellner"
+   ],
+   "note": "IMSLP's work list names Op. 36 String Trio in C minor (Amadeus, 2003), 'recorded with von Perger's trio'; Concordia String Trio, Centaur 2017, 26:35. Composition year unknown."
+  },
+  {
+   "id": 104094,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1927"
+   },
+   "sources": [
+    "https://api.deezer.com/album/578882041",
+    "https://api.deezer.com/album/618080041",
+    "https://www.concertzender.nl/?p=646646"
+   ],
+   "note": "Corda Quartett album labels it '2 Satze (1927)'; recordings run 15:05 (Corda) and 15:37 (Schoenberg Quartet, Chandos). Ricordi edition 2000."
+  },
+  {
+   "id": 106558,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Fragments_for_Nonet,_Op.2_(Zhivotov,_Aleksey)",
+    "https://itunes.apple.com/lookup?id=1796851449&entity=song",
+    "https://itunes.apple.com/lookup?id=1634023016&entity=song"
+   ],
+   "note": "IMSLP's scoring mismatch is only the per-piece groupings (instrDetail); the full nonet is flute, clarinet, bassoon, trumpet, 2 violins, viola, cello, piano. Nine pieces, 1929, Melodiya (Lazarev, 7:43) and Moscow Conservatory Records (2022)."
+  },
+  {
+   "id": 108375,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://musicbrainz.org/ws/2/recording/15528f1b-1afe-403d-926d-69b78f376b9d"
+   ],
+   "note": "MusicBrainz: 'Soul for String Quartet and Pipa', Shanghai Quartet and Min Xiao-Fen, The Flowing Stream (1998), 12:34. Year of composition not found."
+  },
+  {
+   "id": 108376,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/921797121",
+    "https://api.deezer.com/album/316438117",
+    "https://boosey.com/shop/prod/Zhou-Long-Song-of-the-Ch-in/2054226"
+   ],
+   "note": "Shanghai Quartet (Delos, 1994, 8:48) and Ying Quartet (Telarc, 8:25); published OUP/Boosey. Composition year unclear (sources say 1982 and 2002-03), so left blank; it was recorded by 1994."
+  },
+  {
+   "id": 105909,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "c. 1779"
+   },
+   "sources": [
+    "https://api.deezer.com/album/558822982",
+    "https://imslp.org/wiki/6_Flute_Quartets,_Op.2a_(Zielche,_Hans_Hinrich)",
+    "https://imslp.org/wiki/6_Flute_Quartets,_Op.2b_(Zielche,_Hans_Hinrich)"
+   ],
+   "note": "Arcana album titles it 'Quartetto in B-flat major, Op. 2a No. 5' (4:39+3:39). 'Op. 2a' is IMSLP's way of telling apart two sets both printed as Op. 2 in 1779, so the opus stays; the print is undated (IMSLP n.d., ca. 1779), hence 'c. 1779'."
+  },
+  {
+   "id": 106326,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Suite,_Op.19_(Zimmermann,_Agnes)",
+    "https://itunes.apple.com/lookup?id=1501674029&entity=song"
+   ],
+   "note": "IMSLP: violin, cello, piano, five movements (Introduction et Allegro, Canon, Gavotte, Air, Gigue), Novello 1873, performed 1872 or earlier; Galos Piano Trio album 23:00 (own release)."
+  },
+  {
+   "id": 105923,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet in E-flat major, Op. 3 No. 1",
+    "set": "Six String Quartets, Op. 3",
+    "aka": [
+     "String Quartet No. 1 in E-flat major, Op. 3"
+    ]
+   },
+   "sources": [
+    "https://api.deezer.com/album/587758972",
+    "https://www.musicweb-international.com/classrev/2004/Jan04/Zimmermann_quartets.htm"
+   ],
+   "note": "Op. 3 is a set of six quartets (Nos. 1-3 on Naxos 8.553952, Nos. 4-6 on Trevak); house style is opus-number, not a running number."
+  },
+  {
+   "id": 105924,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet in B-flat major, Op. 3 No. 2",
+    "set": "Six String Quartets, Op. 3",
+    "aka": [
+     "String Quartet No. 2 in B-flat major, Op. 3"
+    ]
+   },
+   "sources": [
+    "https://api.deezer.com/album/587758972",
+    "https://www.musicweb-international.com/classrev/2004/Jan04/Zimmermann_quartets.htm"
+   ],
+   "note": "Op. 3 is a set of six quartets (Nos. 1-3 on Naxos 8.553952, Nos. 4-6 on Trevak); house style is opus-number, not a running number. Recording listing gives key as 'B' for No. 2 (German B = B-flat)."
+  },
+  {
+   "id": 105925,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "String Quartet in F major, Op. 3 No. 3",
+    "set": "Six String Quartets, Op. 3",
+    "aka": [
+     "String Quartet No. 3 in F major, Op. 3"
+    ]
+   },
+   "sources": [
+    "https://api.deezer.com/album/587758972",
+    "https://www.musicweb-international.com/classrev/2004/Jan04/Zimmermann_quartets.htm",
+    "https://sactx.aspendiscovery.org/NaxosMusicLibrary/on1028237721"
+   ],
+   "note": "Op. 3 is a set of six quartets (Nos. 1-3 on Naxos 8.553952, Nos. 4-6 on Trevak); house style is opus-number, not a running number. A second recording (Sojka Quartet, 2015) is listed as 'String quartet F major op. 3 no. 3'."
+  },
+  {
+   "id": 107023,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Trio_(Zimmermann,_Bernd_Alois)",
+    "https://brahms.ircam.fr/work/streichtrio",
+    "https://de.wikipedia.org/wiki/Bernd_Alois_Zimmermann"
+   ],
+   "note": "Scoring, 3 movements, 12 min and Schott ED 7563 hold (IRCAM, IMSLP). Year: IMSLP and IRCAM say 1944 (premiere 23 June 1944), de.wikipedia 1942-44; the entry's 1943-44 lies between. Floor rests on the Schott edition plus the 2016 Kaiserslautern concert (programme not read by me); no commercial recording found."
+  },
+  {
+   "id": 107024,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/459286735",
+    "https://api.deezer.com/album/6585507",
+    "https://api.deezer.com/album/10715334",
+    "https://de.wikipedia.org/wiki/Bernd_Alois_Zimmermann"
+   ],
+   "note": "DG recording titled 'Ballet blanc in 5 scenes for piano trio and speaker', 25:50 (Absolut Trio 29:11); 1961. formationNote needed since the speaker makes the derived formation 'other'."
+  },
+  {
+   "id": 108011,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/493298191",
+    "https://api.deezer.com/album/674547271",
+    "https://en.wikipedia.org/wiki/John_Zorn"
+   ],
+   "note": "Wikipedia: 1988, commissioned and released by Kronos on Short Stories; Tzadik 13:54 / JACK 13:17."
+  },
+  {
+   "id": 108012,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/493298191",
+    "https://api.deezer.com/album/674547271",
+    "https://johnzornresource.com/the-complete-string-quartets"
+   ],
+   "note": "Thirteen specimens, 1990; Tzadik 1999 and JACK 2025 (11:22)."
+  },
+  {
+   "id": 108013,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/493298191",
+    "https://api.deezer.com/album/674547271",
+    "https://johnzornresource.com/the-complete-string-quartets"
+   ],
+   "note": "1992; JACK 24:37, Tzadik 1999 29:21."
+  },
+  {
+   "id": 108014,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/493298191",
+    "https://api.deezer.com/album/674547271",
+    "https://en.wikipedia.org/wiki/John_Zorn"
+   ],
+   "note": "1996, written alongside Masada book one (Wikipedia); JACK 6:27."
+  },
+  {
+   "id": 108015,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/674547271",
+    "https://johnzornresource.com/the-complete-string-quartets",
+    "https://en.wikipedia.org/wiki/John_Zorn"
+   ],
+   "note": "2003, five movements totalling 20:05; Crowley Quartet on Magick (2004) per Wikipedia."
+  },
+  {
+   "id": 108016,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/674547271",
+    "https://johnzornresource.com/the-complete-string-quartets"
+   ],
+   "note": "2011 per Tzadik listing; JACK 19:40."
+  },
+  {
+   "id": 108017,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "2015"
+   },
+   "sources": [
+    "https://api.deezer.com/album/674547271",
+    "https://ressources.ircam.fr/en/works/work/59861",
+    "https://bachtrack.com/de_DE/review-zorn-jack-quartet-cloisters-new-york-may-2015"
+   ],
+   "note": "IRCAM dates it 2015 (15 min); premiered by JACK Quartet at The Cloisters on 30 May 2015, so '2015-16' is too late (Tzadik's booklet list says 2016)."
+  },
+  {
+   "id": 108018,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/674547271",
+    "https://johnzornresource.com/the-complete-string-quartets"
+   ],
+   "note": "The Unseen - music for the temple (2017); JACK 13:22."
+  },
+  {
+   "id": 108019,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/494069111",
+    "https://en.wikipedia.org/wiki/Kristallnacht_(album)"
+   ],
+   "note": "Seven movements, recorded Nov 1992 by Feldman, Dresser, Krakauer, London, Ribot, Coleman, Winant; Tzadik 43:04. Clarinet doubles bass clarinet."
+  },
+  {
+   "id": 106675,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quartet_(Zwaag,_Wim)",
+    "https://itunes.apple.com/lookup?id=573832978&entity=song"
+   ],
+   "note": "Work holds (IMSLP: 2005, violin/viola/cello/piano, 3 mvts; album 25:24) and the album names professional players, but the only recording is the composer's own release (P Wim Zwaag, 2006) and I found no independent performance, publisher or commission, so the composer track record is not established."
+  },
+  {
+   "id": 106676,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Trio_(Zwaag,_Wim)",
+    "https://itunes.apple.com/lookup?id=573832978&entity=song"
+   ],
+   "note": "Work holds (IMSLP: 'Requiem', 2005, 4 mvts; album 26:38, a track mislabelled 'V.'); same caveat: only the composer's own release is found, so his professional track record is not established."
+  },
+  {
+   "id": 108049,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 15
+   },
+   "sources": [
+    "https://www.zwilich.com/works/complete",
+    "https://api.deezer.com/album/1095551",
+    "https://musicbrainz.org/ws/2/release/03b22234-82cd-4a99-9509-426f2bf9f488"
+   ],
+   "note": "Scoring and 1979 hold; CRI/New World recording runs 15:06."
+  },
+  {
+   "id": 108050,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.zwilich.com/works/complete",
+    "https://api.deezer.com/album/6267540"
+   ],
+   "note": "Three movements 13:38; trumpet with flute, clarinet, percussion, double bass, piano (Wikipedia and composer's list agree)."
+  },
+  {
+   "id": 108051,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.zwilich.com/works/complete",
+    "https://api.deezer.com/album/6267540"
+   ],
+   "note": "Four movements 20:49."
+  },
+  {
+   "id": 108052,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.zwilich.com/works/complete",
+    "https://itunes.apple.com/lookup?id=1518336833&entity=song"
+   ],
+   "note": "Otis Murphy and Pacifica Quartet, Cedille 2020, 16:53."
+  },
+  {
+   "id": 108053,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.zwilich.com/works/complete",
+    "https://api.deezer.com/album/587589632"
+   ],
+   "note": "2008; recording 22:38."
+  },
+  {
+   "id": 108054,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.zwilich.com/works/complete",
+    "https://api.deezer.com/album/587589632"
+   ],
+   "note": "2010, composer's list: violin, viola, cello, contrabass, piano; recording 20:35."
+  },
+  {
+   "id": 108138,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.zwilich.com/works/complete",
+    "https://api.deezer.com/album/1095551",
+    "https://musicbrainz.org/ws/2/release/03b22234-82cd-4a99-9509-426f2bf9f488"
+   ],
+   "note": "1974; CRI recording four movements, 13:34."
+  },
+  {
+   "id": 108139,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.zwilich.com/works/complete",
+    "https://api.deezer.com/album/587589632",
+    "https://api.deezer.com/album/775540"
+   ],
+   "note": "1987; recordings 15:42 and 15:36."
+  },
+  {
+   "id": 108140,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.zwilich.com/works/complete",
+    "https://itunes.apple.com/lookup?id=1881478238&entity=song",
+    "https://musicbrainz.org/ws/2/release/372dc194-e719-4595-8bba-b73ce70ba83f"
+   ],
+   "note": "1990, titled 'Quintet for Clarinet and String Quartet' by the composer; Shifrin/CMS Delos, five movements 18:00."
+  }
+ ],
+ "note": "Zellner Op. 12 is Perger's trio (rejected; Perger is not in the catalogue and could be added). Zorn's Remedy of Fortune year, Zimmermann Op. 3 titles/set and Zemlinsky year corrected. Zwaag's two works doubted on composer track record only (own-label album). Several sites (Naxos, MusicBrainz at times, Gramophone) answered 403 so Zimmermann No. 2's key (B-flat) rests on German 'B' usage."
+}

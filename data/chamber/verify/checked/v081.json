@@ -1,0 +1,582 @@
+{
+ "chunk": "v081",
+ "results": [
+  {
+   "id": 107790,
+   "verdict": "fixed",
+   "fixes": {
+    "aka": [
+     "Lyric Quartet"
+    ]
+   },
+   "sources": [
+    "https://api.deezer.com/album/584278402",
+    "https://itunes.apple.com/lookup?id=1522174675&entity=song",
+    "https://en.wikipedia.org/wiki/William_Grant_Still"
+   ],
+   "note": "Catalyst Quartet 15:18 (3 mvts, Azica 2023) and Oregon Festival disc confirm work, 1960 (Wikipedia). The alias 'String Quartet \"Lyric\"' is George Walker's String Quartet No. 1 'Lyric', which sits on the same Catalyst album; removed."
+  },
+  {
+   "id": 107791,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 13,
+    "notes": "Four dances on Panamanian tunes (Tamborito, Mejorana, Punto, Cumbia y Congo); also for string orchestra"
+   },
+   "sources": [
+    "https://itunes.apple.com/lookup?id=447423371&entity=song",
+    "https://itunes.apple.com/lookup?id=1522174675&entity=song",
+    "https://en.wikipedia.org/wiki/William_Grant_Still"
+   ],
+   "note": "Quartet version recorded (Kaufman Q., Music & Arts; Oregon Festival disc, four mvts 12:36 -> 13 min). Minutes were null. No source found for a string-quintet version (search results show publishers listing quartet or string orchestra), so that claim is dropped from notes. Composition date 1947/1948 varies by source; 1948 kept."
+  },
+  {
+   "id": 107025,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/14835247",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Karlheinz_Stockhausen"
+   ],
+   "note": "Arditti SQ 31:48 (naive); Stockhausen Nr. 69, 1992-93, scene 3 of Mittwoch aus Licht. Electronics/helicopters count as no player."
+  },
+  {
+   "id": 105007,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1941–42"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Suite_for_Flute,_Violin,_Cello_and_Piano,_Op.76_(St%C3%B6hr,_Richard)",
+    "https://itunes.apple.com/lookup?id=1493421737&entity=song"
+   ],
+   "note": "Toccata Classics TOCC0536 (Nelson/Kelly/Siciliano/Koch) 7:06+6:06+10:42+8:16 = 32 min, four mvts. IMSLP gives 1941-42 (holograph dated 1941; Toccata lists 1942), so a single 1941 is incomplete."
+  },
+  {
+   "id": 105008,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/String_Quartet_No.2,_Op.86_(St%C3%B6hr,_Richard)",
+    "https://itunes.apple.com/lookup?id=1493421737&entity=song"
+   ],
+   "note": "IMSLP: Sept 1942, four mvts; Toccata Classics TOCC0536 10:53+4:48+7:15+6:50 = 30 min."
+  },
+  {
+   "id": 106333,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://www.dux.pl/rozycki-melcer-stolpe-gorecki-polskie-tria-fortepianowe-apeiron-trio.html",
+    "https://api.deezer.com/album/395728687",
+    "https://imslp.org/wiki/Romance_in_A-flat_major_with_contrast_(Stolpe,_Antoni)"
+   ],
+   "note": "DUX 1900 page lists Antoni Stolpe, Romance (Duettino) for violin, cello and piano (1866), 5:28: the disc/IMSLP match is now documented (same year and scoring as IMSLP's 1866 manuscript)."
+  },
+  {
+   "id": 104436,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_%C3%A0_4_in_F_major_(St%C3%B6lzel,_Gottfried_Heinrich)",
+    "https://api.deezer.com/album/584483542",
+    "http://www.musica-dei-donum.org/cd_reviews/CPO_777-764-2.html"
+   ],
+   "note": "CPO 777 764-2 (Epoca Barocca) Quadro No. 1, tracks 2:41+1:18+2:37; review confirms oboe, horn, violin, harpsichord/bassoon continuo, nine quadri all in F."
+  },
+  {
+   "id": 104437,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_%C3%A0_4_in_F_major_(St%C3%B6lzel,_Gottfried_Heinrich)",
+    "https://api.deezer.com/album/584483542",
+    "http://www.musica-dei-donum.org/cd_reviews/CPO_777-764-2.html"
+   ],
+   "note": "CPO 777 764-2 (Epoca Barocca) Quadro No. 2, tracks 3:30+0:59+1:57; review confirms oboe, horn, violin, harpsichord/bassoon continuo, nine quadri all in F."
+  },
+  {
+   "id": 104438,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_%C3%A0_4_in_F_major_(St%C3%B6lzel,_Gottfried_Heinrich)",
+    "https://api.deezer.com/album/584483542",
+    "http://www.musica-dei-donum.org/cd_reviews/CPO_777-764-2.html"
+   ],
+   "note": "CPO 777 764-2 (Epoca Barocca) Quadro No. 3, tracks 0:56+1:14+1:46; review confirms oboe, horn, violin, harpsichord/bassoon continuo, nine quadri all in F."
+  },
+  {
+   "id": 104439,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_%C3%A0_4_in_F_major_(St%C3%B6lzel,_Gottfried_Heinrich)",
+    "https://api.deezer.com/album/584483542",
+    "http://www.musica-dei-donum.org/cd_reviews/CPO_777-764-2.html"
+   ],
+   "note": "CPO 777 764-2 (Epoca Barocca) Quadro No. 4, tracks 1:49+1:39+2:07; review confirms oboe, horn, violin, harpsichord/bassoon continuo, nine quadri all in F."
+  },
+  {
+   "id": 104440,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_%C3%A0_4_in_F_major_(St%C3%B6lzel,_Gottfried_Heinrich)",
+    "https://api.deezer.com/album/584483542",
+    "http://www.musica-dei-donum.org/cd_reviews/CPO_777-764-2.html"
+   ],
+   "note": "CPO 777 764-2 (Epoca Barocca) Quadro No. 5, tracks 1:48+0:56+1:44; scoring oboe, horn, violin, continuo per IMSLP and the CPO review."
+  },
+  {
+   "id": 104441,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_%C3%A0_4_in_F_major_(St%C3%B6lzel,_Gottfried_Heinrich)",
+    "https://api.deezer.com/album/584483542",
+    "http://www.musica-dei-donum.org/cd_reviews/CPO_777-764-2.html"
+   ],
+   "note": "CPO 777 764-2 (Epoca Barocca) Quadro No. 6, tracks 1:46+1:03+2:14; scoring oboe, horn, violin, continuo per IMSLP and the CPO review."
+  },
+  {
+   "id": 104442,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_%C3%A0_4_in_F_major_(St%C3%B6lzel,_Gottfried_Heinrich)",
+    "https://api.deezer.com/album/584483542",
+    "http://www.musica-dei-donum.org/cd_reviews/CPO_777-764-2.html"
+   ],
+   "note": "CPO 777 764-2 (Epoca Barocca) Quadro No. 7, tracks 2:51+1:29+1:35; scoring oboe, horn, violin, continuo per IMSLP and the CPO review."
+  },
+  {
+   "id": 104443,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/8_Sonatas_%C3%A0_4_in_F_major_(St%C3%B6lzel,_Gottfried_Heinrich)",
+    "https://api.deezer.com/album/584483542",
+    "http://www.musica-dei-donum.org/cd_reviews/CPO_777-764-2.html"
+   ],
+   "note": "CPO 777 764-2 (Epoca Barocca) Quadro No. 8, tracks 3:16+1:13+1:49; scoring oboe, horn, violin, continuo per IMSLP and the CPO review."
+  },
+  {
+   "id": 104444,
+   "verdict": "fixed",
+   "fixes": {
+    "title": "Sonata a 4 in F major (\"Bruxelles\")",
+    "aka": [
+     "Stölzel, Quadro \"Bruxelles\" (B-Bc 7108)",
+     "IGS 168"
+    ]
+   },
+   "sources": [
+    "https://imslp.org/wiki/Sonata_a_4_in_F_major,_IGS_168_(St%C3%B6lzel,_Gottfried_Heinrich)",
+    "https://api.deezer.com/album/584483542",
+    "http://www.musica-dei-donum.org/cd_reviews/CPO_777-764-2.html"
+   ],
+   "note": "Work and recording hold (CPO 'Quadro Bruxelles', 5:48, from the Brussels ms B-Bc 7108; Andante/Adagio/Vivace as on IMSLP). 'IGS 168' occurs only in IMSLP's page title (its catalogue field is empty) and I found no catalogue that uses it, so it comes out of the title and stays searchable in aka. Brussels tag tells it from the eight Dresden sonatas."
+  },
+  {
+   "id": 104289,
+   "verdict": "doubt",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Sinfonia_a_tre_(Stradella,_Alessandro)",
+    "https://api.deezer.com/album/908473772",
+    "https://api.deezer.com/album/639205531"
+   ],
+   "note": "Title has no key and Stradella left several sinfonie a tre: Giardino di Delizie records No. 1 in D minor (8:08) and No. 2 in B-flat (7:10), L'Accademico Formato one in D major (6:43), CPO a 5:40 single. IMSLP's page (Antiqua 4657, Kolneder 1956) gives no key, so the recording cannot be tied to this edition. A 'Sinfonia a tre' recording does exist; add a key if one can be established."
+  },
+  {
+   "id": 104290,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 7
+   },
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_D_minor_(Stradella,_Alessandro)",
+    "https://api.deezer.com/album/221681692"
+   ],
+   "note": "IMSLP: violin, violoncello, continuo (separate cello and continuo parts), ms Mus. G. 210 (Estense). Ligia disc (Concert de l'Hostel Dieu) six sections 1:28+1:11+0:48+0:37+0:49+2:28 = 7:21; minutes were null."
+  },
+  {
+   "id": 104291,
+   "verdict": "fixed",
+   "fixes": {
+    "instruments": {
+     "violin": 2,
+     "continuo": 1
+    },
+    "players": 3,
+    "formation": "continuo",
+    "notes": "Sinfonia for two violins and continuo"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Sinfonia_in_A_minor_(Stradella,_Alessandro)",
+    "https://api.deezer.com/album/639205531"
+   ],
+   "note": "IMSLP title is 'Sinfonia A 2 Violini e Basso' and its parts are Violin 1, Violin 2, 'Cello and Continuo': one bass line, so the cello is folded into the continuo (curation brief). L'Accademico Formato 'Sinfonias for 2 Violins & Continuo' has the A minor Sinfonia, 5:17."
+  },
+  {
+   "id": 103527,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1879–80"
+   },
+   "sources": [
+    "https://www.hyperion-records.co.uk/dw.asp?dc=W1489_66317",
+    "https://imslp.org/wiki/String_Quartet_in_A_major,_Op.2_(Strauss,_Richard)",
+    "https://api.deezer.com/album/508270051"
+   ],
+   "note": "Hyperion notes: composed 1879-1880, premiered 14 March 1881; 1881 is the premiere and first edition, not composition. Delmé Quartet 29:30 (Hyperion 2023); IMSLP 30 min."
+  },
+  {
+   "id": 103528,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/584437612",
+    "https://api.deezer.com/album/578806831",
+    "https://api.deezer.com/album/11522790"
+   ],
+   "note": "TrV 53 is the A-major trio on Naxos/Capriccio; Amelia 16:15, Odeon 18:49, four mvts. Three commercial recordings."
+  },
+  {
+   "id": 103529,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/584437612",
+    "https://api.deezer.com/album/578806831",
+    "https://api.deezer.com/album/580119941"
+   ],
+   "note": "TrV 71 is the D-major trio; Amelia 26:02, Odeon 26:26, four mvts. Several recordings."
+  },
+  {
+   "id": 103530,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/702716631",
+    "https://api.deezer.com/album/594586582"
+   ],
+   "note": "Sextet TrV 279a: Capucon (DG 2025, live, 11:47) and Kammerphilharmonie Bremen (Pentatone, 11:24). Strauss's own music from the opera (not an arrangement); one-to-a-part playing of the DG disc not checked."
+  },
+  {
+   "id": 104075,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Septet,_K080_(Stravinsky,_Igor)",
+    "https://api.deezer.com/album/12753128",
+    "https://api.deezer.com/album/584940502"
+   ],
+   "note": "IMSLP: clarinet, bassoon, horn, violin, viola, cello, piano; 1952-53, 12 min; Stravinsky's own recording 11:50."
+  },
+  {
+   "id": 104076,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/583479352",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Igor_Stravinsky"
+   ],
+   "note": "Wikipedia/Stravinsky work list: suite for violin, clarinet and piano (1919); Eimer Trio 15:13 with five mvts as in the entry. Composer's own arrangement."
+  },
+  {
+   "id": 104077,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "http://www.kcatalog.org/index.php/browse-chapters/kcatalog/168-k006-pastorale",
+    "https://api.deezer.com/album/395550547",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Igor_Stravinsky"
+   ],
+   "note": "K Catalog K006: version for violin and winds made in the first half of 1933 (the 1923 version is for voice); Faust recording 2:58."
+  },
+  {
+   "id": 104078,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/578992941",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Igor_Stravinsky"
+   ],
+   "note": "Voice, four woodwinds (flute, oboe, clarinet, bassoon) and four strings, 1914; CBC disc 1:06+0:28+0:49+2:17 = 4:40."
+  },
+  {
+   "id": 104079,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/583039692",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Igor_Stravinsky"
+   ],
+   "note": "Mezzo-soprano, flute, clarinet and viola, 1953 (K081); SWR recording 2:43+1:57+2:45 = 7:25."
+  },
+  {
+   "id": 104080,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/In_memoriam_Dylan_Thomas,_K084_(Stravinsky,_Igor)",
+    "https://api.deezer.com/album/12753128",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Igor_Stravinsky"
+   ],
+   "note": "Tenor, string quartet, four trombones, 1954; IMSLP gives 7 min, Stravinsky's own recording 7:20."
+  },
+  {
+   "id": 105932,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/2_Trios,_Op.5_(Streitwolf,_Johann_Heinrich_Gottlieb)",
+    "https://itunes.apple.com/lookup?id=218972225&entity=song",
+    "https://musicbrainz.org/ws/2/recording/57b623f9-f492-46e5-835f-e96812bf2573"
+   ],
+   "note": "IMSLP Op. 5 No. 1: G major, flute, guitar, cello, four mvts with a theme and five variations. Trio Odino (Barbarossa) tracks 19-22 follow that plan (14:39). Apple does not name composers per track; the 2:56 Adagio matches a Streitwolf Adagio (2:57) in MusicBrainz, so the match is likely but indirect."
+  },
+  {
+   "id": 105444,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_D_major_(Stricker,_Augustin_Reinhard)",
+    "https://itunes.apple.com/lookup?id=1675089888&entity=song"
+   ],
+   "note": "IMSLP: flute (a second set of parts titles the flute 'Oboe'), violin, continuo; Adagio/Allegro/Rigaudon/Allegro. Berlin Classics 2023 'Sonata D major for two Violins & B.C.' has Adagio/Allegro/Rigaudon/Menuet, 6:25. The recording plays the flute part on violin; the match is by movements."
+  },
+  {
+   "id": 105189,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://musicbrainz.org/ws/2/release/35f79181-3a1d-4e72-9a50-cdc9e440c7c5",
+    "https://musicbrainz.org/ws/2/artist/051b928f-6393-49ad-98b4-28d0b99e3319",
+    "https://itunes.apple.com/lookup?id=1371634421&entity=song"
+   ],
+   "note": "MusicBrainz lists 'In Nomine No. 3 a 5' (2:06) as Strogers on Hespèrion XX (Alia Vox AV 9804); LeStrange Viols 'In nomine No. 3 à 5' 2:16 (Olde Focus 2018)."
+  },
+  {
+   "id": 105190,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://musicbrainz.org/ws/2/release/35f79181-3a1d-4e72-9a50-cdc9e440c7c5",
+    "https://musicbrainz.org/ws/2/artist/051b928f-6393-49ad-98b4-28d0b99e3319"
+   ],
+   "note": "MusicBrainz lists 'In Nomine No. 4 a 6' (2:49) as Strogers, on Hespèrion XX (Alia Vox AV 9804). Only the one recording found."
+  },
+  {
+   "id": 103344,
+   "verdict": "fixed",
+   "fixes": {
+    "minutes": 3
+   },
+   "sources": [
+    "https://imslp.org/wiki/Bagatela_(Suk,_Josef)",
+    "https://musicbrainz.org/ws/2/release/90dcf135-ba62-4707-b344-f68b88cc5ae0",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Josef_Suk"
+   ],
+   "note": "Supraphon 11 1533-2 (Suk Chamber Works Vol. 3) has it for flute, violin and piano, 3:06; Wikipedia: 1917. Minutes were null. IMSLP's 2 violins + piano matches the alternative."
+  },
+  {
+   "id": 103345,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1888 (rev. 1923)",
+    "notes": "Andante con moto from Suk's early D-minor quartet (1888); reworked as a separate piece in 1923"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Barcarolle_(Suk,_Josef)",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Josef_Suk",
+    "https://musicwebinternational.com/2024/01/suk-chamber-works-volume-3-supraphon/",
+    "https://api.deezer.com/album/1025758",
+    "https://api.deezer.com/album/580678171",
+    "https://musicbrainz.org/ws/2/release/90dcf135-ba62-4707-b344-f68b88cc5ae0"
+   ],
+   "note": "Wikipedia: Barcarolle in B-flat, 1923, a revision of the second movement of an early String Quartet in D minor (1888); Supraphon (3:22), Suk Quartet (2:57), Minguet '1923 version' record it on its own. Year given as both dates; notes said 'single movement of 1888'."
+  },
+  {
+   "id": 103346,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1902"
+   },
+   "sources": [
+    "https://imslp.org/wiki/Elegy,_Op.23_(Suk,_Josef)",
+    "https://musicbrainz.org/ws/2/work/80d3ff04-9d1e-4c6c-b02d-097e5ceac74c",
+    "https://musicbrainz.org/ws/2/recording/71461d34-4b55-4d0f-96f2-e9a0dc3a72d0",
+    "https://musicbrainz.org/ws/2/release/90dcf135-ba62-4707-b344-f68b88cc5ae0",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Josef_Suk"
+   ],
+   "note": "Original scoring holds (IMSLP: harp, harmonium, 3 violins, viola, 2 cellos; Wikipedia: violin solo, cello solo, string quartet, harmonium, harp). Floor found: Supraphon 11 1533-2, Josef Suk, F. Host, Suk Quartet, Hala, Kodadova, 6:05. Year 1902 added (Wikipedia). Suk's own piano-trio version (3 players, widely recorded) is a separate scoring not in the catalogue."
+  },
+  {
+   "id": 103347,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Meditation_on_the_Old_Czech_Chorale_'St._Wenceslas',_Op.35a_(Suk,_Josef)",
+    "https://api.deezer.com/album/580678171",
+    "https://api.deezer.com/album/1025758",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Josef_Suk"
+   ],
+   "note": "Op. 35a is the quartet version (1914); many recordings run 5:49-8:11, typical 6-7 min."
+  },
+  {
+   "id": 103348,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Piano_Quartet,_Op.1_(Suk,_Josef)",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Josef_Suk",
+    "https://api.deezer.com/search/track?q=Suk%20Piano%20Quartet%20in%20A%20minor%20Op.%201&limit=12"
+   ],
+   "note": "A minor, 1891, three mvts, 22 min (IMSLP); recorded by the Nash Ensemble, Domus, Suk Piano Quartet, Atos Trio."
+  },
+  {
+   "id": 106298,
+   "verdict": "fixed",
+   "fixes": {
+    "year": "1910"
+   },
+   "sources": [
+    "https://itunes.apple.com/lookup?id=808647645&entity=song",
+    "https://www.editionsilvertrust.com/suter-string-qt2.htm",
+    "https://api.deezer.com/album/587776332"
+   ],
+   "note": "Beethoven Quartet (Musiques Suisses 2014) 10:17+11:41 = 21:58, two mvts, key and Op. 10 as in the title. Edition Silvertrust says it dates from 1910 (IMSLP list: 1910?); year was blank."
+  },
+  {
+   "id": 104423,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://imslp.org/wiki/Trio_Sonata_in_D_major_(Szarzy%C5%84ski,_Stanis%C5%82aw_Sylwester)",
+    "https://api.deezer.com/album/390641027",
+    "https://api.deezer.com/album/578960381"
+   ],
+   "note": "IMSLP: 'Sonata a due violini con basso pro organo', 1706, seven sections; Intemperata 5:56, Kosendiak 5:42."
+  },
+  {
+   "id": 107220,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/62208622",
+    "https://api.deezer.com/album/503989411",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_Germaine_Tailleferre"
+   ],
+   "note": "Piano Trio (1916-17, rev. 1978), four mvts; Karenine 13:24, Morgenstern 13:48. Wikipedia's work list shows only a '1978 Trio'; web-search results (Earsense, Idagio, program notes) give 1916-17, rev. 1978."
+  },
+  {
+   "id": 108324,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/6688629",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_T%C5%8Dru_Takemitsu"
+   ],
+   "note": "Wikipedia: Le Son-calligraphie I, II (1958) and III (1960), each for 4 violins, 2 violas, 2 cellos; DG 'Garden Rain' 3:14+3:53+2:25. The DG tracks credit a conductor (Wakasugi), so one-to-a-part is not shown."
+  },
+  {
+   "id": 108325,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/496219911",
+    "https://api.deezer.com/album/538512352",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_T%C5%8Dru_Takemitsu"
+   ],
+   "note": "Landscape (1960), 2 violins, viola, cello; Lotus 7:55, BIS (as Landscape I) 7:35."
+  },
+  {
+   "id": 108326,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/40225431",
+    "https://api.deezer.com/album/643779",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_T%C5%8Dru_Takemitsu"
+   ],
+   "note": "Quatrain II (1977) for clarinet, violin, cello, piano; Tashi 16:31."
+  },
+  {
+   "id": 108327,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/40225431",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_T%C5%8Dru_Takemitsu"
+   ],
+   "note": "Waterways, 1977-78, violin, cello, clarinet, piano, 2 harps, 2 vibraphones; Tashi (as Water Ways) 9:51."
+  },
+  {
+   "id": 108328,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/538512352",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_T%C5%8Dru_Takemitsu"
+   ],
+   "note": "A Way a Lone (1980) for string quartet; the string-orchestra version is A Way a Lone II (1981); BIS 13:42."
+  },
+  {
+   "id": 108329,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/217802712",
+    "https://api.deezer.com/album/248536812",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_T%C5%8Dru_Takemitsu"
+   ],
+   "note": "Flute, viola, harp, 1992; Telarc 12:32, Antarctica 12:56."
+  },
+  {
+   "id": 108330,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://api.deezer.com/album/538512352",
+    "https://api.deezer.com/album/51018782",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_T%C5%8Dru_Takemitsu"
+   ],
+   "note": "Between Tides, 1993, violin, cello, piano; BIS 15:15, Trio Isimsiz 15:21."
+  },
+  {
+   "id": 108331,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://musicbrainz.org/ws/2/recording/6d006f6d-afcb-4f1c-bb2d-fd1dfa5c8904",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_T%C5%8Dru_Takemitsu"
+   ],
+   "note": "Entre-temps (1986), oboe and string quartet; Hulse/Arditti 11:13 (Complete Takemitsu Edition 2)."
+  },
+  {
+   "id": 108332,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://musicbrainz.org/ws/2/recording/d7d5eaa9-b254-4dae-84f0-a7a6bcd89cfc",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_T%C5%8Dru_Takemitsu"
+   ],
+   "note": "Sonant (1965): 2 flutes, violin, cello, guitar, 2 bandoneons (Wikipedia); the recording credits 2 flutes, 2 bandoneons, guitar, violin, cello, 6:42."
+  },
+  {
+   "id": 108333,
+   "verdict": "confirmed",
+   "fixes": {},
+   "sources": [
+    "https://musicbrainz.org/ws/2/recording/90cce813-ea8a-45c4-9def-af290862d88e",
+    "https://api.deezer.com/album/643779",
+    "https://en.wikipedia.org/wiki/List_of_compositions_by_T%C5%8Dru_Takemitsu"
+   ],
+   "note": "Valeria (1965, 1969): 2 piccolos, violin, cello, guitar, electronic organ (Wikipedia); DG 6:23, 6:28 on MusicBrainz."
+  }
+ ],
+ "note": "11 fixed: Strauss Op. 2 year (1879-80, not 1880-81), Suk Barcarolle (1888, rev. 1923) and Elegy (1902) years, Suter year (1910), Stoehr suite year, Still aka (Walker's 'Lyric' removed) and Danzas notes/minutes, Stoelzel Brussels title (IGS 168 unverified), Stradella A-minor sinfonia scoring (cello folded into continuo), and null minutes for Stradella D-minor sonata and Suk Bagatelle. Doubt: Stradella 'Sinfonia a tre' (several works of that name, no key). No rejects. Suk's own piano-trio version of the Elegy (Op. 23, widely recorded) is not in the catalogue and could be added as its own entry. Several Takemitsu/Stravinsky/Strogers checks rest on MusicBrainz and Wikipedia work lists plus Deezer/Apple track data."
+}
