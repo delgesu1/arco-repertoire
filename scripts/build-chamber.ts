@@ -7,7 +7,8 @@
  *   data/source/levels.json       level names / exam equivalents
  *   data/chamber/recordings-judged.json   YouTube picks for chamber-only works (scripts/chamber/recordings.ts); optional
  *
- * Writes data/build/chamber.json (server) and public/data/chamber.json (client). Run it after scripts/build-data.ts.
+ * Writes data/build/chamber.json (server), public/data/chamber.json (client) and the chamber advisor's catalogue
+ * (lib/advisor/chamber-catalogue-text.ts). Run it after scripts/build-data.ts.
  * A work also in the violin catalogue (violinId) keeps its violin id, address and recording, so it is one entry in both.
  *
  *   npx tsx scripts/build-chamber.ts
@@ -15,6 +16,7 @@
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { FORM_CODES, hardestCode, scoringCode } from "../lib/advisor/chamber-codes";
 import type { ChamberCatalogue, ChamberComposer, ChamberPiece, ChamberWork, InstrumentKey } from "../lib/chamber/types";
 import { FORMATIONS, FORMS, INSTRUMENTS } from "../lib/chamber/vocab";
 import type { Catalogue, EraKey, Piece } from "../lib/types";
@@ -29,11 +31,13 @@ const violin = (read("data/build/catalogue.json") as Catalogue).pieces;
 const levels = read("data/source/levels.json");
 interface Judged {
   confidence: "high" | "medium" | "low" | "none";
-  video: { id: string; title: string | null; channel: string | null; seconds: number | null } | null;
+  video: { id: string; title: string | null; channel: string | null; seconds: number | null; views?: number | null } | null;
   alternates: string[];
   compilation?: boolean;
 }
 const judged: Record<string, Judged> = existsSync(join(ROOT, "data/chamber/recordings-judged.json")) ? read("data/chamber/recordings-judged.json") : {};
+// the violin section's picks, for the views of the works listed in both sections
+const violinJudged: Record<string, Judged> = existsSync(join(ROOT, "data/recordings-judged.json")) ? read("data/recordings-judged.json") : {};
 const recordingOf = (id: number): Piece["recording"] => {
   const j = judged[String(id)];
   return j?.video && (j.confidence === "high" || j.confidence === "medium")
@@ -157,6 +161,76 @@ const json = JSON.stringify(catalogue);
 for (const dir of ["data/build", "public/data"]) mkdirSync(join(ROOT, dir), { recursive: true });
 writeFileSync(join(ROOT, "data/build/chamber.json"), json);
 writeFileSync(join(ROOT, "public/data/chamber.json"), json);
+// ── the chamber advisor's catalogue ────────────────────────────────────
+// Its cached prompt lists the best-known works, one compact line each, under a character budget that keeps it below Haiku's
+// 100K-token price step (as scripts/build-data.ts does for the violin advisor); every work stays reachable through its tools.
+// Renown: the "well-known" mark, an approved benchmark, and the views of the work's recording on the site.
+const PROMPT_CHARS = Number(process.env.CHAMBER_PROMPT_CHARS ?? 110_000);
+const workOf = new Map(works.map((w) => [w.violinId ?? w.id, w]));
+const views = (p: ChamberPiece) =>
+  p.recording ? ((p.sections.includes("violin") ? violinJudged : judged)[String(p.id)]?.video?.views ?? 0) : 0;
+const renown = (p: ChamberPiece) => {
+  const v = views(p);
+  return (
+    (p.popularity === "well-known" ? 4 : 0) +
+    (workOf.get(p.id)?.benchmark === "approved" ? 1 : 0) +
+    (v >= 1_000_000 ? 3 : v >= 300_000 ? 2.5 : v >= 100_000 ? 2 : v >= 30_000 ? 1.5 : v >= 10_000 ? 1 : v >= 3_000 ? 0.5 : 0)
+  );
+};
+const byRenown = [...pieces].sort((a, b) => renown(b) - renown(a) || a.id - b.id);
+const line = (p: ChamberPiece) =>
+  [
+    p.id,
+    p.title,
+    p.level,
+    scoringCode(p.chamber),
+    hardestCode(p.chamber.hardestPart),
+    p.minutes ?? "",
+    FORM_CODES[p.chamber.form],
+    /\bin [A-G](?:-flat|-sharp)? (?:major|minor)\b/.test(p.title) ? "" : p.mode === "major" ? "maj" : p.mode === "minor" ? "min" : "",
+    p.popularity === "well-known" ? "W" : "",
+  ]
+    .join("|")
+    .replace(/\|+$/, "");
+const listed = new Set<number>();
+{
+  let chars = 0;
+  const withHeader = new Set<string>();
+  const add = (p: ChamberPiece) => {
+    if (listed.has(p.id)) return;
+    const cost = line(p).length + 1 + (withHeader.has(p.composer) ? 0 : p.composer.length + 12);
+    if (chars + cost > PROMPT_CHARS) return;
+    chars += cost;
+    withHeader.add(p.composer);
+    listed.add(p.id);
+  };
+  // every ensemble gets its best-known works in first (viol consorts and continuo sonatas have few views), then the rest by renown
+  for (const f of FORMATIONS) byRenown.filter((p) => p.chamber.formation === f.key).slice(0, 40).forEach(add);
+  byRenown.forEach(add);
+}
+const listedBy = new Map<string, ChamberPiece[]>();
+const composerTotals = new Map<string, number>();
+for (const p of [...pieces].sort((a, b) => a.composer.localeCompare(b.composer) || a.level - b.level || a.title.localeCompare(b.title))) {
+  composerTotals.set(p.composer, (composerTotals.get(p.composer) ?? 0) + 1);
+  if (listed.has(p.id)) listedBy.set(p.composer, [...(listedBy.get(p.composer) ?? []), p]);
+}
+const catalogueText = [...listedBy.values()]
+  .map((ps) => {
+    const c = ps[0];
+    const more = composerTotals.get(c.composer)! > ps.length ? ` — ${ps.length} of ${composerTotals.get(c.composer)} listed` : "";
+    return `# ${c.composer}${c.gender === "F" ? " (woman)" : ""}${more}\n${ps.map(line).join("\n")}`;
+  })
+  .join("\n");
+writeFileSync(
+  join(ROOT, "lib/advisor/chamber-catalogue-text.ts"),
+  `// Generated by scripts/build-chamber.ts — do not edit.\nexport const CHAMBER_CATALOGUE_VERSION = ${JSON.stringify(version)};\n` +
+    `export const CHAMBER_TOTAL = ${pieces.length};\nexport const CHAMBER_LISTED = ${listed.size};\n` +
+    `/** every work's id, best-known first (the order the advisor's tools list their matches in) */\n` +
+    `export const CHAMBER_BY_RENOWN: number[] = ${JSON.stringify(byRenown.map((p) => p.id))};\n` +
+    `export const CHAMBER_CATALOGUE_TEXT = ${JSON.stringify(catalogueText)};\n`,
+);
+console.log(`chamber advisor prompt lists ${listed.size} of ${pieces.length} works (${catalogueText.length} chars)`);
+
 console.log(
   `chamber ${version}: ${pieces.length} works (${pieces.filter((p) => p.sections.includes("violin")).length} also in the violin catalogue), ` +
     `${(json.length / 1024).toFixed(0)} KB`,

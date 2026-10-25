@@ -1,7 +1,10 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { createHash, createHmac, timingSafeEqual } from "node:crypto";
+import { buildChamberSystem } from "@/lib/advisor/chamber-prompt";
+import { CHAMBER_TOOLS, runChamberTool } from "@/lib/advisor/chamber-tools";
 import { MODEL, buildSystem } from "@/lib/advisor/prompt";
-import { TOOLS, runTool, type UiEvent } from "@/lib/advisor/tools";
+import type { AdvisorKit, UiEvent } from "@/lib/advisor/shared";
+import { TOOLS, runTool } from "@/lib/advisor/tools";
 
 export const maxDuration = 120;
 
@@ -31,7 +34,13 @@ function verify(s: string, sig: string) {
   return a.length === b.length && timingSafeEqual(a, b);
 }
 
-type Body = { history?: string; sig?: string; message?: string; context?: string };
+type Body = { history?: string; sig?: string; message?: string; context?: string; section?: string };
+
+// the violin list's advisor, and the chamber list's (/chamber), which knows its own catalogue and matches works to a group
+const KITS: Record<"violin" | "chamber", AdvisorKit> = {
+  violin: { buildSystem, tools: TOOLS, runTool },
+  chamber: { buildSystem: buildChamberSystem, tools: CHAMBER_TOOLS, runTool: runChamberTool },
+};
 
 export async function POST(req: Request) {
   if (!process.env.ANTHROPIC_API_KEY) {
@@ -49,9 +58,14 @@ export async function POST(req: Request) {
   const text = (body.message ?? "").trim().slice(0, MAX_MESSAGE);
   if (!text) return Response.json({ error: "Empty message" }, { status: 400 });
 
+  const section = body.section === "chamber" ? "chamber" : "violin";
+  const kit = KITS[section];
+  // a chamber conversation is signed with its section, so it can't be continued by the violin advisor (or the other way round)
+  const signed = (h: string) => (section === "chamber" ? `chamber:${h}` : h);
+
   let history: Anthropic.MessageParam[] = [];
   if (body.history) {
-    if (body.history.length > MAX_HISTORY_BYTES || !verify(body.history, body.sig ?? "")) {
+    if (body.history.length > MAX_HISTORY_BYTES || !verify(signed(body.history), body.sig ?? "")) {
       return Response.json({ error: "reset", message: "Let's start a fresh conversation." }, { status: 409 });
     }
     history = JSON.parse(body.history);
@@ -78,8 +92,8 @@ export async function POST(req: Request) {
             {
               model: MODEL,
               max_tokens: 16000,
-              system: buildSystem(),
-              tools: TOOLS,
+              system: kit.buildSystem(),
+              tools: kit.tools,
               tool_choice: { type: "auto" },
               thinking: { type: "adaptive", display: "summarized" },
               output_config: { effort: "xhigh" },
@@ -118,7 +132,7 @@ export async function POST(req: Request) {
           const results: Anthropic.ToolResultBlockParam[] = [];
           let endTurn = false;
           for (const t of toolUses) {
-            const out = await runTool(t.name, t.input);
+            const out = await kit.runTool(t.name, t.input);
             if (out.status) send("status", { text: out.status });
             if (out.ui) send("ui", out.ui satisfies UiEvent);
             if (out.endTurn) endTurn = true;
@@ -143,12 +157,12 @@ export async function POST(req: Request) {
       }
       // never log message content; usage only
       console.log(
-        `advisor turn: ${Date.now() - started}ms in=${usage.input} cacheRead=${usage.cacheRead} cacheWrite=${usage.cacheWrite} out=${usage.output} ctx=${usage.lastInput}`,
+        `advisor turn (${section}): ${Date.now() - started}ms in=${usage.input} cacheRead=${usage.cacheRead} cacheWrite=${usage.cacheWrite} out=${usage.output} ctx=${usage.lastInput}`,
       );
       const serialized = JSON.stringify(messages);
       send("done", {
         history: serialized,
-        sig: sign(serialized),
+        sig: sign(signed(serialized)),
         nearLimit: usage.lastInput > SOFT_TOKEN_LIMIT,
       });
       controller.close();

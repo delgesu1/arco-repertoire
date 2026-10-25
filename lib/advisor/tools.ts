@@ -2,9 +2,9 @@ import type Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { getPiece, pieces } from "../catalogue";
 import { EMPTY_FILTERS, matches, sortPieces, type Filters } from "../filter";
-import { fold } from "../search";
 import { CHARACTER, ERAS, SETTINGS, TYPES } from "../vocab";
 import type { Piece } from "../types";
+import { askUserTool, runAskUser, runShowResults, showResultsTool, type ToolOutcome, type UiEvent } from "./shared";
 
 const typeKeys = TYPES.map((t) => t.key);
 const settingKeys = SETTINGS.map((s) => s.key);
@@ -47,34 +47,7 @@ export const TOOLS: Anthropic.Tool[] = [
       additionalProperties: false,
     },
   },
-  {
-    name: "show_results",
-    description:
-      "Show your recommended works in the site's main results list, each with a one-line reason. Use whenever you recommend specific works.",
-    input_schema: {
-      type: "object",
-      properties: {
-        title: { type: "string", description: "short heading, e.g. 'Next steps after the Accolay'" },
-        items: {
-          type: "array",
-          minItems: 1,
-          maxItems: 12,
-          items: {
-            type: "object",
-            properties: {
-              id: { type: "integer" },
-              title_hint: { type: "string", description: "the work's title as written in the catalogue" },
-              reason: { type: "string", description: "one short line: what it develops, its character, or why it fits (the row already shows level and length)" },
-            },
-            required: ["id", "title_hint", "reason"],
-            additionalProperties: false,
-          },
-        },
-      },
-      required: ["title", "items"],
-      additionalProperties: false,
-    },
-  },
+  showResultsTool("Next steps after the Accolay"),
   {
     name: "set_filters",
     description: "Set the site's browse filters for the user (replaces current filters). Use for browsing requests.",
@@ -98,19 +71,7 @@ export const TOOLS: Anthropic.Tool[] = [
       additionalProperties: false,
     },
   },
-  {
-    name: "ask_user",
-    description: "Ask the user one short question with 2–5 tappable answer options. Ends your turn.",
-    input_schema: {
-      type: "object",
-      properties: {
-        question: { type: "string" },
-        options: { type: "array", items: { type: "string" }, minItems: 2, maxItems: 5 },
-      },
-      required: ["question", "options"],
-      additionalProperties: false,
-    },
-  },
+  askUserTool,
 ].map((t) => ({ ...t, eager_input_streaming: true })) as Anthropic.Tool[];
 
 // ── input validation ─────────────────────────────────────────────────
@@ -135,16 +96,6 @@ const FilterInput = z
   })
   .strict();
 const IdsInput = z.object({ ids: z.array(z.number().int()).min(1).max(10) }).strict();
-const ShowInput = z
-  .object({
-    title: z.string().max(200),
-    items: z
-      .array(z.object({ id: z.number().int(), title_hint: z.string(), reason: z.string().max(400) }).strict())
-      .min(1)
-      .max(12),
-  })
-  .strict();
-const AskInput = z.object({ question: z.string().max(300), options: z.array(z.string().max(80)).min(2).max(5) }).strict();
 
 // ── helpers ──────────────────────────────────────────────────────────
 const compact = (p: Piece) =>
@@ -168,20 +119,7 @@ function toFilters(i: z.infer<typeof FilterInput>): { f: Filters; lo: number; hi
   return { f, lo: i.level_min ?? i.level ?? 1, hi: i.level_max ?? i.level ?? 10 };
 }
 
-const words = (s: string) => new Set(fold(s).split(/[^a-z0-9]+/).filter((w) => w.length > 1));
-function titleMatches(p: Piece, hint: string) {
-  const a = words(`${p.title} ${p.composerName}`);
-  const b = [...words(hint)];
-  if (!b.length) return false;
-  return b.filter((w) => a.has(w)).length / b.length >= 0.6;
-}
-
-export type UiEvent =
-  | { kind: "results"; title: string; items: { id: number; reason: string }[] }
-  | { kind: "filters"; params: Record<string, string> }
-  | { kind: "question"; question: string; options: string[] };
-
-export type ToolOutcome = { result: string; isError?: boolean; ui?: UiEvent; endTurn?: boolean; status?: string };
+export type { ToolOutcome, UiEvent };
 
 export async function runTool(name: string, input: unknown): Promise<ToolOutcome> {
   switch (name) {
@@ -236,26 +174,8 @@ export async function runTool(name: string, input: unknown): Promise<ToolOutcome
       });
       return { result: out.join("\n"), status: "Reading the details…" };
     }
-    case "show_results": {
-      const i = ShowInput.safeParse(input);
-      if (!i.success) return { result: `Invalid input: ${i.error.message}`, isError: true };
-      const bad = i.data.items.filter((it) => {
-        const p = getPiece(it.id);
-        return !p || !titleMatches(p, it.title_hint);
-      });
-      if (bad.length) {
-        return {
-          isError: true,
-          result:
-            "These ids don't match their titles — check the catalogue and call show_results again:\n" +
-            bad.map((b) => `${b.id} ("${b.title_hint}") → ${getPiece(b.id) ? `id ${b.id} is "${getPiece(b.id)!.title}"` : "no such id"}`).join("\n"),
-        };
-      }
-      return {
-        result: "Shown to the user in the results list.",
-        ui: { kind: "results", title: i.data.title, items: i.data.items.map((x) => ({ id: x.id, reason: x.reason })) },
-      };
-    }
+    case "show_results":
+      return runShowResults(input, getPiece);
     case "set_filters": {
       const i = FilterInput.safeParse(input);
       if (!i.success) return { result: `Invalid input: ${i.error.message}`, isError: true };
@@ -276,15 +196,8 @@ export async function runTool(name: string, input: unknown): Promise<ToolOutcome
       if (d.women_composers) params.g = "F";
       return { result: "Filters applied; the user now sees that list.", ui: { kind: "filters", params } };
     }
-    case "ask_user": {
-      const i = AskInput.safeParse(input);
-      if (!i.success) return { result: `Invalid input: ${i.error.message}`, isError: true };
-      return {
-        result: "The question is shown to the user; their answer will arrive as the next message.",
-        ui: { kind: "question", question: i.data.question, options: i.data.options },
-        endTurn: true,
-      };
-    }
+    case "ask_user":
+      return runAskUser(input);
     default:
       return { result: `Unknown tool ${name}`, isError: true };
   }

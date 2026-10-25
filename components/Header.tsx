@@ -39,7 +39,7 @@ export function Header() {
   const router = useRouter();
   const sp = useSearchParams();
   const onHome = pathname === "/";
-  // the chamber section has its own list (/chamber) and piece pages (ids from 100001), and no advisor yet
+  // the chamber section has its own list (/chamber), piece pages (ids from 100001) and advisor
   const chamber = isChamberPath(pathname ?? "/");
   const onList = onHome || pathname === "/chamber";
   const listPath = chamber ? "/chamber" : "/";
@@ -149,18 +149,14 @@ export function Header() {
           <a className="byline" href="https://www.kurganov.org" target="_blank" rel="noopener">
             Created by <b>Daniel Kurganov</b>
           </a>
-          {!chamber && (
-            <button
-              className="btn-ink ask-btn"
-              onClick={() =>
-                onHome
-                  ? window.dispatchEvent(new Event("advisor:open"))
-                  : router.push("/?ask=1")
-              }
-            >
-              Ask
-            </button>
-          )}
+          <button
+            className="btn-ink ask-btn"
+            onClick={() =>
+              pathname === listPath ? window.dispatchEvent(new Event("advisor:open")) : router.push(`${listPath}?ask=1`)
+            }
+          >
+            Ask
+          </button>
           <ThemeToggle />
         </div>
       </div>

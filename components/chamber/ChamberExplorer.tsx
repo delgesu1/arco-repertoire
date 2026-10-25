@@ -21,6 +21,7 @@ import { groupResults, sortPieces } from "@/lib/filter";
 import type { IndexedPiece } from "@/lib/search";
 import type { LevelInfo } from "@/lib/types";
 import { writeUrl } from "@/lib/url-state";
+import { AskPanel, type AskCopy, type AskRequest } from "../AskPanel";
 import type { Counts } from "../Explorer";
 import { LevelsInfo } from "../LevelsInfo";
 import { Results, type RowStyle } from "../Results";
@@ -38,7 +39,22 @@ const loadCatalogue = (version: string) =>
 
 const FILTER_PARAMS = ["q", "form", "ens", "with", "lv", "exact", "mode", "pace", "ch", "pop", "min", "max", "era", "g"];
 
-/** The /chamber page below the header: the violin home page's Explorer for the chamber catalogue (no advisor yet). */
+const CHAMBER_ASK: AskCopy = {
+  section: "chamber",
+  store: "advisor-chamber-v1",
+  starters: [
+    "We’re violin, cello and piano. What could we play, and what if a violist joined?",
+    "A string quartet piece for a wedding reception, nothing too hard",
+    "Something dark and dramatic for a strong amateur piano quintet",
+    "Two violins, a cello and a harpsichord: Baroque ideas around level 3",
+  ],
+  dock: "Tell me who’s in your group and what you’re in the mood for, and I’ll find music you can all play!",
+  dockPlaceholder: "We’re a violin, cello and piano…",
+  intro:
+    "Tell me who’s in your group, what you’ve played together, or the mood or occasion you have in mind, or ask anything about chamber music. My picks appear in the main list.",
+};
+
+/** The /chamber page below the header: the violin home page's Explorer for the chamber catalogue, with its own advisor. */
 export function ChamberExplorer({
   version,
   levels,
@@ -57,6 +73,9 @@ export function ChamberExplorer({
   const [autoplay, setAutoplay] = useState(false);
   const pushedSheet = useRef(false);
   const hasPage = useMemo(() => new Set(composerPages), [composerPages]);
+  const [picks, setPicks] = useState<{ title: string; items: { piece: ChamberPiece; reason: string }[] } | null>(null);
+  const [askRequest, setAskRequest] = useState<AskRequest | null>(null);
+  const ask = useCallback((text: string) => setAskRequest({ text, nonce: Date.now() }), []);
 
   useEffect(() => {
     loadCatalogue(version).then((c) => setData({ pieces: c.pieces, index: indexChamber(c.pieces) }));
@@ -131,6 +150,39 @@ export function ChamberExplorer({
   const byId = useMemo(() => new Map(all.map((p) => [p.id, p])), [all]);
   const openPieceData = openId ? (byId.get(openId) ?? null) : null;
 
+  // what the user is looking at, for the advisor ("filters: string quartets, around level 4; viewing [[100021]] …")
+  const getContext = useCallback(() => {
+    const params = new URLSearchParams(window.location.search);
+    const cur = chamberFiltersFromParams(params);
+    const bits = [
+      cur.q && `search "${cur.q}"`,
+      cur.form && FORMS.find((x) => x.key === cur.form)?.label.toLowerCase(),
+      cur.formation && FORMATIONS.find((x) => x.key === cur.formation)?.label.toLowerCase(),
+      ...cur.instruments.map((k) => `includes ${instrumentName(k).toLowerCase()}`),
+      cur.level != null && `level ${cur.exact ? "" : "around "}${cur.level}`,
+      cur.mode,
+      cur.pace,
+      ...cur.character,
+      cur.popularity,
+      cur.era,
+    ].filter(Boolean);
+    const op = byId.get(Number(params.get("piece")));
+    return [bits.length ? `filters: ${bits.join(", ")}` : "", op ? `viewing [[${op.id}]] ${op.composerName}: ${op.title}` : ""]
+      .filter(Boolean)
+      .join("; ");
+  }, [byId]);
+  const applyAdvisorFilters = useCallback((params: Record<string, string>) => {
+    const p = new URLSearchParams();
+    for (const [k, v] of Object.entries(params)) p.set(k, v);
+    writeUrl(p);
+    setPicks(null);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+  const showPicks = useCallback((r: { title: string; items: { piece: ChamberPiece; reason: string }[] }) => {
+    setPicks(r);
+    requestAnimationFrame(() => document.getElementById("advisor-picks")?.scrollIntoView({ behavior: "smooth", block: "start" }));
+  }, []);
+
   const rowStyle = useMemo<RowStyle<ChamberPiece>>(
     () => ({
       className: "ch",
@@ -200,6 +252,24 @@ export function ChamberExplorer({
         example="“Trout”"
       />
 
+      {picks && (
+        <section id="advisor-picks" className="picks" aria-label="Suggested by the advisor">
+          <div className="rhead">
+            <h2>
+              {picks.title} <span>· suggested by the advisor</span>
+            </h2>
+            <button className="clear-all" onClick={() => setPicks(null)}>
+              Clear suggestions
+            </button>
+          </div>
+          <div className="list ch">
+            {picks.items.map(({ piece, reason }) => (
+              <ChamberRow key={piece.id} piece={piece} note={reason} onOpen={openPiece} onPlay={(x) => openPiece(x, true)} />
+            ))}
+          </div>
+        </section>
+      )}
+
       <Results
         loading={!data}
         rows={rows}
@@ -223,9 +293,26 @@ export function ChamberExplorer({
             levels={levels}
             composerLink={hasPage.has(openPieceData.composerSlug)}
             onOpen={openPiece}
+            onAsk={(p) =>
+              ask(
+                `Tell me about [[${p.id}]] ${p.composerName}: ${p.title}. What is it like to play, which part is the hardest, and what could a group play before and after it?`,
+              )
+            }
             autoplay={autoplay}
           />
         </SheetFrame>
+      )}
+
+      {data && (
+        <AskPanel
+          copy={CHAMBER_ASK}
+          byId={byId}
+          request={askRequest}
+          getContext={getContext}
+          onResults={showPicks}
+          onFilters={applyAdvisorFilters}
+          onOpenPiece={(p) => openPiece(p)}
+        />
       )}
     </>
   );

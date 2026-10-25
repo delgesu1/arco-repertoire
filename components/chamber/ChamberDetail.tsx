@@ -18,6 +18,7 @@ export function ChamberDetail({
   levels,
   composerLink,
   onOpen,
+  onAsk,
   autoplay,
 }: {
   piece: ChamberPiece;
@@ -26,6 +27,7 @@ export function ChamberDetail({
   /** whether the composer has a page that lists this work */
   composerLink: boolean;
   onOpen?: (p: ChamberPiece) => void;
+  onAsk?: (p: ChamberPiece) => void;
   autoplay?: boolean;
 }) {
   const c = p.chamber;
@@ -122,6 +124,11 @@ export function ChamberDetail({
           <a className="link-underline" href={imslpLink(p.imslpPage)} target="_blank" rel="noreferrer">
             Score on IMSLP <ExternalIcon />
           </a>
+        )}
+        {onAsk && (
+          <button className="link-underline" onClick={() => onAsk(p)}>
+            Ask about this piece
+          </button>
         )}
         {fix && (
           <a className="link-underline" href={fix} target="_blank" rel="noreferrer">

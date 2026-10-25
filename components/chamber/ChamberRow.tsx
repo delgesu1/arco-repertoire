@@ -41,6 +41,7 @@ export function ChamberRow({
   showComposer = true,
   maxTags = 3,
   member = false,
+  note,
 }: {
   piece: ChamberPiece;
   onOpen?: (p: ChamberPiece) => void;
@@ -49,6 +50,8 @@ export function ChamberRow({
   maxTags?: number;
   /** an entry inside an opened set: short name, compact */
   member?: boolean;
+  /** the advisor's reason for suggesting the work */
+  note?: string;
 }) {
   const tags = tagList(p);
   const visible = [...tags.filter((t) => !t.pop).slice(0, maxTags - (tags.some((t) => t.pop) ? 1 : 0)), ...tags.filter((t) => t.pop)];
@@ -72,6 +75,7 @@ export function ChamberRow({
             <Scoring c={p.chamber} />
           </div>
         )}
+        {note && <div className="note">{note}</div>}
       </div>
       <div className="meta">
         {!member && (

@@ -1,33 +1,47 @@
 "use client";
 
 import { Fragment, useCallback, useEffect, useRef, useState } from "react";
-import type { Piece } from "@/lib/types";
+import type { UiEvent } from "@/lib/advisor/shared";
+import type { PieceBase } from "@/lib/types";
 import { writeUrl } from "@/lib/url-state";
 import { MinimizeIcon } from "./icons";
-
-type UiEvent =
-  | { kind: "results"; title: string; items: { id: number; reason: string }[] }
-  | { kind: "filters"; params: Record<string, string> }
-  | { kind: "question"; question: string; options: string[] };
 
 type Turn =
   | { role: "user"; text: string }
   | { role: "assistant"; text: string; thinking: string; status: string[]; question?: { question: string; options: string[] }; error?: string; done: boolean };
 
-const STORE = "advisor-v1";
-const STARTERS = [
-  "My student just finished the Accolay concerto. What next?",
-  "Something lyrical and unaccompanied around level 6",
-  "A recital opener under 4 minutes, not too hard",
-  "Lesser-known pieces by women composers, level 3–5",
-];
+/** What the panel says, per section: the violin list's advisor or the chamber list's. */
+export interface AskCopy {
+  section: "violin" | "chamber";
+  store: string; // sessionStorage key for the conversation
+  starters: string[];
+  dock: string; // the dock's line before any conversation
+  dockPlaceholder: string;
+  intro: string;
+}
+
+export const VIOLIN_ASK: AskCopy = {
+  section: "violin",
+  store: "advisor-v1",
+  starters: [
+    "My student just finished the Accolay concerto. What next?",
+    "Something lyrical and unaccompanied around level 6",
+    "A recital opener under 4 minutes, not too hard",
+    "Lesser-known pieces by women composers, level 3–5",
+  ],
+  dock: "Tell me what you’ve played or what kind of vibe you’re looking for, and I’ll suggest some pieces!",
+  dockPlaceholder: "I just finished the Accolay concerto…",
+  intro:
+    "Tell me what you or your student has played, what you’re looking for, or ask anything about the repertoire. My picks appear in the main list.",
+};
 
 export interface AskRequest {
   text: string;
   nonce: number;
 }
 
-export function AskPanel({
+export function AskPanel<P extends PieceBase>({
+  copy = VIOLIN_ASK,
   byId,
   request,
   getContext,
@@ -35,17 +49,18 @@ export function AskPanel({
   onFilters,
   onOpenPiece,
 }: {
-  byId: Map<number, Piece>;
+  copy?: AskCopy;
+  byId: Map<number, P>;
   request: AskRequest | null;
   getContext: () => string;
-  onResults: (r: { title: string; items: { piece: Piece; reason: string }[] }) => void;
+  onResults: (r: { title: string; items: { piece: P; reason: string }[] }) => void;
   onFilters: (params: Record<string, string>) => void;
-  onOpenPiece: (p: Piece) => void;
+  onOpenPiece: (p: P) => void;
 }) {
   // a conversation from this browser session (the panel only mounts client-side, after the catalogue loads)
   const [saved] = useState<{ turns?: Turn[]; history?: { history: string; sig: string } | null } | null>(() => {
     try {
-      return JSON.parse(sessionStorage.getItem(STORE) ?? "null");
+      return JSON.parse(sessionStorage.getItem(copy.store) ?? "null");
     } catch {
       return null;
     }
@@ -79,9 +94,9 @@ export function AskPanel({
 
   useEffect(() => {
     try {
-      sessionStorage.setItem(STORE, JSON.stringify({ turns: turns.filter((t) => t.role === "user" || t.done), history: history.current }));
+      sessionStorage.setItem(copy.store, JSON.stringify({ turns: turns.filter((t) => t.role === "user" || t.done), history: history.current }));
     } catch {}
-  }, [turns]);
+  }, [turns, copy.store]);
   useEffect(() => {
     scroller.current?.scrollTo({ top: scroller.current.scrollHeight, behavior: "smooth" });
   }, [turns]);
@@ -121,7 +136,7 @@ export function AskPanel({
         const res = await fetch("/api/advisor", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ message: t, context: getContext(), ...(history.current ?? {}) }),
+          body: JSON.stringify({ message: t, context: getContext(), section: copy.section, ...(history.current ?? {}) }),
           signal: ctrl.signal,
         });
         if (!res.ok || !res.body) {
@@ -172,7 +187,7 @@ export function AskPanel({
         if (!openRef.current) setUnread(true);
       }
     },
-    [busy, byId, getContext, onFilters, onResults],
+    [busy, byId, getContext, onFilters, onResults, copy.section],
   );
 
   useEffect(() => {
@@ -219,7 +234,7 @@ export function AskPanel({
                 ? "Your answer is ready."
                 : turns.length
                   ? "Pick up where you left off, or ask something new."
-                  : "Tell me what you’ve played or what kind of vibe you’re looking for, and I’ll suggest some pieces!"}
+                  : copy.dock}
           </p>
           <form
             onSubmit={(e) => {
@@ -234,7 +249,7 @@ export function AskPanel({
               value={dockInput}
               onChange={(e) => setDockInput(e.target.value)}
               maxLength={1200}
-              placeholder="I just finished the Accolay concerto…"
+              placeholder={copy.dockPlaceholder}
               aria-label="Ask the advisor"
               enterKeyHint="send"
             />
@@ -264,12 +279,9 @@ export function AskPanel({
           <div className="ask-body" ref={scroller}>
             {turns.length === 0 && (
               <div className="ask-intro">
-                <p>
-                  Tell me what you or your student has played, what you’re looking for, or ask anything about the
-                  repertoire. My picks appear in the main list.
-                </p>
+                <p>{copy.intro}</p>
                 <div className="ask-starters">
-                  {STARTERS.map((s) => (
+                  {copy.starters.map((s) => (
                     <button key={s} onClick={() => send(s)}>
                       {s}
                     </button>
@@ -350,7 +362,7 @@ export function AskPanel({
 }
 
 /** Paragraphs, simple bullets, **bold**, and [[id]] markers rendered as piece links. */
-function RichText({ text, byId, onOpenPiece }: { text: string; byId: Map<number, Piece>; onOpenPiece: (p: Piece) => void }) {
+function RichText<P extends PieceBase>({ text, byId, onOpenPiece }: { text: string; byId: Map<number, P>; onOpenPiece: (p: P) => void }) {
   const blocks = text.trim().split(/\n{2,}/);
   const inline = (s: string, key: string) =>
     s.split(/(\[\[\d+\]\]|\*\*[^*]+\*\*)/g).map((part, j) => {
