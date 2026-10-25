@@ -59,12 +59,15 @@ export type SentencePart = string | { pick: string; bg: string };
 export async function ogCard({
   headline,
   headlineSize = 92,
+  headlineWidth,
   line,
   sentence,
 }: {
   headline: string;
   /** smaller for a longer headline, so it stays on two lines */
   headlineSize?: number;
+  /** a narrower headline moves a short word to the next line ("Find the perfect piece / of chamber music") */
+  headlineWidth?: number;
   line: string;
   sentence: SentencePart[];
 }) {
@@ -97,7 +100,19 @@ export async function ogCard({
         </div>
 
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <div style={{ fontFamily: "Archivo", fontSize: headlineSize, lineHeight: 1, letterSpacing: -2, color: INK }}>{headline}</div>
+          {/* the renderer fails on a style property set to undefined, so maxWidth is added only when given */}
+          <div
+            style={{
+              fontFamily: "Archivo",
+              fontSize: headlineSize,
+              lineHeight: 1,
+              letterSpacing: -2,
+              color: INK,
+              ...(headlineWidth ? { maxWidth: headlineWidth } : {}),
+            }}
+          >
+            {headline}
+          </div>
           <div style={{ fontSize: 33, lineHeight: 1.35, color: MUTED, marginTop: 26, maxWidth: 980 }}>{line}</div>
         </div>
 
