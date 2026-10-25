@@ -7,7 +7,8 @@
  * "fixed": the corrected fields replace the old ones (only facts: never level, hardest part, popularity or tags);
  * a changed scoring recomputes players and, unless a formationNote explains it, the formation.
  * "reject": the work leaves works.json and goes to data/chamber/verify/rejected.json with its reason (its id stays
- * reserved in id-registry.json). "doubt": listed in data/chamber/verify/doubts.json for the owner; the entry is unchanged.
+ * reserved in id-registry.json). "doubt": listed in data/chamber/verify/doubts.json for the owner; the entry is unchanged,
+ * and a later verdict for the same work (files are read in name order, the owner's zz-owner.json last) closes the doubt.
  * Order of the pipeline: merge_curation.ts → grading_apply.ts → verify_apply.ts (each can be re-run from its files).
  */
 import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
@@ -58,7 +59,8 @@ type Rejected = ChamberWork & { rejectReason: string; rejectNote: string; reject
 // works rejected by an earlier run are no longer in works.json: keep their records, so the script can be re-run
 const rejectedPath = "data/chamber/verify/rejected.json";
 const rejectedById = new Map<number, Rejected>(existsSync(join(ROOT, rejectedPath)) ? read<Rejected[]>(rejectedPath).map((r) => [r.id, r]) : []);
-const doubts: { id: number; title: string; composer: string; note: string; sources: string[]; chunk: string }[] = [];
+// a doubt stays open until a later file (data/chamber/verify/checked/zz-owner.json: the owner's decisions) gives the work another verdict
+const doubts = new Map<number, { id: number; title: string; composer: string; note: string; sources: string[]; chunk: string }>();
 const fieldCounts: Record<string, number> = {};
 const lines: string[] = [];
 const fmt = (v: unknown) => (typeof v === "string" ? v : JSON.stringify(v));
@@ -71,6 +73,7 @@ for (const f of readdirSync(join(ROOT, dir)).filter((f) => f.endsWith(".json")).
     const w = byId.get(r.id);
     if (!w) {
       if (!(r.verdict === "reject" && rejectedById.has(r.id))) lines.push(`! ${chunk}: id ${r.id} is not in works.json`);
+      doubts.delete(r.id);
       continue;
     }
     if (w.benchmark || w.violinId) {
@@ -78,7 +81,8 @@ for (const f of readdirSync(join(ROOT, dir)).filter((f) => f.endsWith(".json")).
       continue;
     }
     const head = `${r.id} ${w.composer.split(",")[0]}: ${w.title}`;
-    if (r.verdict === "doubt") doubts.push({ id: r.id, title: w.title, composer: w.composer, note: r.note ?? "", sources: r.sources ?? [], chunk });
+    if (r.verdict === "doubt") doubts.set(r.id, { id: r.id, title: w.title, composer: w.composer, note: r.note ?? "", sources: r.sources ?? [], chunk });
+    else doubts.delete(r.id);
     if (r.verdict === "reject") {
       lines.push(`x ${head} — ${r.reason}${r.note ? ` (${r.note})` : ""}`);
       rejectedById.set(r.id, { ...w, rejectReason: r.reason ?? "", rejectNote: r.note ?? "", rejectSources: r.sources ?? [], chunk });
@@ -119,5 +123,5 @@ console.log(
 if (!dry) {
   writeFileSync(join(ROOT, "data/chamber/works.json"), JSON.stringify([...byId.values()], null, 1) + "\n");
   writeFileSync(join(ROOT, rejectedPath), JSON.stringify([...rejectedById.values()].sort((a, b) => a.id - b.id), null, 1) + "\n");
-  writeFileSync(join(ROOT, "data/chamber/verify/doubts.json"), JSON.stringify(doubts, null, 1) + "\n");
+  writeFileSync(join(ROOT, "data/chamber/verify/doubts.json"), JSON.stringify([...doubts.values()], null, 1) + "\n");
 }

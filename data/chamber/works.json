@@ -7432,35 +7432,6 @@
   ]
  },
  {
-  "id": 100269,
-  "composer": "Gibbons, Orlando",
-  "title": "The Cries of London",
-  "aka": [
-   "Cryes of London",
-   "God Give You Good Morrow, My Masters"
-  ],
-  "formation": "viol-consort",
-  "instruments": {
-   "viola-da-gamba": 5
-  },
-  "players": 5,
-  "form": "short",
-  "level": 3,
-  "hardestPart": "balanced",
-  "year": "",
-  "minutes": 7,
-  "set": null,
-  "notes": "In Nomine for five viols; voices sing the London street cries with the parts",
-  "popularity": "lesser-known",
-  "imslpPage": "Cries of London (Gibbons, Orlando)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "folk",
-   "playful"
-  ]
- },
- {
   "id": 100270,
   "composer": "Lawes, William",
   "title": "Consort Sett a 5 in G minor, VdGS 68–70",
@@ -9756,7 +9727,10 @@
   "character": [
    "lyrical",
    "dramatic"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100354,
@@ -9780,7 +9754,10 @@
   "character": [
    "lyrical",
    "dark"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100355,
@@ -9803,7 +9780,10 @@
   "pace": "moderate",
   "character": [
    "lyrical"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100356,
@@ -9827,7 +9807,10 @@
   "character": [
    "lyrical",
    "dark"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100357,
@@ -9851,7 +9834,10 @@
   "character": [
    "lyrical",
    "dramatic"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100358,
@@ -9874,7 +9860,10 @@
   "pace": "moderate",
   "character": [
    "lyrical"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100359,
@@ -9898,7 +9887,10 @@
   "character": [
    "lyrical",
    "dramatic"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100360,
@@ -9921,7 +9913,10 @@
   "pace": "moderate",
   "character": [
    "lyrical"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100361,
@@ -9945,7 +9940,10 @@
   "character": [
    "lyrical",
    "dark"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100362,
@@ -9969,7 +9967,10 @@
   "character": [
    "lyrical",
    "dark"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100363,
@@ -9993,7 +9994,10 @@
   "character": [
    "lyrical",
    "dark"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100364,
@@ -10016,7 +10020,10 @@
   "pace": "moderate",
   "character": [
    "lyrical"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100365,
@@ -10040,7 +10047,10 @@
   "character": [
    "lyrical",
    "dark"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100366,
@@ -10064,7 +10074,10 @@
   "character": [
    "lyrical",
    "dark"
-  ]
+  ],
+  "optional": {
+   "organ": 1
+  }
  },
  {
   "id": 100367,
@@ -10916,33 +10929,6 @@
   "notes": "For treble, tenor and bass viols",
   "popularity": "lesser-known",
   "imslpPage": "Fantasia for 3 Viols, RC 16 (Coperario, John)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "lyrical"
-  ]
- },
- {
-  "id": 100399,
-  "composer": "Coprario, John",
-  "title": "Fantasia a 4, RC 20",
-  "aka": [
-   "Fantasia a 4 No. 4"
-  ],
-  "formation": "viol-consort",
-  "instruments": {
-   "viola-da-gamba": 4
-  },
-  "players": 4,
-  "form": "short",
-  "level": 3,
-  "hardestPart": "balanced",
-  "year": "",
-  "minutes": 3,
-  "set": "Fantasias a 4",
-  "notes": "For treble, two tenor and bass viols",
-  "popularity": "lesser-known",
-  "imslpPage": "Fantasia for 4 Viols, RC 20 (Coperario, John)",
   "mode": null,
   "pace": "moderate",
   "character": [
@@ -15211,32 +15197,6 @@
   ]
  },
  {
-  "id": 100539,
-  "composer": "Telemann, Georg Philipp",
-  "title": "Trio Sonata in C minor, TWV 42:c8",
-  "formation": "continuo",
-  "instruments": {
-   "violin": 2,
-   "continuo": 1
-  },
-  "players": 3,
-  "form": "work",
-  "level": 3,
-  "hardestPart": "balanced",
-  "year": "",
-  "minutes": null,
-  "set": null,
-  "notes": "Two violins and continuo",
-  "popularity": "lesser-known",
-  "imslpPage": "Trio Sonata, TWV 42:c8 (Telemann, Georg Philipp)",
-  "mode": "minor",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "dramatic"
-  ]
- },
- {
   "id": 100540,
   "composer": "Telemann, Georg Philipp",
   "title": "Trio Sonata in D minor, TWV 42:d10",
@@ -15261,33 +15221,6 @@
   "character": [
    "lyrical",
    "dramatic"
-  ]
- },
- {
-  "id": 100541,
-  "composer": "Telemann, Georg Philipp",
-  "title": "Trio Sonata in D major, TWV 42:D10",
-  "formation": "continuo",
-  "instruments": {
-   "flute": 1,
-   "violin": 1,
-   "continuo": 1
-  },
-  "players": 3,
-  "form": "work",
-  "level": 3,
-  "hardestPart": "balanced",
-  "year": "",
-  "minutes": null,
-  "set": null,
-  "notes": "Flute, violin and continuo",
-  "popularity": "lesser-known",
-  "imslpPage": "Trio Sonata, TWV 42:D10 (Telemann, Georg Philipp)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "dance"
   ]
  },
  {
@@ -24434,7 +24367,7 @@
  {
   "id": 100861,
   "composer": "Albinoni, Tomaso",
-  "title": "Trio Sonata in G minor, Op. 8 No. 4",
+  "title": "Trio Sonata, Op. 8 No. 4",
   "aka": [
    "Sonata No. 4, Op. 8"
   ],
@@ -24462,7 +24395,7 @@
  {
   "id": 100862,
   "composer": "Albinoni, Tomaso",
-  "title": "Balletto a tre in B-flat major, Op. 8 No. 4",
+  "title": "Balletto a tre, Op. 8 No. 4",
   "aka": [
    "Balletto No. 4, Op. 8"
   ],
@@ -24490,7 +24423,7 @@
  {
   "id": 100863,
   "composer": "Albinoni, Tomaso",
-  "title": "Trio Sonata in F major, Op. 8 No. 5",
+  "title": "Trio Sonata, Op. 8 No. 5",
   "aka": [
    "Sonata No. 5, Op. 8"
   ],
@@ -26030,36 +25963,6 @@
   "notes": "Two violins and violone (cello) with its own line, and organ continuo",
   "popularity": "lesser-known",
   "imslpPage": "18 Sonatas, Op.2 (Legrenzi, Giovanni)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "dramatic"
-  ]
- },
- {
-  "id": 100918,
-  "composer": "Legrenzi, Giovanni",
-  "title": "Sonata a 3, Op. 4 No. 1 (\"La Brembata\")",
-  "aka": [
-   "Trio Sonata, Op. 4 No. 1 (\"La Brembata\")"
-  ],
-  "formation": "continuo",
-  "instruments": {
-   "violin": 2,
-   "cello": 1,
-   "continuo": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 3,
-  "hardestPart": "balanced",
-  "year": "1656",
-  "minutes": null,
-  "set": "Sonate da chiesa e da camera, Op. 4",
-  "notes": "Sonata da chiesa a 3: two violins and violone (cello) with organ continuo",
-  "popularity": "lesser-known",
-  "imslpPage": "30 Trio Sonatas, Op.4 (Legrenzi, Giovanni)",
   "mode": null,
   "pace": "moderate",
   "character": [
@@ -32833,32 +32736,6 @@
   ]
  },
  {
-  "id": 101144,
-  "composer": "Vitali, Giovanni Battista",
-  "title": "Artificii musicali, Op. 13",
-  "formation": "continuo",
-  "instruments": {
-   "violin": 2,
-   "continuo": 1
-  },
-  "players": 3,
-  "form": "set",
-  "level": 3,
-  "hardestPart": "balanced",
-  "year": "1689",
-  "minutes": null,
-  "set": null,
-  "notes": "Sixty canons, double counterpoints, capricci and dances, mostly for two violins and bass; played in selections",
-  "popularity": "lesser-known",
-  "imslpPage": "Artificii musicali, Op.13 (Vitali, Giovanni Battista)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "dance"
-  ]
- },
- {
   "id": 101145,
   "composer": "Mascitti, Michele",
   "title": "Trio Sonata in D major, Op. 1 No. 7",
@@ -36934,7 +36811,7 @@
  {
   "id": 101289,
   "composer": "Dornel, Antoine",
-  "title": "Suite en trio No. 4 in D major, Op. 1",
+  "title": "Suite en trio No. 4, Op. 1",
   "aka": [
    "Suitte en trio No. 4"
   ],
@@ -37002,7 +36879,7 @@
  {
   "id": 101291,
   "composer": "Dornel, Antoine",
-  "title": "Suite en trio No. 6 in E minor, Op. 1",
+  "title": "Suite en trio No. 6, Op. 1",
   "aka": [
    "Suitte en trio No. 6"
   ],
@@ -38732,7 +38609,7 @@
   "level": 4,
   "hardestPart": "violin 1",
   "year": "c. 1751",
-  "minutes": null,
+  "minutes": 9,
   "set": "Deux Divertissements de simphonies en trio, Op. 15",
   "notes": "Dedicated to Madame de Pompadour; includes a Pantomime and a long Chaconne",
   "popularity": "lesser-known",
@@ -39628,7 +39505,7 @@
   "year": "",
   "minutes": 13,
   "set": null,
-  "notes": "Dresden 'Sonata da camera' for two violins and cello: Affettuoso, Allegro, Adagio, Giga",
+  "notes": "'Sonata da camera' for two violins and cello (Uppsala manuscript): Affettuoso, Allegro, Adagio, Giga",
   "popularity": "lesser-known",
   "imslpPage": "Trio Sonata in E minor (Brescianello, Giuseppe Antonio)",
   "mode": "minor",
@@ -40372,18 +40249,17 @@
   ],
   "formation": "continuo",
   "instruments": {
-   "violin": 1,
-   "cello": 1,
+   "cello": 2,
    "continuo": 1
   },
   "players": 3,
   "form": "work",
   "level": 5,
-  "hardestPart": "cello",
+  "hardestPart": "cello 1",
   "year": "c. 1736",
   "minutes": 8,
   "set": "Sonates pour le violoncelle avec la basse continue, Livre III",
-  "notes": "Treble part (violin or pardessus de viole) above an obbligato cello; the only trio in Barrière's cello books",
+  "notes": "Two cellos and continuo; the only trio in Barrière's cello books",
   "popularity": "lesser-known",
   "imslpPage": "6 Cello Sonatas, Livre 3 (Barrière, Jean-Baptiste)",
   "mode": "minor",
@@ -45267,32 +45143,6 @@
   ]
  },
  {
-  "id": 101566,
-  "composer": "Uccellini, Marco",
-  "title": "Aria seconda sopra E' tanto tempo hormai, Op. 3",
-  "formation": "continuo",
-  "instruments": {
-   "violin": 2,
-   "continuo": 1
-  },
-  "players": 3,
-  "form": "short",
-  "level": 3,
-  "hardestPart": "balanced",
-  "year": "1642",
-  "minutes": 4,
-  "set": "Sonate, arie et correnti, Op. 3",
-  "notes": "Variations for two violins and continuo",
-  "popularity": "lesser-known",
-  "imslpPage": "Sonate, arie et correnti, Op.3 (Uccellini, Marco)",
-  "mode": "minor",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
-  ]
- },
- {
   "id": 101567,
   "composer": "Uccellini, Marco",
   "title": "Aria quarta sopra la Ciaccona, Op. 3",
@@ -48069,7 +47919,7 @@
  {
   "id": 101659,
   "composer": "Vanhal, Johann Baptist",
-  "title": "Trio Sonata in G major, Op. 3",
+  "title": "Trio Sonata in G major",
   "formation": "continuo",
   "instruments": {
    "flute": 1,
@@ -48089,6 +47939,9 @@
   "pace": "moderate",
   "character": [
    "lyrical"
+  ],
+  "aka": [
+   "Sonata for Flute, Violin and Continuo in G major, Op. 3"
   ]
  },
  {
@@ -55779,9 +55632,6 @@
    "viola": 1,
    "cello": 1
   },
-  "optional": {
-   "double-bass": 1
-  },
   "players": 5,
   "form": "work",
   "level": 6,
@@ -55803,17 +55653,17 @@
  {
   "id": 101924,
   "composer": "Haydn, Joseph",
-  "title": "Piano Trio in F major, Hob. XV:37",
-  "formation": "piano-trio",
+  "title": "Keyboard Trio in F major, Hob. XV:37",
+  "formation": "other",
   "instruments": {
    "violin": 1,
    "cello": 1,
-   "piano": 1
+   "harpsichord": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "piano",
+  "hardestPart": "harpsichord",
   "year": "c. 1766",
   "minutes": 16,
   "set": null,
@@ -55824,6 +55674,9 @@
   "pace": "moderate",
   "character": [
    "lyrical"
+  ],
+  "aka": [
+   "Piano Trio in F major, Hob. XV:37"
   ]
  },
  {
@@ -55856,17 +55709,17 @@
  {
   "id": 101926,
   "composer": "Haydn, Joseph",
-  "title": "Piano Trio in F major, Hob. XV:39",
-  "formation": "piano-trio",
+  "title": "Keyboard Trio in F major, Hob. XV:39",
+  "formation": "other",
   "instruments": {
    "violin": 1,
    "cello": 1,
-   "piano": 1
+   "harpsichord": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "piano",
+  "hardestPart": "harpsichord",
   "year": "",
   "minutes": 11,
   "set": null,
@@ -55879,48 +55732,25 @@
    "lyrical",
    "playful",
    "dance"
-  ]
- },
- {
-  "id": 101927,
-  "composer": "Haydn, Joseph",
-  "title": "Piano Trio in C major, Hob. XV:C1",
-  "formation": "piano-trio",
-  "instruments": {
-   "violin": 1,
-   "cello": 1,
-   "piano": 1
-  },
-  "players": 3,
-  "form": "work",
-  "level": 3,
-  "hardestPart": "piano",
-  "year": "",
-  "minutes": 19,
-  "set": null,
-  "notes": "Doubtful (also attributed to Wagenseil); ends with a set of variations",
-  "popularity": "lesser-known",
-  "imslpPage": "Piano Trio in C major, Hob.XV:C1 (Haydn, Joseph)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "playful"
+  ],
+  "aka": [
+   "Piano Trio in F major, Hob. XV:39"
   ]
  },
  {
   "id": 101928,
   "composer": "Haydn, Joseph",
-  "title": "Piano Trio in G minor, Hob. XV:1",
-  "formation": "piano-trio",
+  "title": "Keyboard Trio in G minor, Hob. XV:1",
+  "formation": "other",
   "instruments": {
    "violin": 1,
    "cello": 1,
-   "piano": 1
+   "harpsichord": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "piano",
+  "hardestPart": "harpsichord",
   "year": "c. 1766",
   "minutes": 13,
   "set": null,
@@ -55932,6 +55762,9 @@
   "character": [
    "lyrical",
    "dark"
+  ],
+  "aka": [
+   "Piano Trio in G minor, Hob. XV:1"
   ]
  },
  {
@@ -56145,21 +55978,22 @@
  {
   "id": 101937,
   "composer": "Haydn, Joseph",
-  "title": "Piano Trio in G major, Hob. XIV:6",
+  "title": "Keyboard Trio in G major, Hob. XIV:6",
   "aka": [
+   "Divertimento in G major, Hob. XIV:6",
    "Hob. XVI:6",
-   "Divertimento in G major, Hob. XIV:6"
+   "Piano Trio in G major, Hob. XIV:6"
   ],
-  "formation": "piano-trio",
+  "formation": "other",
   "instruments": {
    "violin": 1,
    "cello": 1,
-   "piano": 1
+   "harpsichord": 1
   },
   "players": 3,
   "form": "work",
   "level": 3,
-  "hardestPart": "piano",
+  "hardestPart": "harpsichord",
   "year": "c. 1767",
   "minutes": 13,
   "set": null,
@@ -59644,51 +59478,6 @@
   ]
  },
  {
-  "id": 102052,
-  "composer": "Stamitz, Carl",
-  "title": "Quartet in E-flat major, Op. 8 No. 2",
-  "aka": [
-   "Oboe Quartet in E-flat major, Op. 8 No. 2",
-   "Clarinet Quartet in E-flat major, Op. 8 No. 2"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "clarinet": 1,
-   "violin": 1,
-   "viola": 1,
-   "cello": 1
-  },
-  "alternatives": {
-   "clarinet": [
-    "flute",
-    "oboe",
-    "violin"
-   ],
-   "viola": [
-    "horn"
-   ],
-   "cello": [
-    "bassoon"
-   ]
-  },
-  "players": 4,
-  "form": "work",
-  "level": 4,
-  "hardestPart": "clarinet",
-  "year": "1773",
-  "minutes": 10,
-  "set": "Six Quartets, Op. 8",
-  "notes": "Lead part for clarinet, oboe, flute or violin; Andante grazioso in C minor, Rondo finale",
-  "popularity": "lesser-known",
-  "imslpPage": "Quartet in E-flat major, Op.8 No.2 (Stamitz, Carl Philipp)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
-  ]
- },
- {
   "id": 102053,
   "composer": "Stamitz, Carl",
   "title": "Quartet in F major, Op. 8 No. 3",
@@ -60202,7 +59991,6 @@
   "composer": "Rolla, Alessandro",
   "title": "String Trio in B-flat major, Op. 1 No. 1",
   "aka": [
-   "Trio concertante in B-flat major, BI 348",
    "Trio concertante in B-flat major, BI 351"
   ],
   "formation": "string-trio",
@@ -60233,7 +60021,6 @@
   "composer": "Rolla, Alessandro",
   "title": "String Trio in A major, Op. 1 No. 2",
   "aka": [
-   "Trio concertante in A major, BI 342",
    "Trio concertante in A major, BI 349"
   ],
   "formation": "string-trio",
@@ -60264,7 +60051,6 @@
   "composer": "Rolla, Alessandro",
   "title": "String Trio in E-flat major, Op. 1 No. 3",
   "aka": [
-   "Trio concertante in E-flat major, BI 343",
    "Trio concertante in E-flat major, BI 344"
   ],
   "formation": "string-trio",
@@ -60503,7 +60289,7 @@
  {
   "id": 102081,
   "composer": "Rolla, Alessandro",
-  "title": "String Quartet in F minor, Op. 2 No. 2, BI 405",
+  "title": "String Quartet in F minor, Op. 2 No. 2",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -60514,7 +60300,7 @@
   "form": "work",
   "level": 5,
   "hardestPart": "violin 1",
-  "year": "c. 1810",
+  "year": "c. 1823",
   "minutes": 22,
   "set": "Three String Quartets, Op. 2",
   "notes": "Four movements ending in an Allegro agitato",
@@ -73118,9 +72904,6 @@
   "id": 102514,
   "composer": "Bach, Carl Philipp Emanuel",
   "title": "Trio Sonata in B-flat major, Wq. 159, H. 587",
-  "aka": [
-   "Trio Sonata in B-flat major, BWV Anh. 187"
-  ],
   "formation": "continuo",
   "instruments": {
    "violin": 2,
@@ -73133,7 +72916,7 @@
   "year": "1755",
   "minutes": 19,
   "set": null,
-  "notes": "Berlin sonata of 1755, once listed as BWV Anh. 187 (J.S. Bach); Allegro, Adagio ma non troppo, Allegretto",
+  "notes": "Berlin sonata of 1755: Allegro, Adagio ma non troppo, Allegretto",
   "popularity": "lesser-known",
   "imslpPage": "Trio Sonata in B-flat major, H.587 (Bach, Carl Philipp Emanuel)",
   "mode": "major",
@@ -77485,36 +77268,6 @@
   ]
  },
  {
-  "id": 102654,
-  "composer": "Dussek, Jan Ladislav",
-  "title": "Notturno concertant in E-flat major, Op. 68, C. 233",
-  "aka": [
-   "Notturno concertante, Op. 68"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "piano": 1,
-   "violin": 1,
-   "horn": 1
-  },
-  "players": 3,
-  "form": "work",
-  "level": 6,
-  "hardestPart": "piano",
-  "year": "1809",
-  "minutes": 22,
-  "set": null,
-  "notes": "Two movements (Andantino, Tempo di menuetto); horn marked ad lib. in the Breitkopf edition, recorded with horn",
-  "popularity": "lesser-known",
-  "imslpPage": "Notturno concertant, Op.68 (Dussek, Jan Ladislav)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "tender"
-  ]
- },
- {
   "id": 102655,
   "composer": "Dussek, Jan Ladislav",
   "title": "Piano Trio in E-flat major, Op. 37, C. 169",
@@ -77557,22 +77310,22 @@
   "aka": [
    "Keyboard Sonata in G major, Op. 2 No. 1"
   ],
-  "formation": "other",
+  "formation": "piano-strings",
   "instruments": {
-   "harpsichord": 1,
+   "piano": 1,
    "violin": 2,
    "cello": 1
   },
   "alternatives": {
-   "harpsichord": [
-    "piano",
+   "piano": [
+    "harpsichord",
     "organ"
    ]
   },
   "players": 4,
   "form": "work",
   "level": 3,
-  "hardestPart": "harpsichord",
+  "hardestPart": "piano",
   "year": "c. 1768",
   "minutes": 8,
   "set": "Six Sonatas for the Harpsichord with Accompaniments, Op. 2",
@@ -77629,22 +77382,22 @@
   "aka": [
    "Keyboard Sonata in C minor, Op. 2 No. 3"
   ],
-  "formation": "other",
+  "formation": "piano-strings",
   "instruments": {
-   "harpsichord": 1,
+   "piano": 1,
    "violin": 2,
    "cello": 1
   },
   "alternatives": {
-   "harpsichord": [
-    "piano",
+   "piano": [
+    "harpsichord",
     "organ"
    ]
   },
   "players": 4,
   "form": "work",
   "level": 3,
-  "hardestPart": "harpsichord",
+  "hardestPart": "piano",
   "year": "c. 1768",
   "minutes": 8,
   "set": "Six Sonatas for the Harpsichord with Accompaniments, Op. 2",
@@ -77702,22 +77455,22 @@
   "aka": [
    "Keyboard Sonata in A major, Op. 2 No. 5"
   ],
-  "formation": "other",
+  "formation": "piano-strings",
   "instruments": {
-   "harpsichord": 1,
+   "piano": 1,
    "violin": 2,
    "cello": 1
   },
   "alternatives": {
-   "harpsichord": [
-    "piano",
+   "piano": [
+    "harpsichord",
     "organ"
    ]
   },
   "players": 4,
   "form": "work",
   "level": 3,
-  "hardestPart": "harpsichord",
+  "hardestPart": "piano",
   "year": "c. 1768",
   "minutes": 8,
   "set": "Six Sonatas for the Harpsichord with Accompaniments, Op. 2",
@@ -77739,22 +77492,22 @@
   "aka": [
    "Keyboard Sonata in E major, Op. 2 No. 6"
   ],
-  "formation": "other",
+  "formation": "piano-strings",
   "instruments": {
-   "harpsichord": 1,
+   "piano": 1,
    "violin": 2,
    "cello": 1
   },
   "alternatives": {
-   "harpsichord": [
-    "piano",
+   "piano": [
+    "harpsichord",
     "organ"
    ]
   },
   "players": 4,
   "form": "work",
   "level": 3,
-  "hardestPart": "harpsichord",
+  "hardestPart": "piano",
   "year": "c. 1768",
   "minutes": 10,
   "set": "Six Sonatas for the Harpsichord with Accompaniments, Op. 2",
@@ -77811,22 +77564,22 @@
   "aka": [
    "Keyboard Sonata in E minor, Op. 4 No. 2"
   ],
-  "formation": "other",
+  "formation": "piano-strings",
   "instruments": {
-   "harpsichord": 1,
+   "piano": 1,
    "violin": 2,
    "cello": 1
   },
   "alternatives": {
-   "harpsichord": [
-    "piano",
+   "piano": [
+    "harpsichord",
     "organ"
    ]
   },
   "players": 4,
   "form": "work",
   "level": 3,
-  "hardestPart": "harpsichord",
+  "hardestPart": "piano",
   "year": "1772",
   "minutes": 7,
   "set": "Six Sonatas for the Harpsichord with Accompaniments, Op. 4",
@@ -77883,22 +77636,22 @@
   "aka": [
    "Keyboard Sonata in D major, Op. 4 No. 4"
   ],
-  "formation": "other",
+  "formation": "piano-strings",
   "instruments": {
-   "harpsichord": 1,
+   "piano": 1,
    "violin": 2,
    "cello": 1
   },
   "alternatives": {
-   "harpsichord": [
-    "piano",
+   "piano": [
+    "harpsichord",
     "organ"
    ]
   },
   "players": 4,
   "form": "work",
   "level": 3,
-  "hardestPart": "harpsichord",
+  "hardestPart": "piano",
   "year": "1772",
   "minutes": 6,
   "set": "Six Sonatas for the Harpsichord with Accompaniments, Op. 4",
@@ -77920,22 +77673,22 @@
   "aka": [
    "Keyboard Sonata in E-flat major, Op. 4 No. 5"
   ],
-  "formation": "other",
+  "formation": "piano-strings",
   "instruments": {
-   "harpsichord": 1,
+   "piano": 1,
    "violin": 2,
    "cello": 1
   },
   "alternatives": {
-   "harpsichord": [
-    "piano",
+   "piano": [
+    "harpsichord",
     "organ"
    ]
   },
   "players": 4,
   "form": "work",
   "level": 3,
-  "hardestPart": "harpsichord",
+  "hardestPart": "piano",
   "year": "1772",
   "minutes": 10,
   "set": "Six Sonatas for the Harpsichord with Accompaniments, Op. 4",
@@ -80757,41 +80510,6 @@
   ]
  },
  {
-  "id": 102755,
-  "composer": "Woelfl, Joseph",
-  "title": "Sonata for Piano Four Hands and Violin in G minor, Op. 42",
-  "aka": [
-   "Sonata for Piano Four Hands and Flute in G minor, Op. 42",
-   "Sonate pour le piano-forte à quatre mains avec flûte ou violon"
-  ],
-  "formation": "piano-strings",
-  "instruments": {
-   "violin": 1,
-   "piano": 2
-  },
-  "alternatives": {
-   "violin": [
-    "flute"
-   ]
-  },
-  "players": 3,
-  "form": "work",
-  "level": 6,
-  "hardestPart": "piano 1",
-  "year": "1810",
-  "minutes": 25,
-  "set": null,
-  "notes": "Piano four hands with violin or flute (title page names both); recorded with flute",
-  "popularity": "lesser-known",
-  "imslpPage": "Sonata for Piano 4 Hands and Flute, Op.42 (Woelfl, Joseph)",
-  "mode": "minor",
-  "pace": "moderate",
-  "character": [
-   "dramatic",
-   "lyrical"
-  ]
- },
- {
   "id": 102756,
   "composer": "Haydn, Michael",
   "title": "Divertimento in B-flat major, MH 199",
@@ -82668,9 +82386,6 @@
   "id": 102820,
   "composer": "Devienne, François",
   "title": "Flute Trio in D major",
-  "aka": [
-   "Trio in D major, Op. 66 No. 1"
-  ],
   "formation": "winds-strings",
   "instruments": {
    "flute": 1,
@@ -83889,193 +83604,6 @@
   ]
  },
  {
-  "id": 102862,
-  "composer": "Paisiello, Giovanni",
-  "title": "Flute Quartet in D major, Op. 23 No. 1",
-  "aka": [
-   "Flute Quartet in C major, R. E.09"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "flute": 1,
-   "violin": 1,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 3,
-  "hardestPart": "flute",
-  "year": "",
-  "minutes": 8,
-  "set": "Six Flute Quartets, Op. 23",
-  "notes": "Two movements: Allegro moderato and Minuetto; keys differ between editions",
-  "popularity": "lesser-known",
-  "imslpPage": "6 Flute Quartets, Op.23 (Paisiello, Giovanni)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "playful",
-   "lyrical",
-   "dance"
-  ]
- },
- {
-  "id": 102863,
-  "composer": "Paisiello, Giovanni",
-  "title": "Flute Quartet in G major, Op. 23 No. 2",
-  "aka": [
-   "Flute Quartet in D major, R. E.06"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "flute": 1,
-   "violin": 1,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 3,
-  "hardestPart": "flute",
-  "year": "",
-  "minutes": 8,
-  "set": "Six Flute Quartets, Op. 23",
-  "notes": "Two movements: Andante poco adagio and a Rondo (Allegretto); keys differ between editions",
-  "popularity": "lesser-known",
-  "imslpPage": "6 Flute Quartets, Op.23 (Paisiello, Giovanni)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
-  ]
- },
- {
-  "id": 102864,
-  "composer": "Paisiello, Giovanni",
-  "title": "Flute Quartet in G major, Op. 23 No. 3",
-  "aka": [
-   "Flute Quartet in E minor, R. E.10"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "flute": 1,
-   "violin": 1,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 3,
-  "hardestPart": "flute",
-  "year": "",
-  "minutes": 8,
-  "set": "Six Flute Quartets, Op. 23",
-  "notes": "Two movements: Allegro spirituoso and Minuetto; keys differ between editions",
-  "popularity": "lesser-known",
-  "imslpPage": "6 Flute Quartets, Op.23 (Paisiello, Giovanni)",
-  "mode": "major",
-  "pace": "lively",
-  "character": [
-   "playful",
-   "lyrical",
-   "dance"
-  ]
- },
- {
-  "id": 102865,
-  "composer": "Paisiello, Giovanni",
-  "title": "Flute Quartet in C major, Op. 23 No. 4",
-  "aka": [
-   "Flute Quartet in G major, R. E.08"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "flute": 1,
-   "violin": 1,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 3,
-  "hardestPart": "flute",
-  "year": "",
-  "minutes": 8,
-  "set": "Six Flute Quartets, Op. 23",
-  "notes": "Two movements: Poco adagio and a Rondo; keys differ between editions",
-  "popularity": "lesser-known",
-  "imslpPage": "6 Flute Quartets, Op.23 (Paisiello, Giovanni)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
-  ]
- },
- {
-  "id": 102866,
-  "composer": "Paisiello, Giovanni",
-  "title": "Flute Quartet in G major, Op. 23 No. 5",
-  "aka": [
-   "Flute Quartet in G major, R. E.07"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "flute": 1,
-   "violin": 1,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 3,
-  "hardestPart": "flute",
-  "year": "",
-  "minutes": 9,
-  "set": "Six Flute Quartets, Op. 23",
-  "notes": "Two movements: Andante and a Rondo; keys differ between editions",
-  "popularity": "lesser-known",
-  "imslpPage": "6 Flute Quartets, Op.23 (Paisiello, Giovanni)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
-  ]
- },
- {
-  "id": 102867,
-  "composer": "Paisiello, Giovanni",
-  "title": "Flute Quartet in G major, Op. 23 No. 6",
-  "aka": [
-   "Flute Quartet in G major, R. E.11"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "flute": 1,
-   "violin": 1,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 3,
-  "hardestPart": "flute",
-  "year": "",
-  "minutes": 7,
-  "set": "Six Flute Quartets, Op. 23",
-  "notes": "A single movement (Allegro); keys differ between editions",
-  "popularity": "lesser-known",
-  "imslpPage": "6 Flute Quartets, Op.23 (Paisiello, Giovanni)",
-  "mode": "major",
-  "pace": "lively",
-  "character": [
-   "playful"
-  ]
- },
- {
   "id": 102868,
   "composer": "Soler, Antonio",
   "title": "Keyboard Quintet No. 1 in C major, R. 225.1",
@@ -84579,39 +84107,6 @@
   "character": [
    "lyrical",
    "playful"
-  ]
- },
- {
-  "id": 102883,
-  "composer": "Rosetti, Antonio",
-  "title": "Notturno in E-flat major, Murray B27",
-  "aka": [
-   "Notturno for 2 flutes, 2 horns and strings"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "flute": 2,
-   "horn": 2,
-   "violin": 2,
-   "viola": 1,
-   "cello": 1,
-   "double-bass": 1
-  },
-  "players": 9,
-  "form": "work",
-  "level": 4,
-  "hardestPart": "horn 1",
-  "year": "",
-  "minutes": 13,
-  "set": null,
-  "notes": "Four movements framed by marches; the DHM recording uses nine players, one to a part",
-  "popularity": "lesser-known",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "playful",
-   "lyrical",
-   "dance"
   ]
  },
  {
@@ -85797,7 +85292,7 @@
  {
   "id": 102923,
   "composer": "Krommer, Franz",
-  "title": "Flute Quintet in D major, Op. 63",
+  "title": "Flute Quintet, Op. 63",
   "aka": [
    "P. VII:5"
   ],
@@ -92173,11 +91668,6 @@
    "viola": 2,
    "cello": 1
   },
-  "alternatives": {
-   "flute": [
-    "violin"
-   ]
-  },
   "players": 5,
   "form": "work",
   "level": 5,
@@ -93986,7 +93476,7 @@
   "year": "1847–48",
   "minutes": 31,
   "set": null,
-  "notes": "Trout scoring; French Wikipedia lists it as an arrangement of his Symphony No. 4",
+  "notes": "Trout scoring; an arrangement of his Symphony No. 4, Op. 71",
   "popularity": "lesser-known",
   "imslpPage": "Piano Quintet, Op.76 (Onslow, George)",
   "mode": "major",
@@ -105253,7 +104743,7 @@
   "form": "work",
   "level": 7,
   "hardestPart": "piano",
-  "year": "1922",
+  "year": "1914",
   "minutes": 32,
   "set": null,
   "notes": "Five movements, none longer than about eight minutes",
@@ -107410,7 +106900,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "violin 1",
-  "year": "1931",
+  "year": "",
   "minutes": 25,
   "set": null,
   "notes": "Late quartet in four movements; not on IMSLP",
@@ -119778,34 +119268,6 @@
   ]
  },
  {
-  "id": 104115,
-  "composer": "Weelkes, Thomas",
-  "title": "Pavan a 5, VdGS 6",
-  "aka": [
-   "Pavan No. 6 a 5"
-  ],
-  "formation": "viol-consort",
-  "instruments": {
-   "viola-da-gamba": 5
-  },
-  "players": 5,
-  "form": "short",
-  "level": 2,
-  "hardestPart": "balanced",
-  "year": "",
-  "minutes": 2,
-  "set": null,
-  "notes": "Two trebles, two tenors and bass; recorded on cornetts and sackbuts",
-  "popularity": "lesser-known",
-  "imslpPage": "Pavan a 5 No.6 (Weelkes, Thomas)",
-  "mode": null,
-  "pace": "slow",
-  "character": [
-   "lyrical",
-   "dark"
-  ]
- },
- {
   "id": 104116,
   "composer": "Weelkes, Thomas",
   "title": "In Nomine a 4 No. 1",
@@ -119888,41 +119350,6 @@
   "character": [
    "lyrical",
    "dark"
-  ]
- },
- {
-  "id": 104119,
-  "composer": "Allison, Richard",
-  "title": "Goe from my Window",
-  "aka": [
-   "Go from my window"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "flute": 1,
-   "lute": 3,
-   "viola-da-gamba": 2
-  },
-  "alternatives": {
-   "flute": [
-    "recorder"
-   ]
-  },
-  "players": 6,
-  "form": "short",
-  "level": 2,
-  "hardestPart": "balanced",
-  "year": "1599",
-  "minutes": 4,
-  "set": "The First Booke of Consort Lessons (1599)",
-  "notes": "Broken consort: treble lute, pandora and cittern (counted as lutes) with treble and bass viols and flute or recorder",
-  "popularity": "lesser-known",
-  "imslpPage": "Goe from my Window (Allison, Richard)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "folk",
-   "lyrical"
   ]
  },
  {
@@ -122178,50 +121605,21 @@
   ]
  },
  {
-  "id": 104202,
-  "composer": "Simpson, Thomas",
-  "title": "Opusculum Neuwer Paduanen, Gaillarden, Couranten und Volten",
-  "formation": "viol-consort",
-  "instruments": {
-   "viola-da-gamba": 5
-  },
-  "alternatives": {
-   "viola-da-gamba": [
-    "violin"
-   ]
-  },
-  "players": 5,
-  "form": "set",
-  "level": 2,
-  "hardestPart": "balanced",
-  "year": "1610",
-  "minutes": null,
-  "set": null,
-  "notes": "30 pavans, galliards, courantes and voltas in five parts, printed in Frankfurt in 1610",
-  "popularity": "lesser-known",
-  "imslpPage": "Opusculum Neuwer Paduanen, Gaillarden, Couranten und Volten (Simpson, Thomas)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "dance"
-  ]
- },
- {
   "id": 104203,
   "composer": "Bassano, Augustine",
-  "title": "Pavans and Galliards a 5",
+  "title": "Pavan and Galliard a 5",
   "formation": "viol-consort",
   "instruments": {
    "viola-da-gamba": 5
   },
   "players": 5,
-  "form": "set",
+  "form": "short",
   "level": 2,
   "hardestPart": "balanced",
   "year": "",
-  "minutes": null,
+  "minutes": 3,
   "set": null,
-  "notes": "Two pavan and galliard pairs for five viols (VdGS 1–4)",
+  "notes": "One pavan and galliard pair for five viols; IMSLP has two pairs (VdGS 1–4)",
   "popularity": "lesser-known",
   "imslpPage": "Pavans and Galliards for 5 Viols (Bassano, Augustine)",
   "mode": null,
@@ -122658,33 +122056,6 @@
   "notes": "Canzona from the fourth book of canzonas (1651) for two violins and continuo",
   "popularity": "lesser-known",
   "imslpPage": "La Cavagliera, Op.17 No.18 (Merula, Tarquinio)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
-  ]
- },
- {
-  "id": 104220,
-  "composer": "Merula, Tarquinio",
-  "title": "La pellegrina, Op. 1 No. 3",
-  "formation": "continuo",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "continuo": 1
-  },
-  "players": 4,
-  "form": "short",
-  "level": 3,
-  "hardestPart": "balanced",
-  "year": "1615",
-  "minutes": 4,
-  "set": "Canzoni a quattro voci per sonare con ogni sorti de strumenti musicali, Op. 1",
-  "notes": "Canzona a 4 for any instruments; IMSLP gives two or three violins, viola and continuo",
-  "popularity": "lesser-known",
-  "imslpPage": "La pellegrina, Op.1 No.3 (Merula, Tarquinio)",
   "mode": null,
   "pace": "moderate",
   "character": [
@@ -123630,7 +123001,7 @@
   "form": "work",
   "level": 4,
   "hardestPart": "trumpet",
-  "year": "1701",
+  "year": "",
   "minutes": 9,
   "set": null,
   "notes": "Cornetto (entered as trumpet), trombone, violin, bassoon and continuo",
@@ -123810,69 +123181,6 @@
    "heroic",
    "playful",
    "lyrical"
-  ]
- },
- {
-  "id": 104260,
-  "composer": "Graun, Karl Heinrich",
-  "title": "Trio in D major, Lund 7",
-  "aka": [
-   "Concerto for horn and oboe d'amore in D major",
-   "Trio Sonata in D major, Lund 7"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "oboe": 1,
-   "horn": 1,
-   "cello": 1
-  },
-  "players": 3,
-  "form": "work",
-  "level": 5,
-  "hardestPart": "horn",
-  "year": "",
-  "minutes": 10,
-  "set": null,
-  "notes": "Titled 'Concerto' in the source; oboe d'amore (entered as oboe), horn and bass",
-  "popularity": "lesser-known",
-  "imslpPage": "Trio Sonata in D major, Lund 7 (Graun, Karl Heinrich)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "heroic",
-   "lyrical",
-   "dance"
-  ]
- },
- {
-  "id": 104261,
-  "composer": "Graun, Karl Heinrich",
-  "title": "Trio in E major, GraunWV Cv:SV:106",
-  "aka": [
-   "Concerto for horn and oboe d'amore in E major"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "oboe": 1,
-   "horn": 1,
-   "cello": 1
-  },
-  "players": 3,
-  "form": "work",
-  "level": 5,
-  "hardestPart": "horn",
-  "year": "",
-  "minutes": 10,
-  "set": null,
-  "notes": "Titled 'Concerto'; oboe d'amore (entered as oboe), horn and bass; the recording lists E-flat major",
-  "popularity": "lesser-known",
-  "imslpPage": "Trio Sonata in E major, GraunWV Cv:SV:106 (Graun, Karl Heinrich)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "heroic",
-   "lyrical",
-   "dance"
   ]
  },
  {
@@ -128327,37 +127635,6 @@
   ]
  },
  {
-  "id": 104408,
-  "composer": "Böddecker, Philipp Friedrich",
-  "title": "Sonata sopra la Monica",
-  "aka": [
-   "Sonata sopra 'La Monica'"
-  ],
-  "formation": "continuo",
-  "instruments": {
-   "violin": 1,
-   "bassoon": 1,
-   "continuo": 1
-  },
-  "players": 3,
-  "form": "work",
-  "level": 5,
-  "hardestPart": "bassoon",
-  "year": "1651",
-  "minutes": 6,
-  "set": "Sacra partitura (1651)",
-  "notes": "Variations on the \"La Monica\" tune for bassoon (fagotto) and violin over continuo; IMSLP marks the violin ad lib.",
-  "popularity": "lesser-known",
-  "imslpPage": "Sonata sopra 'La Monica' (Böddecker, Philipp Friedrich)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "virtuosic",
-   "playful",
-   "dance"
-  ]
- },
- {
   "id": 104409,
   "composer": "Fioré, Andrea Stefano",
   "title": "Sinfonia da chiesa in G major, Op. 1 No. 2",
@@ -129567,69 +128844,6 @@
   ]
  },
  {
-  "id": 104448,
-  "composer": "Edelmann, Jean-Frédéric",
-  "title": "Harpsichord Concerto in C minor, Op. 14 No. 2",
-  "formation": "other",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "harpsichord": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 4,
-  "hardestPart": "harpsichord",
-  "year": "",
-  "minutes": null,
-  "set": "Three Harpsichord Concertos, Op. 14",
-  "notes": "Two movements (Affectueusement, Gayement); accompanied by two violins and viola, played one to a part in 2025",
-  "popularity": "lesser-known",
-  "imslpPage": "3 Harpsichord Concertos, Op.14 (Edelmann, Jean-Frédéric)",
-  "mode": "minor",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful",
-   "dramatic"
-  ]
- },
- {
-  "id": 104449,
-  "composer": "Edelmann, Jean-Frédéric",
-  "title": "Divertimento in E-flat major, Op. 15 No. 4 (\"La partie de chasse\")",
-  "formation": "other",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "harpsichord": 1
-  },
-  "alternatives": {
-   "harpsichord": [
-    "piano"
-   ],
-   "violin": [
-    "flute"
-   ]
-  },
-  "players": 4,
-  "form": "work",
-  "level": 4,
-  "hardestPart": "harpsichord",
-  "year": "c. 1786",
-  "minutes": null,
-  "set": "Four Divertimentos, Op. 15",
-  "notes": "Fourth of four descriptive divertimentos; harpsichord (or piano) with two violins (or flute, violin) and viola",
-  "popularity": "lesser-known",
-  "imslpPage": "4 Divertimentos, Op.15 (Edelmann, Jean-Frédéric)",
-  "mode": "major",
-  "pace": "lively",
-  "character": [
-   "playful",
-   "dance"
-  ]
- },
- {
   "id": 104450,
   "composer": "Edelmann, Jean-Frédéric",
   "title": "Piano Quartet in E-flat major, Op. 9 No. 1",
@@ -130673,45 +129887,6 @@
   "notes": "Flute (or oboe) with violin, two violas and cello (or bassoon); Allegro, Andante, Allegretto",
   "popularity": "lesser-known",
   "imslpPage": "Flute Quintet in E-flat major, H.5905/3 (Hoffmeister, Franz Anton)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
-  ]
- },
- {
-  "id": 104485,
-  "composer": "Hoffmeister, Franz Anton",
-  "title": "Flute Quintet in C major, H. 5905/4",
-  "aka": [
-   "Oboe Quintet No. 6"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "flute": 1,
-   "violin": 1,
-   "viola": 2,
-   "cello": 1
-  },
-  "alternatives": {
-   "flute": [
-    "oboe"
-   ],
-   "cello": [
-    "bassoon"
-   ]
-  },
-  "players": 5,
-  "form": "work",
-  "level": 4,
-  "hardestPart": "flute",
-  "year": "1787",
-  "minutes": 14,
-  "set": "Six Flute Quintets, H. 5905",
-  "notes": "Flute (or oboe) with violin, two violas and cello (or bassoon); variations finale",
-  "popularity": "lesser-known",
-  "imslpPage": "Flute Quintet in C major, H.5905/4 (Hoffmeister, Franz Anton)",
   "mode": "major",
   "pace": "moderate",
   "character": [
@@ -132562,7 +131737,8 @@
   "formation": "string-trio",
   "instruments": {
    "violin": 1,
-   "cello": 2
+   "cello": 1,
+   "double-bass": 1
   },
   "players": 3,
   "form": "work",
@@ -134951,7 +134127,7 @@
  {
   "id": 104633,
   "composer": "Gyrowetz, Adalbert",
-  "title": "Piano Trio in D minor, Op. 14 No. 2",
+  "title": "Piano Trio in D minor",
   "formation": "piano-trio",
   "instruments": {
    "violin": 1,
@@ -134964,7 +134140,7 @@
   "hardestPart": "piano",
   "year": "",
   "minutes": 19,
-  "set": "Piano Trios, Op. 14",
+  "set": null,
   "notes": "Keyboard-led trio sonata in three movements; strings accompany",
   "popularity": "lesser-known",
   "mode": "minor",
@@ -134972,12 +134148,15 @@
   "character": [
    "lyrical",
    "dramatic"
+  ],
+  "aka": [
+   "Piano Trio in D minor, Op. 14 No. 2"
   ]
  },
  {
   "id": 104634,
   "composer": "Gyrowetz, Adalbert",
-  "title": "Piano Trio in E-flat major, Op. 23 No. 2",
+  "title": "Piano Trio in E-flat major",
   "formation": "piano-trio",
   "instruments": {
    "violin": 1,
@@ -134990,7 +134169,7 @@
   "hardestPart": "piano",
   "year": "",
   "minutes": 20,
-  "set": "Piano Trios, Op. 23",
+  "set": null,
   "notes": "Keyboard-led trio sonata in three movements; strings accompany",
   "popularity": "lesser-known",
   "mode": "major",
@@ -134998,12 +134177,15 @@
   "character": [
    "lyrical",
    "playful"
+  ],
+  "aka": [
+   "Piano Trio in E-flat major, Op. 23 No. 2"
   ]
  },
  {
   "id": 104635,
   "composer": "Gyrowetz, Adalbert",
-  "title": "Piano Trio in B-flat major, Op. 28 No. 1",
+  "title": "Piano Trio in B-flat major",
   "formation": "piano-trio",
   "instruments": {
    "violin": 1,
@@ -135016,7 +134198,7 @@
   "hardestPart": "piano",
   "year": "",
   "minutes": 15,
-  "set": "Piano Trios, Op. 28",
+  "set": null,
   "notes": "Keyboard-led trio sonata in three movements; strings accompany",
   "popularity": "lesser-known",
   "mode": "major",
@@ -135024,6 +134206,9 @@
   "character": [
    "lyrical",
    "playful"
+  ],
+  "aka": [
+   "Piano Trio in B-flat major, Op. 28 No. 1"
   ]
  },
  {
@@ -136247,46 +135432,6 @@
   "character": [
    "dramatic",
    "virtuosic"
-  ]
- },
- {
-  "id": 104678,
-  "composer": "Gounod, Charles",
-  "title": "Méditation sur le premier prélude de piano de S. Bach, CG 89",
-  "aka": [
-   "Ave Maria",
-   "Bach–Gounod Ave Maria",
-   "Meditation on the First Prelude of Bach"
-  ],
-  "formation": "other",
-  "instruments": {
-   "violin": 1,
-   "piano": 1,
-   "organ": 1
-  },
-  "alternatives": {
-   "violin": [
-    "cello"
-   ],
-   "organ": [
-    "harmonium"
-   ]
-  },
-  "players": 3,
-  "form": "short",
-  "level": 3,
-  "hardestPart": "violin",
-  "year": "1853",
-  "minutes": 3,
-  "set": null,
-  "notes": "Gounod's melody over Bach's C-major Prelude: the original instrumental form of the Ave Maria",
-  "popularity": "well-known",
-  "imslpPage": "Ave Maria, CG 89 (Gounod, Charles)",
-  "mode": "major",
-  "pace": "slow",
-  "character": [
-   "lyrical",
-   "tender"
   ]
  },
  {
@@ -146523,7 +145668,7 @@
   "year": "1906",
   "minutes": 26,
   "set": null,
-  "notes": "Early quartet of 1906, about 26 minutes",
+  "notes": "Early quartet of 1906, about 26 minutes; the viola part is played on viola d'amore by Urania",
   "popularity": "lesser-known",
   "imslpPage": "String Quartet No.2 (Weigl, Karl)",
   "mode": "major",
@@ -146531,7 +145676,12 @@
   "character": [
    "lyrical",
    "dramatic"
-  ]
+  ],
+  "alternatives": {
+   "viola": [
+    "viola-damore"
+   ]
+  }
  },
  {
   "id": 105041,
@@ -147809,7 +146959,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "balanced",
-  "year": "1944",
+  "year": "1939–43",
   "minutes": 9,
   "set": null,
   "notes": "Three movements, about 9 minutes; dedicated to Frederick Jacobi",
@@ -149495,33 +148645,6 @@
   ]
  },
  {
-  "id": 105146,
-  "composer": "Du Caurroy, Eustache",
-  "title": "Fantaisies à 3 parties",
-  "aka": [
-   "Seven Three-Part Fantasias"
-  ],
-  "formation": "viol-consort",
-  "instruments": {
-   "viola-da-gamba": 3
-  },
-  "players": 3,
-  "form": "set",
-  "level": 3,
-  "hardestPart": "balanced",
-  "year": "1610",
-  "minutes": 14,
-  "set": null,
-  "notes": "Seven three-part fantasias for treble, tenor and bass viols; Savall's disc has two of the three-part ones",
-  "popularity": "lesser-known",
-  "imslpPage": "7 Three-Part Fantasias (Du Caurroy, Eustache)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "lyrical"
-  ]
- },
- {
   "id": 105147,
   "composer": "Farrant, Richard",
   "title": "Pavan a 5 (\"Four-Note Pavan\")",
@@ -149576,33 +148699,6 @@
   "character": [
    "lyrical",
    "tender"
-  ]
- },
- {
-  "id": 105149,
-  "composer": "Haussmann, Valentin",
-  "title": "Fuga prima",
-  "formation": "string-quartet",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "short",
-  "level": 2,
-  "hardestPart": "balanced",
-  "year": "1602",
-  "minutes": 5,
-  "set": "Neue Artige und Liebliche Täntze (1602)",
-  "notes": "Four-part fugue from a 1602 dance collection; the Armida Quartett also record the Fuga seconda",
-  "popularity": "lesser-known",
-  "imslpPage": "Fuga prima (Haussmann, Valentin)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "dance",
-   "lyrical"
   ]
  },
  {
@@ -150520,55 +149616,6 @@
   ]
  },
  {
-  "id": 105187,
-  "composer": "Tregian, Francis",
-  "title": "Balla d'amore",
-  "formation": "viol-consort",
-  "instruments": {
-   "viola-da-gamba": 5
-  },
-  "players": 5,
-  "form": "short",
-  "level": 3,
-  "hardestPart": "balanced",
-  "year": "",
-  "minutes": 3,
-  "set": null,
-  "notes": "Five parts (two trebles, two tenors, bass); recorded as Peter Philips's arrangement for strings, copied by Tregian",
-  "popularity": "lesser-known",
-  "imslpPage": "Balla d'amore (Tregian, Francis)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "dance",
-   "lyrical"
-  ]
- },
- {
-  "id": 105188,
-  "composer": "Widmann, Erasmus",
-  "title": "Gantz Neue Cantzon, Intraden, Balletten und Courranten",
-  "formation": "viol-consort",
-  "instruments": {
-   "viola-da-gamba": 4
-  },
-  "players": 4,
-  "form": "set",
-  "level": 2,
-  "hardestPart": "balanced",
-  "year": "1618",
-  "minutes": null,
-  "set": null,
-  "notes": "Canzonas, intradas, ballets and courantes in four and five parts for viols (1618 print); Cantilena record three",
-  "popularity": "lesser-known",
-  "imslpPage": "Gantz Neue Cantzon, Intraden, Balletten und Courranten (Widmann, Erasmus)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "dance"
-  ]
- },
- {
   "id": 105189,
   "composer": "Strogers, Nicholas",
   "title": "In Nomine a 5 No. 3",
@@ -150613,36 +149660,6 @@
   "pace": "slow",
   "character": [
    "dark",
-   "lyrical"
-  ]
- },
- {
-  "id": 105191,
-  "composer": "Haussmann, Valentin",
-  "title": "Fuga secunda",
-  "aka": [
-   "Fuga seconda"
-  ],
-  "formation": "string-quartet",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "short",
-  "level": 2,
-  "hardestPart": "balanced",
-  "year": "",
-  "minutes": 2,
-  "set": null,
-  "notes": "Four-part fugue; its IMSLP page (four instruments) was outside the census; the Armida Quartett record it",
-  "popularity": "lesser-known",
-  "imslpPage": "Fuga secunda (Haussmann, Valentin)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "dance",
    "lyrical"
   ]
  },
@@ -152210,33 +151227,6 @@
   ]
  },
  {
-  "id": 105249,
-  "composer": "Buffardin, Pierre-Gabriel",
-  "title": "Trio Sonata in A major",
-  "formation": "continuo",
-  "instruments": {
-   "flute": 1,
-   "violin": 1,
-   "continuo": 1
-  },
-  "players": 3,
-  "form": "work",
-  "level": 4,
-  "hardestPart": "flute",
-  "year": "",
-  "minutes": 9,
-  "set": null,
-  "notes": "Four movements; the Blancheton source names 'Sig. Bufardini'; recorded as Buffardin's Sonate V in A major",
-  "popularity": "lesser-known",
-  "imslpPage": "Trio Sonata in A major (Buffardin, Pierre-Gabriel)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "dance"
-  ]
- },
- {
   "id": 105250,
   "composer": "Chéron, André",
   "title": "Trio Sonata in E minor, Op. 2 No. 4",
@@ -152843,7 +151833,7 @@
  {
   "id": 105272,
   "composer": "Avitrano, Giuseppe Antonio",
-  "title": "Trio Sonata in E-flat major, Op. 1 No. 11",
+  "title": "Trio Sonata in E-flat major",
   "formation": "continuo",
   "instruments": {
    "violin": 2,
@@ -152855,7 +151845,7 @@
   "hardestPart": "balanced",
   "year": "1697",
   "minutes": 11,
-  "set": "Twelve Trio Sonatas, Op. 1",
+  "set": null,
   "notes": "Neapolitan church-style sonata for two violins and bass (violone, organ); the recording calls it 'a 4'",
   "popularity": "lesser-known",
   "imslpPage": "Sonate a tré, due violini, e violone col basso per l’organo (Avitrano, Giuseppe Antonio)",
@@ -152863,12 +151853,15 @@
   "pace": "moderate",
   "character": [
    "lyrical"
+  ],
+  "aka": [
+   "Trio Sonata in E-flat major, Op. 1 No. 11"
   ]
  },
  {
   "id": 105273,
   "composer": "Avitrano, Giuseppe Antonio",
-  "title": "Trio Sonata in G major, Op. 1 No. 12 (\"Pastorale\")",
+  "title": "Trio Sonata in G major (\"Pastorale\")",
   "formation": "continuo",
   "instruments": {
    "violin": 2,
@@ -152880,7 +151873,7 @@
   "hardestPart": "balanced",
   "year": "1697",
   "minutes": 7,
-  "set": "Twelve Trio Sonatas, Op. 1",
+  "set": null,
   "notes": "Closing pastorale of the set; two violins and bass (violone, organ)",
   "popularity": "lesser-known",
   "imslpPage": "Sonate a tré, due violini, e violone col basso per l’organo (Avitrano, Giuseppe Antonio)",
@@ -152889,6 +151882,9 @@
   "character": [
    "tender",
    "lyrical"
+  ],
+  "aka": [
+   "Trio Sonata in G major, Op. 1 No. 12"
   ]
  },
  {
@@ -154789,7 +153785,7 @@
   "year": "",
   "minutes": 12,
   "set": null,
-  "notes": "Allemande, Courante, Sarabande; Ghielmi's recording adds a Musette",
+  "notes": "Allemande, Courante, Sarabande; attributed to Antoine or Jean-Baptiste Forqueray",
   "popularity": "lesser-known",
   "imslpPage": "Pieces for 3 Viols (Forqueray, Antoine)",
   "mode": "minor",
@@ -157920,33 +156916,6 @@
   ]
  },
  {
-  "id": 105445,
-  "composer": "Pepusch, John Christopher",
-  "title": "Trio Sonata in F major",
-  "formation": "winds-strings",
-  "instruments": {
-   "flute": 1,
-   "oboe": 1,
-   "cello": 1
-  },
-  "players": 3,
-  "form": "work",
-  "level": 3,
-  "hardestPart": "balanced",
-  "year": "",
-  "minutes": 5,
-  "set": null,
-  "notes": "Four movements (Largo, Allegro, Largo, Vivace); the bass is cello with keyboard continuo",
-  "popularity": "lesser-known",
-  "imslpPage": "Trio Sonata in F major (Pepusch, John Christopher)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "playful",
-   "lyrical"
-  ]
- },
- {
   "id": 105446,
   "composer": "Peerson, Martin",
   "title": "Upon my lap",
@@ -158533,216 +157502,6 @@
   "character": [
    "lyrical",
    "dance"
-  ]
- },
- {
-  "id": 105466,
-  "composer": "Noferi, Giovan Battista",
-  "title": "Trio, Op. 16 No. 1",
-  "aka": [
-   "Trio for guitar, violin and cello, Op. 16 No. 1"
-  ],
-  "formation": "other",
-  "instruments": {
-   "guitar": 1,
-   "violin": 1,
-   "cello": 1
-  },
-  "alternatives": {
-   "cello": [
-    "piano"
-   ]
-  },
-  "players": 3,
-  "form": "work",
-  "level": 2,
-  "hardestPart": "violin",
-  "year": "",
-  "minutes": 6,
-  "set": "Six Trios, Op. 16",
-  "notes": "Printed for English guitar (cittern), violin and cello or piano; recorded with guitar",
-  "popularity": "lesser-known",
-  "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "dance",
-   "lyrical"
-  ]
- },
- {
-  "id": 105467,
-  "composer": "Noferi, Giovan Battista",
-  "title": "Trio, Op. 16 No. 2",
-  "aka": [
-   "Trio for guitar, violin and cello, Op. 16 No. 2"
-  ],
-  "formation": "other",
-  "instruments": {
-   "guitar": 1,
-   "violin": 1,
-   "cello": 1
-  },
-  "alternatives": {
-   "cello": [
-    "piano"
-   ]
-  },
-  "players": 3,
-  "form": "work",
-  "level": 2,
-  "hardestPart": "violin",
-  "year": "",
-  "minutes": 6,
-  "set": "Six Trios, Op. 16",
-  "notes": "Printed for English guitar (cittern), violin and cello or piano; recorded with guitar",
-  "popularity": "lesser-known",
-  "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "dance",
-   "lyrical"
-  ]
- },
- {
-  "id": 105468,
-  "composer": "Noferi, Giovan Battista",
-  "title": "Trio, Op. 16 No. 3",
-  "aka": [
-   "Trio for guitar, violin and cello, Op. 16 No. 3"
-  ],
-  "formation": "other",
-  "instruments": {
-   "guitar": 1,
-   "violin": 1,
-   "cello": 1
-  },
-  "alternatives": {
-   "cello": [
-    "piano"
-   ]
-  },
-  "players": 3,
-  "form": "work",
-  "level": 2,
-  "hardestPart": "violin",
-  "year": "",
-  "minutes": 7,
-  "set": "Six Trios, Op. 16",
-  "notes": "Printed for English guitar (cittern), violin and cello or piano; recorded with guitar",
-  "popularity": "lesser-known",
-  "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "dance",
-   "lyrical"
-  ]
- },
- {
-  "id": 105469,
-  "composer": "Noferi, Giovan Battista",
-  "title": "Trio, Op. 16 No. 4",
-  "aka": [
-   "Trio for guitar, violin and cello, Op. 16 No. 4"
-  ],
-  "formation": "other",
-  "instruments": {
-   "guitar": 1,
-   "violin": 1,
-   "cello": 1
-  },
-  "alternatives": {
-   "cello": [
-    "piano"
-   ]
-  },
-  "players": 3,
-  "form": "work",
-  "level": 2,
-  "hardestPart": "violin",
-  "year": "",
-  "minutes": 7,
-  "set": "Six Trios, Op. 16",
-  "notes": "Printed for English guitar (cittern), violin and cello or piano; recorded with guitar",
-  "popularity": "lesser-known",
-  "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "dance",
-   "lyrical"
-  ]
- },
- {
-  "id": 105470,
-  "composer": "Noferi, Giovan Battista",
-  "title": "Trio, Op. 16 No. 5",
-  "aka": [
-   "Trio for guitar, violin and cello, Op. 16 No. 5"
-  ],
-  "formation": "other",
-  "instruments": {
-   "guitar": 1,
-   "violin": 1,
-   "cello": 1
-  },
-  "alternatives": {
-   "cello": [
-    "piano"
-   ]
-  },
-  "players": 3,
-  "form": "work",
-  "level": 2,
-  "hardestPart": "violin",
-  "year": "",
-  "minutes": 8,
-  "set": "Six Trios, Op. 16",
-  "notes": "Printed for English guitar (cittern), violin and cello or piano; recorded with guitar",
-  "popularity": "lesser-known",
-  "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "dance",
-   "lyrical"
-  ]
- },
- {
-  "id": 105471,
-  "composer": "Noferi, Giovan Battista",
-  "title": "Trio, Op. 16 No. 6",
-  "aka": [
-   "Trio for guitar, violin and cello, Op. 16 No. 6"
-  ],
-  "formation": "other",
-  "instruments": {
-   "guitar": 1,
-   "violin": 1,
-   "cello": 1
-  },
-  "alternatives": {
-   "cello": [
-    "piano"
-   ]
-  },
-  "players": 3,
-  "form": "work",
-  "level": 2,
-  "hardestPart": "violin",
-  "year": "",
-  "minutes": 8,
-  "set": "Six Trios, Op. 16",
-  "notes": "Printed for English guitar (cittern), violin and cello or piano; recorded with guitar",
-  "popularity": "lesser-known",
-  "imslpPage": "6 Trio Sonatas, Op.16 (Noferi, Giovan Battista)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "dance",
-   "lyrical"
   ]
  },
  {
@@ -160955,60 +159714,6 @@
   ]
  },
  {
-  "id": 105548,
-  "composer": "Brunetti, Gaetano",
-  "title": "String Sextet in C major, Op. 1 No. 4",
-  "formation": "large-strings",
-  "instruments": {
-   "violin": 3,
-   "viola": 1,
-   "cello": 2
-  },
-  "players": 6,
-  "form": "work",
-  "level": 4,
-  "hardestPart": "violin 1",
-  "year": "",
-  "minutes": 14,
-  "set": "Six String Sextets, Op. 1",
-  "notes": "Three violins, viola and two cellos (IMSLP: or bassoon, or a second viola); three movements",
-  "popularity": "lesser-known",
-  "imslpPage": "6 String Sextets, Op.1 (Brunetti, Gaetano)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
-  ]
- },
- {
-  "id": 105549,
-  "composer": "Brunetti, Gaetano",
-  "title": "String Sextet in G major, Op. 1 No. 5",
-  "formation": "large-strings",
-  "instruments": {
-   "violin": 3,
-   "viola": 1,
-   "cello": 2
-  },
-  "players": 6,
-  "form": "work",
-  "level": 4,
-  "hardestPart": "violin 1",
-  "year": "",
-  "minutes": 13,
-  "set": "Six String Sextets, Op. 1",
-  "notes": "Three violins, viola and two cellos (IMSLP: or bassoon, or a second viola); three movements",
-  "popularity": "lesser-known",
-  "imslpPage": "6 String Sextets, Op.1 (Brunetti, Gaetano)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
-  ]
- },
- {
   "id": 105550,
   "composer": "Brunetti, Gaetano",
   "title": "String Quartet in F major, Op. 3 No. 1, L. 156",
@@ -161966,7 +160671,7 @@
  {
   "id": 105584,
   "composer": "Cardon, Jean-Baptiste",
-  "title": "Trio for Harp, Violin and Viola, Op. 9 No. 1",
+  "title": "Trio for Harp, Violin and Viola No. 1",
   "formation": "other",
   "instruments": {
    "harp": 1,
@@ -161977,21 +160682,24 @@
   "form": "work",
   "level": 5,
   "hardestPart": "harp",
-  "year": "",
+  "year": "1790",
   "minutes": 17,
-  "set": "Trios for Harp, Violin and Viola, Op. 9",
+  "set": "Two Trios for Harp, Violin and Viola",
   "notes": "Harp leads; two movements",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
   "character": [
    "lyrical"
+  ],
+  "aka": [
+   "Trio for Harp, Violin and Viola, Op. 9 No. 1"
   ]
  },
  {
   "id": 105585,
   "composer": "Cardon, Jean-Baptiste",
-  "title": "Trio for Harp, Violin and Viola, Op. 9 No. 2",
+  "title": "Trio for Harp, Violin and Viola No. 2",
   "formation": "other",
   "instruments": {
    "harp": 1,
@@ -162002,15 +160710,18 @@
   "form": "work",
   "level": 5,
   "hardestPart": "harp",
-  "year": "",
+  "year": "1790",
   "minutes": 17,
-  "set": "Trios for Harp, Violin and Viola, Op. 9",
+  "set": "Two Trios for Harp, Violin and Viola",
   "notes": "Harp leads; two movements",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "moderate",
   "character": [
    "lyrical"
+  ],
+  "aka": [
+   "Trio for Harp, Violin and Viola, Op. 9 No. 2"
   ]
  },
  {
@@ -162437,7 +161148,7 @@
  {
   "id": 105602,
   "composer": "Cirri, Giovanni Battista",
-  "title": "Trio Sonata in G major, Op. 9 No. 2",
+  "title": "Trio Sonata, Op. 9 No. 2",
   "formation": "continuo",
   "instruments": {
    "violin": 2,
@@ -162557,7 +161268,7 @@
  {
   "id": 105606,
   "composer": "Cirri, Giovanni Battista",
-  "title": "Sonata in D major, Op. 9 No. 6",
+  "title": "Sonata, Op. 9 No. 6",
   "formation": "continuo",
   "instruments": {
    "violin": 2,
@@ -163603,7 +162314,7 @@
  {
   "id": 105642,
   "composer": "Fuchs, Georg Friedrich",
-  "title": "Trio No. 2 for Two Clarinets and Violin",
+  "title": "Trio for Two Clarinets and Violin",
   "formation": "winds-strings",
   "instruments": {
    "clarinet": 2,
@@ -163623,6 +162334,9 @@
   "character": [
    "playful",
    "lyrical"
+  ],
+  "aka": [
+   "Trio No. 2 for Two Clarinets and Violin"
   ]
  },
  {
@@ -164569,33 +163283,6 @@
   ]
  },
  {
-  "id": 105674,
-  "composer": "Fodor, Josephus",
-  "title": "String Quartet, Op. 4 No. 5",
-  "formation": "string-quartet",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 3,
-  "hardestPart": "violin 1",
-  "year": "",
-  "minutes": 16,
-  "set": "String Quartets, Op. 4",
-  "notes": "Three movements (Andante, Menuetto, Presto); score not found on IMSLP",
-  "popularity": "lesser-known",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful",
-   "dance"
-  ]
- },
- {
   "id": 105675,
   "composer": "Gehot, Joseph",
   "title": "String Quartet in D major, Op. 7 No. 6",
@@ -165379,7 +164066,12 @@
   "character": [
    "dance",
    "playful"
-  ]
+  ],
+  "alternatives": {
+   "piano": [
+    "harpsichord"
+   ]
+  }
  },
  {
   "id": 105703,
@@ -165408,7 +164100,12 @@
   "character": [
    "lyrical",
    "dance"
-  ]
+  ],
+  "alternatives": {
+   "piano": [
+    "harpsichord"
+   ]
+  }
  },
  {
   "id": 105704,
@@ -165437,7 +164134,12 @@
   "character": [
    "playful",
    "dance"
-  ]
+  ],
+  "alternatives": {
+   "piano": [
+    "harpsichord"
+   ]
+  }
  },
  {
   "id": 105705,
@@ -165466,7 +164168,12 @@
   "character": [
    "lyrical",
    "playful"
-  ]
+  ],
+  "alternatives": {
+   "piano": [
+    "harpsichord"
+   ]
+  }
  },
  {
   "id": 105706,
@@ -165495,7 +164202,12 @@
   "character": [
    "lyrical",
    "dark"
-  ]
+  ],
+  "alternatives": {
+   "piano": [
+    "harpsichord"
+   ]
+  }
  },
  {
   "id": 105707,
@@ -165524,14 +164236,20 @@
   "character": [
    "dance",
    "playful"
-  ]
+  ],
+  "alternatives": {
+   "piano": [
+    "harpsichord"
+   ]
+  }
  },
  {
   "id": 105708,
   "composer": "Liebmann, Helene",
-  "title": "Piano Trio in A major, Op. 11",
+  "title": "Piano Trio in A major",
   "aka": [
-   "Grand Trio in A major, Op. 11"
+   "Grand Trio in A major, Op. 11",
+   "Piano Trio in A major, Op. 11"
   ],
   "formation": "piano-trio",
   "instruments": {
@@ -165546,7 +164264,7 @@
   "year": "",
   "minutes": 20,
   "set": null,
-  "notes": "Three movements ending in a Polonaise; opus 11 is also the number of her Cello Sonata",
+  "notes": "Three movements ending in a Polonaise; London, about 1813–16",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -166660,32 +165378,6 @@
   "character": [
    "lyrical",
    "dance"
-  ]
- },
- {
-  "id": 105748,
-  "composer": "Marin, Marie-Martin Marcel",
-  "title": "Deux trios sur des thèmes de Mozart",
-  "formation": "other",
-  "instruments": {
-   "harp": 1,
-   "violin": 1,
-   "cello": 1
-  },
-  "players": 3,
-  "form": "set",
-  "level": 5,
-  "hardestPart": "harp",
-  "year": "",
-  "minutes": 27,
-  "set": null,
-  "notes": "Two trios built on Mozart themes (one movement 'à la Turca') for harp, violin and cello",
-  "popularity": "lesser-known",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
   ]
  },
  {
@@ -169500,9 +168192,6 @@
   "id": 105846,
   "composer": "Schneider, Georg Abraham",
   "title": "Flute Quartet in G major, Op. 52 No. 3",
-  "aka": [
-   "Flute Quartet in G major, Op. 52 No. 1"
-  ],
   "formation": "winds-strings",
   "instruments": {
    "flute": 1,
@@ -170805,7 +169494,7 @@
  {
   "id": 105893,
   "composer": "Wagenseil, Georg Christoph",
-  "title": "Trio No. 9 in G major",
+  "title": "Trio No. 9",
   "formation": "continuo",
   "instruments": {
    "flute": 1,
@@ -170819,7 +169508,7 @@
   "year": "",
   "minutes": 8,
   "set": "Trios for Flute, Violin and Continuo",
-  "notes": "Numbered as on the CPO recording of 17 trios; the WV number is not confirmed",
+  "notes": "Numbered as on the CPO recording of 7 of the 17 trios; key given as G or A",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -171544,7 +170233,7 @@
  {
   "id": 105917,
   "composer": "Tomasini, Luigi",
-  "title": "String Quartet in B-flat major, Op. 8",
+  "title": "String Quartet in B-flat major",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -171557,7 +170246,7 @@
   "hardestPart": "violin 1",
   "year": "c. 1780",
   "minutes": 31,
-  "set": "Three String Quartets, Op. 8",
+  "set": null,
   "notes": "Four movements with a long opening Allegro; by Haydn's Esterháza concertmaster",
   "popularity": "lesser-known",
   "imslpPage": "3 String Quartets, Op.8 (Tomasini, Luigi)",
@@ -171566,12 +170255,15 @@
   "character": [
    "lyrical",
    "dance"
+  ],
+  "aka": [
+   "String Quartet in B-flat major, Op. 8"
   ]
  },
  {
   "id": 105918,
   "composer": "Tomasini, Luigi",
-  "title": "String Quartet in D minor, Op. 8",
+  "title": "String Quartet in D minor",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -171584,7 +170276,7 @@
   "hardestPart": "violin 1",
   "year": "c. 1780",
   "minutes": 25,
-  "set": "Three String Quartets, Op. 8",
+  "set": null,
   "notes": "Four movements, minor key, ending in a Rondo; by Haydn's Esterháza concertmaster",
   "popularity": "lesser-known",
   "imslpPage": "3 String Quartets, Op.8 (Tomasini, Luigi)",
@@ -171593,6 +170285,9 @@
   "character": [
    "dramatic",
    "lyrical"
+  ],
+  "aka": [
+   "String Quartet in D minor, Op. 8"
   ]
  },
  {
@@ -172032,7 +170727,7 @@
  {
   "id": 105934,
   "composer": "Toeschi, Carl Joseph",
-  "title": "Flute Quartet in B-flat major, Op. 2 No. 4",
+  "title": "Flute Quartet in B-flat major",
   "formation": "winds-strings",
   "instruments": {
    "flute": 1,
@@ -172046,7 +170741,7 @@
   "hardestPart": "flute",
   "year": "",
   "minutes": 7,
-  "set": "Flute Quartets, Op. 2",
+  "set": null,
   "notes": "Two-movement flute quartet (Andante e molto gratioso, Allegro gratioso); not matched to an IMSLP page",
   "popularity": "lesser-known",
   "mode": "major",
@@ -172054,6 +170749,9 @@
   "character": [
    "lyrical",
    "playful"
+  ],
+  "aka": [
+   "Flute Quartet in B-flat major, Op. 2 No. 4"
   ]
  },
  {
@@ -182760,33 +181458,6 @@
   ]
  },
  {
-  "id": 106327,
-  "composer": "Tkalčić, Juro",
-  "title": "Petit quatuor à cordes",
-  "formation": "string-quartet",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "short",
-  "level": 3,
-  "hardestPart": "violin 1",
-  "year": "c. 1909",
-  "minutes": 3,
-  "set": null,
-  "notes": "Miniature of about three minutes",
-  "popularity": "lesser-known",
-  "imslpPage": "Petit quatuor à cordes (Tkalčić, Juro)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
-  ]
- },
- {
   "id": 106328,
   "composer": "Sowinski, Albert",
   "title": "Piano Trio, Op. 76",
@@ -184139,7 +182810,7 @@
  {
   "id": 106377,
   "composer": "Gibbs, Cecil Armstrong",
-  "title": "String Quartet in E minor, Op. 18",
+  "title": "String Quartet in E minor",
   "formation": "string-quartet",
   "instruments": {
    "violin": 2,
@@ -184150,12 +182821,11 @@
   "form": "work",
   "level": 5,
   "hardestPart": "violin 1",
-  "year": "1918",
+  "year": "1958",
   "minutes": 16,
   "set": null,
-  "notes": "Three movements; numbered No. 3 on IMSLP",
+  "notes": "Three movements ending in a theme and variations; not the Op. 18 quartet of 1918",
   "popularity": "lesser-known",
-  "imslpPage": "String Quartet No.3 in E minor, Op.18 (Gibbs, Cecil Armstrong)",
   "mode": "minor",
   "pace": "moderate",
   "character": [
@@ -186013,37 +184683,6 @@
   "character": [
    "lyrical",
    "tender"
-  ]
- },
- {
-  "id": 106446,
-  "composer": "Brandts Buys, Jan",
-  "title": "Flute Quintet in D major, Op. 21 (\"Christmas Quintet\")",
-  "aka": [
-   "Christmas Quintet"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "flute": 1,
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 5,
-  "form": "work",
-  "level": 5,
-  "hardestPart": "flute",
-  "year": "1903",
-  "minutes": 22,
-  "set": null,
-  "notes": "Flute and string quartet; known as the Christmas Quintet",
-  "popularity": "lesser-known",
-  "imslpPage": "Flute Quintet, Op.21 (Brandts Buys, Jan)",
-  "mode": "major",
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
   ]
  },
  {
@@ -189423,9 +188062,11 @@
  {
   "id": 106569,
   "composer": "Slavenski, Josip",
-  "title": "String Quartet No. 4 (\"My Mother's Songs\")",
+  "title": "My Mother's Songs",
   "aka": [
-   "Materine pjesme"
+   "Materine pjesme",
+   "Pjesme moje majke",
+   "String Quartet No. 4"
   ],
   "formation": "string-quartet",
   "instruments": {
@@ -189437,7 +188078,7 @@
   "form": "work",
   "level": 5,
   "hardestPart": "violin 1",
-  "year": "c. 1940",
+  "year": "1940",
   "minutes": 12,
   "set": null,
   "notes": "Four short movements on Međimurje folk songs",
@@ -190365,37 +189006,6 @@
   ]
  },
  {
-  "id": 106604,
-  "composer": "Dyson, Peter",
-  "title": "Testimony",
-  "aka": [
-   "Testimony, Five Statements by String Quartet",
-   "Five Statements by String Quartet"
-  ],
-  "formation": "string-quartet",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 8,
-  "hardestPart": "balanced",
-  "year": "1979–80",
-  "minutes": 23,
-  "set": null,
-  "notes": "Five statements for string quartet; first performed by the Krasni Quartet (St Petersburg, 1999), who recorded it",
-  "popularity": "lesser-known",
-  "imslpPage": "Testimony (Dyson, Peter)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "dark",
-   "dramatic"
-  ]
- },
- {
   "id": 106605,
   "composer": "Eatock, Colin",
   "title": "Piano Trio (\"The Lotos-Eaters\")",
@@ -190805,120 +189415,6 @@
   "character": [
    "lyrical",
    "tender"
-  ]
- },
- {
-  "id": 106619,
-  "composer": "Letort, Bruno",
-  "title": "Baltika",
-  "formation": "string-quartet",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "short",
-  "level": 5,
-  "hardestPart": "balanced",
-  "year": "2003",
-  "minutes": 3,
-  "set": "E[A]ST",
-  "notes": "From the cycle E[A]ST; recorded by the Cube Quartet (Musicube, 2013); short movement",
-  "popularity": "lesser-known",
-  "imslpPage": "Baltika (Letort, Bruno)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "folk",
-   "dramatic",
-   "lyrical"
-  ]
- },
- {
-  "id": 106620,
-  "composer": "Letort, Bruno",
-  "title": "Blues comme l'enfer",
-  "formation": "string-quartet",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "short",
-  "level": 6,
-  "hardestPart": "balanced",
-  "year": "2005",
-  "minutes": 5,
-  "set": "E[A]ST",
-  "notes": "Blues extract from the cycle E[A]ST; recorded by the Cube Quartet (Musicube, 2013)",
-  "popularity": "lesser-known",
-  "imslpPage": "Blues comme l'enfer (Letort, Bruno)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "dark",
-   "virtuosic",
-   "folk"
-  ]
- },
- {
-  "id": 106621,
-  "composer": "Letort, Bruno",
-  "title": "Minsk",
-  "formation": "string-quartet",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "short",
-  "level": 5,
-  "hardestPart": "balanced",
-  "year": "2005",
-  "minutes": 4,
-  "set": "E[A]ST",
-  "notes": "From the cycle E[A]ST; recorded by the Cube Quartet (Musicube, 2013)",
-  "popularity": "lesser-known",
-  "imslpPage": "Minsk (Letort, Bruno)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "folk",
-   "dramatic",
-   "lyrical"
-  ]
- },
- {
-  "id": 106622,
-  "composer": "Masotti, Celestina",
-  "title": "Skyriana, Op. 15",
-  "aka": [
-   "Antica melodia popolare greca"
-  ],
-  "formation": "winds-strings",
-  "instruments": {
-   "recorder": 1,
-   "violin": 1,
-   "cello": 1
-  },
-  "players": 3,
-  "form": "short",
-  "level": 4,
-  "hardestPart": "balanced",
-  "year": "2010",
-  "minutes": 9,
-  "set": null,
-  "notes": "Dedicated to the island of Skyros; subtitled 'Antica melodia popolare greca'",
-  "popularity": "lesser-known",
-  "imslpPage": "Skyriana, Op.15 (Masotti, Celestina)",
-  "mode": null,
-  "pace": "slow",
-  "character": [
-   "folk",
-   "lyrical"
   ]
  },
  {
@@ -191552,34 +190048,6 @@
   "pace": "moderate",
   "character": [
    "dance",
-   "lyrical"
-  ]
- },
- {
-  "id": 106644,
-  "composer": "Queipo de Llano, Pablo",
-  "title": "Trio Sonata in C minor, Op. 2 No. 4b (\"La porta del paradiso\")",
-  "aka": [
-   "Sonata for 2 Violins in C minor, Op. 2 No. 4b"
-  ],
-  "formation": "continuo",
-  "instruments": {
-   "violin": 2,
-   "continuo": 1
-  },
-  "players": 3,
-  "form": "short",
-  "level": 3,
-  "hardestPart": "balanced",
-  "year": "",
-  "minutes": 8,
-  "set": null,
-  "notes": "Baroque-style trio sonata with two fugal movements, recorded by Ensemble Guidantus",
-  "popularity": "lesser-known",
-  "mode": "minor",
-  "pace": "moderate",
-  "character": [
-   "dramatic",
    "lyrical"
   ]
  },
@@ -192364,189 +190832,6 @@
   "character": [
    "dance",
    "folk"
-  ]
- },
- {
-  "id": 106671,
-  "composer": "Verotta, Davide",
-  "title": "Alpha, O. 58",
-  "aka": [
-   "Alpha (Five Variations on Two Themes)"
-  ],
-  "formation": "piano-trio",
-  "instruments": {
-   "violin": 1,
-   "cello": 1,
-   "piano": 1
-  },
-  "alternatives": {
-   "cello": [
-    "clarinet"
-   ]
-  },
-  "players": 3,
-  "form": "short",
-  "level": 5,
-  "hardestPart": "balanced",
-  "year": "2015",
-  "minutes": 7,
-  "set": null,
-  "notes": "Five variations on two themes; also published with clarinet in place of the cello",
-  "popularity": "lesser-known",
-  "imslpPage": "Alpha, O.58 (Verotta, Davide)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "lyrical"
-  ]
- },
- {
-  "id": 106672,
-  "composer": "Verotta, Davide",
-  "title": "Despite It, O. 104",
-  "formation": "winds-strings",
-  "instruments": {
-   "clarinet": 1,
-   "violin": 1,
-   "cello": 1,
-   "piano": 1
-  },
-  "alternatives": {
-   "clarinet": [
-    "flute"
-   ]
-  },
-  "players": 4,
-  "form": "short",
-  "level": 6,
-  "hardestPart": "balanced",
-  "year": "2022",
-  "minutes": 10,
-  "set": null,
-  "notes": "Also published with flute in place of the clarinet; first heard at a NACUSA concert in San Francisco in 2022",
-  "popularity": "lesser-known",
-  "imslpPage": "Despite It, O.104 (Verotta, Davide)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "dramatic",
-   "playful"
-  ]
- },
- {
-  "id": 106673,
-  "composer": "Zak, Mike",
-  "title": "String Quartet No. 1, Op. 1",
-  "formation": "string-quartet",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 4,
-  "hardestPart": "balanced",
-  "year": "2023",
-  "minutes": 10,
-  "set": null,
-  "notes": "Four short movements, about 10 minutes",
-  "popularity": "lesser-known",
-  "imslpPage": "String Quartet No.1, Op.1 (Zak, Mike)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "playful"
-  ]
- },
- {
-  "id": 106674,
-  "composer": "Zak, Mike",
-  "title": "String Quartet No. 2, Op. 4",
-  "formation": "string-quartet",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 5,
-  "hardestPart": "violin 1",
-  "year": "2024",
-  "minutes": 15,
-  "set": null,
-  "notes": "Three movements, about 15 minutes",
-  "popularity": "lesser-known",
-  "imslpPage": "String Quartet No.2, Op.4 (Zak, Mike)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "lyrical",
-   "dramatic"
-  ]
- },
- {
-  "id": 106675,
-  "composer": "Zwaag, Wim",
-  "title": "Piano Quartet",
-  "aka": [
-   "Beyond the Misty Doors of Memory"
-  ],
-  "formation": "piano-quartet",
-  "instruments": {
-   "violin": 1,
-   "viola": 1,
-   "cello": 1,
-   "piano": 1
-  },
-  "players": 4,
-  "form": "work",
-  "level": 6,
-  "hardestPart": "piano",
-  "year": "2005",
-  "minutes": 25,
-  "set": null,
-  "notes": "Three movements: The Old and Grey, The Green-Walled Garden, Variations",
-  "popularity": "lesser-known",
-  "imslpPage": "Piano Quartet (Zwaag, Wim)",
-  "mode": null,
-  "pace": "moderate",
-  "character": [
-   "lyrical"
-  ]
- },
- {
-  "id": 106676,
-  "composer": "Zwaag, Wim",
-  "title": "Piano Trio",
-  "aka": [
-   "Piano Trio 'Requiem'",
-   "Requiem"
-  ],
-  "formation": "piano-trio",
-  "instruments": {
-   "violin": 1,
-   "cello": 1,
-   "piano": 1
-  },
-  "players": 3,
-  "form": "work",
-  "level": 6,
-  "hardestPart": "piano",
-  "year": "2005",
-  "minutes": 27,
-  "set": null,
-  "notes": "Four movements; IMSLP gives the title 'Requiem'",
-  "popularity": "lesser-known",
-  "imslpPage": "Piano Trio (Zwaag, Wim)",
-  "mode": null,
-  "pace": "slow",
-  "character": [
-   "dark",
-   "lyrical"
   ]
  },
  {
@@ -195373,13 +193658,13 @@
    "piano": 1
   },
   "players": 3,
-  "form": "short",
+  "form": "work",
   "level": 6,
   "hardestPart": "piano",
   "year": "1946–47",
-  "minutes": 8,
+  "minutes": 18,
   "set": null,
-  "notes": "Single movement of about 8 minutes",
+  "notes": "Composed 1946–47",
   "popularity": "lesser-known",
   "mode": "major",
   "pace": "moderate",
@@ -207895,18 +206180,17 @@
   "instruments": {
    "horn": 1,
    "percussion": 1,
-   "viola": 1,
-   "cello": 1,
-   "piano": 1
+   "piano": 1,
+   "viola": 1
   },
-  "players": 5,
+  "players": 4,
   "form": "short",
   "level": 8,
   "hardestPart": "balanced",
   "year": "2011",
   "minutes": 5,
   "set": "Portulan",
-  "notes": "From the Portulan cycle; horn, percussion, piano, viola and cello",
+  "notes": "From the Portulan cycle; horn, percussion, piano and viola",
   "popularity": "lesser-known",
   "mode": null,
   "pace": "moderate",
@@ -210335,7 +208619,7 @@
   "level": 7,
   "hardestPart": "piano",
   "year": "1927",
-  "minutes": 20,
+  "minutes": 27,
   "set": null,
   "notes": "Dedicated to Elizabeth Sprague Coolidge; Malipiero's only piano trio",
   "popularity": "lesser-known",
@@ -227969,32 +226253,6 @@
   ]
  },
  {
-  "id": 107955,
-  "composer": "Riley, Terry",
-  "title": "Cry of a Lady",
-  "formation": "string-quartet",
-  "instruments": {
-   "violin": 2,
-   "viola": 1,
-   "cello": 1
-  },
-  "players": 4,
-  "form": "short",
-  "level": 5,
-  "hardestPart": "balanced",
-  "year": "",
-  "minutes": 5,
-  "set": null,
-  "notes": "Single movement for string quartet; recorded by the Kronos Quartet on Nonesuch (2015)",
-  "popularity": "lesser-known",
-  "mode": null,
-  "pace": "slow",
-  "character": [
-   "tender",
-   "lyrical"
-  ]
- },
- {
   "id": 107956,
   "composer": "Riley, Terry",
   "title": "Lacrymosa – Remembering Kevin",
@@ -228555,7 +226813,7 @@
   "year": "2002",
   "minutes": 9,
   "set": null,
-  "notes": "Amplified sextet premiered by the Bang on a Can All-Stars in Champaign-Urbana, 2002; also an orchestral version",
+  "notes": "Amplified sextet premiered by the Bang on a Can All-Stars in Champaign-Urbana, 2002",
   "popularity": "lesser-known",
   "mode": "minor",
   "pace": "lively",
@@ -231138,7 +229396,7 @@
   "id": 108069,
   "composer": "Danielpour, Richard",
   "title": "String Quartet No. 3 (\"Psalms of Sorrow\")",
-  "formation": "other",
+  "formation": "string-quartet",
   "instruments": {
    "voice": 1,
    "violin": 2,
@@ -231159,7 +229417,8 @@
   "character": [
    "dark",
    "lyrical"
-  ]
+  ],
+  "formationNote": "String quartet with baritone"
  },
  {
   "id": 108070,
@@ -231243,7 +229502,7 @@
   "id": 108073,
   "composer": "Danielpour, Richard",
   "title": "String Quartet No. 7 (\"Psalms of Solace\")",
-  "formation": "other",
+  "formation": "string-quartet",
   "instruments": {
    "voice": 1,
    "violin": 2,
@@ -231264,7 +229523,8 @@
   "character": [
    "tender",
    "lyrical"
-  ]
+  ],
+  "formationNote": "String quartet with soprano"
  },
  {
   "id": 108074,
@@ -232271,7 +230531,7 @@
   "form": "work",
   "level": 6,
   "hardestPart": "balanced",
-  "year": "1987",
+  "year": "1996",
   "minutes": 11,
   "set": null,
   "notes": "For clarinet, viola and piano",
