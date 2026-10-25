@@ -72,10 +72,10 @@ const ShowInput = z
 const AskInput = z.object({ question: z.string().max(300), options: z.array(z.string().max(80)).min(2).max(5) }).strict();
 
 type Titled = { title: string; composerName: string };
-const words = (s: string) => new Set(fold(s).split(/[^a-z0-9]+/).filter((w) => w.length > 1));
+const titleWords = (s: string) => new Set(fold(s).split(/[^a-z0-9]+/).filter((w) => w.length > 1));
 function titleMatches(p: Titled, hint: string) {
-  const a = words(`${p.title} ${p.composerName}`);
-  const b = [...words(hint)];
+  const a = titleWords(`${p.title} ${p.composerName}`);
+  const b = [...titleWords(hint)];
   if (!b.length) return false;
   return b.filter((w) => a.has(w)).length / b.length >= 0.6;
 }
@@ -97,7 +97,8 @@ export function runShowResults(input: unknown, getPiece: (id: number) => Titled 
     };
   }
   return {
-    result: "Shown to the user in the results list.",
+    // without this, a model that wrote its reply before the call sometimes writes it again after the result
+    result: "Shown to the user in the results list. If you already wrote your reply before this call, stop now; never write it twice.",
     ui: { kind: "results", title: i.data.title, items: i.data.items.map((x) => ({ id: x.id, reason: x.reason })) },
   };
 }
@@ -110,4 +111,15 @@ export function runAskUser(input: unknown): ToolOutcome {
     ui: { kind: "question", question: i.data.question, options: i.data.options },
     endTurn: true,
   };
+}
+
+/** whether two passages say much the same (most of their longer words shared): app/api/advisor/route.ts keeps only the later of two */
+const words = (s: string) => new Set(s.toLowerCase().match(/[\p{L}\d]{4,}/gu) ?? []);
+export function repeats(a: string, b: string): boolean {
+  const x = words(a);
+  const y = words(b);
+  if (x.size < 8 || y.size < 8) return false;
+  let shared = 0;
+  for (const w of x) if (y.has(w)) shared++;
+  return shared / Math.min(x.size, y.size) >= 0.6;
 }

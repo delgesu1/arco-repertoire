@@ -162,10 +162,11 @@ for (const dir of ["data/build", "public/data"]) mkdirSync(join(ROOT, dir), { re
 writeFileSync(join(ROOT, "data/build/chamber.json"), json);
 writeFileSync(join(ROOT, "public/data/chamber.json"), json);
 // ── the chamber advisor's catalogue ────────────────────────────────────
-// Its cached prompt lists the best-known works, one compact line each, under a character budget that keeps it below Haiku's
-// 100K-token price step (as scripts/build-data.ts does for the violin advisor); every work stays reachable through its tools.
+// Its cached prompt lists the best-known works, one compact line each, under a character budget that keeps it well below
+// Haiku's 100K-token price step (as scripts/build-data.ts does for the violin advisor): the prompt and tools come to about 62K
+// tokens, which leaves a conversation room for several turns of tool results. Every work stays reachable through the tools.
 // Renown: the "well-known" mark, an approved benchmark, and the views of the work's recording on the site.
-const PROMPT_CHARS = Number(process.env.CHAMBER_PROMPT_CHARS ?? 110_000);
+const PROMPT_CHARS = Number(process.env.CHAMBER_PROMPT_CHARS ?? 85_000);
 const workOf = new Map(works.map((w) => [w.violinId ?? w.id, w]));
 const views = (p: ChamberPiece) =>
   p.recording ? ((p.sections.includes("violin") ? violinJudged : judged)[String(p.id)]?.video?.views ?? 0) : 0;
@@ -204,8 +205,8 @@ const listed = new Set<number>();
     withHeader.add(p.composer);
     listed.add(p.id);
   };
-  // every ensemble gets its best-known works in first (viol consorts and continuo sonatas have few views), then the rest by renown
-  for (const f of FORMATIONS) byRenown.filter((p) => p.chamber.formation === f.key).slice(0, 40).forEach(add);
+  // every ensemble gets its best-known 30 in first (viol consorts and continuo sonatas have few views), then the rest by renown
+  for (const f of FORMATIONS) byRenown.filter((p) => p.chamber.formation === f.key).slice(0, 30).forEach(add);
   byRenown.forEach(add);
 }
 const listedBy = new Map<string, ChamberPiece[]>();

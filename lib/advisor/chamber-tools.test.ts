@@ -4,6 +4,7 @@ import { CHAMBER_BY_RENOWN, CHAMBER_CATALOGUE_TEXT } from "./chamber-catalogue-t
 import { hardestCode, scoringCode } from "./chamber-codes";
 import { buildChamberSystem } from "./chamber-prompt";
 import { runChamberTool } from "./chamber-tools";
+import { repeats } from "./shared";
 
 describe("catalogue codes", () => {
   it("writes a scoring compactly, with alternatives and ad lib. parts", () => {
@@ -87,5 +88,16 @@ describe("chamber tools", () => {
   it("sets the chamber list's filters", async () => {
     const r = await runChamberTool("set_filters", { formation: "string-quartet", instruments: ["clarinet"], level: 4 });
     expect(r.ui).toEqual({ kind: "filters", params: { ens: "string-quartet", with: "clarinet", lv: "4" } });
+  });
+});
+
+describe("repeated replies", () => {
+  const draft =
+    "Boccherini is the natural composer for this group, and his quintets for two violins, viola and two cellos are full of wit. Start with the Night Music of the Streets of Madrid.";
+  it("recognises a reply written twice", () => {
+    expect(repeats(draft, draft.replace("Night Music", "“Night Music”") + " [[100067]]")).toBe(true);
+  });
+  it("keeps a different follow-on", () => {
+    expect(repeats(draft, "I've also set the list to string quintets with two cellos at levels four to five, sorted by composer.")).toBe(false);
   });
 });

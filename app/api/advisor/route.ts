@@ -3,7 +3,7 @@ import { createHash, createHmac, timingSafeEqual } from "node:crypto";
 import { buildChamberSystem } from "@/lib/advisor/chamber-prompt";
 import { CHAMBER_TOOLS, runChamberTool } from "@/lib/advisor/chamber-tools";
 import { MODEL, buildSystem } from "@/lib/advisor/prompt";
-import type { AdvisorKit, UiEvent } from "@/lib/advisor/shared";
+import { repeats, type AdvisorKit, type UiEvent } from "@/lib/advisor/shared";
 import { TOOLS, runTool } from "@/lib/advisor/tools";
 
 export const maxDuration = 120;
@@ -35,6 +35,7 @@ function verify(s: string, sig: string) {
 }
 
 type Body = { history?: string; sig?: string; message?: string; context?: string; section?: string };
+
 
 // the violin list's advisor, and the chamber list's (/chamber), which knows its own catalogue and matches works to a group
 const KITS: Record<"violin" | "chamber", AdvisorKit> = {
@@ -86,6 +87,8 @@ export async function POST(req: Request) {
         controller.enqueue(enc.encode(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`));
       const usage = { input: 0, cacheRead: 0, cacheWrite: 0, output: 0, lastInput: 0 };
       const started = Date.now();
+      // the text of each round; a model that wrote its reply before show_results sometimes writes it again after the result
+      const rounds: string[] = [];
       try {
         for (let loop = 0; loop < MAX_LOOPS; loop++) {
           const s = client.messages.stream(
@@ -109,6 +112,11 @@ export async function POST(req: Request) {
           });
           s.on("thinking", (delta) => send("thinking", { delta }));
           const msg = await s.finalMessage();
+          if (loopText.trim()) {
+            const kept = rounds.filter((t) => !repeats(t, loopText));
+            if (kept.length < rounds.length) send("replace", { text: [...kept, loopText].map((t) => t.trim()).join("\n\n") });
+            rounds.splice(0, rounds.length, ...kept, loopText);
+          }
           const u = msg.usage;
           usage.input += u.input_tokens;
           usage.cacheRead += u.cache_read_input_tokens ?? 0;

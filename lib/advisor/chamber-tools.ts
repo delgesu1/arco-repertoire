@@ -75,7 +75,7 @@ export const CHAMBER_TOOLS: Anthropic.Tool[] = [
         add: { type: "integer", minimum: 0, maximum: 2, description: "also show what adding 1 (or 2) players would open up" },
         sit_out: { type: "boolean", description: "also show what the group plays if one player sits out" },
         ...workFilterProps,
-        limit: { type: "integer", minimum: 1, maximum: 40, description: "how many of the works that fit to list (default 20)" },
+        limit: { type: "integer", minimum: 1, maximum: 40, description: "how many of the works that fit to list (default 15)" },
       },
       required: ["players"],
       additionalProperties: false,
@@ -292,7 +292,7 @@ function matchEnsemble(i: z.infer<typeof MatchInput>): ToolOutcome {
   for (const p of i.players) group[p.instrument] = (group[p.instrument] ?? 0) + p.count;
   const size = Object.values(group).reduce((n, c) => n + (c ?? 0), 0);
   const works = filtered(i);
-  const limit = i.limit ?? 20;
+  const limit = i.limit ?? 15;
   const filters = filterLabel(i);
   const out: string[] = [`Group: ${groupLabel(group)} (${size} players)${filters ? `; filters: ${filters}` : ""}`];
 
@@ -316,7 +316,7 @@ function matchEnsemble(i: z.infer<typeof MatchInput>): ToolOutcome {
   if (subbed.length)
     out.push(
       `\nAlso playable with a substitute the score doesn't name: ${subbed.length} works (${spread(subbed.map((x) => x.p))}). Best known:`,
-      ...subbed.slice(0, 5).map(noted),
+      ...subbed.slice(0, 4).map(noted),
     );
 
   const options = (label: string, groups: Map<string, Hit[]>, examples: number) => {
@@ -352,7 +352,7 @@ function matchEnsemble(i: z.infer<typeof MatchInput>): ToolOutcome {
         groups.set(key, [...(groups.get(key) ?? []), { p, ...fit }]);
       }
     }
-    options(i.add === 1 ? "Adding one player" : "Adding one or two players", groups, 4);
+    options(i.add === 1 ? "Adding one player" : "Adding one or two players", groups, 3);
   }
 
   if (i.sit_out) {
@@ -367,7 +367,7 @@ function matchEnsemble(i: z.infer<typeof MatchInput>): ToolOutcome {
         }
       }
     }
-    options("If one player sits out", groups, 4);
+    options("If one player sits out", groups, 3);
   }
 
   return { result: out.join("\n"), status: `Matching works to ${groupLabel(group)}…` };

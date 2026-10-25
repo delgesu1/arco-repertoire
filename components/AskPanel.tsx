@@ -161,6 +161,8 @@ export function AskPanel<P extends PieceBase>({
             if (!ev || !data) continue;
             const d = JSON.parse(data);
             if (ev === "text") patchLast((a) => ({ ...a, text: a.text + d.delta }));
+            // the reply so far, when the advisor has repeated an earlier draft of it
+            else if (ev === "replace") patchLast((a) => ({ ...a, text: d.text }));
             else if (ev === "thinking") patchLast((a) => ({ ...a, thinking: a.thinking + d.delta }));
             else if (ev === "status") patchLast((a) => ({ ...a, status: [...a.status, d.text] }));
             else if (ev === "error") {
