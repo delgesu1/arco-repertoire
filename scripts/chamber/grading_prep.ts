@@ -7,6 +7,7 @@
  *
  *   npx tsx scripts/chamber/grading_prep.ts a          # chunks for grader A: every curated work without a settled level
  *   npx tsx scripts/chamber/grading_prep.ts b          # chunks for grader B: the works where grader A differs from the researcher
+ *   npx tsx scripts/chamber/grading_prep.ts a|b --new  # only works that pass has not graded yet (added after the first run), in new chunks
  *
  * Writes data/chamber/grading/anchors.json (the scale, the vocabulary, violin anchors and the 135 benchmarks) and
  * data/chamber/grading/to-grade/<a|b><nn>.json. Graders write data/chamber/grading/grades/<chunk>.json
@@ -23,7 +24,8 @@ const read = <T>(p: string): T => JSON.parse(readFileSync(join(ROOT, p), "utf8")
 const DIR = "data/chamber/grading";
 const CHUNK = 250;
 const pass = process.argv[2];
-if (pass !== "a" && pass !== "b") throw new Error("usage: grading_prep.ts a|b");
+if (pass !== "a" && pass !== "b") throw new Error("usage: grading_prep.ts a|b [--new]");
+const onlyNew = process.argv.includes("--new");
 
 const works = read<ChamberWork[]>("data/chamber/works.json");
 const sources = read<Record<string, { levelGuess?: number }>>("data/chamber/sources.json");
@@ -82,24 +84,38 @@ const item = (w: ChamberWork) => ({
   notes: w.notes,
 });
 
+const gradesDir = join(ROOT, DIR, "grades");
+const gradesOf = (p: string) => {
+  const m = new Map<string, number>();
+  for (const f of readdirSync(gradesDir).filter((f) => f.startsWith(p) && f.endsWith(".json")))
+    for (const g of JSON.parse(readFileSync(join(gradesDir, f), "utf8")).grades) m.set(g.key, g.level);
+  return m;
+};
 let todo: ChamberWork[];
 if (pass === "a") {
   // settled: benchmarks, and works also in the violin catalogue (they keep the violin level)
   todo = works.filter((w) => !w.benchmark && !w.violinId);
+  if (onlyNew) {
+    const a = gradesOf("a");
+    todo = todo.filter((w) => !a.has(String(w.id)));
+  }
 } else {
-  const gradesDir = join(ROOT, DIR, "grades");
-  const a = new Map<string, number>();
-  for (const f of readdirSync(gradesDir).filter((f) => f.startsWith("a") && f.endsWith(".json")))
-    for (const g of JSON.parse(readFileSync(join(gradesDir, f), "utf8")).grades) a.set(g.key, g.level);
+  const a = gradesOf("a");
   const missing = works.filter((w) => !w.benchmark && !w.violinId && !a.has(String(w.id)));
   if (missing.length) throw new Error(`${missing.length} works have no grade from grader A yet (first: ${missing[0].id})`);
   todo = works.filter((w) => !w.benchmark && !w.violinId && a.get(String(w.id)) !== sources[w.id]?.levelGuess);
+  if (onlyNew) {
+    const b = gradesOf("b");
+    todo = todo.filter((w) => !b.has(String(w.id)));
+  }
 }
 // keep one composer's works together where possible: they are graded more consistently side by side
 todo.sort((x, y) => x.composer.localeCompare(y.composer) || x.id - y.id);
 const chunks = Math.ceil(todo.length / CHUNK);
+// --new numbers its chunks after the ones already written, so no grader's file is overwritten
+const first = onlyNew ? readdirSync(join(ROOT, DIR, "to-grade")).filter((f) => f.startsWith(pass) && f.endsWith(".json")).length : 0;
 for (let i = 0; i < chunks; i++) {
-  const name = `${pass}${String(i + 1).padStart(2, "0")}`;
+  const name = `${pass}${String(first + i + 1).padStart(2, "0")}`;
   const path = join(ROOT, DIR, "to-grade", `${name}.json`);
   if (existsSync(path) && pass === "a") continue; // never reshuffle chunks a grader may already be working on
   writeFileSync(path, JSON.stringify({ chunk: name, items: todo.slice(i * CHUNK, (i + 1) * CHUNK).map(item) }, null, 1) + "\n");
