@@ -189,6 +189,188 @@
   "chunk": "zz-owner"
  },
  {
+  "id": 101417,
+  "composer": "Williams, William",
+  "title": "Trio Sonata No. 2 in C major",
+  "aka": [
+   "Trio Sonata in C major, Op. 1 No. 2"
+  ],
+  "formation": "continuo",
+  "instruments": {
+   "recorder": 2,
+   "cello": 1,
+   "continuo": 1
+  },
+  "alternatives": {
+   "cello": [
+    "viola-da-gamba"
+   ]
+  },
+  "players": 4,
+  "form": "work",
+  "level": 3,
+  "hardestPart": "balanced",
+  "year": "1700",
+  "minutes": 4,
+  "set": "Six Sonatas in Three Parts (1700)",
+  "notes": "Two recorders with a bass-violin (or viol) part and figured bass",
+  "popularity": "lesser-known",
+  "imslpPage": "6 Sonatas in Three Parts (Williams, William)",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical"
+  ],
+  "rejectReason": "out of scope",
+  "rejectNote": "owner's bass ruling, decided by Claude: the bass-violin book repeats the figured bass, which leaves two recorders and continuo",
+  "rejectSources": [],
+  "chunk": "zz-owner-bass"
+ },
+ {
+  "id": 101419,
+  "composer": "Williams, William",
+  "title": "Trio Sonata No. 4 in A minor",
+  "aka": [
+   "Trio Sonata in A minor, Op. 1 No. 4"
+  ],
+  "formation": "continuo",
+  "instruments": {
+   "recorder": 2,
+   "cello": 1,
+   "continuo": 1
+  },
+  "alternatives": {
+   "cello": [
+    "viola-da-gamba"
+   ]
+  },
+  "players": 4,
+  "form": "work",
+  "level": 3,
+  "hardestPart": "balanced",
+  "year": "1700",
+  "minutes": 6,
+  "set": "Six Sonatas in Three Parts (1700)",
+  "notes": "Two recorders with a bass-violin (or viol) part and figured bass",
+  "popularity": "lesser-known",
+  "imslpPage": "6 Sonatas in Three Parts (Williams, William)",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "lyrical"
+  ],
+  "rejectReason": "out of scope",
+  "rejectNote": "owner's bass ruling, decided by Claude: the bass-violin book repeats the figured bass, which leaves two recorders and continuo",
+  "rejectSources": [],
+  "chunk": "zz-owner-bass"
+ },
+ {
+  "id": 101421,
+  "composer": "Williams, William",
+  "title": "Trio Sonata No. 6 in F major (\"In Imitation of Birds\")",
+  "aka": [
+   "Trio Sonata in F major, Op. 1 No. 6",
+   "Sonata in Imitation of Birds"
+  ],
+  "formation": "continuo",
+  "instruments": {
+   "recorder": 2,
+   "cello": 1,
+   "continuo": 1
+  },
+  "alternatives": {
+   "cello": [
+    "viola-da-gamba"
+   ]
+  },
+  "players": 4,
+  "form": "work",
+  "level": 4,
+  "hardestPart": "balanced",
+  "year": "1700",
+  "minutes": 6,
+  "set": "Six Sonatas in Three Parts (1700)",
+  "notes": "Two recorders imitate birdsong over a bass-violin (or viol) part and figured bass",
+  "popularity": "lesser-known",
+  "imslpPage": "6 Sonatas in Three Parts (Williams, William)",
+  "mode": "major",
+  "pace": "lively",
+  "character": [
+   "playful",
+   "virtuosic"
+  ],
+  "rejectReason": "out of scope",
+  "rejectNote": "owner's bass ruling, decided by Claude: the bass-violin book repeats the figured bass, which leaves two recorders and continuo",
+  "rejectSources": [],
+  "chunk": "zz-owner-bass"
+ },
+ {
+  "id": 101451,
+  "composer": "Graupner, Christoph",
+  "title": "Sonata canonica in G minor, GWV 216",
+  "formation": "continuo",
+  "instruments": {
+   "recorder": 2,
+   "viola-da-gamba": 1,
+   "continuo": 1
+  },
+  "players": 4,
+  "form": "work",
+  "level": 3,
+  "hardestPart": "balanced",
+  "year": "c. 1737",
+  "minutes": 11,
+  "set": null,
+  "notes": "Canonic sonata for two recorders and viola da gamba over continuo",
+  "popularity": "lesser-known",
+  "mode": "minor",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dark"
+  ],
+  "aka": [
+   "Canon in G minor, GWV 216"
+  ],
+  "rejectReason": "out of scope",
+  "rejectNote": "owner's bass ruling, decided by Claude: the bass is the continuo line, which leaves two winds and continuo",
+  "rejectSources": [],
+  "chunk": "zz-owner-bass"
+ },
+ {
+  "id": 101453,
+  "composer": "Graupner, Christoph",
+  "title": "Canon in B-flat major, GWV 218",
+  "aka": [
+   "Canon all'unisono in B-flat major, GWV 218",
+   "Sonata in B-flat major, GWV 218"
+  ],
+  "formation": "continuo",
+  "instruments": {
+   "oboe": 2,
+   "cello": 1,
+   "continuo": 1
+  },
+  "players": 4,
+  "form": "work",
+  "level": 3,
+  "hardestPart": "balanced",
+  "year": "1737",
+  "minutes": 13,
+  "set": null,
+  "notes": "Canon all'unisono in six movements for two oboes and cello over continuo",
+  "popularity": "lesser-known",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical"
+  ],
+  "rejectReason": "out of scope",
+  "rejectNote": "owner's bass ruling, decided by Claude: the bass is the continuo line, which leaves two winds and continuo",
+  "rejectSources": [],
+  "chunk": "zz-owner-bass"
+ },
+ {
   "id": 101566,
   "composer": "Uccellini, Marco",
   "title": "Aria seconda sopra E' tanto tempo hormai, Op. 3",
@@ -364,6 +546,65 @@
    "https://imslp.org/wiki/Flute_Quartet_in_D_major,_W.B_62_(Bach,_Johann_Christian)"
   ],
   "chunk": "v080"
+ },
+ {
+  "id": 102528,
+  "composer": "Abel, Carl Friedrich",
+  "title": "Trio Sonata in G major, Op. 16 No. 1, WK 98",
+  "formation": "winds-strings",
+  "instruments": {
+   "flute": 2,
+   "cello": 1
+  },
+  "players": 3,
+  "form": "work",
+  "level": 3,
+  "hardestPart": "flute 1",
+  "year": "c. 1785",
+  "minutes": 10,
+  "set": "Four Trio Sonatas, Op. 16 (\"Abingdon\")",
+  "notes": "Two flutes and cello (or continuo), from the Abingdon set. Moderato, Adagio ma non troppo, Allegretto",
+  "popularity": "lesser-known",
+  "imslpPage": "Trio Sonata in G major, WK 98 (Abel, Carl Friedrich)",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical"
+  ],
+  "rejectReason": "out of scope",
+  "rejectNote": "owner's bass ruling, decided by Claude: the print's 'bass' is a continuo part, which leaves two flutes and continuo",
+  "rejectSources": [],
+  "chunk": "zz-owner-bass"
+ },
+ {
+  "id": 102529,
+  "composer": "Abel, Carl Friedrich",
+  "title": "Trio Sonata in G major, Op. 16 No. 4, WK 101",
+  "formation": "winds-strings",
+  "instruments": {
+   "flute": 2,
+   "cello": 1
+  },
+  "players": 3,
+  "form": "work",
+  "level": 3,
+  "hardestPart": "flute 1",
+  "year": "c. 1785",
+  "minutes": 8,
+  "set": "Four Trio Sonatas, Op. 16 (\"Abingdon\")",
+  "notes": "Two flutes and cello (or continuo), from the Abingdon set. Allegro, Andante, Tempo di minuetto",
+  "popularity": "lesser-known",
+  "imslpPage": "Trio Sonata in G major, WK 101 (Abel, Carl Friedrich)",
+  "mode": "major",
+  "pace": "moderate",
+  "character": [
+   "lyrical",
+   "dance"
+  ],
+  "rejectReason": "out of scope",
+  "rejectNote": "owner's bass ruling, decided by Claude: the print's 'bass' is a continuo part, which leaves two flutes and continuo",
+  "rejectSources": [],
+  "chunk": "zz-owner-bass"
  },
  {
   "id": 102654,

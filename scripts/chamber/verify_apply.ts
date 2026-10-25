@@ -72,7 +72,7 @@ for (const f of readdirSync(join(ROOT, dir)).filter((f) => f.endsWith(".json")).
     counts[r.verdict] = (counts[r.verdict] ?? 0) + 1;
     const w = byId.get(r.id);
     if (!w) {
-      if (!(r.verdict === "reject" && rejectedById.has(r.id))) lines.push(`! ${chunk}: id ${r.id} is not in works.json`);
+      if (!rejectedById.has(r.id)) lines.push(`! ${chunk}: id ${r.id} is not in works.json`); // a work a later file rejected is expected here
       doubts.delete(r.id);
       continue;
     }
