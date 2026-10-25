@@ -21,7 +21,7 @@ export function generateStaticParams() {
 type Props = { params: Promise<{ id: string; slug: string }> };
 
 const violinComposers = new Set(composers.map((c) => c.slug));
-const CHAMBER_OG_IMAGE = { url: "/chamber/opengraph-image", width: 1200, height: 630, alt: "Arco Repertoire: what can your group play?" };
+const CHAMBER_OG_IMAGE = { url: "/chamber/opengraph-image", width: 1200, height: 630, alt: "Arco Repertoire: find the perfect piece for your ensemble" };
 
 function chamberMetadata(p: ChamberPiece): Metadata {
   const l = levelInfo(p.level);

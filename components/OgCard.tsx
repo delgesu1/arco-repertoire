@@ -56,7 +56,18 @@ function Pick({ label, bg }: { label: string; bg: string }) {
 export type SentencePart = string | { pick: string; bg: string };
 
 /** The card: logo, headline, a line about the catalogue, and the finder sentence as the page shows it. */
-export async function ogCard({ headline, line, sentence }: { headline: string; line: string; sentence: SentencePart[] }) {
+export async function ogCard({
+  headline,
+  headlineSize = 92,
+  line,
+  sentence,
+}: {
+  headline: string;
+  /** smaller for a longer headline, so it stays on two lines */
+  headlineSize?: number;
+  line: string;
+  sentence: SentencePart[];
+}) {
   const [archivo, instrument, logo] = await Promise.all([
     font("family=Archivo:wdth,wght@112,800"),
     font("family=Instrument+Sans:wght@500"),
@@ -86,7 +97,7 @@ export async function ogCard({ headline, line, sentence }: { headline: string; l
         </div>
 
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <div style={{ fontFamily: "Archivo", fontSize: 92, lineHeight: 1, letterSpacing: -2, color: INK }}>{headline}</div>
+          <div style={{ fontFamily: "Archivo", fontSize: headlineSize, lineHeight: 1, letterSpacing: -2, color: INK }}>{headline}</div>
           <div style={{ fontSize: 33, lineHeight: 1.35, color: MUTED, marginTop: 26, maxWidth: 980 }}>{line}</div>
         </div>
 
