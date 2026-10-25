@@ -12,6 +12,15 @@ export const metadata: Metadata = {
   title: "Chamber music",
   description: `${TOTAL} graded chamber works for three to nine players, from string trios to octets, sorted by ensemble, level and character.`,
   alternates: { canonical: "/chamber" },
+  // a link to /chamber previews as chamber music (the image is app/chamber/opengraph-image.tsx), not with the violin text the
+  // root layout gives every page
+  openGraph: {
+    type: "website",
+    siteName: "Arco Repertoire",
+    title: `Arco Repertoire: an interactive library of ${TOTAL} graded chamber works`,
+    description:
+      "From string trios to octets, organized by ensemble, level and character. Tell the AI advisor who’s in your group, and it finds music you can all play.",
+  },
   // hidden until launch (lib/chamber/launch.ts)
   ...(CHAMBER_LIVE ? {} : { robots: { index: false, follow: false } }),
 };
