@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { EMPTY_CHAMBER_FILTERS } from "./filter";
+import { isChamberPath } from "./launch";
 import { chamberFiltersFromParams, paramsFromChamberFilters } from "./url-state";
 
 const read = (qs: string) => chamberFiltersFromParams(new URLSearchParams(qs));
@@ -61,5 +62,20 @@ describe("chamber URL state", () => {
   it("keeps the open piece and leaves defaults out", () => {
     expect(write("piece=100031&form=work", { form: null })).toBe("piece=100031");
     expect(write("q=trout&sort=level", { sort: "relevance" })).toBe("q=trout");
+  });
+});
+
+describe("isChamberPath", () => {
+  it("knows the chamber section's pages", () => {
+    expect(isChamberPath("/chamber")).toBe(true);
+    expect(isChamberPath("/piece/100098/schubert-piano-quintet-in-a-major-d-667-trout")).toBe(true);
+    expect(isChamberPath("/piece/86/accolay-concerto-no-1-in-a-minor")).toBe(false);
+  });
+
+  it("counts the pages of composers with chamber works only", () => {
+    expect(isChamberPath("/composer/jenkins-john")).toBe(true);
+    expect(isChamberPath("/composer/boccherini-luigi")).toBe(false);
+    expect(isChamberPath("/composer/bruch-max")).toBe(false);
+    expect(isChamberPath("/composers")).toBe(false);
   });
 });
