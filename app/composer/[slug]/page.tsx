@@ -23,6 +23,9 @@ export function generateStaticParams() {
 
 type Props = { params: Promise<{ slug: string }> };
 
+/** "1 violin work", "253 chamber works" */
+const works = (n: number, kind: string) => `${n} ${kind} ${n === 1 ? "work" : "works"}`;
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const c = getComposer(slug);
@@ -32,13 +35,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const name = ch[0].composerName;
     return {
       title: `${name} — chamber music`,
-      description: `${ch.length} chamber ${ch.length === 1 ? "work" : "works"} by ${name}${ch[0].dates ? ` (${ch[0].dates})` : ""}, graded 1–10 for players and teachers.`,
+      description: `${works(ch.length, "chamber")} by ${name}${ch[0].dates ? ` (${ch[0].dates})` : ""}, graded 1–10 for players and teachers.`,
       alternates: { canonical: `/composer/${slug}` },
     };
   }
   return {
     title: `${c.name} — ${ch.length ? "violin and chamber works" : "violin works"}`,
-    description: `${c.pieces.length} violin works by ${c.name}${c.dates ? ` (${c.dates})` : ""}, graded 1–10 for teachers and players.`,
+    description: `${works(c.pieces.length, "violin")}${ch.length ? ` and ${works(ch.length, "chamber")}` : ""} by ${c.name}${c.dates ? ` (${c.dates})` : ""}, graded 1–10 for teachers and players.`,
     alternates: { canonical: `/composer/${c.slug}` },
   };
 }

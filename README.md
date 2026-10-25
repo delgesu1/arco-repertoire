@@ -23,14 +23,14 @@ npx tsx scripts/build-data.ts
 
 This writes `public/data/catalogue.json`, `data/build/catalogue.json` and the advisor's catalogue in `lib/advisor/catalogue-text.ts`. Commit the results and push.
 
-The chamber music section (built, hidden until launch: [docs/chamber-music-plan.md](docs/chamber-music-plan.md)) keeps its works in `data/chamber/works.json`. After editing them, check and rebuild its data; the build takes composer details and the works listed in both sections from the violin catalogue, so it runs after `build-data.ts`:
+The chamber music section (`/chamber`; how it was built: [docs/chamber-music-plan.md](docs/chamber-music-plan.md)) keeps its works in `data/chamber/works.json`. After editing them, check and rebuild its data; the build takes composer details and the works listed in both sections from the violin catalogue, so it runs after `build-data.ts`:
 
 ```bash
 npx tsx scripts/chamber/check.ts
 npx tsx scripts/build-chamber.ts
 ```
 
-This writes `public/data/chamber.json` and `data/build/chamber.json`. `lib/chamber/launch.ts` is the launch switch (it adds the section to the instrument switcher, the sitemap and composer pages, and drops its noindex); `NEXT_PUBLIC_CHAMBER_LIVE=1` previews the launched site locally.
+This writes `public/data/chamber.json`, `data/build/chamber.json` and the chamber advisor's catalogue (`lib/advisor/chamber-catalogue-text.ts`). `lib/chamber/launch.ts` is the launch switch: the section is public (in the instrument switcher, the sitemap and composer pages, indexed) unless `NEXT_PUBLIC_CHAMBER_LIVE=0` hides it again.
 
 Other scripts in `scripts/` (recordings, character tags, popularity) call the Claude API and are run occasionally, not on every build.
 

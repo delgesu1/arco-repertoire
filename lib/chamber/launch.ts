@@ -1,9 +1,9 @@
 /**
- * The chamber section is built but hidden until launch (docs/chamber-music-plan.md, phase 7): /chamber is not in the
- * instrument switcher or the sitemap, its pages are noindex, and composer pages show violin works only.
- * Launch by setting this to true; NEXT_PUBLIC_CHAMBER_LIVE=1 previews the launched site locally.
+ * Whether the chamber section is public (docs/chamber-music-plan.md, phase 7): /chamber in the instrument switcher and the
+ * sitemap, its pages indexed, composer pages listing chamber works, chamber-only composers with pages of their own.
+ * NEXT_PUBLIC_CHAMBER_LIVE=0 hides it again (built but reachable only by its address, noindex) without a code change.
  */
-export const CHAMBER_LIVE = process.env.NEXT_PUBLIC_CHAMBER_LIVE === "1";
+export const CHAMBER_LIVE = process.env.NEXT_PUBLIC_CHAMBER_LIVE !== "0";
 
 /** chamber works that are not also violin works have ids from 100001 (decision 4), so an address tells the sections apart */
 export const CHAMBER_FIRST_ID = 100001;

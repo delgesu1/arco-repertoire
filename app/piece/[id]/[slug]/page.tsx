@@ -21,6 +21,7 @@ export function generateStaticParams() {
 type Props = { params: Promise<{ id: string; slug: string }> };
 
 const violinComposers = new Set(composers.map((c) => c.slug));
+const CHAMBER_OG_IMAGE = { url: "/chamber/opengraph-image", width: 1200, height: 630, alt: "Arco Repertoire: what can your group play?" };
 
 function chamberMetadata(p: ChamberPiece): Metadata {
   const l = levelInfo(p.level);
@@ -31,9 +32,10 @@ function chamberMetadata(p: ChamberPiece): Metadata {
     title: `${p.title} — ${p.composerName}`,
     description,
     alternates: { canonical: pieceUrl(p) },
-    openGraph: { title: `${p.composerName}: ${p.title}`, description },
+    // the chamber card (app/chamber/opengraph-image.tsx), not the violin one the root segment would give
+    openGraph: { title: `${p.composerName}: ${p.title}`, description, images: [CHAMBER_OG_IMAGE] },
     other: smartBanner(`${SITE_URL}${pieceUrl(p)}`),
-    // hidden until launch (lib/chamber/launch.ts)
+    // hidden if the section is switched off (lib/chamber/launch.ts)
     ...(CHAMBER_LIVE ? {} : { robots: { index: false, follow: false } }),
   };
 }
