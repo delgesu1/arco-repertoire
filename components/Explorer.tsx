@@ -196,7 +196,11 @@ export function Explorer({ version, levels, total }: { version: string; levels: 
           autoplay={autoplay}
           onClose={closePiece}
           onOpen={openPiece}
-          onAsk={(p) => ask(`Tell me about [[${p.id}]] ${p.composerName}: ${p.title}. What does it develop, and what could come before and after it?`)}
+          // the sheet closes so the advisor panel (and the picks in the main list) aren't hidden behind it
+          onAsk={(p) => {
+            closePiece();
+            ask(`Tell me about [[${p.id}]] ${p.composerName}: ${p.title}. What does it develop, and what could come before and after it?`);
+          }}
         />
       )}
 

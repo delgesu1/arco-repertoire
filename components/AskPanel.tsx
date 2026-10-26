@@ -297,7 +297,8 @@ export function AskPanel<P extends PieceBase>({
             {turns.map((t, i) =>
               t.role === "user" ? (
                 <div key={i} className="msg user">
-                  {t.text}
+                  {/* "Ask about this piece" sends "[[id]] Composer: Title"; the marker is for the advisor, not the reader */}
+                  {t.text.replace(/\[\[\d+\]\]\s*/g, "")}
                 </div>
               ) : (
                 <div key={i} className="msg bot">

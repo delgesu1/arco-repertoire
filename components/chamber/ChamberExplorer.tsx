@@ -294,11 +294,13 @@ export function ChamberExplorer({
             levels={levels}
             composerLink={hasPage.has(openPieceData.composerSlug)}
             onOpen={openPiece}
-            onAsk={(p) =>
+            // the sheet closes so the advisor panel (and the picks in the main list) aren't hidden behind it
+            onAsk={(p) => {
+              closePiece();
               ask(
                 `Tell me about [[${p.id}]] ${p.composerName}: ${p.title}. What is it like to play, which part is the hardest, and what could a group play before and after it?`,
-              )
-            }
+              );
+            }}
             autoplay={autoplay}
           />
         </SheetFrame>
