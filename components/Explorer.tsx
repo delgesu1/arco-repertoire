@@ -199,7 +199,9 @@ export function Explorer({ version, levels, total }: { version: string; levels: 
           // the sheet closes so the advisor panel (and the picks in the main list) aren't hidden behind it
           onAsk={(p) => {
             closePiece();
-            ask(`Tell me about [[${p.id}]] ${p.composerName}: ${p.title}. What does it develop, and what could come before and after it?`);
+            ask(
+              `Tell me about [[${p.id}]] ${p.composerName}: ${p.title}. Background, movements, what it develops, where it fits in a recital, and what could come before and after it.`,
+            );
           }}
         />
       )}

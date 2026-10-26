@@ -24,15 +24,17 @@ export const VIOLIN_ASK: AskCopy = {
   section: "violin",
   store: "advisor-v1",
   starters: [
-    "My student just finished the Accolay concerto. What next?",
+    "Just finished the Mendelssohn Concerto. What could come next?",
     "Something lyrical and unaccompanied around level 6",
     "A recital opener under 4 minutes, not too hard",
     "Lesser-known pieces by women composers, level 3–5",
   ],
-  dock: "Tell me what you’ve played or what kind of vibe you’re looking for, and I’ll suggest some pieces!",
-  dockPlaceholder: "I just finished the Accolay concerto…",
+  // open questions first (what next, an occasion, a mood), which the filters can't answer; filtering second. Written for
+  // teachers and players alike
+  dock: "Ask me anything, from a short recital opener to what to play after the Mendelssohn Concerto.",
+  dockPlaceholder: "A lyrical encore for a recital…",
   intro:
-    "Tell me what you or your student has played, what you’re looking for, or ask anything about the repertoire. My picks appear in the main list.",
+    "Ask me about what to play next, music for a recital or occasion, a mood or a technique to work on, or anything else you have in mind. My picks appear in the main list.",
 };
 
 export interface AskRequest {
