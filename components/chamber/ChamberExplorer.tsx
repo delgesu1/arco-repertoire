@@ -298,7 +298,7 @@ export function ChamberExplorer({
             onAsk={(p) => {
               closePiece();
               ask(
-                `Tell me about [[${p.id}]] ${p.composerName}: ${p.title}. What is it like to play, which part is the hardest, and what could a group play before and after it?`,
+                `Tell me about [[${p.id}]] ${p.composerName}: ${p.title}. Background, movements, where it fits in a concert program, what it's like to play, and similar pieces.`,
               );
             }}
             autoplay={autoplay}
