@@ -96,7 +96,7 @@ export async function ogCard({
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={logoSrc} width={126} height={60} alt="" />
           <div style={{ width: 1.5, height: 34, background: "rgba(27,26,23,.3)", margin: "6px 20px 0" }} />
-          <div style={{ fontFamily: "Archivo", fontSize: 19, letterSpacing: 4.5, color: MUTED, marginTop: 6 }}>REPERTOIRE</div>
+          <div style={{ fontFamily: "Archivo", fontSize: 19, letterSpacing: 4.5, color: MUTED, marginTop: 6 }}>ATLAS</div>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column" }}>

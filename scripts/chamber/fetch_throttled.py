@@ -27,7 +27,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-UA = "ArcoRepertoire/1.0 (+https://repertoire.arco.app) catalogue research"
+UA = "ArcoAtlas/1.0 (+https://atlas.arco.app) catalogue research"
 ROOT = Path(__file__).resolve().parents[2]
 DIR = ROOT / "data/cache/chamber-lookups"
 INTERVAL = {"itunes.apple.com": 3.3, "musicbrainz.org": 1.3, "imslp.org": 1.2, "api.deezer.com": 0.6}

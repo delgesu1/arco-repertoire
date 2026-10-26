@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DIGEST = ROOT / "data" / "cache" / "imslp-digest.json"
 OUT = ROOT / "data" / "cache" / "imslp-wiki"
 OUT.mkdir(parents=True, exist_ok=True)
-UA = "ArcoRepertoire/1.0 (+https://repertoire.arco.app) catalogue research"
+UA = "ArcoAtlas/1.0 (+https://atlas.arco.app) catalogue research"
 
 # Violinists, pedagogues and arrangers whose violin transcriptions count as "established".
 NOTABLE = """kreisler heifetz auer joachim elman zimbalist szigeti kochanski kochański milstein francescatti wilhelmj burmester hubay

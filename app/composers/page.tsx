@@ -5,7 +5,7 @@ import { CHAMBER_LIVE } from "@/lib/chamber/launch";
 
 export const metadata: Metadata = {
   title: "Composers",
-  description: "Every composer in Arco Repertoire, with their graded violin works.",
+  description: "Every composer in Arco Atlas, with their graded violin works.",
   alternates: { canonical: "/composers" },
 };
 

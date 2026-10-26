@@ -10,7 +10,7 @@ Run again to resume: composers already resolved are kept.
 import json, re, sys, time, unicodedata, urllib.parse, urllib.request
 from pathlib import Path
 
-UA = "ArcoRepertoire/1.0 (+https://repertoire.arco.app) catalogue research"
+UA = "ArcoAtlas/1.0 (+https://atlas.arco.app) catalogue research"
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "data/cache/imslp-all/resolve.json"
 

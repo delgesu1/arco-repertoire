@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "data" / "cache" / "imslp"
 OUT.mkdir(parents=True, exist_ok=True)
-UA = "ArcoRepertoire/1.0 (+https://repertoire.arco.app) catalogue research"
+UA = "ArcoAtlas/1.0 (+https://atlas.arco.app) catalogue research"
 
 
 def api(**kw):

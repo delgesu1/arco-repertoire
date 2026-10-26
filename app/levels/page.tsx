@@ -4,7 +4,7 @@ import { catalogue, pieces } from "@/lib/catalogue";
 
 export const metadata: Metadata = {
   title: "How the levels work",
-  description: "The 10 difficulty levels used in Arco Repertoire and their approximate exam equivalents.",
+  description: "The 10 difficulty levels used in Arco Atlas and their approximate exam equivalents.",
   alternates: { canonical: "/levels" },
 };
 

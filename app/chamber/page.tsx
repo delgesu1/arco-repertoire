@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   // root layout gives every page
   openGraph: {
     type: "website",
-    siteName: "Arco Repertoire",
-    title: `Arco Repertoire: an interactive library of ${TOTAL} graded chamber works`,
+    siteName: "Arco Atlas",
+    title: `Arco Atlas: an interactive library of ${TOTAL} graded chamber works`,
     description:
       "From string trios to octets, organized by ensemble, level and character. Tell the AI advisor who’s in your group, and it finds music you can all play.",
   },
@@ -32,7 +32,7 @@ const composerPages = [...new Set(chamberPieces.map((p) => p.composerSlug))].fil
 export default function ChamberHome() {
   return (
     <main className="wrap">
-      <h1 className="sr-only">Arco Repertoire: graded chamber music</h1>
+      <h1 className="sr-only">Arco Atlas: graded chamber music</h1>
       <Suspense fallback={<ChamberSkeleton />}>
         <ChamberExplorer
           version={chamberCatalogue.version}

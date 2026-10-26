@@ -17,13 +17,13 @@ const TOTAL = catalogue.pieces.length.toLocaleString("en");
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: `Arco Repertoire · An interactive library of ${TOTAL} graded violin works`, template: "%s · Arco Repertoire" },
+  title: { default: `Arco Atlas · An interactive library of ${TOTAL} graded violin works`, template: "%s · Arco Atlas" },
   description:
     "Organized by level, character, instrumentation and more. An AI advisor helps you discover your next piece based on what you’re already working on.",
   openGraph: {
     type: "website",
-    siteName: "Arco Repertoire",
-    title: `Arco Repertoire: an interactive library of ${TOTAL} graded violin works`,
+    siteName: "Arco Atlas",
+    title: `Arco Atlas: an interactive library of ${TOTAL} graded violin works`,
     description:
       "Organized by level, character, instrumentation and more. An AI advisor helps you discover your next piece based on what you’re already working on.",
   },
@@ -82,7 +82,7 @@ function StaticHeader() {
     <header className="site-header">
       <div className="wrap bar">
         <div className="brand">
-          <Link className="mark" href="/" aria-label="Arco Repertoire — home">
+          <Link className="mark" href="/" aria-label="Arco Atlas — home">
             <Brand />
           </Link>
           <InstrumentSwitcher />

@@ -8,7 +8,7 @@ import { isChamberPath } from "@/lib/chamber/launch";
 import { writeUrl } from "@/lib/url-state";
 import { InstrumentSwitcher } from "./InstrumentSwitcher";
 
-/** Arco logo + "Repertoire": the companion-site lockup (logo swaps for dark mode). */
+/** Arco logo + "Atlas": the companion-site lockup (logo swaps for dark mode). */
 export function Brand() {
   return (
     <>
@@ -29,7 +29,7 @@ export function Brand() {
         height={38}
         priority
       />
-      <span className="word">Repertoire</span>
+      <span className="word">Atlas</span>
     </>
   );
 }
@@ -86,7 +86,7 @@ export function Header() {
     <header className="site-header">
       <div className="wrap bar">
         <div className="brand">
-          <Link className="mark" href="/" aria-label="Arco Repertoire — home">
+          <Link className="mark" href="/" aria-label="Arco Atlas — home">
             <Brand />
           </Link>
           <InstrumentSwitcher />

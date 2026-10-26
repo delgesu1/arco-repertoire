@@ -1,7 +1,7 @@
 import { ogCard } from "@/components/OgCard";
 import { catalogue } from "@/lib/catalogue";
 
-export const alt = "Arco Repertoire: what should you play next?";
+export const alt = "Arco Atlas: what should you play next?";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

@@ -11,7 +11,7 @@ Polite: one request at a time, a pause between calls, descriptive User-Agent (no
 import json, re, sys, time, urllib.parse, urllib.request, unicodedata
 from pathlib import Path
 
-UA = "ArcoRepertoire/1.0 (+https://repertoire.arco.app) catalogue research"
+UA = "ArcoAtlas/1.0 (+https://atlas.arco.app) catalogue research"
 API = "https://imslp.org/api.php"
 ROOT = Path(__file__).resolve().parents[2]
 

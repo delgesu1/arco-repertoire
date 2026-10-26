@@ -7,7 +7,7 @@ Updates data/cache/imslp-all/resolve.json in place (method: "fuzzy"). Resumable:
 import difflib, json, re, sys, time, unicodedata, urllib.parse, urllib.request
 from pathlib import Path
 
-UA = "ArcoRepertoire/1.0 (+https://repertoire.arco.app) catalogue research"
+UA = "ArcoAtlas/1.0 (+https://atlas.arco.app) catalogue research"
 ROOT = Path(__file__).resolve().parents[2]
 F = ROOT / "data/cache/imslp-all/resolve.json"
 ALIAS = {  # catalogue name -> IMSLP category, where the given names are too far apart to match by similarity

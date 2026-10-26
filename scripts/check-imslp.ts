@@ -13,7 +13,7 @@ import type { Catalogue } from "../lib/types";
 
 const ROOT = join(__dirname, "..");
 const cat: Catalogue = JSON.parse(readFileSync(join(ROOT, "public/data/catalogue.json"), "utf8"));
-const UA = "ArcoRepertoire/1.0 (+https://repertoire.arco.app) link check";
+const UA = "ArcoAtlas/1.0 (+https://atlas.arco.app) link check";
 const url = (page: string) => `https://imslp.org/wiki/${encodeURIComponent(page.replace(/ /g, "_"))}`;
 
 const linked = cat.pieces.filter((p) => p.imslpPage);

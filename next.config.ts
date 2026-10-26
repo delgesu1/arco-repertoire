@@ -19,15 +19,16 @@ const nextConfig: NextConfig = {
       },
     },
   },
-  // the old vercel.app address forwards to the Arco domain
+  // the old addresses forward to atlas.arco.app, path and all: the vercel.app one, and repertoire.arco.app (the site's
+  // address until it was renamed Arco Atlas, 2026-10-26)
   async redirects() {
     return [
-      {
+      ...["violinrep.vercel.app", "repertoire.arco.app"].map((host) => ({
         source: "/:path*",
-        has: [{ type: "host", value: "violinrep.vercel.app" }],
-        destination: "https://repertoire.arco.app/:path*",
+        has: [{ type: "host" as const, value: host }],
+        destination: "https://atlas.arco.app/:path*",
         permanent: true,
-      },
+      })),
       ...Object.entries(idRedirects).map(([from, to]) => ({
         source: `/piece/${from}/:slug*`,
         destination: `/piece/${to}`,

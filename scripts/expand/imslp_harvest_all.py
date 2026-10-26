@@ -11,7 +11,7 @@ import json, re, sys, time, unicodedata, urllib.parse, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-UA = "ArcoRepertoire/1.0 (+https://repertoire.arco.app) catalogue research"
+UA = "ArcoAtlas/1.0 (+https://atlas.arco.app) catalogue research"
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "data/cache/imslp-all/pages"
 OUT.mkdir(parents=True, exist_ok=True)

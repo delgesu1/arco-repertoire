@@ -1,6 +1,6 @@
-# Arco Repertoire
+# Arco Atlas
 
-An interactive library of 4,883 graded violin works, live at [repertoire.arco.app](https://repertoire.arco.app). Created by [Daniel Kurganov](https://www.kurganov.org) as a companion to the Arco practice app.
+An interactive library of 4,883 graded violin works, live at [atlas.arco.app](https://atlas.arco.app) (repertoire.arco.app redirects there). Created by [Daniel Kurganov](https://www.kurganov.org) as a companion to the Arco practice app.
 
 Pushing to `main` deploys to production on Vercel.
 

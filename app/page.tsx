@@ -10,7 +10,7 @@ export const metadata: Metadata = { other: smartBanner(SITE_URL) };
 export default function Home() {
   return (
     <main className="wrap">
-      <h1 className="sr-only">Arco Repertoire: graded violin repertoire</h1>
+      <h1 className="sr-only">Arco Atlas: graded violin repertoire</h1>
       <Suspense fallback={<HomeSkeleton />}>
         <Explorer version={catalogue.version} levels={catalogue.levels} total={catalogue.pieces.length} />
       </Suspense>

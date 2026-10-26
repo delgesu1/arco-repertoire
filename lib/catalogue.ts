@@ -40,5 +40,5 @@ export const getComposer = (slug: string) => composerMap.get(slug) ?? null;
 
 export const levelInfo = (n: number) => catalogue.levels.find((l) => l.level === n)!;
 
-export const SITE_URL = "https://repertoire.arco.app";
+export const SITE_URL = "https://atlas.arco.app";
 export const pieceUrl = (p: PieceBase) => `/piece/${p.id}/${p.slug}`;
