@@ -6,5 +6,7 @@
    Launch at most 3 at a time; check the 5-hour and weekly usage after each finishes; stop new launches near 90% (weekly) / 92% (5-hour).
    The pilot (`p001`, scored with `python3 scripts/details_score.py p001`) matched IMSLP on 21 of 23 movement lists; years differ
    only by convention (ranges vs end year).
-3. Merge and rebuild: `python3 scripts/details_merge.py`, `npx tsx scripts/build-data.ts`, `npx tsx scripts/build-chamber.ts`,
-   then `npx vitest run --exclude '.claude/**'` and `npx tsx scripts/chamber/check.ts`; commit; ask the owner before pushing.
+3. Merge: `python3 scripts/details_merge.py`, then `npx vitest run --exclude '.claude/**'`; commit only `data/details/**`,
+   `public/data/details.json` and `scripts/details_*.py`. While the duos work is under way, the "Music section organization
+   strategy" session owns the rebuilds (`build-data.ts`, `build-chamber.ts`, `data/build/*`, the other `public/data/*`) and the
+   single push: message it when the research is finished for good. Ask the owner before anything is pushed.
