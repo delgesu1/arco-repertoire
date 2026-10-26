@@ -12,7 +12,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { z } from "zod";
 import type { ChamberComposer, ChamberWork, FormationKey, InstrumentKey } from "../../lib/chamber/types";
-import { FORMATIONS, FORMS, INSTRUMENTS, formationFor, playersFor } from "../../lib/chamber/vocab";
+import { FORMATIONS, FORMS, INSTRUMENTS, formationFor, partNames, playersFor } from "../../lib/chamber/vocab";
 import type { Catalogue } from "../../lib/types";
 import { CHARACTER, ERAS } from "../../lib/vocab";
 
@@ -41,6 +41,7 @@ const Work = z
     form: z.enum(keys(FORMS)),
     level: z.number().int().min(1).max(10),
     hardestPart: z.string().min(1),
+    partLevels: z.record(z.string(), z.number().int().min(1).max(10)).optional(),
     era: z.enum(keys(ERAS)).optional(),
     year: z.string(),
     minutes: z.number().int().positive().nullable(),
@@ -104,14 +105,16 @@ for (const w of works) {
   if (!violinComposers.has(w.composer) && !composers.has(w.composer))
     err(w, `composer "${w.composer}" is neither in the violin catalogue nor in data/chamber/composers.json`);
 
-  // scope: 3–9 parts, at least one string instrument, not violins alone (unless with continuo)
+  // scope: 3–9 parts, or a duo the violin section lists too (scripts/chamber/duos.ts); at least one string instrument; not
+  // violins alone (unless with continuo), except a duo for two violins
   const ins = w.instruments;
   const players = playersFor(ins);
   if (w.players !== players) err(w, `players is ${w.players} but the instruments make ${players}`);
-  if (players < 3 || players > 9) err(w, `${players} players is outside the section's scope (3–9)`);
+  if (players < 2 || players > 9) err(w, `${players} players is outside the section's scope (2–9)`);
+  if (players === 2 && w.violinId == null) err(w, "a duo must be listed in the violin section too (violinId)");
   const strings = (Object.keys(ins) as InstrumentKey[]).filter((k) => INSTRUMENTS[k].family === "string");
   if (!strings.length) err(w, "no string instrument: out of scope");
-  if (Object.keys(ins).every((k) => k === "violin")) err(w, "violins alone belong to the violin section");
+  if (Object.keys(ins).every((k) => k === "violin") && players > 2) err(w, "violins alone belong to the violin section");
 
   // alternatives replace a part of the scoring; ad lib. parts sit outside it
   for (const [k, alts] of Object.entries(w.alternatives ?? {}) as [InstrumentKey, InstrumentKey[]][]) {
@@ -139,12 +142,30 @@ for (const w of works) {
   if (w.benchmark && !w.basis) err(w, "benchmark without a basis");
   if (!w.benchmark && w.basis) err(w, "basis is only for benchmarks");
 
+  // part levels: every part graded, the level the highest of them (raised by up to one), the hardest part the highest one
+  if (w.partLevels) {
+    const names = partNames(ins);
+    for (const [k, lv] of Object.entries(w.partLevels)) {
+      if (!names.includes(k)) err(w, `partLevels.${k} is not one of the parts (${names.join(", ")})`);
+      if (!Number.isInteger(lv) || lv < 1 || lv > 10) err(w, `partLevels.${k} ${lv} is not 1–10`);
+    }
+    for (const k of names) if (w.partLevels[k] == null) err(w, `partLevels has no level for the ${k} part`);
+    const top = Math.max(...Object.values(w.partLevels));
+    const tops = Object.keys(w.partLevels).filter((k) => w.partLevels![k] === top);
+    if (w.level < top || w.level > Math.min(10, top + 1)) err(w, `level ${w.level} but the hardest part is ${top} (the level is that, or one more)`);
+    if (w.hardestPart !== (tops.length > 1 ? "balanced" : tops[0])) err(w, `hardestPart "${w.hardestPart}" but partLevels say "${tops.length > 1 ? "balanced" : tops[0]}"`);
+  }
+
+  // a work in both sections agrees with the violin catalogue: the same composer and title, and the violin part's level
+  // (the work's level when its parts are not graded separately)
   if (w.violinId != null) {
     const v = violinById.get(w.violinId);
     if (!v) err(w, `violinId ${w.violinId} is not in the violin catalogue`);
-    else
-      for (const f of ["composer", "title", "level"] as const)
-        if (v[f] !== w[f]) err(w, `${f} differs from violin ${v.id} ("${v[f]}")`);
+    else {
+      for (const f of ["composer", "title"] as const) if (v[f] !== w[f]) err(w, `${f} differs from violin ${v.id} ("${v[f]}")`);
+      const violinPart = w.partLevels ? (w.partLevels.violin ?? w.partLevels["violin 1"]) : w.level;
+      if (violinPart !== v.level) err(w, `the violin part's level ${violinPart} differs from violin ${v.id} (${v.level})`);
+    }
   }
 }
 

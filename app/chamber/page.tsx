@@ -10,7 +10,7 @@ const TOTAL = chamberPieces.length.toLocaleString("en");
 
 export const metadata: Metadata = {
   title: "Chamber music",
-  description: `${TOTAL} graded chamber works for three to nine players, from string trios to octets, sorted by ensemble, level and character.`,
+  description: `${TOTAL} graded chamber works for two to nine players, from duos to octets, sorted by ensemble, level and character.`,
   alternates: { canonical: "/chamber" },
   // a link to /chamber previews as chamber music (the image is app/chamber/opengraph-image.tsx), not with the violin text the
   // root layout gives every page

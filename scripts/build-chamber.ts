@@ -10,7 +10,8 @@
  * Writes data/build/chamber.json (server), public/data/chamber.json (client), the chamber advisor's catalogue
  * (lib/advisor/chamber-catalogue-text.ts) and the composers with chamber works only (lib/chamber/chamber-only-composers.ts).
  * Run it after scripts/build-data.ts.
- * A work also in the violin catalogue (violinId) keeps its violin id, address and recording, so it is one entry in both.
+ * A work also in the violin catalogue (violinId) keeps its violin id, address and recording, so it is one entry in both. Its
+ * level here is the hardest part's; a duo's violin part keeps the violin catalogue's level (partLevels, scripts/chamber/duos.ts).
  *
  *   npx tsx scripts/build-chamber.ts
  */
@@ -120,6 +121,7 @@ for (const w of works) {
     popularity: w.popularity,
     recording: v ? v.recording : recordingOf(w.id),
     sections: v ? ["violin", "chamber"] : ["chamber"],
+    ...(w.partLevels ? { partLevels: w.partLevels } : {}),
     ...(workDetails[String(id)]?.otherTitles?.length ? { alsoTitled: workDetails[String(id)].otherTitles } : {}),
     chamber: {
       formation: w.formation,

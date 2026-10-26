@@ -2,13 +2,16 @@ import { levelPhrase } from "../vocab";
 import type { FormKey, FormationKey, HardestPart, InstrumentKey, Instrumentation } from "./types";
 
 /** the line under the work count at the top of /chamber (also shown by the loading skeleton) */
-export const CHAMBER_INTRO = "graded chamber works for three to nine players, from string trios to octets, sorted by ensemble, level and character.";
+export const CHAMBER_INTRO = "graded chamber works for two to nine players, from duos to octets, sorted by ensemble, level and character.";
 
 /** what a level means here, for the "How the 10 levels work" popover (docs/chamber-music-plan.md, decision 2) */
 export const CHAMBER_LEVEL_NOTE =
   "A chamber work's level is the level its hardest part asks of its player, on the violin scale, raised by up to one when the ensemble asks more than the notes do. For piano, wind and other parts, read it as the same exam grade on that instrument.";
 
 export const FORMATIONS: { key: FormationKey; label: string; singular: string }[] = [
+  { key: "duo-piano", label: "Violin & piano", singular: "Violin & piano duo" },
+  { key: "duo-strings", label: "String duos", singular: "String duo" },
+  { key: "duo-other", label: "Violin & guitar or harp", singular: "Duo with guitar or harp" },
   { key: "string-trio", label: "String trios", singular: "String trio" },
   { key: "string-quartet", label: "String quartets", singular: "String quartet" },
   { key: "string-quintet", label: "String quintets", singular: "String quintet" },
@@ -25,6 +28,7 @@ export const FORMATIONS: { key: FormationKey; label: string; singular: string }[
 
 /** the ensemble menu's groups, each in FORMATIONS order */
 export const FORMATION_GROUPS: { label: string; keys: FormationKey[] }[] = [
+  { label: "Duos", keys: ["duo-piano", "duo-strings", "duo-other"] },
   { label: "Strings", keys: ["string-trio", "string-quartet", "string-quintet", "large-strings", "viol-consort"] },
   { label: "Piano and strings", keys: ["piano-trio", "piano-quartet", "piano-quintet", "piano-strings"] },
   { label: "Mixed", keys: ["winds-strings", "continuo", "other"] },
@@ -41,6 +45,9 @@ export const FORMS: { key: FormKey; label: string; singular: string }[] = [
  * "any piece FOR any ensemble at any level" (the violin finder's SETTING_PHRASE, for formations).
  */
 export const FORMATION_PHRASE: Record<FormationKey, { lead: "for" | "with"; noun: string }> = {
+  "duo-piano": { lead: "for", noun: "violin & piano" },
+  "duo-strings": { lead: "for", noun: "string duo" },
+  "duo-other": { lead: "for", noun: "violin & guitar or harp" },
   "string-trio": { lead: "for", noun: "string trio" },
   "string-quartet": { lead: "for", noun: "string quartet" },
   "string-quintet": { lead: "for", noun: "string quintet" },
@@ -122,17 +129,28 @@ const entries = (ins: Instrumentation) => Object.entries(ins) as [InstrumentKey,
 const count = (ins: Instrumentation, family: Family) =>
   entries(ins).reduce((n, [k, c]) => n + (INSTRUMENTS[k].family === family ? c : 0), 0);
 
+/** the parts by the names hardestPart and partLevels use: "piano", or "violin 1", "violin 2" when there are several */
+export const partNames = (ins: Instrumentation): string[] =>
+  entries(ins)
+    .filter(([k]) => INSTRUMENTS[k].family !== "electronics")
+    .flatMap(([k, c]) => (c > 1 ? Array.from({ length: c }, (_, i) => `${k} ${i + 1}`) : [k]));
+
 /** the number of parts: continuo is one player, electronics none */
 export const playersFor = (ins: Instrumentation): number =>
   entries(ins).reduce((n, [k, c]) => n + (INSTRUMENTS[k].family === "electronics" ? 0 : c), 0);
 
 /**
- * The formation a scoring belongs to, checked in this order: continuo → any wind or brass → a consort of viols → harp,
- * guitar, voice and the like → piano with strings → strings alone. Electronics never change it. A stored formation may differ only with a
- * formationNote (Schoenberg's Second Quartet is a string quartet although a soprano joins it).
+ * The formation a scoring belongs to, checked in this order: continuo → two players (with a keyboard, two strings, or
+ * anything else) → any wind or brass → a consort of viols → harp, guitar, voice and the like → piano with strings → strings
+ * alone. Electronics never change it. A stored formation may differ only with a formationNote (Schoenberg's Second Quartet
+ * is a string quartet although a soprano joins it).
  */
 export function formationFor(ins: Instrumentation): FormationKey {
   if (count(ins, "continuo")) return "continuo";
+  if (playersFor(ins) === 2) {
+    if (entries(ins).some(([k]) => k === "piano" || k === "harpsichord" || k === "organ")) return "duo-piano";
+    return count(ins, "string") === 2 ? "duo-strings" : "duo-other";
+  }
   if (count(ins, "wind")) return "winds-strings";
   const strings = count(ins, "string");
   const n = (k: InstrumentKey) => ins[k] ?? 0;

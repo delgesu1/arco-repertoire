@@ -4,6 +4,8 @@
  *   data/source/all-repertoire.json   Sheets get_values dump of 'All Repertoire'!A1:U
  *   data/source/levels.json           level names / exam equivalents (Start Here)
  *   data/accompaniment-map.json       raw accompaniment text -> setting keys (build fails on unknown values)
+ *   data/instrumentation-map.json     raw accompaniment text -> the whole scoring (build fails on unknown values)
+ *   data/chamber/works.json           the scoring and part levels of the works the chamber section lists too
  *   data/recordings.json              optional: matched YouTube recordings by piece id
  *
  * Writes data/build/catalogue.json (server) and public/data/catalogue.json (client).
@@ -12,7 +14,9 @@ import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { z } from "zod";
-import type { Catalogue, Piece, Recording, SettingKey } from "../lib/types";
+import type { ChamberWork } from "../lib/chamber/types";
+import { INSTRUMENTS } from "../lib/chamber/vocab";
+import type { Catalogue, EnsembleKey, PartKey, Piece, Recording, Scoring, SettingKey } from "../lib/types";
 import { CHARACTER, ERAS, TYPES } from "../lib/vocab";
 import { firstLast, fold, slugify, surname } from "./names";
 import { assertNoExcludedPerformers } from "./recording-rules";
@@ -27,6 +31,16 @@ const PREVIEW = process.env.PREVIEW === "1";
 const sheet: string[][] = read(SNAPSHOT).values;
 const levels = read("data/source/levels.json");
 const accMap: Record<string, SettingKey[]> = read("data/accompaniment-map.json");
+// the whole scoring by accompaniment; a work the chamber section lists too takes its scoring and part levels from there
+type ScoringEntry = Pick<Piece, "instruments" | "alternatives" | "optional">;
+const scoringMap: Record<string, ScoringEntry> = read("data/instrumentation-map.json");
+const ENSEMBLES: EnsembleKey[] = ["orchestra", "string-orchestra", "ensemble"];
+const partKeys = new Set<string>([...Object.keys(INSTRUMENTS), ...ENSEMBLES]);
+const chamberOf = new Map(
+  (existsSync(join(ROOT, "data/chamber/works.json")) ? (read("data/chamber/works.json") as ChamberWork[]) : [])
+    .filter((w) => w.violinId != null)
+    .map((w) => [w.violinId!, w]),
+);
 interface Judged {
   confidence: "high" | "medium" | "low" | "none";
   video: { id: string; title: string; channel: string; seconds: number | null; views: number | null } | null;
@@ -121,6 +135,13 @@ for (const [n, r] of sheet.slice(1).entries()) {
   const accompaniment = g(C.acc);
   const settings = accMap[accompaniment];
   if (!settings) warn(`row ${row}: accompaniment "${accompaniment}" is not in data/accompaniment-map.json`);
+  const cw = chamberOf.get(id);
+  const scoring: ScoringEntry | undefined = cw
+    ? { instruments: cw.instruments, alternatives: cw.alternatives, optional: cw.optional }
+    : scoringMap[accompaniment];
+  if (!scoring) warn(`row ${row}: accompaniment "${accompaniment}" is not in data/instrumentation-map.json`);
+  for (const k of [scoring?.instruments, scoring?.optional, scoring?.alternatives].flatMap((o) => Object.keys(o ?? {})).concat(Object.values(scoring?.alternatives ?? {}).flat()))
+    if (!partKeys.has(k)) warn(`row ${row}: unknown instrument "${k}" in the scoring of "${accompaniment}"`);
 
   const minutes = g(C.min) ? Number(g(C.min)) : null;
   const exams = g(C.exams);
@@ -176,6 +197,10 @@ for (const [n, r] of sheet.slice(1).entries()) {
     type: type ?? "short",
     settings: settings ?? ["other"],
     accompaniment,
+    instruments: (scoring?.instruments ?? { violin: 1 }) as Scoring,
+    ...(scoring?.alternatives ? { alternatives: scoring.alternatives as Partial<Record<PartKey, PartKey[]>> } : {}),
+    ...(scoring?.optional ? { optional: scoring.optional as Scoring } : {}),
+    ...(cw?.partLevels ? { partLevels: cw.partLevels } : {}),
     era: era ?? "20th-century",
     dates: g(C.dates),
     nationality: g(C.nat),

@@ -19,6 +19,12 @@ const SQ: Ins = { violin: 2, viola: 1, cello: 1 };
 
 // each scoring written out with the formation it must get
 const CASES: [string, Ins, FormationKey][] = [
+  ["violin sonata", { violin: 1, piano: 1 }, "duo-piano"],
+  ["Bach's obbligato sonatas (violin, harpsichord)", { violin: 1, harpsichord: 1 }, "duo-piano"],
+  ["two violins", { violin: 2 }, "duo-strings"],
+  ["violin and cello (Ravel)", { violin: 1, cello: 1 }, "duo-strings"],
+  ["violin and guitar (Paganini)", { violin: 1, guitar: 1 }, "duo-other"],
+  ["violin, piano and tape (electronics are not a player)", { violin: 1, piano: 1, electronics: 1 }, "duo-piano"],
   ["string trio", { violin: 1, viola: 1, cello: 1 }, "string-trio"],
   ["Dvořák Terzetto (2 vn, va)", { violin: 2, viola: 1 }, "string-trio"],
   ["string quartet", SQ, "string-quartet"],
@@ -89,6 +95,9 @@ const FORM_WORDS: Record<FormKey, string> = {
   set: "sets of pieces",
 };
 const FORMATION_WORDS: Record<FormationKey, string> = {
+  "duo-piano": "for violin & piano",
+  "duo-strings": "for string duo",
+  "duo-other": "for violin & guitar or harp",
   "string-trio": "for string trio",
   "string-quartet": "for string quartet",
   "string-quintet": "for string quintet",

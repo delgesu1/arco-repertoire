@@ -2,6 +2,9 @@ import type { EraKey, LevelInfo, PieceBase, Popularity, SectionKey } from "../ty
 
 /** who plays: the chamber section's main facet (the violin section's "setting") */
 export type FormationKey =
+  | "duo-piano" // violin and piano (or another keyboard): sonatas and duos also in the violin section
+  | "duo-strings" // two string players: two violins, violin and viola, violin and cello
+  | "duo-other" // a string player with guitar, harp or another instrument
   | "string-trio"
   | "string-quartet"
   | "string-quintet"
@@ -56,6 +59,9 @@ export type InstrumentKey =
 /** "balanced" (no part clearly harder), an instrument ("piano"), or a numbered part when there are several ("violin 1") */
 export type HardestPart = string;
 
+/** the level each part asks of its player, by part name as in HardestPart: {"violin": 7, "piano": 8}, {"violin 1": 6, "violin 2": 5} */
+export type PartLevels = Record<string, number>;
+
 /** One work as stored in data/chamber/works.json (the section's source of truth). */
 export interface ChamberWork {
   id: number; // 100001 up
@@ -71,6 +77,7 @@ export interface ChamberWork {
   form: FormKey;
   level: number; // 1–10, the violin catalogue's scale (see docs/chamber-music-plan.md)
   hardestPart: HardestPart;
+  partLevels?: PartLevels; // each part's own level, where graded (the duos): the level is the highest, raised by up to one
   era?: EraKey; // only when it differs from the composer's
   year: string;
   minutes: number | null;
@@ -81,7 +88,7 @@ export interface ChamberWork {
   pace?: "slow" | "moderate" | "lively" | null;
   character?: string[];
   imslpPage?: string;
-  violinId?: number; // the same work in the violin catalogue (title and level must match)
+  violinId?: number; // the same work in the violin catalogue (title must match; the level too, or partLevels' violin part)
   benchmark?: "proposed" | "approved";
   basis?: string; // benchmarks: why this level
 }

@@ -65,4 +65,10 @@ export const youtubeSearch = (p: PieceBase) =>
   `https://www.youtube.com/results?search_query=${encodeURIComponent(`${p.composerName} ${p.title}${p.chamber || /violin/i.test(p.title) ? "" : " violin"}`)}`;
 
 /** the work's own page on IMSLP; pieces without a known page get no link (never a search) */
+/** "Violin 7 · Piano 9": each part's own level, the parts in their scoring order */
+export const partLevelList = (lv: Record<string, number>) =>
+  Object.entries(lv)
+    .map(([k, n]) => `${k.charAt(0).toUpperCase() + k.slice(1)} ${n}`)
+    .join(" · ");
+
 export const imslpLink = (page: string) => `https://imslp.org/wiki/${encodeURIComponent(page.replace(/ /g, "_"))}`;

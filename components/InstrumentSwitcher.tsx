@@ -82,7 +82,7 @@ export function InstrumentSwitcher() {
                   onClick={() => setOpen(false)}
                 >
                   <span>Chamber music</span>
-                  <small>3–9 players</small>
+                  <small>2–9 players</small>
                 </Link>
               )}
             </>

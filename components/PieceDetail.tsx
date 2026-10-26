@@ -2,7 +2,7 @@ import type { WorkDetails } from "@/lib/details";
 import type { LevelInfo, Piece, PieceBase } from "@/lib/types";
 import { eraLabel, settingLabel, typeSingular } from "@/lib/vocab";
 import { compareTitle, ladder } from "@/lib/filter";
-import { LevelBadge, imslpLink, tagList } from "./pieces";
+import { LevelBadge, imslpLink, partLevelList, tagList } from "./pieces";
 import { Row } from "./Row";
 import { CopyProgram, WorkAbout } from "./WorkAbout";
 import { ExternalIcon } from "./icons";
@@ -69,6 +69,7 @@ export function PieceDetail({
                 Level {p.level} · {lvl.name}
               </b>{" "}
               — about {lvl.exam}
+              {p.partLevels && ", for the violin part"}
             </div>
           )}
         </div>
@@ -98,6 +99,12 @@ export function PieceDetail({
           <dt>Setting</dt>
           <dd>{p.accompaniment || p.settings.map(settingLabel).join(", ")}</dd>
         </div>
+        {p.partLevels && (
+          <div>
+            <dt>Part levels</dt>
+            <dd>{partLevelList(p.partLevels)}</dd>
+          </div>
+        )}
         <div>
           <dt>Length</dt>
           <dd>{p.minutes ? `About ${p.minutes} min` : "—"}</dd>

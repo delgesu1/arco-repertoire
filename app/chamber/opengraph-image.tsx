@@ -10,7 +10,7 @@ export default function Image() {
     headline: "Find the perfect piece of chamber music",
     headlineSize: 80,
     headlineWidth: 980,
-    line: `${chamberPieces.length.toLocaleString("en")} graded chamber works for three to nine players, with recordings, and an AI advisor that matches music to your group.`,
+    line: `${chamberPieces.length.toLocaleString("en")} graded chamber works for two to nine players, with recordings, and an AI advisor that matches music to your group.`,
     sentence: [
       "Show me",
       { pick: "FULL WORKS", bg: "#30508f" },

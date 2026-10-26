@@ -8,7 +8,7 @@ import { eraLabel } from "@/lib/vocab";
 import { ArcoLine } from "../ArcoLine";
 import { correctionUrl } from "../PieceDetail";
 import { ExternalIcon } from "../icons";
-import { LevelBadge, imslpLink, tagList } from "../pieces";
+import { LevelBadge, imslpLink, partLevelList, tagList } from "../pieces";
 import { YouTube } from "../YouTube";
 import { CopyProgram, WorkAbout } from "../WorkAbout";
 import { ChamberRow, Scoring } from "./ChamberRow";
@@ -99,6 +99,12 @@ export function ChamberDetail({
           <dt>Hardest part</dt>
           <dd>{c.hardestPart === "balanced" ? "Balanced" : c.hardestPart.charAt(0).toUpperCase() + c.hardestPart.slice(1)}</dd>
         </div>
+        {p.partLevels && (
+          <div>
+            <dt>Part levels</dt>
+            <dd>{partLevelList(p.partLevels)}</dd>
+          </div>
+        )}
         <div>
           <dt>Form</dt>
           <dd>{formSingular(c.form)}</dd>
