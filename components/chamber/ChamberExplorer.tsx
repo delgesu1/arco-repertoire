@@ -44,14 +44,15 @@ const CHAMBER_ASK: AskCopy = {
   store: "advisor-chamber-v1",
   starters: [
     "We’re violin, cello and piano. What could we play, and what if a violist joined?",
-    "A string quartet piece for a wedding reception, nothing too hard",
+    "Something light and sunny for an outdoor summer concert",
     "Something dark and dramatic for a strong amateur piano quintet",
     "Two violins, a cello and a harpsichord: Baroque ideas around level 3",
   ],
-  dock: "Tell me who’s in your group and what you’re in the mood for, and I’ll find music you can all play!",
-  dockPlaceholder: "We’re a violin, cello and piano…",
+  // open questions first (occasions, moods, "what if a violist joined"), which the filters can't answer; filtering second
+  dock: "Ask me anything, from a crowd-pleaser for your next concert to what your trio could play if a violist joined.",
+  dockPlaceholder: "A lively opener for our quartet’s concert…",
   intro:
-    "Tell me who’s in your group, what you’ve played together, or the mood or occasion you have in mind, or ask anything about chamber music. My picks appear in the main list.",
+    "Ask me about music for a concert or occasion, a mood or your group, what to play next, or anything else you have in mind. My picks appear in the main list.",
 };
 
 /** The /chamber page below the header: the violin home page's Explorer for the chamber catalogue, with its own advisor. */
