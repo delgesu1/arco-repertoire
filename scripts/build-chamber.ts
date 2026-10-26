@@ -37,6 +37,10 @@ interface Judged {
   compilation?: boolean;
 }
 const judged: Record<string, Judged> = existsSync(join(ROOT, "data/chamber/recordings-judged.json")) ? read("data/chamber/recordings-judged.json") : {};
+// the works' details (scripts/parse_imslp_details.py, details_merge.py): IMSLP's average duration fills a missing length, and
+// the other titles a work is known by are searched (not shown)
+const imslpDetails: Record<string, { minutes?: number }> = existsSync(join(ROOT, "data/details/imslp.json")) ? read("data/details/imslp.json") : {};
+const workDetails: Record<string, { otherTitles?: string[] }> = existsSync(join(ROOT, "data/details/works.json")) ? read("data/details/works.json") : {};
 // the violin section's picks, for the views of the works listed in both sections
 const violinJudged: Record<string, Judged> = existsSync(join(ROOT, "data/recordings-judged.json")) ? read("data/recordings-judged.json") : {};
 const recordingOf = (id: number): Piece["recording"] => {
@@ -104,7 +108,7 @@ for (const w of works) {
     dates: meta?.dates ?? "",
     nationality: meta?.nationality ?? "",
     gender: meta?.gender ?? "",
-    minutes: w.minutes,
+    minutes: w.minutes ?? imslpDetails[String(id)]?.minutes ?? null,
     notes: w.notes || v?.notes || "",
     ...(w.imslpPage ?? v?.imslpPage ? { imslpPage: w.imslpPage ?? v?.imslpPage } : {}),
     set: w.set,
@@ -115,6 +119,7 @@ for (const w of works) {
     popularity: w.popularity,
     recording: v ? v.recording : recordingOf(w.id),
     sections: v ? ["violin", "chamber"] : ["chamber"],
+    ...(workDetails[String(id)]?.otherTitles?.length ? { alsoTitled: workDetails[String(id)].otherTitles } : {}),
     chamber: {
       formation: w.formation,
       instruments: w.instruments,

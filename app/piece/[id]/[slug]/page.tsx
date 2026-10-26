@@ -7,6 +7,7 @@ import { smartBanner } from "@/lib/arco";
 import { catalogue, composers, getPiece, levelInfo, pieceUrl, pieces, SITE_URL } from "@/lib/catalogue";
 import { chamberOnly, chamberPieces, getChamberPiece } from "@/lib/chamber/catalogue";
 import { CHAMBER_LIVE } from "@/lib/chamber/launch";
+import { workDetails } from "@/lib/details-server";
 import type { ChamberPiece } from "@/lib/chamber/types";
 import { formationSingular, instrumentList } from "@/lib/chamber/vocab";
 import { settingLabel, typeSingular } from "@/lib/vocab";
@@ -82,7 +83,7 @@ export default async function PiecePage({ params }: Props) {
         <Link className="label" href="/">
           ← All repertoire
         </Link>
-        <PieceDetail piece={p} all={pieces} levels={catalogue.levels} />
+        <PieceDetail piece={p} all={pieces} levels={catalogue.levels} details={workDetails(p.id)} />
       </div>
     </main>
   );
@@ -117,6 +118,7 @@ function ChamberPiecePage({ id, slug }: { id: string; slug: string }) {
           all={chamberPieces}
           levels={catalogue.levels}
           composerLink={CHAMBER_LIVE || violinComposers.has(p.composerSlug)}
+          details={workDetails(p.id)}
         />
       </div>
     </main>

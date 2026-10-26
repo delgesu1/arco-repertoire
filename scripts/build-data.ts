@@ -48,6 +48,10 @@ const popOpus: Record<string, string> = existsSync(join(ROOT, "data/popularity-o
 
 // exact IMSLP work pages by piece id (data/imslp-pages.json), found while expanding the catalogue
 const imslpPages: Record<string, string> = existsSync(join(ROOT, "data/imslp-pages.json")) ? read("data/imslp-pages.json") : {};
+// the works' details (scripts/parse_imslp_details.py, scripts/details_merge.py): IMSLP's average duration fills a missing
+// length, and the other titles a work is known by are searched (not shown)
+const imslpDetails: Record<string, { minutes?: number }> = existsSync(join(ROOT, "data/details/imslp.json")) ? read("data/details/imslp.json") : {};
+const workDetails: Record<string, { otherTitles?: string[] }> = existsSync(join(ROOT, "data/details/works.json")) ? read("data/details/works.json") : {};
 
 const header = sheet[0];
 const col = (name: string) => {
@@ -175,11 +179,12 @@ for (const [n, r] of sheet.slice(1).entries()) {
     dates: g(C.dates),
     nationality: g(C.nat),
     gender: g(C.gender) === "Female" ? "F" : g(C.gender) === "Male" ? "M" : "",
-    minutes: minutes && Number.isFinite(minutes) ? minutes : null,
+    minutes: minutes && Number.isFinite(minutes) ? minutes : (imslpDetails[String(id)]?.minutes ?? null),
     notes: g(C.notes),
     exams,
     examBoards,
     ...(imslpPages[String(id)] ? { imslpPage: imslpPages[String(id)] } : {}),
+    ...(workDetails[String(id)]?.otherTitles?.length ? { alsoTitled: workDetails[String(id)].otherTitles } : {}),
     set,
     setKey: set ? slugify(`${surname(composer)} ${set}`) : null,
     mode,

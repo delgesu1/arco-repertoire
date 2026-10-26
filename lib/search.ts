@@ -99,7 +99,7 @@ export function indexPieces(pieces: Piece[]): IndexedPiece[] {
     p.popularity ?? "",
     p.notes,
     p.exams,
-  ]);
+  ], (p) => p.alsoTitled ?? []);
 }
 
 /** Does the normalized haystack contain the token at a word start? Tokens ending in a digit must match whole. */

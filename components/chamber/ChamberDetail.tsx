@@ -1,4 +1,5 @@
 import type { ChamberPiece } from "@/lib/chamber/types";
+import type { WorkDetails } from "@/lib/details";
 import { chamberLadder } from "@/lib/chamber/filter";
 import { formSingular, formationSingular } from "@/lib/chamber/vocab";
 import type { LevelInfo } from "@/lib/types";
@@ -9,6 +10,7 @@ import { correctionUrl } from "../PieceDetail";
 import { ExternalIcon } from "../icons";
 import { LevelBadge, imslpLink, tagList } from "../pieces";
 import { YouTube } from "../YouTube";
+import { CopyProgram, WorkAbout } from "../WorkAbout";
 import { ChamberRow, Scoring } from "./ChamberRow";
 
 /** A chamber work's page and side sheet: PieceDetail for the chamber section, with the scoring and the part that sets the level. */
@@ -20,6 +22,7 @@ export function ChamberDetail({
   onOpen,
   onAsk,
   autoplay,
+  details,
 }: {
   piece: ChamberPiece;
   all: ChamberPiece[];
@@ -29,6 +32,8 @@ export function ChamberDetail({
   onOpen?: (p: ChamberPiece) => void;
   onAsk?: (p: ChamberPiece) => void;
   autoplay?: boolean;
+  /** the work's movements and history (a piece page passes them; the sheet fetches them) */
+  details?: WorkDetails | null;
 }) {
   const c = p.chamber;
   const lvl = levels.find((l) => l.level === p.level);
@@ -119,12 +124,15 @@ export function ChamberDetail({
         </section>
       )}
 
+      <WorkAbout piece={p} details={details} />
+
       <div className="links">
         {p.imslpPage && (
           <a className="link-underline" href={imslpLink(p.imslpPage)} target="_blank" rel="noreferrer">
             Score on IMSLP <ExternalIcon />
           </a>
         )}
+        <CopyProgram piece={p} details={details} />
         {onAsk && (
           <button className="link-underline" onClick={() => onAsk(p)}>
             Ask about this piece

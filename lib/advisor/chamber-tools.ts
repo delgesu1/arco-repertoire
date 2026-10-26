@@ -10,6 +10,7 @@ import type { IndexedPiece } from "../search";
 import { CHARACTER, ERAS, eraLabel } from "../vocab";
 import { CHAMBER_BY_RENOWN } from "./chamber-catalogue-text";
 import { askUserTool, runAskUser, runShowResults, showResultsTool, type ToolOutcome } from "./shared";
+import { detailLines } from "./tools";
 
 const formationKeys = FORMATIONS.map((f) => f.key);
 const formKeys = FORMS.map((f) => f.key);
@@ -410,6 +411,7 @@ export async function runChamberTool(name: string, input: unknown): Promise<Tool
           p.set && `set: ${p.set}`,
           p.notes && `notes: ${p.notes}`,
           `era: ${eraLabel(p.era)}; dates: ${p.dates}; nationality: ${p.nationality}`,
+          ...detailLines(p.id),
           `recording on site: ${p.recording ? "yes" : "no"}`,
           p.sections.includes("violin") && "also listed in the violin section",
         ]

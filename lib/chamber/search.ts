@@ -30,7 +30,7 @@ export function indexChamber(pieces: ChamberPiece[]): IndexedPiece<ChamberPiece>
         p.notes,
       ];
     },
-    (p) => p.chamber.aka ?? [],
+    (p) => [...(p.chamber.aka ?? []), ...(p.alsoTitled ?? [])],
   );
 }
 

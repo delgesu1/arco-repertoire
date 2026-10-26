@@ -53,6 +53,8 @@ export interface PieceBase {
   sections?: SectionKey[];
   /** the chamber section's facets, on every work the chamber section lists */
   chamber?: ChamberFacts;
+  /** other titles the work is known by (IMSLP or research, data/details/works.json): searched, not shown */
+  alsoTitled?: string[];
 }
 
 /** A work in the violin catalogue. */

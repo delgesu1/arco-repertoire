@@ -1,6 +1,7 @@
 import type Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { getPiece, pieces } from "../catalogue";
+import { workDetails } from "../details-server";
 import { EMPTY_FILTERS, matches, sortPieces, type Filters } from "../filter";
 import { CHARACTER, ERAS, SETTINGS, TYPES } from "../vocab";
 import type { Piece } from "../types";
@@ -121,6 +122,18 @@ function toFilters(i: z.infer<typeof FilterInput>): { f: Filters; lo: number; hi
 
 export type { ToolOutcome, UiEvent };
 
+/** what IMSLP and research know about the work: facts the advisor may state as such */
+export function detailLines(id: number): string[] {
+  const d = workDetails(id);
+  if (!d) return [];
+  return [
+    d.composed && `composed: ${d.composed}`,
+    d.dedication && `dedicated to: ${d.dedication}`,
+    d.firstPerformance && `first performed: ${d.firstPerformance}`,
+    d.movements?.length && `${d.kind && !/^(movement|section|part|tempo)/.test(d.kind) ? "pieces" : "movements"}: ${d.movements.join(" | ")}`,
+  ].filter((x): x is string => Boolean(x));
+}
+
 export async function runTool(name: string, input: unknown): Promise<ToolOutcome> {
   switch (name) {
     case "search_catalogue": {
@@ -167,6 +180,7 @@ export async function runTool(name: string, input: unknown): Promise<ToolOutcome
           p.notes && `notes: ${p.notes}`,
           p.exams && `exams: ${p.exams}`,
           `era: ${p.era}; dates: ${p.dates}; nationality: ${p.nationality}`,
+          ...detailLines(p.id),
           `recording on site: ${p.recording ? "yes" : "no"}`,
         ]
           .filter(Boolean)

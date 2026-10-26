@@ -1440,6 +1440,39 @@ button {
   font-size: 14px;
   color: var(--muted);
 }
+/* the work's history and movements (components/WorkAbout.tsx) */
+.about-facts {
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.about-facts div {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 12px;
+}
+.about-facts dt {
+  font: 600 10.5px/1.9 var(--display);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.movements {
+  margin: 0;
+  padding-left: 30px;
+  font-size: 14.5px;
+  line-height: 1.65;
+}
+.movements.roman {
+  list-style: upper-roman;
+}
+@media (max-width: 560px) {
+  .about-facts div {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
 .links {
   display: flex;
   gap: 18px;

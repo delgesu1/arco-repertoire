@@ -1,8 +1,10 @@
+import type { WorkDetails } from "@/lib/details";
 import type { LevelInfo, Piece, PieceBase } from "@/lib/types";
 import { eraLabel, settingLabel, typeSingular } from "@/lib/vocab";
 import { compareTitle, ladder } from "@/lib/filter";
 import { LevelBadge, imslpLink, tagList } from "./pieces";
 import { Row } from "./Row";
+import { CopyProgram, WorkAbout } from "./WorkAbout";
 import { ExternalIcon } from "./icons";
 import { YouTube } from "./YouTube";
 import { ArcoLine } from "./ArcoLine";
@@ -27,6 +29,7 @@ export function PieceDetail({
   onOpen,
   onAsk,
   autoplay,
+  details,
 }: {
   piece: Piece;
   all: Piece[];
@@ -34,6 +37,8 @@ export function PieceDetail({
   onOpen?: (p: Piece) => void;
   onAsk?: (p: Piece) => void;
   autoplay?: boolean;
+  /** the work's movements and history (a piece page passes them; the sheet fetches them) */
+  details?: WorkDetails | null;
 }) {
   const lvl = levels.find((l) => l.level === p.level);
   const tags = tagList(p);
@@ -117,6 +122,7 @@ export function PieceDetail({
           <p>{p.notes}</p>
         </section>
       )}
+      <WorkAbout piece={p} details={details} />
       {p.exams && (
         <section className="section">
           <h2>Exam &amp; syllabus listings</h2>
@@ -130,6 +136,7 @@ export function PieceDetail({
             Score on IMSLP <ExternalIcon />
           </a>
         )}
+        <CopyProgram piece={p} details={details} />
         {onAsk && (
           <button className="link-underline" onClick={() => onAsk(p)}>
             Ask about this piece
