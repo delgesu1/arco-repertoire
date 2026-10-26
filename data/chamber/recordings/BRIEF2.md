@@ -4,6 +4,7 @@ Read `data/chamber/recordings/BRIEF.md` first: the task, the rules, the output f
 
 - **Input**: `data/chamber/recordings/to-judge/kNNN.json`. **Output**: `data/chamber/recordings/choices/kNNN.json` (same JSON shape as the first pass).
 - These works had no acceptable video after the first search. The candidates are new: results of a reworded search for the work and, for works in a set, of a search for the whole set. None of them was shown to a judge before. Expect fewer good matches than in the first pass; `"none"` is a normal answer.
+- The rule on Ray Chen, Sarah Chang, Joshua Bell and Stefan Jackiw (never choose a video that names or features them) applies here too.
 - Items in a set carry `set` (its name), `set_works` (how many works of the set the catalogue lists) and `set_minutes` (their total length, null if unknown).
 
 ## Uploads of a whole set (rule 2 of BRIEF.md, made precise)

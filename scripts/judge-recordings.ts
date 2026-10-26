@@ -14,6 +14,7 @@ import { join } from "node:path";
 import type { Catalogue, Piece } from "../lib/types";
 import { settingLabel, typeSingular } from "../lib/vocab";
 import { fold } from "../lib/search";
+import { featuresExcludedPerformer } from "./recording-rules";
 
 const ROOT = join(__dirname, "..");
 const CACHE = join(ROOT, "data/cache/yt");
@@ -58,6 +59,7 @@ function candidates(p: Piece): Entry[] {
     const text = ` ${fold(`${e.title} ${e.channel ?? ""} ${e.description ?? ""}`).replace(/[^a-z]+/g, " ")} `;
     if (!nameWords.some((w) => text.includes(` ${w} `) || text.includes(` ${w}s `))) return false;
     if (REJECT.test(e.title)) return false;
+    if (featuresExcludedPerformer(e.title, e.channel, e.description)) return false; // docs/recording-rules.md
     if (!allowsOther && OTHER_INSTRUMENTS.test(e.title) && !VIOLIN_WORDS.test(e.title)) return false;
     if (e.duration != null && e.duration < 45) return false;
     if (multiMovement && e.duration != null && p.minutes && e.duration < p.minutes * 60 * 0.45) return false;

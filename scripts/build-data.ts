@@ -15,6 +15,7 @@ import { z } from "zod";
 import type { Catalogue, Piece, Recording, SettingKey } from "../lib/types";
 import { CHARACTER, ERAS, TYPES } from "../lib/vocab";
 import { firstLast, fold, slugify, surname } from "./names";
+import { assertNoExcludedPerformers } from "./recording-rules";
 
 const ROOT = join(__dirname, "..");
 const read = (p: string) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
@@ -233,6 +234,8 @@ for (const [n, r] of sheet.slice(1).entries()) {
   }
   if (dropped) console.log(`Recordings: dropped ${dropped} that shared a video with another piece`);
 }
+
+assertNoExcludedPerformers(pieces); // docs/recording-rules.md
 
 const PieceSchema = z.object({
   id: z.number().int().positive(),

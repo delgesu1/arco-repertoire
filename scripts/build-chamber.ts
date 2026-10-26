@@ -22,6 +22,7 @@ import type { ChamberCatalogue, ChamberComposer, ChamberPiece, ChamberWork, Inst
 import { FORMATIONS, FORMS, INSTRUMENTS } from "../lib/chamber/vocab";
 import type { Catalogue, EraKey, Piece } from "../lib/types";
 import { firstLast, slugify, surname } from "./names";
+import { assertNoExcludedPerformers } from "./recording-rules";
 
 const ROOT = join(__dirname, "..");
 const read = (p: string) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
@@ -159,6 +160,8 @@ if (errors.length) {
   }
   if (dropped) console.log(`Recordings: dropped ${dropped} that shared a video with another work`);
 }
+
+assertNoExcludedPerformers(pieces); // docs/recording-rules.md
 
 pieces.sort((a, b) => a.id - b.id);
 const version = createHash("sha1").update(JSON.stringify(pieces)).digest("hex").slice(0, 10);

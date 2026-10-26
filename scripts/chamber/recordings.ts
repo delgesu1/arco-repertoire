@@ -20,6 +20,7 @@ import { join } from "node:path";
 import type { ChamberWork } from "../../lib/chamber/types";
 import { FORMATIONS, instrumentList } from "../../lib/chamber/vocab";
 import { fold } from "../../lib/search";
+import { featuresExcludedPerformer } from "../recording-rules";
 
 const ROOT = join(__dirname, "..", "..");
 const CACHE = join(ROOT, "data/cache/yt-chamber");
@@ -79,6 +80,7 @@ function usable(w: ChamberWork, entries: Entry[]): Entry[] {
   return entries.filter((e) => {
     if (!e?.id || !e.title || e.live_status === "is_upcoming") return false;
     if (REJECT.test(e.title) || REJECT_CHANNEL.test(e.channel ?? "")) return false;
+    if (featuresExcludedPerformer(e.title, e.channel, e.description)) return false; // docs/recording-rules.md
     if (e.duration != null && e.duration < 60 && (w.minutes ?? 5) > 2) return false;
     if (e.duration != null && w.minutes && e.duration / 60 < 0.4 * w.minutes) return false; // far too short for the whole work
     const text = fold(`${e.title} ${e.channel ?? ""} ${e.description ?? ""}`).toLowerCase();
