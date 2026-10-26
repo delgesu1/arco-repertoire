@@ -4,7 +4,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { ChamberDetail } from "@/components/chamber/ChamberDetail";
 import { PieceDetail } from "@/components/PieceDetail";
 import { smartBanner } from "@/lib/arco";
-import { catalogue, composers, getPiece, levelInfo, pieceUrl, pieces, SITE_URL } from "@/lib/catalogue";
+import { catalogue, composers, getPiece, levelInfo, OG_ALT, pieceUrl, pieces, SITE_URL } from "@/lib/catalogue";
 import { chamberOnly, chamberPieces, getChamberPiece } from "@/lib/chamber/catalogue";
 import { CHAMBER_LIVE } from "@/lib/chamber/launch";
 import { workDetails } from "@/lib/details-server";
@@ -22,7 +22,8 @@ export function generateStaticParams() {
 type Props = { params: Promise<{ id: string; slug: string }> };
 
 const violinComposers = new Set(composers.map((c) => c.slug));
-const CHAMBER_OG_IMAGE = { url: "/chamber/opengraph-image", width: 1200, height: 630, alt: "Arco Atlas: find the perfect piece of chamber music" };
+// a page that sets its own openGraph loses the root segment's card, so piece pages name it (app/opengraph-image.tsx)
+const OG_IMAGE = { url: "/opengraph-image", width: 1200, height: 630, alt: OG_ALT };
 
 function chamberMetadata(p: ChamberPiece): Metadata {
   const l = levelInfo(p.level);
@@ -33,8 +34,7 @@ function chamberMetadata(p: ChamberPiece): Metadata {
     title: `${p.title} — ${p.composerName}`,
     description,
     alternates: { canonical: pieceUrl(p) },
-    // the chamber card (app/chamber/opengraph-image.tsx), not the violin one the root segment would give
-    openGraph: { title: `${p.composerName}: ${p.title}`, description, images: [CHAMBER_OG_IMAGE] },
+    openGraph: { title: `${p.composerName}: ${p.title}`, description, images: [OG_IMAGE] },
     other: smartBanner(`${SITE_URL}${pieceUrl(p)}`),
     // hidden if the section is switched off (lib/chamber/launch.ts)
     ...(CHAMBER_LIVE ? {} : { robots: { index: false, follow: false } }),
@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${p.title} — ${p.composerName}`,
     description,
     alternates: { canonical: pieceUrl(p) },
-    openGraph: { title: `${p.composerName}: ${p.title}`, description },
+    openGraph: { title: `${p.composerName}: ${p.title}`, description, images: [OG_IMAGE] },
     other: smartBanner(`${SITE_URL}${pieceUrl(p)}`),
   };
 }

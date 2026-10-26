@@ -7,7 +7,7 @@ import { Brand, Header } from "@/components/Header";
 import { ArcoFooter } from "@/components/ArcoFooter";
 import { ArcoPeek } from "@/components/ArcoPeek";
 import { InstrumentSwitcher } from "@/components/InstrumentSwitcher";
-import { SITE_URL, catalogue } from "@/lib/catalogue";
+import { OG_DESCRIPTION, OG_TITLE, SITE_URL, catalogue } from "@/lib/catalogue";
 import "./globals.css";
 
 const archivo = Archivo({ subsets: ["latin", "latin-ext"], axes: ["wdth"], variable: "--font-archivo", display: "swap" });
@@ -20,13 +20,8 @@ export const metadata: Metadata = {
   title: { default: `Arco Atlas · An interactive library of ${TOTAL} graded violin works`, template: "%s · Arco Atlas" },
   description:
     "Organized by level, character, instrumentation and more. An AI advisor helps you discover your next piece based on what you’re already working on.",
-  openGraph: {
-    type: "website",
-    siteName: "Arco Atlas",
-    title: `Arco Atlas: an interactive library of ${TOTAL} graded violin works`,
-    description:
-      "Organized by level, character, instrumentation and more. An AI advisor helps you discover your next piece based on what you’re already working on.",
-  },
+  // the link preview speaks for the whole site, not one section (the card is app/opengraph-image.tsx)
+  openGraph: { type: "website", siteName: "Arco Atlas", title: OG_TITLE, description: OG_DESCRIPTION },
   twitter: { card: "summary_large_image" },
 };
 

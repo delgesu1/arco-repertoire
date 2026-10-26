@@ -41,4 +41,10 @@ export const getComposer = (slug: string) => composerMap.get(slug) ?? null;
 export const levelInfo = (n: number) => catalogue.levels.find((l) => l.level === n)!;
 
 export const SITE_URL = "https://atlas.arco.app";
+
+/** How a link to any page previews: the card (components/OgCard.tsx) and its text speak for the whole site. */
+export const OG_TITLE = "Arco Atlas: a free and open catalogue of classical music";
+export const OG_ALT = OG_TITLE;
+export const OG_DESCRIPTION =
+  "Arco Atlas is a free and open catalogue of classical music, searchable every way you’d want: by composer, level, instruments, length and character.";
 export const pieceUrl = (p: PieceBase) => `/piece/${p.id}/${p.slug}`;
