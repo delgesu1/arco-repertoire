@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { type ReactNode, useEffect, useRef, useState } from "react";
 import type { LevelInfo } from "@/lib/types";
 import type { Filters } from "@/lib/filter";
 import { SETTINGS, TYPES, levelPhrase, settingPhrase, typePhrase } from "@/lib/vocab";
@@ -74,11 +74,14 @@ export function Finder({
   update,
   levels,
   counts,
+  info,
 }: {
   f: Filters;
   update: (p: Partial<Filters>) => void;
   levels: LevelInfo[];
   counts: { type: Counts; setting: Counts; level: Counts };
+  /** "How the 10 levels work", beside the hint under the levels */
+  info?: ReactNode;
 }) {
   const sp = settingPhrase(f.setting);
   const lp = levelPhrase(f.level, f.exact);
@@ -126,7 +129,7 @@ export function Finder({
         />
       </div>
 
-      <LevelPicker f={f} update={update} levels={levels} counts={counts.level} />
+      <LevelPicker f={f} update={update} levels={levels} counts={counts.level} info={info} />
     </section>
   );
 }
@@ -137,11 +140,13 @@ export function LevelPicker({
   update,
   levels,
   counts,
+  info,
 }: {
   f: { level: number | null; exact: boolean };
   update: (p: Partial<Filters>) => void;
   levels: LevelInfo[];
   counts: Counts;
+  info?: ReactNode;
 }) {
   const lvl = f.level ? levels.find((l) => l.level === f.level) : null;
   return (
@@ -174,6 +179,7 @@ export function LevelPicker({
           ) : (
             "Tap a level to narrow the list, or leave it open."
           )}
+          {info}
         </span>
         {f.level != null && (
           <span>

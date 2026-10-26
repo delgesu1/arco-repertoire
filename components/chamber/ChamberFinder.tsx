@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { type ReactNode, useState } from "react";
 import type { ChamberFilters } from "@/lib/chamber/filter";
 import type { InstrumentKey } from "@/lib/chamber/types";
 import { FORMATIONS, FORMATION_GROUPS, FORMS, formPhrase, formationPhrase, instrumentName } from "@/lib/chamber/vocab";
@@ -22,6 +22,7 @@ export function ChamberFinder({
   levels,
   counts,
   instruments,
+  info,
 }: {
   f: ChamberFilters;
   update: (p: Partial<ChamberFilters>) => void;
@@ -29,6 +30,8 @@ export function ChamberFinder({
   counts: { form: Counts; formation: Counts; level: Counts; instruments: Map<InstrumentKey, number> };
   /** every instrument in the section, most used first */
   instruments: InstrumentKey[];
+  /** "How the 10 levels work", beside the hint under the levels */
+  info?: ReactNode;
 }) {
   const [more, setMore] = useState(false);
   const ep = formationPhrase(f.formation);
@@ -88,7 +91,7 @@ export function ChamberFinder({
         />
       </div>
 
-      <LevelPicker f={f} update={update} levels={levels} counts={counts.level} />
+      <LevelPicker f={f} update={update} levels={levels} counts={counts.level} info={info} />
 
       <div className="incl" role="group" aria-label="Includes a part for">
         <span>Includes</span>

@@ -5,8 +5,10 @@ import { composers } from "@/lib/catalogue";
 import { chamberCatalogue, chamberPieces } from "@/lib/chamber/catalogue";
 import { CHAMBER_LIVE } from "@/lib/chamber/launch";
 import { CHAMBER_INTRO } from "@/lib/chamber/vocab";
+import { Ledger } from "@/components/Ledger";
 
 const TOTAL = chamberPieces.length.toLocaleString("en");
+const COMPOSERS = new Set(chamberPieces.map((p) => p.composer)).size;
 
 export const metadata: Metadata = {
   title: "Chamber music",
@@ -38,6 +40,7 @@ export default function ChamberHome() {
           version={chamberCatalogue.version}
           levels={chamberCatalogue.levels}
           total={chamberPieces.length}
+          composers={COMPOSERS}
           composerPages={composerPages}
         />
       </Suspense>
@@ -49,10 +52,7 @@ function ChamberSkeleton() {
   return (
     <>
       <section className="hero">
-        <div className="intro">
-          <div className="big">{TOTAL}</div>
-          <p>{CHAMBER_INTRO}</p>
-        </div>
+        <Ledger works={chamberPieces.length} label="chamber works" composers={COMPOSERS} intro={CHAMBER_INTRO} />
         <div className="finder" />
       </section>
       <div className="list" style={{ marginTop: 60 }}>

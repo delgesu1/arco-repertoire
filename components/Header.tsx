@@ -8,28 +8,31 @@ import { isChamberPath } from "@/lib/chamber/launch";
 import { writeUrl } from "@/lib/url-state";
 import { InstrumentSwitcher } from "./InstrumentSwitcher";
 
-/** Arco logo + "Atlas": the companion-site lockup (logo swaps for dark mode). */
+/** "Atlas by arco": the name first, the Arco logo as its endorsement (the logo swaps for dark mode). */
 export function Brand() {
   return (
     <>
-      <Image
-        className="logo logo-light"
-        src="/brand/arco-logo-light.png"
-        alt="Arco"
-        width={80}
-        height={38}
-        priority
-      />
-      <Image
-        className="logo logo-dark"
-        src="/brand/arco-logo-dark.png"
-        alt=""
-        aria-hidden
-        width={80}
-        height={38}
-        priority
-      />
       <span className="word">Atlas</span>
+      <span className="by">
+        by
+        <Image
+          className="logo logo-light"
+          src="/brand/arco-logo-light.png"
+          alt="Arco"
+          width={80}
+          height={38}
+          priority
+        />
+        <Image
+          className="logo logo-dark"
+          src="/brand/arco-logo-dark.png"
+          alt=""
+          aria-hidden
+          width={80}
+          height={38}
+          priority
+        />
+      </span>
     </>
   );
 }
@@ -146,9 +149,6 @@ export function Header() {
           </form>
         )}
         <div className="actions">
-          <a className="byline" href="https://www.kurganov.org" target="_blank" rel="noopener">
-            Created by <b>Daniel Kurganov</b>
-          </a>
           <button
             className="btn-ink ask-btn"
             onClick={() =>

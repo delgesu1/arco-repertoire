@@ -9,6 +9,7 @@ import { indexPieces, search, type IndexedPiece } from "@/lib/search";
 import { filtersFromParams, paramsFromFilters, writeUrl } from "@/lib/url-state";
 import { Finder } from "./Finder";
 import { Toolbar } from "./Toolbar";
+import { Ledger } from "./Ledger";
 import { LevelsInfo } from "./LevelsInfo";
 import { Results } from "./Results";
 import { Sheet } from "./Sheet";
@@ -23,7 +24,7 @@ const loadCatalogue = (version: string) =>
 
 export type Counts = Map<string, number>;
 
-export function Explorer({ version, levels, total }: { version: string; levels: LevelInfo[]; total: number }) {
+export function Explorer({ version, levels, total, composers }: { version: string; levels: LevelInfo[]; total: number; composers: number }) {
   const sp = useSearchParams();
   const [data, setData] = useState<{ pieces: Piece[]; index: IndexedPiece[] } | null>(null);
   const [shown, setShown] = useState(PAGE);
@@ -144,15 +145,14 @@ export function Explorer({ version, levels, total }: { version: string; levels: 
   return (
     <>
       <section className="hero">
-        <div className="intro">
-          <div className="big">{(all.length || total).toLocaleString("en")}</div>
-          <p>{INTRO}</p>
-          <LevelsInfo levels={levels} onPick={(level) => update({ level })} />
-          <a className="intro-byline" href="https://www.kurganov.org" target="_blank" rel="noopener">
-            Created by <b>Daniel Kurganov</b>
-          </a>
-        </div>
-        <Finder f={f} update={update} levels={levels} counts={counts} />
+        <Ledger works={all.length || total} label="graded works" composers={composers} intro={INTRO} />
+        <Finder
+          f={f}
+          update={update}
+          levels={levels}
+          counts={counts}
+          info={<LevelsInfo levels={levels} onPick={(level) => update({ level })} />}
+        />
       </section>
 
       <Toolbar f={f} update={update} counts={counts} total={sorted.length} clearAll={clearAll} />

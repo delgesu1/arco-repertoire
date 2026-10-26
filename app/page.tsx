@@ -3,7 +3,10 @@ import { Suspense } from "react";
 import { Explorer } from "@/components/Explorer";
 import { smartBanner } from "@/lib/arco";
 import { SITE_URL, catalogue } from "@/lib/catalogue";
+import { Ledger } from "@/components/Ledger";
 import { INTRO } from "@/lib/vocab";
+
+const COMPOSERS = new Set(catalogue.pieces.map((p) => p.composer)).size;
 
 export const metadata: Metadata = { other: smartBanner(SITE_URL) };
 
@@ -12,7 +15,7 @@ export default function Home() {
     <main className="wrap">
       <h1 className="sr-only">Arco Atlas: graded violin repertoire</h1>
       <Suspense fallback={<HomeSkeleton />}>
-        <Explorer version={catalogue.version} levels={catalogue.levels} total={catalogue.pieces.length} />
+        <Explorer version={catalogue.version} levels={catalogue.levels} total={catalogue.pieces.length} composers={COMPOSERS} />
       </Suspense>
     </main>
   );
@@ -22,10 +25,7 @@ function HomeSkeleton() {
   return (
     <>
       <section className="hero">
-        <div className="intro">
-          <div className="big">{catalogue.pieces.length.toLocaleString("en")}</div>
-          <p>{INTRO}</p>
-        </div>
+        <Ledger works={catalogue.pieces.length} label="graded works" composers={COMPOSERS} intro={INTRO} />
         <div className="finder" />
       </section>
       <div className="list" style={{ marginTop: 60 }}>

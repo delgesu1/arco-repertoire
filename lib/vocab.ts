@@ -1,8 +1,7 @@
 import type { EraKey, SettingKey, TypeKey } from "./types";
 
-/** the line under the work count at the top of the home page (also shown by the loading skeleton, so the two must match) */
-export const INTRO =
-  "graded works for the violin, sorted by setting, level and character, with sheet music links, YouTube playback, and a smart AI advisor you can chat with to find the perfect piece for you.";
+/** what Atlas is, beside the counts at the top of the home page (components/Ledger.tsx; the loading skeleton shows it too) */
+export const INTRO = "Arco Atlas is a free and open catalogue of violin works, searchable every way you’d want.";
 
 export const SETTINGS: { key: SettingKey; label: string; short: string }[] = [
   { key: "solo", label: "Unaccompanied", short: "Solo" },

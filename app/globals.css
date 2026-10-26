@@ -263,7 +263,7 @@ button {
 }
 .mark .logo {
   display: block;
-  height: 38px;
+  height: 19px;
   width: auto;
   flex: none;
 }
@@ -274,16 +274,23 @@ button {
 :root[data-theme="dark"] .mark .logo-dark {
   display: block;
 }
+/* "Atlas by arco": the name, then the Arco logo as its endorsement (design/atlas-brand-options.html, D revised) */
 .word {
-  font: 600 11px var(--display);
-  font-stretch: 112%;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  font: 800 30px / 1 var(--display);
+  font-stretch: 118%;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.by {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font: 500 12.5px var(--body);
   color: var(--muted);
-  line-height: 22px;
+  white-space: nowrap;
   padding-left: 12px;
   border-left: 1px solid var(--rule-2);
-  margin-top: 4px;
+  margin-top: 3px;
 }
 .search {
   justify-self: center;
@@ -337,26 +344,6 @@ button {
   gap: 10px;
   align-items: center;
 }
-/* credit: in the bar on wider screens, under the intro on phones */
-.byline {
-  font-size: 13px;
-  color: var(--muted);
-  white-space: nowrap;
-  margin-right: 8px;
-}
-.byline b,
-.intro-byline b {
-  font-weight: 600;
-  color: var(--ink);
-}
-.byline:hover b,
-.intro-byline:hover b {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-.intro-byline {
-  display: none;
-}
 .footer p a {
   color: var(--ink);
   font-weight: 600;
@@ -378,29 +365,56 @@ button {
 }
 /* ── Hero / finder ──────────────────────────────────────────────────── */
 .hero {
-  padding: 34px 0 0;
+  padding: 0;
 }
-.intro {
-  display: grid;
-  grid-template-columns: auto minmax(0, 36ch) 1fr;
-  column-gap: 32px;
-  align-items: end;
-  padding-bottom: 26px;
+/* the ledger (components/Ledger.tsx): the counts, then what Atlas is and who made it */
+.ledger {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--rule-2);
+  margin-bottom: 22px;
 }
-.intro .big {
-  font: 800 clamp(56px, 7vw, 96px) / 0.9 var(--display);
+.ledger .stat {
+  align-self: stretch;
+  padding: 18px 26px 16px 0;
+  margin-right: 26px;
+  border-right: 1px solid var(--rule);
+}
+.ledger .stat b {
+  display: block;
+  font: 800 30px / 1 var(--display);
   font-stretch: 112%;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
-.intro p {
+.ledger .stat span {
+  font-size: 12.5px;
   color: var(--muted);
-  padding-bottom: 2px;
 }
-.intro .levels-info {
-  justify-self: end;
-  margin-bottom: 4px;
+.ledger .desc {
+  flex: 1;
+  max-width: 64ch;
+  padding: 14px 0;
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.45;
+}
+.ledger .desc a {
+  font-weight: 600;
+  color: var(--ink);
+}
+.ledger .desc a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+/* "How the 10 levels work", after the hint under the levels; its popover opens from the left */
+.legend .levels-info {
+  margin-left: 12px;
   white-space: nowrap;
   position: relative;
+}
+.legend .levels-pop {
+  left: 0;
+  right: auto;
 }
 .levels-pop {
   position: absolute;
@@ -1674,20 +1688,6 @@ button {
 
 /* ── Responsive ─────────────────────────────────────────────────────── */
 @media (max-width: 980px) {
-  .intro {
-    grid-template-columns: auto 1fr;
-    column-gap: 28px;
-  }
-  .intro .big {
-    grid-row: span 2;
-  }
-  .intro .levels-info {
-    justify-self: start;
-  }
-  .levels-pop {
-    right: auto;
-    left: 0;
-  }
   .row {
     grid-template-columns: 1fr 60px 70px 38px;
   }
@@ -1725,11 +1725,14 @@ button {
     gap: 9px;
   }
   .mark .logo {
-    height: 32px;
+    height: 16px;
   }
   .word {
-    padding-left: 9px;
-    letter-spacing: 0.16em;
+    font-size: 26px;
+  }
+  .by {
+    padding-left: 0;
+    border-left: 0;
   }
   .instrument-btn {
     padding: 0 9px 0 10px;
@@ -1744,32 +1747,39 @@ button {
     order: 3;
     max-width: none;
   }
-  .ask-btn,
-  .byline {
+  .ask-btn {
     display: none;
   }
-  .intro-byline {
-    display: block;
-    margin-top: 14px;
-    font-size: 13px;
-    color: var(--muted);
-  }
   .hero {
-    padding-top: 22px;
+    padding-top: 0;
   }
-  .intro {
+  .ledger {
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .ledger .stat {
+    padding: 12px 16px 10px 0;
+    margin-right: 16px;
+  }
+  .ledger .stat:nth-child(2) {
+    border-right: 0;
+  }
+  .ledger .stat b {
+    font-size: 24px;
+  }
+  .ledger .desc {
+    flex-basis: 100%;
+    border-top: 1px solid var(--rule);
+    padding: 10px 0 12px;
+    font-size: 14px;
+  }
+  .legend .levels-info {
     display: block;
-    padding-bottom: 20px;
+    margin: 6px 0 0;
   }
-  .intro p {
-    margin-top: 12px;
-  }
-  .intro .levels-info {
-    display: inline-block;
-    margin-top: 12px;
-  }
-  .intro .big {
-    font-size: 54px;
+  /* inside the finder card on a phone: the card's inset on both sides */
+  .legend .levels-pop {
+    width: calc(100vw - 66px);
   }
   .finder {
     padding: 18px 16px 16px;

@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas brand options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* tokens copied from app/globals.css */
+:root{--linen:#F2EDE3;--sheet:#F8F5EE;--wash:#E9E2D4;--ink:#1B1A17;--muted:#6B655B;--rule:rgba(27,26,23,.13);--rule-2:rgba(27,26,23,.28);--terra:#C45B3D;--cobalt:#30508f;--on-accent:#fffaf2;
+--l1:#8fa37e;--l2:#6e7f5e;--l3:#b39b47;--l4:#c99a3f;--l5:#c45b3d;--l6:#a3453a;--l7:#30508f;--l8:#263f72;--l9:#4a3b4c;--l10:#1b1a17;
+--pick-a:#30508f;--pick-b:#3f5f48;--pick-c:#b4492f;
+--display:"Archivo",sans-serif;--body:"Instrument Sans",sans-serif;--radius-a:3px 9px 4px 8px;color-scheme:light}
+:root[data-theme=dark]{--linen:#171613;--sheet:#1f1e1a;--wash:#2a2823;--ink:#ece6da;--muted:#a39b8d;--rule:rgba(236,230,218,.12);--rule-2:rgba(236,230,218,.26);--terra:#d9714f;--cobalt:#6f8fd0;--on-accent:#171613;--l10:#ece6da;color-scheme:dark}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--linen);color:var(--ink);font:400 15px/1.5 var(--body);-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit;background:none;border:0}
+a{color:inherit;text-decoration:none}
+.page{max-width:1240px;margin:0 auto;padding:0 32px 80px}
+.top{display:flex;justify-content:space-between;align-items:end;gap:20px;padding:44px 0 18px;border-bottom:1px solid var(--rule-2);flex-wrap:wrap}
+.top h1{font:800 36px/1 var(--display);font-stretch:112%;letter-spacing:-.01em}
+.top p{color:var(--muted);margin-top:10px;max-width:72ch}
+.theme{font:600 12px var(--display);font-stretch:112%;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--ink);padding:8px 14px;border-radius:var(--radius-a);cursor:pointer}
+.opt{margin-top:46px}
+.oh{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;margin-bottom:6px}
+.oh b{font:800 22px var(--display);font-stretch:112%}
+.oh span{color:var(--muted);max-width:92ch}
+.why{color:var(--muted);font-size:14px;max-width:92ch;margin-bottom:14px}
+.why i{font-style:normal;color:var(--ink);font-weight:600}
+.frames{display:grid;grid-template-columns:minmax(0,1fr) 375px;gap:28px;align-items:start}
+@media(max-width:1100px){.frames{grid-template-columns:1fr}}
+.desk{border:1px solid var(--rule-2);border-radius:10px;overflow:hidden;background:var(--linen)}
+.phone{width:375px;border:1px solid var(--rule-2);border-radius:26px;overflow:hidden;background:var(--linen)}
+.only .top,.only .oh,.only .why{display:none}
+.only .opt{margin-top:0}
+.only .page{padding:0;max-width:none}
+.only .frames{display:block}
+.only .desk{border:0;border-radius:0}
+.only .phone{border:0;border-radius:0}
+
+/* ── the site's pieces, simplified from app/globals.css ── */
+.bar{display:flex;align-items:center;gap:16px;height:70px;padding:0 32px;border-bottom:1px solid var(--rule-2)}
+.bar .sp{flex:1}
+.switch{height:32px;display:inline-flex;align-items:center;gap:8px;padding:0 11px 0 12px;border:1px solid var(--rule-2);border-radius:var(--radius-a);font:500 13.5px var(--body);white-space:nowrap}
+.switch:after{content:"";width:7px;height:7px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:rotate(45deg) translateY(-2px)}
+.ask{height:38px;padding:0 16px;background:var(--ink);color:var(--linen);font:700 12px var(--display);font-stretch:112%;letter-spacing:.1em;text-transform:uppercase;border-radius:var(--radius-a)}
+.tt{width:40px;height:40px;border:1px solid var(--rule-2);border-radius:50%;display:grid;place-items:center}
+.tt i{width:15px;height:15px;border-radius:50%;background:linear-gradient(90deg,var(--ink) 50%,transparent 50%);border:1.5px solid var(--ink)}
+.byline{font-size:13px;color:var(--muted);white-space:nowrap}
+.byline b{color:var(--ink);font-weight:600}
+.logo{display:block;height:38px;width:auto}
+.logo-d{display:none}
+:root[data-theme=dark] .logo-l{display:none} :root[data-theme=dark] .logo-d{display:block}
+.in{padding:0 32px}
+.finder{background:var(--sheet);border:1px solid var(--rule);border-radius:14px;padding:22px 26px 20px}
+.sent{font:400 30px/1.2 var(--body);display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.pill{font:700 15px var(--display);font-stretch:112%;letter-spacing:.06em;text-transform:uppercase;color:#fffaf2;padding:6px 12px;border-radius:var(--radius-a);display:inline-flex;gap:6px;align-items:center}
+.pill:after{content:"▾";font-size:11px}
+.p1{background:var(--pick-a)} .p2{background:var(--pick-b)} .p3{background:var(--pick-c)}
+.ladder{display:grid;grid-template-columns:repeat(10,1fr);gap:8px;margin-top:22px}
+.ladder div{font:700 13px var(--display);font-stretch:108%}
+.ladder div:before{content:"";display:block;height:7px;border-radius:3px;background:var(--wash);margin-bottom:6px}
+.ladder small{display:block;font:500 10.5px var(--body);color:var(--muted);margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hint{font-size:12.5px;color:var(--muted);margin-top:12px}
+.tool{display:flex;gap:10px;margin-top:22px;align-items:center}
+.srch{flex:1;height:44px;border:1px solid var(--rule-2);border-radius:var(--radius-a);background:var(--sheet);display:flex;align-items:center;padding:0 14px;color:var(--muted);font-size:14.5px;gap:10px}
+.srch:before{content:"";width:12px;height:12px;border:1.6px solid var(--muted);border-radius:50%}
+.fb{height:44px;padding:0 14px;border:1px solid var(--rule-2);border-radius:var(--radius-a);font:500 13.5px var(--body);display:flex;align-items:center}
+.res{display:flex;align-items:baseline;gap:8px;margin-top:26px;padding-bottom:10px;border-bottom:1px solid var(--rule-2)}
+.res b{font:800 20px var(--display);font-stretch:108%}
+.res span{color:var(--muted)}
+.row{display:grid;grid-template-columns:1fr 150px 210px 42px;gap:18px;align-items:center;padding:13px 0;border-bottom:1px solid var(--rule)}
+.ttl{font:600 16px/1.28 var(--body)} .cmp{font-size:13.5px;color:var(--muted)}
+.meta{font-size:13px;color:var(--muted)} .meta b{display:block;color:var(--ink);font-weight:600}
+.tags{display:flex;gap:5px}.tag{font-size:12px;padding:2px 8px;border-radius:var(--radius-a);background:var(--wash)}
+.lv{display:grid;place-items:center;color:#fffaf2;font:700 15px var(--display);font-stretch:112%;border-radius:46% 54% 42% 58%/55% 45% 55% 45%;width:34px;height:34px}
+.l5{background:var(--l5)} .l8{background:var(--l8)} .l6{background:var(--l6)}
+.levels{font:600 13px var(--body);border-bottom:1.5px solid var(--terra);padding-bottom:1px;white-space:nowrap}
+
+/* phone variants of the shared pieces */
+.ph .bar{height:auto;padding:12px 16px;gap:10px;flex-wrap:wrap}
+.ph .in{padding:0 16px}
+.ph .finder{padding:16px 16px 14px}
+.ph .sent{font-size:22px;gap:7px}
+.ph .pill{font-size:12.5px;padding:5px 9px}
+.ph .ladder{grid-template-columns:repeat(5,minmax(0,1fr));row-gap:12px}
+.ph .tool .fb{display:none}
+.ph .row{grid-template-columns:1fr auto;gap:12px}
+.ph .row .meta,.ph .row .tags{display:none}
+.ph .logo{height:30px}
+
+/* ── wordmarks ── */
+.atlas{font:800 30px/1 var(--display);font-stretch:118%;letter-spacing:-.01em;display:inline-flex;align-items:center;gap:9px}
+.bars{display:inline-flex;gap:3px;height:.82em}
+.bars i{width:3px;background:var(--terra);border-radius:1px}
+.dots{display:inline-flex;flex-direction:column;justify-content:center;gap:4px;margin-left:-3px}
+.dots i{width:4px;height:4px;border-radius:50%;background:var(--terra)}
+.from{display:inline-flex;align-items:center;gap:7px;font:500 12.5px var(--body);color:var(--muted);white-space:nowrap}
+.from img{height:17px}
+.from b{color:var(--ink);font-weight:600}
+
+/* ── A: Atlas, from Arco ── */
+.A .lock{display:flex;flex-direction:column;gap:5px}
+.A .bar{height:78px}
+.A .intro{display:flex;align-items:baseline;gap:16px;padding:22px 0 18px}
+.A .intro .n{font:800 44px/1 var(--display);font-stretch:112%;letter-spacing:-.02em}
+.A .intro p{color:var(--muted);flex:1;max-width:70ch}
+.ph.A .intro{display:block;padding:16px 0 14px}
+.ph.A .intro .n{font-size:38px;display:block}
+.ph.A .intro p{margin-top:6px}
+.ph.A .atlas{font-size:26px}
+
+/* ── B: credit ribbon, count in the finder ── */
+.ribbon{background:var(--ink);color:var(--linen);display:flex;align-items:center;gap:14px;padding:8px 32px;font-size:13.5px}
+.ribbon img{height:20px}
+.ribbon b{font-weight:600}
+.ribbon .sp{flex:1}
+.ribbon a{font-weight:600;border-bottom:1px solid rgba(255,250,242,.4);padding-bottom:1px;white-space:nowrap}
+:root[data-theme=dark] .ribbon{background:var(--wash);color:var(--ink)}
+:root[data-theme=dark] .ribbon a{border-color:var(--rule-2)}
+.B .finder{margin-top:26px}
+.B .fhead{display:flex;align-items:baseline;gap:12px;margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid var(--rule)}
+.B .fhead .n{font:800 26px/1 var(--display);font-stretch:112%;letter-spacing:-.01em;color:var(--ink)}
+.B .fhead span{color:var(--muted);font-size:14.5px}
+.B .fhead .sp{flex:1}
+.ph .ribbon{padding:8px 16px;font-size:12.5px;flex-wrap:wrap;gap:4px 10px}
+.ph.B .fhead{flex-wrap:wrap;gap:4px 10px}
+.ph.B .fhead .n{font-size:22px}
+.ph.B .fhead .sp{display:none}
+.ph.B .finder{margin-top:16px}
+
+/* ── C: the name is the hero ── */
+.C .hero{display:grid;grid-template-columns:auto minmax(0,1fr) auto;column-gap:30px;align-items:end;padding:30px 0 24px}
+.C .big{font:800 clamp(64px,8vw,104px)/.86 var(--display);font-stretch:118%;letter-spacing:-.025em}
+.C .claim{font:600 21px/1.3 var(--body)}
+.C .claim+p{color:var(--muted);margin-top:4px;max-width:62ch}
+.C .credit{display:flex;align-items:center;gap:7px;margin-top:12px;font-size:13.5px;color:var(--muted)}
+.C .credit img{height:22px}
+.C .credit b{color:var(--ink);font-weight:600}
+.C .small{font:800 19px/1 var(--display);font-stretch:118%}
+.ph.C .hero{display:block;padding:18px 0 16px}
+.ph.C .big{font-size:68px}
+.ph.C .claim{font-size:18px;margin-top:12px}
+.ph.C .credit{flex-wrap:wrap}
+
+/* ── D: ledger ── */
+.D .ledger{display:flex;align-items:stretch;border-bottom:1px solid var(--rule-2);margin:0 0 22px}
+.D .stat{padding:18px 26px 16px 0;margin-right:26px;border-right:1px solid var(--rule)}
+.D .stat b{display:block;font:800 30px/1 var(--display);font-stretch:112%;letter-spacing:-.01em}
+.D .stat span{font-size:12.5px;color:var(--muted)}
+.D .made{margin-left:auto;display:flex;align-items:center;gap:12px;padding:12px 0}
+.D .made img{height:26px}
+.D .made div{font-size:13px;color:var(--muted);line-height:1.35;text-align:right}
+.D .made b{color:var(--ink);font-weight:600}
+.ph.D .ledger{flex-wrap:wrap;margin-bottom:16px}
+.ph.D .stat{padding:12px 14px 10px 0;margin-right:14px}
+.ph.D .stat b{font-size:22px}
+.ph.D .made{margin-left:0;width:100%;border-top:1px solid var(--rule);padding:10px 0}
+.ph.D .made div{text-align:left}
+
+/* ── D2: the ledger, revised (owner, 2026-10-26) ── */
+.D2 .ledger{display:flex;align-items:center;border-bottom:1px solid var(--rule-2);margin:0 0 22px}
+.D2 .stat{padding:18px 26px 16px 0;margin-right:26px;border-right:1px solid var(--rule);align-self:stretch}
+.D2 .stat b{display:block;font:800 30px/1 var(--display);font-stretch:112%;letter-spacing:-.01em}
+.D2 .stat span{font-size:12.5px;color:var(--muted)}
+.D2 .desc{flex:1;color:var(--muted);font-size:14.5px;line-height:1.45;max-width:64ch;padding:12px 0}
+.D2 .desc b{color:var(--ink);font-weight:600}
+.hint .levels{margin-left:10px;font-size:12.5px}
+.ph.D2 .ledger{flex-wrap:wrap;margin-bottom:16px}
+.ph.D2 .stat{padding:12px 16px 10px 0;margin-right:16px}
+.ph.D2 .stat:nth-child(2){border-right:0}
+.ph.D2 .stat b{font-size:24px}
+.ph.D2 .desc{flex-basis:100%;border-top:1px solid var(--rule);padding:10px 0 12px;font-size:14px}
+.ph .hint .levels{display:inline-block;margin:6px 0 0}
+</style></head>
+<body>
+<div class="page">
+  <div class="top">
+    <div>
+      <h1>Atlas: four ways to lead with the name</h1>
+      <p>Each option makes <b>Atlas</b> the name you see first, says plainly that it comes from Arco and is made by Daniel Kurganov, and gives the space the big 4,883 takes today to the finder. Desktop on the left, phone on the right. Nothing here is on the site yet.</p>
+    </div>
+    <button class="theme" onclick="flip()">Light / dark</button>
+  </div>
+  <div id="opts"></div>
+</div>
+<script>
+const LOGO = `<img class="logo logo-l" src="../public/brand/arco-logo-light.png" alt="Arco"><img class="logo logo-d" src="../public/brand/arco-logo-dark.png" alt="">`;
+const logo = (h) => LOGO.replaceAll('class="logo', `style="height:${h}px" class="logo`);
+// the ribbon is dark in both themes, so it always carries the light-on-dark logo
+const RIBBON_LOGO = (h) => `<img style="height:${h}px" src="../public/brand/arco-logo-dark.png" alt="Arco">`;
+const MARK = `<span class="bars"><i></i><i></i></span><span class="dots"><i></i><i></i></span>`;
+const LEVELS = ["Early intermediate","Intermediate","Upper intermediate","Early advanced","Advanced","Pre-diploma","Diploma","Professional","Virtuoso","Extreme virtuoso"];
+const finder = (head = "", hint = "", mid = "in", what = "Any setting") => `<div class="finder">${head}
+  <div class="sent">Show me <span class="pill p1">Any piece</span> ${mid} <span class="pill p2">${what}</span> at <span class="pill p3">Any level</span></div>
+  <div class="ladder">${LEVELS.map((l, i) => `<div>${i + 1}<small>${l}</small></div>`).join("")}</div>
+  <div class="hint">Tap a level to narrow the list, or leave it open.${hint}</div></div>`;
+const CHAMBER_ROWS = `<div class="row"><div><div class="ttl">String Quartet No. 14 in D minor, D. 810 (“Death and the Maiden”)</div><div class="cmp">Franz Schubert</div></div><div class="meta"><b>String quartet</b>2 violins, viola, cello</div><div class="tags"><span class="tag">dramatic</span><span class="tag">dark</span></div><div class="lv l8">8</div></div>
+  <div class="row"><div><div class="ttl">Violin Sonata in A major, FWV 8</div><div class="cmp">César Franck</div></div><div class="meta"><b>Violin &amp; piano duo</b>violin, piano</div><div class="tags"><span class="tag">lyrical</span><span class="tag">dramatic</span></div><div class="lv l8">8</div></div>`;
+const rest = (n = "4,883", rows = "") => `<div class="tool"><div class="srch">Search composer, title, “op 35”…</div><div class="fb">Character</div><div class="fb">Length</div><div class="fb">More</div></div>
+  <div class="res"><b>Results</b><span>· ${n} works</span></div>${rows}
+  ${rows ? "" : `<div class="row"><div><div class="ttl">Sonata No. 1 in D major, Op. 12 No. 1</div><div class="cmp">Ludwig van Beethoven</div></div><div class="meta"><b>Sonata</b>With piano</div><div class="tags"><span class="tag">lively</span><span class="tag">heroic</span></div><div class="lv l6">6</div></div>
+  <div class="row"><div><div class="ttl">Violin Sonata in A major, FWV 8</div><div class="cmp">César Franck</div></div><div class="meta"><b>Sonata</b>With piano</div><div class="tags"><span class="tag">lyrical</span><span class="tag">dramatic</span></div><div class="lv l8">8</div></div>`}`;
+const tail = `<div class="sp"></div><button class="ask">Ask</button><span class="tt"><i></i></span>`;
+const INTRO = "graded works for the violin, sorted by setting, level and character, with sheet music links, YouTube playback and an AI advisor you can chat with.";
+
+const OPTIONS = {
+  A: {
+    name: "A · Atlas, from Arco",
+    line: "The Instagram-from-Meta pattern: a real Atlas wordmark, with “from Arco · made by Daniel Kurganov” fixed right under it in the header, on every page.",
+    why: "<i>Why:</i> the endorsement travels with the name everywhere, so nobody can miss where Atlas comes from. The wordmark borrows Arco’s two bars and repeat dots, so the family is visible without the Arco logo competing. The count shrinks to a 44px figure leading one sentence, which gives back about 60px.",
+    desk: () => `<div class="bar"><div class="lock"><span class="atlas">${MARK}Atlas</span><span class="from">from ${logo(17)} <span>·</span> made by <b>Daniel Kurganov</b></span></div><span class="switch">Violin</span>${tail}</div>
+      <div class="in"><div class="intro"><span class="n">4,883</span><p>${INTRO}</p><a class="levels">How the 10 levels work</a></div>${finder()}${rest()}</div>`,
+    phone: () => `<div class="bar"><div class="lock"><span class="atlas">${MARK}Atlas</span><span class="from">from ${logo(15)} · made by <b>Daniel Kurganov</b></span></div><div class="sp"></div><span class="switch">Violin</span></div>
+      <div class="in"><div class="intro"><span class="n">4,883</span><p>${INTRO}</p></div>${finder()}${rest()}</div>`,
+  },
+  B: {
+    name: "B · Arco presents Atlas",
+    line: "A slim credit ribbon across the very top says who it’s from and who made it; the header is just Atlas; the count moves into the finder card.",
+    why: "<i>Why:</i> the clearest credit of the four. It reads like a sentence (“Arco presents Atlas, made by Daniel Kurganov”) and is also the natural home for a link to Arco. With the hero gone, the finder is the first thing under the header, about 120px higher than today, and the count sits right where you start choosing.",
+    desk: () => `<div class="ribbon">${RIBBON_LOGO(20)}<span>presents <b>Atlas</b>, made by <b>Daniel Kurganov</b></span><span class="sp"></span><span>Arco turns your lessons into notes you can practise from.</span><a>Try Arco free →</a></div>
+      <div class="bar"><span class="atlas">Atlas</span><span class="switch">Violin</span>${tail}</div>
+      <div class="in">${finder(`<div class="fhead"><span class="n">4,883</span><span>graded violin works, with recordings, sheet music and an AI advisor</span><span class="sp"></span><a class="levels">How the 10 levels work</a></div>`)}${rest()}</div>`,
+    phone: () => `<div class="ribbon">${RIBBON_LOGO(17)}<span>presents <b>Atlas</b>, made by <b>Daniel Kurganov</b></span><a>Try Arco free →</a></div>
+      <div class="bar"><span class="atlas" style="font-size:26px">Atlas</span><div class="sp"></div><span class="switch">Violin</span></div>
+      <div class="in">${finder(`<div class="fhead"><span class="n">4,883</span><span>graded violin works</span><a class="levels">How the levels work</a></div>`)}${rest()}</div>`,
+  },
+  C: {
+    name: "C · The name is the hero",
+    line: "Atlas takes the big type the number has today; the count joins the sentence beside it, with the Arco credit underneath.",
+    why: "<i>Why:</i> the strongest brand moment, since the first thing you see is the name, as large as a title page. It keeps the hero’s height, so it doesn’t gain space, but it does more with it: name, promise, count and credit in one block. The header stays a quiet utility bar.",
+    desk: () => `<div class="bar"><span class="small">Atlas</span><span class="switch">Violin</span>${tail}</div>
+      <div class="in"><div class="hero"><div class="big">Atlas</div><div><div class="claim">The violin repertoire, graded.</div><p>4,883 works sorted by setting, level and character, with sheet music, recordings and an AI advisor you can chat with.</p><div class="credit"><span>An</span>${logo(22)}<span>product</span><span>·</span><span>made by <b>Daniel Kurganov</b></span></div></div><a class="levels">How the 10 levels work</a></div>${finder()}${rest()}</div>`,
+    phone: () => `<div class="bar"><span class="small">Atlas</span><div class="sp"></div><span class="switch">Violin</span></div>
+      <div class="in"><div class="hero"><div class="big">Atlas</div><div class="claim">The violin repertoire, graded.</div><p style="color:var(--muted)">4,883 works sorted by setting, level and character, with sheet music, recordings and an AI advisor.</p><div class="credit"><span>An</span>${logo(20)}<span>product</span><span>·</span><span>made by <b>Daniel Kurganov</b></span></div></div>${finder()}${rest()}</div>`,
+  },
+  D: {
+    name: "D · The ledger",
+    line: "The hero becomes one thin row of figures (works, composers, recordings, levels) with the maker’s credit closing the row.",
+    why: "<i>Why:</i> the count stays, now with company that makes it mean more (951 composers, 3,024 recordings). The credit sits in the first thing you read, signed like a colophon. About 70px shorter than today. The header pairs Atlas with a small “by Arco” logo.",
+    desk: () => `<div class="bar"><span class="atlas">Atlas</span><span class="from" style="border-left:1px solid var(--rule-2);padding-left:12px">by ${logo(19)}</span><span class="switch">Violin</span>${tail}</div>
+      <div class="in"><div class="ledger"><div class="stat"><b>4,883</b><span>graded works</span></div><div class="stat"><b>951</b><span>composers</span></div><div class="stat"><b>3,024</b><span>with a recording</span></div><div class="stat"><b>10</b><span><a class="levels" style="font-size:12.5px">levels, explained</a></span></div><div class="made"><div>Made by <b>Daniel Kurganov</b><br>for Arco, the lesson-notes app</div>${logo(26)}</div></div>${finder()}${rest()}</div>`,
+    phone: () => `<div class="bar"><span class="atlas" style="font-size:26px">Atlas</span><span class="from">by ${logo(16)}</span><div class="sp"></div><span class="switch">Violin</span></div>
+      <div class="in"><div class="ledger"><div class="stat"><b>4,883</b><span>works</span></div><div class="stat"><b>951</b><span>composers</span></div><div class="stat" style="border:0"><b>3,024</b><span>recordings</span></div><div class="made"><div>Made by <b>Daniel Kurganov</b> for Arco, the lesson-notes app</div></div></div>${finder()}${rest()}</div>`,
+  },
+  D2: {
+    name: "D, revised · The ledger with the description",
+    line: "Option D with your changes: two figures, then your description, signed “Created by Daniel Kurganov”. Arco appears once, in the menu bar. Add ?section=chamber for the chamber page.",
+    why: "<i>Notes:</i> with the “10 levels” figure gone, “How the 10 levels work” moves into the finder, beside the line about tapping a level, which is where people need it. About 70px shorter than today.",
+    desk: () => {
+      const c = SEC();
+      return `<div class="bar"><span class="atlas">Atlas</span><span class="from" style="border-left:1px solid var(--rule-2);padding-left:12px">by ${logo(19)}</span><span class="switch">${c.switch}</span>${tail}</div>
+      <div class="in"><div class="ledger"><div class="stat"><b>${c.n}</b><span>${c.noun}</span></div><div class="stat"><b>${c.composers}</b><span>composers</span></div><p class="desc">${c.desc}</p></div>${finder("", `<a class="levels">How the 10 levels work</a>`, c.mid, c.what)}${rest(c.n, c.rows)}</div>`;
+    },
+    phone: () => {
+      const c = SEC();
+      return `<div class="bar"><span class="atlas" style="font-size:26px">Atlas</span><span class="from">by ${logo(16)}</span><div class="sp"></div><span class="switch">${c.switch}</span></div>
+      <div class="in"><div class="ledger"><div class="stat"><b>${c.n}</b><span>${c.noun}</span></div><div class="stat"><b>${c.composers}</b><span>composers</span></div><p class="desc">${c.desc}</p></div>${finder("", `<a class="levels">How the 10 levels work</a>`, c.mid, c.what)}${rest(c.n, c.rows)}</div>`;
+    },
+  },
+};
+
+const q = new URLSearchParams(location.search);
+// the owner's description (2026-10-26), worded per section
+const SEC = () =>
+  q.get("section") === "chamber"
+    ? { switch: "Chamber music", n: "9,062", noun: "chamber works", composers: "1,309", mid: "for", what: "Any ensemble", rows: CHAMBER_ROWS,
+        desc: "Arco Atlas is a free and open catalogue of 9,062 chamber works, searchable every way you’d want. Created by <b>Daniel Kurganov</b>." }
+    : { switch: "Violin", n: "4,883", noun: "graded works", composers: "951", mid: "in", what: "Any setting", rows: "",
+        desc: "Arco Atlas is a free and open catalogue of 4,883 violin works, searchable every way you’d want. Created by <b>Daniel Kurganov</b>." };
+if (q.get("theme") === "dark") document.documentElement.dataset.theme = "dark";
+const only = q.get("only"), view = q.get("view");
+if (only) document.body.classList.add("only");
+document.getElementById("opts").innerHTML = Object.entries(OPTIONS)
+  .filter(([k]) => !only || k === only)
+  .map(([k, o]) => `<section class="opt"><div class="oh"><b>${o.name}</b><span>${o.line}</span></div><p class="why">${o.why}</p>
+    <div class="frames">${view === "phone" ? "" : `<div class="desk ${k}">${o.desk()}</div>`}${view === "desk" ? "" : `<div class="phone ph ${k}">${o.phone()}</div>`}</div></section>`)
+  .join("");
+function flip() {
+  const r = document.documentElement;
+  r.dataset.theme = r.dataset.theme === "dark" ? "light" : "dark";
+}
+</script>
+</body></html>

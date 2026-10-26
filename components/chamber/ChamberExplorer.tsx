@@ -23,6 +23,7 @@ import type { LevelInfo } from "@/lib/types";
 import { writeUrl } from "@/lib/url-state";
 import { AskPanel, type AskCopy, type AskRequest } from "../AskPanel";
 import type { Counts } from "../Explorer";
+import { Ledger } from "../Ledger";
 import { LevelsInfo } from "../LevelsInfo";
 import { Results, type RowStyle } from "../Results";
 import { SheetFrame } from "../Sheet";
@@ -60,11 +61,13 @@ export function ChamberExplorer({
   version,
   levels,
   total,
+  composers,
   composerPages,
 }: {
   version: string;
   levels: LevelInfo[];
   total: number;
+  composers: number;
   /** composers whose page exists (the others' names are not links) */
   composerPages: string[];
 }) {
@@ -231,15 +234,15 @@ export function ChamberExplorer({
   return (
     <>
       <section className="hero">
-        <div className="intro">
-          <div className="big">{(all.length || total).toLocaleString("en")}</div>
-          <p>{CHAMBER_INTRO}</p>
-          <LevelsInfo levels={levels} onPick={(level) => update({ level })} note={CHAMBER_LEVEL_NOTE} />
-          <a className="intro-byline" href="https://www.kurganov.org" target="_blank" rel="noopener">
-            Created by <b>Daniel Kurganov</b>
-          </a>
-        </div>
-        <ChamberFinder f={f} update={update} levels={levels} counts={counts} instruments={instruments} />
+        <Ledger works={all.length || total} label="chamber works" composers={composers} intro={CHAMBER_INTRO} />
+        <ChamberFinder
+          f={f}
+          update={update}
+          levels={levels}
+          counts={counts}
+          instruments={instruments}
+          info={<LevelsInfo levels={levels} onPick={(level) => update({ level })} note={CHAMBER_LEVEL_NOTE} />}
+        />
       </section>
 
       <Toolbar

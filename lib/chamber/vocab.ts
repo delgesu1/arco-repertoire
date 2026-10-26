@@ -1,8 +1,8 @@
 import { levelPhrase } from "../vocab";
 import type { FormKey, FormationKey, HardestPart, InstrumentKey, Instrumentation } from "./types";
 
-/** the line under the work count at the top of /chamber (also shown by the loading skeleton) */
-export const CHAMBER_INTRO = "graded chamber works for two to nine players, from duos to octets, sorted by ensemble, level and character.";
+/** what Atlas is, beside the counts at the top of /chamber (components/Ledger.tsx; the loading skeleton shows it too) */
+export const CHAMBER_INTRO = "Arco Atlas is a free and open catalogue of chamber works, searchable every way you’d want.";
 
 /** what a level means here, for the "How the 10 levels work" popover (docs/chamber-music-plan.md, decision 2) */
 export const CHAMBER_LEVEL_NOTE =
