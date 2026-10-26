@@ -48,7 +48,7 @@ export function InstrumentSwitcher() {
       {open && (
         <div className="instrument-menu" role="menu" aria-label="Instrument">
           {chamber ? (
-            <Link className="instrument-item link" href="/" role="menuitemradio" aria-checked="false" onClick={() => setOpen(false)}>
+            <Link className="instrument-item link" href="/violin" role="menuitemradio" aria-checked="false" onClick={() => setOpen(false)}>
               <span>Violin</span>
             </Link>
           ) : (

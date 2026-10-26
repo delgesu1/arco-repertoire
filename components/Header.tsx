@@ -41,11 +41,10 @@ export function Header() {
   const pathname = usePathname();
   const router = useRouter();
   const sp = useSearchParams();
-  const onHome = pathname === "/";
-  // the chamber section has its own list (/chamber), piece pages (ids from 100001) and advisor
+  // each section has its own list (/violin, /chamber), piece pages (chamber ids from 100001) and advisor
   const chamber = isChamberPath(pathname ?? "/");
-  const onList = onHome || pathname === "/chamber";
-  const listPath = chamber ? "/chamber" : "/";
+  const listPath = chamber ? "/chamber" : "/violin";
+  const onList = pathname === "/violin" || pathname === "/chamber";
   const urlQ = onList ? (sp.get("q") ?? "") : "";
   const [q, setQ] = useState(urlQ);
   const [lastUrlQ, setLastUrlQ] = useState(urlQ);
@@ -89,7 +88,8 @@ export function Header() {
     <header className="site-header">
       <div className="wrap bar">
         <div className="brand">
-          <Link className="mark" href="/" aria-label="Arco Atlas — home">
+          {/* the name leads to the section's list, so a violinist stays with the violin works */}
+          <Link className="mark" href={listPath} aria-label="Arco Atlas — home">
             <Brand />
           </Link>
           <InstrumentSwitcher />

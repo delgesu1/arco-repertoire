@@ -1,38 +1,12 @@
-import type { Metadata } from "next";
-import { Suspense } from "react";
-import { Explorer } from "@/components/Explorer";
-import { smartBanner } from "@/lib/arco";
-import { SITE_URL, catalogue } from "@/lib/catalogue";
-import { Ledger } from "@/components/Ledger";
-import { INTRO } from "@/lib/vocab";
+import { redirect } from "next/navigation";
+import { CHAMBER_LIVE } from "@/lib/chamber/launch";
 
-const COMPOSERS = new Set(catalogue.pieces.map((p) => p.composer)).size;
-
-export const metadata: Metadata = { other: smartBanner(SITE_URL) };
-
-export default function Home() {
-  return (
-    <main className="wrap">
-      <h1 className="sr-only">Arco Atlas: graded violin repertoire</h1>
-      <Suspense fallback={<HomeSkeleton />}>
-        <Explorer version={catalogue.version} levels={catalogue.levels} total={catalogue.pieces.length} composers={COMPOSERS} />
-      </Suspense>
-    </main>
-  );
-}
-
-function HomeSkeleton() {
-  return (
-    <>
-      <section className="hero">
-        <Ledger works={catalogue.pieces.length} label="graded works" composers={COMPOSERS} intro={INTRO} />
-        <div className="finder" />
-      </section>
-      <div className="list" style={{ marginTop: 60 }}>
-        {Array.from({ length: 6 }, (_, i) => (
-          <div key={i} className="skeleton-row" />
-        ))}
-      </div>
-    </>
-  );
+/**
+ * The site's address opens the chamber section; the violin list lives at /violin. An old link to the violin list with its
+ * filters ("/?lv=5&exact=1", "/?piece=12", "/?ask=1") goes on to /violin with them.
+ */
+export default async function Root({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
+  const sp = new URLSearchParams();
+  for (const [k, v] of Object.entries(await searchParams)) for (const x of [v ?? ""].flat()) sp.append(k, x);
+  redirect(sp.size || !CHAMBER_LIVE ? `/violin${sp.size ? `?${sp}` : ""}` : "/chamber");
 }

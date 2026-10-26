@@ -67,7 +67,7 @@ export function AskPanel<P extends PieceBase>({
       return null;
     }
   });
-  // "/?ask=1" comes from the header's Ask button on other pages
+  // "/violin?ask=1" comes from the header's Ask button on other pages
   const [open, setOpen] = useState(() => new URLSearchParams(window.location.search).has("ask"));
   const [dockInput, setDockInput] = useState("");
   // once the list is scrolled, the dock shrinks to a pill so it doesn't cover the rows

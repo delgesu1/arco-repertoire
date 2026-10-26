@@ -29,13 +29,16 @@ const works = new Map([...catalogue.pieces, ...chamberPieces].map((p) => [p.id, 
 const WORKS = works.size.toLocaleString("en");
 const COMPOSERS = new Set([...works.values()].map((p) => p.composerSlug)).size.toLocaleString("en");
 
-// Sizes measured on the rendered card (design/og-options/render.tsx): the headline's first line, "by arco" and both lines
-// under the headline end on one right edge. The last line is sized to end under the comma after "composers", for counts
-// of this length ("13,234 … 1,797"); a different count moves that comma by a few pixels.
+// Sizes measured on the rendered card (design/og-options/render.tsx): the headline's first line and "by arco" end on one
+// right edge; the counts line reaches further, toward the sphere. The last line is sized to end under the comma after
+// "composers", for counts of this length ("13,234 … 1,797"); a different count moves that comma by a few pixels.
 const ATLAS = 150;
 const LOGO_H = 48;
 const HEAD = 52.36;
-const TAIL = 28.6;
+const SUB = 33;
+const TAIL = 37.69;
+// the bottom margin, smaller than the top: the counts lines take the room, so the headline keeps its place under "by arco"
+const PAD_B = 44;
 
 const dataUrl = async (path: string) => `data:image/png;base64,${(await readFile(join(process.cwd(), path))).toString("base64")}`;
 
@@ -66,7 +69,7 @@ export async function atlasCard() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={sphere} width={604} height={604} style={{ position: "absolute", right: -74, top: 13 }} alt="" />
 
-        <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "70px 0 66px 70px", width: 760 }}>
+        <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", padding: `70px 0 ${PAD_B}px 70px`, width: 760 }}>
           {/* "Atlas", and "by arco" under it, hanging past the "s" to the column's right edge */}
           <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", alignSelf: "flex-start" }}>
             <div style={{ fontFamily: "Archivo", fontSize: ATLAS, lineHeight: 0.8, letterSpacing: -ATLAS * 0.035, color: INK }}>Atlas</div>
@@ -84,10 +87,10 @@ export async function atlasCard() {
               {/* gold, from the sphere's staves */}
               <div style={{ color: GOLD }}>classical music</div>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", marginTop: 26, fontSize: 25, lineHeight: 1.4, color: MUTED }}>
+            <div style={{ display: "flex", flexDirection: "column", marginTop: 26, fontSize: SUB, lineHeight: 1.4, color: MUTED }}>
               <div style={{ display: "flex" }}>
-                <span style={{ fontFamily: "Archivo", color: INK, marginRight: 8 }}>{WORKS}</span>works by
-                <span style={{ fontFamily: "Archivo", color: INK, margin: "0 8px" }}>{COMPOSERS}</span>composers,
+                <span style={{ fontFamily: "Archivo", color: INK, marginRight: SUB * 0.32 }}>{WORKS}</span>works by
+                <span style={{ fontFamily: "Archivo", color: INK, margin: `0 ${SUB * 0.32}px` }}>{COMPOSERS}</span>composers,
               </div>
               <div style={{ display: "flex", fontSize: TAIL }}>searchable every way you’d want</div>
             </div>

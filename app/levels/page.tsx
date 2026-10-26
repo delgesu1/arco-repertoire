@@ -26,7 +26,7 @@ export default function LevelsPage() {
             <LevelBadge level={l.level} />
             <b>{l.name}</b>
             <span>About {l.exam}</span>
-            <a className="link-underline" href={`/?lv=${l.level}&exact=1`}>
+            <a className="link-underline" href={`/violin?lv=${l.level}&exact=1`}>
               {counts.get(l.level) ?? 0} works
             </a>
           </div>

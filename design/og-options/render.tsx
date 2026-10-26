@@ -176,8 +176,12 @@ function globe() {
 
 // the sphere: five-line staves wound into a globe, works on it like cities (the owner's artwork)
 const SPHERE = `data:image/png;base64,${readFileSync(join(ROOT, "public/brand/atlas-sphere.png")).toString("base64")}`;
-const TAIL = Number(process.env.TAIL ?? 28.6);
+const TAIL = Number(process.env.TAIL ?? 37.69);
 const HEAD = Number(process.env.HEAD ?? 52.36);
+// the counts line under the headline; the last line is sized (TAIL) to end under its comma
+const SUB = Number(process.env.SUB ?? 33);
+// the bottom margin: a bigger counts line takes it from here, so the headline keeps its place under "by arco"
+const PAD_B = Number(process.env.PAD_B ?? 44);
 const ATLAS = Number(process.env.ATLAS ?? 150);
 // "by arco" hangs past the name, to end where the headline and the lines under it end
 const BY_HANG = 25 / ATLAS;
@@ -190,7 +194,7 @@ function B() {
       {/* a faint warm light behind the sphere */}
       <div style={{ position: "absolute", left: 616, top: -20, width: 720, height: 670, display: "flex", backgroundImage: "radial-gradient(circle at 50% 50%, rgba(201,154,63,.13), rgba(201,154,63,0) 62%)" }} />
       <img src={SPHERE} width={604} height={604} style={{ position: "absolute", right: -74, top: 13 }} alt="" />
-      <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "70px 0 66px 70px", width: 760 }}>
+      <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", padding: `70px 0 ${PAD_B}px 70px`, width: 760 }}>
         {/* "by arco" keeps its size (the logo 48px high) as the name shrinks */}
         <Wordmark size={ATLAS} color={NIGHT_INK} by={NIGHT_MUTED} logoSrc={logo("dark")} byScale={48 / ATLAS} stack />
         <div style={{ display: "flex", flexDirection: "column" }}>
@@ -201,10 +205,10 @@ function B() {
             {/* gold, from the sphere's staves */}
             <div style={{ color: GOLD }}>classical music</div>
           </div>
-          <div style={{ display: "flex", flexDirection: "column", marginTop: 26, fontSize: 25, lineHeight: 1.4, color: NIGHT_MUTED }}>
+          <div style={{ display: "flex", flexDirection: "column", marginTop: 26, fontSize: SUB, lineHeight: 1.4, color: NIGHT_MUTED }}>
             <div style={{ display: "flex" }}>
-              <span style={{ fontFamily: "Archivo", color: NIGHT_INK, marginRight: 8 }}>{WORKS}</span>works by
-              <span style={{ fontFamily: "Archivo", color: NIGHT_INK, margin: "0 8px" }}>{COMPOSERS}</span>composers,
+              <span style={{ fontFamily: "Archivo", color: NIGHT_INK, marginRight: SUB * 0.32 }}>{WORKS}</span>works by
+              <span style={{ fontFamily: "Archivo", color: NIGHT_INK, margin: `0 ${SUB * 0.32}px` }}>{COMPOSERS}</span>composers,
             </div>
             {/* sized so it ends under the comma after "composers" */}
             <div style={{ display: "flex", fontSize: TAIL }}>searchable every way you’d want</div>
@@ -294,9 +298,10 @@ async function main() {
     ["b", B],
     ["c", C],
   ];
-  for (const [name, el] of options) {
+  // ONLY=b renders one option; NAME=b2 writes it under another name (a variant beside the chosen card)
+  for (const [name, el] of options.filter(([n]) => !process.env.ONLY || n === process.env.ONLY)) {
     const res = new ImageResponse(el(), { width: W, height: H, fonts });
-    writeFileSync(join(OUT, `${name}.png`), Buffer.from(await res.arrayBuffer()));
+    writeFileSync(join(OUT, `${process.env.NAME ?? name}.png`), Buffer.from(await res.arrayBuffer()));
     console.log(`${name}.png`);
   }
   console.log(`${WORKS} works, ${COMPOSERS} composers`);

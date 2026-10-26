@@ -80,7 +80,7 @@ export default async function PiecePage({ params }: Props) {
     <main className="wrap">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld).replace(/</g, "\\u003c") }} />
       <div className="page-detail">
-        <Link className="label" href="/">
+        <Link className="label" href="/violin">
           ← All repertoire
         </Link>
         <PieceDetail piece={p} all={pieces} levels={catalogue.levels} details={workDetails(p.id)} />

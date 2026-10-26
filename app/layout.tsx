@@ -7,19 +7,16 @@ import { Brand, Header } from "@/components/Header";
 import { ArcoFooter } from "@/components/ArcoFooter";
 import { ArcoPeek } from "@/components/ArcoPeek";
 import { InstrumentSwitcher } from "@/components/InstrumentSwitcher";
-import { OG_DESCRIPTION, OG_TITLE, SITE_URL, catalogue } from "@/lib/catalogue";
+import { OG_DESCRIPTION, OG_TITLE, SITE_URL } from "@/lib/catalogue";
 import "./globals.css";
 
 const archivo = Archivo({ subsets: ["latin", "latin-ext"], axes: ["wdth"], variable: "--font-archivo", display: "swap" });
 const instrument = Instrument_Sans({ subsets: ["latin", "latin-ext"], variable: "--font-instrument", display: "swap" });
 
-const TOTAL = catalogue.pieces.length.toLocaleString("en");
-
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: `Arco Atlas · An interactive library of ${TOTAL} graded violin works`, template: "%s · Arco Atlas" },
-  description:
-    "Organized by level, character, instrumentation and more. An AI advisor helps you discover your next piece based on what you’re already working on.",
+  title: { default: "Arco Atlas · A free and open catalogue of classical music", template: "%s · Arco Atlas" },
+  description: OG_DESCRIPTION,
   // the link preview speaks for the whole site, not one section (the card is app/opengraph-image.tsx)
   openGraph: { type: "website", siteName: "Arco Atlas", title: OG_TITLE, description: OG_DESCRIPTION },
   twitter: { card: "summary_large_image" },
