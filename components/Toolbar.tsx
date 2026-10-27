@@ -566,13 +566,6 @@ export function Toolbar({
             </button>
           </div>
           <div className="filter-sheet-body">
-            <Group label="Sort">
-              {sorts.map((s) => (
-                <Chip key={s.key} on={f.sort === s.key} onClick={() => update({ sort: s.key })}>
-                  {s.label}
-                </Chip>
-              ))}
-            </Group>
             <CharacterPanel f={f} update={update} counts={counts} />
             <LengthPanel f={f} update={update} />
             <MorePanel f={f} update={update} counts={counts} examBoards={examBoards} />

@@ -1774,7 +1774,8 @@ button {
   }
   .ledger {
     flex-wrap: wrap;
-    margin-bottom: 16px;
+    border-bottom: 0;
+    margin-bottom: 4px;
   }
   .ledger .stat {
     padding: 12px 16px 10px 0;
@@ -1792,16 +1793,17 @@ button {
     padding: 10px 0 12px;
     font-size: 14px;
   }
+  /* the levels explainer is left for larger screens */
   .legend .levels-info {
-    display: block;
-    margin: 6px 0 0;
+    display: none;
   }
-  /* inside the finder card on a phone: the card's inset on both sides */
-  .legend .levels-pop {
-    width: calc(100vw - 66px);
-  }
+  /* the finder card runs edge to edge on a phone; its content keeps the page's 16px gutter */
   .finder {
-    padding: 18px 16px 16px;
+    margin: 0 -16px;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    padding: 20px 16px 18px;
   }
   .sentence {
     line-height: 1.6;
@@ -1827,13 +1829,23 @@ button {
     padding-bottom: 10px;
   }
   .fsearch {
-    flex: 1 1 auto;
+    flex: 1 1 100%;
   }
   .fsearch kbd {
     display: none;
   }
-  .sortsel {
+  /* the second row is Filters and Sort, both as buttons; Well-known lives in the Filters sheet */
+  .known-btn {
     display: none;
+  }
+  .sortsel {
+    margin-left: 0;
+  }
+  .sortsel > button {
+    padding: 0 14px;
+    border: 1px solid var(--rule-2);
+    border-radius: var(--radius-a);
+    font-size: 14px;
   }
   .fsearch input,
   .search input,
