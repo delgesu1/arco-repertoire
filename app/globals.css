@@ -237,17 +237,6 @@ button {
   height: 16px;
   color: var(--terra);
 }
-/* the ensembles below the instruments (chamber music) */
-.instrument-sep {
-  margin: 6px 4px 2px;
-  padding: 10px 6px 4px;
-  border-top: 1px solid var(--rule);
-  font: 600 10px var(--display);
-  font-stretch: 112%;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
 .instrument-item.link {
   color: var(--ink);
   cursor: pointer;

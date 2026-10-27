@@ -14,14 +14,14 @@ const Check = () => (
 );
 
 /**
- * Violin, the instruments still to come, and under "Ensembles" the chamber section. Until the chamber section launches
+ * One list: chamber music first, then violin and the instruments still to come. Until the chamber section launches
  * (lib/chamber/launch.ts) the violin pages keep the menu without it; the chamber pages already show it.
  */
 export function InstrumentSwitcher() {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const chamber = isChamberPath(usePathname() ?? "/");
-  const ensembles = CHAMBER_LIVE || chamber;
+  const showChamber = CHAMBER_LIVE || chamber;
   useEffect(() => {
     if (!open) return;
     const close = (e: MouseEvent) => !ref.current?.contains(e.target as Node) && setOpen(false);
@@ -47,6 +47,18 @@ export function InstrumentSwitcher() {
       </button>
       {open && (
         <div className="instrument-menu" role="menu" aria-label="Instrument">
+          {showChamber &&
+            (chamber ? (
+              <div className="instrument-item current" role="menuitemradio" aria-checked="true">
+                <span>Chamber music</span>
+                <Check />
+              </div>
+            ) : (
+              <Link className="instrument-item link" href="/chamber" role="menuitemradio" aria-checked="false" onClick={() => setOpen(false)}>
+                <span>Chamber music</span>
+                <small>2–9 players</small>
+              </Link>
+            ))}
           {chamber ? (
             <Link className="instrument-item link" href="/violin" role="menuitemradio" aria-checked="false" onClick={() => setOpen(false)}>
               <span>Violin</span>
@@ -63,30 +75,6 @@ export function InstrumentSwitcher() {
               <small>Coming soon</small>
             </div>
           ))}
-          {ensembles && (
-            <>
-              <div className="instrument-sep" role="separator">
-                Ensembles
-              </div>
-              {chamber ? (
-                <div className="instrument-item current" role="menuitemradio" aria-checked="true">
-                  <span>Chamber music</span>
-                  <Check />
-                </div>
-              ) : (
-                <Link
-                  className="instrument-item link"
-                  href="/chamber"
-                  role="menuitemradio"
-                  aria-checked="false"
-                  onClick={() => setOpen(false)}
-                >
-                  <span>Chamber music</span>
-                  <small>2–9 players</small>
-                </Link>
-              )}
-            </>
-          )}
         </div>
       )}
     </div>
