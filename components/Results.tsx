@@ -231,6 +231,7 @@ function SetRow<P extends PieceBase>({
     ps.length === row.total && complete && movements
       ? `the complete work and ${movements} ${movements === 1 ? "movement" : "movements"}`
       : "";
+  const composerHref = rowStyle.composerHref(ps[0]);
   return (
     <div className={`set${open ? " open" : ""}`}>
       <div className="row setrow" onClick={toggle}>
@@ -241,7 +242,18 @@ function SetRow<P extends PieceBase>({
           <div className="sub">
             <b>{count}</b>
             {what && ` · ${what}`}
-            {showComposer && ` · ${row.composer}`}
+            {showComposer && (
+              <>
+                {" · "}
+                {composerHref ? (
+                  <a href={composerHref} onClick={(e) => e.stopPropagation()}>
+                    {row.composer}
+                  </a>
+                ) : (
+                  row.composer
+                )}
+              </>
+            )}
           </div>
         </div>
         <div className="meta">{rowStyle.setMeta(ps)}</div>

@@ -1041,8 +1041,10 @@ button {
   margin: -3px 0;
   text-underline-offset: 3px;
 }
-.row .cmp a:hover {
+.row .cmp a:hover,
+.row .sub a:hover {
   text-decoration: underline;
+  text-underline-offset: 3px;
   color: var(--terra);
 }
 .row .meta {
