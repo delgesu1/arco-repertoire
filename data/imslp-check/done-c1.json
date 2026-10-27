@@ -1,0 +1,180 @@
+{
+  "1": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Violin+Rhapsody+No.1%2C+Sz.87+%28Bart%C3%B3k%2C+B%C3%A9la%29",
+    "note": "Same violin and piano Rhapsody No.1; IMSLP gives Sz.87 (BB 94), title says Sz.86."
+  },
+  "2": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Violin+Rhapsody+No.2%2C+Sz.90+%28Bart%C3%B3k%2C+B%C3%A9la%29",
+    "note": "Same Rhapsody No.2; IMSLP gives Sz.90 (BB 96), title says Sz.89."
+  },
+  "384": {
+    "verdict": "replace",
+    "page": "Violin Concerto in D major, RV 208 (Vivaldi, Antonio)",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Violin+Concerto+in+D+major%2C+RV+208+%28Vivaldi%2C+Antonio%29",
+    "note": "The RV 208 page is the Grosso Mogul; the linked RV 208a is its simplified Op.7 version."
+  },
+  "428": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Concerto+for+3+Harpsichords+in+C+major%2C+BWV+1064+%28Bach%2C+Johann+Sebastian%29",
+    "note": "Harpsichord version; IMSLP says it arranges the lost 3-violin concerto BWV 1064R, which has no page."
+  },
+  "1089": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Lieder+ohne+Worte%2C+Op.19b+%28Mendelssohn%2C+Felix%29",
+    "note": "Op.19b is IMSLP's label for Lieder ohne Worte Op.19; No.1 in E major is there (piano original)."
+  },
+  "1293": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=The+Seasons%2C+Op.37a+%28Tchaikovsky%2C+Pyotr%29",
+    "note": "June (Barcarolle) is No.6 of The Seasons; IMSLP files it as Op.37a, title's Op.37b not verified."
+  },
+  "2238": {
+    "verdict": "replace",
+    "page": "Etudes-Caprices, Op.18 (Wieniawski, Henri)",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Etudes-Caprices%2C+Op.18+%28Wieniawski%2C+Henri%29",
+    "note": "Op.18 set of 8 studies holds No.4; L'école moderne is Op.10. Key not checked."
+  },
+  "2298": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Serenade+in+D+major%2C+Op.25+%28Beethoven%2C+Ludwig+van%29",
+    "note": "Op.25 flute original of this serenade; Op.41 is the string-trio arrangement."
+  },
+  "2632": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Caprice+d%27adieu%2C+MS+63+%28Paganini%2C+Niccol%C3%B2%29",
+    "note": "Same E major Caprice d'adieu; IMSLP numbers it MS 63, title says MS 68."
+  },
+  "2771": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Abendstimmung%2C+Op.120+%28Sinding%2C+Christian%29",
+    "note": "Same Abendstimmung; the page's opus field reads Op.120a."
+  },
+  "3462": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=L%27%C3%A9cole+des+cinq+positions%2C+Op.193+%28Dancla%2C+Charles%29",
+    "note": "Book 2, Op.90 is listed in the Op.193 set."
+  },
+  "3463": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=L%27%C3%A9cole+des+cinq+positions%2C+Op.193+%28Dancla%2C+Charles%29",
+    "note": "Book 1, Op.122 is listed in the Op.193 set."
+  },
+  "3464": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=L%27%C3%A9cole+des+cinq+positions%2C+Op.193+%28Dancla%2C+Charles%29",
+    "note": "Book 3, Op.128 is listed in the Op.193 set."
+  },
+  "100757": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Serenada+%C3%A0+cinque%2C+A+877a+%28Biber%2C+Heinrich+Ignaz+Franz+von%29",
+    "note": "Same serenade (Nachtwächter ciacona); page opus is C 75, also A 877a."
+  },
+  "100940": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 1",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=La+cetra%2C+Op.11+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100941": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 2",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=La+cetra%2C+Op.11+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100942": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 3",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=La+cetra%2C+Op.11+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100943": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 4",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Sonata+a+2%2C+Op.11+No.4+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100944": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 5",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=La+cetra%2C+Op.11+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100945": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 7",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=La+cetra%2C+Op.11+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100946": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 8",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=La+cetra%2C+Op.11+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100947": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 9",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=La+cetra%2C+Op.11+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100948": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 11",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=La+cetra%2C+Op.11+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100949": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 12",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=La+cetra%2C+Op.11+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100950": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 13",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Sonata+a+4%2C+Op.11+No.13+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100951": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 14",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Sonata+a+4%2C+Op.11+No.14+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100952": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 15",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=La+cetra%2C+Op.11+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100953": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 16",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=La+cetra%2C+Op.11+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100954": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 17",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Sonata+a+4%2C+Op.11+No.17+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "100955": {
+    "verdict": "keep",
+    "titleNumber": "Op. 11 No. 18",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Sonata+a+4%2C+Op.11+No.18+%28Legrenzi%2C+Giovanni%29",
+    "note": "La Cetra is Op.11 on IMSLP; the Op.10 label was a printing error. Page holds this sonata."
+  },
+  "101624": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Sonatae+%C3%A0+2%2C+3%2C+4+e+5+stromenti+da+arco+et+altri+%28Rosenm%C3%BCller%2C+Johann%29",
+    "note": "Collection of 12 sonatas; No.4 is for three parts, as the title says."
+  },
+  "101625": {
+    "verdict": "keep",
+    "source": "https://imslp.org/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Sonatae+%C3%A0+2%2C+3%2C+4+e+5+stromenti+da+arco+et+altri+%28Rosenm%C3%BCller%2C+Johann%29",
+    "note": "Collection of 12 sonatas; No.7 is for four parts, as the title says."
+  }
+}
