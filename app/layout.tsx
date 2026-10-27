@@ -74,9 +74,9 @@ function StaticHeader() {
     <header className="site-header">
       <div className="wrap bar">
         <div className="brand">
-          <Link className="mark" href="/" aria-label="Arco Atlas — home">
+          <div className="mark">
             <Brand />
-          </Link>
+          </div>
           <InstrumentSwitcher />
         </div>
         <div className="search" />

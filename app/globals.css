@@ -250,6 +250,9 @@ button {
   text-transform: none;
   color: var(--muted);
 }
+.by a {
+  display: flex;
+}
 .mark .logo {
   display: block;
   height: 19px;
@@ -378,6 +381,11 @@ button {
 .ledger .stat span {
   font-size: 12.5px;
   color: var(--muted);
+}
+.ledger .stat.link:hover span {
+  color: var(--terra);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .ledger .desc {
   flex: 1;
@@ -1026,6 +1034,16 @@ button {
   color: var(--ink);
   opacity: 0.86;
   margin-top: 3px;
+}
+.row .cmp a {
+  display: inline-block;
+  padding: 3px 0;
+  margin: -3px 0;
+  text-underline-offset: 3px;
+}
+.row .cmp a:hover {
+  text-decoration: underline;
+  color: var(--terra);
 }
 .row .meta {
   font-size: 13px;
@@ -1918,7 +1936,47 @@ button {
   z-index: 1;
 }
 
-/* composers index */
+/* composers index: the A to Z bar and the list */
+/* A to Z under the page head; it stays under the header while the list scrolls (on phones the header's height varies, so it scrolls away) */
+.letter-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--rule);
+  position: sticky;
+  top: 70px;
+  z-index: 20;
+  background: var(--linen) var(--grain);
+}
+.letter-jump a,
+.letter-jump span {
+  display: grid;
+  place-items: center;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  font: 700 14px var(--display);
+}
+.letter-jump a:hover {
+  background: var(--wash);
+  color: var(--terra);
+}
+.letter-jump span {
+  color: var(--muted);
+  opacity: 0.4;
+}
+.composer-index section {
+  scroll-margin-top: 130px;
+}
+@media (max-width: 720px) {
+  .letter-jump {
+    position: static;
+  }
+  .composer-index section {
+    scroll-margin-top: 16px;
+  }
+}
 .composer-index {
   columns: 3 260px;
   column-gap: 40px;
@@ -1934,8 +1992,9 @@ button {
 }
 .composer-index li {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px;
+  gap: 0 10px;
   padding: 5px 0;
   border-bottom: 1px solid var(--rule);
   font-size: 14.5px;

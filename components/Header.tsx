@@ -4,34 +4,40 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { arcoUrl } from "@/lib/arco";
 import { isChamberPath } from "@/lib/chamber/launch";
 import { writeUrl } from "@/lib/url-state";
 import { InstrumentSwitcher } from "./InstrumentSwitcher";
 
-/** "Atlas by arco": the name first, the Arco logo as its endorsement (the logo swaps for dark mode). */
+/** "Atlas by arco": the name first, the Arco logo as its endorsement (the logo swaps for dark mode). The name opens
+ * Atlas's home, the logo Arco's site. */
 export function Brand() {
   return (
     <>
-      <span className="word">Atlas</span>
+      <Link className="word" href="/" aria-label="Arco Atlas — home">
+        Atlas
+      </Link>
       <span className="by">
         by
-        <Image
-          className="logo logo-light"
-          src="/brand/arco-logo-light.png"
-          alt="Arco"
-          width={80}
-          height={38}
-          priority
-        />
-        <Image
-          className="logo logo-dark"
-          src="/brand/arco-logo-dark.png"
-          alt=""
-          aria-hidden
-          width={80}
-          height={38}
-          priority
-        />
+        <a href={arcoUrl("header")} target="_blank" rel="noopener" aria-label="Arco">
+          <Image
+            className="logo logo-light"
+            src="/brand/arco-logo-light.png"
+            alt="Arco"
+            width={80}
+            height={38}
+            priority
+          />
+          <Image
+            className="logo logo-dark"
+            src="/brand/arco-logo-dark.png"
+            alt=""
+            aria-hidden
+            width={80}
+            height={38}
+            priority
+          />
+        </a>
       </span>
     </>
   );
@@ -88,10 +94,9 @@ export function Header() {
     <header className="site-header">
       <div className="wrap bar">
         <div className="brand">
-          {/* the name leads to the section's list, so a violinist stays with the violin works */}
-          <Link className="mark" href={listPath} aria-label="Arco Atlas — home">
+          <div className="mark">
             <Brand />
-          </Link>
+          </div>
           <InstrumentSwitcher />
         </div>
         {onList ? (

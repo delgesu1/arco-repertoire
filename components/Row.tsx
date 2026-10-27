@@ -3,7 +3,7 @@
 import type { MouseEvent } from "react";
 import type { Piece } from "@/lib/types";
 import { settingLabel, typeSingular } from "@/lib/vocab";
-import { LevelBadge, memberTitle, pieceHref, tagList } from "./pieces";
+import { ComposerLine, LevelBadge, memberTitle, pieceHref, tagList } from "./pieces";
 
 /** True for a plain left click (let modified clicks open links normally). */
 export const isPlainClick = (e: MouseEvent) => !(e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0);
@@ -42,7 +42,7 @@ export function Row({
         <a className="ttl" href={pieceHref(p)} onClick={(e) => onOpen && isPlainClick(e) && e.preventDefault()}>
           {member ? memberTitle(p) : p.title}
         </a>
-        {showComposer && <div className="cmp">{p.composerName}</div>}
+        {showComposer && <ComposerLine p={p} href={`/composer/${p.composerSlug}`} />}
         {note && <div className="note">{note}</div>}
       </div>
       <div className="meta">

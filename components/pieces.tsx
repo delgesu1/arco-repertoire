@@ -1,6 +1,21 @@
 import type { PieceBase } from "@/lib/types";
 
 export const pieceHref = (p: PieceBase) => `/piece/${p.id}/${p.slug}`;
+
+/** The composer's name under a work's title; a link to their page where there is one (a click does not open the work). */
+export function ComposerLine({ p, href }: { p: PieceBase; href: string | null }) {
+  return (
+    <div className="cmp">
+      {href ? (
+        <a href={href} onClick={(e) => e.stopPropagation()}>
+          {p.composerName}
+        </a>
+      ) : (
+        p.composerName
+      )}
+    </div>
+  );
+}
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
 export function tagList(p: PieceBase): { label: string; pop?: boolean }[] {

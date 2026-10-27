@@ -9,10 +9,10 @@ export function Ledger({ works, label, composers, intro }: { works: number; labe
         <b>{works.toLocaleString("en")}</b>
         <span>{label}</span>
       </div>
-      <div className="stat">
+      <a className="stat link" href="/composers" aria-label={`Browse all ${composers.toLocaleString("en")} composers`}>
         <b>{composers.toLocaleString("en")}</b>
-        <span>composers</span>
-      </div>
+        <span>composers →</span>
+      </a>
       <p className="desc">
         {intro} Created by{" "}
         <a href="https://www.kurganov.org" target="_blank" rel="noopener">

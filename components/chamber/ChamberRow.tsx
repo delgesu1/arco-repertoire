@@ -2,7 +2,8 @@
 
 import type { ChamberFacts, ChamberPiece } from "@/lib/chamber/types";
 import { formationSingular, hardestPartTitle, instrumentParts } from "@/lib/chamber/vocab";
-import { LevelBadge, memberTitle, pieceHref, tagList } from "../pieces";
+import { CHAMBER_LIVE } from "@/lib/chamber/launch";
+import { ComposerLine, LevelBadge, memberTitle, pieceHref, tagList } from "../pieces";
 import { isPlainClick } from "../Row";
 
 /** "clarinet (or violin), viola, piano": the alternatives and ad lib. parts set off from the parts themselves */
@@ -69,7 +70,8 @@ export function ChamberRow({
         <a className="ttl" href={pieceHref(p)} onClick={(e) => onOpen && isPlainClick(e) && e.preventDefault()}>
           {member ? memberTitle(p) : p.title}
         </a>
-        {showComposer && <div className="cmp">{p.composerName}</div>}
+        {/* composer pages list chamber works only from launch (lib/chamber/launch.ts) */}
+        {showComposer && <ComposerLine p={p} href={CHAMBER_LIVE ? `/composer/${p.composerSlug}` : null} />}
         {!member && (
           <div className="scoring">
             <Scoring c={p.chamber} />
