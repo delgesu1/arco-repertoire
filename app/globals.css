@@ -2328,9 +2328,9 @@ button {
   font-style: italic;
 }
 .piece-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
+  display: inline;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
   font: 600 13.5px var(--body);
   padding: 1px 8px;
   margin: 1px 0;
@@ -2343,10 +2343,12 @@ button {
   border-color: var(--ink);
 }
 .piece-chip .dot {
+  display: inline-block;
   width: 9px;
   height: 9px;
+  margin-right: 6px;
   border-radius: 50%;
-  flex: none;
+  vertical-align: 0.5px;
 }
 .thinking summary {
   font-size: 12.5px;

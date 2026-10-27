@@ -304,13 +304,7 @@ export function AskPanel<P extends PieceBase>({
                 </div>
               ) : (
                 <div key={i} className="msg bot">
-                  {t.thinking && (
-                    <details className="thinking">
-                      <summary>{t.done ? "How I thought about it" : "Thinking…"}</summary>
-                      <p>{t.thinking}</p>
-                    </details>
-                  )}
-                  {!t.done && !t.text && !t.thinking && <div className="dots" aria-label="Thinking"><i /><i /><i /></div>}
+                  {!t.done && !t.text && <div className="dots" aria-label="Thinking"><i /><i /><i /></div>}
                   {t.status.length > 0 && !t.done && <div className="status">{t.status[t.status.length - 1]}</div>}
                   {t.text && <RichText text={t.text} byId={byId} onOpenPiece={onOpenPiece} />}
                   {t.question && (
