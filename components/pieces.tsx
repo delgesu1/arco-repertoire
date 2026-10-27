@@ -27,7 +27,7 @@ export function tagList(p: PieceBase): { label: string; pop?: boolean }[] {
   return t;
 }
 
-export function LevelBadge({ level, size }: { level: number; size?: "sm" | "lg" }) {
+export function LevelBadge({ level, size }: { level: number; size?: "xs" | "sm" | "lg" }) {
   return (
     <span className={`lv l${level} s${level % 3}${size ? ` ${size}` : ""}`} aria-label={`Level ${level}`}>
       {level}

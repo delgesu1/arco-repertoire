@@ -2,9 +2,10 @@ import type { WorkDetails } from "@/lib/details";
 import type { LevelInfo, Piece, PieceBase } from "@/lib/types";
 import { eraLabel, settingLabel, typeSingular } from "@/lib/vocab";
 import { compareTitle, ladder } from "@/lib/filter";
-import { LevelBadge, imslpLink, partLevelList, tagList } from "./pieces";
+import { Character, DetailActions, DetailHead } from "./DetailParts";
+import { partLevelList } from "./pieces";
 import { Row } from "./Row";
-import { CopyProgram, WorkAbout } from "./WorkAbout";
+import { WorkAbout } from "./WorkAbout";
 import { ExternalIcon } from "./icons";
 import { YouTube } from "./YouTube";
 import { ArcoLine } from "./ArcoLine";
@@ -41,7 +42,6 @@ export function PieceDetail({
   details?: WorkDetails | null;
 }) {
   const lvl = levels.find((l) => l.level === p.level);
-  const tags = tagList(p);
   const setMembers = p.setKey
     ? all.filter((x) => x.setKey === p.setKey && x.id !== p.id).sort((a, b) => compareTitle(a.title, b.title))
     : [];
@@ -55,40 +55,19 @@ export function PieceDetail({
 
   return (
     <article className="detail">
-      <div className="detail-head">
-        <LevelBadge level={p.level} size="lg" />
-        <div>
-          <h1>{p.title}</h1>
-          <div className="composer">
-            <a href={`/composer/${p.composerSlug}`}>{p.composerName}</a>
-            {p.dates && ` · ${p.dates}`}
-          </div>
-          {lvl && (
-            <div className="levelname">
-              <b>
-                Level {p.level} · {lvl.name}
-              </b>{" "}
-              — about {lvl.exam}
-              {p.partLevels && ", for the violin part"}
-            </div>
-          )}
-        </div>
-      </div>
+      <DetailHead
+        piece={p}
+        lvl={lvl}
+        levelNote={p.partLevels ? ", for the violin part" : undefined}
+        composer={<a href={`/composer/${p.composerSlug}`}>{p.composerName}</a>}
+        dates={p.dates}
+      />
 
-      {tags.length > 0 && (
-        <div className="tags" style={{ marginTop: 16 }}>
-          {tags.map((t) => (
-            <span key={t.label} className={`tag${t.pop ? " pop" : ""}`}>
-              {t.label}
-            </span>
-          ))}
-        </div>
-      )}
-
-      <section className="section" id="listen">
-        <h2>Listen</h2>
+      <section className="listen" id="listen">
         <YouTube key={`${p.id}-${autoplay}`} piece={p} autoplay={autoplay} />
       </section>
+
+      <DetailActions piece={p} onAsk={onAsk} />
 
       <dl className="facts">
         <div>
@@ -123,13 +102,7 @@ export function PieceDetail({
         </div>
       </dl>
 
-      {p.notes && (
-        <section className="section">
-          <h2>Notes</h2>
-          <p>{p.notes}</p>
-        </section>
-      )}
-      <WorkAbout piece={p} details={details} />
+      <WorkAbout piece={p} details={details} notes={p.notes} />
       {p.exams && (
         <section className="section">
           <h2>Exam &amp; syllabus listings</h2>
@@ -137,24 +110,15 @@ export function PieceDetail({
         </section>
       )}
 
-      <div className="links">
-        {p.imslpPage && (
-          <a className="link-underline" href={imslpLink(p.imslpPage)} target="_blank" rel="noreferrer">
-            Score on IMSLP <ExternalIcon />
-          </a>
-        )}
-        <CopyProgram piece={p} details={details} />
-        {onAsk && (
-          <button className="link-underline" onClick={() => onAsk(p)}>
-            Ask about this piece
-          </button>
-        )}
-        {fix && (
+      <Character piece={p} />
+
+      {fix && (
+        <div className="links">
           <a className="link-underline" href={fix} target="_blank" rel="noreferrer">
             Suggest a correction <ExternalIcon />
           </a>
-        )}
-      </div>
+        </div>
+      )}
 
       <ArcoLine piece={p} />
 

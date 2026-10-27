@@ -8,9 +8,10 @@ import { eraLabel } from "@/lib/vocab";
 import { ArcoLine } from "../ArcoLine";
 import { correctionUrl } from "../PieceDetail";
 import { ExternalIcon } from "../icons";
-import { LevelBadge, imslpLink, partLevelList, tagList } from "../pieces";
+import { Character, DetailActions, DetailHead } from "../DetailParts";
+import { partLevelList } from "../pieces";
 import { YouTube } from "../YouTube";
-import { CopyProgram, WorkAbout } from "../WorkAbout";
+import { WorkAbout } from "../WorkAbout";
 import { ChamberRow, Scoring } from "./ChamberRow";
 
 /** A chamber work's page and side sheet: PieceDetail for the chamber section, with the scoring and the part that sets the level. */
@@ -37,7 +38,6 @@ export function ChamberDetail({
 }) {
   const c = p.chamber;
   const lvl = levels.find((l) => l.level === p.level);
-  const tags = tagList(p);
   const setMembers = p.setKey
     ? all.filter((x) => x.setKey === p.setKey && x.id !== p.id).sort((a, b) => compareTitle(a.title, b.title))
     : [];
@@ -51,44 +51,24 @@ export function ChamberDetail({
 
   return (
     <article className="detail">
-      <div className="detail-head">
-        <LevelBadge level={p.level} size="lg" />
-        <div>
-          <h1>{p.title}</h1>
-          <div className="composer">
-            {composerLink ? <a href={`/composer/${p.composerSlug}`}>{p.composerName}</a> : <b>{p.composerName}</b>}
-            {[p.dates, p.nationality].filter(Boolean).map((x) => ` · ${x}`)}
-          </div>
-          <div className="scoring-line">
-            For <Scoring c={c} />
-          </div>
-          {c.aka?.length ? <div className="aka">Also known as {c.aka.join(" · ")}</div> : null}
-          {lvl && (
-            <div className="levelname">
-              <b>
-                Level {p.level} · {lvl.name}
-              </b>{" "}
-              — about {lvl.exam}
-              {c.hardestPart === "balanced" ? ", with the parts evenly matched" : `, for the ${c.hardestPart} part`}
-            </div>
-          )}
+      <DetailHead
+        piece={p}
+        lvl={lvl}
+        levelNote={c.hardestPart === "balanced" ? ", with the parts evenly matched" : `, for the ${c.hardestPart} part`}
+        composer={composerLink ? <a href={`/composer/${p.composerSlug}`}>{p.composerName}</a> : <b>{p.composerName}</b>}
+        dates={[p.dates, p.nationality].filter(Boolean).join(" · ")}
+      >
+        <div className="scoring-line">
+          For <Scoring c={c} />
+          {c.aka?.length ? <em> · Also known as {c.aka.join(" · ")}</em> : null}
         </div>
-      </div>
+      </DetailHead>
 
-      {tags.length > 0 && (
-        <div className="tags" style={{ marginTop: 16 }}>
-          {tags.map((t) => (
-            <span key={t.label} className={`tag${t.pop ? " pop" : ""}`}>
-              {t.label}
-            </span>
-          ))}
-        </div>
-      )}
-
-      <section className="section" id="listen">
-        <h2>Listen</h2>
+      <section className="listen" id="listen">
         <YouTube key={`${p.id}-${autoplay}`} piece={p} autoplay={autoplay} />
       </section>
+
+      <DetailActions piece={p} onAsk={onAsk} />
 
       <dl className="facts">
         <div>
@@ -123,33 +103,17 @@ export function ChamberDetail({
         </div>
       </dl>
 
-      {p.notes && (
-        <section className="section">
-          <h2>Notes</h2>
-          <p>{p.notes}</p>
-        </section>
-      )}
+      <WorkAbout piece={p} details={details} notes={p.notes} />
 
-      <WorkAbout piece={p} details={details} />
+      <Character piece={p} />
 
-      <div className="links">
-        {p.imslpPage && (
-          <a className="link-underline" href={imslpLink(p.imslpPage)} target="_blank" rel="noreferrer">
-            Score on IMSLP <ExternalIcon />
-          </a>
-        )}
-        <CopyProgram piece={p} details={details} />
-        {onAsk && (
-          <button className="link-underline" onClick={() => onAsk(p)}>
-            Ask about this piece
-          </button>
-        )}
-        {fix && (
+      {fix && (
+        <div className="links">
           <a className="link-underline" href={fix} target="_blank" rel="noreferrer">
             Suggest a correction <ExternalIcon />
           </a>
-        )}
-      </div>
+        </div>
+      )}
 
       <ArcoLine piece={p} />
 
