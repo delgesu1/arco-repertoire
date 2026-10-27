@@ -2299,13 +2299,33 @@ button {
   font-size: 14.5px;
   line-height: 1.55;
 }
-.rich p + p,
-.rich ul {
-  margin-top: 8px;
+.rich > * + * {
+  margin-top: 9px;
+}
+.rich ul,
+.rich ol {
+  padding-left: 20px;
 }
 .rich ul {
-  padding-left: 18px;
   list-style: disc;
+}
+.rich ol {
+  list-style: decimal;
+}
+.rich li {
+  padding-left: 2px;
+}
+.rich li + li {
+  margin-top: 5px;
+}
+.rich li::marker {
+  color: var(--muted);
+}
+.rich b {
+  font-weight: 650;
+}
+.rich i {
+  font-style: italic;
 }
 .piece-chip {
   display: inline-flex;

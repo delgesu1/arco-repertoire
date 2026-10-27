@@ -366,11 +366,11 @@ export function AskPanel<P extends PieceBase>({
   );
 }
 
-/** Paragraphs, simple bullets, **bold**, and [[id]] markers rendered as piece links. */
+/** Paragraphs, bullet and numbered lists (also mixed into a paragraph), **bold**, *italic*, and [[id]] markers rendered as piece links. */
 function RichText<P extends PieceBase>({ text, byId, onOpenPiece }: { text: string; byId: Map<number, P>; onOpenPiece: (p: P) => void }) {
   const blocks = text.trim().split(/\n{2,}/);
   const inline = (s: string, key: string) =>
-    s.split(/(\[\[\d+\]\]|\*\*[^*]+\*\*)/g).map((part, j) => {
+    s.split(/(\[\[\d+\]\]|\*\*[^*]+\*\*|(?<![*\w])\*[^*\s][^*]*\*(?![*\w]))/g).map((part, j) => {
       const m = part.match(/^\[\[(\d+)\]\]$/);
       if (m) {
         const p = byId.get(Number(m[1]));
@@ -383,22 +383,37 @@ function RichText<P extends PieceBase>({ text, byId, onOpenPiece }: { text: stri
         );
       }
       if (part.startsWith("**") && part.endsWith("**")) return <b key={`${key}-${j}`}>{part.slice(2, -2)}</b>;
+      if (part.length > 2 && part.startsWith("*") && part.endsWith("*")) return <i key={`${key}-${j}`}>{part.slice(1, -1)}</i>;
       return <Fragment key={`${key}-${j}`}>{part}</Fragment>;
     });
+  const BULLET = /^\s*[-•*] /;
+  const NUMBER = /^\s*\d+[.)] /;
   return (
     <div className="rich">
-      {blocks.map((b, i) => {
-        const lines = b.split("\n");
-        if (lines.every((l) => /^\s*[-•*] /.test(l))) {
-          return (
-            <ul key={i}>
-              {lines.map((l, k) => (
-                <li key={k}>{inline(l.replace(/^\s*[-•*] /, ""), `${i}-${k}`)}</li>
-              ))}
-            </ul>
-          );
+      {blocks.flatMap((b, i) => {
+        // Group consecutive lines into text runs, bullet lists and numbered lists.
+        const groups: { kind: "p" | "ul" | "ol"; lines: string[] }[] = [];
+        for (const l of b.split("\n")) {
+          const kind = BULLET.test(l) ? "ul" : NUMBER.test(l) ? "ol" : "p";
+          const last = groups[groups.length - 1];
+          if (last && last.kind === kind) last.lines.push(l);
+          else groups.push({ kind, lines: [l] });
         }
-        return <p key={i}>{lines.map((l, k) => <Fragment key={k}>{k > 0 && <br />}{inline(l, `${i}-${k}`)}</Fragment>)}</p>;
+        return groups.map((g, gi) => {
+          const key = `${i}-${gi}`;
+          if (g.kind === "p") {
+            return <p key={key}>{g.lines.map((l, k) => <Fragment key={k}>{k > 0 && <br />}{inline(l, `${key}-${k}`)}</Fragment>)}</p>;
+          }
+          const Tag = g.kind;
+          const strip = g.kind === "ul" ? BULLET : NUMBER;
+          return (
+            <Tag key={key}>
+              {g.lines.map((l, k) => (
+                <li key={k}>{inline(l.replace(strip, ""), `${key}-${k}`)}</li>
+              ))}
+            </Tag>
+          );
+        });
       })}
     </div>
   );
