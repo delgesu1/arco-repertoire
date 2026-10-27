@@ -42,10 +42,20 @@ def template(m):
     if n in ("key", "k"):
         return key_name(args[0]) if args else ""
     if n.startswith("link"):  # LinkName / LinkDed / LinkComp / LinkWork…: the visible words, not the trailing flags
-        words = [a for a in args if a and not re.fullmatch(r"\d+", a)]
+        # numbered arguments ("1=Willy") are positional; other named ones ("t=ded") are flags
+        pos = {}
+        for a in args:
+            k, eq, v = a.partition("=")
+            if eq and re.fullmatch(r"\d+", k.strip()):
+                pos[int(k) - 1] = v.strip()
+            elif not eq or not k.strip():
+                pos[max(pos, default=-1) + 1] = (v if eq else a).strip()
+        words = [pos[i] for i in sorted(pos) if pos[i] and not re.fullmatch(r"\d+", pos[i])]
         if n.startswith("linkwork"):
             return " ".join(words[:2])
-        return " ".join(words)
+        if n in ("linkname", "linkded") and pos.get(2):
+            return pos[2]  # first names, surname, and the name as the page shows it: "Princess Anna of Hesse"
+        return " ".join(words[:2] if n in ("linkname", "linkded") else words)
     if n in ("mwv", "rism"):
         return " ".join([name, *args])
     return ""  # {{EN}}, {{HMBref|…}}, {{More}}, {{MusBrnz|…}} and the like carry nothing for a reader
@@ -59,6 +69,8 @@ def clean(v):
     v = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", v)  # [[Breitkopf und Härtel]] -> Breitkopf und Härtel
     v = re.sub(r"\[https?://\S+\s+([^\]]*)\]", r"\1", v)
     v = re.sub(r"'{2,}", "", v)
+    v = re.sub(r"\s*\|[A-Z][A-Za-z/ ]+=.*$", "", v, flags=re.S)  # the next field, when a page runs two onto one line
+    v = re.sub(r"(?<=\s)=(?=\w)", "", v)  # a stray "=" from a malformed link: "Herrn Musikdirektor =Moritz Hauptmann"
     v = re.sub(r"\s+", " ", v)
     return v.strip(" ;:,")
 
