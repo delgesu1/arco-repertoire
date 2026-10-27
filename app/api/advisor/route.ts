@@ -1,5 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { createHash, createHmac, timingSafeEqual } from "node:crypto";
+import { createHash, createHmac, randomUUID, timingSafeEqual } from "node:crypto";
+import { isConversationId, logTurn } from "@/lib/advisor/chat-log";
 import { buildChamberSystem } from "@/lib/advisor/chamber-prompt";
 import { CHAMBER_TOOLS, runChamberTool } from "@/lib/advisor/chamber-tools";
 import { MODEL, buildSystem } from "@/lib/advisor/prompt";
@@ -34,7 +35,7 @@ function verify(s: string, sig: string) {
   return a.length === b.length && timingSafeEqual(a, b);
 }
 
-type Body = { history?: string; sig?: string; message?: string; context?: string; section?: string };
+type Body = { history?: string; sig?: string; cid?: string; message?: string; context?: string; section?: string };
 
 
 // the violin list's advisor, and the chamber list's (/chamber), which knows its own catalogue and matches works to a group
@@ -75,6 +76,9 @@ export async function POST(req: Request) {
     return Response.json({ error: "reset", message: "This conversation is getting long — start a fresh one?" }, { status: 409 });
   }
 
+  // groups a conversation's turns in the chat log; only continued while the signed history is
+  const cid = body.history && isConversationId(body.cid) ? body.cid : randomUUID();
+
   const context = body.context ? `[Browsing context: ${body.context.slice(0, 600)}]\n\n` : "";
   const messages: Anthropic.MessageParam[] = [...history, { role: "user", content: context + text }];
 
@@ -89,6 +93,7 @@ export async function POST(req: Request) {
       const started = Date.now();
       // the text of each round; a model that wrote its reply before show_results sometimes writes it again after the result
       const rounds: string[] = [];
+      let errored = false;
       try {
         for (let loop = 0; loop < MAX_LOOPS; loop++) {
           const s = client.messages.stream(
@@ -125,6 +130,7 @@ export async function POST(req: Request) {
           usage.lastInput = u.input_tokens + (u.cache_read_input_tokens ?? 0) + (u.cache_creation_input_tokens ?? 0);
 
           if (msg.stop_reason === "refusal") {
+            errored = true;
             send("error", { message: "I can't help with that one — try asking about repertoire." });
             messages.push({ role: "assistant", content: msg.content });
             break;
@@ -132,6 +138,7 @@ export async function POST(req: Request) {
           const toolUses = msg.content.filter((b): b is Anthropic.ToolUseBlock => b.type === "tool_use");
           messages.push({ role: "assistant", content: msg.content });
           if (msg.stop_reason === "max_tokens" && toolUses.length) {
+            errored = true;
             send("error", { message: "That took too long to work out — could you narrow it down a little?" });
             break;
           }
@@ -153,6 +160,7 @@ export async function POST(req: Request) {
       } catch (err) {
         const aborted = req.signal.aborted;
         if (!aborted) {
+          errored = true;
           console.error("advisor error", err instanceof Anthropic.APIError ? `${err.status} ${err.message}` : String(err));
           send("error", {
             message:
@@ -163,7 +171,7 @@ export async function POST(req: Request) {
           });
         }
       }
-      // never log message content; usage only
+      // the console line carries usage only; message text goes to the chat log (lib/advisor/chat-log.ts), never to the logs
       console.log(
         `advisor turn (${section}): ${Date.now() - started}ms in=${usage.input} cacheRead=${usage.cacheRead} cacheWrite=${usage.cacheWrite} out=${usage.output} ctx=${usage.lastInput}`,
       );
@@ -171,7 +179,18 @@ export async function POST(req: Request) {
       send("done", {
         history: serialized,
         sig: sign(signed(serialized)),
+        cid,
         nearLimit: usage.lastInput > SOFT_TOKEN_LIMIT,
+      });
+      await logTurn({
+        conversationId: cid,
+        section,
+        userMessage: text,
+        browsingContext: body.context ?? "",
+        assistantMessage: rounds.join("\n\n").trim(),
+        errored,
+        usage,
+        durationMs: Date.now() - started,
       });
       controller.close();
     },

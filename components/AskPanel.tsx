@@ -60,7 +60,7 @@ export function AskPanel<P extends PieceBase>({
   onOpenPiece: (p: P) => void;
 }) {
   // a conversation from this browser session (the panel only mounts client-side, after the catalogue loads)
-  const [saved] = useState<{ turns?: Turn[]; history?: { history: string; sig: string } | null } | null>(() => {
+  const [saved] = useState<{ turns?: Turn[]; history?: { history: string; sig: string; cid?: string } | null } | null>(() => {
     try {
       return JSON.parse(sessionStorage.getItem(copy.store) ?? "null");
     } catch {
@@ -89,7 +89,7 @@ export function AskPanel<P extends PieceBase>({
   }, [open]);
   const [input, setInput] = useState("");
   const [nearLimit, setNearLimit] = useState(false);
-  const history = useRef<{ history: string; sig: string } | null>(saved?.history ?? null);
+  const history = useRef<{ history: string; sig: string; cid?: string } | null>(saved?.history ?? null);
   const scroller = useRef<HTMLDivElement>(null);
   const abort = useRef<AbortController | null>(null);
   const handled = useRef<number | null>(null);
@@ -178,7 +178,7 @@ export function AskPanel<P extends PieceBase>({
               } else if (u.kind === "filters") onFilters(u.params);
               else if (u.kind === "question") patchLast((a) => ({ ...a, question: { question: u.question, options: u.options } }));
             } else if (ev === "done") {
-              history.current = { history: d.history, sig: d.sig };
+              history.current = { history: d.history, sig: d.sig, cid: d.cid };
               setNearLimit(Boolean(d.nearLimit));
             }
           }
@@ -292,7 +292,7 @@ export function AskPanel<P extends PieceBase>({
                   ))}
                 </div>
                 <p className="ask-fine">
-                  Suggestions are AI-generated from this catalogue. Please don’t share personal details.
+                  Suggestions are AI-generated from this catalogue. Questions and answers are saved to help improve Atlas, so please don’t share personal details.
                 </p>
               </div>
             )}
