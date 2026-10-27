@@ -54,6 +54,8 @@ export interface PieceBase {
   pace: "slow" | "moderate" | "lively" | null;
   character: string[];
   popularity: Popularity | null;
+  /** how famous the work is, for the "Best known" order: higher first (scripts/fame.ts) */
+  fame: number;
   recording: Recording | null;
   /** the sections that list the work; left out of the violin catalogue's rows, which are violin only unless the chamber data says otherwise */
   sections?: SectionKey[];

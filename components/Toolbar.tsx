@@ -446,6 +446,7 @@ export function Toolbar({
 
   const sorts: { key: Filters["sort"]; label: string }[] = [
     ...(f.q ? [{ key: "relevance" as const, label: "Best match" }] : []),
+    { key: "known", label: "Best known" },
     { key: "composer", label: "Composer" },
     { key: "level", label: "Level" },
     { key: "length", label: "Length" },
@@ -501,6 +502,15 @@ export function Toolbar({
               <kbd>/</kbd>
             )}
           </label>
+          <button
+            className="fbtn known-btn"
+            aria-pressed={f.popularity === "well-known"}
+            onClick={() => update({ popularity: f.popularity === "well-known" ? null : "well-known" })}
+            title="Only the works most violinists know"
+          >
+            Well-known
+            {f.popularity !== "well-known" && <span className="n">{(counts.popularity.get("well-known") ?? 0).toLocaleString("en")}</span>}
+          </button>
           <div className="fbtns">
             <Popover label="Character" badge={characterCount}>
               <CharacterPanel f={f} update={update} counts={counts} />
@@ -594,7 +604,7 @@ function SortMenu({
   return (
     <div className="pop sortsel" ref={ref}>
       <button aria-expanded={open} onClick={() => setOpen(!open)}>
-        Sort: <b>{sorts.find((s) => s.key === active)?.label ?? "Composer"}</b>
+        Sort: <b>{sorts.find((s) => s.key === active)?.label ?? "Best known"}</b>
       </button>
       {open && (
         <div className="menu right" role="listbox">

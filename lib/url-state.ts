@@ -5,13 +5,13 @@ const num = (v: string | null) => (v != null && v !== "" && Number.isFinite(Numb
 const oneOf = <T extends string>(v: string | null, allowed: readonly T[]): T | null =>
   v && (allowed as readonly string[]).includes(v) ? (v as T) : null;
 
-/** A search lists best matches first unless you pick another order; otherwise the list goes by composer. */
+/** A search lists best matches first unless you pick another order; otherwise the best-known works come first. */
 export const defaultSort = (q: string): Filters["sort"] => (q.trim() ? "relevance" : EMPTY_FILTERS.sort);
 
 export function filtersFromParams(sp: URLSearchParams): Filters {
   const level = num(sp.get("lv"));
   const q = sp.get("q") ?? "";
-  const sort = oneOf(sp.get("sort"), ["level", "composer", "length", "relevance"] as const);
+  const sort = oneOf(sp.get("sort"), ["known", "level", "composer", "length", "relevance"] as const);
   return {
     q,
     type: oneOf(sp.get("type"), TYPES.map((t) => t.key)),

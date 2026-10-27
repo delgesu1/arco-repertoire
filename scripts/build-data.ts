@@ -18,6 +18,7 @@ import type { ChamberWork } from "../lib/chamber/types";
 import { INSTRUMENTS } from "../lib/chamber/vocab";
 import type { Catalogue, EnsembleKey, PartKey, Piece, Recording, Scoring, SettingKey } from "../lib/types";
 import { CHARACTER, ERAS, TYPES } from "../lib/vocab";
+import { fame } from "./fame";
 import { firstLast, fold, slugify, surname } from "./names";
 import { assertNoExcludedPerformers } from "./recording-rules";
 
@@ -217,6 +218,7 @@ for (const [n, r] of sheet.slice(1).entries()) {
     pace,
     character,
     popularity,
+    fame: 0, // below, once the whole list is in
     recording,
   });
 }
@@ -280,6 +282,27 @@ if (errors.length) {
   process.exit(1);
 }
 
+// Technical materials added in Oct 2026 (ids from TECH_FIRST_ID) must not push repertoire out of the prompt: the individual studies of the
+// big five (Kreutzer, Rode, Dont, Fiorillo, Gaviniès) stay out unless nothing else competes, and other study/technique books only get in
+// when they are well known or on syllabi. All of them remain reachable through search_catalogue.
+const TECH_FIRST_ID = 3305;
+const techPenalty = (p: Piece) =>
+  p.id < TECH_FIRST_ID || (p.type !== "etude" && p.type !== "technique")
+    ? 0
+    : /^(Étude|Caprice|Matinée) No\. \d+/.test(p.title)
+      ? 4
+      : 1;
+for (const p of pieces) {
+  const rec = judged[String(p.id)];
+  p.fame = fame({
+    id: p.id,
+    popularity: p.popularity,
+    views: rec && rec.confidence !== "none" ? rec.maxViews : 0,
+    examBoards: p.examBoards.length,
+    penalty: techPenalty(p) * 1.5,
+  });
+}
+
 pieces.sort((a, b) => a.id - b.id);
 const version = createHash("sha1").update(JSON.stringify(pieces)).digest("hex").slice(0, 10);
 const catalogue: Catalogue = { version, levels: levels.levels, levelNote: levels.note, pieces };
@@ -326,16 +349,6 @@ const views = (p: Piece) => {
   const j = judged[String(p.id)];
   return j && j.confidence !== "none" ? j.maxViews : 0;
 };
-// Technical materials added in Oct 2026 (ids from TECH_FIRST_ID) must not push repertoire out of the prompt: the individual studies of the
-// big five (Kreutzer, Rode, Dont, Fiorillo, Gaviniès) stay out unless nothing else competes, and other study/technique books only get in
-// when they are well known or on syllabi. All of them remain reachable through search_catalogue.
-const TECH_FIRST_ID = 3305;
-const techPenalty = (p: Piece) =>
-  p.id < TECH_FIRST_ID || (p.type !== "etude" && p.type !== "technique")
-    ? 0
-    : /^(Étude|Caprice|Matinée) No\. \d+/.test(p.title)
-      ? 4
-      : 1;
 const importance = (p: Piece) =>
   -techPenalty(p) +
   (p.popularity === "well-known" ? 4 : p.popularity === "lesser-known" ? -1 : 0) +

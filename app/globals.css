@@ -735,6 +735,19 @@ button {
 .filters-btn {
   display: none;
 }
+/* the well-known toggle: a switch, not a menu */
+.known-btn::after {
+  content: none;
+}
+.known-btn[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--linen);
+  border-color: var(--ink);
+}
+.known-btn .n {
+  font-size: 11px;
+  opacity: 0.6;
+}
 .pop {
   position: relative;
 }
@@ -973,6 +986,23 @@ button {
 .ghead a {
   margin-left: auto;
   font-size: 13px;
+}
+/* in the best-known order: where the works marked well-known end */
+.known-end {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  padding: 36px 4px 8px;
+  border-bottom: 1px solid var(--ink);
+}
+.known-end h3 {
+  font: 700 17px var(--display);
+  font-stretch: 110%;
+}
+.known-end span {
+  font-size: 13px;
+  color: var(--muted);
 }
 .colhead,
 .row {

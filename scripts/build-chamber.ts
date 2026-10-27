@@ -22,6 +22,7 @@ import { FORM_CODES, hardestCode, scoringCode } from "../lib/advisor/chamber-cod
 import type { ChamberCatalogue, ChamberComposer, ChamberPiece, ChamberWork, InstrumentKey } from "../lib/chamber/types";
 import { FORMATIONS, FORMS, INSTRUMENTS } from "../lib/chamber/vocab";
 import type { Catalogue, EraKey, Piece } from "../lib/types";
+import { fame } from "./fame";
 import { firstLast, slugify, surname } from "./names";
 import { assertNoExcludedPerformers } from "./recording-rules";
 
@@ -119,6 +120,8 @@ for (const w of works) {
     pace: w.pace ?? null,
     character: w.character ?? [],
     popularity: w.popularity,
+    // without the violin list's syllabus points, which the chamber works have no counterpart for
+    fame: fame({ id, popularity: w.popularity, views: (v ? violinJudged : judged)[String(id)]?.video?.views ?? 0, benchmark: w.benchmark === "approved" }),
     recording: v ? v.recording : recordingOf(w.id),
     sections: v ? ["violin", "chamber"] : ["chamber"],
     ...(w.partLevels ? { partLevels: w.partLevels } : {}),

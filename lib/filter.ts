@@ -15,7 +15,7 @@ export interface Filters {
   era: EraKey | null;
   gender: "F" | "M" | null;
   board: string | null;
-  sort: "level" | "composer" | "length" | "relevance";
+  sort: "known" | "level" | "composer" | "length" | "relevance";
 }
 
 export const EMPTY_FILTERS: Filters = {
@@ -33,7 +33,7 @@ export const EMPTY_FILTERS: Filters = {
   era: null,
   gender: null,
   board: null,
-  sort: "composer",
+  sort: "known",
 };
 
 type Facet = "type" | "setting" | "level" | "mode" | "pace" | "character" | "popularity" | "era" | "gender" | "board" | "length";
@@ -93,7 +93,10 @@ export function sortPieces<P extends PieceBase>(list: { piece: P; score: number 
     const b = y.piece;
     switch (sort) {
       case "relevance":
-        return y.score - x.score || a.level - b.level || byComposerTitle(a, b);
+        return y.score - x.score || b.fame - a.fame || a.level - b.level || byComposerTitle(a, b);
+      case "known":
+        // the works marked well-known come first (the list draws a line where they end), then by fame
+        return Number(b.popularity === "well-known") - Number(a.popularity === "well-known") || b.fame - a.fame || byComposerTitle(a, b);
       case "composer":
         return byComposerTitle(a, b);
       case "length":

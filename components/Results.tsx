@@ -81,6 +81,10 @@ export function Results<P extends PieceBase = Piece>({
       groupCounts.set(k, (groupCounts.get(k) ?? 0) + (r.kind === "piece" ? 1 : r.pieces.length));
     }
   const visible = rows.slice(0, shown);
+  // the best-known order lists the works marked well-known first; a line marks where they end
+  const isKnown = (r: ResultRow<P>) => (r.kind === "piece" ? [r.piece] : r.pieces).some((p) => p.popularity === "well-known");
+  const knownEnd = f.sort === "known" && !f.popularity ? rows.findIndex((r) => !isKnown(r)) : -1;
+  const afterEnd = knownEnd > 0 ? rows.slice(knownEnd).reduce((n, r) => n + (r.kind === "piece" ? 1 : r.pieces.length), 0) : 0;
 
   return (
     <section aria-label="Results">
@@ -112,6 +116,14 @@ export function Results<P extends PieceBase = Piece>({
           const head = grouping && (i === 0 || groupKey(visible[i - 1], grouping) !== k);
           return (
             <Fragment key={key}>
+              {i === knownEnd && i > 0 && (
+                <div className="known-end">
+                  <h3>Beyond the well-known repertoire</h3>
+                  <span>
+                    {afterEnd.toLocaleString("en")} more {afterEnd === 1 ? "work" : "works"}, the better known first
+                  </span>
+                </div>
+              )}
               {head && (
                 <GroupHead
                   grouping={grouping}
