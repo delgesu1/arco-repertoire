@@ -1,0 +1,112 @@
+{
+  "batch": "batch-grades-10",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "lachner-quartet-op107-4-violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+          "finding": "Inspected all seven music pages of violin 1, plus representative violin 2, 3 and 4 pages in the cached parts PDF."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "violin 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful",
+          "dance"
+        ],
+        "confidence": "medium",
+        "basis": "First violin across all four movements has recurring upper-position melody, rapid diatonic/chromatic runs, articulate sixteenths, ornaments and occasional double stops/chords; the finale Allegro vivo also requires clean string-crossing and upper-register articulation. This is advanced rather than diploma-scale virtuosity: most passagework lies comfortably on the instrument, and there is no sustained extreme register or complex double-stop texture. Level 5 individual demand; no additional ensemble level, since the conventional tonal phrasing and pulse do not independently exceed that threshold. Inspection covered complete violin 1 and samples of the other three parts, not every lower-part page; no performance tested."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "ellenberger-suite-palais-meran-cello-quartet",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+          "finding": "Read score contents and visually sampled all five movements in the 44-page cached full score (PDF pp.4,9,12,15,17,18,20,22,25,28,30,34,38,42,44)."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "cello 1",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dramatic",
+          "dance"
+        ],
+        "confidence": "medium",
+        "basis": "Whole-suite judgment from substantial score samples across all five movements. Cello 1 (closely followed by cello 2) has long treble-clef sixteenth-note ostinatos at quarter=90, chromatic shifts and changing clefs; later movements add mordents, double stops, articulated upper-register phrases and the repeated furioso Allegro quarter=126. Individual demand around level 6, raised one level for the prolonged independent counterpoint, exposed chromatic harmony, interlocking dynamic swells and stamina across the 28-minute suite. The calm Aire is substantially easier and prevents treating every passage as diploma-level, but the recurring demands elsewhere set the whole-work level. Sampling rather than exhaustive bar-by-bar inspection; no recording or performance tested."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "derecskei-a-tear-in-the-mirror-3-cellos",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+          "finding": "Actual notation inspected from local cached PDF: data/cache/same-instrument-imslp/scores/verify-07/derecskei-score.pdf"
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "mode": "unsure",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "dark"
+        ],
+        "confidence": "high",
+        "basis": "Inspected all three score pages (complete 51-bar work). Cello 1 leads the opening in tenor clef, later treble-clef lines; all three players encounter exposed chromatic upper-register material, frequent changes among irregular meters, grace notes, and final harmonics. Slow Lento/Rubato writing makes the short flourishes manageable: individual demand about level 5, raised one level for the independent entries, changing pulse and soft chromatic intonation. Visual score judgment; no performance tested."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "fine-in-memoriam-george-finckel-cello-ensemble",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+          "finding": "Actual notation inspected from local cached PDF: data/cache/same-instrument-imslp/scores/verify-07/fine-score-parts.pdf"
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "mode": "unsure",
+        "pace": "slow",
+        "character": [
+          "dark",
+          "tender"
+        ],
+        "confidence": "high",
+        "basis": "Inspected the complete five-page full score and representative separate-part pages for all four cellos. Adagio quarter=42: cello 1 sustains a high treble-clef line with exposed shifts and chromatic intervals; middle parts move between bass and treble clefs, and all parts use ponticello/tremolo and coordinated dynamic changes. Individual demand about level 5, raised one level for sustained exposed harmony, slow bow control and synchronized irregular bar lengths. Short work without fast virtuoso passagework. Visual inspection, no performance tested."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "batch": "bass-01",
+  "status": "complete",
+  "checkedOn": "2026-10-28",
+  "entries": [
+    {
+      "key": "alt-suite-four-double-basses",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Hofmeister lists the four-bass score and parts for sale; label and concert programme establish the complete suite in performance.",
+      "work": {
+        "composer": "Alt, Bernhard",
+        "title": "Suite for Four Double Basses",
+        "instruments": {"double-bass": 4},
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1933",
+        "minutes": 13,
+        "set": null,
+        "notes": "Four movements; basses 1–2 use solo tuning, basses 3–4 orchestral tuning.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {"kind": "single", "composed": null, "published": null, "movements": ["Präludium", "Menuett", "Adagio", "Humoreske"]},
+      "evidence": {
+        "sources": [
+          {"url": "https://www.hofmeister-musikverlag.com/produkt/suite/", "checkedOn": "2026-10-28", "locator": "Product information", "finding": "Publisher offers score and four parts for four double basses; four movements, first print 1954, movement timings total about 13 minutes."},
+          {"url": "https://www.laphil.com/works/quartet-for-double-basses-alt", "checkedOn": "2026-10-28", "locator": "About this Piece", "finding": "LA Phil says Alt's Suite for Four Double Basses was published in 1933 and remains a standard bass ensemble work."},
+          {"url": "https://classical.music.apple.com/us/album/574404578", "checkedOn": "2026-10-28", "locator": "1991 album listing", "finding": "Pavane Records lists Suite romantique with all four movements, 13:09, performed by Quatuor de contrebasses de Bruxelles."},
+          {"url": "https://www.mcst.go.kr/site/s_culture/culture/cultureView.jsp?pSeq=53035", "checkedOn": "2026-10-28", "locator": "2025 programme", "finding": "South Korea Ministry of Culture concert programme lists all four movements of Alt's suite."}
+        ],
+        "scoring": {"url": "https://www.hofmeister-musikverlag.com/produkt/suite/", "locator": "Besetzung / Umfang", "finding": "Four double basses; full score and four individual parts; no other instruments."},
+        "floor": {"url": "https://classical.music.apple.com/us/album/574404578", "finding": "Label-distributed full four-movement 13:09 recording by Quatuor de contrebasses de Bruxelles."},
+        "version": {"kind": "original", "arranger": null, "extent": "whole-work", "selection": null},
+        "score": {"url": "https://www.hofmeister-musikverlag.com/produkt/suite/", "finding": "Current publisher product offers the score and all four parts."},
+        "fieldSources": {"work.composer": "https://www.hofmeister-musikverlag.com/produkt/suite/", "work.title": "https://www.hofmeister-musikverlag.com/produkt/suite/", "work.instruments": "https://www.hofmeister-musikverlag.com/produkt/suite/", "work.year": "https://www.laphil.com/works/quartet-for-double-basses-alt", "work.minutes": "https://classical.music.apple.com/us/album/574404578", "details.movements": "https://www.hofmeister-musikverlag.com/produkt/suite/"},
+        "unknowns": {"composerMetadata": "No qualifying primary biographical source inspected.", "work.level": "No musical grading performed.", "work.hardestPart": "No musical grading performed."}
+      },
+      "researcherGrade": {"confidence": "low", "basis": "Not graded by first-pass researcher."},
+      "recordingResearch": {"status": "released-human-recording-established", "queries": ["Bernhard Alt Suite four double basses album Pavane"], "candidates": [{"url": "https://classical.music.apple.com/us/album/574404578", "performers": ["Quatuor de contrebasses de Bruxelles"], "finding": "Pavane Records album lists all four original movements and a 13:09 runtime."}]}
+    },
+    {
+      "key": "lauber-quartet-double-basses-1942",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Yorke Edition offers the quartet score and parts; a label release and 2025 concert programme document complete performances by four named bassists.",
+      "work": {
+        "composer": "Lauber, Joseph",
+        "title": "Quartet for Double Basses",
+        "instruments": {"double-bass": 4},
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1942",
+        "minutes": 13,
+        "set": null,
+        "notes": "Four movements; manuscript is in sounding pitch with all four basses in solo tuning.",
+        "imslpPage": "https://imslp.org/wiki/Double_Bass_Quartet_(Lauber,_Joseph)",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {"dates": "1864–1952", "nationality": "Swiss", "gender": "M", "era": "late-romantic"},
+      "details": {"kind": "single", "composed": "1942", "published": "1975, Yorke Edition", "movements": null},
+      "evidence": {
+        "sources": [
+          {"url": "https://stainer.co.uk/shop/ye0036/", "checkedOn": "2026-10-28", "locator": "Product description", "finding": "Yorke Edition publisher offers the four-double-bass score and parts; four movements, approx. 13 minutes; work dated 1942 and published 1975."},
+          {"url": "https://hc.sk/en/o-slovenskej-hudbe/osobnost-detail/477-jan-krigovsky/diskografia", "checkedOn": "2026-10-28", "locator": "2018 album Father", "finding": "National Music Centre of Slovakia lists BassBand's recording of Lauber's quartet with four named double bassists."},
+          {"url": "https://www.mcst.go.kr/site/s_culture/culture/cultureView.jsp?pSeq=53035", "checkedOn": "2026-10-28", "locator": "2025 programme", "finding": "Concert programme lists Lauber quartet and all four movements."}
+        ],
+        "scoring": {"url": "https://stainer.co.uk/shop/ye0036/", "locator": "Product / edition details", "finding": "Score and parts for four double basses; no additional instruments."},
+        "floor": {"url": "https://hc.sk/en/o-slovenskej-hudbe/osobnost-detail/477-jan-krigovsky/diskografia", "finding": "2018 BassBand album records the quartet; four named double bassists credited."},
+        "version": {"kind": "original", "arranger": null, "extent": "whole-work", "selection": null},
+        "score": {"url": "https://stainer.co.uk/shop/ye0036/", "finding": "Current Yorke Edition publisher listing sells score and parts."},
+        "fieldSources": {"work.composer": "https://stainer.co.uk/shop/ye0036/", "work.title": "https://stainer.co.uk/shop/ye0036/", "work.instruments": "https://stainer.co.uk/shop/ye0036/", "work.year": "https://stainer.co.uk/shop/ye0036/", "work.minutes": "https://stainer.co.uk/shop/ye0036/", "composerMetadata.dates": "https://stainer.co.uk/shop/ye0036/", "composerMetadata.nationality": "https://stainer.co.uk/shop/ye0036/"},
+        "unknowns": {"work.level": "No musical grading performed.", "work.hardestPart": "No musical grading performed."}
+      },
+      "researcherGrade": {"confidence": "low", "basis": "Not graded by first-pass researcher."},
+      "recordingResearch": {"status": "released-human-recording-established", "queries": ["Joseph Lauber Quartet for Double Basses BassBand Father"], "candidates": [{"url": "https://hc.sk/en/o-slovenskej-hudbe/osobnost-detail/477-jan-krigovsky/diskografia", "performers": ["Ján Krigovský", "Ján Prievozník", "Metod Podolský", "Jakub Stračina"], "finding": "National Music Centre of Slovakia credits the quartet recording to BassBand and names its four bassists."}]}
+    },
+    {
+      "key": "hauta-aho-arietta-12-double-basses",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "The revised twelve-bass score is available from its publisher, and a memorial concert review documents a full performance with twelve named players.",
+      "work": {
+        "composer": "Hauta-aho, Teppo",
+        "title": "Arietta for 12 Double Basses",
+        "instruments": {"double-bass": 12},
+        "players": 12,
+        "formation": "large-strings",
+        "form": "short",
+        "level": null,
+        "hardestPart": null,
+        "year": "1987",
+        "minutes": null,
+        "set": null,
+        "notes": "Revised from the original 16-bass version; a sustained study in harmonics and pizzicato.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {"dates": "1941–2021", "nationality": "Finnish", "gender": "M", "era": "contemporary"},
+      "details": {"kind": "single", "composed": "1987", "published": null, "movements": ["Arietta"]},
+      "evidence": {
+        "sources": [
+          {"url": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses", "checkedOn": "2026-10-28", "locator": "About the composition", "finding": "Publisher's product page distinguishes original 16-bass version from revised 12-bass version and dates composition to 1987."},
+          {"url": "https://helsinkijazz.fi/en/events/teppo-hauta-ahon-muistokonsertin-9-6-22-kuvia-ja-artikkeleita/", "checkedOn": "2026-10-28", "locator": "Memorial concert report", "finding": "Documents the revised Arietta performed at Savoy by twelve named double bassists; reports that this was the work's Finnish premiere."},
+          {"url": "https://core.musicfinland.fi/composers/teppo-hauta-aho", "checkedOn": "2026-10-28", "locator": "Composer biography", "finding": "Music Finland Core identifies Hauta-aho as Finnish composer and double-bass teacher; dates 1941–2021."}
+        ],
+        "scoring": {"url": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses", "locator": "About the composition", "finding": "Revised version is for twelve independent double basses only; description identifies bass 12 pizzicato and high harmonics in other parts."},
+        "floor": {"url": "https://helsinkijazz.fi/en/events/teppo-hauta-ahon-muistokonsertin-9-6-22-kuvia-ja-artikkeleita/", "finding": "Full Arietta performed by twelve named bassists at the June 9, 2022 Savoy memorial concert."},
+        "version": {"kind": "original", "arranger": null, "extent": "whole-work", "selection": null},
+        "score": {"url": "https://www.stretta-music.at/author-teppo-hauta-aho", "finding": "Retailer lists the publisher's Arietta for 12 double basses as an immediate score-and-parts download; publisher's own shop page also identifies the edition but showed sold out."},
+        "fieldSources": {"work.composer": "https://core.musicfinland.fi/composers/teppo-hauta-aho", "work.title": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses", "work.instruments": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses", "work.year": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses", "composerMetadata.dates": "https://core.musicfinland.fi/composers/teppo-hauta-aho", "composerMetadata.nationality": "https://core.musicfinland.fi/composers/teppo-hauta-aho"},
+        "unknowns": {"work.minutes": "No duration established in inspected primary sources.", "details.published": "First publication date not established.", "score.publisherStock": "Publisher page showed sold out; alternate shop listing offers immediate download.", "work.level": "No musical grading performed.", "work.hardestPart": "No musical grading performed."}
+      },
+      "researcherGrade": {"confidence": "low", "basis": "Not graded by first-pass researcher."},
+      "recordingResearch": {"status": "concert-performance-established", "queries": ["Hauta-aho Arietta twelve double basses Savoy memorial concert"], "candidates": [{"url": "https://helsinkijazz.fi/en/events/teppo-hauta-ahon-muistokonsertin-9-6-22-kuvia-ja-artikkeleita/", "performers": ["Kaapo Kangas", "Tapio Lydecken", "Dan Styffe", "Maukka Siirala", "Eero Tikkanen", "Ville Herrala", "Antti Lötjönen", "Juha Vikman", "Fanni Hoppari", "Marja-Helena Ojanperä", "Lassi Kari", "Joel Peltonen"], "finding": "Organizer's memorial-concert report documents the twelve-bass full-work performance and names each player."}]}
+    },
+    {
+      "key": "hauta-aho-mini-bass-symphony",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "The publisher offers score and parts for a ten-bass version; Wells Cathedral School reports a full four-movement live performance.",
+      "work": {
+        "composer": "Hauta-aho, Teppo",
+        "title": "The Mini-Bass Symphony",
+        "instruments": {"double-bass": 10},
+        "players": 10,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1986",
+        "minutes": 11,
+        "set": null,
+        "notes": "Four movements for up to ten basses; the UK premiere used fifteen players, doubling parts.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {"dates": "1941–2021", "nationality": "Finnish", "gender": "M", "era": "contemporary"},
+      "details": {"kind": "single", "composed": "1986", "published": "Recital Music, 2023", "movements": null},
+      "evidence": {
+        "sources": [
+          {"url": "https://shop.doublebasshq.com/products/the-mini-bass-symphony-for-massed-double-bass-ensemble-in-10-parts", "checkedOn": "2026-10-28", "locator": "About the composition / product formats", "finding": "Publisher's own product page offers score, parts, or score-and-parts for the ten-part version; identifies four short movements, composition in 1986, revision in 2005, and publication by Recital Music."},
+          {"url": "https://www.wells.cathedral.school/2016/12/28/the-flying-finn-in-frome/", "checkedOn": "2026-10-28", "locator": "Teppo-Fest 2016 report", "finding": "School report describes the four-movement work for ten basses receiving its UK premiere, performed by fifteen bassists."},
+          {"url": "https://core.musicfinland.fi/composers/teppo-hauta-aho", "checkedOn": "2026-10-28", "locator": "Composer work list", "finding": "Music Finland Core lists The Mini Bass Symphony as a chamber work for 1–10 double basses, dated 1986, duration 11 minutes."}
+        ],
+        "scoring": {"url": "https://core.musicfinland.fi/composers/teppo-hauta-aho", "locator": "The Mini Bass Symphony entry", "finding": "Composer catalogue lists 1–10 double basses; no other instruments. Ten players correspond to the full ensemble version."},
+        "floor": {"url": "https://www.wells.cathedral.school/2016/12/28/the-flying-finn-in-frome/", "finding": "Full four-movement symphony performed live by fifteen bassists at its UK premiere; score permits ten parts, some doubled in this performance."},
+        "version": {"kind": "original", "arranger": null, "extent": "whole-work", "selection": null},
+        "score": {"url": "https://shop.doublebasshq.com/products/the-mini-bass-symphony-for-massed-double-bass-ensemble-in-10-parts", "finding": "Publisher product page offers score and parts for ten-bass version; independent retailer lists an immediate-download score-and-parts edition."},
+        "fieldSources": {"work.composer": "https://core.musicfinland.fi/composers/teppo-hauta-aho", "work.title": "https://core.musicfinland.fi/composers/teppo-hauta-aho", "work.instruments": "https://core.musicfinland.fi/composers/teppo-hauta-aho", "work.year": "https://core.musicfinland.fi/composers/teppo-hauta-aho", "work.minutes": "https://core.musicfinland.fi/composers/teppo-hauta-aho", "details.movements": "https://www.wells.cathedral.school/2016/12/28/the-flying-finn-in-frome/", "composerMetadata.dates": "https://core.musicfinland.fi/composers/teppo-hauta-aho", "composerMetadata.nationality": "https://core.musicfinland.fi/composers/teppo-hauta-aho"},
+        "unknowns": {"details.movements": "Titles of the four movements not established.", "work.level": "No musical grading performed.", "work.hardestPart": "No musical grading performed."}
+      },
+      "researcherGrade": {"confidence": "low", "basis": "Not graded by first-pass researcher."},
+      "recordingResearch": {"status": "concert-performance-established", "queries": ["Teppo Hauta-aho Mini-Bass Symphony UK premiere Wells 2016"], "candidates": [{"url": "https://www.wells.cathedral.school/2016/12/28/the-flying-finn-in-frome/", "performers": [], "finding": "Wells Cathedral School reports the full four-movement live UK premiere with fifteen bassists; individual names were not published on the page."}]}
+    }
+  ],
+  "resume": {"nextKey": null, "note": "Four nonduplicate, ungraded double-bass ensemble works recorded for independent fact review. No canonical data or selected videos changed."}
+}

@@ -1,0 +1,76 @@
+{
+ "batch": "ensemble-31",
+ "accepted": [
+  {
+   "key": "bach-bwv639-mandozzi-fourcellos",
+   "id": 109204,
+   "publicId": 109204,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "kzZiuU2S60c"
+  },
+  {
+   "key": "bach-goldberg22-dicker-fourcellos",
+   "id": 109205,
+   "publicId": 109205,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "-w6vtpUpFF8"
+  },
+  {
+   "key": "sculthorpe-chorale-eight-cellos",
+   "id": 109206,
+   "publicId": 109206,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "e7e81d4430eb907fee5c2e2c819250fe5b5ffcb1f981c24fe86beb0bb0e2d489",
+  "data/chamber/composers.json": "b9a1060bc46568688f8f320f29fb2d4ef4b544ea8d8f0c9f52f9fd9533c13f65",
+  "data/chamber/id-registry.json": "a50aa59ce92179add4ecb8612d95a8e7dd141ef252669a2e6acf91e33fc4ef49",
+  "data/chamber/sources.json": "4a97a337eb7b4cd43e54465d05df678e3087c58488b800df8b24c48066c5b0c1",
+  "data/details/overrides.json": "32e7cd2102ab05cc62b54c068e33c518b6505a819f7b3a4156f981e456cc118b",
+  "data/chamber/recordings-judged.json": "26519b1f7cabe8321e72e4276c242d1fecd1721972a9123bc1f44de46afd1bff",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-ready-31.json": "25d1dda8e932e9134c45749a064be09fed7ecade54189565c0fb7ead01b97c51",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/ready31-verify.json": "59794ce656926aebf3d980d49c63947989f89845000617314fcce040aee76f14",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/ready31-blind-normalized.json": "b8f8132a57c25e0f58416e0ef4e4ec6247b49d6bf779a2d6e8c9637516421ff1",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/sculthorpe-third-31.json": "dc3b3a4b3ac39b5f8e17362c02ebe7e51c8e5cdd56a4935a76c1a419f2dd0c9c"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-31"
+}

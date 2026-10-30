@@ -10,6 +10,7 @@ Writes  data/details/works.json        (server: piece pages and the advisor)
     python3 scripts/details_merge.py
 """
 import json
+import copy
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -54,6 +55,25 @@ def main():
         out[pid] = d
         for s in set(src.values()):
             counts[s] += 1
+    # Exact-version research can correct a shared IMSLP page's original-work facts.
+    # Explicit null removes a contaminated field rather than letting IMSLP refill it.
+    override_path = ROOT / "data/details/overrides.json"
+    overrides = json.loads(override_path.read_text()) if override_path.exists() else {}
+    for pid, entry in overrides.items():
+        d = copy.deepcopy(out.get(pid, {}))
+        src = d.setdefault("source", {})
+        for field, value in entry["fields"].items():
+            if field not in FIELDS:
+                raise ValueError(f"Unknown detail override field: {pid}.{field}")
+            if not entry.get("sources", {}).get(field):
+                raise ValueError(f"Unsourced detail override: {pid}.{field}")
+            if value is None:
+                d.pop(field, None)
+                src.pop(field, None)
+            else:
+                d[field], src[field] = value, "override"
+        d["overrideSources"] = entry["sources"]
+        out[pid] = d
     (ROOT / "data/details/works.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
     client = {pid: {k: v for k, v in d.items() if k in FIELDS} for pid, d in out.items()}
     (ROOT / "public/data/details.json").write_text(json.dumps(client, ensure_ascii=False, separators=(",", ":")))

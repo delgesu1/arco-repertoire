@@ -1,0 +1,68 @@
+{
+  "batch": "batch-recordings-03",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "recording-109190",
+      "status": "missing",
+      "grade": {},
+      "approvedWorkFields": [],
+      "recordingDecisions": [],
+      "reason": "Supplied exact-work query returned only unrelated Beethoven, slap bass and gear videos; no plausible recording of Russell Excursions for four double basses."
+    },
+    {
+      "key": "recording-109191",
+      "status": "missing",
+      "grade": {},
+      "approvedWorkFields": [],
+      "recordingDecisions": [],
+      "reason": "Supplied exact composer/title query returned no YouTube candidates for The Bass Affair for four double basses."
+    },
+    {
+      "key": "recording-109192",
+      "status": "missing",
+      "grade": {},
+      "approvedWorkFields": [],
+      "recordingDecisions": [],
+      "reason": "Only supplied True Grit is Obsydeus Zero to Hero, unrelated to Tony Osborne double-bass quartet."
+    },
+    {
+      "key": "recording-109193",
+      "status": "missing",
+      "grade": {},
+      "approvedWorkFields": [],
+      "recordingDecisions": [],
+      "reason": "Supplied candidates are The Pink Elephant, Canzonetta, Nightscape and The Night Before Christmas; none is Osborne Dreamtime for double-bass quartet."
+    },
+    {
+      "key": "recording-109189",
+      "status": "approved",
+      "grade": {},
+      "approvedWorkFields": [],
+      "recordingDecisions": [
+        {
+          "id": "D9iecjaTsso",
+          "decision": "approved",
+          "reason": "Composer upload explicitly identifies FULL Five Miniatures for four double basses, all four bassists and June 13, 2026 Louisville recording. Complete human performance, 13:28; full credits contain no excluded performers; playable_in_embed=true.",
+          "seconds": 808,
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "excludedPerformersChecked": true,
+            "embedVerified": true
+          }
+        }
+      ],
+      "reason": "Composer upload explicitly identifies FULL Five Miniatures for four double basses, all four bassists and June 13, 2026 Louisville recording. Complete human performance, 13:28; full credits contain no excluded performers; playable_in_embed=true."
+    },
+    {
+      "key": "recording-109194",
+      "status": "missing",
+      "grade": {},
+      "approvedWorkFields": [],
+      "recordingDecisions": [],
+      "reason": "Kurt Kaufman uploads explicitly contain separate Prelude 1, Prelude 3 and Prelude 2; none contains the complete Three Preludes set. Exact arranger is confirmed by titles, but no whole-work upload is supplied; separate movements are not approved as a full-work recording."
+    }
+  ]
+}

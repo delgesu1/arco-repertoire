@@ -1,0 +1,59 @@
+{
+  "batch": "batch-grades-05",
+  "entries": [
+    {
+      "key": "fux-sonata-3-violins-ulb-mus-ms-334",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+          "finding": "Read all 14 pages of Klaus Bundies 2018 complete score, IMSLP508463, headed D-DS Mus.ms.334a. Slow chromatic contrapuntal sections alternate with three Allegros. Allegro passagework passes between all three violins; pp. 9\u201310, especially bars 8\u201325, combine semiquaver runs, string crossings, accidentals and offbeat entries. No sustained extreme register or virtuoso double-stop writing."
+        }
+      ],
+      "grade": {
+        "level": 4,
+        "hardestPart": "balanced",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dramatic"
+        ],
+        "confidence": "medium",
+        "basis": "Hardest individual violin line is level 3 (upper intermediate, about ABRSM 6): fluent semiquavers, upper-position access and chromatic fingering, balanced by much slow writing. Add one ensemble level for exposed three-way chromatic suspensions, independent imitative entries and passing running figures without a bass instrument. The judgment covers the complete five-number Bundies layout including its concluding Adagio sections; movement-number grouping differs from the page metadata."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "klengel-2-stucke-op5-4-cellos",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+          "finding": "Read the complete musical pages in all four Breitkopf & H\u00e4rtel parts, IMSLP924821\u2013924824. Serenade is Andantino in A major; Humoreske is Vivace in F major with a contrasting lyrical middle section. Cello 1 repeatedly changes between bass, tenor and treble clefs, with thumb-position fingerings, exposed upper-register melody, chromatic slurred figures, trills and double stops. Cello 2 has substantial tenor-register running work; the lower parts also share articulated figures and double stops. The fourth part includes a scordatura instruction near the Serenade ending."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful",
+          "humorous"
+        ],
+        "confidence": "medium",
+        "basis": "Cello 1 is pre-diploma level 6 (about RCM 10/ARSM): recurrent thumb-position melody and register shifts, chromatic passagework at Vivace, varied articulation and upper-register double stops require a developed cellist across both pieces. This is sustained technical demand rather than a single isolated high note. Retain level 6 overall without an ensemble uplift: blend, close intonation, coordinated pizzicato/arco changes and shared timing matter, but the mostly regular, clear textures do not independently justify level 7. Both pieces are considered; the Serenade is more lyrical and the longer Humoreske supplies the predominant lively pace."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    }
+  ],
+  "status": "complete"
+}

@@ -1,0 +1,1458 @@
+{
+ "batch": "closure-original-02",
+ "items": [
+  {
+   "contextKey": "57445-original",
+   "pageId": 57445,
+   "kind": "original",
+   "title": "Andante religioso (Schmitt, Florent)",
+   "composer": "Schmitt, Florent",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/57445.json",
+   "workInfo": {
+    "Work Title": "Andante religioso",
+    "Opus/Catalogue Number": "Op.109",
+    "Number of Movements/Sections": "1",
+    "Year/Date of Composition": "1946",
+    "Year of First Publication": "1950",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 cellos (or 2 violins, viola, cello)",
+    "Tags": "andantes ; 4vc ; 2vn va vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-004.json",
+    "pageId": 57445,
+    "title": "Andante religioso (Schmitt, Florent)",
+    "disposition": "out-of-scope",
+    "reason": "The page says this cello-quartet score is extracted from Schmitt’s Trombone Quartet Op.109; it is an arrangement of a different original instrumentation, not an original four-cello work.",
+    "facts": [
+     "A complete score exists for the cello arrangement, but original work scoring is trombone quartet."
+    ],
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Andante_religioso_(Schmitt,_Florent)",
+      "checkedOn": "2026-10-28",
+      "finding": "IMSLP explicitly says the cello-quartet and string-quartet/string-orchestra versions are extracted from the Trombone Quartet, Op.109."
+     },
+     {
+      "url": "https://florentschmitt.com/2019/10/05/florent-schmitts-strikingly-inventive-quartet-for-trombones-and-tuba-1946-leaving-the-oompah-behind/",
+      "checkedOn": "2026-10-28",
+      "finding": "Palazzetto Bru Zane concerts by four cellists were reported for the cello arrangement; that does not change the original work’s instrumentation."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1330121-original",
+   "pageId": 1330121,
+   "kind": "original",
+   "title": "Andantino (Kárpáti, Sándor)",
+   "composer": "Kárpáti, Sándor",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1330121.json",
+   "workInfo": {
+    "Work Title": "Andantino",
+    "Key": "G",
+    "Average Duration": "4 minutes",
+    "Year/Date of Composition": "1926",
+    "Piece Style": "Romantic",
+    "Instrumentation": "4 violins",
+    "Tags": "andantinos ; 4vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "8650-original",
+   "pageId": 8650,
+   "kind": "original",
+   "title": "Arch (Davidson, Robert)",
+   "composer": "Davidson, Robert",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/8650.json",
+   "workInfo": {
+    "Work Title": "Arch",
+    "Alternative Title": "Canon for three violas or viola and delay",
+    "Number of Movements/Sections": "1 canon",
+    "Year/Date of Composition": "1992",
+    "Year of First Publication": "1992",
+    "Piece Style": "Modern",
+    "Instrumentation": "viola",
+    "Tags": "canons ; 3va |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-002.json",
+    "pageId": 8650,
+    "title": "Arch (Davidson, Robert)",
+    "disposition": "needs-review",
+    "reason": "The original is for viola solo, but IMSLP separately lists a composer-made three-violin arrangement; treat that exact alternate scoring as its own candidate, pending performance evidence.",
+    "versions": []
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1538011-original",
+   "pageId": 1538011,
+   "kind": "original",
+   "title": "Au Bal des Sciapodes (Wick, Marcellus)",
+   "composer": "Wick, Marcellus",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1538011.json",
+   "workInfo": {
+    "Work Title": "Au Bal des Sciapodes",
+    "Key": "G",
+    "Number of Movements/Sections": "1 movement",
+    "Average Duration": "3'20 minutes",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 violins",
+    "Tags": "pieces ; 4vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1093258-original",
+   "pageId": 1093258,
+   "kind": "original",
+   "title": "Ba Humbug (Araya, Samuel)",
+   "composer": "Araya, Samuel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1093258.json",
+   "workInfo": {
+    "Work Title": "Ba Humbug",
+    "Key": "g",
+    "Year/Date of Composition": "2019",
+    "Piece Style": "Modern",
+    "Instrumentation": "3 cellos",
+    "Tags": "pieces ; 3vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-005.json",
+    "pageId": 1093258,
+    "title": "Ba Humbug (Araya, Samuel)",
+    "disposition": "needs-review",
+    "reason": "Complete score and three cello parts are available; no independent human performance evidence found.",
+    "sourcefacts": [
+     {
+      "url": "https://imslp.org/wiki/Ba_Humbug_%28Araya%2C_Samuel%29",
+      "checkedOn": "2026-10-28",
+      "finding": "Cached IMSLP original-page source excerpt: work info and listed score/performance sections."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1569961-original",
+   "pageId": 1569961,
+   "kind": "original",
+   "title": "Billet doux, renvoyé (Wick, Marcellus)",
+   "composer": "Wick, Marcellus",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1569961.json",
+   "workInfo": {
+    "Work Title": "Billet doux, renvoyé",
+    "Number of Movements/Sections": "1 movement",
+    "Piece Style": "Romantic",
+    "Instrumentation": "4 violins",
+    "Tags": "pieces ; 4vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1180598-original",
+   "pageId": 1180598,
+   "kind": "original",
+   "title": "Canon for 3 Violins (David, Ferdinand)",
+   "composer": "David, Ferdinand",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1180598.json",
+   "workInfo": {
+    "Work Title": "Canon for 3 Violins",
+    "Alternative Title": "Canon für 3 Violinen",
+    "Year/Date of Composition": "1861",
+    "Piece Style": "Romantic",
+    "Instrumentation": "3 violins",
+    "Tags": "canons ; 3vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-002.json",
+    "pageId": 1180598,
+    "title": "Canon for 3 Violins (David, Ferdinand)",
+    "disposition": "needs-review",
+    "reason": "The source is a holograph manuscript for three violins, but no human performance/released recording was established.",
+    "versions": []
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1180593-original",
+   "pageId": 1180593,
+   "kind": "original",
+   "title": "Canon for 8 Violins (Hauptmann, Moritz)",
+   "composer": "Hauptmann, Moritz",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1180593.json",
+   "workInfo": {
+    "Work Title": "Canon for 8 Violins",
+    "Alternative Title": "Canon für 8 Geigen",
+    "Key": "C",
+    "Piece Style": "Romantic",
+    "Instrumentation": "8 violins",
+    "Tags": "canons ; 8vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "704370-original",
+   "pageId": 704370,
+   "kind": "original",
+   "title": "Cello Quartet No.10 (Alencar, Gabriel)",
+   "composer": "Alencar, Gabriel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/704370.json",
+   "workInfo": {
+    "Work Title": "Quarteto para cellos No.10",
+    "Alternative Title": "Cello Quartet No.10",
+    "Key": "E minor",
+    "Year/Date of Composition": "2009",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 cellos",
+    "Tags": "quartets ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-001.json",
+    "pageId": 704370,
+    "title": "Cello Quartet No.10 (Alencar, Gabriel)",
+    "disposition": "needs-review",
+    "reason": "Four-cello score/parts are explicit; available audio is synthesized or absent, with no exact-scoring human performance evidence.",
+    "versions": [
+     {
+      "key": null,
+      "composer": "Alencar, Gabriel",
+      "title": "Quarteto para cellos No.10",
+      "instrument": "4 cellos",
+      "independentPartCount": 4,
+      "kind": "work",
+      "arranger": null,
+      "extent": null,
+      "selection": null,
+      "imslpPage": "https://imslp.org/wiki/Cello_Quartet_No.10_%28Alencar%2C_Gabriel%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/Cello_Quartet_No.10_%28Alencar%2C_Gabriel%29",
+       "locator": "IMSLP page, Scores and Parts section",
+       "finding": "Cached excerpt lists score/parts consistent with the stated scoring."
+      },
+      "performanceEvidence": [],
+      "facts": {
+       "year": "2009",
+       "minutes": null,
+       "movements": null
+      },
+      "flags": [
+       "MIDI/synthesized audio only is not human-performance evidence"
+      ]
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "704377-original",
+   "pageId": 704377,
+   "kind": "original",
+   "title": "Cello Quartet No.11 (Alencar, Gabriel)",
+   "composer": "Alencar, Gabriel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/704377.json",
+   "workInfo": {
+    "Work Title": "Quarteto para cellos n.º 11",
+    "Alternative Title": "Cello Quartet n. 11",
+    "Key": "c",
+    "Year/Date of Composition": "2014",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 cellos",
+    "Tags": "quartets ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-001.json",
+    "pageId": 704377,
+    "title": "Cello Quartet No.11 (Alencar, Gabriel)",
+    "disposition": "needs-review",
+    "reason": "Four-cello score/parts are explicit; available audio is synthesized or absent, with no exact-scoring human performance evidence.",
+    "versions": [
+     {
+      "key": null,
+      "composer": "Alencar, Gabriel",
+      "title": "Quarteto para cellos n.º 11",
+      "instrument": "4 cellos",
+      "independentPartCount": 4,
+      "kind": "work",
+      "arranger": null,
+      "extent": null,
+      "selection": null,
+      "imslpPage": "https://imslp.org/wiki/Cello_Quartet_No.11_%28Alencar%2C_Gabriel%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/Cello_Quartet_No.11_%28Alencar%2C_Gabriel%29",
+       "locator": "IMSLP page, Scores and Parts section",
+       "finding": "Cached excerpt lists score/parts consistent with the stated scoring."
+      },
+      "performanceEvidence": [],
+      "facts": {
+       "year": "2014",
+       "minutes": null,
+       "movements": null
+      },
+      "flags": [
+       "MIDI/synthesized audio only is not human-performance evidence"
+      ]
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "704522-original",
+   "pageId": 704522,
+   "kind": "original",
+   "title": "Cello Quartet No.12 (Alencar, Gabriel)",
+   "composer": "Alencar, Gabriel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/704522.json",
+   "workInfo": {
+    "Work Title": "Quarteto para cellos n.º 12",
+    "Alternative Title": "Cello Quartet n. 12",
+    "Key": "C",
+    "Year/Date of Composition": "2014",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 cellos",
+    "Tags": "quartets ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-001.json",
+    "pageId": 704522,
+    "title": "Cello Quartet No.12 (Alencar, Gabriel)",
+    "disposition": "needs-review",
+    "reason": "Four-cello score/parts are explicit; available audio is synthesized or absent, with no exact-scoring human performance evidence.",
+    "versions": [
+     {
+      "key": null,
+      "composer": "Alencar, Gabriel",
+      "title": "Quarteto para cellos n.º 12",
+      "instrument": "4 cellos",
+      "independentPartCount": 4,
+      "kind": "work",
+      "arranger": null,
+      "extent": null,
+      "selection": null,
+      "imslpPage": "https://imslp.org/wiki/Cello_Quartet_No.12_%28Alencar%2C_Gabriel%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/Cello_Quartet_No.12_%28Alencar%2C_Gabriel%29",
+       "locator": "IMSLP page, Scores and Parts section",
+       "finding": "Cached excerpt lists score/parts consistent with the stated scoring."
+      },
+      "performanceEvidence": [],
+      "facts": {
+       "year": "2014",
+       "minutes": null,
+       "movements": null
+      },
+      "flags": [
+       "MIDI/synthesized audio only is not human-performance evidence"
+      ]
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "704531-original",
+   "pageId": 704531,
+   "kind": "original",
+   "title": "Cello Quartet No.13 (Alencar, Gabriel)",
+   "composer": "Alencar, Gabriel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/704531.json",
+   "workInfo": {
+    "Work Title": "Quarteto para cellos n.º 13",
+    "Alternative Title": "Cello Quartet n. 13",
+    "Key": "e",
+    "Year/Date of Composition": "2014",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 cellos",
+    "Tags": "quartets ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-001.json",
+    "pageId": 704531,
+    "title": "Cello Quartet No.13 (Alencar, Gabriel)",
+    "disposition": "needs-review",
+    "reason": "Four-cello score/parts are explicit; available audio is synthesized or absent, with no exact-scoring human performance evidence.",
+    "versions": [
+     {
+      "key": null,
+      "composer": "Alencar, Gabriel",
+      "title": "Quarteto para cellos n.º 13",
+      "instrument": "4 cellos",
+      "independentPartCount": 4,
+      "kind": "work",
+      "arranger": null,
+      "extent": null,
+      "selection": null,
+      "imslpPage": "https://imslp.org/wiki/Cello_Quartet_No.13_%28Alencar%2C_Gabriel%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/Cello_Quartet_No.13_%28Alencar%2C_Gabriel%29",
+       "locator": "IMSLP page, Scores and Parts section",
+       "finding": "Cached excerpt lists score/parts consistent with the stated scoring."
+      },
+      "performanceEvidence": [],
+      "facts": {
+       "year": "2014",
+       "minutes": null,
+       "movements": null
+      },
+      "flags": [
+       "MIDI/synthesized audio only is not human-performance evidence"
+      ]
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "704070-original",
+   "pageId": 704070,
+   "kind": "original",
+   "title": "Cello Quartet No.4 (Alencar, Gabriel)",
+   "composer": "Alencar, Gabriel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/704070.json",
+   "workInfo": {
+    "Work Title": "Quarteto para cellos No.4",
+    "Alternative Title": "Cello Quartet Nl.4",
+    "Key": "a",
+    "Year/Date of Composition": "2008",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 cellos",
+    "Tags": "quartets ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-001.json",
+    "pageId": 704070,
+    "title": "Cello Quartet No.4 (Alencar, Gabriel)",
+    "disposition": "needs-review",
+    "reason": "Four-cello score/parts are explicit; available audio is synthesized or absent, with no exact-scoring human performance evidence.",
+    "versions": [
+     {
+      "key": null,
+      "composer": "Alencar, Gabriel",
+      "title": "Quarteto para cellos No.4",
+      "instrument": "4 cellos",
+      "independentPartCount": 4,
+      "kind": "work",
+      "arranger": null,
+      "extent": null,
+      "selection": null,
+      "imslpPage": "https://imslp.org/wiki/Cello_Quartet_No.4_%28Alencar%2C_Gabriel%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/Cello_Quartet_No.4_%28Alencar%2C_Gabriel%29",
+       "locator": "IMSLP page, Scores and Parts section",
+       "finding": "Cached excerpt lists score/parts consistent with the stated scoring."
+      },
+      "performanceEvidence": [],
+      "facts": {
+       "year": "2008",
+       "minutes": null,
+       "movements": null
+      },
+      "flags": [
+       "MIDI/synthesized audio only is not human-performance evidence"
+      ]
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "704077-original",
+   "pageId": 704077,
+   "kind": "original",
+   "title": "Cello Quartet No.6 (Alencar, Gabriel)",
+   "composer": "Alencar, Gabriel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/704077.json",
+   "workInfo": {
+    "Work Title": "Quarteto para cellos No.6",
+    "Alternative Title": "Cello Quartet No.6",
+    "Key": "d",
+    "Year/Date of Composition": "2009",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 cellos",
+    "Tags": "quartets ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-001.json",
+    "pageId": 704077,
+    "title": "Cello Quartet No.6 (Alencar, Gabriel)",
+    "disposition": "needs-review",
+    "reason": "Four-cello score/parts are explicit; available audio is synthesized or absent, with no exact-scoring human performance evidence.",
+    "versions": [
+     {
+      "key": null,
+      "composer": "Alencar, Gabriel",
+      "title": "Quarteto para cellos No.6",
+      "instrument": "4 cellos",
+      "independentPartCount": 4,
+      "kind": "work",
+      "arranger": null,
+      "extent": null,
+      "selection": null,
+      "imslpPage": "https://imslp.org/wiki/Cello_Quartet_No.6_%28Alencar%2C_Gabriel%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/Cello_Quartet_No.6_%28Alencar%2C_Gabriel%29",
+       "locator": "IMSLP page, Scores and Parts section",
+       "finding": "Cached excerpt lists score/parts consistent with the stated scoring."
+      },
+      "performanceEvidence": [],
+      "facts": {
+       "year": "2009",
+       "minutes": null,
+       "movements": null
+      },
+      "flags": [
+       "MIDI/synthesized audio only is not human-performance evidence"
+      ]
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "704084-original",
+   "pageId": 704084,
+   "kind": "original",
+   "title": "Cello Quartet No.7 (Alencar, Gabriel)",
+   "composer": "Alencar, Gabriel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/704084.json",
+   "workInfo": {
+    "Work Title": "Quarteto para cellos No.7",
+    "Alternative Title": "Cello Quartet No.7",
+    "Key": "a",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 cellos",
+    "Tags": "quartets ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-001.json",
+    "pageId": 704084,
+    "title": "Cello Quartet No.7 (Alencar, Gabriel)",
+    "disposition": "needs-review",
+    "reason": "Four-cello score/parts are explicit; available audio is synthesized or absent, with no exact-scoring human performance evidence.",
+    "versions": [
+     {
+      "key": null,
+      "composer": "Alencar, Gabriel",
+      "title": "Quarteto para cellos No.7",
+      "instrument": "4 cellos",
+      "independentPartCount": 4,
+      "kind": "work",
+      "arranger": null,
+      "extent": null,
+      "selection": null,
+      "imslpPage": "https://imslp.org/wiki/Cello_Quartet_No.7_%28Alencar%2C_Gabriel%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/Cello_Quartet_No.7_%28Alencar%2C_Gabriel%29",
+       "locator": "IMSLP page, Scores and Parts section",
+       "finding": "Cached excerpt lists score/parts consistent with the stated scoring."
+      },
+      "performanceEvidence": [],
+      "facts": {
+       "year": null,
+       "minutes": null,
+       "movements": null
+      },
+      "flags": [
+       "MIDI/synthesized audio only is not human-performance evidence"
+      ]
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "704092-original",
+   "pageId": 704092,
+   "kind": "original",
+   "title": "Cello Quartet No.8 (Alencar, Gabriel)",
+   "composer": "Alencar, Gabriel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/704092.json",
+   "workInfo": {
+    "Work Title": "Quarteto para cellos No.8",
+    "Alternative Title": "Cello Quartet No.8",
+    "Key": "a",
+    "Year/Date of Composition": "2008",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 cellos",
+    "Tags": "quartets ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-001.json",
+    "pageId": 704092,
+    "title": "Cello Quartet No.8 (Alencar, Gabriel)",
+    "disposition": "needs-review",
+    "reason": "Four-cello score/parts are explicit; available audio is synthesized or absent, with no exact-scoring human performance evidence.",
+    "versions": [
+     {
+      "key": null,
+      "composer": "Alencar, Gabriel",
+      "title": "Quarteto para cellos No.8",
+      "instrument": "4 cellos",
+      "independentPartCount": 4,
+      "kind": "work",
+      "arranger": null,
+      "extent": null,
+      "selection": null,
+      "imslpPage": "https://imslp.org/wiki/Cello_Quartet_No.8_%28Alencar%2C_Gabriel%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/Cello_Quartet_No.8_%28Alencar%2C_Gabriel%29",
+       "locator": "IMSLP page, Scores and Parts section",
+       "finding": "Cached excerpt lists score/parts consistent with the stated scoring."
+      },
+      "performanceEvidence": [],
+      "facts": {
+       "year": "2008",
+       "minutes": null,
+       "movements": null
+      },
+      "flags": []
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "704361-original",
+   "pageId": 704361,
+   "kind": "original",
+   "title": "Cello Quartet No.9 (Alencar, Gabriel)",
+   "composer": "Alencar, Gabriel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/704361.json",
+   "workInfo": {
+    "Work Title": "Quarteto para cellos n.º 9",
+    "Alternative Title": "Cello Quartet n. 9",
+    "Key": "a",
+    "Year/Date of Composition": "2009",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 cellos",
+    "Tags": "quartets ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-001.json",
+    "pageId": 704361,
+    "title": "Cello Quartet No.9 (Alencar, Gabriel)",
+    "disposition": "needs-review",
+    "reason": "Four-cello score/parts are explicit; available audio is synthesized or absent, with no exact-scoring human performance evidence.",
+    "versions": [
+     {
+      "key": null,
+      "composer": "Alencar, Gabriel",
+      "title": "Quarteto para cellos n.º 9",
+      "instrument": "4 cellos",
+      "independentPartCount": 4,
+      "kind": "work",
+      "arranger": null,
+      "extent": null,
+      "selection": null,
+      "imslpPage": "https://imslp.org/wiki/Cello_Quartet_No.9_%28Alencar%2C_Gabriel%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/Cello_Quartet_No.9_%28Alencar%2C_Gabriel%29",
+       "locator": "IMSLP page, Scores and Parts section",
+       "finding": "Cached excerpt lists score/parts consistent with the stated scoring."
+      },
+      "performanceEvidence": [],
+      "facts": {
+       "year": "2009",
+       "minutes": null,
+       "movements": null
+      },
+      "flags": [
+       "MIDI/synthesized audio only is not human-performance evidence"
+      ]
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "833730-original",
+   "pageId": 833730,
+   "kind": "original",
+   "title": "Cello Quartet, Op.11 (Limmer, Franz)",
+   "composer": "Limmer, Franz",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/833730.json",
+   "workInfo": {
+    "Work Title": "Cello Quartet",
+    "Opus/Catalogue Number": "Op.11",
+    "Key": "Eb",
+    "Number of Movements/Sections": "4 movements: #Adagio - Allegro moderato #Scherzo. Allegro con fuoco - Trio #Adagio #Rondo. Allegretto",
+    "Year of First Publication": "1830",
+    "Piece Style": "Romantic",
+    "Instrumentation": "4 cellos",
+    "Tags": "quartets ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-004.json",
+    "pageId": 833730,
+    "title": "Cello Quartet, Op.11 (Limmer, Franz)",
+    "disposition": "needs-review",
+    "reason": "A complete four-part cello score is available, but no human recording/performance floor was established.",
+    "facts": [
+     "Published 1830; four cellos; no performance floor located."
+    ],
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Cello_Quartet,_Op.11_(Limmer,_Franz)",
+      "checkedOn": "2026-10-28",
+      "finding": "IMSLP lists complete parts for four cellos and four movements; its performance section has no recording."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "24506-original",
+   "pageId": 24506,
+   "kind": "original",
+   "title": "Cello Quartet, Op.6 (Werner, Josef)",
+   "composer": "Werner, Josef",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/24506.json",
+   "workInfo": {
+    "Work Title": "Cello Quartet",
+    "Alternative Title": "Quartett, 4 Violoncelle oder 3 Violoncelle und Viola",
+    "Opus/Catalogue Number": "Op.6",
+    "Key": "c",
+    "Number of Movements/Sections": "3 movements #Andante serioso #Scherzo. Allegro molto vivace #Introduzione. Adagio molto - Moderato",
+    "Year of First Publication": "1884 Munich: Aibl",
+    "Piece Style": "Romantic",
+    "Instrumentation": "4 cellos (or 3 cellos and viola)",
+    "Tags": "quartets ; 4vc ; va 3vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1182265-original",
+   "pageId": 1182265,
+   "kind": "original",
+   "title": "Cello Trio in C Major (Araya, Samuel)",
+   "composer": "Araya, Samuel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1182265.json",
+   "workInfo": {
+    "Work Title": "Cello Trio in C Major",
+    "Key": "C",
+    "Number of Movements/Sections": "3 movements",
+    "Year/Date of Composition": "2020-21",
+    "Piece Style": "Modern",
+    "Instrumentation": "3 cellos",
+    "Tags": "trios ; 3vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-006.json",
+    "pageId": 1182265,
+    "title": "Cello Trio in C Major (Araya, Samuel)",
+    "disposition": "needs-review",
+    "reason": "Scoring and notation appear eligible, but focused searching did not establish an actual human performance/released recording.",
+    "sourceEvidence": [
+     {
+      "url": "https://imslp.org/wiki/Cello_Trio_in_C_major_(Araya,_Samuel)",
+      "finding": "Cached original page lists a three-cello work and score material."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "96378-original",
+   "pageId": 96378,
+   "kind": "original",
+   "title": "Cello Trio in E minor, Op.12 (Limmer, Franz)",
+   "composer": "Limmer, Franz",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/96378.json",
+   "workInfo": {
+    "Work Title": "Trio pour 3 Violoncelles",
+    "Opus/Catalogue Number": "Op.12",
+    "Key": "G major/E minor",
+    "Number of Movements/Sections": "4 movements: #Allegro assai moderato (G major) #Andante #Scherzo: Vivace - Trio #Finale: Allegro agitato (E minor)",
+    "Year of First Publication": "1831 – Vienna: Pietro Mechetti (plate 2150)",
+    "Piece Style": "Romantic",
+    "Instrumentation": "3 Violoncellos",
+    "Tags": "trios ; 3vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-005.json",
+    "pageId": 96378,
+    "title": "Cello Trio in E minor, Op.12 (Limmer, Franz)",
+    "disposition": "needs-review",
+    "reason": "Three-cello score is listed, but no exact human performance evidence found in focused search.",
+    "sourcefacts": [
+     {
+      "url": "https://imslp.org/wiki/Cello_Trio_in_E_minor%2C_Op.12_%28Limmer%2C_Franz%29",
+      "checkedOn": "2026-10-28",
+      "finding": "Cached IMSLP original-page source excerpt: work info and listed score/performance sections."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1327075-original",
+   "pageId": 1327075,
+   "kind": "original",
+   "title": "Cello-Oktett (Ziervogel, Benedict)",
+   "composer": "Ziervogel, Benedict",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1327075.json",
+   "workInfo": {
+    "Work Title": "Cello-Oktett",
+    "Alternative Title": "Cello Octet",
+    "Year/Date of Composition": "1993",
+    "Piece Style": "Modern",
+    "Instrumentation": "8 cellos",
+    "Tags": "octets ; 8vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1532325-original",
+   "pageId": 1532325,
+   "kind": "original",
+   "title": "Chanson Mélo (Wick, Marcellus)",
+   "composer": "Wick, Marcellus",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1532325.json",
+   "workInfo": {
+    "Work Title": "Chanson Mélo",
+    "Key": "G",
+    "Number of Movements/Sections": "1 movement",
+    "Average Duration": "4 minutes",
+    "Piece Style": "Early 20th century",
+    "Instrumentation": "4 violins",
+    "Tags": "chansons ; 4vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "576800-original",
+   "pageId": 576800,
+   "kind": "original",
+   "title": "Christmas Trio (Boktor, Anton)",
+   "composer": "Boktor, Anton",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/576800.json",
+   "workInfo": {
+    "Work Title": "Christmas Trio",
+    "Alternative Title": "Christmas Trio on Popular Christmas Tunes",
+    "Average Duration": "1.5 minutes",
+    "Year/Date of Composition": "2014",
+    "Piece Style": "Modern",
+    "Instrumentation": "Three Violins",
+    "Tags": "trios ; 3vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-006.json",
+    "pageId": 576800,
+    "title": "Christmas Trio (Boktor, Anton)",
+    "disposition": "needs-review",
+    "reason": "Three violins are indicated, but exact part independence and a qualifying performance floor remain unverified.",
+    "sourceEvidence": [
+     {
+      "url": "https://imslp.org/wiki/Christmas_Trio_(Boktor,_Anton)",
+      "finding": "Cached work page identifies a three-violin version."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1617068-original",
+   "pageId": 1617068,
+   "kind": "original",
+   "title": "Concerto for 4 Violins, TWV 40:202 (Telemann, Georg Philipp)",
+   "composer": "Telemann, Georg Philipp",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1617068.json",
+   "workInfo": {
+    "Work Title": "Concerto for 4 Violins",
+    "Opus/Catalogue Number": "TWV 40:202",
+    "Key": "D",
+    "Number of Movements/Sections": "3 movements: # Adagio-Allegro # Grave # Allegro",
+    "Piece Style": "Baroque",
+    "Instrumentation": "4 violins",
+    "Tags": "concertos ; 4vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-004.json",
+    "pageId": 1617068,
+    "title": "Concerto for 4 Violins, TWV 40:202 (Telemann, Georg Philipp)",
+    "disposition": "lead",
+    "reason": "The manuscript contains a complete set of four-violin parts, and Music@Menlo’s 2026 official page documents a professional performance by four named violinists with a paid livestream; resolve movement-count differences before import.",
+    "facts": [
+     "Original work is for four violins; do not substitute the separate harpsichord-continuo edition.",
+     "Official performance floor exists; cached page movement count is three while other records describe four movements."
+    ],
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+      "checkedOn": "2026-10-28",
+      "finding": "IMSLP lists a complete manuscript part set for four violins, plus a separate arranger-created edition with a continuo line; original work-info lists three sections."
+     },
+     {
+      "url": "https://musicatmenlo.org/event/concert-program-iv-the-unfolding-of-music/",
+      "checkedOn": "2026-10-28",
+      "finding": "Music@Menlo’s July 28, 2026 program lists this exact work and names Arnaud Sussmann, Stella Chen, Aaron Boyd, and Jessica Lee; the official page offered a livestream."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1617069-original",
+   "pageId": 1617069,
+   "kind": "original",
+   "title": "Concerto for 4 Violins, TWV 40:203 (Telemann, Georg Philipp)",
+   "composer": "Telemann, Georg Philipp",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1617069.json",
+   "workInfo": {
+    "Work Title": "Concerto for 4 Violins",
+    "Alternative Title": "Sonata for 4 Violins",
+    "Opus/Catalogue Number": "TWV 40:203",
+    "Key": "C",
+    "Number of Movements/Sections": "4 movements: # Grave # Allegro # Largo e staccato # Allegro",
+    "Piece Style": "Baroque",
+    "Instrumentation": "4 violins",
+    "Tags": "concertos ; sonatas ; 4vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "975870-original",
+   "pageId": 975870,
+   "kind": "original",
+   "title": "Consort No.1 (Derecskei, András)",
+   "composer": "Derecskei, András",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/975870.json",
+   "workInfo": {
+    "Work Title": "Consort No.1",
+    "Number of Movements/Sections": "4 movements",
+    "Average Duration": "10 minutes",
+    "Year/Date of Composition": "2014",
+    "Piece Style": "Modern",
+    "Instrumentation": "for 4 same kind of bowed string instruments (4 violins; 4 violas; 4 celli)",
+    "Tags": "pieces ; 4vn ; 4va ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1040503-original",
+   "pageId": 1040503,
+   "kind": "original",
+   "title": "Céu e Nuvens II (Alencar, Gabriel)",
+   "composer": "Alencar, Gabriel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1040503.json",
+   "workInfo": {
+    "Work Title": "Céu e Nuvens II",
+    "Key": "a",
+    "Average Duration": "2 minutes",
+    "Year/Date of Composition": "2018",
+    "Piece Style": "Romantic",
+    "Instrumentation": "4 cellos",
+    "Tags": "pieces ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-001.json",
+    "pageId": 1040503,
+    "title": "Céu e Nuvens II (Alencar, Gabriel)",
+    "disposition": "lead",
+    "reason": "Four-cello scoring and an explicitly described multitrack cello-quartet complete recording are listed.",
+    "versions": [
+     {
+      "key": null,
+      "composer": "Alencar, Gabriel",
+      "title": "Céu e Nuvens II",
+      "instrument": "4 cellos",
+      "independentPartCount": 4,
+      "kind": "work",
+      "arranger": null,
+      "extent": null,
+      "selection": null,
+      "imslpPage": "https://imslp.org/wiki/C%C3%A9u_e_Nuvens_II_%28Alencar%2C_Gabriel%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/C%C3%A9u_e_Nuvens_II_%28Alencar%2C_Gabriel%29",
+       "locator": "IMSLP page, Scores and Parts section",
+       "finding": "No original-scoring score/parts explicit in cached excerpt."
+      },
+      "performanceEvidence": [
+       {
+        "url": "https://imslp.org/wiki/C%C3%A9u_e_Nuvens_II_%28Alencar%2C_Gabriel%29",
+        "locator": "AUDIO / Videos section, Complete Recording; performer field",
+        "finding": "Complete recording attributed to Gabriel Alencar, described as multitrack cello quartet; page scoring is four cellos."
+       }
+      ],
+      "facts": {
+       "year": "2018",
+       "minutes": "2 minutes",
+       "movements": null
+      },
+      "flags": []
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1373738-original",
+   "pageId": 1373738,
+   "kind": "original",
+   "title": "Da capo (Tăutu, Cornelia)",
+   "composer": "Tăutu, Cornelia",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1373738.json",
+   "workInfo": {
+    "Work Title": "Da capo",
+    "Year/Date of Composition": "2006",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 cellos",
+    "Tags": "pieces ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1594751-original",
+   "pageId": 1594751,
+   "kind": "original",
+   "title": "Debout flemmard! (Wick, Marcellus)",
+   "composer": "Wick, Marcellus",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1594751.json",
+   "workInfo": {
+    "Work Title": "Debout flemmard!",
+    "Average Duration": "3 minutes",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 violins",
+    "Tags": "pieces ; 4vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "418793-original",
+   "pageId": 418793,
+   "kind": "original",
+   "title": "Die 4 Violinisten (Dello, Manuel)",
+   "composer": "Dello, Manuel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/418793.json",
+   "workInfo": {
+    "Work Title": "Les 4 Violonistes",
+    "Alternative Title": "The 4 Violinists",
+    "Number of Movements/Sections": "35 pieces in 3 volumes *Heft 1. # Dmytro|Bortniansky: Prière # Michael|Praetorius: Weihnachtslied (Cantique de Noël) # Robert|Schumann|12 Klavierstücke für kleine und große Kinder, Op.85||Abendlied, Op.85 No.12 # Dmytro|Bortniansky: Du Hirte Israels # Dmytro|Bortniansky: Gloria in excelsis (Ehre sei",
+    "Year of First Publication": "1897",
+    "Piece Style": "Romantic",
+    "Instrumentation": "4 violins",
+    "Tags": "pieces ; 4vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-006.json",
+    "pageId": 418793,
+    "title": "Die 4 Violinisten (Dello, Manuel)",
+    "disposition": "needs-review",
+    "reason": "This is a multi-book teaching collection, and one listed part set has a missing first page; collection/per-piece scope and a human performance floor need review.",
+    "sourceEvidence": [
+     {
+      "url": "https://imslp.org/wiki/Die_4_Violinisten_(Dello,_Manuel)",
+      "finding": "Page lists multiple Heft collections and notes a missing page in one part."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "803917-original",
+   "pageId": 803917,
+   "kind": "original",
+   "title": "Die Fröhliche Sommerzeit, Teil 1 (Sommer, Johann)",
+   "composer": "Sommer, Johann",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/803917.json",
+   "workInfo": {
+    "Work Title": "Die Fröhliche Sommerzeit, Teil 1",
+    "Alternative Title": "Der froehlichen Sommerzeit erster Theil, aus neuen Concerten zu singen und zu spielen bestehend. Simphoniae, cantiones et canones",
+    "Number of Movements/Sections": "26 songs/pieces: # Vater Unser in Himmelreich. 2 voices (treble and tenor). Chorale in tenor # Geheiligt werd der nahme dein. (as above) Chorale in treble # Es komb dein reich zu dieser Zeitt. (as above) Chorale in tenor # Dein will geschehers Gott zu gleich. (as above) Chorale in treble # Gib uns h",
+    "Year of First Publication": "1623",
+    "Piece Style": "Renaissance",
+    "Instrumentation": "various",
+    "Tags": "chorales ; bicinia ; canons ; fantasias ; pavans ; galliards ; sop ten ; open sop alt ; 2vn ; 2crtt ; crtt vn ; vn va ; 3vv ; 3vn ; 3crtt ; 3rec ; crtt vn bc ; 3vn bc ; v 3vn bc ; 2crtt 2vn bc ; open 2sop 2alt ten bass ; de |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-001.json",
+    "pageId": 803917,
+    "title": "Die Fröhliche Sommerzeit, Teil 1 (Sommer, Johann)",
+    "disposition": "out-of-scope",
+    "reason": "Collection lists multiple different scorings rather than one fixed same-instrument ensemble.",
+    "versions": [
+     {
+      "key": null,
+      "composer": "Sommer, Johann",
+      "title": "Die Fröhliche Sommerzeit, Teil 1",
+      "instrument": "various",
+      "independentPartCount": null,
+      "kind": "work",
+      "arranger": null,
+      "extent": "26 songs/pieces: # Vater Unser in Himmelreich. 2 voices (treble and tenor). Chorale in tenor # Geheiligt werd der nahme dein. (as above) Chorale in treble # Es komb dein reich zu dieser Zeitt. (as above) Chorale in tenor # Dein will geschehers Gott zu gleich. (as above) Chorale in treble # Gib uns h",
+      "selection": null,
+      "imslpPage": "https://imslp.org/wiki/Die_Fr%C3%B6hliche_Sommerzeit%2C_Teil_1_%28Sommer%2C_Johann%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/Die_Fr%C3%B6hliche_Sommerzeit%2C_Teil_1_%28Sommer%2C_Johann%29",
+       "locator": "IMSLP page, Scores and Parts section",
+       "finding": "No original-scoring score/parts explicit in cached excerpt."
+      },
+      "performanceEvidence": [],
+      "facts": {
+       "year": "1623",
+       "minutes": null,
+       "movements": "26 songs/pieces: # Vater Unser in Himmelreich. 2 voices (treble and tenor). Chorale in tenor # Geheiligt werd der nahme dein. (as above) Chorale in treble # Es komb dein reich zu dieser Zeitt. (as above) Chorale in tenor # Dein will geschehers Gott zu gleich. (as above) Chorale in treble # Gib uns h"
+      },
+      "flags": [
+       "collection or multiple scorings; exact scoring varies",
+       "recording signal does not by itself establish human performance of original scoring"
+      ]
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1000590-original",
+   "pageId": 1000590,
+   "kind": "original",
+   "title": "Divertimento for 3 Cellos in D major (Hofmann, Leopold)",
+   "composer": "Hofmann, Leopold",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1000590.json",
+   "workInfo": {
+    "Work Title": "Divertimento for 3 Cellos in D major",
+    "Alternative Title": "Divertimento in D. à / Violoncello Primo. Violoncello Secondo, è Basso",
+    "Key": "D",
+    "Number of Movements/Sections": "3 movements: #Allegro #Adagio #Tempo di Menuet",
+    "Piece Style": "Classical",
+    "Instrumentation": "3 cellos (or 2 cellos, bass)",
+    "Tags": "divertimentos ; 3vc ; 2vc db |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-004.json",
+    "pageId": 1000590,
+    "title": "Divertimento for 3 Cellos in D major (Hofmann, Leopold)",
+    "disposition": "needs-review",
+    "reason": "Although the title says three cellos, the typeset full score is explicitly for two cellos and bass; keep the original instrument identity unresolved rather than converting bass to cello.",
+    "facts": [
+     "Three movements; score labels show the third line as bass; no recording located."
+    ],
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Divertimento_for_3_Cellos_in_D_major_(Hofmann,_Leopold)",
+      "checkedOn": "2026-10-28",
+      "finding": "IMSLP lists the fuller manuscript as parts and the typeset score as Cello 1, Cello 2, Cello 3/Bass; instrumentation says “3 cellos (or 2 cellos, bass).”"
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "901212-original",
+   "pageId": 901212,
+   "kind": "original",
+   "title": "Divertimento voor 8 altviolen (Hoek, Arie van)",
+   "composer": "Hoek, Arie van",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/901212.json",
+   "workInfo": {
+    "Work Title": "Divertimento voor 8 altviolen",
+    "Number of Movements/Sections": "5 movements: :1. Largo-Allegro-Largo :2. Largo maestoso :3. Scherzando :4. Largo :5. Presto-Andante-Presto",
+    "Average Duration": "25 minutes",
+    "Year/Date of Composition": "2015",
+    "Piece Style": "Modern",
+    "Instrumentation": "8 violas",
+    "Tags": "divertimentos ; 8va |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1461113-original",
+   "pageId": 1461113,
+   "kind": "original",
+   "title": "Double Bass Quartet (Lauber, Joseph)",
+   "composer": "Lauber, Joseph",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1461113.json",
+   "workInfo": {
+    "Work Title": "Double Bass Quartet",
+    "Alternative Title": "Quartett für Vier solo Kontrabässe",
+    "Number of Movements/Sections": "4 movements",
+    "Year/Date of Composition": "1942",
+    "Year of First Publication": "1975 Yorke Edition",
+    "Piece Style": "Romantic",
+    "Instrumentation": "4 double basses",
+    "Tags": "quartets ; 4db |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-004.json",
+    "pageId": 1461113,
+    "title": "Double Bass Quartet (Lauber, Joseph)",
+    "disposition": "needs-review",
+    "reason": "The autograph score confirms four independent double-bass parts, and an ASU Faculty Artist recording exists, but the archive’s track list covers a partial set and labels its final item movement V; verify exact extent and quartet-level performer credits before treating it as a strong floor.",
+    "facts": [
+     "Original instrumentation: 4 double basses; score is a manuscript complete score.",
+     "Human audio exists in a university recital archive, but completeness/performer attribution is unresolved."
+    ],
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Double_Bass_Quartet_(Lauber,_Joseph)",
+      "checkedOn": "2026-10-28",
+      "finding": "IMSLP lists the 1942 autograph complete score for 4 double basses, in sounding pitch/solo tuning, and first publication by Yorke in 1975."
+     },
+     {
+      "url": "https://keep.lib.asu.edu/items/11524",
+      "checkedOn": "2026-10-28",
+      "finding": "ASU Library archives a 2004 Faculty Artist Concert recording with Lauber tracks I, II, III and V; the indexed credits are event-wide and do not map performers to these tracks."
+     },
+     {
+      "url": "https://stainer.co.uk/shop/ye0036/",
+      "checkedOn": "2026-10-28",
+      "finding": "Yorke Edition identifies a four-movement work for double bass quartet, about 13 minutes, with several recordings and broadcasts."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "824732-original",
+   "pageId": 824732,
+   "kind": "original",
+   "title": "Double Bass Trio, Op.56 (Poradowski, Stefan Bolesław)",
+   "composer": "Poradowski, Stefan Bolesław",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/824732.json",
+   "workInfo": {
+    "Work Title": "Double Bass Trio",
+    "Opus/Catalogue Number": "Op.56",
+    "Piece Style": "Early 20th century",
+    "Instrumentation": "3 double basses",
+    "Tags": "trios ; 3db |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "531258-original",
+   "pageId": 531258,
+   "kind": "original",
+   "title": "Dream (Schoonenbeek, Kees)",
+   "composer": "Schoonenbeek, Kees",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/531258.json",
+   "workInfo": {
+    "Work Title": "Dream",
+    "Average Duration": "12 minutes",
+    "Year/Date of Composition": "2014",
+    "Year of First Publication": "2014",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 violas",
+    "Tags": "pieces ; 4va |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "92173-original",
+   "pageId": 92173,
+   "kind": "original",
+   "title": "Easy Trios for 3 Violins, Op.34 (Bloch, József)",
+   "composer": "Bloch, József",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/92173.json",
+   "workInfo": {
+    "Work Title": "Easy Trios for 3 Violins",
+    "Alternative Title": "Trios faciles pour trois Violons",
+    "Opus/Catalogue Number": "Op.34",
+    "Number of Movements/Sections": "7 pieces: #Moderato #Andante con moto #Allegro moderato #Moderato #Tempo di Minuetto #Allegro moderato #Gavotte: Allegro moderato",
+    "Year of First Publication": "1905 Budapest: Charles Rozsnyai (Rozsnyai Karoly)",
+    "Piece Style": "Romantic",
+    "Instrumentation": "3 violins",
+    "Tags": "trios ; 3vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-002.json",
+    "pageId": 92173,
+    "title": "Easy Trios for 3 Violins, Op.34 (Bloch, József)",
+    "disposition": "needs-review",
+    "reason": "The seven-piece set has three violin parts and a 1905 score source, but no actual human performance of the exact set was established; “Easy” alone does not determine eligibility.",
+    "versions": []
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "24508-original",
+   "pageId": 24508,
+   "kind": "original",
+   "title": "Elegie for 4 Cellos, Op.21 (Werner, Josef)",
+   "composer": "Werner, Josef",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/24508.json",
+   "workInfo": {
+    "Work Title": "Elegie for 4 Cellos",
+    "Opus/Catalogue Number": "Op.21",
+    "Number of Movements/Sections": "1 movement",
+    "Key": "D (introduction in D minor)",
+    "Year of First Publication": "1889",
+    "Piece Style": "Romantic",
+    "Instrumentation": "4 cellos (or 3 cellos and viola, replacing cello 2)",
+    "Tags": "elegies ; 4vc ; va 3vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "319846-original",
+   "pageId": 319846,
+   "kind": "original",
+   "title": "Elfentanz, Op.2 (Bolck, Oskar)",
+   "composer": "Bolck, Oskar",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/319846.json",
+   "workInfo": {
+    "Work Title": "Elfentanz",
+    "Alternative Title": "Capriccio for 3 Violins",
+    "Opus/Catalogue Number": "Op.2",
+    "Key": "E",
+    "Number of Movements/Sections": "1",
+    "Year of First Publication": "1862",
+    "Piece Style": "Romantic",
+    "Instrumentation": "3 violins",
+    "Tags": "capriccios ; dances ; 3vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-006.json",
+    "pageId": 319846,
+    "title": "Elfentanz, Op.2 (Bolck, Oskar)",
+    "disposition": "needs-review",
+    "reason": "Three violin score indicated; no qualifying actual performance established by focused search.",
+    "sourceEvidence": [
+     {
+      "url": "https://imslp.org/wiki/Elfentanz,_Op.2_(Bolck,_Oskar)",
+      "finding": "Cached page lists three-violin scoring and notation."
+     }
+    ]
+   },
+   "existingOriginals": []
+  }
+ ]
+}

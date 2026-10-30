@@ -1,0 +1,54 @@
+{
+ "batch": "ensemble-21-recordings",
+ "accepted": [
+  {
+   "key": "recording-109189",
+   "id": 109189,
+   "publicId": 109189,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "D9iecjaTsso"
+  }
+ ],
+ "held": [
+  {
+   "key": "recording-109190",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "recording-109191",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "recording-109192",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "recording-109193",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "recording-109194",
+   "reason": "No independent approval"
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "471a215c07f4e805a47c590ace9193e0b20884d717fe386dcd71949c504bb906",
+  "data/chamber/composers.json": "c3d0d8c9006c30c383457caeebccb096fd8cf130f8b8220b33a85810ac238ddf",
+  "data/chamber/id-registry.json": "65c3c94c12dab83b0ef4f3ce818ec94a72fbffae3c4ecac495ec9c343c8bb1cf",
+  "data/chamber/sources.json": "adf58ba4610aab9f290c6d80ca4c7e17161762979543c10d6e8388239c573149",
+  "data/details/overrides.json": "ec2c343d0c9084451c724d96bc5d5eb98ad37c67709f079c1e935c4d7bbc3091",
+  "data/chamber/recordings-judged.json": "262fb3123c94e49127534dcc8bfbde3d53da0b0ca2dd4b87c7028ee5934993e1",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-recordings-03.json": "c7b1e4e8ad6fe713e99f31a913cbb74948586e883bb8353a38242ce02dc9a1f9",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-recordings-03.json": "2ca56b38894a5bd59438bc76aa6914435a260b3aad95fbd429ec08100f25d45d"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-21-recordings"
+}

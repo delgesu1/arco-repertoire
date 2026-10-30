@@ -1,0 +1,287 @@
+{
+  "entries": [
+    {
+      "key": "bach-bwv864-dicker-cello-quartet-prelude",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+          "finding": "Actual cached score inspected: 952243.pdf, four-cello complete Prelude XIX in G major, ending bar 24; no fugue."
+        },
+        {
+          "url": "https://www.learningthecello.com/free-cello-ensemble-music.php",
+          "finding": "Arranger independently publishes this complete quartet prelude, explicitly describes bass clef throughout and fourth-position/octave-harmonic ceiling. This is a separately distributed complete prelude arrangement, not an imported full WTC or prelude-and-fugue pair. Score bears \u00a9 SuzanneDicker2023; copyright date is not sufficient to set arrangement-composition or first-publication year."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8",
+          "finding": "Full cached title/channel/description/chapters/embed metadata inspected in dicker-linked-w6vtpUpFF8.json. Upload identifies Suzanne Dicker arrangements and links the same arranger library, which in turn embeds this concert. Exact complete prelude chapter at 09:34\u201311:32. Named performers Peter Brooks, Suzanne Dicker, Katrina Marie Kormanski, Elina Lang, Ted McClure; full concert also names John Lane, Samantha Lax, Melissa Fajardo, Michael Martin, Matt Marinelli and Connor Fluharty. None of Ray Chen, Sarah Chang, Joshua Bell or Stefan Jackiw appears in title, uploader or full description. playable_in_embed=true, public. Five listed cellists across the concert does not imply five independent parts in these specifically published quartets."
+        }
+      ],
+      "grade": {
+        "level": 3,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Full 24-bar score inspected (PDF pp.1\u20134), including interchanged contrapuntal figures in all four voices and the rising closing run. Cello 1 has the sustained upper-register line, chromatic turns, mixed slurs/staccato and sixteenths at quarter=56; fourth-position/octave-harmonic ceiling confirmed by arranger. Upper intermediate, no ensemble uplift. Advisory estimate against data/source/levels.json, approximately \u00b11 level; not exhaustive certification.",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "playful",
+          "lyrical"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "notes",
+        "imslpPage",
+        "arranger",
+        "minutes"
+      ],
+      "approvedDetailFields": [
+        "kind"
+      ],
+      "detailSources": {
+        "kind": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)"
+      },
+      "workCorrections": {
+        "year": ""
+      },
+      "detailCorrections": {},
+      "recordingDecisions": [
+        {
+          "id": "-w6vtpUpFF8",
+          "decision": "approved",
+          "compilation": true,
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "reason": "Complete exact Dicker prelude within a concert compilation; use chapter start 574s. Primary arranger page and metadata jointly establish version; entire concert credits checked for all four exclusions."
+        }
+      ]
+    },
+    {
+      "key": "bach-bwv867-dicker-cello-quartet-prelude",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Prelude_and_Fugue_in_B-flat_minor,_BWV_867_(Bach,_Johann_Sebastian)",
+          "finding": "Actual cached score inspected: 957315.pdf, complete four-cello Prelude XXII in C minor, all four parts end at bar24; no fugue."
+        },
+        {
+          "url": "https://www.learningthecello.com/free-cello-ensemble-music.php",
+          "finding": "Arranger independently publishes complete quartet Prelude XXII, explicitly transposed to C minor, cello1 thumb position, occasional five-voice harmony via double stops. This is a separately distributed complete prelude arrangement, not an imported full WTC or prelude-and-fugue pair. Score bears \u00a9 SuzanneDicker2023; copyright date is not sufficient to set arrangement-composition or first-publication year."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8",
+          "finding": "Full cached title/channel/description/chapters/embed metadata inspected in dicker-linked-w6vtpUpFF8.json. Upload identifies Suzanne Dicker arrangements and links the same arranger library, which in turn embeds this concert. Exact complete prelude chapter at 18:42\u201321:06. Named performers Peter Brooks, Suzanne Dicker, Katrina Marie Kormanski, Elina Lang, Ted McClure; full concert also names John Lane, Samantha Lax, Melissa Fajardo, Michael Martin, Matt Marinelli and Connor Fluharty. None of Ray Chen, Sarah Chang, Joshua Bell or Stefan Jackiw appears in title, uploader or full description. playable_in_embed=true, public. Five listed cellists across the concert does not imply five independent parts in these specifically published quartets."
+        }
+      ],
+      "grade": {
+        "level": 4,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "All four complete parts inspected (PDF pp.5\u20138; 24 bars). Cello 1 sings in thumb position, changing bass/treble clefs with chromatic inflection and a high sustained pitch; lower voices carry independent rhythmic lines and manageable double stops. Adagio eighth=80 reduces velocity demand. Early advanced by hardest part; no ensemble uplift. Advisory estimate against data/source/levels.json, approximately \u00b11 level; not exhaustive certification.",
+        "mode": "minor",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "dark"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "notes",
+        "imslpPage",
+        "arranger",
+        "minutes"
+      ],
+      "approvedDetailFields": [
+        "kind"
+      ],
+      "detailSources": {
+        "kind": "https://imslp.org/wiki/Prelude_and_Fugue_in_B-flat_minor,_BWV_867_(Bach,_Johann_Sebastian)"
+      },
+      "workCorrections": {
+        "year": ""
+      },
+      "detailCorrections": {},
+      "recordingDecisions": [
+        {
+          "id": "-w6vtpUpFF8",
+          "decision": "approved",
+          "compilation": true,
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "reason": "Complete exact Dicker prelude within a concert compilation; use chapter start 1122s. Primary arranger page and metadata jointly establish version; entire concert credits checked for all four exclusions."
+        }
+      ]
+    },
+    {
+      "key": "bach-bwv928-dicker-cello-quartet-prelude",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Prelude_in_F_major,_BWV_928_(Bach,_Johann_Sebastian)",
+          "finding": "Actual cached score inspected: 957296.pdf, complete four-cello BWV928 in F major, all four parts end at bar24."
+        },
+        {
+          "url": "https://www.learningthecello.com/free-cello-ensemble-music.php",
+          "finding": "Arranger independently publishes complete BWV928 quartet; specifically describes thumb-position extensions and string crossing in cello1. This is a separately distributed complete prelude arrangement, not an imported full WTC or prelude-and-fugue pair. Score bears \u00a9 SuzanneDicker2023; copyright date is not sufficient to set arrangement-composition or first-publication year."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8",
+          "finding": "Full cached title/channel/description/chapters/embed metadata inspected in dicker-linked-w6vtpUpFF8.json. Upload identifies Suzanne Dicker arrangements and links the same arranger library, which in turn embeds this concert. Exact complete prelude chapter at 13:52\u201315:36. Named performers Peter Brooks, Suzanne Dicker, Katrina Marie Kormanski, Elina Lang, Ted McClure; full concert also names John Lane, Samantha Lax, Melissa Fajardo, Michael Martin, Matt Marinelli and Connor Fluharty. None of Ray Chen, Sarah Chang, Joshua Bell or Stefan Jackiw appears in title, uploader or full description. playable_in_embed=true, public. Five listed cellists across the concert does not imply five independent parts in these specifically published quartets."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "All complete individual parts inspected (PDF pp.1\u20135, 24 bars). Cello 1 has extended octave thumb-position passagework, rapid string crossings, scalar/arpeggiated sixteenths and three-clef reading; cello 2 also uses tenor/treble but less continuously. Advanced student technique rather than diploma-level virtuosity; no ensemble uplift. Advisory estimate against data/source/levels.json, approximately \u00b11 level; not exhaustive certification.",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "notes",
+        "imslpPage",
+        "arranger",
+        "minutes"
+      ],
+      "approvedDetailFields": [
+        "kind"
+      ],
+      "detailSources": {
+        "kind": "https://imslp.org/wiki/Prelude_in_F_major,_BWV_928_(Bach,_Johann_Sebastian)"
+      },
+      "workCorrections": {
+        "year": ""
+      },
+      "detailCorrections": {},
+      "recordingDecisions": [
+        {
+          "id": "-w6vtpUpFF8",
+          "decision": "approved",
+          "compilation": true,
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "reason": "Complete exact Dicker prelude within a concert compilation; use chapter start 832s. Primary arranger page and metadata jointly establish version; entire concert credits checked for all four exclusions."
+        }
+      ]
+    },
+    {
+      "key": "strauss-pizzicato-polka-seymour-six-cellos",
+      "status": "held",
+      "factsVerified": false,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Pizzicato-Polka_(Strauss_Jr.,_Johann)",
+          "finding": "Actual cached score inspected: 451336.pdf, full score and six distinct numbered cello parts; title expressly says 6-part Cello Orchestra."
+        },
+        {
+          "url": "https://imslp.org/wiki/Pizzicato-Polka_(Strauss_Jr.,_Johann)",
+          "finding": "Arranger prefatory note says this arrangement was made for James Halsey and Giant Cello Ensemble at Aboyne Cello Festival in July 2013. Thus arrangement year 2013 is directly evidenced, unlike the original 1869 date. Printed Op449 is erroneous for this joint work; do not import it."
+        },
+        {
+          "url": "https://www.wienersymphoniker.at/en/opus/pizzicato-polka",
+          "finding": "Orchestra work record independently credits Johann Strauss (Sohn) and Josef Strauss, origin1869. Both composers must remain in joint key Strauss, Johann II and Josef."
+        },
+        {
+          "url": "https://www.johann-strauss.at/forschung/stammbaum/",
+          "finding": "Vienna Institute of Strauss Research family tree gives JohannII1825\u20131899 and Josef1827\u20131870. Recommended joint composer metadata dates: Johann II: 1825\u20131899; Josef: 1827\u20131870; nationality Austrian; gender M; era late-romantic. Preserve both names in display."
+        },
+        {
+          "url": "https://www.qobuz.com/gb-en/album/capucelli-gautier-capucon-capucelli/k7cqjzezjkedb",
+          "finding": "Track11, 2:21, specifically credits Gwyn Seymour transcriber, both Strauss composers and Gautier Capucon/Capucelli. Strong arrangement attribution, but does not document this exact six-part score distribution."
+        },
+        {
+          "url": "https://www.warnerclassics.com/release/capucelli",
+          "finding": "Primary label describes album as works for seven cellos; this is an album-level scoring description, not proof that this track uses seven independent parts. Seven performers might double six parts, but neither track-level scoring nor score match establishes that here. Exact six-part recording floor remains unresolved; no claim that seven players necessarily means seven parts."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Complete main score inspected (PDF pp.3\u201310, bars1\u2013110), including trio, return and coda. Cello 1 uses high pizzicato melody, bass/tenor/treble changes and leaps; chordal pizzicato in supporting parts, chromatic figures and quick sixteenths require secure left/right coordination. Advanced estimate driven by cello 1, no automatic six-player uplift. Advisory estimate against data/source/levels.json, approximately \u00b11 level; not exhaustive certification.",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "dance",
+          "playful",
+          "humorous"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "notes",
+        "imslpPage",
+        "arranger"
+      ],
+      "approvedDetailFields": [
+        "kind"
+      ],
+      "detailSources": {
+        "kind": "https://imslp.org/wiki/Pizzicato-Polka_(Strauss_Jr.,_Johann)"
+      },
+      "workCorrections": {
+        "year": "2013"
+      },
+      "detailCorrections": {},
+      "recordingDecisions": [
+        {
+          "id": "capucelli-qobuz-track11",
+          "decision": "held",
+          "compilation": false,
+          "checks": {
+            "exactVersion": false,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": false,
+            "excludedPerformersChecked": false
+          },
+          "reason": "Exact six-part match unresolved; Qobuz is a floor lead, not an embed candidate; no fabricated YouTube ID or unchecked acceptance."
+        }
+      ]
+    }
+  ]
+}

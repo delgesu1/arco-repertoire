@@ -1,0 +1,156 @@
+{
+ "batch": "batch-grades-09",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "avni-violas-terzet-original",
+   "work": {
+    "composer": "Avni, Boaz",
+    "title": "Violas Terzet",
+    "instruments": {
+     "viola": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Original trio for three violas. IMSLP records a 2009 first performance; 2013 festival coverage documents a human performance by a named viola trio.",
+    "imslpPage": "Violas Terzet (Avni, Boaz)"
+   },
+   "actualScorePath": "data/cache/same-instrument-imslp/scores/verify-06/avni-violas-terzet-score-parts.pdf",
+   "primarySources": [
+    "https://imslp.org/wiki/Violas_Terzet_(Avni,_Boaz)",
+    "https://www.periodicomirador.com/2013/04/06/se-presenta-el-trio-de-violas-del-ensamble-clasico-de-zacatecas-dentro-del-fcz-2013/"
+   ]
+  },
+  {
+   "key": "zanella-fantasia-orientale-six-celli-original",
+   "work": {
+    "composer": "Zanella, Amilcare",
+    "title": "Fantasia orientale for 6 Cellos",
+    "instruments": {
+     "cello": 6
+    },
+    "players": 6,
+    "formation": "cello-ensemble",
+    "form": "work",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Original work for six cellos. IMSLP lists score and six parts; event page associates Fantasia orientale with Rossini Cellos Orchestra, requiring floor verification.",
+    "imslpPage": "Fantasia orientale (Zanella, Amilcare)"
+   },
+   "actualScorePath": "data/cache/same-instrument-imslp/scores/verify-06/zanella-fantasia-orientale-score.pdf",
+   "primarySources": [
+    "https://imslp.org/wiki/Fantasia_orientale_(Zanella,_Amilcare)",
+    "https://www.conservatoriorossini.it/en/calendari/conversazioni-zanella/"
+   ]
+  },
+  {
+   "key": "lachner-op160-original-5cellos",
+   "work": {
+    "composer": "Lachner, Franz Paul",
+    "title": "Elegy for 5 Cellos, Op. 160",
+    "instruments": {
+     "cello": 5
+    },
+    "players": 5,
+    "formation": "string-quintet",
+    "form": "work",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Five independent cello parts; three movements; key disputed in sources.",
+    "imslpPage": "Elegy, Op.160 (Lachner, Franz Paul)"
+   },
+   "primarySources": [
+    "https://imslp.org/wiki/Elegy%2C_Op.160_%28Lachner%2C_Franz_Paul%29",
+    "https://www.wienerphilharmoniker.at/de/magazin/3-kammermusikkonzert-in-der-wiener-staatsoper-201819/6087",
+    "https://www.amadeusmusic.ch/itemcard.php?aid=1035&currency=CHF&isr=0&itemno=BP+2073&language=en&qsa=15%7C1035%7C%7C0%7C0%7C0%7Cklavier&search=klavier",
+    "https://www.deutsche-biographie.de/sfz68622.html"
+   ],
+   "actualScore": {
+    "path": "data/chamber/same-instrument/scratch/score-api/lachner-op160-parts.pdf",
+    "url": "https://ks15.imslp.org/files/imglnks/usimg/e/e2/IMSLP471593-PMLP739655-FPLachner_Elegie,_Op.160_parts.pdf"
+   }
+  }
+ ]
+}

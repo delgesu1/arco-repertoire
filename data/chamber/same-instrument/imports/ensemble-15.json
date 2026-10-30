@@ -1,0 +1,131 @@
+{
+ "batch": "ensemble-15",
+ "accepted": [
+  {
+   "key": "dale-introduction-and-andante-op5-six-violas",
+   "id": 109172,
+   "publicId": 109172,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    7,
+    8,
+    7
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "hofmann-op104-original-3violins-set",
+   "id": 109173,
+   "publicId": 109173,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "movements",
+    "kind",
+    "published"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "brahms-op91-no2-jones-5violas",
+   "id": 109174,
+   "publicId": 109174,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    4,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "alt-suite-four-double-basses",
+   "id": 109175,
+   "publicId": 109175,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed",
+    "published",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "hauta-aho-arietta-12-double-basses",
+   "id": 109176,
+   "publicId": 109176,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed",
+    "published",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [
+  {
+   "key": "lauber-quartet-double-basses-1942",
+   "reason": "Two supported independent grades are required",
+   "opinions": [
+    5
+   ]
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "cb1dd23438b75624029c1de2c7ac254653706ac916d0280a4e0b2d5f9125a257",
+  "data/chamber/composers.json": "992ddd8eada757201dceb19f3d5cd8b82f0a50c8d54486c34a9c7a8309e65675",
+  "data/chamber/id-registry.json": "fbb67378b7b35b331994383f4c61031903f195c2431294ddba536ffdb5b7014a",
+  "data/chamber/sources.json": "15ddb4c8b53c4723809d72bceee0fe8b4c234eda6a0faad338080e84150200b5",
+  "data/details/overrides.json": "79eb8559c1a7bae52d571415d15df92e09cfff90336688d110ff029d6ef8dfb2",
+  "data/chamber/recordings-judged.json": "b29c9d55c92f6b4f185f147d38f4c04d33bafae1a51a35930e149934adabead1",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-ready-15.json": "b95a03dffb26167e0102e34eb8615dc886f189921813b0c9c9fe7dbbe051174e",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-dale-floor-review-normalized.json": "b7d7170fa9a6b5dde656a87827f72b245d895f3146a58dcbe3175d0e735c0ed7",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grades-12.json": "53c7a96e8c2fa53000d0f8d658801394b6a8967683196e818db08ddf04bb81b7",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grades-13.json": "867343079445d4191844698b5d6328917721df35fc042ea9c0ae52e68b582561",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grades-15-normalized.json": "1160a3c1b1e311f9f17a569f47f9be4ba8fbd8fb5542964100222dbc7675e574",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-bass-verify-01.json": "2db20c5e069ad602b6cdb7cf0a6e3dd39d0b7d8b273d65caee61cc825f22e634",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grades-14.json": "87e3896e91012925577eeb398e9ee000741415ff08dd19346e8ef89431c2afc6"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-15"
+}

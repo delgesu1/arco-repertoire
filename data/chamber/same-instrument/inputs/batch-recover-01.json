@@ -1,0 +1,167 @@
+{
+ "batch": "batch-recover-01",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "hermann-op5-original-3violins",
+   "work": {
+    "composer": "Hermann, Friedrich",
+    "title": "Capriccio No. 2 in G major for 3 Violins, Op. 5",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "year": "",
+    "minutes": 6,
+    "set": null,
+    "notes": "Three independent violins; complete original work, without accompaniment.",
+    "imslpPage": "Capriccio No.2 for 3 Violins, Op.5 (Hermann, Friedrich)"
+   },
+   "primarySources": [
+    "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29",
+    "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+    "https://www.scribd.com/doc/249043159/Lundell-asu-0010E-10688",
+    "https://222.editionsilvertrust.com/pdf-journals/Vol31-no2.pdf"
+   ],
+   "actualScore": {
+    "path": "data/chamber/same-instrument/scratch/score-api/hermann-op5-v1.pdf",
+    "url": "https://ks15.imslp.org/files/imglnks/usimg/f/f5/IMSLP45679-SIBLEY1802.8452.a54f-39087008996375violin_1.pdf",
+    "otherPartIndexes": [
+     45680,
+     45681
+    ]
+   }
+  },
+  {
+   "key": "lachner-op160-original-5cellos",
+   "work": {
+    "composer": "Lachner, Franz Paul",
+    "title": "Elegy for 5 Cellos, Op. 160",
+    "instruments": {
+     "cello": 5
+    },
+    "players": 5,
+    "formation": "string-quintet",
+    "form": "work",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Five independent cello parts; three movements; key disputed in sources.",
+    "imslpPage": "Elegy, Op.160 (Lachner, Franz Paul)"
+   },
+   "primarySources": [
+    "https://imslp.org/wiki/Elegy%2C_Op.160_%28Lachner%2C_Franz_Paul%29",
+    "https://www.wienerphilharmoniker.at/de/magazin/3-kammermusikkonzert-in-der-wiener-staatsoper-201819/6087",
+    "https://www.amadeusmusic.ch/itemcard.php?aid=1035&currency=CHF&isr=0&itemno=BP+2073&language=en&qsa=15%7C1035%7C%7C0%7C0%7C0%7Cklavier&search=klavier",
+    "https://www.deutsche-biographie.de/sfz68622.html"
+   ],
+   "actualScore": {
+    "path": "data/chamber/same-instrument/scratch/score-api/lachner-op160-parts.pdf",
+    "url": "https://ks15.imslp.org/files/imglnks/usimg/e/e2/IMSLP471593-PMLP739655-FPLachner_Elegie,_Op.160_parts.pdf"
+   }
+  },
+  {
+   "key": "klengel-variations-op15-4vc",
+   "work": {
+    "composer": "Klengel, Julius",
+    "title": "Variations on an Original Theme, Op. 15",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Four unequal cello parts; distinct from Theme and Variations, Op. 28.",
+    "imslpPage": "Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)"
+   },
+   "primarySources": [
+    "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+    "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+    "https://cellos2go.com/products/sheet-music/cello-ensembles/klengel-variations-op-15-for-4-cellos/",
+    "https://www.nfm.wroclaw.pl/images/Sezon_2017_2018/omowienia/marzec/18.03.18_omowienie_0.4_www.pdf",
+    "https://www.editionsilvertrust.com/pdf-journals/Vol08-no1.pdf"
+   ]
+  }
+ ]
+}

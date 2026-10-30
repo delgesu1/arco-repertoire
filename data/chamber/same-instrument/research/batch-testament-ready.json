@@ -1,0 +1,107 @@
+{
+ "batch": "testament",
+ "status": "complete",
+ "checkedOn": "2026-10-28",
+ "entries": [
+  {
+   "key": "dean-testament-twelve-violas",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "Original twelve-viola score published by Bote & Bock; publisher confirms released BBC Symphony viola-section recording BIS-2016. Old 3–9-player exclusion no longer applies.",
+   "work": {
+    "composer": "Dean, Brett",
+    "title": "Testament for 12 Violas",
+    "instruments": {
+     "viola": 12
+    },
+    "players": 12,
+    "formation": "large-strings",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "2002",
+    "minutes": 14,
+    "set": null,
+    "notes": "Original twelve-viola version; starts with rosinless bows, then rosined bows. Distinct from orchestral version.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": []
+   },
+   "composerMetadata": {
+    "dates": "b. 1961",
+    "nationality": "Australian",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "kind": "single",
+    "composed": "2002",
+    "published": null,
+    "movements": null
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.boosey.com/cr/music/Brett-Dean-Testament/30840",
+      "checkedOn": "2026-10-28",
+      "locator": "Composer notes / recommended recording",
+      "finding": "Primary composer technical account of ORIGINAL twelve-viola version, 2002, 14 minutes, Bote & Bock; premiere 11 June 2003 Berlin. Public Online Score actual link https://www.boosey.com/cr/perusals/score?id=12286 requires login; stopped there. Generic repertoire note mentions winds and therefore includes orchestral-version material; not used for original scoring."
+     }
+    ],
+    "scoring": {
+     "url": "https://www.boosey.com/cr/music/Brett-Dean-Testament/30840",
+     "finding": "Music for twelve violas."
+    },
+    "floor": {
+     "url": "https://www.boosey.com/cr/music/Brett-Dean-Testament/30840",
+     "finding": "BIS-2016 recommended recording by BBC Symphony Orchestra viola section / Martyn Brabbins."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://www.schott-music.com/en/testament-no174705.html",
+     "finding": "Bote & Bock BB1100155 full score, 35 pages, available for sale; ISMN9790202530955."
+    },
+    "fieldSources": {
+     "work.year": "https://www.boosey.com/cr/music/Brett-Dean-Testament/30840",
+     "work.minutes": "https://www.boosey.com/cr/music/Brett-Dean-Testament/30840",
+     "work.instruments": "https://www.boosey.com/cr/music/Brett-Dean-Testament/30840"
+    },
+    "unknowns": {}
+   },
+   "researcherGrade": {
+    "level": 8,
+    "hardestPart": "Viola I high exposed cantilena; twelve independent viola lines and bow/noise control",
+    "mode": "unsure",
+    "pace": "lively",
+    "character": [
+     "dramatic",
+     "dark",
+     "virtuosic"
+    ],
+    "confidence": "medium",
+    "basis": "Composer’s original twelve-viola programme note explicitly describes rapid nearly silent rosinless-bow opening, a high first-viola cantilena, interrupted Op.59/1 slow-movement fragments, switch to fully rosined bows and fast aggressive/pliable development referencing the finale. Together with twelve soloistic voices documented by premiere review, this supports professional level 8 from exposed register, timbral control and ensemble coordination. Precise pitch range, rhythms and fingerings were not seen; estimate is not score-certified."
+   },
+   "recordingResearch": {
+    "status": "released-human-recording-established",
+    "candidates": [
+     {
+      "decision": "released-human-recording-established",
+      "url": "https://www.boosey.com/cr/music/Brett-Dean-Testament/30840",
+      "performers": [
+       "BBC Symphony Orchestra viola section",
+       "Martyn Brabbins"
+      ],
+      "finding": "Publisher recommended recording BIS-2016 explicitly credits viola section, confirming twelve-viola version."
+     }
+    ]
+   }
+  }
+ ]
+}

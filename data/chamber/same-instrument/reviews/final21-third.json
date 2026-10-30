@@ -1,0 +1,370 @@
+{
+ "batch": "final21",
+ "role": "blind-musical-grading",
+ "status": "complete",
+ "entries": [
+  {
+   "key": "battanchon-op40-three-cellos",
+   "status": "approved",
+   "scope": "musical-only",
+   "grade": {
+    "level": 4,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello 1 (45425.pdf pp.2-5) moves between bass, tenor and treble clef within lines, with slurred string-crossing eighth arpeggios, 16th turns and a trill, at Allegro non troppo (quarter 112) reaching about a'' in treble clef. Cello 2 (45426.pdf pp.3-4) is bass-clef accompaniment with a Minuetto and Andante in simple eighths. Heavier than the middle-level anchors but below the Reicha trio.",
+    "mode": null,
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "dance"
+    ]
+   },
+   "scoreEvidence": {
+    "paths": [
+     "data/cache/same-instrument-imslp/scores/45425.pdf",
+     "data/cache/same-instrument-imslp/scores/45426.pdf"
+    ],
+    "pagesInspected": [
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  {
+   "key": "debleser-tearful-day-four-cellos",
+   "status": "approved",
+   "scope": "musical-only",
+   "grade": {
+    "level": 2,
+    "hardestPart": "cello 1",
+    "confidence": "low",
+    "basis": "Cello 1 (404073.pdf p.1) is in tenor clef at Adagio: sustained whole notes, simple slurred eighths and long stretches of two-string 16th alternations (mm.14-23) within roughly one octave. Cello 2-4 (404072.pdf pp.3-4) are bass-clef held notes and repeating arpeggio or eighth ostinatos. The tenor clef is the main hurdle; nothing needs high positions or fast shifting.",
+    "mode": null,
+    "pace": "slow",
+    "character": [
+     "dark",
+     "tender"
+    ]
+   },
+   "scoreEvidence": {
+    "paths": [
+     "data/cache/same-instrument-imslp/scores/404072.pdf",
+     "data/cache/same-instrument-imslp/scores/404073.pdf"
+    ],
+    "pagesInspected": [
+     1,
+     3,
+     4
+    ]
+   }
+  },
+  {
+   "key": "klengel-op33-four-cellos",
+   "status": "approved",
+   "scope": "musical-only",
+   "grade": {
+    "level": 3,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello I (1009520.pdf pp.2-5, 18-19, 29-30, 35-36) is mostly in tenor clef, with slurred eighths, small turns and a few 16th pairs, rising to about c'' with a trill-like ornament. Rhythm is simple in each of the pieces sampled, including the scherzando piece (p.30). Parts 2-4 are in bass clef with light rhythm; the lines are cantabile rather than technical.",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "playful"
+    ]
+   },
+   "scoreEvidence": {
+    "paths": [
+     "data/cache/same-instrument-imslp/scores/1009520.pdf"
+    ],
+    "pagesInspected": [
+     2,
+     3,
+     4,
+     5,
+     18,
+     19,
+     29,
+     30,
+     35,
+     36
+    ]
+   }
+  },
+  {
+   "key": "kuznetsov-op13-four-cellos",
+   "status": "approved",
+   "scope": "musical-only",
+   "grade": {
+    "level": 5,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello I (415144.pdf pp.3-5, 19-21, 28-30) alternates tenor and treble clef, with chromatic 16th runs in the first Allegro (p.4), staccato 16th passages at letter E (p.19) and harmonics marked sul D (p.20). Allegro con brio finale (pp.29-30) keeps all four players busy with running eighths and leaps. Dense but idiomatic cello writing at the Reicha level.",
+    "mode": "major",
+    "pace": "lively",
+    "character": [
+     "dramatic",
+     "virtuosic"
+    ]
+   },
+   "scoreEvidence": {
+    "paths": [
+     "data/cache/same-instrument-imslp/scores/415144.pdf"
+    ],
+    "pagesInspected": [
+     3,
+     4,
+     5,
+     19,
+     20,
+     21,
+     28,
+     29,
+     30
+    ]
+   }
+  },
+  {
+   "key": "kuznetsov-op28-four-cellos",
+   "status": "approved",
+   "scope": "musical-only",
+   "grade": {
+    "level": 5,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello I (415146.pdf pp.3-6) is in tenor and treble clef, with a wide lyrical Andante, 3 against 2 string-crossing figures and fast 32nd-type flourishes (p.3), bariolage eighths and artificial harmonics in fingered octaves with the 8va line at letter H (p.5). Cello III (pp.18-21) has tenor-clef triplet figures, 16th arpeggios and a harmonic line. Sustained ensemble demands for all four, but the first part is hardest.",
+    "mode": null,
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "dance"
+    ]
+   },
+   "scoreEvidence": {
+    "paths": [
+     "data/cache/same-instrument-imslp/scores/415146.pdf"
+    ],
+    "pagesInspected": [
+     3,
+     4,
+     5,
+     6,
+     18,
+     19,
+     20,
+     21
+    ]
+   }
+  },
+  {
+   "key": "moor-op133-three-violins",
+   "status": "approved",
+   "scope": "musical-only",
+   "grade": {
+    "level": 5,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "basis": "Violin 1 (44997.pdf pp.3-6, 10-17) spans high positions with wide chromatic lines, double stops, trills, 16th-note runs (printed p.8) and ff passages in the first movement, with an Allegro vivace finale (pp.13-15 of the score) in chromatic eighths. The three parts are independent and chromatic, so intonation across the trio is exacting. Dedicated to Casals, but written for violins at an upper-advanced level.",
+    "mode": null,
+    "pace": "moderate",
+    "character": [
+     "dramatic",
+     "lyrical"
+    ]
+   },
+   "scoreEvidence": {
+    "paths": [
+     "data/cache/same-instrument-imslp/scores/44997.pdf"
+    ],
+    "pagesInspected": [
+     1,
+     2,
+     3,
+     4,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   }
+  },
+  {
+   "key": "petzold-op21-four-violins",
+   "status": "approved",
+   "scope": "musical-only",
+   "grade": {
+    "level": 4,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "basis": "Violin 1 (592377.pdf pp.1-6, 8-11) plays 16th flourishes and fast broken-chord passages, trills (m.34, m.43) and leaps to high e''' and a''', with quick pizz./arco swaps in the Polacca (pp.4-5, 10). Keys are A and D major, so intonation is friendly. The four parts hand figures to each other and need tight rhythm at quarter 84. Early-advanced.",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "dance",
+     "playful"
+    ]
+   },
+   "scoreEvidence": {
+    "paths": [
+     "data/cache/same-instrument-imslp/scores/592377.pdf"
+    ],
+    "pagesInspected": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     8,
+     9,
+     10,
+     11
+    ]
+   }
+  },
+  {
+   "key": "slunicko-op92-four-violins",
+   "status": "approved",
+   "scope": "musical-only",
+   "grade": {
+    "level": 3,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "basis": "Violin 1 of Elfenreigen, Abend and Nachtzauber (465514.pdf pp.3-6, 8-11, 14-17, 23-26) uses simple slurred figures at Allegro molto, but climbs to sustained high notes around e''' to a''' in the Eb section (p.9 of the PDF) with trills and accents, and Nachtzauber adds an animato passage with tenuto accents in high positions. The publisher's note says other parts can lie in first position; the first part is the demanding one. Upper-intermediate.",
+    "mode": "major",
+    "pace": "lively",
+    "character": [
+     "playful",
+     "dance"
+    ]
+   },
+   "scoreEvidence": {
+    "paths": [
+     "data/cache/same-instrument-imslp/scores/465514.pdf"
+    ],
+    "pagesInspected": [
+     3,
+     4,
+     5,
+     6,
+     8,
+     9,
+     10,
+     11,
+     14,
+     15,
+     16,
+     17,
+     23,
+     24,
+     25,
+     26
+    ]
+   }
+  },
+  {
+   "key": "werner-op6-four-cellos",
+   "status": "approved",
+   "scope": "musical-only",
+   "grade": {
+    "level": 5,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello I (10005.pdf pp.3-9) lives in tenor clef with excursions to treble, in the Andante serioso with con sordini, a fast Scherzo with flageolets (sul G, Flag.), thumb-position arcs and a Moderato with long runs up to a'' in 16ths (p.9 of the PDF). The viola-substitute part in alto clef is easier. A traditional Romantic quartet part at the Reicha level.",
+    "mode": "minor",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "dramatic"
+    ]
+   },
+   "scoreEvidence": {
+    "paths": [
+     "data/cache/same-instrument-imslp/scores/10005.pdf"
+    ],
+    "pagesInspected": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  {
+   "key": "derecskei-consort1-four-violins",
+   "status": "approved",
+   "scope": "musical-only",
+   "grade": {
+    "level": 7,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "basis": "Toccata (606686.pdf pp.1-6) opens Virtuoso at quarter 100 with continuous chromatic 16ths across about three octaves in each violin in canon, then staggered rhythmic cells; the Virtuoso 6/8 (dotted quarter 150, pp.13-15) is bariolage 16th triplets over wide ranges. Pulse (pp.9-10) is easy repeated-note work but demands precise ensemble. Atonal pitch material with constant string crossings and shifts for all four makes the intonation and endurance load high; uplift of one level counted for the lockstep ensemble.",
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "virtuosic",
+     "dark"
+    ]
+   },
+   "scoreEvidence": {
+    "paths": [
+     "data/cache/same-instrument-imslp/scores/606686.pdf"
+    ],
+    "pagesInspected": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     8,
+     9,
+     10,
+     13,
+     14,
+     15,
+     16
+    ]
+   }
+  },
+  {
+   "key": "poradowski-op56-three-basses",
+   "status": "approved",
+   "scope": "musical-only",
+   "grade": {
+    "level": 6,
+    "hardestPart": "double-bass 1",
+    "confidence": "low",
+    "basis": "Only three video score frames were available. Bass I (frame 1) has 16th-note runs and syncopated eighths at Allegro moderato in bass and tenor clef; frame 2 passes through tenor and treble clef with slurred eighths, and frame 3 has fast 16th figures, trills and a descending run in tenor and bass clef. Thumb positions and quick passagework at the top of the bass range, sample limited to roughly 25 bars of the first movement, so the grade is provisional.",
+    "mode": null,
+    "pace": "moderate",
+    "character": [
+     "virtuosic",
+     "dramatic"
+    ]
+   },
+   "scoreEvidence": {
+    "paths": [
+     "data/cache/same-instrument-recordings/poradowski-frames/sd1.jpg",
+     "data/cache/same-instrument-recordings/poradowski-frames/sd2.jpg",
+     "data/cache/same-instrument-recordings/poradowski-frames/sd3.jpg"
+    ],
+    "pagesInspected": [
+     1
+    ]
+   }
+  }
+ ]
+}

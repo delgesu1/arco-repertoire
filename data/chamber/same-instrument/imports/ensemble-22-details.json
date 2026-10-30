@@ -1,0 +1,36 @@
+{
+ "batch": "ensemble-22-details",
+ "accepted": [
+  {
+   "key": "details-kaufman-109194",
+   "id": 109194,
+   "publicId": 109194,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [
+    "kind",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "471a215c07f4e805a47c590ace9193e0b20884d717fe386dcd71949c504bb906",
+  "data/chamber/composers.json": "c3d0d8c9006c30c383457caeebccb096fd8cf130f8b8220b33a85810ac238ddf",
+  "data/chamber/id-registry.json": "65c3c94c12dab83b0ef4f3ce818ec94a72fbffae3c4ecac495ec9c343c8bb1cf",
+  "data/chamber/sources.json": "126cdeab14c18e219eac5d51bce78330772d533929b6376185bcae3cb0ab4b70",
+  "data/details/overrides.json": "ec2c343d0c9084451c724d96bc5d5eb98ad37c67709f079c1e935c4d7bbc3091",
+  "data/chamber/recordings-judged.json": "baa32afe70cea498226f47efa4ad55db67b9df13b8cabe4fc83904b1b88013ed",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-kaufman-details.json": "3f53b0fbb7eb86da9f423f0bc695b9b3847430cb62786f5d3f30556fb8dfa668",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-kaufman-details.json": "4ff5353b579d6a1db6a89e5e2e1e050b3a70626bf32049cdedb6fa3214638d67"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-22-details"
+}

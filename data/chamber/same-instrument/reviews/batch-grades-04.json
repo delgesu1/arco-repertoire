@@ -1,0 +1,118 @@
+{
+  "batch": "batch-grades-04",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "bacewicz-quartet-4-violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://petruccimusiclibrary.ca/files/imglnks/caimg/9/98/IMSLP774076-PMLP978945-bazewicz_violin1_fromscore.pdf",
+          "finding": "Actual violin 1 extracted part downloaded to scratch/grades-04/bacewicz.pdf; all eight pages and three movements inspected. Chromatic upper-register lyrical lines, double stops/chords, rapid scalar figures, accented leaps and Molto allegro spiccato recur. Other parts not inspected."
+        },
+        {
+          "url": "https://petruccimusiclibrary.ca/files/imglnks/caimg/6/64/IMSLP608700-PMLP978945-Bacewicz_-_Quartet_for_4_Violins_(1).pdf",
+          "finding": "Actual complete 20-page conductor score saved scratch/grades-04/bacewicz-conductor.pdf; comparison pages across all movements confirms first violin has the highest tessitura and most exposed fast shifting, with supporting parts sharing rhythm and chromatic passages."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "violin 1",
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "lyrical",
+          "dramatic"
+        ],
+        "confidence": "medium",
+        "basis": "Pre-diploma whole-work judgment from complete first-violin part, checked against conductor-score pages across all movements: recurring high-position chromatic playing, quick articulation changes, chords and shifting at speed exceed a routine grade-8 task. First violin has the highest and most exposed writing. Clear shared pulses and manageable rhythmic layering do not warrant a separate ensemble level."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "blacher-blues-espagnola-rumba-12-cellos",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.tw/uploads/PMLASIA02869-Blues.pdf",
+          "finding": "Actual Bote & Bock 1973 full score saved scratch/grades-04/blacher.pdf, all 30 PDF pages inspected. All twelve players receive exposed material: chromatic runs, high treble-clef lines and harmonics, sul ponticello/col legno, rapid pizzicato, chords, interlocking entries. Rumba layers independent subdivisions including triplets, quintuplets, sextuplets and septuplets."
+        }
+      ],
+      "grade": {
+        "level": 8,
+        "hardestPart": "balanced",
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [
+          "dance",
+          "playful",
+          "dramatic"
+        ],
+        "confidence": "medium",
+        "basis": "Professional overall level: approximately diploma-level individual cello technique across the group, with high-register chromatic passages and exposed timbral control distributed among all twelve players. Add one level for maintaining twelve independent voices, intricate rhythmic subdivisions and antiphonal handoffs while sustaining dance pulse and balance. No single numbered cello stays decisively hardest throughout the three movements."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "dancla-le-carnaval-de-venise-op119-4-violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://ks15.imslp.org/files/imglnks/usimg/b/bb/IMSLP265248-PMLP429944-violin1.pdf",
+          "finding": "Actual first-violin part saved scratch/grades-04/dancla119.pdf, all eight PDF pages viewed (one duplicated page). Complete introduction, theme, eight variations, minor section and finale present. Repeated fast double stops, upper-register scalar/arpeggio runs, harmonics, bowed/pizzicato changes and extended string-crossing figures. Printed easier alternatives exist."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "violin 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "virtuosic",
+          "playful",
+          "lyrical"
+        ],
+        "confidence": "medium",
+        "basis": "Diploma whole-work judgment for the standard brilliant version: repeated high-register work, fast double-stop passages and frequent shifts combine with sustained arpeggiated string crossings in the finale. These demands recur across several variations, rather than residing in one exceptional bar. Easier ossias would reduce the demand but do not define the main version. First violin is the supported hardest-part estimate; only that part was inspected, and no ensemble uplift added."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "dancla-ah-vous-dirai-je-maman-op161-4-violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://ks15.imslp.org/files/imglnks/usimg/f/f2/IMSLP484110-PMLP784586-Dancla.AhVousDiraijeMaman.4Vlns.Score.pdf",
+          "finding": "Actual 24-page complete score saved scratch/grades-04/dancla161.pdf; all music pages 3–24 inspected. Each player takes a solo variation. Violin 1 fourth variation has repeated fast arpeggios/string crossings and very high scalar extensions; second violin has fast runs and natural harmonics; third has sautillé."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "violin 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "virtuosic",
+          "lyrical"
+        ],
+        "confidence": "high",
+        "basis": "Whole-work pre-diploma level set by violin 1 fourth variation: extended arpeggiated runs, string crossings and high-register scales, with some ad-lib octave extension. Other players need advanced technique for their own solo variations, but violin 1 consistently reaches highest and has the most exposed register changes. Predominantly regular accompaniment and clear phrase structure do not warrant an extra ensemble level."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    }
+  ]
+}

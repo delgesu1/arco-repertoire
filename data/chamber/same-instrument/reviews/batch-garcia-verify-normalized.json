@@ -1,0 +1,461 @@
+{
+ "batch": "garcia-verify",
+ "checkedOn": "2026-10-28",
+ "status": "complete",
+ "entries": [
+  {
+   "key": "garcia-bad-brothers-double-bass-quartet",
+   "decision": "approved",
+   "factsVerified": true,
+   "findings": [
+    {
+     "url": "https://shop.doublebasshq.com/products/bad-brothers",
+     "finding": "Item explicitly identifies Simón García original double-bass quartet; edition is obtainable as a digital product. Cached product JSON has non-shipping variant."
+    },
+    {
+     "url": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/113.pdf",
+     "finding": "International Society of Bassists program documents the complete quartet in Simón García SoundWorld, performed by Dream Team 2015 (fourteen named bassists across the concert)."
+    },
+    {
+     "url": "https://shop.doublebasshq.com/products/bad-brothers",
+     "finding": "Composer gives October 2007 composition date. Recital Music 2013 sample names all four staves Double Bass 1–4, including fourth-part chord-symbol solo. Electric bass guitar is mentioned in origin story, not required by the inspected quartet notation."
+    }
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "double-bass",
+    "mode": "unsure",
+    "pace": "moderate",
+    "character": [
+     "playful",
+     "dance"
+    ],
+    "confidence": "medium",
+    "basis": "Inspected opening and open-solo score samples: upper-register bass lines, harmonics, syncopated ensemble attacks and chord-symbol improvisation. Pre-diploma is a practical whole-work estimate; improvisation complexity is performer-dependent. No extra ensemble uplift."
+   },
+   "approvedWorkFields": [
+    "composer",
+    "title",
+    "instruments",
+    "players",
+    "formation",
+    "form",
+    "level",
+    "hardestPart",
+    "year",
+    "minutes",
+    "set",
+    "notes",
+    "popularity",
+    "mode",
+    "pace",
+    "character"
+   ],
+   "workCorrections": {
+    "year": "2007",
+    "minutes": null
+   },
+   "approvedDetailFields": [
+    "kind",
+    "composed",
+    "published",
+    "movements"
+   ],
+   "detailCorrections": {
+    "composed": "2007",
+    "kind": "single",
+    "published": null,
+    "movements": null
+   },
+   "detailSources": {
+    "composed": "https://shop.doublebasshq.com/products/bad-brothers",
+    "kind": "https://shop.doublebasshq.com/products/bad-brothers",
+    "published": "https://shop.doublebasshq.com/products/bad-brothers",
+    "movements": "https://shop.doublebasshq.com/products/bad-brothers"
+   },
+   "composerMetadata": {
+    "dates": "b. 1977",
+    "nationality": "Spanish",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "composerMetadataSource": "https://shop.doublebasshq.com/products/bad-brothers",
+   "samplePaths": [
+    "data/chamber/same-instrument/evidence/garcia/bad-brothers-1.jpg",
+    "data/chamber/same-instrument/evidence/garcia/bad-brothers-2.jpg",
+    "data/chamber/same-instrument/evidence/garcia/bad-brothers-3.jpg"
+   ],
+   "recordingDecisions": [
+    {
+     "decision": "no-recording-added",
+     "url": null,
+     "reason": "Concert/programme floor retained; no exact YouTube performance audited for selection."
+    }
+   ],
+   "status": "approved"
+  },
+  {
+   "key": "garcia-ac-133-double-bass-quartet",
+   "decision": "approved",
+   "factsVerified": true,
+   "findings": [
+    {
+     "url": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet",
+     "finding": "Item explicitly identifies Simón García original double-bass quartet; edition is obtainable as a digital product. Cached product JSON has non-shipping variant."
+    },
+    {
+     "url": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/113.pdf",
+     "finding": "International Society of Bassists program documents AC-133 as a bass quartet performed by Dream Team 2015."
+    },
+    {
+     "url": "https://www.prestomusic.com/sheet-music/products/9627676--simon-garcia-ac-133",
+     "finding": "Complete quartet parts are sufficient obtainable performance materials; absence of a separately listed full score is not a hold."
+    }
+   ],
+   "grade": {
+    "level": 5,
+    "hardestPart": "double-bass",
+    "mode": "major",
+    "pace": "lively",
+    "character": [
+     "playful"
+    ],
+    "confidence": "medium",
+    "basis": "Inspected opening and later score samples: Presto quarter=160, repeated harmonic figure in treble clef, upper-register melody and syncopated dovetailing. Publisher calls it good intermediate, but reliable thumb-position playing and rhythmic ensemble place the hardest part around advanced on this scale; repetition limits the burden."
+   },
+   "approvedWorkFields": [
+    "composer",
+    "title",
+    "instruments",
+    "players",
+    "formation",
+    "form",
+    "level",
+    "hardestPart",
+    "year",
+    "minutes",
+    "set",
+    "notes",
+    "popularity",
+    "mode",
+    "pace",
+    "character"
+   ],
+   "workCorrections": {
+    "year": "",
+    "minutes": null
+   },
+   "approvedDetailFields": [
+    "kind",
+    "composed",
+    "published",
+    "movements"
+   ],
+   "detailCorrections": {
+    "composed": null,
+    "kind": "single",
+    "published": null,
+    "movements": null
+   },
+   "detailSources": {
+    "kind": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet",
+    "composed": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet",
+    "published": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet",
+    "movements": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet"
+   },
+   "composerMetadata": {
+    "dates": "b. 1977",
+    "nationality": "Spanish",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "composerMetadataSource": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet",
+   "samplePaths": [
+    "data/chamber/same-instrument/evidence/garcia/ac-133-for-db-quartet-1.jpg",
+    "data/chamber/same-instrument/evidence/garcia/ac-133-for-db-quartet-2.jpg",
+    "data/chamber/same-instrument/evidence/garcia/ac-133-for-db-quartet-3.jpg"
+   ],
+   "recordingDecisions": [
+    {
+     "decision": "no-recording-added",
+     "url": null,
+     "reason": "Concert/programme floor retained; no exact YouTube performance audited for selection."
+    }
+   ],
+   "status": "approved"
+  },
+  {
+   "key": "garcia-swing-k-1000-double-bass-quartet",
+   "decision": "approved",
+   "factsVerified": true,
+   "findings": [
+    {
+     "url": "https://shop.doublebasshq.com/products/k1000",
+     "finding": "Item explicitly identifies Simón García original double-bass quartet; edition is obtainable as a digital product. Cached product JSON has non-shipping variant."
+    },
+    {
+     "url": "https://www.lavozdegalicia.es/amp/noticia/ferrol/2009/10/02/musica-compositor-mugardes-sonara-tokio/00031254487262679965329.htm",
+     "finding": "Contemporary report announces The Bass Gang's performance of Swing K-1000 at Tokyo's Suntory Hall on 7 October 2009."
+    },
+    {
+     "url": "https://www.prestomusic.com/sheet-music/instruments/1087/composers/34670/browse",
+     "finding": "Lists Swing K-1000 Double Bass Quartet as download; not claimed to have a separate full score."
+    },
+    {
+     "url": "https://museireali.beniculturali.it/wp-content/uploads/2024/08/Programma-Conservatorio-26luglio_LIGHT.pdf",
+     "finding": "26 July 2024 programme gives Swing K-1000 and four named double bassists, independently confirming quartet human performance floor."
+    }
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "double-bass",
+    "mode": "unsure",
+    "pace": "lively",
+    "character": [
+     "dance",
+     "playful"
+    ],
+    "confidence": "low",
+    "basis": "Contextual estimate only: composer describes up-swing, solo sections and a saxophone-soli-style tutti; quartet appears in conservatory curriculum and student concert programmes. Compared with inspected companion quartets, pre-diploma is plausible, but no Swing K-1000 notation was obtained: exact register and technical ceiling remain unverified. Low confidence."
+   },
+   "approvedWorkFields": [
+    "composer",
+    "title",
+    "instruments",
+    "players",
+    "formation",
+    "form",
+    "level",
+    "hardestPart",
+    "year",
+    "minutes",
+    "set",
+    "notes",
+    "popularity",
+    "mode",
+    "pace",
+    "character"
+   ],
+   "workCorrections": {
+    "year": "",
+    "minutes": null
+   },
+   "approvedDetailFields": [
+    "kind",
+    "composed",
+    "published",
+    "movements"
+   ],
+   "detailCorrections": {
+    "composed": null,
+    "kind": "single",
+    "published": null,
+    "movements": null
+   },
+   "detailSources": {
+    "kind": "https://shop.doublebasshq.com/products/k1000",
+    "composed": "https://shop.doublebasshq.com/products/k1000",
+    "published": "https://shop.doublebasshq.com/products/k1000",
+    "movements": "https://shop.doublebasshq.com/products/k1000"
+   },
+   "composerMetadata": {
+    "dates": "b. 1977",
+    "nationality": "Spanish",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "composerMetadataSource": "https://shop.doublebasshq.com/products/k1000",
+   "samplePaths": [],
+   "recordingDecisions": [
+    {
+     "decision": "no-recording-added",
+     "url": null,
+     "reason": "Concert/programme floor retained; no exact YouTube performance audited for selection."
+    }
+   ],
+   "status": "approved"
+  },
+  {
+   "key": "garcia-a-night-in-compostela-double-bass-quartet",
+   "decision": "approved",
+   "factsVerified": true,
+   "findings": [
+    {
+     "url": "https://shop.doublebasshq.com/products/compostela",
+     "finding": "Item explicitly identifies Simón García original double-bass quartet; edition is obtainable as a digital product. Cached product JSON has non-shipping variant."
+    },
+    {
+     "url": "https://www.chicagobassensemble.com/tag/simon-garcia/",
+     "finding": "Chicago Bass Ensemble's dated January 2012 concert listing identifies A Night in Compostela as a double-bass quartet and a U.S. premiere, performed by four named players."
+    },
+    {
+     "url": "https://shop.doublebasshq.com/products/compostela",
+     "finding": "Score and first-part samples explicitly identify quartet, copyright Recital Music 2011; distinguishes this product from sextet. January 2012 Chicago programme has four named players. Composition year remains unknown."
+    }
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "double-bass",
+    "mode": "minor",
+    "pace": "lively",
+    "character": [
+     "dance",
+     "dramatic"
+    ],
+    "confidence": "medium",
+    "basis": "Inspected opening score and first-part sample: sustained accented sixteenths at quarter=120, upper register, ricochet/chordal interjections and precise syncopation. Published Bass World review confirms fluent thumb position is needed. Idiomatic repetition limits the technical burden; pre-diploma reflects endurance and coordination, with no additional uplift."
+   },
+   "approvedWorkFields": [
+    "composer",
+    "title",
+    "instruments",
+    "players",
+    "formation",
+    "form",
+    "level",
+    "hardestPart",
+    "year",
+    "minutes",
+    "set",
+    "notes",
+    "popularity",
+    "mode",
+    "pace",
+    "character"
+   ],
+   "workCorrections": {
+    "year": "",
+    "minutes": null
+   },
+   "approvedDetailFields": [
+    "kind",
+    "composed",
+    "published",
+    "movements"
+   ],
+   "detailCorrections": {
+    "composed": null,
+    "kind": "single",
+    "published": null,
+    "movements": null
+   },
+   "detailSources": {
+    "kind": "https://shop.doublebasshq.com/products/compostela",
+    "composed": "https://shop.doublebasshq.com/products/compostela",
+    "published": "https://shop.doublebasshq.com/products/compostela",
+    "movements": "https://shop.doublebasshq.com/products/compostela"
+   },
+   "composerMetadata": {
+    "dates": "b. 1977",
+    "nationality": "Spanish",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "composerMetadataSource": "https://shop.doublebasshq.com/products/compostela",
+   "samplePaths": [
+    "data/chamber/same-instrument/evidence/garcia/compostela-1.jpg",
+    "data/chamber/same-instrument/evidence/garcia/compostela-2.jpg"
+   ],
+   "recordingDecisions": [
+    {
+     "decision": "no-recording-added",
+     "url": null,
+     "reason": "Concert/programme floor retained; no exact YouTube performance audited for selection."
+    }
+   ],
+   "status": "approved"
+  },
+  {
+   "key": "garcia-the-river-fisherman-double-bass-quartet",
+   "decision": "approved",
+   "factsVerified": true,
+   "findings": [
+    {
+     "url": "https://shop.doublebasshq.com/products/the-river-fisherman",
+     "finding": "Item explicitly identifies Simón García original double-bass quartet; edition is obtainable as a digital product. Cached product JSON has non-shipping variant."
+    },
+    {
+     "url": "https://www.concerto.com.br/sites/default/files/agosto2015_site.pdf",
+     "finding": "2015 Rio de Janeiro concert listing includes The River Fisherman in a program of Simón García works for bass quartet."
+    },
+    {
+     "url": "https://www.concerto.com.br/sites/default/files/agosto2015_site.pdf",
+     "finding": "PDF p55 lists four bassists plus percussionist for a mixed Fábrica Orquestra concert. This establishes live programming, but does not establish that percussion belongs to this particular work; publisher quartet notation has four bass staves."
+    }
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "double-bass",
+    "mode": "unsure",
+    "pace": "moderate",
+    "character": [
+     "dance",
+     "playful"
+    ],
+    "confidence": "medium",
+    "basis": "Inspected opening and later score samples: upper three parts use high registers/treble clef, chromatic swing lines and aligned syncopations; fourth supplies an active lower line. Medium swing avoids extreme speed, but upper-register intonation and articulated ensemble style support pre-diploma. No separate ensemble uplift."
+   },
+   "approvedWorkFields": [
+    "composer",
+    "title",
+    "instruments",
+    "players",
+    "formation",
+    "form",
+    "level",
+    "hardestPart",
+    "year",
+    "minutes",
+    "set",
+    "notes",
+    "popularity",
+    "mode",
+    "pace",
+    "character"
+   ],
+   "workCorrections": {
+    "year": "",
+    "minutes": null
+   },
+   "approvedDetailFields": [
+    "kind",
+    "composed",
+    "published",
+    "movements"
+   ],
+   "detailCorrections": {
+    "composed": null,
+    "kind": "single",
+    "published": null,
+    "movements": null
+   },
+   "detailSources": {
+    "kind": "https://shop.doublebasshq.com/products/the-river-fisherman",
+    "composed": "https://shop.doublebasshq.com/products/the-river-fisherman",
+    "published": "https://shop.doublebasshq.com/products/the-river-fisherman",
+    "movements": "https://shop.doublebasshq.com/products/the-river-fisherman"
+   },
+   "composerMetadata": {
+    "dates": "b. 1977",
+    "nationality": "Spanish",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "composerMetadataSource": "https://shop.doublebasshq.com/products/the-river-fisherman",
+   "samplePaths": [
+    "data/chamber/same-instrument/evidence/garcia/the-river-fisherman-1.jpg",
+    "data/chamber/same-instrument/evidence/garcia/the-river-fisherman-2.jpg",
+    "data/chamber/same-instrument/evidence/garcia/the-river-fisherman-3.jpg"
+   ],
+   "recordingDecisions": [
+    {
+     "decision": "no-recording-added",
+     "url": null,
+     "reason": "Concert/programme floor retained; no exact YouTube performance audited for selection."
+    }
+   ],
+   "status": "approved"
+  }
+ ],
+ "normalizedFrom": "reviews/batch-garcia-verify.json"
+}

@@ -1,0 +1,5335 @@
+{
+ "batch": "closure-arrangement-05",
+ "items": [
+  {
+   "contextKey": "46505-arrangement",
+   "pageId": 46505,
+   "kind": "arrangement",
+   "title": "Hudba ke kroužení kužely, JW 8/13 (Janáček, Leoš)",
+   "composer": "Janáček, Leoš",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/46505.json",
+   "workInfo": {
+    "Work Title": "Music for club swinging",
+    "Alternative Title": "Hudba ke kroužení kužely (original Czech-language title)",
+    "Opus/Catalogue Number": "VIII/13",
+    "Number of Movements/Sections": "5 sections",
+    "Year/Date of Composition": "1893",
+    "Year of First Publication": "1950",
+    "Piece Style": "Romantic",
+    "Instrumentation": "piano",
+    "Tags": "pieces ; pf |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For String Orchestra (Fine)",
+     "arrangers": [
+      "Elaine|Fine"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 6 Recorders (Fine/Hillier)",
+     "arrangers": [
+      "Robert|Hillier, after Elaine|Fine"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 6 Cellos (Mandozzi)",
+     "arrangers": [
+      "Orfeo|Mandozzi"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-007.json",
+    "pageId": 46505,
+    "title": "Hudba ke kroužení kužely, JW 8/13 (Janáček, Leoš)",
+    "disposition": "needs-review",
+    "reason": "Mandozzi’s six-cello arrangement has complete score and parts, but the only cached page performance is an original version conducted by Elaine Fine, not the cello arrangement; exact-version human performance not established.",
+    "versions": [
+     {
+      "key": "cello-6-46505",
+      "composer": "Janáček, Leoš",
+      "title": "Hudba ke kroužení kužely, JW 8/13",
+      "arranger": "Orfeo Mandozzi",
+      "instrument": "cello",
+      "independentPartCount": 6,
+      "extent": "Hudba ke kroužení kužely, JW 8/13",
+      "selection": "arrangement selection",
+      "scoreEvidence": "Cached raw group lists Complete Score and Parts in one file.",
+      "performanceEvidence": "Cached audio credits Elaine Fine as conductor but does not establish the six-cello scoring; focused search did not find an exact-version performance.",
+      "flags": []
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "149587-arrangement",
+   "pageId": 149587,
+   "kind": "arrangement",
+   "title": "Ich bin ein guter Hirt, BWV 85 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/149587.json",
+   "workInfo": {
+    "Work Title": "Ich bin ein guter Hirt",
+    "Alternative Title": "I am a good Shepherd",
+    "Opus/Catalogue Number": "BWV 85 ; BC A 66",
+    "Key": "c",
+    "Number of Movements/Sections": "6 movements: # Aria (bass): Ich bin ein guter Hirt (c) # Aria (alto): Jesus ist ein guter Hirt (g) # Choral (soprano): Der Herr ist mein getreuer Hirt (Bb) # Recitativo (tenor): Wenn die Mietlinge schlafen (Eb-Ab) # Aria (tenor): Seht, was die Liebe tut (Eb) # Chorale: Ist Gott mein Schutz und treue",
+    "Average Duration": "20 minutes",
+    "Year/Date of Composition": "1725 in Leipzig",
+    "Year of First Publication": "1872 (BGA)",
+    "Piece Style": "Baroque",
+    "Instrumentation": "soprano, alto, tenor, bass; mixed chorus (SATB), orchestra",
+    "InstrDetail": "2 oboes, 2 violins, viola, violoncello piccolo, continuo (organ)",
+    "Tags": "sacred cantatas ; sop alt ten bass ch orch ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Aria: 'Ich bin ein guter Hirt' (No.1)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For String Quintets (Lang and Bartoli)",
+     "arrangers": [
+      "Peter|Lang||; Russ|Bartoli||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Jesus ist ein guter Hirt' (No.2)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Choral: 'Der Herr ist mein getreuer Hirt' (No.3)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Trumpet and Organ (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Aria: 'Seht, was die Liebe tut' (No.5)",
+     "arrangers": [
+      "Eusebius|Mandyczewski|1857|1929"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For String Trios (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (IJmker)",
+     "arrangers": [
+      "Ronald|IJmker||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Other",
+     "arrangers": [],
+     "nfiles": 2
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "127027-arrangement",
+   "pageId": 127027,
+   "kind": "arrangement",
+   "title": "Ich bin in mir vergnügt, BWV 204 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/127027.json",
+   "workInfo": {
+    "Work Title": "Ich bin in mir vergnügt",
+    "Alternative Title": "I am content in myself",
+    "Opus/Catalogue Number": "BWV 204 ; BC G 45",
+    "Key": "Bb",
+    "Number of Movements/Sections": "8 movements: # Recitative (soprano): Ich bin in mir vergnügt # Aria (soprano): Ruhig und in sich zufrieden # Recitative (soprano): Ihr Seelen, die ihr außer euch # Aria (soprano): Die Schätzbarkeit (Kostbarkeit) der weiten Erden # Recitative (soprano): Schwer ist es zwar, viel Eitles zu besitzen # A",
+    "Average Duration": "32 minutes",
+    "Year/Date of Composition": "1726 or 1727 in Leipzig",
+    "Year of First Publication": "1862 (BGA)",
+    "Piece Style": "Baroque",
+    "Instrumentation": "soprano, flute, 2 oboes, 2 violins, viola, continuo",
+    "Tags": "secular cantatas ; sop orch ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Aria: 'Ruhig und in sich zufrieden' (No.2)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Soprano and Keyboard Instrument (Jolliet)",
+     "arrangers": [
+      "Elie|Jolliet|1994|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Die Schätzbarkeit der weiten Erden' (No.4)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Trumpet and Organ (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Aria: 'Meine Seele sei vergnügt' (No.6)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Aria: 'Himmlische Vergnügsamkeit' (No.8)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Librettos",
+     "arrangers": [],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "412275-arrangement",
+   "pageId": 412275,
+   "kind": "arrangement",
+   "title": "Ich ruf zu dir, Herr Jesu Christ, BWV 639 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/412275.json",
+   "workInfo": {
+    "Work Title": "Ich ruf zu dir Herr Jesu Christ",
+    "Alternative Title": "à 2 Clav. et Ped.",
+    "Opus/Catalogue Number": "BWV 639 ; BC K 68",
+    "Key": "f",
+    "Number of Movements/Sections": "1 chorale prelude",
+    "Year/Date of Composition": "1708-17 in Das Orgel-Büchlein|BWV 599-644|Bach|Johann Sebastian|0 (No.41)",
+    "Year of First Publication": "1847 ca.",
+    "Piece Style": "Baroque",
+    "Instrumentation": "organ",
+    "Tags": "chorale preludes ; org |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For 2 Violins, Viola and 2 Cellos (Dicker)",
+     "arrangers": [
+      "Suzanne|Dicker"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Recorders (Kuipers)",
+     "arrangers": [
+      "Albert H.|Kuipers"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "For 2 Flutes, Alto Flute and Bass Flute (Kamioka)",
+     "arrangers": [
+      "Hideo|Kamioka|1958|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Flute, Oboe, Clarinet and Bassoon (Yaskawa)",
+     "arrangers": [
+      "Toru|Yaskawa|1960|"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 2 Trumpets and 2 Trombones (Székelyhidi)",
+     "arrangers": [],
+     "nfiles": 8
+    },
+    {
+     "heading": "For 4 Cellos (Dicker)",
+     "arrangers": [
+      "Suzanne|Dicker"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Cellos (Mandozzi)",
+     "arrangers": [
+      "Orfeo|Mandozzi"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 3 Recorders (Kuipers)",
+     "arrangers": [
+      "Albert H.|Kuipers"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For Violin, Viola and Cello or Double Bass (Bonds)",
+     "arrangers": [
+      "Alan Ernest|Bonds"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 3 Cellos or Violin and 2 Cellos (Dicker)",
+     "arrangers": [
+      "Suzanne|Dicker"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 3 Cellos (Dicker)",
+     "arrangers": [
+      "Suzanne|Dicker"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Flute and Piano (Kamioka)",
+     "arrangers": [
+      "Hideo|Kamioka|1958|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Cello and Piano (Mandozzi)",
+     "arrangers": [
+      "Orfeo|Mandozzi"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Guitar (Beuming)",
+     "arrangers": [
+      "Ben|Beuming|1947|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Piano (Busoni)",
+     "arrangers": [],
+     "nfiles": 0
+    },
+    {
+     "heading": "For 2 Pianos (Babcock)",
+     "arrangers": [
+      "Gaylon|Babcock"
+     ],
+     "nfiles": 2
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "149973-arrangement",
+   "pageId": 149973,
+   "kind": "arrangement",
+   "title": "Ich steh mit einem Fuß im Grabe, BWV 156 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/149973.json",
+   "workInfo": {
+    "Work Title": "Ich steh mit einem Fuß im Grabe",
+    "Alternative Title": "I stand with one foot in the grave",
+    "Opus/Catalogue Number": "BWV 156 ; BC A 38",
+    "Key": "F",
+    "Number of Movements/Sections": "6 movements: # Sinfonia (sometimes titled \"Arioso\") # Chorale (soprano) and Aria (tenor): Ich steh mit einem Fuß im Grabe # Recitative (bass): Mein Angst und Not # Aria (alto): Herr, was du willt, soll mir gefallen # Recitative (bass): Und willst du, dass ich nicht soll kranken # Chorale: Herr, wie ",
+    "Year/Date of Composition": "1729 in Leipzig",
+    "Year of First Publication": "1886 (BGA)",
+    "Piece Style": "Baroque",
+    "Instrumentation": "alto, tenor, bass, mixed chorus (SATB), orchestra",
+    "InstrDetail": "oboe, strings, continuo",
+    "Tags": "sacred cantatas ; alt ten bass ch orch ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Sinfonia (No.1)",
+     "arrangers": [
+      "John|Howard"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Strings (Karaca)",
+     "arrangers": [
+      "Tolga|Karaca"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 5 Recorders (Tennent)",
+     "arrangers": [
+      "R.D.|Tennent"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For String Quartets (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 3 Recorders (Tennent)",
+     "arrangers": [
+      "R.D.|Tennent"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Oboe and Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Reijden)",
+     "arrangers": [
+      "Paul R. van der|Reijden|1960|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Oboe and Organ (Gouin)",
+     "arrangers": [
+      "Pierre|Gouin [mailto:pierre.gouin@videotron.ca - Contact]"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Clarinet and Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Clarinet or Violin and Piano (Portela)",
+     "arrangers": [
+      "Kathrin|Fuchss Portela"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For Bassoon and Piano (Goodman)",
+     "arrangers": [
+      "Roe William|Goodman|1938|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Saxophone and Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Viola and Piano (Chever)",
+     "arrangers": [
+      "Trey|Chever"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Viola and Guitar (Kruithof)",
+     "arrangers": [
+      "Gert|Kruithof|1964|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Cello or Violin and Piano (Franko)",
+     "arrangers": [
+      "Sam|Franko|1857|1937"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "For Viola (Morarescu)",
+     "arrangers": [
+      "Serghei|Morarescu"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Cello (Zelinsky)",
+     "arrangers": [
+      "David S.|Zelinsky||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Bækgaard)",
+     "arrangers": [
+      "Peter|Bækgaard"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "For Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Gouin)",
+     "arrangers": [
+      "Pierre|Gouin [mailto:pierre.gouin@videotron.ca - Contact]"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Wael)",
+     "arrangers": [],
+     "nfiles": 3
+    },
+    {
+     "heading": "For Piano (Sun)",
+     "arrangers": [
+      "Ruoshi|Sun||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorale and Aria: 'Ich steh mit einem Fuß im Grabe' (No.2)",
+     "arrangers": [
+      "Peter|Lang||; Russ|Bartoli|1951|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Trumpet and Organ (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Aria: 'Herr, was du willt, soll mir gefallen' (No.4)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For String Trios (Lang / Bartoli)",
+     "arrangers": [
+      "Peter|Lang||; Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Other",
+     "arrangers": [],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "150070-arrangement",
+   "pageId": 150070,
+   "kind": "arrangement",
+   "title": "Ihr Menschen, rühmet Gottes Liebe, BWV 167 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/150070.json",
+   "workInfo": {
+    "Work Title": "Ihr Menschen, rühmet Gottes Liebe",
+    "Alternative Title": "Ye mortals, extol God’s love",
+    "Opus/Catalogue Number": "BWV 167 ; BC A 176",
+    "Key": "G",
+    "Number of Movements/Sections": "5 movements: :1. Aria (tenor): Ihr Menschen, rühmet Gottes Liebe :2. Recitative (alto): Gelobet sei der Herr Gott Israel :3. Duetto Aria (soprano): Gottes Wort, das trüget nicht :4. Recitative (bass): Des Weibes Samen kam :5. Chorale: Sei Lob und Preis mit Ehren",
+    "Year/Date of Composition": "1723 in Leipzig",
+    "Year of First Publication": "1887 (BGA)",
+    "Piece Style": "Baroque",
+    "Instrumentation": "soprano, alto, tenor, bass; mixed chorus (SATB), orchestra",
+    "InstrDetail": "oboe da caccia, trumpet, strings, continuo",
+    "Tags": "sacred cantatas ; sop alt ten bass ch orch ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Aria: 'Ihr Menschen, rühmet Gottes Liebe' (No.1)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Trumpet and Organ (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Duetto Aria: 'Gottes Wort, das trüget nicht' (No.3)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Violins (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Violas (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorale: 'Sei Lob und Preis mit Ehren' (No.5)",
+     "arrangers": [
+      "Paul|De Bra"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "*For String Trios (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 3 Violas (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 3 Cellos (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Flute and Organ (Jolliet)",
+     "arrangers": [
+      "Elie|Jolliet|1994|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Bækgaard)",
+     "arrangers": [
+      "Peter|Bækgaard"
+     ],
+     "nfiles": 3
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "953295-arrangement",
+   "pageId": 953295,
+   "kind": "arrangement",
+   "title": "Il tormentato (Gastoldi, Giovanni Giacomo)",
+   "composer": "Gastoldi, Giovanni Giacomo",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/953295.json",
+   "workInfo": {
+    "Work Title": "Il tormentato",
+    "Average Duration": "2-3 minutes",
+    "Year/Date of Composition": "1594 in Balletti a tre voci",
+    "Piece Style": "Renaissance",
+    "Instrumentation": "3 voices",
+    "Tags": "balletti ; 3vv ; it |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For 3 Trumpets (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau|1948|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 3 Cellos (Moriconi)",
+     "arrangers": [
+      "Mathieu|Moriconi||"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "3599-arrangement",
+   "pageId": 3599,
+   "kind": "arrangement",
+   "title": "In the Steppes of Central Asia (Borodin, Aleksandr)",
+   "composer": "Borodin, Aleksandr",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/3599.json",
+   "workInfo": {
+    "Work Title": "In the Steppes of Central Asia",
+    "Alternative Title": "Esquisse symphonique",
+    "Number of Movements/Sections": "1 (Allegretto con moto)",
+    "Year/Date of Composition": "1880",
+    "Year of First Publication": "1882 Hamburg: D. Rahter",
+    "Key": "a",
+    "Average Duration": "7-8 minutes",
+    "Piece Style": "Romantic",
+    "Instrumentation": "orchestra",
+    "InstrDetail": "2 flutes, oboe, English horn, 2 clarinets, 2 bassoons; 4 horns, 2 trumpets, 3 trombones, timpani, strings",
+    "Tags": "sketches ; orch |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For Theatre Orchestra (Mouton)",
+     "arrangers": [
+      "Hubert|Mouton|1872|1954"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Small Orchestra",
+     "arrangers": [],
+     "nfiles": 18
+    },
+    {
+     "heading": "For Military Band (Winterbottom)",
+     "arrangers": [
+      "Frank|Winterbottom|1861|1930"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 4 Horns and Double Bass (Clements)",
+     "arrangers": [
+      "Patrick|Clements|1943|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 4 Double Basses (Komuro)",
+     "arrangers": [
+      "Masahiro|Komuro|1967|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Piano 4 Hands",
+     "arrangers": [
+      "Composer"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For Piano (Jadoul)",
+     "arrangers": [
+      "Théodore|Jadoul|1848|1890"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Piano",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "388462-arrangement",
+   "pageId": 388462,
+   "kind": "arrangement",
+   "title": "Innsbruck ich muss dich lassen (Isaac, Heinrich)",
+   "composer": "Isaac, Heinrich",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/388462.json",
+   "workInfo": {
+    "Work Title": "Innsbruck ich muss dich lassen",
+    "Key": "F",
+    "Year/Date of Composition": "1485",
+    "Piece Style": "Renaissance",
+    "Instrumentation": "4 voices",
+    "Tags": "secular choruses ; songs ; 4vv ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For Male Chorus (Binder)",
+     "arrangers": [
+      "Fritz|Binder|1872|1945"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Accordions and Double Bass ad lib. (Pasztor)",
+     "arrangers": [
+      "Ernö|Pasztor||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Alto Recorder, Bassoon, Viola d'amore, Double Bass (Fine)",
+     "arrangers": [
+      "Elaine|Fine|1959|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Cellos (Karaca)",
+     "arrangers": [
+      "Tolga|Karaca|1977|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Tenorlied (Melody in tenor)",
+     "arrangers": [
+      "Arnold den|Teuling"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Diskantlied (Melody in soprano)",
+     "arrangers": [
+      "Albert|Folop"
+     ],
+     "nfiles": 8
+    },
+    {
+     "heading": "*For Keyboard or Harp (Teuling)",
+     "arrangers": [
+      "Arnold den|Teuling"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For Organ (Roose)",
+     "arrangers": [],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Lute (Anonymous)",
+     "arrangers": [
+      "Anonymous (ca.1570–1580)"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "807140-arrangement",
+   "pageId": 807140,
+   "kind": "arrangement",
+   "title": "Invention in A minor, BWV 784 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/807140.json",
+   "workInfo": {
+    "Work Title": "Invention in A minor",
+    "Alternative Title": "Inventio 13",
+    "Opus/Catalogue Number": "BWV 784 ; BC L 39",
+    "Key": "a",
+    "Number of Movements/Sections": "1 invention",
+    "Year/Date of Composition": "1723 in Inventions and Sinfonias|BWV 772-801|Bach|Johann Sebastian|0",
+    "Year of First Publication": "1801 in 15 Inventions|BWV 772-786|Bach|Johann Sebastian|0 (No.13)",
+    "Piece Style": "Baroque",
+    "Instrumentation": "keyboard",
+    "Tags": "inventions ; kbd |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For 2 Violins, Viola, Cello and Double Bass (Rutigliano)",
+     "arrangers": [
+      "Andrea|Rutigliano"
+     ],
+     "nfiles": 7
+    },
+    {
+     "heading": "For 4 Cellos (Dicker)",
+     "arrangers": [
+      "Suzanne|Dicker||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Treble Recorders (Kieviet)",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Clarinet and Violin (Bielenberg)",
+     "arrangers": [
+      "Aliosha|Bielenberg"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Trombones (Westphal)",
+     "arrangers": [
+      "Martin|Westphal"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Guitars (Höger)",
+     "arrangers": [
+      "Anton|Höger"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Renaissance Lutes (Nesyba)",
+     "arrangers": [
+      "Stefan|Nesyba|1955|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 2 Violins (Mayer)",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Violas (Mayer)",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Cellos (Ohashi)",
+     "arrangers": [
+      "Akira|Ohashi"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "807126-arrangement",
+   "pageId": 807126,
+   "kind": "arrangement",
+   "title": "Invention in F minor, BWV 780 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/807126.json",
+   "workInfo": {
+    "Work Title": "Invention in F minor",
+    "Alternative Title": "Invention 9",
+    "Opus/Catalogue Number": "BWV 780 ; BC L 35",
+    "Key": "f",
+    "Number of Movements/Sections": "1 invention",
+    "Year/Date of Composition": "1723 in Inventions and Sinfonias|BWV 772-801|Bach|Johann Sebastian|0",
+    "Year of First Publication": "1801 in 15 Inventions|BWV 772-786|Bach|Johann Sebastian|0 (No.9)",
+    "Piece Style": "Baroque",
+    "Instrumentation": "keyboard",
+    "Tags": "inventions ; kbd |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For 4 Cellos (Dicker)",
+     "arrangers": [
+      "Suzanne|Dicker"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Treble Recorders (Kieviet)",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Clarinet and Violin (Bielenberg)",
+     "arrangers": [
+      "Aliosha|Bielenberg"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Guitars (Höger)",
+     "arrangers": [
+      "Anton|Höger"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "345923-arrangement",
+   "pageId": 345923,
+   "kind": "arrangement",
+   "title": "Jesu Leiden, Pein und Tod, BWV Anh.57 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/345923.json",
+   "workInfo": {
+    "Work Title": "Jesu Leiden, Pein und Tod, BWV Anh.57",
+    "Opus/Catalogue Number": "BWV Anh.57",
+    "Piece Style": "Baroque",
+    "Instrumentation": "Organ",
+    "Tags": "chorale preludes ; org |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For 4 Violas (Dinopoulos)",
+     "arrangers": [],
+     "nfiles": 2
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "149579-arrangement",
+   "pageId": 149579,
+   "kind": "arrangement",
+   "title": "Jesu, der du meine Seele, BWV 78 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/149579.json",
+   "workInfo": {
+    "Work Title": "Jesu, der du meine Seele",
+    "Alternative Title": "Jesus, by whom my soul",
+    "Opus/Catalogue Number": "BWV 78 ; BC A 130",
+    "Key": "g",
+    "Number of Movements/Sections": "7 movements: # Chorus: Jesu, der du meine Seele (g) # Aria (soprano, alto): Wir eilen mit schwachen, doch emsigen Schritten (Bb) # Recitativo (tenor): Ach! ich bin ein Kind der Sünden (d-c) # Aria (tenor): Das Blut, so meine Schuld durchstreicht (g) # Recitativo (bass): Die Wunden, Nägel, Kron und G",
+    "Average Duration": "25 minutes",
+    "Year/Date of Composition": "1724 in Leipzig",
+    "Year of First Publication": "1870 (BGA)",
+    "Piece Style": "Baroque",
+    "Instrumentation": "soprano, alto, tenor, bass; mixed chorus (SATB), orchestra",
+    "InstrDetail": "flute, 2 oboes, horn, strings, continuo",
+    "Tags": "sacred cantatas ; sop alt ten bass ch orch ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Chorus: 'Jesu, der du meine Seele' (No.1)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Boniteau)",
+     "arrangers": [
+      "Marc|Boniteau"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Boniteau)",
+     "arrangers": [
+      "Marc|Boniteau"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Aria: 'Wir eilen mit schwachen, doch emsigen Schritten' (No.2)",
+     "arrangers": [
+      "John Michael|Diack|1869|1946"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Horns, 2 Flugelhorns, 2 Trumpets, 4 Trombones and Tuba (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau|1948|"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "*For 5 Accordions and Bass Accordion (De Bra)",
+     "arrangers": [
+      "Paul|De Bra"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For 2 Trumpets, 2 Trombones and Organ (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau"
+     ],
+     "nfiles": 7
+    },
+    {
+     "heading": "For Horn, Trumpet and Euphonium (Messerschmidt)",
+     "arrangers": [
+      "Hans Jorgen|Messerschmidt|1944|"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "*For String Trios (Optional Quartet) (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Gouin)",
+     "arrangers": [
+      "Pierre|Gouin [mailto:pierre.gouin@videotron.ca - Contact]"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For 2 Recorders and Continuo, Bass Recorder ad lib. (Tennent)",
+     "arrangers": [
+      "R.D.|Tennent"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "Aria: 'Das Blut, so meine Schuld durchstreicht' (No.4)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Flute and Piano (Papillon)",
+     "arrangers": [
+      "André|Papillon"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Trumpet and Organ (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "Aria: 'Nur du wirst mein Gewissen stillen' (No.6)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Other",
+     "arrangers": [],
+     "nfiles": 2
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "152210-arrangement",
+   "pageId": 152210,
+   "kind": "arrangement",
+   "title": "Jesu, meine Freude, BWV 227 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/152210.json",
+   "workInfo": {
+    "Work Title": "Jesu, meine Freude",
+    "Alternative Title": "Jesu my joy",
+    "Opus/Catalogue Number": "BWV 227 ; BC C 5",
+    "Key": "e",
+    "Number of Movements/Sections": "11 movements: #Jesu, meine Freude #Es ist nun nichts Verdammliches #Unter deinem Schirmen #Denn das Gesetz #Trotz dem alten Drachen #Ihr aber seid nicht fleischlich #Weg mit allen Schätzen #So aber Christus in euch ist #Gute Nacht, o Wesen #So nun der Geist #Weicht, ihr Trauergeister",
+    "Year/Date of Composition": "1723? in Leipzig",
+    "Year of First Publication": "1803 in Leipzig",
+    "Piece Style": "Baroque",
+    "Instrumentation": "mixed chorus (SSATB), (bassoon, strings (colle parta))",
+    "Tags": "motets ; ch ; ch orch ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Complete",
+     "arrangers": [
+      "Emmanuel|Legrand||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Rodrigues)",
+     "arrangers": [
+      "Nuno|Rodrigues||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Selections",
+     "arrangers": [
+      "Ruoshi|Sun||"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "Jesu, meine Freude (No.1)",
+     "arrangers": [],
+     "nfiles": 2
+    },
+    {
+     "heading": "Gute Nacht, o Wesen (No.9)",
+     "arrangers": [
+      "Ned|Gerhart|1959|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Flute and 3 Cellos (Dicker)",
+     "arrangers": [
+      "Suzanne|Dicker||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For High Voice and Keyboard (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Alto Voice and Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Oboe and Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Other",
+     "arrangers": [],
+     "nfiles": 5
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "408346-arrangement",
+   "pageId": 408346,
+   "kind": "arrangement",
+   "title": "Jesu, meines Herzens Freud, BWV 473 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/408346.json",
+   "workInfo": {
+    "Work Title": "Jesu, meines Herzens Freud",
+    "Opus/Catalogue Number": "BWV 473 ; BC F 266",
+    "Number of Movements/Sections": "1 sacred song",
+    "Year/Date of Composition": "1735",
+    "Year of First Publication": "1736 in Schemelli's Gesang-Buch (No.696, p.478)",
+    "Piece Style": "Baroque",
+    "Instrumentation": "voice, continuo",
+    "Tags": "sacred songs; v bc; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For 4 Violas (Dinopoulos)",
+     "arrangers": [],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 2 Flugelhorns and Bass Trombone (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau|1948|"
+     ],
+     "nfiles": 2
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "149283-arrangement",
+   "pageId": 149283,
+   "kind": "arrangement",
+   "title": "Jesu, nun sei gepreiset, BWV 41 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/149283.json",
+   "workInfo": {
+    "Work Title": "Jesu, nun sei gepreiset",
+    "Alternative Title": "O Jesus, now be praised",
+    "Opus/Catalogue Number": "BWV 41 ; BC A 22",
+    "Key": "C",
+    "Number of Movements/Sections": "6 movements: # Chorus: Jesu, nun sei gepreiset (C) # Aria (soprano): Laß uns, o höchster Gott, das Jahr vollbringen (G) # Recitativo (alto): Ach! deine Hand, dein Segen muß allein (a-e) # Aria (tenor): Woferne du den edlen Frieden (a) # Recitativo (bass): Doch weil der Feind bei Tag und Nacht (C) # ",
+    "Year/Date of Composition": "1724 in Leipzig",
+    "Year of First Publication": "1860 (BGA)",
+    "Piece Style": "Baroque",
+    "Instrumentation": "soprano, alto, tenor, bass; mixed chorus (SATB), orchestra",
+    "InstrDetail": "3 oboes, 3 trumpets, timpani, strings, violoncello piccolo da spalla, continuo (organ)",
+    "Tags": "sacred cantatas ; sop alt ten bass ch orch ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Chorus: 'Jesu, nun sei gepreites' (No.1)",
+     "arrangers": [
+      "Archibald Thompson|Davison|1883|1961"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Violins, 2 Violas and 2 Cellos (Bartoli)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Laß uns, o höchster Gott, das Jahr vollbringen' (No.2)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Voice, Trumpet and Organ (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "Aria: 'Woferne du den edlen Frieden' (No.4)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Tenor, Cello and Keyboard (Mandyczewski)",
+     "arrangers": [
+      "Eusebius|Mandyczewski|1857|1929"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Books",
+     "arrangers": [],
+     "nfiles": 2
+    },
+    {
+     "heading": "Other",
+     "arrangers": [],
+     "nfiles": 2
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "3317-arrangement",
+   "pageId": 3317,
+   "kind": "arrangement",
+   "title": "Johannespassion, BWV 245 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/3317.json",
+   "workInfo": {
+    "Work Title": "Johannespassion",
+    "Alternative Title": "St. John Passion ; Passionsmusik nach dem Evangelisten Johannes ; Passio secundum Joannem",
+    "Opus/Catalogue Number": "BWV 245 ; BC D 2",
+    "Number of Movements/Sections": "2 parts, 40 (NBA) or 68 (BWV) numbers *Detailed listing",
+    "Year/Date of Composition": "1724, rev.1725, 1728-32, 1749, 1739-49 (final form, never performed during Bach's lifetime)",
+    "Year of First Publication": "1831 Berlin: T. Trautwein",
+    "Piece Style": "Baroque",
+    "Instrumentation": "soprano, alto, tenor, bass, mixed chorus (SATB), orchestra",
+    "InstrDetail": "2 flutes, 2 oboes (both also oboe d'amore, oboe da caccia); strings (with 2 violas d'amore, viola da gamba), lute, continuo",
+    "Tags": "sacred oratorios ; passions ; sop alt ten bass ch orch ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "3 Chorales",
+     "arrangers": [
+      "Arthur|Bliss|1891|1975"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorus: 'Herr, Herr, unser Herrscher!' (No.1)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Organ 4 hands (Legrand)",
+     "arrangers": [
+      "Emmanuel|Legrand||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorus: 'O große Lieb' (No.3)",
+     "arrangers": [
+      "Staffan Lundberg"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Aria: 'Von den Stricken meiner Sünden' (No.7)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Ich folge dir gleichfalls' (No.9)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Bb Treble Instrument and Keyboard (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Saxophone and Keyboard (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Trumpet and Organ (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Piano (Willner)",
+     "arrangers": [
+      "Arthur|Willner|1881|1959"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorale: 'Wer hat dich so geschlagen' (No.15)",
+     "arrangers": [
+      "Nick|Dinopoulos"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Chorale: 'Durch dein Gefängnis' (No.22)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorale: 'In meines Herzens Grunde' (No.26)",
+     "arrangers": [
+      "Daniel|Taupin"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Coro: 'Lasset uns den nicht zerteilen' (No.27b)",
+     "arrangers": [
+      "Giacomo|Andreola"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "Aria: 'Es ist Vollbracht' (No.30)",
+     "arrangers": [
+      "Robert|Schaab"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Zerfliesse, mein Herze' (No.35)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Rodrigues)",
+     "arrangers": [
+      "Nuno|Rodrigues||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorus: 'Ruht wohl' (No.39)",
+     "arrangers": [
+      "Emmanuel|Legrand||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Willner)",
+     "arrangers": [
+      "Arthur|Willner"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorale: 'Ach Herr, laß dein lieb’ Engelein' (No.40)",
+     "arrangers": [
+      "Pierre|Gouin [mailto:pierre.gouin@videotron.ca - Contact]"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Librettos",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "Other",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "Selections",
+     "arrangers": [],
+     "nfiles": 16
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "2799-arrangement",
+   "pageId": 2799,
+   "kind": "arrangement",
+   "title": "Kinderszenen, Op.15 (Schumann, Robert)",
+   "composer": "Schumann, Robert",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/2799.json",
+   "workInfo": {
+    "Work Title": "Kinderszenen",
+    "Alternative Title": "Leichte Stücke für das Pianoforte",
+    "Opus/Catalogue Number": "Op.15",
+    "Number of Movements/Sections": "13 pieces: level=1|number=1|title=Von fremden Ländern und Menschen level=1|number=2|title=Kuriose Geschichte level=1|number=3|title=Hasche-Mann level=1|number=4|title=Bittendes Kind level=1|number=5|title=Glückes genug level=1|number=6|title=Wichtige Begebenheit level=1|number=7|title=Träumerei leve",
+    "Year/Date of Composition": "1838",
+    "Year of First Publication": "1839 Leipzig: Breitkopf und Härtel",
+    "Piece Style": "Romantic",
+    "Instrumentation": "piano",
+    "Tags": "pieces ; pf |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Complete",
+     "arrangers": [
+      "Joshua|Choe||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Strings (Kowalewski)",
+     "arrangers": [
+      "Jakub|Kowalewski"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Clarinets and 2 Cellos (Meige)",
+     "arrangers": [
+      "Olivier|Meige||"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For Clarinet, Violin, Viola and Cello (Meige)",
+     "arrangers": [
+      "Olivier|Meige||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Violins, Viola and Cello (Godard)",
+     "arrangers": [
+      "Benjamin|Godard|1849|1895"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Cello and Piano (Grützmacher)",
+     "arrangers": [
+      "Friedrich|Grützmacher|1832|1903"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Cello (Fine)",
+     "arrangers": [
+      "Elaine|Fine|1959|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano 4 hands",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "Selections",
+     "arrangers": [
+      "Andrea|Bornstein"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For 2 Violins and Cello (Klengel)",
+     "arrangers": [],
+     "nfiles": 0
+    },
+    {
+     "heading": "Träumerei and Am Kamin (Nos.7-8)",
+     "arrangers": [
+      "Theodore Moses|Tobani|1855|1933"
+     ],
+     "nfiles": 13
+    },
+    {
+     "heading": "For Violin and Piano (Hermann)",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Seybold)",
+     "arrangers": [
+      "Arthur|Seybold|1868|1948"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Von fremden Ländern und Menschen (No.1)",
+     "arrangers": [
+      "Joshua|Choe||"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 4 Recorders (Tennent)",
+     "arrangers": [
+      "R.D.|Tennent"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Horn, Trumpet and Euphonium (Messerschmidt)",
+     "arrangers": [
+      "Hans Jorgen|Messerschmidt|1944|"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "For Trumpet and Piano (Heidtmann)",
+     "arrangers": [
+      "Klaus|Heidtmann|1952|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano 4 Hands (Heidtmann)",
+     "arrangers": [
+      "Klaus|Heidtmann|1952|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Bittendes Kind (No.4)",
+     "arrangers": [
+      "Miguel|Llobet|1878|1938"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Träumerei (No.7)",
+     "arrangers": [
+      "Adam|Stern; after Gustav|Jensen|1843|1895"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "*For Small Orchestra",
+     "arrangers": [
+      "not identified"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Horn and Strings (Tobani)",
+     "arrangers": [
+      "Johann von|Herbeck|1831|1877",
+      "not identified"
+     ],
+     "nfiles": 8
+    },
+    {
+     "heading": "For Cello and Strings (Choe)",
+     "arrangers": [
+      "Joshua|Choe||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Strings (BerenCamlost)",
+     "arrangers": [
+      "BerenCamlost|||"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For Strings (Choe)",
+     "arrangers": [
+      "Joshua|Choe||"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For Strings (Mourey)",
+     "arrangers": [
+      "Colette|Mourey"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Horns, 2 Trumpets, 3 Trombones and Tuba (Mourey)",
+     "arrangers": [
+      "Colette|Mourey"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Accordions and Bass Accordion (De Bra)",
+     "arrangers": [
+      "Paul|De Bra|1959|"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "*For Mandolin Ensemble (Munier)",
+     "arrangers": [
+      "Carlo|Munier|1859|1911"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 2 Violins, Viola and Cello (Sitt)",
+     "arrangers": [
+      "Hans|Sitt|1850|1922"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For 4 Violins (Dello)",
+     "arrangers": [],
+     "nfiles": 0
+    },
+    {
+     "heading": "*For 4 Violins (Dancla)",
+     "arrangers": [],
+     "nfiles": 0
+    },
+    {
+     "heading": "For 4 Violins (Saenger)",
+     "arrangers": [
+      "Gustav|Saenger|1865|1935"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "For Horn, Trumpet and Euphonium (Messerschmidt)",
+     "arrangers": [
+      "Hans Jorgen|Messerschmidt|1944|"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "For Violin, Cello and Piano (Klugescheid)",
+     "arrangers": [
+      "Richard|Klugescheid|1889|1968"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Narrator and Piano (Dupont-Vernon)",
+     "arrangers": [
+      "Madame Henri|Dupont-Vernon|ca.1840|before 1940"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Soprano and Piano or Organ (Mourey)",
+     "arrangers": [
+      "Colette|Mourey"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Mezzo-Soprano and Piano or Organ (Mourey)",
+     "arrangers": [
+      "Colette|Mourey"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Alto and Piano or Organ (Mourey)",
+     "arrangers": [
+      "Colette|Mourey"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Tenor and Piano or Organ (Mourey)",
+     "arrangers": [
+      "Colette|Mourey"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Baritone and Piano or Organ (Mourey)",
+     "arrangers": [
+      "Colette|Mourey"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Bass and Piano or Organ (Mourey)",
+     "arrangers": [
+      "Colette|Mourey"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Flute and Piano (Taffanel)",
+     "arrangers": [],
+     "nfiles": 0
+    },
+    {
+     "heading": "For Cornet and Piano",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Eichler)",
+     "arrangers": [
+      "Max|Eichler|1868"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Violin and Piano (Ernst)",
+     "arrangers": [
+      "Henri|Ernst|| (fl. 1870-1917)"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Hofmann)",
+     "arrangers": [
+      "Richard|Hofmann|1844|1918"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Jensen)",
+     "arrangers": [
+      "Gustav|Jensen|1843|1895"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Kross)",
+     "arrangers": [
+      "Emil|Kross|1852|1917"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Violin and Piano (Palaschko)",
+     "arrangers": [
+      "Johannes|Palaschko|1877|1932"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Violin and Piano (Rossi)",
+     "arrangers": [
+      "Marcello|Rossi|1862|1897"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Tobani)",
+     "arrangers": [
+      "Theodore Moses|Tobani|1855|1933"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin or Cello and Piano or Harpsichord (Mourey)",
+     "arrangers": [
+      "Colette|Mourey"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "For Viola and Piano (Schalltrichter)",
+     "arrangers": [
+      "Uwe|Schalltrichter"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Cello and Piano (Davydov)",
+     "arrangers": [
+      "Karl|Davydov|1838|1899"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Cello and Piano (Goltermann)",
+     "arrangers": [
+      "Georg|Goltermann|1824|1898"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Cello and Piano (Grützmacher)",
+     "arrangers": [
+      "Friedrich|Grützmacher|1832|1903"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Cello and Piano (Popper)",
+     "arrangers": [
+      "David|Popper|1843|1913"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Cello and Piano (Trinkaus)",
+     "arrangers": [
+      "George John|Trinkaus|1878|1960"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Cello and Piano",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Double Bass and Piano (Láska)",
+     "arrangers": [
+      "Gustav|Láska|1847|1928"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 2 Violins (Bielfeld)",
+     "arrangers": [
+      "August|Bielfeld|1847|1924"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Harp (Alberti)",
+     "arrangers": [
+      "D.|Alberti (fl. 1914)"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Guitar (Hayden)",
+     "arrangers": [
+      "Winslow Lewis|Hayden|1839|1886|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Guitar (Llobet)",
+     "arrangers": [
+      "Miguel|Llobet|1878|1938"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Guitar (Mourey)",
+     "arrangers": [
+      "Colette|Mourey"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Guitar (Tárrega)",
+     "arrangers": [
+      "Francisco|Tárrega|1852|1909"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For Guitar (Tárrega, Borda y Pagola, Apke)",
+     "arrangers": [
+      "Francisco|Tárrega|1852|1909; Martín|Borda y Pagola|1880|1969; Stefan|Apke|1963|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin (Nag Chowdhury)",
+     "arrangers": [
+      "Debneil|Nag Chowdhury"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Melody Instrument (Di Caro)",
+     "arrangers": [
+      "Charles|Di Caro"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Concertina (Strong)",
+     "arrangers": [
+      "Robert|Strong|2000|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Guilmant)",
+     "arrangers": [
+      "Alexandre|Guilmant|1837|1911"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Endo)",
+     "arrangers": [
+      "Masao|Endo|1947|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Morrison)",
+     "arrangers": [
+      "Will B.|Morrison|1874|1937"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Am Kamin (No.8)",
+     "arrangers": [
+      "Hans Jorgen|Messerschmidt|1944|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Hofmann)",
+     "arrangers": [
+      "Richard|Hofmann|1844|1918"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Der Dichter Spricht (No.13)",
+     "arrangers": [
+      "Liam|Cameron|2001|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Braille Scores",
+     "arrangers": [],
+     "nfiles": 0
+    },
+    {
+     "heading": "For Violin and Piano (Hermann)",
+     "arrangers": [
+      "Friedrich|Hermann|1828|1907"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "508731-arrangement",
+   "pageId": 508731,
+   "kind": "arrangement",
+   "title": "Kleine Suite, Op.29 (Seitz, Friedrich)",
+   "composer": "Seitz, Friedrich",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/508731.json",
+   "workInfo": {
+    "Work Title": "Kleine Suite",
+    "Opus/Catalogue Number": "Op.29",
+    "Number of Movements/Sections": "6 pieces #Marsch #Cavatine #Menuetto #Humoreske #Andante sostenuto #Gavotte",
+    "Piece Style": "Romantic",
+    "Instrumentation": "Violin, piano",
+    "Tags": "suites ; vn pf"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For 3 Violins (Composer)",
+     "arrangers": [],
+     "nfiles": 2
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "79801-arrangement",
+   "pageId": 79801,
+   "kind": "arrangement",
+   "title": "L'Arlésienne Suite No.1 (Bizet, Georges)",
+   "composer": "Bizet, Georges",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/79801.json",
+   "workInfo": {
+    "Work Title": "L'Arlésienne Suite No.1",
+    "Opus/Catalogue Number": "GB 121 ; Op.23bis ; WD 40",
+    "Number of Movements/Sections": "4 movements: # Prélude # Menuet # Adagietto # Carillon",
+    "Year/Date of Composition": "1872",
+    "Year of First Publication": "1873 Paris: Choudens *Score Plate A.C. 2542, 56 pages *Parts Plate A.C. 2543, 25 parts",
+    "Average Duration": "18 minutes",
+    "Piece Style": "Romantic",
+    "Instrumentation": "orchestra",
+    "InstrDetail": "2, 2d1, 2, asx, 2 - 4, 2+2, 3, 0, tmp, sdr, hp, strs :2 flutes, 2 oboes (2nd also English horn), 2 clarinets, alto saxophone, 2 bassoons; 4 horns, 2 trumpets, 2 cornets, 3 trombones; timpani, side drum, harp (or piano), strings",
+    "Tags": "incidental music ; suites ; orch |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Complete",
+     "arrangers": [
+      "Hubert|Mouton|1872|1954"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For String Orchestra (Ryden)",
+     "arrangers": [
+      "William|Ryden"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 6 Cellos (Seymour)",
+     "arrangers": [
+      "Gwyn|Seymour"
+     ],
+     "nfiles": 7
+    },
+    {
+     "heading": "For Piano 4 Hands (Vilbac)",
+     "arrangers": [
+      "Renaud de|Vilbac"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Piano (Bizet)",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "Prelude (No.1)",
+     "arrangers": [
+      "Sigfrid|Karg-Elert"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "Menuet (No.2)",
+     "arrangers": [
+      "Eduard|Schütt"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Adagietto (No.3)",
+     "arrangers": [
+      "Jean-Guillaume|Cuaz|1976|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Danbé)",
+     "arrangers": [
+      "Jules|Danbé|1840|1905"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Godowsky)",
+     "arrangers": [
+      "Leopold|Godowsky"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Stanley)",
+     "arrangers": [
+      "Walter Peck|Stanley"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Carillon (No.4)",
+     "arrangers": [
+      "Michel|Rondeau|1948|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Excerpts",
+     "arrangers": [],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "55369-arrangement",
+   "pageId": 55369,
+   "kind": "arrangement",
+   "title": "La forza del destino (Verdi, Giuseppe)",
+   "composer": "Verdi, Giuseppe",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/55369.json",
+   "workInfo": {
+    "Work Title": "La forza del destino",
+    "Number of Movements/Sections": "4 acts",
+    "Average Duration": "170 minutes",
+    "Year/Date of Composition": "1862, revised 1868-69",
+    "Year of First Publication": "1862",
+    "Piece Style": "Romantic",
+    "Instrumentation": "voices, mixed chorus, orchestra",
+    "InstrDetail": "Cast :Il Marchese Di Calatrava (basso); Leonora (soprano); Don Carlo di Vargas (baritone); Don Alvaro (tenore); Preziosilla, giovane zingara (mezzo-soprano); Padre Guardiano (basso profondo); Fra Melitone (baritono brillante); Curra, cameriera di Leonora (mezzo-soprano); Un Alcade (basso); Mastro Tr",
+    "Tags": "lyric dramas ; vv ch orch ; it |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Revised version, 1869",
+     "arrangers": [
+      "Antonio|Baur|1830|1874"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Selections",
+     "arrangers": [
+      "Theodore Moses|Tobani|1855|1933"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Sinfonia (Ouverture)",
+     "arrangers": [
+      "Marcin|Werner"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano 4 Hands",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "La vergine degli angeli (Act II, Finale)",
+     "arrangers": [
+      "Guido|Alici"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Trumpet and Organ (Trovato)",
+     "arrangers": [
+      "Angelo Maria|Trovato|1977|"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For Organ (Trovato)",
+     "arrangers": [
+      "Angelo Maria|Trovato|1977|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Clarinet Solo from Act III",
+     "arrangers": [
+      "Marco|Piovesan||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Pace, pace o mio Dio!",
+     "arrangers": [
+      "Bora Gökhan|Bilgen|1999|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Rataplan, rataplan della gloria",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Scena e Duetto: Se caddi un giorno esanime",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "17597-arrangement",
+   "pageId": 17597,
+   "kind": "arrangement",
+   "title": "La séparation (Glinka, Mikhail)",
+   "composer": "Glinka, Mikhail",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/17597.json",
+   "workInfo": {
+    "Work Title": "Nocturne 'La Séparation'",
+    "Number of Movements/Sections": "1 nocturne",
+    "Year/Date of Composition": "1839",
+    "Year of First Publication": "1866 or earlier - Lienau/Schlesinger :*1866|74",
+    "Piece Style": "Romantic",
+    "Instrumentation": "piano",
+    "Tags": "nocturnes ; pf |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For 4 Violas (Bridson)",
+     "arrangers": [
+      "Robert Edward|Bridson|1976|"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For Violin, Viola (Viola alta) or Cello and Piano (Ritter)",
+     "arrangers": [
+      "Hermann|Ritter|1849|1926"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "For Cello and Piano (Ritter)",
+     "arrangers": [
+      "Hermann|Ritter|1849|1926 ?"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-007.json",
+    "pageId": 17597,
+    "title": "La séparation (Glinka, Mikhail)",
+    "disposition": "needs-review",
+    "reason": "Bridson’s four-viola arrangement has a complete score and four separate parts, but no matching human performance is documented.",
+    "versions": [
+     {
+      "key": "viola-4-17597",
+      "composer": "Glinka, Mikhail",
+      "title": "La séparation",
+      "arranger": "Robert Edward Bridson",
+      "instrument": "viola",
+      "independentPartCount": 4,
+      "extent": "La séparation",
+      "selection": "named arrangement selection",
+      "scoreEvidence": "Cached raw group lists Complete Score and Viola 1–4.",
+      "performanceEvidence": "No exact arrangement performance in cached page or focused search.",
+      "flags": []
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "16223-arrangement",
+   "pageId": 16223,
+   "kind": "arrangement",
+   "title": "La traviata (Verdi, Giuseppe)",
+   "composer": "Verdi, Giuseppe",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/16223.json",
+   "workInfo": {
+    "Work Title": "La traviata",
+    "Number of Movements/Sections": "3 acts level=1|title=Act I level=2|number=1|title=Preludio level=2|number=2|title=Dell'invito trascorsa è già l'ora level=2|number=3|title=Libiamo ne' lieti calici level=2|number=4a|title=Che è ciò? level=2|number=4b|title=Un dì, felice, eterea|type=display level=2|number=5|title=Si ridesta in ciel ",
+    "Year/Date of Composition": "1853, revised 1854, 1864",
+    "Year of First Publication": "1853 - Milan: Ricordi, Plates 25092-25109 (vocal score)",
+    "Piece Style": "Romantic",
+    "Instrumentation": "voices, chorus, orchestra",
+    "InstrDetail": "Cast :Violetta Valéry (soprano); Flora Bervoix (mezzo-soprano); Annina (mezzo-soprano); Alfredo Germont (tenor); Giorgio Germont, suo padre (baritone); Gastone, Visconte de Letorières (tenor); Barone Douphol (baritone); Marchese d'Obigny (bass); Dottore Grenvil (basso profondo); Giuseppe, servo di V",
+    "Tags": "operas ; vv ch orch ; it |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Complete",
+     "arrangers": [
+      "Osamu|Sasaki"
+     ],
+     "nfiles": 14
+    },
+    {
+     "heading": "For 2 Violins (Melchiori)",
+     "arrangers": [
+      "Antonio|Melchiori|1827|1897"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano 4 hands",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin (Melchiori)",
+     "arrangers": [
+      "Antonio|Melchiori|1827|1897"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Toledo)",
+     "arrangers": [
+      "Nicolás|Toledo (d.1881)"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Truzzi and Muzio)",
+     "arrangers": [
+      "Luigi|Truzzi|1799|1864; Emanuele|Muzio|1825|1890, piano reduction"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "Selections",
+     "arrangers": [
+      "Daniel Llewelyn|James|1981|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Guitar (Razzetti)",
+     "arrangers": [
+      "Benedetto|Razzetti|1792|1892"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Ouverture",
+     "arrangers": [
+      "Hans Jorgen|Messerschmidt|1944|"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "Prelude (Act I)",
+     "arrangers": [
+      "Giovanni|Marras||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 12 Cellos (Ohashi)",
+     "arrangers": [
+      "Akira|Ohashi"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Brindisi: Libiamo ne' lieti calici (Act I, No.3)",
+     "arrangers": [
+      "Juan José|Peláez Vilanova|1978|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Cello and Piano (Cellofun.eu)",
+     "arrangers": [
+      "Cellofun.eu|||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Aria: Ah! forse è lui che l'anima (Act I, No.6)",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Di Provenza il mar, il suol (Act II, No.1)",
+     "arrangers": [
+      "G. C.|Santisteban|1866|1919"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Scena ed Aria: De miei bollenti spiriti (Act II, No.7)",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorus of Gypsies: Noi siamo Zingarelle (Act II, No.12)",
+     "arrangers": [
+      "Giovanni|Marras||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For 2 String Orchestras (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "*For Junior String Orchestra (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: Addio del passato (Act III, No.16)",
+     "arrangers": [
+      "Matteo|Falloni"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For 7-String Guitar (Morkov)",
+     "arrangers": [
+      "Vladimir|Morkov|1801|1864"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Libretti",
+     "arrangers": [],
+     "nfiles": 2
+    },
+    {
+     "heading": "Other",
+     "arrangers": [],
+     "nfiles": 0
+    },
+    {
+     "heading": "For Flute [and Piano?]",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "15891-arrangement",
+   "pageId": 15891,
+   "kind": "arrangement",
+   "title": "Largo in E-flat major, B.109 (Chopin, Frédéric)",
+   "composer": "Chopin, Frédéric",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/15891.json",
+   "workInfo": {
+    "Work Title": "Largo in E-flat major",
+    "Opus/Catalogue Number": "B.109a",
+    "Key": "Eb",
+    "Year/Date of Composition": "1837 ()",
+    "Year of First Publication": "1938",
+    "Piece Style": "Romantic",
+    "Instrumentation": "piano",
+    "Tags": "largos ; pf |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For Male Chorus (Oczko)",
+     "arrangers": [
+      "Michael John|Oczko"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 5 Cellos (Mandozzi)",
+     "arrangers": [
+      "Orfeo|Mandozzi"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For Flute, Oboe, Clarinet and Bassoon (Untung)",
+     "arrangers": [],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 2 Trumpets, Trombone and Tuba (Lechner)",
+     "arrangers": [
+      "Felix|Lechner|1998|"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-003.json",
+    "pageId": 15891,
+    "title": "Largo in E-flat major, B.109 (Chopin, Frédéric)",
+    "disposition": "needs-review",
+    "reason": "Mandozzi's five-cello version has score and five separate cello parts; no matching human performance verified.",
+    "versions": [
+     {
+      "key": "chopin-b109-mandozzi-5cellos",
+      "composer": "Chopin, Frédéric",
+      "title": "Largo in E-flat major, B.109 — version for 5 cellos",
+      "instrument": "5 cellos",
+      "independentPartCount": 5,
+      "kind": "arrangement",
+      "arranger": "Orfeo Mandozzi",
+      "extent": "One movement",
+      "selection": false,
+      "imslpPage": "https://imslp.org/wiki/Largo_in_E-flat_major%2C_B.109_%28Chopin%2C_Fr%C3%A9d%C3%A9ric%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/Largo_in_E-flat_major%2C_B.109_%28Chopin%2C_Fr%C3%A9d%C3%A9ric%29",
+       "locator": "Arrangements and Transcriptions > For 5 Cellos (Mandozzi)",
+       "finding": "Complete score and Cello 1–5 parts listed; arranger Orfeo Mandozzi, 2016."
+      },
+      "performanceEvidence": [],
+      "facts": {
+       "year": "1827 (original work)",
+       "minutes": null,
+       "movements": "One movement"
+      },
+      "flags": [
+       "no verified human performance of this arrangement"
+      ]
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "126906-arrangement",
+   "pageId": 126906,
+   "kind": "arrangement",
+   "title": "Laßt uns sorgen, laßt uns wachen, BWV 213 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/126906.json",
+   "workInfo": {
+    "Work Title": "Lasst uns sorgen, lasst uns wachen",
+    "Alternative Title": "Hercules auf dem Scheidewege ; Hercules at the Crossroads; Let us take care, let us watch",
+    "Opus/Catalogue Number": "BWV 213 ; BC G 18",
+    "Key": "F",
+    "Number of Movements/Sections": "13 movements: # Chorus: Laßt uns sorgen, lasst uns wachen # Recitative (alto): Und wo? Wo ist die rechte Bahn # Aria (soprano): Schlafe, mein Liebster, und pflege der Ruh # Duet Recitative (soprano, tenor): Auf! folge meiner Bahn # Aria (alto): Treues Echo dieser Orten # Recitative (tenor): Mein hof",
+    "Average Duration": "45 minutes",
+    "Year/Date of Composition": "1733 in Leipzig",
+    "Year of First Publication": "1887 (BGA)",
+    "Piece Style": "Baroque",
+    "Instrumentation": "voices, chorus, orchestra",
+    "InstrDetail": "Cast :Wollust [Lust] (soprano); Herkules (alto); Tugend [Virtue] (tenor); Merkur (bass) Mixed Chorus (SATB); Orchestra :1 (or 2) oboes, oboe d’amore, bassoon, 2 horns, strings, continuo",
+    "Tags": "secular cantatas ; sop 2alt ten bass ch orch ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Aria: 'Schlafe, mein Liebster, und pflege der Ruh' (No.3)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Treues Echo dieser Orten' (No.5)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Gouin)",
+     "arrangers": [
+      "Pierre|Gouin [mailto:pierre.gouin@videotron.ca - Contact]"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Auf meinen Flugehn sollst du schweben' (No.7)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Aria: 'Ich will dich nicht hören' (No.9)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Trumpet and Organ (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Aria: 'Ich bin deine, du bist meine' (No.11)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorus: 'Lust der Volker, Lust der Deinen' (No.13)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Libretti",
+     "arrangers": [],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "3845-arrangement",
+   "pageId": 3845,
+   "kind": "arrangement",
+   "title": "Le nozze di Figaro, K.492 (Mozart, Wolfgang Amadeus)",
+   "composer": "Mozart, Wolfgang Amadeus",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/3845.json",
+   "workInfo": {
+    "Work Title": "Le nozze di Figaro",
+    "Opus/Catalogue Number": "K.492",
+    "Number of Movements/Sections": "4 acts level=1|title=Overture level=1|title=Act I level=2|number=1|title=Cinque... dieci... venti level=2|number=2|title=Se a caso madama la notte ti chiama level=2|number=3|title=Se vuol ballare level=2|number=4|title=La vendetta, oh, la vendetta! level=2|number=5|title=Via, resti servita level=2|n",
+    "Year/Date of Composition": "1786",
+    "Year of First Publication": "1796 Bonn: Simrock, Plate 28 (vocal score); 1806-09 Paris: Magasin du Musique, Plate 366* (full score)",
+    "Piece Style": "Classical",
+    "Instrumentation": "voices, mixed chorus, orchestra",
+    "InstrDetail": "Cast :Count Almaviva (baritone); Countess Almaviva (soprano); Susanna (soprano); Figaro (bass); Cherubino (soprano); Marcellina (mezzo-soprano); Barbarina (soprano); Bartolo (bass); Basilio (tenor); Don Curzio (tenor); Barbarina (soprano); Antonio (bass) Mixed Chorus (SATB) :Peasants, Villagers, and",
+    "Tags": "dramma giocoso ; vv ch orch ; it |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Complete",
+     "arrangers": [
+      "Anonymous"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "For Piano 4 Hands",
+     "arrangers": [],
+     "nfiles": 5
+    },
+    {
+     "heading": "For Piano (Cramer)",
+     "arrangers": [
+      "Henri|Cramer"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Piano",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "Selections",
+     "arrangers": [
+      "Johann|Went|1745|1801"
+     ],
+     "nfiles": 9
+    },
+    {
+     "heading": "For 2 Clarinets, 2 Bassoons, Contrabassoon and 2 Horns (Sartorius)",
+     "arrangers": [
+      "Georg Kaspar|Sartorius"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Clarinets, 2 Bassoons and 2 Horns (Stumpf)",
+     "arrangers": [
+      "Johann Christian|Stumpf|1737|1801"
+     ],
+     "nfiles": 8
+    },
+    {
+     "heading": "For Flute, Harp, Cello and Piano (Mazzinghi)",
+     "arrangers": [
+      "Joseph|Mazzinghi|1765|1844"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For 2 Flutes (Sielemann)",
+     "arrangers": [
+      "Jan|Sielemann|1970|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Brand)",
+     "arrangers": [
+      "Alexander|Brand||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Piano 4 Hands (Schubert)",
+     "arrangers": [
+      "Franz Ludwig|Schubert|1804|1868"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Overture",
+     "arrangers": [
+      "Franz|Mayr"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Piccolo, 4 Flutes and Alto Flute (Bellomia)",
+     "arrangers": [
+      "Gabriele|Bellomia|1994|"
+     ],
+     "nfiles": 8
+    },
+    {
+     "heading": "*For Flute, Oboe, Clarinet, Bassoon and Horn (Jerkert)",
+     "arrangers": [
+      "Jesper|Jerkert||"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 2 Violins, Viola, Cello and Piano (Weiss)",
+     "arrangers": [
+      "Julius|Weiss|1814|1898"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 3 Clarinets and Bass Clarinet or Bassoon (Korolyov)",
+     "arrangers": [
+      "Boris|Korolyov||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Trombones (Korolyov)",
+     "arrangers": [
+      "Boris|Korolyov|1996|"
+     ],
+     "nfiles": 9
+    },
+    {
+     "heading": "For 2 Violins, Viola and Cello (Fine)",
+     "arrangers": [
+      "Elaine|Fine"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Violins, Viola and Cello (Kime)",
+     "arrangers": [
+      "Tony|Kime"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 2 Violins, Viola and Cello (Sain)",
+     "arrangers": [
+      "Andreas|Sain"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Cellos (Sielemann)",
+     "arrangers": [
+      "Jan|Sielemann"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 3 Flutes (Lea)",
+     "arrangers": [
+      "Henry Lea"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For Horn, Trumpet and Euphonium (Messerschmidt)",
+     "arrangers": [
+      "Hans Jorgen|Messerschmidt|1944|"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "For 2 Pianos 8 Hands (Keller)",
+     "arrangers": [
+      "Robert|Keller|1828|1891"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "*For 2 Pianos 8 Hands (Rösler)",
+     "arrangers": [],
+     "nfiles": 0
+    },
+    {
+     "heading": "For Violin and Piano (Hartmann)",
+     "arrangers": [
+      "Hugo|Hartmann|1862|1907"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Pianos (Shimada)",
+     "arrangers": [
+      "Junwa|Shimada||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano 4 Hands (Czerny)",
+     "arrangers": [
+      "Carl|Czerny|1791|1857"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano 4 Hands (Kleinmichel)",
+     "arrangers": [
+      "Richard|Kleinmichel|1846|1901"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Delucchi)",
+     "arrangers": [
+      "Emanuele|Delucchi"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "Aria: Se vuol ballare (Act I, No.3)",
+     "arrangers": [
+      "Ferdinando|Carulli|1770|1841"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: Non sò più cosa son (Act I, No.6)",
+     "arrangers": [
+      "Composer"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: Non più andrai (Act I, No.9)",
+     "arrangers": [
+      "unidentified"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Flute or Violin and Guitar (Carulli)",
+     "arrangers": [
+      "Ferdinando|Carulli|1770|1841"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Horns (Searby)",
+     "arrangers": [
+      "Michael|Searby|1960|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Trumpets (Searby)",
+     "arrangers": [
+      "Michael|Searby|1960|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Trumpet and Trombone (Searby)",
+     "arrangers": [
+      "Michael|Searby|1960|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Trombones (Searby)",
+     "arrangers": [
+      "Michael|Searby|1960|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: Porgi amor (Act II, No.10)",
+     "arrangers": [
+      "Guido|Alici|1983|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: Voi che sapete (Act II, No.11)",
+     "arrangers": [],
+     "nfiles": 0
+    },
+    {
+     "heading": "For 2 Horns (Searby)",
+     "arrangers": [
+      "Michael|Searby|1960|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Trumpet and Trombone (Searby)",
+     "arrangers": [
+      "Michael|Searby|1960|"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For 2 Trombones (Searby)",
+     "arrangers": [
+      "Michael|Searby|1960|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Voice and Guitar (Nüske)",
+     "arrangers": [
+      "Johann Abraham|Nüske|1796|1865"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Vizentini)",
+     "arrangers": [
+      "Albert|Vizentini|1841|1906"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Cello and Piano (Cellofun.eu)",
+     "arrangers": [
+      "Cellofun.eu||1959|"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For Flute and Guitar (Carulli)",
+     "arrangers": [
+      "Ferdinando|Carulli|1770|1841"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Heidtmann)",
+     "arrangers": [
+      "Klaus|Heidtmann|1952|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: Dove sono (Act III, No.19)",
+     "arrangers": [
+      "Michael|Searby|1960|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Trumpet and Trombone (Searby)",
+     "arrangers": [
+      "Michael|Searby|1960|"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For 2 Trombones (Searby)",
+     "arrangers": [
+      "Michael|Searby|1960|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Voice and Guitar (Nüske)",
+     "arrangers": [
+      "Johann Abraham|Nüske|1796|1865"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Duettino: Sull'aria... che soave zeffiretto (Act III, No.20)",
+     "arrangers": [
+      "Roe William|Goodman|1938|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Oboe, Clarinet and Bassoon (Goodman)",
+     "arrangers": [
+      "Roe William|Goodman|1938|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Clarinets and Bass Clarinet (Goodman)",
+     "arrangers": [
+      "Roe William|Goodman|1938|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Clarinets and Bassoon (Goodman)",
+     "arrangers": [
+      "Roe William|Goodman|1938|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Flute and Guitar (Carulli)",
+     "arrangers": [
+      "Ferdinando|Carulli|1770|1841"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorus: Ricevete, o padroncina (Act III, No.22)",
+     "arrangers": [
+      "John Michael|Diack|1869|1946"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Marche (Act III, Finale)",
+     "arrangers": [
+      "Jacques Drillon"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Pianos 8 Hands (Drillon)",
+     "arrangers": [
+      "Jacques|Drillon"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 2 Cellos (Cordell)",
+     "arrangers": [
+      "Cameron George Thomas|Cordell"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Pianos (Drillon)",
+     "arrangers": [
+      "Jacques|Drillon"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Gouin)",
+     "arrangers": [
+      "Pierre|Gouin [mailto:pierre.gouin@videotron.ca - Contact]"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorus: Amati constanti (Act III, Finale)",
+     "arrangers": [
+      "John Michael|Diack|1869|1946"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Cavatina: L'ho perduta, me meschina (Act IV)",
+     "arrangers": [
+      "Jacques|Drillon|1954|"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For Bassoon and Piano (Bolek)",
+     "arrangers": [
+      "Jan|Bolek||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Guitar (Hokin)",
+     "arrangers": [
+      "Samuel|Hokin|1960|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Flutes (ITO)",
+     "arrangers": [
+      "Yasuaki|Ito|1948|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Soprano, Clarinet and Piano (Forghieri)",
+     "arrangers": [
+      "Giuliano|Forghieri|1961|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Librettos",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "Excerpts",
+     "arrangers": [],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "44579-arrangement",
+   "pageId": 44579,
+   "kind": "arrangement",
+   "title": "Leichte Kavallerie (Suppé, Franz von)",
+   "composer": "Suppé, Franz von",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/44579.json",
+   "workInfo": {
+    "Work Title": "Leichte Kavallerie",
+    "Alternative Title": "Cavalerie légère ; Light Cavalry",
+    "Number of Movements/Sections": "2 acts",
+    "Year/Date of Composition": "1866",
+    "Year of First Publication": "1866",
+    "Piece Style": "Romantic",
+    "Instrumentation": "voices, mixed chorus, orchestra",
+    "Tags": "operettas ; vv ch orch |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Overture",
+     "arrangers": [
+      "Charles J.|Roberts|1868|1957"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Wind Band (Fillmore)",
+     "arrangers": [
+      "Henry|Fillmore"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Military Band (Godfrey)",
+     "arrangers": [
+      "Charles|Godfrey|1839|1919"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 6 Cellos (Seymour)",
+     "arrangers": [
+      "Gwyn|Seymour"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Deutsch)",
+     "arrangers": [
+      "Leslie Joseph|Deutsch"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Schultze-Biesantz)",
+     "arrangers": [
+      "Clemens|Schultze-Biesantz|1876|1935"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano",
+     "arrangers": [],
+     "nfiles": 3
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "43457-arrangement",
+   "pageId": 43457,
+   "kind": "arrangement",
+   "title": "Liturgy of St. John Chrysostom, Op.41 (Tchaikovsky, Pyotr)",
+   "composer": "Tchaikovsky, Pyotr",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/43457.json",
+   "workInfo": {
+    "Work Title": "Liturgy of St. John Chrysostom,",
+    "Alternative Title": "Литургия святого Иоанна Златоуста",
+    "Opus/Catalogue Number": "Op.41 ; TH 75",
+    "Key": "C",
+    "Number of Movements/Sections": "15 pieces: #Amen. Lord Have Mercy (Амин. Господи помилуй) (C, 50 bars) #Glory to the Father, and to the Son, and to the Holy Spirit (Слава Отцу и Сыну и Святому Духу) (C, 63 bars) #Come, Let Us Worship (Приидите, поклонимся) (d, 56 bars) #Alleleuia (Аллилуйя) (C, 15 bars) #Glory to Thee, O Lord (Сла",
+    "Year/Date of Composition": "1878",
+    "Year of First Publication": "1879 — Moscow: P. Jurgenson. 63 pages. Plates 3360-3374.",
+    "Average Duration": "48 minutes",
+    "Piece Style": "Romantic",
+    "Instrumentation": "mixed chorus (SATB)",
+    "Tags": "liturgies ; ch ; cu |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Cherubic Hymn (No.6)",
+     "arrangers": [
+      "Toru|Yaskawa|1960|"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "Nos.8-9",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 7
+    },
+    {
+     "heading": "For 4 Clarinets (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 7
+    },
+    {
+     "heading": "For 4 Horns (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 2 Trumpets and 2 Trombones (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 2 Cornets and 2 Euphoniums (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For Cornet, 2 Horns and Tuba (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For String Quartet (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "Nos.10, 11, 13 and 14",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 7
+    },
+    {
+     "heading": "For 3 Flutes and Alto Flute (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 3 Clarinets and Bass Clarinet (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 4 Horns (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 2 Trumpets and 2 Trombones (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 2 Cornets and 2 Euphoniums (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For Cornet, 2 Horns and Tuba (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 2 Violins, Viola and Cello (Bjerre)",
+     "arrangers": [
+      "Klaus|Bjerre"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 4 Cellos (Lima)",
+     "arrangers": [
+      "Bruno|Lima|1996|"
+     ],
+     "nfiles": 5
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "953618-arrangement",
+   "pageId": 953618,
+   "kind": "arrangement",
+   "title": "Lo sdegnato (Gastoldi, Giovanni Giacomo)",
+   "composer": "Gastoldi, Giovanni Giacomo",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/953618.json",
+   "workInfo": {
+    "Work Title": "Lo sdegnato",
+    "Key": "g",
+    "Average Duration": "2 minutes",
+    "Year/Date of Composition": "1594 in Balletti a tre voci",
+    "Piece Style": "Renaissance",
+    "Instrumentation": "3 voices",
+    "Tags": "balletti ; 3vv ; it |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For 2 Flugelhorns and Bass Trombone (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau|1948|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 3 Cellos (Moriconi)",
+     "arrangers": [
+      "Mathieu|Moriconi||"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "149923-arrangement",
+   "pageId": 149923,
+   "kind": "arrangement",
+   "title": "Lobe den Herren, den mächtigen König der Ehren, BWV 137 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/149923.json",
+   "workInfo": {
+    "Work Title": "Lobe den Herren, den mächtigen König der Ehren",
+    "Alternative Title": "Praise the Lord, the mighty King of honour",
+    "Opus/Catalogue Number": "BWV 137 ; BC A 124",
+    "Key": "C",
+    "Number of Movements/Sections": "5 movements: # Chorus: Lobe den Herren, den mächtigen König der Ehren # Aria (alto): Lobe den Herren, der alles so herrlich regieret # Aria (soprano, bass): Lobe den Herren, der künstlich und fein dich bereitet # Aria (tenor): Lobe den Herren, der deinen Stand sichtbar gesegnet # Chorale: Lobe den H",
+    "Year/Date of Composition": "1725 in Leipzig",
+    "Year of First Publication": "1881 (BGA)",
+    "Piece Style": "Baroque",
+    "Instrumentation": "soprano, alto, tenor, bass; mixed chorus (SATB), orchestra",
+    "InstrDetail": "2 (or 3) oboes, 3 trumpets, timpani, strings, continuo",
+    "Tags": "sacred cantatas ; sop alt ten bass ch orch ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Chorus: 'Lobe den Herren, den mächtigen König der Ehren' (No.1)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ 4 Hands (Cattaneo)",
+     "arrangers": [
+      "Pietro|Cattaneo"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Lobe den Herren, der alles so herrlich regieret' (No.2)",
+     "arrangers": [],
+     "nfiles": 0
+    },
+    {
+     "heading": "*For String Trios (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For String Duos (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Aria: 'Lobe den Herren, der künstlich und fein dich bereitet' (No.3)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Lobe den Herren, der deinen Stand sichtbar gesegnet' (No.4)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For String Duos (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Bækgaard)",
+     "arrangers": [
+      "Peter|Bækgaard"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "Other",
+     "arrangers": [],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "229075-arrangement",
+   "pageId": 229075,
+   "kind": "arrangement",
+   "title": "Locus iste, WAB 23 (Bruckner, Anton)",
+   "composer": "Bruckner, Anton",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/229075.json",
+   "workInfo": {
+    "Work Title": "Locus iste",
+    "Alternative Title": "This Place",
+    "Opus/Catalogue Number": "WAB 23",
+    "Key": "C",
+    "Average Duration": "2-3 minutes",
+    "Year/Date of Composition": "1869-08-11",
+    "Year of First Publication": "1886 Vienna: Theodor Rättig in 4 Graduals",
+    "Piece Style": "Romantic",
+    "Instrumentation": "mixed chorus (SATB)",
+    "Tags": "graduals ; ch ; la |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For Small Orchestra (Labeylie)",
+     "arrangers": [
+      "Guillaume|Labeylie|1984|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Strings (Klimek)",
+     "arrangers": [
+      "Jens|Klimek|1984|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Horn, 2 Trumpets, Trombone and Tuba (Schnurrenberger)",
+     "arrangers": [
+      "Peter|Schnurrenberger"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 2 Trumpets and 2 Trombones (Gorrie)",
+     "arrangers": [
+      "Jon|Gorrie|1977|"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 4 Cellos (Mandozzi)",
+     "arrangers": [
+      "Orfeo|Mandozzi"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For Organ (Sarić)",
+     "arrangers": [
+      "Valentin|Sarić"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Braille Scores",
+     "arrangers": [],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "3617-arrangement",
+   "pageId": 3617,
+   "kind": "arrangement",
+   "title": "Lohengrin, WWV 75 (Wagner, Richard)",
+   "composer": "Wagner, Richard",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/3617.json",
+   "workInfo": {
+    "Work Title": "Lohengrin",
+    "Opus/Catalogue Number": "WWV 75",
+    "Number of Movements/Sections": "3 acts",
+    "Year/Date of Composition": "1846-48",
+    "Year of First Publication": "1850",
+    "Piece Style": "Romantic",
+    "Instrumentation": "voices, chorus, orchestra",
+    "InstrDetail": "Cast :Lohengrin (tenor); Elsa of Brabant (soprano); Ortrud Telramund's wife (dramatic soprano or mezzo-soprano); Friedrich of Telramund, a Count of Brabant (baritone); Heinrich der Volger (bass); The King's Herald (bass); Four Noblemen of Brabant (tenors, basses); Four Pages (sopranos, altos); Duke ",
+    "Tags": "operas ; vv ch orch ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Complete",
+     "arrangers": [],
+     "nfiles": 2
+    },
+    {
+     "heading": "Prelude (Act I)",
+     "arrangers": [
+      "Charles J.|Roberts|1868|1957"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Violin, Piano and Harmonium (Rebay)",
+     "arrangers": [
+      "Ferdinand|Rebay|1880|1953"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For Violin and Piano (Finke and Schultze-Biesantz)",
+     "arrangers": [
+      "Fidelio|Finke|1860|1940; Clemens|Schultze-Biesantz|1876|1935"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Violin and Piano (Hermann)",
+     "arrangers": [
+      "Friedrich|Hermann|1828|1907"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Kross)",
+     "arrangers": [
+      "Emil|Kross|1852|1917"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano 4 hands (Hassenstein)",
+     "arrangers": [
+      "Paul|Hassenstein|1843|1927"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano 4 hands",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Dubois)",
+     "arrangers": [
+      "Théodore|Dubois|1837|1924"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Whitney)",
+     "arrangers": [
+      "Samuel Brenton|Whitney|1842|1914"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Breimo)",
+     "arrangers": [
+      "Bjørn|Breimo|1958|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: \"Nun sei bedankt, mein lieber Schwan!\" (Act I, sc.3)",
+     "arrangers": [
+      "Moritz|Kaufmann|1839|1920"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Der Zug zum Münster (Act II, sc.4)",
+     "arrangers": [
+      "Theodore Moses|Tobani|1855|1933"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 4 Horns and Double Bass (Clements)",
+     "arrangers": [
+      "Patrick|Clements|1943|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 8 Horns (Tsuchida)",
+     "arrangers": [
+      "Taishi|Tsuchida"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 4 Cellos (Grützmacher)",
+     "arrangers": [
+      "Friedrich|Grützmacher|1832|1903"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 2 Pianos 8 hands (Pauer)",
+     "arrangers": [
+      "Ernst|Pauer|1826|1905"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Violin, Piano and Harmonium (Saint-Saëns)",
+     "arrangers": [
+      "Camille|Saint-Saëns|1836|1921"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Hermann)",
+     "arrangers": [
+      "Friedrich|Hermann|1828|1907"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Brewer)",
+     "arrangers": [
+      "Alfred Herbert|Brewer|1865|1928"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Organ (Dubois)",
+     "arrangers": [
+      "Théodore|Dubois|1837|1924"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Organ (Permann)",
+     "arrangers": [
+      "Joseph|Permann|18XX|19XX"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Harmonium (Reinhard)",
+     "arrangers": [
+      "August|Reinhard|1831|1912"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Lohengrin's Arrival and Farewell (Act II)",
+     "arrangers": [
+      "Wilhelm|Kleinecke|1825|1893"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Prelude (Act III)",
+     "arrangers": [
+      "Edoardo|Bruni|1975|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Clarinets, 2 Bassoons and Tuba (Korolyov)",
+     "arrangers": [
+      "Boris|Korolyov||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 2 Pianos 8 hands (Hermann)",
+     "arrangers": [
+      "Friedrich|Hermann|1828|1907"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Piano (Klindworth)",
+     "arrangers": [
+      "Karl|Klindworth|1830|1916"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Maylath)",
+     "arrangers": [
+      "Henry|Maylath|1827|1883"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Wenger)",
+     "arrangers": [
+      "Alexander|Wenger|1877|1941"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Introduction, Bridal March and Chorus (Act III)",
+     "arrangers": [
+      "Leopold|Weninger|1879|1929"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Concert Band (Sousa)",
+     "arrangers": [
+      "Welligton|Sousa|1988|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano 4 Hands (Wels)",
+     "arrangers": [
+      "Charles|Wels|1825|1906"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Westbrook)",
+     "arrangers": [
+      "William Joseph|Westbrook|1831|1894"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Bridal Chorus (Act III)",
+     "arrangers": [
+      "Eduard|Sobolewski|1804|1872"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 3 Violins, Viola and Cello (Faber)",
+     "arrangers": [
+      "Bram|Faber|1989|"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "*For Flute, Oboe, Clarinet, Bassoon and Horn (Sousa)",
+     "arrangers": [
+      "Welligton|Sousa|1988|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Recorders (Wiebes)",
+     "arrangers": [
+      "Jaap|Wiebes||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Flute, Oboe, Violin and Piano (Evans Chou)",
+     "arrangers": [
+      "Evans|Chou|2006|"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 2 Trumpets and 2 Trombones (Nehls)",
+     "arrangers": [
+      "Ulrich|Nehls"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Pianos 8 hands (Pauer)",
+     "arrangers": [
+      "Ernst|Pauer|1826|1905"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Violin, Cello and Piano (Roth)",
+     "arrangers": [
+      "Alfred|Roth|1870|1947?"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Cornet ad. lib., Violin and Piano (Müller)",
+     "arrangers": [
+      "William W.|Pound (fl. 1866-1899)"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Harp and Piano (Snoer)",
+     "arrangers": [
+      "Johannes|Snoer|1868|1936"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Violin and Piano (Kross)",
+     "arrangers": [
+      "Emil|Kross|1852|1917"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Harp (Oberthür)",
+     "arrangers": [
+      "Charles|Oberthür|1819|1895"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Eddy)",
+     "arrangers": [
+      "Clarence|Eddy|1851|1937"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Organ or Piano (Gouin)",
+     "arrangers": [
+      "Pierre|Gouin [mailto:pierre.gouin@videotron.ca - Contact]"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Knuth)",
+     "arrangers": [
+      "Jürgen|Knuth"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Organ (Truette)",
+     "arrangers": [
+      "Everett Ellsworth|Truette, not credited"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Westbrook)",
+     "arrangers": [
+      "William Joseph|Westbrook|1831|1894"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Piano (Jadassohn)",
+     "arrangers": [
+      "Salomon|Jadassohn|1831|1902"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Piano (Kaselitz/Schultz-Biesantz)",
+     "arrangers": [
+      "Emil|Kaselitz; Clemens|Schultze-Biesantz|1876|1935"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Pauer)",
+     "arrangers": [
+      "Ernst|Pauer|1826|1905"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Strauss)",
+     "arrangers": [
+      "Henry|Strauss (fl.1876-1916)"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Wenger)",
+     "arrangers": [
+      "Alexander|Wenger|1877|1941"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "Librettos",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "Italian",
+     "arrangers": [],
+     "nfiles": 2
+    },
+    {
+     "heading": "Sketches",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "Excerpts",
+     "arrangers": [],
+     "nfiles": 3
+    },
+    {
+     "heading": "Prelude (Acts I, III)",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "Prelude (Act III)",
+     "arrangers": [],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "447940-arrangement",
+   "pageId": 447940,
+   "kind": "arrangement",
+   "title": "Love Learnes by Laughing (Morley, Thomas)",
+   "composer": "Morley, Thomas",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/447940.json",
+   "workInfo": {
+    "Work Title": "Love Learnes by Laughing",
+    "Year of First Publication": "1602 in Canzonets to Three Voices||Morley|Thomas|0 (No.21)",
+    "Piece Style": "Renaissance",
+    "Instrumentation": "SAB voices",
+    "Tags": "canzonets ; songs ; ch ; sop alt bass ; en |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For 3 Viols (Folop)",
+     "arrangers": [
+      "Albert|Folop"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 3 Cellos (Moriconi)",
+     "arrangers": [
+      "Mathieu|Moriconi||"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "340985-arrangement",
+   "pageId": 340985,
+   "kind": "arrangement",
+   "title": "Ma fin est mon commencement (Machaut, Guillaume de)",
+   "composer": "Machaut, Guillaume de",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/340985.json",
+   "workInfo": {
+    "Work Title": "Ma fin est mon commencement",
+    "Piece Style": "Medieval",
+    "Instrumentation": "3 voices",
+    "Tags": "rondeaux ; 3vv ; fr |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For 3 Guitars (Goldau)",
+     "arrangers": [
+      "Bernd|Goldau"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 3 Cellos (Moriconi)",
+     "arrangers": [
+      "Mathieu|Moriconi||"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "7136-arrangement",
+   "pageId": 7136,
+   "kind": "arrangement",
+   "title": "Ma mère l'Oye (suite), M.60 (Ravel, Maurice)",
+   "composer": "Ravel, Maurice",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/7136.json",
+   "workInfo": {
+    "Work Title": "Ma Mère l'Oye",
+    "Alternative Title": "Cinq pièces enfantines",
+    "Opus/Catalogue Number": "M.60",
+    "Number of Movements/Sections": "5 movements: # Pavane de la Belle au bois dormant. Lent (a) # Petit Poucet. Très modéré (c) # Laideronnette, Impératrice des pagodes. Mouvement de marche (F#) # Les entretiens de la Belle et de la Bête. Mouvement de valse modéré (F) # Le jardin féerique. Lent et grave (C)",
+    "Year/Date of Composition": "1908 (No.1), 1910 (Nos.2–5)",
+    "Year of First Publication": "1910 - Paris: Durand, Plate D. & F. 7746.",
+    "Average Duration": "15 minutes",
+    "Piece Style": "Early 20th century",
+    "Instrumentation": "piano 4-hands",
+    "Tags": "suites ; pf4h |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Complete",
+     "arrangers": [
+      "Composer"
+     ],
+     "nfiles": 23
+    },
+    {
+     "heading": "For 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns and Double Bass (Berg)",
+     "arrangers": [
+      "Marnix van den|Berg|1978|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 2 Oboes, 2 Clarinets, 2 Bassoons and 2 Horns (Clarke)",
+     "arrangers": [
+      "David Andrew|Clarke||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piccolo, 3 Flutes, Alto Flute and Bass Flute (Kamioka)",
+     "arrangers": [
+      "Hideo|Kamioka|1958|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 2 Violins, Viola and Cello (Jones)",
+     "arrangers": [
+      "Steve|Jones"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "For Clarinet, Cello and Piano (Meige)",
+     "arrangers": [
+      "Olivier|Meige||"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For 2 Pianos (Choisnel)",
+     "arrangers": [
+      "Gaston|Choisnel|1857|1921"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For Flute and Piano (Nakano)",
+     "arrangers": [
+      "Yukio|Nakano"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Oboe and Piano (Nakano)",
+     "arrangers": [
+      "Yukio|Nakano"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Viola and Piano (Pacamah)",
+     "arrangers": [
+      "Pacamah||2003|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Piano (Alston)",
+     "arrangers": [
+      "Ray|Alston||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Charlot)",
+     "arrangers": [
+      "Jacques|Charlot|1885|1915"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Pavane de la Belle au Bois Dormant (No.1)",
+     "arrangers": [],
+     "nfiles": 0
+    },
+    {
+     "heading": "For Orchestra",
+     "arrangers": [
+      "Composer"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Flute, Oboe, Clarinet, Bassoon and Horn (Gouin)",
+     "arrangers": [
+      "Pierre|Gouin [mailto:pierre.gouin@videotron.ca - Contact]"
+     ],
+     "nfiles": 7
+    },
+    {
+     "heading": "For Cello and Piano (Ronchini)",
+     "arrangers": [
+      "Ferdinando|Ronchini|1865|1938"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "Laideronette, Impératrice des Pagodes (No.3)",
+     "arrangers": [
+      "Tom|Smekens|1992|"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "Le jardin féerique (No.5)",
+     "arrangers": [
+      "Gwyn|Seymour"
+     ],
+     "nfiles": 7
+    },
+    {
+     "heading": "For Violin and Piano (Kawano)",
+     "arrangers": [
+      "Toshihiko|Kawano||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Piano",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Chamber Orchestra (Faber)",
+     "arrangers": [
+      "Bram|Faber||"
+     ],
+     "nfiles": 10
+    },
+    {
+     "heading": "Braille Scores",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Charlot)",
+     "arrangers": [
+      "Jacques|Charlot|1885|1915"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "6399-arrangement",
+   "pageId": 6399,
+   "kind": "arrangement",
+   "title": "Magnificat in D major, BWV 243 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/6399.json",
+   "workInfo": {
+    "Work Title": "Magnificat in D-Dur",
+    "Key": "D",
+    "Opus/Catalogue Number": "BWV 243 ; BC E 14",
+    "Number of Movements/Sections": "12 movements: # Chorus: Magnificat anima mea # Aria: Et Exultavit # Aria: Quia respexit # Chorus: Omnes generationes # Aria: Quia fecit mihi magna # Duetto: Et Misericordia # Chorus: Fecit potentiam # Aria: Deposuit # Aria: Esurientes # Terzetto: Suscepit Israel # Chorus: Sicut locutus est # Chorus:",
+    "Year/Date of Composition": "1732-35",
+    "Year of First Publication": "1811 Bonn: N. Simrock",
+    "Piece Style": "Baroque",
+    "Instrumentation": "voices, mixed chorus (SATB), orchestra",
+    "InstrDetail": "Voices :2 sopranos, alto, tenor, bass Mixed Chorus (SATB); Orchestra :2 flutes, 2 oboes (both also 2 oboes d’amore), 2 bassoon(s); 3 trumpets, timpani, strings, continuo (organ)",
+    "Tags": "magnificats ; 2sop alt ten bass ch orch ; la |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Complete",
+     "arrangers": [
+      "Giovanni Pietro|Orefice|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Legrand)",
+     "arrangers": [
+      "Emmanuel|Legrand||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Selections",
+     "arrangers": [
+      "Robert|Schaab|1817|1887"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 3 Trumpets, Timpani and Organ (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Chorus: 'Magnificat anima mea' (No.1)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 3 Violins, 2 Violas and 2 Cellos (Bartoli)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Et Exultavit' (No.2)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For String Quartets (Lang / Bartoli)",
+     "arrangers": [
+      "Peter|Lang||; Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Quia respexit' (No.3)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Soprano, Cello and Continuo (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Soprano, Cello and Keyboard (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Soprano and Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Chorus: 'Omnes generationes' (No.4)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Quia fecit mihi magna' (No.5)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Duetto: 'Et Misericordia' (No.6)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Alto, Tenor and Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Deposuit' (No.8)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Esurientes' (No.9)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For 4 Recorders (Tennent)",
+     "arrangers": [
+      "R.D.|Tennent"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 4 Violas (Reifsnyder)",
+     "arrangers": [
+      "Bob|Reifsnyder|1947|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Alto and Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Terzetto: 'Suscepit Israel' (No.10)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Oboe, 3 Clarinets and Bass Clarinet (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Oboe, 3 Clarinets and Bassoon (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Piccolo Clarinet, 3 Clarinets and Bass Clarinet (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Horn, Flugelhorn, Trumpet, Tenor Trombone, Bass Trombone (Matthews)",
+     "arrangers": [
+      "Ronald A.|Matthews|1952|"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 3 Trumpets and 2 Trombones (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Trumpets and Trombone (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Quintets: Oboe ad lib. and Strings (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 5 Double Basses (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Sopranos, Alto and Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Bækgaard)",
+     "arrangers": [
+      "Peter|Bækgaard"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "Chorus: 'Sicut locutus est' (No.11)",
+     "arrangers": [
+      "Steve|Miller|1961|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 5 Recorders (Wiebes)",
+     "arrangers": [
+      "Jaap|Wiebes||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piccolo, 2 Flutes, 2 Alto Flutes and Bass Flute (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 4 Clarinets and 2 Bass Clarinets (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Oboes, 2 Clarinets, Bassoon and Contrabassoon (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 3 Clarinets, 2 Bassoons and Contrabassoon (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 3 Trumpets, 2 Trombones and Tuba (Zehar)",
+     "arrangers": [
+      "Farid|Zehar||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "*For String Quintets (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Best)",
+     "arrangers": [
+      "William Thomas|Best|1826|1897"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "149939-arrangement",
+   "pageId": 149939,
+   "kind": "arrangement",
+   "title": "Man singet mit Freuden vom Sieg, BWV 149 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/149939.json",
+   "workInfo": {
+    "Work Title": "Man singet mit Freuden vom Sieg",
+    "Alternative Title": "The voice of rejoicing and salvation",
+    "Opus/Catalogue Number": "BWV 149 ; BC A 181",
+    "Key": "D",
+    "Number of Movements/Sections": "7 movements: # Chorus: Man singet mit Freuden Vom Sieg # Aria (bass): Kraft und Stärke sei gesungen # Recitative (alto): Ich Fürchte mich vor Tausend feinden nicht # Aria (soprano): Gottes Engel weichen nie, sie sind bei mir aller Enden # Recitative (tenor): Ich danke dir, mein lieber Gott # Duetto-",
+    "Year/Date of Composition": "1728 in Leipzig",
+    "Year of First Publication": "1884 (BGA)",
+    "Piece Style": "Baroque",
+    "Instrumentation": "soprano, alto, tenor, bass; mixed chorus (SATB), orchestra",
+    "InstrDetail": "3 oboes, bassoon, 3 trumpets, strings, continuo (harpsichord and/or organ)",
+    "Tags": "sacred cantatas ; sop alt ten bass ch orch ; de |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Chorus: 'Man singet mit Freuden vom Sieg' (No.1)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Kraft und Stärke sei gesungen' (No.2)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Aria: 'Gottes Engel weichen nie, sie sind bei mir aller Enden' (No.4)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Aria: 'Seid wachsam, ihr heiligen Wächter' (No.6)",
+     "arrangers": [
+      "Ned|Gerhart|1959|"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "*For Quartets: Bassoon ad lib. and Strings (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "*For Trios: Bassoon ad lib. and Strings (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Trumpet and Organ (Rondeau)",
+     "arrangers": [
+      "Michel|Rondeau"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Organ (Bækgaard)",
+     "arrangers": [
+      "Peter|Bækgaard"
+     ],
+     "nfiles": 3
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "114725-arrangement",
+   "pageId": 114725,
+   "kind": "arrangement",
+   "title": "Marche pontificale, CG 523 (Gounod, Charles)",
+   "composer": "Gounod, Charles",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/114725.json",
+   "workInfo": {
+    "Work Title": "Marche pontificale",
+    "Alternative Title": "Pontifical Anthem; Marche Romaine",
+    "Opus/Catalogue Number": "CG 523",
+    "Year/Date of Composition": "1869",
+    "Year of First Publication": "1869",
+    "Piece Style": "Romantic",
+    "Instrumentation": "orchestra",
+    "Tags": "marches ; orch |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "*For Duo (or Chorus) of Equal Voices and Organ (or Piano)",
+     "arrangers": [
+      "Composer?"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano 4 Hands",
+     "arrangers": [
+      "Unknown"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Gouin)",
+     "arrangers": [
+      "Pierre|Gouin| [mailto:pierre.gouin@videotron.ca - Contact]"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Rimbault)",
+     "arrangers": [
+      "Edward Francis|Rimbault|1816|1876"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For Piano (Gounod)",
+     "arrangers": [],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano (Harvey)",
+     "arrangers": [
+      "Albert|Harvey (fl. 1914-1941)"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Piano",
+     "arrangers": [],
+     "nfiles": 2
+    }
+   ],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-007.json",
+    "pageId": 114725,
+    "title": "Marche pontificale, CG 523 (Gounod, Charles)",
+    "disposition": "out-of-scope",
+    "reason": "The page has no arrangement for 3–12 same-instrument violin, viola, cello, or bass parts. The only performance signal is synthesized MIDI.",
+    "versions": []
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "153758-arrangement",
+   "pageId": 153758,
+   "kind": "arrangement",
+   "title": "Mass for 4 Voices, T 1 (Byrd, William)",
+   "composer": "Byrd, William",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/153758.json",
+   "workInfo": {
+    "Work Title": "Mass for Four Voices",
+    "Opus/Catalogue Number": "T 1",
+    "Number of Movements/Sections": "5 (6) sections*",
+    "Average Duration": "20-30 minutes",
+    "Year/Date of Composition": "1592-93",
+    "Piece Style": "Renaissance",
+    "Instrumentation": "4 voices (SATB)",
+    "Tags": "masses ; sop alt ten bass ; la |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "For 4 Viols (West)",
+     "arrangers": [
+      "Stephen|West||"
+     ],
+     "nfiles": 5
+    },
+    {
+     "heading": "For 4 Viols (Yates)",
+     "arrangers": [
+      "Richard|Yates"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For 4 Double Basses (Komuro)",
+     "arrangers": [
+      "Masahiro|Komuro"
+     ],
+     "nfiles": 2
+    }
+   ],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-007.json",
+    "pageId": 153758,
+    "title": "Mass for 4 Voices, T 1 (Byrd, William)",
+    "disposition": "needs-review",
+    "reason": "A complete four-double-bass arrangement is listed, but the only cached human performance is the original vocal work (Ensemble Morales), not the bass arrangement.",
+    "versions": [
+     {
+      "key": "masahiro-komuro-4",
+      "composer": "Byrd, William",
+      "title": "William Byrd: Mass for 4 Voices, T 1",
+      "arranger": "Masahiro Komuro",
+      "instrument": "double bass",
+      "independentPartCount": 4,
+      "extent": "William Byrd: Mass for 4 Voices, T 1",
+      "selection": "named movement/selection",
+      "scoreEvidence": "Cached raw arrangement group lists Complete Score and Complete Parts; identified Komuro.",
+      "performanceEvidence": "Cached audio identifies Ensemble Morales but not this arrangement.",
+      "flags": [
+       "bass instrument"
+      ]
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "4197-arrangement",
+   "pageId": 4197,
+   "kind": "arrangement",
+   "title": "Mass in B minor, BWV 232 (Bach, Johann Sebastian)",
+   "composer": "Bach, Johann Sebastian",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/4197.json",
+   "workInfo": {
+    "Work Title": "Mass in B minor",
+    "Alternative Title": "Die Grosse Catholische Messe",
+    "Opus/Catalogue Number": "BWV 232 ; BC E 1-2",
+    "Key": "b",
+    "Number of Movements/Sections": "4 parts: :*I. Missa (Kyrie & Gloria) ::1. Kyrie eleison I :::Adagio-Largo (B minor, 126 bars) ::2. Christe eleison :::[No tempo] (D major, 85 bars) ::3. Kyrie eleison II :::Alla breve (F-sharp minor, 59 bars) ::4. Gloria in excelsis :::Vivace (D major, 100 bars) ::5. Et in terra pax :::[No tempo] (D",
+    "Average Duration": "135 minutes",
+    "Year/Date of Composition": "1733, rev.1748-49 (August to October)",
+    "Year of First Publication": "1845 - Bonn: Simrock* :<nowiki>*</nowiki>Missa (only) issued in 1833 by Nägeli",
+    "Piece Style": "Baroque",
+    "Instrumentation": "voices, mixed chorus, orchestra",
+    "InstrDetail": "SSATB soli, SSATB chorus; 2, 3 (1-2d obda), 0, 2 - 1, 3, timp, strs, bc :2 flutes, 3 oboes (1st and 2nd also oboe d’amore), 2 bassoons; horn, 3 trumpets, timpani, strings, continuo (harpsichord and organ)",
+    "Tags": "masses ; 2sop alt ten bass ch orch ; la |"
+   },
+   "arrangementHeadings": [
+    {
+     "heading": "Complete",
+     "arrangers": [
+      "Tony|Kime|1947|"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For Accordion (Hörsten)",
+     "arrangers": [
+      "Werner von|Hörsten"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Legrand)",
+     "arrangers": [
+      "Emmanuel|Legrand"
+     ],
+     "nfiles": 6
+    },
+    {
+     "heading": "For Piano (Sun)",
+     "arrangers": [
+      "Ruoshi|Sun||"
+     ],
+     "nfiles": 22
+    },
+    {
+     "heading": "Selections",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For 2 Violins, 2 Violas and 2 Cellos (Bartoli)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 4
+    },
+    {
+     "heading": "For Piano (Willner)",
+     "arrangers": [
+      "Arthur|Willner|1881|1959"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Christe eleison (No.2)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Kyrie eleison II (No.3)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Laudamus te (No.6)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Violins, 2 Violas and Cello (Lang / Bartoli)",
+     "arrangers": [
+      "Peter|Lang||; Russ|Bartoli||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Gratias agimus tibi (No.7)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Domine Deus (No.8)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Violins, Viola and Cello (Lang, Bartoli)",
+     "arrangers": [
+      "Peter|Lang||; Russ|Bartoli||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Qui sedes ad dexteram Patris (No.10)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Quoniam tu solus sanctus (No.11)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "For 4 Cellos (Lang)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Cum Sancto Spiritu (No.12)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Male Chorus and Piano (Davison)",
+     "arrangers": [
+      "Archibald Thompson|Davison|1883|1961"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Credo in unum Deum (No.13)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Patrem Omnipotentem (No.14)",
+     "arrangers": [
+      "Russ|Bartoli||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Et in unum Dominum (No.15)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For 2 Violins, Viola and Cello (Lang / Bartoli)",
+     "arrangers": [
+      "Peter|Lang||; Russ|Bartoli||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Et incarnatus est (No.16)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Crucifixus (No.17)",
+     "arrangers": [
+      "Francisco|Tárrega|1852|1909"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "Et resurrexit (No.18)",
+     "arrangers": [
+      "Marc|Deckers"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Et in Spiritum Sanctum (No.19)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Violin, Viola and Cello (Lang / Bartoli)",
+     "arrangers": [
+      "Peter|Lang||; Russ|Bartoli||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Confiteor (No.20)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "Sanctus (No.22)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Benedictus (No.24)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "Agnus Dei (No.26)",
+     "arrangers": [
+      "Peter|Lang||"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Alto Saxophone and Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Cello and Piano (Roth)",
+     "arrangers": [
+      "Philipp|Roth|1853|1898"
+     ],
+     "nfiles": 2
+    },
+    {
+     "heading": "For Organ (Brunet)",
+     "arrangers": [
+      "Alain|Brunet|1967|"
+     ],
+     "nfiles": 3
+    },
+    {
+     "heading": "Dona nobis pacem (No.27)",
+     "arrangers": [
+      "Russ|Bartoli|1951|"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Best)",
+     "arrangers": [
+      "William Thomas|Best|1826|1897"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Repasky)",
+     "arrangers": [
+      "Steve|Repasky"
+     ],
+     "nfiles": 1
+    },
+    {
+     "heading": "For Organ (Sacher)",
+     "arrangers": [
+      "Friedrich|Sacher|1992|"
+     ],
+     "nfiles": 1
+    }
+   ],
+   "prior": null,
+   "existingOriginals": []
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "batch": "batch-grades-10",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "lachner-quartet-op107-4-violins",
+   "work": {
+    "composer": "Lachner, Ignaz",
+    "title": "Violin Quartet, Op.107",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Four-movement quartet for four violins.",
+    "imslpPage": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)"
+   },
+   "actualScorePath": "data/cache/same-instrument-imslp/scores/verify-07/lachner-parts.pdf",
+   "primarySources": [
+    "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+    "https://www.pmf.or.jp/en/gallery/digital/2025-lachner_vq.html"
+   ]
+  },
+  {
+   "key": "ellenberger-suite-palais-meran-cello-quartet",
+   "work": {
+    "composer": "Ellenberger, Kurt",
+    "title": "Suite Palais Meran",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "2023",
+    "minutes": 28,
+    "set": null,
+    "notes": "Five-movement suite for cello quartet.",
+    "imslpPage": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)"
+   },
+   "actualScorePath": "data/cache/same-instrument-imslp/scores/verify-07/ellenberger-score.pdf",
+   "primarySources": [
+    "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+    "https://www.gvsu.edu/cms4/asset/5888BBF7-E63E-25A3-2C23C6A679258F5D/10.27_cello_fest.pdf"
+   ]
+  },
+  {
+   "key": "derecskei-a-tear-in-the-mirror-3-cellos",
+   "work": {
+    "composer": "Derecskei, András",
+    "title": "A Tear in the Mirror",
+    "instruments": {
+     "cello": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "short",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "A scored trio for three cellos; a separate viola arrangement is listed.",
+    "imslpPage": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)"
+   },
+   "actualScorePath": "data/cache/same-instrument-imslp/scores/verify-07/derecskei-score.pdf",
+   "primarySources": [
+    "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)"
+   ]
+  },
+  {
+   "key": "fine-in-memoriam-george-finckel-cello-ensemble",
+   "work": {
+    "composer": "Fine, Vivian",
+    "title": "In Memoriam: George Finckel",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "year": "1987",
+    "minutes": 6,
+    "set": null,
+    "notes": "For four cellos or larger cello ensemble; premiered with sixteen cellists.",
+    "imslpPage": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)"
+   },
+   "actualScorePath": "data/cache/same-instrument-imslp/scores/verify-07/fine-score-parts.pdf",
+   "primarySources": [
+    "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+    "https://vivianfine.org/main/compositions/in-memoriam-george-finckel.htm"
+   ]
+  }
+ ]
+}

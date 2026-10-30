@@ -1,0 +1,820 @@
+{
+  "batch": "source42",
+  "status": "first-pass-research",
+  "checkedOn": "2026-10-29",
+  "entries": [
+    {
+      "key": "klengel-variations-op28-four-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Observed IMSLP page lists a complete score or complete parts, retrieved using its observed index. Human recording candidates are included inline for independent version and coverage review.",
+      "work": {
+        "composer": "Klengel, Julius",
+        "title": "Theme with Variations for 4 Cellos, Op.28 (Klengel, Julius)",
+        "instruments": {
+          "cello": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "G major; typeset score titled “Theme and Variations / Cello Quartet,” edited by Tsunehisa Namba; no arranger credited.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": "1892 (first publication; Hofmeister reference on cached IMSLP page)",
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+            "checkedOn": "2026-10-29",
+            "locator": "Cached page id 991665, work information and file listing",
+            "finding": "IMSLP page title: Theme with Variations for 4 Cellos, Op.28 (Klengel, Julius). Work information gives 4 cellos instrumentation, key G, style Romantic, publication information 1892 - Leipzig: Breitkopf und Härtel. File listing: Complete Score, observed file index 617255; first page title “Theme and Variations / Cello Quartet,” four cello staves; typeset score editor Tsunehisa Namba."
+          },
+          {
+            "url": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+            "checkedOn": "2026-10-29",
+            "locator": "Complete notation retrieved to data/cache/same-instrument-imslp/scores/source42-617255.pdf",
+            "finding": "Complete Score, observed file index 617255; first page title “Theme and Variations / Cello Quartet,” four cello staves; typeset score editor Tsunehisa Namba."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+          "locator": "Complete Score, observed file index 617255; first page title “Theme and Variations / Cello Quartet,” four cello staves; typeset score editor Tsunehisa Namba.",
+          "finding": "IMSLP work information and actual file description support four independent cello parts. "
+        },
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=Mhr-s8jQhXw",
+          "finding": "Human performance candidates are supplied for review; completion, exact version, and confidence are pending independent Sol judgment."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+          "localPath": [
+            "data/cache/same-instrument-imslp/scores/source42-617255.pdf"
+          ],
+          "finding": "Complete Score, observed file index 617255; first page title “Theme and Variations / Cello Quartet,” four cello staves; typeset score editor Tsunehisa Namba."
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+          "work.title": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+          "work.instruments": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+          "work.form": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+          "work.year": null,
+          "details.published": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+          "work.notes": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)"
+        }
+      },
+      "unknowns": {
+        "work.level": "Not graded by researcher.",
+        "work.minutes": "No reliable full-work duration verified from source page and candidate metadata.",
+        "details.movements": "Movement headings/count not established from the first-pass inspection.",
+        "recordingResearch": "All candidates require independent exact-version and whole-work coverage review; no recording selection is made here."
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher; per coordinator instruction."
+      },
+      "recordingResearch": {
+        "status": "candidates-pending-Sol-review",
+        "queries": [
+          "Exact composer/title and four-part scoring; candidate IDs supplied in source batch."
+        ],
+        "candidates": [
+          {
+            "id": "Mhr-s8jQhXw",
+            "url": "https://www.youtube.com/watch?v=Mhr-s8jQhXw",
+            "title": "Theme and Variations  for ４cellos／Klengel",
+            "channel": "cello644",
+            "seconds": 604,
+            "description": "Theme and Variations（op.28）／Klengel\nCello：MUKOYAMA Kaeko・DOUGIN Hisaya・YAMANOUCHI Shunsuke・FUJIMORO Ryoichi\n2002.5.1    Live in Japan\n\n主題と変奏（op.28）／クレンゲル作曲\nチェロ：向山 佳絵子・銅銀 久弥・山内 俊輔・藤森 亮一\n「徳永兼一郎メモリアルコンサート」2002年5月1日（於：カザルスホール）より",
+            "performers": [
+              "Kaeko Mukoyama",
+              "Hisaya Dougin",
+              "Shunsuke Yamauchi",
+              "Ryoichi Fujimori"
+            ],
+            "finding": "Description names four cellists and a 2002 live performance; duration is 10:04. Exact version is plausible; extent requires listening/reviewer confirmation."
+          },
+          {
+            "id": "P4FWdVbhaVw",
+            "url": "https://www.youtube.com/watch?v=P4FWdVbhaVw",
+            "title": "Klengel Theme and Variations in G major, Op. 28 - Stefan Kartman X 4",
+            "channel": "Stefan Kartman",
+            "seconds": 589,
+            "description": "Stay tuned for the \"how to\" videos.\n\nI initiated this project because I want to establish a better way to coach chamber music online.\n\nWe know its not yet possible to play together at the same time over the internet because of the differences in latency even with the best equipment and connection speeds. But it is possible to have an authentic chamber music experience, even remotely.\n\nIf we can layer recordings without sacrificing the ability to listen to the other parts, we can react to phrasing and do rubato together. There was a process for the creation of this video that I would like to share with students, professional musicians, and teachers in the interest of keeping the art of chamber music alive during the pandemic.\n\nI am making a series of video tutorials for this purpose. Check in with this comment section again as I activate the following links.\n\nChamber Music Online Tutorial 1 - Intro\nhttps://youtu.be/JJbbMWvQJgo\n\nChamber Music Online Tutorial 2 - Overview Plan\nhttps://youtu.be/Cam99s75p2M\n\nChamber Music Online Tutorial 3 - Equipment\nhttps://youtu.be/qvScyG-lURc\n\nChamber Music Online Tutorial 4 - Recording With Click Tracks\nhttps://youtu.be/zbL8UzDTqQY\n\nChamber Music Online 5 - Layering Audio with ProTools\nhttps://youtu.be/9ug6KIc7HHA\n\nChamber Music Online 6 - Using Extra Tracks to Fix Errors and Layer Quick Entrances\nhttps://youtu.be/wP-b1j73G3w\n\nChamber Music Online 7 - Using Homemade Clicktracks \nhttps://www.youtube.com/watch?v=oyLz41qcveA\n\n•.    Layering recording on ProTools\n          Click tracks for practice\n          Rehearsing via conference (making a battle plan)\n          Creating musical click tracks on a scratch track for the spaces in between\n          Getting rid of click tracks for performance\n•.    Putting together videos in Adobe Premier Pro\n          Muting one track and playing with the others - Performance\n          Making windows for each performer\n          Advanced techniques - Making it look like you are in the same room",
+            "performers": [
+              "Stefan Kartman (four separately recorded cello parts; other parts not named in description)"
+            ],
+            "finding": "Description explicitly says the four parts were recorded separately and layered; human multitrack candidate retained for review. Exact work and four roles named; completeness unresolved."
+          },
+          {
+            "id": "TUynJufaVDE",
+            "url": "https://www.youtube.com/watch?v=TUynJufaVDE",
+            "title": "Julius Klengel - Theme and Variations, Op. 28, for Four Cellos",
+            "channel": "Noah Barnhart",
+            "seconds": 730,
+            "description": "Recorded at Oceanway Studios in Nashville, TN on April 25th, 2022. Special thanks to Dr. Carmine Miranda and Belmont University for this opportunity.\n\nI. Noah Barnhart\nII. Jacob Bloom\nIII. Graham DeHaan\nIV. Meredith Empie\n\nShot and edited by Meredith Empie\nProduced and mixed by Alan Shacklock\nEngineered by Katelyn Prieboy and Kevin Boettger",
+            "performers": [
+              "Noah Barnhart",
+              "Jacob Bloom",
+              "Graham DeHaan",
+              "Meredith Empie"
+            ],
+            "finding": "Description names four cello performers and recording date; duration 12:10. Exact work/scoring supported, whole-work coverage still needs reviewer confirmation."
+          }
+        ]
+      }
+    },
+    {
+      "key": "klengel-impromptu-op30-four-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Observed IMSLP page lists a complete score or complete parts, retrieved using its observed index. Human recording candidates are included inline for independent version and coverage review.",
+      "work": {
+        "composer": "Klengel, Julius",
+        "title": "Impromptu, Op.30 (Klengel, Julius)",
+        "instruments": {
+          "cello": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "Impromptu über bekannte Melodieen für 4 Violoncelle; C major. Complete parts, Breitkopf und Härtel, 1892.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": "1892",
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+            "checkedOn": "2026-10-29",
+            "locator": "Cached page id 1472267, work information and file listing",
+            "finding": "IMSLP page title: Impromptu, Op.30 (Klengel, Julius). Work information gives 4 cellos instrumentation, key C, style Romantic, publication information 1892. File listing: Complete Parts, observed file index 938550; IMSLP listing describes one complete parts file; page title and instrumentation identify four violoncellos."
+          },
+          {
+            "url": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+            "checkedOn": "2026-10-29",
+            "locator": "Complete notation retrieved to data/cache/same-instrument-imslp/scores/source42-938550.pdf",
+            "finding": "Complete Parts, observed file index 938550; IMSLP listing describes one complete parts file; page title and instrumentation identify four violoncellos."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+          "locator": "Complete Parts, observed file index 938550; IMSLP listing describes one complete parts file; page title and instrumentation identify four violoncellos.",
+          "finding": "IMSLP work information and actual file description support four independent cello parts. "
+        },
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=8RfBLostgjc",
+          "finding": "Human performance candidates are supplied for review; completion, exact version, and confidence are pending independent Sol judgment."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+          "localPath": [
+            "data/cache/same-instrument-imslp/scores/source42-938550.pdf"
+          ],
+          "finding": "Complete Parts, observed file index 938550; IMSLP listing describes one complete parts file; page title and instrumentation identify four violoncellos."
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+          "work.title": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+          "work.instruments": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+          "work.form": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+          "work.year": null,
+          "details.published": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+          "work.notes": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)"
+        }
+      },
+      "unknowns": {
+        "work.level": "Not graded by researcher.",
+        "work.minutes": "No reliable full-work duration verified from source page and candidate metadata.",
+        "details.movements": "Movement headings/count not established from the first-pass inspection.",
+        "recordingResearch": "All candidates require independent exact-version and whole-work coverage review; no recording selection is made here."
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher; per coordinator instruction."
+      },
+      "recordingResearch": {
+        "status": "candidates-pending-Sol-review",
+        "queries": [
+          "Exact composer/title and four-part scoring; candidate IDs supplied in source batch."
+        ],
+        "candidates": [
+          {
+            "id": "8RfBLostgjc",
+            "url": "https://www.youtube.com/watch?v=8RfBLostgjc",
+            "title": "即興曲　作品30 :J クレンゲル　チェロ4重奏",
+            "channel": "morassing",
+            "seconds": 467,
+            "description": "土山如之チェロプロジェクト\n\n#チェロ4重奏\n#伊豆高原ステンドグラス美術館\n#静響",
+            "performers": [],
+            "finding": "Title and full cached metadata describe the named work/scoring; complete-work coverage is not independently established from metadata."
+          },
+          {
+            "id": "FHSFaWkBU9g",
+            "url": "https://www.youtube.com/watch?v=FHSFaWkBU9g",
+            "title": "Impromptu for 4 Cellos, Op. 30",
+            "channel": "Sebastian Comberti - Topic",
+            "seconds": 328,
+            "description": "Provided to YouTube by NAXOS of America\n\nImpromptu for 4 Cellos, Op. 30 · Sebastian Comberti\n\nJulius Klengel & Others: Cello Works\n\n℗ 2012 Cello Classics\n\nReleased on: 2012-02-04\n\nArtist: Ben Chappell\nArtist: Julia Desbruslais\nArtist: Sarah Butcher\nArtist: Sebastian Comberti\nComposer: Julius Klengel\n\nAuto-generated by YouTube.",
+            "performers": [
+              "Ben Chappell",
+              "Julia Desbruslais",
+              "Sarah Butcher",
+              "Sebastian Comberti"
+            ],
+            "finding": "Naxos metadata identifies composer, title, label, four performers and 5:28 runtime; appears to be a commercial track but movement/whole-work match remains for review."
+          },
+          {
+            "id": "yyLkRbbEylE",
+            "url": "https://www.youtube.com/watch?v=yyLkRbbEylE",
+            "title": "Tür Nr. 5 / Julius Klengel: Impromptu op. 30 – Celloquartett Klasse 6",
+            "channel": "Sächsisches Landesgymnasium für Musik Dresden",
+            "seconds": 396,
+            "description": "Zurück in der Mendelssohnallee öffnet sich die fünfte Tür mit dem Celloquartett der Klasse 6 und einem Impromptu von Julius Klengel. Täusche ich mich, oder heiratet da jemand? 😉 \n\n#slgm #adventskalender  #cello #ensemble #hochzeit\n\nVielen Dank an das Produktionsteam Wilm Heinrich und Steffen Sommerfeld \nhttp://artgenossen.tv/\n\n__________________________________________________\n\nSächsisches Landesgymnasium für Musik\ninfo@musikgym.smk.sachsen.de\nhttps://www.landesmusikgymnasium.sachsen.de/\n\nYoutube-Kanal abonnieren: https://www.youtube.com/channel/UCWAFUsL396BftY5KvPdQFfw\n\nInstagram:\nhttps://www.instagram.com/landesmusikgymnasium.sachsen/\n\nFacebook:\nhttps://www.facebook.com/landesmusikgymnasium.sachsen",
+            "performers": [],
+            "finding": "Title and full cached metadata describe the named work/scoring; complete-work coverage is not independently established from metadata."
+          }
+        ]
+      }
+    },
+    {
+      "key": "werner-elegie-op21-four-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Observed IMSLP page lists a complete score or complete parts, retrieved using its observed index. Human recording candidates are included inline for independent version and coverage review.",
+      "work": {
+        "composer": "Werner, Josef",
+        "title": "Elegie for 4 Cellos, Op.21 (Werner, Josef)",
+        "instruments": {
+          "cello": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "One movement in D major (introduction in D minor). Viola may replace cello 2; four-cello edition retrieved.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": "1889",
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+            "checkedOn": "2026-10-29",
+            "locator": "Cached page id 24508, work information and file listing",
+            "finding": "IMSLP page title: Elegie for 4 Cellos, Op.21 (Werner, Josef). Work information gives 4 cellos (or 3 cellos and viola, replacing cello 2) instrumentation, key D (introduction in D minor), style Romantic, publication information 1889. File listing: Complete Score and Parts, observed file index 10006; IMSLP listing identifies 14 pages, four cellos with optional viola replacing cello 2."
+          },
+          {
+            "url": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+            "checkedOn": "2026-10-29",
+            "locator": "Complete notation retrieved to data/cache/same-instrument-imslp/scores/source42-10006.pdf",
+            "finding": "Complete Score and Parts, observed file index 10006; IMSLP listing identifies 14 pages, four cellos with optional viola replacing cello 2."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+          "locator": "Complete Score and Parts, observed file index 10006; IMSLP listing identifies 14 pages, four cellos with optional viola replacing cello 2.",
+          "finding": "IMSLP work information and actual file description support four independent cello parts. The page also documents optional replacement of cello 2 by viola."
+        },
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=IUJl8SK4w0k",
+          "finding": "Human performance candidates are supplied for review; completion, exact version, and confidence are pending independent Sol judgment."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+          "localPath": [
+            "data/cache/same-instrument-imslp/scores/source42-10006.pdf"
+          ],
+          "finding": "Complete Score and Parts, observed file index 10006; IMSLP listing identifies 14 pages, four cellos with optional viola replacing cello 2."
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+          "work.title": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+          "work.instruments": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+          "work.form": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+          "work.year": null,
+          "details.published": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+          "work.notes": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)"
+        }
+      },
+      "unknowns": {
+        "work.level": "Not graded by researcher.",
+        "work.minutes": "No reliable full-work duration verified from source page and candidate metadata.",
+        "details.movements": "Movement headings/count not established from the first-pass inspection.",
+        "recordingResearch": "All candidates require independent exact-version and whole-work coverage review; no recording selection is made here."
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher; per coordinator instruction."
+      },
+      "recordingResearch": {
+        "status": "candidates-pending-Sol-review",
+        "queries": [
+          "Exact composer/title and four-part scoring; candidate IDs supplied in source batch."
+        ],
+        "candidates": [
+          {
+            "id": "IUJl8SK4w0k",
+            "url": "https://www.youtube.com/watch?v=IUJl8SK4w0k",
+            "title": "J. Werner - ELEGIE for four cellos Op.21 : SKCE_Cello Ensemble",
+            "channel": "SKCE Cello Ensemble",
+            "seconds": 333,
+            "description": "",
+            "performers": [],
+            "finding": "Title and full cached metadata describe the named work/scoring; complete-work coverage is not independently established from metadata."
+          },
+          {
+            "id": "l5BoxbhCkho",
+            "url": "https://www.youtube.com/watch?v=l5BoxbhCkho",
+            "title": "RADIX Cello Quartet - Josef Werner: Elegie for four cellos, Op. 21",
+            "channel": "Radix Cello Quartet",
+            "seconds": 372,
+            "description": "RADIX Cello Quartet \n\nHasmik Vardanyan\nVyacheslav Dobrushkin\nSonya Matoussova\nHyeok Kwon\n\n Live concert at the Moores Opera House, 2019",
+            "performers": [
+              "Hasmik Vardanyan",
+              "Vyacheslav Dobrushkin",
+              "Sonya Matoussova",
+              "Hyeok Kwon"
+            ],
+            "finding": "Description names four cellists and says live concert at Moores Opera House, 2019; runtime 6:12. Exact work/scoring credible, extent unverified."
+          },
+          {
+            "id": "rD5lhQEszeI",
+            "url": "https://www.youtube.com/watch?v=rD5lhQEszeI",
+            "title": "高醫弦樂社 Josef Werner Elegie for Four Cellos, Op. 21",
+            "channel": "KMUstring",
+            "seconds": 311,
+            "description": "2008/12/28 高醫弦樂社冬季成發 世界羅曼史-秋冬之戀",
+            "performers": [],
+            "finding": "Title and full cached metadata describe the named work/scoring; complete-work coverage is not independently established from metadata."
+          }
+        ]
+      }
+    },
+    {
+      "key": "clark-gavotte-four-violins",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Observed IMSLP page lists a complete score or complete parts, retrieved using its observed index. Human recording candidates are included inline for independent version and coverage review.",
+      "work": {
+        "composer": "Clark, Scotson",
+        "title": "Gavotte for Four Violins (Clark, Scotson)",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "short",
+        "level": null,
+        "hardestPart": null,
+        "year": "1881",
+        "minutes": null,
+        "set": null,
+        "notes": "D major; possible relation to Clark’s Gavotte de la Dauphine is unconfirmed. Four complete violin parts retrieved.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": "1881",
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+            "checkedOn": "2026-10-29",
+            "locator": "Cached page id 168499, work information and file listing",
+            "finding": "IMSLP page title: Gavotte for Four Violins (Clark, Scotson). Work information gives 4 violins instrumentation, key D, style Romantic, publication information 1881. File listing: Complete Parts, observed file index 82715; IMSLP lists 9 facing pages and four violins."
+          },
+          {
+            "url": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+            "checkedOn": "2026-10-29",
+            "locator": "Complete notation retrieved to data/cache/same-instrument-imslp/scores/source42-82715.pdf",
+            "finding": "Complete Parts, observed file index 82715; IMSLP lists 9 facing pages and four violins."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+          "locator": "Complete Parts, observed file index 82715; IMSLP lists 9 facing pages and four violins.",
+          "finding": "IMSLP work information and actual file description support four independent violin parts. "
+        },
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=4PTOSwjt9AE",
+          "finding": "Human performance candidates are supplied for review; completion, exact version, and confidence are pending independent Sol judgment."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+          "localPath": [
+            "data/cache/same-instrument-imslp/scores/source42-82715.pdf"
+          ],
+          "finding": "Complete Parts, observed file index 82715; IMSLP lists 9 facing pages and four violins."
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+          "work.title": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+          "work.instruments": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+          "work.form": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+          "work.year": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+          "details.published": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+          "work.notes": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)"
+        }
+      },
+      "unknowns": {
+        "work.level": "Not graded by researcher.",
+        "work.minutes": "No reliable full-work duration verified from source page and candidate metadata.",
+        "details.movements": "Movement headings/count not established from the first-pass inspection.",
+        "recordingResearch": "All candidates require independent exact-version and whole-work coverage review; no recording selection is made here."
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher; per coordinator instruction."
+      },
+      "recordingResearch": {
+        "status": "candidates-pending-Sol-review",
+        "queries": [
+          "Exact composer/title and four-part scoring; candidate IDs supplied in source batch."
+        ],
+        "candidates": [
+          {
+            "id": "4PTOSwjt9AE",
+            "url": "https://www.youtube.com/watch?v=4PTOSwjt9AE",
+            "title": "Scotson Clark.   Gavotte for Violin Quartet",
+            "channel": "Classical Music Score Centre",
+            "seconds": 139,
+            "description": "My edition of Gavotte for Four Violins.  Based on ISMLP#82715\n\nScores and Parts for the full work can be downloaded free at:\nhttps://musescore.com/user/402141/sets/6371677\n\nMy aim is to find and transcribe or arrange mostly unknown public domain music suitable for small amateur music groups, usually featuring flutes, recorders and strings. \n\nIf you like this score, please hit 'like' and 'subscribe' to encourage me to find and arrange some more similar music!",
+            "performers": [],
+            "finding": "Uploader says this is their edition based on IMSLP index 82715 and points to full-work scores/parts; title says violin quartet. Runtime 2:19; verify recording corresponds to complete work."
+          },
+          {
+            "id": "Nj7Ag6TCRl0",
+            "url": "https://www.youtube.com/watch?v=Nj7Ag6TCRl0",
+            "title": "Clark Scotson, Gavotte for 4 violins",
+            "channel": "Karlina's Violin and Viola Studio \"Vijolīte\"",
+            "seconds": 209,
+            "description": "",
+            "performers": [],
+            "finding": "Title and full cached metadata describe the named work/scoring; complete-work coverage is not independently established from metadata."
+          },
+          {
+            "id": "lL2160-CXfA",
+            "url": "https://www.youtube.com/watch?v=lL2160-CXfA",
+            "title": "Scotson Clark - Gavotte for 4 violins",
+            "channel": "Valentin Jeinov",
+            "seconds": 105,
+            "description": "",
+            "performers": [],
+            "finding": "Title and full cached metadata describe the named work/scoring; complete-work coverage is not independently established from metadata."
+          }
+        ]
+      }
+    },
+    {
+      "key": "makris-scherzo-four-violins",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Observed IMSLP page lists a complete score or complete parts, retrieved using its observed index. Human recording candidates are included inline for independent version and coverage review.",
+      "work": {
+        "composer": "Makris, Andreas",
+        "title": "Scherzo for Four Violins (Makris, Andreas)",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1965",
+        "minutes": null,
+        "set": null,
+        "notes": "Score title page reads “Scherzo for 4 Violins,” A. Makris, 1965; Mediterranean Press publication is listed as 1975.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": "1965",
+        "published": "1975",
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+            "checkedOn": "2026-10-29",
+            "locator": "Cached page id 211541, work information and file listing",
+            "finding": "IMSLP page title: Scherzo for Four Violins (Makris, Andreas). Work information gives 4 violins instrumentation, key not stated, style Modern, publication information 1975. File listing: Complete Score and Complete Parts, observed file indexes 103546 and 103548; inspected score title page reads “Scherzo for 4 Violins,” “A. Makris,” “1965,” with four violin staves."
+          },
+          {
+            "url": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+            "checkedOn": "2026-10-29",
+            "locator": "Complete notation retrieved to data/cache/same-instrument-imslp/scores/source42-103546.pdf, data/cache/same-instrument-imslp/scores/source42-103548.pdf",
+            "finding": "Complete Score and Complete Parts, observed file indexes 103546 and 103548; inspected score title page reads “Scherzo for 4 Violins,” “A. Makris,” “1965,” with four violin staves."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+          "locator": "Complete Score and Complete Parts, observed file indexes 103546 and 103548; inspected score title page reads “Scherzo for 4 Violins,” “A. Makris,” “1965,” with four violin staves.",
+          "finding": "IMSLP work information and actual file description support four independent violin parts. "
+        },
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=1RLSlhyWoh4",
+          "finding": "Human performance candidates are supplied for review; completion, exact version, and confidence are pending independent Sol judgment."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+          "localPath": [
+            "data/cache/same-instrument-imslp/scores/source42-103546.pdf",
+            "data/cache/same-instrument-imslp/scores/source42-103548.pdf"
+          ],
+          "finding": "Complete Score and Complete Parts, observed file indexes 103546 and 103548; inspected score title page reads “Scherzo for 4 Violins,” “A. Makris,” “1965,” with four violin staves."
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+          "work.title": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+          "work.instruments": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+          "work.form": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+          "work.year": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+          "details.published": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+          "work.notes": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)"
+        }
+      },
+      "unknowns": {
+        "work.level": "Not graded by researcher.",
+        "work.minutes": "No reliable full-work duration verified from source page and candidate metadata.",
+        "details.movements": "Movement headings/count not established from the first-pass inspection.",
+        "recordingResearch": "All candidates require independent exact-version and whole-work coverage review; no recording selection is made here."
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher; per coordinator instruction."
+      },
+      "recordingResearch": {
+        "status": "candidates-pending-Sol-review",
+        "queries": [
+          "Exact composer/title and four-part scoring; candidate IDs supplied in source batch."
+        ],
+        "candidates": [
+          {
+            "id": "1RLSlhyWoh4",
+            "url": "https://www.youtube.com/watch?v=1RLSlhyWoh4",
+            "title": "\"Scherzo (1965)\" for 4 violins by Andreas Makris.",
+            "channel": "Frieda Yang",
+            "seconds": 227,
+            "description": "Performed by Frieda Yang's Students from the Music & Mind Studio. They performed and won the first prize in the Music in the Mountains Competition 2022.",
+            "performers": [
+              "Frieda Yang (students not individually named)"
+            ],
+            "finding": "Description says performed by students of Music & Mind Studio in competition; runtime 3:47. Title gives 1965, composer, and four violins; verify version/date discrepancy against score."
+          },
+          {
+            "id": "IOxzFrNmLJY",
+            "url": "https://www.youtube.com/watch?v=IOxzFrNmLJY",
+            "title": "Andreas Makris: Scherzo for Four Violins (1962)",
+            "channel": "Frieda Yang",
+            "seconds": 258,
+            "description": "Performed by the musicians from Frieda Yang's Music & Mind Studios. Deven Patel, Parker Weddle, Rajan Patel, and Evan Yu.",
+            "performers": [
+              "Deven Patel",
+              "Parker Weddle",
+              "Rajan Patel",
+              "Evan Yu"
+            ],
+            "finding": "Description names four performers; title says 1962, conflicting with score title page 1965. Candidate retained with composition-year conflict unresolved."
+          },
+          {
+            "id": "qQqFxRc2oY8",
+            "url": "https://www.youtube.com/watch?v=qQqFxRc2oY8",
+            "title": "Scherzo for 4  violins - A. Makris",
+            "channel": "Blue Mountain",
+            "seconds": 214,
+            "description": "BMF Student Concert 2018",
+            "performers": [],
+            "finding": "Title and full cached metadata describe the named work/scoring; complete-work coverage is not independently established from metadata."
+          }
+        ]
+      }
+    },
+    {
+      "key": "waelput-andante-four-violas",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Observed IMSLP page lists a complete score or complete parts, retrieved using its observed index. Human recording candidates are included inline for independent version and coverage review.",
+      "work": {
+        "composer": "Waelput, Hendrik",
+        "title": "Andante cantabile for 4 Violas (Waelput, Hendrik)",
+        "instruments": {
+          "viola": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "short",
+        "level": null,
+        "hardestPart": null,
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "Also titled Cantabile pour 4 altos. The typeset score is edited by Cypressdome; editor is not identified as arranger.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": "",
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+            "checkedOn": "2026-10-29",
+            "locator": "Cached page id 613650, work information and file listing",
+            "finding": "IMSLP page title: Andante cantabile for 4 Violas (Waelput, Hendrik). Work information gives 4 violas instrumentation, key not stated, style Romantic, publication information not stated. File listing: Complete Score and four separate viola parts, observed indexes 380033–380037. Score and parts are headed “Andante cantabile for Four Violas,” Hendrik Waelput; editor Cypressdome. Alternate copyist manuscript score/parts indexes 380038/380039 did not expose normal download links."
+          },
+          {
+            "url": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+            "checkedOn": "2026-10-29",
+            "locator": "Complete notation retrieved to data/cache/same-instrument-imslp/scores/source42-380033.pdf, data/cache/same-instrument-imslp/scores/source42-380034.pdf, data/cache/same-instrument-imslp/scores/source42-380035.pdf, data/cache/same-instrument-imslp/scores/source42-380036.pdf, data/cache/same-instrument-imslp/scores/source42-380037.pdf",
+            "finding": "Complete Score and four separate viola parts, observed indexes 380033–380037. Score and parts are headed “Andante cantabile for Four Violas,” Hendrik Waelput; editor Cypressdome. Alternate copyist manuscript score/parts indexes 380038/380039 did not expose normal download links."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+          "locator": "Complete Score and four separate viola parts, observed indexes 380033–380037. Score and parts are headed “Andante cantabile for Four Violas,” Hendrik Waelput; editor Cypressdome. Alternate copyist manuscript score/parts indexes 380038/380039 did not expose normal download links.",
+          "finding": "IMSLP work information and actual file description support four independent viola parts. "
+        },
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=CuZB6V9tYvw",
+          "finding": "Human performance candidates are supplied for review; completion, exact version, and confidence are pending independent Sol judgment."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+          "localPath": [
+            "data/cache/same-instrument-imslp/scores/source42-380033.pdf",
+            "data/cache/same-instrument-imslp/scores/source42-380034.pdf",
+            "data/cache/same-instrument-imslp/scores/source42-380035.pdf",
+            "data/cache/same-instrument-imslp/scores/source42-380036.pdf",
+            "data/cache/same-instrument-imslp/scores/source42-380037.pdf"
+          ],
+          "finding": "Complete Score and four separate viola parts, observed indexes 380033–380037. Score and parts are headed “Andante cantabile for Four Violas,” Hendrik Waelput; editor Cypressdome. Alternate copyist manuscript score/parts indexes 380038/380039 did not expose normal download links."
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+          "work.title": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+          "work.instruments": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+          "work.form": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+          "work.year": null,
+          "details.published": null,
+          "work.notes": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)"
+        }
+      },
+      "unknowns": {
+        "work.level": "Not graded by researcher.",
+        "work.minutes": "No reliable full-work duration verified from source page and candidate metadata.",
+        "details.movements": "Movement headings/count not established from the first-pass inspection.",
+        "recordingResearch": "All candidates require independent exact-version and whole-work coverage review; no recording selection is made here."
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher; per coordinator instruction."
+      },
+      "recordingResearch": {
+        "status": "candidates-pending-Sol-review",
+        "queries": [
+          "Exact composer/title and four-part scoring; candidate IDs supplied in source batch."
+        ],
+        "candidates": [
+          {
+            "id": "CuZB6V9tYvw",
+            "url": "https://www.youtube.com/watch?v=CuZB6V9tYvw",
+            "title": "H  Waelput   Andante cantabile for Four Violas MP4 1080p",
+            "channel": "디알토 앙상블",
+            "seconds": 251,
+            "description": "4viola 곡을 더블링하여 연주",
+            "performers": [],
+            "finding": "Description says the four-viola piece is performed with doubling; human doubled ensemble candidate retained for review, not treated as automatically excluded. Runtime 4:11."
+          },
+          {
+            "id": "TbApybcQy0s",
+            "url": "https://www.youtube.com/watch?v=TbApybcQy0s",
+            "title": "andante cantabile, Hendrik Waelput",
+            "channel": "Ariadna Terol Donat, Viola",
+            "seconds": 300,
+            "description": "Viola Quartet\nNight of classical Music. Conservatorium Maastricht. 28/01/2023",
+            "performers": [],
+            "finding": "Description identifies viola quartet at Maastricht Conservatorium, 2023; runtime 5:00. Work title/composer and ensemble supported, full-work extent unresolved."
+          },
+          {
+            "id": "ez5p4wCHi2M",
+            "url": "https://www.youtube.com/watch?v=ez5p4wCHi2M",
+            "title": "Andante Cantabile for 4 Violas by Hendrik Waelput",
+            "channel": "Juliette Music & Arts Academy ",
+            "seconds": 349,
+            "description": "Presented by Juliette Music & Arts Academy\n\nA celebration of the rich, soulful world of the viola.\n\nThank you to everyone who joined us for this unforgettable evening. Voices of the Viola brought together four professional violists, showcasing the instrument's expressive depth through solos, duets and quartet - spanning from Baroque era to modern compositions. \n\n🎻 Juan Sebastian Castillo Diaz – Former MPO Musician\n🎻 Datin Veronika Thöne – Principal Viola, National Symphony Orchestra (NSO)\n🎻 Dr. Andrew Filmer – Associate Professor, UCSI\n🎻 Toko Inomoto – Former MPO Musician\n\nThis montage captures the heart of the concert: the colors, the warmth, and the unique voice of the viola. We hope these moments inspire you as music as the performers inspired us.\n\n📅 01 December 2025\n⏰ Time: 8.00 pm\n\n📍 Venue: Juliette Music & Arts Academy",
+            "performers": [
+              "Juan Sebastian Castillo Diaz",
+              "Veronika Thöne",
+              "Andrew Filmer",
+              "Toko Inomoto"
+            ],
+            "finding": "Description says concert montage featuring four named professional violists; not a continuous recording guarantee. Runtime 5:49; clip may be montage."
+          }
+        ]
+      }
+    }
+  ]
+}

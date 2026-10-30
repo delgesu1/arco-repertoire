@@ -1,0 +1,443 @@
+{
+ "batch": "triage-006",
+ "status": "partial",
+ "entries": [
+  {
+   "key": "lachner-quartet-op107-4-violins",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "PMF documents the complete four-movement performance by four named violinists, while IMSLP lists the exact four-violin parts.",
+   "work": {
+    "composer": "Lachner, Ignaz",
+    "title": "Violin Quartet, Op.107",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": null,
+    "minutes": null,
+    "set": null,
+    "notes": "Four-movement quartet for four violins.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "published": "1895, London: Augener",
+    "kind": "single",
+    "movements": [
+     "Allegro moderato",
+     "Andante",
+     "Allegro giocoso",
+     "Finale. Allegro vivo, ma non troppo"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+      "checkedOn": "2026-10-28",
+      "finding": "Original Op.107, four movements, four violins; complete parts listed in the cached original page."
+     },
+     {
+      "url": "https://www.pmf.or.jp/en/gallery/digital/2025-lachner_vq.html",
+      "checkedOn": "2026-10-28",
+      "finding": "Official PMF page names four violinists, all four movements, and the July 15, 2025 performance."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+     "locator": "Parts; Work Info",
+     "finding": "Complete Parts listed; work instrumentation is four violins."
+    },
+    "floor": {
+     "url": "https://www.pmf.or.jp/en/gallery/digital/2025-lachner_vq.html",
+     "finding": "Four named violinists perform the complete four-movement work."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+     "finding": "Original composition; complete violin parts are listed."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+     "work.title": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+     "work.instruments": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+     "work.year": "Unknown; not resolved in this pass",
+     "work.minutes": "Unknown; not resolved in this pass",
+     "details.movements": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+     "details.published": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)"
+    },
+    "unknowns": {
+     "work.year": "Composition year absent in cached work information; not independently resolved.",
+     "work.minutes": "Duration not established by primary sources in this pass.",
+     "composerMetadata": "No new metadata source inspected; existing composer match to be checked by fact reviewer.",
+     "work.level": "No musical grading performed.",
+     "work.hardestPart": "No musical grading performed."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Not graded by first-pass extractor"
+   },
+   "recordingResearch": {
+    "status": "released-human-performance-established",
+    "queries": [
+     "Ignaz Lachner Quartet Op.107 four violins PMF 2025"
+    ],
+    "candidates": [
+     {
+      "url": "https://www.pmf.or.jp/en/gallery/digital/2025-lachner_vq.html",
+      "performers": [
+       "Hajung Cho",
+       "Rumeng Liao",
+       "Luca Sakon",
+       "Mei Kawai"
+      ],
+      "finding": "Official PMF programme identifies all four performers and lists all movements; event recording dated July 15, 2025."
+     }
+    ]
+   }
+  },
+  {
+   "key": "ellenberger-suite-palais-meran-cello-quartet",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "IMSLP provides the complete score, parts, and full five-movement live premiere recording with four named cellists.",
+   "work": {
+    "composer": "Ellenberger, Kurt",
+    "title": "Suite Palais Meran",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "2023",
+    "minutes": 28,
+    "set": null,
+    "notes": "Five-movement suite for cello quartet.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)"
+   },
+   "composerMetadata": {
+    "dates": "",
+    "nationality": "",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "published": "2023",
+    "kind": "single",
+    "movements": [
+     "Prelude and Chorale",
+     "Fugue",
+     "Aire: Duet and Canon",
+     "Menuet and Quartet",
+     "Postlude and Chaconne"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+      "checkedOn": "2026-10-28",
+      "finding": "Complete score and parts; five movements; complete movement recordings credited to four named performers; 2023 composition and 28-minute duration."
+     },
+     {
+      "url": "https://www.gvsu.edu/cms4/asset/5888BBF7-E63E-25A3-2C23C6A679258F5D/10.27_cello_fest.pdf",
+      "checkedOn": "2026-10-28",
+      "finding": "Grand Valley State University concert programme lists the five-movement suite for cello quartet."
+     },
+     {
+      "url": "https://www.gvsu.edu/gvnext/2013/three-faculty-members-earn-fulbright-awards-8089.htm",
+      "finding": "University first-party biography corroborates identity as living composer/educator and masculine references; contemporary era is editorial classification. Birth date and nationality remain unknown."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+     "locator": "Scores and Parts; Work Info",
+     "finding": "Complete score and complete parts listed; work instrumentation is four cellos."
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+     "finding": "All five movements recorded live at the 2024 premiere; four named performers credited."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+     "finding": "Original five-movement work; complete score and all parts listed."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+     "work.title": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+     "work.instruments": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+     "work.year": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+     "work.minutes": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+     "details.movements": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)"
+    },
+    "unknowns": {
+     "composerMetadata": "No separate primary biography source inspected; leave for fact review.",
+     "work.level": "No musical grading performed.",
+     "work.hardestPart": "No musical grading performed.",
+     "composer.dates": "No reliable birth date established from inspected first-party biography.",
+     "composer.nationality": "Not inferred from institutional employment."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Not graded by first-pass extractor"
+   },
+   "recordingResearch": {
+    "status": "released-human-recording-established",
+    "queries": [
+     "Kurt Ellenberger Suite Palais Meran cello quartet premiere recording"
+    ],
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+      "performers": [
+       "Pablo Mahave-Veglia",
+       "Jinn Shin",
+       "Anthony Arnone",
+       "J. T. Alexander"
+      ],
+      "finding": "IMSLP lists separate audio files for all five movements and says live premiere recording, October 27, 2024."
+     }
+    ]
+   }
+  },
+  {
+   "key": "derecskei-a-tear-in-the-mirror-3-cellos",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "IMSLP identifies a complete human performance by three named cellists and lists the complete score for the exact cello version.",
+   "work": {
+    "composer": "Derecskei, András",
+    "title": "A Tear in the Mirror",
+    "instruments": {
+     "cello": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "short",
+    "level": null,
+    "hardestPart": null,
+    "year": null,
+    "minutes": null,
+    "set": null,
+    "notes": "A scored trio for three cellos; a separate viola arrangement is listed.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)"
+   },
+   "composerMetadata": {
+    "dates": "1982–",
+    "nationality": "Hungarian",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "published": null,
+    "kind": "single",
+    "movements": [
+     "A Tear in the Mirror"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+      "checkedOn": "2026-10-28",
+      "finding": "Page lists a complete score and a complete performance audio file for three cellos with three named performers; separate composer-made viola arrangement is distinguished."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+     "locator": "Original Scores and Recordings; arrangement heading",
+     "finding": "Complete score labeled for the cello version; original three-cello instrumentation and separate three-viola composer arrangement."
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+     "finding": "Audio labelled complete performance, credited to Ditta Rohmann, Annamária Kovács, and Ágota Szilágyi."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+     "finding": "Complete cello score listed; the three-viola version is separately identified as an arrangement."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+     "work.title": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+     "work.instruments": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+     "details.movements": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)"
+    },
+    "unknowns": {
+     "work.year": "Composition year not established in inspected fields.",
+     "work.minutes": "Duration unavailable in inspected fields.",
+     "details.published": "First publication not established.",
+     "composerMetadata": "No primary composer biography source inspected.",
+     "work.level": "No musical grading performed.",
+     "work.hardestPart": "No musical grading performed."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Not graded by first-pass extractor"
+   },
+   "recordingResearch": {
+    "status": "released-human-recording-established",
+    "queries": [
+     "András Derecskei A Tear in the Mirror three cellos recording"
+    ],
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+      "performers": [
+       "Ditta Rohmann",
+       "Annamária Kovács",
+       "Ágota Szilágyi"
+      ],
+      "finding": "Source labels audio a complete performance, 4:48; three named cellists credited."
+     }
+    ]
+   }
+  },
+  {
+   "key": "fine-in-memoriam-george-finckel-cello-ensemble",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "Composer foundation documents the full premiere by a named cello ensemble; IMSLP lists complete score and parts and the source permits four or more cellos.",
+   "work": {
+    "composer": "Fine, Vivian",
+    "title": "In Memoriam: George Finckel",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "level": null,
+    "hardestPart": null,
+    "year": "1987",
+    "minutes": 6,
+    "set": null,
+    "notes": "For four cellos or larger cello ensemble; premiered with sixteen cellists.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)"
+   },
+   "composerMetadata": {
+    "dates": "1913–2000",
+    "nationality": "American",
+    "gender": "F",
+    "era": "20th-century"
+   },
+   "details": {
+    "published": null,
+    "kind": "single",
+    "movements": [
+     "In Memoriam: George Finckel"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+      "checkedOn": "2026-10-28",
+      "finding": "Complete score and parts listed; instrumentation is four cellos or multiples; premiere is listed as an ensemble of sixteen cellists."
+     },
+     {
+      "url": "https://vivianfine.org/main/compositions/in-memoriam-george-finckel.htm",
+      "checkedOn": "2026-10-28",
+      "finding": "Composer estate gives 1987, six minutes, four cellos or multiples, premiere date, and named performers."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+     "locator": "Scores and Parts; Work Info",
+     "finding": "Complete score and parts listed; work permits four cellos or multiples thereof."
+    },
+    "floor": {
+     "url": "https://vivianfine.org/main/compositions/in-memoriam-george-finckel.htm",
+     "finding": "Composer conducted the premiere by an ensemble of sixteen cellists; performers are named."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+     "finding": "Complete score and parts listed under the original composition."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+     "work.title": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+     "work.instruments": "https://vivianfine.org/main/compositions/in-memoriam-george-finckel.htm",
+     "work.year": "https://vivianfine.org/main/compositions/in-memoriam-george-finckel.htm",
+     "work.minutes": "https://vivianfine.org/main/compositions/in-memoriam-george-finckel.htm"
+    },
+    "unknowns": {
+     "details.published": "First publication date not established.",
+     "composerMetadata": "No separate composer biography source inspected in this pass.",
+     "work.level": "No musical grading performed.",
+     "work.hardestPart": "No musical grading performed."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Not graded by first-pass extractor"
+   },
+   "recordingResearch": {
+    "status": "performance-floor-established-recording-not-located",
+    "queries": [
+     "Vivian Fine In Memoriam George Finckel premiere 1987 sixteen cellos recording"
+    ],
+    "candidates": [],
+    "finding": "Composer foundation documents a complete live premiere and names the performers, but this pass did not find a released recording."
+   }
+  }
+ ],
+ "resume": {
+  "nextPageId": null,
+  "note": "Four strong leads extracted from triage-006. They are drafts requiring fact review; no musical judgment or video selection performed."
+ },
+ "coordinatorEnrichment": "Verified composer patches; Ellenberger birth and nationality remain explicit unknowns."
+}

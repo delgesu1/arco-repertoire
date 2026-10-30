@@ -28,6 +28,7 @@ export function WorkAbout({ piece, details, notes }: { piece: Work; details?: Wo
   const d = useDetails(piece.id, details);
   const facts = (
     [
+      ["Arranged by", piece.arranger],
       ["Composed", d?.composed],
       ["Dedicated to", d?.dedication],
       ["First performed", d?.firstPerformance],
@@ -57,13 +58,13 @@ export function WorkAbout({ piece, details, notes }: { piece: Work; details?: Wo
       )}
       <div className="copy-program">
         <CopyProgram piece={piece} details={details} />
-        <span>Composer, title and movements, ready to paste into a program.</span>
+        <span>Composer, title{piece.arranger ? ", arranger" : ""} and movements, ready to paste into a program.</span>
       </div>
     </section>
   );
 }
 
-/** Copies the composer, the title as a program prints it, and the movements, ready to paste into a concert program. */
+/** Copies composer, program title, arranger when credited, and movements into a concert program. */
 export function CopyProgram({ piece, details }: { piece: Work; details?: WorkDetails | null }) {
   const d = useDetails(piece.id, details);
   const [copied, setCopied] = useState(false);

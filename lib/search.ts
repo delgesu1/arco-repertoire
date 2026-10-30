@@ -79,7 +79,7 @@ export function indexWorks<P extends PieceBase>(pieces: P[], rest: (p: P) => str
         aka: other.length ? withBareNumbers(hyphenless(normalize(other.join(" · ")))) : " ",
         composer: hyphenless(normalize(`${p.composer} ${p.composerName}`)),
         set: p.set ? withBareNumbers(normalize(p.set)) : " ",
-        rest: hyphenless(normalize(rest(p).join(" "))),
+        rest: hyphenless(normalize([...rest(p), ...(p.arranger ? [`arranged by ${p.arranger}`] : [])].join(" "))),
       },
     };
   });

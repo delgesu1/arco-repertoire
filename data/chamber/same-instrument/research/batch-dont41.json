@@ -1,0 +1,123 @@
+{
+  "batch": "violin40-extract",
+  "status": "first-pass-research",
+  "checkedOn": "2026-10-29",
+  "entries": [
+    {
+      "key": "dont-quartet-op42-four-violins",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Final independent review verifies original scoring, complete notation and complete Rafferty human release; whole-work YouTube remains unavailable.",
+      "work": {
+        "composer": "Dont, Jakob",
+        "title": "Violin Quartet, Op. 42",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "",
+        "minutes": 20,
+        "set": null,
+        "notes": "Original four-movement quartet for four violins.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": [],
+        "imslpPage": "Violin Quartet, Op.42 (Dont, Jakob)"
+      },
+      "composerMetadata": {
+        "dates": "1815–1888",
+        "nationality": "Austrian",
+        "gender": "M",
+        "era": "romantic"
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)",
+            "checkedOn": "2026-10-29",
+            "locator": "IMSLP page 168495; work information and file listing",
+            "finding": "Page identifies Violin Quartet, Op. 42, E minor, instrumentation 4 violins, and complete score/parts; movement count and dates are blank."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=EVkj-WqePIo",
+            "checkedOn": "2026-10-29",
+            "locator": "Video metadata and description",
+            "finding": "Title explicitly says Quartet Op.42, I. Allegro espressivo; Yuka Matsumoto describes a home sight-reading recording, runtime 401 seconds. It is movement I, not a whole-work recording."
+          },
+          {
+            "url": "https://classical.music.apple.com/cn/album/1671450619",
+            "finding": "Primary digital album credits J.Patrick Rafferty, violin, and groups the complete Op42 as19:50 with four tracks I7:53,II2:24,III5:50,IV3:41. Original four-violin work and each movement match complete notation; human whole-performance context independent of the incomplete YouTube example."
+          },
+          {
+            "url": "https://music.apple.com/us/album/jakob-dont-1815-1888-quartets-for-four-violins/1671450619",
+            "finding": "Album Jakob Dont (1815–1888), Quartets for Four Violins releasedMarch8,2023 under J.Patrick Rafferty,8tracks covering Op42 and Op45."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)",
+          "locator": "Complete score file index 82713; score pages",
+          "finding": "Score identifies Jacob Dont, Op. 42, and four violin parts. Opening movement heading is Allegro espressivo. The score runs beyond the first movement; no whole-work video extent inferred from the supplied clip."
+        },
+        "floor": {
+          "url": "https://music.apple.com/us/album/jakob-dont-1815-1888-quartets-for-four-violins/1671450619",
+          "finding": "Primary digital album credits J.Patrick Rafferty, violin, and groups the complete Op42 as19:50 with four tracks I7:53,II2:24,III5:50,IV3:41. Original four-violin work and each movement match complete notation; human whole-performance context independent of the incomplete YouTube example."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)",
+          "finding": "Complete score file index 82713 retrieved using the observed IMSLP file index. Editor credit is Theo Wyatt and Kitty Wyatt; no arranger credited.",
+          "localPath": "data/cache/same-instrument-imslp/scores/82713.pdf"
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)",
+          "work.title": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)",
+          "work.instruments": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)",
+          "work.imslpPage": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)"
+        },
+        "unknowns": {
+          "work.year": "Composition and publication years not given on the source page or inspected score.",
+          "details.movements": "Only first movement heading recorded; remaining headings not extracted in this pass.",
+          "whole-work-floor": "Other human evidence reportedly identified by parallel research, but has not been independently source-checked or documented here.",
+          "work.level": "Not musically graded."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher."
+      },
+      "recordingResearch": {
+        "status": "movement-only-video",
+        "queries": [
+          "Jakob Dont Quartet Op.42 four violins"
+        ],
+        "candidates": [
+          {
+            "id": "EVkj-WqePIo",
+            "url": "https://www.youtube.com/watch?v=EVkj-WqePIo",
+            "title": "【4Violins】Jacob Dont: Quartet Op.42, I. Allegro espressivo",
+            "channel": "Yuka Matsumoto",
+            "seconds": 401,
+            "description": "Yuka Matsumoto—violin(s). Recorded at home for sight-reading fun on 2020-06-18 using an Acapella app. Description links to Spotify and Naxos CD listings.",
+            "performers": [
+              "Yuka Matsumoto"
+            ],
+            "finding": "Movement I only; do not treat as a full-work video. Title/uploader checked using oEmbed; full metadata retrieved with media download skipped. No excluded performer found in title, channel, or description."
+          }
+        ]
+      },
+      "normalization": "Mechanical key/schema normalization; original first-pass extraction retained. Editors are not arrangers. Independent numerical grades are unchanged."
+    }
+  ]
+}

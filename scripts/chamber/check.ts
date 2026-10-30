@@ -9,15 +9,23 @@
  *   npx tsx scripts/chamber/check.ts
  */
 import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { join, resolve } from "node:path";
 import { z } from "zod";
 import type { ChamberComposer, ChamberWork, FormationKey, InstrumentKey } from "../../lib/chamber/types";
+import { chamberScopeErrors } from "../../lib/chamber/scope";
 import { FORMATIONS, FORMS, INSTRUMENTS, formationFor, partNames, playersFor } from "../../lib/chamber/vocab";
 import type { Catalogue } from "../../lib/types";
 import { CHARACTER, ERAS } from "../../lib/vocab";
 
 const ROOT = join(__dirname, "..", "..");
-const read = (p: string) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
+const read = (p: string) => JSON.parse(readFileSync(resolve(ROOT, p), "utf8"));
+// Check complete staged proposals without temporarily replacing canonical files.
+const inputPath = (flag: string, fallback: string) => {
+  const index = process.argv.indexOf(flag);
+  if (index < 0) return fallback;
+  if (!process.argv[index + 1] || process.argv[index + 1].startsWith("--")) throw new Error(`${flag} requires a path`);
+  return process.argv[index + 1];
+};
 
 const keys = <T extends string>(xs: readonly { key: T }[]) => xs.map((x) => x.key) as [T, ...T[]];
 const instrumentKeys = Object.keys(INSTRUMENTS) as [InstrumentKey, ...InstrumentKey[]];
@@ -31,6 +39,7 @@ const Work = z
       .string()
       .regex(/^([^,]+, .+|\p{Lu}\p{Ll}+ \p{Lu}[\p{Ll}-]+|\p{Lu}[\p{Ll}-]+)$/u, 'composer must be "Surname, Given names" (or family name first: "Tan Dun", or one name: "Carolo")'),
     title: z.string().min(1),
+    arranger: z.string().trim().min(1).optional(),
     aka: z.array(z.string().min(1)).optional(),
     formation: z.enum(keys(FORMATIONS)),
     formationNote: z.string().min(1).optional(),
@@ -70,8 +79,8 @@ const Composer = z
 const errors: string[] = [];
 const err = (w: { id?: number; title?: string } | null, m: string) => errors.push(w ? `${w.id} ${w.title}: ${m}` : m);
 
-const rawWorks: unknown[] = read("data/chamber/works.json");
-const rawComposers: Record<string, unknown> = read("data/chamber/composers.json");
+const rawWorks: unknown[] = read(inputPath("--works", "data/chamber/works.json"));
+const rawComposers: Record<string, unknown> = read(inputPath("--composers", "data/chamber/composers.json"));
 const violin = (read("data/build/catalogue.json") as Catalogue).pieces;
 const violinById = new Map(violin.map((p) => [p.id, p]));
 const violinComposers = new Set(violin.map((p) => p.composer));
@@ -105,16 +114,11 @@ for (const w of works) {
   if (!violinComposers.has(w.composer) && !composers.has(w.composer))
     err(w, `composer "${w.composer}" is neither in the violin catalogue nor in data/chamber/composers.json`);
 
-  // scope: 3–9 parts, or a duo the violin section lists too (scripts/chamber/duos.ts); at least one string instrument; not
-  // violins alone (unless with continuo), except a duo for two violins
+  // Existing chamber scope, extended to 3–12 parts for one kind of violin-family string instrument.
   const ins = w.instruments;
   const players = playersFor(ins);
   if (w.players !== players) err(w, `players is ${w.players} but the instruments make ${players}`);
-  if (players < 2 || players > 9) err(w, `${players} players is outside the section's scope (2–9)`);
-  if (players === 2 && w.violinId == null) err(w, "a duo must be listed in the violin section too (violinId)");
-  const strings = (Object.keys(ins) as InstrumentKey[]).filter((k) => INSTRUMENTS[k].family === "string");
-  if (!strings.length) err(w, "no string instrument: out of scope");
-  if (Object.keys(ins).every((k) => k === "violin") && players > 2) err(w, "violins alone belong to the violin section");
+  for (const message of chamberScopeErrors(ins, w.violinId)) err(w, message);
 
   // alternatives replace a part of the scoring; ad lib. parts sit outside it
   for (const [k, alts] of Object.entries(w.alternatives ?? {}) as [InstrumentKey, InstrumentKey[]][]) {
@@ -130,7 +134,7 @@ for (const w of works) {
 
   // hardest part: "balanced", an instrument, or a numbered part ("violin 1") when there are several
   if (w.hardestPart !== "balanced") {
-    const m = w.hardestPart.match(/^([a-z-]+?)(?: (\d))?$/);
+    const m = w.hardestPart.match(/^([a-z-]+?)(?: ([1-9]\d*))?$/);
     const k = m?.[1] as InstrumentKey | undefined;
     const n = ins[k as InstrumentKey];
     if (!m || !k || !n) err(w, `hardestPart "${w.hardestPart}" is not one of the instruments`);

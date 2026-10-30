@@ -1,0 +1,215 @@
+{
+ "batch": "positive-signal-ready-35",
+ "status": "complete",
+ "entries": [
+  {
+   "key": "hoek-3-korte-bluesjes-version-a-8-violas",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "The IMSLP primary page records the exact Version A first performance at the 2012-02-23 Altvioolfestival Dordrecht opening concert; the composer’s own page confirms the standalone eight-viola version, distinct from clarinet-choir and mixed strings. Complete score and all eight viola parts are listed.",
+   "work": {
+    "composer": "Hoek, Arie van",
+    "title": "3 Korte bluesjes voor 8 altviolen (Version A)",
+    "instruments": {
+     "viola": 8
+    },
+    "players": 8,
+    "formation": "large-strings",
+    "form": "set",
+    "level": null,
+    "hardestPart": null,
+    "year": "2011",
+    "minutes": 10,
+    "set": null,
+    "notes": "Three blues movements for eight violas; Version A.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "3 korte bluesjes (Hoek, Arie van)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "suite",
+    "movements": [
+     "Loekie Blues",
+     "Slow Blues Song",
+     "De Stille"
+    ],
+    "composed": "2011",
+    "dedication": "Karin Dolman",
+    "firstPerformance": "Version A: 2012-02-23, opening concert, Altvioolfestival Dordrecht"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+      "checkedOn": "2026-10-29",
+      "finding": "First-performance record ties Version A specifically to the 2012-02-23 Altvioolfestival Dordrecht opening concert; page distinguishes Version A 8 violas, Version B clarinet choir and Version C strings. The 9 synthesized audio files are Finale-generated and were excluded."
+     },
+     {
+      "url": "https://arievanhoek.nl/gratis-bladmuziek-naar-componist/arie-van-hoek.html",
+      "checkedOn": "2026-10-29",
+      "finding": "Composer’s own sheet-music catalogue distinguishes the eight-viola version from the separate string version and lists score and parts."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "locator": "Scores and Parts > Version A: 8 Violas; Parts > Version A: 8 Violas",
+     "finding": "One 28-page complete score and individual Viola 1–8 parts (the eighth part is offered in alto- and bass-clef layouts); no accompaniment is listed for this version."
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "finding": "The work page explicitly records Version A first performed at the opening concert of Altvioolfestival Dordrecht on 2012-02-23. Event is a past public performance; the page does not name the individual violists."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole work (three movements)",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/559349",
+     "localPath": "data/cache/same-instrument-imslp/scores/hoek-3-korte-bluesjes-8violas.pdf",
+     "finding": "NormalIMSLPAPIhandlerretrievedverifiedcompleteVersionAscore, actual8violas; all8partsalsolisted."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "work.title": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "work.instruments": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "work.year": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "work.minutes": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "details.firstPerformance": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "details.movements": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)"
+    },
+    "unknowns": {
+     "details.published": "Publication year not established.",
+     "work.level": "Not graded; explicit user instruction sets level null.",
+     "work.hardestPart": "Not graded."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass source extraction; independent musical review required."
+   },
+   "recordingResearch": {
+    "status": "not-found",
+    "queries": [
+     "site:imslp.org/wiki \"3 Korte bluesjes\" \"2012-02-23\"",
+     "Arie van Hoek official 3 korte bluesjes Altvioolfestival 2012 Karin Dolman Dordrecht"
+    ],
+    "candidates": []
+   }
+  },
+  {
+   "key": "alencar-cello-quartet-no4",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "The composer-uploaded video metadata identifies a five-minute performance of the exact Cello Quartet No.4 at Concerto SESC Partituras Roraima on 2016-04-09; IMSLP lists the same first-performance event and a complete score plus all four cello parts. The performing cellists are not individually credited in the metadata.",
+   "work": {
+    "composer": "Alencar, Gabriel",
+    "title": "Cello Quartet No.4",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "2008",
+    "minutes": null,
+    "set": null,
+    "notes": "Four-cello quartet in A minor.",
+    "popularity": null,
+    "mode": "minor",
+    "pace": null,
+    "character": [],
+    "imslpPage": "Cello Quartet No.4 (Alencar, Gabriel)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "quartet",
+    "movements": [],
+    "composed": "2008",
+    "firstPerformance": "2016-04-09, Concerto SESC Partituras Roraima, Boa Vista"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+      "checkedOn": "2026-10-29",
+      "finding": "Primary work page identifies 4-cellos instrumentation, A minor, composition year 2008, first-performance event in 2016, one score and four individual cello parts."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=I7kwqO0YeWU",
+      "checkedOn": "2026-10-29",
+      "finding": "yt-dlp metadata: title “Quarteto de cellos n.º 4 - Gabriel Alencar”; channel/uploader Gabriel Alencar; duration 302 seconds; description identifies a performance on 2016-04-09 at Concerto SESC Partituras Roraima in Boa Vista/RR. Description does not name the four performers."
+     },
+     {
+      "url": "https://www.folhabv.com.br/cotidiano/sesc-promove-concerto-de-partituras-neste-sabado/",
+      "checkedOn": "2026-10-29",
+      "finding": "Contemporary event notice identifies the 9 April 2016 SESC Partituras Roraima concert; concert featured chamber groups and composer Gabriel Alencar. It does not list this work’s performers."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+     "locator": "Scores > Score; Parts > Cello I–IV",
+     "finding": "Complete score and four independent cello parts; instrumentation 4 cellos, with no accompaniment."
+    },
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=I7kwqO0YeWU",
+     "finding": "Composer-uploaded 5:02 video titled for this exact cello quartet, whose description says it is a performance at the 2016-04-09 Concerto SESC Partituras Roraima. Individual performers remain uncredited; the creator/channel and event align with the work-page first-performance record."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/433093",
+     "localPath": "data/cache/same-instrument-imslp/scores/alencar-cello-quartet4.pdf",
+     "finding": "NormalIMSLPAPIhandlerretrievedverifiedcomposercompletequartetnotation;4partsalsolisted."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+     "work.title": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+     "work.instruments": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+     "work.year": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+     "work.mode": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+     "details.firstPerformance": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)"
+    },
+    "unknowns": {
+     "details.published": "Publication year not established.",
+     "work.minutes": "Duration of the complete score was not established from a clean performance source.",
+     "work.level": "Not graded; explicit user instruction sets level null.",
+     "work.hardestPart": "Not graded.",
+     "floor.performers": "Video metadata and source page do not individually name the performers."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass source extraction; independent musical review required."
+   },
+   "recordingResearch": {
+    "status": "released-human-performance-established",
+    "queries": [
+     "site:imslp.org/wiki \"Cello Quartet No.4\" \"SESC Partituras\" Gabriel Alencar performance",
+     "Gabriel Alencar Cello Quartet No.4 SESC Partituras Roraima 2016 performance"
+    ],
+    "candidates": [
+     {
+      "url": "https://www.youtube.com/watch?v=I7kwqO0YeWU",
+      "performers": [
+       "Uncredited cello quartet; composer-channel upload by Gabriel Alencar"
+      ],
+      "finding": "yt-dlp verified the composer-channel title, five-minute duration and performance event/date in the description. The exact work/scoring matches. Individual human performers are not credited."
+     }
+    ]
+   }
+  }
+ ]
+}

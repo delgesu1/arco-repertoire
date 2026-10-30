@@ -1,0 +1,54 @@
+{
+ "batch": "ensemble-40",
+ "accepted": [
+  {
+   "key": "bohm-violin-quartet-four-violins",
+   "id": 109216,
+   "publicId": 109216,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "kind",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "mAL3WIAe30s"
+  }
+ ],
+ "held": [
+  {
+   "key": "massa-violin-quartet-four-violins",
+   "reason": "First-pass extraction still requires independent factual verification"
+  },
+  {
+   "key": "dont-quartet-op42-four-violins",
+   "reason": "Third blind grade required",
+   "opinions": [
+    3,
+    4
+   ]
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "8b1acfb39844124d6773f264f7e2befc9d65e9bb9fde42a687c5b94f76c20986",
+  "data/chamber/composers.json": "a2e120ccc73b779679bf9a2b57e9674010372aebb473436a5d74a6f578397982",
+  "data/chamber/id-registry.json": "1502f90638a41ff47a0a57a2c4c2e3b9e7fc07fe5e7ac572790713babaf97021",
+  "data/chamber/sources.json": "397c7bce96fbe976d5512ddbef6646fa1418db142a59986ceb6af2b385ea6186",
+  "data/details/overrides.json": "44f9cbf8033ad9216e4a57728d64fadff1c377b9a7d01119da8e99035cd0d33e",
+  "data/chamber/recordings-judged.json": "551b01f637763d67fa1c5e412f5e6f8b40b8c8d38d892b1e5a6f40732e39907f",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-violin40-normalized.json": "8d5d88e619e3c9298b33b4717b6acd1fccfd67a0a3b48a75e1fab17c16496f71",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/violin40-verify-normalized.json": "91b4d48339af1ee52d45063055ed8c3ef00bec95e900a1a762864a0ff6ce0a9c",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/violin40-blind.json": "969924307b22ab27c32d3bfaf39581436f187d77d5e3cd26ae368363aaa7fd46"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-40"
+}

@@ -1,0 +1,241 @@
+{
+  "batch": "dale-klengel-sources",
+  "status": "partial",
+  "checkedOn": "2026-10-28",
+  "entries": [
+    {
+      "key": "dale-introduction-and-andante-op5-six-violas",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Corda's publisher catalogue confirms the original work is scored for six violas and supplies a score and full part set; a released recording and official concert/video sources establish performance.",
+      "work": {
+        "composer": "Dale, Benjamin",
+        "title": "Introduction and Andante for Six Violas, Op. 5",
+        "instruments": {
+          "viola": 6
+        },
+        "players": 6,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1911",
+        "minutes": null,
+        "set": null,
+        "notes": "Original six-viola work written for Lionel Tertis and Royal Academy pupils.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": [],
+        "imslpPage": null
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": "1911; revised 1913",
+        "otherTitles": [
+          "Viola Sextet"
+        ]
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.cordamusic.co.uk/string1.html",
+            "checkedOn": "2026-10-28",
+            "locator": "CMP 625",
+            "finding": "Publisher identifies Benjamin Dale, Introduction and Andante Op. 5 for six violas; edited by John White; written in 1911 for Lionel Tertis and Royal Academy pupils; first printed edition; score and single set of parts offered."
+          },
+          {
+            "url": "https://www.duttonvocalion.co.uk/proddetail.php?prod=CDLX7204",
+            "checkedOn": "2026-10-28",
+            "locator": "MUSIC FOR VIOLA track list and credits",
+            "finding": "Label identifies Introduction & Andante for Six Violas, op. 5 and credits Roger Chase with Hannah Shaw, Fiona Opie, Thomas Beer, Rumen Cvetkov and Karel Coninx; identifies it as the world-premiere recording."
+          },
+          {
+            "url": "https://www.naxos.com/CatalogueDetail/?id=8.573167",
+            "checkedOn": "2026-10-28",
+            "locator": "Album description and track 4; search-indexed Naxos catalogue",
+            "finding": "Naxos release 8.573167 lists RAM Viola Sextet performing Introduction and Andante, Op. 5; track duration 10:38. Direct page fetch returned 403 in this pass."
+          },
+          {
+            "url": "https://www.ram.ac.uk/diary/events/summer-2026-viola",
+            "checkedOn": "2026-10-28",
+            "locator": "search-indexed Royal Academy Summer 2026 diary / 30 April event",
+            "finding": "Diary lists Introduction and Andante for six violas in the 30 April Viola Chamber Music Side-by-side programme. Page URL from the handoff was not fetchable directly; the official diary PDF search result also listed the piece."
+          },
+          {
+            "url": "https://supercool-ram.files.svdcdn.com/production/public/documents/Events-Diary-Summer-2026.pdf",
+            "checkedOn": "2026-10-28",
+            "locator": "30 April, Viola Quartet side-by-side with Timothy Ridout",
+            "finding": "Royal Academy diary search result lists Dale's Introduction and Andante for six violas in the programme; 11 violists are named for the multi-work event, not individually assigned to this work. PDF open returned 502."
+          },
+          {
+            "url": "https://vimeo.com/697407112",
+            "checkedOn": "2026-10-28",
+            "locator": "HKO Screen video title",
+            "finding": "Official Hong Kong Orchestra Vimeo title is Benjamin Dale: Introduction and Andante for six violas. Web page metadata was limited to the title in this pass."
+          },
+          {
+            "url": "https://www.konserthuset.se/en/play/daleintroduction-and-andante-for-six-violas/",
+            "checkedOn": "2026-10-28",
+            "locator": "The music / Participants / About the video",
+            "finding": "Konserthuset Stockholm identifies the work as Dale's Introduction and Andante for six violas, Op. 5, names six viola performers, and states the online video was published 29 August 2023; explicitly an excerpt, so not treated as proof of a complete recording."
+          },
+          {
+            "url": "https://www.britishviolasociety.co.uk/wp-content/uploads/2015/06/BRITISH-VIOLA-REPERTOIRE.-Revised-July-22nd-2015.pdf",
+            "checkedOn": "2026-10-28",
+            "locator": "Dale, Benjamin",
+            "finding": "British Viola Society repertoire list gives 1911, revised 1913, Op. 5, for six violas, and publisher code CMP."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.cordamusic.co.uk/string1.html",
+          "locator": "CMP 625",
+          "finding": "Six violas; a score and one complete set of parts are offered. No accompaniment or arranger is identified."
+        },
+        "floor": {
+          "url": "https://www.duttonvocalion.co.uk/proddetail.php?prod=CDLX7204",
+          "finding": "Released complete track recording of the exact six-viola Op. 5 by Roger Chase and five named viola colleagues; label calls it the world-premiere recording. The Naxos catalogue separately lists the exact work performed by RAM Viola Sextet."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://www.cordamusic.co.uk/string1.html",
+          "finding": "Publisher's CMP 625 first printed edition, edited by John White; score and complete single set of parts available from the publisher listing. No free scan URL found."
+        },
+        "fieldSources": {
+          "work.composer": "https://www.cordamusic.co.uk/string1.html",
+          "work.title": "https://www.cordamusic.co.uk/string1.html",
+          "work.instruments": "https://www.cordamusic.co.uk/string1.html",
+          "work.players": "https://www.cordamusic.co.uk/string1.html",
+          "work.year": "https://www.cordamusic.co.uk/string1.html",
+          "details.composed": "https://www.britishviolasociety.co.uk/wp-content/uploads/2015/06/BRITISH-VIOLA-REPERTOIRE.-Revised-July-22nd-2015.pdf",
+          "details.otherTitles": "https://www.musicweb-international.com/classrev/2011/feb11/dale.htm"
+        },
+        "unknowns": {
+          "composerMetadata": "No new-composer metadata was compiled in this focused pass; no matching composer key was found in data/chamber/composers.json.",
+          "work.minutes": "Track timings are recording durations, not an independently established score duration.",
+          "details.published": "First printed edition status is stated by Corda, but a publication date was not established.",
+          "recording completeness": "Dutton/Naxos label catalogues present a complete named track; audio was not independently listened to in this pass.",
+          "work.level": "No musical grading performed.",
+          "work.hardestPart": "No musical grading performed.",
+          "work.imslpPage": "No exact IMSLP work page found; the IMSLP composer work list was not mistaken for a score page."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass source researcher."
+      },
+      "recordingResearch": {
+        "status": "released-human-performance-established",
+        "queries": [
+          "Benjamin Dale Introduction Andante six violas Op 5 recording",
+          "Benjamin Dale Op.5 viola sextet Royal Academy 2026"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.duttonvocalion.co.uk/proddetail.php?prod=CDLX7204",
+            "performers": [
+              "Roger Chase",
+              "Hannah Shaw",
+              "Fiona Opie",
+              "Thomas Beer",
+              "Rumen Cvetkov",
+              "Karel Coninx"
+            ],
+            "finding": "Commercial label track is the exact work for six violas; identifies the world-premiere recording. No excluded performer appears in the credits."
+          },
+          {
+            "url": "https://www.naxos.com/CatalogueDetail/?id=8.573167",
+            "performers": [
+              "RAM Viola Sextet"
+            ],
+            "finding": "Naxos catalogue lists exact Op. 5 track performed by RAM Viola Sextet; metadata page returned 403 to direct fetch."
+          },
+          {
+            "url": "https://www.konserthuset.se/en/play/daleintroduction-and-andante-for-six-violas/",
+            "performers": [
+              "Vicki Powell",
+              "Lauriane Dahlkvist",
+              "Vidar Andersson Meilink",
+              "Camilla Svarfvar",
+              "Peter Eriksson",
+              "Christopher Öhman"
+            ],
+            "finding": "Official concert-hall page documents an exact-score video excerpt only; not promoted as a complete-work recording."
+          }
+        ]
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "key": "klengel-variations-op15-4vc-score-preview",
+      "status": "partial",
+      "finding": "No actual public whole score or cello 2–4 notation preview found within this focused source pass. IMSLP's exact Op. 15 page lists Scores (0), Parts (1), and only Cello 1; the downloaded file is seven pages at /Users/danielkurganov/DEVELOPMENT/violinrep/data/cache/same-instrument-imslp/scores/recover-01/klengel-vc1.pdf (sibling page images klengel-1.jpg through klengel-7.jpg). Sheet Music Plus lists two gallery previews, labelled page 1 and page 2, but direct image fetch returned HTTP 403; they do not establish public access to the full score or remaining parts. Notenlager's sample image is only the IMC cover, not notation. Cellos2Go explicitly says IMC 1764 is parts only/no score. Retail listings claim an obtainable full IMC1764 set and/or Breitkopf EB6822 edition, but no full notation preview was located.",
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+          "checkedOn": "2026-10-28",
+          "finding": "Exact Op. 15 page lists four cellos, scores zero, one part, Cello 1; plate 17434 and IMC reprint 1764."
+        },
+        {
+          "url": "https://www.sheetmusicplus.com/en/product/variations-opus-15-4302469.html",
+          "checkedOn": "2026-10-28",
+          "locator": "Preview gallery",
+          "finding": "Retail listing identifies IMC 1764, four cellos and preview links titled pages 1 and 2. Linked image URLs: https://www.sheetmusicplus.com/dw/image/v2/BJFX_PRD/on/demandware.static/-/Sites-smp-main/default/dw959159a2/images/2469/4302469_file_1_page_0.png?sh=1200&sm=fit&sw=900 and https://www.sheetmusicplus.com/dw/image/v2/BJFX_PRD/on/demandware.static/-/Sites-smp-main/default/dw92edf044/images/2469/4302469_file_1_page_1.png?sh=1200&sm=fit&sw=900. Direct requests returned 403, so page content and part identity not independently inspected."
+        },
+        {
+          "url": "https://www.notenlager.de/Streich-und-Zupfinstrumente/Cello/Viele-Celli/p116063/Variations-op-15-for-4-cellos-score-and-4-parts.html",
+          "checkedOn": "2026-10-28",
+          "locator": "Title, publisher number and Beispielseiten",
+          "finding": "Retail listing calls the item 'score and 4 parts' and identifies IMC1764 / EAN 9790220413681; the linked sample image is only the cover. Delivery estimate 6–8 weeks."
+        },
+        {
+          "url": "https://cellos2go.com/products/sheet-music/cello-ensembles/klengel-variations-op-15-for-4-cellos/",
+          "checkedOn": "2026-10-28",
+          "finding": "Specialist retailer identifies IMC #1764, four cello parts, unequal difficulty; explicitly says no score included."
+        },
+        {
+          "url": "https://shop.bauer-hieber.com/Variationen-op-15-Violoncelli-Klengel-Julius-IMC1764-226192.html",
+          "checkedOn": "2026-10-28",
+          "finding": "Retail listing for IMC1764 (secondary link, not an inspected score preview)."
+        },
+        {
+          "url": "https://www.bauer-hieber.com/4/Variationen-ueber-ein-eigenes-Thema-op-15-Violoncelli-Klengel-Julius-EB6822-2746909.html",
+          "checkedOn": "2026-10-28",
+          "finding": "Retail listing identifies Breitkopf EB6822, four cellos; currently not orderable online per page."
+        }
+      ],
+      "localSources": [
+        {
+          "path": "/Users/danielkurganov/DEVELOPMENT/violinrep/data/cache/same-instrument-imslp/scores/recover-01/klengel-vc1.pdf",
+          "finding": "Actual seven-page Cello 1 part only; no full score or other parts."
+        },
+        {
+          "path": "/Users/danielkurganov/DEVELOPMENT/violinrep/data/cache/same-instrument-imslp/scores/recover-01/klengel-vc1.html",
+          "finding": "Previously saved IMSLP source page for the Cello 1 file."
+        }
+      ],
+      "resume": "Find an accessible seller/editor preview showing the whole score and Cello 2–4, or obtain a lawful full-set institutional/library scan. Do not substitute Op. 28 or infer the missing parts from Cello 1."
+    }
+  ],
+  "researchLog": {
+    "sourceFetches": 12,
+    "pauseChecks": [
+      "before research: PAUSE absent",
+      "before saving: PAUSE absent"
+    ],
+    "noCanonicalEdits": true,
+    "noPaidApis": true,
+    "klengelIdentity": "Op. 15 Variations on an Original Theme for 4 cellos (IMSLP English title 'Theme with Variations for 4 Cellos, Op.15'); distinct from Klengel's Op. 28 Theme and Variations."
+  },
+  "resume": {
+    "nextKey": "klengel-variations-op15-4vc-score-preview"
+  }
+}

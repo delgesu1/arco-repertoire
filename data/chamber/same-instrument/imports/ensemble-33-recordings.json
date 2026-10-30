@@ -1,0 +1,69 @@
+{
+ "batch": "ensemble-33-recordings",
+ "accepted": [
+  {
+   "key": "recording-109196-batch04",
+   "id": 109196,
+   "publicId": 109196,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "iveNvQ4jCis"
+  },
+  {
+   "key": "recording-109197-batch04",
+   "id": 109197,
+   "publicId": 109197,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "DZMpQ7EURzo"
+  },
+  {
+   "key": "recording-109201-batch04",
+   "id": 109201,
+   "publicId": 109201,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "6DCuYpU7ECo"
+  },
+  {
+   "key": "recording-109202-batch04",
+   "id": 109202,
+   "publicId": 109202,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "dO2b8gdmOcQ"
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "7898f4ee7fcc38f9401278b71cdc04a68344bb64d9565b638de47d1e1ef646eb",
+  "data/chamber/composers.json": "b9a1060bc46568688f8f320f29fb2d4ef4b544ea8d8f0c9f52f9fd9533c13f65",
+  "data/chamber/id-registry.json": "66445641ad21e411b0a345d36310cdfac8e004f5241e4a726f5f0b67cbbb1cde",
+  "data/chamber/sources.json": "0f8308a41880eb48ee7fb20366b1598fa0f8a5ef39416fb0f1c4225ef533beac",
+  "data/details/overrides.json": "a47d4bddbab2486ff6008b0fb3783eb368deae8b77e4132960a6015bd299ad06",
+  "data/chamber/recordings-judged.json": "05146f81062b382190c888f801124dc4be468f641d71f058d114d2c385228528",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-recordings-04.json": "266744afec5993868b4309dfa011d90fb0e838b3645b0c970781e738fb47d790",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-recordings-04.json": "e843da81da4022ec9e51781bd87696f5625d6a378dee47138753a89e6bf7083b"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-33-recordings"
+}

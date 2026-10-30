@@ -1,0 +1,117 @@
+{
+ "batch": "ensemble-32",
+ "entries": [
+  {
+   "key": "crosmer-marble-fountain-eight-violas",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "Composer’s official works list confirms the original eight-viola work; the complete IMSLP score PDF was downloaded and inspected with all eight viola staves and one movement. IMSLP records a specific first-performance event by NEBratsche; individual performer names and a separate recording URL were not found.",
+   "work": {
+    "composer": "Crosmer, Jonathan",
+    "title": "Marble Fountain",
+    "instruments": {
+     "viola": 8
+    },
+    "players": 8,
+    "formation": "large-strings",
+    "form": "short",
+    "level": null,
+    "hardestPart": null,
+    "year": "2016",
+    "minutes": 4,
+    "set": null,
+    "notes": "Original for eight violas.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Marble Fountain (Crosmer, Jonathan)"
+   },
+   "composerMetadata": {
+    "dates": "1985–",
+    "nationality": "American",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "kind": "single",
+    "composed": "2016",
+    "published": null,
+    "movements": [
+     "Marble Fountain"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+      "checkedOn": "2026-10-29",
+      "locator": "Cached revision 2193010; WORK INFO and FILES",
+      "finding": "Original score page gives “8 violas,” one movement, approximately four minutes, composed 2016, and first performance 2016-04-23 at Kimball Recital Hall, Lincoln, Nebraska, by NEBratsche. Listed files include Complete Score and Viola 1 through Viola 8; engraving files with MIDI were excluded."
+     },
+     {
+      "url": "https://jonathancrosmer.com/music/works/",
+      "checkedOn": "2026-10-29",
+      "locator": "List of Works",
+      "finding": "Composer’s official list identifies Marble Fountain (2016) for 8 violas."
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Crosmer,_Jonathan",
+      "finding": "Born1985,American,male,Moderncategories."
+     }
+    ],
+    "scoring": {
+     "url": "https://s9.imslp.org/files/imglnks/usimg/5/56/IMSLP443247-PMLP721242-Marble_Fountain_-_Score.pdf",
+     "localPath": "data/cache/same-instrument-imslp/scores/original-03-crosmer-marble-fountain-score.pdf",
+     "locator": "Observed IMSLP file index 443247; complete score",
+     "finding": "Downloaded using the page-observed index. PDF title “Marble Fountain,” author Jonathan Crosmer, copyright 2016. Inspected score text and visible first-page instrumentation: Viola 1 through Viola 8 all have staves; the score continues to its final system on page 2. This is the original eight-viola version, not a transcription. Eight separate parts are also individually listed on IMSLP but were not downloaded because the complete score is sufficient."
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+     "performer": "NEBratsche (as named in IMSLP first-performance metadata; individual members not identified)",
+     "finding": "IMSLP original page reports first performance on 2016-04-23 at Kimball Recital Hall, Lincoln, Nebraska. No distinct recording URL observed."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "Whole one-movement Marble Fountain, approximately 4 minutes.",
+     "selection": null
+    },
+    "score": {
+     "url": "https://s9.imslp.org/files/imglnks/usimg/5/56/IMSLP443247-PMLP721242-Marble_Fountain_-_Score.pdf",
+     "localPath": "data/cache/same-instrument-imslp/scores/original-03-crosmer-marble-fountain-score.pdf",
+     "finding": "Complete score inspected; eight independent viola staves, matching the composer’s official list and the IMSLP first-performance page."
+    },
+    "recordingResearch": {
+     "primaryReleaseUrl": null,
+     "recordingUrl": null,
+     "performer": "NEBratsche (first-performance metadata only)",
+     "humanPerformance": true,
+     "wholeWork": true,
+     "exactVersion": true,
+     "notes": "No separate recording or individual performer credits were observed; use the first-performance source as the human performance floor."
+    },
+    "fieldSources": {
+     "work.composer": "https://jonathancrosmer.com/music/works/",
+     "work.title": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+     "work.instruments": "https://jonathancrosmer.com/music/works/",
+     "work.players": "https://jonathancrosmer.com/music/works/",
+     "work.year": "https://jonathancrosmer.com/music/works/",
+     "work.minutes": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+     "work.notes": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+     "details.kind": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)"
+    },
+    "unknowns": [
+     "First-performance metadata names the ensemble but not individual players.",
+     "No distinct recording URL observed."
+    ],
+    "researcherGrade": "low"
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass fact extraction; no difficulty grade assigned."
+   }
+  }
+ ]
+}

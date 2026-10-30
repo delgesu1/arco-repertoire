@@ -1,0 +1,712 @@
+{
+  "batch": "closure-original-01",
+  "status": "complete",
+  "entries": [
+    {
+      "contextKey": "1212753-original",
+      "pageId": 1212753,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 2 Intermezzi für 4 Kontrabässe; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1212753.json",
+          "finding": "Cached IMSLP page metadata: 4 double basses; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1274114-original",
+      "pageId": 1274114,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 2 Inventions; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1274114.json",
+          "finding": "Cached IMSLP page metadata: 3 violas; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1449066-original",
+      "pageId": 1449066,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies Deux Morceaux pour quatre Violoncelles; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1449066.json",
+          "finding": "Cached IMSLP page metadata: 4 cellos; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "549488-original",
+      "pageId": 549488,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies Two Pieces for 4 Players; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/549488.json",
+          "finding": "Cached IMSLP page metadata: 4 Violas; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "795802-original",
+      "pageId": 795802,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 2 Pieces for Cello Quartet; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/795802.json",
+          "finding": "Cached IMSLP page metadata: 4 cellos; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1452784-original",
+      "pageId": 1452784,
+      "kind": "original",
+      "decision": "already-present",
+      "reason": "The two-piece, four-cello original is canonical (ID 109163). Saved triage confirms four separate parts and a complete commercial London Mozart Players recording (8:50); no duplicate import.",
+      "evidence": [
+        {
+          "urlOrPath": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+          "finding": "Four separate cello parts; Serenade and Humoreske."
+        },
+        {
+          "urlOrPath": "https://www.prestomusic.com/classical/products/7946550--petits-fours",
+          "finding": "CC1007 lists both pieces, 8:50 total, performed by London Mozart Players; saved triage identifies four cellists."
+        }
+      ],
+      "versions": [
+        {
+          "title": "2 Stücke, Op.5",
+          "instrument": "4 cellos",
+          "extent": "2 pieces: Serenade; Humoreske",
+          "score": "IMSLP separate parts",
+          "performance": "https://www.prestomusic.com/classical/products/7946550--petits-fours",
+          "recording_extent": "complete, 8:50",
+          "status": "already-present",
+          "id": 109163
+        }
+      ]
+    },
+    {
+      "contextKey": "96488-original",
+      "pageId": 96488,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 3 Kleine Stücke; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/96488.json",
+          "finding": "Cached IMSLP page metadata: 3 cellos; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "901249-original",
+      "pageId": 901249,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 3 Korte bluesjes voor 8 altviolen; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/901249.json",
+          "finding": "Cached IMSLP page metadata: Version A: 8 violas; Version B: clarinet choir; Version C: strings; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "396810-original",
+      "pageId": 396810,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Three Dancla pieces and four violin parts are documented, but the full Carl Fischer volume includes Mozart and Schumann works outside Op.178. Searches found no exact Dancla-set human performance/release.",
+      "evidence": [
+        {
+          "urlOrPath": "https://imslp.org/wiki/3_Pieces_for_4_Violins,_Op.178_(Dancla,_Charles)",
+          "finding": "Lists three movements and four violin parts; Carl Fischer volume includes Mozart and Schumann, not part of Op.178."
+        },
+        {
+          "urlOrPath": "https://www.bn.org.pl/download/document/1533558432.pdf",
+          "finding": "National Library catalogue separately identifies Nos.1–3 as four-violin pieces."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "604957-original",
+      "pageId": 604957,
+      "kind": "original",
+      "decision": "held",
+      "reason": "A manuscript score for three cello sonatas and a released Arcana recording of human performances of other numbered three-cello sonatas by Del Cinque were found. Because the recorded programme does not match the three sonatas listed on this IMSLP page, exact-version performance evidence remains missing.",
+      "evidence": [
+        {
+          "urlOrPath": "https://imslp.org/wiki/3_Sonatas_for_3_Cellos_(Cinque,_Ermenegildo_del)",
+          "finding": "IMSLP lists a manuscript score for three sonatas scored for three cellos."
+        },
+        {
+          "urlOrPath": "https://www.europadisc.co.uk/classical/224588/Cinque_-_Sonatas_for_3_Cellos.htm",
+          "finding": "Arcana A528 (2022) records six named three-cello sonatas performed by Ludovico Minasi, Cristina Vidoni, Teodoro Baù and Andrea Buccarella; numbering differs from this three-sonata page."
+        }
+      ],
+      "versions": [
+        {
+          "title": "3 Sonatas for 3 Cellos",
+          "instrument": "3 cellos",
+          "extent": "3 sonatas; manuscript score listed",
+          "score": "IMSLP page manuscript score",
+          "performance": "https://www.europadisc.co.uk/classical/224588/Cinque_-_Sonatas_for_3_Cellos.htm",
+          "recording_extent": "six other-numbered sonatas; exact matching version unresolved",
+          "status": "held"
+        }
+      ]
+    },
+    {
+      "contextKey": "658751-original",
+      "pageId": 658751,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 3 Sonatas for 3 Violins; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/658751.json",
+          "finding": "Cached IMSLP page metadata: 3 violins; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "756008-original",
+      "pageId": 756008,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 3 Sonatinas, Op.90; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/756008.json",
+          "finding": "Cached IMSLP page metadata: 3 violins; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "168457-original",
+      "pageId": 168457,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 3 Sonatinas; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/168457.json",
+          "finding": "Cached IMSLP page metadata: 3 violins; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "863285-original",
+      "pageId": 863285,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "Prior triage identifies these as arrangements of Haydn string-quartet movements, not original works for three violins.",
+      "evidence": [
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-004.json",
+          "finding": "The page explicitly identifies these as arrangements from Haydn string-quartet movements, so they are not original works for three violins in this original-version batch."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "506776-original",
+      "pageId": 506776,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 3 Trios; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/506776.json",
+          "finding": "Cached IMSLP page metadata: 3 Violins; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "42079-original",
+      "pageId": 42079,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The four-concerto collection is eligible and a complete score plus a score-video covering all four were found, but the video description does not establish that its audio is a human performance. TWV 40:202 and 203 are already canonical; the remaining concertos were not separately resolved to qualifying human recordings.",
+      "evidence": [
+        {
+          "urlOrPath": "https://imslp.org/wiki/Sonata_for_4_Violins,_TWV_40%3A203_(Telemann,_Georg_Philipp)",
+          "finding": "Page identifies four concertos TWV 40:201–204, scored for four violins."
+        },
+        {
+          "urlOrPath": "https://www.youtube.com/watch?v=jvzB7k_7JRs",
+          "finding": "Video names all four concertos; description says audio is sourced from another video, leaving human performance identity unresolved."
+        },
+        {
+          "urlOrPath": "https://dl.musopen.org/sheetmusic/634843f9-90a6-4455-904a-f88b909edbab.pdf?filename=4+Concerti+for+4+Violins+-+Complete+Score.pdf",
+          "finding": "Complete score for TWV 40:201–204."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1122735-original",
+      "pageId": 1122735,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 4 Morceaux caractéristiques; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1122735.json",
+          "finding": "Cached IMSLP page metadata: 4 cellos; cello, piano (or harmonium); targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "91296-original",
+      "pageId": 91296,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 4 Pieces for 4 Violins; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/91296.json",
+          "finding": "Cached IMSLP page metadata: 4 violins; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1573216-original",
+      "pageId": 1573216,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies Vier Stücke für vier Violoncelle; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1573216.json",
+          "finding": "Cached IMSLP page metadata: 4 cellos; targeted search did not locate an exact-version human performance/release."
+        },
+        {
+          "urlOrPath": "https://www.notenlager.de/Streich-und-Zupfinstrumente/Cello/Viele-Celli/p1975/4-Stuecke-op-33-fuer-4-Violoncelli-Stimmen.html",
+          "finding": "Seller identifies four-cello parts; prior search found only a single-movement streaming listing, not full-set performance."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "276568-original",
+      "pageId": 276568,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "This is a mixed collection of five solo-cello sonatas with continuo and one trio. Only the final trio meets the three-independent-cello floor; no standalone exact performance/source was found for it.",
+      "evidence": [
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-005.json",
+          "finding": "Only the final Trio meets the three-independent-cello floor; the IMSLP page is a six-work collection including five solo-cello sonatas with continuo. Existing collection granularity and no standalone exact human performance/source evidence prevent adding an extracted individual work here."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "900505-original",
+      "pageId": 900505,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies Vijf studies voor acht altviolen; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/900505.json",
+          "finding": "Cached IMSLP page metadata: 8 violas; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "215599-original",
+      "pageId": 215599,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 6 Petits trios faciles et concertants; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/215599.json",
+          "finding": "Cached IMSLP page metadata: 3 violins; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "87964-original",
+      "pageId": 87964,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 6 Pieces for 3 Cellos; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/87964.json",
+          "finding": "Cached IMSLP page metadata: 3 cellos; targeted search did not locate an exact-version human performance/release."
+        },
+        {
+          "urlOrPath": "https://www.earsense.org/chamber-music/Friedrich-Dotzauer-6-Pieces-Op-104/",
+          "finding": "Lists all six movements and three-cello scoring; does not establish a performance."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "321468-original",
+      "pageId": 321468,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "The source scoring is two melody instruments plus continuo, not three independent parts for the same instrument; related individual records are already canonical.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/321468.json",
+          "finding": "Cached source overlaps canonical records 105723, 105724, 105725, 105726, 105727, 105728."
+        }
+      ],
+      "versions": [
+        {
+          "title": "Sonata for Two Cellos and Continuo No. 1 in A major",
+          "status": "already-present",
+          "id": 105723
+        },
+        {
+          "title": "Sonata for Two Cellos and Continuo No. 2 in D major",
+          "status": "already-present",
+          "id": 105724
+        },
+        {
+          "title": "Sonata for Two Cellos and Continuo No. 3 in G major",
+          "status": "already-present",
+          "id": 105725
+        },
+        {
+          "title": "Sonata for Two Cellos and Continuo No. 4 in F major",
+          "status": "already-present",
+          "id": 105726
+        },
+        {
+          "title": "Sonata for Two Cellos and Continuo No. 5 in D major",
+          "status": "already-present",
+          "id": 105727
+        },
+        {
+          "title": "Sonata for Two Cellos and Continuo No. 6 in B-flat major",
+          "status": "already-present",
+          "id": 105728
+        }
+      ]
+    },
+    {
+      "contextKey": "490597-original",
+      "pageId": 490597,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "The source scoring is two melody instruments plus continuo, not three independent parts for the same instrument; related individual records are already canonical.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/490597.json",
+          "finding": "Cached source overlaps canonical records 101391, 101392, 101393, 101394, 101395, 101396."
+        }
+      ],
+      "versions": [
+        {
+          "title": "Sonata a tre in G major, Op. 2 No. 1",
+          "status": "already-present",
+          "id": 101391
+        },
+        {
+          "title": "Sonata a tre in C minor, Op. 2 No. 2",
+          "status": "already-present",
+          "id": 101392
+        },
+        {
+          "title": "Sonata a tre in B-flat major, Op. 2 No. 3",
+          "status": "already-present",
+          "id": 101393
+        },
+        {
+          "title": "Sonata a tre in A major, Op. 2 No. 4",
+          "status": "already-present",
+          "id": 101394
+        },
+        {
+          "title": "Sonata a tre in B-flat major, Op. 2 No. 5",
+          "status": "already-present",
+          "id": 101395
+        },
+        {
+          "title": "Sonata a tre in G major, Op. 2 No. 6",
+          "status": "already-present",
+          "id": 101396
+        }
+      ]
+    },
+    {
+      "contextKey": "175669-original",
+      "pageId": 175669,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 6 Sonatas for 3 Flutes or Violins, Op.17; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/175669.json",
+          "finding": "Cached IMSLP page metadata: 3 flutes or violins; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "197607-original",
+      "pageId": 197607,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 6 String Quartets, Op.18; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/197607.json",
+          "finding": "Cached IMSLP page metadata: 2 violins, viola, cello; 4 cellos (no. 5); targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "368808-original",
+      "pageId": 368808,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "The source scoring is two melody instruments plus continuo, not three independent parts for the same instrument; related individual records are already canonical.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/368808.json",
+          "finding": "Cached source overlaps canonical records 101381, 101382, 101383, 101384, 101385, 101386."
+        }
+      ],
+      "versions": [
+        {
+          "title": "Trio Sonata in A minor, Op. 1 No. 1",
+          "status": "already-present",
+          "id": 101381
+        },
+        {
+          "title": "Trio Sonata in B-flat major, Op. 1 No. 2",
+          "status": "already-present",
+          "id": 101382
+        },
+        {
+          "title": "Trio Sonata in G minor, Op. 1 No. 3",
+          "status": "already-present",
+          "id": 101383
+        },
+        {
+          "title": "Trio Sonata in C major, Op. 1 No. 4",
+          "status": "already-present",
+          "id": 101384
+        },
+        {
+          "title": "Trio Sonata in A major, Op. 1 No. 5",
+          "status": "already-present",
+          "id": 101385
+        },
+        {
+          "title": "Trio Sonata, Op. 1 No. 6",
+          "status": "already-present",
+          "id": 101386
+        }
+      ]
+    },
+    {
+      "contextKey": "549179-original",
+      "pageId": 549179,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 6 Trios, Op.6; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/549179.json",
+          "finding": "Cached IMSLP page metadata: Nos.1-4: violin, cello, &quot;basso&quot; (i.e. 2nd cello); ; Nos.5-6: 2 cellos, basso (i.e. 3rd cello); or 2 violins, basso (cello); targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "552757-original",
+      "pageId": 552757,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 6 Trios, Op.10; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/552757.json",
+          "finding": "Cached IMSLP page metadata: 3 flutes/recorders/violins/treble viols/treble instruments |Tags=trios ; 3fl ; 3rec ; 3vn ; 3viol ; open 3sop |; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "30466-original",
+      "pageId": 30466,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies Six Trio's for Three Flutes or Violins or a Flute, Violin and Tenor ...; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/30466.json",
+          "finding": "Cached IMSLP page metadata: 3 flutes or 3 violins or flute, violin, viola; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "875483-original",
+      "pageId": 875483,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies 7 peças fáceis para quatro cellos; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/875483.json",
+          "finding": "Cached IMSLP page metadata: 4 cellos; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "170274-original",
+      "pageId": 170274,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies A Wonderful Experiment; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/170274.json",
+          "finding": "Cached IMSLP page metadata: 3 Violas; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1484372-original",
+      "pageId": 1484372,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "The only located playback is explicitly AI-generated, which does not meet the human-performance floor.",
+      "evidence": [
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-005.json",
+          "finding": "IMSLP’s only recording is explicitly AI-generated (Noteperformer AI); excluded as performance-floor evidence."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "861250-original",
+      "pageId": 861250,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies Albumblatt; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/861250.json",
+          "finding": "Cached IMSLP page metadata: 4 violins; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "385265-original",
+      "pageId": 385265,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies Allemanda Gravis à 4 violes; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/385265.json",
+          "finding": "Cached IMSLP page metadata: 4 \"viol.\"; see below, Comments; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "378652-original",
+      "pageId": 378652,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "Prior review identifies historical scoring as treble/treble/bass viols, not three independent parts of one instrument.",
+      "evidence": [
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-006.json",
+          "finding": "Historical scoring is treble/treble/bass viols, not three independent parts of one instrument."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "753173-original",
+      "pageId": 753173,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies An Inness Sky; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/753173.json",
+          "finding": "Cached IMSLP page metadata: 3 cellos; targeted search did not locate an exact-version human performance/release."
+        },
+        {
+          "urlOrPath": "https://www.partitions-domaine-public.fr/partitions/trios-violoncelles/Elaine%20Fine%20An%20inness%20sky%20trois%20violoncelles.pdf",
+          "finding": "Public score copy confirms three-cello scoring; cached audio was synthesized MIDI, no human floor."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "613650-original",
+      "pageId": 613650,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies Andante cantabile for 4 Violas; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/613650.json",
+          "finding": "Cached IMSLP page metadata: 4 violas; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "527611-original",
+      "pageId": 527611,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source identifies Andante et Bourrée; saved triage plus bounded targeted searches did not establish an exact-version human performance or released recording. This is the remaining floor evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/527611.json",
+          "finding": "Cached IMSLP page metadata: 3 Violins; targeted search did not locate an exact-version human performance/release."
+        }
+      ],
+      "versions": []
+    }
+  ]
+}

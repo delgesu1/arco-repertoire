@@ -1,0 +1,69 @@
+{
+ "batch": "ensemble-35",
+ "accepted": [
+  {
+   "key": "bach-bwv867-dicker-cello-quartet-prelude",
+   "id": 109209,
+   "publicId": 109209,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "bach-bwv928-dicker-cello-quartet-prelude",
+   "id": 109210,
+   "publicId": 109210,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [
+  {
+   "key": "bach-bwv864-dicker-cello-quartet-prelude",
+   "reason": "Third blind grade required",
+   "opinions": [
+    3,
+    4
+   ]
+  },
+  {
+   "key": "strauss-pizzicato-polka-seymour-six-cellos",
+   "reason": "First-pass extraction still requires independent factual verification"
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "30e931142d0fee368fc020bbeb3b6688597d0bb2d5d67c86e37d7de29e28bcde",
+  "data/chamber/composers.json": "6763f4e8efab2095b66f0a166bcc7ed2a5e4788185abc00a6229e8c7aef2b8fd",
+  "data/chamber/id-registry.json": "61281427bf7a26d5e60e587c7d2aedb35122686b7799e990c22a5b75f0fbafd9",
+  "data/chamber/sources.json": "01b7f767cf6a4748f79d240238128724e6e6c271f6c53e0bccc29a7114043369",
+  "data/details/overrides.json": "9f54219790242277945fa432613b6ca1d0afbc41f1ed652f8082cc26e6ed323f",
+  "data/chamber/recordings-judged.json": "cb0bcf5eac63714812c748f480562cd23bd3cc82373efd6d09303ea299e2998e",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/arrangements-ready-34-normalized.json": "ad18731cbb589169c84502f1a7a294dea9496224efb20f5a88682585196f8cbd",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/arrangements35-verify.json": "bc682ce2263f31c44ef2b5bc1c6602a023186db8dd3bfa1fe5617bb11d7e8573",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/arrangements35-blind.json": "5e842e3365f7f69acbfabb41d83bb1105bc6b62a5c7f695c1bef31e249b42e33"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-35"
+}

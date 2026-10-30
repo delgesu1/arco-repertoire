@@ -1,0 +1,435 @@
+{
+  "batch": "triage-002",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "bacewicz-quartet-4-violins",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Exact original version has four listed parts, complete score materials, and an official released live performance by four named violinists.",
+      "work": {
+        "composer": "Bacewicz, Grażyna",
+        "title": "Quartet for 4 Violins",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1949",
+        "minutes": null,
+        "set": null,
+        "notes": "Three-movement quartet for four violins; dedicatee line in source score.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": [],
+        "imslpPage": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)"
+      },
+      "composerMetadata": null,
+      "details": {
+        "published": "1950, Krakow: Polskie Wydawnictwo Muzyczne",
+        "kind": "single",
+        "movements": [
+          "Allegretto",
+          "Andante tranquillo",
+          "Molto allegro"
+        ]
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)",
+            "checkedOn": "2026-10-28",
+            "finding": "Work page identifies B.60, composition year 1949, three movements, 4 violins and separately lists Violin 1/conductor plus Violin 2, 3, 4 materials."
+          },
+          {
+            "url": "https://www.gaia-festival.com/en/experience-gaia/audio",
+            "checkedOn": "2026-10-28",
+            "finding": "Official GAIA audio page lists all three movements and names Nicolas Dautricourt, Gareth Lubbe, Minna Pensola and Wouter Vossen; recording is live from May 4–5, 2024."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)",
+          "locator": "Scores and Parts; General Information",
+          "finding": "Four distinct violin materials (Vn1 conductor, Vn2, Vn3, Vn4); work instrumentation is 4 violins."
+        },
+        "floor": {
+          "url": "https://www.gaia-festival.com/en/experience-gaia/audio",
+          "finding": "Official festival release lists complete three-movement work with four named violinists; live recording May 4–5, 2024."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)",
+          "finding": "Original composer work B.60; no arranger/version variant in listed materials."
+        },
+        "fieldSources": {
+          "work.composer": "data/chamber/composers.json (existing match)",
+          "work.title": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)",
+          "work.instruments": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)",
+          "work.players": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)",
+          "work.year": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)",
+          "work.notes": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)",
+          "details.movements": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)",
+          "details.published": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)",
+          "work.formation": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)"
+        },
+        "unknowns": {
+          "work.minutes": "The IMSLP cache says 11–13 minutes while the publisher brochure says 13 minutes; left null pending source reconciliation.",
+          "work.popularity": "No focused popularity evidence gathered in this extraction pass.",
+          "work.pace": "No tempo-profile evidence inspected; intentionally left unset.",
+          "work.mode": "Mode not established by the inspected source fields.",
+          "work.hardestPart": "No part-by-part musical grading was performed.",
+          "work.level": "No musical grade assigned by first-pass extractor."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not musically graded by first-pass extractor"
+      },
+      "recordingResearch": {
+        "status": "released-human-recording-established",
+        "queries": [
+          "Bacewicz Quartet for 4 Violins GAIA 2024 live recording"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.gaia-festival.com/en/experience-gaia/audio",
+            "performers": [
+              "Nicolas Dautricourt",
+              "Gareth Lubbe",
+              "Minna Pensola",
+              "Wouter Vossen"
+            ],
+            "finding": "Official GAIA track page lists all movements and performers; precise track runtime unavailable."
+          }
+        ]
+      }
+    },
+    {
+      "key": "blacher-blues-espagnola-rumba-12-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Publisher confirms 12 solo cello scoring and obtainable score; an album listing establishes a complete named-ensemble recording of the exact three-movement work.",
+      "work": {
+        "composer": "Blacher, Boris",
+        "title": "Blues, Espagnola und Rumba philharmonica",
+        "instruments": {
+          "cello": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": null,
+        "minutes": 12,
+        "set": null,
+        "notes": "Three movements for twelve solo cellos.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": [],
+        "imslpPage": "https://imslp.org/wiki/Blues,_Espagnola_und_Rumba_philharmonica_(Blacher,_Boris)"
+      },
+      "composerMetadata": null,
+      "details": {
+        "published": "1973",
+        "kind": "single",
+        "movements": [
+          "Blues",
+          "Espagnola",
+          "Rumba philharmonica"
+        ]
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Blues,_Espagnola_und_Rumba_philharmonica_(Blacher,_Boris)",
+            "checkedOn": "2026-10-28",
+            "finding": "The work page identifies three movements, 12 cellos, a complete score entry and premiere on 1973-10-28 in Tokyo."
+          },
+          {
+            "url": "https://www.boosey.com/pdf/brochure/2809_14076.pdf",
+            "checkedOn": "2026-10-28",
+            "finding": "Boosey lists the work as 1972, 12 minutes, for 12 solo cellos, gives the 1973 Tokyo premiere and states score availability."
+          },
+          {
+            "url": "https://www.jpc.de/jpcng/classic/detail/-/art/Die-12-Cellisten-der-Berliner-Philharmoniker/hnum/4916678",
+            "checkedOn": "2026-10-28",
+            "finding": "CD catalogue lists the exact three movements (Blues, Espagnola, Rumba philharmonica) by Die 12 Cellisten der Berliner Philharmoniker; recording circa 1976."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.boosey.com/pdf/brochure/2809_14076.pdf",
+          "locator": "Catalogue entry; source page also has Complete Score listing",
+          "finding": "12 solo cello scoring. IMSLP source lists a complete score; the commercial publisher confirms score availability."
+        },
+        "floor": {
+          "url": "https://www.jpc.de/jpcng/classic/detail/-/art/Die-12-Cellisten-der-Berliner-Philharmoniker/hnum/4916678",
+          "finding": "CD track listing identifies all three movements for 12 cellos; performed by Die 12 Cellisten der Berliner Philharmoniker, recorded ca.1976."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Blues,_Espagnola_und_Rumba_philharmonica_(Blacher,_Boris)",
+          "finding": "Original Blacher composition; publisher catalogue lists no arranger."
+        },
+        "fieldSources": {
+          "work.composer": "data/chamber/composers.json (existing match)",
+          "work.title": "https://imslp.org/wiki/Blues,_Espagnola_und_Rumba_philharmonica_(Blacher,_Boris)",
+          "work.instruments": "https://www.boosey.com/pdf/brochure/2809_14076.pdf",
+          "work.players": "https://www.boosey.com/pdf/brochure/2809_14076.pdf",
+          "work.minutes": "https://www.boosey.com/pdf/brochure/2809_14076.pdf",
+          "work.notes": "https://www.boosey.com/pdf/brochure/2809_14076.pdf",
+          "details.movements": "https://imslp.org/wiki/Blues,_Espagnola_und_Rumba_philharmonica_(Blacher,_Boris)",
+          "details.published": "https://imslp.org/wiki/Blues,_Espagnola_und_Rumba_philharmonica_(Blacher,_Boris)",
+          "work.formation": "https://www.boosey.com/pdf/brochure/2809_14076.pdf"
+        },
+        "unknowns": {
+          "work.year": "Boosey lists composition as 1972; cached IMSLP page says 1972–73; composition year left null pending date reconciliation.",
+          "details.published": "First publication date not independently confirmed.",
+          "work.popularity": "No focused popularity evidence gathered in this extraction pass.",
+          "work.pace": "No tempo-profile evidence inspected; intentionally left unset.",
+          "work.mode": "Mode not established by the inspected source fields.",
+          "work.hardestPart": "No part-by-part musical grading was performed.",
+          "work.level": "No musical grade assigned by first-pass extractor."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not musically graded by first-pass extractor"
+      },
+      "recordingResearch": {
+        "status": "released-human-recording-established",
+        "queries": [
+          "Blacher Blues Espagnola Rumba 12 cellos Die 12 Cellisten recording"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.jpc.de/jpcng/classic/detail/-/art/Die-12-Cellisten-der-Berliner-Philharmoniker/hnum/4916678",
+            "performers": [
+              "Die 12 Cellisten der Berliner Philharmoniker"
+            ],
+            "finding": "Commercial CD catalogue lists a circa-1976 recording and all three exact movements."
+          }
+        ]
+      }
+    },
+    {
+      "key": "dancla-le-carnaval-de-venise-op119-4-violins",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Exact four-violin scoring is supported by four separate parts and an actual quartet concert programme; score completion/duration should be checked before import.",
+      "work": {
+        "composer": "Dancla, Charles",
+        "title": "Le Carnaval de Venise, Op.119",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": null,
+        "minutes": null,
+        "set": null,
+        "notes": "Fantaisie brillante; 11 sections listed in the source page.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": [],
+        "imslpPage": "https://imslp.org/wiki/Le_Carnaval_de_Venise,_Op.119_(Dancla,_Charles)"
+      },
+      "composerMetadata": null,
+      "details": {
+        "published": null,
+        "kind": "single",
+        "movements": "11 sections (individual section labels not established)"
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Le_Carnaval_de_Venise,_Op.119_(Dancla,_Charles)",
+            "checkedOn": "2026-10-28",
+            "finding": "Work page identifies Op.119, G major, 11 sections, 4 violins, and lists four separate violin parts."
+          },
+          {
+            "url": "https://www.daejeon.go.kr/okr2019/kmusicPrfrmView.do?menuSeq=6135&pageIndex=1&pblprfrInfoId=2180",
+            "checkedOn": "2026-10-28",
+            "finding": "Daejeon Arts Center event page records the August 28, 2026 programme by TKC Violin Quartet and names Le Carnaval de Venise, Op.119; quartet is described as a four-person violin quartet."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Le_Carnaval_de_Venise,_Op.119_(Dancla,_Charles)",
+          "locator": "Parts; General Information",
+          "finding": "Four separate parts labelled 1st, 2nd, 3rd and 4th violin; work scoring 4 violins."
+        },
+        "floor": {
+          "url": "https://www.daejeon.go.kr/okr2019/kmusicPrfrmView.do?menuSeq=6135&pageIndex=1&pblprfrInfoId=2180",
+          "finding": "Past event programme (2026-08-28) schedules the exact Op.119 work under TKC Violin Quartet, a four-violin group."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Le_Carnaval_de_Venise,_Op.119_(Dancla,_Charles)",
+          "finding": "Original Dancla version; no arranger identified for the four-violin source."
+        },
+        "fieldSources": {
+          "work.composer": "data/chamber/composers.json (existing match)",
+          "work.title": "https://imslp.org/wiki/Le_Carnaval_de_Venise,_Op.119_(Dancla,_Charles)",
+          "work.instruments": "https://imslp.org/wiki/Le_Carnaval_de_Venise,_Op.119_(Dancla,_Charles)",
+          "work.players": "https://www.daejeon.go.kr/okr2019/kmusicPrfrmView.do?menuSeq=6135&pageIndex=1&pblprfrInfoId=2180",
+          "work.mode": "https://imslp.org/wiki/Le_Carnaval_de_Venise,_Op.119_(Dancla,_Charles)",
+          "work.notes": "https://imslp.org/wiki/Le_Carnaval_de_Venise,_Op.119_(Dancla,_Charles)",
+          "work.formation": "https://imslp.org/wiki/Le_Carnaval_de_Venise,_Op.119_(Dancla,_Charles)"
+        },
+        "unknowns": {
+          "work.year": "Composition year not established.",
+          "work.minutes": "Duration not established.",
+          "details.published": "Publication year not established from inspected material.",
+          "details.movements": "Page gives count of 11 sections but labels were not established in inspected excerpt.",
+          "work.popularity": "No focused popularity evidence gathered in this extraction pass.",
+          "work.pace": "No tempo-profile evidence inspected; intentionally left unset.",
+          "work.mode": "Mode not established by the inspected source fields.",
+          "work.hardestPart": "No part-by-part musical grading was performed.",
+          "work.level": "No musical grade assigned by first-pass extractor."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not musically graded by first-pass extractor"
+      },
+      "recordingResearch": {
+        "status": "performance-floor-established",
+        "queries": [
+          "Charles Dancla Le Carnaval de Venise Op.119 four violins concert programme"
+        ],
+        "candidates": []
+      }
+    },
+    {
+      "key": "dancla-ah-vous-dirai-je-maman-op161-4-violins",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "Score and parts establish exact four-violin version. A recording link exists, but its contents and performer exclusions remain unchecked; retain as a hold until reviewed.",
+      "work": {
+        "composer": "Dancla, Charles",
+        "title": "Ah! vous dirai-je, maman!, Op.161",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": null,
+        "minutes": 9,
+        "set": null,
+        "notes": "Variations for four violins on “Ah! vous dirai-je, maman!” (Twinkle, Twinkle, Little Star).",
+        "popularity": null,
+        "mode": "major",
+        "pace": null,
+        "character": [],
+        "imslpPage": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)"
+      },
+      "composerMetadata": null,
+      "details": {
+        "published": "1883 - Cotelle",
+        "kind": "single",
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)",
+            "checkedOn": "2026-10-28",
+            "finding": "IMSLP identifies Op.161, G major, 4 violins, 9 minutes, 1883 publication, full score and four separate violin parts; its Free Recordings section links a recording credited to Members of the Queensland Symphony Orchestra."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)",
+          "locator": "Scores and Parts; General Information",
+          "finding": "Full score plus four separately labelled violin parts; instrumentation 4 violins."
+        },
+        "floor": {
+          "url": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)",
+          "finding": "Free Recordings section links the performance credited to Members of the Queensland Symphony Orchestra; the linked video could not be opened to confirm complete contents or performer credits."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)",
+          "finding": "Original Dancla Op.161; no arranger listed."
+        },
+        "fieldSources": {
+          "work.composer": "data/chamber/composers.json (existing match)",
+          "work.title": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)",
+          "work.instruments": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)",
+          "work.players": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)",
+          "work.minutes": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)",
+          "work.mode": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)",
+          "work.notes": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)",
+          "details.published": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)",
+          "work.formation": "https://imslp.org/wiki/Variations_on_%27Ah!_vous_dirai-je,_maman!%27,_Op.161_(Dancla,_Charles)"
+        },
+        "unknowns": {
+          "work.year": "Composition year not established; first publication listed as 1883, not copied to composition year.",
+          "details.published": "First publication listed as 1883, Cotelle.",
+          "details.movements": "Variation list/sequence not confirmed from opened IMSLP page.",
+          "work.popularity": "No focused popularity evidence gathered in this extraction pass.",
+          "work.pace": "No tempo-profile evidence inspected; intentionally left unset.",
+          "work.hardestPart": "No part-by-part musical grading was performed.",
+          "work.level": "No musical grade assigned by first-pass extractor."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not musically graded by first-pass extractor"
+      },
+      "recordingResearch": {
+        "status": "recording-linked-unverified",
+        "queries": [
+          "Dancla Op.161 Ah vous dirai-je maman Members of Queensland Symphony Orchestra"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.youtube.com/watch?v=iKCyvroon6g",
+            "performers": [
+              "Members of the Queensland Symphony Orchestra"
+            ],
+            "finding": "IMSLP links to this video under Free Recordings; video page could not be opened, so contents, full-work completeness and credits remain unchecked."
+          }
+        ]
+      }
+    }
+  ],
+  "resume": {
+    "nextEntryKey": null
+  }
+}

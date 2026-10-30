@@ -1,0 +1,472 @@
+{
+ "batch": "review-pilot-violin-new",
+ "entries": [
+  {
+   "key": "norman-gran-turismo-original-8violins",
+   "work": {
+    "composer": "Norman, Andrew",
+    "title": "Gran Turismo for 8 Violins",
+    "instruments": {
+     "violin": 8
+    },
+    "players": 8,
+    "formation": "large-strings",
+    "form": "short",
+    "year": "2004",
+    "minutes": 8,
+    "set": null,
+    "notes": "For eight virtuoso violinists; motoric concert piece"
+   },
+   "details": {
+    "kind": "single",
+    "composed": "2004",
+    "dedication": "The students of Robert Lipsett",
+    "firstPerformance": "1 April 2004, Newman Hall, University of Southern California, Los Angeles; students of Robert Lipsett"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+      "locator": "Work heading; Program Note; Media",
+      "finding": "Composer, year, duration, scoring, dedication, premiere; links Gardner Museum video.",
+      "checkedOn": "2026-10-28"
+     },
+     {
+      "url": "https://www.schott-music.com/en/gran-turismo-no251066.html",
+      "locator": "Product Details / Technical Details",
+      "finding": "Schott ED31087, score and parts; ISMN9790600011483;102 pages, worldwide publication.",
+      "checkedOn": "2026-10-28"
+     },
+     {
+      "url": "https://npac-nso.org/upload/gallery/gallery/e78a7a7a236ee6966df6508673d81e6e66ef5167_17676843859WM504DX.pdf",
+      "locator": "Printed p.20; 7 January2026 programme",
+      "finding": "Richard Lin I, Paul Huang II, Chieh-An Tseng III, Chih-Hong Tseng IV, Hao-Tun Teng V, Yi-Ju Chen VI, Chu-Chun Tsai VII, Chang-Wen Hung VIII.",
+      "checkedOn": "2026-10-28"
+     }
+    ],
+    "scoring": {
+     "url": "https://www.schott-music.com/en/gran-turismo-no251066.html",
+     "locator": "Heading for eight virtuoso violinists; edition Score and parts; corroborated NSO printedp20",
+     "finding": "Eight separate violin parts; programme enumerates I–VIII. No required accompaniment stated.",
+     "checkedOn": "2026-10-28"
+    },
+    "floor": {
+     "url": "https://npac-nso.org/upload/gallery/gallery/e78a7a7a236ee6966df6508673d81e6e66ef5167_17676843859WM504DX.pdf",
+     "locator": "7 January2026 programme, printedp20",
+     "finding": "Professional NSO Paul Huang & Friends performance listing names the eight individual violin roles; publisher also confirms actual2004 premiere.",
+     "checkedOn": "2026-10-28"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://www.schott-music.com/en/gran-turismo-no251066.html",
+     "locator": "ED31087, score and parts,102 pages, ISMN9790600011483",
+     "finding": "Obtainable published original. Public PDF Preview links to https://www.schott-music.com/en/pdfpreview/index/view/id/251066 but actual viewer returned403; Hal Leonard Closer Look returnednull.",
+     "checkedOn": "2026-10-28"
+    },
+    "fieldSources": {
+     "work.composer": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+     "work.title": "https://www.schott-music.com/en/gran-turismo-no251066.html",
+     "work.year": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+     "work.minutes": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+     "work.form": "One continuous8-minute concert piece; publisher work heading and duration.",
+     "details.composed": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+     "details.dedication": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+     "details.firstPerformance": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/"
+    }
+   },
+   "recordingResearch": {
+    "status": "unverified",
+    "queries": [
+     "Official EAM Gran Turismo media link LEE7DB1_dBM",
+     "Andrew Norman Gran Turismo score preview",
+     "Gran Turismo A Far Cry violin Jesse Irons Gardner performers"
+    ],
+    "candidates": [
+     {
+      "id": "LEE7DB1_dBM",
+      "title": "Modern Music » Norman, Gran Turismo » A Far Cry",
+      "channel": "Isabella Stewart Gardner Museum",
+      "seconds": 529,
+      "url": "https://www.youtube.com/watch?v=LEE7DB1_dBM",
+      "description": "A Far Cry performs Gran Turismo, by 21st Century composer Andrew Norman.\n\nIn the spirit of the Gardner Museum's commitment to new art and new music, we'd like to welcome you to Modern Music, a series of contemporary performances that mixes works of young composers and with a handful of established masters. Our first six performances will go live on YouTube every other Thursday from June 18 through August 27, with new concerts added periodically throughout the year. Visit the Gardner Museum online to subscribe to our classical podcast, The Concert, or browse hundreds of songs in our music library: http://www.gardnermuseum.org/music/listen Enjoy!\n\nScott Nickrenz, Abrams Curator of Music and Director of Modern Music\nAlicia Mielke, Concert Manager\nTom Stephenson, Lead Engineer and Producer of Modern Music\nColin Gallagher, Associate Engineer",
+      "performerCredits": "A Far Cry; Isabella Stewart Gardner Museum Modern Music series. Individual eight-player roster absent from inspected metadata.",
+      "exactVersionEvidence": "The composer’s official publisher embeds this exact video under Gran Turismo, eight violins (2004).",
+      "completenessEvidence": "529-second video with complete-work title, close to publisher 8-minute duration; no excerpt label. Opening/ending playback still needs independent judge.",
+      "exclusionCheck": "No excluded performer named in full title/channel/description. Individual ensemble roster not credited there; leave pending until checked.",
+      "embedCheck": {
+       "playableInEmbed": true,
+       "availability": "public",
+       "method": "yt-dlp metadata",
+       "checkedOn": "2026-10-28",
+       "oEmbedAvailable": true,
+       "oEmbedTitle": "Modern Music » Norman, Gran Turismo » A Far Cry",
+       "oEmbedCheckedOn": "2026-10-28"
+      },
+      "judgement": "pending-roster-and-playback-review"
+     }
+    ]
+   }
+  },
+  {
+   "key": "bach-bwv971-kimura-4violins",
+   "work": {
+    "composer": "Bach, Johann Sebastian",
+    "title": "Italian Concerto, BWV 971 (version for 4 Violins)",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Published four-violin arrangement; complete extent awaiting score inspection",
+    "arranger": "Mihoko Kimura"
+   },
+   "details": {
+    "firstPerformance": "2012, Bayreuth-Festival-Violinquartett (publisher catalogue; exact date/place not given)",
+    "published": "2013, Edition Offenburg BC 4131; score14 pages and four parts",
+    "otherTitles": [
+     "Concerto nach italienischem Gusto"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.edition-offenburg.com/collections/2-3-und-4-violinen-ohne-basso/products/bc-4131",
+      "locator": "Title, description and arranger credit; BC4131, ISMN9790700241681",
+      "finding": "Bach source composition arranged for four violins by Mihoko Kimura; digital score obtainable.",
+      "checkedOn": "2026-10-28"
+     },
+     {
+      "url": "https://d-nb.info/1056016825/34",
+      "locator": "Printedp17, section785.14 Quartette; record1046143425",
+      "finding": "Bach Italian Concerto arrangement by Mihoko Kimura,2013,14-page score and4 parts; no movement selection qualifier.",
+      "checkedOn": "2026-10-28"
+     },
+     {
+      "url": "https://www.edition-walhall.de/media/content/Edition_Walhall-ViolineKat2016_.pdf",
+      "locator": "Printedp24,3–5 Violinen",
+      "finding": "Confirms Kimura four-violin BWV971 and2012 premiere by Bayreuth-Festival-Violinquartett; downloaded PDF text inspected.",
+      "checkedOn": "2026-10-28"
+     },
+     {
+      "url": "https://www.theater-osnabrueck.de/spielplan-detail/?stid=686",
+      "locator": "24 August2024 NaturTon Route3, Rosengarten",
+      "finding": "Andrija, Ana, Adam and Adrian Wonnemann; explicitly credits Bach/arr. Mihoko Kimura, BWV971.",
+      "checkedOn": "2026-10-28"
+     }
+    ],
+    "scoring": {
+     "url": "https://www.edition-offenburg.com/collections/2-3-und-4-violinen-ohne-basso/products/bc-4131",
+     "locator": "Arranged for4 Violins; description of homogeneous quartet",
+     "finding": "Four violins only; DNB confirms four printed parts. No accompaniment listed. Individual notated parts not visually inspected.",
+     "checkedOn": "2026-10-28"
+    },
+    "floor": {
+     "url": "https://www.edition-walhall.de/media/content/Edition_Walhall-ViolineKat2016_.pdf",
+     "locator": "Printedp24, BC4131",
+     "finding": "Publisher documents actual2012 premiere by the Bayreuth-Festival-Violinquartett. Theatre programme independently gives a2024 professional performance of Kimura’s exact version.",
+     "checkedOn": "2026-10-28"
+    },
+    "version": {
+     "kind": "arrangement",
+     "arranger": "Mihoko Kimura",
+     "extent": "whole-work",
+     "selection": null,
+     "extentStatus": "Proposed whole-work as marketed; not confirmed by score contents. Hold until all movements or exact selection established.",
+     "sourceComposition": "Bach, Italian Concerto, BWV971, originally solo harpsichord",
+     "versionYear": null
+    },
+    "score": {
+     "url": "https://www.edition-offenburg.com/collections/2-3-und-4-violinen-ohne-basso/products/bc-4131",
+     "locator": "BC4131; DNB record1046143425",
+     "finding": "Published score and four parts obtainable; no preview found on publisher or exact-ISMN retailer page. Paid download not purchased.",
+     "checkedOn": "2026-10-28"
+    },
+    "fieldSources": {
+     "work.composer": "https://www.edition-offenburg.com/collections/2-3-und-4-violinen-ohne-basso/products/bc-4131",
+     "work.title": "https://www.edition-offenburg.com/collections/2-3-und-4-violinen-ohne-basso/products/bc-4131",
+     "work.arranger": "https://www.edition-offenburg.com/collections/2-3-und-4-violinen-ohne-basso/products/bc-4131",
+     "details.firstPerformance": "https://www.edition-walhall.de/media/content/Edition_Walhall-ViolineKat2016_.pdf",
+     "details.published": "https://d-nb.info/1056016825/34",
+     "details.otherTitles": "https://www.edition-offenburg.com/collections/2-3-und-4-violinen-ohne-basso/products/bc-4131"
+    }
+   },
+   "recordingResearch": {
+    "status": "not-found",
+    "queries": [
+     "Mihoko Kimura Italian Concerto four violins youtube",
+     "site:youtube.com Italian Concerto four violins",
+     "site:youtube.com Italian Concerto Kimura",
+     "Bach Kimura vier Violinen Presto"
+    ],
+    "candidates": []
+   }
+  },
+  {
+   "key": "hermann-op2-original-3violins",
+   "work": {
+    "composer": "Hermann, Friedrich",
+    "title": "Capriccio No. 1 for 3 Violins in D minor, Op. 2",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "short",
+    "year": "",
+    "minutes": 8,
+    "set": null,
+    "notes": "Virtuoso violin trio; Adagio introduction and Allegro molto",
+    "imslpPage": "Capriccio No.1 for 3 Violins, Op.2 (Hermann, Friedrich)"
+   },
+   "details": {
+    "kind": "single",
+    "published": "1855, Leipzig: C.F. Peters (first publication per IMSLP/Hofmeister citation)",
+    "otherTitles": [
+     "Capriccio für drei Violinen"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)",
+      "locator": "Scores and Parts; General Information",
+      "finding": "Op2,D minor,3violins,single capriccio; first publication1855 cited to Hofmeister.",
+      "checkedOn": "2026-10-28"
+     },
+     {
+      "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=17590",
+      "locator": "Peters No2032,plate7943;three downloadable parts",
+      "finding": "University published-score scan; part headers and endings visually inspected.",
+      "checkedOn": "2026-10-28"
+     },
+     {
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=55762&itemId=17887",
+      "locator": "Erste Violine printedpp1,3,5",
+      "finding": "Adagio,Allegro molto,high-register figuration,double-stop writing,Più mosso ending marked Fine.",
+      "checkedOn": "2026-10-28"
+     },
+     {
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=55761&itemId=17887",
+      "locator": "Zweite Violine printedp2 andp6",
+      "finding": "Distinct second part; lower-register contrapuntal writing,chords,arco/pizzicato changes.",
+      "checkedOn": "2026-10-28"
+     },
+     {
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=55763&itemId=17887",
+      "locator": "Dritte Violine printedpp1,5",
+      "finding": "Distinct third part,rapid repeated-note ostinato and chords; ending Fine.",
+      "checkedOn": "2026-10-28"
+     },
+     {
+      "url": "https://www.pmf.or.jp/en/gallery/digital/2023-hermann_v3.html",
+      "locator": "Programme,artists,recording date",
+      "finding": "Three named violinists in actual21 July2023 festival performance; exact linked YouTube.",
+      "checkedOn": "2026-10-28"
+     }
+    ],
+    "scoring": {
+     "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=17590",
+     "locator": "Peters2032,three scanned parts; actual headers Erste/Zweite/Dritte Violine",
+     "finding": "Three independent violin parts only; no accompaniment part. IMPORTANT: webpage filename violin1.pdf links second-violin scan(file55761); filename violin2.pdf links first-violin scan(file55762). Headers establish actual roles.",
+     "checkedOn": "2026-10-28"
+    },
+    "floor": {
+     "url": "https://www.pmf.or.jp/en/gallery/digital/2023-hermann_v3.html",
+     "locator": "Artists/programme/recording",
+     "finding": "Minori Yoshida I,Josh Liu II,Laura Ochmann III;21 July2023,Sapporo Kitara Small Hall; human professional festival performance of exact Op2 version.",
+     "checkedOn": "2026-10-28"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=17590",
+     "locator": "Edition Peters2032,plate7943; file55762=I,file55761=II,file55763=III",
+     "finding": "Complete separate violin parts. IMSLP also offers Cecily Mahan’s2017 score#465527,19pages,an engraving of the same parts,not a new arrangement.",
+     "checkedOn": "2026-10-28"
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)",
+     "work.title": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)",
+     "work.mode": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)",
+     "work.minutes": "PMF YouTube500seconds rounded8minutes; performance-derived.",
+     "work.notes": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=55762&itemId=17887",
+     "details.kind": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)",
+     "details.published": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)",
+     "details.otherTitles": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=17590",
+     "work.imslpPage": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)"
+    }
+   },
+   "recordingResearch": {
+    "status": "unverified",
+    "queries": [
+     "Hermann Capriccio Op2 three violins IMSLP",
+     "Official PMF Hermann2023 video and metadata inspection"
+    ],
+    "candidates": [
+     {
+      "id": "qtwAcpqKcyc",
+      "title": "[PMF 2023] F. Hermann: Capriccio No. 1 / F. ヘルマン：カプリッチョ 第1番",
+      "channel": "PacificMusicFestival",
+      "seconds": 500,
+      "url": "https://www.youtube.com/watch?v=qtwAcpqKcyc",
+      "description": "Enjoy this PMF 2023 performance of F. Hermann's Capriccio No. 1 for 3 violins, which intricately weaves the 3 highly demanding parts into a delicate yet profound tapestry.\nヘルマン作曲「3つのヴァイオリンのためのカプリッチョ」の映像を公開しました。共に難度の高い3つのパートが縦横に行き交い、ひとつの豪奢なタペストリーを編むような、繊細かつ重厚な音楽をご堪能ください。\n\n◆F. Hermann: Capriccio No. 1 in d minor for 3 violins, Op. 2 / F. ヘルマン：3つのヴァイオリンのためのカプリッチョ ニ短調 第1番 作品2\n\nMembers of the PMF Orchestra\n　Minori Yoshida, violin I\n　Josh Liu, violin II\n　Laura Ochmann, violin III\nPMFオーケストラ・メンバー\n　吉田みのり（ヴァイオリン I）\n　ジョシュ・リュ（ヴァイオリン II）\n　ラウラ・オクマン（ヴァイオリン III）\n\nRecording: July 21, 2023　Sapporo Concert Hall Kitara, Small Hall (PMF Ensemble Concert)\n収録：2023年7月21日　札幌コンサートホールKitara 小ホール（PMFアンサンブル演奏会）\n\n[PMF website]\nhttps://www.pmf.or.jp/en/\n[PMF公式ウェブサイト]\nhttps://www.pmf.or.jp/",
+      "performerCredits": "Minori Yoshida, violin I; Josh Liu, violin II; Laura Ochmann, violin III. PMF Ensemble Concert,21 July2023,Sapporo Concert Hall Kitara Small Hall.",
+      "exactVersionEvidence": "Festival webpage and full uploader description identify composer, Op2, D minor and all three violin roles; festival links this exact video.",
+      "completenessEvidence": "500-second upload presented by festival as Capriccio No1, with no excerpt marker; independent judge should check opening and ending against Adagio–Più mosso/Fine score.",
+      "exclusionCheck": "Complete three-player roster inspected in official programme and uploader description. None is an excluded performer.",
+      "embedCheck": {
+       "playableInEmbed": true,
+       "availability": "public",
+       "method": "yt-dlp metadata",
+       "checkedOn": "2026-10-28",
+       "oEmbedAvailable": true,
+       "oEmbedCheckedOn": "2026-10-28"
+      },
+      "judgement": "pending-independent-playback-review"
+     }
+    ]
+   }
+  },
+  {
+   "key": "hofmann-op104-original-3violins-set",
+   "work": {
+    "composer": "Hofmann, Richard",
+    "title": "Four Pieces for 3 Violins, Op. 104",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "set",
+    "year": "",
+    "minutes": 16,
+    "set": null,
+    "notes": "Four concert pieces in an easy style; first to third positions",
+    "imslpPage": "4 Pieces for 3 Violins, Op.104 (Hofmann, Richard)"
+   },
+   "details": {
+    "movements": [
+     "Allegro moderato",
+     "Andante con moto",
+     "Allegro ma non troppo",
+     "Allegro con spirito"
+    ],
+    "kind": "pieces",
+    "published": "1898, London: Augener & Co.; No. 5292, plate 11228"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+      "locator": "Parts #243516; Recordings #459039–459042; General Information",
+      "finding": "Complete four-piece set, three violins, first to third positions, human recordings of each piece.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://www.amadeusmusic.ch/en/itemcard.php?itemno=BP+1810&language=de",
+      "locator": "BP1810, scoring and pagination",
+      "finding": "2013 edition by Bernhard Päuler: 16-page score and three 8-page parts.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://www.amadeusmusic.ch/attachments/BP1810_N.pdf",
+      "locator": "Single-page score sample, Allegro moderato",
+      "finding": "Violini I–III, independent lines; text extraction inspected. Screenshot timed out.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://www.amadeusmusic.ch/attachments/BP1810_VF.pdf",
+      "locator": "First-publication discussion",
+      "finding": "1898 Augener first edition in parts; new 2013 score and editorial articulation/dynamic corrections.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://www.mainly4strings.co.uk/mainstreammusic-org-uk/_img/pdf/Hofmann_-_Four_Pieces_for_Three_Violins-6001.pdf",
+      "locator": "23-page publisher-hosted bundle:2covers,ViolinI PDFpp3–9,IIpp10–16,IIIpp17–23",
+      "finding": "All three independent parts with four numbered pieces; scan of original Augener edition,not a new arrangement. Representative pages of each part and all three finales inspected visually.",
+      "checkedOn": "2026-10-28"
+     }
+    ],
+    "scoring": {
+     "url": "https://www.mainly4strings.co.uk/mainstreammusic-org-uk/_img/pdf/Hofmann_-_Four_Pieces_for_Three_Violins-6001.pdf",
+     "locator": "PDFp3=ViolinI,p10=ViolinII,p17=ViolinIII;all subsequent parts throughp23",
+     "finding": "Three complete independent violin parts,seven printed pages per part,no accompaniment.",
+     "checkedOn": "2026-10-28"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+     "locator": "Recordings, four tracks, Steve’s Bedroom Band",
+     "finding": "Four uploaded human violin-trio performances: 4:15,3:16,2:27,5:49; publisher Steve Jones, uploaded 11 February 2017. Likely real multitrack; review performer identity before final floor acceptance.",
+     "checkedOn": "2026-10-27"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "complete-set",
+     "selection": null
+    },
+    "score": {
+     "url": "https://www.amadeusmusic.ch/en/itemcard.php?itemno=BP+1810&language=de",
+     "locator": "BP1810 / ISMN9790015181009; sample and foreword links",
+     "finding": "Complete score and Violin I–III parts; Bernhard Päuler is editor, not arranger. Historic complete Augener parts also on IMSLP #243516 (21 pages), #82690 (13 facing pages). Full historic three-part scan additionally available on publisher-hosted MainstreamMusic PDF (23pages): partsI pp3–9,II pp10–16,III pp17–23.",
+     "checkedOn": "2026-10-27"
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+     "work.title": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+     "work.form": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+     "work.minutes": "IMSLP recording sum 15:47, rounded to16; performance-specific, not fixed duration.",
+     "work.notes": "https://www.mainly4strings.co.uk/mainstreammusic-org-uk/_img/pdf/Hofmann_-_Four_Pieces_for_Three_Violins-6001.pdf",
+     "details.movements": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+     "details.published": "https://www.amadeusmusic.ch/attachments/BP1810_VF.pdf",
+     "work.imslpPage": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)"
+    }
+   },
+   "recordingResearch": {
+    "status": "not-found",
+    "queries": [
+     "Hofmann Op.104 violins recording",
+     "Hofmann 104 3 pdf pieces violins",
+     "IMSLP linked YouTube 9TxnUlOq_nQ inspected by yt-dlp",
+     "Hofmann104VierStückeKonzert",
+     "Hofmann104FourPiecesconcertprogram",
+     "Steve’sBedroomBand performer/contributor pages checked"
+    ],
+    "candidates": [
+     {
+      "id": "9TxnUlOq_nQ",
+      "title": "Adventskonzert im Erbdrostenhof - Richard Hofmann Trio für drei Violinen, op.104—Scherzo",
+      "channel": "Elda Teqja",
+      "seconds": 206,
+      "url": "https://www.youtube.com/watch?v=9TxnUlOq_nQ",
+      "description": "Adventskonzert im Erbdrostenhof, 12.12.2021, Münster\nRichard Hofmann Trio für drei Violinen,op.104—Scherzo , Shania (12), Eike (11)",
+      "performerCredits": "Description: Shania (12), Eike (11); Adventskonzert, Erbdrostenhof Münster, 12 December 2021. Third player not named.",
+      "exactVersionEvidence": "Title/description identify Hofmann Op104 violin trio Scherzo; IMSLP links this upload.",
+      "completenessEvidence": "Scherzo only, 206 s; not complete four-piece set.",
+      "exclusionCheck": "No banned names in inspected metadata; third player uncredited, so complete roster unresolved.",
+      "embedCheck": {
+       "playableInEmbed": true,
+       "availability": "public",
+       "method": "yt-dlp metadata",
+       "checkedOn": "2026-10-27"
+      },
+      "judgement": "reject-as-primary-incomplete"
+     }
+    ]
+   }
+  }
+ ]
+}

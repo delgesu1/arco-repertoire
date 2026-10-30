@@ -1,0 +1,43 @@
+{
+ "batch": "ensemble-24",
+ "accepted": [
+  {
+   "key": "gorochnaya-quartetto-viola-vg80",
+   "id": 109198,
+   "publicId": 109198,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed",
+    "published",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "eGOfpnCoBr8"
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "35983f92d480bc38a4157ef89d787226c5414cffbf9a2c336aa2333723ce4d67",
+  "data/chamber/composers.json": "50533a00bdbd0c77b938547153ca7c2358ee262eee1c805d56703ea8beb885a7",
+  "data/chamber/id-registry.json": "c05032ab6df984c2e6d9f4459ebabff97f6b5e9de108294191e987b69763bbfd",
+  "data/chamber/sources.json": "3c63e60b2ed77b65ed36f3d212a4170a2c182f4f382488dc818cea533ee49274",
+  "data/details/overrides.json": "cd0f22932f31d297eb8c0b368b2790e9f63c4a00066cd9cfbae32bf000f76e9b",
+  "data/chamber/recordings-judged.json": "baa32afe70cea498226f47efa4ad55db67b9df13b8cabe4fc83904b1b88013ed",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-gorochnaya-24.json": "4c24609c7134bbfa0818d971cc35f4293ede0d41cdf77b01415feddba3b6404a",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/gorochnaya-24-normalized.json": "15165d93808d35de182f0be5db38e2b674849c507764c0c08b22af85a67bc504",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/gorochnaya-third-24.json": "c83bf3f01118e36668e7375b810b7fa519f683792d5e107bb861999f5a5cf5c4"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-24"
+}

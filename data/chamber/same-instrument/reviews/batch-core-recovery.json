@@ -1,0 +1,177 @@
+{
+  "batch": "core-recovery",
+  "checkedOn": "2026-10-28",
+  "entries": [
+    {
+      "key": "francaix-aubade-twelve-cellos",
+      "status": "held",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://www.schott-music.com/fr/pdfpreview/index/view/id/100036979/",
+          "finding": "Actual public five-page notation preview recovered as aubade-preview-1.jpg through -5.jpg in evidence/core-recovery; not a complete score."
+        }
+      ],
+      "grade": {
+        "level": null,
+        "hardestPart": null,
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "lyrical"
+        ],
+        "confidence": "low",
+        "basis": "Five publisher sample pages were read, all apparently drawn from the opening Andantino (last printed p.9). Clear 5/8 pulse, upper treble/tenor lines, close chromatic held harmony, carefully coordinated muted/arco/pizzicato entrances. This supports advanced intonation and ensemble work but gives no notation evidence for Vivacissimo or Presto. Publisher labels the score easy, which is not an exam-scale mapping; whole-work level withheld."
+      },
+      "approvedWorkFields": [],
+      "workCorrections": {},
+      "approvedDetailFields": [],
+      "detailCorrections": {},
+      "detailSources": {},
+      "recordingDecisions": []
+    },
+    {
+      "key": "xenakis-retours-windungen-twelve-cellos",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://hal.science/hal-01202402/file/Livre%2520entier.pdf",
+          "finding": "Institutional full analytical book PDF saved as xenakis-analysis.pdf; searchable text p.63 discusses Retours-Windungen three-note circular staggered texture. Additional detailed analysis found in James Harley Xenakis p.90 via published search excerpt; complete score not recovered."
+        },
+        {
+          "url": "https://www.iannis-xenakis.org/en/retours-windungen/",
+          "finding": "Official composer catalogue confirms 1976, twelve cellos, eight minutes and Salabert EAS 17344; no public perusal link exposed."
+        }
+      ],
+      "grade": {
+        "level": 8,
+        "hardestPart": "All twelve cellos: rapid spatial handoffs and controlled glissando/tremolo textures",
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [
+          "dramatic",
+          "virtuosic"
+        ],
+        "confidence": "medium",
+        "basis": "Independent calibrated estimate from musical analysis, not an inspected complete score. Makis Solomos institutional manuscript specifically identifies circular placement and staggered three-note opening. Published analytical description identifies very fast rotating single lines and short glissandi, sustained chords with pitch oscillation, ponticello tremolo, trills, bridge noise and abrupt chord blocks. Precision of handoffs around twelve independent players and controlled nonstandard sound production support professional level 8; no basis for claiming extreme solo-virtuoso level."
+      },
+      "approvedWorkFields": [],
+      "workCorrections": {},
+      "approvedDetailFields": [],
+      "detailCorrections": {},
+      "detailSources": {},
+      "recordingDecisions": []
+    },
+    {
+      "key": "dean-twelve-angry-men",
+      "status": "held",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://eclassical.textalk.se/shop/17115/art39/4713339-f34564-booklet-BIS-CD-1696.pdf",
+          "finding": "Official BIS-CD-1696 booklet saved as angry-booklet.pdf, printed p.6. Publisher work page has rental link but no Online Score link."
+        }
+      ],
+      "grade": {
+        "level": null,
+        "hardestPart": null,
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "dramatic"
+        ],
+        "confidence": "low",
+        "basis": "Label booklet verifies twelve-way musical argument and lone voice against larger groups, but its adjacent technical description of a virtuosic range of colours/effects concerns Intimate Decisions, NOT Twelve Angry Men. No detailed technical account or notation was recovered; do not transfer that adjacent description to this work."
+      },
+      "approvedWorkFields": [],
+      "workCorrections": {},
+      "approvedDetailFields": [],
+      "detailCorrections": {},
+      "detailSources": {},
+      "recordingDecisions": []
+    },
+    {
+      "key": "dean-testament-twelve-violas",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://www.boosey.com/cr/music/Brett-Dean-Testament/30840",
+          "finding": "Primary composer technical account of ORIGINAL twelve-viola version, 2002, 14 minutes, Bote & Bock; premiere 11 June 2003 Berlin. Public Online Score actual link https://www.boosey.com/cr/perusals/score?id=12286 requires login; stopped there. Generic repertoire note mentions winds and therefore includes orchestral-version material; not used for original scoring."
+        }
+      ],
+      "grade": {
+        "level": 8,
+        "hardestPart": "Viola I high exposed cantilena; twelve independent viola lines and bow/noise control",
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [
+          "dramatic",
+          "dark",
+          "virtuosic"
+        ],
+        "confidence": "medium",
+        "basis": "Composer’s original twelve-viola programme note explicitly describes rapid nearly silent rosinless-bow opening, a high first-viola cantilena, interrupted Op.59/1 slow-movement fragments, switch to fully rosined bows and fast aggressive/pliable development referencing the finale. Together with twelve soloistic voices documented by premiere review, this supports professional level 8 from exposed register, timbral control and ensemble coordination. Precise pitch range, rhythms and fingerings were not seen; estimate is not score-certified."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "notes"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "kind",
+        "composed"
+      ],
+      "detailCorrections": {},
+      "detailSources": {
+        "composed": "https://www.boosey.com/cr/music/Brett-Dean-Testament/30840"
+      },
+      "recordingDecisions": [
+        {
+          "decision": "released-human-recording-established",
+          "url": "https://www.boosey.com/cr/music/Brett-Dean-Testament/30840",
+          "performers": [
+            "BBC Symphony Orchestra viola section",
+            "Martyn Brabbins"
+          ],
+          "finding": "Publisher recommended recording BIS-2016 explicitly credits viola section, confirming twelve-viola version."
+        }
+      ]
+    },
+    {
+      "key": "lauber-quartet-four-double-basses-1942",
+      "status": "held",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://www.prestomusic.com/sheet-music/products/7343147--lauber-quartet-for-double-basses-1942",
+          "finding": "YE0036 score and parts, circa 13 minutes; top part advanced. IMSLP actual legal download route returned friendlyredirect rather than a normal disclaimer/download link. Institutional Patrinum record621221 returned empty response/403; stopped. No guessed region URL or hidden direct image PDF used."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "Double bass I",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [],
+        "confidence": "low",
+        "basis": "Publisher-supplied retail description says four movements, top part advanced. This supports a cautious level-6 estimate but lacks enough musical particulars to approve a whole-work level. No manuscript notes inspected. IMSLP says sounding pitch with all four basses in solo tuning; do not mistake manuscript registers for ordinary octave-transposing part notation."
+      },
+      "approvedWorkFields": [],
+      "workCorrections": {},
+      "approvedDetailFields": [],
+      "detailCorrections": {},
+      "detailSources": {},
+      "recordingDecisions": []
+    }
+  ],
+  "limitations": "No complete notation PDF recovered. Public Aubade five-page publisher preview saved as images. Grades independent of existing catalogue and prior grade reviews."
+}

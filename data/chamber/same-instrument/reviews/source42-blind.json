@@ -1,0 +1,210 @@
+{
+  "batch": "source42",
+  "role": "blind-musical-grading",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "klengel-variations-op28-four-cellos",
+      "status": "approved",
+      "scope": "musical-only",
+      "grade": {
+        "level": 5,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Actual complete score inspected at PDF pp.1\u20132, 4\u20135, 8, 12 and 17: the first cello moves repeatedly between bass and tenor clefs into the singing upper register, with extended slurred semiquaver passagework, chromatic inflections, ornaments and register changes. Allegro moderato and Allegretto variations add detached articulation and coordinated short rests; the lower three parts also exchange moving figures, while the return to Andante requires exposed sustained ensemble intonation. This is advanced cello work around the ABRSM 8 / RCM 9 band (level 5), above the uncomplicated intermediate Telemann four-violin anchor at 2, but without the sustained virtuoso density of diploma-level chamber anchors. No automatic ensemble uplift; approximately one-level uncertainty from representative distributed inspection.",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "playful"
+        ]
+      },
+      "scoreEvidence": {
+        "urls": [
+          "https://imslp.org/wiki/Special:ImagefromIndex/617255"
+        ],
+        "paths": [
+          "data/cache/same-instrument-imslp/scores/source42-617255.pdf"
+        ],
+        "pagesInspected": [
+          1,
+          2,
+          4,
+          5,
+          8,
+          12,
+          17
+        ]
+      }
+    },
+    {
+      "key": "klengel-impromptu-op30-four-cellos",
+      "status": "approved",
+      "scope": "musical-only",
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Inspected complete first-cello part (PDF pp.1\u20132), second-cello final section (p.4) and fourth-cello final section (p.8). The first part opens with sustained tenor-register Maestoso, then requires repeated bass/tenor clef shifts, chromatic Allegretto figures, dotted bowings and ornaments; the Vivace has recurring double stops/chords under the tune, trills, high-register sustained notes and a treble-clef ending. Second cello has substantial double stops too, while the bass remains more straightforward. The sustained upper-position and double-stop control places the hardest part around pre-diploma (level 6), above the scale\u2019s advanced 5 band but below the breadth of diploma 7 anchors such as Halvorsen Passacaglia. Coordinating changing tempos and accelerando adds rehearsal work without a separate numerical uplift; roughly one-level uncertainty.",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "heroic",
+          "lyrical"
+        ]
+      },
+      "scoreEvidence": {
+        "urls": [
+          "https://imslp.org/wiki/Special:ImagefromIndex/938550"
+        ],
+        "paths": [
+          "data/cache/same-instrument-imslp/scores/source42-938550.pdf"
+        ],
+        "pagesInspected": [
+          1,
+          2,
+          4,
+          8
+        ]
+      }
+    },
+    {
+      "key": "werner-elegie-op21-four-cellos",
+      "status": "approved",
+      "scope": "musical-only",
+      "grade": {
+        "level": 5,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Actual complete score (PDF pp.2\u20133) and both first-cello part pages (pp.7\u20138) inspected. The Adagio introduction contains chromatic slurred semiquaver runs and accented detached figures; Allegro moderato (quarter=120) requires sustained upper-register tenor-clef cantabile, expressive shifts, harmonics and occasional double stops, followed by Meno mosso passagework and an exposed soft ending. The score also shows fourth-cello ascending chromatic/arpeggiated excursions, though the first part has the most sustained high melodic responsibility. Advanced level 5 (ABRSM 8 / RCM 9 equivalent on cello) fits these demands: more than early-advanced 4 lyrical chamber parts, below the continuous technical breadth of pre-diploma 6 anchors. Exposed tuning/balance does not itself add a level; approximately one-level uncertainty.",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "tender",
+          "dramatic"
+        ]
+      },
+      "scoreEvidence": {
+        "urls": [
+          "https://imslp.org/wiki/Special:ImagefromIndex/10006"
+        ],
+        "paths": [
+          "data/cache/same-instrument-imslp/scores/source42-10006.pdf"
+        ],
+        "pagesInspected": [
+          2,
+          3,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "key": "clark-gavotte-four-violins",
+      "status": "approved",
+      "scope": "musical-only",
+      "grade": {
+        "level": 2,
+        "hardestPart": "violin 1",
+        "confidence": "medium",
+        "basis": "Inspected all four actual parts: PDF p.2 (complete violin 1 spread), p.4 (violin 2), p.6 (violin 3) and p.8 (violin 4). Moderato 2/4, with regular eighths and short semiquaver figures, small grace notes, repeated detached/slurred bowing changes and modest chromatic inflections. First violin carries the upper melodic register around the staff and nearby ledger lines; lower parts remain largely low-position, with repeated bass-pattern string crossings/pizzicato in violin 4 and elementary final double stops. Comparable to the local Telemann G-major four-violin concerto anchor at level 2, rather than early-advanced 4 Bach Double; the regular dance pulse requires precision but no additional ensemble level. Roughly one-level advisory uncertainty.",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "dance",
+          "playful"
+        ]
+      },
+      "scoreEvidence": {
+        "urls": [
+          "https://imslp.org/wiki/Special:ImagefromIndex/82715"
+        ],
+        "paths": [
+          "data/cache/same-instrument-imslp/scores/source42-82715.pdf"
+        ],
+        "pagesInspected": [
+          2,
+          4,
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "key": "makris-scherzo-four-violins",
+      "status": "approved",
+      "scope": "musical-only",
+      "grade": {
+        "level": 6,
+        "hardestPart": "violin 1",
+        "confidence": "medium",
+        "basis": "Actual complete manuscript score inspected across PDF pp.1\u20133, 6, 8, 12 and 16. Brisk 3/8 scherzo texture alternates repeated semiquaver cells with short slurred chromatic figures, abrupt rests and staggered handoffs. Violin 1 repeatedly reaches well above the staff into the high E-string register and finishes with sustained rapid high repeated figures; several passages in the upper parts include double stops, while lower parts maintain chromatic ostinatos and displaced accents. The persistent high-register articulation and intonation justify pre-diploma level 6, above the level-4 Bach Double anchor and around the broader technical preparation of Mozart violin/viola duos at 6; the notation is substantially less dense than the level-8 Prokofiev two-violin sonata anchor. No automatic ensemble uplift; approximately one-level uncertainty, especially because no numerical tempo is supplied on the inspected opening.",
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "dramatic"
+        ]
+      },
+      "scoreEvidence": {
+        "urls": [
+          "https://imslp.org/wiki/Special:ImagefromIndex/103546"
+        ],
+        "paths": [
+          "data/cache/same-instrument-imslp/scores/source42-103546.pdf"
+        ],
+        "pagesInspected": [
+          1,
+          2,
+          3,
+          6,
+          8,
+          12,
+          16
+        ]
+      }
+    },
+    {
+      "key": "waelput-andante-four-violas",
+      "status": "approved",
+      "scope": "musical-only",
+      "grade": {
+        "level": 5,
+        "hardestPart": "viola 1",
+        "confidence": "medium",
+        "basis": "Actual typeset complete score inspected at PDF pp.3\u20135, 7 and 9, plus the full first-viola part (380034, pp.2\u20133). Andante cantabile in 3/4, largely long slurred lines with dotted rhythms and chromatic inner-voice motion. Viola 1 is extensively written in treble clef above the ordinary alto register, with returning ascending semiquaver scales, sextuplet decoration and a very exposed high closing extension; viola 4 has repeated slurred sextuplet accompaniment later, and inner violas have sustained double stops. The technical floor is chiefly singing upper-position viola intonation and shifts, rather than speed. Advanced level 5 (ABRSM 8 / RCM 9 equivalent on viola) is a reasonable whole-work estimate: beyond early-advanced 4 lyrical chamber writing, below the sustained agility and independence of the level-6 Mozart violin/viola duo anchors. No automatic uplift for four similar instruments; approximately one-level uncertainty.",
+        "mode": "major",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "tender"
+        ]
+      },
+      "scoreEvidence": {
+        "urls": [
+          "https://imslp.org/wiki/Special:ImagefromIndex/380033",
+          "https://imslp.org/wiki/Special:ImagefromIndex/380034"
+        ],
+        "paths": [
+          "data/cache/same-instrument-imslp/scores/source42-380033.pdf",
+          "data/cache/same-instrument-imslp/scores/source42-380034.pdf"
+        ],
+        "pagesInspected": {
+          "380033": [
+            3,
+            4,
+            5,
+            7,
+            9
+          ],
+          "380034": [
+            2,
+            3
+          ]
+        }
+      }
+    }
+  ]
+}

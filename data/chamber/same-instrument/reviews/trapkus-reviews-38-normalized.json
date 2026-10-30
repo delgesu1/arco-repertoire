@@ -1,0 +1,127 @@
+{
+  "entries": [
+    {
+      "key": "trapkus-quartet-four-violins",
+      "status": "approved",
+      "factsVerified": true,
+      "verifiedFacts": {
+        "composer": "Trapkus, Paul",
+        "title": "Quartet for 4 Violins",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "year": "2023",
+        "minutes": 5,
+        "humanPerformanceFloor": true,
+        "scoreNotationVerified": true
+      },
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "finding": "Exact original four-violin work,2023,C major,about five minutes; Complete Recording843101 credits Paul Trapkus; raw audio metadata supplies no multitrack/human-playing method."
+        },
+        {
+          "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/843096",
+          "finding": "Ordinary helper recovered verified14-page composer PDF, four independently labelled violin staves. PDF1,3,6,10,14 inspected; high first-violin line and sustained rapid repeated figures; optional top notes in fourth-violin opening."
+        },
+        {
+          "url": "https://imslp.org/wiki/User:Ptrapkus",
+          "finding": "Composer uploader user page only links composer category; no additional work-specific recording-method statement."
+        },
+        {
+          "url": "https://journals.sagepub.com/doi/10.1177/00031313231166022",
+          "finding": "Author biography establishes professional violin-performance training and orchestral teaching, but does not identify the recording method of this exact quartet file."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "violin 1",
+        "confidence": "medium",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful"
+        ],
+        "basis": "Actual complete composer score PDF pages 1,3,6,10,14 sampled, including opening, transitional and final textures. At quarter approximately140–150, first violin sustains exposed upper notes then plays prolonged repeated slurred sixteenths and register changes; later sustained notes extend into the G6 region. Other players sustain off-beat patterns and string crossings, while fourth violin double stops are explicitly optional at the opening. Repetition, clear pulse and largely idiomatic tonal patterns limit the technical burden, but rapid sustained bowing plus exposed high register place first violin around level6, pre-diploma, rather than judging only the easier opening accompaniment. Mozart K423/424 at6 is the broad player-band anchor; professional Prokofiev Op56 at8 is substantially beyond the observed complexity. No automatic ensemble uplift. Five-minute complete context and meaningful distributed notation support medium advisory confidence with approximately one-level uncertainty. This is the same single Sol judgment in research and review, not two votes."
+      },
+      "approvedWorkFields": [],
+      "approvedDetailFields": [],
+      "detailSources": {},
+      "independence": "Single Sol recovery/notation judgment repeated in research draft; not an independent second vote.",
+      "resolvedFactHold": {
+        "originalReview": "reviews/batch-original-recovery-25.json",
+        "resolution": "reviews/trapkus-final-audit.json",
+        "reason": "Primary self-attributed performer credit, exact original version and complete extent credibly meet human-performance floor. Previous hold imposed an unnecessarily strict recording-method wording requirement; no specific conflicting MIDI evidence remains. This is evidence-based acceptance of a human recording with likely overdubbing, not certification of live quartet or recording method.",
+        "musicalGradeUnchanged": true
+      }
+    },
+    {
+      "key": "trapkus-quartet-four-violins",
+      "status": "approved",
+      "factsVerified": true,
+      "reason": "Primary self-attributed performer credit, exact original version and complete extent credibly meet human-performance floor. Previous hold imposed an unnecessarily strict recording-method wording requirement; no specific conflicting MIDI evidence remains. This is evidence-based acceptance of a human recording with likely overdubbing, not certification of live quartet or recording method.",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "finding": "IDENTITY: exact audio #843101 explicitly credits Paul Trapkus as Performers, separately from uploader Ptrapkus. Independently established violinist identity plus affirmative primary performer attribution supports human performance; absence of the word multitrack is not contrary evidence. Recordings (1) versus Synthesized/MIDI (0) corroborates but does not alone establish humanity."
+        },
+        {
+          "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "finding": "VERSION: original four-violin work, not an arrangement; no alternative scoring is attached to the recording. One named performer across four simultaneous violin lines is consistent with human overdubbing, which is accepted; no claim of a live four-person ensemble or independently verified recording method is made."
+        },
+        {
+          "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "finding": "EXTENT: Complete Recording #843101 lasts 5:00, matching single-movement five-minute whole work. No excerpt indication. All four excluded performers absent from sole primary performer credit."
+        },
+        {
+          "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/843096",
+          "finding": "Complete 14-page score visually inspected through final cadence. Four independent violin staves confirm scoring. Grade-setting long semiquaver passages occur beyond original p.2 sample."
+        }
+      ],
+      "verifiedFacts": {
+        "humanPerformanceFloor": true,
+        "scoreNotationVerified": true,
+        "recordingIdentity": "Paul Trapkus",
+        "version": "original for 4 violins",
+        "extent": "whole-work"
+      },
+      "limitations": [
+        "Audio not independently auditioned; method inferred rather than explicitly documented."
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "violin 1",
+        "confidence": "medium",
+        "basis": "BLIND vote, before reading prior numeric grades: all 14 score pages inspected against data/source/levels.json. Whole-work advanced (ABRSM 8 / RCM 9) estimate. Violin I combines exposed sustained upper-register intonation and quiet entries (pp.1,3,7,11,13) with long repeated slurred semiquaver cells at quarter=140–150 (pp.6–7,9–14), shifts and rapid register changes. Violin II and III inherit semiquaver texture; IV maintains near-continuous quaver string-crossing ostinato and some double stops. Changes among 4/4,6/4,3/4 and staggered sustained entrances need ensemble discipline. Mostly tonal repeated cells and limited chromaticism keep it below routine diploma demands; optional top notes in IV do not set grade.",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "dramatic"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "level",
+        "hardestPart",
+        "year",
+        "minutes",
+        "set",
+        "notes",
+        "popularity",
+        "mode",
+        "pace",
+        "character",
+        "imslpPage"
+      ]
+    }
+  ]
+}

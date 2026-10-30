@@ -1,0 +1,703 @@
+{
+  "batch": "triage-007",
+  "kind": "arrangement",
+  "status": "complete",
+  "pages": [
+    {
+      "pageId": 4292,
+      "title": "6 Violin Sonatas and Partitas, BWV 1001-1006 (Bach, Johann Sebastian)",
+      "disposition": "needs-review",
+      "reason": "The named Orefice arrangements are potential in-scope versions, but no exact-version human performance is documented. Existing page audio is absent for arrangements; unrelated source-work performance cannot satisfy the floor.",
+      "versions": [
+        {
+          "key": "Orefice-7-violins",
+          "composer": "Johann Sebastian Bach",
+          "title": "Selections from 6 Violin Sonatas and Partitas, BWV 1001-1006",
+          "arranger": "Giovanni Pietro Orefice",
+          "instrument": "violin",
+          "independentPartCount": 7,
+          "extent": "unclear from heading; labeled arrangement without movement/selection",
+          "selection": "not established",
+          "scoreEvidence": "Cached raw page has an identified For 7 Violins (Orefice) arrangement with one file; complete notation/parts and exact selection not verified from excerpts.",
+          "performanceEvidence": "No corresponding arrangement performance in full cached audio section; original work audio absent.",
+          "flags": [
+            "arrangement extent unclear",
+            "notation completeness unverified",
+            "no exact-version human performance"
+          ]
+        },
+        {
+          "key": "Orefice-3-violas",
+          "composer": "Johann Sebastian Bach",
+          "title": "Selections from 6 Violin Sonatas and Partitas, BWV 1001-1006",
+          "arranger": "Giovanni Pietro Orefice",
+          "instrument": "viola",
+          "independentPartCount": 3,
+          "extent": "unclear from heading; labeled arrangement without movement/selection",
+          "selection": "not established",
+          "scoreEvidence": "Cached raw page has an identified For 3 Violas (Orefice) arrangement with one file; complete notation/parts and exact selection not verified from excerpts.",
+          "performanceEvidence": "No corresponding arrangement performance in full cached audio section; original work audio absent.",
+          "flags": [
+            "arrangement extent unclear",
+            "notation completeness unverified",
+            "no exact-version human performance"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 3387,
+      "title": "Romanian Folk Dances, Sz.56 (Bartók, Béla)",
+      "disposition": "needs-review",
+      "reason": "Two named cello arrangements have complete-looking notation, but the cached and focused search evidence did not establish a human performance of either exact cello version. Original piano and other-arrangement recordings do not meet the floor.",
+      "versions": [
+        {
+          "key": "Mandozzi-5-cellos",
+          "composer": "Béla Bartók",
+          "title": "Romanian Folk Dances, Sz.56",
+          "arranger": "Orfeo Mandozzi",
+          "instrument": "cello",
+          "independentPartCount": 5,
+          "extent": "complete six-dance suite",
+          "selection": "Jocul cu bâtă; Brâul; Pe loc; Buciumeana; Poarga românească; Mărunțel",
+          "scoreEvidence": "Cached page lists Complete Score plus Cello 1–5 parts (six files); arranger and 2014 publication credited.",
+          "performanceEvidence": "No exact-version human performance found in focused search. Page audio belongs to piano, wind band, recorder, or organ versions. Search: IMSLP listing confirms complete score and all five parts.",
+          "flags": [
+            "human-performance lead absent"
+          ]
+        },
+        {
+          "key": "Seymour-6-cellos",
+          "composer": "Béla Bartók",
+          "title": "Romanian Folk Dances, Sz.56",
+          "arranger": "Gwyn Seymour",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "likely complete six-dance suite; verify raw arrangement file descriptions",
+          "selection": "not established",
+          "scoreEvidence": "Cached arrangement heading identifies For 6 Cellos (Seymour), seven files; inspect full group to confirm score/parts and extent.",
+          "performanceEvidence": "No exact-version human performance found in focused search.",
+          "flags": [
+            "extent and completeness need inspection",
+            "human-performance lead absent"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 1458,
+      "title": "Piano Sonata No.14, Op.27 No.2 (Beethoven, Ludwig van)",
+      "disposition": "needs-review",
+      "reason": "The 3-violin McRae arrangement is a potential version, but only piano performances appear in the cached page and they cannot stand for it; no exact-version human performance established.",
+      "versions": [
+        {
+          "key": "McRae-3-violins",
+          "composer": "Ludwig van Beethoven",
+          "title": "Piano Sonata No.14, Op.27 No.2 (Moonlight Sonata)",
+          "arranger": "McRae",
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "full sonata indicated by arrangement heading; verify file",
+          "selection": "all three movements presumed from parent title; not verified in arrangement file",
+          "scoreEvidence": "Cached raw page lists For 3 Violins (McRae); inspect file group for complete score/parts.",
+          "performanceEvidence": "Page recordings are original piano performances only. Focused search did not locate a human performance of this violin trio version.",
+          "flags": [
+            "arranger identity abbreviated",
+            "arrangement notation completeness unverified",
+            "no exact-version human performance"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 16016,
+      "title": "21 Hungarian Dances (Piano), WoO 1 (Brahms, Johannes)",
+      "disposition": "out-of-scope",
+      "reason": "The only candidate under the 3–12 threshold is a mixed 3-violin/3-viola arrangement, not a same-instrument group. The listed 4-cello arrangement is for a single dance selection and no exact-version human performance is evidenced.",
+      "versions": [
+        {
+          "key": "Geerds-4-cellos",
+          "composer": "Johannes Brahms",
+          "title": "Hungarian Dance No. 6 (from 21 Hungarian Dances, WoO 1)",
+          "arranger": "Sonja Geerds",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "single dance selection (No.6)",
+          "selection": "No.6",
+          "scoreEvidence": "Cached raw page lists For 4 Cellos (Geerds); file group should be checked for complete score/parts and exact movement extent.",
+          "performanceEvidence": "Cached human audio is piano/original or violin-piano arrangements; no four-cello performance evidence.",
+          "flags": [
+            "selection notation needs verification",
+            "no exact-version human performance",
+            "excluded as currently evidenced"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 209303,
+      "title": "Christus factus est, WAB 11 (Bruckner, Anton)",
+      "disposition": "needs-review",
+      "reason": "Lima arrangement is labeled “4 Cellos or Ensemble,” so exact instrumentation/independent part count is ambiguous; full cached audio has only source-work choral recordings and a synthesized unrelated brass arrangement.",
+      "versions": [
+        {
+          "key": "Lima-4-cellos-or-ensemble",
+          "composer": "Anton Bruckner",
+          "title": "Christus factus est, WAB 11",
+          "arranger": "Lima",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "not established",
+          "selection": "whole short motet implied by parent title",
+          "scoreEvidence": "Cached raw page identifies “For 4 Cellos or Ensemble (Lima)” but complete exact-version score/part group not verified.",
+          "performanceEvidence": "Two complete choral recordings are the original vocal work, not this cello arrangement; MIDI and synthetic brass performance excluded.",
+          "flags": [
+            "ambiguous alternative scoring",
+            "score completeness unverified",
+            "no exact-version human performance"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 153758,
+      "title": "Mass for 4 Voices, T 1 (Byrd, William)",
+      "disposition": "needs-review",
+      "reason": "A complete four-double-bass arrangement is listed, but the only cached human performance is the original vocal work (Ensemble Morales), not the bass arrangement.",
+      "versions": [
+        {
+          "key": "masahiro-komuro-4",
+          "composer": "Byrd, William",
+          "title": "William Byrd: Mass for 4 Voices, T 1",
+          "arranger": "Masahiro Komuro",
+          "instrument": "double bass",
+          "independentPartCount": 4,
+          "extent": "William Byrd: Mass for 4 Voices, T 1",
+          "selection": "named movement/selection",
+          "scoreEvidence": "Cached raw arrangement group lists Complete Score and Complete Parts; identified Komuro.",
+          "performanceEvidence": "Cached audio identifies Ensemble Morales but not this arrangement.",
+          "flags": [
+            "bass instrument"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 2288,
+      "title": "Mazurkas, Op.68 (Chopin, Frédéric)",
+      "disposition": "needs-review",
+      "reason": "The four-cello arrangement is complete-looking notation for a named standalone selection (No.3), but no matching human arrangement performance appears in the cached audio or focused search.",
+      "versions": [
+        {
+          "key": "bernhard-manger-4",
+          "composer": "Chopin, Frédéric",
+          "title": "Mazurka in F major, Op.68 No.3 (Allegro ma non troppo)",
+          "arranger": "Bernhard Manger",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Mazurka in F major, Op.68 No.3 (Allegro ma non troppo)",
+          "selection": "named movement/selection",
+          "scoreEvidence": "Cached raw group lists Complete Score and Complete Parts; notes transposed to C.",
+          "performanceEvidence": "Cached human performances are piano or violin/cello with piano, not the four-cello version.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 55717,
+      "title": "Serenade for Wind Instruments, Op.44 (Dvořák, Antonín)",
+      "disposition": "needs-review",
+      "reason": "Complete six-cello score and all six parts are listed, but cached and searched human recordings are for the original wind ensemble, not Seymour’s cello version.",
+      "versions": [
+        {
+          "key": "gwyn-seymour-6",
+          "composer": "Dvořák, Antonín",
+          "title": "Serenade for Wind Instruments, Op.44",
+          "arranger": "Gwyn Seymour",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "Serenade for Wind Instruments, Op.44",
+          "selection": "named movement/selection",
+          "scoreEvidence": "Cached raw group lists Complete Score and Cello 1–6 parts.",
+          "performanceEvidence": "IMSLP human recording is Gardner Chamber Orchestra, original scoring; no exact cello arrangement performance found.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 34331,
+      "title": "Serenade for String Orchestra, Op.20 (Elgar, Edward)",
+      "disposition": "needs-review",
+      "reason": "Complete six-cello score and parts are available, but cached human performance is the original string orchestra version. The listed mixed string trio is outside same-instrument scope.",
+      "versions": [
+        {
+          "key": "gwyn-seymour-6",
+          "composer": "Elgar, Edward",
+          "title": "Serenade for String Orchestra, Op.20",
+          "arranger": "Gwyn Seymour",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "Serenade for String Orchestra, Op.20",
+          "selection": "named movement/selection",
+          "scoreEvidence": "Cached raw group lists Complete Score and Cello 1–6 parts.",
+          "performanceEvidence": "Cached human performance is A Far Cry, original string orchestra scoring, not the cello arrangement.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 55671,
+      "title": "Cello Sonata No.2, Op.117 (Fauré, Gabriel)",
+      "disposition": "needs-review",
+      "reason": "Seymour’s six-cello version is a complete named excerpt (Andante from the Second Cello Sonata) with a score and separate parts; listed file descriptions appear to provide only a solo part plus four cello parts, so six-player count needs resolution. No exact-version human performance was found.",
+      "versions": [
+        {
+          "key": "gwyn-seymour-6",
+          "composer": "Fauré, Gabriel",
+          "title": "Andante from Cello Sonata No.2, Op.117",
+          "arranger": "Gwyn Seymour",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "Andante from Cello Sonata No.2, Op.117",
+          "selection": "named movement/selection",
+          "scoreEvidence": "Cached raw group: Complete Score, Cello solo, Cello 1–4; the stated six-cello count does not match the five described parts.",
+          "performanceEvidence": "No exact arrangement human performance in cached audio or focused search; source sonata performances are not arrangement evidence.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 47217,
+      "title": "Sonata XXI 'con tre violini', Ch.214 (Gabrieli, Giovanni)",
+      "disposition": "needs-review",
+      "reason": "Mandozzi’s four-cello arrangement has a complete score and all four parts; no exact-version human performance is documented in the cached page or focused search.",
+      "versions": [
+        {
+          "key": "cello-4-47217",
+          "composer": "Gabrieli, Giovanni",
+          "title": "Sonata XXI “con tre violini”, Ch.214",
+          "arranger": "Orfeo Mandozzi",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Sonata XXI “con tre violini”, Ch.214",
+          "selection": "named arrangement selection",
+          "scoreEvidence": "Cached raw arrangement group lists Complete Score and Cello 1–4 parts; arranger identified; transposed to F major.",
+          "performanceEvidence": "No arrangement performance appears in cached audio; focused search found score details only.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 14563,
+      "title": "3 Preludes (Gershwin, George)",
+      "disposition": "lead",
+      "reason": "Kaufman’s four-cello score is available and IMSLP documents a complete human demonstration by the arranger playing all four parts. This is a multitrack performance lead for Sol review, not evidence of a live ensemble.",
+      "versions": [
+        {
+          "key": "cello-4-14563",
+          "composer": "Gershwin, George",
+          "title": "Three Preludes (Gershwin), arrangement by Kurt Kaufman",
+          "arranger": "Kurt Kaufman",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Three Preludes (Gershwin), arrangement by Kurt Kaufman",
+          "selection": "named arrangement selection",
+          "scoreEvidence": "Cached raw group labels the file Complete Score and Parts; arrangement note says demo recording above.",
+          "performanceEvidence": "Cached audio labels Complete Performance: “Kurt Kaufman - 4 cellos (Multitracked)”; exact arrangement match.",
+          "flags": [
+            "HUMAN MULTITRACK",
+            "Sol review: do not describe as live ensemble"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 17597,
+      "title": "La séparation (Glinka, Mikhail)",
+      "disposition": "needs-review",
+      "reason": "Bridson’s four-viola arrangement has a complete score and four separate parts, but no matching human performance is documented.",
+      "versions": [
+        {
+          "key": "viola-4-17597",
+          "composer": "Glinka, Mikhail",
+          "title": "La séparation",
+          "arranger": "Robert Edward Bridson",
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "La séparation",
+          "selection": "named arrangement selection",
+          "scoreEvidence": "Cached raw group lists Complete Score and Viola 1–4.",
+          "performanceEvidence": "No exact arrangement performance in cached page or focused search.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 114725,
+      "title": "Marche pontificale, CG 523 (Gounod, Charles)",
+      "disposition": "out-of-scope",
+      "reason": "The page has no arrangement for 3–12 same-instrument violin, viola, cello, or bass parts. The only performance signal is synthesized MIDI.",
+      "versions": []
+    },
+    {
+      "pageId": 2518,
+      "title": "2 Elegiac Melodies, Op.34 (Grieg, Edvard)",
+      "disposition": "needs-review",
+      "reason": "Tieman’s arrangement covers both named elegiac melodies and has a complete score, but the cached raw file group does not show separate cello parts and the cached performances are for other versions; verify obtainable notation and find an exact human performance.",
+      "versions": [
+        {
+          "key": "cello-4-2518",
+          "composer": "Grieg, Edvard",
+          "title": "2 Elegiac Melodies, Op.34",
+          "arranger": "Kyle Tieman",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "2 Elegiac Melodies, Op.34",
+          "selection": "named arrangement selection",
+          "scoreEvidence": "Cached raw group lists Complete Score only; separate parts/complete performable notation not established.",
+          "performanceEvidence": "Cached performances include original orchestra, voice/orchestra, recorder and an unrelated accordion arrangement; no exact four-cello human performance.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 291862,
+      "title": "Concerto Grosso in D minor, HWV 316 (Handel, George Frideric)",
+      "disposition": "needs-review",
+      "reason": "Ronchini’s three-cello version is a named excerpt (Grave and Fugue) with parts available, but the raw group does not document a complete score and no human exact-version performance was found.",
+      "versions": [
+        {
+          "key": "cello-3-291862",
+          "composer": "Handel, George Frideric",
+          "title": "Grave and Fugue from Concerto Grosso in D minor, HWV 316",
+          "arranger": "Ferdinando Ronchini",
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "Grave and Fugue from Concerto Grosso in D minor, HWV 316",
+          "selection": "arrangement selection",
+          "scoreEvidence": "Cached raw group lists one file described as “I. Grave, II. Allegro - parts”; a complete score is not established.",
+          "performanceEvidence": "Cached performances are explicitly synthesized/MIDI; no exact-version human performance found.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 435014,
+      "title": "Baryton Trio in A major, Hob.XI:108 (Haydn, Joseph)",
+      "disposition": "needs-review",
+      "reason": "Manger’s three-cello arrangement has a complete score and three parts, but the page only offers synthesized audio for a different mixed-instrument arrangement; no exact-version human performance was found.",
+      "versions": [
+        {
+          "key": "cello-3-435014",
+          "composer": "Haydn, Joseph",
+          "title": "Baryton Trio in A major, Hob.XI:108",
+          "arranger": "Bernhard Manger",
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "Baryton Trio in A major, Hob.XI:108",
+          "selection": "arrangement selection",
+          "scoreEvidence": "Cached raw group lists Complete Score and Cello 1–3 parts; transposed to G.",
+          "performanceEvidence": "Only cached performance is synthesized mixed flute/viola/cello; no human performance of the three-cello arrangement.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 46505,
+      "title": "Hudba ke kroužení kužely, JW 8/13 (Janáček, Leoš)",
+      "disposition": "needs-review",
+      "reason": "Mandozzi’s six-cello arrangement has complete score and parts, but the only cached page performance is an original version conducted by Elaine Fine, not the cello arrangement; exact-version human performance not established.",
+      "versions": [
+        {
+          "key": "cello-6-46505",
+          "composer": "Janáček, Leoš",
+          "title": "Hudba ke kroužení kužely, JW 8/13",
+          "arranger": "Orfeo Mandozzi",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "Hudba ke kroužení kužely, JW 8/13",
+          "selection": "arrangement selection",
+          "scoreEvidence": "Cached raw group lists Complete Score and Parts in one file.",
+          "performanceEvidence": "Cached audio credits Elaine Fine as conductor but does not establish the six-cello scoring; focused search did not find an exact-version performance.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 13253,
+      "title": "Peacherine Rag (Joplin, Scott)",
+      "disposition": "needs-review",
+      "reason": "Meißner’s four-cello arrangement has a complete score and four separate parts, but the cached human recording is a piano performance; no exact-version human performance found.",
+      "versions": [
+        {
+          "key": "cello-4-13253",
+          "composer": "Joplin, Scott",
+          "title": "Peacherine Rag",
+          "arranger": "Burkhard Meißner",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Peacherine Rag",
+          "selection": "arrangement selection",
+          "scoreEvidence": "Cached raw group lists Complete Score and Cello 1–4.",
+          "performanceEvidence": "Cached human performance credits pianist Gerluz; not the cello arrangement.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 9968,
+      "title": "Années de pèlerinage I, S.160 (Liszt, Franz)",
+      "disposition": "needs-review",
+      "reason": "Singer’s three-violin arrangement lacks a complete-score file in the cached group (only three parts are listed), and no human exact-version performance is present; the listed audio is piano or synthesized.",
+      "versions": [
+        {
+          "key": "violin-3-9968",
+          "composer": "Liszt, Franz",
+          "title": "Années de pèlerinage I, S.160 (selection not established)",
+          "arranger": "Edmund Singer",
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "Années de pèlerinage I, S.160 (selection not established)",
+          "selection": "arrangement selection",
+          "scoreEvidence": "Cached raw group lists Violin 1–3 only, without a complete score or identifiable movement/selection.",
+          "performanceEvidence": "Cached human performance is piano; a separate recording is explicitly synthesized.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 390602,
+      "title": "Credo in F major (Lotti, Antonio)",
+      "disposition": "needs-review",
+      "reason": "Complete eight-cello score and parts are available, and the raw page notes a first performance, but no exact-version audio performance or named players are documented in cached audio/search evidence. The existing recording is the original choral version.",
+      "versions": [
+        {
+          "key": "cello-8-390602",
+          "composer": "Lotti, Antonio",
+          "title": "Crucifixus from Credo in F major",
+          "arranger": "Orfeo Mandozzi",
+          "instrument": "cello",
+          "independentPartCount": 8,
+          "extent": "Crucifixus from Credo in F major",
+          "selection": "named movement/selection",
+          "scoreEvidence": "Cached raw group lists Complete Score and Complete Parts (Cello 1–8). Note records first performance on 8 August 2015 at Morges Academie de Musique.",
+          "performanceEvidence": "Cached human complete recording is Cantores Carmeli Linz chorus, original vocal version; no audio of the 8-cello arrangement.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 51302,
+      "title": "6 Cello Sonatas, Op.1 (Marcello, Benedetto)",
+      "disposition": "needs-review",
+      "reason": "Bazelaire’s three-cello excerpt has a complete score and parts, but no exact-version human performance is present; the page’s performance material is for another brass arrangement or MIDI.",
+      "versions": [
+        {
+          "key": "cello-3-51302",
+          "composer": "Marcello, Benedetto",
+          "title": "Adagio and Allegro from 6 Cello Sonatas, Op.1",
+          "arranger": "Paul Bazelaire",
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "Adagio and Allegro from 6 Cello Sonatas, Op.1",
+          "selection": "named movement/selection",
+          "scoreEvidence": "Cached raw group lists one file as Adagio and Allegro - Complete Score and Parts. Arrangement identity and selection are explicit.",
+          "performanceEvidence": "No matching human performance; cached non-MIDI audio is brass instrumentation, and MIDI is excluded.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 46160,
+      "title": "Cavalleria rusticana (Mascagni, Pietro)",
+      "disposition": "needs-review",
+      "reason": "Gustard’s four-viola arrangement is a complete-score version of the Intermezzo selection, but no matching human performance is established. The Reifsnyder version has three violas plus cello and is out of scope.",
+      "versions": [
+        {
+          "key": "viola-4-46160",
+          "composer": "Mascagni, Pietro",
+          "title": "Intermezzo from Cavalleria rusticana",
+          "arranger": "Lune Gustard",
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "Intermezzo from Cavalleria rusticana",
+          "selection": "named movement/selection",
+          "scoreEvidence": "Cached raw group lists Complete Score (4 violas) and separate Complete Score (2 violas); four-viola score is available.",
+          "performanceEvidence": "Cached page performance excerpts are accordion and source opera/orchestra, not the four-viola arrangement.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 298000,
+      "title": "Andante in D major, MWV W 6 (Mendelssohn, Felix)",
+      "disposition": "needs-review",
+      "reason": "Mandozzi’s four-cello arrangement has a complete score and all four parts in two transpositions, but no exact-version human performance appears in the cached page or focused searches.",
+      "versions": [
+        {
+          "key": "cello-4-298000",
+          "composer": "Mendelssohn, Felix",
+          "title": "Andante in D major, MWV W 6",
+          "arranger": "Orfeo Mandozzi",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Andante in D major, MWV W 6",
+          "selection": "named movement/selection",
+          "scoreEvidence": "Cached raw group lists Complete Score and Cello 1–4 parts in B-flat and G major transpositions.",
+          "performanceEvidence": "Cached human performance is an organ performance, not the four-cello arrangement.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 14118,
+      "title": "Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus)",
+      "disposition": "needs-review",
+      "reason": "Fujita’s four-viola complete score is listed, but no matching human performance is documented. The other four-cello/double-bass arrangement is mixed instrumentation and out of scope.",
+      "versions": [
+        {
+          "key": "viola-4-14118",
+          "composer": "Mozart, Wolfgang Amadeus",
+          "title": "Ave verum corpus, K.618",
+          "arranger": "Katsushiro Fujita",
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "Ave verum corpus, K.618",
+          "selection": "named movement/selection",
+          "scoreEvidence": "Cached raw group lists Complete Score for the four-viola arrangement; no separate parts are shown, but the score is obtainable.",
+          "performanceEvidence": "Cached human performances are chorus or mixed ensemble versions of the source work; not the four-viola version.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 4739,
+      "title": "Night on Bald Mountain (Mussorgsky, Modest)",
+      "disposition": "needs-review",
+      "reason": "Seymour’s six-cello score and six separate parts are available, but the cached human performances are orchestral or piano versions of the parent work; no exact-version cello performance was found. Parent version (Mussorgsky 1867 or Rimsky-Korsakov 1886) also needs identification.",
+      "versions": [
+        {
+          "key": "cello-6-4739-gwyn-seymour",
+          "composer": "Mussorgsky, Modest",
+          "title": "Night on Bald Mountain (source version unclear)",
+          "arranger": "Gwyn Seymour",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "Night on Bald Mountain (source version unclear)",
+          "selection": "named arrangement selection or extent to verify",
+          "scoreEvidence": "Cached raw group lists Complete Score and Cello 1–6 parts.",
+          "performanceEvidence": "Cached performances are orchestra and piano versions; no exact cello arrangement performance found.",
+          "flags": [
+            "source-version ambiguity"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 4611,
+      "title": "Canon and Gigue in D major, P.37 (Pachelbel, Johann)",
+      "disposition": "needs-review",
+      "reason": "Cesare’s four-viola version has complete score and parts; the page’s viola audio is MIDI only. Meyn’s score lists the option of four cellos (or three cellos plus bass), but no exact-version human performance is documented.",
+      "versions": [
+        {
+          "key": "viola-4-4611-nick-cesare",
+          "composer": "Pachelbel, Johann",
+          "title": "Canon and Gigue in D major, P.37",
+          "arranger": "Nick Cesare",
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "Canon and Gigue in D major, P.37",
+          "selection": "named arrangement selection or extent to verify",
+          "scoreEvidence": "Cached raw group lists Complete Score and Parts; engraving files also included.",
+          "performanceEvidence": "Cached audio for the viola arrangement is explicitly MIDI. Other human recordings are original or unrelated instrument versions.",
+          "flags": [
+            "no exact-version human performance"
+          ]
+        },
+        {
+          "key": "cello-4-4611-malte-meyn",
+          "composer": "Pachelbel, Johann",
+          "title": "Canon and Gigue in D major, P.37 (four-cello option)",
+          "arranger": "Malte Meyn",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Canon and Gigue in D major, P.37 (four-cello option)",
+          "selection": "named arrangement selection or extent to verify",
+          "scoreEvidence": "Cached raw group says Complete Score and Parts, arrangement explicitly offers 3 cellos plus bass or 4 cellos; verify which parts support four-cello option.",
+          "performanceEvidence": "No exact-version human performance documented; cached human performance is original chamber version, other listed audio is recorder/flute or synthesized.",
+          "flags": [
+            "ambiguous scoring option",
+            "no exact-version human performance"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 29252,
+      "title": "Mosè-fantasia, MS 23 (Paganini, Niccolò)",
+      "disposition": "needs-review",
+      "reason": "Mandozzi’s three-cello arrangement has a complete score and all three parts, but no exact-version human performance is documented in cached audio or focused search.",
+      "versions": [
+        {
+          "key": "cello-3-29252-orfeo-mandozzi",
+          "composer": "Paganini, Niccolò",
+          "title": "Mosè-fantasia, MS 23",
+          "arranger": "Orfeo Mandozzi",
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "Mosè-fantasia, MS 23",
+          "selection": "named arrangement selection or extent to verify",
+          "scoreEvidence": "Cached raw group lists Complete Score and Cello 1–3 parts.",
+          "performanceEvidence": "No corresponding arrangement performance in the cached audio; other source-work recordings are violin or violin-and-orchestra versions.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 60082,
+      "title": "Gianni Schicchi, SC 88 (Puccini, Giacomo)",
+      "disposition": "needs-review",
+      "reason": "Geerds’s six-cello arrangement is complete notation for the named aria selection, but cached audio is the source soprano/orchestra performance, not the cello version; no exact-version cello performance found.",
+      "versions": [
+        {
+          "key": "cello-6-60082-sonja-geerds",
+          "composer": "Puccini, Giacomo",
+          "title": "O mio babbino caro from Gianni Schicchi, SC 88",
+          "arranger": "Sonja Geerds",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "O mio babbino caro from Gianni Schicchi, SC 88",
+          "selection": "named arrangement selection or extent to verify",
+          "scoreEvidence": "Cached raw group lists one file as Complete score and parts for the six-cello aria arrangement.",
+          "performanceEvidence": "Cached human recording is Bidu Sayão with Metropolitan Opera orchestra; not the six-cello arrangement.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "pageId": 128466,
+      "title": "Abdelazer, Z.570 (Purcell, Henry)",
+      "disposition": "needs-review",
+      "reason": "Yanagisawa’s four-cello score and parts are listed, but cached human performances are recorder and accordion arrangements of Rondeau, while the cello score’s exact movement extent is unclear. No exact-version human performance is established.",
+      "versions": [
+        {
+          "key": "cello-4-128466-takuji-yanagisawa",
+          "composer": "Purcell, Henry",
+          "title": "Abdelazer, Z.570 (selection/extent to verify)",
+          "arranger": "Takuji Yanagisawa",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Abdelazer, Z.570 (selection/extent to verify)",
+          "selection": "named arrangement selection or extent to verify",
+          "scoreEvidence": "Cached raw group lists Complete Score and Parts in one file; arrangement heading lacks named movement/selection.",
+          "performanceEvidence": "Cached human performances are recorder quartet or Paul De Bra playing accordion parts; neither is the cello arrangement.",
+          "flags": []
+        }
+      ]
+    }
+  ],
+  "resume": {
+    "nextPageId": null,
+    "note": "Reviewed all 30 cached pages. Used full raw pages when arrangement file groups were not present in excerpts. Completed five focused-search batches (20 queries) and checked existing same-instrument discovery/canonical data for duplicates. One exact arrangement performance lead was found for Gershwin’s Three Preludes arranged/performed by Kurt Kaufman, documented as four-cellos multitrack; flagged HUMAN MULTITRACK for Sol review, not live ensemble. No canonical edits, grade drafts, or selected videos."
+  }
+}

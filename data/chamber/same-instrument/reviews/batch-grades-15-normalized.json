@@ -1,0 +1,61 @@
+{
+ "batch": "batch-grades-15",
+ "status": "complete",
+ "entries": [
+  {
+   "key": "brahms-op91-no2-jones-5violas",
+   "status": "approved",
+   "findings": [
+    {
+     "url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)",
+     "finding": "Inspected all eight pages of complete Jones score IMSLP417794 and numbered viola 1 and viola 3 parts IMSLP417795/417797. All five staves are alto clef; numbered parts confirm that obsolete score labels do not denote actual violins or cello. Viola 3 carries the opening chorale, sustained upper-register notes, wide slurred arpeggio figures and active chromatic passagework. Viola 1 has exposed high lyrical phrases; viola 2 also has chromatic arpeggios and triplets. The central 3/4 section sets triplets against duple motion; the return restores 6/8. Soft sustained intonation and the balance of independent lines are material demands."
+    }
+   ],
+   "grade": {
+    "level": 5,
+    "hardestPart": "viola 3",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "tender"
+    ],
+    "confidence": "high",
+    "basis": "Direct inspection of the complete exact arrangement. Advanced viola playing is needed for secure lyrical upper-register tone, wide shifts and chromatic slurred arpeggios in viola 3, with similarly exposed singing in viola 1. Andante con moto limits speed demands; there is no pervasive virtuoso figuration. Five equal timbres require careful balance, soft chord tuning, independent entries, and triplet/duplet coordination. These sustain level 5 for the whole piece without an additional ensemble uplift."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ]
+  },
+  {
+   "key": "lauber-quartet-double-basses-1942",
+   "status": "held",
+   "findings": [
+    {
+     "url": "https://stainer.co.uk/shop/ye0036/",
+     "finding": "The publisher describes four movements, approximately 13 minutes, and explicitly states that the top part is advanced. Programme notes identify dedication to Hans Fryba and the Berlin Philharmonic Double Bass Quartet. This is direct evidence of the hardest part and a broad advanced category, not an exam-level specification."
+    },
+    {
+     "url": "https://imslp.org/wiki/Double_Bass_Quartet_(Lauber,_Joseph)",
+     "finding": "IMSLP identifies the 1942 complete holograph (19 pages, index 930866), in sounding pitch with all basses in solo tuning. The score link redirected to a JavaScript-only interstitial. No actual notation or performance was inspected within the bounded four-fetch search."
+    }
+   ],
+   "grade": {
+    "level": 5,
+    "hardestPart": "double bass 1",
+    "mode": "unsure",
+    "pace": "moderate",
+    "character": [],
+    "confidence": "low",
+    "basis": "Provisional translation of the primary publisher’s explicit advanced top-part assessment into the scale’s level 5. Without notation, the exact register, shifting, articulation, movement tempos and ensemble premium cannot be judged independently. Moderate pace is a required-schema placeholder, not a verified musical finding. Hold this numerical vote; publisher wording alone does not securely distinguish levels 5–7."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ]
+  }
+ ],
+ "normalizedFrom": "data/chamber/same-instrument/reviews/batch-grades-15.json",
+ "coordinatorNormalization": "Status vocabulary only; independent judgments unchanged."
+}

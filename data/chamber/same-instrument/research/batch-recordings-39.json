@@ -1,0 +1,114 @@
+{
+  "batch": "ensemble-39-recordings",
+  "entries": [
+    {
+      "key": "recording-109208-toub-yuka-matsumoto",
+      "existingPublicId": 109208,
+      "decision": "include",
+      "work": {
+        "composer": "Toub, David",
+        "title": "jk (bad canon for four violins)",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 3,
+        "hardestPart": "violin 3",
+        "year": "",
+        "minutes": 9,
+        "set": null,
+        "notes": "Original for four violins; recorded as a human multitrack by Yuka Matsumoto.",
+        "popularity": null,
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful"
+        ],
+        "imslpPage": "Jk (Toub, David)",
+        "id": 109208
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only enrichment; retain existing grade and musical fields. No new grade opinion."
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=3q7kfZlWsUk",
+            "checkedOn": "2026-10-29",
+            "finding": "Performer upload explicitly names exact four-violin work and Yuka Matsumoto as violin(s). Full metadata inspected; public, 550 seconds, playable_in_embed true. Performer explicitly reports one missing bar. This is retained as a performance omission, not silently asserted note-for-note coverage; primary composer/performer context identifies an otherwise full-work performance, not a selected movement or excerpt."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=PFTHDdeMWKs",
+            "checkedOn": "2026-10-29",
+            "finding": "Composer upload explicitly identifies the first performance of the exact four-violin work by Yuka Matsumoto; 550 seconds, public and playable_in_embed true. Same credited performance and duration; kept only as a composer mirror alternate, not an independent performance."
+          },
+          {
+            "url": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+            "checkedOn": "2026-10-29",
+            "finding": "Both YouTube uploads are 550 seconds. Fresh composer Bandcamp track metadata gives 549.747 seconds, credits Yuka Matsumoto on all four violin parts, and identifies the first performance in April 2020; composer YouTube upload also labels it the first performance. Matches the approximately nine-minute continuous original score (28 pages, 437 bars). Whole-work classification is inferred from this primary-source release context and matching extent, not a direct stream audit. Performer explicitly reports one missing bar. This is retained as a performance omission, not silently asserted note-for-note coverage; primary composer/performer context identifies an otherwise full-work performance, not a selected movement or excerpt."
+          },
+          {
+            "url": "https://ks15.imslp.org/files/imglnks/usimg/c/c2/IMSLP480755-PMLP779146-jk_-_SCORE.pdf",
+            "finding": "Original complete 28-page/437-bar score with four independent violin staves, already verified in reviews/originals32-verify.json. Musical grade is not reconsidered."
+          }
+        ],
+        "floor": {
+          "url": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+          "performer": "Yuka Matsumoto, violins (multitracked)",
+          "finding": "Composer explicitly credits identified human performer on all four independent violin parts; source is the same approximately 9:10 performance mirrored on YouTube."
+        },
+        "extent": {
+          "finding": "Both YouTube uploads are 550 seconds. Fresh composer Bandcamp track metadata gives 549.747 seconds, credits Yuka Matsumoto on all four violin parts, and identifies the first performance in April 2020; composer YouTube upload also labels it the first performance. Matches the approximately nine-minute continuous original score (28 pages, 437 bars). Whole-work classification is inferred from this primary-source release context and matching extent, not a direct stream audit. Performer explicitly reports one missing bar. This is retained as a performance omission, not silently asserted note-for-note coverage; primary composer/performer context identifies an otherwise full-work performance, not a selected movement or excerpt.",
+          "bandcampSeconds": 549.747,
+          "youtubeSeconds": 550,
+          "scorePages": 28,
+          "scoreBars": 437,
+          "limitation": "Performer explicitly reports one missing bar. This is retained as a performance omission, not silently asserted note-for-note coverage; primary composer/performer context identifies an otherwise full-work performance, not a selected movement or excerpt."
+        },
+        "embed": {
+          "checkedOn": "2026-10-29",
+          "finding": "Fresh YouTube oEmbed HTTP 200 for both candidates; full metadata also says playable_in_embed true."
+        },
+        "exclusions": {
+          "checkedOn": "2026-10-29",
+          "finding": "Full title, uploader/channel, description and performer credits inspected for both uploads, plus composer Bandcamp credits. Only Yuka Matsumoto is credited as performer. Canonical featuresExcludedPerformer helper returned false for both, covering Ray Chen, Sarah Chang, Joshua Bell and Stefan Jackiw."
+        },
+        "unknowns": {
+          "performanceError": "Performer explicitly reports one missing bar. This is retained as a performance omission, not silently asserted note-for-note coverage; primary composer/performer context identifies an otherwise full-work performance, not a selected movement or excerpt.",
+          "directStreamAudit": "No media downloaded; extent assessment uses full uploader metadata and primary composer Bandcamp release metadata."
+        }
+      },
+      "recordingResearch": {
+        "candidates": [
+          {
+            "id": "3q7kfZlWsUk",
+            "title": "【4Violins】David Toub: jk (bad canon for four violins)",
+            "channel": "Yuka Matsumoto",
+            "description": "Yuka Matsumoto-violin(s)\n松本裕香-ヴァイオリン\n\none bar is missing though....一小節抜けてしまっています。。。\n\nCD情報☆For CD, please check the link below :-)\nhttps://open.spotify.com/album/2Ja3Ki...\nhttps://ml.naxos.jp/album/NYCC-10011",
+            "seconds": 550,
+            "duration": 550,
+            "views": 224,
+            "performerCredits": "Yuka Matsumoto, all four violin parts (human multitrack), corroborated by composer Bandcamp credits.",
+            "metadataFile": "data/cache/same-instrument-recordings/109208-toub-performer-metadata.json",
+            "embedEvidenceFile": "data/cache/same-instrument-recordings/109208-3q7kfZlWsUk-oembed.json"
+          },
+          {
+            "id": "PFTHDdeMWKs",
+            "title": "ビデオ ('jk [bad canon for four violins; 2017 by david toub])",
+            "channel": "David Toub",
+            "description": "First performance of jk (bad canon for four violins) as performed by Yuka Matsumoto.",
+            "seconds": 550,
+            "duration": 550,
+            "views": 128,
+            "performerCredits": "Yuka Matsumoto, all four violin parts (human multitrack), corroborated by composer Bandcamp credits.",
+            "metadataFile": "data/cache/same-instrument-recordings/109208-toub-composer-metadata.json",
+            "embedEvidenceFile": "data/cache/same-instrument-recordings/109208-PFTHDdeMWKs-oembed.json"
+          }
+        ]
+      }
+    }
+  ]
+}

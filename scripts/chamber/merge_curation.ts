@@ -25,6 +25,7 @@ const dry = process.argv.includes("--dry");
 interface OutWork {
   composer: string;
   title: string;
+  arranger?: string;
   aka?: string[];
   instruments: Partial<Record<InstrumentKey, number>>;
   alternatives?: Partial<Record<InstrumentKey, InstrumentKey[]>>;
@@ -125,6 +126,7 @@ for (const f of files) {
       id,
       composer,
       title,
+      ...(o.arranger ? { arranger: o.arranger } : {}),
       ...(o.aka?.length ? { aka: o.aka } : {}),
       formation: o.formation,
       ...(o.formationNote ? { formationNote: o.formationNote } : {}),

@@ -1,0 +1,86 @@
+{
+ "batch": "ensemble-42",
+ "accepted": [
+  {
+   "key": "klengel-impromptu-op30-four-cellos",
+   "id": 109218,
+   "publicId": 109218,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "published"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "FHSFaWkBU9g"
+  },
+  {
+   "key": "waelput-andante-four-violas",
+   "id": 109219,
+   "publicId": 109219,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [
+  {
+   "key": "klengel-variations-op28-four-cellos",
+   "reason": "Third blind grade required",
+   "opinions": [
+    6,
+    5
+   ]
+  },
+  {
+   "key": "werner-elegie-op21-four-cellos",
+   "reason": "Third blind grade required",
+   "opinions": [
+    6,
+    5
+   ]
+  },
+  {
+   "key": "clark-gavotte-four-violins",
+   "reason": "First-pass extraction still requires independent factual verification"
+  },
+  {
+   "key": "makris-scherzo-four-violins",
+   "reason": "Third blind grade required",
+   "opinions": [
+    7,
+    6
+   ]
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "b2a3edea8211ca9edf3d8b4aadfe97daf40bd4b7f9b17293a666e08bed72ecdb",
+  "data/chamber/composers.json": "a2e120ccc73b779679bf9a2b57e9674010372aebb473436a5d74a6f578397982",
+  "data/chamber/id-registry.json": "aaf0abf9606ea175a9cc8bc986b4decf331aeb0ce2cc617b4c161962eaa7b02b",
+  "data/chamber/sources.json": "ea463e8e3e11c966b958fc5eb274a36c8b73bd6e57304093c33e415d70a73b65",
+  "data/details/overrides.json": "6cc89115b63e4935fda6ad255812f8433fb394e78368bb41d46de2927390a496",
+  "data/chamber/recordings-judged.json": "9b7be6cb784ebebf2c37eb915f95b98fa278f8d16e763f797232f63665e743d5",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-source42-normalized.json": "d916849433fe53b9a98e93c4bcc1f517d8e7ad984c93482a941e3e211b47aac9",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/source42-verify-normalized.json": "335f8e92cceb1f55d882cab1411116162c0c5c2b274201a95feeb5f2eefa674c",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/source42-blind.json": "cfbd70529c6161d745b437538475110c7cb997d58592a7c89b6dc353eb89e165"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-42"
+}

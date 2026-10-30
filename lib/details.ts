@@ -40,9 +40,10 @@ export function programTitle(p: PieceBase & { type?: string; settings?: string[]
   return p.title;
 }
 
-/** "Felix Mendelssohn (1809–1847)\nViolin Concerto in E minor, Op. 64\nI. Allegro molto appassionato\n…" */
+/** Composer, program title, arranger when credited, then the movements. */
 export function programText(p: PieceBase & { type?: string; settings?: string[] }, d?: WorkDetails | null): string {
   const lines = [`${p.composerName}${p.dates ? ` (${p.dates})` : ""}`, programTitle(p)];
+  if (p.arranger) lines.push(`arr. ${p.arranger}`);
   if (d?.movements?.length) {
     const roman_ = isMovementList(d);
     d.movements.forEach((m, i) => lines.push(`${roman_ ? roman(i + 1) : i + 1}. ${m}`));

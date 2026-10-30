@@ -1,0 +1,506 @@
+{
+ "batch": "batch-verify-02",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "hermann-op9-original-3violins",
+   "work": {
+    "composer": "Hermann, Friedrich",
+    "title": "Burlesque in G major for 3 Violins, Op. 9",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "year": "",
+    "minutes": 5,
+    "set": null,
+    "notes": "Three independent violins; complete original work, without accompaniment.",
+    "imslpPage": "Burlesque, Op.9 (Hermann, Friedrich)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "published": "1857",
+    "kind": "single"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Burlesque%2C_Op.9_%28Hermann%2C_Friedrich%29",
+      "finding": "Kistner 1857 complete parts; IMC 704 reprint."
+     },
+     {
+      "url": "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+      "finding": "Naxos 8.572066 credits Friedemann Eichhorn, Alexia Eichhorn and Reto Kuppel; complete Op.9 recording, track 1, 4:46."
+     },
+     {
+      "url": "https://www.earsense.org/web/chamber-music/Friedrich-Hermann-Burlesque-in-G-major-Op-9/",
+      "finding": "Variation showpiece with pizzicato and harmonics; lyrical and animated sections alternate."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Burlesque%2C_Op.9_%28Hermann%2C_Friedrich%29",
+     "locator": "Original Parts section; General Information instrumentation",
+     "finding": "Original three-violin parts; no continuo; guitar arrangement of Op.5 is excluded."
+    },
+    "floor": {
+     "url": "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+     "finding": "Naxos 8.572066 credits Friedemann Eichhorn, Alexia Eichhorn and Reto Kuppel; complete Op.9 recording, track 1, 4:46."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Burlesque%2C_Op.9_%28Hermann%2C_Friedrich%29",
+     "finding": "Kistner 1857 complete parts; IMC 704 reprint."
+    },
+    "fieldSources": {
+     "details.published": "https://imslp.org/wiki/Burlesque%2C_Op.9_%28Hermann%2C_Friedrich%29",
+     "details.kind": "https://imslp.org/wiki/Burlesque%2C_Op.9_%28Hermann%2C_Friedrich%29"
+    }
+   },
+   "recordingResearch": {
+    "status": "released-human-recording-established",
+    "queries": [
+     "Friedrich Hermann Op 5 Op 9 Op 13 Op 17 Naxos 8.572066"
+    ],
+    "candidates": [
+     {
+      "url": "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+      "kind": "released-recording",
+      "finding": "Naxos 8.572066 credits Friedemann Eichhorn, Alexia Eichhorn and Reto Kuppel; complete Op.9 recording, track 1, 4:46.",
+      "youtube": false
+     }
+    ]
+   }
+  },
+  {
+   "key": "hermann-op5-original-3violins",
+   "work": {
+    "composer": "Hermann, Friedrich",
+    "title": "Capriccio No. 2 in G major for 3 Violins, Op. 5",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "year": "",
+    "minutes": 6,
+    "set": null,
+    "notes": "Three independent violins; complete original work, without accompaniment.",
+    "imslpPage": "Capriccio No.2 for 3 Violins, Op.5 (Hermann, Friedrich)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "published": "1856 or earlier",
+    "kind": "single",
+    "movements": [
+     "Allegro molto"
+    ],
+    "dedication": "Johann Wenzel Kalliwoda"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29",
+      "finding": "Complete score by copyist Sissel Ng; original Peters plate 3909 parts Violin I, II, III (7 pages each)."
+     },
+     {
+      "url": "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+      "finding": "Naxos 8.572066 credits Friedemann Eichhorn, Alexia Eichhorn and Reto Kuppel; complete Op.5 recording, track 3, 5:58."
+     },
+     {
+      "url": "https://222.editionsilvertrust.com/pdf-journals/Vol31-no2.pdf",
+      "finding": "Allegro molto with lyrical middle section; rapid shared figuration and coordinated returns suggest diploma demands."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29",
+     "locator": "Original Parts section; General Information instrumentation",
+     "finding": "Original three-violin parts; no continuo; guitar arrangement of Op.5 is excluded."
+    },
+    "floor": {
+     "url": "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+     "finding": "Naxos 8.572066 credits Friedemann Eichhorn, Alexia Eichhorn and Reto Kuppel; complete Op.5 recording, track 3, 5:58."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29",
+     "finding": "Complete score by copyist Sissel Ng; original Peters plate 3909 parts Violin I, II, III (7 pages each)."
+    },
+    "fieldSources": {
+     "details.published": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29",
+     "details.kind": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29",
+     "details.movements": "https://222.editionsilvertrust.com/pdf-journals/Vol31-no2.pdf",
+     "details.dedication": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29"
+    }
+   },
+   "recordingResearch": {
+    "status": "released-human-recording-established",
+    "queries": [
+     "Friedrich Hermann Op 5 Op 9 Op 13 Op 17 Naxos 8.572066"
+    ],
+    "candidates": [
+     {
+      "url": "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+      "kind": "released-recording",
+      "finding": "Naxos 8.572066 credits Friedemann Eichhorn, Alexia Eichhorn and Reto Kuppel; complete Op.5 recording, track 3, 5:58.",
+      "youtube": false
+     }
+    ]
+   }
+  },
+  {
+   "key": "hermann-op13-original-3violins",
+   "work": {
+    "composer": "Hermann, Friedrich",
+    "title": "Capriccio No. 3 in A major for 3 Violins, Op. 13",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "year": "",
+    "minutes": 8,
+    "set": null,
+    "notes": "Three independent violins; complete original work, without accompaniment.",
+    "imslpPage": "Capriccio No.3 for 3 Violins, Op.13 (Hermann, Friedrich)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "published": "1859",
+    "kind": "movements",
+    "movements": [
+     "Andante",
+     "Allegro scherzando"
+    ],
+    "dedication": "Bernhard Mohr"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Capriccio_No.3_for_3_Violins%2C_Op.13_%28Hermann%2C_Friedrich%29",
+      "finding": "Simrock 1859 plate 6032 complete parts; separately labelled Violin 1, 2, 3."
+     },
+     {
+      "url": "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+      "finding": "Naxos 8.572066 credits Friedemann Eichhorn, Alexia Eichhorn and Reto Kuppel; complete Op.13 recording, track 4, 7:38."
+     },
+     {
+      "url": "https://222.editionsilvertrust.com/pdf-journals/Vol31-no2.pdf",
+      "finding": "Ornate Andante introduction and Allegro scherzando, with animato close; exposed soloistic exchanges suggest diploma demands."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Capriccio_No.3_for_3_Violins%2C_Op.13_%28Hermann%2C_Friedrich%29",
+     "locator": "Original Parts section; General Information instrumentation",
+     "finding": "Original three-violin parts; no continuo; guitar arrangement of Op.5 is excluded."
+    },
+    "floor": {
+     "url": "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+     "finding": "Naxos 8.572066 credits Friedemann Eichhorn, Alexia Eichhorn and Reto Kuppel; complete Op.13 recording, track 4, 7:38."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Capriccio_No.3_for_3_Violins%2C_Op.13_%28Hermann%2C_Friedrich%29",
+     "finding": "Simrock 1859 plate 6032 complete parts; separately labelled Violin 1, 2, 3."
+    },
+    "fieldSources": {
+     "details.published": "https://imslp.org/wiki/Capriccio_No.3_for_3_Violins%2C_Op.13_%28Hermann%2C_Friedrich%29",
+     "details.kind": "https://imslp.org/wiki/Capriccio_No.3_for_3_Violins%2C_Op.13_%28Hermann%2C_Friedrich%29",
+     "details.movements": "https://222.editionsilvertrust.com/pdf-journals/Vol31-no2.pdf",
+     "details.dedication": "https://imslp.org/wiki/Capriccio_No.3_for_3_Violins%2C_Op.13_%28Hermann%2C_Friedrich%29"
+    }
+   },
+   "recordingResearch": {
+    "status": "released-human-recording-established",
+    "queries": [
+     "Friedrich Hermann Op 5 Op 9 Op 13 Op 17 Naxos 8.572066"
+    ],
+    "candidates": [
+     {
+      "url": "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+      "kind": "released-recording",
+      "finding": "Naxos 8.572066 credits Friedemann Eichhorn, Alexia Eichhorn and Reto Kuppel; complete Op.13 recording, track 4, 7:38.",
+      "youtube": false
+     }
+    ]
+   }
+  },
+  {
+   "key": "hermann-op17-original-3violins",
+   "work": {
+    "composer": "Hermann, Friedrich",
+    "title": "Suite in D minor for 3 Violins, Op. 17",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "year": "",
+    "minutes": 23,
+    "set": null,
+    "notes": "Three independent violins; complete original work, without accompaniment.",
+    "imslpPage": "Suite, Op.17 (Hermann, Friedrich)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "published": "1881 Leipzig: Kistner",
+    "kind": "movements",
+    "movements": [
+     "Grave",
+     "Scherzo",
+     "Canzonetta",
+     "Giocoso",
+     "Marcia funebre",
+     "Presto"
+    ],
+    "otherTitles": [
+     "Suite für 3 violinen, Op.17"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Suite%2C_Op.17_%28Hermann%2C_Friedrich%29",
+      "finding": "Kistner 1881 plate 5721 complete 12-page score and Violin 1, 2, 3 parts."
+     },
+     {
+      "url": "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+      "finding": "Naxos 8.572066 credits Friedemann Eichhorn, Alexia Eichhorn and Reto Kuppel; complete Op.17 recording, tracks 8–12, 22:58."
+     },
+     {
+      "url": "https://222.editionsilvertrust.com/pdf-journals/Vol31-no2.pdf",
+      "finding": "Contrasting dramatic Grave, nimble Scherzo and final Presto demand stylistic control and ensemble stamina."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Suite%2C_Op.17_%28Hermann%2C_Friedrich%29",
+     "locator": "Original Parts section; General Information instrumentation",
+     "finding": "Original three-violin parts; no continuo; guitar arrangement of Op.5 is excluded."
+    },
+    "floor": {
+     "url": "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+     "finding": "Naxos 8.572066 credits Friedemann Eichhorn, Alexia Eichhorn and Reto Kuppel; complete Op.17 recording, tracks 8–12, 22:58."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Suite%2C_Op.17_%28Hermann%2C_Friedrich%29",
+     "finding": "Kistner 1881 plate 5721 complete 12-page score and Violin 1, 2, 3 parts."
+    },
+    "fieldSources": {
+     "details.published": "https://imslp.org/wiki/Suite%2C_Op.17_%28Hermann%2C_Friedrich%29",
+     "details.kind": "https://imslp.org/wiki/Suite%2C_Op.17_%28Hermann%2C_Friedrich%29",
+     "details.movements": "https://imslp.org/wiki/Suite%2C_Op.17_%28Hermann%2C_Friedrich%29",
+     "details.otherTitles": "https://imslp.org/wiki/Suite%2C_Op.17_%28Hermann%2C_Friedrich%29"
+    }
+   },
+   "recordingResearch": {
+    "status": "released-human-recording-established",
+    "queries": [
+     "Friedrich Hermann Op 5 Op 9 Op 13 Op 17 Naxos 8.572066"
+    ],
+    "candidates": [
+     {
+      "url": "https://www.naxos.com/SharedFiles/pdf/rear/8.572066r.pdf",
+      "kind": "released-recording",
+      "finding": "Naxos 8.572066 credits Friedemann Eichhorn, Alexia Eichhorn and Reto Kuppel; complete Op.17 recording, tracks 8–12, 22:58.",
+      "youtube": false
+     }
+    ]
+   }
+  },
+  {
+   "key": "lachner-op160-original-5cellos",
+   "work": {
+    "composer": "Lachner, Franz Paul",
+    "title": "Elegy for 5 Cellos, Op. 160",
+    "instruments": {
+     "cello": 5
+    },
+    "players": 5,
+    "formation": "string-quintet",
+    "form": "work",
+    "year": "1834",
+    "minutes": null,
+    "set": null,
+    "notes": "Five independent cello parts; three movements; key disputed in sources.",
+    "imslpPage": "Elegy, Op.160 (Lachner, Franz Paul)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "published": "1872",
+    "kind": "movements",
+    "movements": [
+     "Andante",
+     "Menuetto. Allegretto",
+     "Allegro non troppo, ma agitato"
+    ],
+    "composed": "1834",
+    "dedication": "Friedrich Grützmacher",
+    "otherTitles": [
+     "Elegie"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Elegy%2C_Op.160_%28Lachner%2C_Franz_Paul%29",
+      "finding": "Complete manuscript score and first-edition complete parts, Senff plate 915; Amadeus BP2073 reprint."
+     },
+     {
+      "url": "https://www.wienerphilharmoniker.at/de/magazin/3-kammermusikkonzert-in-der-wiener-staatsoper-201819/6087",
+      "finding": "Official report of 27 October 2018 concert names five cellists and explicitly describes Op.160 for five cellos."
+     },
+     {
+      "url": "https://www.amadeusmusic.ch/itemcard.php?aid=1035&currency=CHF&isr=0&itemno=BP+2073&language=en&qsa=15%7C1035%7C%7C0%7C0%7C0%7Cklavier&search=klavier",
+      "finding": "Publisher specifies five separate parts, eight pages each; Bernhard Päuler editor."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz68622.html",
+      "finding": "Biographical work list identifies Op.160 as F-sharp-minor elegy for five cellos."
+     }
+    ],
+    "scoring": {
+     "url": "https://www.amadeusmusic.ch/itemcard.php?aid=1035&currency=CHF&isr=0&itemno=BP+2073&language=en&qsa=15%7C1035%7C%7C0%7C0%7C0%7Cklavier&search=klavier",
+     "locator": "Edition coverage: 5 Parts (à 8 p.)",
+     "finding": "Five independent cello parts; no added double bass."
+    },
+    "floor": {
+     "url": "https://www.wienerphilharmoniker.at/de/magazin/3-kammermusikkonzert-in-der-wiener-staatsoper-201819/6087",
+     "finding": "Official report of 27 October 2018 concert names five cellists and explicitly describes Op.160 for five cellos."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Elegy%2C_Op.160_%28Lachner%2C_Franz_Paul%29",
+     "finding": "Complete manuscript score and first-edition complete parts, Senff plate 915; Amadeus BP2073 reprint."
+    },
+    "fieldSources": {
+     "details.published": "https://imslp.org/wiki/Elegy%2C_Op.160_%28Lachner%2C_Franz_Paul%29",
+     "details.kind": "https://imslp.org/wiki/Elegy%2C_Op.160_%28Lachner%2C_Franz_Paul%29",
+     "details.movements": "https://imslp.org/wiki/Elegy%2C_Op.160_%28Lachner%2C_Franz_Paul%29",
+     "details.composed": "https://imslp.org/wiki/Elegy%2C_Op.160_%28Lachner%2C_Franz_Paul%29",
+     "details.dedication": "https://imslp.org/wiki/Elegy%2C_Op.160_%28Lachner%2C_Franz_Paul%29",
+     "details.otherTitles": "https://imslp.org/wiki/Elegy%2C_Op.160_%28Lachner%2C_Franz_Paul%29"
+    }
+   },
+   "recordingResearch": {
+    "status": "professional-programme-established",
+    "queries": [
+     "Franz Lachner Elegie Op 160 five cellos recording"
+    ],
+    "candidates": [
+     {
+      "url": "https://www.wienerphilharmoniker.at/de/magazin/3-kammermusikkonzert-in-der-wiener-staatsoper-201819/6087",
+      "kind": "concert-report",
+      "finding": "Official report of 27 October 2018 concert names five cellists and explicitly describes Op.160 for five cellos.",
+      "youtube": false
+     }
+    ]
+   }
+  }
+ ]
+}

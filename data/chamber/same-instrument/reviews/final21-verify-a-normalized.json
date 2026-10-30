@@ -1,0 +1,1041 @@
+{
+ "batch": "final21",
+ "role": "verification-and-independent-grade",
+ "status": "complete",
+ "checkedOn": "2026-10-30",
+ "entries": [
+  {
+   "key": "dotzauer-op104-three-cellos",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/6_Pieces_for_3_Cellos,_Op.104_(Dotzauer,_Friedrich)",
+     "basis": "Original: Richault title page 'Six pieces pour trois violoncelles', J.J.F. Dotzauer, Oeuv.104; no arranger credited"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/6_Pieces_for_3_Cellos,_Op.104_(Dotzauer,_Friedrich)",
+     "basis": "Three independent parts: Violoncello Primo, Secondo, Terzo; no accompaniment"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/6_Pieces_for_3_Cellos,_Op.104_(Dotzauer,_Friedrich)",
+     "basis": "Complete parts, 11+8+8 pages, containing all six pieces (cello 1 pp.2-11 viewed; cello 2 and 3 pp.1-2 viewed)"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=3O12p2hbFuw",
+     "basis": "Named trio, dated concert, venue; four of the six pieces"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=3O12p2hbFuw",
+    "finding": "Richard Harwood, Adi Tal and Kyril Zlotnikov play pieces 1, 4, 5 and 6 of Op.104 at St Michael and All Angels, London, on 7 April 2013."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements",
+    "published"
+   ],
+   "detailCorrections": {
+    "kind": "pieces",
+    "movements": [
+     "1. Andante",
+     "2. Adagio - Allegro",
+     "3. Scherzo: Allegro non troppo - Trio",
+     "4. Andante maestoso",
+     "5. Pastorale",
+     "6. Larghetto - Allegro"
+    ],
+    "published": "ca.1835, Paris: Richault"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/6_Pieces_for_3_Cellos,_Op.104_(Dotzauer,_Friedrich)",
+    "published": "https://imslp.org/wiki/6_Pieces_for_3_Cellos,_Op.104_(Dotzauer,_Friedrich)",
+    "kind": "https://imslp.org/wiki/6_Pieces_for_3_Cellos,_Op.104_(Dotzauer,_Friedrich)"
+   },
+   "grade": {
+    "level": 4,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello 1 (40126.pdf pp.3, 5, 10-11) has fast 6/8 and 2/4 Allegro figuration, clef changes into tenor and treble, notes into the high register and sixteenth-note scale and arpeggio runs; cello 2 and 3 pp.1-2 are mostly supporting lines and accompaniment figures.",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "dance"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "3O12p2hbFuw",
+     "decision": "held",
+     "reason": "Pieces 1, 4, 5 and 6 only; pieces 2 and 3 are left out (description and chapters)",
+     "seconds": 914,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "63sb8fMlJns",
+     "decision": "held",
+     "reason": "No.1 only (2:14), one cellist playing all three lines over several takes",
+     "seconds": 134,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "JUPg7VbA7gw",
+     "decision": "held",
+     "reason": "No.1 only (3:16), student trio",
+     "seconds": 196,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "schmidt-op15-four-violins",
+   "status": "held",
+   "factsVerified": true,
+   "reason": "Cached PDF holds the four parts of No.1 (Andante-Allegro) only; IMSLP lists files for Nos.1, 3 and 4 but none for No.2 Barcarole, so no complete four-piece set is available. Recordings are one piece or an unspecified 6-minute excerpt.",
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/4_Pieces_for_4_Violins,_Op.15_(Schmidt,_Ernst)",
+     "basis": "Original: Schott title page 'Vier Stücke für vier Violinen', Ernst Schmidt, Mainz 1905, plates 27712.1-4"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/4_Pieces_for_4_Violins,_Op.15_(Schmidt,_Ernst)",
+     "basis": "Four independent violin parts (Violine 1-4) in the No.1 file"
+    },
+    {
+     "claim": "notation",
+     "status": "held",
+     "source": "https://imslp.org/wiki/4_Pieces_for_4_Violins,_Op.15_(Schmidt,_Ernst)",
+     "basis": "267987.pdf, 17 pages = cover plus Violine 1-4 of No.1 only; Nos.2-4 notation not in the PDFs and No.2 has no IMSLP file"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=I6BrugUUCGA",
+     "basis": "Four named violinists, auditorium, Op.15 excerpt of about 6 minutes"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=I6BrugUUCGA",
+    "finding": "Cuarteto Sotto Vocce (Beatriz Sierra, Adriana Calderon, Dario Rodriguez, Martha Sanchez) play Schmidt's Vier Stucke at the Roquetas de Mar municipal music school auditorium; 6:08, so a subset of the four pieces."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [],
+   "detailCorrections": {
+    "kind": "pieces",
+    "movements": [
+     "1. Andante - Allegro",
+     "2. Barcarole",
+     "3. Minuetto",
+     "4. All'Albanese"
+    ],
+    "published": "1905, Mainz: Schott"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/4_Pieces_for_4_Violins,_Op.15_(Schmidt,_Ernst)",
+    "published": "https://imslp.org/wiki/4_Pieces_for_4_Violins,_Op.15_(Schmidt,_Ernst)"
+   },
+   "grade": {
+    "level": 3,
+    "hardestPart": "violin 1",
+    "confidence": "low",
+    "basis": "Only No.1 was seen (267987.pdf pp.3-5): violin 1 in B-flat reaches high E-flat and G, shifts to 3rd-5th position, trills and quick eighth-note runs; parts 2-4 (pp.8-9, 12-13) are supporting and simpler. Other pieces not seen.",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "dance"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "I6BrugUUCGA",
+     "decision": "held",
+     "reason": "6:08 for a title naming all four pieces; extent not stated, four pieces would run far longer",
+     "seconds": 368,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "jg5JcKlkWLU",
+     "decision": "held",
+     "reason": "No.3 Minuetto only; ensemble listed only as MSPO",
+     "seconds": 298,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "kVXY4rIe6ds",
+     "decision": "held",
+     "reason": "No.1 only; auto-generated audio upload, no frame or credit showing players",
+     "seconds": 303,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": false,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "limmer-op12-three-cellos",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Cello_Trio_in_E_minor,_Op.12_(Limmer,_Franz)",
+     "basis": "Original: title page 'Trio pour trois violoncelles', Fr. Limmer, Oeuvre 12; scored Cranz edition is a reprint of the 1831 Mechetti first edition"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Cello_Trio_in_E_minor,_Op.12_(Limmer,_Franz)",
+     "basis": "Three independent parts: Violoncello I, II, III; no accompaniment"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Cello_Trio_in_E_minor,_Op.12_(Limmer,_Franz)",
+     "basis": "Complete parts 12+9+9 pages with all four movements (cello 1 pp.1-3, 9-10; cello 2 and 3 p.2 viewed)"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=ubRGZQmEmRA",
+     "basis": "Three named cellists in the Andante; second upload shows three live cellists in a hall"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=ubRGZQmEmRA",
+    "finding": "Sary Khalife, Raphael Jouan and Thibaut Reznicek play the Andante (II) of Limmer's Op.12 trio; one movement only."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements",
+    "published",
+    "dedication"
+   ],
+   "detailCorrections": {
+    "kind": "movements",
+    "movements": [
+     "Allegro assai moderato",
+     "Andante",
+     "Scherzo: Vivace - Trio",
+     "Finale: Allegro agitato"
+    ],
+    "published": "1831, Vienna: Mechetti",
+    "dedication": "B.D. Goldschmidt of Hamburg"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Cello_Trio_in_E_minor,_Op.12_(Limmer,_Franz)",
+    "published": "https://imslp.org/wiki/Cello_Trio_in_E_minor,_Op.12_(Limmer,_Franz)",
+    "dedication": "https://imslp.org/wiki/Cello_Trio_in_E_minor,_Op.12_(Limmer,_Franz)",
+    "kind": "https://imslp.org/wiki/Cello_Trio_in_E_minor,_Op.12_(Limmer,_Franz)"
+   },
+   "grade": {
+    "level": 5,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello 1 (44907.pdf pp.2-3, 9-10) lives in tenor and treble clef with extended thumb-position passages, fast chromatic sixteenth runs, wide shifts and octave leaps at Allegro agitato; cello 2 and 3 (p.2) are bass-clef, mostly sustained or accompanying.",
+    "mode": "minor",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "dramatic"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "328YbN1xTYI",
+     "decision": "held",
+     "reason": "Andante (II) only, 3:54",
+     "seconds": 234,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "ubRGZQmEmRA",
+     "decision": "held",
+     "reason": "Andante (II) only, 4:02",
+     "seconds": 242,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "moor-op133-three-violins",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Moór,_Emanuel)",
+     "basis": "Original: A.Z. Mathot (Paris, 1912) title page 'Suite pour trois violons', Emanuel Moor, Op.133, dedicated to Pablo Casals"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Moór,_Emanuel)",
+     "basis": "Three independent violin staves throughout (score pp.3-4, 7-8, 17-18 viewed)"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Moór,_Emanuel)",
+     "basis": "44997.pdf is the complete 20-page score of the four movements, ending with a final bar on the last page"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=pvdbDofjjuI",
+     "basis": "Three named violinists, 2021 concert recording of all four movements"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=pvdbDofjjuI",
+    "finding": "Patricia Fahidi, Eniko Tury and Karoly Gal play all four movements of the Suite in a 2021 concert recording."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements",
+    "published",
+    "dedication"
+   ],
+   "detailCorrections": {
+    "kind": "movements",
+    "movements": [
+     "Andante espressivo",
+     "Allegro",
+     "Adagio espressivo",
+     "Allegro vivace"
+    ],
+    "published": "1912, Paris: A.Z. Mathot",
+    "dedication": "Pablo Casals"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Moór,_Emanuel)",
+    "published": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Moór,_Emanuel)",
+    "dedication": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Moór,_Emanuel)",
+    "kind": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Moór,_Emanuel)"
+   },
+   "grade": {
+    "level": 7,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "basis": "All three staves carry long continuous chromatic sixteenth-note runs at Allegro (44997.pdf pp.5-6), constant dense string crossing and accidentals, high register in violin 1 and independent parts that must be locked together; the Allegro vivace (pp.15-16) keeps sixteenth-note chains and trills in every voice. Violin 1 sits highest.",
+    "mode": "minor",
+    "pace": "lively",
+    "character": [
+     "virtuosic",
+     "dramatic"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "pvdbDofjjuI",
+     "decision": "approved",
+     "reason": "Three named violinists, 2021 concert; all four movements listed, 12:08 fits the 20-page score",
+     "seconds": 728,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": true,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "uMy_RhKaaDI",
+     "decision": "held",
+     "reason": "Allegro (II) only, 3:07, Rice University violinists",
+     "seconds": 187,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "battanchon-op40-three-cellos",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Trio_No.2_for_3_Cellos,_Op.40_(Battanchon,_Félix)",
+     "basis": "Original: Hofmeister parts headed 'Trio II' Violoncello 1, Felix Battanchon Op.40; the guitar score in the cache is Hoger's arrangement and is not this version"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Trio_No.2_for_3_Cellos,_Op.40_(Battanchon,_Félix)",
+     "basis": "Three independent cello parts (Violoncello 1, 2, 3); no accompaniment"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Trio_No.2_for_3_Cellos,_Op.40_(Battanchon,_Félix)",
+     "basis": "Parts 45425/45426/45427.pdf (14+8+8 pages) with four movements; cello 1 pp.2-12 viewed"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=dM3zHvmAE30",
+     "basis": "Frame shows live cellists playing the first movement; uploader unnamed"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=dM3zHvmAE30",
+    "finding": "Live cellists, unnamed, play the first movement (Allegro non troppo) of Battanchon's Trio No.2; frame shows players on screen."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements",
+    "published"
+   ],
+   "detailCorrections": {
+    "kind": "movements",
+    "movements": [
+     "Allegro non troppo",
+     "Minuetto: Allegro - Trio",
+     "Andante",
+     "Finale: Allegro con fuoco"
+    ],
+    "published": "1869 or earlier, Leipzig: Friedrich Hofmeister"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Trio_No.2_for_3_Cellos,_Op.40_(Battanchon,_Félix)",
+    "published": "https://imslp.org/wiki/Trio_No.2_for_3_Cellos,_Op.40_(Battanchon,_Félix)",
+    "kind": "https://imslp.org/wiki/Trio_No.2_for_3_Cellos,_Op.40_(Battanchon,_Félix)"
+   },
+   "grade": {
+    "level": 5,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello 1 (45425.pdf pp.2-12) is mostly in tenor clef with frequent clef changes, thumb-position passages, long sixteenth-note arpeggio chains at Allegro con fuoco (pp.10-11) and a sixteenth-note Andante middle section (p.8); cello 2 and 3 are lower and more supportive.",
+    "mode": "minor",
+    "pace": "moderate",
+    "character": [
+     "dramatic",
+     "lyrical"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "dM3zHvmAE30",
+     "decision": "held",
+     "reason": "First movement only (title: Allegro non troppo), 6:40",
+     "seconds": 400,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "dancla-op178-four-violins",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/3_Pieces_for_4_Violins,_Op.178_(Dancla,_Charles)",
+     "basis": "Original by Dancla, Op.178; Gustav Saenger is the editor ('Revised & fingered by'), not an arranger; Carl Fischer 1900 edition also prints Mozart Larghetto and Schumann Traumerei, which are not Op.178"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/3_Pieces_for_4_Violins,_Op.178_(Dancla,_Charles)",
+     "basis": "Four independent parts: 1st, 2nd, 3rd, 4th Violin (465510.pdf pp.2-9, 10-17, 18-25, 26-34)"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/3_Pieces_for_4_Violins,_Op.178_(Dancla,_Charles)",
+     "basis": "Each part opens with Departure, Arrival and The Return (Op.178 Nos.1-3), then Mozart and Schumann pieces which are excluded"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=RkTRYgKgjQY",
+     "basis": "Four named violinists, Le Depart"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=RkTRYgKgjQY",
+    "finding": "Sumet Suwansin, Aniraya Jittamanonkul, Thitirat Potchapornkul and Netnapa Thammawattana (YAMP TV) play Le Depart; one of three pieces."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements",
+    "published"
+   ],
+   "detailCorrections": {
+    "kind": "pieces",
+    "movements": [
+     "Le Départ (Departure): Moderato maestoso",
+     "L'Arrivée (Arrival): Moderato maestoso e cantabile",
+     "Le Retour (The Return), March: Moderato risoluto"
+    ],
+    "published": "1890, Mainz: Schott"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/3_Pieces_for_4_Violins,_Op.178_(Dancla,_Charles)",
+    "published": "https://imslp.org/wiki/3_Pieces_for_4_Violins,_Op.178_(Dancla,_Charles)",
+    "kind": "https://imslp.org/wiki/3_Pieces_for_4_Violins,_Op.178_(Dancla,_Charles)"
+   },
+   "grade": {
+    "level": 3,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "basis": "Violin 1 (465510.pdf pp.2-6) stays within third to fifth position with some high E and harmonics, sautille and trill passages and fast sixteenth runs in The Return; the editor's 'upper fingering' notes and simple 2nd-4th parts are pitched at a lower level, so the top part sets the grade.",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "heroic",
+     "dance"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "xgtfBFKegTs",
+     "decision": "approved",
+     "reason": "Autumn Strings concert: Le Depart, L'arrivee and Le Retour in one video, 13:09, consistent with about 225 bars at the Moderato tempo",
+     "seconds": 789,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": true,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "RkTRYgKgjQY",
+     "decision": "held",
+     "reason": "Le Depart only, 3:16",
+     "seconds": 196,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "ypX1yzgwxeM",
+     "decision": "held",
+     "reason": "3:14 for a title naming all three pieces, and the group is a high-school chamber orchestra, not one player per part",
+     "seconds": 194,
+     "checks": {
+      "exactVersion": false,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "debleser-tearful-day-four-cellos",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/That_Tearful_Day_(De_Bleser,_Werner_J.E.)",
+     "basis": "Original by the composer, C219 (2015), 'That Tearful Day for cello quartet'; the flutes-and-strings file on the page is a separate version"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/That_Tearful_Day_(De_Bleser,_Werner_J.E.)",
+     "basis": "Four independent cello staves, Cello 1 in tenor clef (score pp.3-7)"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/That_Tearful_Day_(De_Bleser,_Werner_J.E.)",
+     "basis": "404072.pdf complete score, 44 bars Adagio in common time ending on a final barline; 404073.pdf parts"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=mL6nPmNlhPc",
+     "basis": "Frame shows a split-screen multitrack with one live cellist"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=mL6nPmNlhPc",
+    "finding": "One cellist plays all four parts in a split-screen human multitrack, titled with the composer's name and Celloquartett; uploader Corinna Schmitz."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [],
+   "grade": {
+    "level": 3,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "404072.pdf pp.3-7: cello 1 is in tenor clef with sustained long notes, slow stepwise lines and an alternating sixteenth-note figure on two pitches; cello 3 carries steady sixteenth-note arpeggios for 35 bars; cello 2 and 4 are simple. Slow Adagio, no extended technique.",
+    "mode": "minor",
+    "pace": "slow",
+    "character": [
+     "lyrical",
+     "dark"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "mL6nPmNlhPc",
+     "decision": "held",
+     "reason": "Human multitrack of one cellist, but 2:12 for a 44-bar Adagio against the page's 3.5-minute average leaves extent in doubt",
+     "seconds": 132,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ],
+   "detailSources": {}
+  },
+  {
+   "key": "kuznetsov-op13-four-cellos",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Suite_No.1,_Op.13_(Kuznetsov,_Aleksandr)",
+     "basis": "Original: Jurgenson title page 'Suite en cinq parties pour 4 violoncelles', A. Kouznetzoff Op.13, to the memory of Charles Davidoff (Karl Davydov)"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Suite_No.1,_Op.13_(Kuznetsov,_Aleksandr)",
+     "basis": "Four independent staves, Violoncello I-IV, no accompaniment (score pp.3, 8-9, 24-25, 30-31)"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Suite_No.1,_Op.13_(Kuznetsov,_Aleksandr)",
+     "basis": "415144.pdf is the 33-page complete score of all five movements (Allegro, Andantino, Intermezzo, Scherzo, Allegro con brio per title page)"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=WELruxXY5tY",
+     "basis": "Named cellist plays all four parts of the Andantino in a 2018 home multitrack"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=WELruxXY5tY",
+    "finding": "Daniel Vargas plays Violoncello I-IV himself in a 2018 home multitrack of the second movement, Andantino."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements",
+    "published",
+    "dedication"
+   ],
+   "detailCorrections": {
+    "kind": "movements",
+    "movements": [
+     "Allegro",
+     "Andantino",
+     "Intermezzo",
+     "Scherzo",
+     "Allegro con brio"
+    ],
+    "published": "1893, Moscow: P. Jurgenson",
+    "dedication": "To the memory of Karl Davydov"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Suite_No.1,_Op.13_(Kuznetsov,_Aleksandr)",
+    "published": "https://imslp.org/wiki/Suite_No.1,_Op.13_(Kuznetsov,_Aleksandr)",
+    "dedication": "https://imslp.org/wiki/Suite_No.1,_Op.13_(Kuznetsov,_Aleksandr)",
+    "kind": "https://imslp.org/wiki/Suite_No.1,_Op.13_(Kuznetsov,_Aleksandr)"
+   },
+   "grade": {
+    "level": 4,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello 1 (415144.pdf pp.3, 8-9, 24-25, 30-31) switches between tenor and treble clef into the high register, with running eighth and sixteenth lines in the Allegro and finale; it must balance against three other full-voiced parts, but nothing is faster or more exposed than lively eighth-note lines at moderate tempo.",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "dance"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "WELruxXY5tY",
+     "decision": "held",
+     "reason": "Andantino (II) only, one cellist multitracking all four parts",
+     "seconds": 477,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "e3uqTT9BfcQ",
+     "decision": "held",
+     "reason": "Movements I, II, III and V only (Scherzo omitted in description); university cello ensemble with several players per part",
+     "seconds": 1461,
+     "checks": {
+      "exactVersion": false,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "kuznetsov-op28-four-cellos",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Suite_No.3,_Op.28_(Kuznetsov,_Aleksandr)",
+     "basis": "Original: Jurgenson '3me Suite pour 4 violoncelles' by A. Kouznetzoff, Op.28"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Suite_No.3,_Op.28_(Kuznetsov,_Aleksandr)",
+     "basis": "Four independent parts, Violoncello I-IV, no accompaniment"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Suite_No.3,_Op.28_(Kuznetsov,_Aleksandr)",
+     "basis": "415146.pdf, 27 pages: complete parts, Cello IV pp.4-6 end with Fine after movements III and IV; Cello I pp.1-5 viewed"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=UuYdGHZX1Xs",
+     "basis": "Named quartet at a festival concert, movements I and II"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=UuYdGHZX1Xs",
+    "finding": "Cuarteto Piatti (Guillermo Sanchez, Luis Arcos, Magdalena Morales, Roberto Morales) play movements I and II at the V Festival Internacional de Violoncello Leon, 6 November 2021."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements",
+    "published"
+   ],
+   "detailCorrections": {
+    "kind": "movements",
+    "movements": [
+     "Andante",
+     "Vivo",
+     "Andantino",
+     "Largo - Andante - Moderato"
+    ],
+    "published": "n.d. (1905), Moscow: P. Jurgenson"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Suite_No.3,_Op.28_(Kuznetsov,_Aleksandr)",
+    "published": "https://imslp.org/wiki/Suite_No.3,_Op.28_(Kuznetsov,_Aleksandr)",
+    "kind": "https://imslp.org/wiki/Suite_No.3,_Op.28_(Kuznetsov,_Aleksandr)"
+   },
+   "grade": {
+    "level": 4,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello 1 (415146.pdf pp.1-5) is in tenor clef in sharp and flat keys, with a high natural-harmonic passage and quick eighth-note figuration in the Vivo and a lyrical Andantino; cello 4 (pp.4-6) is slow with repeated triplet figures. No fast virtuoso writing.",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "tender"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "UuYdGHZX1Xs",
+     "decision": "held",
+     "reason": "Part 1 of 2: movements I and II only",
+     "seconds": 603,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "lWGm6ncAsfM",
+     "decision": "held",
+     "reason": "Part 2 of 2: movements III and IV only",
+     "seconds": 800,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "kltPGmtkwWc",
+     "decision": "held",
+     "reason": "Movement I only",
+     "seconds": 388,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "clark-gavotte-four-violins",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+     "basis": "Augener title page 'Gavotte for Four Violins by Scotson Clark', no arranger credited; IMSLP comment says it may rework his Gavotte de la Dauphine, unproven"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+     "basis": "Four independent parts, Violin I-IV, each a Moderato 2/4 gavotte in D with a G major trio"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+     "basis": "source42-82715.pdf (9 A3 pages, Merton Music reprint) has complete parts I-IV; Violin I pp.2-3 and Violin III viewed; about 105-110 bars"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=Nj7Ag6TCRl0",
+     "basis": "Frame shows four young violinists live in a church hall"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=Nj7Ag6TCRl0",
+    "finding": "Four young violinists from Karlina's Violin and Viola Studio play the Gavotte live in a church hall; 3:29."
+   },
+   "workCorrections": {
+    "notes": "D major gavotte with a G major trio, published by Augener in 1881."
+   },
+   "approvedDetailFields": [
+    "published"
+   ],
+   "detailCorrections": {
+    "kind": "single",
+    "published": "1881, London: Augener"
+   },
+   "detailSources": {
+    "published": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+    "kind": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)"
+   },
+   "recordingDecisions": [
+    {
+     "id": "Nj7Ag6TCRl0",
+     "decision": "approved",
+     "reason": "About 105-110 bars of 2/4 Moderato (gavotte, trio, written-out reprise); 3:29 is slower than the Moderato mark but a young ensemble could not play a shorter part of it in that time, so the whole piece is covered",
+     "seconds": 209,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": true,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "lL2160-CXfA",
+     "decision": "held",
+     "reason": "Human multitrack of one violinist; 1:45 implies about 124 per quarter for the whole piece or 90 if the trio is left out, extent not settled",
+     "seconds": 105,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "4PTOSwjt9AE",
+     "decision": "rejected",
+     "reason": "Score-channel upload of the uploader's own edition, no players shown",
+     "seconds": 139,
+     "checks": {
+      "exactVersion": false,
+      "wholeWork": false,
+      "humanPerformance": false,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "massa-violin-quartet-four-violins",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)",
+     "basis": "Original by Massa: typeset score titled 'Cuarteto para Violines (para clases de conjunto y audiciones)', dedicated to Elmerico Fracassi; Ezequiel Diz is the editor, not an arranger"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)",
+     "basis": "Four independent violin staves (Violin I-IV), no accompaniment (score pp.1-8)"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)",
+     "basis": "503799.pdf is the complete 8-page score: I Adagio (42 bars, 4/4), II Allegretto (3/8) with Dal Segno al Coda and a Finale poco piu mosso ending with a final bar"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=o7jXNExjf1g",
+     "basis": "Frame shows four violinists playing live in a room; Achilles Quartet"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=o7jXNExjf1g",
+    "finding": "The Achilles Quartet, four violinists shown live in a room, play Massa's quartet for four violins; 5:31."
+   },
+   "workCorrections": {
+    "minutes": 5,
+    "notes": "Two movements for four violins, dedicated to Elmerico Fracassi."
+   },
+   "approvedDetailFields": [
+    "movements",
+    "dedication"
+   ],
+   "detailCorrections": {
+    "kind": "movements",
+    "movements": [
+     "Adagio",
+     "Allegretto - Finale"
+    ],
+    "dedication": "Elmerico Fracassi"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)",
+    "dedication": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)",
+    "kind": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)"
+   },
+   "recordingDecisions": [
+    {
+     "id": "o7jXNExjf1g",
+     "decision": "approved",
+     "reason": "Score runs about 5:25 (Adagio, 42 bars at quarter 64, about 2:45; Allegretto 3/8 at 68 bars a minute with D.S. al Coda and Finale, about 2:40), matching 5:31; the 8-minute IMSLP figure is only an average",
+     "seconds": 331,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": true,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1471 @@
+{
+  "batch": "closure-original-03",
+  "status": "complete",
+  "entries": [
+    {
+      "contextKey": "437489-original",
+      "pageId": 437489,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "The page is a solo-violin method; the tag mentioning 3 violins does not describe the listed instrumentation.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/437489.json",
+          "finding": "Inspected all 1 cached raw revision(s) (2813414); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1565214-original",
+      "pageId": 1565214,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1565214.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4589363); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Marcellus Wick Entrada four violins performance programme concert ensemble",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "whole one-movement work as titled",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1565214.json",
+            "finding": "Raw revision(s) 4589363; original Instrumentation='4 violins'; exact FILES groups=[{'headingPath': '', 'descriptions': ['Complete Score'], 'names': ['PMLP1565214-Entrada-marche_solennelle.pdf']}, {'headingPath': 'Parts', 'descriptions': ['Violin 1', 'Violin 2', 'Violin 3', 'Violin 4'], 'names': ['PMLP1565214-entrada_vl-I.pdf', 'PMLP1565214-entrada_vl-II.pdf', 'PMLP1565214-entrada_vl-III.pdf', 'PMLP1565214-entrada_vl-IV.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=4."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "834983-original",
+      "pageId": 834983,
+      "kind": "original",
+      "decision": "lead",
+      "reason": "Raw IMSLP audio block identifies “Complete Performance”; performer is composer Serban Nichifor on cello, “by overlay in studio”; source title and the work page identify Epos No.1 for 3 Cellos. This is a human multitrack of the complete original version; the separate score file is listed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/834983.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4497887); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/834983.json",
+          "finding": "Raw IMSLP audio block identifies “Complete Performance”; performer is composer Serban Nichifor on cello, “by overlay in studio”; source title and the work page identify Epos No.1 for 3 Cellos. This is a human multitrack of the complete original version; the separate score file is listed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "whole Epos No.1 for 3 Cellos (complete performance audio; composer dates the work 1974)",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/834983.json",
+            "finding": "Raw revision(s) 4497887; original Instrumentation='3 cellos'; exact FILES groups=[{'headingPath': '', 'descriptions': ['Complete Score'], 'names': ['PMLP834983-Epos1A4.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=0."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/834983.json",
+              "finding": "Raw IMSLP audio block identifies “Complete Performance”; performer is composer Serban Nichifor on cello, “by overlay in studio”; source title and the work page identify Epos No.1 for 3 Cellos. This is a human multitrack of the complete original version; the separate score file is listed."
+            }
+          ],
+          "decision": "lead",
+          "reason": "Raw IMSLP audio block identifies “Complete Performance”; performer is composer Serban Nichifor on cello, “by overlay in studio”; source title and the work page identify Epos No.1 for 3 Cellos. This is a human multitrack of the complete original version; the separate score file is listed."
+        }
+      ]
+    },
+    {
+      "contextKey": "721229-original",
+      "pageId": 721229,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The source allows a four-viola version but also mixed alternatives; complete score and four viola parts exist, while no exact human performance was documented in the prior focused search.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/721229.json",
+          "finding": "Inspected all 1 cached raw revision(s) (2193015); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Fairy_Tales_(Crosmer,_Jonathan)",
+          "finding": "Instrumentation lists four violas or mixed string alternatives."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-006.json",
+          "finding": "Page offers several alternate ensemble scorings; exact four-viola version and qualifying human performance have not been individually established."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violas",
+          "arranger": null,
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "complete work/set (4 movements)",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/721229.json",
+            "finding": "Raw revision(s) 2193015; original Instrumentation='4 violas (or 2 violins, 2 violas; or 2 violins, viola, cello)'; exact FILES groups=[{'headingPath': 'Scores and Parts', 'descriptions': ['Complete Score', 'Viola 1 (or Violin 1)', 'Viola 2 (or Violin 2)', 'Viola 3', 'Viola 4', 'Cello Part (or Viola 4)'], 'names': ['PMLP721229-Fairy_Tales_-_Score.pdf', 'PMLP721229-Fairy_Tales_-_Viola_I.pdf', 'PMLP721229-Fairy_Tales_-_Viola_II.pdf', 'PMLP721229-Fairy_Tales_-_Viola_III.pdf', 'PMLP721229-Fairy_Tales_-_Viola_IV.pdf', 'PMLP721229-Fairy_Tales_-_Violoncello.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=5."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The source allows a four-viola version but also mixed alternatives; complete score and four viola parts exist, while no exact human performance was documented in the prior focused search."
+        }
+      ]
+    },
+    {
+      "contextKey": "1437631-original",
+      "pageId": 1437631,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1437631.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4335675); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Nicolas Louis Fantaisie bavaroise Op. 245 three violins performance",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "whole work as titled; extent exactness not otherwise stated",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1437631.json",
+            "finding": "Raw revision(s) 4335675; original Instrumentation='3 violins'; exact FILES groups=[{'headingPath': 'Parts', 'descriptions': ['Complete Parts'], 'names': ['PMLP1437631-louis_245_pts.pdf']}]; score listed=False; complete-parts group listed=True; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "1497291-original",
+      "pageId": 1497291,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Complete twelve-cello score exists; prior review found no human performance floor.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1497291.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4414628); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Fantasia_for_12_celli_%28Beesemer%2C_Lena_Annika%29",
+          "finding": "Cached IMSLP original-page source excerpt: work info and listed score/performance sections."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-005.json",
+          "finding": "Twelve-cello score is available, but no human performance floor evidence found."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 12 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 12,
+          "extent": "whole one-movement work as titled",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1497291.json",
+            "finding": "Raw revision(s) 4414628; original Instrumentation='12 cellos'; exact FILES groups=[{'headingPath': '', 'descriptions': ['Complete Score'], 'names': ['PMLP1497291-Fantasia_for_12_celli.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Complete twelve-cello score exists; prior review found no human performance floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "430972-original",
+      "pageId": 430972,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The Conservatorio Rossini official 2023 event page names Fantasia orientale and Rossini Cellos Orchestra (16 listed players plus conductor); exact match to the original six-cello score remains unresolved.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/430972.json",
+          "finding": "Inspected all 1 cached raw revision(s) (2784126); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Fantasia_orientale_%28Zanella%2C_Amilcare%29",
+          "finding": "Cached IMSLP original-page source excerpt: work info and listed score/performance sections."
+        },
+        {
+          "urlOrPath": "https://www.conservatoriorossini.it/en/calendari/conversazioni-zanella/",
+          "finding": "Conservatorio Rossini event listing includes Fantasia orientale and names Rossini Cellos Orchestra; exact completed performance details need confirmation."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-005.json",
+          "finding": "IMSLP supplies score and six separate cello parts; a 2023 Conservatorio Rossini programme associates Fantasia orientale with Rossini Cellos Orchestra, but source details do not yet prove a completed human performance of this exact six-cello version."
+        },
+        {
+          "urlOrPath": "https://www.conservatoriorossini.it/en/calendari/conversazioni-zanella/",
+          "finding": "Official Conservatorio Rossini page documents a 26 September 2023 event and lists Fantasia orientale with Rossini Cellos Orchestra, 16 named performers and conductor Claudio Casadei; the score’s exact six-cello scoring is not specified in that programme."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 6 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "complete one-section Fantasia orientale for six cellos",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/430972.json",
+            "finding": "Raw revision(s) 2784126; original Instrumentation='6 Cellos'; exact FILES groups=[{'headingPath': 'Scores and Parts', 'descriptions': ['Complete Score'], 'names': ['PMLP430972-Zanella_-_Fantasia_Orientale_for_6_Cellos_score_manuscript.pdf']}, {'headingPath': 'Scores and Parts', 'descriptions': ['Complete Score', 'Cello 1 part', 'Cello 2 part', 'Cello 3 part', 'Cello 4 part', 'Cello 5 part', 'Cello 6 part'], 'names': ['PMLP430972-Zanella_-_Fantasia_Orientale_for_6_Cellos_score.pdf', 'PMLP430972-Zanella_-_Fantasia_Orientale_for_6_Cellos_VC1.pdf', 'PMLP430972-Zanella_-_Fantasia_Orientale_for_6_Cellos_VC2.pdf', 'PMLP430972-Zanella_-_Fantasia_Orientale_for_6_Cellos_VC3.pdf', 'PMLP430972-Zanella_-_Fantasia_Orientale_for_6_Cellos_VC4.pdf', 'PMLP430972-Zanella_-_Fantasia_Orientale_for_6_Cellos_VC5.pdf', 'PMLP430972-Zanella_-_Fantasia_Orientale_for_6_Cellos_VC6.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=6."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The Conservatorio Rossini official 2023 event page names Fantasia orientale and Rossini Cellos Orchestra (16 listed players plus conductor); exact match to the original six-cello score remains unresolved."
+        }
+      ]
+    },
+    {
+      "contextKey": "69340-original",
+      "pageId": 69340,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/69340.json",
+          "finding": "Inspected all 1 cached raw revision(s) (2814306); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: John P. Hastings Fjord 4 contrabasses recording performance programme",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 double basss",
+          "arranger": null,
+          "instrument": "double bass",
+          "independentPartCount": 4,
+          "extent": "whole one-movement work as titled",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/69340.json",
+            "finding": "Raw revision(s) 2814306; original Instrumentation='4 contrabasses'; exact FILES groups=[{'headingPath': '', 'descriptions': ['Complete Score'], 'names': ['PMLP69340-Fjord_V.4.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "168499-original",
+      "pageId": 168499,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Four-violin parts are listed; prior focused search did not establish an actual human performance.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/168499.json",
+          "finding": "Inspected all 1 cached raw revision(s) (3544727); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+          "finding": "Cached page lists four violin parts."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-006.json",
+          "finding": "Four-violin scoring is indicated, but a real performance floor was not established in focused search."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "whole one-movement work as titled",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/168499.json",
+            "finding": "Raw revision(s) 3544727; original Instrumentation='4 violins'; exact FILES groups=[{'headingPath': 'Parts', 'descriptions': ['Complete Parts'], 'names': ['PMLP168499-4002.Clark-Gavotte.pts.pdf']}]; score listed=False; complete-parts group listed=True; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Four-violin parts are listed; prior focused search did not establish an actual human performance."
+        }
+      ]
+    },
+    {
+      "contextKey": "1518849-original",
+      "pageId": 1518849,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "A six-book teaching course with mixed violin-and-optional-piano scorings; the only cached file is an incomplete piano score.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1518849.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4561146); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "147415-original",
+      "pageId": 147415,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "A pedagogical six-book collection with several mixed instrumentations, not one fixed same-instrument concert work.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/147415.json",
+          "finding": "Inspected all 1 cached raw revision(s) (1473094); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "436114-original",
+      "pageId": 436114,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "A 17-piece collection with variable voices/instruments and continuo; no fixed 3–12-part homogeneous string version is established.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/436114.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4033856); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "560946-original",
+      "pageId": 560946,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Page Work Info says 3 violins and 22 movements, but the full cached revision lists no score or parts file group; an obtainable exact-score source remains missing.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/560946.json",
+          "finding": "Inspected all 1 cached raw revision(s) (1880693); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Julius Weiss Immergrün three violins performance ensemble",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1472267-original",
+      "pageId": 1472267,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved prior triage records a Spotify album track titled Impromptu for 4 Cellos, Op.30, credited to four named cellists; the complete-work/version match was not established, so retain held.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1472267.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4704468); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+          "finding": "Complete parts for four cellos; no IMSLP performance recording."
+        },
+        {
+          "urlOrPath": "https://open.spotify.com/track/39WQcbPU5qKGOs9ETTBFTC",
+          "finding": "Track listing credits the Op.30 performance to four named cellists; full-work extent not established."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-006.json",
+          "finding": "Four cello parts are complete and a human recording exists on a commercial album, but the focused sources did not establish that recording's completeness/version match strongly enough for lead status."
+        },
+        {
+          "urlOrPath": "https://open.spotify.com/track/39WQcbPU5qKGOs9ETTBFTC",
+          "finding": "Prior triage metadata: track titled “Impromptu for 4 Cellos, Op.30,” credits four named cellists; prior review did not establish that its duration/extent fully matches the score."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole work as titled; extent exactness not otherwise stated",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1472267.json",
+            "finding": "Raw revision(s) 4704468; original Instrumentation='4 cellos'; exact FILES groups=[{'headingPath': 'Parts', 'descriptions': ['Complete Parts'], 'names': ['PMLP1472267-Kl_vc30.pdf']}]; score listed=False; complete-parts group listed=True; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Saved prior triage records a Spotify album track titled Impromptu for 4 Cellos, Op.30, credited to four named cellists; the complete-work/version match was not established, so retain held."
+        }
+      ]
+    },
+    {
+      "contextKey": "722137-original",
+      "pageId": 722137,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Complete score and twelve cello parts exist; the previously surfaced performance lead was a different saxophone-and-cello-quartet scoring.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/722137.json",
+          "finding": "Inspected all 1 cached raw revision(s) (2198223); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Incantations_(D%C3%A9jardin,_Renaud)",
+          "finding": "Two movements for twelve cellos; complete score and twelve parts listed."
+        },
+        {
+          "urlOrPath": "https://polishcelloquartet.com/en/repertoire",
+          "finding": "Ensemble repertoire names an Incantations version for saxophone and cello quartet, which is a different scoring."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-006.json",
+          "finding": "Complete score and twelve individual cello parts are available; found performance leads refer to saxophone plus quartet or do not establish this exact twelve-cello version."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 12 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 12,
+          "extent": "complete two-movement Incantations for twelve cellos",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/722137.json",
+            "finding": "Raw revision(s) 2198223; original Instrumentation='12 cellos'; exact FILES groups=[{'headingPath': 'Scores and Parts', 'descriptions': ['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4', 'Cello 5', 'Cello 6', 'Cello 7', 'Cello 8', 'Cello 9', 'Cello 10', 'Cello 11', 'Cello 12'], 'names': ['PMLP722137-INCANTATIONS.pdf', 'PMLP722137-INCANTATIONS_BAT_-_Violoncello_1.pdf', 'PMLP722137-INCANTATIONS_BAT_-_Violoncello_2.pdf', 'PMLP722137-INCANTATIONS_BAT_-_Violoncello_3.pdf', 'PMLP722137-INCANTATIONS_BAT_-_Violoncello_4.pdf', 'PMLP722137-INCANTATIONS_BAT_-_Violoncello_5.pdf', 'PMLP722137-INCANTATIONS_BAT_-_Violoncello_6.pdf', 'PMLP722137-INCANTATIONS_BAT_-_Violoncello_7.pdf', 'PMLP722137-INCANTATIONS_BAT_-_Violoncello_8.pdf', 'PMLP722137-INCANTATIONS_BAT_-_Violoncello_9.pdf', 'PMLP722137-INCANTATIONS_BAT_-_Violoncello_10.pdf', 'PMLP722137-INCANTATIONS_BAT_-_Violoncello_11.pdf', 'PMLP722137-INCANTATIONS_BAT_-_Violoncello_12.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=12."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Complete score and twelve cello parts exist; the previously surfaced performance lead was a different saxophone-and-cello-quartet scoring."
+        }
+      ]
+    },
+    {
+      "contextKey": "1423921-original",
+      "pageId": 1423921,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "A teaching collection of instructive etudes/terzetten, outside the concert-repertoire scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1423921.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4529376); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Instructive_Terzetten_(Frank,_Friedrich_Gottlieb_Christian)",
+          "finding": "Source identifies instructive terzetten for study."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-006.json",
+          "finding": "Instructional etudes/terzetten are explicitly pedagogical material rather than concert repertoire."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1093263-original",
+      "pageId": 1093263,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1093263.json",
+          "finding": "Inspected all 1 cached raw revision(s) (3346537); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Samuel Araya Intermezzo 5 cellos performance conservatory ensemble",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 5 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 5,
+          "extent": "whole work as titled; extent exactness not otherwise stated",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1093263.json",
+            "finding": "Raw revision(s) 3346537; original Instrumentation='5 cellos'; exact FILES groups=[{'headingPath': 'Scores and Parts', 'descriptions': ['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4', 'Cello 5'], 'names': ['PMLP1093263-Intermezzo_-_5_Cellos_-_Full_Score.pdf', 'PMLP1093263-Intermezzo_-_5_Cellos_-_Cello_1.pdf', 'PMLP1093263-Intermezzo_-_5_Cellos_-_Cello_2.pdf', 'PMLP1093263-Intermezzo_-_5_Cellos_-_Cello_3.pdf', 'PMLP1093263-Intermezzo_-_5_Cellos_-_Cello_4.pdf', 'PMLP1093263-Intermezzo_-_5_Cellos_-_Cello_5.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=5."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "1541356-original",
+      "pageId": 1541356,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1541356.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4523333); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: W H Lonsdale Intermezzo four violins original performance programme",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "whole work as titled; extent exactness not otherwise stated",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1541356.json",
+            "finding": "Raw revision(s) 4523333; original Instrumentation='4 violins'; exact FILES groups=[{'headingPath': 'Parts', 'descriptions': ['Violin 1', 'Violin 2', 'Violin 3', 'Violin 4'], 'names': ['PMLP1541356-Lons_v1.pdf', 'PMLP1541356-Lons_v2.pdf', 'PMLP1541356-Lons_v3.pdf', 'PMLP1541356-Lons_v4.pdf']}]; score listed=False; complete-parts group listed=False; individually described parts=4."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "981173-original",
+      "pageId": 981173,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/981173.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4050166); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Karl Rorich Intrada Allegro fugato Op.43 four violins performance ensemble",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "whole work as titled; extent exactness not otherwise stated",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/981173.json",
+            "finding": "Raw revision(s) 4050166; original Instrumentation='4 violins'; exact FILES groups=[{'headingPath': 'Parts', 'descriptions': ['Violin 1', 'Violin 2', 'Violin 3', 'Violin 4'], 'names': ['PMLP981173-Rorich_IntradaOp43_Violin1.pdf', 'PMLP981173-Rorich_IntradaOp43_Violin2.pdf', 'PMLP981173-Rorich_IntradaOp43_Violin3.pdf', 'PMLP981173-Rorich_IntradaOp43_Violin4.pdf']}]; score listed=False; complete-parts group listed=False; individually described parts=4."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "863978-original",
+      "pageId": 863978,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/863978.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4744138); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Karl Eugen Petzold Introduction et Polacca Op.21 four violins performance",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "complete work/set (2 sections)",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/863978.json",
+            "finding": "Raw revision(s) 4744138; original Instrumentation='4 violins'; exact FILES groups=[{'headingPath': 'Scores and Parts', 'descriptions': ['Violin 1, 2, 3, 4'], 'names': ['PMLP863978-Petzold_Op.21.pdf']}, {'headingPath': 'Scores and Parts', 'descriptions': ['Complete Score'], 'names': ['PMLP863978-Petzold.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=1."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "203452-original",
+      "pageId": 203452,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The page reports a 2009 first-performance date, but names no performer, venue or programme; the single primary search did not establish a human performance tied to this exact seven-cello version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/203452.json",
+          "finding": "Inspected all 1 cached raw revision(s) (685527); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Paul van Gulick Invidia seven cellos performance premiere programme",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        },
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/203452.json",
+          "finding": "The original-work page reports a first-performance date (2009)."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 7 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 7,
+          "extent": "whole one-movement Invidia for seven cellos (page reports first performance 2009)",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/203452.json",
+            "finding": "Raw revision(s) 685527; original Instrumentation='7 cellos'; exact FILES groups=[{'headingPath': '', 'descriptions': ['Complete Score and Parts'], 'names': ['PMLP203452-Invidia.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The page reports a 2009 first-performance date, but names no performer, venue or programme; the single primary search did not establish a human performance tied to this exact seven-cello version."
+        }
+      ]
+    },
+    {
+      "contextKey": "779146-original",
+      "pageId": 779146,
+      "kind": "original",
+      "decision": "lead",
+      "reason": "Composer’s Bandcamp track is titled “jk (bad canon for four violins; 2017)”; its description says the work is for four violins and first performed by Yuka Matsumoto on all four parts in April 2020; credits identify “Yuka Matsumoto, violins (multitracked).” This is an explicitly human four-part multitrack of the original work. Bandcamp page metadata also says the containing release was published in 2012, earlier than the work date/title; retain this date discrepancy.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/779146.json",
+          "finding": "Inspected all 1 cached raw revision(s) (3597045); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29",
+          "finding": "Cached IMSLP original-page source excerpt: work info and listed score/performance sections."
+        },
+        {
+          "urlOrPath": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+          "finding": "Composer page states work is for four violins, first performed by Yuka Matsumoto on all four parts in 2020; track credits identify multitracked violins. Human performance exists but this is a multitracked solo performance and merits review."
+        },
+        {
+          "urlOrPath": "https://dbtmusic.wordpress.com/",
+          "finding": "Composer work list identifies JK as four violins and duration 9 minutes."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-005.json",
+          "finding": "Complete human recording evidence exists for four violin parts, but the composer credits Yuka Matsumoto performing all parts multitracked; flag for review per policy. Verify complete obtainable score and handling of multitrack floor."
+        },
+        {
+          "urlOrPath": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+          "finding": "Composer’s Bandcamp track is titled “jk (bad canon for four violins; 2017)”; its description says the work is for four violins and first performed by Yuka Matsumoto on all four parts in April 2020; credits identify “Yuka Matsumoto, violins (multitracked).” This is an explicitly human four-part multitrack of the original work. Bandcamp page metadata also says the containing release was published in 2012, earlier than the work date/title; retain this date discrepancy."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "whole one-movement “jk (bad canon for four violins)” (Bandcamp track; composer gives approx. 9 minutes)",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/779146.json",
+            "finding": "Raw revision(s) 3597045; original Instrumentation='4 violins or any 4 identical treble instruments'; exact FILES groups=[{'headingPath': '', 'descriptions': ['Complete Score'], 'names': ['PMLP779146-jk_-_SCORE.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=0."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+              "finding": "Composer’s Bandcamp track is titled “jk (bad canon for four violins; 2017)”; its description says the work is for four violins and first performed by Yuka Matsumoto on all four parts in April 2020; credits identify “Yuka Matsumoto, violins (multitracked).” This is an explicitly human four-part multitrack of the original work. Bandcamp page metadata also says the containing release was published in 2012, earlier than the work date/title; retain this date discrepancy."
+            }
+          ],
+          "decision": "lead",
+          "reason": "Composer’s Bandcamp track is titled “jk (bad canon for four violins; 2017)”; its description says the work is for four violins and first performed by Yuka Matsumoto on all four parts in April 2020; credits identify “Yuka Matsumoto, violins (multitracked).” This is an explicitly human four-part multitrack of the original work. Bandcamp page metadata also says the containing release was published in 2012, earlier than the work date/title; retain this date discrepancy."
+        }
+      ]
+    },
+    {
+      "contextKey": "699565-original",
+      "pageId": 699565,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Complete three-violin score and parts exist; prior focused search did not establish an actual human performance.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/699565.json",
+          "finding": "Inspected all 1 cached raw revision(s) (2121963); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Kleine_Musik_for_3_Violins_(Gieseking,_Walter)",
+          "finding": "Complete score and violin parts listed for three violins."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-006.json",
+          "finding": "Complete score and parts for three violins are listed; a qualifying actual performance was not established in focused search."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "whole work as titled; extent exactness not otherwise stated",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/699565.json",
+            "finding": "Raw revision(s) 2121963; original Instrumentation='3 violins'; exact FILES groups=[{'headingPath': 'Scores and Parts', 'descriptions': ['Score', 'Parts'], 'names': ['PMLP699565-GiesekingPart.PDF', 'PMLP699565-GiesekingSt.PDF']}]; score listed=True; complete-parts group listed=False; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Complete three-violin score and parts exist; prior focused search did not establish an actual human performance."
+        }
+      ]
+    },
+    {
+      "contextKey": "66535-original",
+      "pageId": 66535,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/66535.json",
+          "finding": "Inspected all 1 cached raw revision(s) (364105); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Rainer Lewalter Klezmer Fantasy four double basses performance album",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 double basss",
+          "arranger": null,
+          "instrument": "double bass",
+          "independentPartCount": 4,
+          "extent": "all four movements of Klezmer Fantasy",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/66535.json",
+            "finding": "Raw revision(s) 364105; original Instrumentation='4 contrabasses (up to 2 can be substituted with cellos)'; exact FILES groups=[{'headingPath': '', 'descriptions': ['Complete score of all 4 movements'], 'names': ['PMLP66535-Klezmer_Fantasy.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "1009225-original",
+      "pageId": 1009225,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1009225.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4596928); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Hermann Grabner Konzert im Alten Stil Op.1 three violins recording performance",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "complete three-movement Konzert im Alten Stil, Op.1",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1009225.json",
+            "finding": "Raw revision(s) 4596928; original Instrumentation='3 violins'; exact FILES groups=[{'headingPath': 'Scores and Parts', 'descriptions': ['Complete Score', 'Violin 1', 'Violin 2', 'Violin 3'], 'names': ['SIBLEY1802.8437.9fbb-39087008992416score.pdf', 'SIBLEY1802.8437.333b-39087008992416violin_1.pdf', 'SIBLEY1802.8437.51a6-39087008992416violin_2.pdf', 'SIBLEY1802.8437.1b5d-39087008992416violin_3.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=3."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "1526288-original",
+      "pageId": 1526288,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1526288.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4495220); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Marcellus Wick L’Homme au Chapeau Vert four violins performance",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "whole one-movement work as titled",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1526288.json",
+            "finding": "Raw revision(s) 4495220; original Instrumentation='4 violins'; exact FILES groups=[{'headingPath': '', 'descriptions': ['Complete Score'], 'names': ['PMLP1526288-homme_au_chapeau_vert_allegretto_Bes_4_vl.pdf']}, {'headingPath': 'Parts', 'descriptions': ['Violin 1', 'Violin 2', 'Violin 3', 'Violin 4'], 'names': ['PMLP1526288-homme_au_chapeau_vert_vl1.pdf', 'PMLP1526288-homme_au_chapeau_vert_vl2.pdf', 'PMLP1526288-homme_au_chapeau_vert_vl3.pdf', 'PMLP1526288-homme_au_chapeau_vert_vl4.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=4."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "1126090-original",
+      "pageId": 1126090,
+      "kind": "original",
+      "decision": "lead",
+      "reason": "Universal Music Italia / ASV album (UPC 00743625093629; published 2015-02-11) lists track 9 “La Poesia for 4 cellos,” duration 6:24, performed by The Philharmonia Soloists/Pietro Spada; track credits name cello players David Jones, Rhydian Shazson, Michael Hurwitz and Jocelyn Gale. The IMSLP original page has a complete-score-and-parts file for Mercadante’s four-cello work.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1126090.json",
+          "finding": "Inspected all 1 cached raw revision(s) (3622444); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Saverio Mercadante La Poesia four cellos performance or recording",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        },
+        {
+          "urlOrPath": "https://www.universalmusic.it/musica-classica/album/mercadante-decimini-la-poesia_31548240659/",
+          "finding": "Universal Music Italia / ASV album (UPC 00743625093629; published 2015-02-11) lists track 9 “La Poesia for 4 cellos,” duration 6:24, performed by The Philharmonia Soloists/Pietro Spada; track credits name cello players David Jones, Rhydian Shazson, Michael Hurwitz and Jocelyn Gale. The IMSLP original page has a complete-score-and-parts file for Mercadante’s four-cello work."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole “La Poesia” for four cellos (recording 6:24)",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1126090.json",
+            "finding": "Raw revision(s) 3622444; original Instrumentation='4 cellos'; exact FILES groups=[{'headingPath': 'Scores and Parts', 'descriptions': ['Complete Score & Parts'], 'names': ['PMLP1126090-Mercadante.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=0."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://www.universalmusic.it/musica-classica/album/mercadante-decimini-la-poesia_31548240659/",
+              "finding": "Universal Music Italia / ASV album (UPC 00743625093629; published 2015-02-11) lists track 9 “La Poesia for 4 cellos,” duration 6:24, performed by The Philharmonia Soloists/Pietro Spada; track credits name cello players David Jones, Rhydian Shazson, Michael Hurwitz and Jocelyn Gale. The IMSLP original page has a complete-score-and-parts file for Mercadante’s four-cello work."
+            }
+          ],
+          "decision": "lead",
+          "reason": "Universal Music Italia / ASV album (UPC 00743625093629; published 2015-02-11) lists track 9 “La Poesia for 4 cellos,” duration 6:24, performed by The Philharmonia Soloists/Pietro Spada; track credits name cello players David Jones, Rhydian Shazson, Michael Hurwitz and Jocelyn Gale. The IMSLP original page has a complete-score-and-parts file for Mercadante’s four-cello work."
+        }
+      ]
+    },
+    {
+      "contextKey": "1141873-original",
+      "pageId": 1141873,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Page Work Info says 3 violins, but the full FILES section supplies only a score for horn, trumpet and euphonium; no score or playable parts for the stated original three-violin version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1141873.json",
+          "finding": "Inspected all 1 cached raw revision(s) (3783222); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-001.json",
+          "finding": "Three-violin original scoring appears on page, but excerpted files are an arrangement for horn, trumpet and euphonium; no exact-scoring human performance shown."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "55141-original",
+      "pageId": 55141,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The four-violin source covers only Op.203 No.3 Recueillement, and the full three-piece set is not represented by complete files; no matching human performance was documented in prior review.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/55141.json",
+          "finding": "Inspected all 1 cached raw revision(s) (2750311); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-002.json",
+          "finding": "Only the individual “Recueillement” score/parts and an unrelated guitar MIDI appear in the excerpt; the full three-piece set and a human performance floor were not confirmed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "Op.203 No.3 “Recueillement” (the only four-violin selection file group; full three-piece set is not fully represented in the cached files)",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/55141.json",
+            "finding": "Raw revision(s) 2750311; original Instrumentation='4 violins'; exact FILES groups=[{'headingPath': 'Scores and Parts > 3. Recueillement', 'descriptions': ['Complete Score', 'Violin 1', 'Violin 3', 'Violin 4'], 'names': ['PMLP55141-Score.pdf', 'PMLP55141-v.1.pdf', 'PMLP55141-v.3.pdf', 'PMLP55141-v.4.pdf']}, {'headingPath': 'Scores and Parts > 3. Recueillement', 'descriptions': ['Complete Score and Parts', 'Engraving Files (MuseScore)'], 'names': ['PMLP55141-CDancla_Recueillement,_Op._203_No._3_score-parts.pdf', 'PMLP55141-CDancla_Recueillement,_Op._203_No._3.zip']}, {'headingPath': 'Arrangements and Transcriptions > 3. Recueillement > For 4 Guitars (Höger)', 'descriptions': ['Complete Score', 'Guitar 1', 'Guitar 2', 'Guitar 3', 'Guitar 4'], 'names': ['PMLP55141-Dancla_-_Recueillement.pdf', 'PMLP55141-Dancla_-_Recueillement_-_Git_1.pdf', 'PMLP55141-Dancla_-_Recueillement_-_Git_2.pdf', 'PMLP55141-Dancla_-_Recueillement_-_Git_3.pdf', 'PMLP55141-Dancla_-_Recueillement_-_Git_4.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=3."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The four-violin source covers only Op.203 No.3 Recueillement, and the full three-piece set is not represented by complete files; no matching human performance was documented in prior review."
+        }
+      ]
+    },
+    {
+      "contextKey": "364695-original",
+      "pageId": 364695,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/364695.json",
+          "finding": "Inspected all 1 cached raw revision(s) (2442471); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Eduard Grell Larghetto for four cellos performance recording",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole one-movement work as titled",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/364695.json",
+            "finding": "Raw revision(s) 2442471; original Instrumentation='4 Violoncelli'; exact FILES groups=[{'headingPath': 'Scores and Parts', 'descriptions': ['Score', 'Violoncello 1', 'Violoncello 2', 'Violoncello 3', 'Violoncello 4'], 'names': ['SIBLEY1802.15776.7a3f-39087009091796score.pdf', 'SIBLEY1802.15776.9e58-39087009091796cello1.pdf', 'SIBLEY1802.15776.7a7b-39087009091796cello2.pdf', 'SIBLEY1802.15776.913a-39087009091796cello3.pdf', 'SIBLEY1802.15776.86d0-39087009091796cello4.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=4."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "1528527-original",
+      "pageId": 1528527,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1528527.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4495226); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Marcellus Wick Les flagorneurs for four violins human performance",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "whole one-movement work as titled",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1528527.json",
+            "finding": "Raw revision(s) 4495226; original Instrumentation='4 violins'; exact FILES groups=[{'headingPath': '', 'descriptions': ['Complete Score'], 'names': ['PMLP1528527-les_flagorneurs_4_vl.pdf']}, {'headingPath': 'Parts', 'descriptions': ['Violin 1', 'Violin 2', 'Violin 3', 'Violin 4'], 'names': ['PMLP1528527-les_flagorneurs_vl1.pdf', 'PMLP1528527-les_flagorneurs_vl2.pdf', 'PMLP1528527-les_flagorneurs_vl3.pdf', 'PMLP1528527-les_flagorneurs_vl4.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=4."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "721242-original",
+      "pageId": 721242,
+      "kind": "original",
+      "decision": "lead",
+      "reason": "Composer’s official works list identifies Marble Fountain (2016) for 8 violas.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/721242.json",
+          "finding": "Inspected all 1 cached raw revision(s) (2193010); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Jonathan Crosmer Marble Fountain eight violas performance",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        },
+        {
+          "urlOrPath": "https://jonathancrosmer.com/music/works/",
+          "finding": "Composer’s official works list identifies Marble Fountain (2016) for 8 violas."
+        },
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/721242.json",
+          "finding": "Original score page identifies 8 violas and reports first performance on 2016-04-23 at Kimball Recital Hall, Lincoln, Nebraska, by NEBratsche; the work is one movement and a complete score with all eight viola parts is listed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 8 violas",
+          "arranger": null,
+          "instrument": "viola",
+          "independentPartCount": 8,
+          "extent": "whole one-movement Marble Fountain",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/721242.json",
+            "finding": "Raw revision(s) 2193010; original Instrumentation='8 violas'; exact FILES groups=[{'headingPath': 'Scores and Parts', 'descriptions': ['Complete Score', 'Viola 1', 'Viola 2', 'Viola 3', 'Viola 4', 'Viola 5', 'Viola 6', 'Viola 7', 'Viola 8', 'Engraving files (with MIDI)'], 'names': ['PMLP721242-Marble_Fountain_-_Score.pdf', 'PMLP721242-Marble_Fountain_-_Viola_1.pdf', 'PMLP721242-Marble_Fountain_-_Viola_2.pdf', 'PMLP721242-Marble_Fountain_-_Viola_3.pdf', 'PMLP721242-Marble_Fountain_-_Viola_4.pdf', 'PMLP721242-Marble_Fountain_-_Viola_5.pdf', 'PMLP721242-Marble_Fountain_-_Viola_6.pdf', 'PMLP721242-Marble_Fountain_-_Viola_7.pdf', 'PMLP721242-Marble_Fountain_-_Viola_8.pdf', 'PMLP721242-Marble_Fountain.zip']}]; score listed=True; complete-parts group listed=False; individually described parts=8."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://jonathancrosmer.com/music/works/",
+              "finding": "Composer’s official works list identifies Marble Fountain (2016) for 8 violas."
+            },
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/721242.json",
+              "finding": "Original score page identifies 8 violas and reports first performance on 2016-04-23 at Kimball Recital Hall, Lincoln, Nebraska, by NEBratsche; the work is one movement and a complete score with all eight viola parts is listed."
+            }
+          ],
+          "decision": "lead",
+          "reason": "Composer’s official works list identifies Marble Fountain (2016) for 8 violas."
+        }
+      ]
+    },
+    {
+      "contextKey": "688464-original",
+      "pageId": 688464,
+      "kind": "original",
+      "decision": "held",
+      "reason": "A complete score and parts are listed, but historical sources conflict on whether a basso part is required; homogeneous three-violin scoring remains unresolved.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/688464.json",
+          "finding": "Inspected all 1 cached raw revision(s) (3532801); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-002.json",
+          "finding": "Historical commentary conflicts over whether this is strictly three violins (Grove reportedly lists a basso part); inspect the complete score and establish a qualifying human performance before acceptance."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "whole one-movement work as titled",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/688464.json",
+            "finding": "Raw revision(s) 3532801; original Instrumentation='3 violins (the top part has added text)'; exact FILES groups=[{'headingPath': 'Scores and Parts', 'descriptions': ['Complete Score'], 'names': ['PMLP688464-libro3.pdf']}, {'headingPath': 'Scores and Parts', 'descriptions': ['Complete Score and Parts'], 'names': ['PMLP688464-JCdeArriaga_Nada-y-mucho_score_parts.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "A complete score and parts are listed, but historical sources conflict on whether a basso part is required; homogeneous three-violin scoring remains unresolved."
+        }
+      ]
+    },
+    {
+      "contextKey": "684197-original",
+      "pageId": 684197,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Complete parts for four cellos exist; prior review found no human performance evidence.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/684197.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4826133); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Nocturne_for_4_Cellos,_Op.90_(Maurer,_Ludwig_Wilhelm)",
+          "finding": "IMSLP lists complete parts for four cellos and a four-staff incipit; no recording is listed."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-004.json",
+          "finding": "Four cello parts and an incipit are visible, but the score page provides no performance recording or professionally performed floor."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole work as titled; extent exactness not otherwise stated",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/684197.json",
+            "finding": "Raw revision(s) 4826133; original Instrumentation='4 cellos'; exact FILES groups=[{'headingPath': 'Parts', 'descriptions': ['Complete Parts'], 'names': ['PMLP684197-maurer_nocturne_4vc_op90_455131821.pdf']}]; score listed=False; complete-parts group listed=True; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Complete parts for four cellos exist; prior review found no human performance evidence."
+        }
+      ]
+    },
+    {
+      "contextKey": "1447444-original",
+      "pageId": 1447444,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1447444.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4355532); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Bruno Wilfert Nocturno Op.5 four cellos performance",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole work as titled; extent exactness not otherwise stated",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1447444.json",
+            "finding": "Raw revision(s) 4355532; original Instrumentation='4 cellos'; exact FILES groups=[{'headingPath': 'Parts', 'descriptions': ['Complete Parts'], 'names': ['PMLP1447444-Bruno_Wilfert_Nocturno.PDF']}]; score listed=False; complete-parts group listed=True; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "457870-original",
+      "pageId": 457870,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The publisher lists a complete score for the 20-piece, two-book set and a Band I violin 1 part is missing. No exact-version human performance was established in the one bounded search.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/457870.json",
+          "finding": "Inspected all 1 cached raw revision(s) (2033055); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Nikolaj Hansen Norden Album three violins recording performance",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "Norden Album, 20 pieces in two books; complete score is listed, though Band I No.1 violin 1 part is missing.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/457870.json",
+            "finding": "Raw revision(s) 2033055; original Instrumentation='3 violins (2 violin edition also published)'; exact FILES groups=[{'headingPath': 'Scores and Parts > Complete', 'descriptions': ['Complete Score and Parts (No.1 violin 1 missing)'], 'names': ['PMLP457870-NHansen_Norden_bands12_scoreparts.pdf']}, {'headingPath': 'Scores and Parts > Band I', 'descriptions': ['Violin 1 - part (missing No.1)', 'Violin 2 - part', 'Violin 3 - playing score'], 'names': ['PMLP457870-Hanse_Norden_3vl_Book_1_vl1_ed.pdf', 'PMLP457870-Hanse_Norden_3vl_Book_1_vl_2.pdf', 'PMLP457870-Hanse_Norden_3vl_ed_Bookl_1Vl3_score.pdf']}, {'headingPath': 'Band II', 'descriptions': ['Violin 1 - part', 'Violin 2 - part', 'Violin 3 - playing score'], 'names': ['PMLP457870-Hanse_Norden_vl_1_bk_2.pdf', 'PMLP457870-Hanse_Norden_vl_2_bk_2.pdf', 'PMLP457870-Hanse_Norden_3vl_ed_Vol_2_Vl3_score.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=7."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The publisher lists a complete score for the 20-piece, two-book set and a Band I violin 1 part is missing. No exact-version human performance was established in the one bounded search."
+        }
+      ]
+    },
+    {
+      "contextKey": "1449070-original",
+      "pageId": 1449070,
+      "kind": "original",
+      "decision": "lead",
+      "reason": "Divine Art release DDA 25002 identifies Cello Spice as Alison Lawrence, Gillian Copp, John Davidson and Mark Bailey and says the album is original works for three or four cellos; track 8 is Mainardi’s Notturno, 7:27. The original IMSLP page identifies four cellos and lists complete parts.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1449070.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4513556); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Enrico Mainardi Notturno four cellos performance recording",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        },
+        {
+          "urlOrPath": "https://divineartrecords.com/recording/a-celebration-of-cellos/",
+          "finding": "Divine Art release DDA 25002 identifies Cello Spice as Alison Lawrence, Gillian Copp, John Davidson and Mark Bailey and says the album is original works for three or four cellos; track 8 is Mainardi’s Notturno, 7:27. The original IMSLP page identifies four cellos and lists complete parts."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole Notturno for four cellos (recording 7:27)",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1449070.json",
+            "finding": "Raw revision(s) 4513556; original Instrumentation='4 cellos'; exact FILES groups=[{'headingPath': 'Parts', 'descriptions': ['Complete Parts'], 'names': ['PMLP1449070-PMLUS05926-Enrico_Mainardi_Notturno.pdf']}]; score listed=False; complete-parts group listed=True; individually described parts=0."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://divineartrecords.com/recording/a-celebration-of-cellos/",
+              "finding": "Divine Art release DDA 25002 identifies Cello Spice as Alison Lawrence, Gillian Copp, John Davidson and Mark Bailey and says the album is original works for three or four cellos; track 8 is Mainardi’s Notturno, 7:27. The original IMSLP page identifies four cellos and lists complete parts."
+            }
+          ],
+          "decision": "lead",
+          "reason": "Divine Art release DDA 25002 identifies Cello Spice as Alison Lawrence, Gillian Copp, John Davidson and Mark Bailey and says the album is original works for three or four cellos; track 8 is Mainardi’s Notturno, 7:27. The original IMSLP page identifies four cellos and lists complete parts."
+        }
+      ]
+    },
+    {
+      "contextKey": "88695-original",
+      "pageId": 88695,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "The source has two required violins; a third violin is ad libitum only for one item, below the three-required-part floor.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/88695.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4215831); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1384597-original",
+      "pageId": 1384597,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1384597.json",
+          "finding": "Inspected all 1 cached raw revision(s) (4103125); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Andreas Sorg Passacaglia Op.9 eight violas performance",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 8 violas",
+          "arranger": null,
+          "instrument": "viola",
+          "independentPartCount": 8,
+          "extent": "whole work as titled; extent exactness not otherwise stated",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1384597.json",
+            "finding": "Raw revision(s) 4103125; original Instrumentation='8 violas (1st viola solo)'; exact FILES groups=[{'headingPath': '', 'descriptions': ['Complete Score'], 'names': ['PMLP1384597-Partitur.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "Exact score/parts evidence exists, but the one bounded primary search did not surface exact-version human performance evidence; this is a concrete floor gap, not a claim that the work was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "520465-original",
+      "pageId": 520465,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The page reports a 2014-04-12 first-performance date, but names no performer, venue or programme; the single primary search did not establish a human performance tied to this exact four-cello version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/520465.json",
+          "finding": "Inspected all 1 cached raw revision(s) (1713166); read complete WORK INFO, FILES and AUDIO sections, every heading depth, and adjacent score/part/performance blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked current canonical works and ID registry by composer plus exact source title/page identity; no exact duplicate found."
+        },
+        {
+          "urlOrPath": "Bounded primary-source web search: Orfeo Mandozzi Perinita for 4 cellos performance recording concert",
+          "finding": "One targeted search completed. No exact-version human performance source surfaced in the results for this work; this records the result of that bounded search only and is not a claim that the work was never performed."
+        },
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/520465.json",
+          "finding": "The original-work page reports a first-performance date (2014-04-12). The source does not identify a performer, event or venue."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole Perinita for four cellos (page reports first performance 2014-04-12)",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/520465.json",
+            "finding": "Raw revision(s) 1713166; original Instrumentation='4 cellos'; exact FILES groups=[{'headingPath': '', 'descriptions': ['Complete Score'], 'names': ['PMLP520465-Romanian_Folk_Perinita_-_Partitur.pdf']}]; score listed=True; complete-parts group listed=False; individually described parts=0."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The page reports a 2014-04-12 first-performance date, but names no performer, venue or programme; the single primary search did not establish a human performance tied to this exact four-cello version."
+        }
+      ]
+    }
+  ]
+}

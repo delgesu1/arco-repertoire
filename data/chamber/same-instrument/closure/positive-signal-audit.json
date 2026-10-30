@@ -1,0 +1,633 @@
+{
+  "status": "complete",
+  "entries": [
+    {
+      "contextKey": "1212753-original",
+      "pageId": 1212753,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The page records a first-performance date and dedication to the Oldenburg State Orchestra bass group, but the bounded primary-source review found no named human performers or programme for the exact original four-double-bass work.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1212753.json",
+          "finding": "Inspected complete cached raw revision 3734482, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/2_Intermezzi_f%C3%BCr_4_Kontrab%C3%A4sse_(K%C3%B6rner,_Norbert)",
+          "finding": "The page records a first-performance date and dedication to the Oldenburg State Orchestra bass group, but the bounded primary-source review found no named human performers or programme for the exact original four-double-bass work."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "2 Intermezzi für 4 Kontrabässe",
+          "instrument": "double bass",
+          "independentPartCount": 4,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1212753.json",
+            "finding": "1999–2022; two intermezzos; complete score"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The page records a first-performance date and dedication to the Oldenburg State Orchestra bass group, but the bounded primary-source review found no named human performers or programme for the exact original four-double-bass work."
+        }
+      ]
+    },
+    {
+      "contextKey": "1274114-original",
+      "pageId": 1274114,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The primary page records a first-performance year (2002), three-viola scoring and complete score and parts, but does not identify people, ensemble or venue; the bounded review found no primary programme/credit connecting an identifiable human performance to this exact work.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1274114.json",
+          "finding": "Inspected complete cached raw revision 3815958, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/2_Inventions,_Op.98_(Mekaev,_Alexander)",
+          "finding": "The primary page records a first-performance year (2002), three-viola scoring and complete score and parts, but does not identify people, ensemble or venue; the bounded review found no primary programme/credit connecting an identifiable human performance to this exact work."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "2 Inventions, Op.98",
+          "instrument": "viola",
+          "independentPartCount": 3,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1274114.json",
+            "finding": "2002; two movements; complete score and parts"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The primary page records a first-performance year (2002), three-viola scoring and complete score and parts, but does not identify people, ensemble or venue; the bounded review found no primary programme/credit connecting an identifiable human performance to this exact work."
+        }
+      ]
+    },
+    {
+      "contextKey": "901249-original",
+      "pageId": 901249,
+      "kind": "original",
+      "decision": "lead",
+      "reason": "Version A is the exact 8-viola version. The composer’s IMSLP work page records its first performance at the 2012-02-23 opening concert of the Dordrecht Altvioolfestival, and the official composer page distinguishes the separate clarinet-choir and mixed-string versions. No performer names were located; the documented event is the human floor.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/901249.json",
+          "finding": "Inspected complete cached raw revision 3626867, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+          "finding": "Version A is the exact 8-viola version. The composer’s IMSLP work page records its first performance at the 2012-02-23 opening concert of the Dordrecht Altvioolfestival, and the official composer page distinguishes the separate clarinet-choir and mixed-string versions. No performer names were located; the documented event is the human floor."
+        },
+        {
+          "urlOrPath": "https://arievanhoek.nl/gratis-bladmuziek-naar-componist/arie-van-hoek.html",
+          "finding": "Composer’s own sheet-music page lists the separate eight-viola version and documents alternate arrangements; this helps keep Version A distinct from the clarinet-choir and mixed-string versions."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Version A: 8 Violas",
+          "instrument": "viola",
+          "independentPartCount": 8,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/901249.json",
+            "finding": "2011; three movements; complete score and eight viola parts"
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+              "finding": "Version A is the exact 8-viola version. The composer’s IMSLP work page records its first performance at the 2012-02-23 opening concert of the Dordrecht Altvioolfestival, and the official composer page distinguishes the separate clarinet-choir and mixed-string versions. No performer names were located; the documented event is the human floor."
+            }
+          ],
+          "decision": "lead",
+          "reason": "Version A is the exact 8-viola version. The composer’s IMSLP work page records its first performance at the 2012-02-23 opening concert of the Dordrecht Altvioolfestival, and the official composer page distinguishes the separate clarinet-choir and mixed-string versions. No performer names were located; the documented event is the human floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "1484372-original",
+      "pageId": 1484372,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The IMSLP file is explicitly credited to Noteperformer AI and is excluded as a performance floor. IMSLP lists a first-performance year (2016) and dedication to Freya Cellista, but the bounded primary-source review found no identifiable human performer or ensemble tied to the exact four-cello version. This is an evidence gap, not a claim that it was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1484372.json",
+          "finding": "Inspected complete cached raw revision 4377630, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+          "finding": "The IMSLP file is explicitly credited to Noteperformer AI and is excluded as a performance floor. IMSLP lists a first-performance year (2016) and dedication to Freya Cellista, but the bounded primary-source review found no identifiable human performer or ensemble tied to the exact four-cello version. This is an evidence gap, not a claim that it was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Adesso for 4 Cellos, O.68",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1484372.json",
+            "finding": "2016–24; one movement; complete score and parts"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The IMSLP file is explicitly credited to Noteperformer AI and is excluded as a performance floor. IMSLP lists a first-performance year (2016) and dedication to Freya Cellista, but the bounded primary-source review found no identifiable human performer or ensemble tied to the exact four-cello version. This is an evidence gap, not a claim that it was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "1093258-original",
+      "pageId": 1093258,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The exact three-cello score and parts are listed, and the work page records only a 2019 first-performance year. The bounded primary-source search did not identify the performers/ensemble or a release for this exact version; no claim is made that it was never performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1093258.json",
+          "finding": "Inspected complete cached raw revision 3345766, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Ba_Humbug_(Araya,_Samuel)",
+          "finding": "The exact three-cello score and parts are listed, and the work page records only a 2019 first-performance year. The bounded primary-source search did not identify the performers/ensemble or a release for this exact version; no claim is made that it was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Ba Humbug",
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1093258.json",
+            "finding": "2019; complete score and cello parts 1–3"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The exact three-cello score and parts are listed, and the work page records only a 2019 first-performance year. The bounded primary-source search did not identify the performers/ensemble or a release for this exact version; no claim is made that it was never performed."
+        }
+      ]
+    },
+    {
+      "contextKey": "704370-original",
+      "pageId": 704370,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Skipped this context under the assigned scope: saved prior evidence has {{NoPerf}} and no positive human-performance signal. Preserving the existing held status; no failed search repeated.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704370.json",
+          "finding": "Inspected full cached raw revision 2688746 only as needed to confirm the existing floor/score hold."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704377-original",
+      "pageId": 704377,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Skipped this context under the assigned scope: saved prior evidence has {{NoPerf}} and no positive human-performance signal. Preserving the existing held status; no failed search repeated.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704377.json",
+          "finding": "Inspected full cached raw revision 2136548 only as needed to confirm the existing floor/score hold."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704522-original",
+      "pageId": 704522,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Skipped this context under the assigned scope: saved prior evidence has {{NoPerf}} and no positive human-performance signal. Preserving the existing held status; no failed search repeated.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704522.json",
+          "finding": "Inspected full cached raw revision 2136905 only as needed to confirm the existing floor/score hold."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704531-original",
+      "pageId": 704531,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Skipped this context under the assigned scope: saved prior evidence has {{NoPerf}} and no positive human-performance signal. Preserving the existing held status; no failed search repeated.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704531.json",
+          "finding": "Inspected full cached raw revision 2136906 only as needed to confirm the existing floor/score hold."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704070-original",
+      "pageId": 704070,
+      "kind": "original",
+      "decision": "lead",
+      "reason": "A composer-uploaded video has metadata for a five-minute live performance of Cello Quartet No.4 at Concerto SESC Partituras Roraima on 2016-04-09; IMSLP independently lists that first-performance event and a complete four-cello score plus four cello parts. The video title and description identify the exact work/scoring; performer names are not listed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704070.json",
+          "finding": "Inspected complete cached raw revision 2827835, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+          "finding": "A composer-uploaded video has metadata for a five-minute live performance of Cello Quartet No.4 at Concerto SESC Partituras Roraima on 2016-04-09; IMSLP independently lists that first-performance event and a complete four-cello score plus four cello parts. The video title and description identify the exact work/scoring; performer names are not listed."
+        },
+        {
+          "urlOrPath": "https://www.youtube.com/watch?v=I7kwqO0YeWU",
+          "finding": "yt-dlp metadata: title “Quarteto de cellos n.º 4 - Gabriel Alencar”; channel Gabriel Alencar; duration 302 seconds; description identifies a performance on 2016-04-09 at Concerto SESC Partituras Roraima in Boa Vista. Exact video title and event description identify the human performance; player names are not listed."
+        },
+        {
+          "urlOrPath": "https://www.folhabv.com.br/cotidiano/sesc-promove-concerto-de-partituras-neste-sabado/",
+          "finding": "Contemporary event notice identifies the 9 April 2016 SESC Partituras Roraima concert and the participating ensembles/author; paired with the composer-uploaded exact-work video and IMSLP’s same first-performance record."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Cello Quartet No.4",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/704070.json",
+            "finding": "2008; four-cello score and Cello I–IV parts"
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+              "finding": "A composer-uploaded video has metadata for a five-minute live performance of Cello Quartet No.4 at Concerto SESC Partituras Roraima on 2016-04-09; IMSLP independently lists that first-performance event and a complete four-cello score plus four cello parts. The video title and description identify the exact work/scoring; performer names are not listed."
+            }
+          ],
+          "decision": "lead",
+          "reason": "A composer-uploaded video has metadata for a five-minute live performance of Cello Quartet No.4 at Concerto SESC Partituras Roraima on 2016-04-09; IMSLP independently lists that first-performance event and a complete four-cello score plus four cello parts. The video title and description identify the exact work/scoring; performer names are not listed."
+        }
+      ]
+    },
+    {
+      "contextKey": "704077-original",
+      "pageId": 704077,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Skipped this context under the assigned scope: saved prior evidence has {{NoPerf}} and no positive human-performance signal. Preserving the existing held status; no failed search repeated.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704077.json",
+          "finding": "Inspected full cached raw revision 2827836 only as needed to confirm the existing floor/score hold."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704084-original",
+      "pageId": 704084,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Skipped this context under the assigned scope: saved prior evidence has {{NoPerf}} and no positive human-performance signal. Preserving the existing held status; no failed search repeated.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704084.json",
+          "finding": "Inspected full cached raw revision 2827837 only as needed to confirm the existing floor/score hold."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704092-original",
+      "pageId": 704092,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Skipped this context under the assigned scope: saved prior evidence has {{NoPerf}} and no positive human-performance signal. Preserving the existing held status; no failed search repeated.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704092.json",
+          "finding": "Inspected full cached raw revision 2136495 only as needed to confirm the existing floor/score hold."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704361-original",
+      "pageId": 704361,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Skipped this context under the assigned scope: saved prior evidence has {{NoPerf}} and no positive human-performance signal. Preserving the existing held status; no failed search repeated.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704361.json",
+          "finding": "Inspected full cached raw revision 2136546 only as needed to confirm the existing floor/score hold."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "576800-original",
+      "pageId": 576800,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The page records a first-performance date of 2014-12-18, but the only audio submitted is explicitly a Finale 2014 synthesized performance. The single primary-source review did not identify human performers or an ensemble for the three-violin version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/576800.json",
+          "finding": "Inspected complete cached raw revision 4692465, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Christmas_Trio_(Boktor,_Anton)",
+          "finding": "The page records a first-performance date of 2014-12-18, but the only audio submitted is explicitly a Finale 2014 synthesized performance. The single primary-source review did not identify human performers or an ensemble for the three-violin version."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Christmas Trio",
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/576800.json",
+            "finding": "2014; complete score; no separate parts listed"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The page records a first-performance date of 2014-12-18, but the only audio submitted is explicitly a Finale 2014 synthesized performance. The single primary-source review did not identify human performers or an ensemble for the three-violin version."
+        }
+      ]
+    },
+    {
+      "contextKey": "834983-original",
+      "pageId": 834983,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Humanoverlayfloor established; complete-score handler515093 errorHTML; alternativecomposerFreeScoresfullPDFrequireslogin. Actualnotationinsufficientforresponsiblegrade, preserveholdandavoidretries. Skipped this context as instructed; prior score retrieval failed and no repeat attempted.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/834983.json",
+          "finding": "Inspected full cached raw revision 4497887 only as needed to confirm the existing floor/score hold."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "203452-original",
+      "pageId": 203452,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The primary work page records a 2009 first-performance year and lists complete score and parts for seven cellos, but identifies no human performers, venue or programme. The bounded primary-source review did not close that identity gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/203452.json",
+          "finding": "Inspected complete cached raw revision 685527, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Invidia_(Gulick,_Paul_van)",
+          "finding": "The primary work page records a 2009 first-performance year and lists complete score and parts for seven cellos, but identifies no human performers, venue or programme. The bounded primary-source review did not close that identity gap."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Invidia",
+          "instrument": "cello",
+          "independentPartCount": 7,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/203452.json",
+            "finding": "2009; complete score and parts"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The primary work page records a 2009 first-performance year and lists complete score and parts for seven cellos, but identifies no human performers, venue or programme. The bounded primary-source review did not close that identity gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "520465-original",
+      "pageId": 520465,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The source records a first performance on 2014-04-12, lists a complete four-cello score, and dedicates it to the BJO cello group. The bounded search did not identify which ensemble BJO denotes or the human performers/programme for this exact version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/520465.json",
+          "finding": "Inspected complete cached raw revision 1713166, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Perinita_for_4_Cellos_(Mandozzi,_Orfeo)",
+          "finding": "The source records a first performance on 2014-04-12, lists a complete four-cello score, and dedicates it to the BJO cello group. The bounded search did not identify which ensemble BJO denotes or the human performers/programme for this exact version."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Perinita for 4 Cellos",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/520465.json",
+            "finding": "2014; complete score"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The source records a first performance on 2014-04-12, lists a complete four-cello score, and dedicates it to the BJO cello group. The bounded search did not identify which ensemble BJO denotes or the human performers/programme for this exact version."
+        }
+      ]
+    },
+    {
+      "contextKey": "1326417-original",
+      "pageId": 1326417,
+      "kind": "original",
+      "decision": "held",
+      "reason": "ScorecompleteandcomposercreditedhumanRecordingssection; independentSol reviewrequestsconfirmationofhumanmultitrackmethod. Pendingactualpositiveevidence, retainedasversion/performancehold, notimported. Skipped this context as instructed; prior human-multitrack identity review remains unresolved.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1326417.json",
+          "finding": "Inspected full cached raw revision 3923706 only as needed to confirm the existing floor/score hold."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "549889-original",
+      "pageId": 549889,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The primary work page records a 2002-03-24 first-performance date and a complete score-and-parts file for four violas. It does not name the performers or event; the bounded targeted primary-source review found no exact-version performance credits.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/549889.json",
+          "finding": "Inspected complete cached raw revision 1640519, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Romance,_Op.98_(Fine,_Marshall)",
+          "finding": "The primary work page records a 2002-03-24 first-performance date and a complete score-and-parts file for four violas. It does not name the performers or event; the bounded targeted primary-source review found no exact-version performance credits."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Romance for 4 Violas, Op.98",
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/549889.json",
+            "finding": "2001; complete score and parts"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The primary work page records a 2002-03-24 first-performance date and a complete score-and-parts file for four violas. It does not name the performers or event; the bounded targeted primary-source review found no exact-version performance credits."
+        }
+      ]
+    },
+    {
+      "contextKey": "138907-original",
+      "pageId": 138907,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Skipped this context under the assigned scope: saved prior evidence has {{NoPerf}} and no positive human-performance signal. Preserving the existing held status; no failed search repeated.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/138907.json",
+          "finding": "Inspected full cached raw revision 2845766 only as needed to confirm the existing floor/score hold."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "655659-original",
+      "pageId": 655659,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The page records a first performance in 1993 at Herk-de-Stad, Belgium, and lists a complete score and complete parts for four cellos. The audio upload is explicitly synthesized; no named human performers or programme were identified in the bounded primary-source review.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/655659.json",
+          "finding": "Inspected complete cached raw revision 2588882, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Slow_Motion_(De_Bleser,_Werner_J.E.)",
+          "finding": "The page records a first performance in 1993 at Herk-de-Stad, Belgium, and lists a complete score and complete parts for four cellos. The audio upload is explicitly synthesized; no named human performers or programme were identified in the bounded primary-source review."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Slow Motion, C027",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/655659.json",
+            "finding": "1991; one movement; complete score and parts"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The page records a first performance in 1993 at Herk-de-Stad, Belgium, and lists a complete score and complete parts for four cellos. The audio upload is explicitly synthesized; no named human performers or programme were identified in the bounded primary-source review."
+        }
+      ]
+    },
+    {
+      "contextKey": "709764-original",
+      "pageId": 709764,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The composer page records a first-performance date of 2016-07-21 and a commission from Pablo Reyes and Ensemble +Cello; it lists a complete six-cello score and six parts. It does not state that Ensemble +Cello performed the first performance, and the single primary-source search found no programme naming the performing cellists, so exact human floor attribution remains unresolved.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/709764.json",
+          "finding": "Inspected complete cached raw revision 4018656, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Suite_Tosca_(Aponte,_Gerardo)",
+          "finding": "The composer page records a first-performance date of 2016-07-21 and a commission from Pablo Reyes and Ensemble +Cello; it lists a complete six-cello score and six parts. It does not state that Ensemble +Cello performed the first performance, and the single primary-source search found no programme naming the performing cellists, so exact human floor attribution remains unresolved."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/research/assets/positive-signal/IMSLP436424-Suite-Tosca-full-score.pdf",
+          "finding": "Retrieved the exact 10-page IMSLP Complete Score #436424 from its indexed static PDF URL; pdfinfo confirms a 10-page PDF and pdftotext confirms “for cello sextet” with six independent Violoncello 1–6 staves. Complete score evidence is sound; human-performer attribution remains the hold."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Suite Tosca",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/709764.json",
+            "finding": "2016; one suite; complete score and cello parts 1–6"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The composer page records a first-performance date of 2016-07-21 and a commission from Pablo Reyes and Ensemble +Cello; it lists a complete six-cello score and six parts. It does not state that Ensemble +Cello performed the first performance, and the single primary-source search found no programme naming the performing cellists, so exact human floor attribution remains unresolved."
+        }
+      ]
+    },
+    {
+      "contextKey": "482700-original",
+      "pageId": 482700,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The work page names cellists Magdalena Wagner, Britta Krachler and Marie Spaemann for the 2003 Vienna Jugendmusik Wettbewerb first performance, establishing a human three-cello performance. The submitted “Complete Score and Parts” PDF is explicitly missing its last three pages, so completeness of the playable version remains unresolved; no repeat file access attempted.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/482700.json",
+          "finding": "Inspected complete cached raw revision 1836624, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Trio_for_3_Cellos_(Mandozzi,_Orfeo)",
+          "finding": "The work page names cellists Magdalena Wagner, Britta Krachler and Marie Spaemann for the 2003 Vienna Jugendmusik Wettbewerb first performance, establishing a human three-cello performance. The submitted “Complete Score and Parts” PDF is explicitly missing its last three pages, so completeness of the playable version remains unresolved; no repeat file access attempted."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Trio for 3 Cellos “in Memoriam Alfred Schnittke,” Op.18",
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/482700.json",
+            "finding": "2003; score and parts listing explicitly notes last three pages lost"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The work page names cellists Magdalena Wagner, Britta Krachler and Marie Spaemann for the 2003 Vienna Jugendmusik Wettbewerb first performance, establishing a human three-cello performance. The submitted “Complete Score and Parts” PDF is explicitly missing its last three pages, so completeness of the playable version remains unresolved; no repeat file access attempted."
+        }
+      ]
+    },
+    {
+      "contextKey": "1007978-original",
+      "pageId": 1007978,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The composer page records a 2010-02-14 first-performance date and a complete score for eight cellos, but the bounded primary-source review did not identify an ensemble or performers for that exact work.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1007978.json",
+          "finding": "Inspected complete cached raw revision 3113593, including work-info first-performance, audio/performance credits and complete score/parts blocks."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Zephyros_2_for_Cello_Ensemble_(Endo,_Masao)",
+          "finding": "The composer page records a 2010-02-14 first-performance date and a complete score for eight cellos, but the bounded primary-source review did not identify an ensemble or performers for that exact work."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Zephyros 2 for Violoncello Ensemble",
+          "instrument": "cello",
+          "independentPartCount": 8,
+          "extent": "whole-work",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1007978.json",
+            "finding": "Complete score; eight cellos"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The composer page records a 2010-02-14 first-performance date and a complete score for eight cellos, but the bounded primary-source review did not identify an ensemble or performers for that exact work."
+        }
+      ]
+    }
+  ]
+}

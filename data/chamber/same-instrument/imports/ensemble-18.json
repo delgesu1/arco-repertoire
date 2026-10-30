@@ -1,0 +1,172 @@
+{
+ "batch": "ensemble-18",
+ "accepted": [
+  {
+   "key": "spiess-etude-nocturne-scherzo-op48",
+   "id": 109177,
+   "publicId": 109177,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "rzewski-fortune-four-violas",
+   "id": 109178,
+   "publicId": 109178,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6,
+    7,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "composed",
+    "dedication"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "schmitt-kleine-suite-three-violins",
+   "id": 109179,
+   "publicId": 109179,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    5,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "movements",
+    "kind",
+    "published"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "mikuli-scherzino-op25",
+   "id": 109187,
+   "publicId": 109187,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "dedication"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "gabrielli-suite-four-violins",
+   "id": 109180,
+   "publicId": 109180,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "published",
+    "dedication"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "de-bleser-triolette",
+   "id": 109188,
+   "publicId": 109188,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed",
+    "firstPerformance"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [
+  {
+   "key": "verotta-adesso-four-cellos",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "alencar-ceu-e-nuvens-ii",
+   "reason": "Grade spread exceeds one level; resolve with score/anchor evidence",
+   "opinions": [
+    3,
+    5,
+    2
+   ]
+  },
+  {
+   "key": "nichifor-epos-no1-three-cellos",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "forino-les-prieres-op27",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "trapkus-quartet-four-violins",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "trapkus-trio-three-violins",
+   "reason": "Grade spread exceeds one level; resolve with score/anchor evidence",
+   "opinions": [
+    4,
+    5,
+    6
+   ]
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "ad181a6b41696707e19d791520afafb83b479678964fa46bdd111d8ec9dfbe5c",
+  "data/chamber/composers.json": "bb09ea5c2b52902aff9f8ae22afd29c2908514cfbde8ffec61d9c2888b9ef7c8",
+  "data/chamber/id-registry.json": "e7f7a2178fc133e05e593857020890c36d54a72e636b1482612cd4e253d2fcf2",
+  "data/chamber/sources.json": "f1c207028021d32790d21220c2fc76ffc07fafb34f5220ee47bf6460879a0d95",
+  "data/details/overrides.json": "4f70d4f391b0d39d876bd0bd728240f51f54b7b850bde78ef94d0d7c705991a3",
+  "data/chamber/recordings-judged.json": "06be564cc34c2c78b93ecded905877e9b125ac1295c443fb73c97faf21b8bd53",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-originals-01-ready.json": "b7cfbb711b26e057ee47693825601b22194e1936146c4b103af75826bdc93dee",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-blind-17-normalized.json": "6c464b7d728ce4f41ebb4e94a5487b8faa4e3e8d46d1aa45918056ef3dd10706",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-blind-18-normalized.json": "c16a7fcc45a209096efe587f707a06ee7385dbcfd8328b221c230a6105116db5",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-blind-19-normalized.json": "f008a3d8452464f76b4623dfb2f1741e22ac51340c256d5a1ca23477e7b63a94",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-originals-01-metadata.json": "10b13ece2bf0bec844442de83c0a4e533da6ca5c0942d42ac6bbcda1be5f292d"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-18"
+}

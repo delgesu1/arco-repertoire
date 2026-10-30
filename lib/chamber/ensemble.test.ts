@@ -22,6 +22,12 @@ describe("fitGroup", () => {
     expect(fitGroup(quartet, { violin: 1, viola: 2, cello: 1 })).toBeNull();
   });
 
+  it("matches twelve distinct cello parts without inferring doubled parts", () => {
+    expect(fitGroup({ instruments: { cello: 12 } }, { cello: 12 })).toEqual({ notes: [], substitute: false });
+    expect(fitGroup({ instruments: { cello: 12 } }, { cello: 8 })).toBeNull();
+    expect(fitGroup({ instruments: { cello: 4 } }, { cello: 8 })).toBeNull();
+  });
+
   it("uses a published alternative and says so", () => {
     expect(fitGroup(kegelstatt, { violin: 1, viola: 1, piano: 1 })).toEqual({
       notes: ["violin takes the clarinet part (published alternative)"],

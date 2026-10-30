@@ -1,0 +1,101 @@
+{
+ "batch": "ensemble-41",
+ "accepted": [
+  {
+   "key": "dont-quartet-op42-four-violins",
+   "id": 109217,
+   "publicId": 109217,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    3,
+    4,
+    5
+   ],
+   "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+   "details": [
+    "kind",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null,
+   "gradeResolution": {
+    "key": "dont-quartet-op42-four-violins",
+    "status": "approved",
+    "scope": "musical-only nonblind adjudication; not an independent fourth vote",
+    "level": 4,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "consideredOpinions": [
+     3,
+     4,
+     5
+    ],
+    "basis": "Level 4 is supported by the actual score, rather than selected simply because it lies between the three opinions. All three reviewers identify essentially the same notation; the disagreement concerns the weight placed on the first violin’s register, tempo and cumulative demands. Reinspection of the complete imposed score and enlarged printed p14 (Finale, especially mm184–235) shows recurring high-register attacks and slurred/detached quaver patterns, including the high E-register climax around m220, but these are short, largely sequential gestures with rests and returns to a settled position, rather than sustained rapid high-position passagework. Printed p10, Larghetto mm25–40, confirms chromatic semiquaver/demisemiquaver decoration within the slow 6/8 movement: fine print and many accidentals here do not imply a fast technical etude. I (pp3–7) is predominantly cantabile crotchet/minim writing; II (pp8–9) adds fast detached crotchets, leaps, coordinated rests and contrasting Trio phrasing. First violin remains the hardest part. The upper ledger-line register and repeated clean attacks/shifts across Scherzo and Finale warrant more than the level-3 Telemann sans-basse/Corelli Op5 No8 band; treating the largely regular rhythms and simpler accompaniments as decisive, as the level-3 reading does, underweights that recurring first-violin requirement. My original level-5 opinion placed too much weight on four-movement accumulation, chromaticism and the visual frequency of high notes. Those facts require secure early-advanced control but do not, at the written tempo contexts and pattern lengths, establish a consistent step beyond the local level-4 Bach Double/Haydn Op33 No2 anchors toward the level-5 La Folia/Haydn Rider band. The level-4 opinion makes the best-supported distinction between accessible note patterns and exposed execution. Ensemble balance, chromatic intonation and staggered entries are meaningful but regular enough to receive no additional uplift. Medium confidence retains about one level of uncertainty for chosen Vivace/Allegro assai tempo and required polish; no factual discrepancy or unresolved score identity prevents this musical judgment.",
+    "scoreLocations": [
+     {
+      "location": "Printed pp3–7, I. Allegro espressivo",
+      "finding": "Long chromatic singing phrases and upper-register shifting, mostly slower note values."
+     },
+     {
+      "location": "Printed pp8–9, II. Scherzo/Trio",
+      "finding": "Detached and accented high notes, leaping crotchet melody, rests and tempo contrast."
+     },
+     {
+      "location": "Printed pp9–11, III. Larghetto; enlarged p10 mm25–40",
+      "finding": "Flowing chromatic short-note decoration in slow 6/8, single-line texture and manageable runs."
+     },
+     {
+      "location": "Printed pp11–15, IV. Finale; enlarged p14 mm184–235",
+      "finding": "Recurring upper-register quavers and high attacks; short sequential patterns and rests, with high climax near m220."
+     }
+    ],
+    "mode": "minor",
+    "pace": "lively",
+    "character": [
+     "lyrical",
+     "dramatic",
+     "playful"
+    ],
+    "sources": [
+     {
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2d/IMSLP82713-PMLP168495-4006.Dont-Op042.sc.pdf",
+      "localPath": "data/cache/same-instrument-imslp/scores/82713.pdf",
+      "finding": "Primary complete Merton Music score; all nine imposed PDF spreads visually inspected, music on printed pp3–15."
+     },
+     {
+      "url": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)",
+      "finding": "Primary score source locator supplied in the verified and blind evidence; no new HTTP request in adjudication."
+     }
+    ],
+    "localCalibration": "data/source/levels.json and data/chamber/grading/anchors.json",
+    "preservedOpinions": [
+     "data/chamber/same-instrument/reviews/violin40-verify.json",
+     "data/chamber/same-instrument/reviews/violin40-blind.json",
+     "data/chamber/same-instrument/reviews/dont40-third.json"
+    ],
+    "limits": "Nonblind musical resolution only. Does not replace original opinions or rejudge recording/floor evidence.",
+    "adjudicationFile": "data/chamber/same-instrument/reviews/dont40-adjudication.json"
+   }
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "2a75fe34260767f9bbf28a21809c054268c89d4451ccfefa1838a0b99d8991be",
+  "data/chamber/composers.json": "a2e120ccc73b779679bf9a2b57e9674010372aebb473436a5d74a6f578397982",
+  "data/chamber/id-registry.json": "cd797acbc01e65aac2cdffec6b1938b6ca3aa0ae62fb8bee9134f950aaba80eb",
+  "data/chamber/sources.json": "64e289590f4ab72369d94ba7723a48538ea9ca9cf33959a17d26d83793858cb6",
+  "data/details/overrides.json": "180c9a04332a13b65222099d8f36c6bd0c810ac7711d10e31085b5b635b459cc",
+  "data/chamber/recordings-judged.json": "9b7be6cb784ebebf2c37eb915f95b98fa278f8d16e763f797232f63665e743d5",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-dont41.json": "a46112b9f5bb03ecbabbfcf4999fffd323383c4216e97548cbe198e07d9dbf71",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/violin40-verify-normalized.json": "91b4d48339af1ee52d45063055ed8c3ef00bec95e900a1a762864a0ff6ce0a9c",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/violin40-blind.json": "969924307b22ab27c32d3bfaf39581436f187d77d5e3cd26ae368363aaa7fd46",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/dont40-third.json": "98ba8b75f3b82e47e5c2cf4de6e66650c843c347fc05accc14144b659129ff37",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/dont40-adjudication.json": "c45418e6f976b611ffc46d0648439f6a306430f3f7153ce3e1bd21cf50549349"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-41"
+}

@@ -1,0 +1,35 @@
+{
+  "batch": "final21",
+  "entries": [
+    {
+      "key": "makris-scherzo-four-violins",
+      "status": "approved",
+      "level": 6,
+      "consideredOpinions": [7, 6, 8],
+      "confidence": "medium",
+      "hardestPart": "violin 1",
+      "basis": "The engraved Violin I part (source42-103548.pdf pp.1-3) is in treble clef and sits high above the staff for long stretches, with a rest-filled 3/8 scherzo: bars of slurred repeated 16ths in the opening (p.1), long sustained high notes with a dotted tremolo-like marking (p.2, ledger lines above the staff), and about 40 bars of one slurred 16th-note cell repeated on the top of the E string, ending on sustained very high notes (p.3). The ff and fff dynamics and high-position security are real, but the figure is mechanical and repeated, not varied virtuoso passagework, so the 'extreme' wording of the level-8 opinion is overstated and the repeated-cell endurance does not reach the Bacewicz anchor at 7. The handwritten score (source42-103546.pdf pp.1-2) shows the lower parts on ostinato repeated 16ths and displaced entries on rests, with no clear ensemble demand beyond the notes, so no uplift. Six is the best fit; the level-6 opinion's reading of the notation held up, the level-8 and level-7 readings overrated the repetition.",
+      "sources": ["https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)"]
+    },
+    {
+      "key": "klengel-variations-op28-four-cellos",
+      "status": "approved",
+      "level": 4,
+      "consideredOpinions": [6, 5, 4],
+      "confidence": "medium",
+      "hardestPart": "cello 1",
+      "basis": "Cello 1 alternates bass and C clef (PDF pp.1-2, 8-9, 12, 14) but the tenor-clef writing stays moderate: lyrical slurred quavers and semiquaver turns (pp.1-2), dotted and short-long figures in the variation (p.8), regular detached quavers (p.12) and sustained held notes in the build-up (p.14). The Maestoso variation (p.9) is block chords in the lower parts and short double stops, easy to place, not virtuosic. Passagework is imitative and patterned, with no sustained fast runs, difficult shifts or wide leaps; the lower three parts are no harder than cello 1. The claims of 'chromatic slurred semiquaver runs' and sustained diploma-style density (level 6) were not borne out on the pages checked, nor was the ABRSM 8 band (level 5); four, early advanced, is the level the notation supports.",
+      "sources": ["https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)"]
+    },
+    {
+      "key": "werner-elegie-op21-four-cellos",
+      "status": "approved",
+      "level": 4,
+      "consideredOpinions": [6, 5, 3],
+      "confidence": "medium",
+      "hardestPart": "cello 1",
+      "basis": "The first-cello part (source42-10006.pdf pp.7-8) is mainly slow cantabile in tenor clef at J=120 half-note pulse, with a Meno mosso passage, a few harmonics, an 8va passage near the end (p.8) and short semiquaver cells in the Adagio introduction (p.7), plus a cued cello IV run that is not part of cello 1's own line. Register reaches above the staff in tenor clef with high thumb-less positions and some double stops, but no sustained fast passagework, and the dynamics are mostly soft and sustained. The score (pp.2-3) shows the fourth cello's rising run in positions 1-4, not harder than cello 1's. The level-6 reading of 'large shifts' and 'flourishes' was overrated, while the level-3 reading underrated the high tenor-clef register, harmonics and 8va writing; four, early advanced, fits with no ensemble uplift.",
+      "sources": ["https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)"]
+    }
+  ]
+}

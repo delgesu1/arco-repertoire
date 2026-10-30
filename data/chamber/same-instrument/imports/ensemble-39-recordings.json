@@ -1,0 +1,33 @@
+{
+ "batch": "ensemble-39-recordings",
+ "accepted": [
+  {
+   "key": "recording-109208-toub-yuka-matsumoto",
+   "id": 109208,
+   "publicId": 109208,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "3q7kfZlWsUk"
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "8b1acfb39844124d6773f264f7e2befc9d65e9bb9fde42a687c5b94f76c20986",
+  "data/chamber/composers.json": "a2e120ccc73b779679bf9a2b57e9674010372aebb473436a5d74a6f578397982",
+  "data/chamber/id-registry.json": "1502f90638a41ff47a0a57a2c4c2e3b9e7fc07fe5e7ac572790713babaf97021",
+  "data/chamber/sources.json": "e4be8d4d95921b8851c655a9d104a61c3741fa35c02fce1a3e522ac85464e9fb",
+  "data/details/overrides.json": "44f9cbf8033ad9216e4a57728d64fadff1c377b9a7d01119da8e99035cd0d33e",
+  "data/chamber/recordings-judged.json": "1103c2b7ed62b309679eba826a198c7235cd6e69cac46b97a9368b41d4c52d03",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-recordings-39.json": "2d301f5073ff4dbc1f598b57972dca08d32717aaf8d2047c0242775f24e9b486",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-recordings-39.json": "efec8c5842c66cba108b8e9526de915c4011fc472349ba0dd81c81e013c2ac52"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-39-recordings"
+}

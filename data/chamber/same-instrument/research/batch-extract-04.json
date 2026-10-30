@@ -1,0 +1,333 @@
+{
+  "batch": "triage-004",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "fux-sonata-3-violins-ulb-mus-ms-334",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Three-violin sonata identified with ULB Mus.Ms.334; the IMSLP page lists six movements while the 2025 recording is indexed as four movements, so version/extent needs fact review.",
+      "work": {
+        "composer": "Fux, Johann Joseph",
+        "title": "Sonata for 3 Violins in F major, ULB Mus.Ms.334",
+        "instruments": {
+          "violin": 3
+        },
+        "players": 3,
+        "formation": "string-trio",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "",
+        "minutes": 9.47,
+        "set": null,
+        "notes": "Three-violin sonata identified with ULB Mus.Ms.334; the IMSLP page lists six movements while the 2025 recording is indexed as four movements, so version/extent needs fact review.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": [],
+        "imslpPage": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)"
+      },
+      "composerMetadata": null,
+      "details": {
+        "published": "1941 ?",
+        "kind": "single",
+        "movements": [
+          "I. Grave. Allegro",
+          "II. Adagio",
+          "III. Allegro - Adagio",
+          "IV. Allegro - Adagio"
+        ]
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+            "checkedOn": "2026-10-28",
+            "finding": "IMSLP page and listed materials establish the original work identity/scoring."
+          },
+          {
+            "url": "https://www.prestomusic.com/classical/products/9769255--violins-of-osesp",
+            "checkedOn": "2026-10-28",
+            "finding": "Presto Music lists the 2025 commercial album and complete four-track Fux work; track duration totals 9:28."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+          "locator": "Scores and Parts; General Information",
+          "finding": "IMSLP lists complete score materials and complete parts for the original 3-violin version."
+        },
+        "floor": {
+          "url": "https://www.prestomusic.com/classical/products/9769255--violins-of-osesp",
+          "finding": "2025 Azul Music/OSESP commercial release lists the exact ULB Mus.Ms.334 title, four tracks totalling 9:28, performed by Emmanuele Baldini, Matthew Thorpe, and Anderson Farinelli."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+          "finding": "Original work materials; no alternate instrument edition used for this candidate."
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+          "work.title": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+          "work.instruments": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+          "work.players": "https://www.prestomusic.com/classical/products/9769255--violins-of-osesp",
+          "work.year": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+          "work.notes": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+          "details.movements": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+          "details.published": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+          "work.formation": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)"
+        },
+        "unknowns": {
+          "work.year": "Composition year not established.",
+          "details.movements": "IMSLP lists six movements, but the recording has four indexed tracks; reconcile before import.",
+          "work.minutes": "9:28 applies to the four-track recording only; source extent discrepancy remains.",
+          "work.popularity": "No focused popularity evidence gathered.",
+          "work.pace": "No tempo-profile evidence inspected.",
+          "work.mode": "Mode not established from inspected sources.",
+          "work.hardestPart": "No musical grading performed.",
+          "work.level": "No musical grade assigned."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not musically graded by first-pass extractor"
+      },
+      "recordingResearch": {
+        "status": "released-human-recording-established",
+        "queries": [],
+        "candidates": [
+          {
+            "url": "https://www.prestomusic.com/classical/products/9769255--violins-of-osesp",
+            "performers": [],
+            "finding": "2025 Azul Music/OSESP commercial release lists the exact ULB Mus.Ms.334 title, four tracks totalling 9:28, performed by Emmanuele Baldini, Matthew Thorpe, and Anderson Farinelli."
+          }
+        ]
+      }
+    },
+    {
+      "key": "klengel-2-stucke-op5-4-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Two pieces for four cellos: Serenade and Humoreske; score is available as four parts and a commercial London Mozart Players recording covers both pieces.",
+      "work": {
+        "composer": "Klengel, Julius",
+        "title": "2 Stücke, Op.5",
+        "instruments": {
+          "cello": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "",
+        "minutes": 8.83,
+        "set": null,
+        "notes": "Two pieces for four cellos: Serenade and Humoreske; score is available as four parts and a commercial London Mozart Players recording covers both pieces.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": [],
+        "imslpPage": "https://imslp.org/wiki/2_Stücke,_Op.5_(Klengel,_Julius)"
+      },
+      "composerMetadata": null,
+      "details": {
+        "published": null,
+        "kind": "single",
+        "movements": [
+          "Serenade",
+          "Humoreske"
+        ]
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+            "checkedOn": "2026-10-28",
+            "finding": "IMSLP page and listed materials establish the original work identity/scoring."
+          },
+          {
+            "url": "https://www.prestomusic.com/classical/products/7946550--petits-fours",
+            "checkedOn": "2026-10-28",
+            "finding": "Presto Music lists Serenade (3:49) and Humoresque (5:01), performed by London Mozart Players cellists; Cello Classics page describes its four-cello recordings."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+          "locator": "Scores and Parts; General Information",
+          "finding": "IMSLP lists four separately labelled cello parts for the original scoring."
+        },
+        "floor": {
+          "url": "https://www.prestomusic.com/classical/products/7946550--petits-fours",
+          "finding": "Cello Classics CC1007/Presto lists both movements (8:50 total), performed by four London Mozart Players cellists; the recording was released commercially."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+          "finding": "Original work materials; no alternate instrument edition used for this candidate."
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+          "work.title": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+          "work.instruments": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+          "work.players": "https://www.prestomusic.com/classical/products/7946550--petits-fours",
+          "work.year": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+          "work.notes": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+          "details.movements": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+          "details.published": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+          "work.formation": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)"
+        },
+        "unknowns": {
+          "work.year": "Composition year not established; 1884 is cited as publication by a repertoire source, not composition year.",
+          "work.popularity": "No focused popularity evidence gathered.",
+          "work.pace": "No tempo-profile evidence inspected.",
+          "work.mode": "Mode not established from inspected sources.",
+          "work.hardestPart": "No musical grading performed.",
+          "work.level": "No musical grade assigned."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not musically graded by first-pass extractor"
+      },
+      "recordingResearch": {
+        "status": "released-human-recording-established",
+        "queries": [],
+        "candidates": [
+          {
+            "url": "https://www.prestomusic.com/classical/products/7946550--petits-fours",
+            "performers": [],
+            "finding": "Cello Classics CC1007/Presto lists both movements (8:50 total), performed by four London Mozart Players cellists; the recording was released commercially."
+          }
+        ]
+      }
+    },
+    {
+      "key": "telemann-concerto-4-violins-twv-40-202",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Concerto for four violins; IMSLP lists the original manuscript parts, and Music@Menlo documented a 2026 performance by four named violinists with a livestream. Movement-count/version details need review.",
+      "work": {
+        "composer": "Telemann, Georg Philipp",
+        "title": "Concerto for 4 Violins, TWV 40:202",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "ca. 1720",
+        "minutes": 7,
+        "set": null,
+        "notes": "Concerto for four violins; IMSLP lists the original manuscript parts, and Music@Menlo documented a 2026 performance by four named violinists with a livestream. Movement-count/version details need review.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": [],
+        "imslpPage": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)"
+      },
+      "composerMetadata": null,
+      "details": {
+        "published": null,
+        "kind": "single",
+        "movements": [
+          "Adagio-Allegro",
+          "Grave",
+          "Allegro"
+        ]
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+            "checkedOn": "2026-10-28",
+            "finding": "IMSLP page and listed materials establish the original work identity/scoring."
+          },
+          {
+            "url": "https://musicatmenlo.org/event/concert-program-iv-the-unfolding-of-music/",
+            "checkedOn": "2026-10-28",
+            "finding": "Official concert page gives date, exact work, four named violinists, and livestream availability."
+          },
+          {
+            "url": "https://musicatmenlo.org/wp-content/uploads/2026/03/Menlo_2023_programbook.pdf",
+            "checkedOn": "2026-10-28",
+            "finding": "Music@Menlo program notes identify the D-major concerto, ca. 1720, with an approximate duration of 7 minutes."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+          "locator": "Scores and Parts; General Information",
+          "finding": "IMSLP lists a complete manuscript set of original four-violin parts; the separate continuo edition is not used."
+        },
+        "floor": {
+          "url": "https://musicatmenlo.org/event/concert-program-iv-the-unfolding-of-music/",
+          "finding": "Music@Menlo’s official July 28, 2026 program names Arnaud Sussmann, Stella Chen, Aaron Boyd, and Jessica Lee for the exact TWV 40:202 work and offered a livestream."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+          "finding": "Original work materials; no alternate instrument edition used for this candidate."
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+          "work.title": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+          "work.instruments": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+          "work.players": "https://musicatmenlo.org/event/concert-program-iv-the-unfolding-of-music/",
+          "work.year": "https://musicatmenlo.org/wp-content/uploads/2026/03/Menlo_2023_programbook.pdf",
+          "work.notes": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+          "details.movements": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+          "details.published": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+          "work.formation": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)"
+        },
+        "unknowns": {
+          "details.published": "First publication date not established.",
+          "details.movements": "IMSLP lists three sections; other cataloguing describes four movements; reconcile labels/extent.",
+          "work.minutes": "Approximate 7 minutes in program notes, not an exact recording duration.",
+          "work.popularity": "No focused popularity evidence gathered.",
+          "work.pace": "No tempo-profile evidence inspected.",
+          "work.mode": "Mode not established from inspected sources.",
+          "work.hardestPart": "No musical grading performed.",
+          "work.level": "No musical grade assigned."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not musically graded by first-pass extractor"
+      },
+      "recordingResearch": {
+        "status": "professional-performance-floor-established",
+        "queries": [],
+        "candidates": [
+          {
+            "url": "https://musicatmenlo.org/event/concert-program-iv-the-unfolding-of-music/",
+            "performers": [],
+            "finding": "Music@Menlo’s official July 28, 2026 program names Arnaud Sussmann, Stella Chen, Aaron Boyd, and Jessica Lee for the exact TWV 40:202 work and offered a livestream."
+          }
+        ]
+      }
+    }
+  ],
+  "resume": {
+    "nextEntryKey": null
+  }
+}

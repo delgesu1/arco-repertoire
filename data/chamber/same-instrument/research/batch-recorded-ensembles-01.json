@@ -1,0 +1,540 @@
+{
+  "batch": "recorded-ensembles-01",
+  "status": "in-progress",
+  "checkedOn": "2026-10-28",
+  "entries": [
+    {
+      "key": "garcia-bad-brothers-double-bass-quartet",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Publisher/retailer lists the complete score and four parts; an independent dated program or recording establishes the exact quartet version.",
+      "work": {
+        "composer": "García, Simón",
+        "title": "Bad Brothers",
+        "instruments": {
+          "double-bass": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "short",
+        "level": null,
+        "hardestPart": null,
+        "year": "2007",
+        "minutes": null,
+        "set": null,
+        "notes": "Funk-style quartet with an open improvisation section.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {
+        "dates": "b. 1977",
+        "nationality": "Spanish",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://shop.doublebasshq.com/products/bad-brothers",
+            "checkedOn": "2026-10-28",
+            "locator": "Publisher/edition product description",
+            "finding": "Publisher page identifies the original double-bass quartet and says it was composed in October 2007; Presto Music lists score and parts as instant download."
+          },
+          {
+            "url": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/113.pdf",
+            "checkedOn": "2026-10-28",
+            "locator": "Dated concert program / composer-posted recording evidence",
+            "finding": "International Society of Bassists program documents the complete quartet in Simón García SoundWorld, performed by Dream Team 2015 (fourteen named bassists across the concert)."
+          }
+        ],
+        "scoring": {
+          "url": "https://shop.doublebasshq.com/products/bad-brothers",
+          "locator": "Work description / instrumentation",
+          "finding": "Publisher describes Bad Brothers for bass quartet; no electric bass guitar is required in this quartet scoring; open improvisation section is specified."
+        },
+        "floor": {
+          "url": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/113.pdf",
+          "finding": "International Society of Bassists program documents the complete quartet in Simón García SoundWorld, performed by Dream Team 2015 (fourteen named bassists across the concert)."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://shop.doublebasshq.com/products/bad-brothers",
+          "finding": "Complete score and all four parts are listed for immediate digital download by an authorized retailer; publisher source provides the edition description."
+        },
+        "fieldSources": {
+          "work.composer": "https://shop.doublebasshq.com/collections/simon-garcia",
+          "work.title": "https://shop.doublebasshq.com/products/bad-brothers",
+          "work.instruments": "https://shop.doublebasshq.com/products/bad-brothers",
+          "work.year": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/113.pdf",
+          "composerMetadata.dates": "https://shop.doublebasshq.com/collections/simon-garcia",
+          "composerMetadata.nationality": "https://shop.doublebasshq.com/collections/simon-garcia"
+        },
+        "unknowns": {
+          "work.minutes": "No reliable duration found in inspected sources.",
+          "details.composed": "Composition date not established by inspected sources.",
+          "work.level": "No musical grading performed.",
+          "work.hardestPart": "No musical grading performed."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher."
+      },
+      "recordingResearch": {
+        "status": "concert-performance-established",
+        "queries": [
+          "Bad Brothers Simón García double bass quartet"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/113.pdf",
+            "performers": [],
+            "finding": "International Society of Bassists program documents the complete quartet in Simón García SoundWorld, performed by Dream Team 2015 (fourteen named bassists across the concert)."
+          }
+        ]
+      }
+    },
+    {
+      "key": "garcia-ac-133-double-bass-quartet",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "Exact original quartet version is documented and performed, but the inspected immediate-download listing offers only a set of parts; complete score availability remains unverified.",
+      "work": {
+        "composer": "García, Simón",
+        "title": "AC-133",
+        "instruments": {
+          "double-bass": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "short",
+        "level": null,
+        "hardestPart": null,
+        "year": "Composition year not established.",
+        "minutes": null,
+        "set": null,
+        "notes": "Rhythmically energetic quartet inspired by the road to Mugardos.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {
+        "dates": "b. 1977",
+        "nationality": "Spanish",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet",
+            "checkedOn": "2026-10-28",
+            "locator": "Publisher/edition product description",
+            "finding": "Publisher describes original quartet and its 2009 premiere; Presto Music lists quartet parts for immediate download."
+          },
+          {
+            "url": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/113.pdf",
+            "checkedOn": "2026-10-28",
+            "locator": "Dated concert program / composer-posted recording evidence",
+            "finding": "International Society of Bassists program documents AC-133 as a bass quartet performed by Dream Team 2015."
+          }
+        ],
+        "scoring": {
+          "url": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet",
+          "locator": "Work description / instrumentation",
+          "finding": "Publisher explicitly identifies AC-133 for double-bass quartet and describes it as a quartet."
+        },
+        "floor": {
+          "url": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/113.pdf",
+          "finding": "International Society of Bassists program documents AC-133 as a bass quartet performed by Dream Team 2015."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://www.prestomusic.com/sheet-music/products/9627676--simon-garcia-ac-133",
+          "finding": "Authorized retailer offers the quartet set of parts for immediate download; complete score is not established on this listing, so this candidate requires score availability confirmation."
+        },
+        "fieldSources": {
+          "work.composer": "https://shop.doublebasshq.com/collections/simon-garcia",
+          "work.title": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet",
+          "work.instruments": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet",
+          "work.year": "Composition year not established in inspected source; no performance year substituted.",
+          "composerMetadata.dates": "https://shop.doublebasshq.com/collections/simon-garcia",
+          "composerMetadata.nationality": "https://shop.doublebasshq.com/collections/simon-garcia"
+        },
+        "unknowns": {
+          "work.minutes": "No reliable duration found in inspected sources.",
+          "work.level": "No musical grading performed.",
+          "work.hardestPart": "No musical grading performed.",
+          "work.year": "Composition year not established; premiere/publication dates not substituted.",
+          "score.completeScore": "Inspected immediate-download retailer listing explicitly says set of parts only; complete score availability requires confirmation."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher."
+      },
+      "recordingResearch": {
+        "status": "concert-performance-established",
+        "queries": [
+          "AC-133 Simón García double bass quartet"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/113.pdf",
+            "performers": [],
+            "finding": "International Society of Bassists program documents AC-133 as a bass quartet performed by Dream Team 2015."
+          }
+        ]
+      }
+    },
+    {
+      "key": "garcia-swing-k-1000-double-bass-quartet",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "Original quartet premiere and performance are documented, but complete obtainable score and parts were not verified at an item-level retailer page.",
+      "work": {
+        "composer": "García, Simón",
+        "title": "Swing K-1000",
+        "instruments": {
+          "double-bass": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "short",
+        "level": null,
+        "hardestPart": null,
+        "year": "Composition year not established.",
+        "minutes": null,
+        "set": null,
+        "notes": "Up-swing work with solo sections and tutti writing.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {
+        "dates": "b. 1977",
+        "nationality": "Spanish",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://shop.doublebasshq.com/products/k1000",
+            "checkedOn": "2026-10-28",
+            "locator": "Publisher/edition product description",
+            "finding": "Publisher identifies the work for double-bass quartet and names its 2009 Suntory Hall premiere; Presto Music lists the quartet score and parts for instant download."
+          },
+          {
+            "url": "https://www.lavozdegalicia.es/amp/noticia/ferrol/2009/10/02/musica-compositor-mugardes-sonara-tokio/00031254487262679965329.htm",
+            "checkedOn": "2026-10-28",
+            "locator": "Dated concert program / composer-posted recording evidence",
+            "finding": "Contemporary report announces The Bass Gang's performance of Swing K-1000 at Tokyo's Suntory Hall on 7 October 2009."
+          }
+        ],
+        "scoring": {
+          "url": "https://shop.doublebasshq.com/products/k1000",
+          "locator": "Work description / instrumentation",
+          "finding": "Publisher identifies Swing K-1000 as a double-bass quartet; composer describes solo sections and tutti saxophone-soli-style writing."
+        },
+        "floor": {
+          "url": "https://www.lavozdegalicia.es/amp/noticia/ferrol/2009/10/02/musica-compositor-mugardes-sonara-tokio/00031254487262679965329.htm",
+          "finding": "Contemporary report announces The Bass Gang's performance of Swing K-1000 at Tokyo's Suntory Hall on 7 October 2009."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://shop.doublebasshq.com/products/k1000",
+          "finding": "Publisher page describes the quartet; retailer catalogue lists a quartet download but item-level complete score-and-parts availability was not confirmed."
+        },
+        "fieldSources": {
+          "work.composer": "https://shop.doublebasshq.com/collections/simon-garcia",
+          "work.title": "https://shop.doublebasshq.com/products/k1000",
+          "work.instruments": "https://shop.doublebasshq.com/products/k1000",
+          "work.year": "Composition year not established in inspected source; no performance year substituted.",
+          "composerMetadata.dates": "https://shop.doublebasshq.com/collections/simon-garcia",
+          "composerMetadata.nationality": "https://shop.doublebasshq.com/collections/simon-garcia"
+        },
+        "unknowns": {
+          "work.minutes": "No reliable duration found in inspected sources.",
+          "work.level": "No musical grading performed.",
+          "work.hardestPart": "No musical grading performed.",
+          "work.year": "Composition year not established; premiere/publication dates not substituted.",
+          "score.completeScore": "Complete score-and-parts availability requires item-level confirmation."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher."
+      },
+      "recordingResearch": {
+        "status": "concert-performance-established",
+        "queries": [
+          "Swing K-1000 Simón García double bass quartet"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.lavozdegalicia.es/amp/noticia/ferrol/2009/10/02/musica-compositor-mugardes-sonara-tokio/00031254465385489468847.htm",
+            "performers": [],
+            "finding": "Contemporary report announces The Bass Gang's performance of Swing K-1000 at Tokyo's Suntory Hall on 7 October 2009."
+          }
+        ]
+      }
+    },
+    {
+      "key": "garcia-a-night-in-compostela-double-bass-quartet",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "Original quartet version and its live performance are documented, but inspected retailer catalogue does not unambiguously tie the instant-download score-and-parts listing to the quartet version.",
+      "work": {
+        "composer": "García, Simón",
+        "title": "A Night in Compostela",
+        "instruments": {
+          "double-bass": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "short",
+        "level": null,
+        "hardestPart": null,
+        "year": "Composition year not established.",
+        "minutes": null,
+        "set": null,
+        "notes": "Lively, rhythmic quartet portraying a visit to Santiago de Compostela.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {
+        "dates": "b. 1977",
+        "nationality": "Spanish",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://shop.doublebasshq.com/products/compostela",
+            "checkedOn": "2026-10-28",
+            "locator": "Publisher/edition product description",
+            "finding": "Publisher page specifies the original four-bass version; Presto Music lists the quartet edition for immediate download. Composer identifies it as a Recital Music 2011 publication."
+          },
+          {
+            "url": "https://www.chicagobassensemble.com/tag/simon-garcia/",
+            "checkedOn": "2026-10-28",
+            "locator": "Dated concert program / composer-posted recording evidence",
+            "finding": "Chicago Bass Ensemble's dated January 2012 concert listing identifies A Night in Compostela as a double-bass quartet and a U.S. premiere, performed by four named players."
+          }
+        ],
+        "scoring": {
+          "url": "https://shop.doublebasshq.com/products/compostela",
+          "locator": "Work description / instrumentation",
+          "finding": "Publisher description refers to basses one through four and identifies this edition as the double-bass quartet; composer separately made a sextet version, excluded here."
+        },
+        "floor": {
+          "url": "https://www.chicagobassensemble.com/tag/simon-garcia/",
+          "finding": "Chicago Bass Ensemble's dated January 2012 concert listing identifies A Night in Compostela as a double-bass quartet and a U.S. premiere, performed by four named players."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://shop.doublebasshq.com/products/compostela",
+          "finding": "Publisher page describes the quartet; retailer catalogue contains an instant-download score-and-parts listing marked DB ENS plus a separate quartet listing, so the exact downloadable edition requires confirmation."
+        },
+        "fieldSources": {
+          "work.composer": "https://shop.doublebasshq.com/collections/simon-garcia",
+          "work.title": "https://shop.doublebasshq.com/products/compostela",
+          "work.instruments": "https://shop.doublebasshq.com/products/compostela",
+          "work.year": "Composition year not established in inspected source; no performance year substituted.",
+          "composerMetadata.dates": "https://shop.doublebasshq.com/collections/simon-garcia",
+          "composerMetadata.nationality": "https://shop.doublebasshq.com/collections/simon-garcia"
+        },
+        "unknowns": {
+          "work.minutes": "No reliable duration found in inspected sources.",
+          "work.level": "No musical grading performed.",
+          "work.hardestPart": "No musical grading performed.",
+          "work.year": "Composition year not established; premiere/publication dates not substituted.",
+          "score.version": "Retailer listings do not unambiguously establish downloadable score-and-parts for the quartet rather than another ensemble version."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher."
+      },
+      "recordingResearch": {
+        "status": "concert-performance-established",
+        "queries": [
+          "A Night in Compostela Simón García double bass quartet"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.chicagobassensemble.com/tag/simon-garcia/",
+            "performers": [],
+            "finding": "Chicago Bass Ensemble's dated January 2012 concert listing identifies A Night in Compostela as a double-bass quartet and a U.S. premiere, performed by four named players."
+          }
+        ]
+      }
+    },
+    {
+      "key": "garcia-the-river-fisherman-double-bass-quartet",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "Exact original quartet version is documented in publisher and concert sources, but complete obtainable score and parts were not verified in the inspected retailer listing.",
+      "work": {
+        "composer": "García, Simón",
+        "title": "The River Fisherman",
+        "instruments": {
+          "double-bass": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "short",
+        "level": null,
+        "hardestPart": null,
+        "year": "Composition year not established.",
+        "minutes": null,
+        "set": null,
+        "notes": "Medium-swing quartet with jazzy, energetic big-band character.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {
+        "dates": "b. 1977",
+        "nationality": "Spanish",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://shop.doublebasshq.com/products/the-river-fisherman",
+            "checkedOn": "2026-10-28",
+            "locator": "Publisher/edition product description",
+            "finding": "Publisher product page identifies the double-bass quartet; Presto Music lists quartet score and parts for immediate download."
+          },
+          {
+            "url": "https://www.concerto.com.br/sites/default/files/agosto2015_site.pdf",
+            "checkedOn": "2026-10-28",
+            "locator": "Dated concert program / composer-posted recording evidence",
+            "finding": "2015 Rio de Janeiro concert listing includes The River Fisherman in a program of Simón García works for bass quartet."
+          }
+        ],
+        "scoring": {
+          "url": "https://shop.doublebasshq.com/products/the-river-fisherman",
+          "locator": "Work description / instrumentation",
+          "finding": "Publisher page explicitly describes The River Fisherman as a double-bass quartet."
+        },
+        "floor": {
+          "url": "https://www.concerto.com.br/sites/default/files/agosto2015_site.pdf",
+          "finding": "2015 Rio de Janeiro concert listing includes The River Fisherman in a program of Simón García works for bass quartet."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://shop.doublebasshq.com/products/the-river-fisherman",
+          "finding": "Publisher page describes the quartet; retailer catalogue lists the work but complete score-and-parts format was not verified at an item page."
+        },
+        "fieldSources": {
+          "work.composer": "https://shop.doublebasshq.com/collections/simon-garcia",
+          "work.title": "https://shop.doublebasshq.com/products/the-river-fisherman",
+          "work.instruments": "https://shop.doublebasshq.com/products/the-river-fisherman",
+          "work.year": "Composition year not established in inspected source; no performance year substituted.",
+          "composerMetadata.dates": "https://shop.doublebasshq.com/collections/simon-garcia",
+          "composerMetadata.nationality": "https://shop.doublebasshq.com/collections/simon-garcia"
+        },
+        "unknowns": {
+          "work.minutes": "No reliable duration found in inspected sources.",
+          "work.level": "No musical grading performed.",
+          "work.hardestPart": "No musical grading performed.",
+          "work.year": "Composition year not established; premiere/publication dates not substituted.",
+          "score.completeScore": "Complete score-and-parts availability requires item-level confirmation."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher."
+      },
+      "recordingResearch": {
+        "status": "concert-performance-established",
+        "queries": [
+          "The River Fisherman Simón García double bass quartet"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.concerto.com.br/sites/default/files/agosto2015_site.pdf",
+            "performers": [],
+            "finding": "2015 Rio de Janeiro concert listing includes The River Fisherman in a program of Simón García works for bass quartet."
+          }
+        ]
+      }
+    }
+  ],
+  "resume": {
+    "nextKey": null,
+    "note": "Source-ready original double-bass quartets with exact score and performance evidence; held for independent fact review. No canonical data changed."
+  }
+}

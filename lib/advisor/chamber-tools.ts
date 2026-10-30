@@ -2,6 +2,7 @@ import type Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { chamberPieces, getChamberPiece } from "../chamber/catalogue";
 import { fitGroup, groupLabel, partTakers, withPlayers, type Group } from "../chamber/ensemble";
+import { MAX_CHAMBER_PLAYERS } from "../chamber/scope";
 import { EMPTY_CHAMBER_FILTERS, matchesChamber, type ChamberFilters } from "../chamber/filter";
 import { indexChamber, searchChamber } from "../chamber/search";
 import type { ChamberPiece, InstrumentKey } from "../chamber/types";
@@ -47,8 +48,8 @@ const scoringProps = {
     items: { type: "string", enum: instrumentKeys },
     description: "instruments that must each have a part (published alternatives and ad lib. parts count)",
   },
-  players_min: { type: "integer", minimum: 3, maximum: 9 },
-  players_max: { type: "integer", minimum: 3, maximum: 9 },
+  players_min: { type: "integer", minimum: 2, maximum: MAX_CHAMBER_PLAYERS },
+  players_max: { type: "integer", minimum: 2, maximum: MAX_CHAMBER_PLAYERS },
 } as const;
 
 export const CHAMBER_TOOLS: Anthropic.Tool[] = [
@@ -65,10 +66,10 @@ export const CHAMBER_TOOLS: Anthropic.Tool[] = [
         players: {
           type: "array",
           minItems: 1,
-          maxItems: 9,
+          maxItems: MAX_CHAMBER_PLAYERS,
           items: {
             type: "object",
-            properties: { instrument: { type: "string", enum: playerKeys }, count: { type: "integer", minimum: 1, maximum: 9 } },
+            properties: { instrument: { type: "string", enum: playerKeys }, count: { type: "integer", minimum: 1, maximum: MAX_CHAMBER_PLAYERS } },
             required: ["instrument", "count"],
             additionalProperties: false,
           },
@@ -159,13 +160,13 @@ const workFilters = {
 const scoringFilters = {
   formation: anyOf(formationKeys).optional(),
   instruments: z.array(anyOf(instrumentKeys)).max(9).optional(),
-  players_min: z.number().int().min(1).max(12).optional(),
-  players_max: z.number().int().min(1).max(12).optional(),
+  players_min: z.number().int().min(2).max(MAX_CHAMBER_PLAYERS).optional(),
+  players_max: z.number().int().min(2).max(MAX_CHAMBER_PLAYERS).optional(),
 };
 const SearchInput = z.object({ ...scoringFilters, ...workFilters, sort: z.enum(["renown", "easiest", "hardest"]).optional() }).strict();
 const MatchInput = z
   .object({
-    players: z.array(z.object({ instrument: anyOf(playerKeys), count: z.number().int().min(1).max(9) }).strict()).min(1).max(9),
+    players: z.array(z.object({ instrument: anyOf(playerKeys), count: z.number().int().min(1).max(MAX_CHAMBER_PLAYERS) }).strict()).min(1).max(MAX_CHAMBER_PLAYERS),
     add: z.number().int().min(0).max(2).optional(),
     sit_out: z.boolean().optional(),
     ...workFilters,
@@ -202,7 +203,7 @@ const compact = (p: ChamberPiece, extra = "") =>
   [
     p.id,
     p.composerName,
-    p.title,
+    p.arranger ? `${p.title} (arr. ${p.arranger})` : p.title,
     `L${p.level}`,
     instrumentList(p.chamber.instruments, p.chamber),
     `hardest: ${p.chamber.hardestPart}`,

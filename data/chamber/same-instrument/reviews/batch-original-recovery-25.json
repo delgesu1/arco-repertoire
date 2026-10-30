@@ -1,0 +1,105 @@
+{
+  "batch": "batch-original-recovery-25",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "nichifor-epos-no1-three-cellos",
+      "status": "held",
+      "factsVerified": false,
+      "verifiedFacts": {
+        "composer": "Nichifor, Serban",
+        "title": "Epos No.1 for 3 Cellos",
+        "instruments": {
+          "cello": 3
+        },
+        "players": 3,
+        "formation": "string-trio",
+        "year": "1974",
+        "minutes": 5,
+        "humanPerformanceFloor": true,
+        "scoreNotationVerified": false
+      },
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+          "finding": "Exact original 3-cello work, 1974, about five minutes; complete composer-uploaded score and Complete Performance credited to Serban Nichifor (cello), by overlay in studio."
+        },
+        {
+          "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/515093",
+          "finding": "Observed score index returned IMSLP Error HTML; helper stopped because no PDF or normal download link was exposed."
+        },
+        {
+          "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/515094",
+          "finding": "Observed audio index resolves normally to MP3 bytes, consistent with named complete studio-overlay performance; not notation."
+        }
+      ],
+      "grade": {
+        "level": null,
+        "hardestPart": null,
+        "confidence": "low",
+        "mode": null,
+        "pace": null,
+        "character": [],
+        "basis": "No actual notation inspected; cannot assign a responsible player-level estimate from title/composer/year."
+      },
+      "unresolvedReason": "Original human-performance floor is verified: composer explicitly credited on cello by studio overlay for Complete Performance. Score recovery remains blocked: helper --page observed audio 515094 and score 515093, but score handler 515093 returned an IMSLP Error HTML page without a normal PDF download link. Audio handler 515094 resolves to MP3, not a score. No mirror was guessed. Actual notation cannot be responsibly graded.",
+      "approvedWorkFields": [],
+      "approvedDetailFields": [],
+      "detailSources": {},
+      "independence": "Single Sol recovery/notation judgment repeated in research draft; not an independent second vote."
+    },
+    {
+      "key": "trapkus-quartet-four-violins",
+      "status": "held",
+      "factsVerified": false,
+      "verifiedFacts": {
+        "composer": "Trapkus, Paul",
+        "title": "Quartet for 4 Violins",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "year": "2023",
+        "minutes": 5,
+        "humanPerformanceFloor": false,
+        "scoreNotationVerified": true
+      },
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "finding": "Exact original four-violin work,2023,C major,about five minutes; Complete Recording843101 credits Paul Trapkus; raw audio metadata supplies no multitrack/human-playing method."
+        },
+        {
+          "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/843096",
+          "finding": "Ordinary helper recovered verified14-page composer PDF, four independently labelled violin staves. PDF1,3,6,10,14 inspected; high first-violin line and sustained rapid repeated figures; optional top notes in fourth-violin opening."
+        },
+        {
+          "url": "https://imslp.org/wiki/User:Ptrapkus",
+          "finding": "Composer uploader user page only links composer category; no additional work-specific recording-method statement."
+        },
+        {
+          "url": "https://journals.sagepub.com/doi/10.1177/00031313231166022",
+          "finding": "Author biography establishes professional violin-performance training and orchestral teaching, but does not identify the recording method of this exact quartet file."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "violin 1",
+        "confidence": "medium",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful"
+        ],
+        "basis": "Actual complete composer score PDF pages 1,3,6,10,14 sampled, including opening, transitional and final textures. At quarter approximately140–150, first violin sustains exposed upper notes then plays prolonged repeated slurred sixteenths and register changes; later sustained notes extend into the G6 region. Other players sustain off-beat patterns and string crossings, while fourth violin double stops are explicitly optional at the opening. Repetition, clear pulse and largely idiomatic tonal patterns limit the technical burden, but rapid sustained bowing plus exposed high register place first violin around level6, pre-diploma, rather than judging only the easier opening accompaniment. Mozart K423/424 at6 is the broad player-band anchor; professional Prokofiev Op56 at8 is substantially beyond the observed complexity. No automatic ensemble uplift. Five-minute complete context and meaningful distributed notation support medium advisory confidence with approximately one-level uncertainty. This is the same single Sol judgment in research and review, not two votes."
+      },
+      "unresolvedReason": "Four-violin original and notation verified. The exact Complete Recording credits Paul Trapkus under Recordings with Synthesized/MIDI (0), but neither raw upload metadata nor composer user/category information explicitly identifies this particular four-part performance as played/multitracked rather than rendered. A general violinist biography and differently scored all-instruments recording do not certify this file. Hold for explicit work-specific human-performance confirmation; do not contact composer without authorization.",
+      "approvedWorkFields": [],
+      "approvedDetailFields": [],
+      "detailSources": {},
+      "independence": "Single Sol recovery/notation judgment repeated in research draft; not an independent second vote."
+    }
+  ]
+}

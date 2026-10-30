@@ -1,0 +1,758 @@
+{
+ "batch": "final21",
+ "role": "verification-and-independent-grade",
+ "status": "complete",
+ "checkedOn": "2026-10-30",
+ "entries": [
+  {
+   "key": "slunicko-op92-four-violins",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Stimmungsbilder,_Op.92_(Slun%C3%AD%C4%8Dko,_Jan)",
+     "basis": "Title page: Stimmungsbilder fuer vier Violinen, Johann Slunicko Op.92, Anton Boehm & Sohn 1916; original, no arranger"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Stimmungsbilder,_Op.92_(Slun%C3%AD%C4%8Dko,_Jan)",
+     "basis": "Score shows four independent staves Violine 1-4 (PDF p.3, 17); four separate part books"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Stimmungsbilder,_Op.92_(Slun%C3%AD%C4%8Dko,_Jan)",
+     "basis": "PDF has score and 4 parts for all three pieces: Nr.3 Elfenreigen pp.1-14, Nr.1 Abend pp.15-26, Nr.2 Nachtzauber pp.27-33; publication order Abend, Nachtzauber, Elfenreigen"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=RO8iS3ohRGU",
+     "basis": "Four named PACO students play Elfenreigen and Abend; a separate PACO concert upload dates Elfenreigen to 8 March 2025"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=RO8iS3ohRGU",
+    "finding": "Danielle, Sakura, Evelyn and Emily of Palo Alto Chamber Orchestra play Elfenreigen and Abend (2 of 3 pieces); PACO Academy concert, Palo Alto Art Center, 8 March 2025, covers Elfenreigen."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements",
+    "published"
+   ],
+   "detailCorrections": {
+    "kind": "pieces",
+    "movements": [
+     "Abend",
+     "Nachtzauber",
+     "Elfenreigen"
+    ],
+    "published": "1916, Augsburg: Anton Böhm & Sohn"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Stimmungsbilder,_Op.92_(Slun%C3%AD%C4%8Dko,_Jan)",
+    "published": "https://imslp.org/wiki/Stimmungsbilder,_Op.92_(Slun%C3%AD%C4%8Dko,_Jan)"
+   },
+   "grade": {
+    "level": 4,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "basis": "Violin 1 and 2 sit in very high positions (sustained d''' to a''' with 4th-finger shifts, Nachtzauber parts PDF pp.27-30); Elfenreigen violin 1 is lively scherzo with leaps to e''' (PDF pp.3-8). Mostly slow or moderate, no fast passagework; publisher notes parts can be played in 1st position by young players.",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "tender",
+     "playful"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "RO8iS3ohRGU",
+     "decision": "held",
+     "reason": "Two of three pieces (Elfenreigen, Abend); Nachtzauber missing",
+     "seconds": 421,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "dYIlXqWC5nI",
+     "decision": "held",
+     "reason": "Elfenreigen only, 4:07",
+     "seconds": 247,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "eMZL3D_kZ1c",
+     "decision": "held",
+     "reason": "Abend only, 2:55",
+     "seconds": 175,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "petzold-op21-four-violins",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Introduction_et_Polacca_pour_4_Violons_concertants,_Op.21_(Petzold,_Karl_Eugen)",
+     "basis": "Simrock title page: Introduction et Polacca pour 4 Violons concertants, Eugene Petzold Op.21, dedicated to four pupils; original work"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Introduction_et_Polacca_pour_4_Violons_concertants,_Op.21_(Petzold,_Karl_Eugen)",
+     "basis": "Typeset full score has Violin I-IV staves (PDF 592377 p.1); Simrock parts Violino I.. (534302 p.2)"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Introduction_et_Polacca_pour_4_Violons_concertants,_Op.21_(Petzold,_Karl_Eugen)",
+     "basis": "Complete 120-bar score (11 pp.) from Andante through Tempo di Polacca, Un poco Andante, return and coda; Simrock part set 9 pp."
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=2lByJh9w1uI",
+     "basis": "Yuka Matsumoto named as violinist; human multitrack made with Acapella app at home, 15 May 2020"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=2lByJh9w1uI",
+    "finding": "Yuka Matsumoto plays all four violins in a home multitrack (Acapella app, 15 May 2020) of the whole piece; description says almost sight-reading with one wrong place."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements",
+    "published",
+    "dedication",
+    "key"
+   ],
+   "detailCorrections": {
+    "kind": "movements",
+    "movements": [
+     "Introduction (Andante)",
+     "Polacca"
+    ],
+    "published": "1858, Bonn: N. Simrock",
+    "dedication": "His pupils Paul Siegfried, Jean Ringier, Jean Imhoof and Arnold Plüss"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Introduction_et_Polacca_pour_4_Violons_concertants,_Op.21_(Petzold,_Karl_Eugen)",
+    "published": "https://imslp.org/wiki/Introduction_et_Polacca_pour_4_Violons_concertants,_Op.21_(Petzold,_Karl_Eugen)",
+    "dedication": "https://imslp.org/wiki/Introduction_et_Polacca_pour_4_Violons_concertants,_Op.21_(Petzold,_Karl_Eugen)"
+   },
+   "grade": {
+    "level": 5,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "basis": "Violin 1 has continuous sixteenth passagework in A major at quarter=84, spiccato at the point, pizzicato-to-arco switches, trills and leaps to e''' (score PDF 592377 pp.3-4, 10-11; Simrock violin I pp.2-3). Lower parts are lighter but all share spiccato and fast arpeggios.",
+    "mode": "major",
+    "pace": "lively",
+    "character": [
+     "virtuosic",
+     "dance",
+     "playful"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "2lByJh9w1uI",
+     "decision": "rejected",
+     "reason": "Uploader calls it almost sight-reading and notes a wrong-note ending; admitted-error take",
+     "seconds": 320,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": true,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "alencar-seven-easy-pieces-four-cellos",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/7_pe%C3%A7as_f%C3%A1ceis_para_quatro_cellos_(Alencar,_Gabriel)",
+     "basis": "Gabriel Alencar, 7 pecas faceis para quatro cellos, 2018, composer's own typeset score; original"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/7_pe%C3%A7as_f%C3%A1ceis_para_quatro_cellos_(Alencar,_Gabriel)",
+     "basis": "Score has Cello I-IV staves (PDF p.1); IMSLP lists four separate cello parts"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/7_pe%C3%A7as_f%C3%A1ceis_para_quatro_cellos_(Alencar,_Gabriel)",
+     "basis": "Complete score with pieces I-VII: I p.1, II p.4, III p.7, IV p.10, V p.15, VI p.18, VII p.20 (27 pp.)"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=Lyh-qYbgilc",
+     "basis": "Frame of piece 1 shows split-screen human multitrack by the composer"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=Lyh-qYbgilc",
+    "finding": "Gabriel Alencar, the composer, plays piece 1 as a visible split-screen four-cello multitrack on his own channel (pieces 2 and 4 posted likewise)."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements",
+    "minutes"
+   ],
+   "detailCorrections": {
+    "kind": "pieces",
+    "movements": [
+     "I",
+     "II",
+     "III",
+     "IV",
+     "V",
+     "VI",
+     "VII"
+    ]
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/7_pe%C3%A7as_f%C3%A1ceis_para_quatro_cellos_(Alencar,_Gabriel)"
+   },
+   "grade": {
+    "level": 1,
+    "hardestPart": "cello 1",
+    "confidence": "high",
+    "basis": "Mostly crotchets and minims within first-position-to-fourth range in bass clef; piece I is four-beat crotchets (PDF pp.1-3); VII adds quavers and sixteenth scale figures in cello 3-4 at Allegro (pp.20-23). No clef changes, shifts are stepwise.",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "playful"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "1yhnH8Vm6R4",
+     "decision": "held",
+     "reason": "Piece No.4 only",
+     "seconds": 121,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "Lyh-qYbgilc",
+     "decision": "held",
+     "reason": "Piece No.1 only",
+     "seconds": 152,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "sMdZ5v_AnfM",
+     "decision": "held",
+     "reason": "Piece No.2 only",
+     "seconds": 90,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "derecskei-consort1-four-violins",
+   "status": "held",
+   "factsVerified": true,
+   "reason": "Only recording is a score-only video credited to 'Derecskei Clones Ensemble' home recording; no frame, credit or description shows human players or which of violins, violas or cellos play",
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Consort_No.1_(Derecskei,_Andr%C3%A1s)",
+     "basis": "Andras Derecskei, Consort No.1 (2014), original; IMSLP allows 4 violins, 4 violas or 4 cellos; the uploaded file is the 4 Violin Version, so entry is violins only"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Consort_No.1_(Derecskei,_Andr%C3%A1s)",
+     "basis": "Four staves in treble clef throughout (PDF pp.1, 7, 9, 11)"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Consort_No.1_(Derecskei,_Andr%C3%A1s)",
+     "basis": "Complete 16-page score: I. Toccata (p.1), II. Floating (p.7), III. Pulse (p.9), IV. Epilogue & Bariolage (p.11)"
+    },
+    {
+     "claim": "floor",
+     "status": "held",
+     "source": "https://www.youtube.com/watch?v=EnTvrzDWRZA",
+     "basis": "Video frame is score only; description says home recording by an ensemble named Clones; human performance and scoring unproven"
+    }
+   ],
+   "workCorrections": {
+    "notes": "Four-movement consort; this entry is the four-violin version of a work also allowed for violas or cellos."
+   },
+   "approvedDetailFields": [],
+   "detailCorrections": {
+    "kind": "movements",
+    "movements": [
+     "Toccata",
+     "Floating",
+     "Pulse",
+     "Epilogue & Bariolage"
+    ]
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Consort_No.1_(Derecskei,_Andr%C3%A1s)"
+   },
+   "grade": {
+    "level": 7,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "basis": "Toccata (Virtuoso, quarter=100) is nonstop chromatic sixteenth runs and leaps in every part for about 19 bars, in canon (PDF pp.1-2); finale bariolage at dotted quarter=150 in 6/8 over string crossings (pp.11-12). Pitch range stays in low positions, so speed and chromatic accuracy set the level.",
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "virtuosic",
+     "dramatic"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "EnTvrzDWRZA",
+     "decision": "held",
+     "reason": "Score-only video; human performance and violin scoring not shown",
+     "seconds": 575,
+     "checks": {
+      "exactVersion": false,
+      "wholeWork": true,
+      "humanPerformance": false,
+      "embedVerified": true,
+      "excludedPerformersChecked": false
+     }
+    }
+   ]
+  },
+  {
+   "key": "goltermann-op53-four-cellos",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "correction",
+     "source": "https://imslp.org/wiki/4_Morceaux_caract%C3%A9ristiques,_Op.53_(Goltermann,_Georg)",
+     "basis": "Goltermann Op.53 (4 Morceaux caracteristiques/Morceaux de Salon); IMSLP lists the 4 Cello Version only as Selections (Nos.1-2); Nos.3-4 have no four-cello notation"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/4_Morceaux_caract%C3%A9ristiques,_Op.53_(Goltermann,_Georg)",
+     "basis": "Schott Cello-Bibliothek CB 144 parts Violoncello I-IV, each 2 pp. (PDF 702415 pp.1-8)"
+    },
+    {
+     "claim": "notation",
+     "status": "correction",
+     "source": "https://imslp.org/wiki/4_Morceaux_caract%C3%A9ristiques,_Op.53_(Goltermann,_Georg)",
+     "basis": "Complete four-cello parts exist for 1 Religioso and 2 Nocturne only; the other PDF (925426, 5 pp.) is cello and piano, not four cellos"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=rYjAZt2ctQ8",
+     "basis": "London Mozart Players, Petits Fours (Cello Classics, released 2002-05-24), labelled Version for 4 Cellos, Nocturne"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=rYjAZt2ctQ8",
+    "finding": "London Mozart Players on the Cello Classics release Petits Fours (2002) play the Nocturne in the Version for 4 Cellos (3:18 excerpt)."
+   },
+   "workCorrections": {
+    "title": "Religioso and Nocturne (Nos.1-2 of 4 Morceaux caractéristiques, Op.53)",
+    "notes": "Only Nos.1-2 exist for four cellos (Schott Cello-Bibliothek 144); Nos.3-4 are not in this version.",
+    "form": "set"
+   },
+   "approvedDetailFields": [
+    "movements",
+    "published"
+   ],
+   "detailCorrections": {
+    "kind": "pieces",
+    "movements": [
+     "Religioso",
+     "Nocturne"
+    ],
+    "published": "c.1879, Mainz: Schott (Cello-Bibliothek No.144)"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/4_Morceaux_caract%C3%A9ristiques,_Op.53_(Goltermann,_Georg)",
+    "published": "https://imslp.org/wiki/4_Morceaux_caract%C3%A9ristiques,_Op.53_(Goltermann,_Georg)"
+   },
+   "grade": {
+    "level": 4,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello 1 carries the lyrical melody high in the bass clef then in tenor clef (Religioso PDF 702415 p.1, Nocturne p.2) with sustained thumb-position lines, sixths-type leaps and long cantabile bows; cellos 2-4 are simple accompaniment (pp.3-8). No fast passagework.",
+    "mode": "major",
+    "pace": "slow",
+    "character": [
+     "lyrical",
+     "tender"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "rYjAZt2ctQ8",
+     "decision": "held",
+     "reason": "Excerpt: Nocturne only; Religioso not in this video",
+     "seconds": 198,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "sePtKaC3oKI",
+     "decision": "rejected",
+     "reason": "Santec Music Orchestra recording, orchestral version, Religioso only",
+     "seconds": 328,
+     "checks": {
+      "exactVersion": false,
+      "wholeWork": false,
+      "humanPerformance": false,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "uU_GjPJH55o",
+     "decision": "rejected",
+     "reason": "Credits its own arrangement by Variation Cello Ensemble; Religioso only",
+     "seconds": 320,
+     "checks": {
+      "exactVersion": false,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "tautu-da-capo-four-cellos",
+   "status": "held",
+   "factsVerified": true,
+   "reason": "No performance evidence: the Violoncellissimo video is a painting with no description and no credits; Da capo II is a different work for piano, flute and percussion; web search found Violoncellissimo is a larger ensemble with no record of playing this piece",
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Da_capo_(T%C4%83utu,_Cornelia)",
+     "basis": "Cornelia Tautu, Da capo, 2006, 4 cellos; composer's own typeset score under CC BY-SA, original"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Da_capo_(T%C4%83utu,_Cornelia)",
+     "basis": "Score has four staves Vlc 1-4 (PDF p.3); IMSLP lists four cello parts"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Da_capo_(T%C4%83utu,_Cornelia)",
+     "basis": "Complete 23-page score: I. Elegiaco p.3, II. Animando p.10, III. Semplice p.21"
+    },
+    {
+     "claim": "floor",
+     "status": "held",
+     "source": "https://www.icr.ro/new-york/ansamblul-violoncellissimo-la-washington-cu-ocazia-inaugurarii-presedintiei-romaniei-la-consiliul-uniunii-europene-si-a-zilei-culturii-nationale-15012019/en",
+     "basis": "Two searches found Violoncellissimo is a Romanian cello ensemble with piano and percussion; nothing links it to Da capo"
+    }
+   ],
+   "workCorrections": {
+    "minutes": null
+   },
+   "approvedDetailFields": [],
+   "detailCorrections": {
+    "kind": "movements",
+    "movements": [
+     "Elegiaco",
+     "Animando",
+     "Semplice"
+    ]
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Da_capo_(T%C4%83utu,_Cornelia)"
+   },
+   "grade": {
+    "level": 6,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Contemporary idiom: constant clef changes among bass, tenor and treble, artificial harmonics and sul ponticello, col legno, tremolo, mixed 4/4-5/4-2/4 meters, sixteenth and triplet-sixteenth figures at quarter=90 (PDF pp.3, 10, 16-20) and a high natural harmonic ending (p.21).",
+    "mode": null,
+    "pace": "moderate",
+    "character": [
+     "dark",
+     "lyrical"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "ED74xCyHan0",
+     "decision": "held",
+     "reason": "Still painting, empty description, no credits; cannot show human players",
+     "seconds": 582,
+     "checks": {
+      "exactVersion": false,
+      "wholeWork": true,
+      "humanPerformance": false,
+      "embedVerified": true,
+      "excludedPerformersChecked": false
+     }
+    },
+    {
+     "id": "QriCSTJEIVE",
+     "decision": "rejected",
+     "reason": "Different work: Da capo II (2010) for piano, flute and percussion",
+     "seconds": 699,
+     "checks": {
+      "exactVersion": false,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "klengel-op33-four-cellos",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/4_St%C3%BCcke,_Op.33_(Klengel,_Julius)",
+     "basis": "Julius Klengel, Vier Stuecke fuer vier Violoncelle Op.33, first published 1895; original; BeeDeFan is editor of the modern typeset, not arranger"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/4_St%C3%BCcke,_Op.33_(Klengel,_Julius)",
+     "basis": "Score has Violoncello I-IV staves (PDF p.1)"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/4_St%C3%BCcke,_Op.33_(Klengel,_Julius)",
+     "basis": "Complete 75-page score: 1 Song without Words p.1, 2 Gavotte p.9, 3 Lullaby p.27, 4 March p.40"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=vbCulZIUF7c",
+     "basis": "Echo Bridge Cello, four named players, First Korean Church in Cambridge, February 2023"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=vbCulZIUF7c",
+    "finding": "Echo Bridge Cello (Jaehee Ju, Hyun-ji Kwon, Young Sook Lee, Agnes Kim) play Songs without Words, Gavotte and March at First Korean Church, Cambridge, Feb 2023."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements",
+    "published",
+    "minutes"
+   ],
+   "detailCorrections": {
+    "kind": "pieces",
+    "movements": [
+     "Lied ohne Worte",
+     "Gavotte",
+     "Wiegenlied",
+     "Marsch"
+    ],
+    "published": "1895"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/4_St%C3%BCcke,_Op.33_(Klengel,_Julius)",
+    "published": "https://imslp.org/wiki/4_St%C3%BCcke,_Op.33_(Klengel,_Julius)"
+   },
+   "grade": {
+    "level": 5,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello 1 plays tenor clef much of the time with high-position melody (Song without Words PDF p.1-2), scherzando Gavotte with trills (p.9), and triplet-quaver runs with leaps above the staff in the March (pp.40-42); lower cellos are moderate with some pizzicato and chords.",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "dance",
+     "playful"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "vbCulZIUF7c",
+     "decision": "held",
+     "reason": "Plays pieces I, II and IV only; Lullaby (III) omitted",
+     "seconds": 818,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  },
+  {
+   "key": "werner-op6-four-cellos",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Cello_Quartet,_Op.6_(Werner,_Josef)",
+     "basis": "Josef Werner Quartett Op.6 fuer vier Violoncelle oder drei Violoncelle und Viola, Aibl 1884, UE reprint No.1415; original; the Guitar version by Hoeger is a separate arrangement"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Cello_Quartet,_Op.6_(Werner,_Josef)",
+     "basis": "Separate parts Violoncello I-IV; a Viola part is marked as replacement for Violoncello II, so the four-cello scoring is intact"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Cello_Quartet,_Op.6_(Werner,_Josef)",
+     "basis": "Complete parts only, no score: Cello I pp.4-6, Viola p.8, Cello II p.12, Cello III pp.16-17, Cello IV pp.20-22 (22 pp.); three movements Andante serioso, Scherzo with Trio, Introduzione and Moderato"
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=k5IWWhZHbf0",
+     "basis": "Grupo Cellos in Concert at the final of the V Premio Incentivo de Musica da Camara, Conservatorio de Tatui"
+    }
+   ],
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=k5IWWhZHbf0",
+    "finding": "Grupo Cellos in Concert play the Andante serioso at the final of the V Premio Incentivo de Música da Câmara, Conservatório de Tatuí (2nd place); a home upload shows four live cellists."
+   },
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements",
+    "published",
+    "dedication",
+    "key"
+   ],
+   "detailCorrections": {
+    "kind": "movements",
+    "movements": [
+     "Andante serioso",
+     "Scherzo: Allegro molto vivace",
+     "Introduzione: Adagio molto - Moderato"
+    ],
+    "published": "1884, Munich: Aibl",
+    "dedication": "J. N. Kösporer"
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Cello_Quartet,_Op.6_(Werner,_Josef)",
+    "published": "https://imslp.org/wiki/Cello_Quartet,_Op.6_(Werner,_Josef)",
+    "dedication": "https://imslp.org/wiki/Cello_Quartet,_Op.6_(Werner,_Josef)"
+   },
+   "grade": {
+    "level": 5,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Cello 1 lies in tenor and treble clef with sustained high positions, sixteenth runs and chromatic turns in the Introduzione/Moderato (PDF 10005 pp.3-6), flageolet notes and rapid arpeggios in the Scherzo (p.5); cello 4 is a slow bass line (pp.20-22).",
+    "mode": "minor",
+    "pace": "moderate",
+    "character": [
+     "dramatic",
+     "lyrical"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "SDy0KqrWu-w",
+     "decision": "held",
+     "reason": "Four live cellists shown but no names, no movement list, 4:29 only; extent unverified",
+     "seconds": 269,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": false
+     }
+    },
+    {
+     "id": "k5IWWhZHbf0",
+     "decision": "held",
+     "reason": "Andante serioso only",
+     "seconds": 253,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": false,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    }
+   ]
+  }
+ ]
+}

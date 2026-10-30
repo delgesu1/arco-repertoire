@@ -1,0 +1,128 @@
+{
+ "batch": "pilot-02-facts",
+ "accepted": [
+  {
+   "key": "bowen-fantasia-four-violas-op41-1",
+   "id": 105136,
+   "publicId": 105136,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    7
+   ],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [
+    "kind",
+    "composed",
+    "otherTitles",
+    "movements",
+    "dedication",
+    "published"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "cuRxSCjmlKM"
+  },
+  {
+   "key": "harbison-cucaraccia-fugue-four-violas",
+   "id": 108045,
+   "publicId": 108045,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6
+   ],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [
+    "kind",
+    "movements",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "_mGF7inYsO4"
+  },
+  {
+   "key": "fitzenhagen-ave-maria-op41-4vc",
+   "id": 104935,
+   "publicId": 104935,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5
+   ],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [
+    "composed",
+    "dedication",
+    "published",
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "gubaidulina-quaternion-4vc",
+   "id": 106744,
+   "publicId": 106744,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [
+    "composed",
+    "dedication",
+    "firstPerformance"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [
+  {
+   "key": "jacob-suite-eight-violas",
+   "reason": "Two supported independent grades are required",
+   "opinions": [
+    6
+   ]
+  },
+  {
+   "key": "bottesini-passione-trumpf-four-basses",
+   "reason": "Two supported independent grades are required",
+   "opinions": [
+    7
+   ]
+  },
+  {
+   "key": "weinzierl-nachtstuck-op34-four-violas",
+   "reason": "Third blind grade required",
+   "opinions": [
+    6,
+    5
+   ]
+  },
+  {
+   "key": "klengel-hymnus-op57-12vc",
+   "reason": "Third blind grade required",
+   "opinions": [
+    5,
+    6
+   ]
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "f2ecc8edc2364550806a23b88414c92ae7055906f3362b124ef401a5f0680fd9",
+  "data/chamber/composers.json": "a814fc5b10cf3d21facdb3a40d162caba3cbee5520ab8a5822049b758f284cb8",
+  "data/chamber/id-registry.json": "317199ddda9ced13dba73831b68607b6089f6f60f0d6ec88b05b12930527fec6",
+  "data/chamber/sources.json": "27e44ca468231ded0417b987c6fde83339ea60e603c13368c2cd017dddddcea8",
+  "data/details/overrides.json": "4dba470f65c114ee760edbd609c02ac5e3355306b1cb3c7e5aa772e6392858bc",
+  "data/chamber/recordings-judged.json": "16317429aa29adb4c925f74938b35d54048586549fd3ff5598751a492d7d4cae",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/pilot-viola-bass.json": "3fabc37134892dc089eaef15f852aca4e39c61bd2f22f47e79b1bcb208dcb7e5",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/pilot-cello.json": "21e44ae3b626460b349d75b1cefdfd39afa0b8ce73370399bad763d17430ffbb",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/review-pilot-viola-bass.json": "b3ba54dcfaf490dc2b530f2ffe41a30ac099cf71feb90363e1343ac49d5ad8a5",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/review-pilot-cello.json": "3a5cd6c2ff1921c17f320892cc4e1ea919f0ac3dee8874d656a1c66b996c2a0e"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/pilot-02-facts"
+}

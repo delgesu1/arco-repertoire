@@ -1,0 +1,76 @@
+{
+ "entries": [
+  {
+   "key": "forino-preghiere-op27-no3",
+   "status": "approved",
+   "factsVerified": true,
+   "findings": [
+    {
+     "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=13569",
+     "finding": "Exact No.3 primary library record identifies Luigi Forino, Preghiere per quattro violoncelli Op.27 No.3, alternate title San Francesco parla alle tortore, score and four parts, Ricordi plate 119273, Milano, publication 1923. This is publication evidence, not a composition date. Complete local score has four music pages (PDF pages 5–8), explicitly headed No.3, with an ending double bar; no other numbers from the collection are included."
+    },
+    {
+     "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=13569",
+     "finding": "Direct score title page reads A Francisco P. ROGET, and Semplice ed intimo quarter=60. Subsequent a tempo quarter=69; one-sharp signature, G-centred tonal frame. Dedicated heading applies to this exact No.3. Approve detail kind as original work; published 1923; otherTitles San Francesco parla alle tortore; dedication Francisco P. Roget. Composition year remains unknown."
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=RrfRzXL1WV4",
+     "finding": "Cached public video metadata explicitly names Luigi Forino Preghiere per quattro violoncelli nr 3 op.27, Polish Cello Quartet. Description identifies four cellists Wojciech Fudala, Tomasz Daroch, Adam Krzeszowiec and Krzysztof Karpeta, live concert Wroclaw 2016-08-03. Duration 448 seconds is consistent with this complete slow independent piece; playable_in_embed=true. None of the four named performers is on the excluded list. Recording approved from exact-piece identity and supplied complete-performance identification; no claim of listening to the whole recording."
+    },
+    {
+     "url": "https://polishcelloquartet.com/en/repertoire",
+     "finding": "Primary quartet repertoire URL supplied for corroboration could not be fetched in this review (timeout). Not treated as independently read evidence."
+    }
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Independent reading of every music page of No.3 (PDF pages 5–8). Cello 1 leads with exposed tenor-register cantabile and higher excursions, chromatic slurred turns, dotted/semiquaver and triplet figures, changing tenor/treble clefs, and harmonics near rehearsal 9. Rehearsals 2–5 and 7–8 require precise expressive shifts and chromatic intonation; parts 2–4 add double stops, chordal passages, active soft accompaniment, and coordination of triplets against other subdivisions. Semplice ed intimo quarter=60 and a tempo quarter=69 keep running notes moderate. The long quiet phrases, ppp/pppp dynamics, senza vibrato opening and muted close make bow control and sustained tuning consequential. Whole-piece pre-diploma level6 is appropriate for its exposed upper-register control and expressive technique; it does not call for fast virtuoso passagework. No automatic ensemble uplift is added. The grade covers only the complete independent No.3, not all Preghiere.",
+    "mode": "major",
+    "pace": "slow",
+    "character": [
+     "lyrical",
+     "tender"
+    ]
+   },
+   "approvedWorkFields": [
+    "composer",
+    "title",
+    "instruments",
+    "players",
+    "formation",
+    "form",
+    "minutes",
+    "level",
+    "hardestPart"
+   ],
+   "approvedDetailFields": [
+    "kind",
+    "published",
+    "otherTitles",
+    "dedication"
+   ],
+   "detailSources": {
+    "kind": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=13569",
+    "published": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=13569",
+    "otherTitles": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=13569",
+    "dedication": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745"
+   },
+   "recordingDecisions": [
+    {
+     "id": "RrfRzXL1WV4",
+     "decision": "approved",
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": true,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     },
+     "reason": "Exact Op.27 No.3 four-cello title and supplied full-performance identification, named human quartet in live concert, 448-second duration, cached embed flag true; all four named performers checked against Ray Chen, Sarah Chang, Joshua Bell and Stefan Jackiw. No collection-level substitution."
+    }
+   ]
+  }
+ ]
+}

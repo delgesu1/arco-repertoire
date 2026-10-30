@@ -1,0 +1,231 @@
+{
+  "batch": "bass-verify-01",
+  "status": "complete",
+  "checkedOn": "2026-10-28",
+  "entries": [
+    {
+      "key": "alt-suite-four-double-basses",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+          "finding": "Publisher sells FH2041 for four basses, 16-page score plus four 4-page parts; preview identifies original Suite by Bernhard Alt, four timing entries total 13 minutes, two solo-tuned and two orchestral-tuned basses. Preview copyright 1954; LA Phil 1933 is publication, not proven composition."
+        },
+        {
+          "url": "https://classical.music.apple.com/us/album/574404578",
+          "finding": "Label-distributed full four-movement 13:09 recording by Quatuor de contrebasses de Bruxelles."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "double-bass 1",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dance"
+        ],
+        "confidence": "medium",
+        "basis": "Actual Hofmeister opening score preview: octave-displaced high melodic writing in basses 1–2, slurred changes of register, independent accompanying figures and exposed pp blend. Publisher calls medium/difficult. Only opening page inspected; whole-suite estimate at pre-diploma with moderate confidence, not a claim about unseen movements."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "minutes",
+        "set",
+        "notes",
+        "popularity"
+      ],
+      "workCorrections": {
+        "year": ""
+      },
+      "approvedDetailFields": [
+        "kind",
+        "composed",
+        "published",
+        "movements"
+      ],
+      "detailCorrections": {
+        "published": "1954, Friedrich Hofmeister"
+      },
+      "detailSources": {
+        "kind": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+        "composed": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+        "published": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+        "movements": "https://www.hofmeister-musikverlag.com/produkt/suite/"
+      },
+      "recordingDecisions": []
+    },
+    {
+      "key": "lauber-quartet-double-basses-1942",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://stainer.co.uk/shop/ye0036/",
+          "finding": "Yorke publisher lists original 1942 four-movement quartet, approximately 13 minutes, written for Berlin Philharmonic Double Bass Quartet and first published by Yorke 1975; top part advanced."
+        },
+        {
+          "url": "https://hc.sk/en/o-slovenskej-hudbe/osobnost-detail/477-jan-krigovsky/diskografia",
+          "finding": "2018 BassBand album records the quartet; four named double bassists credited."
+        },
+        {
+          "url": "https://www.prestomusic.com/sheet-music/products/7343147--lauber-quartet-for-double-basses-1942",
+          "finding": "Exact YE0036 score and parts offered for purchase, normally dispatched in 5–7 working days; national Music Centre discography independently names all four BassBand bassists for complete quartet track."
+        },
+        {
+          "url": "https://stainer.co.uk/shop/ye0036/",
+          "finding": "Draft manuscript sounding-pitch/solo-tuning assertion and IMSLP link were not independently checked; omit those claims from approved insertion."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "double-bass 1",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "lyrical"
+        ],
+        "confidence": "low",
+        "basis": "Publisher/editor Rodney Slatford identifies the top part as advanced in a four-movement 13-minute work. No notation inspected: level 5 follows that reliable primary technical assessment; register, precise rhythmic demands and whole-work distribution remain unverified."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "popularity"
+      ],
+      "workCorrections": {
+        "notes": "Four movements; the first double-bass part is advanced."
+      },
+      "approvedDetailFields": [
+        "kind",
+        "composed",
+        "published",
+        "movements"
+      ],
+      "detailCorrections": {},
+      "detailSources": {
+        "kind": "https://stainer.co.uk/shop/ye0036/",
+        "composed": "https://stainer.co.uk/shop/ye0036/",
+        "published": "https://stainer.co.uk/shop/ye0036/",
+        "movements": "https://stainer.co.uk/shop/ye0036/"
+      },
+      "recordingDecisions": []
+    },
+    {
+      "key": "hauta-aho-arietta-12-double-basses",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+          "finding": "Composer revision reduced original 16-bass work to 12 in 2000; exact 12-staff preview credited solely to composer, copyright Recital Music 2003. Product out of stock here."
+        },
+        {
+          "url": "https://helsinkijazz.fi/en/events/teppo-hauta-ahon-muistokonsertin-9-6-22-kuvia-ja-artikkeleita/",
+          "finding": "Full Arietta performed by twelve named bassists at the June 9, 2022 Savoy memorial concert."
+        },
+        {
+          "url": "https://www.stretta-music.at/author-teppo-hauta-aho",
+          "finding": "Current retailer lists exact Arietta for 12 basses and Mini-Bass Symphony for 10 basses, each score and parts, immediate digital download; legitimate availability supersedes publisher shop sold-out label."
+        }
+      ],
+      "grade": {
+        "level": 4,
+        "hardestPart": "balanced",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "lyrical"
+        ],
+        "confidence": "medium",
+        "basis": "Actual Recital Music opening page has 12 staves, repeating treble-clef sustained motifs and staggered entries at Allegretto quarter=120. Publisher states whole instrument range/highest harmonics, limited notes per player and mixed abilities. Level 4 estimates hardest harmonic control plus exposed 12-part tuning; not inferred virtuosity from ledger lines."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "popularity"
+      ],
+      "workCorrections": {
+        "notes": "Twelve-bass revision made in 2000 of the 1987 original for sixteen basses."
+      },
+      "approvedDetailFields": [
+        "kind",
+        "composed",
+        "published",
+        "movements"
+      ],
+      "detailCorrections": {
+        "published": "2003, Recital Music"
+      },
+      "detailSources": {
+        "kind": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+        "composed": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+        "published": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+        "movements": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses"
+      },
+      "recordingDecisions": []
+    },
+    {
+      "key": "hauta-aho-mini-bass-symphony",
+      "status": "held",
+      "factsVerified": false,
+      "findings": [
+        {
+          "url": "https://shop.doublebasshq.com/products/the-mini-bass-symphony-for-massed-double-bass-ensemble-in-10-parts",
+          "finding": "Edition has ten numbered parts but expressly allows ten OR massed basses; catalogue draft itself says 1–10. Not established as fixed-ten-only; product sold out here."
+        },
+        {
+          "url": "https://www.wells.cathedral.school/2016/12/28/the-flying-finn-in-frome/",
+          "finding": "Draft concert claim not independently verified: school URL inaccessible via web and SSL failed locally. Publisher reports performances in Britain and America, but no exact ten-player whole-work performance inspected."
+        },
+        {
+          "url": "https://www.stretta-music.at/author-teppo-hauta-aho",
+          "finding": "Current retailer lists exact Arietta for 12 basses and Mini-Bass Symphony for 10 basses, each score and parts, immediate digital download; legitimate availability supersedes publisher shop sold-out label."
+        }
+      ],
+      "grade": {
+        "level": 3,
+        "hardestPart": "double-bass 1",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "playful"
+        ],
+        "confidence": "medium",
+        "basis": "Actual Recital Music movement-I opening shows simple bass-clef pizzicato phrases, lower-position harmonics and staggered entries. Publisher says good beginners except Bass 1 low thumb-position passages; level 3 estimates hardest part. Full work not inspected."
+      },
+      "approvedWorkFields": [],
+      "workCorrections": {},
+      "approvedDetailFields": [],
+      "detailCorrections": {},
+      "detailSources": {
+        "kind": "https://shop.doublebasshq.com/products/the-mini-bass-symphony-for-massed-double-bass-ensemble-in-10-parts",
+        "composed": "https://shop.doublebasshq.com/products/the-mini-bass-symphony-for-massed-double-bass-ensemble-in-10-parts",
+        "published": "https://shop.doublebasshq.com/products/the-mini-bass-symphony-for-massed-double-bass-ensemble-in-10-parts",
+        "movements": "https://shop.doublebasshq.com/products/the-mini-bass-symphony-for-massed-double-bass-ensemble-in-10-parts"
+      },
+      "recordingDecisions": [],
+      "holdReason": "Flexible/massed scoring and exact ten-player whole-work concert floor not established; do not insert as fixed ten-player work."
+    }
+  ]
+}

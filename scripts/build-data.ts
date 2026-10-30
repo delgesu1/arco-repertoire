@@ -78,6 +78,7 @@ const col = (name: string) => {
 const C = {
   composer: col("Composer"),
   title: col("Title"),
+  arranger: header.indexOf("Arranger"), // optional column in the JSON source snapshot; chamber credits take precedence
   level: col("Level (1–10)"),
   category: col("Category"),
   acc: col("Accompaniment"),
@@ -137,6 +138,8 @@ for (const [n, r] of sheet.slice(1).entries()) {
   const settings = accMap[accompaniment];
   if (!settings) warn(`row ${row}: accompaniment "${accompaniment}" is not in data/accompaniment-map.json`);
   const cw = chamberOf.get(id);
+  const rawArranger = cw?.arranger ?? (g(C.arranger) || undefined);
+  const arranger = typeof rawArranger === "string" ? rawArranger.trim() : rawArranger;
   const scoring: ScoringEntry | undefined = cw
     ? { instruments: cw.instruments, alternatives: cw.alternatives, optional: cw.optional }
     : scoringMap[accompaniment];
@@ -194,6 +197,7 @@ for (const [n, r] of sheet.slice(1).entries()) {
     composerName: firstLast(composer),
     composerSlug: slugify(composer),
     title,
+    ...(arranger !== undefined ? { arranger } : {}),
     level,
     type: type ?? "short",
     settings: settings ?? ["other"],
@@ -268,6 +272,7 @@ const PieceSchema = z.object({
   id: z.number().int().positive(),
   title: z.string().min(1),
   composer: z.string().min(1),
+  arranger: z.string().trim().min(1).optional(),
   level: z.number().int().min(1).max(10),
   settings: z.array(z.string()).min(1),
   minutes: z.number().positive().nullable(),

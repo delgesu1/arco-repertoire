@@ -1,0 +1,795 @@
+{
+ "batch": "batch-ready-15",
+ "entries": [
+  {
+   "key": "dale-introduction-and-andante-op5-six-violas",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "Corda's publisher catalogue confirms the original work is scored for six violas and supplies a score and full part set; a released recording and official concert/video sources establish performance.",
+   "work": {
+    "composer": "Dale, Benjamin",
+    "title": "Introduction and Andante for Six Violas, Op. 5",
+    "instruments": {
+     "viola": 6
+    },
+    "players": 6,
+    "formation": "large-strings",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "1911",
+    "minutes": null,
+    "set": null,
+    "notes": "Original six-viola work written for Lionel Tertis and Royal Academy pupils.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": []
+   },
+   "composerMetadata": {
+    "dates": "1885–1943",
+    "nationality": "British",
+    "gender": "M",
+    "era": "late-romantic"
+   },
+   "details": {
+    "kind": "single",
+    "composed": "1911; revised 1913",
+    "otherTitles": [
+     "Viola Sextet"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.cordamusic.co.uk/string1.html",
+      "checkedOn": "2026-10-28",
+      "locator": "CMP 625",
+      "finding": "Publisher identifies Benjamin Dale, Introduction and Andante Op. 5 for six violas; edited by John White; written in 1911 for Lionel Tertis and Royal Academy pupils; first printed edition; score and single set of parts offered."
+     },
+     {
+      "url": "https://www.duttonvocalion.co.uk/proddetail.php?prod=CDLX7204",
+      "checkedOn": "2026-10-28",
+      "locator": "MUSIC FOR VIOLA track list and credits",
+      "finding": "Label identifies Introduction & Andante for Six Violas, op. 5 and credits Roger Chase with Hannah Shaw, Fiona Opie, Thomas Beer, Rumen Cvetkov and Karel Coninx; identifies it as the world-premiere recording."
+     },
+     {
+      "url": "https://www.naxos.com/CatalogueDetail/?id=8.573167",
+      "checkedOn": "2026-10-28",
+      "locator": "Album description and track 4; search-indexed Naxos catalogue",
+      "finding": "Naxos release 8.573167 lists RAM Viola Sextet performing Introduction and Andante, Op. 5; track duration 10:38. Direct page fetch returned 403 in this pass."
+     },
+     {
+      "url": "https://www.ram.ac.uk/diary/events/summer-2026-viola",
+      "checkedOn": "2026-10-28",
+      "locator": "search-indexed Royal Academy Summer 2026 diary / 30 April event",
+      "finding": "Diary lists Introduction and Andante for six violas in the 30 April Viola Chamber Music Side-by-side programme. Page URL from the handoff was not fetchable directly; the official diary PDF search result also listed the piece."
+     },
+     {
+      "url": "https://supercool-ram.files.svdcdn.com/production/public/documents/Events-Diary-Summer-2026.pdf",
+      "checkedOn": "2026-10-28",
+      "locator": "30 April, Viola Quartet side-by-side with Timothy Ridout",
+      "finding": "Royal Academy diary search result lists Dale's Introduction and Andante for six violas in the programme; 11 violists are named for the multi-work event, not individually assigned to this work. PDF open returned 502."
+     },
+     {
+      "url": "https://vimeo.com/697407112",
+      "checkedOn": "2026-10-28",
+      "locator": "HKO Screen video title",
+      "finding": "Official Hong Kong Orchestra Vimeo title is Benjamin Dale: Introduction and Andante for six violas. Web page metadata was limited to the title in this pass."
+     },
+     {
+      "url": "https://www.konserthuset.se/en/play/daleintroduction-and-andante-for-six-violas/",
+      "checkedOn": "2026-10-28",
+      "locator": "The music / Participants / About the video",
+      "finding": "Konserthuset Stockholm identifies the work as Dale's Introduction and Andante for six violas, Op. 5, names six viola performers, and states the online video was published 29 August 2023; explicitly an excerpt, so not treated as proof of a complete recording."
+     },
+     {
+      "url": "https://www.britishviolasociety.co.uk/wp-content/uploads/2015/06/BRITISH-VIOLA-REPERTOIRE.-Revised-July-22nd-2015.pdf",
+      "checkedOn": "2026-10-28",
+      "locator": "Dale, Benjamin",
+      "finding": "British Viola Society repertoire list gives 1911, revised 1913, Op. 5, for six violas, and publisher code CMP."
+     },
+     {
+      "url": "https://www.cordamusic.co.uk/string1.html",
+      "finding": "Independent composer biography metadata."
+     },
+     {
+      "url": "https://www.hyperion-records.co.uk/c.asp?c=C3621",
+      "finding": "Independent composer biography metadata."
+     }
+    ],
+    "scoring": {
+     "url": "https://www.cordamusic.co.uk/string1.html",
+     "locator": "CMP 625",
+     "finding": "Six violas; a score and one complete set of parts are offered. No accompaniment or arranger is identified."
+    },
+    "floor": {
+     "url": "https://www.duttonvocalion.co.uk/proddetail.php?prod=CDLX7204",
+     "finding": "Released complete track recording of the exact six-viola Op. 5 by Roger Chase and five named viola colleagues; label calls it the world-premiere recording. The Naxos catalogue separately lists the exact work performed by RAM Viola Sextet."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://www.cordamusic.co.uk/string1.html",
+     "finding": "Publisher's CMP 625 first printed edition, edited by John White; score and complete single set of parts available from the publisher listing. No free scan URL found."
+    },
+    "fieldSources": {
+     "work.composer": "https://www.cordamusic.co.uk/string1.html",
+     "work.title": "https://www.cordamusic.co.uk/string1.html",
+     "work.instruments": "https://www.cordamusic.co.uk/string1.html",
+     "work.players": "https://www.cordamusic.co.uk/string1.html",
+     "work.year": "https://www.cordamusic.co.uk/string1.html",
+     "details.composed": "https://www.britishviolasociety.co.uk/wp-content/uploads/2015/06/BRITISH-VIOLA-REPERTOIRE.-Revised-July-22nd-2015.pdf",
+     "details.otherTitles": "https://www.musicweb-international.com/classrev/2011/feb11/dale.htm"
+    },
+    "unknowns": {
+     "composerMetadata": "No new-composer metadata was compiled in this focused pass; no matching composer key was found in data/chamber/composers.json.",
+     "work.minutes": "Track timings are recording durations, not an independently established score duration.",
+     "details.published": "First printed edition status is stated by Corda, but a publication date was not established.",
+     "recording completeness": "Dutton/Naxos label catalogues present a complete named track; audio was not independently listened to in this pass.",
+     "work.level": "No musical grading performed.",
+     "work.hardestPart": "No musical grading performed.",
+     "work.imslpPage": "No exact IMSLP work page found; the IMSLP composer work list was not mistaken for a score page."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Not graded by first-pass source researcher."
+   },
+   "recordingResearch": {
+    "status": "released-human-performance-established",
+    "queries": [
+     "Benjamin Dale Introduction Andante six violas Op 5 recording",
+     "Benjamin Dale Op.5 viola sextet Royal Academy 2026"
+    ],
+    "candidates": [
+     {
+      "url": "https://www.duttonvocalion.co.uk/proddetail.php?prod=CDLX7204",
+      "performers": [
+       "Roger Chase",
+       "Hannah Shaw",
+       "Fiona Opie",
+       "Thomas Beer",
+       "Rumen Cvetkov",
+       "Karel Coninx"
+      ],
+      "finding": "Commercial label track is the exact work for six violas; identifies the world-premiere recording. No excluded performer appears in the credits."
+     },
+     {
+      "url": "https://www.naxos.com/CatalogueDetail/?id=8.573167",
+      "performers": [
+       "RAM Viola Sextet"
+      ],
+      "finding": "Naxos catalogue lists exact Op. 5 track performed by RAM Viola Sextet; metadata page returned 403 to direct fetch."
+     },
+     {
+      "url": "https://www.konserthuset.se/en/play/daleintroduction-and-andante-for-six-violas/",
+      "performers": [
+       "Vicki Powell",
+       "Lauriane Dahlkvist",
+       "Vidar Andersson Meilink",
+       "Camilla Svarfvar",
+       "Peter Eriksson",
+       "Christopher Öhman"
+      ],
+      "finding": "Official concert-hall page documents an exact-score video excerpt only; not promoted as a complete-work recording."
+     }
+    ]
+   }
+  },
+  {
+   "key": "hofmann-op104-original-3violins-set",
+   "existingPublicId": null,
+   "decision": "include",
+   "reason": "Published complete three-violin set and four human IMSLP recordings. Complete historic parts now inspected via publisher-hosted PDF; medium-confidence grade. Real multitrack possibility remains explicitly flagged for coordinator floor policy, not silently approved.",
+   "work": {
+    "composer": "Hofmann, Richard",
+    "title": "Four Pieces for 3 Violins, Op. 104",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "set",
+    "level": null,
+    "hardestPart": "violin 1",
+    "year": "",
+    "minutes": 16,
+    "set": null,
+    "notes": "Four contrasting concert pieces for three independent violins.",
+    "popularity": "lesser-known",
+    "mode": null,
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "playful"
+    ],
+    "imslpPage": "4 Pieces for 3 Violins, Op.104 (Hofmann, Richard)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "movements": [
+     "Allegro moderato",
+     "Andante con moto",
+     "Allegro ma non troppo",
+     "Allegro con spirito"
+    ],
+    "kind": "pieces",
+    "published": "1898, London: Augener & Co.; No. 5292, plate 11228"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+      "locator": "Parts #243516; Recordings #459039–459042; General Information",
+      "finding": "Complete four-piece set, three violins, first to third positions, human recordings of each piece.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://www.amadeusmusic.ch/en/itemcard.php?itemno=BP+1810&language=de",
+      "locator": "BP1810, scoring and pagination",
+      "finding": "2013 edition by Bernhard Päuler: 16-page score and three 8-page parts.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://www.amadeusmusic.ch/attachments/BP1810_N.pdf",
+      "locator": "Single-page score sample, Allegro moderato",
+      "finding": "Violini I–III, independent lines; text extraction inspected. Screenshot timed out.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://www.amadeusmusic.ch/attachments/BP1810_VF.pdf",
+      "locator": "First-publication discussion",
+      "finding": "1898 Augener first edition in parts; new 2013 score and editorial articulation/dynamic corrections.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://www.mainly4strings.co.uk/mainstreammusic-org-uk/_img/pdf/Hofmann_-_Four_Pieces_for_Three_Violins-6001.pdf",
+      "locator": "23-page publisher-hosted bundle:2covers,ViolinI PDFpp3–9,IIpp10–16,IIIpp17–23",
+      "finding": "All three independent parts with four numbered pieces; scan of original Augener edition,not a new arrangement. Representative pages of each part and all three finales inspected visually.",
+      "checkedOn": "2026-10-28"
+     }
+    ],
+    "scoring": {
+     "url": "https://www.mainly4strings.co.uk/mainstreammusic-org-uk/_img/pdf/Hofmann_-_Four_Pieces_for_Three_Violins-6001.pdf",
+     "locator": "PDFp3=ViolinI,p10=ViolinII,p17=ViolinIII;all subsequent parts throughp23",
+     "finding": "Three complete independent violin parts,seven printed pages per part,no accompaniment.",
+     "checkedOn": "2026-10-28"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+     "locator": "Recordings, four tracks, Steve’s Bedroom Band",
+     "finding": "Four uploaded human violin-trio performances: 4:15,3:16,2:27,5:49; publisher Steve Jones, uploaded 11 February 2017. Likely real multitrack; review performer identity before final floor acceptance.",
+     "checkedOn": "2026-10-27"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "complete-set",
+     "selection": null
+    },
+    "score": {
+     "url": "https://www.amadeusmusic.ch/en/itemcard.php?itemno=BP+1810&language=de",
+     "locator": "BP1810 / ISMN9790015181009; sample and foreword links",
+     "finding": "Complete score and Violin I–III parts; Bernhard Päuler is editor, not arranger. Historic complete Augener parts also on IMSLP #243516 (21 pages), #82690 (13 facing pages). Full historic three-part scan additionally available on publisher-hosted MainstreamMusic PDF (23pages): partsI pp3–9,II pp10–16,III pp17–23.",
+     "checkedOn": "2026-10-27"
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+     "work.title": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+     "work.form": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+     "work.level": "https://www.mainly4strings.co.uk/mainstreammusic-org-uk/_img/pdf/Hofmann_-_Four_Pieces_for_Three_Violins-6001.pdf",
+     "work.minutes": "IMSLP recording sum 15:47, rounded to16; performance-specific, not fixed duration.",
+     "work.notes": "https://www.mainly4strings.co.uk/mainstreammusic-org-uk/_img/pdf/Hofmann_-_Four_Pieces_for_Three_Violins-6001.pdf",
+     "work.pace": "Researcher broad estimate from alternating movement tempos.",
+     "work.character": "Researcher suggested tags from tempo/descriptions; low confidence.",
+     "work.popularity": "Researcher estimate: specialist repertoire, lesser-known.",
+     "details.movements": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+     "details.published": "https://www.amadeusmusic.ch/attachments/BP1810_VF.pdf",
+     "work.imslpPage": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+     "work.hardestPart": "https://www.mainly4strings.co.uk/mainstreammusic-org-uk/_img/pdf/Hofmann_-_Four_Pieces_for_Three_Violins-6001.pdf"
+    },
+    "unknowns": {
+     "work.year": "Composition date unknown; 1898 is publication only.",
+     "work.mode": "Individual keys not fully inspected; set-wide mode left null.",
+     "details.firstPerformance": "Not established.",
+     "details.dedication": "Not established.",
+     "floorMultitrack": "Full4-piece human recording is categorized under IMSLP Recordings,not synthesized,credited Steve’s Bedroom Band/SteveJones,and even lists3physical violins. Isolated overdubbing remains possible;no primary creator biography confirms method. Treat as flagged real-multitrack candidate pending coordinator policy. No complete live ensemble performance located in focused searches.",
+     "youtube": "Only inspected YouTube is Scherzo excerpt;complete set lacks verified YouTube. A2023 Mendelssohn competition programme search result also lists Scherzo only;not used as complete-set floor.",
+     "gradeCoverage": "Visual samples:Amadeus first score page;historic ViolinI printedpp1,3,4,5,7;ViolinII pp1,4,7;ViolinIII pp1,4,7. Enough to calibrate medium-confidence ensemble grade,not full per-part grading."
+    },
+    "gradeCorrection": {
+     "url": "https://ks15.imslp.org/files/imglnks/usimg/3/3e/IMSLP82690-PMLP168454-3402.HoffmannR-Op104pts.pdf",
+     "finding": "Violin1 explicitly marks sixth position, printed pp6–7; original restricted-position premise is false."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Old level3 estimate withdrawn: claimed first–third positions is contradicted by explicit fifth/sixth-position passages in complete published part, independently observed in grades12 and13. Use fresh independent notation grades."
+   },
+   "recordingResearch": {
+    "status": "not-found",
+    "queries": [
+     "Hofmann Op.104 violins recording",
+     "Hofmann 104 3 pdf pieces violins",
+     "IMSLP linked YouTube 9TxnUlOq_nQ inspected by yt-dlp",
+     "Hofmann104VierStückeKonzert",
+     "Hofmann104FourPiecesconcertprogram",
+     "Steve’sBedroomBand performer/contributor pages checked"
+    ],
+    "candidates": [
+     {
+      "id": "9TxnUlOq_nQ",
+      "title": "Adventskonzert im Erbdrostenhof - Richard Hofmann Trio für drei Violinen, op.104—Scherzo",
+      "channel": "Elda Teqja",
+      "seconds": 206,
+      "url": "https://www.youtube.com/watch?v=9TxnUlOq_nQ",
+      "description": "Adventskonzert im Erbdrostenhof, 12.12.2021, Münster\nRichard Hofmann Trio für drei Violinen,op.104—Scherzo , Shania (12), Eike (11)",
+      "performerCredits": "Description: Shania (12), Eike (11); Adventskonzert, Erbdrostenhof Münster, 12 December 2021. Third player not named.",
+      "exactVersionEvidence": "Title/description identify Hofmann Op104 violin trio Scherzo; IMSLP links this upload.",
+      "completenessEvidence": "Scherzo only, 206 s; not complete four-piece set.",
+      "exclusionCheck": "No banned names in inspected metadata; third player uncredited, so complete roster unresolved.",
+      "embedCheck": {
+       "playableInEmbed": true,
+       "availability": "public",
+       "method": "yt-dlp metadata",
+       "checkedOn": "2026-10-27"
+      },
+      "judgement": "reject-as-primary-incomplete"
+     }
+    ]
+   },
+   "supersededResearcherGrade": {
+    "level": 3,
+    "basis": "Complete historic three-part bundle establishes first–third-position writing,chromatic sixteenth-note patterns and triplets,slurred/arpeggiated phrases,occasional two-note chords and coordinated articulation. Each voice has independent passages;ViolinI is busiest in later Scherzo/finale. Level3 upper-intermediate,around Purcell Chacony/MozartK155 ensemble anchors,below level4 DvořákMiniatures;no advanced sustained double-stop or extreme-position demands in inspected samples.",
+    "confidence": "medium"
+   }
+  },
+  {
+   "key": "brahms-op91-no2-jones-5violas",
+   "requiresFactReview": true,
+   "decision": "include",
+   "work": {
+    "composer": "Brahms, Johannes",
+    "title": "Geistliches Wiegenlied (No.2 from 2 Gesänge, Op.91)",
+    "arranger": "Steve Jones",
+    "instruments": {
+     "viola": 5
+    },
+    "players": 5,
+    "formation": "string-quintet",
+    "form": "short",
+    "year": "",
+    "minutes": 6,
+    "set": null,
+    "notes": "No.2 from Op.91 arranged for five violas; recorded as a human multitrack by Steve Jones.",
+    "imslpPage": "2 Gesänge, Op.91 (Brahms, Johannes)",
+    "popularity": "lesser-known",
+    "level": null,
+    "hardestPart": null
+   },
+   "details": {
+    "kind": "single",
+    "movements": [
+     "Geistliches Wiegenlied (No.2)"
+    ]
+   },
+   "composerMetadata": null,
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)",
+      "finding": "Creator-published complete eight-page score #417794 and five separate parts #417795–417799, exact Jones five-viola arrangement of complete No2. Exact complete recording #417800,5:38, credited Steve’s Bedroom Band, publisher Steve Jones."
+     },
+     {
+      "url": "https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/5356.pdf",
+      "finding": "Publisher preface by Norbert Florian Schuck identifies violinist Steve Jones and pseudonym Steve’s Bedroom Band and describes his playback recording method. This confirms human performer/multitrack identity; exact work metadata above ties each recording to its scoring and complete extent."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)",
+     "finding": "Complete five-viola score plus numbered parts1–5; Jones arrangement."
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)",
+     "finding": "Complete score and five published parts."
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)",
+     "finding": "Complete human multitrack, Steve Jones/Steve’s Bedroom Band, explicitly reviewed and approved as such."
+    },
+    "version": {
+     "kind": "arrangement",
+     "arranger": "Steve Jones",
+     "extent": "complete-number",
+     "selection": "Geistliches Wiegenlied, No.2"
+    },
+    "fieldSources": {},
+    "unknowns": {
+     "work.year": "Arrangement date unestablished; original song date is not assigned to this version."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "No researcher musical grade."
+   },
+   "recordingResearch": {
+    "status": "human-multitrack-audio-established-no-approved-youtube",
+    "candidates": []
+   }
+  },
+  {
+   "key": "alt-suite-four-double-basses",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "Hofmeister lists the four-bass score and parts for sale; label and concert programme establish the complete suite in performance.",
+   "work": {
+    "composer": "Alt, Bernhard",
+    "title": "Suite for Four Double Basses",
+    "instruments": {
+     "double-bass": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "1933",
+    "minutes": 13,
+    "set": null,
+    "notes": "Four movements; basses 1–2 use solo tuning, basses 3–4 orchestral tuning.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": []
+   },
+   "composerMetadata": {
+    "dates": "",
+    "nationality": "",
+    "gender": "M",
+    "era": "20th-century"
+   },
+   "details": {
+    "kind": "single",
+    "composed": null,
+    "published": null,
+    "movements": [
+     "Präludium",
+     "Menuett",
+     "Adagio",
+     "Humoreske"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+      "checkedOn": "2026-10-28",
+      "locator": "Product information",
+      "finding": "Publisher offers score and four parts for four double basses; four movements, first print 1954, movement timings total about 13 minutes."
+     },
+     {
+      "url": "https://www.laphil.com/works/quartet-for-double-basses-alt",
+      "checkedOn": "2026-10-28",
+      "locator": "About this Piece",
+      "finding": "LA Phil says Alt's Suite for Four Double Basses was published in 1933 and remains a standard bass ensemble work."
+     },
+     {
+      "url": "https://classical.music.apple.com/us/album/574404578",
+      "checkedOn": "2026-10-28",
+      "locator": "1991 album listing",
+      "finding": "Pavane Records lists Suite romantique with all four movements, 13:09, performed by Quatuor de contrebasses de Bruxelles."
+     },
+     {
+      "url": "https://www.mcst.go.kr/site/s_culture/culture/cultureView.jsp?pSeq=53035",
+      "checkedOn": "2026-10-28",
+      "locator": "2025 programme",
+      "finding": "South Korea Ministry of Culture concert programme lists all four movements of Alt's suite."
+     }
+    ],
+    "scoring": {
+     "url": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+     "locator": "Besetzung / Umfang",
+     "finding": "Four double basses; full score and four individual parts; no other instruments."
+    },
+    "floor": {
+     "url": "https://classical.music.apple.com/us/album/574404578",
+     "finding": "Label-distributed full four-movement 13:09 recording by Quatuor de contrebasses de Bruxelles."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+     "finding": "Current publisher product offers the score and all four parts."
+    },
+    "fieldSources": {
+     "work.composer": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+     "work.title": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+     "work.instruments": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+     "work.year": "https://www.laphil.com/works/quartet-for-double-basses-alt",
+     "work.minutes": "https://classical.music.apple.com/us/album/574404578",
+     "details.movements": "https://www.hofmeister-musikverlag.com/produkt/suite/"
+    },
+    "unknowns": {
+     "composerMetadata": "No qualifying primary biographical source inspected.",
+     "work.level": "No musical grading performed.",
+     "work.hardestPart": "No musical grading performed.",
+     "composer.dates": "No reliable dates established in primary orchestra biography.",
+     "composer.nationality": "Not inferred from Silesian birthplace."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Not graded by first-pass researcher."
+   },
+   "recordingResearch": {
+    "status": "released-human-recording-established",
+    "queries": [
+     "Bernhard Alt Suite four double basses album Pavane"
+    ],
+    "candidates": [
+     {
+      "url": "https://classical.music.apple.com/us/album/574404578",
+      "performers": [
+       "Quatuor de contrebasses de Bruxelles"
+      ],
+      "finding": "Pavane Records album lists all four original movements and a 13:09 runtime."
+     }
+    ]
+   }
+  },
+  {
+   "key": "lauber-quartet-double-basses-1942",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "Yorke Edition offers the quartet score and parts; a label release and 2025 concert programme document complete performances by four named bassists.",
+   "work": {
+    "composer": "Lauber, Joseph",
+    "title": "Quartet for Double Basses",
+    "instruments": {
+     "double-bass": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "1942",
+    "minutes": 13,
+    "set": null,
+    "notes": "Four movements; manuscript is in sounding pitch with all four basses in solo tuning.",
+    "imslpPage": "https://imslp.org/wiki/Double_Bass_Quartet_(Lauber,_Joseph)",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": []
+   },
+   "composerMetadata": {
+    "dates": "1864–1952",
+    "nationality": "Swiss",
+    "gender": "M",
+    "era": "late-romantic"
+   },
+   "details": {
+    "kind": "single",
+    "composed": "1942",
+    "published": "1975, Yorke Edition",
+    "movements": null
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://stainer.co.uk/shop/ye0036/",
+      "checkedOn": "2026-10-28",
+      "locator": "Product description",
+      "finding": "Yorke Edition publisher offers the four-double-bass score and parts; four movements, approx. 13 minutes; work dated 1942 and published 1975."
+     },
+     {
+      "url": "https://hc.sk/en/o-slovenskej-hudbe/osobnost-detail/477-jan-krigovsky/diskografia",
+      "checkedOn": "2026-10-28",
+      "locator": "2018 album Father",
+      "finding": "National Music Centre of Slovakia lists BassBand's recording of Lauber's quartet with four named double bassists."
+     },
+     {
+      "url": "https://www.mcst.go.kr/site/s_culture/culture/cultureView.jsp?pSeq=53035",
+      "checkedOn": "2026-10-28",
+      "locator": "2025 programme",
+      "finding": "Concert programme lists Lauber quartet and all four movements."
+     }
+    ],
+    "scoring": {
+     "url": "https://stainer.co.uk/shop/ye0036/",
+     "locator": "Product / edition details",
+     "finding": "Score and parts for four double basses; no additional instruments."
+    },
+    "floor": {
+     "url": "https://hc.sk/en/o-slovenskej-hudbe/osobnost-detail/477-jan-krigovsky/diskografia",
+     "finding": "2018 BassBand album records the quartet; four named double bassists credited."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://stainer.co.uk/shop/ye0036/",
+     "finding": "Current Yorke Edition publisher listing sells score and parts."
+    },
+    "fieldSources": {
+     "work.composer": "https://stainer.co.uk/shop/ye0036/",
+     "work.title": "https://stainer.co.uk/shop/ye0036/",
+     "work.instruments": "https://stainer.co.uk/shop/ye0036/",
+     "work.year": "https://stainer.co.uk/shop/ye0036/",
+     "work.minutes": "https://stainer.co.uk/shop/ye0036/",
+     "composerMetadata.dates": "https://stainer.co.uk/shop/ye0036/",
+     "composerMetadata.nationality": "https://stainer.co.uk/shop/ye0036/"
+    },
+    "unknowns": {
+     "work.level": "No musical grading performed.",
+     "work.hardestPart": "No musical grading performed."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Not graded by first-pass researcher."
+   },
+   "recordingResearch": {
+    "status": "released-human-recording-established",
+    "queries": [
+     "Joseph Lauber Quartet for Double Basses BassBand Father"
+    ],
+    "candidates": [
+     {
+      "url": "https://hc.sk/en/o-slovenskej-hudbe/osobnost-detail/477-jan-krigovsky/diskografia",
+      "performers": [
+       "Ján Krigovský",
+       "Ján Prievozník",
+       "Metod Podolský",
+       "Jakub Stračina"
+      ],
+      "finding": "National Music Centre of Slovakia credits the quartet recording to BassBand and names its four bassists."
+     }
+    ]
+   }
+  },
+  {
+   "key": "hauta-aho-arietta-12-double-basses",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "The revised twelve-bass score is available from its publisher, and a memorial concert review documents a full performance with twelve named players.",
+   "work": {
+    "composer": "Hauta-aho, Teppo",
+    "title": "Arietta for 12 Double Basses",
+    "instruments": {
+     "double-bass": 12
+    },
+    "players": 12,
+    "formation": "large-strings",
+    "form": "short",
+    "level": null,
+    "hardestPart": null,
+    "year": "1987",
+    "minutes": null,
+    "set": null,
+    "notes": "Revised from the original 16-bass version; a sustained study in harmonics and pizzicato.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": []
+   },
+   "composerMetadata": {
+    "dates": "1941–2021",
+    "nationality": "Finnish",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "kind": "single",
+    "composed": "1987",
+    "published": null,
+    "movements": [
+     "Arietta"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+      "checkedOn": "2026-10-28",
+      "locator": "About the composition",
+      "finding": "Publisher's product page distinguishes original 16-bass version from revised 12-bass version and dates composition to 1987."
+     },
+     {
+      "url": "https://helsinkijazz.fi/en/events/teppo-hauta-ahon-muistokonsertin-9-6-22-kuvia-ja-artikkeleita/",
+      "checkedOn": "2026-10-28",
+      "locator": "Memorial concert report",
+      "finding": "Documents the revised Arietta performed at Savoy by twelve named double bassists; reports that this was the work's Finnish premiere."
+     },
+     {
+      "url": "https://core.musicfinland.fi/composers/teppo-hauta-aho",
+      "checkedOn": "2026-10-28",
+      "locator": "Composer biography",
+      "finding": "Music Finland Core identifies Hauta-aho as Finnish composer and double-bass teacher; dates 1941–2021."
+     }
+    ],
+    "scoring": {
+     "url": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+     "locator": "About the composition",
+     "finding": "Revised version is for twelve independent double basses only; description identifies bass 12 pizzicato and high harmonics in other parts."
+    },
+    "floor": {
+     "url": "https://helsinkijazz.fi/en/events/teppo-hauta-ahon-muistokonsertin-9-6-22-kuvia-ja-artikkeleita/",
+     "finding": "Full Arietta performed by twelve named bassists at the June 9, 2022 Savoy memorial concert."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://www.stretta-music.at/author-teppo-hauta-aho",
+     "finding": "Retailer lists the publisher's Arietta for 12 double basses as an immediate score-and-parts download; publisher's own shop page also identifies the edition but showed sold out."
+    },
+    "fieldSources": {
+     "work.composer": "https://core.musicfinland.fi/composers/teppo-hauta-aho",
+     "work.title": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+     "work.instruments": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+     "work.year": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+     "composerMetadata.dates": "https://core.musicfinland.fi/composers/teppo-hauta-aho",
+     "composerMetadata.nationality": "https://core.musicfinland.fi/composers/teppo-hauta-aho"
+    },
+    "unknowns": {
+     "work.minutes": "No duration established in inspected primary sources.",
+     "details.published": "First publication date not established.",
+     "score.publisherStock": "Publisher page showed sold out; alternate shop listing offers immediate download.",
+     "work.level": "No musical grading performed.",
+     "work.hardestPart": "No musical grading performed."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Not graded by first-pass researcher."
+   },
+   "recordingResearch": {
+    "status": "concert-performance-established",
+    "queries": [
+     "Hauta-aho Arietta twelve double basses Savoy memorial concert"
+    ],
+    "candidates": [
+     {
+      "url": "https://helsinkijazz.fi/en/events/teppo-hauta-ahon-muistokonsertin-9-6-22-kuvia-ja-artikkeleita/",
+      "performers": [
+       "Kaapo Kangas",
+       "Tapio Lydecken",
+       "Dan Styffe",
+       "Maukka Siirala",
+       "Eero Tikkanen",
+       "Ville Herrala",
+       "Antti Lötjönen",
+       "Juha Vikman",
+       "Fanni Hoppari",
+       "Marja-Helena Ojanperä",
+       "Lassi Kari",
+       "Joel Peltonen"
+      ],
+      "finding": "Organizer's memorial-concert report documents the twelve-bass full-work performance and names each player."
+     }
+    ]
+   }
+  }
+ ]
+}

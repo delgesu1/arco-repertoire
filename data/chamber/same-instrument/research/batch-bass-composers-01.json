@@ -1,0 +1,41 @@
+{
+  "batch": "bass-composers-01",
+  "status": "complete",
+  "entries": [
+    {
+      "composer": "Lauber, Joseph",
+      "patch": {
+        "dates": "1864–1952",
+        "nationality": "Swiss",
+        "gender": "M",
+        "era": "late-romantic"
+      },
+      "sources": [
+        "https://stainer.co.uk/shop/ye0036/"
+      ],
+      "basis": "Publisher biography gives dates and Swiss origin; late-romantic is stylistic classification, not date-derived proof."
+    },
+    {
+      "composer": "Hauta-aho, Teppo",
+      "patch": {
+        "dates": "1941–2021",
+        "nationality": "Finnish",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "sources": [
+        "https://core.musicfinland.fi/composers/teppo-hauta-aho",
+        "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses"
+      ],
+      "basis": "National music export organisation gives life dates; publisher biography confirms Finnish composer-bassist and death."
+    },
+    {
+      "composer": "Alt, Bernhard",
+      "patch": {},
+      "sources": [
+        "https://www.laphil.com/works/quartet-for-double-basses-alt"
+      ],
+      "basis": "Primary orchestra note provides training and Silesian birth but no dates/nationality; leave missing fields unpatched."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+ "batch": "batch-grades-12",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "dale-introduction-and-andante-op5-six-violas",
+   "work": {
+    "composer": "Dale, Benjamin",
+    "title": "Introduction and Andante for Six Violas, Op. 5",
+    "instruments": {
+     "viola": 6
+    },
+    "players": 6,
+    "formation": "large-strings",
+    "form": "work",
+    "year": "1911",
+    "minutes": null,
+    "set": null,
+    "notes": "Original six-viola work written for Lionel Tertis and Royal Academy pupils.",
+    "imslpPage": null
+   },
+   "primarySources": [
+    "https://www.cordamusic.co.uk/string1.html",
+    "https://www.duttonvocalion.co.uk/proddetail.php?prod=CDLX7204",
+    "https://www.naxos.com/CatalogueDetail/?id=8.573167",
+    "https://www.ram.ac.uk/diary/events/summer-2026-viola",
+    "https://supercool-ram.files.svdcdn.com/production/public/documents/Events-Diary-Summer-2026.pdf",
+    "https://vimeo.com/697407112",
+    "https://www.konserthuset.se/en/play/daleintroduction-and-andante-for-six-violas/",
+    "https://www.britishviolasociety.co.uk/wp-content/uploads/2015/06/BRITISH-VIOLA-REPERTOIRE.-Revised-July-22nd-2015.pdf",
+    "https://americanviolasociety.org/wp-content/uploads/2022/03/JAVS-Summer-2015.pdf"
+   ],
+   "sourceLocator": "Thomas Tatton primary performer/editor technical account, printed pp11–12; no actual preview located. Grade honestly if sufficiently informed."
+  },
+  {
+   "key": "hofmann-op104-original-3violins-set",
+   "work": {
+    "composer": "Hofmann, Richard",
+    "title": "Four Pieces for 3 Violins, Op. 104",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "set",
+    "year": "",
+    "minutes": 16,
+    "set": null,
+    "notes": "Four concert pieces in an easy style; first to third positions",
+    "imslpPage": "4 Pieces for 3 Violins, Op.104 (Hofmann, Richard)"
+   },
+   "primarySources": [
+    "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+    "https://www.amadeusmusic.ch/en/itemcard.php?itemno=BP+1810&language=de",
+    "https://www.amadeusmusic.ch/attachments/BP1810_N.pdf",
+    "https://www.amadeusmusic.ch/attachments/BP1810_VF.pdf",
+    "https://www.mainly4strings.co.uk/mainstreammusic-org-uk/_img/pdf/Hofmann_-_Four_Pieces_for_Three_Violins-6001.pdf"
+   ],
+   "actualScorePath": "data/cache/same-instrument-imslp/scores/hofmann-op104-parts.pdf"
+  },
+  {
+   "key": "brahms-op91-no2-jones-5violas",
+   "work": {
+    "composer": "Brahms, Johannes",
+    "title": "Geistliches Wiegenlied (No.2 from 2 Gesänge, Op.91)",
+    "arranger": "Steve Jones",
+    "instruments": {
+     "viola": 5
+    },
+    "players": 5,
+    "formation": "string-quintet",
+    "form": "short",
+    "year": "1863–64",
+    "minutes": 6,
+    "set": null,
+    "notes": "Steve Jones arrangement of No.2 for five violas; multitrack performance held for separate judgment.",
+    "imslpPage": "2 Gesänge, Op.91 (Brahms, Johannes)"
+   },
+   "primarySources": [
+    "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)"
+   ],
+   "sourceLocator": "No2 Geistliches Wiegenlied > For5Violas(Jones), complete score+five parts; exact arrangement only."
+  }
+ ]
+}

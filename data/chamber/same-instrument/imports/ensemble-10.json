@@ -1,0 +1,94 @@
+{
+ "batch": "ensemble-10",
+ "accepted": [
+  {
+   "key": "fux-sonata-3-violins-ulb-mus-ms-334",
+   "id": 109162,
+   "publicId": 109162,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    3,
+    4,
+    3
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "kind",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "klengel-2-stucke-op5-4-cellos",
+   "id": 109163,
+   "publicId": 109163,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    6,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "kind",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "metadata-notes-109158",
+   "id": 109158,
+   "publicId": 109158,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "metadata-notes-109160",
+   "id": 109160,
+   "publicId": 109160,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [
+  {
+   "key": "telemann-concerto-4-violins-twv-40-202",
+   "reason": "No independent approval"
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "03c037502c7a41c073ea298f0743be248603c4451496416c6564d2643b12c214",
+  "data/chamber/composers.json": "78c58aeca2c8bbf27e5e25189761e606c7d6ac9edf1258159bec424b5f502408",
+  "data/chamber/id-registry.json": "0b8e9c1698c6fdeb6dc58429de072c060125d77774fd2e12ead89fddec620600",
+  "data/chamber/sources.json": "7dddec91b168a88c3c9915a7b9858a15bbdab3dfc912a8301f4e4b194b0c69f7",
+  "data/details/overrides.json": "a3cd000aea9ae4401fc5b675c3c4d3f20cf1384be95d91e3df99078a535a250f",
+  "data/chamber/recordings-judged.json": "b29c9d55c92f6b4f185f147d38f4c04d33bafae1a51a35930e149934adabead1",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-extract-04.json": "54ae90c759a175bffd31022e01888bbb16f487206bc1bf93c9a5b80c9bb021da",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-corrections-02.json": "876fe438fba51fb4de9bb3f14a622840661cb601432c7d3971dbb1c8782caabd",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-verify-05.json": "31217b2940447130de49ad768fa70ed2f0255e358ef91702773a518c6ca26fa8",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grades-05.json": "c4015d67fd8e4b62b7b28ed8534d37bb49df07d965164c46dcb3ca3a5c673b03",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grades-06.json": "f78e4766f16f08517543898be7a435e4030237efd1e2046a4ddca983d00b917f",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-corrections-02.json": "38741669ee3230349aa44cb2fd4598868a24e70e55940791660a3654613f05d6"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-10"
+}

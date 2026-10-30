@@ -1,0 +1,390 @@
+{
+ "batch": "ensemble-33-recordings",
+ "entries": [
+  {
+   "key": "recording-109196-batch04",
+   "decision": "include",
+   "existingPublicId": 109196,
+   "work": {
+    "composer": "Trapkus, Paul",
+    "title": "Trio for 3 Violins",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "level": 6,
+    "hardestPart": "violin 1",
+    "year": "2012",
+    "minutes": 6,
+    "set": null,
+    "notes": "Original for 3 violins.",
+    "popularity": null,
+    "mode": "minor",
+    "pace": "lively",
+    "character": [
+     "dramatic",
+     "playful"
+    ],
+    "imslpPage": "Trio for 3 Violins (Trapkus, Paul)",
+    "id": 109196
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Recording-only enrichment; canonical musical level retained."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.youtube.com/watch?v=iveNvQ4jCis",
+      "finding": "Complete original single-movement violin trio; named three violinists at Homecoming Festival, alternate credits another three violinists. Durations fit the complete fast work. Full extracted metadata and oEmbed HTTP200 inspected."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=w5OHU5_f1U4",
+      "finding": "Complete original single-movement violin trio; named three violinists at Homecoming Festival, alternate credits another three violinists. Durations fit the complete fast work. Full extracted metadata and oEmbed HTTP200 inspected."
+     }
+    ],
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=iveNvQ4jCis",
+     "finding": "Complete original single-movement violin trio; named three violinists at Homecoming Festival, alternate credits another three violinists. Durations fit the complete fast work."
+    },
+    "unknowns": {
+     "audition": "Metadata, identified performers and full-work extent checked; full audio not independently auditioned."
+    }
+   },
+   "recordingResearch": {
+    "candidates": [
+     {
+      "id": "iveNvQ4jCis",
+      "title": "Paul Trapkus Trio For Three Violins",
+      "channel": "homecomingX",
+      "description": "Roman Mints, Asya Sorshneva, Mariana Osipova @ XVII Homecoming Chamber Music Festival\nРоман Минц, Ася Соршнева, Марьяна Осипова XVII фестиваль \"Возвращение\"",
+      "seconds": 307,
+      "views": 37333,
+      "performerCredits": {
+       "artist": null,
+       "artists": null,
+       "creators": null,
+       "tags": [
+        "Violin (Musical Instrument)",
+        "Roman Mints",
+        "Asya Sorshneva",
+        "Mariana Osipova",
+        "Роман Минц",
+        "Ася Соршнева",
+        "Марьяна Осипова",
+        "фестиваль",
+        "Возвращение",
+        "Homecoming Chamber Music Festival",
+        "Classical Music (Musical Genre)",
+        "Minimal Music (Musical Genre)",
+        "минимализм"
+       ]
+      }
+     },
+     {
+      "id": "w5OHU5_f1U4",
+      "title": "Paul Trapkus \"Lively\"  - Trio for 3 Violins -  Rossanna Migani - Selva Sugo - Melina Medina",
+      "channel": "Le Tulk",
+      "description": "Lively",
+      "seconds": 325,
+      "views": 7218,
+      "performerCredits": {
+       "artist": null,
+       "artists": null,
+       "creators": null,
+       "tags": [
+        "paul trapkus",
+        "trio violin",
+        "Violin (Musical Instrument)"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "recording-109197-batch04",
+   "decision": "include",
+   "existingPublicId": 109197,
+   "work": {
+    "composer": "Osborne, Tony",
+    "title": "Bassos Paraguayos for Double Bass Quartet",
+    "instruments": {
+     "double-bass": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": 5,
+    "hardestPart": "double-bass 1",
+    "year": "2005",
+    "minutes": null,
+    "set": null,
+    "notes": "Intermediate quartet with Paraguayan-inspired rhythms and lively character.",
+    "popularity": null,
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "dance",
+     "folk"
+    ],
+    "id": 109197
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Recording-only enrichment; canonical musical level retained."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.youtube.com/watch?v=DZMpQ7EURzo",
+      "finding": "Complete original bass quartet; named BadBoyz of Bass concert from ISB2015 and alternate Wroclaw workshop quartet. Exact composer/work and quartet identities agree. Full extracted metadata and oEmbed HTTP200 inspected."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=46OsrTXLWtI",
+      "finding": "Complete original bass quartet; named BadBoyz of Bass concert from ISB2015 and alternate Wroclaw workshop quartet. Exact composer/work and quartet identities agree. Full extracted metadata and oEmbed HTTP200 inspected."
+     }
+    ],
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=DZMpQ7EURzo",
+     "finding": "Complete original bass quartet; named BadBoyz of Bass concert from ISB2015 and alternate Wroclaw workshop quartet. Exact composer/work and quartet identities agree."
+    },
+    "unknowns": {
+     "audition": "Metadata, identified performers and full-work extent checked; full audio not independently auditioned."
+    }
+   },
+   "recordingResearch": {
+    "candidates": [
+     {
+      "id": "DZMpQ7EURzo",
+      "title": "BadBoyz of Bass - Bassos Paraguayos by Tony Osborne",
+      "channel": "Volkan Orhon",
+      "description": "Live from the 10th Year Anniversary concert at the 2015 International Society of Bassists Convention.",
+      "seconds": 381,
+      "views": 941,
+      "performerCredits": {
+       "artist": null,
+       "artists": null,
+       "creators": null,
+       "tags": [
+        "Tony osborne",
+        "double bass",
+        "bass ensembles",
+        "international society of bassists",
+        "david murray",
+        "paul sharpe",
+        "anthony stoops",
+        "volkan orhon"
+       ]
+      }
+     },
+     {
+      "id": "46OsrTXLWtI",
+      "title": "Tony Osborne D.Bass Quartet Bassos Paraguayos-Barry Green",
+      "channel": "doublebbassist",
+      "description": "Exciting quartet with Barry Green and colleagues from Wroclaw International Workshop: Rotaru Catalin, Hans Sturm and ISB and Poland competition winner Gunars Upatniek.",
+      "seconds": 499,
+      "views": 3288,
+      "performerCredits": {
+       "artist": null,
+       "artists": null,
+       "creators": null,
+       "tags": [
+        "classical world music jazz",
+        "Tony Osborne composer"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "recording-109201-batch04",
+   "decision": "include",
+   "existingPublicId": 109201,
+   "work": {
+    "composer": "Kárpáti, Sándor",
+    "title": "Andantino for 4 Violins",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "level": 1,
+    "hardestPart": "violin 1",
+    "year": "1926",
+    "minutes": 4,
+    "set": null,
+    "notes": "Original for 4 violins.",
+    "popularity": null,
+    "mode": "major",
+    "pace": "slow",
+    "character": [
+     "lyrical",
+     "tender"
+    ],
+    "imslpPage": "Andantino (Kárpáti, Sándor)",
+    "id": 109201
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Recording-only enrichment; canonical musical level retained."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.youtube.com/watch?v=6DCuYpU7ECo",
+      "finding": "Exact released track matches Old&new label album, composer and all four named violinists; 3:54 matches primary album timing. Full extracted metadata and oEmbed HTTP200 inspected."
+     }
+    ],
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=6DCuYpU7ECo",
+     "finding": "Exact released track matches Old&new label album, composer and all four named violinists; 3:54 matches primary album timing."
+    },
+    "unknowns": {
+     "audition": "Metadata, identified performers and full-work extent checked; full audio not independently auditioned."
+    }
+   },
+   "recordingResearch": {
+    "candidates": [
+     {
+      "id": "6DCuYpU7ECo",
+      "title": "Andantino (Négy hegedűre)",
+      "channel": "Release - Topic",
+      "description": "Provided to YouTube by Felsőbbfokú Tanulmányok Intézete Kőszeg\n\nAndantino (Négy hegedűre) · Scheer Uwe · Árvayné Nezvald Anett · Scheer Bernadett · Dankó Balázs · Kárpáti Sándor\n\nOld & new (Kárpáti sándor (1872-1939) vonós kamaraművei)\n\n℗ Felsőbbfokú Tanulmányok Intézete\n\nReleased on: 2022-09-15\n\nAuto-generated by YouTube.",
+      "seconds": 234,
+      "views": 460,
+      "performerCredits": {
+       "artist": "Scheer Uwe, Árvayné Nezvald Anett, Scheer Bernadett, Dankó Balázs, Kárpáti Sándor",
+       "artists": [
+        "Scheer Uwe",
+        "Árvayné Nezvald Anett",
+        "Scheer Bernadett",
+        "Dankó Balázs",
+        "Kárpáti Sándor"
+       ],
+       "creators": [
+        "Scheer Uwe",
+        "Árvayné Nezvald Anett",
+        "Scheer Bernadett",
+        "Dankó Balázs",
+        "Kárpáti Sándor"
+       ],
+       "tags": [
+        "Scheer Uwe",
+        "Árvayné Nezvald Anett",
+        "Scheer Bernadett",
+        "Dankó Balázs",
+        "Kárpáti Sándor",
+        "Old & new (Kárpáti sándor (1872-1939) vonós kamaraművei)",
+        "Andantino (Négy hegedűre)"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "recording-109202-batch04",
+   "decision": "include",
+   "existingPublicId": 109202,
+   "work": {
+    "composer": "Hauta-aho, Teppo",
+    "title": "Dance No. 2 from Two Dances",
+    "instruments": {
+     "double-bass": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "level": 5,
+    "hardestPart": "double-bass 1",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Complete Dance No.2 from Two Dances for four double basses.",
+    "popularity": null,
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "dance",
+     "playful",
+     "humorous"
+    ],
+    "id": 109202
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Recording-only enrichment; canonical musical level retained."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.youtube.com/watch?v=dO2b8gdmOcQ",
+      "finding": "Composer and performer channels explicitly identify complete DanceNo2, four named bassists and BassFest2013 concert. Same exact performance appears on both approved channels. Full extracted metadata and oEmbed HTTP200 inspected."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=45vzoFwp6gE",
+      "finding": "Composer and performer channels explicitly identify complete DanceNo2, four named bassists and BassFest2013 concert. Same exact performance appears on both approved channels. Full extracted metadata and oEmbed HTTP200 inspected."
+     }
+    ],
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=dO2b8gdmOcQ",
+     "finding": "Composer and performer channels explicitly identify complete DanceNo2, four named bassists and BassFest2013 concert. Same exact performance appears on both approved channels."
+    },
+    "unknowns": {
+     "audition": "Metadata, identified performers and full-work extent checked; full audio not independently auditioned."
+    }
+   },
+   "recordingResearch": {
+    "candidates": [
+     {
+      "id": "dO2b8gdmOcQ",
+      "title": "Dance nº2 of \"Two dances from double bass quartet\" by Teppo Hauta aho",
+      "channel": "Teppo Hauta-aho",
+      "description": "Live recording of \"Dance nº 2\" from \"Two Dances\" for Double Bass Quartet by Teppo Hauta-aho.\n\nDavid Heyes, Dan Styffe, Teppo Hauta-aho and Simón García; double basses.\n\n7th August 2013 at the Bass-Fest 2013. Frome, UK.\n\n\"Two Dances for Double Bass Quartet\" is available in http://www.recitalmusic.net/",
+      "seconds": 290,
+      "views": 265,
+      "performerCredits": {
+       "artist": null,
+       "artists": null,
+       "creators": null,
+       "tags": [
+        "Teppo Hauta-aho",
+        "Two dances",
+        "double bass",
+        "bass",
+        "duo",
+        "Dan Styffe",
+        "David Heyes",
+        "Simon Garcia",
+        "recital music",
+        "contrabajo",
+        "contrabbasso",
+        "contrebasse",
+        "kontrabass"
+       ]
+      }
+     },
+     {
+      "id": "45vzoFwp6gE",
+      "title": "Dance nº2 from \"Two Dances\" for Double Bass Quartet by Teppo Hauta-aho",
+      "channel": "Simón García",
+      "description": "Live recording of \"Dance nº 2\" from \"Two Dances\" for Double Bass Quartet by Teppo Hauta-aho.\n\nDavid Heyes, Dan Styffe, Teppo Hauta-aho and Simón García; double basses.\n\n7th August 2013 at the Bass-Fest 2013. Frome, UK.\n\n\"Two Dances for Double Bass Quartet\" is available in http://www.recitalmusic.net/",
+      "seconds": 290,
+      "views": 1073,
+      "performerCredits": {
+       "artist": null,
+       "artists": null,
+       "creators": null,
+       "tags": []
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

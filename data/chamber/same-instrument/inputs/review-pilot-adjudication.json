@@ -1,0 +1,567 @@
+{
+ "batch": "review-pilot-adjudication",
+ "entries": [
+  {
+   "key": "klengel-hymnus-op57-12vc",
+   "work": {
+    "composer": "Klengel, Julius",
+    "title": "Hymnus in G major, Op. 57",
+    "instruments": {
+     "cello": 12
+    },
+    "players": 12,
+    "formation": "large-strings",
+    "form": "short",
+    "year": "1920",
+    "minutes": null,
+    "set": null,
+    "notes": "Andante cantabile for twelve cellos",
+    "imslpPage": "Hymnus for 12 Cellos, Op.57 (Klengel, Julius)"
+   },
+   "details": {
+    "published": "1920",
+    "otherTitles": [
+     "Hymnus für zwölf Violoncelli"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)",
+      "checkedOn": "2026-10-27",
+      "finding": "Refreshed API wikitext: 12 cellos; one movement; complete score/parts, Breitkopf 1920 plate 28603, 17 pages (5 score and twelve one-page parts). IMSLP audio is violas and tenor and is not used."
+     },
+     {
+      "url": "https://www.breitkopf.us/products/klengel-hymnus-op-57-breitkopf",
+      "checkedOn": "2026-10-27",
+      "finding": "Publisher score, print parts and digital parts available; EB6847 ISMN 9790004170342."
+     },
+     {
+      "url": "https://www.breitkopf.com/assets/haendler/samples/9790004170342.pdf",
+      "checkedOn": "2026-10-27",
+      "finding": "Visually inspected complete first-cello sample, 78 bars, Andante cantabile, bass/tenor/treble clefs, upper register and chromatic cantabile writing."
+     },
+     {
+      "url": "https://www.die12cellisten.de/de/geschichte/anfaenge.html",
+      "checkedOn": "2026-10-27",
+      "finding": "Ensemble history gives composition in 1920 and early performance history."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)",
+     "locator": "Scores and Parts: Complete score and parts; General information",
+     "finding": "Twelve independent cello parts, original scoring; no accompaniment."
+    },
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=oruJzhMUBh0",
+     "finding": "Official Berliner Philharmoniker upload credits The 12 Cellists, recorded Philharmonie Berlin 9 January 2022. 184-second excerpt documents real performance; completeness of upload is not established."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://www.breitkopf.us/products/klengel-hymnus-op-57-breitkopf",
+     "finding": "Full score and set of parts EB6847; official first-cello PDF sample inspected."
+    }
+   },
+   "supplementalPrimarySources": [
+    "https://www.scoreexchange.com/scores/hymnus-for-12-violoncellos-op-57-77003.html",
+    "https://www.breitkopf.us/products/klengel-hymnus-op-57-breitkopf",
+    "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)",
+    "https://www.die12cellisten.de/de/geschichte/anfaenge.html",
+    "https://www.youtube.com/watch?v=oruJzhMUBh0"
+   ]
+  },
+  {
+   "key": "fitzenhagen-ave-maria-op41-4vc",
+   "work": {
+    "composer": "Fitzenhagen, Wilhelm",
+    "title": "Ave Maria, Op. 41 (version for four cellos)",
+    "aka": [
+     "Ave Maria for 4 Cellos"
+    ],
+    "formation": "string-quartet",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "form": "short",
+    "year": "mid-1880s",
+    "minutes": 5,
+    "set": null,
+    "notes": "Original for four cellos; published posthumously",
+    "imslpPage": "Ave Maria, Op.41 (Fitzenhagen, Wilhelm)"
+   },
+   "details": {
+    "composed": "mid-1880s",
+    "dedication": "Sigmund Bürger (1856–1908)",
+    "published": "1896 or before"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+      "checkedOn": "2026-10-27",
+      "finding": "API wikitext and parsed page refreshed. Complete score edited Hitoshi Araki 2024; Leuckart parts reprinted IMC2198, separately labeled cello1–4. D major; dedication Sigmund Bürger; publication 1896 or before."
+     },
+     {
+      "url": "https://www.editionsilvertrust.com/fitzenhagen-ave-maria.htm",
+      "checkedOn": "2026-10-27",
+      "finding": "Publisher describes original quartet as composed mid-1880s and published after death; parts offered."
+     },
+     {
+      "url": "https://classical.music.apple.com/us/album/353812933",
+      "checkedOn": "2026-10-27",
+      "finding": "Tritton Cello Ensemble 2009 Columna Musica release lists Ave Maria Op41, 4:38."
+     },
+     {
+      "url": "https://www.cultura-stmoritz.ch/recordings/",
+      "checkedOn": "2026-10-27",
+      "finding": "Indexed foundation recording catalogue names Tritton cellists Josep Bassal, Bonghin Ko, Wolfgang Lehner and Albert Roman; direct open timed out."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+     "locator": "Complete Score and Parts; General Information",
+     "finding": "Original Ave Maria for four cellos; four individually named parts and no accompaniment."
+    },
+    "floor": {
+     "url": "https://classical.music.apple.com/us/album/353812933",
+     "finding": "Released 2009 recording by Tritton Cello Ensemble, Ave Maria Op41 (4:38), album Cello Quartet Original Works. Video also names four Galvin cellists."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+     "finding": "Complete score #911505 and complete cello1–4 parts #406640,1039355–1039357. Binary PDF access redirected to anti-bot/friendlyredirect page; musical notation not visually inspected."
+    }
+   },
+   "supplementalPrimarySources": [
+    "https://www.editionsilvertrust.com/fitzenhagen-ave-maria.htm",
+    "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+    "https://s9.imslp.org/files/imglnks/usimg/0/0a/IMSLP911505-PMLP658388-Ave_Maria.pdf",
+    "https://classical.music.apple.com/us/album/353812933",
+    "https://www.youtube.com/watch?v=Q7iZuTln0Do"
+   ]
+  },
+  {
+   "key": "jacob-suite-eight-violas",
+   "work": {
+    "composer": "Jacob, Gordon",
+    "title": "Suite for Eight Violas",
+    "instruments": {
+     "viola": 8
+    },
+    "players": 8,
+    "formation": "large-strings",
+    "form": "work",
+    "year": "",
+    "minutes": 11,
+    "set": null,
+    "notes": "Four-movement suite for eight violas."
+   },
+   "details": {
+    "kind": "movements",
+    "movements": [
+     "Dedication. Poco maestoso",
+     "Scherzo and Drone. Allegro vivo",
+     "Chorale. Lento",
+     "Tarantella. Allegro con fuoco"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://repository.rice.edu/server/api/core/bitstreams/c0aae5b0-bd04-4a70-afe4-ce48a8e6b648/content",
+      "checkedOn": "2026-10-27",
+      "locator": "PDF pp.1–2",
+      "finding": "Programme dated 13 March 2014 lists all four movements and eight named violists."
+     },
+     {
+      "url": "https://www.prestomusic.com/sheet-music/publishers/1050/browse?instrument=1153",
+      "checkedOn": "2026-10-27",
+      "locator": "Jacob: Suite for eight Violas",
+      "finding": "Accolade ACC2092, editor Bodo Koenigsbeck, 8 violas, score and parts."
+     },
+     {
+      "url": "https://www.wisemusicclassical.com/composer/770/Gordon-Jacob/",
+      "checkedOn": "2026-10-27",
+      "locator": "Summary",
+      "finding": "Publisher biography: British composer 1895–1984, masculine pronouns."
+     },
+     {
+      "url": "https://sacconi.com/media/",
+      "checkedOn": "2026-10-27",
+      "locator": "Gordon Jacob: Suite for Eight Violas",
+      "finding": "Festival 2016 performance and full eight-person viola credits."
+     }
+    ],
+    "scoring": {
+     "url": "https://www.prestomusic.com/sheet-music/publishers/1050/browse?instrument=1153",
+     "locator": "Jacob: Suite for eight Violas; Arrangement and Edition Type",
+     "finding": "Edition specifies 8 violas and score/parts; no accompaniment listed. Older 1980 catalogue record specifies 8 parts. Direct staff-level inspection remains outstanding."
+    },
+    "floor": {
+     "url": "https://repository.rice.edu/server/api/core/bitstreams/c0aae5b0-bd04-4a70-afe4-ce48a8e6b648/content",
+     "finding": "13 March 2014, Duncan Recital Hall: James Dunham, Stephanie Mientka, Yvonne Smith, Aloysia Friedmann, Ivo-Jan van der Werff, Blake Turner, Marie-Elyse Badeau and Kathryn Plummer; all four movements programmed."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://www.prestomusic.com/sheet-music/publishers/1050/browse?instrument=1153",
+     "finding": "Accolade ACC2092 score and parts obtainable to order; publisher homepage accessed but search POST redirected repeatedly."
+    }
+   },
+   "supplementalPrimarySources": [
+    "https://www.accolade.de/index.php?action=showdetail&id=*151696483",
+    "https://www.accolade.de/images/BuSSBild/_151696483-001.jpg",
+    "https://www.accolade.de/images/BuSSBild/_151696483-002.jpg",
+    "https://www.accolade.de/images/BuSSBild/_151696483-003.jpg",
+    "https://www.accolade.de/images/BuSSBild/_151696483-005.jpg",
+    "https://repository.rice.edu/server/api/core/bitstreams/c0aae5b0-bd04-4a70-afe4-ce48a8e6b648/content",
+    "https://sacconi.com/media/",
+    "https://www.wisemusicclassical.com/composer/770/Gordon-Jacob/",
+    "https://www.youtube.com/watch?v=Vmu5KvtszbA"
+   ]
+  },
+  {
+   "key": "bottesini-passione-trumpf-four-basses",
+   "work": {
+    "composer": "Bottesini, Giovanni",
+    "title": "Passione amorosa for Four Double Basses",
+    "instruments": {
+     "double-bass": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "",
+    "minutes": 12,
+    "set": null,
+    "notes": "Unaccompanied transcription for four double basses.",
+    "arranger": "Klaus Trumpf"
+   },
+   "details": {
+    "published": "2001 (Klaus Trumpf arrangement, Hofmeister FH2227)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.hofmeister-musikverlag.com/produkt/passione-amorosa/",
+      "checkedOn": "2026-10-27",
+      "locator": "Edition metadata / Titel Information",
+      "finding": "Klaus Trumpf; 4 Kb; 20 + 2×8 + 2×12 pages; difficulty schwer; first printing 2001."
+     },
+     {
+      "url": "https://www.wienerphilharmoniker.at/en/magazin/10th-concert-of-the-philharmonic-chamber-music-series-201415/5884",
+      "checkedOn": "2026-10-27",
+      "locator": "Concert report",
+      "finding": "Philbass quartet performed Passione amorosa in Klaus Trumpf arrangement, 20 June 2015."
+     },
+     {
+      "url": "https://www.encoreplus.app/sfsymphony/chamber-music-april-2025-sfs/",
+      "checkedOn": "2026-10-27",
+      "locator": "The Concert",
+      "finding": "27 April 2025 programme lists this arrangement for Charles Chandler, Bowen Ha, Orion Miller and Daniel G. Smith, bass."
+     },
+     {
+      "url": "https://www.auditorium-lyon.com/fr/saison-2014-15/contrebasses",
+      "checkedOn": "2026-10-27",
+      "locator": "Programmation",
+      "finding": "26 October 2014 programme explicitly specifies Trumpf transcription for four double basses, 12 minutes."
+     }
+    ],
+    "scoring": {
+     "url": "https://www.hofmeister-musikverlag.com/produkt/passione-amorosa/",
+     "locator": "Besetzung / Herausgeber-Bearbeiter",
+     "finding": "4 Kb, Klaus Trumpf; no other instrument required in this edition. 20-page score plus four parts (two 8-page, two 12-page)."
+    },
+    "floor": {
+     "url": "https://www.wienerphilharmoniker.at/en/magazin/10th-concert-of-the-philharmonic-chamber-music-series-201415/5884",
+     "finding": "Actual concert report: Philbass, Ödön Rácz, Iztok Hrastnik, Alexander Matschinegg and Elias Mai, Gustav Mahler Hall, Vienna State Opera, 20 June 2015; explicitly Trumpf arrangement."
+    },
+    "version": {
+     "kind": "transcription",
+     "arranger": "Klaus Trumpf",
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://www.hofmeister-musikverlag.com/produkt/passione-amorosa/",
+     "finding": "Hofmeister FH2227 obtainable published score/parts, ISMN 9790203422273. No interior preview found."
+    }
+   },
+   "supplementalPrimarySources": [
+    "https://www.hofmeister-musikverlag.com/produkt/passione-amorosa/",
+    "https://www.hofmeister-musikverlag.com/wp-content/uploads/2023/07/FH_2227_NS.png",
+    "https://www.wienerphilharmoniker.at/en/magazin/10th-concert-of-the-philharmonic-chamber-music-series-201415/5884",
+    "https://www.auditorium-lyon.com/fr/saison-2014-15/contrebasses"
+   ]
+  },
+  {
+   "key": "bowen-fantasia-four-violas-op41-1",
+   "work": {
+    "composer": "Bowen, York",
+    "title": "Fantasia for Four Violas in E minor, Op. 41 No. 1",
+    "aka": [
+     "Fantasy for Four Violas"
+    ],
+    "formation": "string-quartet",
+    "instruments": {
+     "viola": 4
+    },
+    "players": 4,
+    "form": "short",
+    "year": "1907",
+    "minutes": 10,
+    "set": null,
+    "notes": "For four violas, one to a part; about 10 minutes (Op. 41 No. 1)",
+    "imslpPage": "Fantasy and Quartet, Op.41 (Bowen, York)"
+   },
+   "details": {
+    "kind": "single",
+    "composed": "1907",
+    "firstPerformance": "3 March 1908, Society of British Composers evening; Lionel Tertis and his pupils (Eric Coates, second viola).",
+    "otherTitles": [
+     "Fantasie Quartet for Four Violas",
+     "Fantasy for Four Violas"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+      "checkedOn": "2026-10-27",
+      "locator": "Description",
+      "finding": "Publisher identifies four-viola Fantasie, score and parts, edited Thomas Tatton."
+     },
+     {
+      "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+      "checkedOn": "2026-10-27",
+      "locator": "Recording details / programme note",
+      "finding": "Four named violists, recording November 2007, release July 2008, 9:42; composed 1907, premiere 3 March 1908; single arch structure."
+     },
+     {
+      "url": "https://imslp.org/wiki/Fantasy_and_Quartet,_Op.41_(Bowen,_York)",
+      "checkedOn": "2026-10-27",
+      "locator": "General Information / Scores and Parts",
+      "finding": "No.1 is four-viola Fantasia; No.2 is ordinary string quartet. Three movements, 1922 publication and Philharmonic Quartet dedication explicitly belong to No.2."
+     },
+     {
+      "url": "https://www.laphil.com/works/fantasia-for-four-violas-in-e-minor-op-41-no-1",
+      "checkedOn": "2026-10-27",
+      "locator": "At a Glance / About",
+      "finding": "1907, E minor, about 11 minutes; original four-viola work."
+     }
+    ],
+    "scoring": {
+     "url": "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+     "locator": "Description: Score and Parts, Fantasie Quartet for Four Violas",
+     "finding": "Published original version explicitly for four violas; label names Lawrence Power, Philip Dukes, James Boyd and Scott Dickinson on this track, with no accompaniment."
+    },
+    "floor": {
+     "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+     "finding": "Hyperion CDA67651/2; Lawrence Power, Philip Dukes, James Boyd and Scott Dickinson; Potton Hall, November 2007; released July 2008; complete 9:42 track."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+     "finding": "Rarities for Strings Publications, Thomas Tatton editor, score and parts; printed and PDF edition offered. No new arrangement credit."
+    }
+   },
+   "supplementalPrimarySources": [
+    "https://imslp.org/wiki/Fantasy_and_Quartet,_Op.41_(Bowen,_York)",
+    "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+    "https://rarestringmusic.com/wp-content/uploads/2019/02/Bowen-York-Fantasie-Quartet-for-Four-Violas-Music-1.jpg",
+    "https://i0.wp.com/rarestringmusic.com/wp-content/uploads/2019/02/Bowen-York-Fantasie-Quartet-for-Four-Violas-Foreword-1.jpg?ssl=1",
+    "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+    "https://www.laphil.com/works/fantasia-for-four-violas-in-e-minor-op-41-no-1",
+    "https://www.youtube.com/watch?v=cuRxSCjmlKM"
+   ]
+  },
+  {
+   "key": "harbison-cucaraccia-fugue-four-violas",
+   "work": {
+    "composer": "Harbison, John",
+    "title": "Cucaraccia and Fugue",
+    "aka": [
+     "Cuccaracia and Fugue"
+    ],
+    "formation": "string-quartet",
+    "instruments": {
+     "viola": 4
+    },
+    "players": 4,
+    "form": "short",
+    "year": "2003",
+    "minutes": 4,
+    "set": null,
+    "notes": "For four violas; commissioned by the Token Creek Festival"
+   },
+   "details": {
+    "kind": "movements",
+    "movements": [
+     "Cucaraccia",
+     "Fugue"
+    ],
+    "composed": "2003"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.classicalondemand.com/collections/other-string-ensemble",
+      "checkedOn": "2026-10-27",
+      "locator": "John Harbison, Cucaraccia and Fugue",
+      "finding": "Cucaraccia and Fugue: 4 Violas; print-to-order GSP24180SET and digital version."
+     },
+     {
+      "url": "https://www.classicalondemand.com/products/cucaraccia-and-fugue",
+      "checkedOn": "2026-10-27",
+      "locator": "Product page",
+      "finding": "Exact product page resolved from official collection; full repeat open intermittently blocked."
+     },
+     {
+      "url": "https://cdn.naxos.com/sharedfiles/pdf/rear/8.559243r.pdf",
+      "checkedOn": "2026-10-27",
+      "locator": "Rear insert, PDF p.1",
+      "finding": "Two movements, 2003, total4:21; Steven Tenenbom violaI, Ida Kavafian violaII, Anthea Kreston violaIII, John Harbison violaIV; recorded May5–10 2005."
+     },
+     {
+      "url": "https://americanviolasociety.org/wp-content/uploads/2022/03/JAVS-37.1.pdf",
+      "checkedOn": "2026-10-27",
+      "locator": "Printed p.36 / PDF p.38",
+      "finding": "Added for 2003 Token Creek performance; composer joined as fourth viola."
+     }
+    ],
+    "scoring": {
+     "url": "https://cdn.naxos.com/sharedfiles/pdf/rear/8.559243r.pdf",
+     "locator": "PDF p.1, numbered personnel footnote5",
+     "finding": "Four independent roles numbered Viola I–IV and no required backing; official publisher collection also says 4 Violas."
+    },
+    "floor": {
+     "url": "https://cdn.naxos.com/sharedfiles/pdf/rear/8.559243r.pdf",
+     "finding": "Naxos8.559243, Steven Tenenbom, Ida Kavafian, Anthea Kreston, John Harbison; Connecticut College, New London, May5–10 2005; two complete tracks 1:18 + 3:03."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://www.classicalondemand.com/collections/other-string-ensemble",
+     "finding": "Printed-to-order GSP24180SET; digital-not-printable version also offered. Score interior unavailable in inspected page."
+    }
+   },
+   "supplementalPrimarySources": [
+    "https://www.classicalondemand.com/products/cucaraccia-and-fugue",
+    "https://www.classicalondemand.com/cdn/shop/products/GSP24180SET_Page_1_1.jpg?v=1748534585",
+    "https://www.classicalondemand.com/cdn/shop/products/GSP24180SET_Page_2_1.jpg?v=1748534585",
+    "https://cdn.naxos.com/sharedfiles/pdf/rear/8.559243r.pdf",
+    "https://americanviolasociety.org/wp-content/uploads/2022/03/JAVS-37.1.pdf",
+    "https://www.youtube.com/watch?v=_mGF7inYsO4"
+   ]
+  },
+  {
+   "key": "weinzierl-nachtstuck-op34-four-violas",
+   "work": {
+    "composer": "Weinzierl, Max von",
+    "title": "Nachtstück for Four Violas, Op. 34",
+    "instruments": {
+     "viola": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "year": "",
+    "minutes": 8,
+    "set": null,
+    "notes": "Original version for four violas; also published with alternative string-quartet parts."
+   },
+   "details": {
+    "kind": "single",
+    "dedication": "Dr. Wenzel Sedlitzky",
+    "published": "1883, Rebay and Robitschek; AVS edition edited by David M. Bynog, 2011.",
+    "otherTitles": [
+     "Nocturne for Four Violas",
+     "Serenade (Nachtstück), Op. 34"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.americanviolasociety.org/wp-content/uploads/2022/03/Weinzierl-Nachtstuck.pdf",
+      "checkedOn": "2026-10-27",
+      "locator": "PDF p.1 editorial preface; parts pp.2–14; score pp.15–32",
+      "finding": "Complete AVS009, 2011: four independent viola parts and full score; original1883 source; Bynog explicitly editor; dedication printed."
+     },
+     {
+      "url": "https://media.nativedsd.com/storage/nativedsd.com/wp-content/uploads/2020/07/02170213/NC14001.pdf",
+      "checkedOn": "2026-10-27",
+      "locator": "PDF pp.3,6,15–16",
+      "finding": "Track6 Nachtstück for four violas8:01; original setting confirmed; recording26–28October2013 Hilversum; ensemble Mikhail, Julia, Alexander and Dana Zemtsov."
+     },
+     {
+      "url": "https://www.digital.wienbibliothek.at/name/view/3658711",
+      "checkedOn": "2026-10-27",
+      "locator": "Personenindex",
+      "finding": "GND-based Vienna library authority gives dates1841–1898; countries Österreich/Deutschland."
+     },
+     {
+      "url": "https://www.musiklexikon.ac.at/ml/musik_W/Weinzierl_Max.xml",
+      "checkedOn": "2026-10-27",
+      "locator": "Weinzierl biography",
+      "finding": "Austrian Music Lexicon biography with exact dates, Austrian career and masculine wording."
+     },
+     {
+      "url": "https://de.wikipedia.org/wiki/Max_von_Weinzierl",
+      "checkedOn": "2026-10-27",
+      "locator": "Opening biography",
+      "finding": "Explicitly identifies Austrian composer; corroborative nationality source only."
+     }
+    ],
+    "scoring": {
+     "url": "https://www.americanviolasociety.org/wp-content/uploads/2022/03/Weinzierl-Nachtstuck.pdf",
+     "locator": "PDF p.15, score labels Viola1–4; individual parts pp.2,6,9,12",
+     "finding": "Four independent viola staves/parts, no backing. Preface explains two upper parts remain above violin lower limit, alternate cello substitutes for fourth viola; those are optional alternative scorings, not required instruments."
+    },
+    "floor": {
+     "url": "https://media.nativedsd.com/storage/nativedsd.com/wp-content/uploads/2020/07/02170213/NC14001.pdf",
+     "finding": "NavisClassicsNC14001 Zemtsov Viola Quartet: Mikhail, Julia, Alexander, Dana Zemtsov; track6 whole Nachtstück for four violas8:01, recorded26–28October2013 Muziekcentrum van de Omroep,Hilversum. Booklet explicitly calls four-viola setting original."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://www.americanviolasociety.org/wp-content/uploads/2022/03/Weinzierl-Nachtstuck.pdf",
+     "finding": "Complete32-page public AVS009 edition: preface, all four parts and score. David M. Bynog editor, 2011, based on original1883 Rebay and Robitschek score/parts."
+    }
+   },
+   "supplementalPrimarySources": [
+    "https://www.americanviolasociety.org/wp-content/uploads/2022/03/Weinzierl-Nachtstuck.pdf",
+    "https://media.nativedsd.com/storage/nativedsd.com/wp-content/uploads/2020/07/02170213/NC14001.pdf",
+    "https://www.musiklexikon.ac.at/ml/musik_W/Weinzierl_Max.xml",
+    "https://www.digital.wienbibliothek.at/name/view/3658711"
+   ]
+  }
+ ]
+}

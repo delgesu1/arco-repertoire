@@ -1,0 +1,150 @@
+{
+ "at": "2026-10-30",
+ "status": "complete",
+ "counts": {
+  "cello": 66,
+  "viola": 13,
+  "violin": 34,
+  "double-bass": 16
+ },
+ "batches": [
+  "ensemble-43"
+ ],
+ "newWorks": [
+  {
+   "id": 109220,
+   "key": "dotzauer-op104-three-cellos",
+   "recording": null
+  },
+  {
+   "id": 109221,
+   "key": "limmer-op12-three-cellos",
+   "recording": null
+  },
+  {
+   "id": 109222,
+   "key": "moor-op133-three-violins",
+   "recording": "pvdbDofjjuI"
+  },
+  {
+   "id": 109223,
+   "key": "battanchon-op40-three-cellos",
+   "recording": null
+  },
+  {
+   "id": 109224,
+   "key": "dancla-op178-four-violins",
+   "recording": "xgtfBFKegTs"
+  },
+  {
+   "id": 109225,
+   "key": "debleser-tearful-day-four-cellos",
+   "recording": null
+  },
+  {
+   "id": 109226,
+   "key": "kuznetsov-op13-four-cellos",
+   "recording": null
+  },
+  {
+   "id": 109227,
+   "key": "kuznetsov-op28-four-cellos",
+   "recording": null
+  },
+  {
+   "id": 109228,
+   "key": "slunicko-op92-four-violins",
+   "recording": null
+  },
+  {
+   "id": 109229,
+   "key": "petzold-op21-four-violins",
+   "recording": null
+  },
+  {
+   "id": 109230,
+   "key": "alencar-seven-easy-pieces-four-cellos",
+   "recording": null
+  },
+  {
+   "id": 109231,
+   "key": "derecskei-consort1-four-violins",
+   "recording": null
+  },
+  {
+   "id": 109232,
+   "key": "goltermann-op53-four-cellos",
+   "recording": null
+  },
+  {
+   "id": 109233,
+   "key": "klengel-op33-four-cellos",
+   "recording": null
+  },
+  {
+   "id": 109234,
+   "key": "werner-op6-four-cellos",
+   "recording": null
+  },
+  {
+   "id": 109235,
+   "key": "poradowski-op56-three-basses",
+   "recording": "U-hk9YoujH4"
+  },
+  {
+   "id": 109236,
+   "key": "klengel-variations-op28-four-cellos",
+   "recording": "Mhr-s8jQhXw"
+  },
+  {
+   "id": 109237,
+   "key": "werner-elegie-op21-four-cellos",
+   "recording": "l5BoxbhCkho"
+  },
+  {
+   "id": 109238,
+   "key": "makris-scherzo-four-violins",
+   "recording": "IOxzFrNmLJY"
+  },
+  {
+   "id": 109239,
+   "key": "clark-gavotte-four-violins",
+   "recording": "Nj7Ag6TCRl0"
+  },
+  {
+   "id": 109240,
+   "key": "massa-violin-quartet-four-violins",
+   "recording": "o7jXNExjf1g"
+  }
+ ],
+ "held": [
+  {
+   "key": "spiral-davidson",
+   "pageId": 8675,
+   "reason": "Both videos are one viola with live electronics or delay, not three independent players; no three-player performance documented."
+  },
+  {
+   "key": "fabian-albumblatt",
+   "pageId": 861250,
+   "reason": "Only video is the uploader’s own score-channel transcription; no human performance evidence."
+  },
+  {
+   "key": "araya-cello-trio-c",
+   "pageId": 1182265,
+   "reason": "The school-trio video never names Araya, so it cannot be tied to this piece."
+  },
+  {
+   "key": "schmidt-op15-four-violins",
+   "pageId": 91296,
+   "reason": "IMSLP has Nos.1, 3 and 4 only; no file for No.2 Barcarole, so no complete set."
+  },
+  {
+   "key": "tautu-da-capo-four-cellos",
+   "pageId": 1373738,
+   "reason": "Only video is an uncredited still image on the Violoncellissimo channel; two searches found no link between the ensemble and this piece."
+  }
+ ],
+ "verification": "2184 library tests, import tests, chamber check and production build passed; logs data/cache/same-instrument-import/window-8-*.log",
+ "goalComplete": true,
+ "publicationStatus": "local and uncommitted"
+}

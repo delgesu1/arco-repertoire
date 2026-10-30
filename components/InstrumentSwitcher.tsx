@@ -56,7 +56,7 @@ export function InstrumentSwitcher() {
             ) : (
               <Link className="instrument-item link" href="/chamber" role="menuitemradio" aria-checked="false" onClick={() => setOpen(false)}>
                 <span>Chamber music</span>
-                <small>2–9 players</small>
+                <small>2–12 players</small>
               </Link>
             ))}
           {chamber ? (

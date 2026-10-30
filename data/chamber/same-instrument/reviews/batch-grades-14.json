@@ -1,0 +1,86 @@
+{
+  "batch": "batch-grades-14",
+  "status": "completed",
+  "entries": [
+    {
+      "key": "alt-suite-four-double-basses",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+          "finding": "Publisher calls the suite medium/difficult and lists Prelude, Minuet, Adagio, Humoresque. Its local sample alt-preview.png shows only the opening Prelude: slow sustained upper-register lines, chromatic motion, overlapping entries and dynamic shaping. First two staves use solo tuning, lower two orchestral tuning. The other three movements were not inspected."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "double-bass 1",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dance",
+          "humorous"
+        ],
+        "confidence": "medium",
+        "basis": "Informed whole-suite estimate: advanced upper-part register and controlled chromatic legato in the inspected opening suggest level 5 bass technique; exposed upper-voice tuning, blend and coordinated independence across four basses justify one ensemble level, yielding 6. Publisher whole-work difficulty description supports this band. No assertion of particular figures or register in unseen movements; pace and character describe the contrasting suite collectively."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "lauber-quartet-double-basses-1942",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://stainer.co.uk/shop/ye0036/",
+          "finding": "The publisher technical description, retrieved in search indexing after direct access timed out/encountered a challenge, explicitly describes a four-movement work with an advanced top part and approximately 13-minute duration. No score notation was inspected."
+        },
+        {
+          "url": "https://imslp.org/wiki/Double_Bass_Quartet_(Lauber,_Joseph)",
+          "finding": "IMSLP lists a 19-page manuscript in sounding pitch and specifies solo tuning for all four instruments. A complete manuscript link exists, but a notation preview was not obtained during this bounded review."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "double-bass 1",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [],
+        "confidence": "medium",
+        "basis": "Whole-work placement at Advanced, level 5, follows the publisher explicit assessment of the top part. This is an independent translation onto the supplied bass exam-equivalent scale, not an official exam grade. No additional ensemble uplift is imposed without inspected notation or listening evidence. Exact register, bowing, rhythmic demands, tonal mode and movement-level technical extremes remain unverified. Moderate is a cautious aggregate pace placeholder for an uninspected four-movement work."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "hauta-aho-arietta-12-double-basses",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+          "finding": "Publisher-associated description identifies a minimalist study in harmonics, a limited number of pitches for each player, high harmonics over Bass 12 pizzicato, and suitability for mixed abilities. The inspected local opening sample arietta-preview.jpg shows Allegretto at approximately quarter=120 in 3/4, simple sustained/repeated upper paired lines and staggered entries. It does not show later development or an active Bass 12 part."
+        }
+      ],
+      "grade": {
+        "level": 4,
+        "hardestPart": "balanced",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "tender"
+        ],
+        "confidence": "medium",
+        "basis": "Whole-work estimate uses the inspected opening plus the publisher description of the entire texture. Limited-pitch, rhythmically simple harmonic playing supports approximately level 3 for the most demanding upper voices, rather than treating treble clef alone as advanced stopped-note technique. Maintaining reliable soft harmonic response, balance and staggered layering across twelve independent players adds one ensemble level, yielding 4. Balanced identifies distributed upper-voice responsibility, not equal difficulty for all twelve parts. Only the opening page was inspected; no claim is made about unseen exact pitches or later techniques."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    }
+  ]
+}

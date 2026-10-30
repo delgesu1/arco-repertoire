@@ -1,0 +1,33 @@
+{
+  "chunk": "dont40-third",
+  "role": "blind-third-musical-grading",
+  "status": "complete",
+  "scope": "musical-only",
+  "checkedOn": "2026-10-29",
+  "entries": [
+    {
+      "key": "dont-quartet-op42-four-violins",
+      "status": "approved",
+      "scope": "musical-only",
+      "grade": {
+        "level": 5,
+        "confidence": "medium",
+        "hardestPart": "violin 1",
+        "basis": "Independent whole-work assessment from all nine PDF spreads of the complete imposed Merton Music score (printed music pages 3–15, both halves inspected). I, Allegro espressivo: long chromatic, dynamically shaped phrases, upper-register shifts and exposed sustained intonation, largely in straightforward note values. II, Scherzo/Allegro assai with Trio: repeated high notes, accented and detached strokes, leaps, rests and clean ensemble re-entry. III, Larghetto: sustained singing line with slurred semiquaver decoration and chromatic passagework over moving inner voices. IV, Finale/Vivace: recurring upper-register quaver figures, slur/detache contrasts, quick shifts, chromatic sequences and repeated articulated high notes, with longer stretches of activity than the earlier movements. Violin 1 consistently has the highest and most mobile writing; the other three parts require independent phrasing, offbeat accuracy, balanced chords and close chromatic intonation. The material calls for secure advanced technique, comparable in overall demand to the level-5 La Folia and Haydn Rider/Emperor anchors, above the level-4 Bach Double baseline, but without the sustained virtuoso passagework or pervasive multiple-stopping that would support a higher band. Coordination is real but does not receive an automatic ensemble uplift. Medium confidence reflects a score-based assessment with approximately one level of remaining tempo/performance uncertainty; no prior numerical opinions were consulted.",
+        "mode": "minor",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful",
+          "dramatic"
+        ]
+      },
+      "scoreEvidence": {
+        "path": "data/cache/same-instrument-imslp/scores/82713.pdf",
+        "coverage": "All nine PDF spreads; printed music pages 3–15 contain all four movements through the final double bar. Imposed spread order was followed by printed page numbers.",
+        "method": "Visual inspection of actual notation throughout all movements, with both halves checked."
+      },
+      "limits": "Musical grading only. Identity, repertoire-floor and recording acceptance are outside this judgment and were not re-researched."
+    }
+  ]
+}

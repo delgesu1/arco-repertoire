@@ -1,0 +1,176 @@
+{
+ "batch": "ensemble-36",
+ "accepted": [
+  {
+   "key": "hoek-3-korte-bluesjes-version-a-8-violas",
+   "id": 109211,
+   "publicId": 109211,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    3,
+    5,
+    3
+   ],
+   "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+   "details": [
+    "kind",
+    "movements",
+    "composed",
+    "dedication",
+    "firstPerformance"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null,
+   "gradeResolution": {
+    "key": "hoek-3-korte-bluesjes-version-a-8-violas",
+    "status": "approved",
+    "level": 5,
+    "hardestPart": "viola 4",
+    "confidence": "medium",
+    "consideredOpinions": [
+     3,
+     5,
+     3
+    ],
+    "basis": "Explicit NONBLIND source adjudication of the three preserved opinions, not a fourth vote or median. The level-3 verify opinion correctly identifies compound-meter articulation demands but names the higher melodic line without isolating the true peak. My saved blind level-3 opinion correctly identifies Viola 4 as hardest but underreads its register: its claim that Viola 4 stays approximately C4-Eb5 is contradicted by Loekie Blues printed p.6 bars 79-80. Reinspection at larger scale confirms the accented ascending chromatic figure extends well above the treble staff, approximately D6 at its peak, in separate eighth-note attacks at dotted-quarter 116 (about 348 eighths/minute); Viola 5 doubles the gesture lower. This is upper-position viola writing, not alto-clef middle-register notation. Viola 4 also has the sustained chromatic semiquaver counterlines and alternating slurred/detached articulation of Slow Blues Song printed pp.12-14 bars 29-46, and the short four-note tuplets and chromatic offbeats in De Stille at dotted-quarter 124. The grades opinion therefore supplies the stronger hardest-part/register evidence and level 5 is retained within the actual 3-5 band. Relative anchor: level 3 ABRSM6/RCM7 understates secure upper-position rapid chromatic intonation plus rhythmic independence; level 5 ABRSM8/RCM9 better describes preparing that hardest part across the complete ten-minute set. This is a medium-confidence advisory teaching comparison, not official exam placement, with roughly one-level uncertainty. The brief high passages and abundant simpler writing prevent a further diploma-level claim; no uplift comes merely from eight players.",
+    "sources": [
+     {
+      "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/559349",
+      "finding": "Primary Version A score, all 28 PDF pages inspected. Decisive correction at PDF p.9 / printed p.6: Viola 4 bars 79-80 rises above the treble staff under repeated accents; top line is not the hardest part. Slow Blues Song PDF pp.15-17 / printed pp.12-14 gives the sustained chromatic inner-part figuration; De Stille PDF pp.21 and 27 / printed pp.18 and 24 gives four-note tuplets in Viola 4 at dotted-quarter 124."
+     },
+     {
+      "url": "https://imslp.org/wiki/3_Korte_bluesjes_(Hoek,_Arie_van)",
+      "finding": "Exact work assessed is Version A for eight violas, all three movements as one set, not another arrangement."
+     }
+    ],
+    "localAnchors": [
+     {
+      "path": "data/source/levels.json",
+      "finding": "Level 3 upper intermediate ABRSM6/RCM7 versus level 5 advanced ABRSM8/RCM9; range and execution of the hardest part resolve this comparison, not vote counting."
+     }
+    ],
+    "consideredOpinionDetails": [
+     {
+      "level": 3,
+      "hardestPart": "viola 1",
+      "confidence": "medium",
+      "basis": "All 28 PDF pages inspected, including all 25 notation pages and three complete movements. Score is unusually written in treble clef for all eight viola staves (individual eighth part also supplied in alto/bass layouts). Mostly single-line writing in ordinary low/middle register; dotted compound-meter patterns at dotted-quarter 116, accents/offbeats, chromatic blues notes and quick arco/pizzicato changes determine the challenge. Slow Blues Song needs sustained bow control; De Stille at quarter124 uses repeated rhythmic figures. Viola1/5 upper melodic line slightly leads difficulty; no extreme register, extended techniques or elaborate double stopping. Upper intermediate 3, adjacent2–4 plausible. Advisory teaching estimate against data/source/levels.json, approximately one level either side; no automatic uplift for ensemble size.",
+      "mode": "unsure",
+      "pace": "lively",
+      "character": [
+       "playful",
+       "dance"
+      ]
+     },
+     {
+      "level": 5,
+      "hardestPart": "viola 4",
+      "confidence": "medium",
+      "basis": "Independent visual review of the complete Version A score, all three blues movements (PDF pp.4–28, printed pp.1–25). The hardest combined demands fall in viola 4: Loekie Blues includes exposed chromatic rising figures and a brief excursion above the treble staff around bars 79–83; Slow Blues Song adds active chromatic semiquaver figures with mixed slurred and detached articulation; De Stille requires crisp offbeat attacks, chromatic runs and occasional four-note tuplets at dotted-quarter=124. Much of the set is simpler, but the peak register and clean rapid articulation support advanced rather than an average of all eight parts. Repetition requires sustained rhythmic discipline, while rests reduce endurance pressure. No automatic eight-player uplift. Medium advisory estimate within one level; not exhaustive note certification.",
+      "mode": "unsure",
+      "pace": "lively",
+      "character": [
+       "dance",
+       "playful",
+       "lyrical"
+      ]
+     },
+     {
+      "level": 3,
+      "hardestPart": "Viola 4",
+      "confidence": "medium",
+      "basis": "Blind assessment before opening either existing review. Inspected all 28 PDF pages (three introductory pages and all 25 score pages), treating all three movements as one approximately ten-minute work. Viola 4 is the principal technical bottleneck rather than the highest line: Loekie Blues printed pp.5-6, bars 61-89 has the mobile chromatic counterline and accented rising figures; Slow blues song pp.12-14, bars 29-46 has sustained chromatic sixteenth-note runs, mixed slur/staccato, leaps, and displaced accents, shared closely with Viola 3; De Stille pp.18 and 24 adds chromatic four-note tuplets against compound pulse. All eight staves are printed in treble clef, including low ledger-line C-string material; this is a reading burden, not evidence of high-position playing. Overall register runs approximately C3 to F5; Viola 4 stays roughly C4-Eb5. The upper lines and Viola 5 reach higher but chiefly use simpler melody. Compound 6/8, offbeat entries, ties over beats, alternating pizzicato/arco, mute changes, chromatic blues intonation and precise dynamic/articulation coordination support upper-intermediate level 3. Dotted-quarter 116/66/124 gives brisk outer-movement eighth notes but the densest sustained sixteenths occur in the slow movement. No pervasive double stops, harmonics, advanced bowing or extreme register; eight players alone does not lift the grade. Teaching estimate anchored to supplied level 3 ABRSM6/RCM7 band, not an official syllabus placement.",
+      "mode": "unsure",
+      "pace": "lively",
+      "character": [
+       "playful",
+       "lyrical"
+      ]
+     }
+    ],
+    "adjudicationFile": "data/chamber/same-instrument/reviews/hoek-adjudication-36-normalized.json"
+   }
+  },
+  {
+   "key": "alencar-cello-quartet-no4",
+   "id": 109212,
+   "publicId": 109212,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed",
+    "firstPerformance"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "I7kwqO0YeWU"
+  },
+  {
+   "key": "vivaldi-rv63-mandozzi-three-cellos",
+   "id": 109213,
+   "publicId": 109213,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "dedication"
+   ],
+   "unsourcedDetailFieldsSkipped": [
+    "version",
+    "arranger",
+    "arranged"
+   ],
+   "recording": "85SspBSmUaU"
+  },
+  {
+   "key": "bach-bwv864-dicker-cello-quartet-prelude",
+   "id": 109214,
+   "publicId": 109214,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    3,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "-w6vtpUpFF8"
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "194b0f9f09af0805aaed993deeaa8f64d04a59287f680c550c5f5d6c6d2f6203",
+  "data/chamber/composers.json": "6763f4e8efab2095b66f0a166bcc7ed2a5e4788185abc00a6229e8c7aef2b8fd",
+  "data/chamber/id-registry.json": "756608690db514e31b622777fa55a2b1924dea83d8d38ef0ab338e1cf47b8836",
+  "data/chamber/sources.json": "7fad660e1ea0edcda30bea739c6046d4194784aae1a182173706d1a307a59869",
+  "data/details/overrides.json": "91644b52b1b2b68beeb5fe2fb9aed93f7e3dc42bd967257d1151a3f61217f45a",
+  "data/chamber/recordings-judged.json": "cb0bcf5eac63714812c748f480562cd23bd3cc82373efd6d09303ea299e2998e",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-ready-36.json": "97d0cd0f301db0fca51b3bf43e91dc52e192b222fbedc1e21f146eee91959fd9",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/ready36-verify.json": "edf4491fd6d7a8367f9e8c9ec5c1061c06232b2edf14f9672a0ca52116fd726b",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/ready36-grades.json": "f8dcc83164217e2a5f16b713ba6b56987ea118ef2465e32398e97fbf41b6729c",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/arrangements35-verify.json": "bc682ce2263f31c44ef2b5bc1c6602a023186db8dd3bfa1fe5617bb11d7e8573",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/arrangements35-blind.json": "5e842e3365f7f69acbfabb41d83bb1105bc6b62a5c7f695c1bef31e249b42e33",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/hoek-third-36.json": "aa233f816b9d2db318e5c1cd0259d0f64a8afd6c2a8f85c12eab0c5ad50c7036",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/hoek-adjudication-36-normalized.json": "fc438dd861fdc0e83172df086e9c3a98411953886c51645447ec281a266653be"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-36"
+}

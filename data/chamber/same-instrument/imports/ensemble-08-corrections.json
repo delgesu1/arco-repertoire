@@ -1,0 +1,35 @@
+{
+ "batch": "ensemble-08-corrections",
+ "accepted": [
+  {
+   "key": "bowen-fantasia-four-violas-op41-1",
+   "id": 105136,
+   "publicId": 105136,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [
+    "firstPerformance"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "31a7598d6c5ce5cceb48472bb5f486596db09bb9095eb0be7b5342aa78f5dc7b",
+  "data/chamber/composers.json": "78c58aeca2c8bbf27e5e25189761e606c7d6ac9edf1258159bec424b5f502408",
+  "data/chamber/id-registry.json": "2779ec6898e2d7edebf57687ad2960424edb85570abcd7bb638b8c043fafc643",
+  "data/chamber/sources.json": "4b59926ba2a7336f1226bf18aed5736f04bda6eab8acdc612e0d66ee701ee494",
+  "data/details/overrides.json": "140386eab6e55bae24e4db28947888dece461b64b8082b842c382f57013cd50a",
+  "data/chamber/recordings-judged.json": "b29c9d55c92f6b4f185f147d38f4c04d33bafae1a51a35930e149934adabead1",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-corrections-01.json": "2da86cc8309105a8b351dd5a39b354d4be0d4dd2ba269c1044fb0c2e7fbf5488",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-corrections-01.json": "c3db1924318cb62f3fef5c7dc66e10ce273032d320dfa2720a4a55c5cba4e586"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-08-corrections"
+}

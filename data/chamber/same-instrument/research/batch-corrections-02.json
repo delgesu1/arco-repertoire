@@ -1,0 +1,100 @@
+{
+ "batch": "batch-corrections-02",
+ "status": "complete",
+ "entries": [
+  {
+   "key": "metadata-notes-109158",
+   "existingPublicId": 109158,
+   "decision": "include",
+   "work": {
+    "composer": "Bacewicz, Grażyna",
+    "title": "Quartet for 4 Violins",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": 6,
+    "hardestPart": "violin 1",
+    "year": "1949",
+    "minutes": 13,
+    "set": null,
+    "notes": "Three-movement quartet for four independent violins.",
+    "popularity": "lesser-known",
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "playful",
+     "lyrical",
+     "dramatic"
+    ],
+    "imslpPage": "Quartet for 4 Violins (Bacewicz, Grażyna)",
+    "id": 109158
+   },
+   "details": {},
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)",
+      "finding": "Clarify descriptive note; remove research-process wording."
+     }
+    ],
+    "fieldSources": {
+     "work.notes": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)"
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Metadata wording only; no difficulty vote."
+   }
+  },
+  {
+   "key": "metadata-notes-109160",
+   "existingPublicId": 109160,
+   "decision": "include",
+   "work": {
+    "composer": "Dancla, Charles",
+    "title": "Le Carnaval de Venise, Op.119",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": 7,
+    "hardestPart": "violin 1",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Fantaisie brillante for four independent violins.",
+    "popularity": "lesser-known",
+    "mode": "major",
+    "pace": "lively",
+    "character": [
+     "virtuosic",
+     "playful",
+     "lyrical"
+    ],
+    "imslpPage": "Le carnaval de Venise, Op.119 (Dancla, Charles)",
+    "id": 109160
+   },
+   "details": {},
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://ks15.imslp.org/files/imglnks/usimg/b/bb/IMSLP265248-PMLP429944-violin1.pdf",
+      "finding": "Clarify descriptive note; remove research-process wording."
+     }
+    ],
+    "fieldSources": {
+     "work.notes": "https://ks15.imslp.org/files/imglnks/usimg/b/bb/IMSLP265248-PMLP429944-violin1.pdf"
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Metadata wording only; no difficulty vote."
+   }
+  }
+ ]
+}

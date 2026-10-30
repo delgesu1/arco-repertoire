@@ -1,0 +1,112 @@
+{
+  "at": "2026-10-29T21:23:56.986807+00:00",
+  "status": "paused-weekly-limit",
+  "counts": {
+    "chamberWorks": 9138,
+    "sameInstrumentEnsembles3to12": 108,
+    "byInstrument": {
+      "cello": 54,
+      "viola": 13,
+      "violin": 26,
+      "double-bass": 15
+    },
+    "newWorksThisResumedRun": 2,
+    "newWorksTotalProject": 75,
+    "newCrossListingsTotalProject": 1,
+    "newApprovedRecordingsThisRun": 1,
+    "allSameInstrumentWithYouTube": 66
+  },
+  "batches": [
+    "ensemble-42"
+  ],
+  "newWorks": [
+    {
+      "key": "klengel-impromptu-op30-four-cellos",
+      "id": 109218,
+      "publicId": 109218,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        6,
+        6
+      ],
+      "gradeIssue": null,
+      "details": [
+        "kind",
+        "published"
+      ],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": "FHSFaWkBU9g"
+    },
+    {
+      "key": "waelput-andante-four-violas",
+      "id": 109219,
+      "publicId": 109219,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        5,
+        5
+      ],
+      "gradeIssue": null,
+      "details": [
+        "kind"
+      ],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": null
+    }
+  ],
+  "heldThisBatch": [
+    {
+      "key": "klengel-variations-op28-four-cellos",
+      "reason": "Third blind grade required",
+      "opinions": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "werner-elegie-op21-four-cellos",
+      "reason": "Third blind grade required",
+      "opinions": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "clark-gavotte-four-violins",
+      "reason": "First-pass extraction still requires independent factual verification"
+    },
+    {
+      "key": "makris-scherzo-four-violins",
+      "reason": "Third blind grade required",
+      "opinions": [
+        7,
+        6
+      ]
+    }
+  ],
+  "verification": "557 tests passed (536 library,21 importer safety), full catalogue validation on every apply, final production build after42 and whitespace passed.",
+  "nextAction": "Three fresh blind musical grades only for KlengelOp28,WernerOp21,MakrisScherzo; two grades and all notation/facts already cached. Then normal verified batches from21 untouched source contexts. Clark and Massa retain specific human/extent holds.",
+  "ordinaryUsageAllowed": false,
+  "blockingWindow": {
+    "kind": "weekly",
+    "usedPercent": 100,
+    "resetsAt": 1793777289
+  },
+  "nextWakeUTC": "2026-11-04T07:30:09Z",
+  "credits": {
+    "balanceAtResume": "370.5931715000",
+    "lastObservedBalance": "367.6240540000",
+    "balanceAtPause": "358.7702140000",
+    "observedSharedAccountCreditDecreaseThisRun": 11.8229575,
+    "spendAttribution": "Shared account balance movement; model-call charge timing and other account activity are not isolated. Larger than intended couple-credit finishing allowance; all workers stopped."
+  },
+  "goalComplete": false,
+  "publicationStatus": "Local uncommitted changes only; no branches, commits, pushes or deployments.",
+  "pausedAt": "2026-10-29T21:25:06.179344+00:00",
+  "remainingSourceQueue": {
+    "videos": 43,
+    "contexts": 21
+  }
+}

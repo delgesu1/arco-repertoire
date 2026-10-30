@@ -9,6 +9,12 @@ the October 2026 write-ups (`docs/*-2026-10.md`) show each technique in use.
 `docs/<instrument>-plan.md` in the chamber plan's shape: starting point, decisions, schema, phases (each with a dated
 *Status* line as it finishes), cost and risks. Keep that file current: it is what a later session resumes from.
 
+For the proposed expansion of the existing chamber section to same-instrument string ensembles (including
+third-party arrangements), use [same-instrument-ensembles-plan.md](same-instrument-ensembles-plan.md) and the Sol briefs
+in `data/chamber/same-instrument/`. That plan records the expanded scope and the minimal arranger-credit support
+(including program copy). Publisher links and new ensemble filters are not part of that implementation; research/import
+progress is tracked in the plan.
+
 ## What exists (October 2026)
 
 | | Violin | Chamber music |

@@ -1,0 +1,1578 @@
+{
+  "batch": "closure-original-04",
+  "status": "complete",
+  "entries": [
+    {
+      "contextKey": "1326417-original",
+      "pageId": 1326417,
+      "kind": "original",
+      "decision": "lead",
+      "reason": "The cached IMSLP audio block identifies a human performer and labels the item as a complete recording; the original page gives the exact work/scoring and the score/parts are listed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1326417.json",
+          "finding": "Inspected cached raw revision 3923706; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 3923706; original instrumentation='4 violins'; file descriptions=['Complete Score', 'Violin 1', 'Violin 2', 'Violin 3', 'Violin 4']; file names=['PMLP1326417-Violin_Quartet_Score.pdf', 'PMLP1326417-Violin_Quartet_-_Violin_I.pdf', 'PMLP1326417-Violin_Quartet_-_Violin_II.pdf', 'PMLP1326417-Violin_Quartet_-_Violin_III.pdf', 'PMLP1326417-Violin_Quartet_-_Violin_IV.pdf']. Audio performers=['Paul Trapkus']; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "finding": "IMSLP identifies ['Paul Trapkus'] and labels the audio Complete Recording; this is primary evidence of a human performance of the exact work. Exact independent-part count and parts are identified in the cached FILES section."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "1",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1326417.json",
+            "finding": "Raw revision 3923706; original instrumentation='4 violins'; file descriptions=['Complete Score', 'Violin 1', 'Violin 2', 'Violin 3', 'Violin 4']; file names=['PMLP1326417-Violin_Quartet_Score.pdf', 'PMLP1326417-Violin_Quartet_-_Violin_I.pdf', 'PMLP1326417-Violin_Quartet_-_Violin_II.pdf', 'PMLP1326417-Violin_Quartet_-_Violin_III.pdf', 'PMLP1326417-Violin_Quartet_-_Violin_IV.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+              "finding": "Complete human recording; named performer(s): Paul Trapkus. No claim about live ensemble vs multitracking is made by the source."
+            }
+          ],
+          "decision": "lead",
+          "reason": "The cached IMSLP audio block identifies a human performer and labels the item as a complete recording; the original page gives the exact work/scoring and the score/parts are listed."
+        }
+      ]
+    },
+    {
+      "contextKey": "1286060-original",
+      "pageId": 1286060,
+      "kind": "original",
+      "decision": "held",
+      "reason": "IMSLP original work information says 3 violins, but the cached files section contains only an arrangement for horn, trumpet and euphonium, not playable materials for the original violin version; no human performance floor was established.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1286060.json",
+          "finding": "Inspected cached raw revision 4355268; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4355268; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Horn (F)', 'Trumpet (B{{Flat', 'Euphonium']; file names=['PMLP1286060-Quick_March_The_Battle_of_Prague_-_Score.pdf', 'PMLP1286060-Quick_March_The_Battle_of_Prague_-_Horn_F.pdf', 'PMLP1286060-Quick_March_The_Battle_of_Prague_-_trp._Bb.pdf', 'PMLP1286060-Quick_March_The_Battle_of_Prague_-_Euphonium.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Category%3ASeipp%2C_J._H.",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1286060.json",
+            "finding": "Raw revision 4355268; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Horn (F)', 'Trumpet (B{{Flat', 'Euphonium']; file names=['PMLP1286060-Quick_March_The_Battle_of_Prague_-_Score.pdf', 'PMLP1286060-Quick_March_The_Battle_of_Prague_-_Horn_F.pdf', 'PMLP1286060-Quick_March_The_Battle_of_Prague_-_trp._Bb.pdf', 'PMLP1286060-Quick_March_The_Battle_of_Prague_-_Euphonium.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/1286060.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "IMSLP original work information says 3 violins, but the cached files section contains only an arrangement for horn, trumpet and euphonium, not playable materials for the original violin version; no human performance floor was established."
+        }
+      ]
+    },
+    {
+      "contextKey": "1286110-original",
+      "pageId": 1286110,
+      "kind": "original",
+      "decision": "held",
+      "reason": "IMSLP original work information says 3 violins, but the cached files section contains only an arrangement for horn, trumpet and euphonium, not playable materials for the original violin version; no human performance floor was established.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1286110.json",
+          "finding": "Inspected cached raw revision 4355269; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4355269; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Horn (F)', 'Trumpet (B{{Flat', 'Euphonium']; file names=['PMLP1286110-Quick_March_The_Demolition_of_Castine_-_Score.pdf', 'PMLP1286110-Quick_March_The_Demolition_of_Castine_-_Horn_F.pdf', 'PMLP1286110-Quick_March_The_Demolition_of_Castine_-_trp._Bb.pdf', 'PMLP1286110-Quick_March_The_Demolition_of_Castine_-_Euphonium.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Category%3ASeipp%2C_J._H.",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1286110.json",
+            "finding": "Raw revision 4355269; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Horn (F)', 'Trumpet (B{{Flat', 'Euphonium']; file names=['PMLP1286110-Quick_March_The_Demolition_of_Castine_-_Score.pdf', 'PMLP1286110-Quick_March_The_Demolition_of_Castine_-_Horn_F.pdf', 'PMLP1286110-Quick_March_The_Demolition_of_Castine_-_trp._Bb.pdf', 'PMLP1286110-Quick_March_The_Demolition_of_Castine_-_Euphonium.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/1286110.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "IMSLP original work information says 3 violins, but the cached files section contains only an arrangement for horn, trumpet and euphonium, not playable materials for the original violin version; no human performance floor was established."
+        }
+      ]
+    },
+    {
+      "contextKey": "1286116-original",
+      "pageId": 1286116,
+      "kind": "original",
+      "decision": "held",
+      "reason": "IMSLP original work information says 3 violins, but the cached files section contains only an arrangement for horn, trumpet and euphonium, not playable materials for the original violin version; no human performance floor was established.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1286116.json",
+          "finding": "Inspected cached raw revision 4352705; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4352705; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Horn (F)', 'Trumpet (B{{Flat', 'Euphonium']; file names=['PMLP1286116-Quick_Waltz_-_Score.pdf', 'PMLP1286116-Quick_Waltz_-_Horn_F.pdf', 'PMLP1286116-Quick_Waltz_-_trp._Bb.pdf', 'PMLP1286116-Quick_Waltz_-_Euphonium.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://www.editionsilvertrust.com/string-trios.htm",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1286116.json",
+            "finding": "Raw revision 4352705; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Horn (F)', 'Trumpet (B{{Flat', 'Euphonium']; file names=['PMLP1286116-Quick_Waltz_-_Score.pdf', 'PMLP1286116-Quick_Waltz_-_Horn_F.pdf', 'PMLP1286116-Quick_Waltz_-_trp._Bb.pdf', 'PMLP1286116-Quick_Waltz_-_Euphonium.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/1286116.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "IMSLP original work information says 3 violins, but the cached files section contains only an arrangement for horn, trumpet and euphonium, not playable materials for the original violin version; no human performance floor was established."
+        }
+      ]
+    },
+    {
+      "contextKey": "866914-original",
+      "pageId": 866914,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached IMSLP performance is explicitly synthesized/computer-generated; no independently played human performance floor is established.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/866914.json",
+          "finding": "Inspected cached raw revision 2916154; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2916154; original instrumentation='5 violas (or 4 violas, double bass)'; file descriptions=['Complete Score and Parts', 'Complete Score and Parts']; file names=['PMLP866914-Red_Hot_Dots_for_Five_Violas_or_Four_Violas_and_Bass.pdf', 'PMLP866914-Red_Hot_Dots_for_String_Orchestra_Score_and_Parts.pdf']. Audio performers=['Computer Generated']; explicitly synthesized=True."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Red_Hot_Dots_%28Fine%2C_Elaine%29",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 5 violas (or 4 violas, double bass)",
+          "arranger": null,
+          "instrument": "viola",
+          "independentPartCount": 5,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/866914.json",
+            "finding": "Raw revision 2916154; original instrumentation='5 violas (or 4 violas, double bass)'; file descriptions=['Complete Score and Parts', 'Complete Score and Parts']; file names=['PMLP866914-Red_Hot_Dots_for_Five_Violas_or_Four_Violas_and_Bass.pdf', 'PMLP866914-Red_Hot_Dots_for_String_Orchestra_Score_and_Parts.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/866914.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached IMSLP performance is explicitly synthesized/computer-generated; no independently played human performance floor is established."
+        }
+      ]
+    },
+    {
+      "contextKey": "887149-original",
+      "pageId": 887149,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached IMSLP performance is explicitly synthesized/computer-generated; no independently played human performance floor is established.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/887149.json",
+          "finding": "Inspected cached raw revision 2727444; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2727444; original instrumentation='5 violas'; file descriptions=['Complete Score and Parts']; file names=['PMLP887149-Rhum_Baba_for_Five_Violas_Score_and_Parts.pdf']. Audio performers=['Five computer generated violists']; explicitly synthesized=True."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Rhum_Baba_(Fine,_Elaine)",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 5 violas",
+          "arranger": null,
+          "instrument": "viola",
+          "independentPartCount": 5,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/887149.json",
+            "finding": "Raw revision 2727444; original instrumentation='5 violas'; file descriptions=['Complete Score and Parts']; file names=['PMLP887149-Rhum_Baba_for_Five_Violas_Score_and_Parts.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/887149.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached IMSLP performance is explicitly synthesized/computer-generated; no independently played human performance floor is established."
+        }
+      ]
+    },
+    {
+      "contextKey": "549889-original",
+      "pageId": 549889,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/549889.json",
+          "finding": "Inspected cached raw revision 1640519; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 1640519; original instrumentation='4 Violas'; file descriptions=['Score and Parts']; file names=['PMLP549889-Romance_for_4_Violas.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://www.editionsilvertrust.com/string-trios.htm",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 Violas",
+          "arranger": null,
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/549889.json",
+            "finding": "Raw revision 1640519; original instrumentation='4 Violas'; file descriptions=['Score and Parts']; file names=['PMLP549889-Romance_for_4_Violas.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/549889.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "1042090-original",
+      "pageId": 1042090,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1042090.json",
+          "finding": "Inspected cached raw revision 3684355; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 3684355; original instrumentation='3 violins'; file descriptions=['Complete Parts', 'Violin 1', 'Violin 2', 'Violin 3', 'Color Cover']; file names=['PMLP1042090-TRI_ANB_63_24.pdf', 'PMLP1042090-39087008998397vn1.pdf', 'PMLP1042090-39087008998397vn2.pdf', 'PMLP1042090-39087008998397vn3.pdf', 'PMLP1042090-39087008998397color.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://www.editionsilvertrust.com/string-trios.htm",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1042090.json",
+            "finding": "Raw revision 3684355; original instrumentation='3 violins'; file descriptions=['Complete Parts', 'Violin 1', 'Violin 2', 'Violin 3', 'Color Cover']; file names=['PMLP1042090-TRI_ANB_63_24.pdf', 'PMLP1042090-39087008998397vn1.pdf', 'PMLP1042090-39087008998397vn2.pdf', 'PMLP1042090-39087008998397vn3.pdf', 'PMLP1042090-39087008998397color.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/1042090.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "1449097-original",
+      "pageId": 1449097,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "A collection of arrangements of works by other composers rather than a single original same-instrument chamber work.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1449097.json",
+          "finding": "Inspected cached raw revision 4532515; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4532515; original instrumentation='4 cellos'; file descriptions=['Cello 1, 2, 3, 4']; file names=['PMLP1449097-Norbert_Salter_Pax_vobiscum.PDF']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Sammlung_berühmter_Compositionen_(Salter,_Norbert)",
+          "finding": "A collection of arrangements of works by other composers rather than a single original same-instrument chamber work."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "211541-original",
+      "pageId": 211541,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/211541.json",
+          "finding": "Inspected cached raw revision 2785247; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2785247; original instrumentation='4 violins'; file descriptions=['Complete Score', 'Complete Parts']; file names=['PMLP211541-Makris-ScherzoForFourViolins-score.pdf', 'PMLP211541-Makris-ScherzoForFourViolins-parts.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://www.editionsilvertrust.com/string-trios.htm",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/211541.json",
+            "finding": "Raw revision 2785247; original instrumentation='4 violins'; file descriptions=['Complete Score', 'Complete Parts']; file names=['PMLP211541-Makris-ScherzoForFourViolins-score.pdf', 'PMLP211541-Makris-ScherzoForFourViolins-parts.pdf']."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "1159630-original",
+      "pageId": 1159630,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1159630.json",
+          "finding": "Inspected cached raw revision 4778189; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4778189; original instrumentation='4 cellos'; file descriptions=['Complete Parts']; file names=['PMLP1159630-Serenade_pour_quatres_violoncellos.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://www.editionsilvertrust.com/string-trios.htm",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1159630.json",
+            "finding": "Raw revision 4778189; original instrumentation='4 cellos'; file descriptions=['Complete Parts']; file names=['PMLP1159630-Serenade_pour_quatres_violoncellos.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/1159630.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "24546-original",
+      "pageId": 24546,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/24546.json",
+          "finding": "Inspected cached raw revision 2316451; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2316451; original instrumentation='4 cellos'; file descriptions=['Complete Parts', 'Complete Score']; file names=['Lachner_Serenade_for_4_celli_Op.29.pdf', 'PMLP24546-Lachner_Serenade_op.29,_Celloquartett.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Serenade_for_4_Cellos,_Op.29_(Lachner,_Franz_Paul)",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "2 movements",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/24546.json",
+            "finding": "Raw revision 2316451; original instrumentation='4 cellos'; file descriptions=['Complete Parts', 'Complete Score']; file names=['Lachner_Serenade_for_4_celli_Op.29.pdf', 'PMLP24546-Lachner_Serenade_op.29,_Celloquartett.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/24546.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "756015-original",
+      "pageId": 756015,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/756015.json",
+          "finding": "Inspected cached raw revision 2479391; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2479391; original instrumentation='3 violins'; file descriptions=['Complete Parts']; file names=['PMLP756015-VCH_TOCH_SERE_3_V_ed.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Serenade%2C_Op.20_%28Toch%2C_Ernst%29",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "3 movements: :I. Allegro non troppo :II. Andante Allegretto Allegro Tempo I :III. Vivo",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/756015.json",
+            "finding": "Raw revision 2479391; original instrumentation='3 violins'; file descriptions=['Complete Parts']; file names=['PMLP756015-VCH_TOCH_SERE_3_V_ed.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/756015.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "138907-original",
+      "pageId": 138907,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached IMSLP performance is explicitly synthesized/computer-generated; no independently played human performance floor is established.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/138907.json",
+          "finding": "Inspected cached raw revision 2845766; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2845766; original instrumentation='8 cellos'; file descriptions=['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4', 'Cello 5', 'Cello 6', 'Cello 7', 'Cello 8']; file names=['PMLP138907-Peter_Dyson_2002_Shadows_complete_score.pdf', 'PMLP138907-Shadows_Violoncello_1_part.pdf', 'PMLP138907-Shadows_Violoncello_2_part.pdf', 'PMLP138907-Shadows_Violoncello_3_part.pdf', 'PMLP138907-Shadows_Violoncello_4_part.pdf', 'PMLP138907-Shadows_Violoncello_5_part.pdf', 'PMLP138907-Shadows_Violoncello_6_part.pdf', 'PMLP138907-Shadows_Violoncello_7_part.pdf', 'PMLP138907-Shadows_Violoncello_8_part.pdf']. Audio performers=['audio file created by Sibelius']; explicitly synthesized=True."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Shadows_(Dyson,_Peter)",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 8 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 8,
+          "extent": "1",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/138907.json",
+            "finding": "Raw revision 2845766; original instrumentation='8 cellos'; file descriptions=['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4', 'Cello 5', 'Cello 6', 'Cello 7', 'Cello 8']; file names=['PMLP138907-Peter_Dyson_2002_Shadows_complete_score.pdf', 'PMLP138907-Shadows_Violoncello_1_part.pdf', 'PMLP138907-Shadows_Violoncello_2_part.pdf', 'PMLP138907-Shadows_Violoncello_3_part.pdf', 'PMLP138907-Shadows_Violoncello_4_part.pdf', 'PMLP138907-Shadows_Violoncello_5_part.pdf', 'PMLP138907-Shadows_Violoncello_6_part.pdf', 'PMLP138907-Shadows_Violoncello_7_part.pdf', 'PMLP138907-Shadows_Violoncello_8_part.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/138907.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached IMSLP performance is explicitly synthesized/computer-generated; no independently played human performance floor is established."
+        }
+      ]
+    },
+    {
+      "contextKey": "655659-original",
+      "pageId": 655659,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached IMSLP performance is explicitly synthesized/computer-generated; no independently played human performance floor is established.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/655659.json",
+          "finding": "Inspected cached raw revision 2588882; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2588882; original instrumentation='4 cellos'; file descriptions=['Complete Score', 'Complete Parts', 'Complete Score', 'Complete Parts', 'Complete Score', 'Complete Parts']; file names=['PMLP655659-C027_-_SLOW_MOTION_-_4CELLO_-_SCORE.pdf', 'PMLP655659-C027_-_SLOW_MOTION_-_4CELLO_-_PARTS.pdf', 'PMLP655659-C027B_-_SLOW_MOTION_-_4SAX_-_SCORE.pdf', 'PMLP655659-C027B_-_SLOW_MOTION_-_4SAX_-_PARTS.pdf', 'PMLP655659-C027C_-_SLOW_MOTION_-_trombone_quartet_-_Full_Score.pdf', 'PMLP655659-C027C_-_SLOW_MOTION_-_trombone_quartet_-_Parts.pdf']. Audio performers=['have@drop']; explicitly synthesized=True."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Slow_Motion_(De_Bleser,_Werner_J.E.)",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "1 movement",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/655659.json",
+            "finding": "Raw revision 2588882; original instrumentation='4 cellos'; file descriptions=['Complete Score', 'Complete Parts', 'Complete Score', 'Complete Parts', 'Complete Score', 'Complete Parts']; file names=['PMLP655659-C027_-_SLOW_MOTION_-_4CELLO_-_SCORE.pdf', 'PMLP655659-C027_-_SLOW_MOTION_-_4CELLO_-_PARTS.pdf', 'PMLP655659-C027B_-_SLOW_MOTION_-_4SAX_-_SCORE.pdf', 'PMLP655659-C027B_-_SLOW_MOTION_-_4SAX_-_PARTS.pdf', 'PMLP655659-C027C_-_SLOW_MOTION_-_trombone_quartet_-_Full_Score.pdf', 'PMLP655659-C027C_-_SLOW_MOTION_-_trombone_quartet_-_Parts.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/655659.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached IMSLP performance is explicitly synthesized/computer-generated; no independently played human performance floor is established."
+        }
+      ]
+    },
+    {
+      "contextKey": "223910-original",
+      "pageId": 223910,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/223910.json",
+          "finding": "Inspected cached raw revision 2846243; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2846243; original instrumentation='3 violins'; file descriptions=['Complete Parts', 'Complete parts', 'Complete Score', 'Guitar 1', 'Guitar 2', 'Guitar 3']; file names=['PMLP223910-Bella_easy_violin_trio_vvv_or_v_v_va.pdf', 'PMLP223910-BELLA_Sonata_Op._4_1st_pos_3vns_ALL.pdf', 'PMLP223910-Bella,_Ján_Levoslav_-_Sonate_I_op.4.pdf', 'PMLP223910-Bella,_Ján_Levoslav_-_Sonate_I_op.4_-_Git._1.pdf', 'PMLP223910-Bella,_Ján_Levoslav_-_Sonate_I_op.4_-_Git._2.pdf', 'PMLP223910-Bella,_Ján_Levoslav_-_Sonate_I_op.4_-_Git._3.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Sonata_No.1_for_3_Violins%2C_Op.4_%28Bella%2C_J%C3%A1n_Levoslav%29",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "4 movements: #Allegro moderato #Adagietto (g) #Vivace (D) - Trio - Da capo #Allegro",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/223910.json",
+            "finding": "Raw revision 2846243; original instrumentation='3 violins'; file descriptions=['Complete Parts', 'Complete parts', 'Complete Score', 'Guitar 1', 'Guitar 2', 'Guitar 3']; file names=['PMLP223910-Bella_easy_violin_trio_vvv_or_v_v_va.pdf', 'PMLP223910-BELLA_Sonata_Op._4_1st_pos_3vns_ALL.pdf', 'PMLP223910-Bella,_Ján_Levoslav_-_Sonate_I_op.4.pdf', 'PMLP223910-Bella,_Ján_Levoslav_-_Sonate_I_op.4_-_Git._1.pdf', 'PMLP223910-Bella,_Ján_Levoslav_-_Sonate_I_op.4_-_Git._2.pdf', 'PMLP223910-Bella,_Ján_Levoslav_-_Sonate_I_op.4_-_Git._3.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/223910.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "626547-original",
+      "pageId": 626547,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/626547.json",
+          "finding": "Inspected cached raw revision 1891546; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 1891546; original instrumentation='3 violins'; file descriptions=['Violin I', 'Violin II', 'Violin III']; file names=['PMLP626547-BellaV1.pdf', 'PMLP626547-BellaV2.pdf', 'PMLP626547-BellaV3.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Sonata_No.2_for_3_Violins,_Op.13_(Bella,_J%C3%A1n_Levoslav)",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "4 movements",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/626547.json",
+            "finding": "Raw revision 1891546; original instrumentation='3 violins'; file descriptions=['Violin I', 'Violin II', 'Violin III']; file names=['PMLP626547-BellaV1.pdf', 'PMLP626547-BellaV2.pdf', 'PMLP626547-BellaV3.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/626547.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "190125-original",
+      "pageId": 190125,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/190125.json",
+          "finding": "Inspected cached raw revision 2786031; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2786031; original instrumentation='3 violins (or flutes)'; file descriptions=['Complete Parts', 'Complete Score', 'Complete Score']; file names=['PMLP190125-r_keiser_son_D.pdf', 'PMLP190125-Reinhard_Kaiser-Trio.pdf', 'PMLP190125-Reinhard_Kaiser-Trio-Bfl..pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Category%3AFor_3_violins",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins (or flutes)",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "5 movements: #Adagio #Vivace assai #Presto-Vivace #Largo #Allegro",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/190125.json",
+            "finding": "Raw revision 2786031; original instrumentation='3 violins (or flutes)'; file descriptions=['Complete Parts', 'Complete Score', 'Complete Score']; file names=['PMLP190125-r_keiser_son_D.pdf', 'PMLP190125-Reinhard_Kaiser-Trio.pdf', 'PMLP190125-Reinhard_Kaiser-Trio-Bfl..pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/190125.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "8675-original",
+      "pageId": 8675,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The work offers cello with digital delay or three cellos; no human performance of the three-cello version was established. Preserve the two distinct versions instead of treating the delay part as a third cello.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/8675.json",
+          "finding": "Inspected cached raw revision 4182904; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4182904; original instrumentation='1. cello and digital delay or three cellos; 2. viola and digital delay or three violas'; file descriptions=['Cello version - complete score', 'Viola version - complete score']; file names=['Spiral1_cello.pdf', 'Spiral_viola.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 1. cello and digital delay or three cellos; 2. viola and digital delay or three violas",
+          "arranger": null,
+          "instrument": "viola",
+          "independentPartCount": null,
+          "extent": "1",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/8675.json",
+            "finding": "Raw revision 4182904; original instrumentation='1. cello and digital delay or three cellos; 2. viola and digital delay or three violas'; file descriptions=['Cello version - complete score', 'Viola version - complete score']; file names=['Spiral1_cello.pdf', 'Spiral_viola.pdf']."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The work offers cello with digital delay or three cellos; no human performance of the three-cello version was established. Preserve the two distinct versions instead of treating the delay part as a third cello."
+        }
+      ]
+    },
+    {
+      "contextKey": "1317286-original",
+      "pageId": 1317286,
+      "kind": "original",
+      "decision": "held",
+      "reason": "IMSLP original work information says 3 violins, but the cached files section contains only an arrangement for horn, trumpet and euphonium, not playable materials for the original violin version; no human performance floor was established.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1317286.json",
+          "finding": "Inspected cached raw revision 4352695; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4352695; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Horn (F)', 'Trumpet (B{{Flat', 'Euphonium']; file names=['PMLP1317286-Starting_Waltz_-_Score.pdf', 'PMLP1317286-Starting_Waltz_-_Horn_F.pdf', 'PMLP1317286-Starting_Waltz_-_trp._Bb.pdf', 'PMLP1317286-Starting_Waltz_-_Euphonium.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Category%3ASeipp%2C_J._H.",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1317286.json",
+            "finding": "Raw revision 4352695; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Horn (F)', 'Trumpet (B{{Flat', 'Euphonium']; file names=['PMLP1317286-Starting_Waltz_-_Score.pdf', 'PMLP1317286-Starting_Waltz_-_Horn_F.pdf', 'PMLP1317286-Starting_Waltz_-_trp._Bb.pdf', 'PMLP1317286-Starting_Waltz_-_Euphonium.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/1317286.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "IMSLP original work information says 3 violins, but the cached files section contains only an arrangement for horn, trumpet and euphonium, not playable materials for the original violin version; no human performance floor was established."
+        }
+      ]
+    },
+    {
+      "contextKey": "756022-original",
+      "pageId": 756022,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/756022.json",
+          "finding": "Inspected cached raw revision 4367285; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4367285; original instrumentation='4 violins'; file descriptions=['Complete Score and Violin Parts', 'Complete Score and Parts']; file names=['PMLP756022-VP_4V_SLUN_STIMM_ed.pdf', 'PMLP756022-Slunicko_Stimmungsbilder3op92_Elfenreigen_orchester_arrt_GLabeylie.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Category%3AFor_3_violins",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "3 pieces: #Abend #Nachtzauber #Elfenreigen",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/756022.json",
+            "finding": "Raw revision 4367285; original instrumentation='4 violins'; file descriptions=['Complete Score and Violin Parts', 'Complete Score and Parts']; file names=['PMLP756022-VP_4V_SLUN_STIMM_ed.pdf', 'PMLP756022-Slunicko_Stimmungsbilder3op92_Elfenreigen_orchester_arrt_GLabeylie.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/756022.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "673172-original",
+      "pageId": 673172,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/673172.json",
+          "finding": "Inspected cached raw revision 2776805; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2776805; original instrumentation='4 cellos'; file descriptions=['Complete Score', 'Complete Parts']; file names=['PMLP673172-Kuz_op_13_sc.pdf', 'PMLP673172-Kuz_op_13.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Category%3AFor_3_violins",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "5 movements: #Allegro #Andantino #Intermezzo #Scherzo #Allegro con brio",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/673172.json",
+            "finding": "Raw revision 2776805; original instrumentation='4 cellos'; file descriptions=['Complete Score', 'Complete Parts']; file names=['PMLP673172-Kuz_op_13_sc.pdf', 'PMLP673172-Kuz_op_13.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/673172.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "673175-original",
+      "pageId": 673175,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/673175.json",
+          "finding": "Inspected cached raw revision 2777062; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2777062; original instrumentation='4 cellos'; file descriptions=['Complete Parts']; file names=['PMLP673175-Kuz_28.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Category%3AFor_3_violins",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "4 movements: #Andante #Vivo #Andantino #Largo-Andante-Moderato",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/673175.json",
+            "finding": "Raw revision 2777062; original instrumentation='4 cellos'; file descriptions=['Complete Parts']; file names=['PMLP673175-Kuz_28.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/673175.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "1498161-original",
+      "pageId": 1498161,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1498161.json",
+          "finding": "Inspected cached raw revision 4414678; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4414678; original instrumentation='4 cellos'; file descriptions=['Complete Score', 'Complete Parts']; file names=['PMLP1498161-Quartet_Score.pdf', 'PMLP1498161-Quartet_Parts.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://www.editionsilvertrust.com/string-trios.htm",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "6 movements: #March #Country Dance # Madman's Dance #Circle Dance #Lament #Jig",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1498161.json",
+            "finding": "Raw revision 4414678; original instrumentation='4 cellos'; file descriptions=['Complete Score', 'Complete Parts']; file names=['PMLP1498161-Quartet_Score.pdf', 'PMLP1498161-Quartet_Parts.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/1498161.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "709764-original",
+      "pageId": 709764,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/709764.json",
+          "finding": "Inspected cached raw revision 4018656; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4018656; original instrumentation='6 cellos'; file descriptions=['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4', 'Cello 5', 'Cello 6']; file names=['PMLP709764-Suite_Tosca_+cello_-_Full_score_IMSLP.pdf', 'PMLP709764-Suite_Tosca_+cello_-_particelli_-_Violoncello_1.pdf', 'PMLP709764-Suite_Tosca_+cello_-_particelli_-_Violoncello_2.pdf', 'PMLP709764-Suite_Tosca_+cello_-_particelli_-_Violoncello_3.pdf', 'PMLP709764-Suite_Tosca_+cello_-_particelli_-_Violoncello_4.pdf', 'PMLP709764-Suite_Tosca_+cello_-_particelli_-_Violoncello_5.pdf', 'PMLP709764-Suite_Tosca_+cello_-_particelli_-_Violoncello_6.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 6 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "1",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/709764.json",
+            "finding": "Raw revision 4018656; original instrumentation='6 cellos'; file descriptions=['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4', 'Cello 5', 'Cello 6']; file names=['PMLP709764-Suite_Tosca_+cello_-_Full_score_IMSLP.pdf', 'PMLP709764-Suite_Tosca_+cello_-_particelli_-_Violoncello_1.pdf', 'PMLP709764-Suite_Tosca_+cello_-_particelli_-_Violoncello_2.pdf', 'PMLP709764-Suite_Tosca_+cello_-_particelli_-_Violoncello_3.pdf', 'PMLP709764-Suite_Tosca_+cello_-_particelli_-_Violoncello_4.pdf', 'PMLP709764-Suite_Tosca_+cello_-_particelli_-_Violoncello_5.pdf', 'PMLP709764-Suite_Tosca_+cello_-_particelli_-_Violoncello_6.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/709764.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "902340-original",
+      "pageId": 902340,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/902340.json",
+          "finding": "Inspected cached raw revision 4252978; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4252978; original instrumentation='3 cellos'; file descriptions=['Complete Score', 'Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Clarinet (B{{flat']; file names=['PMLP902340-koessler_suite_3vc_PPN1034110756.pdf', 'PMLP902340-11028-Koessler-Suite3cellos-00-Score.pdf', 'PMLP902340-11028-Koessler-Suite3cellos-01-Violoncelle1.pdf', 'PMLP902340-11028-Koessler-Suite3cellos-02-Violoncelle2.pdf', 'PMLP902340-11028-Koessler-Suite3cellos-03-Violoncelle3.pdf', 'PMLP902340-Koessler_Suite_(1925)_cl-SI_(cl-2vlc)_(en-sib)_(V3bis).pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Suite_for_3_Cellos_(Koessler,_Hans)",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "5 movements: #Moderato #Menuett #Adagio #Capricetto (Cello 3 \"des einstimmendes Instrumentes imitirend\") #Finale. Allegro non troppo",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/902340.json",
+            "finding": "Raw revision 4252978; original instrumentation='3 cellos'; file descriptions=['Complete Score', 'Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Clarinet (B{{flat']; file names=['PMLP902340-koessler_suite_3vc_PPN1034110756.pdf', 'PMLP902340-11028-Koessler-Suite3cellos-00-Score.pdf', 'PMLP902340-11028-Koessler-Suite3cellos-01-Violoncelle1.pdf', 'PMLP902340-11028-Koessler-Suite3cellos-02-Violoncelle2.pdf', 'PMLP902340-11028-Koessler-Suite3cellos-03-Violoncelle3.pdf', 'PMLP902340-Koessler_Suite_(1925)_cl-SI_(cl-2vlc)_(en-sib)_(V3bis).pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/902340.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "96484-original",
+      "pageId": 96484,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/96484.json",
+          "finding": "Inspected cached raw revision 3178743; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 3178743; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Color Cover']; file names=['PMLP96484-Moor_-_Suite_for_3_violins_Op133_score.pdf', 'PMLP96484-Moor_-_Suite_for_3_violins_Op133_colorcover.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Mo%C3%B3r,_Emanuel)",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "4 movements: #Andante espressivo #Allegro #Adagio espressivo - #Allegro vivace",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/96484.json",
+            "finding": "Raw revision 3178743; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Color Cover']; file names=['PMLP96484-Moor_-_Suite_for_3_violins_Op133_score.pdf', 'PMLP96484-Moor_-_Suite_for_3_violins_Op133_colorcover.pdf']."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "598299-original",
+      "pageId": 598299,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/598299.json",
+          "finding": "Inspected cached raw revision 2581935; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2581935; original instrumentation='4 violins'; file descriptions=['Complete Parts', 'Violin 1', 'Violin 2', 'Violin 3', 'Violin 4']; file names=['PMLP598299-VQ_SOCHT_58_4_vl_done.pdf', 'PMLP598299-VQ_SOCHT_58_4_vl_done1.pdf', 'PMLP598299-VQ_SOCHT_58_4_vl_done2.pdf', 'PMLP598299-VQ_SOCHT_58_4_vl_don3e.pdf', 'PMLP598299-VQ_SOCHT_58_4_vl_done4.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://www.editionsilvertrust.com/string-trios.htm",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "5 movements: :I. Allegro :II. Adagio :III. Lento espressivo :IV. Intermezzo. Allegretto :V. Rondo-Polacca. Tempo di Polacca",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/598299.json",
+            "finding": "Raw revision 2581935; original instrumentation='4 violins'; file descriptions=['Complete Parts', 'Violin 1', 'Violin 2', 'Violin 3', 'Violin 4']; file names=['PMLP598299-VQ_SOCHT_58_4_vl_done.pdf', 'PMLP598299-VQ_SOCHT_58_4_vl_done1.pdf', 'PMLP598299-VQ_SOCHT_58_4_vl_done2.pdf', 'PMLP598299-VQ_SOCHT_58_4_vl_don3e.pdf', 'PMLP598299-VQ_SOCHT_58_4_vl_done4.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/598299.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "368391-original",
+      "pageId": 368391,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "A multi-instrument collection with several unrelated scoring combinations; it does not specify one fixed same-instrument ensemble version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/368391.json",
+          "finding": "Inspected cached raw revision 1855004; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 1855004; original instrumentation='Various instrumental combinations *3 flutes *3 clarinets (B) *bassoon *trumpet (B) *4 guitars (melody) *guitar (chords) *piano *percussion *3 violins *viola *cello'; file descriptions=['Complete Score and Parts']; file names=['WIMA.547e-Susato.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Susato_Suite_(Susato,_Tielman)",
+          "finding": "A multi-instrument collection with several unrelated scoring combinations; it does not specify one fixed same-instrument ensemble version."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1318375-original",
+      "pageId": 1318375,
+      "kind": "original",
+      "decision": "held",
+      "reason": "IMSLP original work information says 3 violins, but the cached files section contains only an arrangement for horn, trumpet and euphonium, not playable materials for the original violin version; no human performance floor was established.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1318375.json",
+          "finding": "Inspected cached raw revision 4355270; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4355270; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Horn (F)', 'Trumpet (B{{Flat', 'Euphonium']; file names=['PMLP1318375-Swiss_Guards_March_-_Score.pdf', 'PMLP1318375-Swiss_Guards_March_-_Horn_F.pdf', 'PMLP1318375-Swiss_Guards_March_-_trp._Bb.pdf', 'PMLP1318375-Swiss_Guards_March_-_Euphonium.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Category%3ASeipp%2C_J._H.",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1318375.json",
+            "finding": "Raw revision 4355270; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Horn (F)', 'Trumpet (B{{Flat', 'Euphonium']; file names=['PMLP1318375-Swiss_Guards_March_-_Score.pdf', 'PMLP1318375-Swiss_Guards_March_-_Horn_F.pdf', 'PMLP1318375-Swiss_Guards_March_-_trp._Bb.pdf', 'PMLP1318375-Swiss_Guards_March_-_Euphonium.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/1318375.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "IMSLP original work information says 3 violins, but the cached files section contains only an arrangement for horn, trumpet and euphonium, not playable materials for the original violin version; no human performance floor was established."
+        }
+      ]
+    },
+    {
+      "contextKey": "1370968-original",
+      "pageId": 1370968,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1370968.json",
+          "finding": "Inspected cached raw revision 4341090; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4341090; original instrumentation='4 cellos'; file descriptions=['Complete Parts', 'Complete Parts']; file names=['PMLP1370968-Stainlein,_Celloquartett.pdf', 'PMLP1370968-Steinlen_Sere_vc_parts.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://www.editionsilvertrust.com/string-trios.htm",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "4 movements: #Appel des montagnards. Larghetto (60) in D minor - cadenza ad lib. - #Sérénade. Andante cantabile (72) in D #Danse des paysans. Menuetto: Allegro scherzo (72) in D minor #Départ de montagnards. Larghetto (60) in D",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1370968.json",
+            "finding": "Raw revision 4341090; original instrumentation='4 cellos'; file descriptions=['Complete Parts', 'Complete Parts']; file names=['PMLP1370968-Stainlein,_Celloquartett.pdf', 'PMLP1370968-Steinlen_Sere_vc_parts.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/1370968.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "784896-original",
+      "pageId": 784896,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The 3-violin version is an alternate scoring alongside recorders, with a complete score but no separately identified violin parts or human performance floor.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/784896.json",
+          "finding": "Inspected cached raw revision 4621329; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4621329; original instrumentation='3 recorders / 3 violins'; file descriptions=['Complete score']; file names=['PMLP784896-TAFELMUSIK_OP.32.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Tafelmusik%2C_Op.32_%28Wehrli%2C_Werner%29",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 recorders / 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "9 movements: # Schalmei: Getragen # Carillon: Allegro giocoso (Kanon in der Oktave) # Menuett: Frisch, lebhaft (Kanon in der Quinte) # Gavotte: Lebhaft (Kanon in der Gegenbewegung) # Paduane: Andante (Kanon in der Oktave) # Polonaise: Gravitätisch (Kanon in der Oktave) # Siciliano: Zart bewegt # Men",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/784896.json",
+            "finding": "Raw revision 4621329; original instrumentation='3 recorders / 3 violins'; file descriptions=['Complete score']; file names=['PMLP784896-TAFELMUSIK_OP.32.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/784896.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The 3-violin version is an alternate scoring alongside recorders, with a complete score but no separately identified violin parts or human performance floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "507728-original",
+      "pageId": 507728,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/507728.json",
+          "finding": "Inspected cached raw revision 2176781; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2176781; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Incomplete Score']; file names=['PMLP507728-terzet(complete).pdf', 'PMLP507728-tertsetti.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Tertsetti_(Kuula,_Toivo)",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "1 movement",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/507728.json",
+            "finding": "Raw revision 2176781; original instrumentation='3 violins'; file descriptions=['Complete Score', 'Incomplete Score']; file names=['PMLP507728-terzet(complete).pdf', 'PMLP507728-tertsetti.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/507728.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "654336-original",
+      "pageId": 654336,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached IMSLP performance is explicitly synthesized/computer-generated; no independently played human performance floor is established.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/654336.json",
+          "finding": "Inspected cached raw revision 3166758; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 3166758; original instrumentation='4 cellos'; file descriptions=['Complete Score', 'Complete Parts', 'Complete Score', 'Complete Parts']; file names=['PMLP654336-C219_-_That_tearful_day_-_cello_quartet_-_SCORE.pdf', 'PMLP654336-C219_-_That_tearful_day_-_cello_quartet_-_PARTS.pdf', 'PMLP654336-C219B_-_THAT_TEARFUL_DAY_-_Full_Score.pdf', 'PMLP654336-C219B_-_THAT_TEARFUL_DAY_-_Parts.pdf']. Audio performers=['have@drop']; explicitly synthesized=True."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://www.editionsilvertrust.com/string-trios.htm",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "1",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/654336.json",
+            "finding": "Raw revision 3166758; original instrumentation='4 cellos'; file descriptions=['Complete Score', 'Complete Parts', 'Complete Score', 'Complete Parts']; file names=['PMLP654336-C219_-_That_tearful_day_-_cello_quartet_-_SCORE.pdf', 'PMLP654336-C219_-_That_tearful_day_-_cello_quartet_-_PARTS.pdf', 'PMLP654336-C219B_-_THAT_TEARFUL_DAY_-_Full_Score.pdf', 'PMLP654336-C219B_-_THAT_TEARFUL_DAY_-_Parts.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/654336.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached IMSLP performance is explicitly synthesized/computer-generated; no independently played human performance floor is established."
+        }
+      ]
+    },
+    {
+      "contextKey": "146745-original",
+      "pageId": 146745,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "An instructional violin method containing mixed solo, duet, trio and violin-cello material, rather than a standalone ensemble work.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/146745.json",
+          "finding": "Inspected cached raw revision 3698141; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 3698141; original instrumentation='violin; 2 violins; 3 violins; violin, cello'; file descriptions=['Complete Book', 'Complete Book']; file names=[\"PMLP146745-Crome_The_Fiddle_New_Model'd_c1735.pdf\", 'PMLP146745-fiddlenewmodeldo00crom.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/The_Fiddle_New_Model'd_or_a_Useful_Introduction_to_the_Violin_(Crome,_Robert)",
+          "finding": "An instructional violin method containing mixed solo, duet, trio and violin-cello material, rather than a standalone ensemble work."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1281072-original",
+      "pageId": 1281072,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "The composer explicitly describes this as a chromatic exercise for young violin students; exercise material is outside the repertoire scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1281072.json",
+          "finding": "Inspected cached raw revision 3827672; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 3827672; original instrumentation='3 violins'; file descriptions=['Complete Score']; file names=['PMLP1281072-The_little_chromatic_skeletons.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/The_Little_Chromatic_Skeletons_(Rubia,_Omar_G.)",
+          "finding": "The composer explicitly describes this as a chromatic exercise for young violin students; exercise material is outside the repertoire scope."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "839427-original",
+      "pageId": 839427,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The source identifies the original scoring as 3 bassoons, or 3 cellos or 3 basses, but only a full score is listed and cached audio is synthesized MIDI; no human performance floor is established for either eligible string version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/839427.json",
+          "finding": "Inspected cached raw revision 4584751; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4584751; original instrumentation='3 bassoons (or 3 cellos or 3 basses)'; file descriptions=['Complete Score', 'Complete Score', 'Complete Score']; file names=['PMLP839427-BANTO_WITCHES_ed.pdf', 'PMLP839427-Witches_Frolic_-_Full_Score.pdf', 'PMLP839427-Bantock_The_Witches_Frolic_arr._Piano.pdf']. Audio performers=['Synthesizer', 'Synthesizer']; explicitly synthesized=True."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/The_Witches_Frolic_%28Bantock%2C_Granville%29",
+          "finding": "Reused the supplied prior triage source and its recorded result; it did not establish a qualifying complete human performance. No repeat of that failed query."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 bassoons (or 3 cellos or 3 basses)",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/839427.json",
+            "finding": "Raw revision 4584751; original instrumentation='3 bassoons (or 3 cellos or 3 basses)'; file descriptions=['Complete Score', 'Complete Score', 'Complete Score']; file names=['PMLP839427-BANTO_WITCHES_ed.pdf', 'PMLP839427-Witches_Frolic_-_Full_Score.pdf', 'PMLP839427-Bantock_The_Witches_Frolic_arr._Piano.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/839427.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The source identifies the original scoring as 3 bassoons, or 3 cellos or 3 basses, but only a full score is listed and cached audio is synthesized MIDI; no human performance floor is established for either eligible string version."
+        }
+      ]
+    },
+    {
+      "contextKey": "991665-original",
+      "pageId": 991665,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/991665.json",
+          "finding": "Inspected cached raw revision 4695389; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4695389; original instrumentation='4 cellos'; file descriptions=['Cello 1', 'Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4']; file names=['PMLP991665-klengel_theme_and_variations_op.28.pdf', 'PMLP991665-THEME_AND_VARIATIONS-Score.pdf', 'PMLP991665-THEME_AND_VARIATIONS-Violoncello1.pdf', 'PMLP991665-THEME_AND_VARIATIONS-Violoncello2.pdf', 'PMLP991665-THEME_AND_VARIATIONS-Violoncello3.pdf', 'PMLP991665-THEME_AND_VARIATIONS-Violoncello4.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://www.editionsilvertrust.com/string-trios.htm",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 cellos",
+          "arranger": null,
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "whole work as titled; movement extent not stated in source",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/991665.json",
+            "finding": "Raw revision 4695389; original instrumentation='4 cellos'; file descriptions=['Cello 1', 'Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4']; file names=['PMLP991665-klengel_theme_and_variations_op.28.pdf', 'PMLP991665-THEME_AND_VARIATIONS-Score.pdf', 'PMLP991665-THEME_AND_VARIATIONS-Violoncello1.pdf', 'PMLP991665-THEME_AND_VARIATIONS-Violoncello2.pdf', 'PMLP991665-THEME_AND_VARIATIONS-Violoncello3.pdf', 'PMLP991665-THEME_AND_VARIATIONS-Violoncello4.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/991665.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "946638-original",
+      "pageId": 946638,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/946638.json",
+          "finding": "Inspected cached raw revision 2995381; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 2995381; original instrumentation='4 violins'; file descriptions=['Complete Score', 'Violin 1', 'Violin 2', 'Violin 3', 'Violin 4']; file names=['PMLP946638-Sydeman.TrebleQuartet.4Vlns.Score.pdf', 'PMLP946638-Sydeman.TrebleQuartet.4Vlns.Vln1.pdf', 'PMLP946638-Sydeman.TrebleQuartet.4Vlns.Vln2.pdf', 'PMLP946638-Sydeman.TrebleQuartet.4Vlns.Vln3.pdf', 'PMLP946638-Sydeman.TrebleQuartet.4Vlns.Vln4.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://www.editionsilvertrust.com/string-trios.htm",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 4 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "1 piece",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/946638.json",
+            "finding": "Raw revision 2995381; original instrumentation='4 violins'; file descriptions=['Complete Score', 'Violin 1', 'Violin 2', 'Violin 3', 'Violin 4']; file names=['PMLP946638-Sydeman.TrebleQuartet.4Vlns.Score.pdf', 'PMLP946638-Sydeman.TrebleQuartet.4Vlns.Vln1.pdf', 'PMLP946638-Sydeman.TrebleQuartet.4Vlns.Vln2.pdf', 'PMLP946638-Sydeman.TrebleQuartet.4Vlns.Vln3.pdf', 'PMLP946638-Sydeman.TrebleQuartet.4Vlns.Vln4.pdf']."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/946638.json",
+              "finding": "Audio listed, but explicitly synthesized/computer-generated; does not meet the human-performance floor."
+            }
+          ],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    },
+    {
+      "contextKey": "168487-original",
+      "pageId": 168487,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/168487.json",
+          "finding": "Inspected cached raw revision 4522779; read complete AUDIO, FILES and WORK INFO sections, including arrangement headings. Raw revision 4522779; original instrumentation='3 violins'; file descriptions=['Complete Parts']; file names=['PMLP168487-3408.Streben-Op033pts.pdf']. Audio performers=[]; explicitly synthesized=False."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json and data/chamber/id-registry.json",
+          "finding": "Checked canonical works and ID registry for exact composer/title/page identity; no exact current canonical duplicate identified."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Category%3AFor_3_violins",
+          "finding": "One bounded targeted primary-source search was run for this work/version. Returned pages did not establish an exact-version complete human performance; this is limited to that search and is not a claim that the work was never performed."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "Original scoring: 3 violins",
+          "arranger": null,
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "6 pieces: #Beethoven: Andante from Symphony No.7 #Streben: Sonatine in F #Schubert: Trockne Blumen #Streben: Sonatine in G #Streben: Kleine Fantasie Volksieder #Streben: Sonatine in D",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/168487.json",
+            "finding": "Raw revision 4522779; original instrumentation='3 violins'; file descriptions=['Complete Parts']; file names=['PMLP168487-3408.Streben-Op033pts.pdf']."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The cached source establishes a plausible same-instrument ensemble version and score or parts, but the bounded targeted search did not establish an exact-version human performance floor; held for that evidence gap."
+        }
+      ]
+    }
+  ]
+}

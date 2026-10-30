@@ -1,0 +1,1014 @@
+{
+ "entries": [
+  {
+   "key": "telemann-twv40-201-original-4violins",
+   "file": "data/chamber/same-instrument/research/pilot-violin.json",
+   "decision": "include",
+   "title": "Concerto for 4 Violins in G major, TWV 40:201 (unaccompanied)",
+   "composer": "Telemann, Georg Philipp",
+   "existingPublicId": 568,
+   "level": 2,
+   "confidence": "medium",
+   "floor": {
+    "url": "https://static.qobuz.com/goodies/64/000155246.pdf",
+    "locator": "PDF pp.2–3, tracks 1–4",
+    "finding": "Imaginarium Ensemble: Enrico Onofri, Alessandro Tampieri, Boris Begelman, Maria Cristina Vasi; complete four-movement recording.",
+    "checkedOn": "2026-10-27"
+   },
+   "score": {
+    "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+    "locator": "Scores and Parts: #17772; #17773–17776",
+    "finding": "Complete score and separate Violin 1–4 parts; this work occupies printed pp.1–8 in the collection.",
+    "checkedOn": "2026-10-27"
+   },
+   "reason": "Existing public violin work: cross-list exact four-violin original with id 568. Source level 2 retained for coordinator review."
+  },
+  {
+   "key": "telemann-twv40-202-original-4violins",
+   "file": "data/chamber/same-instrument/research/pilot-violin.json",
+   "decision": "include",
+   "title": "Concerto for 4 Violins in D major, TWV 40:202",
+   "composer": "Telemann, Georg Philipp",
+   "existingPublicId": null,
+   "level": 3,
+   "confidence": "medium",
+   "floor": {
+    "url": "https://static.qobuz.com/goodies/64/000155246.pdf",
+    "locator": "PDF pp.2–3, tracks 9–12",
+    "finding": "Enrico Onofri, Alessandro Tampieri, Boris Begelman, Maria Cristina Vasi; all movements present.",
+    "checkedOn": "2026-10-27"
+   },
+   "score": {
+    "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+    "locator": "Scores and Parts #17772; separate parts #17773–17776",
+    "finding": "Kompy edition of all four concertos; this concerto is printed pp.9–14; PDF pp.11–16.",
+    "checkedOn": "2026-10-27"
+   },
+   "reason": "Four independent violin parts, complete obtainable score and exact-version released human recording; separate complete concerto, not collection duplicate."
+  },
+  {
+   "key": "telemann-twv40-203-original-4violins",
+   "file": "data/chamber/same-instrument/research/pilot-violin.json",
+   "decision": "include",
+   "title": "Concerto for 4 Violins in C major, TWV 40:203",
+   "composer": "Telemann, Georg Philipp",
+   "existingPublicId": null,
+   "level": 3,
+   "confidence": "medium",
+   "floor": {
+    "url": "https://static.qobuz.com/goodies/64/000155246.pdf",
+    "locator": "PDF pp.2–3, tracks 19–22",
+    "finding": "Enrico Onofri, Alessandro Tampieri, Boris Begelman, Maria Cristina Vasi; all movements present.",
+    "checkedOn": "2026-10-27"
+   },
+   "score": {
+    "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+    "locator": "Scores and Parts #17772; separate parts #17773–17776",
+    "finding": "Kompy edition of all four concertos; this concerto is printed pp.15–22; PDF pp.17–24.",
+    "checkedOn": "2026-10-27"
+   },
+   "reason": "Four independent violin parts, complete obtainable score and exact-version released human recording; separate complete concerto, not collection duplicate."
+  },
+  {
+   "key": "telemann-twv40-204-original-4violins",
+   "file": "data/chamber/same-instrument/research/pilot-violin.json",
+   "decision": "hold",
+   "title": "Concerto for 4 Violins in A major, TWV 40:204",
+   "composer": "Telemann, Georg Philipp",
+   "existingPublicId": null,
+   "level": 3,
+   "confidence": "low",
+   "floor": {
+    "url": "https://sesies.com.br/camerata-sesi-apresenta-concerto-com-obras-de-telemann-biber-e-bach/",
+    "locator": "Programme for31 August2017",
+    "finding": "Professional institution’s concert programme explicitly lists Concerto para4violinos nº4,TWV40:204. This establishes exact original-version programming with published four-violin score; no individual player roster published.",
+    "checkedOn": "2026-10-28"
+   },
+   "score": {
+    "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+    "locator": "Scores and Parts #17772; parts #17773–17776",
+    "finding": "Complete score and four parts obtainable; movement starts printed pp.23,24,28,28.",
+    "checkedOn": "2026-10-27"
+   },
+   "reason": "Complete scoring, published score and professional programming established. Hold solely for attribution policy: dependable publisher and Telemann Society sources explicitly dispute Telemann authorship."
+  },
+  {
+   "key": "proto-quartet-basses-1964",
+   "file": "data/chamber/same-instrument/research/pilot-completion.json",
+   "decision": "hold",
+   "title": "Quartet for Basses",
+   "composer": "Proto, Frank",
+   "existingPublicId": null,
+   "level": 8,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/182.pdf",
+    "finding": "InternationalSocietyofBassists convention,5June2015,RunyanHall;EnFuego DoubleBassQuartet with four named performers and complete work listed."
+   },
+   "score": {
+    "url": "https://catalogue.philharmoniedeparis.fr/AloesSynchro/stockage/10-ans-avec-la-contrebasse.pdf",
+    "finding": "Independent institutional bibliography confirms Liben publication.2019publisherPDF specifies score025/parts026. No currently obtainable reliable vendor/library holding verified; remains held."
+   },
+   "reason": "Original four-bass work and actual quartet performance verified. Hold because independent evidence confirms publication but not a currently obtainable reliable score/parts route; corrupted storefront is not accepted."
+  },
+  {
+   "key": "telemann-concerto-4-violins-twv-40-202",
+   "file": "data/chamber/same-instrument/research/batch-extract-04.json",
+   "decision": "include",
+   "title": "Concerto for 4 Violins, TWV 40:202",
+   "composer": "Telemann, Georg Philipp",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://musicatmenlo.org/event/concert-program-iv-the-unfolding-of-music/",
+    "finding": "Music@Menlo’s official July 28, 2026 program names Arnaud Sussmann, Stella Chen, Aaron Boyd, and Jessica Lee for the exact TWV 40:202 work and offered a livestream."
+   },
+   "score": {
+    "url": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+    "finding": "Original work materials; no alternate instrument edition used for this candidate."
+   },
+   "reason": "Concerto for four violins; IMSLP lists the original manuscript parts, and Music@Menlo documented a 2026 performance by four named violinists with a livestream. Movement-count/version details need review."
+  },
+  {
+   "key": "zanella-fantasia-orientale-six-celli-original",
+   "file": "data/chamber/same-instrument/research/batch-extract-05-ready.json",
+   "decision": "include",
+   "title": "Fantasia orientale for 6 Cellos",
+   "composer": "Zanella, Amilcare",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.conservatoriorossini.it/en/calendari/conversazioni-zanella/",
+    "finding": "Event listing associates Fantasia orientale with Rossini Cellos Orchestra; verify completed exact-version performance."
+   },
+   "score": {
+    "url": "https://imslp.org/wiki/Fantasia_orientale_(Zanella,_Amilcare)",
+    "finding": "IMSLP lists a complete score and separate cello 1–6 parts."
+   },
+   "reason": "Original work for six cellos. IMSLP lists score and six parts; event page associates Fantasia orientale with Rossini Cellos Orchestra, requiring floor verification."
+  },
+  {
+   "key": "lauber-quartet-double-basses-1942",
+   "file": "data/chamber/same-instrument/research/batch-ready-15.json",
+   "decision": "include",
+   "title": "Quartet for Double Basses",
+   "composer": "Lauber, Joseph",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://hc.sk/en/o-slovenskej-hudbe/osobnost-detail/477-jan-krigovsky/diskografia",
+    "finding": "2018 BassBand album records the quartet; four named double bassists credited."
+   },
+   "score": {
+    "url": "https://stainer.co.uk/shop/ye0036/",
+    "finding": "Current Yorke Edition publisher listing sells score and parts."
+   },
+   "reason": "Yorke Edition offers the quartet score and parts; a label release and 2025 concert programme document complete performances by four named bassists."
+  },
+  {
+   "key": "hauta-aho-mini-bass-symphony",
+   "file": "data/chamber/same-instrument/research/batch-bass-01.json",
+   "decision": "include",
+   "title": "The Mini-Bass Symphony",
+   "composer": "Hauta-aho, Teppo",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.wells.cathedral.school/2016/12/28/the-flying-finn-in-frome/",
+    "finding": "Full four-movement symphony performed live by fifteen bassists at its UK premiere; score permits ten parts, some doubled in this performance."
+   },
+   "score": {
+    "url": "https://shop.doublebasshq.com/products/the-mini-bass-symphony-for-massed-double-bass-ensemble-in-10-parts",
+    "finding": "Publisher product page offers score and parts for ten-bass version; independent retailer lists an immediate-download score-and-parts edition."
+   },
+   "reason": "The publisher offers score and parts for a ten-bass version; Wells Cathedral School reports a full four-movement live performance."
+  },
+  {
+   "key": "francaix-aubade-twelve-cellos",
+   "file": "data/chamber/same-instrument/research/batch-modern12-01.json",
+   "decision": "include",
+   "title": "Aubade for 12 Cellos",
+   "composer": "Françaix, Jean",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.jpc.de/jpcng/classic/detail/-/art/Die-12-Cellisten-der-Berliner-Philharmoniker/hnum/4916678",
+    "finding": "Commercial Acanta CD by the Berlin twelve cellists contains all six movements."
+   },
+   "score": {
+    "url": "https://www.schott-music.com/fr/aubade-noc36979.html",
+    "finding": "Current Schott listing offers printed and PDF score."
+   },
+   "reason": "Schott sells the original twelve-cello score; the first-performing Berlin twelve cellists recorded the complete six-movement work on Acanta."
+  },
+  {
+   "key": "dean-twelve-angry-men",
+   "file": "data/chamber/same-instrument/research/batch-modern12-01.json",
+   "decision": "include",
+   "title": "Twelve Angry Men",
+   "composer": "Dean, Brett",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.boosey.com/audio-clip/Twelve-Angry-Men-1996/12039",
+    "finding": "Boosey provides excerpt from commercial BIS-CD-1696 performance by Sydney Symphony cellists; work page names full recording."
+   },
+   "score": {
+    "url": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+    "finding": "Bote & Bock published work, available worldwide from Boosey & Hawkes by rental."
+   },
+   "reason": "Boosey confirms the original scoring and worldwide rental availability; its Sydney Symphony label release documents the complete recorded work."
+  },
+  {
+   "key": "part-fratres-flexible-cello-ensemble",
+   "file": "data/chamber/same-instrument/research/batch-modern12-01.json",
+   "decision": "hold",
+   "title": "Fratres for 4, 8, 12 Cellos",
+   "composer": "Pärt, Arvo",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.arvopart.ee/en/arvo-part/work/401/",
+    "finding": "Arvo Pärt Centre identifies 12 Cellists of Berlin Philharmonic on ECM New Series 1275 Tabula Rasa."
+   },
+   "score": {
+    "url": "https://www.ficksmusic.com/products/part-fratres-for-4-8-12-cellos-universal",
+    "finding": "Full score and set of parts listed for sale."
+   },
+   "reason": "Existing catalogue entry covers an eight-cello version; verify whether its flexible 4/8/12-cello score already covers twelve before adding a duplicate."
+  },
+  {
+   "key": "gulda-serenade-twelve-cellos",
+   "file": "data/chamber/same-instrument/research/batch-modern12-01.json",
+   "decision": "hold",
+   "title": "Serenade for 12 Cellos",
+   "composer": "Gulda, Friedrich",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": null,
+   "score": null,
+   "reason": "Search did not locate a primary-source Gulda Serenade for twelve cellos; the known concerto is for cello and wind orchestra, so retain as unsupported lead."
+  },
+  {
+   "key": "haas-twelve-cellos-unspecified",
+   "file": "data/chamber/same-instrument/research/batch-modern12-01.json",
+   "decision": "hold",
+   "title": "Unverified twelve-cello work",
+   "composer": "Haas, Georg Friedrich",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": null,
+   "score": null,
+   "reason": "Primary-source search found Open Spaces for mixed strings and two percussionists, not twelve cellos; no specific eligible twelve-cello Haas score or recording verified."
+  },
+  {
+   "key": "garcia-swing-k-1000-double-bass-quartet",
+   "file": "data/chamber/same-instrument/research/batch-recorded-ensembles-01.json",
+   "decision": "hold",
+   "title": "Swing K-1000",
+   "composer": "García, Simón",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.lavozdegalicia.es/amp/noticia/ferrol/2009/10/02/musica-compositor-mugardes-sonara-tokio/00031254487262679965329.htm",
+    "finding": "Contemporary report announces The Bass Gang's performance of Swing K-1000 at Tokyo's Suntory Hall on 7 October 2009."
+   },
+   "score": {
+    "url": "https://shop.doublebasshq.com/products/k1000",
+    "finding": "Publisher page describes the quartet; retailer catalogue lists a quartet download but item-level complete score-and-parts availability was not confirmed."
+   },
+   "reason": "Original quartet premiere and performance are documented, but complete obtainable score and parts were not verified at an item-level retailer page."
+  },
+  {
+   "key": "verotta-adesso-four-cellos",
+   "file": "data/chamber/same-instrument/research/batch-originals-01-ready.json",
+   "decision": "hold",
+   "title": "Adesso for 4 Cellos, O.68",
+   "composer": "Verotta, Davide",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+    "finding": "Recording explicitly credits Noteperformer AI; no human performance floor. Credits: Noteperformer AI - Davide Verotta/Freya Cellista"
+   },
+   "score": {
+    "url": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+    "finding": "Complete score listed; not downloaded / handler blocked.",
+    "localPath": null
+   },
+   "reason": "Recording explicitly credits Noteperformer AI; no human performance floor."
+  },
+  {
+   "key": "nichifor-epos-no1-three-cellos",
+   "file": "data/chamber/same-instrument/research/batch-original-recovery-25.json",
+   "decision": "hold",
+   "title": "Epos No.1 for 3 Cellos",
+   "composer": "Nichifor, Serban",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+    "finding": "Exact original 3-cello work, 1974, about five minutes; complete composer-uploaded score and Complete Performance credited to Serban Nichifor (cello), by overlay in studio."
+   },
+   "score": {
+    "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/515093",
+    "finding": "Observed score index returned IMSLP Error HTML; helper stopped because no PDF or normal download link was exposed.",
+    "localPath": null
+   },
+   "reason": "Original human-performance floor is verified: composer explicitly credited on cello by studio overlay for Complete Performance. Score recovery remains blocked: helper --page observed audio 515094 and score 515093, but score handler 515093 returned an IMSLP Error HTML page without a normal PDF download link. Audio handler 515094 resolves to MP3, not a score. No mirror was guessed. Actual notation cannot be responsibly graded."
+  },
+  {
+   "key": "forino-les-prieres-op27",
+   "file": "data/chamber/same-instrument/research/batch-originals-01-ready.json",
+   "decision": "hold",
+   "title": "Les prières, Op.27",
+   "composer": "Forino, Luigi",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+    "finding": "Available notation is only Op.27 No.3; uploaded recording does not identify its number, so exact version match is unproved. Credits: Wojciech Fudala (cello I), Tomasz Daroch (cello II) Adam Krzeszowiec (Cello III), Krzysztof Karpeta (Cello IV)"
+   },
+   "score": {
+    "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+    "finding": "Verified PDF bytes for No.3 only; whole Op.27 collection not available in this upload. No notation grade assigned.",
+    "localPath": "data/cache/same-instrument-imslp/scores/originals-01/188724.pdf"
+   },
+   "reason": "Available notation is only Op.27 No.3; uploaded recording does not identify its number, so exact version match is unproved."
+  },
+  {
+   "key": "trapkus-quartet-four-violins",
+   "file": "data/chamber/same-instrument/research/batch-original-recovery-25.json",
+   "decision": "hold",
+   "title": "Quartet for 4 Violins",
+   "composer": "Trapkus, Paul",
+   "existingPublicId": null,
+   "level": 6,
+   "confidence": "medium",
+   "floor": {
+    "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+    "finding": "Four-violin original and notation verified. The exact Complete Recording credits Paul Trapkus under Recordings with Synthesized/MIDI (0), but neither raw upload metadata nor composer user/category information explicitly identifies this particular four-part performance as played/multitracked rather than rendered. A general violinist biography and differently scored all-instruments recording do not certify this file. Hold for explicit work-specific human-performance confirmation; do not contact composer without authorization."
+   },
+   "score": {
+    "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/843096",
+    "finding": "Ordinary helper recovered verified14-page composer PDF, four independently labelled violin staves. PDF1,3,6,10,14 inspected; high first-violin line and sustained rapid repeated figures; optional top notes in fourth-violin opening.",
+    "localPath": "data/cache/same-instrument-imslp/scores/recovery-25/1326417.pdf"
+   },
+   "reason": "Four-violin original and notation verified. The exact Complete Recording credits Paul Trapkus under Recordings with Synthesized/MIDI (0), but neither raw upload metadata nor composer user/category information explicitly identifies this particular four-part performance as played/multitracked rather than rendered. A general violinist biography and differently scored all-instruments recording do not certify this file. Hold for explicit work-specific human-performance confirmation; do not contact composer without authorization."
+  },
+  {
+   "key": "recording-109146",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "Concerto for 4 Violins in C major, TWV 40:203",
+   "composer": "Telemann, Georg Philipp",
+   "existingPublicId": 109146,
+   "level": 3,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "Compilation lists complete C-major concerto but credits only an external audio link and following; source link retrieved credits a different concerto movement. Complete performer attribution for exact C-major excerpt remains unresolved. Other inputs are partial movements or four-guitar arrangement."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109150",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "Passione amorosa for Four Double Basses",
+   "composer": "Bottesini, Giovanni",
+   "existingPublicId": 109150,
+   "level": 8,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "Inputs are individual movements, an ambiguous long concert compilation without verified exact arrangement/extent, or a short Seoul excerpt; no complete Klaus Trumpf four-bass arrangement established."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109151",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "Italian Concerto, BWV 971 (version for 4 Violins)",
+   "composer": "Bach, Johann Sebastian",
+   "existingPublicId": 109151,
+   "level": 6,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "No candidates supplied for exact Mihoko Kimura four-violin arrangement."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109157",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "Suite in D minor for 3 Violins, Op. 17",
+   "composer": "Hermann, Friedrich",
+   "existingPublicId": 109157,
+   "level": 7,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "Score video has no performer/source credits; human-performance and excluded-performer checks cannot be completed. Other inputs are different Hermann works."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109159",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "Blues, Espagnola und Rumba philharmonica",
+   "composer": "Blacher, Boris",
+   "existingPublicId": 109159,
+   "level": 8,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "Only candidate is unrelated Blacher orchestral work."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109162",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "Sonata for 3 Violins in F major, ULB Mus.Ms.334",
+   "composer": "Fux, Johann Joseph",
+   "existingPublicId": 109162,
+   "level": 3,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "No candidates supplied for exact three-violin sonata."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109167",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "Elegy for 5 Cellos, Op. 160",
+   "composer": "Lachner, Franz Paul",
+   "existingPublicId": 109167,
+   "level": 6,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "Only candidate is unrelated 6 Deutsche Tanzweisen."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109169",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "Suite Palais Meran",
+   "composer": "Ellenberger, Kurt",
+   "existingPublicId": 109169,
+   "level": 7,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "Candidates cover individual movements only, not the complete five-movement suite."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109170",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "A Tear in the Mirror",
+   "composer": "Derecskei, András",
+   "existingPublicId": 109170,
+   "level": 6,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "No candidates supplied."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109171",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "In Memoriam: George Finckel",
+   "composer": "Fine, Vivian",
+   "existingPublicId": 109171,
+   "level": 6,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "Candidates are different works; none matches In Memoriam: George Finckel."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109173",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "Four Pieces for 3 Violins, Op. 104",
+   "composer": "Hofmann, Richard",
+   "existingPublicId": 109173,
+   "level": 5,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "Inputs are individual movements; durations 2:47–4:37 cannot establish complete Four Pieces Op.104."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109174",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "Geistliches Wiegenlied (No.2 from 2 Gesänge, Op.91)",
+   "composer": "Brahms, Johannes",
+   "existingPublicId": 109174,
+   "level": 5,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "Only candidate is unrelated Sheil Worlds; no Steve Jones five-viola arrangement."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109176",
+   "file": "data/chamber/same-instrument/research/batch-recordings-01.json",
+   "decision": "include",
+   "title": "Arietta for 12 Double Basses",
+   "composer": "Hauta-aho, Teppo",
+   "existingPublicId": 109176,
+   "level": 4,
+   "confidence": "low",
+   "floor": {
+    "url": null,
+    "finding": "Only candidate is unrelated Alan Rea piece."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109179",
+   "file": "data/chamber/same-instrument/research/batch-recordings-02.json",
+   "decision": "include",
+   "title": "Kleine Suite",
+   "composer": "Schmitt, Aloys",
+   "existingPublicId": 109179,
+   "level": 4,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=LenH4DANXC4",
+    "finding": "Lamont upload explicitly contains only I. Andante espressivo. Alternate slideshow Kleine Suite has no performer attribution or instrumentation in full metadata; exact complete human trio performance cannot be supported. Remaining short school upload is not clearly complete."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109178",
+   "file": "data/chamber/same-instrument/research/batch-recordings-02.json",
+   "decision": "include",
+   "title": "Fortune",
+   "composer": "Rzewski, Frederic",
+   "existingPublicId": 109178,
+   "level": 6,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=FvsXcgjrRCA",
+    "finding": "All four supplied search hits are To the Earth for speaking percussionist, not Fortune for four violas. No exact-work candidate available in this bounded search."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109188",
+   "file": "data/chamber/same-instrument/research/batch-recordings-02.json",
+   "decision": "include",
+   "title": "Triolette, C296",
+   "composer": "De Bleser, Werner J.E.",
+   "existingPublicId": 109188,
+   "level": 6,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.youtube.com/results?search_query=Werner+De+Bleser+Triolette+C296",
+    "finding": "Supplied exact composer/title search returned no YouTube candidates; no supported human recording of Triolette C296 for three cellos."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109177",
+   "file": "data/chamber/same-instrument/research/batch-recordings-02.json",
+   "decision": "include",
+   "title": "Etude, Nocturne and Scherzo-Capriccioso, Op.48",
+   "composer": "Spiess, Ernst",
+   "existingPublicId": 109177,
+   "level": 5,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=zyenX53NF9g",
+    "finding": "Inputs contain only separate Nocturne and Etude movements. Remaining Scherzo upload is Op.50 with two violins and piano; no complete exact Op.48 three-violin work in one upload."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109190",
+   "file": "data/chamber/same-instrument/research/batch-recordings-03.json",
+   "decision": "include",
+   "title": "Excursions for Four Double Basses",
+   "composer": "Russell, Armand",
+   "existingPublicId": 109190,
+   "level": 5,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.youtube.com/results?search_query=Armand+Russell+Excursions+for+Four+Double+Basses",
+    "finding": "Supplied exact-work query returned only unrelated Beethoven, slap bass and gear videos; no plausible recording of Russell Excursions for four double basses."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109191",
+   "file": "data/chamber/same-instrument/research/batch-recordings-03.json",
+   "decision": "include",
+   "title": "The Bass Affair for Four Double Basses",
+   "composer": "Russell, Armand",
+   "existingPublicId": 109191,
+   "level": 5,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.youtube.com/results?search_query=Armand+Russell+The+Bass+Affair+for+Four+Double+Basses",
+    "finding": "Supplied exact composer/title query returned no YouTube candidates for The Bass Affair for four double basses."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109192",
+   "file": "data/chamber/same-instrument/research/batch-recordings-03.json",
+   "decision": "include",
+   "title": "True Grit for Double Bass Quartet",
+   "composer": "Osborne, Tony",
+   "existingPublicId": 109192,
+   "level": 5,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.youtube.com/results?search_query=Tony+Osborne+True+Grit+for+Double+Bass+Quartet",
+    "finding": "Only supplied True Grit is Obsydeus Zero to Hero, unrelated to Tony Osborne double-bass quartet."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109193",
+   "file": "data/chamber/same-instrument/research/batch-recordings-03.json",
+   "decision": "include",
+   "title": "Dreamtime for Double Bass Quartet",
+   "composer": "Osborne, Tony",
+   "existingPublicId": 109193,
+   "level": 4,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.youtube.com/results?search_query=Tony+Osborne+Dreamtime+for+Double+Bass+Quartet",
+    "finding": "Supplied candidates are The Pink Elephant, Canzonetta, Nightscape and The Night Before Christmas; none is Osborne Dreamtime for double-bass quartet."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109194",
+   "file": "data/chamber/same-instrument/research/batch-recordings-03.json",
+   "decision": "include",
+   "title": "Three Preludes for 4 Cellos",
+   "composer": "Gershwin, George",
+   "existingPublicId": 109194,
+   "level": 7,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=v-aqsmsckNI",
+    "finding": "Kurt Kaufman uploads explicitly contain separate Prelude 1, Prelude 3 and Prelude 2; none contains the complete Three Preludes set. Exact arranger is confirmed by titles, but no whole-work upload is supplied; separate movements are not approved as a full-work recording."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "saariaho-neiges-eight-cellos",
+   "file": "data/chamber/same-instrument/research/modern-28.json",
+   "decision": "include",
+   "title": "Neiges (version for 8 cellos)",
+   "composer": "Saariaho, Kaija",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": null,
+   "floor": {
+    "url": "https://ressources.ircam.fr/en/work/neiges",
+    "finding": "IRCAM records creation on 11 May 1998 in Beauvais and interpreters Octuor de violoncelles de Beauvais; human performance of eight-cello version. Full-work extent follows publisher’s 15-minute work listing."
+   },
+   "score": {
+    "url": "https://www.wisemusicclassical.com/work/7354/Neiges--Kaija-Saariaho/",
+    "finding": "Publisher product record identifies the 1998 work for 8 cellos (alternative 8 double basses), duration 15 minutes, and provides score-purchase options / digital-score-library access. Complete published score is available commercially; no public perusal notation pages were exposed on this publisher page.",
+    "localPaths": []
+   },
+   "reason": "Wise Music identifies this 1998 version for eight cellos (or eight double basses), 15 minutes, with score access; IRCAM records a human first performance by the Octuor de violoncelles de Beauvais. Keep distinct from the twelve-cello version."
+  },
+  {
+   "key": "saariaho-neiges-twelve-cellos",
+   "file": "data/chamber/same-instrument/research/modern-28.json",
+   "decision": "include",
+   "title": "Neiges (version for 12 cellists)",
+   "composer": "Saariaho, Kaija",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": null,
+   "floor": {
+    "url": "https://www.wisemusicclassical.com/news/3997/CD-release-of-works-by-Kaija-Saariaho/",
+    "finding": "Wise Music’s label release notice identifies the BIS album, says this is the first recording of Neiges in its twelve-cello version, performed by the cellists of the Oslo Philharmonic. Full work/version and commercial recording are explicit."
+   },
+   "score": {
+    "url": "https://www.wisemusicclassical.com/work/14541/Neiges-for-twelve-cellists--Kaija-Saariaho/",
+    "finding": "Publisher product record identifies the distinct 12-cellist version, 15 minutes, sale/hire. The linked public Issuu document is titled Neiges (for twelve cellists), is ungated with 70 pages, but its static reader did not expose notation page images; no score pages cached.",
+    "localPaths": []
+   },
+   "reason": "Wise Music identifies a distinct twelve-cello version and links it to the eight-cello version. The label/publisher documents the released twelve-cellist recording by Oslo Philharmonic cellists on BIS-2402; retain it as its own exact scoring/version."
+  },
+  {
+   "key": "reich-cello-counterpoint-cello-octet",
+   "file": "data/chamber/same-instrument/research/modern-28.json",
+   "decision": "include",
+   "title": "Cello Counterpoint (version for cello octet)",
+   "composer": "Reich, Steve",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": null,
+   "floor": {
+    "url": "https://www.boosey.com/pages/cr/calendar/perf_results?composerid=2781&pg=2",
+    "finding": "Publisher performance calendar explicitly lists Cello Counterpoint [ensemble version], with Cellists from Graz, and separately lists the work with Grand Valley State University / Pablo Mahave-Veglia (2016). Exact version and real performance are documented."
+   },
+   "score": {
+    "url": "https://www.boosey.com/cr/music/Steve-Reich-Cello-Counterpoint-ensemble-version/100112",
+    "finding": "Boosey identifies the 2003, 11-minute version for cello octet and score sale/rental. Public score viewer page https://www.boosey.com/cr/perusals/score?id=34748 explicitly requires login to view score; stopped at that genuine access gate. No local preview pages cached.",
+    "localPaths": []
+   },
+   "reason": "The composer distinguishes an ensemble/cello-octet version; Boosey sells the Cello Octet material and its official performance calendar documents exact-version performances by cellists from Graz and Grand Valley State University. This closes the human-performance floor for the ensemble version, not the separate solo-with-tape version."
+  },
+  {
+   "key": "reich-violin-phase-four-violins",
+   "file": "data/chamber/same-instrument/research/modern-28.json",
+   "decision": "hold",
+   "title": "Violin Phase (four-violin version)",
+   "composer": "Reich, Steve",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": null,
+   "floor": {
+    "url": "https://ecmrecords.com/product/steve-reich-the-ecm-recordings-steve-reich-ensemble/",
+    "finding": "ECM lists Violin Phase (15:09), but performer roster names Shem Guibbory alone; not used as evidence for the four-live-violin version."
+   },
+   "score": null,
+   "reason": "Composer and Universal Edition confirm the four-violin version and score availability, but inspected primary performance/release evidence is for the one-live-violin-with-tape version (Shem Guibbory / Paul Zukofsky), not four independent live violinists. Exact floor gap: a documented complete human performance or release of the four-live-violin version."
+  },
+  {
+   "key": "berio-korot-eight-cellos",
+   "file": "data/chamber/same-instrument/research/modern-28.json",
+   "decision": "include",
+   "title": "Korót",
+   "composer": "Berio, Luciano",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": null,
+   "floor": {
+    "url": null,
+    "finding": "A human performance/release of the exact version is unresolved."
+   },
+   "score": {
+    "url": "https://www.yumpu.com/it/document/view/3854619/luciano-berio-universal-edition",
+    "finding": "Universal Edition Berio catalogue (publisher-produced catalog, publicly viewable via Yumpu rehost) identifies Korót (1998) for 8 cellos and states score and parts on hire, with score UE31339 for sale (special order). No actual score sample pages cached; catalogue material confirms a complete commercial score source.",
+    "localPaths": []
+   },
+   "reason": "IRCAM records the exact eight-cello work and human first performance; Universal Edition’s publisher-produced Berio catalogue identifies the UE31339 score and parts on hire with the score for sale special order. Commercial complete score source is now verified; retain as a fact-review lead."
+  },
+  {
+   "key": "jacob-cello-octet",
+   "file": "data/chamber/same-instrument/research/modern-28.json",
+   "decision": "hold",
+   "title": "Cello Octet",
+   "composer": "Jacob, Gordon",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": null,
+   "floor": {
+    "url": "https://www.gordonjacob.net/browse_works.html",
+    "finding": "Composer’s official works catalogue lists Cello Octet, but gives no inspected performance/release evidence."
+   },
+   "score": null,
+   "reason": "The composer catalogue and current SJ Music product catalogue establish the title and eight-cello score sale. Remaining gap: primary source documenting an actual complete performance/release of this exact octet. A future-dated event listing was not treated as proof of performance."
+  },
+  {
+   "key": "denisov-hymne-eight-cellos",
+   "file": "data/chamber/same-instrument/research/modern-28.json",
+   "decision": "hold",
+   "title": "Hymne",
+   "composer": "Denisov, Edison",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": null,
+   "floor": {
+    "url": null,
+    "finding": "A human performance/release of the exact version is unresolved."
+   },
+   "score": null,
+   "reason": "A retailer advertises a Chant du Monde score and parts, but the primary publisher page and a primary-source exact-version performance/release were not found. Remaining gaps: primary score availability evidence and verifiable human performance floor."
+  },
+  {
+   "key": "gubaidulina-fata-morgana-eight-cellos",
+   "file": "data/chamber/same-instrument/research/modern-28.json",
+   "decision": "include",
+   "title": "Fata Morgana: Die tanzende Sonne (The Dancing Sun)",
+   "composer": "Gubaidulina, Sofia",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": null,
+   "floor": {
+    "url": "https://classical.music.apple.com/us/album/691406920",
+    "finding": "Solo Musica release “4 for Peace” (2013) lists Gubaidulina’s Fata Morgana / Die tanzende Sonne, 13:40, performed by Julius Berger, Hyun-Jung Berger and Ensemble CelloPassionato."
+   },
+   "score": {
+    "url": "https://www.boosey.com/cr/music/Sofia-Gubaidulina-Mirage-The-Dancing-Sun/104479",
+    "finding": "Boosey publisher record identifies Mirage: The Dancing Sun / Fata Morgana: Die tanzende Sonne (2002), for 8 cellos, duration 12 minutes, and marks the score for sale. Page provides commercial complete-score availability but no public score preview/sample image; no local notation pages cached.",
+    "localPaths": []
+   },
+   "reason": "Boosey & Hawkes confirms this 2002 work for eight cellos, 12 minutes, publisher Sikorski, and first performance by Octuor de Violoncelles de Beauvais. Solo Musica’s released album identifies the exact work and cellists Julius Berger, Hyun-Jung Berger and Ensemble CelloPassionato."
+  },
+  {
+   "key": "bussotti-poesies-a-maldoror-eight-cellos",
+   "file": "data/chamber/same-instrument/research/modern-28.json",
+   "decision": "hold",
+   "title": "Poésies à Maldoror",
+   "composer": "Bussotti, Sylvano",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": null,
+   "floor": {
+    "url": null,
+    "finding": "A human performance/release of the exact version is unresolved."
+   },
+   "score": null,
+   "reason": "IRCAM identifies the 1999–2000 work for eight cellos, b.o.b. publisher, and a 13 January 2000 Amsterdam creation entry. Primary publisher product/score availability was not located, and creation-date records conflict with other catalogue data. Remaining gaps: direct score source and exact event/extent clarification."
+  },
+  {
+   "key": "gould-cellos-eight-cellos",
+   "file": "data/chamber/same-instrument/research/modern-28.json",
+   "decision": "include",
+   "title": "Cellos",
+   "composer": "Gould, Morton",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": null,
+   "floor": {
+    "url": "https://themusicalheritagesociety.com/blogs/exploring-music/review-morton-gould-chamber-music",
+    "finding": "MHS recording page lists all four movements and identifies an octet of New York Violoncello Society members; credits include Morton Gould, conductor. Composer catalogue lists duration and exact eight-cello scoring."
+   },
+   "score": {
+    "url": "https://www.jwpepper.com/cellos-for-8-cellos-6091367/p",
+    "finding": "Retailer product record identifies Morton Gould, Cellos for 8 Cellos, published by G. Schirmer, copyright 1984/91, and sells the complete 16-minute cello-ensemble score. A separate Forsyth product record gives 128 pages and ISBN 9780793511228. Neither page exposes a public score preview; no local notation pages cached.",
+    "localPaths": []
+   },
+   "reason": "Library of Congress identifies the 1984 score and parts in Gould’s archive; the composer’s official catalog says eight cellos (or multiples), 16 minutes. Musical Heritage Society’s recording page identifies the complete four-movement work and an octet of New York Violoncello Society members, with Morton Gould conducting."
+  },
+  {
+   "key": "gordon-eight-eight-cellos",
+   "file": "data/chamber/same-instrument/research/modern-28.json",
+   "decision": "include",
+   "title": "8",
+   "composer": "Gordon, Michael",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": null,
+   "floor": {
+    "url": "https://michaelgordonmusic.com/discography/8/",
+    "finding": "Composer discography identifies Cello Octet Amsterdam, label Cantaloupe Music, release date 2021, and exact work 8 (2018), 53 minutes, eight cellos."
+   },
+   "score": {
+    "url": "https://michaelgordonmusic.com/music/8/",
+    "finding": "Composer’s official work page gives 8 cellos and provides a score preview/rental link to the Ricordi Issuu reader. Its public Issuu record is ungated and identifies “8” / “or eight cellos” (208 pages), but the static reader did not expose notation page images; no sample pages cached.",
+    "localPaths": []
+   },
+   "reason": "Composer’s official catalogue identifies the work for eight cellos, 53 minutes, its Cello Octet Amsterdam world premiere at Cello Biennale Amsterdam (20 October 2018), rental and score preview. The composer’s discography identifies a 2021 Cantaloupe Music release by Cello Octet Amsterdam; official composer page exposes a full-program audio file."
+  },
+  {
+   "key": "mercadante-la-poesia-four-cellos",
+   "file": "data/chamber/same-instrument/research/originals-ready-32.json",
+   "decision": "hold",
+   "title": "La Poesia for 4 cellos",
+   "composer": "Mercadante, Saverio",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.universalmusic.it/musica-classica/album/mercadante-decimini-la-poesia_31548240659/",
+    "performer": "The Philharmonia Soloists / Pietro Spada; cello credits David Jones, Rhydian Shazson, Michael Hurwitz and Jocelyn Gale",
+    "finding": "Primary label page explicitly identifies the exact four-cello track and all four cellists; 6:24."
+   },
+   "score": null,
+   "reason": "Exact four-cello human recording is documented by the label, and IMSLP lists a complete score-and-parts edition. The observed file index did not yield a normal PDF download link, so the notation could not be inspected or cached; hold import pending accessible score evidence."
+  },
+  {
+   "key": "mainardi-notturno-four-cellos",
+   "file": "data/chamber/same-instrument/research/originals-ready-32.json",
+   "decision": "hold",
+   "title": "Notturno per quattro Violoncello",
+   "composer": "Mainardi, Enrico",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://divineartrecords.com/recording/a-celebration-of-cellos/",
+    "performer": "Cello Spice: Alison Lawrence, Gillian Copp, John Davidson and Mark Bailey",
+    "finding": "Primary label release lists original works for three or four cellos and track 8 Mainardi Notturno, 7:27; the IMSLP page independently identifies this version for four cellos."
+   },
+   "score": null,
+   "reason": "Divine Art release documents the named Cello Spice quartet and track 8 Notturno; IMSLP lists a complete-parts file for four cellos. The observed file index did not yield a normal PDF download link, so parts and exact published notation could not be inspected or cached; hold import pending accessible notation."
+  },
+  {
+   "key": "strauss-pizzicato-polka-seymour-six-cellos",
+   "file": "data/chamber/same-instrument/research/arrangements-ready-34-normalized.json",
+   "decision": "include",
+   "title": "Pizzicato-Polka (for 6 Cellos)",
+   "composer": "Strauss, Johann II and Josef",
+   "existingPublicId": null,
+   "level": null,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.qobuz.com/fi-en/album/capucelli-gautier-capucon-capucelli/k7cqjzezjkedb",
+    "finding": "Released Warner Classics/Erato track “Pizzicato-Polka (Transcr. Seymour for Cello Ensemble)” (2:21) credits Johann Strauss II and Josef Strauss as composers, Gwyn Seymour as transcriber, and Gautier Capuçon with Capucelli."
+   },
+   "score": {
+    "url": "https://imslp.org/wiki/Pizzicato-Polka_(Strauss_Jr.,_Johann)",
+    "finding": "IMSLP “For 6 Cellos (Seymour)” block lists Complete Score and Parts; cached PDF data/cache/same-instrument-imslp/scores/451336.pdf (402727 bytes; SHA-256 06599993fa86e1de142f0447920f3347b8200d49ff4c56e043382c18e911c794); source file URL https://s9.imslp.org/files/imglnks/usimg/6/6f/IMSLP451336-PMLP407244-Polka_Merge.pdf."
+   },
+   "reason": "The IMSLP score group and Warner Classics/Erato track identify Gwyn Seymour’s exact six-cello transcription and a released human performance."
+  },
+  {
+   "key": "recording-109209-dicker-concert2024",
+   "file": "data/chamber/same-instrument/research/batch-recordings-37.json",
+   "decision": "include",
+   "title": "Prelude No.22, BWV 867 (for 4 Cellos)",
+   "composer": "Bach, Johann Sebastian",
+   "existingPublicId": 109209,
+   "level": 4,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=1122s",
+    "finding": "Primaryarrangerpageconnectsexact4cellopreludetowholeconcertchapter."
+   },
+   "score": null,
+   "reason": null
+  },
+  {
+   "key": "recording-109210-dicker-concert2024",
+   "file": "data/chamber/same-instrument/research/batch-recordings-37.json",
+   "decision": "include",
+   "title": "Prelude in F major, BWV 928 (for 4 Cellos)",
+   "composer": "Bach, Johann Sebastian",
+   "existingPublicId": 109210,
+   "level": 5,
+   "confidence": "low",
+   "floor": {
+    "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=832s",
+    "finding": "Primaryarrangerpageconnectsexact4cellopreludetowholeconcertchapter."
+   },
+   "score": null,
+   "reason": null
+  }
+ ]
+}

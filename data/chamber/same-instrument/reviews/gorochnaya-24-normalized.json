@@ -1,0 +1,154 @@
+{
+ "batch": "gorochnaya-24",
+ "status": "complete",
+ "entries": [
+  {
+   "key": "gorochnaya-quartetto-viola-vg80",
+   "status": "approved",
+   "factsVerified": true,
+   "findings": [
+    {
+     "url": "https://imslp.org/wiki/Quartetto_Viola,_VG80_(Gorochnaya,_Vasilisa)",
+     "finding": "Original four-viola work VG80, D minor, four movements, composed 2014–16, about 18 minutes. Complete score and separate parts listed. First-performance date conflicts with performer metadata."
+    },
+    {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/775024",
+     "finding": "Actual 26-page PDF inspected at cover and PDF pages 2,4,7,9,13,15,18,22,24,26: four labelled viola lines; four-movement original, with alto/treble clef changes and substantial independent material. Cover credits Gorochnaya and Kuzmin, creation 2016/publication 2022."
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=eGOfpnCoBr8",
+     "finding": "Complete cached video metadata from performer channel inspected: original D-minor four-viola work, four movements listed, named viola quartet, duration 1079 seconds, playable_in_embed true; premiere described as 28 March 2016."
+    },
+    {
+     "url": "https://imslp.org/wiki/Category:Gorochnaya,_Vasilisa",
+     "finding": "Independent composer category gives birth 28 March 1989 and Russian/Modern categories."
+    },
+    {
+     "url": "https://rostcons.ru/personpages/gorochnaya.html",
+     "finding": "Rostov Conservatory biography independently confirms full composer identity, birth date/place in Rostov-on-Don, composition studies, neobaroque/neoclassical work and recording of the D-minor viola quartet."
+    }
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "viola 1",
+    "confidence": "medium",
+    "mode": "minor",
+    "pace": "lively",
+    "character": [
+     "dramatic",
+     "lyrical",
+     "dance"
+    ],
+    "basis": "Independent notation-based advisory grade. Representative notation inspected across all four movements, not merely the opening: Andante quarter=70 uses exposed upper first-viola cantilena, small rapid ornaments and chromatic counterpoint above moving/pizzicato lower parts (PDF2,4); Allegro quarter=130 has repeated off-beat entries, scalar/ornamental sixteenths, shifting alto/treble reading and sustained independent rhythmic layers (PDF7,9,13,15); Lento quarter=55 retains exposed melodic ornament and contrapuntal tuning rather than just easy block chords (PDF18); Vivo quarter=130 has extended lower-part sixteenths, first-viola chromatic and scalar runs, changing bow articulation, ricochet-marked triplet figures and upper-register climaxes (PDF22,24,26). Viola 1 is the principal technical ceiling, although viola 4 has considerable motor stamina and inner parts are real chamber partners. This cumulative demand supports pre-diploma/ABRSM ARSM–RCM10 equivalent rather than an intermediate quartet; short flourish notation alone does not justify diploma level. As calibration, Mozart K423/424 duos at 6 provide a broadly comparable advanced independent-string player band, while Prokofiev Op56 at 8 represents substantially greater sustained professional complexity. Tonal idiom and a generally shared pulse make the coordination practical within the player band: no automatic ensemble uplift. Whole-work primary context and substantial multi-movement notation support medium confidence with approximately one-level uncertainty; not exhaustive certification."
+   },
+   "approvedWorkFields": [
+    "composer",
+    "title",
+    "instruments",
+    "players",
+    "formation",
+    "form",
+    "year",
+    "minutes",
+    "imslpPage",
+    "level",
+    "hardestPart",
+    "mode",
+    "pace",
+    "character"
+   ],
+   "approvedDetailFields": [
+    "composed",
+    "published",
+    "kind",
+    "movements",
+    "key",
+    "composerBorn",
+    "composerNationality",
+    "composerPeriod"
+   ],
+   "detailSources": {
+    "composed": "https://imslp.org/wiki/Quartetto_Viola,_VG80_(Gorochnaya,_Vasilisa)",
+    "published": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/775024",
+    "kind": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/775024",
+    "movements": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/775024",
+    "key": "https://imslp.org/wiki/Quartetto_Viola,_VG80_(Gorochnaya,_Vasilisa)",
+    "composerBorn": "https://rostcons.ru/personpages/gorochnaya.html",
+    "composerNationality": "https://imslp.org/wiki/Category:Gorochnaya,_Vasilisa",
+    "composerPeriod": "https://imslp.org/wiki/Category:Gorochnaya,_Vasilisa"
+   },
+   "recordingDecisions": [
+    {
+     "id": "eGOfpnCoBr8",
+     "url": "https://www.youtube.com/watch?v=eGOfpnCoBr8",
+     "decision": "approved",
+     "role": "primary",
+     "title": "V. Gorochnaya. Viola Quartetto В. Горочная. Альтовый квартет, исп. Совершенный Каданс",
+     "channel": "Совершенный Каданс",
+     "durationSeconds": 1079,
+     "performers": [
+      "Bogdan Solomakhin",
+      "Olga Vasilchenko",
+      "Anna Kuznetzova",
+      "Olga Shramko"
+     ],
+     "exactVersion": true,
+     "wholeWork": true,
+     "humanPerformance": true,
+     "embedVerified": true,
+     "excludedPerformersChecked": true,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": true,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     },
+     "metadataPath": "data/cache/same-instrument-recordings/gorochnaya-vg80.json",
+     "checkEvidence": {
+      "exactVersion": "Work page links this exact video; performer description explicitly identifies original quartet for four violas in D minor, not an arrangement.",
+      "wholeWork": "Description lists all four movements; 17:59 duration agrees with approximately 18-minute complete work. No excerpt indication.",
+      "humanPerformance": "Performer ensemble channel credits named humans individually on viola I–IV and identifies premiere concert in Rostov-on-Don.",
+      "embedVerified": "Cached full video metadata playable_in_embed=true; no claim of independently auditioning all 18 minutes.",
+      "excludedPerformersChecked": "Full title, channel/uploader, complete bilingual description and available artist/creator metadata scanned for Ray Chen, Sarah Chang, Joshua Bell and Stefan Jackiw; no matches. Named four players exclude those performers."
+     },
+     "reason": "Exact IMSLP-linked complete premiere: four named violists, all four movements, 17:59; full bilingual credits clear; embed supported."
+    }
+   ],
+   "limitations": [
+    "Precise firstPerformance omitted from approvedDetailFields because 27/28 March 2016 sources conflict.",
+    "YouTube page could not be fetched by web tool; recording decisions rely on supplied full extracted video metadata and exact IMSLP cross-link.",
+    "Recording metadata verified; full audio not independently auditioned."
+   ],
+   "localNotationPaths": [
+    "data/cache/same-instrument-imslp/scores/gorochnaya-vg80.pdf"
+   ],
+   "verifiedFacts": {
+    "composer": "Gorochnaya, Vasilisa",
+    "title": "Quartetto Viola",
+    "catalogue": "VG80",
+    "instruments": {
+     "viola": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "2014–16",
+    "minutes": 18,
+    "imslpPage": "Quartetto Viola, VG80 (Gorochnaya, Vasilisa)",
+    "version": "original complete work for four violas",
+    "movements": [
+     "Andante",
+     "Allegro",
+     "Lento",
+     "Vivo"
+    ],
+    "published": "2022 edition inspected; IMSLP first-publication field gives 2021–22",
+    "composerBorn": "1989-03-28",
+    "composerNationality": "Russian",
+    "composerPeriod": "Modern",
+    "firstPerformance": "Precise date withheld: IMSLP gives 27 March 2016; performer premiere description gives 28 March 2016, Rostov-on-Don."
+   }
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+  "batch": "batch-grades-09",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "avni-violas-terzet-original",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "data/cache/same-instrument-imslp/scores/verify-06/avni-violas-terzet-score-parts.pdf",
+          "finding": "Inspected complete full score, PDF pp. 2\u201312, with first-part cross-check p. 17. Allegro moderato dotted-quarter 116\u2013120, recurring compound-meter figures, changes including 9/8, 15/8, 4/4 and 6/4, chromatic upper-register first-viola lines, double stops and tremolo accompaniment."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "viola 1",
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [
+          "dance",
+          "lyrical",
+          "playful"
+        ],
+        "confidence": "high",
+        "basis": "First viola carries the sustained upper-register, chromatic melodic and running work, including treble-clef passages and frequent shifts. The whole score requires secure advanced bow articulation and rapid reading of changing accidentals. Rhythmic transitions and exposed three-viola tuning require pre-diploma ensemble control; level 6 overall, with no separate ensemble uplift. This is a whole-work assessment, not a grade inferred from a single high passage."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "zanella-fantasia-orientale-six-celli-original",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "data/cache/same-instrument-imslp/scores/verify-06/zanella-fantasia-orientale-score.pdf",
+          "finding": "Inspected all 17 PDF score pages (the supplied file is 17 pages, rather than eight). Andante espressivo frames substantial Presto sections; first cello has chromatic ornamentation and rapid passagework, with upper harmonic writing; several other parts also change clefs and take active runs."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "dramatic",
+          "playful"
+        ],
+        "confidence": "medium",
+        "basis": "First cello leads the recurring Presto figures, fast chromatic runs and wide-register transitions; cello 2 sometimes shares the demanding passagework. Harmonic notation is not treated as stopped notes at the printed height. Secure advanced cello technique, rapid clef reading and control of exposed soft sonorities support level 6 overall. The six-part balance, coordinated fast articulation and tempo returns fit within that level; no additional uplift. Mode is left unsure because the work changes tonal regions and uses prominent chromatic inflections."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "lachner-op160-original-5cellos",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://ks15.imslp.org/files/imglnks/usimg/e/e2/IMSLP471593-PMLP739655-FPLachner_Elegie,_Op.160_parts.pdf",
+          "finding": "Inspected all five parts across the 31-page PDF, including all three movements: Andante, Menuetto Allegretto and Allegro non troppo ma agitato. First cello has the most continuously exposed upper melodic writing and repeated register changes; inner parts contain substantial melodic exchanges, rapid ornamental runs, double stops and tremolo."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "mode": "minor",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dark",
+          "dramatic",
+          "dance"
+        ],
+        "confidence": "medium",
+        "basis": "The first part asks for advanced lyrical playing, secure shifts, chromatic intonation and fluency across bass, tenor and historical treble-clef notation. The latter is not assumed to sound literally at modern treble-clef height. The other parts confirm that this is a genuine five-way chamber texture, with active overlapping phrases and sustained articulated accompaniment in the long finale. Notes approximately level 5, raised one level for maintaining five-cello balance, shared phrasing and exposed intonation across the complete three-movement work. Moderate describes the overall span, despite the more animated finale."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    }
+  ]
+}

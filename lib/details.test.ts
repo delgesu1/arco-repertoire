@@ -37,4 +37,25 @@ describe("program text", () => {
       "Felix Mendelssohn (1809–1847)\n6 Pieces\n1. Polonaise\n2. Guitarre",
     );
   });
+
+  it("credits the arranger after the title, with or without movement details", () => {
+    const arranged = {
+      ...base,
+      composerName: "Giovanni Bottesini",
+      dates: "1821–1889",
+      title: "Passione amorosa (for four double basses)",
+      arranger: "Klaus Trumpf",
+    };
+    const expected = "Giovanni Bottesini (1821–1889)\nPassione amorosa (for four double basses)\narr. Klaus Trumpf";
+    expect(programText(arranged, null)).toBe(expected);
+    expect(programText(arranged, { movements: ["Allegro", "Andante"], kind: "movements" })).toBe(
+      `${expected}\nI. Allegro\nII. Andante`,
+    );
+  });
+
+  it("keeps the arranger on a violin version's program text", () => {
+    expect(programText({ ...concerto, arranger: "Fritz Kreisler" }, { movements: ["Allegro"] })).toBe(
+      "Felix Mendelssohn (1809–1847)\nViolin Concerto in E minor, Op. 64\narr. Fritz Kreisler\nI. Allegro",
+    );
+  });
 });

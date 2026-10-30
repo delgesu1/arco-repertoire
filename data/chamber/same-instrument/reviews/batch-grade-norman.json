@@ -1,0 +1,60 @@
+{
+  "batch": "batch-grade-norman",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "norman-gran-turismo-original-8violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+          "finding": "Publisher identifies original eight-violin work, 2004, duration eight minutes, premiere 1 April 2004 at USC by students of Robert Lipsett, its dedicatees. Digital score and parts are purchasable. Composer programme note characterizes sustained motoric virtuosity and speed."
+        },
+        {
+          "url": "https://www.schott-music.com/en/gran-turismo-no251066.html",
+          "finding": "Schott ED 31087 is explicitly for eight virtuoso violinists; score-and-parts edition, 102 pages. Print stock currently unavailable, while the distributor offers digital materials. Publisher lists multiple actual performances."
+        }
+      ],
+      "grade": {
+        "level": 8,
+        "hardestPart": "balanced",
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [
+          "virtuosic",
+          "dramatic"
+        ],
+        "confidence": "medium",
+        "basis": "Independent repertoire-expertise judgment, supported by the composer/publisher description of motoric virtuosity throughout an eight-minute work. Fast, forceful violin writing requires reliable advanced bow control and stamina; coordinating eight individually exposed players at this sustained speed places the whole work at professional level. Balanced denotes shared virtuoso responsibility rather than a verified identical difficulty in all eight parts. No score notation was inspected in this review, and no specific unseen techniques, range limits or meters are asserted. The programme-note description and standard professional performance context support level 8; there is insufficient evidence here for an extreme-virtuoso rating."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "kind",
+        "composed",
+        "dedication",
+        "firstPerformance"
+      ],
+      "detailCorrections": {},
+      "detailSources": {
+        "kind": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+        "composed": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+        "dedication": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+        "firstPerformance": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/"
+      },
+      "recordingDecisions": []
+    }
+  ],
+  "resume": "Blind independent grade complete. Three supplied source lookups attempted; programme PDF timed out. No prior Norman research or grades read; no PAUSE file found. Recording approval outside this grade-only review."
+}

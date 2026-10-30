@@ -1,0 +1,277 @@
+{
+  "batch": "review-pilot-violin-new",
+  "status": "partial",
+  "entries": [
+    {
+      "key": "hermann-op2-original-3violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)",
+          "finding": "Fresh IMSLP API confirms original D-minor Op. 2 for three violins, one capriccio, first publication 1855 (Hofmeister 1855 p.752 cited). Current Peters No. 2032, plate 7943 scan dated circa 1895 is a later issue, not a contradiction. Cecily Mahan complete score is an engraving taken directly from the parts, not an arrangement."
+        },
+        {
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=55762&itemId=17887",
+          "finding": "First-violin complete five-page part independently downloaded. Actual header Erste Violine, Op.2, plate 7943. Visually inspected pp1,3,5: Adagio, Allegro molto, upper-register passagework and octave-transposed high runs, repeated double stops, chromatic scales, Più mosso and final Fine."
+        },
+        {
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=55761&itemId=17887",
+          "finding": "Second part independently downloaded,12PDFpages including covers/blanks. PDFp4 actual header Zweite Violine, plate 7943; distinct chordal/countermelodic writing and rapid Allegro figures. Repository filename labeling differs from actual role, so header controls identity."
+        },
+        {
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=55763&itemId=17887",
+          "finding": "Third complete five-page part independently downloaded. Actual header Dritte Violine, plate 7943. Independent lower-register ostinati, chords and articulations; no additional required accompaniment. Three complete violin parts establish exact scoring."
+        },
+        {
+          "url": "https://www.pmf.or.jp/en/gallery/digital/2023-hermann_v3.html",
+          "finding": "Primary PMF festival page independently retrieved via curl after web timeout. Exact work Op.2, D minor, three named roles Minori Yoshida I/Josh Liu II/Laura Ochmann III; actual 21 July 2023 Kitara Small Hall performance. Single original whole work, not an arrangement or method-book excerpt."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qtwAcpqKcyc",
+          "finding": "Exact PMF-linked upload independently reopened: 500 seconds, original Op.2/Dminor/three violins, full performance description and complete named roster. Public and playable_in_embed true. No excluded performer. Presented by festival as full named single Capriccio; no excerpt designation."
+        }
+      ],
+      "grade": {
+        "level": 8,
+        "hardestPart": "violin 1",
+        "mode": "minor",
+        "pace": "lively",
+        "character": [
+          "virtuosic",
+          "dramatic",
+          "playful"
+        ],
+        "confidence": "medium",
+        "basis": "Independent direct part inspection: violin1 has sustained brilliant high-register fast playing, octave-transposed runs, chromatic scales, repeated thirds/double stops, rapid articulated figuration and exposed lyrical introduction. Second and third parts are also active and rhythmically interdependent. Professional-level 8 rather than upper-intermediate ensemble repertoire; above Moszkowski Suite anchor 7 in high-register and double-stop concentration, below extreme simultaneous virtuosity of Sarasate Navarra anchor 9. First part clearly most demanding in inspected material; no fabricated part-levels. All first-part pages available, selected pages visually read; lower-part openings read."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes",
+        "imslpPage"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "kind",
+        "published",
+        "otherTitles"
+      ],
+      "detailCorrections": {},
+      "detailSources": {
+        "kind": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)",
+        "published": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)",
+        "otherTitles": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)"
+      },
+      "recordingDecisions": [
+        {
+          "id": "qtwAcpqKcyc",
+          "decision": "approved",
+          "reason": "Official festival page links exact upload and identifies whole single Capriccio with no excerpt marker. Full description names all three violin roles and matching Op.2/Dminor; 500 sec duration plausible for complete performance. Human festival performance and public embedding verified. No excluded performer in complete roster. Endpoints not waveform-compared to score; approval relies on authoritative whole-work presentation, not duration alone.",
+          "title": "[PMF 2023] F. Hermann: Capriccio No. 1 / F. ヘルマン：カプリッチョ 第1番",
+          "channel": "PacificMusicFestival",
+          "description": "Enjoy this PMF 2023 performance of F. Hermann's Capriccio No. 1 for 3 violins, which intricately weaves the 3 highly demanding parts into a delicate yet profound tapestry.\nヘルマン作曲「3つのヴァイオリンのためのカプリッチョ」の映像を公開しました。共に難度の高い3つのパートが縦横に行き交い、ひとつの豪奢なタペストリーを編むような、繊細かつ重厚な音楽をご堪能ください。\n\n◆F. Hermann: Capriccio No. 1 in d minor for 3 violins, Op. 2 / F. ヘルマン：3つのヴァイオリンのためのカプリッチョ ニ短調 第1番 作品2\n\nMembers of the PMF Orchestra\n　Minori Yoshida, violin I\n　Josh Liu, violin II\n　Laura Ochmann, violin III\nPMFオーケストラ・メンバー\n　吉田みのり（ヴァイオリン I）\n　ジョシュ・リュ（ヴァイオリン II）\n　ラウラ・オクマン（ヴァイオリン III）\n\nRecording: July 21, 2023　Sapporo Concert Hall Kitara, Small Hall (PMF Ensemble Concert)\n収録：2023年7月21日　札幌コンサートホールKitara 小ホール（PMFアンサンブル演奏会）\n\n[PMF website]\nhttps://www.pmf.or.jp/en/\n[PMF公式ウェブサイト]\nhttps://www.pmf.or.jp/",
+          "performers": [
+            "Minori Yoshida",
+            "Josh Liu",
+            "Laura Ochmann"
+          ],
+          "seconds": 500,
+          "checks": {
+            "humanPerformance": true,
+            "wholeWork": true,
+            "exactVersion": true,
+            "titleInspected": true,
+            "channelInspected": true,
+            "fullDescriptionInspected": true,
+            "performerCreditsComplete": true,
+            "excludedPerformersClear": true,
+            "embedVerified": true
+          },
+          "embedCheck": {
+            "method": "yt-dlp metadata refreshed 2026-10-28",
+            "playableInEmbed": true,
+            "availability": "public"
+          },
+          "metadataSource": "https://www.youtube.com/watch?v=qtwAcpqKcyc"
+        }
+      ]
+    },
+    {
+      "key": "norman-gran-turismo-original-8violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+          "finding": "Primary publisher work page independently opened: eight violins, 2004, eight minutes, original premiere 1 April 2004 Newman Hall USC Los Angeles. Note explicitly dedicates it to Robert Lipsett’s students, who premiered and extensively performed it. Original violin version is distinct from separate 2019 viola arrangement. Digital score and parts obtainable."
+        },
+        {
+          "url": "https://www.schott-music.com/en/gran-turismo-no251066.html",
+          "finding": "Schott confirms original for eight virtuoso violinists, 2004, eight minutes, ED31087 score and parts, ISMN 9790600011483, 102 pages. Physical stock currently unavailable on main product page, but publisher digital edition remains obtainable. No required backing or arranger."
+        },
+        {
+          "url": "https://npac-nso.org/upload/gallery/gallery/e78a7a7a236ee6966df6508673d81e6e66ef5167_17676843859WM504DX.pdf",
+          "finding": "Primary NSO programme independently downloaded after web timeout. Printed p. 20 enumerates Richard Lin I, Paul Huang II, Chieh-An Tseng III, Chih-Hong Tseng IV, Hao-Tun Teng V, Yi-Ju Chen VI, Chu-Chun Tsai VII, Chang-Wen Hung VIII for Gran Turismo. Eight independent numbered roles establish exact parts rather than eight players doubling four. Professional programme establishes floor; original premiere corroborated by publisher. Programme note says 2003, while composer/publisher authoritative year 2004 is retained."
+        },
+        {
+          "url": "https://www.halleonard.com/product/viewproduct.action?itemid=49045308&subsiteid=1",
+          "finding": "Authorized distributor confirms Schott ED31087 score and parts. Public Schott PDF preview returned empty viewer/blocked retrieval; Closer Look not used as notation evidence. No actual score page visually inspected in this review."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LEE7DB1_dBM",
+          "finding": "Exact publisher-embedded Gardner Museum A Far Cry video independently reopened: 529 seconds, original work title, human ensemble, public/playable_in_embed true. Full description gives production staff but no eight-player roster. Exclusion check and complete-work endpoints cannot be finalized from this metadata, so no primary approval."
+        }
+      ],
+      "grade": {
+        "level": 8,
+        "hardestPart": "balanced",
+        "mode": null,
+        "pace": "lively",
+        "character": [
+          "virtuosic",
+          "dramatic",
+          "playful"
+        ],
+        "confidence": "medium",
+        "basis": "Independent knowledge-based grade of this established violin-octet showpiece, corroborated by composer’s explicit virtuoso/motoric description and professional performance programme; no score page accessible, so this is not a fresh notation-backed analysis. Sustained speed, rapid ensemble handovers, tightly synchronized attacks and eight exposed independent lines require professional players and advanced rehearsal coordination. Level8 fits the professional chamber class of Prokofiev Two-Violin Sonata anchor 8, below extreme virtuoso anchor 10; short duration does not make its coordination easy. Balanced reflects shared ensemble demands; no individually graded part hierarchy claimed. No global major/minor mode assigned."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "kind",
+        "composed",
+        "dedication",
+        "firstPerformance"
+      ],
+      "detailCorrections": {},
+      "detailSources": {
+        "kind": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+        "composed": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+        "dedication": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+        "firstPerformance": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/"
+      },
+      "recordingDecisions": [
+        {
+          "id": "LEE7DB1_dBM",
+          "decision": "held",
+          "reason": "Human exact-version performance supported by publisher embedding, but eight individual players are not named. Full performer exclusion check unresolved, and whole-work endpoints were not audited. Positive embed permission does not resolve those gaps.",
+          "title": "Modern Music » Norman, Gran Turismo » A Far Cry",
+          "channel": "Isabella Stewart Gardner Museum",
+          "description": "A Far Cry performs Gran Turismo, by 21st Century composer Andrew Norman.\n\nIn the spirit of the Gardner Museum's commitment to new art and new music, we'd like to welcome you to Modern Music, a series of contemporary performances that mixes works of young composers and with a handful of established masters. Our first six performances will go live on YouTube every other Thursday from June 18 through August 27, with new concerts added periodically throughout the year. Visit the Gardner Museum online to subscribe to our classical podcast, The Concert, or browse hundreds of songs in our music library: http://www.gardnermuseum.org/music/listen Enjoy!\n\nScott Nickrenz, Abrams Curator of Music and Director of Modern Music\nAlicia Mielke, Concert Manager\nTom Stephenson, Lead Engineer and Producer of Modern Music\nColin Gallagher, Associate Engineer",
+          "performers": null,
+          "creditedEnsemble": "A Far Cry",
+          "creditsNote": "Scott Nickrenz,Alicia Mielke,Tom Stephenson,Colin Gallagher are production staff, not a performer roster.",
+          "seconds": 529,
+          "checks": {
+            "humanPerformance": true,
+            "wholeWork": null,
+            "exactVersion": true,
+            "titleInspected": true,
+            "channelInspected": true,
+            "fullDescriptionInspected": true,
+            "performerCreditsComplete": false,
+            "excludedPerformersClear": false,
+            "embedVerified": true
+          },
+          "embedCheck": {
+            "method": "yt-dlp metadata refreshed 2026-10-28",
+            "playableInEmbed": true,
+            "availability": "public"
+          },
+          "metadataSource": "https://www.youtube.com/watch?v=LEE7DB1_dBM"
+        }
+      ]
+    },
+    {
+      "key": "bach-bwv971-kimura-4violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.edition-offenburg.com/collections/2-3-und-4-violinen-ohne-basso/products/bc-4131",
+          "finding": "Primary publisher independently opened and full HTML inspected. Bach BWV971 arranged for four violins by Mihoko Kimura, BC 4131, ISMN9790700241681; obtainable digital score. Kimura is explicitly arranger, not editor. Publisher presents the concerto without selection/excerpt qualifier."
+        },
+        {
+          "url": "https://www.edition-offenburg.com/cdn/shop/products/bc-4131_ins1_2000x2000.jpg?v=1604998800",
+          "finding": "Hidden genuine publisher gallery score preview independently downloaded and visually read: Concerto nach italienischem Gusto BWV971, bearbeitet für vier Violinen, bearb. Mihoko Kimura. Four separate staves Violino I–IV with independent lines and no accompaniment. Opening marked(Allegro), F-major key signature. CopyrightEditionOffenburg 2013,BC 4131."
+        },
+        {
+          "url": "https://www.edition-offenburg.com/cdn/shop/products/BC-4131-ins2_2000x2000.jpg?v=1604998800",
+          "finding": "Second genuine publisher score preview is printed p. 8. Top contains bars 42–50 of the recognizable slow movement, with ornate 32nd-note first-violin melody and independent accompaniment; its terminal bar is followed by explicit Presto heading and final-movement opening. Together with first preview, all three original concerto sections are represented in the actual arrangement. Full 14-page score not inspected, including final terminal bars, but complete-work marketing and library extent corroborate whole-work rather than a one-movement excerpt."
+        },
+        {
+          "url": "https://d-nb.info/1056016825/34",
+          "finding": "DNB national bibliography independently downloaded and extracted with layout: Bach Concerto nach italienischem Gusto für vier Violinen, arranged Kimura, Offenburg 2013,14-page score +4parts, matching ISMN. IMPORTANT citation correction: Bach record is 1046012096; input’s 1046143425 belongs to adjacent Perón-Cano La danza de la sirenas due to multi-column reading error. Main bibliography URL remains valid."
+        },
+        {
+          "url": "https://www.edition-walhall.de/media/content/Edition_Walhall-ViolineKat2016_.pdf",
+          "finding": "Publisher 2016 catalogue printed p. 24 independently downloaded/read. Exact Bach BWV 971 Kimura four-violin arrangement BC 4131, actual 2012 premiere by Bayreuth-Festival-Violinquartett. No movement selection qualifier."
+        },
+        {
+          "url": "https://www.theater-osnabrueck.de/spielplan-detail/?stid=686",
+          "finding": "Primary theatre programme independently opened: 24 August 2024 NaturTon/Rosengarten, Andrija, Ana, Adam and Adrian Wonnemann, exact Bach Concerto BWV971 arranged Mihoko Kimura. Corroborates real professional performance floor. Generic Streichquartett heading does not override exact publisher/score four-violin scoring."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "violin 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "virtuosic"
+        ],
+        "confidence": "medium",
+        "basis": "Independent grade from actual Kimura score previews, not keyboard-source difficulty. First violin carries sustained 16th-note passagework, chromatic shifts, high-register figures and slow-movement32nd-note ornamentation with long slurs; lower parts require independent rhythmic/chordal coordination. Presto adds rapid contrapuntal articulation. Pre-diploma level 6, above Bach Double anchor 4 in first-part sustained figuration/ornamentation, below diploma 7 concert-duo virtuosity. First violin clearly most demanding in inspected pages. All three sections represented but complete score not read; final-movement hardest bars unknown. Major describes outer F-major tonal frame, with contrasting minor slow movement."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes",
+        "arranger"
+      ],
+      "workCorrections": {
+        "notes": "Complete three-movement arrangement for four violins"
+      },
+      "approvedDetailFields": [
+        "firstPerformance",
+        "published",
+        "otherTitles"
+      ],
+      "detailCorrections": {},
+      "detailSources": {
+        "firstPerformance": "https://www.edition-walhall.de/media/content/Edition_Walhall-ViolineKat2016_.pdf",
+        "published": "https://d-nb.info/1056016825/34",
+        "otherTitles": "https://www.edition-offenburg.com/collections/2-3-und-4-violinen-ohne-basso/products/bc-4131"
+      },
+      "recordingDecisions": []
+    }
+  ],
+  "resume": {
+    "nextKey": "hofmann-op104-original-3violins-set",
+    "note": "Stopped immediately on coordinator 92%-usage instruction after Kimura saved. Three reviews complete: Hermann 8, Norman 8, Kimura 6. Hofmann review not begun; a grouped source download had already been launched before stop instruction and its fetched files are preserved in own violin-review scratch. No further source calls required to inspect downloaded score; still need independent full-set floor/multitrack decision."
+  }
+}

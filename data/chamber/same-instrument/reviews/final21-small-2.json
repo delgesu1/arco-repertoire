@@ -1,0 +1,49 @@
+{
+  "batch": "final21",
+  "role": "blind-musical-grading",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "poradowski-op56-three-basses",
+      "status": "approved",
+      "scope": "musical-only",
+      "grade": {
+        "level": 6,
+        "hardestPart": "double-bass 1",
+        "confidence": "medium",
+        "basis": "Only three score-following frames were available (one per movement), but the writing is clearly readable. Bass I plays running sixteenth-note figures with accents, trills and chromatic turns at Allegro moderato, and moves between bass, tenor and treble clef with octave-transposition marks, so it needs reliable thumb position and high-register control on the double bass. The three parts are treated as equals with real counterpoint, which adds some ensemble demand.",
+        "mode": null,
+        "pace": "moderate",
+        "character": ["dramatic", "virtuosic"]
+      }
+    },
+    {
+      "key": "schmidt-op15-four-violins",
+      "status": "approved",
+      "scope": "musical-only",
+      "grade": {
+        "level": 2,
+        "hardestPart": "violin 1",
+        "confidence": "medium",
+        "basis": "The file holds only the No. 3 Minuetto in parts (Allegro moderato, 3/4, C major with a trio in F major). Violin 1 stays in first position with slurred quaver scale figures, a few trills and turns, one sul G passage and an isolated high C near the end. The other three parts are simpler still, with sustained or repeated notes. The other pieces in the set could not be seen.",
+        "mode": "major",
+        "pace": "moderate",
+        "character": ["dance", "playful"]
+      }
+    },
+    {
+      "key": "goltermann-op53-four-cellos",
+      "status": "approved",
+      "scope": "musical-only",
+      "grade": {
+        "level": 5,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Cello 1 plays a sustained, singing line written well above the bass staff in Religioso, with many ledger lines, so it sits in thumb position with expressive shifts and trills. The Nocturne moves into tenor and treble clef in a sharp-heavy key with chromatic turns and quick demisemiquaver figures. The tempi are slow and the other three parts are mostly simple accompaniment, so the demand is high-register tone and intonation rather than speed.",
+        "mode": "major",
+        "pace": "slow",
+        "character": ["lyrical", "tender"]
+      }
+    }
+  ]
+}

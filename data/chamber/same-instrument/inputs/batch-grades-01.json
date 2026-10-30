@@ -1,0 +1,321 @@
+{
+ "batch": "batch-grades-01",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "jacob-suite-eight-violas",
+   "work": {
+    "composer": "Jacob, Gordon",
+    "title": "Suite for Eight Violas",
+    "instruments": {
+     "viola": 8
+    },
+    "players": 8,
+    "formation": "large-strings",
+    "form": "work",
+    "year": "",
+    "minutes": 11,
+    "set": null,
+    "notes": "Four-movement suite for eight violas."
+   },
+   "details": {
+    "kind": "movements",
+    "movements": [
+     "Dedication. Poco maestoso",
+     "Scherzo and Drone. Allegro vivo",
+     "Chorale. Lento",
+     "Tarantella. Allegro con fuoco"
+    ]
+   },
+   "primarySources": [
+    "https://www.accolade.de/images/BuSSBild/_151696483-001.jpg",
+    "https://www.accolade.de/images/BuSSBild/_151696483-002.jpg",
+    "https://www.accolade.de/images/BuSSBild/_151696483-003.jpg",
+    "https://www.accolade.de/images/BuSSBild/_151696483-005.jpg",
+    "https://repository.rice.edu/server/api/core/bitstreams/c0aae5b0-bd04-4a70-afe4-ce48a8e6b648/content",
+    "https://www.prestomusic.com/sheet-music/publishers/1050/browse?instrument=1153",
+    "https://www.wisemusicclassical.com/composer/770/Gordon-Jacob/",
+    "https://sacconi.com/media/",
+    "https://www.youtube.com/watch?v=Vmu5KvtszbA",
+    "https://www.accolade.de/index.php?action=showdetail&id=*151696483"
+   ]
+  },
+  {
+   "key": "bottesini-passione-trumpf-four-basses",
+   "work": {
+    "composer": "Bottesini, Giovanni",
+    "title": "Passione amorosa for Four Double Basses",
+    "instruments": {
+     "double-bass": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "",
+    "minutes": 12,
+    "set": null,
+    "notes": "Unaccompanied transcription for four double basses.",
+    "arranger": "Klaus Trumpf"
+   },
+   "details": {
+    "published": "2001 (Klaus Trumpf arrangement, Hofmeister FH2227)"
+   },
+   "primarySources": [
+    "https://www.hofmeister-musikverlag.com/wp-content/uploads/2023/07/FH_2227_NS.png",
+    "https://www.hofmeister-musikverlag.com/produkt/passione-amorosa/",
+    "https://www.wienerphilharmoniker.at/en/magazin/10th-concert-of-the-philharmonic-chamber-music-series-201415/5884",
+    "https://www.encoreplus.app/sfsymphony/chamber-music-april-2025-sfs/",
+    "https://www.auditorium-lyon.com/fr/saison-2014-15/contrebasses"
+   ]
+  },
+  {
+   "key": "hermann-op2-original-3violins",
+   "work": {
+    "composer": "Hermann, Friedrich",
+    "title": "Capriccio No. 1 for 3 Violins in D minor, Op. 2",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "short",
+    "year": "",
+    "minutes": 8,
+    "set": null,
+    "notes": "Virtuoso violin trio; Adagio introduction and Allegro molto",
+    "imslpPage": "Capriccio No.1 for 3 Violins, Op.2 (Hermann, Friedrich)"
+   },
+   "details": {
+    "kind": "single",
+    "published": "1855, Leipzig: C.F. Peters (first publication per IMSLP/Hofmeister citation)",
+    "otherTitles": [
+     "Capriccio für drei Violinen"
+    ]
+   },
+   "primarySources": [
+    "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)",
+    "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=17590",
+    "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=55762&itemId=17887",
+    "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=55761&itemId=17887",
+    "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=55763&itemId=17887",
+    "https://www.pmf.or.jp/en/gallery/digital/2023-hermann_v3.html",
+    "https://www.youtube.com/watch?v=qtwAcpqKcyc"
+   ]
+  },
+  {
+   "key": "norman-gran-turismo-original-8violins",
+   "work": {
+    "composer": "Norman, Andrew",
+    "title": "Gran Turismo for 8 Violins",
+    "instruments": {
+     "violin": 8
+    },
+    "players": 8,
+    "formation": "large-strings",
+    "form": "short",
+    "year": "2004",
+    "minutes": 8,
+    "set": null,
+    "notes": "For eight virtuoso violinists; motoric concert piece"
+   },
+   "details": {
+    "kind": "single",
+    "composed": "2004",
+    "dedication": "The students of Robert Lipsett",
+    "firstPerformance": "1 April 2004, Newman Hall, University of Southern California, Los Angeles; students of Robert Lipsett"
+   },
+   "primarySources": [
+    "https://npac-nso.org/upload/gallery/gallery/e78a7a7a236ee6966df6508673d81e6e66ef5167_17676843859WM504DX.pdf",
+    "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+    "https://www.schott-music.com/en/gran-turismo-no251066.html",
+    "https://www.halleonard.com/product/viewproduct.action?itemid=49045308&subsiteid=1",
+    "https://www.youtube.com/watch?v=LEE7DB1_dBM"
+   ]
+  },
+  {
+   "key": "bach-bwv971-kimura-4violins",
+   "work": {
+    "composer": "Bach, Johann Sebastian",
+    "title": "Italian Concerto, BWV 971 (version for 4 Violins)",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Published four-violin arrangement; complete extent awaiting score inspection",
+    "arranger": "Mihoko Kimura"
+   },
+   "details": {
+    "firstPerformance": "2012, Bayreuth-Festival-Violinquartett (publisher catalogue; exact date/place not given)",
+    "published": "2013, Edition Offenburg BC 4131; score14 pages and four parts",
+    "otherTitles": [
+     "Concerto nach italienischem Gusto"
+    ]
+   },
+   "primarySources": [
+    "https://www.edition-walhall.de/media/content/Edition_Walhall-ViolineKat2016_.pdf",
+    "https://www.edition-offenburg.com/cdn/shop/products/bc-4131_ins1_2000x2000.jpg?v=1604998800",
+    "https://www.edition-offenburg.com/cdn/shop/products/BC-4131-ins2_2000x2000.jpg?v=1604998800",
+    "https://www.edition-offenburg.com/collections/2-3-und-4-violinen-ohne-basso/products/bc-4131",
+    "https://d-nb.info/1056016825/34",
+    "https://www.theater-osnabrueck.de/spielplan-detail/?stid=686"
+   ]
+  },
+  {
+   "key": "harbison-cucaraccia-fugue-four-violas",
+   "work": {
+    "composer": "Harbison, John",
+    "title": "Cucaraccia and Fugue",
+    "aka": [
+     "Cuccaracia and Fugue"
+    ],
+    "formation": "string-quartet",
+    "instruments": {
+     "viola": 4
+    },
+    "players": 4,
+    "form": "short",
+    "year": "2003",
+    "minutes": 4,
+    "set": null,
+    "notes": "For four violas; commissioned by the Token Creek Festival"
+   },
+   "details": {
+    "kind": "movements",
+    "movements": [
+     "Cucaraccia",
+     "Fugue"
+    ],
+    "composed": "2003"
+   },
+   "primarySources": [
+    "https://cdn.naxos.com/sharedfiles/pdf/rear/8.559243r.pdf",
+    "https://americanviolasociety.org/wp-content/uploads/2022/03/JAVS-37.1.pdf",
+    "https://www.classicalondemand.com/cdn/shop/products/GSP24180SET_Page_1_1.jpg?v=1748534585",
+    "https://www.classicalondemand.com/cdn/shop/products/GSP24180SET_Page_2_1.jpg?v=1748534585",
+    "https://www.classicalondemand.com/collections/other-string-ensemble",
+    "https://www.classicalondemand.com/products/cucaraccia-and-fugue",
+    "https://www.youtube.com/watch?v=_mGF7inYsO4"
+   ]
+  },
+  {
+   "key": "bowen-fantasia-four-violas-op41-1",
+   "work": {
+    "composer": "Bowen, York",
+    "title": "Fantasia for Four Violas in E minor, Op. 41 No. 1",
+    "aka": [
+     "Fantasy for Four Violas"
+    ],
+    "formation": "string-quartet",
+    "instruments": {
+     "viola": 4
+    },
+    "players": 4,
+    "form": "short",
+    "year": "1907",
+    "minutes": 10,
+    "set": null,
+    "notes": "For four violas, one to a part; about 10 minutes (Op. 41 No. 1)",
+    "imslpPage": "Fantasy and Quartet, Op.41 (Bowen, York)"
+   },
+   "details": {
+    "kind": "single",
+    "composed": "1907",
+    "firstPerformance": "3 March 1908, Society of British Composers evening; Lionel Tertis and his pupils (Eric Coates, second viola).",
+    "otherTitles": [
+     "Fantasie Quartet for Four Violas",
+     "Fantasy for Four Violas"
+    ]
+   },
+   "primarySources": [
+    "https://rarestringmusic.com/wp-content/uploads/2019/02/Bowen-York-Fantasie-Quartet-for-Four-Violas-Music-1.jpg",
+    "https://i0.wp.com/rarestringmusic.com/wp-content/uploads/2019/02/Bowen-York-Fantasie-Quartet-for-Four-Violas-Foreword-1.jpg?ssl=1",
+    "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+    "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+    "https://imslp.org/wiki/Fantasy_and_Quartet,_Op.41_(Bowen,_York)",
+    "https://www.laphil.com/works/fantasia-for-four-violas-in-e-minor-op-41-no-1",
+    "https://www.youtube.com/watch?v=cuRxSCjmlKM"
+   ]
+  }
+ ]
+}

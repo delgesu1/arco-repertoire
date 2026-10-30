@@ -1,0 +1,148 @@
+{
+ "batch": "batch-grades-16",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "francaix-aubade-twelve-cellos",
+   "work": {
+    "composer": "Françaix, Jean",
+    "title": "Aubade for 12 Cellos",
+    "instruments": {
+     "cello": 12
+    },
+    "players": 12,
+    "formation": "large-strings",
+    "form": "work",
+    "year": "1974",
+    "minutes": 14,
+    "set": null,
+    "notes": "Six movements; commissioned for the 25th anniversary of Berliner Festwochen."
+   },
+   "primarySources": [
+    "https://www.schott-music.com/fr/aubade-noc36979.html",
+    "https://www.jeanfrancaix.com/en/catalogue/aubade",
+    "https://www.jpc.de/jpcng/classic/detail/-/art/Die-12-Cellisten-der-Berliner-Philharmoniker/hnum/4916678"
+   ]
+  },
+  {
+   "key": "xenakis-retours-windungen-twelve-cellos",
+   "work": {
+    "composer": "Xenakis, Iannis",
+    "title": "Retours-Windungen",
+    "instruments": {
+     "cello": 12
+    },
+    "players": 12,
+    "formation": "large-strings",
+    "form": "work",
+    "year": "1976",
+    "minutes": 8,
+    "set": null,
+    "notes": "Written for the Berlin Philharmonic twelve cellists; no electronics or additional players."
+   },
+   "primarySources": [
+    "https://www.iannis-xenakis.org/en/retours-windungen/",
+    "https://ressources.ircam.fr/en/work/retours-windungen",
+    "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/1987.-Xenakis-on-Xenakis.pdf",
+    "https://citeseerx.ist.psu.edu/document?doi=4bb7b9ebe8ec21901c40ee0a7d15f44ca8ac8860&repid=rep1&type=pdf"
+   ]
+  },
+  {
+   "key": "dean-twelve-angry-men",
+   "work": {
+    "composer": "Dean, Brett",
+    "title": "Twelve Angry Men",
+    "instruments": {
+     "cello": 12
+    },
+    "players": 12,
+    "formation": "large-strings",
+    "form": "work",
+    "year": "1996",
+    "minutes": 18,
+    "set": null,
+    "notes": "Tone poem inspired by Sidney Lumet’s film; publisher provides the score by rental."
+   },
+   "primarySources": [
+    "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+    "https://www.boosey.com/audio-clip/Twelve-Angry-Men-1996/12039"
+   ]
+  }
+ ]
+}

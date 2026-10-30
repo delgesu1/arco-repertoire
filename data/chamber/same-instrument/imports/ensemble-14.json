@@ -1,0 +1,107 @@
+{
+ "batch": "ensemble-14",
+ "accepted": [
+  {
+   "key": "lachner-quartet-op107-4-violins",
+   "id": 109168,
+   "publicId": 109168,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "kind",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "ellenberger-suite-palais-meran-cello-quartet",
+   "id": 109169,
+   "publicId": 109169,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6,
+    7,
+    7
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "kind",
+    "movements",
+    "composed",
+    "dedication",
+    "firstPerformance"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "derecskei-a-tear-in-the-mirror-3-cellos",
+   "id": 109170,
+   "publicId": 109170,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "kind",
+    "movements",
+    "otherTitles"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "fine-in-memoriam-george-finckel-cello-ensemble",
+   "id": 109171,
+   "publicId": 109171,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "kind",
+    "movements",
+    "firstPerformance"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "c3ae8233684265d8bc2445d1f1d67f1b1e59f2cbbeb90590b6d9553c542eaba6",
+  "data/chamber/composers.json": "cbeb87edd57ba88bfdb5b8d40fdefa6da1392cb50e23081a6a1151e929c0e074",
+  "data/chamber/id-registry.json": "0016cf570818b99d5e27f2e1f8081e1f3538d7b2bd43f9c064e71169b9e1b582",
+  "data/chamber/sources.json": "926f81dc0fce409bb53663bb6180f630fc4151aecbf11cc572447a2224aff595",
+  "data/details/overrides.json": "3a08012846067f3f6d9a79a98a3d499067afc1d95f77537e7218348a8d267e22",
+  "data/chamber/recordings-judged.json": "b29c9d55c92f6b4f185f147d38f4c04d33bafae1a51a35930e149934adabead1",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-extract-07-ready.json": "5e50a238dffafb1d3165cea637d89b6159e75deb3315c7930fe7ebe2f995c241",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-verify-07-normalized.json": "a5dbb366562a98e2053f2dcd5847c8be41eb55006686d560b61e6f63673d7884",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grades-10.json": "cfe7f31501e46bfa1b5c406835c363b20cba972d50abaf047085a4e3ae0049c9",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grades-11.json": "43a014bd96f930c38c60b4dfaf1714cafa5d2af8c2006d2ea7d3488209b50203"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-14"
+}

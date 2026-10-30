@@ -1,0 +1,89 @@
+{
+  "batch": "batch-grades-12",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "dale-introduction-and-andante-op5-six-violas",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://americanviolasociety.org/wp-content/uploads/2022/03/JAVS-Summer-2015.pdf",
+          "finding": "Thomas Tatton, printed pp.11\u201312, gives a firsthand performer/researcher account: all six players must be excellent; viola 1 goes extremely high; viola 6 tunes its C string down to B-flat. He describes exposed one- or two-part melodic textures with accompaniment and judges the work more demanding than the Bowen viola quartet. This is technical testimony, not a score preview; no unseen notation is claimed."
+        }
+      ],
+      "grade": {
+        "level": 8,
+        "hardestPart": "viola 1",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dark"
+        ],
+        "confidence": "medium",
+        "basis": "Independent musical judgment from Tatton\u2019s detailed primary technical testimony. Extremely high first-viola writing, six individually capable players, exposed melodic texture and scordatura point to professional-level preparation rather than ordinary student chamber playing. The whole work is graded at 8; no additional ensemble uplift is added to that estimate. Exact range, passagework and tonal plan remain unverified without the score, so confidence is medium and mode unsure."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "hofmann-op104-original-3violins-set",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.mainly4strings.co.uk/mainstreammusic-org-uk/_img/pdf/Hofmann_-_Four_Pieces_for_Three_Violins-6001.pdf",
+          "finding": "Inspected the supplied complete Augener published parts for all three violins and all four pieces. Violin 1 explicitly includes fifth/sixth-position fingerings, extensive chromatic slurred runs, detached articulation, double stops and chords. The opening title confirms THREE VIOLINS. The supplied first-to-third-position description understates this edition\u2019s actual first-part demands."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "violin 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful",
+          "dance"
+        ],
+        "confidence": "high",
+        "basis": "Direct inspection of all twelve music pages of the complete three-part publication. The first violin sustains the greatest upper-register and shifting demands, including printed sixth-position passages in movements I and IV, with chromatic semiquaver runs, arpeggiation, articulated string crossings and chordal punctuation. Supporting parts also require chromatic fluency and coordinated bowing. As a complete concert set this fits advanced/ABRSM 8 rather than intermediate, while its tonal phrasing and regular ensemble patterns do not justify a separate ensemble uplift."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "brahms-op91-no2-jones-5violas",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)",
+          "finding": "Observed the rendered For 5 Violas (Jones) section and its Complete Score index 417794; downloaded the validated eight-page PDF through the normal IMSLP handler. All five staves are in alto clef, although the score retains legacy string-quintet instrument labels. Separately downloaded official Viola 1 (#417795) and Viola 3 (#417797) parts confirm the correspondence and five-viola version."
+        },
+        {
+          "url": "https://imslp.org/wiki/Special:ImagefromIndex/417794",
+          "finding": "Inspected all eight score pages. The third staff/Viola 3 carries the exposed opening chorale, substantial upper-register sustained writing and broad descending/ascending arpeggiated figures; Viola 1 carries the vocal melody. The middle 3/4 passage introduces four flats and triplet accompaniment against the melodic rhythm before the return to 6/8."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "viola 3",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "tender"
+        ],
+        "confidence": "high",
+        "basis": "Direct examination of the exact Jones five-viola score, with numbered Viola 1 and Viola 3 parts checked against the score\u2019s misleading retained labels. Viola 3 is technically the most demanding through its high, quiet sustained notes, repeated large-register arpeggiation and clean legato shifts. All players must blend chromatic harmony, preserve the rocking pulse and negotiate the central triplet texture and meter change. Advanced viola technique and mature soft tone place the complete arrangement at level 5; ensemble demands are substantial but remain within that level, so no extra uplift is added."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    }
+  ]
+}

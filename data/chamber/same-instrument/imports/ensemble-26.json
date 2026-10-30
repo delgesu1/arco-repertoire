@@ -1,0 +1,63 @@
+{
+ "batch": "ensemble-26",
+ "accepted": [
+  {
+   "key": "forino-preghiere-op27-no3",
+   "id": 109199,
+   "publicId": 109199,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    6,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "published",
+    "dedication",
+    "otherTitles"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "RrfRzXL1WV4"
+  },
+  {
+   "key": "klengel-variations-op15-4vc",
+   "id": 109200,
+   "publicId": 109200,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6,
+    7,
+    7
+   ],
+   "gradeIssue": null,
+   "details": [
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "c35c2ae0c1c986d91cdd229c0435d81b05be2a02d7445fc0fe7d2c884e8b3544",
+  "data/chamber/composers.json": "aa54dec6899060a2eb2f17c309cbd438aff76bdde68504e9c91b93b73f05cbe3",
+  "data/chamber/id-registry.json": "96349b018b30e6be68efacbc675f7b3eab91033dc6a6999ab0425419ffd61ca0",
+  "data/chamber/sources.json": "60a996ffdf5017c266a871d56f68cc851f680e2b336ab1c69aa69b11897f59a4",
+  "data/details/overrides.json": "4c3e6e2b0f45a16c2ff29f859b2c1fbb2dbde4a468863fc2539e744150ed29a8",
+  "data/chamber/recordings-judged.json": "8b54668711623fe8a6afb9c2246cd72bd49607413f9bb5e675844fdd64e15b73",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-ready-26.json": "964a280b0ebcd347c303242ff99e0759667f68b1c0e56c8bcaad56ab32e634a5",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/forino-26-normalized.json": "b14d4611f12f5a52eb8c22e58a20cf6fdd4d519d2b6ce4e7889e00c7ee9d2a82",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-recover-01-normalized.json": "ccbbc24c8a1601f43e5471050f935db64e8624ca032349a99a1dcc7c13adada7",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-cello-grades-02.json": "b19a2be583775acdf1a98c2e276b6a7201c8ea0c9c8d834b5dcd875b818da9b0",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/grades-27-normalized.json": "22ed98609337a2d1c6b72b801dd0abae5411a942bcab3c6ddf1c67ed709cfb99"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-26"
+}

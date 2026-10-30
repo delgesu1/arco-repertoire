@@ -1,0 +1,78 @@
+{
+  "batch": "batch-grades-16",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "francaix-aubade-twelve-cellos",
+      "status": "held",
+      "findings": [
+        {
+          "url": "https://www.schott-music.com/fr/aubade-noc36979.html",
+          "finding": "Publisher confirms six movements including Vivacissimo and Presto and labels difficulty easy. This broad label does not locate the hardest part on the supplied ten-level scale."
+        },
+        {
+          "url": "https://www.schott-music.com/fr/pdfpreview/index/view/id/100036979/",
+          "finding": "Preview endpoint returned no readable notation. No score page was inspected."
+        }
+      ],
+      "grade": {
+        "level": null,
+        "hardestPart": null,
+        "mode": "unsure",
+        "pace": null,
+        "character": [],
+        "confidence": "low",
+        "basis": "Publisher difficulty label and movement tempi alone cannot establish an independently defensible chamber grade or hardest part."
+      },
+      "approvedWorkFields": []
+    },
+    {
+      "key": "xenakis-retours-windungen-twelve-cellos",
+      "status": "held",
+      "findings": [
+        {
+          "url": "https://www.iannis-xenakis.org/en/retours-windungen/",
+          "finding": "Composer-source request timed out; not repeated."
+        },
+        {
+          "url": "https://ressources.ircam.fr/en/work/retours-windungen",
+          "finding": "IRCAM confirms twelve cellos, eight minutes and Berlin Philharmonic premiere, but gives no technical or part-specific account."
+        }
+      ],
+      "grade": {
+        "level": null,
+        "hardestPart": null,
+        "mode": "unsure",
+        "pace": null,
+        "character": [],
+        "confidence": "low",
+        "basis": "Instrumentation, duration and premiere personnel are insufficient to assign difficulty. No notation or specific technical performance documentation inspected."
+      },
+      "approvedWorkFields": []
+    },
+    {
+      "key": "dean-twelve-angry-men",
+      "status": "held",
+      "findings": [
+        {
+          "url": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+          "finding": "Publisher confirms twelve cellos, eighteen minutes and rental material; quoted review describes dramatic characterization, not specific playing demands."
+        },
+        {
+          "url": "https://www.boosey.com/audio-clip/Twelve-Angry-Men-1996/12039",
+          "finding": "Publisher lists an 86-second Sydney Symphony excerpt. Retrieved text contained metadata only; audio was not heard."
+        }
+      ],
+      "grade": {
+        "level": null,
+        "hardestPart": null,
+        "mode": "unsure",
+        "pace": null,
+        "character": [],
+        "confidence": "low",
+        "basis": "Dramatic premise and professional premiere do not establish the hardest part or technical grade. No actual notation or audible performance inspected."
+      },
+      "approvedWorkFields": []
+    }
+  ]
+}

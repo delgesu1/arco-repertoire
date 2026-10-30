@@ -1,0 +1,113 @@
+{
+ "batch": "ensemble-26",
+ "entries": [
+  {
+   "key": "forino-preghiere-op27-no3",
+   "decision": "include",
+   "requiresFactReview": true,
+   "reason": "Available notation is only Op.27 No.3; uploaded recording does not identify its number, so exact version match is unproved.",
+   "work": {
+    "composer": "Forino, Luigi",
+    "title": "Preghiere, Op.27 No.3 (\"San Francesco parla alle tortore\")",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "level": 5,
+    "hardestPart": "cello 1",
+    "year": "",
+    "minutes": 7,
+    "set": null,
+    "notes": "Original for 4 cellos; No.3 is complete.",
+    "popularity": null,
+    "mode": "major",
+    "pace": "slow",
+    "character": [
+     "lyrical",
+     "tender"
+    ],
+    "imslpPage": "Les prières, Op.27 (Forino, Luigi)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+      "finding": "Collection page supplies only completeNo3 score+all4parts; humanPolishCelloQuartet performancecredits."
+     },
+     {
+      "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=13569",
+      "finding": "Institutionallibrary exactNo3 record: scoreand4parts, originaledition1923, author1868–1936."
+     },
+     {
+      "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+      "finding": "Authorized10pageSibleyscan;4musicpages5–8 exactNo3, title/dedication/1923copyright."
+     },
+     {
+      "url": "https://polishcelloquartet.com/en/repertoire",
+      "finding": "Performers repertoire names Preghiere op27no3."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=RrfRzXL1WV4",
+      "finding": "Quartet ownchannel exactNo3 complete7:28 concert, fouridentifiedplayers."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+     "finding": "Fourindependentcellostaves, noadditionalinstrument."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+     "finding": "VerifiedPDF bytes ofcompleteNo3score; all4parts separatelylisted.",
+     "localPath": "data/cache/same-instrument-imslp/scores/forino-op27-no3.pdf"
+    },
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=RrfRzXL1WV4",
+     "finding": "WojciechFudala,TomaszDaroch,AdamKrzeszowiec,KrzysztofKarpeta, NationalForumMusic Wroclaw3August2016."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "named-excerpt",
+     "selection": "Complete No.3, independently titled and published from Les prieres Op.27"
+    },
+    "fieldSources": {
+     "details.kind": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+     "details.published": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+     "details.dedication": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+     "details.otherTitles": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745"
+    },
+    "unknowns": {
+     "compositionYear": "1923 iseditioncopyright;1909or earlier oncollectionpage notverifiedforNo3. Yearblank."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Actual source music pages1,3,4 (PDF5,7,8) inspected. Slow quarter60–69 exposes first-cello tenor-clef melodic line with repeated shifts, high cantilena and expressive chromatic runs; later clef changes, harmonics and stopped chord entries. Inner parts feature slurred eighths and syncopated breathing against sustained sonorities, some double-stops. Grade5 advanced practical cello band supports these register and tone demands; no extra ensemble level for conventional shared pulse."
+   },
+   "recordingResearch": {
+    "candidates": [
+     {
+      "id": "RrfRzXL1WV4",
+      "title": "Luigi Forino - Preghiere per quattro violoncelli nr 3, op. 27 Polish Cello Quartet",
+      "channel": "Polish Cello Quartet",
+      "description": "=== POLISH CELLO QUARTET ===\n\nWojciech Fudala, Tomasz Daroch, Adam Krzeszowiec, Krzysztof Karpeta\n\nLive concert at National Forum of Music in Wrocław\n03.08.2016 Poland\n\nwww.polishcelloquartet.com\nwww.celloacademy.eu\nwww.akademiawiolonczelowa.pl",
+      "seconds": 448,
+      "views": 7446,
+      "performerCredits": "Wojciech Fudala, Tomasz Daroch, Adam Krzeszowiec, Krzysztof Karpeta"
+     }
+    ]
+   },
+   "details": {
+    "kind": "piece",
+    "published": "1923",
+    "dedication": "A Francisco P. Roget",
+    "otherTitles": [
+     "Les prières, Op.27 No.3",
+     "San Francesco parla alle tortore"
+    ]
+   }
+  }
+ ]
+}

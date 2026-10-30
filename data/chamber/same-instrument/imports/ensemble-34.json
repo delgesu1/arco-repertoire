@@ -1,0 +1,90 @@
+{
+ "batch": "ensemble-34",
+ "accepted": [
+  {
+   "key": "toub-jk-four-violins",
+   "id": 109208,
+   "publicId": 109208,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    2,
+    3
+   ],
+   "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [
+    "version"
+   ],
+   "recording": null,
+   "gradeResolution": {
+    "key": "toub-jk-four-violins",
+    "status": "approved",
+    "level": 3,
+    "hardestPart": "violin 3",
+    "confidence": "medium",
+    "consideredOpinions": [
+     4,
+     2,
+     3
+    ],
+    "basis": "Explicit NONBLIND source/anchor adjudication after saving toub-third-34.json; this is not a fourth independent vote. Preserve originals32-verify level4/violin3/medium, originals32-blind level2/violin1/medium, and toub-third-34 level3/violin3/medium. The supported band is 2–4. Choose 3 from technical evidence, not averaging: the full score shows violin3 changing at V (m249, p16) to a repeated low E4-to-A5 leap followed by G5-F5-E5-D5-C5, with comparable register changes later exchanged among inner/lower parts. These repeated shifts/string transfers at sixteenth=384/min and the sustained nine-minute texture warrant upper-intermediate control beyond grading only the low first-violin scale. The level2 review correctly identifies moderate tempo, simple rhythm and lack of double stops/specialist bowing but overweights violin1 duration when naming the hardest part; sampled compact register does not dispose of the recurring A5 leap. The level4 review correctly selects violin3 and recognizes stamina/register changes, but its broad upper-register/endurance account does not identify the extra advanced technical vocabulary normally needed to distinguish early advanced from upper intermediate. A5 is manageable with ordinary intermediate position work; patterns are strongly repetitive, mostly scalar, in unchanged 2/4 and treble clef, with no rapid mixed rhythms, chords, double stops or prescribed virtuoso bow strokes. Late accidental changes increase finger-pattern vigilance but do not create a new higher register or speed tier. Thus 3 is a supported central technical placement with adjacent-level uncertainty; retain medium advisory confidence without upgrade. No ensemble-count uplift, no professional-performer grade inference. Source/date facts already verified remain preserved: do not resolve 2017 score/title versus 2012 album metadata or infer a live quartet from the stated human multitrack.",
+    "sources": [
+     {
+      "url": "https://ks15.imslp.org/files/imglnks/usimg/c/c2/IMSLP480755-PMLP779146-jk_-_SCORE.pdf",
+      "finding": "All 28 pages inspected for independent third vote before prior review files were opened. Opening quarter=96, 2/4, four treble staves; V at m249 on p16 raises violin3 to recurring A5 from low E4; late flats through closing patterns, final m437. Repetition, ordinary bowing and position work support level3 rather than automatic early advanced placement."
+     },
+     {
+      "url": "https://imslp.org/wiki/Jk_(Toub,_David)",
+      "finding": "Complete composer-typeset score #480755, 28 pages; original four violins or four identical treble instruments; approximately nine minutes."
+     },
+     {
+      "url": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+      "finding": "Yuka Matsumoto is credited on all four violins, multitracked. Human performance floor only; date conflict remains unresolved and does not affect technical grading."
+     }
+    ],
+    "localAnchors": [
+     {
+      "path": "data/source/levels.json",
+      "finding": "Level2 Intermediate = ABRSM5/RCM6; level3 Upper intermediate = ABRSM6/RCM7; level4 Early advanced = ABRSM7/RCM8. These are relative advisory teaching anchors, not syllabus claims for this work."
+     },
+     {
+      "path": "data/chamber/same-instrument/reviews/originals32-verify.json",
+      "finding": "Supported opinion4, violin3, medium; fact verification and unresolved dates retained."
+     },
+     {
+      "path": "data/chamber/same-instrument/reviews/originals32-blind.json",
+      "finding": "Supported opinion2, violin1, medium; duration account retained but hardest-part conclusion revised in adjudication."
+     },
+     {
+      "path": "data/chamber/same-instrument/reviews/toub-third-34.json",
+      "finding": "Third independent opinion3, violin3, medium, saved before reading prior reviews."
+     }
+    ],
+    "adjudicationFile": "data/chamber/same-instrument/reviews/toub-adjudication-34.json"
+   }
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "1a443113e5547969836e5f6eb619ab4c75aaeb87c0220b1e85f7a0564583688c",
+  "data/chamber/composers.json": "6763f4e8efab2095b66f0a166bcc7ed2a5e4788185abc00a6229e8c7aef2b8fd",
+  "data/chamber/id-registry.json": "8d15595c18155cfd6f15ac1ba4dae8923821461378105c8d63c75edeb4e1afd0",
+  "data/chamber/sources.json": "305bc62b11ba8b0c9ffab805f37e5097aa76b44cc1c5d58804c79abd8d900a19",
+  "data/details/overrides.json": "4c1c7be0b6f4d4cfd6a43f25626d4e941521b5abc282a4b0c6ba50c54eae133c",
+  "data/chamber/recordings-judged.json": "cb0bcf5eac63714812c748f480562cd23bd3cc82373efd6d09303ea299e2998e",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-toub-34.json": "2ebdc07cec5edb603150d68542daee565f1ce61aa80a58c9fc3155fcf65924e4",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/originals32-verify.json": "093359141623fd1157976c5f9352d3356a44cc754e6731ac07d3ca1b2e4fdb45",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/originals32-blind.json": "d79d8e24d1f65dc8c6ef1a888d30df734b317af4ebb33b56ce34aab800194356",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/toub-third-34.json": "15529e0717164c39308068be36ce2b9c78078d1c61c784aaaa6d00c116996146",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/toub-adjudication-34.json": "1d2ff72cba3cb499638a2ff894bd68de3e09dfd854782303dd2da8e857eede3d"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-34"
+}

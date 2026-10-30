@@ -1,0 +1,997 @@
+{
+  "batch": "modern-28",
+  "status": "research-ready",
+  "checkedOn": "2026-10-29",
+  "entries": [
+    {
+      "key": "saariaho-neiges-eight-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Wise Music identifies this 1998 version for eight cellos (or eight double basses), 15 minutes, with score access; IRCAM records a human first performance by the Octuor de violoncelles de Beauvais. Keep distinct from the twelve-cello version.",
+      "work": {
+        "composer": "Saariaho, Kaija",
+        "title": "Neiges (version for 8 cellos)",
+        "instruments": {
+          "cello": 8
+        },
+        "players": 8,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1998",
+        "minutes": 15,
+        "set": null,
+        "notes": "The publisher programme note describes five internal sections (Nuages de neige; two Étoiles de neige; Aiguilles de glace; Fleurs de neige).",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": "1998",
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.wisemusicclassical.com/work/7354/Neiges--Kaija-Saariaho/",
+            "checkedOn": "2026-10-29",
+            "locator": "Work catalogue, program note, or catalogue record",
+            "finding": "The publisher programme note identifies five named internal sections: Nuages de neige, two Étoiles de neige, Aiguilles de glace, and Fleurs de neige. They are retained as notes, not split into separate catalogue entries."
+          },
+          {
+            "url": "https://www.wisemusicclassical.com/work/7354/Neiges--Kaija-Saariaho/",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher / score source",
+            "finding": "Publisher page states 8 cellos [or 8 double basses], duration 15 min, digital score / purchase options."
+          },
+          {
+            "url": "https://ressources.ircam.fr/en/work/neiges",
+            "checkedOn": "2026-10-29",
+            "locator": "Human performance or release evidence",
+            "finding": "IRCAM records creation on 11 May 1998 in Beauvais and interpreters Octuor de violoncelles de Beauvais; human performance of eight-cello version. Full-work extent follows publisher’s 15-minute work listing."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.wisemusicclassical.com/work/7354/Neiges--Kaija-Saariaho/",
+          "finding": "Publisher product record identifies the 1998 work for 8 cellos (alternative 8 double basses), duration 15 minutes, and provides score-purchase options / digital-score-library access. Complete published score is available commercially; no public perusal notation pages were exposed on this publisher page."
+        },
+        "floor": {
+          "url": "https://ressources.ircam.fr/en/work/neiges",
+          "finding": "IRCAM records creation on 11 May 1998 in Beauvais and interpreters Octuor de violoncelles de Beauvais; human performance of eight-cello version. Full-work extent follows publisher’s 15-minute work listing."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://www.wisemusicclassical.com/work/7354/Neiges--Kaija-Saariaho/",
+          "work.title": "https://www.wisemusicclassical.com/work/7354/Neiges--Kaija-Saariaho/",
+          "work.instruments": "https://www.wisemusicclassical.com/work/7354/Neiges--Kaija-Saariaho/",
+          "work.year": "https://www.wisemusicclassical.com/work/7354/Neiges--Kaija-Saariaho/",
+          "work.minutes": "https://www.wisemusicclassical.com/work/7354/Neiges--Kaija-Saariaho/",
+          "work.players": "https://www.wisemusicclassical.com/work/7354/Neiges--Kaija-Saariaho/"
+        },
+        "unknowns": [],
+        "score": {
+          "url": "https://www.wisemusicclassical.com/work/7354/Neiges--Kaija-Saariaho/",
+          "finding": "Publisher product record identifies the 1998 work for 8 cellos (alternative 8 double basses), duration 15 minutes, and provides score-purchase options / digital-score-library access. Complete published score is available commercially; no public perusal notation pages were exposed on this publisher page.",
+          "localPaths": []
+        }
+      }
+    },
+    {
+      "key": "saariaho-neiges-twelve-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Wise Music identifies a distinct twelve-cello version and links it to the eight-cello version. The label/publisher documents the released twelve-cellist recording by Oslo Philharmonic cellists on BIS-2402; retain it as its own exact scoring/version.",
+      "work": {
+        "composer": "Saariaho, Kaija",
+        "title": "Neiges (version for 12 cellists)",
+        "instruments": {
+          "cello": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1998",
+        "minutes": 15,
+        "set": null,
+        "notes": "Distinct 12-cello version of the 1998 work; do not merge with the separately published 8-cello scoring.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": "1998",
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.wisemusicclassical.com/composer/1350/",
+            "checkedOn": "2026-10-29",
+            "locator": "Work catalogue, program note, or catalogue record",
+            "finding": "Publisher catalogue lists BIS-2402, Oslo Philharmonic, 6 September 2019 and Neiges (for twelve cellists)."
+          },
+          {
+            "url": "https://www.wisemusicclassical.com/work/14541/Neiges-for-twelve-cellists--Kaija-Saariaho/",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher / score source",
+            "finding": "Publisher page states 12 cellos, 15 minutes, sale/hire and links the eight-cello version."
+          },
+          {
+            "url": "https://www.wisemusicclassical.com/news/3997/CD-release-of-works-by-Kaija-Saariaho/",
+            "checkedOn": "2026-10-29",
+            "locator": "Human performance or release evidence",
+            "finding": "Wise Music’s label release notice identifies the BIS album, says this is the first recording of Neiges in its twelve-cello version, performed by the cellists of the Oslo Philharmonic. Full work/version and commercial recording are explicit."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.wisemusicclassical.com/work/14541/Neiges-for-twelve-cellists--Kaija-Saariaho/",
+          "finding": "Publisher product record identifies the distinct 12-cellist version, 15 minutes, sale/hire. The linked public Issuu document is titled Neiges (for twelve cellists), is ungated with 70 pages, but its static reader did not expose notation page images; no score pages cached."
+        },
+        "floor": {
+          "url": "https://www.wisemusicclassical.com/news/3997/CD-release-of-works-by-Kaija-Saariaho/",
+          "finding": "Wise Music’s label release notice identifies the BIS album, says this is the first recording of Neiges in its twelve-cello version, performed by the cellists of the Oslo Philharmonic. Full work/version and commercial recording are explicit."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://www.wisemusicclassical.com/composer/1350/",
+          "work.title": "https://www.wisemusicclassical.com/composer/1350/",
+          "work.instruments": "https://www.wisemusicclassical.com/work/14541/Neiges-for-twelve-cellists--Kaija-Saariaho/",
+          "work.year": "https://www.wisemusicclassical.com/composer/1350/",
+          "work.minutes": "https://www.wisemusicclassical.com/work/14541/Neiges-for-twelve-cellists--Kaija-Saariaho/",
+          "work.players": "https://www.wisemusicclassical.com/work/14541/Neiges-for-twelve-cellists--Kaija-Saariaho/"
+        },
+        "unknowns": [],
+        "score": {
+          "url": "https://www.wisemusicclassical.com/work/14541/Neiges-for-twelve-cellists--Kaija-Saariaho/",
+          "finding": "Publisher product record identifies the distinct 12-cellist version, 15 minutes, sale/hire. The linked public Issuu document is titled Neiges (for twelve cellists), is ungated with 70 pages, but its static reader did not expose notation page images; no score pages cached.",
+          "localPaths": []
+        }
+      }
+    },
+    {
+      "key": "reich-cello-counterpoint-cello-octet",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "The composer distinguishes an ensemble/cello-octet version; Boosey sells the Cello Octet material and its official performance calendar documents exact-version performances by cellists from Graz and Grand Valley State University. This closes the human-performance floor for the ensemble version, not the separate solo-with-tape version.",
+      "work": {
+        "composer": "Reich, Steve",
+        "title": "Cello Counterpoint (version for cello octet)",
+        "instruments": {
+          "cello": 8
+        },
+        "players": 8,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "2003",
+        "minutes": 11,
+        "set": null,
+        "notes": "Three movements, fast–slow–fast. Distinct from the one live cello with seven prerecorded tracks performance option.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "movements",
+        "composed": "2003",
+        "published": null,
+        "movements": [
+          "Fast",
+          "Slow",
+          "Fast"
+        ]
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://stevereich.com/composition/cello-counterpoint-ensemble-verion/",
+            "checkedOn": "2026-10-29",
+            "locator": "Work catalogue, program note, or catalogue record",
+            "finding": "Composer page says this version is also available for cello octet; overall work has three movements, fast–slow–fast, and is about 11 minutes."
+          },
+          {
+            "url": "https://www.boosey.com/cr/perusals/score?id=34748",
+            "checkedOn": "2026-10-29",
+            "locator": "Work catalogue, program note, or catalogue record",
+            "finding": "Publisher perusal catalogue labels this exact item “version for cello octet”; observed source confirms distinct version title and rental availability."
+          },
+          {
+            "url": "https://www.boosey.com/cr/music/Steve-Reich-Cello-Counterpoint-ensemble-version/100112",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher / score source",
+            "finding": "Publisher page identifies 2003, 11 minutes, version for cello octet, rental and sale."
+          },
+          {
+            "url": "https://www.boosey.com/pages/cr/calendar/perf_results?composerid=2781&pg=2",
+            "checkedOn": "2026-10-29",
+            "locator": "Human performance or release evidence",
+            "finding": "Publisher performance calendar explicitly lists Cello Counterpoint [ensemble version], with Cellists from Graz, and separately lists the work with Grand Valley State University / Pablo Mahave-Veglia (2016). Exact version and real performance are documented."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.boosey.com/cr/music/Steve-Reich-Cello-Counterpoint-ensemble-version/100112",
+          "finding": "Boosey identifies the 2003, 11-minute version for cello octet and score sale/rental. Public score viewer page https://www.boosey.com/cr/perusals/score?id=34748 explicitly requires login to view score; stopped at that genuine access gate. No local preview pages cached."
+        },
+        "floor": {
+          "url": "https://www.boosey.com/pages/cr/calendar/perf_results?composerid=2781&pg=2",
+          "finding": "Publisher performance calendar explicitly lists Cello Counterpoint [ensemble version], with Cellists from Graz, and separately lists the work with Grand Valley State University / Pablo Mahave-Veglia (2016). Exact version and real performance are documented."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://stevereich.com/composition/cello-counterpoint-ensemble-verion/",
+          "work.title": "https://stevereich.com/composition/cello-counterpoint-ensemble-verion/",
+          "work.instruments": "https://www.boosey.com/cr/music/Steve-Reich-Cello-Counterpoint-ensemble-version/100112",
+          "work.year": "https://stevereich.com/composition/cello-counterpoint-ensemble-verion/",
+          "work.minutes": "https://www.boosey.com/cr/music/Steve-Reich-Cello-Counterpoint-ensemble-version/100112",
+          "work.players": "https://www.boosey.com/cr/music/Steve-Reich-Cello-Counterpoint-ensemble-version/100112"
+        },
+        "unknowns": [],
+        "score": {
+          "url": "https://www.boosey.com/cr/music/Steve-Reich-Cello-Counterpoint-ensemble-version/100112",
+          "finding": "Boosey identifies the 2003, 11-minute version for cello octet and score sale/rental. Public score viewer page https://www.boosey.com/cr/perusals/score?id=34748 explicitly requires login to view score; stopped at that genuine access gate. No local preview pages cached.",
+          "localPaths": []
+        }
+      }
+    },
+    {
+      "key": "reich-violin-phase-four-violins",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "Composer and Universal Edition confirm the four-violin version and score availability, but inspected primary performance/release evidence is for the one-live-violin-with-tape version (Shem Guibbory / Paul Zukofsky), not four independent live violinists. Exact floor gap: a documented complete human performance or release of the four-live-violin version.",
+      "work": {
+        "composer": "Reich, Steve",
+        "title": "Violin Phase (four-violin version)",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1967",
+        "minutes": 15,
+        "set": null,
+        "notes": "Published score has alternative solo-with-tape and four-live-violin scorings; this entry is only the four-live-violin version.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": "1967",
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://stevereich.com/composition/violin-phase/",
+            "checkedOn": "2026-10-29",
+            "locator": "Work catalogue, program note, or catalogue record",
+            "finding": "Composer page distinguishes “for violin and tape, or four violins” and explains four interlocking violin lines."
+          },
+          {
+            "url": "https://www.universaledition.com/en/Violin-Phase/P0040194",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher / score source",
+            "finding": "Universal Edition offers UE16185 for violin with pre-recorded tape or four violins; digital score available."
+          },
+          {
+            "url": "https://ecmrecords.com/product/steve-reich-the-ecm-recordings-steve-reich-ensemble/",
+            "checkedOn": "2026-10-29",
+            "locator": "Human performance or release evidence",
+            "finding": "ECM lists Violin Phase (15:09), but performer roster names Shem Guibbory alone; not used as evidence for the four-live-violin version."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.universaledition.com/en/Violin-Phase/P0040194",
+          "finding": "Universal Edition offers UE16185 for violin with pre-recorded tape or four violins; digital score available."
+        },
+        "floor": {
+          "url": "https://ecmrecords.com/product/steve-reich-the-ecm-recordings-steve-reich-ensemble/",
+          "finding": "ECM lists Violin Phase (15:09), but performer roster names Shem Guibbory alone; not used as evidence for the four-live-violin version."
+        },
+        "version": {
+          "kind": "composer-version",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://stevereich.com/composition/violin-phase/",
+          "work.title": "https://stevereich.com/composition/violin-phase/",
+          "work.instruments": "https://www.universaledition.com/en/Violin-Phase/P0040194",
+          "work.year": "https://stevereich.com/composition/violin-phase/",
+          "work.minutes": "https://www.universaledition.com/en/Violin-Phase/P0040194",
+          "work.players": "https://www.universaledition.com/en/Violin-Phase/P0040194"
+        },
+        "unknowns": []
+      }
+    },
+    {
+      "key": "berio-korot-eight-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "IRCAM records the exact eight-cello work and human first performance; Universal Edition’s publisher-produced Berio catalogue identifies the UE31339 score and parts on hire with the score for sale special order. Commercial complete score source is now verified; retain as a fact-review lead.",
+      "work": {
+        "composer": "Berio, Luciano",
+        "title": "Korót",
+        "instruments": {
+          "cello": 8
+        },
+        "players": 8,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1998",
+        "minutes": 9,
+        "set": null,
+        "notes": "IRCAM states creation date 11 May 1998 and a June 24, 2000 concert; full recording is available in IRCAM media library, but score availability was not established from a primary publisher page.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": "1998",
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://ressources.ircam.fr/en/work/korot",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher / score source",
+            "finding": "IRCAM work catalogue confirms the exact scoring, composer, date, duration, and names Universal Edition as publisher, but is not itself a score source."
+          },
+          {
+            "url": "https://www.yumpu.com/it/document/view/3854619/luciano-berio-universal-edition",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher catalogue / score source",
+            "finding": "Universal Edition Berio catalogue (publisher-produced catalog, publicly viewable via Yumpu rehost) identifies Korót (1998) for 8 cellos and states score and parts on hire, with score UE31339 for sale (special order). No actual score sample pages cached; catalogue material confirms a complete commercial score source."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.yumpu.com/it/document/view/3854619/luciano-berio-universal-edition",
+          "finding": "Universal Edition Berio catalogue (publisher-produced catalog, publicly viewable via Yumpu rehost) identifies Korót (1998) for 8 cellos and states score and parts on hire, with score UE31339 for sale (special order). No actual score sample pages cached; catalogue material confirms a complete commercial score source."
+        },
+        "floor": {
+          "url": null,
+          "finding": "A human performance/release of the exact version is unresolved."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://ressources.ircam.fr/en/work/korot",
+          "work.title": "https://ressources.ircam.fr/en/work/korot",
+          "work.instruments": "https://ressources.ircam.fr/en/work/korot",
+          "work.year": "https://ressources.ircam.fr/en/work/korot",
+          "work.minutes": "https://ressources.ircam.fr/en/work/korot",
+          "work.players": "https://ressources.ircam.fr/en/work/korot"
+        },
+        "unknowns": [],
+        "score": {
+          "url": "https://www.yumpu.com/it/document/view/3854619/luciano-berio-universal-edition",
+          "finding": "Universal Edition Berio catalogue (publisher-produced catalog, publicly viewable via Yumpu rehost) identifies Korót (1998) for 8 cellos and states score and parts on hire, with score UE31339 for sale (special order). No actual score sample pages cached; catalogue material confirms a complete commercial score source.",
+          "localPaths": []
+        }
+      }
+    },
+    {
+      "key": "jacob-cello-octet",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "The composer catalogue and current SJ Music product catalogue establish the title and eight-cello score sale. Remaining gap: primary source documenting an actual complete performance/release of this exact octet. A future-dated event listing was not treated as proof of performance.",
+      "work": {
+        "composer": "Jacob, Gordon",
+        "title": "Cello Octet",
+        "instruments": {
+          "cello": 8
+        },
+        "players": 8,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "Score is sold by SJ Music; year and confirmed performance extent remain open.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {
+        "dates": "1895–1984",
+        "nationality": "British",
+        "gender": "M",
+        "era": "20th-century"
+      },
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.prestomusic.com/sheet-music/products/7492838--gordon-jacob-cello-octet",
+            "checkedOn": "2026-10-29",
+            "locator": "Work catalogue, program note, or catalogue record",
+            "finding": "Retailer commentary states it was commissioned in 1981; not used as primary evidence for year. The source-ready record leaves year blank."
+          },
+          {
+            "url": "https://www.sjmusicpublications.co.uk/cellists",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher / score source",
+            "finding": "SJ Music’s own current catalogue lists “Jacob: Cello Octet,” describes it as an octet for eight cellos, and offers it for £33.00."
+          },
+          {
+            "url": "https://www.gordonjacob.net/browse_works.html",
+            "checkedOn": "2026-10-29",
+            "locator": "Human performance or release evidence",
+            "finding": "Composer’s official works catalogue lists Cello Octet, but gives no inspected performance/release evidence."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.sjmusicpublications.co.uk/cellists",
+          "finding": "SJ Music’s own current catalogue lists “Jacob: Cello Octet,” describes it as an octet for eight cellos, and offers it for £33.00."
+        },
+        "floor": {
+          "url": "https://www.gordonjacob.net/browse_works.html",
+          "finding": "Composer’s official works catalogue lists Cello Octet, but gives no inspected performance/release evidence."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://www.prestomusic.com/sheet-music/products/7492838--gordon-jacob-cello-octet",
+          "work.title": "https://www.prestomusic.com/sheet-music/products/7492838--gordon-jacob-cello-octet",
+          "work.instruments": "https://www.sjmusicpublications.co.uk/cellists",
+          "work.year": "https://www.prestomusic.com/sheet-music/products/7492838--gordon-jacob-cello-octet",
+          "work.minutes": "https://www.sjmusicpublications.co.uk/cellists",
+          "work.players": "https://www.sjmusicpublications.co.uk/cellists"
+        },
+        "unknowns": [
+          "Composition year not confirmed from the inspected primary source."
+        ]
+      }
+    },
+    {
+      "key": "sculthorpe-chorale-eight-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Faber Music confirms Chorale for eight cellos, duration five minutes, score for sale and parts for hire; the publisher records the complete first performance by Lontano / Odaline de la Martinez at the 1994 Vale of Glamorgan Festival.",
+      "work": {
+        "composer": "Sculthorpe, Peter",
+        "title": "Chorale",
+        "instruments": {
+          "cello": 8
+        },
+        "players": 8,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1994",
+        "minutes": 5,
+        "set": null,
+        "notes": "One-movement work; publisher programme note calls the form an introduction and two chorale statements.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": "1994",
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.fabermusic.com/we-represent/peter-sculthorpe/works",
+            "checkedOn": "2026-10-29",
+            "locator": "Work catalogue, program note, or catalogue record",
+            "finding": "Faber works catalogue independently lists Chorale (1994), 8 cellos, 5 minutes."
+          },
+          {
+            "url": "https://www.fabermusic.com/music/chorale-2495",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher / score source",
+            "finding": "Publisher page gives 8 cellos, 1994, duration 5, score for sale and parts for hire."
+          },
+          {
+            "url": "https://www.fabermusic.com/music/chorale-2495",
+            "checkedOn": "2026-10-29",
+            "locator": "Human performance or release evidence",
+            "finding": "Publisher identifies first performance 28 August 1994 by Lontano / Odaline de la Martinez at St Donat’s Castle; exact work/scoring matches."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.fabermusic.com/music/chorale-2495/score",
+          "finding": "Faber public perusal viewer for Chorale (8 cellos) exposes score notation pages. Cached public preview pages 3 and 12 show the eight separately labeled cello staves; pages 1 and 2 are title/program-note pages. This is a watermarked perusal preview, not the complete score; Faber lists the complete score for sale and parts for hire."
+        },
+        "floor": {
+          "url": "https://www.fabermusic.com/music/chorale-2495",
+          "finding": "Publisher identifies first performance 28 August 1994 by Lontano / Odaline de la Martinez at St Donat’s Castle; exact work/scoring matches."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://www.fabermusic.com/we-represent/peter-sculthorpe/works",
+          "work.title": "https://www.fabermusic.com/we-represent/peter-sculthorpe/works",
+          "work.instruments": "https://www.fabermusic.com/music/chorale-2495",
+          "work.year": "https://www.fabermusic.com/we-represent/peter-sculthorpe/works",
+          "work.minutes": "https://www.fabermusic.com/music/chorale-2495",
+          "work.players": "https://www.fabermusic.com/music/chorale-2495"
+        },
+        "unknowns": [],
+        "score": {
+          "url": "https://www.fabermusic.com/music/chorale-2495/score",
+          "finding": "Faber public perusal viewer for Chorale (8 cellos) exposes score notation pages. Cached public preview pages 3 and 12 show the eight separately labeled cello staves; pages 1 and 2 are title/program-note pages. This is a watermarked perusal preview, not the complete score; Faber lists the complete score for sale and parts for hire.",
+          "localPaths": [
+            "data/cache/same-instrument-modern28/sculthorpe-chorale-preview-page-1.jpg",
+            "data/cache/same-instrument-modern28/sculthorpe-chorale-preview-page-2.jpg",
+            "data/cache/same-instrument-modern28/sculthorpe-chorale-preview-page-3.jpg",
+            "data/cache/same-instrument-modern28/sculthorpe-chorale-preview-page-12.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "key": "denisov-hymne-eight-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "A retailer advertises a Chant du Monde score and parts, but the primary publisher page and a primary-source exact-version performance/release were not found. Remaining gaps: primary score availability evidence and verifiable human performance floor.",
+      "work": {
+        "composer": "Denisov, Edison",
+        "title": "Hymne",
+        "instruments": {
+          "cello": 8
+        },
+        "players": 8,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "The suggested 1995 date and 5-minute duration were not adopted without inspected primary evidence.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.chantdumonde.com/",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher / score source",
+            "finding": "No inspected primary product page for Hymne was located; do not treat the reseller listing as publisher confirmation."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.chantdumonde.com/",
+          "finding": "No inspected primary product page for Hymne was located; do not treat the reseller listing as publisher confirmation."
+        },
+        "floor": {
+          "url": null,
+          "finding": "A human performance/release of the exact version is unresolved."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://www.chantdumonde.com/",
+          "work.title": "https://www.chantdumonde.com/",
+          "work.instruments": "https://www.chantdumonde.com/",
+          "work.year": "https://www.chantdumonde.com/",
+          "work.minutes": "https://www.chantdumonde.com/",
+          "work.players": "https://www.chantdumonde.com/"
+        },
+        "unknowns": [
+          "Composition year not confirmed from the inspected primary source."
+        ]
+      }
+    },
+    {
+      "key": "gubaidulina-fata-morgana-eight-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Boosey & Hawkes confirms this 2002 work for eight cellos, 12 minutes, publisher Sikorski, and first performance by Octuor de Violoncelles de Beauvais. Solo Musica’s released album identifies the exact work and cellists Julius Berger, Hyun-Jung Berger and Ensemble CelloPassionato.",
+      "work": {
+        "composer": "Gubaidulina, Sofia",
+        "title": "Fata Morgana: Die tanzende Sonne (The Dancing Sun)",
+        "instruments": {
+          "cello": 8
+        },
+        "players": 8,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "2002",
+        "minutes": 12,
+        "set": null,
+        "notes": "Alternate publisher title: Mirage: The Dancing Sun. Single-movement work.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": "2002",
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://publikacie.hc.sk/melos-etos/me_2003_en.pdf",
+            "checkedOn": "2026-10-29",
+            "locator": "Work catalogue, program note, or catalogue record",
+            "finding": "Festival programme gives title, 2002, eight cellos and dedication to the Octuor de violoncelles de Beauvais."
+          },
+          {
+            "url": "https://www.boosey.com/cr/music/Sofia-Gubaidulina-Mirage-The-Dancing-Sun/104479",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher / score source",
+            "finding": "Publisher page gives original German title, 2002, eight cellos, duration 12, sale availability and first-performance context."
+          },
+          {
+            "url": "https://classical.music.apple.com/us/album/691406920",
+            "checkedOn": "2026-10-29",
+            "locator": "Human performance or release evidence",
+            "finding": "Solo Musica release “4 for Peace” (2013) lists Gubaidulina’s Fata Morgana / Die tanzende Sonne, 13:40, performed by Julius Berger, Hyun-Jung Berger and Ensemble CelloPassionato."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.boosey.com/cr/music/Sofia-Gubaidulina-Mirage-The-Dancing-Sun/104479",
+          "finding": "Boosey publisher record identifies Mirage: The Dancing Sun / Fata Morgana: Die tanzende Sonne (2002), for 8 cellos, duration 12 minutes, and marks the score for sale. Page provides commercial complete-score availability but no public score preview/sample image; no local notation pages cached."
+        },
+        "floor": {
+          "url": "https://classical.music.apple.com/us/album/691406920",
+          "finding": "Solo Musica release “4 for Peace” (2013) lists Gubaidulina’s Fata Morgana / Die tanzende Sonne, 13:40, performed by Julius Berger, Hyun-Jung Berger and Ensemble CelloPassionato."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://publikacie.hc.sk/melos-etos/me_2003_en.pdf",
+          "work.title": "https://publikacie.hc.sk/melos-etos/me_2003_en.pdf",
+          "work.instruments": "https://www.boosey.com/cr/music/Sofia-Gubaidulina-Mirage-The-Dancing-Sun/104479",
+          "work.year": "https://publikacie.hc.sk/melos-etos/me_2003_en.pdf",
+          "work.minutes": "https://www.boosey.com/cr/music/Sofia-Gubaidulina-Mirage-The-Dancing-Sun/104479",
+          "work.players": "https://www.boosey.com/cr/music/Sofia-Gubaidulina-Mirage-The-Dancing-Sun/104479"
+        },
+        "unknowns": [],
+        "score": {
+          "url": "https://www.boosey.com/cr/music/Sofia-Gubaidulina-Mirage-The-Dancing-Sun/104479",
+          "finding": "Boosey publisher record identifies Mirage: The Dancing Sun / Fata Morgana: Die tanzende Sonne (2002), for 8 cellos, duration 12 minutes, and marks the score for sale. Page provides commercial complete-score availability but no public score preview/sample image; no local notation pages cached.",
+          "localPaths": []
+        }
+      }
+    },
+    {
+      "key": "bussotti-poesies-a-maldoror-eight-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "IRCAM identifies the 1999–2000 work for eight cellos, b.o.b. publisher, and a 13 January 2000 Amsterdam creation entry. Primary publisher product/score availability was not located, and creation-date records conflict with other catalogue data. Remaining gaps: direct score source and exact event/extent clarification.",
+      "work": {
+        "composer": "Bussotti, Sylvano",
+        "title": "Poésies à Maldoror",
+        "instruments": {
+          "cello": 8
+        },
+        "players": 8,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1999–2000",
+        "minutes": 15,
+        "set": null,
+        "notes": "IRCAM’s event date is 13 January 2000; another catalogue result gives 13 January 2001, so event date remains unresolved.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": "1999–2000",
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://resources.ircam.fr/fr/work/poesies-a-maldoror",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher / score source",
+            "finding": "IRCAM catalogue identifies eight cellos, 1999–2000, b.o.b. publisher, and creation entry Amsterdam 13 Jan 2000; no score product/sample linked from this record."
+          }
+        ],
+        "scoring": {
+          "url": "https://resources.ircam.fr/fr/work/poesies-a-maldoror",
+          "finding": "IRCAM catalogue identifies eight cellos, 1999–2000, b.o.b. publisher, and creation entry Amsterdam 13 Jan 2000; no score product/sample linked from this record."
+        },
+        "floor": {
+          "url": null,
+          "finding": "A human performance/release of the exact version is unresolved."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://resources.ircam.fr/fr/work/poesies-a-maldoror",
+          "work.title": "https://resources.ircam.fr/fr/work/poesies-a-maldoror",
+          "work.instruments": "https://resources.ircam.fr/fr/work/poesies-a-maldoror",
+          "work.year": "https://resources.ircam.fr/fr/work/poesies-a-maldoror",
+          "work.minutes": "https://resources.ircam.fr/fr/work/poesies-a-maldoror",
+          "work.players": "https://resources.ircam.fr/fr/work/poesies-a-maldoror"
+        },
+        "unknowns": []
+      }
+    },
+    {
+      "key": "gould-cellos-eight-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Library of Congress identifies the 1984 score and parts in Gould’s archive; the composer’s official catalog says eight cellos (or multiples), 16 minutes. Musical Heritage Society’s recording page identifies the complete four-movement work and an octet of New York Violoncello Society members, with Morton Gould conducting.",
+      "work": {
+        "composer": "Gould, Morton",
+        "title": "Cellos",
+        "instruments": {
+          "cello": 8
+        },
+        "players": 8,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1984",
+        "minutes": 16,
+        "set": null,
+        "notes": "Four movements: Stringendo, Sostenuto, Pizzicato, Spiccato. This entry represents the eight-cellist version, not a larger cello orchestra.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "movements",
+        "composed": "1984",
+        "published": null,
+        "movements": [
+          "Stringendo",
+          "Sostenuto",
+          "Pizzicato",
+          "Spiccato"
+        ]
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://mortongould.com/breakdown.html",
+            "checkedOn": "2026-10-29",
+            "locator": "Work catalogue, program note, or catalogue record",
+            "finding": "Composer’s official catalog lists Cellos (1984), 8 vc (or multiples), duration 16 minutes."
+          },
+          {
+            "url": "https://themusicalheritagesociety.com/blogs/exploring-music/review-morton-gould-chamber-music",
+            "checkedOn": "2026-10-29",
+            "locator": "Work catalogue, program note, or catalogue record",
+            "finding": "MHS page identifies movements Stringendo, Sostenuto, Pizzicato, Spiccato and describes the recording."
+          },
+          {
+            "url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu010028/mu010028.pdf",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher / score source",
+            "finding": "Library of Congress finding aid lists “‘Cellos (violoncellos), 1984,” score, parts, sketches, and commission for Mstislav Rostropovich / Second American Cello Congress."
+          },
+          {
+            "url": "https://themusicalheritagesociety.com/blogs/exploring-music/review-morton-gould-chamber-music",
+            "checkedOn": "2026-10-29",
+            "locator": "Human performance or release evidence",
+            "finding": "MHS recording page lists all four movements and identifies an octet of New York Violoncello Society members; credits include Morton Gould, conductor. Composer catalogue lists duration and exact eight-cello scoring."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.jwpepper.com/cellos-for-8-cellos-6091367/p",
+          "finding": "Retailer product record identifies Morton Gould, Cellos for 8 Cellos, published by G. Schirmer, copyright 1984/91, and sells the complete 16-minute cello-ensemble score. A separate Forsyth product record gives 128 pages and ISBN 9780793511228. Neither page exposes a public score preview; no local notation pages cached."
+        },
+        "floor": {
+          "url": "https://themusicalheritagesociety.com/blogs/exploring-music/review-morton-gould-chamber-music",
+          "finding": "MHS recording page lists all four movements and identifies an octet of New York Violoncello Society members; credits include Morton Gould, conductor. Composer catalogue lists duration and exact eight-cello scoring."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://mortongould.com/breakdown.html",
+          "work.title": "https://mortongould.com/breakdown.html",
+          "work.instruments": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu010028/mu010028.pdf",
+          "work.year": "https://mortongould.com/breakdown.html",
+          "work.minutes": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu010028/mu010028.pdf",
+          "work.players": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu010028/mu010028.pdf"
+        },
+        "unknowns": [],
+        "score": {
+          "url": "https://www.jwpepper.com/cellos-for-8-cellos-6091367/p",
+          "finding": "Retailer product record identifies Morton Gould, Cellos for 8 Cellos, published by G. Schirmer, copyright 1984/91, and sells the complete 16-minute cello-ensemble score. A separate Forsyth product record gives 128 pages and ISBN 9780793511228. Neither page exposes a public score preview; no local notation pages cached.",
+          "localPaths": []
+        }
+      }
+    },
+    {
+      "key": "gordon-eight-eight-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Composer’s official catalogue identifies the work for eight cellos, 53 minutes, its Cello Octet Amsterdam world premiere at Cello Biennale Amsterdam (20 October 2018), rental and score preview. The composer’s discography identifies a 2021 Cantaloupe Music release by Cello Octet Amsterdam; official composer page exposes a full-program audio file.",
+      "work": {
+        "composer": "Gordon, Michael",
+        "title": "8",
+        "instruments": {
+          "cello": 8
+        },
+        "players": 8,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "2018",
+        "minutes": 53,
+        "set": null,
+        "notes": "Work is spatially staged with eight cellos in a circle; composer page offers a full-program audio file. Check audio extent at fact review.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": "2018",
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://michaelgordonmusic.com/music/8/",
+            "checkedOn": "2026-10-29",
+            "locator": "Publisher / score source",
+            "finding": "Official composer page states eight cellos, 2018, 53 minutes, Cello Octet Amsterdam and score preview/rental links."
+          },
+          {
+            "url": "https://michaelgordonmusic.com/music/8/",
+            "checkedOn": "2026-10-29",
+            "locator": "Composer page, first performance / recording link",
+            "finding": "Composer identifies first performance on 20 October 2018 at Cello Biennale Amsterdam and links the recording “05_8-Full-Program.mp3”."
+          }
+        ],
+        "scoring": {
+          "url": "https://michaelgordonmusic.com/music/8/",
+          "finding": "Composer’s official work page gives 8 cellos and provides a score preview/rental link to the Ricordi Issuu reader. Its public Issuu record is ungated and identifies “8” / “or eight cellos” (208 pages), but the static reader did not expose notation page images; no sample pages cached."
+        },
+        "floor": {
+          "url": "https://michaelgordonmusic.com/discography/8/",
+          "finding": "Composer discography identifies Cello Octet Amsterdam, label Cantaloupe Music, release date 2021, and exact work 8 (2018), 53 minutes, eight cellos."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://michaelgordonmusic.com/music/8/",
+          "work.title": "https://michaelgordonmusic.com/music/8/",
+          "work.instruments": "https://michaelgordonmusic.com/music/8/",
+          "work.year": "https://michaelgordonmusic.com/music/8/",
+          "work.minutes": "https://michaelgordonmusic.com/music/8/",
+          "work.players": "https://michaelgordonmusic.com/music/8/"
+        },
+        "unknowns": [],
+        "score": {
+          "url": "https://michaelgordonmusic.com/music/8/",
+          "finding": "Composer’s official work page gives 8 cellos and provides a score preview/rental link to the Ricordi Issuu reader. Its public Issuu record is ungated and identifies “8” / “or eight cellos” (208 pages), but the static reader did not expose notation page images; no sample pages cached.",
+          "localPaths": []
+        }
+      }
+    }
+  ],
+  "resume": {
+    "nextLead": null
+  }
+}

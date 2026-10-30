@@ -1,0 +1,77 @@
+{
+ "batch": "ensemble-07-hermann",
+ "accepted": [
+  {
+   "key": "hermann-op13-original-3violins",
+   "id": 109156,
+   "publicId": 109156,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    7,
+    7
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "kind",
+    "movements",
+    "dedication"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "hermann-op17-original-3violins",
+   "id": 109157,
+   "publicId": 109157,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    7,
+    7
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "kind",
+    "movements",
+    "otherTitles"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [
+  {
+   "key": "hermann-op9-original-3violins",
+   "reason": "Two supported independent grades are required",
+   "opinions": []
+  },
+  {
+   "key": "hermann-op5-original-3violins",
+   "reason": "Two supported independent grades are required",
+   "opinions": []
+  },
+  {
+   "key": "lachner-op160-original-5cellos",
+   "reason": "No independent approval"
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "3804242a9797e25347645ce2d557e5c7a4b06f9f1d2a96e4b2fe342f72323830",
+  "data/chamber/composers.json": "78c58aeca2c8bbf27e5e25189761e606c7d6ac9edf1258159bec424b5f502408",
+  "data/chamber/id-registry.json": "0d572936237d0e2eac83eaafdc540f580e120cc32dfd987be83bfabf3c829189",
+  "data/chamber/sources.json": "a4f05358da31c9b272c3d4b9d441d87c5e2bb2c3692ca60727a60f9c83acb63c",
+  "data/details/overrides.json": "873ade26d4cb749cb29aca384f398894200cc12868a379a12aa9b073db6ac87f",
+  "data/chamber/recordings-judged.json": "b29c9d55c92f6b4f185f147d38f4c04d33bafae1a51a35930e149934adabead1",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-enrich-01.json": "0e142c3e42284ac8abd62c3baeb85bbef84d16ee234a127f18871bff46555f79",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-verify-02.json": "e99b7c7a433739d4aeb008c99c9b5126e693169b7cb51f60a970e38cc4a5541e",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grades-03.json": "a5a9b464221b9b80c9165aa2032dce8d6d8b497b23c53494ab7ef0901ed5b4ef"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-07-hermann"
+}

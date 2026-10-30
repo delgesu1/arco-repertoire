@@ -1,0 +1,118 @@
+{
+  "entries": [
+    {
+      "key": "trapkus-quartet-four-violins",
+      "decision": "include",
+      "requiresFactReview": true,
+      "reason": "Primary self-attributed performer credit, exact original version and complete extent credibly meet human-performance floor. Previous hold imposed an unnecessarily strict recording-method wording requirement; no specific conflicting MIDI evidence remains. This is evidence-based acceptance of a human recording with likely overdubbing, not certification of live quartet or recording method.",
+      "work": {
+        "composer": "Trapkus, Paul",
+        "title": "Quartet for 4 Violins",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 4,
+        "hardestPart": "violin 1",
+        "year": "2023",
+        "minutes": 5,
+        "set": null,
+        "notes": "Original for 4 violins.",
+        "popularity": null,
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "lyrical"
+        ],
+        "imslpPage": "Quartet for 4 Violins (Trapkus, Paul)"
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+            "checkedOn": "2026-10-28",
+            "locator": "Cached IMSLP revision 3923706",
+            "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+            "cache": "data/cache/same-instrument-imslp/pages/1326417.json"
+          },
+          {
+            "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+            "finding": "IDENTITY: exact audio #843101 explicitly credits Paul Trapkus as Performers, separately from uploader Ptrapkus. Independently established violinist identity plus affirmative primary performer attribution supports human performance; absence of the word multitrack is not contrary evidence. Recordings (1) versus Synthesized/MIDI (0) corroborates but does not alone establish humanity."
+          },
+          {
+            "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+            "finding": "VERSION: original four-violin work, not an arrangement; no alternative scoring is attached to the recording. One named performer across four simultaneous violin lines is consistent with human overdubbing, which is accepted; no claim of a live four-person ensemble or independently verified recording method is made."
+          },
+          {
+            "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+            "finding": "EXTENT: Complete Recording #843101 lasts 5:00, matching single-movement five-minute whole work. No excerpt indication. All four excluded performers absent from sole primary performer credit."
+          },
+          {
+            "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/843096",
+            "finding": "Complete 14-page score visually inspected through final cadence. Four independent violin staves confirm scoring. Grade-setting long semiquaver passages occur beyond original p.2 sample."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "finding": "4 violins; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+        },
+        "score": {
+          "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/843096",
+          "finding": "Ordinary helper recovered verified14-page composer PDF, four independently labelled violin staves. PDF1,3,6,10,14 inspected; high first-violin line and sustained rapid repeated figures; optional top notes in fourth-violin opening.",
+          "localPath": "data/cache/same-instrument-imslp/scores/recovery-25/1326417.pdf"
+        },
+        "floor": {
+          "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "finding": "Primary self-attributed performer credit, exact original version and complete extent credibly meet human-performance floor. Previous hold imposed an unnecessarily strict recording-method wording requirement; no specific conflicting MIDI evidence remains. This is evidence-based acceptance of a human recording with likely overdubbing, not certification of live quartet or recording method."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "work.title": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "work.instruments": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "work.players": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "work.year": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "work.minutes": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+          "work.imslpPage": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)"
+        },
+        "unknowns": {
+          "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+          "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review.",
+          "recording method": "Likely human overdubbing from sole named performer for four simultaneous parts; live quartet and recording method not independently certified."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "medium",
+        "basis": "Score p.2: upper-register first violin, repeated double stops in fourth violin and interlocking eighth-note figures at q=c140–150.",
+        "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/1326417.png"
+      },
+      "recordingResearch": {
+        "status": "floor-verified-no-approved-youtube",
+        "candidates": [
+          {
+            "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+            "performers": [
+              "Paul Trapkus"
+            ],
+            "finding": "Primary self-attributed performer credit, exact original version and complete extent credibly meet human-performance floor. Previous hold imposed an unnecessarily strict recording-method wording requirement; no specific conflicting MIDI evidence remains. This is evidence-based acceptance of a human recording with likely overdubbing, not certification of live quartet or recording method.",
+            "locator": "Original instrumentation audio block"
+          }
+        ]
+      },
+      "composerMetadata": {
+        "dates": "1987–",
+        "nationality": "American",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "priorResearch": "research/batch-originals-01-ready.json; researcher grade4 unchanged; factual hold resolved by reviews/trapkus-final-audit.json."
+    }
+  ]
+}

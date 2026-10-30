@@ -1,0 +1,585 @@
+{
+  "batch": "modern12-01",
+  "status": "complete",
+  "checkedOn": "2026-10-28",
+  "entries": [
+    {
+      "key": "francaix-aubade-twelve-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Schott sells the original twelve-cello score; the first-performing Berlin twelve cellists recorded the complete six-movement work on Acanta.",
+      "work": {
+        "composer": "Françaix, Jean",
+        "title": "Aubade for 12 Cellos",
+        "instruments": {
+          "cello": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1974",
+        "minutes": 14,
+        "set": null,
+        "notes": "Six movements; commissioned for the 25th anniversary of Berliner Festwochen.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {
+        "dates": "1912–1997",
+        "nationality": "French",
+        "gender": "M",
+        "era": "20th-century"
+      },
+      "details": {
+        "kind": "single",
+        "composed": "1974",
+        "published": null,
+        "movements": [
+          "Andantino",
+          "Allegro ritmico",
+          "Allegretto amabile",
+          "Vivacissimo",
+          "Andante",
+          "Presto"
+        ]
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.schott-music.com/fr/aubade-noc36979.html",
+            "checkedOn": "2026-10-28",
+            "locator": "Product details",
+            "finding": "Schott sells score ED 6710 for twelve cellos; 1974, 14 minutes, six movements; premiered by Die 12 Cellisten in 1975."
+          },
+          {
+            "url": "https://www.jeanfrancaix.com/en/catalogue/aubade",
+            "checkedOn": "2026-10-28",
+            "locator": "Official work catalogue",
+            "finding": "Composer catalogue confirms twelve cellos, 1974, 14 minutes, Schott."
+          },
+          {
+            "url": "https://www.jpc.de/jpcng/classic/detail/-/art/Die-12-Cellisten-der-Berliner-Philharmoniker/hnum/4916678",
+            "checkedOn": "2026-10-28",
+            "locator": "Acanta CD track list",
+            "finding": "Acanta CD by Die 12 Cellisten lists all six movements of Aubade."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.schott-music.com/fr/aubade-noc36979.html",
+          "locator": "Product title and details",
+          "finding": "Twelve violoncellos; score only; no other instruments."
+        },
+        "floor": {
+          "url": "https://www.jpc.de/jpcng/classic/detail/-/art/Die-12-Cellisten-der-Berliner-Philharmoniker/hnum/4916678",
+          "finding": "Commercial Acanta CD by the Berlin twelve cellists contains all six movements."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://www.schott-music.com/fr/aubade-noc36979.html",
+          "finding": "Current Schott listing offers printed and PDF score."
+        },
+        "fieldSources": {
+          "work.composer": "https://www.schott-music.com/fr/aubade-noc36979.html",
+          "work.title": "https://www.schott-music.com/fr/aubade-noc36979.html",
+          "work.instruments": "https://www.schott-music.com/fr/aubade-noc36979.html",
+          "work.year": "https://www.schott-music.com/fr/aubade-noc36979.html",
+          "work.minutes": "https://www.schott-music.com/fr/aubade-noc36979.html",
+          "composerMetadata.dates": "https://www.jeanfrancaix.com/en/catalogue/aubade",
+          "composerMetadata.nationality": "https://www.jeanfrancaix.com/en/catalogue/aubade",
+          "details.movements": "https://www.schott-music.com/fr/aubade-noc36979.html"
+        },
+        "unknowns": {
+          "work.level": "No musical grading performed.",
+          "work.hardestPart": "No musical grading performed."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher."
+      },
+      "recordingResearch": {
+        "status": "released-human-recording-established",
+        "queries": [
+          "Jean Françaix Aubade twelve cellos Acanta CD track listing"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.jpc.de/jpcng/classic/detail/-/art/Die-12-Cellisten-der-Berliner-Philharmoniker/hnum/4916678",
+            "performers": [
+              "Die 12 Cellisten der Berliner Philharmoniker"
+            ],
+            "finding": "Commercial CD listing gives all six movements."
+          }
+        ]
+      }
+    },
+    {
+      "key": "xenakis-retours-windungen-twelve-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Xenakis foundation identifies the original twelve-cello work and Salabert score; the composer archive documents a commercial recording by the Berlin twelve.",
+      "work": {
+        "composer": "Xenakis, Iannis",
+        "title": "Retours-Windungen",
+        "instruments": {
+          "cello": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1976",
+        "minutes": 8,
+        "set": null,
+        "notes": "Written for the Berlin Philharmonic twelve cellists; no electronics or additional players.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {
+        "dates": "1922–2001",
+        "nationality": "Greek-French",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "details": {
+        "kind": "single",
+        "composed": "1976",
+        "published": "1976, Salabert",
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.iannis-xenakis.org/en/retours-windungen/",
+            "checkedOn": "2026-10-28",
+            "locator": "Work page",
+            "finding": "Xenakis official site identifies Retours-Windungen, 1976, Salabert EAS 17344."
+          },
+          {
+            "url": "https://ressources.ircam.fr/en/work/retours-windungen",
+            "checkedOn": "2026-10-28",
+            "locator": "Work record",
+            "finding": "IRCAM lists twelve cellos, 1976, eight minutes, Salabert; premiere information."
+          },
+          {
+            "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/1987.-Xenakis-on-Xenakis.pdf",
+            "checkedOn": "2026-10-28",
+            "locator": "Work catalogue, string ensemble section",
+            "finding": "Xenakis catalogue lists Retours-Windungen for twelve cellos, 8 minutes, marked as recorded."
+          },
+          {
+            "url": "https://citeseerx.ist.psu.edu/document?doi=4bb7b9ebe8ec21901c40ee0a7d15f44ca8ac8860&repid=rep1&type=pdf",
+            "checkedOn": "2026-10-28",
+            "locator": "Xenakis discography",
+            "finding": "Discography identifies Telefunken CD 8.42339 ZK recording by the 12 Cellisten der Berliner Philharmoniker."
+          }
+        ],
+        "scoring": {
+          "url": "https://ressources.ircam.fr/en/work/retours-windungen",
+          "locator": "Detailed formation",
+          "finding": "Twelve cellos only."
+        },
+        "floor": {
+          "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/1987.-Xenakis-on-Xenakis.pdf",
+          "finding": "Composer catalogue marks the work as recorded; discography identifies commercial Telefunken CD and Berlin twelve performers."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://www.iannis-xenakis.org/en/retours-windungen/",
+          "finding": "Official Xenakis work page identifies Salabert edition EAS 17344."
+        },
+        "fieldSources": {
+          "work.composer": "https://www.iannis-xenakis.org/en/retours-windungen/",
+          "work.title": "https://www.iannis-xenakis.org/en/retours-windungen/",
+          "work.instruments": "https://ressources.ircam.fr/en/work/retours-windungen",
+          "work.year": "https://ressources.ircam.fr/en/work/retours-windungen",
+          "work.minutes": "https://ressources.ircam.fr/en/work/retours-windungen",
+          "composerMetadata.dates": "https://ressources.ircam.fr/en/work/retours-windungen"
+        },
+        "unknowns": {
+          "work.level": "No musical grading performed.",
+          "work.hardestPart": "No musical grading performed."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher."
+      },
+      "recordingResearch": {
+        "status": "released-human-recording-established",
+        "queries": [
+          "Xenakis Retours-Windungen Telefunken CD Berlin Philharmonic twelve cellists"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/1987.-Xenakis-on-Xenakis.pdf",
+            "performers": [
+              "12 Cellisten der Berliner Philharmoniker"
+            ],
+            "finding": "Discography lists commercial Telefunken CD 8.42339 ZK."
+          }
+        ]
+      }
+    },
+    {
+      "key": "dean-twelve-angry-men",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Boosey confirms the original scoring and worldwide rental availability; its Sydney Symphony label release documents the complete recorded work.",
+      "work": {
+        "composer": "Dean, Brett",
+        "title": "Twelve Angry Men",
+        "instruments": {
+          "cello": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1996",
+        "minutes": 18,
+        "set": null,
+        "notes": "Tone poem inspired by Sidney Lumet’s film; publisher provides the score by rental.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {
+        "dates": "b. 1961",
+        "nationality": "Australian",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "details": {
+        "kind": "single",
+        "composed": "1996",
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+            "checkedOn": "2026-10-28",
+            "locator": "Work page",
+            "finding": "Boosey lists 1996, twelve cellos, 18 minutes, Bote & Bock publisher, rental availability worldwide and premiere by Berlin twelve."
+          },
+          {
+            "url": "https://www.boosey.com/audio-clip/Twelve-Angry-Men-1996/12039",
+            "checkedOn": "2026-10-28",
+            "locator": "Audio clip credits",
+            "finding": "Excerpt credited to Cellists of the Sydney Symphony / Brett Dean, ©2008 Sydney Symphony, BIS-CD-1696."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+          "locator": "Work page",
+          "finding": "For twelve cellos only; no other instruments listed."
+        },
+        "floor": {
+          "url": "https://www.boosey.com/audio-clip/Twelve-Angry-Men-1996/12039",
+          "finding": "Boosey provides excerpt from commercial BIS-CD-1696 performance by Sydney Symphony cellists; work page names full recording."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+          "finding": "Bote & Bock published work, available worldwide from Boosey & Hawkes by rental."
+        },
+        "fieldSources": {
+          "work.composer": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+          "work.title": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+          "work.instruments": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+          "work.year": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+          "work.minutes": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+          "composerMetadata.dates": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263"
+        },
+        "unknowns": {
+          "work.level": "No musical grading performed.",
+          "work.hardestPart": "No musical grading performed."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher."
+      },
+      "recordingResearch": {
+        "status": "released-human-recording-established",
+        "queries": [
+          "Brett Dean Twelve Angry Men score rental BIS CD 1696"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.boosey.com/audio-clip/Twelve-Angry-Men-1996/12039",
+            "performers": [
+              "The Cellists of the Sydney Symphony",
+              "Brett Dean"
+            ],
+            "finding": "Boosey credits BIS-CD-1696 commercial recording."
+          }
+        ]
+      }
+    },
+    {
+      "key": "part-fratres-flexible-cello-ensemble",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "Existing catalogue entry covers an eight-cello version; verify whether its flexible 4/8/12-cello score already covers twelve before adding a duplicate.",
+      "work": {
+        "composer": "Pärt, Arvo",
+        "title": "Fratres for 4, 8, 12 Cellos",
+        "instruments": {
+          "cello": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "1982",
+        "minutes": 10,
+        "set": null,
+        "notes": "UE flexible cello scoring; existing eight-cello catalogue entry likely overlaps this twelve-cello option.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {
+        "dates": "b. 1935",
+        "nationality": "Estonian",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "details": {
+        "kind": "single",
+        "composed": "1977/1982",
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.arvopart.ee/en/arvo-part/work/401/",
+            "checkedOn": "2026-10-28",
+            "locator": "Work record",
+            "finding": "Arvo Pärt Centre says cello version is for 4, 8, 12 or more cellos, lasts 10 minutes; premiered by Berlin twelve cellists; ECM Tabula Rasa CD."
+          },
+          {
+            "url": "https://www.ficksmusic.com/products/part-fratres-for-4-8-12-cellos-universal",
+            "checkedOn": "2026-10-28",
+            "locator": "Score listing",
+            "finding": "Retailer lists Universal Edition full score and parts for 4, 8 or 12 cellos."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.ficksmusic.com/products/part-fratres-for-4-8-12-cellos-universal",
+          "locator": "Title / edition details",
+          "finding": "Flexible 4/8/12 cello score; no additional instruments stated."
+        },
+        "floor": {
+          "url": "https://www.arvopart.ee/en/arvo-part/work/401/",
+          "finding": "Arvo Pärt Centre identifies 12 Cellists of Berlin Philharmonic on ECM New Series 1275 Tabula Rasa."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://www.ficksmusic.com/products/part-fratres-for-4-8-12-cellos-universal",
+          "finding": "Full score and set of parts listed for sale."
+        },
+        "fieldSources": {
+          "work.composer": "https://www.arvopart.ee/en/arvo-part/work/401/",
+          "work.title": "https://www.ficksmusic.com/products/part-fratres-for-4-8-12-cellos-universal",
+          "work.instruments": "https://www.arvopart.ee/en/arvo-part/work/401/",
+          "work.year": "https://www.arvopart.ee/en/arvo-part/work/401/",
+          "work.minutes": "https://www.arvopart.ee/en/arvo-part/work/401/",
+          "composerMetadata.dates": "https://www.arvopart.ee/en/arvo-part/work/401/",
+          "composerMetadata.nationality": "https://www.arvopart.ee/en/arvo-part/work/401/"
+        },
+        "unknowns": {
+          "work.level": "No musical grading performed.",
+          "work.hardestPart": "No musical grading performed."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded by first-pass researcher."
+      },
+      "recordingResearch": {
+        "status": "released-human-recording-established",
+        "queries": [
+          "Arvo Part Fratres 12 cellos ECM Tabula Rasa"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.arvopart.ee/en/arvo-part/work/401/",
+            "performers": [
+              "12 cellists of Berlin Philharmonic"
+            ],
+            "finding": "Composer centre confirms ECM Tabula Rasa CD recording."
+          }
+        ]
+      }
+    },
+    {
+      "key": "gulda-serenade-twelve-cellos",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "Search did not locate a primary-source Gulda Serenade for twelve cellos; the known concerto is for cello and wind orchestra, so retain as unsupported lead.",
+      "work": {
+        "composer": "Gulda, Friedrich",
+        "title": "Serenade for 12 Cellos",
+        "instruments": {
+          "cello": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": null,
+        "minutes": null,
+        "set": null,
+        "notes": "Unverified candidate lead only; do not include without primary scoring and issue evidence.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [],
+        "scoring": null,
+        "floor": null,
+        "version": {
+          "kind": "unknown",
+          "arranger": null,
+          "extent": "unknown",
+          "selection": null
+        },
+        "score": null,
+        "fieldSources": {},
+        "unknowns": {
+          "work.instruments": "Candidate not substantiated as a work for twelve independent cellos.",
+          "work.year": "No qualifying source inspected.",
+          "work.minutes": "No qualifying source inspected.",
+          "score": "No eligible published score verified.",
+          "floor": "No complete human performance or recording verified."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded; held pending verification."
+      },
+      "recordingResearch": {
+        "status": "not-established",
+        "queries": [],
+        "candidates": []
+      }
+    },
+    {
+      "key": "haas-twelve-cellos-unspecified",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "Primary-source search found Open Spaces for mixed strings and two percussionists, not twelve cellos; no specific eligible twelve-cello Haas score or recording verified.",
+      "work": {
+        "composer": "Haas, Georg Friedrich",
+        "title": "Unverified twelve-cello work",
+        "instruments": {
+          "cello": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": null,
+        "minutes": null,
+        "set": null,
+        "notes": "Unverified candidate lead only; do not include without primary scoring and issue evidence.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "composed": null,
+        "published": null,
+        "movements": null
+      },
+      "evidence": {
+        "sources": [],
+        "scoring": null,
+        "floor": null,
+        "version": {
+          "kind": "unknown",
+          "arranger": null,
+          "extent": "unknown",
+          "selection": null
+        },
+        "score": null,
+        "fieldSources": {},
+        "unknowns": {
+          "work.instruments": "Candidate not substantiated as a work for twelve independent cellos.",
+          "work.year": "No qualifying source inspected.",
+          "work.minutes": "No qualifying source inspected.",
+          "score": "No eligible published score verified.",
+          "floor": "No complete human performance or recording verified."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not graded; held pending verification."
+      },
+      "recordingResearch": {
+        "status": "not-established",
+        "queries": [],
+        "candidates": []
+      }
+    }
+  ],
+  "resume": {
+    "next": "Inspect primary catalogue/score listings for other established original works for twelve cellos; discard unsubstantiated title leads."
+  }
+}

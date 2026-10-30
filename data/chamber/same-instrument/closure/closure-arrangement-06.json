@@ -1,0 +1,1272 @@
+{
+  "batch": "closure-arrangement-06",
+  "status": "complete",
+  "entries": [
+    {
+      "contextKey": "2288-arrangement",
+      "pageId": 2288,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/2288.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4561417), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        }
+      ],
+      "decision": "held",
+      "reason": "Prior triage already established a complete-looking 4-cello notation group for the named No.3 selection, but exact-version human performance was not found; avoid repeating the failed search.",
+      "versions": [
+        {
+          "heading": "Allegro ma non troppo (No.3) — For 4 Cellos (Manger)",
+          "arranger": "Bernhard Manger",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Mazurka in F major, Op.68 No.3 (Allegro ma non troppo)",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/2288.json",
+            "finding": "Cached raw group lists Complete Score and Complete Parts; notes transposed to C."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human arrangement performance documented in prior audio or focused search."
+        }
+      ]
+    },
+    {
+      "contextKey": "149972-arrangement",
+      "pageId": 149972,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/149972.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4608452), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        }
+      ],
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part violin, viola, cello, or double-bass arrangement with score or playable parts in the full cached revision.",
+      "versions": []
+    },
+    {
+      "contextKey": "149971-arrangement",
+      "pageId": 149971,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/149971.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4602610), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        }
+      ],
+      "decision": "excluded",
+      "reason": "Full revision has a mixed string-quartet arrangement (various violin/viola/cello configurations), not a homogeneous same-instrument group.",
+      "versions": []
+    },
+    {
+      "contextKey": "134064-arrangement",
+      "pageId": 134064,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/134064.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4706852), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        }
+      ],
+      "decision": "out-of-scope",
+      "reason": "No qualifying 3–12-part homogeneous violin, viola, cello, or double-bass arrangement with score or playable parts found in the full cached revision.",
+      "versions": []
+    },
+    {
+      "contextKey": "149896-arrangement",
+      "pageId": 149896,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/149896.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4710700), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        }
+      ],
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part violin, viola, cello, or double-bass arrangement with score or playable parts in the full cached revision.",
+      "versions": []
+    },
+    {
+      "contextKey": "22568-arrangement",
+      "pageId": 22568,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/22568.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4829774), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: exact Messiah/Reifsnyder 4 violas performance",
+          "finding": "No exact-version human recording surfaced. Search results and the cached source audio did not establish a performance of the Reifsnyder scoring."
+        }
+      ],
+      "decision": "held",
+      "reason": "Two score-bearing homogeneous groups appear in the complete revision; no exact-version human performance was established in the bounded query. The available quartet audio is explicitly synthesized.",
+      "versions": [
+        {
+          "heading": "For 4 Violas (Reifsnyder)",
+          "arranger": "Bob Reifsnyder",
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "Messiah Overture only (explicit in file notes).",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/22568.json",
+            "finding": "Raw revision 4829774; group lists Complete Score plus Viola 1–4; notes: “Overture only.”"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance was established; synthesized MIDI, the parent work, and differently scored arrangements do not satisfy the performance floor."
+        },
+        {
+          "heading": "For 4 Flutes or 4 Violins (Mozart)",
+          "arranger": "Wolfgang Amadeus Mozart",
+          "instrument": "violin",
+          "independentPartCount": 4,
+          "extent": "Aria ‘He Shall Feed His Flock’ (Part I, No.20), adapted from Mozart’s K.572 Part 20 arrangement of Handel’s aria.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/22568.json",
+            "finding": "Raw revision 4829774; group lists Complete Score and Parts; notes explicitly say “Flute or Violin Quartet” and identify the aria/part."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance was established; synthesized MIDI, the parent work, and differently scored arrangements do not satisfy the performance floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "2066-arrangement",
+      "pageId": 2066,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/2066.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4750023), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Schubert Moments musicaux D.780 Mandozzi 4 cellos performance",
+          "finding": "No exact-version human performance surfaced; returned references to the score/catalogue and other cello arrangements, not a matching performance."
+        }
+      ],
+      "decision": "held",
+      "reason": "Complete score and four separate cello parts are available for Mandozzi’s arrangement; the bounded query did not surface an exact-version human performance.",
+      "versions": [
+        {
+          "heading": "For 4 Cellos (Mandozzi)",
+          "arranger": "Orfeo Mandozzi",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Moment musical in F minor, D.780 No.3 (Allegro moderato), identified as the “Moment Musical” in the filename; arrangement heading is attached to the No.3 section.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/2066.json",
+            "finding": "Raw revision 4750023; Complete Score and Cello 1–4 files; filenames identify “Moment Musical” and cello quartet."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance was established; synthesized MIDI, the parent work, and differently scored arrangements do not satisfy the performance floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "29252-arrangement",
+      "pageId": 29252,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/29252.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4793458), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        }
+      ],
+      "decision": "held",
+      "reason": "Prior triage established the complete 3-cello Mandozzi version and found no exact-version human performance. Avoid repeating that failed search.",
+      "versions": [
+        {
+          "heading": "For 3 Cellos (Mandozzi)",
+          "arranger": "Orfeo Mandozzi",
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "Mosè-fantasia, MS 23 (extent unresolved in prior review).",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/29252.json",
+            "finding": "Cached raw group lists Complete Score and Cello 1–3 parts."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance was established; synthesized MIDI, the parent work, and differently scored arrangements do not satisfy the performance floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "4550-arrangement",
+      "pageId": 4550,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/4550.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4827406), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Bach BWV 1079 Ricercar a 6 Mandozzi six cellos performance",
+          "finding": "No exact-version human performance surfaced; results corroborated the arrangement and score listings only."
+        }
+      ],
+      "decision": "held",
+      "reason": "A complete six-cello score-and-parts group is present; the bounded query did not surface an exact-version human performance.",
+      "versions": [
+        {
+          "heading": "For 6 Cellos (Mandozzi)",
+          "arranger": "Orfeo Mandozzi",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "Ricercar a 6 from Musikalisches Opfer, BWV 1079.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/4550.json",
+            "finding": "Raw revision 4827406; file described as Complete Score and Parts; heading identifies the six-cello scoring and work selection Ricercar a 6."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance was established; synthesized MIDI, the parent work, and differently scored arrangements do not satisfy the performance floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "149938-arrangement",
+      "pageId": 149938,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/149938.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4613874), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        }
+      ],
+      "decision": "excluded",
+      "reason": "The eligible-looking string trios/quintets are mixed violin/viola/cello configurations; no homogeneous violin, viola, cello, or double-bass group with 3–12 parts is present.",
+      "versions": []
+    },
+    {
+      "contextKey": "39221-arrangement",
+      "pageId": 39221,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/39221.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4182595), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "https://musicalassumptions.blogspot.com/2024/02/",
+          "finding": "Elaine Fine’s post “Schubert’s Nachtviolen, now for Four Violas” describes the arrangement and links its score/parts; it does not document a matching human performance."
+        }
+      ],
+      "decision": "held",
+      "reason": "The score and parts for Fine’s four-viola arrangement are documented, but the bounded search found only the arranger’s post linking the score; page audio is the original voice-and-piano recording, not this version.",
+      "versions": [
+        {
+          "heading": "For 4 Violas (Fine)",
+          "arranger": "Elaine Fine",
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "Schubert, Nachtviolen, D.752 (the complete single song).",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/39221.json",
+            "finding": "Raw revision 4182595; arrangement file is “Complete Score and Parts”; filename identifies Nachtviolen for four violas."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No matching human performance of this exact arrangement was established; original-work audio and synthesized audio do not satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "4739-arrangement",
+      "pageId": 4739,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/4739.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4827400), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        }
+      ],
+      "decision": "held",
+      "reason": "Prior triage already documented a complete score and six parts for Seymour’s version and found no exact-version human performance; source-version uncertainty remains. Avoid repeating the failed search.",
+      "versions": [
+        {
+          "heading": "For 6 Cellos (Seymour)",
+          "arranger": "Gwyn Seymour",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "Night on Bald Mountain; source version unresolved in prior review.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/4739.json",
+            "finding": "Cached raw group lists Complete Score and Cello 1–6 parts."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No matching human performance of this exact arrangement was established; original-work audio and synthesized audio do not satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "1348129-arrangement",
+      "pageId": 1348129,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1348129.json",
+          "finding": "Scanned all 1 raw cached revision(s) (3988905), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Nocturne_for_String_Quartet_(Fine,_Elaine)",
+          "finding": "The work page lists the 4-viola arrangement with complete score and parts and only synthesized performances; no human recording is listed."
+        }
+      ],
+      "decision": "held",
+      "reason": "Complete score and parts exist for the four-viola version, but the only page audio is explicitly computer-generated; no exact-version human performance surfaced in the bounded query.",
+      "versions": [
+        {
+          "heading": "For 4 Violas",
+          "arranger": "Elaine Fine (composer)",
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "Nocturne for String Quartet (Fine), complete 3-minute work recast for four violas.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1348129.json",
+            "finding": "Raw revision 3988905; arrangement block says Complete Score and Parts, arranger Composer; page audio identifies Computer-Generated."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No matching human performance of this exact arrangement was established; original-work audio and synthesized audio do not satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "40345-arrangement",
+      "pageId": 40345,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/40345.json",
+          "finding": "Scanned all 1 raw cached revision(s) (3066267), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "https://zomerconcertendordrecht.nl/rotterdams-viola-ensemble/",
+          "finding": "Past concert program lists Dittersdorf Notturno in D for 4 violas; that program is not a matching recording."
+        },
+        {
+          "urlOrPath": "https://zomerconcertendordrecht.nl/rotterdams-viola-ensemble/",
+          "finding": "Program for the ensemble’s 29 August 2020 concert lists “Notturno in D for 4 violas” and Adagio, Menuetto–Trio, Fuga, and states the original is for four flutes. It does not credit the arrangement; match to the Marshall Fine edition is unresolved."
+        }
+      ],
+      "decision": "held",
+      "reason": "A past concert program documents the Rotterdams Viola Ensemble playing Dittersdorf’s Notturno in D for four violas, with all three movements; however, the program does not credit Marshall Fine or otherwise identify the specific arrangement edition represented by the cached score, so exact-arrangement identity remains unverified.",
+      "versions": [
+        {
+          "heading": "For 4 Violas (Fine)",
+          "arranger": "Marshall Fine",
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "Complete three-movement Notturno in D: Adagio; Menuetto—Trio; Fuga.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/40345.json",
+            "finding": "Raw revision 3066267; file description Complete Score and Parts, filename identifies Notturno in D major for 4 violas."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The past program matches this work, four-viola scoring, and all three movements, but does not identify Marshall Fine as arranger or link to this edition; exact-version identity remains unverified."
+        }
+      ]
+    },
+    {
+      "contextKey": "150067-arrangement",
+      "pageId": 150067,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/150067.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4602587), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        }
+      ],
+      "decision": "excluded",
+      "reason": "The string-quartet arrangement is a mixed violin/viola/cello scoring; no homogeneous 3–12-part violin, viola, cello, or double-bass arrangement is present.",
+      "versions": []
+    },
+    {
+      "contextKey": "907821-arrangement",
+      "pageId": 907821,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/907821.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4494825), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Bach BWV 622 O Mensch Terré Garcia four double basses",
+          "finding": "No exact-version human performance surfaced."
+        }
+      ],
+      "decision": "held",
+      "reason": "A complete score and four separate double-bass parts are present; the bounded exact-version query did not surface a matching human performance.",
+      "versions": [
+        {
+          "heading": "For 4 Double Basses (Terré Garcia)",
+          "arranger": "Marc Terré Garcia",
+          "instrument": "double bass",
+          "independentPartCount": 4,
+          "extent": "O Mensch, bewein dein Sünde groß, BWV 622 (whole chorale prelude).",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/907821.json",
+            "finding": "Raw revision 4494825; Complete Score plus Double Bass 1–4."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance was established in the bounded search; synthesized audio or performances of the original/differently scored work do not satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "84918-arrangement",
+      "pageId": 84918,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/84918.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4581032), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Victoria O vos omnes Reifsnyder four violas performance",
+          "finding": "No exact-version human performance surfaced; returned references did not establish this arrangement performance."
+        }
+      ],
+      "decision": "held",
+      "reason": "A complete score and four separate viola parts are present; the bounded exact-version query did not surface a matching human performance.",
+      "versions": [
+        {
+          "heading": "For 4 Violas (Reifsnyder)",
+          "arranger": "Bob Reifsnyder",
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "O vos omnes (Victoria), complete motet as indicated by the work page/arrangement heading.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/84918.json",
+            "finding": "Raw revision 4581032; Complete Score plus Viola 1–4."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance was established in the bounded search; synthesized audio or performances of the original/differently scored work do not satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "123123-arrangement",
+      "pageId": 123123,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/123123.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4826019), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Marcello Oboe Concerto Mandozzi six cellos performance",
+          "finding": "No exact-version human performance surfaced."
+        }
+      ],
+      "decision": "held",
+      "reason": "A complete score and complete parts are listed for Mandozzi’s six-cello arrangement, but the bounded query found no matching human performance; local metadata does not conclusively state whether this covers only the Bach-derived Adagio or more.",
+      "versions": [
+        {
+          "heading": "For 6 Cellos (Bach-Mandozzi)",
+          "arranger": "Orfeo Mandozzi, after J.S. Bach",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "A Bach-derived arrangement associated with Marcello’s Oboe Concerto in D minor; exact movement/extent not explicit in local file description (filename: Bach_Marcello_6_Celli).",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/123123.json",
+            "finding": "Raw revision 4826019; file entries label Complete Score and Complete Parts; second filename labels Cello 1, but metadata provides no further movement detail."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance was established in the bounded search; synthesized audio or performances of the original/differently scored work do not satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "334378-arrangement",
+      "pageId": 334378,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/334378.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4812470), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Handel HWV 287 Sarabande Fievet four cellos performance",
+          "finding": "The result confirms the four-cello part set and arranger, not a human performance."
+        }
+      ],
+      "decision": "held",
+      "reason": "The full four-cello parts are listed for the named Sarabande, but the bounded query surfaced sheet music only and no matching human performance.",
+      "versions": [
+        {
+          "heading": "Sarabande (No.3) — For 4 Cellos (Fiévet)",
+          "arranger": "Claude Fiévet",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Sarabande in F major (No.3) from Handel’s Oboe Concerto in G minor, HWV 287.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/334378.json",
+            "finding": "Raw revision 4812470; subheading Sarabande (No.3), then For 4 Cellos (Fiévet); file description Complete Parts (no score listed)."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance was established in the bounded search; synthesized audio or performances of the original/differently scored work do not satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "100008-arrangement",
+      "pageId": 100008,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/100008.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4825536), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Bach BWV 1068 Orfeo Mandozzi four cellos Air Gavotte performance",
+          "finding": "Search returned the score and parts for Air and Gavotte; no matching human performance surfaced."
+        }
+      ],
+      "decision": "held",
+      "reason": "Two complete four-cello score-and-parts entries are present (Air and Gavotte); the bounded query surfaced the score listings but no exact-version human performance.",
+      "versions": [
+        {
+          "heading": "For 4 Cellos (Mandozzi)",
+          "arranger": "Orfeo Mandozzi",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Two Suite No.3 movements: Air (No.2) and Gavotte (No.3); each has a Complete Score and Parts file.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/100008.json",
+            "finding": "Raw revision 4825536; adjacent descriptions identify 2. Air — Complete Score and Parts and 3. Gavotte — Complete Score and Parts."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance was established in the bounded search; synthesized audio or performances of the original/differently scored work do not satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "152880-arrangement",
+      "pageId": 152880,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/152880.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4725974), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Bach BWV 525 Orfeo Mandozzi three cellos performance",
+          "finding": "Search returned original organ performances and unrelated arrangements, not an exact three-cello performance."
+        }
+      ],
+      "decision": "held",
+      "reason": "The trio sonata has a complete score and parts for Mandozzi’s three-cellos version; the bounded query returned only performances of the original organ work, not this exact scoring.",
+      "versions": [
+        {
+          "heading": "For 3 Cellos (Mandozzi)",
+          "arranger": "Orfeo Mandozzi",
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "Organ Trio Sonata No.1, BWV 525, complete three-movement sonata; second movement transposed from C minor to A minor.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/152880.json",
+            "finding": "Raw revision 4725974; file description Complete Score and Parts; notes specify transposition of second movement."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; other scoring, synthesized audio, or the parent-work performance does not meet the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "2955-arrangement",
+      "pageId": 2955,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/2955.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4824535), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Bach BWV 831 Gavotte Dicker three cellos performance",
+          "finding": "No exact-version human performance surfaced."
+        }
+      ],
+      "decision": "held",
+      "reason": "Dicker’s score for the named Gavotte selection is available, but the bounded query did not locate an exact-version human performance.",
+      "versions": [
+        {
+          "heading": "Gavotte 1 (No.3) — For 3 Cellos (Dicker)",
+          "arranger": "Suzanne Dicker",
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "Gavotte I (No.3) from Bach’s Ouverture nach Französischer Art, BWV 831, transposed to D minor.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/2955.json",
+            "finding": "Raw revision 4824535; heading nested under Gavotte 1 (No.3); file is Complete Score (D minor), filename names cello trio."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; other scoring, synthesized audio, or the parent-work performance does not meet the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "653954-arrangement",
+      "pageId": 653954,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/653954.json",
+          "finding": "Scanned all 1 raw cached revision(s) (3284431), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/653954.json",
+          "finding": "Work information identifies original instrumentation as flute, oboe, clarinet, bassoon and gives first performance as 2009 Antwerp, Musica con Gioia. That first performance predates the 2018 four-viola and four-cello arrangement files and is not evidence of either string version."
+        }
+      ],
+      "decision": "held",
+      "reason": "The cited 2009 first performance is for the work’s original flute, oboe, clarinet, and bassoon instrumentation; it does not establish performance of either later four-viola or four-cello version. The bounded query did not locate a performance of those exact string scorings.",
+      "versions": [
+        {
+          "heading": "For 4 Violas",
+          "arranger": "Werner J.E. De Bleser (composer)",
+          "instrument": "viola",
+          "independentPartCount": 4,
+          "extent": "Overdood, C005, complete one-movement work (4 minutes).",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/653954.json",
+            "finding": "Raw revision 3284431; Complete Score and Complete Parts."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; other scoring, synthesized audio, or the parent-work performance does not meet the floor."
+        },
+        {
+          "heading": "For 4 Cellos",
+          "arranger": "Werner J.E. De Bleser (composer)",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Overdood, C005, complete one-movement work (4 minutes).",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/653954.json",
+            "finding": "Raw revision 3284431; Complete Score and Complete Parts."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; other scoring, synthesized audio, or the parent-work performance does not meet the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "5713-arrangement",
+      "pageId": 5713,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/5713.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4773685), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Wagner Parsifal Jacobowsky four cellos performance",
+          "finding": "No exact-version human performance surfaced."
+        }
+      ],
+      "decision": "held",
+      "reason": "Jacobowsky’s four cello parts and a complete score are in the cache, but the material explicitly labels them fragments; exact excerpt extent and matching human performance are unverified.",
+      "versions": [
+        {
+          "heading": "For 4 Cellos (Jacobowsky)",
+          "arranger": "Hermann Jacobowsky",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Fragments from Parsifal; exact passages/extent not identified in the local file descriptions.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/5713.json",
+            "finding": "Raw revision 4773685; four separate Cello 1–4 files labeled “Fragments,” plus a Complete Score file."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; other scoring, synthesized audio, or the parent-work performance does not meet the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "846271-arrangement",
+      "pageId": 846271,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/846271.json",
+          "finding": "Scanned all 1 raw cached revision(s) (2594758), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Pasticcio_for_4_Violas_and_Double_Bass_(or_Cello)_(Fine,_Elaine)",
+          "finding": "The 5-viola arrangement has Complete Score and Parts; the page lists only synthesized performances and no human recordings."
+        }
+      ],
+      "decision": "held",
+      "reason": "The five-viola score-and-parts group is complete, but the work page lists no human recordings and the audio versions are synthesized.",
+      "versions": [
+        {
+          "heading": "For 5 Violas (Fine)",
+          "arranger": "Elaine Fine (composer)",
+          "instrument": "viola",
+          "independentPartCount": 5,
+          "extent": "Pasticcio for 4 Violas and Double Bass (or Cello), re-scored for five violas; complete approximately 4-minute work.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/846271.json",
+            "finding": "Raw revision 2594758; arrangement file described as Complete Score and Parts."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; other scoring, synthesized audio, or the parent-work performance does not meet the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "3577-arrangement",
+      "pageId": 3577,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/3577.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4758987), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Ravel Pavane Manger five cellos performance",
+          "finding": "No exact-version human performance surfaced."
+        }
+      ],
+      "decision": "held",
+      "reason": "The Manger five-cello arrangement has a complete score and parts; the bounded query found no exact-version human performance.",
+      "versions": [
+        {
+          "heading": "For 5 Cellos (Manger)",
+          "arranger": "Bernhard Manger",
+          "instrument": "cello",
+          "independentPartCount": 5,
+          "extent": "Pavane pour une infante défunte, M.19, complete work.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/3577.json",
+            "finding": "Raw revision 4758987; Complete Score and Complete Parts, filename says Ravel Pavane cello parts 1–5."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; performances of the original or a different arranger’s version do not meet the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "13253-arrangement",
+      "pageId": 13253,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/13253.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4773844), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        }
+      ],
+      "decision": "held",
+      "reason": "Prior triage already established Meißner’s complete four-cello score and parts and found only the piano recording; avoid repeating the failed exact-version search.",
+      "versions": [
+        {
+          "heading": "For 4 Cellos (Meißner)",
+          "arranger": "Burkhard Meißner",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Peacherine Rag (Joplin), complete rag.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/13253.json",
+            "finding": "Raw revision 4773844; Complete Score and Cello 1–4 parts. Cached human performance credits pianist Gerluz; not the cello arrangement."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; performances of the original or a different arranger’s version do not meet the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "2533-arrangement",
+      "pageId": 2533,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/2533.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4802895), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Grieg In the Hall of the Mountain King six cellos Seymour",
+          "finding": "No Seymour exact-version human performance surfaced; a separate six-cello arrangement by another arranger and orchestral performances were excluded."
+        }
+      ],
+      "decision": "held",
+      "reason": "Seymour’s six-cello score-and-parts file is complete; the bounded search returned a different six-cello arrangement and original orchestra material, not this version.",
+      "versions": [
+        {
+          "heading": "In the Hall of the Mountain King (No.4) — For 6 Cellos (Seymour)",
+          "arranger": "Gwyn Seymour",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "In the Hall of the Mountain King, movement No.4 from Peer Gynt Suite No.1, Op.46.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/2533.json",
+            "finding": "Raw revision 4802895; nested under In the Hall of the Mountain King (No.4); Complete Score and Parts."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; performances of the original or a different arranger’s version do not meet the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "1449082-arrangement",
+      "pageId": 1449082,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1449082.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4830024), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Jules de Swert Pensée élégiaque Op.47 four cellos performance",
+          "finding": "Results confirmed the four-cello set of parts, but did not establish a matching human recording."
+        }
+      ],
+      "decision": "held",
+      "reason": "A four-cello complete parts set is listed, but the bounded query surfaced catalog and sheet-music records only; no exact-version human recording was established.",
+      "versions": [
+        {
+          "heading": "For 4 Cellos",
+          "arranger": "Jules de Swert (composer)",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Pensée élégiaque, Op.47, complete work as issued for cello and piano or four cellos.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1449082.json",
+            "finding": "Raw revision 4830024; heading For 4 Cellos; first file Complete Parts and notes cite cover’s alternative scoring."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; performances of the original or a different arranger’s version do not meet the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "59810-arrangement",
+      "pageId": 59810,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/59810.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4816239), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Dancla Op.123 Dessauer three violins performance",
+          "finding": "Search result confirms the four selections and complete parts, but no performance of this exact arrangement surfaced."
+        }
+      ],
+      "decision": "held",
+      "reason": "Dessauer’s book of four selections for three violins has complete parts; the bounded search found score listings but no exact-version human performance.",
+      "versions": [
+        {
+          "heading": "Selections — For 3 Violins (Dessauer)",
+          "arranger": "Heinrich Dessauer",
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "Four selections from Dancla’s Petite école de la mélodie, Op.123 (Dessauer’s Book 2).",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/59810.json",
+            "finding": "Raw revision 4816239; Complete Parts (Dessauer’s Book 2); file notes state each book has four selections and Book 2 is for three violins."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; performances of the original or a different arranger’s version do not meet the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "211469-arrangement",
+      "pageId": 211469,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/211469.json",
+          "finding": "Scanned all 1 raw cached revision(s) (3626732), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Vaughan Williams Phantasy Quintet Sheryl Smith four cellos",
+          "finding": "No exact-version human performance surfaced; source-work performances were for the original mixed string quintet."
+        }
+      ],
+      "decision": "held",
+      "reason": "The complete four-cello arrangement score and parts are available; the bounded exact-title query did not surface a human performance of Sheryl Smith’s version.",
+      "versions": [
+        {
+          "heading": "Complete — For 4 Cellos (Smith)",
+          "arranger": "Sheryl Smith",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Complete Phantasy Quintet (all sections).",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/211469.json",
+            "finding": "Raw revision 3626732; one file described as Complete Score and Parts; notes say for advanced players."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; the source-work performances do not satisfy the exact-arrangement floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "1458-arrangement",
+      "pageId": 1458,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1458.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4802769), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        }
+      ],
+      "decision": "held",
+      "reason": "Prior triage found only original piano performances for the three-violin McRae version and had not verified the arrangement’s notation completeness; avoid repeating the failed search.",
+      "versions": [
+        {
+          "heading": "Adagio sostenuto (No.1) — For 3 Violins (McRae)",
+          "arranger": "Gage McRae",
+          "instrument": "violin",
+          "independentPartCount": 3,
+          "extent": "First movement of Beethoven Piano Sonata No.14, Op.27 No.2; exact full/partial extent not verified from the arrangement file.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1458.json",
+            "finding": "Cached raw page lists For 3 Violins (McRae); inspect file group for complete score/parts."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; the source-work performances do not satisfy the exact-arrangement floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "4940-arrangement",
+      "pageId": 4940,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/4940.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4749879), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Ravel Piano Trio Passacaille Seymour six cellos performance",
+          "finding": "No exact-version human performance surfaced; results confirmed the arrangement materials."
+        }
+      ],
+      "decision": "held",
+      "reason": "Seymour’s complete score and six parts are present for the Passacaille; the bounded query surfaced the score, but no exact cello-arrangement human performance.",
+      "versions": [
+        {
+          "heading": "Passacaille (No.3) — For 6 Cellos (Seymour)",
+          "arranger": "Gwyn Seymour",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "Passacaille (No.3) from Ravel’s Piano Trio, M.67.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/4940.json",
+            "finding": "Raw revision 4749879; Complete Score and separate Cello 1–6 parts."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; the source-work performances do not satisfy the exact-arrangement floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "407244-arrangement",
+      "pageId": 407244,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/407244.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4511572), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "https://www.qobuz.com/fi-en/album/capucelli-gautier-capucon-capucelli/k7cqjzezjkedb",
+          "finding": "Warner Classics/Erato release includes “Pizzicato-Polka (Transcr. Seymour for Cello Ensemble)” and credits cellist Gautier Capuçon, Capucelli ensemble, and transcriber Gwyn Seymour; 2:21."
+        }
+      ],
+      "decision": "lead",
+      "reason": "A released human recording credits Gwyn Seymour’s cello-ensemble transcription and names Gautier Capuçon with the Capucelli ensemble; the cached score group is the matching six-cello arrangement.",
+      "versions": [
+        {
+          "heading": "For 6 Cellos (Seymour)",
+          "arranger": "Gwyn Seymour",
+          "instrument": "cello",
+          "independentPartCount": 6,
+          "extent": "Pizzicato-Polka, complete work.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/407244.json",
+            "finding": "Raw revision 4511572; arrangement file described as Complete Score and Parts."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://www.qobuz.com/fi-en/album/capucelli-gautier-capucon-capucelli/k7cqjzezjkedb",
+              "finding": "Released track credits the exact transcription to Gwyn Seymour and lists Gautier Capuçon with the Capucelli ensemble."
+            }
+          ],
+          "decision": "lead",
+          "reason": "Exact human floor met by a released recording explicitly crediting Seymour’s cello-ensemble transcription; local score group is the six-cello version."
+        }
+      ]
+    },
+    {
+      "contextKey": "126908-arrangement",
+      "pageId": 126908,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/126908.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4443004), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Bach BWV 215 Rase nur three cellos Peter Lang performance",
+          "finding": "No exact-version human performance surfaced; results were parent-cantata recordings."
+        }
+      ],
+      "decision": "held",
+      "reason": "Lang’s score-and-parts file includes a three-cello configuration; the bounded exact-work query found only parent-cantata performances, not this arrangement.",
+      "versions": [
+        {
+          "heading": "Aria: Rase nur, verwegner Schwarm (No.5) — For Trios: Violas and Cellos (Lang), 3-cellos configuration",
+          "arranger": "Peter Lang",
+          "instrument": "cello",
+          "independentPartCount": 3,
+          "extent": "Aria “Rase nur, verwegner Schwarm” (No.5) from Preise dein Glücke, gesegnetes Sachsen, BWV 215.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/126908.json",
+            "finding": "Raw revision 4443004; one Complete Score and Parts file; File Tags include 3vc (arr), alongside 2va+vc and va+2vc configurations."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance surfaced in the bounded query; the source-work performances do not satisfy the exact-arrangement floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "569350-arrangement",
+      "pageId": 569350,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/569350.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4825039), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "https://www.youtube.com/watch?v=-w6vtpUpFF8?t=574",
+          "finding": "yt-dlp --skip-download --dump-single-json verified title “Music by JS Bach arranged by Suzanne Dicker for Cello Quartet, and more…”, uploader MusicaAngela, date 2024-03-22, duration 32:30, and chapter “Prelude 19 from WTC vol. 1” at 9:34; description names The Creative Bach Cello Ensemble and five cellists."
+        }
+      ],
+      "decision": "lead",
+      "reason": "The verified human ensemble recording identifies Dicker’s Bach cello-quartet arrangements and timestamps this exact BWV 864 prelude; the cached group provides complete score and parts.",
+      "versions": [
+        {
+          "heading": "Prelude (No.1) — For 4 Cellos (Dicker)",
+          "arranger": "Suzanne Dicker",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Prelude No.19 from Well-Tempered Clavier, Book I, BWV 864, transposed to G major.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/569350.json",
+            "finding": "Raw revision 4825039; Complete Score and Parts; notes explicitly say transposed to G major and point to the ensemble video."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://www.youtube.com/watch?v=-w6vtpUpFF8?t=574",
+              "finding": "yt-dlp metadata for MusicaAngela’s recorded performance confirms the video title, uploader, date 2024-03-22, duration 32:30, five named cellists, and chapter “Prelude 19 from WTC vol. 1”; description states this is the Creative Bach Cello Ensemble performing Suzanne Dicker’s Bach arrangements at Trinity Church, Princeton. This timestamps the exact human performance in the ensemble video."
+            }
+          ],
+          "decision": "lead",
+          "reason": "Exact-version human floor met: video description identifies Suzanne Dicker arrangements and the human cello ensemble; the timestamped chapter matches this score selection."
+        }
+      ]
+    },
+    {
+      "contextKey": "574685-arrangement",
+      "pageId": 574685,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/574685.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4824815), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Bach BWV 868 Dicker cello ensemble performance",
+          "finding": "Search confirmed score materials and separate parts; no human performance of this exact prelude or fugue arrangement surfaced."
+        }
+      ],
+      "decision": "held",
+      "reason": "Complete materials exist for both Dicker versions; no exact human performance was found for the BWV 868 prelude or fugue.",
+      "versions": [
+        {
+          "heading": "Prelude (No.1) — For 4 Cellos (Dicker)",
+          "arranger": "Suzanne Dicker",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Prelude No.23 in B major, BWV 868, transposed to G major.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/574685.json",
+            "finding": "Raw revision 4824815; Complete Score and Parts (G major); notes say may be played with 1 violin and 3 cellos, but the heading is the all-cello version."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The bounded exact-title query surfaced score information, but no human performance of this BWV 868 arrangement. The Dicker ensemble recording covers other Bach selections, not this prelude."
+        },
+        {
+          "heading": "Fugue (No.2) — For 4–5 Cellos (Dicker)",
+          "arranger": "Suzanne Dicker",
+          "instrument": "cello",
+          "independentPartCount": 5,
+          "extent": "Fugue No.23 in B major, BWV 868; fifth cello part is ad libitum.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/574685.json",
+            "finding": "Raw revision 4824815; Complete Score plus Cello 1–4 and Cello 5 (ad lib.) parts."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact human performance of this fugue version surfaced; the cited ensemble video contains a different Bach prelude, not this fugue."
+        }
+      ]
+    },
+    {
+      "contextKey": "533941-arrangement",
+      "pageId": 533941,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/533941.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4824918), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "https://www.youtube.com/watch?v=-w6vtpUpFF8?t=1122",
+          "finding": "yt-dlp metadata verifies a recorded performance by The Creative Bach Cello Ensemble; its chapter at 18:42 is “Prelude #22 from WTC vol. 1.”"
+        }
+      ],
+      "decision": "lead",
+      "reason": "The human Dicker ensemble video documents the four-cello Prelude No.22; the distinct five-cello Fugue version remains held.",
+      "versions": [
+        {
+          "heading": "Prelude (No.1) — For 4 Cellos (Dicker)",
+          "arranger": "Suzanne Dicker",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Prelude No.22 from Well-Tempered Clavier, Book I, BWV 867, transposed to C minor.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/533941.json",
+            "finding": "Raw revision 4824918; arrangement block is Complete Score and Parts, notes explicitly identify Prelude 22 and four cellos."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://www.youtube.com/watch?v=-w6vtpUpFF8?t=1122",
+              "finding": "yt-dlp metadata for MusicaAngela’s recorded performance confirms the video title, uploader, date 2024-03-22, duration 32:30, five named cellists, and chapter “Prelude #22 from WTC vol. 1”; description states this is the Creative Bach Cello Ensemble performing Suzanne Dicker’s Bach arrangements at Trinity Church, Princeton. This timestamps the exact human performance in the ensemble video."
+            }
+          ],
+          "decision": "lead",
+          "reason": "Exact-version human floor met: video description identifies Suzanne Dicker arrangements and the human cello ensemble; the timestamped chapter matches this score selection."
+        },
+        {
+          "heading": "Fugue (No.2) — For 5 Cellos (Dicker)",
+          "arranger": "Suzanne Dicker",
+          "instrument": "cello",
+          "independentPartCount": 5,
+          "extent": "Fugue No.22 from Well-Tempered Clavier, Book I, BWV 867, transposed to C minor; Cello 5 ad libitum.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/533941.json",
+            "finding": "Raw revision 4824918; Complete Score and Cello 1–4 plus Cello 5 (ad lib.) parts."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "The human ensemble video documents Prelude No.22, not this fugue; no exact performance of the five-cello fugue surfaced."
+        }
+      ]
+    },
+    {
+      "contextKey": "1045319-arrangement",
+      "pageId": 1045319,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1045319.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4416470), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "https://www.youtube.com/watch?v=-w6vtpUpFF8?t=832",
+          "finding": "yt-dlp metadata verifies the recorded Creative Bach Cello Ensemble performance and chapter “Prelude in F major BWV 928” at 13:52."
+        }
+      ],
+      "decision": "lead",
+      "reason": "The human Dicker ensemble recording timestamps the exact BWV 928 prelude; the cached group includes a complete score and parts.",
+      "versions": [
+        {
+          "heading": "For 4 Cellos (Dicker)",
+          "arranger": "Suzanne Dicker",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Prelude in F major, BWV 928, complete prelude.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1045319.json",
+            "finding": "Raw revision 4416470; Complete Score and Parts."
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://www.youtube.com/watch?v=-w6vtpUpFF8?t=832",
+              "finding": "yt-dlp metadata for MusicaAngela’s recorded performance confirms the video title, uploader, date 2024-03-22, duration 32:30, five named cellists, and chapter “Prelude in F major BWV 928”; description states this is the Creative Bach Cello Ensemble performing Suzanne Dicker’s Bach arrangements at Trinity Church, Princeton. This timestamps the exact human performance in the ensemble video."
+            }
+          ],
+          "decision": "lead",
+          "reason": "Exact-version human floor met: video description identifies Suzanne Dicker arrangements and the human cello ensemble; the timestamped chapter matches this score selection."
+        }
+      ]
+    },
+    {
+      "contextKey": "2344-arrangement",
+      "pageId": 2344,
+      "kind": "arrangement",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/2344.json",
+          "finding": "Scanned all 1 raw cached revision(s) (4802774), arrangement headings at all depths and adjacent FILES blocks; checked available audio blocks for exact-version human evidence."
+        },
+        {
+          "urlOrPath": "Bounded web query: Chopin Op.28 Franchomme four cellos performance",
+          "finding": "A released recording of Prelude No.4 surfaced, but its credit is Franchomme for cello adapted for four cellos by Matthias Spindler; it does not match the Franchomme manuscript arrangement."
+        }
+      ],
+      "decision": "held",
+      "reason": "The complete Franchomme score identifies five selections, but no exact human performance of that 4-cello manuscript set surfaced. Search results for Prelude No.4 are a later adaptation by Matthias Spindler, a different arranger and version.",
+      "versions": [
+        {
+          "heading": "For 4 Cellos (Franchomme)",
+          "arranger": "Auguste Franchomme",
+          "instrument": "cello",
+          "independentPartCount": 4,
+          "extent": "Five-piece set: Chopin Preludes Op.28 Nos.9, 13, 15 and Nocturnes Op.15 No.1 and Op.37 No.1.",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/2344.json",
+            "finding": "Raw revision 4802774; Complete Score manuscript; filename and Misc. Notes name the three Op.28 preludes and two nocturnes."
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact performance of this Franchomme 4-cello set surfaced; the found recording was a distinct later adaptation of one different prelude."
+        }
+      ]
+    }
+  ]
+}

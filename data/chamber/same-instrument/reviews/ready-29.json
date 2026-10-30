@@ -1,0 +1,102 @@
+{
+  "entries": [
+    {
+      "key": "karpati-andantino-four-violins",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Andantino_(K%C3%A1rp%C3%A1ti,_S%C3%A1ndor)",
+          "finding": "Original work Andantino, G major,1926, four violins. Complete four one-page parts individually reviewed. Printed parts date Sopron23April1926 and credit UweScheer2022 edition. IMSLP average duration4minutes."
+        },
+        {
+          "url": "https://imslp.org/wiki/Category:K%C3%A1rp%C3%A1ti,_S%C3%A1ndor",
+          "finding": "Composer SándorKárpáti born2January1872,died26February1939; primary categories Hungarian,male,Romantic."
+        },
+        {
+          "url": "https://classical.music.apple.com/in/album/1644103648",
+          "finding": "Exact commercial release Old&new lists composer KárpátiSándor and Andantino(Négyhegedűre) with ScheerUwe,ÁrvaynéNezvaldAnett,ScheerBernadett,DankóBalázs. Exact track duration3:53;3:08 belongs preceding Magyar ábránd. This independently meets the human-performance floor."
+        }
+      ],
+      "grade": {
+        "level": 1,
+        "hardestPart": "violin 1",
+        "confidence": "high",
+        "basis": "Independently inspected allfour complete one-page parts. First violin carries the upper melody, in a compact ordinary stopped register; slow whole/half/quarter notes, simple slurs, isolated accidentals and no double stops, rapid passagework or demanding shifts. Lower parts have straightforward long-note harmony and quarter-note motion. Controlled sustained bowing, intonation and shared phrasing fit early-intermediate level1; no ensemble uplift.",
+        "mode": "major",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "tender"
+        ]
+      },
+      "approvedWorkFields": [
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "mode",
+        "pace",
+        "character",
+        "hardestPart"
+      ],
+      "approvedDetailFields": [
+        "kind",
+        "composed"
+      ],
+      "detailSources": {
+        "kind": "https://imslp.org/wiki/Andantino_(K%C3%A1rp%C3%A1ti,_S%C3%A1ndor)",
+        "composed": "https://imslp.org/wiki/Andantino_(K%C3%A1rp%C3%A1ti,_S%C3%A1ndor)"
+      }
+    },
+    {
+      "key": "teppo-hauta-aho-dance-no-2-from-two-dances-four-double-basses",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://shop.doublebasshq.com/products/teppo-hauta-aho-two-dances",
+          "finding": "Exact DanceNo.2 product text says this movement has been performed across the world, independently of the composer-biography claims. Product offers complete TwoDances sheetmusic; previews are illustrative excerpts, not the product extent."
+        },
+        {
+          "url": "https://www.prestomusic.com/sheet-music/publishers/685/browse?page=6",
+          "finding": "Complete RecitalMusicRMD1715 TwoDances double-bass-quartet PDF available immediately after purchase; package score/parts split unspecified."
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/Hauta-aho-TwoDances003.jpg?v=1780004419",
+          "finding": "Printed page8 introduces DANCENo.2 in four bass staves; independent named selection from larger set is supported."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "double-bass 1",
+        "confidence": "medium",
+        "basis": "Same independent notation assessment as grades-27.json, reused once; not a fresh vote. Correct Dance2 opening plus internal mm66–77 and publisher whole-work solo-register description support advanced upper-register melody with chromatic shifts and ornamental groups; approximate one-level uncertainty.",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "dance",
+          "playful"
+        ]
+      },
+      "approvedWorkFields": [
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "hardestPart",
+        "pace",
+        "character",
+        "notes"
+      ],
+      "approvedDetailFields": [
+        "kind"
+      ],
+      "detailSources": {
+        "kind": "https://shop.doublebasshq.com/products/teppo-hauta-aho-two-dances"
+      }
+    }
+  ]
+}

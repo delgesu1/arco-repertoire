@@ -1,0 +1,56 @@
+{
+  "batch": "batch-grades-08",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "hermann-op9-original-3violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://s9.imslp.org/files/imglnks/usimg/0/05/IMSLP465505-PMLP755997-VCH_HERM_BURL_Op.9_3_V_PTS_ed.pdf",
+          "finding": "Read PDF pages 1, 3, 5 and 9: violin I opening and Lento/Presto ending, violin II middle, violin III ending. First violin has rapid articulated high-register passagework, octave-transposed ascent, repeated double stops and chords; violin II also has agile crossing figures and ornaments. Third violin supports the texture with double stops but has fewer upper-register demands."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "violin 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "humorous",
+          "virtuosic"
+        ],
+        "confidence": "medium",
+        "basis": "Actual notation sampled across all three parts, including opening, contrasting slow music and final Presto. Diploma-level judgment rests on recurrent fast high-register bow articulation and double-stop intonation, rather than an isolated bar. Tempo transitions, exposed three-violin tuning and shared articulation need experienced ensemble playing; no extra level added. Four-page bounded sample, not a complete bar-by-bar technical audit."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "hermann-op5-original-3violins",
+      "status": "held",
+      "findings": [
+        {
+          "url": "https://ks15.imslp.org/files/imglnks/usimg/f/f5/IMSLP45679-SIBLEY1802.8452.a54f-39087008996375violin_1.pdf",
+          "finding": "Read four actual music pages: PDF pages 2, 3, 5 and 7 (opening, continuation, later reprise and ending). Allegro molto repeatedly uses upper-register running figures, chromatic turns, trills, double stops, octave-transposed passages and wide registral jumps; the ending sustains this agility rather than presenting only one exceptional bar. This file contains violin I only, so the relative difficulty of violins II and III is unverified."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "violin 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "virtuosic"
+        ],
+        "confidence": "medium",
+        "basis": "First-violin notation supports a provisional diploma-level assessment through sustained Allegro molto facility, chromatic upper-register intonation, double-stop control and rapid register changes. No ensemble uplift applied. Sampled four music pages spanning the first part; other parts unavailable in the supplied score, so violin 1 as the whole-work hardest part is a hypothesis, and approval is held pending comparison with violins II and III. Level 7 is supported for the inspected first part, not a verified upper bound for the complete trio."
+      },
+      "approvedWorkFields": []
+    }
+  ]
+}

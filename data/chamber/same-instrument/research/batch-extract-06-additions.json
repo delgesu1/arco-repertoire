@@ -1,0 +1,102 @@
+{
+  "batch": "batch-extract-06-additions",
+  "checkedOn": "2026-10-28",
+  "entries": [
+    {
+      "key": "brahms-op91-no2-jones-5violas",
+      "status": "held",
+      "factsVerified": false,
+      "reason": "Held for explicit multitrack judgment. Not graded: PDF was not downloaded or independently inspected within focused research budget.",
+      "grade": null,
+      "approvedWorkFields": {
+        "composer": "Brahms, Johannes",
+        "title": "Geistliches Wiegenlied (No.2 from 2 Gesänge, Op.91)",
+        "arranger": "Steve Jones",
+        "instruments": {
+          "viola": 5
+        },
+        "players": 5,
+        "formation": "string-quintet",
+        "form": "short",
+        "year": "1863–64",
+        "minutes": 6,
+        "set": null,
+        "notes": "Steve Jones arrangement of No.2 for five violas; multitrack performance held for separate judgment.",
+        "imslpPage": "2 Gesänge, Op.91 (Brahms, Johannes)"
+      },
+      "workCorrections": {
+        "composer": "Brahms, Johannes",
+        "title": "Geistliches Wiegenlied (No.2 from 2 Gesänge, Op.91)",
+        "arranger": "Steve Jones",
+        "instruments": {
+          "viola": 5
+        },
+        "players": 5,
+        "formation": "string-quintet",
+        "form": "short",
+        "year": "1863–64",
+        "minutes": 6,
+        "set": null,
+        "notes": "Steve Jones arrangement of No.2 for five violas; multitrack performance held for separate judgment.",
+        "imslpPage": "2 Gesänge, Op.91 (Brahms, Johannes)"
+      },
+      "approvedDetailFields": {
+        "published": null,
+        "kind": "single",
+        "movements": [
+          "Geistliches Wiegenlied (No.2)"
+        ]
+      },
+      "detailCorrections": {
+        "published": null,
+        "kind": "single",
+        "movements": [
+          "Geistliches Wiegenlied (No.2)"
+        ]
+      },
+      "detailSources": [
+        "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)",
+        "https://imslp.org/wiki/Category:Steve%27s_Bedroom_Band"
+      ],
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)",
+          "finding": "Jones five-viola arrangement is a selection of song No.2, with complete score 417794 and Viola 1–5 parts 417795–417799 listed. Audio 417800, 5:38, is credited to Steve’s Bedroom Band and explicitly labelled this five-viola arrangement."
+        },
+        {
+          "url": "https://imslp.org/wiki/Category:Steve%27s_Bedroom_Band",
+          "finding": "Performer category gives no independent professional ensemble credits; no evidence of five distinct simultaneous performers was found. Treat known Steve’s Bedroom Band lead as multitrack, held under project policy. No professional ensemble claim is made."
+        }
+      ],
+      "recordingDecisions": [
+        {
+          "status": "held-multitrack",
+          "url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)",
+          "performers": "Steve's Bedroom Band",
+          "extent": "No.2 only, 5:38",
+          "reason": "Real human multitrack is flagged for separate judgment; does not automatically satisfy ensemble-performance floor. No independent ensemble recording verified."
+        }
+      ]
+    }
+  ],
+  "composerMetadataPatches": {
+    "Avni, Boaz": {
+      "metadata": {
+        "dates": "1963–",
+        "nationality": "Israeli",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "sources": [
+        {
+          "url": "https://stream.filharmonia.art/zoznamy/osobnost/boaz-avni",
+          "finding": "Slovak Philharmonic institutional biography identifies Israeli composer, born 1963. Contemporary era follows living composer birth year; male composer terminology and composer-authored resume use masculine references."
+        },
+        {
+          "url": "https://www.musicianspage.com/musicians/6286/more/",
+          "finding": "Composer-authored professional resume identifies Boaz Avni, residence Israel, piano/composition activity and named teachers."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+ "batch": "final21",
+ "role": "coordinator-release",
+ "status": "complete",
+ "entries": [
+  {
+   "key": "derecskei-consort1-four-violins",
+   "status": "approved",
+   "factsVerified": true,
+   "reason": "Coordinator release: the composer credits a home recording played by his Derecskei Clones Ensemble, with a named mastering engineer, on his own channel over the violin score. Accepted as a documented composer multitrack for the floor; no embed because players and sound are not shown.",
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Consort_No.1_(Derecskei,_Andr%C3%A1s)",
+     "basis": "Andras Derecskei, Consort No.1 (2014), original; IMSLP allows 4 violins, 4 violas or 4 cellos; the uploaded file is the 4 Violin Version, so entry is violins only"
+    },
+    {
+     "claim": "parts",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Consort_No.1_(Derecskei,_Andr%C3%A1s)",
+     "basis": "Four staves in treble clef throughout (PDF pp.1, 7, 9, 11)"
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Consort_No.1_(Derecskei,_Andr%C3%A1s)",
+     "basis": "Complete 16-page score: I. Toccata (p.1), II. Floating (p.7), III. Pulse (p.9), IV. Epilogue & Bariolage (p.11)"
+    },
+    {
+     "claim": "floor",
+     "status": "held",
+     "source": "https://www.youtube.com/watch?v=EnTvrzDWRZA",
+     "basis": "Video frame is score only; description says home recording by an ensemble named Clones; human performance and scoring unproven"
+    }
+   ],
+   "workCorrections": {
+    "notes": "Four-movement consort; this entry is the four-violin version of a work also allowed for violas or cellos."
+   },
+   "approvedDetailFields": [],
+   "detailCorrections": {
+    "kind": "movements",
+    "movements": [
+     "Toccata",
+     "Floating",
+     "Pulse",
+     "Epilogue & Bariolage"
+    ]
+   },
+   "detailSources": {
+    "kind": "https://imslp.org/wiki/Consort_No.1_(Derecskei,_András)",
+    "movements": "https://imslp.org/wiki/Consort_No.1_(Derecskei,_András)"
+   },
+   "grade": {
+    "level": 7,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "basis": "Toccata (Virtuoso, quarter=100) is nonstop chromatic sixteenth runs and leaps in every part for about 19 bars, in canon (PDF pp.1-2); finale bariolage at dotted quarter=150 in 6/8 over string crossings (pp.11-12). Pitch range stays in low positions, so speed and chromatic accuracy set the level.",
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "virtuosic",
+     "dramatic"
+    ]
+   },
+   "recordingDecisions": [
+    {
+     "id": "EnTvrzDWRZA",
+     "decision": "held",
+     "reason": "Score-only video; human performance and violin scoring not shown",
+     "seconds": 575,
+     "checks": {
+      "exactVersion": false,
+      "wholeWork": true,
+      "humanPerformance": false,
+      "embedVerified": true,
+      "excludedPerformersChecked": false
+     }
+    }
+   ]
+  },
+  {
+   "key": "poradowski-op56-three-basses",
+   "status": "approved",
+   "factsVerified": true,
+   "claimChecks": [
+    {
+     "claim": "identity",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Double_Bass_Trio,_Op.56_(Poradowski,_Stefan_Boles%C5%82aw)",
+     "basis": "IMSLP page 824732: Double Bass Trio Op.56, 3 double basses, Hofmeister Leipzig 1957 plate 7218."
+    },
+    {
+     "claim": "notation",
+     "status": "confirmed",
+     "source": "https://imslp.org/wiki/Double_Bass_Trio,_Op.56_(Poradowski,_Stefan_Boles%C5%82aw)",
+     "basis": "IMSLP lists a complete score hosted by PML Canada. Link only; PDF not downloaded by owner instruction. Grades read from public score-video frames."
+    },
+    {
+     "claim": "floor",
+     "status": "confirmed",
+     "source": "https://www.youtube.com/watch?v=U-hk9YoujH4",
+     "basis": "Grenda, Ulfenstedt, Preuß; Munich, 28 June 2007; three movements with chapters."
+    }
+   ],
+   "detailCorrections": {
+    "kind": "movements",
+    "movements": [
+     "Allegro moderato",
+     "Adagio",
+     "Rondo – Finale: Allegro non troppo"
+    ],
+    "published": "1957, Leipzig: Friedrich Hofmeister"
+   },
+   "detailSources": {
+    "kind": "https://imslp.org/wiki/Double_Bass_Trio,_Op.56_(Poradowski,_Stefan_Boles%C5%82aw)",
+    "movements": "https://www.youtube.com/watch?v=U-hk9YoujH4",
+    "published": "https://imslp.org/wiki/Double_Bass_Trio,_Op.56_(Poradowski,_Stefan_Boles%C5%82aw)"
+   },
+   "recordingDecisions": [
+    {
+     "id": "U-hk9YoujH4",
+     "decision": "approved",
+     "reason": "All three movements with chapters; three named bassists; the first bassist uploaded it.",
+     "seconds": 819,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": true,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     }
+    },
+    {
+     "id": "WHfBSErsJA8",
+     "decision": "held",
+     "reason": "Score video mixing two different trios across movements."
+    },
+    {
+     "id": "1nr37jFyS9Q",
+     "decision": "held",
+     "reason": "Re-upload of the same Grenda recording."
+    }
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "double-bass 1",
+    "confidence": "medium",
+    "basis": "Coordinator reading of three public score-video frames, one per movement: Bass I has accented semiquaver figures in Allegro moderato, climbing from bass into tenor and treble clef, with trills and exposed high-register entries. Limited sample of the full score, so one level of uncertainty.",
+    "mode": null,
+    "pace": "moderate",
+    "character": [
+     "dramatic",
+     "lyrical"
+    ]
+   }
+  },
+  {
+   "key": "clark-gavotte-four-violins",
+   "status": "approved",
+   "scope": "prior-grade-carried-over",
+   "note": "Earlier verifier grade; that review was held only on the performance floor, now resolved.",
+   "grade": {
+    "level": 3,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "basis": "Complete nine-facing-page parts; inspected all four independent lines, especially pp.2,4,6,8. First violin has nimble dotted dance figures, chromatic semiquavers, grace notes and moderate upper-position work; supporting parts substantially easier. Three is a score-based advisory estimate with one-level uncertainty and no ensemble uplift. Studio-upload whole-work context is plausible but human floor remains unverified.",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "dance",
+     "playful"
+    ],
+    "scorePagesInspected": [
+     1,
+     2,
+     4,
+     6,
+     8,
+     9
+    ],
+    "scorePath": "data/cache/same-instrument-imslp/scores/source42-82715.pdf",
+    "advisoryUncertaintyLevels": 1
+   }
+  },
+  {
+   "key": "massa-violin-quartet-four-violins",
+   "status": "approved",
+   "scope": "prior-grade-carried-over",
+   "note": "Earlier verifier grade and detail corrections; that review was held only on the performance floor, now resolved.",
+   "grade": {
+    "level": 4,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "uncertaintyLevels": 1,
+    "scope": "whole work, hardest individual part",
+    "basis": "Violin1 requires upper-register melody, rapid chromatic scale pickups including tuplets, articulate saltellato figures, and repeated high sixteenths at the Finale; lower parts also change between arco and pizzicato and include double stops. The concrete violin1 writing is early advanced rather than a virtuoso concertante part. The factual performance-floor hold is independent of this complete-score advisory grade.",
+    "scoreAnchors": [
+     {
+      "source": "data/cache/same-instrument-imslp/scores/503799.pdf",
+      "location": "Ipp1–3, IIpp3–8; II m16/p4 and m32/p4; mm49–64/p5; Finale mm129ff/p8",
+      "observation": "Seven-note and chromatic scale pickups, saltellato bowing, six-note pickups, high repeated sixteenths and closing chords. First movement has sustained pp cantabile/chromatic decoration and staggered entrances."
+     }
+    ],
+    "ensembleUpliftApplied": false,
+    "mode": "major",
+    "pace": "lively",
+    "character": [
+     "dance",
+     "dramatic",
+     "playful"
+    ]
+   },
+   "workCorrections": {
+    "title": "Cuarteto para Violines",
+    "imslpPage": "Violin Quartet (Massa, Juan Bautista)",
+    "year": "",
+    "minutes": 5,
+    "notes": "Two movements for four violins, dedicated to Elmerico Fracassi."
+   }
+  },
+  {
+   "key": "debleser-tearful-day-four-cellos",
+   "status": "approved",
+   "scope": "musical-only",
+   "grade": {
+    "level": 2,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "basis": "Coordinator reading of 404072.pdf p.3: slow Adagio with tenor-clef whole notes and simple slurred phrases in cello 1, plain eighth and semiquaver ostinatos in lower parts, no high positions.",
+    "mode": "minor",
+    "pace": "slow",
+    "character": [
+     "tender",
+     "lyrical"
+    ]
+   }
+  }
+ ]
+}

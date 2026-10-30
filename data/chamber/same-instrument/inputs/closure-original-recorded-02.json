@@ -1,0 +1,284 @@
+{
+ "batch": "closure-original-recorded-02",
+ "items": [
+  {
+   "contextKey": "1617068-original",
+   "pageId": 1617068,
+   "kind": "original",
+   "title": "Concerto for 4 Violins, TWV 40:202 (Telemann, Georg Philipp)",
+   "composer": "Telemann, Georg Philipp",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1617068.json",
+   "workInfo": {
+    "Work Title": "Concerto for 4 Violins",
+    "Opus/Catalogue Number": "TWV 40:202",
+    "Key": "D",
+    "Number of Movements/Sections": "3 movements: # Adagio-Allegro # Grave # Allegro",
+    "Piece Style": "Baroque",
+    "Instrumentation": "4 violins",
+    "Tags": "concertos ; 4vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-004.json",
+    "pageId": 1617068,
+    "title": "Concerto for 4 Violins, TWV 40:202 (Telemann, Georg Philipp)",
+    "disposition": "lead",
+    "reason": "The manuscript contains a complete set of four-violin parts, and Music@Menlo’s 2026 official page documents a professional performance by four named violinists with a paid livestream; resolve movement-count differences before import.",
+    "facts": [
+     "Original work is for four violins; do not substitute the separate harpsichord-continuo edition.",
+     "Official performance floor exists; cached page movement count is three while other records describe four movements."
+    ],
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+      "checkedOn": "2026-10-28",
+      "finding": "IMSLP lists a complete manuscript part set for four violins, plus a separate arranger-created edition with a continuo line; original work-info lists three sections."
+     },
+     {
+      "url": "https://musicatmenlo.org/event/concert-program-iv-the-unfolding-of-music/",
+      "checkedOn": "2026-10-28",
+      "finding": "Music@Menlo’s July 28, 2026 program lists this exact work and names Arnaud Sussmann, Stella Chen, Aaron Boyd, and Jessica Lee; the official page offered a livestream."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1040503-original",
+   "pageId": 1040503,
+   "kind": "original",
+   "title": "Céu e Nuvens II (Alencar, Gabriel)",
+   "composer": "Alencar, Gabriel",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1040503.json",
+   "workInfo": {
+    "Work Title": "Céu e Nuvens II",
+    "Key": "a",
+    "Average Duration": "2 minutes",
+    "Year/Date of Composition": "2018",
+    "Piece Style": "Romantic",
+    "Instrumentation": "4 cellos",
+    "Tags": "pieces ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-001.json",
+    "pageId": 1040503,
+    "title": "Céu e Nuvens II (Alencar, Gabriel)",
+    "disposition": "lead",
+    "reason": "Four-cello scoring and an explicitly described multitrack cello-quartet complete recording are listed.",
+    "versions": [
+     {
+      "key": null,
+      "composer": "Alencar, Gabriel",
+      "title": "Céu e Nuvens II",
+      "instrument": "4 cellos",
+      "independentPartCount": 4,
+      "kind": "work",
+      "arranger": null,
+      "extent": null,
+      "selection": null,
+      "imslpPage": "https://imslp.org/wiki/C%C3%A9u_e_Nuvens_II_%28Alencar%2C_Gabriel%29",
+      "scoreEvidence": {
+       "url": "https://imslp.org/wiki/C%C3%A9u_e_Nuvens_II_%28Alencar%2C_Gabriel%29",
+       "locator": "IMSLP page, Scores and Parts section",
+       "finding": "No original-scoring score/parts explicit in cached excerpt."
+      },
+      "performanceEvidence": [
+       {
+        "url": "https://imslp.org/wiki/C%C3%A9u_e_Nuvens_II_%28Alencar%2C_Gabriel%29",
+        "locator": "AUDIO / Videos section, Complete Recording; performer field",
+        "finding": "Complete recording attributed to Gabriel Alencar, described as multitrack cello quartet; page scoring is four cellos."
+       }
+      ],
+      "facts": {
+       "year": "2018",
+       "minutes": "2 minutes",
+       "movements": null
+      },
+      "flags": []
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "834983-original",
+   "pageId": 834983,
+   "kind": "original",
+   "title": "Epos No.1 for 3 Cellos (Nichifor, Serban)",
+   "composer": "Nichifor, Serban",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/834983.json",
+   "workInfo": {
+    "Work Title": "Epos No.1 for 3 Cellos",
+    "Average Duration": "5 minutes",
+    "Year/Date of Composition": "1974",
+    "Year of First Publication": "1974",
+    "Piece Style": "Modern",
+    "Instrumentation": "3 cellos",
+    "Tags": "pieces ; 3vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "188724-original",
+   "pageId": 188724,
+   "kind": "original",
+   "title": "Les prières, Op.27 (Forino, Luigi)",
+   "composer": "Forino, Luigi",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/188724.json",
+   "workInfo": {
+    "Work Title": "Les prières",
+    "Alternative Title": "Preghieri ; Prayers",
+    "Opus/Catalogue Number": "Op.27",
+    "Number of Movements/Sections": "4 or more works",
+    "Year of First Publication": "1909 or earlier",
+    "Piece Style": "Romantic",
+    "Instrumentation": "4 cellos",
+    "Tags": "songs ; 4vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-006.json",
+    "pageId": 188724,
+    "title": "Les prières, Op.27 (Forino, Luigi)",
+    "disposition": "needs-review",
+    "reason": "The page has a human four-cello recording and complete score/parts for No.3, but the recording/version extent is not shown to be that exact standalone selection; mixed collection granularity needs review.",
+    "sourceEvidence": [
+     {
+      "url": "https://imslp.org/wiki/Les_pri%C3%A8res,_Op.27_(Forino,_Luigi)",
+      "finding": "Page labels recording Preghiere per four cellos and lists complete score/parts for No.3; extent linkage requires review."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1326417-original",
+   "pageId": 1326417,
+   "kind": "original",
+   "title": "Quartet for 4 Violins (Trapkus, Paul)",
+   "composer": "Trapkus, Paul",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1326417.json",
+   "workInfo": {
+    "Work Title": "Quartet for 4 Violins",
+    "Key": "C",
+    "Number of Movements/Sections": "1",
+    "Average Duration": "5 minutes",
+    "Year/Date of Composition": "2023",
+    "Piece Style": "Modern",
+    "Instrumentation": "4 violins",
+    "Tags": "quartets ; 4vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "1223973-original",
+   "pageId": 1223973,
+   "kind": "original",
+   "title": "Quartetto Viola, VG80 (Gorochnaya, Vasilisa)",
+   "composer": "Gorochnaya, Vasilisa",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/1223973.json",
+   "workInfo": {
+    "Work Title": "Quartetto Viola",
+    "Alternative Title": "Quartet for 4 Violas",
+    "Opus/Catalogue Number": "VG80",
+    "Key": "d",
+    "Number of Movements/Sections": "4 movements",
+    "Average Duration": "18 minutes",
+    "Year/Date of Composition": "2014-16",
+    "Year of First Publication": "2021-22",
+    "Piece Style": "Classical",
+    "Instrumentation": "4 violas",
+    "Tags": "quartets ; 4va |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-006.json",
+    "pageId": 1223973,
+    "title": "Quartetto Viola, VG80 (Gorochnaya, Vasilisa)",
+    "disposition": "needs-review",
+    "reason": "Four viola parts, score, duration and premiere are listed, but focused sources did not verify the linked video as a complete human performance with performer credits.",
+    "sourceEvidence": [
+     {
+      "url": "https://imslp.org/wiki/Quartetto_Viola,_VG80_(Gorochnaya,_Vasilisa)",
+      "finding": "Complete score and four separate viola parts listed; first performance given as 2016-03-27; linked video requires inspection."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "138907-original",
+   "pageId": 138907,
+   "kind": "original",
+   "title": "Shadows (Dyson, Peter)",
+   "composer": "Dyson, Peter",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/138907.json",
+   "workInfo": {
+    "Work Title": "Shadows for eight cellos",
+    "Number of Movements/Sections": "1",
+    "Average Duration": "10 minutes",
+    "Year/Date of Composition": "2002",
+    "Year of First Publication": "2002",
+    "Piece Style": "Modern",
+    "Instrumentation": "8 cellos",
+    "Tags": "pieces ; 8vc |"
+   },
+   "arrangementHeadings": [],
+   "prior": {
+    "file": "data/chamber/same-instrument/discovery/triage-006.json",
+    "pageId": 138907,
+    "title": "Shadows (Dyson, Peter)",
+    "disposition": "needs-review",
+    "reason": "Eight cello parts and complete score are present, but the only listed complete audio is explicitly synthesized MIDI; no human performance found in focused search.",
+    "sourceEvidence": [
+     {
+      "url": "https://imslp.org/wiki/Shadows_(Dyson,_Peter)",
+      "finding": "Complete score and eight parts listed; recording identified as Sibelius-created audio."
+     }
+    ]
+   },
+   "existingOriginals": []
+  },
+  {
+   "contextKey": "393487-original",
+   "pageId": 393487,
+   "kind": "original",
+   "title": "Trio for 3 Violins (Trapkus, Paul)",
+   "composer": "Trapkus, Paul",
+   "state": "pending",
+   "reason": "",
+   "rawCache": "data/cache/same-instrument-imslp/pages/393487.json",
+   "workInfo": {
+    "Work Title": "Trio for 3 Violins",
+    "Number of Movements/Sections": "1",
+    "Year/Date of Composition": "2012",
+    "Year of First Publication": "2012",
+    "Piece Style": "Modern",
+    "Instrumentation": "3 violins",
+    "Tags": "trios ; 3vn |"
+   },
+   "arrangementHeadings": [],
+   "prior": null,
+   "existingOriginals": []
+  }
+ ]
+}

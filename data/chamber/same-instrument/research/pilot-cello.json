@@ -1,0 +1,419 @@
+{
+  "chunk": "pilot-cello",
+  "role": "enrichment",
+  "status": "partial",
+  "entries": [
+    {
+      "key": "klengel-hymnus-op57-12vc",
+      "existingPublicId": null,
+      "decision": "include",
+      "reason": "Original for twelve independent cellos; Breitkopf score/parts and named Berlin Philharmonic cellists performance establish exact version and repertoire floor.",
+      "work": {
+        "composer": "Klengel, Julius",
+        "title": "Hymnus in G major, Op. 57",
+        "instruments": {
+          "cello": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "short",
+        "level": 5,
+        "hardestPart": "cello 1",
+        "year": "1920",
+        "minutes": null,
+        "set": null,
+        "notes": "Andante cantabile for twelve cellos",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "slow",
+        "character": [
+          "lyrical"
+        ],
+        "imslpPage": "Hymnus for 12 Cellos, Op.57 (Klengel, Julius)"
+      },
+      "composerMetadata": null,
+      "details": {
+        "published": "1920",
+        "otherTitles": [
+          "Hymnus für zwölf Violoncelli"
+        ]
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)",
+            "checkedOn": "2026-10-27",
+            "finding": "Refreshed API wikitext: 12 cellos; one movement; complete score/parts, Breitkopf 1920 plate 28603, 17 pages (5 score and twelve one-page parts). IMSLP audio is violas and tenor and is not used."
+          },
+          {
+            "url": "https://www.breitkopf.us/products/klengel-hymnus-op-57-breitkopf",
+            "checkedOn": "2026-10-27",
+            "finding": "Publisher score, print parts and digital parts available; EB6847 ISMN 9790004170342."
+          },
+          {
+            "url": "https://www.breitkopf.com/assets/haendler/samples/9790004170342.pdf",
+            "checkedOn": "2026-10-27",
+            "finding": "Visually inspected complete first-cello sample, 78 bars, Andante cantabile, bass/tenor/treble clefs, upper register and chromatic cantabile writing."
+          },
+          {
+            "url": "https://www.die12cellisten.de/de/geschichte/anfaenge.html",
+            "checkedOn": "2026-10-27",
+            "finding": "Ensemble history gives composition in 1920 and early performance history."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)",
+          "locator": "Scores and Parts: Complete score and parts; General information",
+          "finding": "Twelve independent cello parts, original scoring; no accompaniment."
+        },
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=oruJzhMUBh0",
+          "finding": "Official Berliner Philharmoniker upload credits The 12 Cellists, recorded Philharmonie Berlin 9 January 2022. 184-second excerpt documents real performance; completeness of upload is not established."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://www.breitkopf.us/products/klengel-hymnus-op-57-breitkopf",
+          "finding": "Full score and set of parts EB6847; official first-cello PDF sample inspected."
+        },
+        "fieldSources": {
+          "year": "https://www.die12cellisten.de/de/geschichte/anfaenge.html",
+          "details.published": "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)",
+          "mode": "https://www.youtube.com/watch?v=oruJzhMUBh0",
+          "pace": "https://www.breitkopf.com/assets/haendler/samples/9790004170342.pdf",
+          "character": "Researcher characterization from inspected first-cello part",
+          "popularity": "Researcher catalogue label; specialist repertoire, not quantitative popularity."
+        },
+        "unknowns": {
+          "minutes": "Sources conflict: IMSLP 3–6 minutes; current Breitkopf vendor metadata 9 minutes; official YouTube excerpt 3:04. No fixed duration proposed.",
+          "details.dedication": "Historical anecdote associates Arthur Nikisch; dedication not stated in refreshed work-page metadata.",
+          "otherPartsGrade": "Only official first-cello sample visually read; no per-part levels assigned."
+        }
+      },
+      "researcherGrade": {
+        "basis": "Level 5, provisional from the full first-cello sample: sustained upper-register treble-clef cantabile, chromatic intonation, tenor-clef changes, expressive bow control and independent 12-part entries. More exposed/register-demanding than Puccini Crisantemi (anchor 3), without fast virtuoso quartet writing. First cello provisionally hardest; other eleven parts not visually read.",
+        "confidence": "medium"
+      },
+      "recordingResearch": {
+        "status": "unverified",
+        "queries": [
+          "Klengel Hymnus Op 57 twelve cellos score recording",
+          "Klengel Hymnus op 57 site.berliner-philharmoniker.de"
+        ],
+        "candidates": [
+          {
+            "id": "oruJzhMUBh0",
+            "title": "Klengel: Hymnus / 12 Cellists of the Berliner Philharmoniker",
+            "channel": "Berliner Philharmoniker",
+            "seconds": 184,
+            "url": "https://www.youtube.com/watch?v=oruJzhMUBh0",
+            "performerCredits": "The 12 Cellists of the Berliner Philharmoniker",
+            "description": "Julius Klengel: Hymnus G major, op. 57 / The 12 Cellists of the Berliner Philharmoniker / Recorded at the Philharmonie Berlin, 9 January 2022. Full-length concert linked to Digital Concert Hall 53896.",
+            "exactVersionEvidence": "Official ensemble and work credits match original 12-cello scoring.",
+            "completenessEvidence": "Not established; 3:04 official clip links full-length concert. Hold from primary selection.",
+            "exclusionCheck": "Official credits identify cello-only ensemble; no excluded violinist named.",
+            "embedCheck": {
+              "method": "yt-dlp metadata",
+              "playableInEmbed": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "fitzenhagen-ave-maria-op41-4vc",
+      "existingPublicId": 104935,
+      "decision": "include",
+      "reason": "Existing exact four-cello original; refreshed complete score and four parts plus Tritton released recording and Galvin video. Composition year amendment explicitly sourced; existing level retained pending independent score review.",
+      "work": {
+        "composer": "Fitzenhagen, Wilhelm",
+        "title": "Ave Maria, Op. 41 (version for four cellos)",
+        "aka": [
+          "Ave Maria for 4 Cellos"
+        ],
+        "formation": "string-quartet",
+        "instruments": {
+          "cello": 4
+        },
+        "players": 4,
+        "form": "short",
+        "level": 3,
+        "hardestPart": "balanced",
+        "year": "mid-1880s",
+        "minutes": 5,
+        "set": null,
+        "notes": "Original for four cellos; published posthumously",
+        "popularity": "lesser-known",
+        "imslpPage": "Ave Maria, Op.41 (Fitzenhagen, Wilhelm)",
+        "mode": "major",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "tender"
+        ]
+      },
+      "composerMetadata": null,
+      "details": {
+        "composed": "mid-1880s",
+        "dedication": "Sigmund Bürger (1856–1908)",
+        "published": "1896 or before"
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+            "checkedOn": "2026-10-27",
+            "finding": "API wikitext and parsed page refreshed. Complete score edited Hitoshi Araki 2024; Leuckart parts reprinted IMC2198, separately labeled cello1–4. D major; dedication Sigmund Bürger; publication 1896 or before."
+          },
+          {
+            "url": "https://www.editionsilvertrust.com/fitzenhagen-ave-maria.htm",
+            "checkedOn": "2026-10-27",
+            "finding": "Publisher describes original quartet as composed mid-1880s and published after death; parts offered."
+          },
+          {
+            "url": "https://classical.music.apple.com/us/album/353812933",
+            "checkedOn": "2026-10-27",
+            "finding": "Tritton Cello Ensemble 2009 Columna Musica release lists Ave Maria Op41, 4:38."
+          },
+          {
+            "url": "https://www.cultura-stmoritz.ch/recordings/",
+            "checkedOn": "2026-10-27",
+            "finding": "Indexed foundation recording catalogue names Tritton cellists Josep Bassal, Bonghin Ko, Wolfgang Lehner and Albert Roman; direct open timed out."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+          "locator": "Complete Score and Parts; General Information",
+          "finding": "Original Ave Maria for four cellos; four individually named parts and no accompaniment."
+        },
+        "floor": {
+          "url": "https://classical.music.apple.com/us/album/353812933",
+          "finding": "Released 2009 recording by Tritton Cello Ensemble, Ave Maria Op41 (4:38), album Cello Quartet Original Works. Video also names four Galvin cellists."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+          "finding": "Complete score #911505 and complete cello1–4 parts #406640,1039355–1039357. Binary PDF access redirected to anti-bot/friendlyredirect page; musical notation not visually inspected."
+        },
+        "fieldSources": {
+          "year": "https://www.editionsilvertrust.com/fitzenhagen-ave-maria.htm",
+          "notes": "https://www.editionsilvertrust.com/fitzenhagen-ave-maria.htm",
+          "details.composed": "https://www.editionsilvertrust.com/fitzenhagen-ave-maria.htm",
+          "details.dedication": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+          "details.published": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+          "mode": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+          "minutes": "https://classical.music.apple.com/us/album/353812933",
+          "pace": "Existing catalogue retained; independent musical review needed.",
+          "character": "Existing catalogue retained.",
+          "popularity": "Existing catalogue retained."
+        },
+        "unknowns": {
+          "yearPrecision": "Publisher supplies mid-1880s, not exact year; current c.1896 appears to conflate publication and composition.",
+          "details.firstPerformance": "Not established.",
+          "grade": "Current level3 and balanced are copied without amendment; PDF download blocked before part inspection.",
+          "minutes": "Existing rounded5 retained; Tritton recording4:38.",
+          "originalVersion": "Publisher describes original4-cello church work; other cello-piano/harmonium versions not used."
+        }
+      },
+      "researcherGrade": {
+        "basis": "Existing catalogue level3/balanced retained, not a fresh score-backed grade. Intended comparison is lyrical intermediate quartet writing; binary score retrieval blocked, so reviewer must inspect the parts before grading.",
+        "confidence": "low"
+      },
+      "recordingResearch": {
+        "status": "unverified",
+        "queries": [
+          "Fitzenhagen Ave Maria Op41 cello quartet youtube"
+        ],
+        "candidates": [
+          {
+            "id": "Q7iZuTln0Do",
+            "title": "The Galvin Cello Quartet - W. Fitzenhagen, Ave Maria",
+            "channel": "The Galvin Cello Quartet",
+            "seconds": 278,
+            "url": "https://www.youtube.com/watch?v=Q7iZuTln0Do",
+            "performerCredits": "Haddon Kay, Sihao He, Luiz Fernando Venturelli, Sydney Lee",
+            "description": "Recorded in the Mary B. Galvin Recital Hall on February 2021.\n——\n\nThe Galvin Cello Quartet\nHaddon Kay, Sihao He, Luiz Fernando Venturelli, Sydney Lee.",
+            "exactVersionEvidence": "Title and four named cellists match original four-cello work; original, no arranger linkage required.",
+            "completenessEvidence": "278 seconds, consistent with full single piece (Tritton4:38); audiovisual endpoint not checked.",
+            "exclusionCheck": "All four named performers checked; none excluded.",
+            "embedCheck": {
+              "method": "yt-dlp metadata",
+              "playableInEmbed": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "gubaidulina-quaternion-4vc",
+      "existingPublicId": 106744,
+      "decision": "include",
+      "reason": "Existing original for four solo cellos, with obtainable Sikorski1960 score and exactly credited Chandos quartet recording; organ belongs only to another album track. Extended-technique scoring note proposed.",
+      "work": {
+        "composer": "Gubaidulina, Sofia",
+        "title": "Quaternion",
+        "formation": "string-quartet",
+        "instruments": {
+          "cello": 4
+        },
+        "players": 4,
+        "form": "work",
+        "level": 8,
+        "hardestPart": "balanced",
+        "year": "1996",
+        "minutes": 22,
+        "set": null,
+        "notes": "Four solo cellos; cellos 3–4 tuned a quarter-tone below cellos 1–2",
+        "popularity": "lesser-known",
+        "mode": null,
+        "pace": "moderate",
+        "character": [
+          "dark",
+          "dramatic"
+        ]
+      },
+      "composerMetadata": null,
+      "details": {
+        "composed": "1996",
+        "dedication": "Vladimir Tonkha",
+        "firstPerformance": "11 April 1996, Moscow; Vladimir Tonkha, Elena Shulyova, Vladimir Shulyov and Michail Shumsky (cellos)"
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.boosey.com/cr/music/Sofia-Gubaidulina-Quaternion/15281",
+            "checkedOn": "2026-10-27",
+            "finding": "Publisher catalogue gives1996, four cellos,25min and for-sale score."
+          },
+          {
+            "url": "https://www.schott-music.com/en/quaternion-no567499.html",
+            "checkedOn": "2026-10-27",
+            "finding": "Indexed publisher listing: SIK1960, exempla nova260,77 pages, ISMN9790003030401. Direct page403; availability corroborated by Boosey purchase page."
+          },
+          {
+            "url": "https://www.chandos.net/chanimages/Booklets/CH9958.pdf",
+            "checkedOn": "2026-10-27",
+            "finding": "PDF p2 track12:22:27, cello quartet Ivashkin, Pavlutskaya, Johnston, Wilson. PDF p3 performer-authored note specifies cellos3–4 quarter-tone down, harmonics and thimbles."
+          },
+          {
+            "url": "https://ressources.ircam.fr/en/work/quaternion",
+            "checkedOn": "2026-10-27",
+            "finding": "IRCAM gives composition1996, SIK1960,25min, dedication and premiere date/place/four cellists."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.chandos.net/chanimages/Booklets/CH9958.pdf",
+          "locator": "PDF p2 track12 and daggered credits; p3 Quaternion note",
+          "finding": "Four solo cello parts;3 and4 tuned quarter-tone below1 and2. No required organ: booklet asterisk attaches organ to In croce only."
+        },
+        "floor": {
+          "url": "https://www.chandos.net/chanimages/Booklets/CH9958.pdf",
+          "finding": "Chandos CHAN9958 track12,22:27: Alexander Ivashkin, Natalia Pavlutskaya, Rachel Johnston, Miranda Wilson. Released2001, labelled premiere recording."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://www.boosey.com/purchase-music/Sofia-Gubaidulina-Quaternion/15281",
+          "finding": "Official publisher says order through music shop; SIK1960 edition corroborated by IRCAM and indexed Schott77-page score. No notation preview located."
+        },
+        "fieldSources": {
+          "year": "https://www.boosey.com/cr/music/Sofia-Gubaidulina-Quaternion/15281",
+          "notes": "https://www.chandos.net/chanimages/Booklets/CH9958.pdf",
+          "details.composed": "https://ressources.ircam.fr/en/work/quaternion",
+          "details.dedication": "https://ressources.ircam.fr/en/work/quaternion",
+          "details.firstPerformance": "https://ressources.ircam.fr/en/work/quaternion",
+          "minutes": "https://www.chandos.net/chanimages/Booklets/CH9958.pdf",
+          "character": "https://www.chandos.net/chanimages/Booklets/CH9958.pdf",
+          "mode": "Existing null retained; no single tonal mode asserted.",
+          "pace": "Existing moderate retained; work varies.",
+          "popularity": "Existing lesser-known retained."
+        },
+        "unknowns": {
+          "details.published": "Exact first-publication date not established.",
+          "details.movements": "Single continuous recording track; no named movement divisions verified from score.",
+          "scoreInspection": "Score not visually inspected; low-confidence retained level8 requires independent score review.",
+          "durationDiscrepancy": "Publisher/IRCAM estimate25min versus Chandos22:27; existing rounded22 retained.",
+          "recordingCredits": "YouTube Moscow Cello Quartet members not named in description, so exclusion and exact recording identity remain unverified."
+        }
+      },
+      "researcherGrade": {
+        "basis": "Existing level8/balanced provisionally retained. Performer-author primary booklet describes microtonal scordatura, harmonics and thimble playing for four solo cellists, supporting professional technical demands, comparable broad difficulty class to Debussy/Ravel quartets(anchor8). No notation preview visually read, so this is not a new score-backed grade.",
+        "confidence": "low"
+      },
+      "recordingResearch": {
+        "status": "unverified",
+        "queries": [
+          "Gubaidulina Quaternion youtube Ivashkin",
+          "Quaternion Gubaidulina youtube.com/watch",
+          "Existing judged recording106744 metadata refreshed with yt-dlp"
+        ],
+        "candidates": [
+          {
+            "id": "pupQVT4VPMw",
+            "title": "Sofia Gubaidulina ~ Quaternion",
+            "channel": "MUSIC?",
+            "seconds": 1382,
+            "url": "https://www.youtube.com/watch?v=pupQVT4VPMw",
+            "performerCredits": "Moscow cello quartet; individual members not supplied",
+            "description": "Quaternion\nSofia Gubaidulina\n(1996)\n....For 4 cello....\n\n*Moscow cello quartet*",
+            "exactVersionEvidence": "Metadata explicitly1996 and4 cello; exact original likely but ensemble personnel not verified.",
+            "completenessEvidence": "23:02 consistent with whole work; beginning/end not audiovisually checked.",
+            "exclusionCheck": "No excluded name appears; individual personnel unresolved, so not approved.",
+            "embedCheck": {
+              "method": "yt-dlp metadata",
+              "playableInEmbed": true
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "key": "kaiser-lindemann-variacoes-brasileiras-12vc",
+      "status": "not-enriched",
+      "sources": [
+        "https://www.sheetmusicplus.com/en/product/variacoes-brasileiras-the-12-in-bossa-nova-for-12-celli-4371756.html",
+        "https://www.nmz.de/kritik/rezensionen/noten/im-urwald-der-notenkoepfe"
+      ],
+      "known": "KunzelmannGM620,ISMN9790206205125,76pp score+parts for12celli. Specialist2001 review explicitly quotes composer commissioning for Berlin12-cellists EMI LatinAmerica CD, melody cello1–3/4 and accompaniment remainder. Need open primary publisher/label or programme to establish floor, verify12 independent staves, composer metadata, year and score-backed grade. Source title/opus contradictory: do not guessOp36; newer publisher euthentic may call originalOp7 and later12-cello arrangement2006, while2001 review already establishes12-cello publication. Resolve contradiction."
+    },
+    {
+      "key": "klengel-variations-op15-4vc",
+      "status": "not-enriched",
+      "sources": [
+        "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+        "https://www.sheetmusicplus.com/en/product/variations-opus-15-4302469.html"
+      ],
+      "known": "Original4celli,IMC1764. Current indexedIMSLP page only cello1 part7pp uploadedApril2026, not complete parts. Need primary performance floor and score preview; modern score+parts edition obtainable. No current catalogue duplicate among cello-only list."
+    },
+    {
+      "key": "kaiser-lindemann-mambo-for-six-6vc",
+      "status": "not-enriched",
+      "sources": [
+        "https://www.prestomusic.com/sheet-music/products/7126676--kaiser-lindemann-wilhelm-mambo-for-six",
+        "https://www.luganomusica.ch/dam/jcr%3A28c1b57a-51d8-473c-a355-bb23ac2ccb17/Programma%20di%20sala%20Cello%20Ensemble%2015.5.2023-Classica%20nei%20quartieri.pdf",
+        "https://www.sheetmusicplus.com/en/product/mambo-for-six-4371793.html",
+        "https://eumakplus.com/product/lindemann-mambo-for-six-for-six-cello/128435/"
+      ],
+      "known": "KunzelmannGM598,ISMN9790206201752,26pp score+parts for6cellos. LuganoMusica15May2023 programme explicitly says original for6cellos; open PDF next. Retail listing linksYouTubeZBKYjxv5azY, not inspected. Newer euthentic publisher callsOp8 composed1980, not yet opened. Need official composer metadata and visual score-grade."
+    }
+  ],
+  "resume": {
+    "nextKey": "kaiser-lindemann-variacoes-brasileiras-12vc",
+    "note": "Stopped immediately on coordinator81%-usage checkpoint after saving third entry. No fourth entry started. Next finish Kaiser-Lindemann Variações brasileiras(Die12 in Bossa Nova), then Klengel VariationsOp15 and Kaiser-Lindemann Mambo for Six. Three full researched entries saved; no canonical writes. Saved leads below prevent repeated discovery."
+  }
+}

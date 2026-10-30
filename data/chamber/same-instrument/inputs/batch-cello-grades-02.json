@@ -1,0 +1,325 @@
+{
+ "batch": "batch-cello-grades-02",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "kaiser-lindemann-variacoes-brasileiras-12vc",
+   "work": {
+    "composer": "Kaiser-Lindemann, Wilhelm",
+    "title": "Variações brasileiras for Twelve Cellos (Die 12 in Bossa nova)",
+    "instruments": {
+     "cello": 12
+    },
+    "players": 12,
+    "formation": "large-strings",
+    "form": "work",
+    "year": "",
+    "minutes": 5,
+    "set": null,
+    "notes": "Twelve independent cello parts; composer’s expanded bossa nova version."
+   },
+   "details": {
+    "kind": "single",
+    "published": "2000 (Kunzelmann); 2012 revised edition (euthentic edition)",
+    "otherTitles": [
+     "Die 12 in Bossa nova",
+     "The 12 in Bossa Nova"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://euthentic.eu/31115/en",
+      "checkedOn": "2026-10-28",
+      "locator": "Description/Product Information",
+      "finding": "Publisher supplies twelve instrumental parts and full score, duration about4min50sec, revised2012; composer’s expansion of earlier six-cello piece. Its claimed2006 expansion conflicts with a2001 review."
+     },
+     {
+      "url": "https://ci.nii.ac.jp/ncid/BA82084684",
+      "checkedOn": "2026-10-28",
+      "locator": "BA82084684",
+      "finding": "Library catalogue identifies Kunzelmann edition,c2000,and TohoGakuen holding D23-91500232776."
+     },
+     {
+      "url": "https://www.die12cellisten.de/de/repertoire_notenmaterial.html",
+      "checkedOn": "2026-10-28",
+      "locator": "",
+      "finding": "Performing ensemble’s own published-score list identifies Die12inBossa-nova(Variações brasileiras),WilhelmKaiser-Lindemann,EditionKunzelmann."
+     },
+     {
+      "url": "https://www.nmz.de/kritik/rezensionen/noten/im-urwald-der-notenkoepfe",
+      "checkedOn": "2026-10-28",
+      "locator": "1July2001,paragraphs1–4",
+      "finding": "Contemporary2001 review directly discusses12-part2000edition: allplayers share virtuoso material; two variations and coda, changing keys and special sound effects. Contradicts later claimed2006 expansion."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=-gqTAo_BU20",
+      "checkedOn": "2026-10-28",
+      "locator": "",
+      "finding": "OfficialOPUS upload credits12CellistsofBerlinerPhilharmoniker,27June2018,LOTTEConcertHall; titleexactly The12inBossaNova. Freshyt-dlpmetadata inspected:276seconds,public,playable_in_embed=true."
+     },
+     {
+      "url": "https://www.sheetmusicplus.com/en/product/variacoes-brasileiras-the-12-in-bossa-nova-for-12-celli-4371756.html",
+      "checkedOn": "2026-10-28",
+      "locator": "",
+      "finding": "Orderable fullscore/parts,76pages,KunzelmannGM620,ISMN9790206205125. Observedpreviewimage failedHTTP403; no notation visually inspected."
+     },
+     {
+      "url": "https://de.wikipedia.org/wiki/Wilhelm_Kaiser-Lindemann",
+      "checkedOn": "2026-10-28",
+      "locator": "",
+      "finding": "Biography explicitly Germancomposer/hornist,1940–2010,masculinepronouns; secondary biography used for nationality/gender only. PrimaryDresden programme independently confirms dates."
+     }
+    ],
+    "score": {
+     "url": "https://euthentic.eu/31115/en",
+     "finding": "Complete revised2012performance set,12parts+fullscore,in stock; KunzelmannGM620alsoorderable from retailer and held atTohoGakuen."
+    },
+    "scoring": {
+     "url": "https://euthentic.eu/31115/en",
+     "locator": "Instrumentation / Unit of output",
+     "finding": "12celli,12separateparts plus fullscore; no required accompaniment. Distinct composer-version from six-cello original."
+    },
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=-gqTAo_BU20",
+     "finding": "Officialpresenter OPUS:12CellistsofBerlinerPhilharmoniker,27June2018,LOTTEConcertHall;276-second titledwholework; linked directly by exact-version publisher."
+    }
+   }
+  },
+  {
+   "key": "klengel-variations-op15-4vc",
+   "work": {
+    "composer": "Klengel, Julius",
+    "title": "Variations on an Original Theme, Op. 15",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Four unequal cello parts; distinct from Theme and Variations, Op. 28.",
+    "imslpPage": "Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)"
+   },
+   "details": {
+    "kind": "single",
+    "otherTitles": [
+     "Variationen über ein eigenes Thema für vier Violoncelle"
+    ],
+    "published": "Breitkopf und Härtel, undated (plate 17434); undated International Music Company reprint, no. 1764"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+      "checkedOn": "2026-10-28",
+      "locator": "Parts / General Information",
+      "finding": "Exactcanonicalpage:4cellos,Op15,originaltitle; onlyCello1uploaded,7pages; Breitkopfplate17434,IMC1764reprint. Firstpublicationca1900iseditorialestimate, notcompositiondate."
+     },
+     {
+      "url": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+      "checkedOn": "2026-10-28",
+      "locator": "SKU I1764 / Description",
+      "finding": "JuilliardStore listscomplete four-cello IMC1764 edition in stock."
+     },
+     {
+      "url": "https://cellos2go.com/products/sheet-music/cello-ensembles/klengel-variations-op-15-for-4-cellos/",
+      "checkedOn": "2026-10-28",
+      "locator": "",
+      "finding": "Specialist retailer suppliespartset, no score. Its direct productdescription saysunequalparts,upperthreeusesthumbposition/trebleclef,lowesthascounting/chordissues. Thesearesourceclaims,notourvisualobservations."
+     },
+     {
+      "url": "https://www.nfm.wroclaw.pl/images/Sezon_2017_2018/omowienia/marzec/18.03.18_omowienie_0.4_www.pdf",
+      "checkedOn": "2026-10-28",
+      "locator": "PDFp1andp2notes",
+      "finding": "18March2018,18:00,NFMChamberHall:completeOp15listed;PolishCelloQuartet,TomaszDaroch,KrzysztofKarpeta,AdamKrzeszowiec,WojciechFudala."
+     },
+     {
+      "url": "https://www.editionsilvertrust.com/pdf-journals/Vol08-no1.pdf",
+      "checkedOn": "2026-10-28",
+      "locator": "Printedp9,OriginalWorksfor3and4Cellos",
+      "finding": "Specialist repertoireessay identifiesOp15asathleticfirstcellowithremainingpartsmoderate,contrastingeasierOp28."
+     }
+    ],
+    "score": {
+     "url": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+     "finding": "CompleteIMC1764four-celloparts availablein stock; specialistretailerconfirmspartsonly/no fullscore. IMSLPonlyCello1,notcompletefreepartset. Direct observedPDFURLreturnedIMSLPBotCheck,notnotation."
+    },
+    "scoring": {
+     "url": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+     "locator": "Description: Four cellos",
+     "finding": "Four independent cellos; no accompaniment or arranger listed. ExactOp15corroboratedbyIMSLPoriginaltitleandspecialistpartsdescription."
+    },
+    "floor": {
+     "url": "https://www.nfm.wroclaw.pl/images/Sezon_2017_2018/omowienia/marzec/18.03.18_omowienie_0.4_www.pdf",
+     "finding": "Actual18March2018NFMChamberHallconcert by four named PolishCelloQuartet players,completeOp15, noexcerpt designation. NoassumptionthatunidentifiedPleethperformancewasthiswork."
+    }
+   }
+  },
+  {
+   "key": "kaiser-lindemann-mambo-six-6vc",
+   "work": {
+    "composer": "Kaiser-Lindemann, Wilhelm",
+    "title": "Mambo for Six, Op. 8",
+    "instruments": {
+     "cello": 6
+    },
+    "players": 6,
+    "formation": "large-strings",
+    "form": "work",
+    "year": "1980",
+    "minutes": 5,
+    "set": null,
+    "notes": "Six independent cello parts; may be doubled by a larger cello ensemble."
+   },
+   "details": {
+    "kind": "single",
+    "composed": "1980",
+    "published": "Kunzelmann, 2000; euthentic edition, 2012 (revised edition)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://euthentic.eu/31114",
+      "checkedOn": "2026-10-28",
+      "locator": "Description / Product information",
+      "finding": "Current publisher: composed1980, six cellos, six parts plus full score, about4min45sec, in stock. Product calls2012firstedition, but2001review documents2000Kunzelmann edition."
+     },
+     {
+      "url": "https://euthentic.eu/WebRoot/Store2/Shops/9eb6f54e-ef30-4149-be0f-21f0d60d78c3/53B5/47FA/78F4/2362/3966/0A48/3509/2104/Kaiser-Lindemann_op._8_Mambo_for_six_6_Violoncelli_Partitur_Seite_01.jpg",
+      "checkedOn": "2026-10-28",
+      "locator": "Coverpreview",
+      "finding": "Visually inspected publisher cover: Mamboforsix,op8,6Violoncelli,editorJohannesBublitz,revisededition; composer1940–2010."
+     },
+     {
+      "url": "https://euthentic.eu/WebRoot/Store2/Shops/9eb6f54e-ef30-4149-be0f-21f0d60d78c3/53B5/47FA/78F4/2362/3966/0A48/3509/2104/Kaiser-Lindemann_op._8_Mambo_for_six_6_Violoncelli_Partitur_Seite_04.jpg",
+      "checkedOn": "2026-10-28",
+      "locator": "Printedmusicp1 / filepage04",
+      "finding": "Visually inspected first music page:6distinct staves,1980,Tempo diMambo halfnote108,2/2,twoflats. Uppercellos use treble/tenorclefs, staggered chordentries; syncopatedfirst-cellomelody,lowerpizzicato pulse. Only opening11bars inspected."
+     },
+     {
+      "url": "https://www.nmz.de/kritik/rezensionen/noten/im-urwald-der-notenkoepfe",
+      "checkedOn": "2026-10-28",
+      "locator": "1July2001,paragraphsafterVariaçõesdiscussion",
+      "finding": "Contemporary2001review documents Kunzelmann2000edition and firstcello-led melody with accompanyingparts; judges work suitable for intermediate players. This review is independent calibration,not an Atlas numeric grade."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=ZBKYjxv5azY",
+      "checkedOn": "2026-10-28",
+      "locator": "Freshyt-dlpmetadata",
+      "finding": "Officialinstrument-fund upload:CuypersCelloSextet, sixnamedcellists,14March2021OnlinePresentationConcert,BeursvanBerlageAmsterdam;358seconds,public,embeddable."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=FMA8epdIN38",
+      "checkedOn": "2026-10-28",
+      "locator": "Freshyt-dlpmetadata",
+      "finding": "Publisher directly links this academy upload: sixnamedcellists,282seconds,public,embeddable."
+     },
+     {
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=72440",
+      "checkedOn": "2026-10-28",
+      "locator": "Programme / MamboforSixCellos",
+      "finding": "16July2025SoulCelloEnsembleconcert atIBKChamberHall;Mambolists parts1–6 with9performers throughdoubling. DistinctBossaNovafor6Cellosalsoinprogramme."
+     },
+     {
+      "url": "https://de.wikipedia.org/wiki/Wilhelm_Kaiser-Lindemann",
+      "checkedOn": "2026-10-28",
+      "locator": "",
+      "finding": "Secondarybiography suppliesGerman nationality andmalepronouns; publishercoverconfirms1940–2010."
+     }
+    ],
+    "score": {
+     "url": "https://euthentic.eu/31114",
+     "finding": "In-stock fullscore+6parts,editorJohannesBublitz,2012edition. Freelyaccessiblecoverandfirstmusicpagevisuallyinspected; notclaimingwholepurchasedscoreinspection."
+    },
+    "scoring": {
+     "url": "https://euthentic.eu/WebRoot/Store2/Shops/9eb6f54e-ef30-4149-be0f-21f0d60d78c3/53B5/47FA/78F4/2362/3966/0A48/3509/2104/Kaiser-Lindemann_op._8_Mambo_for_six_6_Violoncelli_Partitur_Seite_04.jpg",
+     "locator": "First music page / six staff labels",
+     "finding": "Six independent cello parts, no required backing. Publisher sells6parts+fullscore. Nineplayers in2025Seoulperformance double some parts and do not change players=6minimum."
+    },
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=ZBKYjxv5azY",
+     "finding": "Instrumentfund’s official14March2021presentationconcert recording namesEmmaKroon,NitzanLaster,GiorgosKotsiolis,NicholasSantangeloSchwartz,LeahPlave,PieterdeKoe. ExactMambo,sixcellos,human ensemble."
+    }
+   }
+  }
+ ]
+}

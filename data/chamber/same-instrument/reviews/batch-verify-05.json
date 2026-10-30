@@ -1,0 +1,164 @@
+{
+ "batch": "batch-verify-05",
+ "entries": [
+  {
+   "key": "fux-sonata-3-violins-ulb-mus-ms-334",
+   "status": "approved",
+   "factsVerified": true,
+   "findings": [
+    {
+     "url": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+     "finding": "Original three-violin materials, distinct from the added-cello arrangement. Composition date unestablished; tentative 1941 publication retained only as tentative metadata."
+    },
+    {
+     "url": "https://s9.imslp.org/files/imglnks/usimg/1/1b/IMSLP508463-PMLP410447-Fux_Sonata_a_tre_Violin_Score.pdf",
+     "finding": "Inspected Bundies 14-page score after D-DS Mus.ms.334a: printed sections 1 Grave (pp.1–2), 2 Allegro (pp.2–6), 3 Adagio (pp.6–8), 4 Allegro with marked [adagio] close (pp.9–11), 5 Allegro in 6/8 with slow close (pp.12–14). Details follow these five printed sections. The recording combines opening Grave and Allegro into one track; this indexing difference is not evidence of missing music."
+    },
+    {
+     "url": "https://www.prestomusic.com/classical/products/9769255--violins-of-osesp",
+     "finding": "Commercial Azul Music AMDA1980 release, 18 April 2025, identifies exact manuscript title, Baldini/Thorpe/Farinelli, and four tracks 3:21, 2:27, 1:46, 1:54, total 9:28. Matches complete score sequence."
+    }
+   ],
+   "grade": {
+    "level": 3,
+    "hardestPart": "violin 1",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "dance"
+    ],
+    "confidence": "medium",
+    "basis": "Direct score inspection, all three staves across Grave and fast/slow sections (pp.1–2,4,6,8–9,11–12,14). Fast sections circulate semiquaver scales and broken intervals through the parts; first violin carries the upper register, but no sustained virtuoso register or chordal technique. Exposed chromatic suspensions, independent entries and even articulation raise ensemble demands to upper intermediate (about ABRSM 6). Slow sections form a substantial share of the whole."
+   },
+   "approvedWorkFields": [
+    "composer",
+    "title",
+    "instruments",
+    "players",
+    "formation",
+    "form",
+    "year",
+    "minutes",
+    "set",
+    "notes",
+    "popularity",
+    "imslpPage"
+   ],
+   "workCorrections": {
+    "year": "",
+    "minutes": 9,
+    "notes": "Sonata for three unaccompanied violins, preserved in Darmstadt manuscripts Mus.ms.334 and 334a.",
+    "popularity": "lesser-known",
+    "imslpPage": "Sonata for 3 Violins in F major, ULB Mus.Ms.334 (Fux, Johann Joseph)"
+   },
+   "approvedDetailFields": [
+    "published",
+    "kind",
+    "movements"
+   ],
+   "detailCorrections": {
+    "published": "1941?",
+    "kind": "movements",
+    "movements": [
+     "Grave",
+     "Allegro",
+     "Adagio",
+     "Allegro – Adagio",
+     "Allegro – Adagio"
+    ]
+   },
+   "detailSources": {
+    "published": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+    "kind": "https://s9.imslp.org/files/imglnks/usimg/1/1b/IMSLP508463-PMLP410447-Fux_Sonata_a_tre_Violin_Score.pdf",
+    "movements": "https://s9.imslp.org/files/imglnks/usimg/1/1b/IMSLP508463-PMLP410447-Fux_Sonata_a_tre_Violin_Score.pdf"
+   },
+   "recordingDecisions": [
+    {
+     "decision": "none",
+     "reason": "Commercial human recording establishes floor; no exact full-work YouTube embed independently verified within focused fetch budget."
+    }
+   ]
+  },
+  {
+   "key": "klengel-2-stucke-op5-4-cellos",
+   "status": "approved",
+   "factsVerified": true,
+   "findings": [
+    {
+     "url": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+     "finding": "Original scoring four cellos, two pieces Serenade and Humoreske; four separate original parts. No composition year established."
+    },
+    {
+     "url": "https://ks15.imslp.org/files/imglnks/usimg/7/73/IMSLP924821-PMLP1452784-2024-01-04-7-8-0-01.PDF",
+     "finding": "Breitkopf & Härtel original cello I part, cover and all three music pages inspected: Op.5 for four cellos, No.1 Serenade Andantino in D major, No.2 Humoreske Vivace in F major. Both complete pieces present."
+    },
+    {
+     "url": "https://ks15.imslp.org/files/imglnks/usimg/6/6d/IMSLP924824-PMLP1452784-2024-01-04-7-10-42-01.PDF",
+     "finding": "Cello IV complete part inspected. Serenade has instruction to lower C string to A near close, followed by low A sonority and harmonic gesture; Humoreske includes bass-register double stops and pizzicato/arco coordination."
+    },
+    {
+     "url": "https://www.prestomusic.com/classical/products/7946550--petits-fours",
+     "finding": "Commercial Cello Classics CC1007 Petits Fours lists exact Op.5 at 8:50 and named cellists Sebastien Comberti, Julia Desbruslais, Ben Chappell, Sarah Butcher; human recording floor established for both-piece work."
+    }
+   ],
+   "grade": {
+    "level": 5,
+    "hardestPart": "cello 1",
+    "mode": "major",
+    "pace": "lively",
+    "character": [
+     "lyrical",
+     "playful",
+     "humorous"
+    ],
+    "confidence": "medium",
+    "basis": "Direct inspection of complete cello I and IV parts, not title-based inference. Cello I requires fluent tenor/treble-clef changes, frequent shifting into singing upper registers, chromatic running figures, ornamentation and mixed articulation at Vivace; lower part adds double stops, pizzicato changes and a brief scordatura instruction in Serenade. Advanced cello control around ABRSM 8 is supported, without the sustained virtuoso demands warranting diploma level. Two middle parts were not directly inspected, limiting confidence."
+   },
+   "approvedWorkFields": [
+    "composer",
+    "title",
+    "instruments",
+    "players",
+    "formation",
+    "form",
+    "year",
+    "minutes",
+    "set",
+    "notes",
+    "popularity",
+    "imslpPage"
+   ],
+   "workCorrections": {
+    "year": "",
+    "minutes": 9,
+    "notes": "Serenade and Humoreske; the Serenade briefly lowers cello 4's C string to A.",
+    "popularity": "lesser-known",
+    "imslpPage": "2 Stücke, Op.5 (Klengel, Julius)"
+   },
+   "approvedDetailFields": [
+    "published",
+    "kind",
+    "movements"
+   ],
+   "detailCorrections": {
+    "published": null,
+    "kind": "pieces",
+    "movements": [
+     "Serenade. Andantino",
+     "Humoreske. Vivace"
+    ]
+   },
+   "detailSources": {
+    "kind": "https://ks15.imslp.org/files/imglnks/usimg/7/73/IMSLP924821-PMLP1452784-2024-01-04-7-8-0-01.PDF",
+    "movements": "https://ks15.imslp.org/files/imglnks/usimg/7/73/IMSLP924821-PMLP1452784-2024-01-04-7-8-0-01.PDF"
+   },
+   "recordingDecisions": [
+    {
+     "decision": "none",
+     "reason": "Commercial human recording establishes floor; no exact full-work YouTube embed independently verified within focused fetch budget."
+    }
+   ]
+  }
+ ]
+}

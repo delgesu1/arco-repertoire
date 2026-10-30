@@ -1,0 +1,1012 @@
+{
+  "batch": "closure-arrangement-03",
+  "status": "complete",
+  "entries": [
+    {
+      "contextKey": "106209-arrangement",
+      "pageId": 106209,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/106209.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====*For 6 Cellos (Seymour)=====",
+          "arranger": "Gwyn Seymour",
+          "independentPartCount": 6,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/106209.json",
+            "finding": "Revision 4751066, heading *For 6 Cellos (Seymour); adjacent file descriptions ['Complete Score and Parts']; files ['PMLP106209-Merged_Documents.pdf']; score listed=yes; separate parts listed=no"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "18850-arrangement",
+      "pageId": 18850,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/18850.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "14674-arrangement",
+      "pageId": 14674,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Exact-version human performance evidence unresolved; prior triage reviewed and reused.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/14674.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-003.json",
+          "finding": "Reused previous triage as a safeguard against repeating prior searches."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 6 Cellos (Seymour)=====",
+          "arranger": "Gwyn Seymour",
+          "independentPartCount": 6,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/14674.json",
+            "finding": "Revision 4805205, heading For 6 Cellos (Seymour); adjacent file descriptions ['Complete Score and Parts']; files ['PMLP14674-Elgar_Arrangement.pdf']; score listed=yes; separate parts listed=no"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor.",
+          "priorTriageFinding": "Seymour's six-cello version has score and parts identified together; no human performance of that exact arrangement verified."
+        }
+      ]
+    },
+    {
+      "contextKey": "55671-arrangement",
+      "pageId": 55671,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Exact-version human performance evidence unresolved; prior triage reviewed and reused.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/55671.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-007.json",
+          "finding": "Reused previous triage as a safeguard against repeating prior searches."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 6 Cellos (Seymour)=====",
+          "arranger": "Gwyn Seymour",
+          "independentPartCount": 6,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/55671.json",
+            "finding": "Revision 4284128, heading For 6 Cellos (Seymour); adjacent file descriptions ['Complete Score', 'Cello solo', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4']; files ['PMLP55671-Faure_Andantefrom2ndCelloSonata_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Full_Score.pdf', 'PMLP55671-Faure_Andantefrom2ndCelloSonata_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_Solo.pdf', 'PMLP55671-Faure_Andantefrom2ndCelloSonata_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello1.pdf', 'PMLP55671-Faure_Andantefrom2ndCelloSonata_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello2.pdf', 'PMLP55671-Faure_Andantefrom2ndCelloSonata_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello3.pdf', 'PMLP55671-Faure_Andantefrom2ndCelloSonata_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello4.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor.",
+          "priorTriageFinding": "Seymour’s six-cello version is a complete named excerpt (Andante from the Second Cello Sonata) with a score and separate parts; listed file descriptions appear to provide only a solo part plus four cello parts, so six-player count needs resolution. No exact-version human performance was found."
+        }
+      ]
+    },
+    {
+      "contextKey": "164349-arrangement",
+      "pageId": 164349,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/164349.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "164350-arrangement",
+      "pageId": 164350,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/164350.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 3 Cellos (Orefice)=====",
+          "arranger": "Giovanni Pietro Orefice",
+          "independentPartCount": 3,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/164350.json",
+            "finding": "Revision 4781414, heading For 3 Cellos (Orefice); adjacent file descriptions ['Complete Score and Notes']; files ['PMLP164350-Bachs2ndCelloSuiteSECRET-SCORES.pdf']; score listed=yes; separate parts listed=no"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "164351-arrangement",
+      "pageId": 164351,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/164351.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "164352-arrangement",
+      "pageId": 164352,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/164352.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "164353-arrangement",
+      "pageId": 164353,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/164353.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 4 Cellos (Leonovich)=====",
+          "arranger": "Yuriy Leonovich",
+          "independentPartCount": 4,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/164353.json",
+            "finding": "Revision 4825212, heading For 4 Cellos (Leonovich); adjacent file descriptions ['Complete Score']; files ['PreludeandFugue.pdf']; score listed=yes; separate parts listed=no"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "164354-arrangement",
+      "pageId": 164354,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/164354.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "57860-arrangement",
+      "pageId": 57860,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/57860.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 6 Cellos (Bilgen)=====",
+          "arranger": "Bora Gökhan Bilgen",
+          "independentPartCount": 6,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/57860.json",
+            "finding": "Revision 4537863, heading For 6 Cellos (Bilgen); adjacent file descriptions ['Complete Score']; files ['PMLP57860-vitali_charlier_chaconne_pdf.pdf']; score listed=yes; separate parts listed=no"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "162108-arrangement",
+      "pageId": 162108,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/162108.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "2387-arrangement",
+      "pageId": 2387,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Exact-version human performance evidence unresolved; prior triage reviewed and reused.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/2387.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-003.json",
+          "finding": "Reused previous triage as a safeguard against repeating prior searches."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 4 Cellos (Meyn)=====",
+          "arranger": "Malte Meyn",
+          "independentPartCount": 4,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/2387.json",
+            "finding": "Revision 4829896, heading For 4 Cellos (Meyn); adjacent file descriptions ['Complete Score', 'Complete Parts', 'Complete Score (in D/F major)', 'Complete Parts (in D/F major)']; files [\"PMLP02387-Debussy_-_Golliwogg's_cake_walk_for_4_cellos_(score).pdf\", \"PMLP02387-Debussy_-_Golliwogg's_cake_walk_for_4_cellos_(parts).pdf\", \"PMLP02387-Debussy_-_Golliwogg's_cake_walk_for_4_cellos_(score,_D_major).pdf\", \"PMLP02387-Debussy_-_Golliwogg's_cake_walk_for_4_cellos_(parts,_D_major).pdf\"]; score listed=yes; separate parts listed=no"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor.",
+          "priorTriageFinding": "No qualifying 3–12 same-family string arrangement with count and parts is supported. A string entry has only a complete score and unspecified scoring; other ensemble entries are orchestral/wind or unrelated."
+        }
+      ]
+    },
+    {
+      "contextKey": "685988-arrangement",
+      "pageId": 685988,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/685988.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1321448-arrangement",
+      "pageId": 1321448,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1321448.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 5 Cellos (Dicker)=====",
+          "arranger": "Suzanne Dicker",
+          "independentPartCount": 5,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1321448.json",
+            "finding": "Revision 4819936, heading For 5 Cellos (Dicker); adjacent file descriptions ['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4', 'Cello 5']; files ['PMLP1321448-Taverner_Christe_Jesu_Pastor_Bone_(5_cellos)_-_Full_Score.pdf', 'PMLP1321448-Taverner_Christe_Jesu_Pastor_Bone_(5_cellos)_-_Violoncello_1.pdf', 'PMLP1321448-Taverner_Christe_Jesu_Pastor_Bone_(5_cellos)_-_Violoncello_2.pdf', 'PMLP1321448-Taverner_Christe_Jesu_Pastor_Bone_(5_cellos)_-_Violoncello_3.pdf', 'PMLP1321448-Taverner_Christe_Jesu_Pastor_Bone_(5_cellos)_-_Violoncello_4.pdf', 'PMLP1321448-Taverner_Christe_Jesu_Pastor_Bone_(5_cellos)_-_Violoncello_5.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "149893-arrangement",
+      "pageId": 149893,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/149893.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "209303-arrangement",
+      "pageId": 209303,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Exact-version human performance evidence unresolved; prior triage reviewed and reused.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/209303.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-007.json",
+          "finding": "Reused previous triage as a safeguard against repeating prior searches."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====*For 4 Cellos or Ensemble (Lima)=====",
+          "arranger": "Bruno Lima",
+          "independentPartCount": 4,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/209303.json",
+            "finding": "Revision 4626620, heading *For 4 Cellos or Ensemble (Lima); adjacent file descriptions ['Complete Score and Parts', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4']; files ['PMLP209303-Christus_factus_est_Cellos-Score_and_Parts.pdf', 'PMLP209303-Christus_factus_est_Cellos-Cello_I.pdf', 'PMLP209303-Christus_factus_est_Cellos-Cello_II.pdf', 'PMLP209303-Christus_factus_est_Cellos-Cello_III.pdf', 'PMLP209303-Christus_factus_est_Cellos-Cello_IV.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://imslp.org/wiki/Christus_factus_est,_WAB_11_(Bruckner,_Anton)",
+              "finding": "Exact block embeds YT candidates [('h_lwqA3CvQM', 'Desdner Kreuzchor, Roderich Kreile (conductor)')]; identity, version, completeness, performer and exclusion review outstanding."
+            }
+          ],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor.",
+          "priorTriageFinding": "Lima arrangement is labeled “4 Cellos or Ensemble,” so exact instrumentation/independent part count is ambiguous; full cached audio has only source-work choral recordings and a synthesized unrelated brass arrangement."
+        }
+      ]
+    },
+    {
+      "contextKey": "41876-arrangement",
+      "pageId": 41876,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/41876.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "228509-arrangement",
+      "pageId": 228509,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/228509.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-003.json",
+          "finding": "Reused previous triage as a safeguard against repeating prior searches."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "240421-arrangement",
+      "pageId": 240421,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/240421.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 3 Cellos (Mandozzi)=====",
+          "arranger": "Orfeo Mandozzi",
+          "independentPartCount": 3,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/240421.json",
+            "finding": "Revision 4036964, heading For 3 Cellos (Mandozzi); adjacent file descriptions ['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3']; files ['PMLP240421-Fiala_Concertino_3_Celli_Mandozzi_-_Full_Score.pdf', 'PMLP240421-Fiala_Concertino_3_Celli_Mandozzi_-_Violoncello_1.pdf', 'PMLP240421-Fiala_Concertino_3_Celli_Mandozzi_-_Violoncello_2.pdf', 'PMLP240421-Fiala_Concertino_3_Celli_Mandozzi_-_Violoncello_3.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "818670-arrangement",
+      "pageId": 818670,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/818670.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 6 Cellos (Seymour)=====",
+          "arranger": "Gwyn Seymour",
+          "independentPartCount": 6,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/818670.json",
+            "finding": "Revision 4215827, heading For 6 Cellos (Seymour); adjacent file descriptions ['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4', 'Cello 5', 'Cello 6']; files ['PMLP818670-Geminiani_ConcertoGrossoLaFollia_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Full_Score.pdf', 'PMLP818670-Geminiani_ConcertoGrossoLaFollia_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_1.pdf', 'PMLP818670-Geminiani_ConcertoGrossoLaFollia_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_2.pdf', 'PMLP818670-Geminiani_ConcertoGrossoLaFollia_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_3.pdf', 'PMLP818670-Geminiani_ConcertoGrossoLaFollia_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_4.pdf', 'PMLP818670-Geminiani_ConcertoGrossoLaFollia_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_5.pdf', 'PMLP818670-Geminiani_ConcertoGrossoLaFollia_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_6.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "291862-arrangement",
+      "pageId": 291862,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Exact-version human performance evidence unresolved; prior triage reviewed and reused.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/291862.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-007.json",
+          "finding": "Reused previous triage as a safeguard against repeating prior searches."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 3 Cellos (Ronchini)=====",
+          "arranger": "Ferdinando Ronchini",
+          "independentPartCount": 3,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/291862.json",
+            "finding": "Revision 4052027, heading For 3 Cellos (Ronchini); adjacent file descriptions ['I. Grave, II. Allegro - parts']; files ['PMLP429087-Haendel_Ronchini_Grave_et_Fuga.pdf']; score listed=unclear; separate parts listed=no"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor.",
+          "priorTriageFinding": "Ronchini’s three-cello version is a named excerpt (Grave and Fugue) with parts available, but the raw group does not document a complete score and no human exact-version performance was found."
+        }
+      ]
+    },
+    {
+      "contextKey": "74682-arrangement",
+      "pageId": 74682,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/74682.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 6 Cellos (Mandozzi)=====",
+          "arranger": "Orfeo Mandozzi",
+          "independentPartCount": 6,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/74682.json",
+            "finding": "Revision 4587301, heading For 6 Cellos (Mandozzi); adjacent file descriptions ['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4', 'Cello 5', 'Cello 6']; files ['PMLP74682-Vivaldi_RV513_Mandozzi_Partitur_6Celli_-_Partitur.pdf', 'PMLP74682-Vivaldi_RV513_Mandozzi_Partitur_6Celli_-_Violoncello_1_-_2013-09-07_0915_-_Violoncello_1.pdf', 'PMLP74682-Vivaldi_RV513_Mandozzi_Partitur_6Celli_-_Violoncello_2_-_2013-09-07_0915_-_Violoncello_2.pdf', 'PMLP74682-Vivaldi_RV513_Mandozzi_Partitur_6Celli_-_Violoncello_3_-_2013-09-07_0915_-_Violoncello_3.pdf', 'PMLP74682-Vivaldi_RV513_Mandozzi_Partitur_6Celli_-_Violoncello_4_-_2013-09-07_0915_-_Violoncello_4.pdf', 'PMLP74682-Vivaldi_RV513_Mandozzi_Partitur_6Celli_-_Violoncello_5_-_2013-09-07_0915_-_Violoncello_5.pdf', 'PMLP74682-Vivaldi_RV513_Mandozzi_Partitur_6Celli_-_Violoncello_6_-_2013-09-07_0915_-_Violoncello_6.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        },
+        {
+          "heading": "=====For 6 Cellos (Mandozzi)=====",
+          "arranger": "Orfeo Mandozzi",
+          "independentPartCount": 6,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/74682.json",
+            "finding": "Revision 4587301, heading For 6 Cellos (Mandozzi); adjacent file descriptions ['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4', 'Cello 5', 'Cello 6']; files ['PMLP74682-Vivaldi_RV531_Mandozzi_Partitur_6Celli_Salzburg_-_Partitur.pdf', 'PMLP74682-Vivaldi_RV531_Mandozzi_Partitur_6Celli_Salzburg_-_Violoncello_1.pdf', 'PMLP74682-Vivaldi_RV531_Mandozzi_Partitur_6Celli_Salzburg_-_Violoncello_2.pdf', 'PMLP74682-Vivaldi_RV531_Mandozzi_Partitur_6Celli_Salzburg_-_Violoncello_3.pdf', 'PMLP74682-Vivaldi_RV531_Mandozzi_Partitur_6Celli_Salzburg_-_Violoncello_4.pdf', 'PMLP74682-Vivaldi_RV531_Mandozzi_Partitur_6Celli_Salzburg_-_Violoncello_5.pdf', 'PMLP74682-Vivaldi_RV531_Mandozzi_Partitur_6Celli_Salzburg_-_Violoncello_6.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "126409-arrangement",
+      "pageId": 126409,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/126409.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 8 Double Basses (Zehar)=====",
+          "arranger": "Farid Zehar",
+          "independentPartCount": 8,
+          "instrument": "double bass",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/126409.json",
+            "finding": "Revision 4587336, heading For 8 Double Basses (Zehar); adjacent file descriptions ['Complete Score', 'Double Bass 1', 'Double Bass 2', 'Double Bass 3', 'Double Bass 4', 'Double Bass 5', 'Double Bass 6', 'Double Bass 7', 'Double Bass 8']; files ['PMLP126409-Concerto_Op3_N°5_2Cb.pdf', 'PMLP126409-Concerto_Op3_N°5_2Cb_-_Cb_solo_I.pdf', 'PMLP126409-Concerto_Op3_N°5_2Cb_-_Cb_solo_II.pdf', 'PMLP126409-Concerto_Op3_N°5_2Cb_-_Cb_solo_III.pdf', 'PMLP126409-Concerto_Op3_N°5_2Cb_-_Cb_solo_IV.pdf', 'PMLP126409-Concerto_Op3_N°5_2Cb_-_Cb_solo_V.pdf', 'PMLP126409-Concerto_Op3_N°5_2Cb_-_Cb_solo_VI.pdf', 'PMLP126409-Concerto_Op3_N°5_2Cb_-_Cb_solo_VII.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "126408-arrangement",
+      "pageId": 126408,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/126408.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 8 Double Basses (Zehar)=====",
+          "arranger": "Farid Zehar",
+          "independentPartCount": 8,
+          "instrument": "double bass",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/126408.json",
+            "finding": "Revision 3787057, heading For 8 Double Basses (Zehar); adjacent file descriptions ['Complete Score', 'Double Bass solo 1', 'Double Bass solo 2', 'Double Bass solo 3', 'Double Bass solo 5', 'Double Bass solo 6', 'Double Bass solo 7', 'Double Bass solo 8']; files ['PMLP126408-Concerto_Op3_N°4_4Cb.pdf', 'PMLP126408-Concerto_Op3_N°4_4Cb_-_Cb_solo_I.pdf', 'PMLP126408-Concerto_Op3_N°4_4Cb_-_Cb_solo_II.pdf', 'PMLP126408-Concerto_Op3_N°4_4Cb_-_Cb_solo_III.pdf', 'PMLP126408-Concerto_Op3_N°4_4Cb_-_Cb_solo_V.pdf', 'PMLP126408-Concerto_Op3_N°4_4Cb_-_Cb_solo_VI.pdf', 'PMLP126408-Concerto_Op3_N°4_4Cb_-_Cb_solo_VII.pdf', 'PMLP126408-Concerto_Op3_N°4_4Cb_-_Cb_solo_VIII.pdf']; score listed=yes; separate parts listed=no"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "126406-arrangement",
+      "pageId": 126406,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/126406.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 8 Double Basses (Zehar)=====",
+          "arranger": "Farid Zehar",
+          "independentPartCount": 8,
+          "instrument": "double bass",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/126406.json",
+            "finding": "Revision 4683098, heading For 8 Double Basses (Zehar); adjacent file descriptions ['Complete Score', 'Double Bass 1', 'Double Bass 2', 'Double Bass 3', 'Double Bass 4', 'Double Bass 5', 'Double Bass 6', 'Double Bass 7', 'Double Bass 8']; files ['PMLP126406-Concerto_Op3_N°1_4Cb.pdf', 'PMLP126406-Concerto_Op3_N°1_4Cb_-_Cb_solo_I.pdf', 'PMLP126406-Concerto_Op3_N°1_4Cb_-_Cb_solo_II.pdf', 'PMLP126406-Concerto_Op3_N°1_4Cb_-_Cb_solo_III.pdf', 'PMLP126406-Concerto_Op3_N°1_4Cb_-_Cb_solo_IV.pdf', 'PMLP126406-Concerto_Op3_N°1_4Cb_-_Cb_solo_V.pdf', 'PMLP126406-Concerto_Op3_N°1_4Cb_-_Cb_solo_VI.pdf', 'PMLP126406-Concerto_Op3_N°1_4Cb_-_Cb_solo_VII.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "126412-arrangement",
+      "pageId": 126412,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/126412.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 8 Double Basses (Zehar)=====",
+          "arranger": "Farid Zehar",
+          "independentPartCount": 8,
+          "instrument": "double bass",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/126412.json",
+            "finding": "Revision 4590178, heading For 8 Double Basses (Zehar); adjacent file descriptions ['Complete Score', 'Double Bass 1', 'Double Bass 2', 'Double Bass 3', 'Double Bass 4', 'Double Bass 5', 'Double Bass 6', 'Double Bass 7', 'Double Bass 8']; files ['PMLP126412-Concerto_Op3_N°7_4Cb.pdf', 'PMLP126412-Concerto_Op3_N°7_4Cb_-_Cb_solo_I.pdf', 'PMLP126412-Concerto_Op3_N°7_4Cb_-_Cb_solo_II.pdf', 'PMLP126412-Concerto_Op3_N°7_4Cb_-_Cb_solo_III.pdf', 'PMLP126412-Concerto_Op3_N°7_4Cb_-_Cb_solo_IV.pdf', 'PMLP126412-Concerto_Op3_N°7_4Cb_-_Cb_solo_V.pdf', 'PMLP126412-Concerto_Op3_N°7_4Cb_-_Cb_solo_VI.pdf', 'PMLP126412-Concerto_Op3_N°7_4Cb_-_Cb_solo_VII.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "427949-arrangement",
+      "pageId": 427949,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/427949.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "390602-arrangement",
+      "pageId": 390602,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Strong performance lead exists for Lotti Crucifixus for 8 cellos, but the programme does not name arranger/version, so exact match to Mandozzi arrangement remains unresolved.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/390602.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-007.json",
+          "finding": "Reused previous triage as a safeguard against repeating prior searches."
+        },
+        {
+          "urlOrPath": "https://www.ascona-locarno.com/en/events/details/concert-cello-sounds-between-bach-and-tango-8-cellos-in-dialogue/12516",
+          "finding": "Checked 2026-10-29. Programme lists Lotti Crucifixus for eight cellos at an Orfeo Mandozzi-led eight-cello concert; it does not identify the arrangement as Mandozzi’s."
+        },
+        {
+          "urlOrPath": "https://classical.music.apple.com/in/recording/antonio-lotti-1667-pp230-1623214891",
+          "finding": "Checked 2026-10-29. Recording catalogue lists a Crucifixus arranged for eight cellos by Matthew Barley, demonstrating same-scoring alternate arranger; not evidence for Mandozzi version."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 8 Cellos (Mandozzi)=====",
+          "arranger": "Orfeo Mandozzi",
+          "independentPartCount": 8,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/390602.json",
+            "finding": "Revision 4557307, heading For 8 Cellos (Mandozzi); adjacent file descriptions ['Complete Score', 'Complete Parts (Cello 1-8)']; files ['PMLP390602-Lotti_Crucifixus_Mandozzi_8_Celli_-_Partitur.pdf', 'PMLP390602-Lotti_Crucifixus_Mandozzi_8_Celli_-_Stimmen.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [
+            {
+              "urlOrPath": "https://www.ascona-locarno.com/en/events/details/concert-cello-sounds-between-bach-and-tango-8-cellos-in-dialogue/12516",
+              "finding": "Exact work and eight-cello scoring programmed in ensemble of eight cellists led by Mandozzi, but arranger not credited; not yet attributable to the IMSLP Mandozzi version."
+            }
+          ],
+          "decision": "held",
+          "reason": "Performance lead supports work/scoring; arranger/version identity and complete performance recording are not established.",
+          "priorTriageFinding": "Complete eight-cello score and parts are available, and the raw page notes a first performance, but no exact-version audio performance or named players are documented in cached audio/search evidence. The existing recording is the original choral version."
+        }
+      ]
+    },
+    {
+      "contextKey": "8071-arrangement",
+      "pageId": 8071,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Exact-version human performance evidence unresolved; prior triage reviewed and reused.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/8071.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-003.json",
+          "finding": "Reused previous triage as a safeguard against repeating prior searches."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 3 Cellos (Verbandt)=====",
+          "arranger": "Yves Verbandt",
+          "independentPartCount": 3,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/8071.json",
+            "finding": "Revision 4828289, heading For 3 Cellos (Verbandt); adjacent file descriptions ['Complete Score']; files ['PMLP08071-DanseLente.pdf']; score listed=yes; separate parts listed=no"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor.",
+          "priorTriageFinding": "Verbandt's three-cello score is explicitly listed, but no separate parts or human performance of the version were verified."
+        }
+      ]
+    },
+    {
+      "contextKey": "5008-arrangement",
+      "pageId": 5008,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/5008.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "149894-arrangement",
+      "pageId": 149894,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/149894.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1527672-arrangement",
+      "pageId": 1527672,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1527672.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 3 Cellos (Moriconi)=====",
+          "arranger": "Mathieu Moriconi",
+          "independentPartCount": 3,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/1527672.json",
+            "finding": "Revision 4724490, heading For 3 Cellos (Moriconi); adjacent file descriptions ['Complete Score']; files ['PMLP1527672-Machaut_De_fortune_me_doi_plaindre_et_loer_3_cellos.pdf']; score listed=yes; separate parts listed=no"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "150107-arrangement",
+      "pageId": 150107,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/150107.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "56725-arrangement",
+      "pageId": 56725,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/56725.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 5 Cellos (Smith)=====",
+          "arranger": "Sheryl Smith",
+          "independentPartCount": 5,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/56725.json",
+            "finding": "Revision 4757821, heading For 5 Cellos (Smith); adjacent file descriptions ['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4', 'Cello 5']; files ['PMLP56725-Mozart_Impresario_Overture_arr_5_cellos_score.pdf', 'PMLP56725-Mozart_Impresario_Overture_arr_5_cellos_cello_1.pdf', 'PMLP56725-Mozart_Impresario_Overture_arr_5_cellos_cello_2.pdf', 'PMLP56725-Mozart_Impresario_Overture_arr_5_cellos_cello_3.pdf', 'PMLP56725-Mozart_Impresario_Overture_arr_5_cellos_cello_4.pdf', 'PMLP56725-Mozart_Impresario_Overture_arr_5_cellos_cello_5.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "737510-arrangement",
+      "pageId": 737510,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/737510.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 4 Cellos (Patzner)=====",
+          "arranger": "Lewis Patzner",
+          "independentPartCount": 4,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/737510.json",
+            "finding": "Revision 4490024, heading For 4 Cellos (Patzner); adjacent file descriptions ['Complete Score and Parts', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4']; files ['PMLP737510-Der_Tag,_der_ist_so_freudenreich_BWV_605-Score_and_Parts.pdf', 'PMLP737510-Der_Tag,_der_ist_so_freudenreich_BWV_605-Violoncello_1.pdf', 'PMLP737510-Der_Tag,_der_ist_so_freudenreich_BWV_605-Violoncello_2.pdf', 'PMLP737510-Der_Tag,_der_ist_so_freudenreich_BWV_605-Violoncello_3.pdf', 'PMLP737510-Der_Tag,_der_ist_so_freudenreich_BWV_605-Violoncello_4.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "749780-arrangement",
+      "pageId": 749780,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/749780.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 4 Double Basses (Terré Garcia)=====",
+          "arranger": "Marc Terré Garcia",
+          "independentPartCount": 4,
+          "instrument": "double bass",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/749780.json",
+            "finding": "Revision 4002659, heading For 4 Double Basses (Terré Garcia); adjacent file descriptions ['Complete Score']; files ['PMLP749780-der_tod_hindemith.pdf']; score listed=yes; separate parts listed=no"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "236751-arrangement",
+      "pageId": 236751,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "No qualifying homogeneous 3–12-part heading in full raw revisions; other ensemble scorings are outside scope.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/236751.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "16799-arrangement",
+      "pageId": 16799,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/16799.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 6 Cellos (Seymour)=====",
+          "arranger": "Gwyn Seymour",
+          "independentPartCount": 6,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/16799.json",
+            "finding": "Revision 4797328, heading For 6 Cellos (Seymour); adjacent file descriptions ['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4', 'Cello 5', 'Cello 6']; files ['PMLP16799-Wagner_MeistersingerOverture_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Full_Score.pdf', 'PMLP16799-Wagner_MeistersingerOverture_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_1.pdf', 'PMLP16799-Wagner_MeistersingerOverture_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_2.pdf', 'PMLP16799-Wagner_MeistersingerOverture_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_3.pdf', 'PMLP16799-Wagner_MeistersingerOverture_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_4.pdf', 'PMLP16799-Wagner_MeistersingerOverture_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_5.pdf', 'PMLP16799-Wagner_MeistersingerOverture_CelloOrchestraArrangement_Seymour_ForIMSLP_-_Cello_6.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    },
+    {
+      "contextKey": "4725-arrangement",
+      "pageId": 4725,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full cached raw heading contains candidate; no exact-version human performance verified.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/4725.json",
+          "finding": "Scanned all 1 raw cached revision(s), all heading depths and adjacent file blocks."
+        }
+      ],
+      "versions": [
+        {
+          "heading": "=====For 4 Cellos (Mullin)=====",
+          "arranger": "Casey Mullin",
+          "independentPartCount": 4,
+          "instrument": "cello",
+          "extent": "not established from heading; verify whether complete work or selection",
+          "materialEvidence": {
+            "urlOrPath": "data/cache/same-instrument-imslp/pages/4725.json",
+            "finding": "Revision 4769152, heading For 4 Cellos (Mullin); adjacent file descriptions ['Complete Score', 'Cello 1', 'Cello 2', 'Cello 3', 'Cello 4']; files ['PMLP4725-Ride_of_the_Valkyries_Cello_Quartet_-_Score.pdf', 'PMLP4725-Ride_of_the_Valkyries_Cello_Quartet_-_Cello_1.pdf', 'PMLP4725-Ride_of_the_Valkyries_Cello_Quartet_-_Cello_2.pdf', 'PMLP4725-Ride_of_the_Valkyries_Cello_Quartet_-_Cello_3.pdf', 'PMLP4725-Ride_of_the_Valkyries_Cello_Quartet_-_Cello_4.pdf']; score listed=yes; separate parts listed=yes"
+          },
+          "floorEvidence": [],
+          "decision": "held",
+          "reason": "No exact-version human performance evidence established by cached heading; MIDI/original or unrelated ensemble audio cannot satisfy the floor."
+        }
+      ]
+    }
+  ]
+}

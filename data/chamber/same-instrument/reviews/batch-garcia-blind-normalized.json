@@ -1,0 +1,120 @@
+{
+ "batch": "batch-garcia-blind",
+ "status": "complete",
+ "entries": [
+  {
+   "key": "garcia-bad-brothers-double-bass-quartet",
+   "status": "approved",
+   "findings": [
+    "https://shop.doublebasshq.com/products/bad-brothers — Samples explicitly label Double Bass 1–4. Treble-clef upper parts, natural harmonics in bass 3, chromatic swing figures, sul ponticello and an open solo over chord symbols in bass 4. The origin story mentions electric bass guitar; the displayed quartet notation does not require that instrument."
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "balanced",
+    "mode": "unsure",
+    "pace": "moderate",
+    "character": [
+     "dance",
+     "playful"
+    ],
+    "confidence": "medium",
+    "basis": "Representative publisher score pages 1, 3 and 5: upper-register bass playing and harmonic accuracy, contrasting bow/pizzicato roles, chromatic syncopation and improvisation require pre-diploma command across the group. Moderate swing and repeated patterns constrain the difficulty; no virtuoso improvisation is assumed. Ensemble precision is included within level 6, with no additional uplift."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ]
+  },
+  {
+   "key": "garcia-ac-133-double-bass-quartet",
+   "status": "approved",
+   "findings": [
+    "https://shop.doublebasshq.com/products/ac-133-for-db-quartet — Four labelled bass staves; Presto quarter=160, first bass continuous slurred harmonic ostinato, later upper-register syncopated melody over recurring supporting patterns. Publisher calls it suitable for a good intermediate quartet."
+   ],
+   "grade": {
+    "level": 5,
+    "hardestPart": "double-bass 1",
+    "mode": "minor",
+    "pace": "lively",
+    "character": [
+     "dance",
+     "playful"
+    ],
+    "confidence": "medium",
+    "basis": "Representative publisher score pages 2, 5 and 7 show an exposed rapid harmonic ostinato and treble-register melody in bass 1; supporting players sustain syncopated patterns, with upper-register work also in bass 3. Idiomatic repeated material makes this advanced rather than diploma repertoire. The steadiness and ensemble articulation fit within level 5; no extra uplift."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ]
+  },
+  {
+   "key": "garcia-swing-k-1000-double-bass-quartet",
+   "status": "held",
+   "findings": [
+    "https://shop.doublebasshq.com/products/k1000 — Publisher identifies an up-swing bass quartet with solos and saxophone-soli-like tutti writing, premiered by The Bass Gang in 2009. Cached product exposes only a composer portrait, with no notation."
+   ],
+   "grade": {
+    "level": null,
+    "hardestPart": "balanced",
+    "mode": "unsure",
+    "pace": "lively",
+    "character": [
+     "dance",
+     "playful"
+    ],
+    "confidence": "low",
+    "basis": "No musical notation available in supplied evidence. Big-band style, performer reputation and descriptive claims cannot establish register, technical demands or a defensible whole-work level. Hold level and hardest-part approval until notation is available."
+   },
+   "approvedWorkFields": []
+  },
+  {
+   "key": "garcia-a-night-in-compostela-double-bass-quartet",
+   "status": "approved",
+   "findings": [
+    "https://shop.doublebasshq.com/products/compostela — Publisher opening score and first-bass page show Allegro quarter=120, sustained accented upper-register sixteenths, ricochet responses in basses 2–3, and subsequent slurred figures/double stops in bass 1. Included Bass World review specifies thumb-position fluency and a recurring G-minor theme."
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "double-bass 1",
+    "mode": "minor",
+    "pace": "lively",
+    "character": [
+     "dance",
+     "playful"
+    ],
+    "confidence": "medium",
+    "basis": "The exposed upper-register repeated sixteenths require bow stamina and control, followed by slurred register movement and double stops; thumb-position fluency is corroborated by the publisher-hosted review. Repeated ostinati and the fourth-bass rhythmic foundation moderate the coordination burden. Pre-diploma level 6 fits the sustained technical demand; no separate uplift beyond it."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ]
+  },
+  {
+   "key": "garcia-the-river-fisherman-double-bass-quartet",
+   "status": "approved",
+   "findings": [
+    "https://shop.doublebasshq.com/products/the-river-fisherman — Publisher score excerpts show four bass staves, medium swing, chromatic articulated lines, arco/pizzicato changes, rests and offbeat attacks, and a later treble-register passage shared by basses 1–3. Publisher describes an intermediate quartet."
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "double-bass 1",
+    "mode": "unsure",
+    "pace": "moderate",
+    "character": [
+     "dance",
+     "playful"
+    ],
+    "confidence": "medium",
+    "basis": "Representative publisher score excerpts include the opening, bars 11–19 and bars 39 onward. Bass 1 carries exposed high-register chromatic eighth-note phrases while basses 2–3 also enter treble register; the group must coordinate short syncopated attacks and bow/pizzicato transitions. The upper-register intonation and shifting place the hardest part around pre-diploma, moderated by medium swing and recurring material. Level 6 includes ensemble demands without an added uplift; no unseen virtuoso passages are assumed."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ]
+  }
+ ],
+ "normalizedFrom": "reviews/batch-garcia-blind.json",
+ "coordinatorNormalization": "Wrapper and stable source keys only; grades unchanged."
+}

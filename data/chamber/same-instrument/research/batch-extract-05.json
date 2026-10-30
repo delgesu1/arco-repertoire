@@ -1,0 +1,200 @@
+{
+  "batch": "triage-005",
+  "status": "partial",
+  "entries": [
+    {
+      "key": "avni-violas-terzet-original",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Original trio for three violas. IMSLP records a 2009 first performance; 2013 festival coverage documents a human performance by a named viola trio.",
+      "work": {
+        "composer": "Avni, Boaz",
+        "title": "Violas Terzet",
+        "instruments": {
+          "viola": 3
+        },
+        "players": 3,
+        "formation": "string-trio",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "Original trio for three violas. IMSLP records a 2009 first performance; 2013 festival coverage documents a human performance by a named viola trio.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": [],
+        "imslpPage": "https://imslp.org/wiki/Violas_Terzet_(Avni,_Boaz)"
+      },
+      "composerMetadata": null,
+      "details": {
+        "published": "",
+        "kind": "single",
+        "movements": []
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Violas_Terzet_(Avni,_Boaz)",
+            "checkedOn": "2026-10-28",
+            "finding": "IMSLP lists composer-uploaded score and parts, 33 pages, for three violas."
+          },
+          {
+            "url": "https://www.periodicomirador.com/2013/04/06/se-presenta-el-trio-de-violas-del-ensamble-clasico-de-zacatecas-dentro-del-fcz-2013/",
+            "checkedOn": "2026-10-28",
+            "finding": "Festival coverage names three musicians and reports performance of Violas Terzet; exact extent needs fact review."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Violas_Terzet_(Avni,_Boaz)",
+          "locator": "Scores and Parts; General Information",
+          "finding": "IMSLP lists composer-uploaded score and parts, 33 pages, for three violas."
+        },
+        "floor": {
+          "url": "https://www.periodicomirador.com/2013/04/06/se-presenta-el-trio-de-violas-del-ensamble-clasico-de-zacatecas-dentro-del-fcz-2013/",
+          "finding": "Festival coverage names three musicians and reports performance of Violas Terzet; exact extent needs fact review."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Violas_Terzet_(Avni,_Boaz)",
+          "finding": "IMSLP lists composer-uploaded score and parts, 33 pages, for three violas."
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Violas_Terzet_(Avni,_Boaz)",
+          "work.title": "https://imslp.org/wiki/Violas_Terzet_(Avni,_Boaz)",
+          "work.instruments": "https://imslp.org/wiki/Violas_Terzet_(Avni,_Boaz)"
+        },
+        "unknowns": {
+          "work.year": "Composition year not established.",
+          "work.minutes": "Duration not established.",
+          "details.published": "Publication date not established.",
+          "work.level": "Not graded.",
+          "work.hardestPart": "Not graded."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not musically graded; first-pass triage only"
+      },
+      "recordingResearch": {
+        "status": "not-found",
+        "note": "No verified complete recording candidate found."
+      },
+      "fieldEvidence": {
+        "confidence": "low"
+      },
+      "confidence": "low",
+      "decisionDetail": "Preliminary lead; fact review required."
+    },
+    {
+      "key": "zanella-fantasia-orientale-six-celli-original",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "Original work for six cellos. IMSLP lists score and six parts; event page associates Fantasia orientale with Rossini Cellos Orchestra, requiring floor verification.",
+      "work": {
+        "composer": "Zanella, Amilcare",
+        "title": "Fantasia orientale for 6 Cellos",
+        "instruments": {
+          "cello": 6
+        },
+        "players": 6,
+        "formation": "cello-ensemble",
+        "form": "work",
+        "level": null,
+        "hardestPart": null,
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "Original work for six cellos. IMSLP lists score and six parts; event page associates Fantasia orientale with Rossini Cellos Orchestra, requiring floor verification.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": [],
+        "imslpPage": "https://imslp.org/wiki/Fantasia_orientale_(Zanella,_Amilcare)"
+      },
+      "composerMetadata": null,
+      "details": {
+        "published": "",
+        "kind": "single",
+        "movements": [
+          "Andante espressivo",
+          "Presto",
+          "Andante espressivo",
+          "Presto",
+          "Tempo I / coda"
+        ]
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Fantasia_orientale_(Zanella,_Amilcare)",
+            "checkedOn": "2026-10-28",
+            "finding": "IMSLP lists a complete score and separate cello 1–6 parts."
+          },
+          {
+            "url": "https://www.conservatoriorossini.it/en/calendari/conversazioni-zanella/",
+            "checkedOn": "2026-10-28",
+            "finding": "Event listing associates Fantasia orientale with Rossini Cellos Orchestra; verify completed exact-version performance."
+          }
+        ],
+        "scoring": {
+          "url": "https://imslp.org/wiki/Fantasia_orientale_(Zanella,_Amilcare)",
+          "locator": "Scores and Parts; General Information",
+          "finding": "IMSLP lists a complete score and separate cello 1–6 parts."
+        },
+        "floor": {
+          "url": "https://www.conservatoriorossini.it/en/calendari/conversazioni-zanella/",
+          "finding": "Event listing associates Fantasia orientale with Rossini Cellos Orchestra; verify completed exact-version performance."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://imslp.org/wiki/Fantasia_orientale_(Zanella,_Amilcare)",
+          "finding": "IMSLP lists a complete score and separate cello 1–6 parts."
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Fantasia_orientale_(Zanella,_Amilcare)",
+          "work.title": "https://imslp.org/wiki/Fantasia_orientale_(Zanella,_Amilcare)",
+          "work.instruments": "https://imslp.org/wiki/Fantasia_orientale_(Zanella,_Amilcare)"
+        },
+        "unknowns": {
+          "work.year": "Composition year not established.",
+          "work.minutes": "Duration not established.",
+          "details.published": "Publication date not established.",
+          "work.level": "Not graded.",
+          "work.hardestPart": "Not graded."
+        }
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Not musically graded; first-pass triage only"
+      },
+      "recordingResearch": {
+        "status": "not-found",
+        "note": "No verified complete recording candidate found."
+      },
+      "fieldEvidence": {
+        "confidence": "low"
+      },
+      "confidence": "low",
+      "decisionDetail": "Preliminary lead; fact review required."
+    }
+  ],
+  "resume": {
+    "nextPageId": null,
+    "note": "Two preliminary lead drafts; no grades assigned."
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "batch": "review-pilot-viola-bass",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "bowen-fantasia-four-violas-op41-1",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Fantasy_and_Quartet,_Op.41_(Bowen,_York)",
+          "finding": "Independently refreshed IMSLP API: No. 1 is E-minor Fantasia for four violas, composed 1907. Allegro assai/Poco lento/Finale Presto, Philharmonic String Quartet dedication, and 1922 Stainer & Bell publication are explicitly No. 2, the D-minor standard string quartet. Remove these three contaminated details. All downloadable files currently on shared page are No. 2; IMSLP link is identity context, not obtainable No. 1 score."
+        },
+        {
+          "url": "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+          "finding": "Publisher HTML successfully retrieved independently with curl after web timeout. Score and parts are in stock, edited by Thomas Tatton, with music and editorial foreword previews. Tatton is editor, not arranger."
+        },
+        {
+          "url": "https://rarestringmusic.com/wp-content/uploads/2019/02/Bowen-York-Fantasie-Quartet-for-Four-Violas-Music-1.jpg",
+          "finding": "Genuine publisher score page visually read: four independent staves labeled Viola I–IV, no other instrument. Grave opening; first viola moves into rapid slurred triplets; inner voices use exposed high-register treble/alto-clef lines; fourth viola double stops. Page copyright 1983 Rarities for Strings Publications."
+        },
+        {
+          "url": "https://i0.wp.com/rarestringmusic.com/wp-content/uploads/2019/02/Bowen-York-Fantasie-Quartet-for-Four-Violas-Foreword-1.jpg?ssl=1",
+          "finding": "Tatton foreword, 1983, explicitly calls it one movement and says all four players face challenging material, first viola especially singing upper-register melodies. It gives a first performance on 4 January 1910 by Tertis, Lockyer, Coates and Jeremy, conflicting with later Hyperion scholarship. The 1983 date proves this edition, not necessarily first-ever publication."
+        },
+        {
+          "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+          "finding": "Label confirms 1907, E minor, four named violists Power/Dukes/Boyd/Dickinson, complete 9:42 performance recorded November 2007 and issued July 2008. Notes describe a single arch containing contrasting sections and give premiere 3 March 1908. Exact premiere field withheld because the inspected original edition foreword gives a conflicting date."
+        },
+        {
+          "url": "https://www.laphil.com/works/fantasia-for-four-violas-in-e-minor-op-41-no-1",
+          "finding": "LA Phil confirms 1907, original four-viola ensemble, full-range interactive writing and one multi-sectional arch. Approximate eleven minutes consistent with performance variability."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cuRxSCjmlKM",
+          "finding": "Official LA Phil upload metadata independently reopened: 611 seconds, original E-minor Op. 41 No. 1; full studio rendition credited to four violists Ben Ullery, Minor L. Wetzel, Michael Larco and Hui Liu. None excluded. Public and playable_in_embed true."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "viola 1",
+        "mode": "minor",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dark",
+          "dramatic"
+        ],
+        "confidence": "medium",
+        "basis": "Independent estimate from genuine publisher first score page, editor’s whole-work technical description, and knowledge of the standard viola-ensemble repertoire; full score not inspected. High tessitura, exposed lyrical intonation, chromatic late-Romantic ensemble writing, active slurred triplet passagework and double stops require diploma-level violists. First viola carries the most sustained exposed high melody. More demanding than Webern Langsamer Satz anchor 5 or Dvorak American quartet anchor 6, below the sustained virtuosity of Martinu Three Madrigals anchor 8. Pace moderate describes the overall arch, which includes energetic sections."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "aka",
+        "formation",
+        "instruments",
+        "players",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes",
+        "imslpPage"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "kind",
+        "composed",
+        "otherTitles",
+        "movements",
+        "dedication",
+        "published"
+      ],
+      "detailCorrections": {
+        "movements": null,
+        "dedication": null,
+        "published": null
+      },
+      "recordingDecisions": [
+        {
+          "id": "cuRxSCjmlKM",
+          "decision": "approved",
+          "reason": "Official orchestra upload identifies the exact original single-movement Fantasia and a complete studio rendition; full four-person viola roster, 611-second duration consistent with complete label track, and no excerpt designation. Metadata confirms public embed permission. No excluded performer among all four named players. No other instrumentalists credited.",
+          "performers": [
+            "Ben Ullery",
+            "Minor L. Wetzel",
+            "Michael Larco",
+            "Hui Liu"
+          ],
+          "seconds": 611,
+          "embedCheck": {
+            "method": "yt-dlp metadata refreshed 2026-10-28",
+            "playableInEmbed": true,
+            "availability": "public"
+          },
+          "checks": {
+            "humanPerformance": true,
+            "wholeWork": true,
+            "exactVersion": true,
+            "titleInspected": true,
+            "channelInspected": true,
+            "fullDescriptionInspected": true,
+            "performerCreditsComplete": true,
+            "excludedPerformersClear": true,
+            "embedVerified": true
+          },
+          "metadataSource": "https://www.youtube.com/watch?v=cuRxSCjmlKM"
+        }
+      ],
+      "detailSources": {
+        "movements": "https://imslp.org/wiki/Fantasy_and_Quartet,_Op.41_(Bowen,_York)",
+        "dedication": "https://imslp.org/wiki/Fantasy_and_Quartet,_Op.41_(Bowen,_York)",
+        "published": "https://imslp.org/wiki/Fantasy_and_Quartet,_Op.41_(Bowen,_York)",
+        "kind": "https://i0.wp.com/rarestringmusic.com/wp-content/uploads/2019/02/Bowen-York-Fantasie-Quartet-for-Four-Violas-Foreword-1.jpg?ssl=1",
+        "composed": "https://www.laphil.com/works/fantasia-for-four-violas-in-e-minor-op-41-no-1",
+        "otherTitles": "https://rarestringmusic.com/product/bowen-fantasie-quartet/"
+      }
+    },
+    {
+      "key": "harbison-cucaraccia-fugue-four-violas",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.classicalondemand.com/products/cucaraccia-and-fugue",
+          "finding": "Official publisher product independently reopened and HTML inspected. Associated Music Publishers GSP24180SET, score and parts, print to order; composer note says four violists or viola orchestra. Four independent parts are valid with optional doubling, no extra accompaniment. Composer note calls work a pendant to Violist’s Notebooks I and II. Formal commission by Token Creek not established."
+        },
+        {
+          "url": "https://www.classicalondemand.com/cdn/shop/products/GSP24180SET_Page_1_1.jpg?v=1748534585",
+          "finding": "Genuine publisher preview visually read: title Cucaraccia and Fugue for four Violas, first movement Cucaraccia; four separately labeled staves, imitative pizzicato entries, arco transition and first-viola solo. Copyright 2003 AMP. No arranger."
+        },
+        {
+          "url": "https://www.classicalondemand.com/cdn/shop/products/GSP24180SET_Page_2_1.jpg?v=1748534585",
+          "finding": "Second official preview is score p. 6, showing later contrapuntal writing, first/second high-register material, chromaticism, crescendi, rhythmic interlocking and terminal cadence. Image resolution limited to about 500 pixels; full score not inspected."
+        },
+        {
+          "url": "https://cdn.naxos.com/sharedfiles/pdf/rear/8.559243r.pdf",
+          "finding": "Primary label rear insert explicitly gives 2003, Cucaraccia 1:18 and Fugue 3:03. Four roles Viola I–IV credited to Steven Tenenbom, Ida Kavafian, Anthea Kreston and John Harbison, with no accompaniment on these tracks. Recorded Connecticut College, 5–10 May 2005. Released complete two-part work establishes floor."
+        },
+        {
+          "url": "https://americanviolasociety.org/wp-content/uploads/2022/03/JAVS-37.1.pdf",
+          "finding": "Printed p. 36 / PDF p. 38 describes composer adding this two-movement quartet for the 2003 Token Creek occasion and joining as fourth player. Supports occasion, not contractual commissioning language. Interlocking rhythms and tonal ending described."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_mGF7inYsO4",
+          "finding": "Independently refreshed metadata: 257 seconds, two movements, exact same four named violists as label, public and playable_in_embed true. Whole named work with no excerpt designation; slight timing discrepancy versus rear insert is compatible with Naxos online listing (Fugue 3:00 rather than rear insert 3:03)."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "viola 1",
+        "mode": null,
+        "pace": "lively",
+        "character": [
+          "dance",
+          "playful"
+        ],
+        "confidence": "medium",
+        "basis": "Independent estimate from two genuine publisher score previews and the documented brief two-movement work. Rhythmic independence, open-string pizzicato-to-arco changes, chromatic fugal coordination and exposed upper-register first-viola writing require advanced players; no evidence of the sustained extreme demands of anchor-8 Martinu Madrigals or modern professional quartet anchors. Level 6 is pre-diploma, broadly comparable ensemble responsibility to Dvorak American quartet anchor 6, though this is much shorter. First viola provisionally hardest from preview. Full score not inspected; no single global mode inferred from excerpts."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "formation",
+        "instruments",
+        "players",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes"
+      ],
+      "workCorrections": {
+        "notes": "For four violas; added for the 2003 Token Creek Festival"
+      },
+      "approvedDetailFields": [
+        "kind",
+        "movements",
+        "composed"
+      ],
+      "detailCorrections": {},
+      "recordingDecisions": [
+        {
+          "id": "_mGF7inYsO4",
+          "decision": "approved",
+          "reason": "Exact four-viola original and both movements identified in refreshed description, with full roster identical to primary Naxos credits. 257 seconds agrees with complete online label timing (1:18 + 3:00) to rounding; no excerpt designation. All four performers nonexcluded. Public and embed permission independently verified.",
+          "performers": [
+            "Steven Tenenbom",
+            "Ida Kavafian",
+            "Anthea Kreston",
+            "John Harbison"
+          ],
+          "seconds": 257,
+          "embedCheck": {
+            "method": "yt-dlp metadata refreshed 2026-10-28",
+            "playableInEmbed": true,
+            "availability": "public"
+          },
+          "checks": {
+            "humanPerformance": true,
+            "wholeWork": true,
+            "exactVersion": true,
+            "titleInspected": true,
+            "channelInspected": true,
+            "fullDescriptionInspected": true,
+            "performerCreditsComplete": true,
+            "excludedPerformersClear": true,
+            "embedVerified": true
+          },
+          "metadataSource": "https://www.youtube.com/watch?v=_mGF7inYsO4"
+        }
+      ],
+      "detailSources": {
+        "kind": "https://cdn.naxos.com/sharedfiles/pdf/rear/8.559243r.pdf",
+        "movements": "https://cdn.naxos.com/sharedfiles/pdf/rear/8.559243r.pdf",
+        "composed": "https://cdn.naxos.com/sharedfiles/pdf/rear/8.559243r.pdf"
+      }
+    },
+    {
+      "key": "weinzierl-nachtstuck-op34-four-violas",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.americanviolasociety.org/wp-content/uploads/2022/03/Weinzierl-Nachtstuck.pdf",
+          "finding": "Complete AVS 009 edition independently downloaded; preface says based on original 1883 Rebay and Robitschek score and parts, with Bynog explicitly editor. Original upper parts were treble-clef and optional cello fourth part allowed normal string-quartet performance. Four-viola version is real and independent; alternatives do not require other instruments."
+        },
+        {
+          "url": "https://www.americanviolasociety.org/wp-content/uploads/2022/03/Weinzierl-Nachtstuck.pdf",
+          "finding": "Visually inspected score PDF pp. 15, 19, 21, 26 and 32: four separate Viola 1–4 staves only, detailed interlocking lines, fast slurred/staccato sixteenths, multiple stops, pizzicato, chromatic key changes and terminal double bar. Entire 32-page file contains four parts and complete score. Title/dedication printed; copyright AVS 2011. Single continuous piece with internal tempo sections, not a set of separately named movements."
+        },
+        {
+          "url": "https://media.nativedsd.com/storage/nativedsd.com/wp-content/uploads/2020/07/02170213/NC14001.pdf",
+          "finding": "Primary label booklet independently opened initially: identifies Zemtsov Viola Quartet and Weinzierl Nocturne (Nachtstück) Op. 34 for four violas, explicitly calls four-viola scoring original and describes alternate string quartet as publisher-driven. This is an actual released human recording of this version. Later reopening returned 502, preventing a fresh exact 8:01 timing/personnel-page audit. No individual performer metadata added from unchecked pages."
+        },
+        {
+          "url": "https://www.musiklexikon.ac.at/ml/musik_W/Weinzierl_Max.xml",
+          "finding": "Austrian scholarly music lexicon confirms 16 September 1841–10 July 1898, Bohemian birth and predominantly Viennese career, using masculine pronouns. Supports dates and male gender. Late-Romantic era is a research classification from dates/style."
+        },
+        {
+          "url": "https://www.digital.wienbibliothek.at/name/view/3658711",
+          "finding": "Vienna library GND authority confirms dates 1841–1898 and country associations Österreich and Deutschland. Austrian house nationality is reasonable; authority is not an assertion of exclusive modern citizenship."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "viola 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful"
+        ],
+        "confidence": "medium",
+        "basis": "Independent score-backed assessment from several contrasting pages across complete score. First viola has exposed upper-register treble-clef melody and fast sixteenth-note figuration; inner/lower parts also need chromatic accuracy, coordinated spiccato/pizzicato and multiple stops. Frequent dynamic/rubato changes require mature ensemble control. Advanced/ABRSM 8 equivalent level 5, above Puccini Crisantemi anchor 3, near Dvorak Terzetto anchor 5 and below diploma-level virtuoso viola duos. Major-mode outer character, with modulating/minor episodes. First viola most exposed; not every part individually graded."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "set",
+        "notes"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "kind",
+        "dedication",
+        "published",
+        "otherTitles"
+      ],
+      "detailCorrections": {
+        "otherTitles": [
+          "Nocturne for Four Violas"
+        ]
+      },
+      "detailSources": {
+        "kind": "https://www.americanviolasociety.org/wp-content/uploads/2022/03/Weinzierl-Nachtstuck.pdf",
+        "dedication": "https://www.americanviolasociety.org/wp-content/uploads/2022/03/Weinzierl-Nachtstuck.pdf",
+        "published": "https://www.americanviolasociety.org/wp-content/uploads/2022/03/Weinzierl-Nachtstuck.pdf",
+        "otherTitles": "https://media.nativedsd.com/storage/nativedsd.com/wp-content/uploads/2020/07/02170213/NC14001.pdf"
+      },
+      "recordingDecisions": []
+    },
+    {
+      "key": "bottesini-passione-trumpf-four-basses",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.hofmeister-musikverlag.com/produkt/passione-amorosa/",
+          "finding": "Official publisher HTML independently retrieved after web timeout: FH2227, Klaus Trumpf, four double basses (4 Kb), 20-page score plus four parts (two 8-page, two 12-page), difficulty schwer, ISMN M-203422273, first printing 2001, in-stock physical score/parts. Arrangement is exact version; source work’s original accompaniment must not be inherited."
+        },
+        {
+          "url": "https://www.hofmeister-musikverlag.com/wp-content/uploads/2023/07/FH_2227_NS.png",
+          "finding": "Genuine publisher interior preview discovered in product HTML and visually inspected. Four independent staves explicitly numbered 1.–4. Kontrabass, no accompaniment. Credit Arrangement: Klaus Trumpf. Andante opening; soloistic upper-register treble-clef basses 1–2, active but lower accompaniment on basses 3–4, ornaments, double stops and arco/pizzicato changes. Copyright 2001 Friedrich Hofmeister; FH2227."
+        },
+        {
+          "url": "https://www.wienerphilharmoniker.at/en/magazin/10th-concert-of-the-philharmonic-chamber-music-series-201415/5884",
+          "finding": "Actual Vienna Philharmonic concert report confirms Philbass quartet Racz/Hrastnik/Matschinegg/Mai performed Bottesini Passione Amorosa in Klaus Trumpf arrangement on 20 June 2015, Gustav Mahler Hall, Vienna State Opera. Exact arrangement and four-bass ensemble established; named soprano cancelled and is not part of performed version."
+        },
+        {
+          "url": "https://www.auditorium-lyon.com/fr/saison-2014-15/contrebasses",
+          "finding": "Official Lyon programme for 26 October 2014 explicitly identifies transcription for four double basses by Klaus Trumpf and duration twelve minutes. Whole named work, not a named excerpt. Supports version-specific approximate duration."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "double-bass 1",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "virtuosic"
+        ],
+        "confidence": "medium",
+        "basis": "Independent exact-edition preview plus knowledge of Bottesini’s complete Passione amorosa: first two basses require exposed thumb-position/high treble-clef melodic playing, ornamental agility, singing legato and double stops, supported by lower independent accompaniment. Diploma-level bass technique, broadly in anchor-7 virtuosic chamber class rather than beginner bass-ensemble material. First bass provisionally hardest, second close; no claim of equal difficulty across all four. Only opening publisher score page read, so later range/tempo details rely on known work, not full transcription inspection. Major-mode outer work and moderate overall lyrical emphasis, with contrasting faster music."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes",
+        "arranger"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "published"
+      ],
+      "detailCorrections": {},
+      "detailSources": {
+        "published": "https://www.hofmeister-musikverlag.com/produkt/passione-amorosa/"
+      },
+      "recordingDecisions": []
+    },
+    {
+      "key": "jacob-suite-eight-violas",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.accolade.de/index.php?action=showdetail&id=*151696483",
+          "finding": "Primary Accolade product independently reached through cookie-aware public catalogue search. Physical article VA1106 / publisher ACC.2092, ISMN M503053405; eight violas, score and parts, immediately available; digital ACC.2092DL also offered. Bodo Koenigsbeck explicitly editor. Composition year 1976; current edition 2026, 92 pages. Publisher timing 13 min is an estimate, not fixed performance duration."
+        },
+        {
+          "url": "https://www.accolade.de/images/BuSSBild/_151696483-001.jpg",
+          "finding": "First genuine publisher score preview visually inspected: SUITE FOR EIGHT VIOLAS, eight independent staves labeled Viola 1–8, no other instruments; inscription In memoriam Lionel Tertis. Opening Dedication/Poco maestoso. No arranger: original work edited Koenigsbeck. Current edition copyright 2026."
+        },
+        {
+          "url": "https://www.accolade.de/images/BuSSBild/_151696483-002.jpg",
+          "finding": "Genuine publisher preview score p. 5 visually read: end of Dedication and opening Scherzo and Drone/Allegro vivo. Eight active parts; upper four require fast detached/slurred scalar figures and chromatic multiple stops."
+        },
+        {
+          "url": "https://www.accolade.de/images/BuSSBild/_151696483-003.jpg",
+          "finding": "Publisher score p. 13 visually read: end of Scherzo and Drone and start of Chorale/Lento; distinct independent eight-part writing, upper voices move between alto/treble clefs. Together with preview p. 14 this verifies exposed soft sustained chordal movement."
+        },
+        {
+          "url": "https://www.accolade.de/images/BuSSBild/_151696483-005.jpg",
+          "finding": "Publisher score p. 15 visually read: Tarantella/Allegro con fuoco in 6/8, independently patterned eight staves, energetic articulation and upper-register first-viola line. All four movement openings directly inspected across five genuine previews (including p. 14). No full-score inference about unseen later bars."
+        },
+        {
+          "url": "https://repository.rice.edu/server/api/core/bitstreams/c0aae5b0-bd04-4a70-afe4-ce48a8e6b648/content",
+          "finding": "Rice primary programme successfully independently downloaded with curl after web403. PDF pp. 1–2 gives 13 March 2014 Duncan Recital Hall concert, all four movement names/tempo labels and eight named violists: James Dunham, Stephanie Mientka, Yvonne Smith, Aloysia Friedmann, Ivo-Jan van der Werff, Blake Turner, Marie-Elyse Badeau, Kathryn Plummer. Complete suite performance floor established. Biographical past collaborators elsewhere in booklet are not concert personnel."
+        },
+        {
+          "url": "https://sacconi.com/media/",
+          "finding": "Official Sacconi page embeds the supplied video under Gordon Jacob Suite for Eight Violas, festival 2016, and lists all eight performers individually; matches refreshed video description."
+        },
+        {
+          "url": "https://www.wisemusicclassical.com/composer/770/Gordon-Jacob/",
+          "finding": "Primary publisher biography explicitly gives 1895–1984, British and masculine pronouns. Supports supplied composer metadata;20th-century era is classification."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Vmu5KvtszbA",
+          "finding": "Independently refreshed metadata confirms official SacconiQuartet upload, 674 seconds, exact suite and all eight viola performers; public and playable_in_embed true. No excluded performer among complete roster. Four movement coverage has not been independently timed/audited, so candidate remains held despite positive exact-version and embed checks."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "viola 1",
+        "mode": null,
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "dance",
+          "dramatic"
+        ],
+        "confidence": "medium",
+        "basis": "Independent assessment of five genuine publisher score pages spanning openings of all four movements and both slow and fast material. Upper viola parts use high-register treble-clef lines, fast scalar figures, double/multiple stops and rapid articulation; eight independent parts require accurate exposed chordal intonation, coordinated pizzicato/arco changes and rhythmic control in Scherzo/Tarantella. Pre-diploma level 6, above Britten Simple Symphony anchor 4 and near mature conventional quartet anchor 6, below sustained professional modern quartet demands at 8. First viola provisionally most exposed. Tonal/modal language shifts; no single major/minor label asserted. Full score not inspected."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes"
+      ],
+      "workCorrections": {
+        "year": "1976"
+      },
+      "approvedDetailFields": [
+        "kind",
+        "movements",
+        "composed",
+        "dedication"
+      ],
+      "detailCorrections": {
+        "composed": "1976",
+        "dedication": "In memory of Lionel Tertis"
+      },
+      "detailSources": {
+        "kind": "https://repository.rice.edu/server/api/core/bitstreams/c0aae5b0-bd04-4a70-afe4-ce48a8e6b648/content",
+        "movements": "https://repository.rice.edu/server/api/core/bitstreams/c0aae5b0-bd04-4a70-afe4-ce48a8e6b648/content",
+        "composed": "https://www.accolade.de/index.php?action=showdetail&id=*151696483",
+        "dedication": "https://www.accolade.de/images/BuSSBild/_151696483-001.jpg"
+      },
+      "recordingDecisions": [
+        {
+          "id": "Vmu5KvtszbA",
+          "decision": "held",
+          "reason": "Official ensemble source and metadata establish original eight-viola version, full performer roster and public embed permission, but description provides no movement timestamps and four-movement coverage was not independently audited. Hold as primary until all four sections verified.",
+          "performers": [
+            "Roger Chase",
+            "Andriy Viytovych",
+            "Garfield Jackson",
+            "Lisa Bucknell",
+            "Robin Ashwell",
+            "Douglas Paterson",
+            "Nazli Erdogan",
+            "Yukiko Ogura"
+          ],
+          "seconds": 674,
+          "checks": {
+            "humanPerformance": true,
+            "wholeWork": null,
+            "exactVersion": true,
+            "titleInspected": true,
+            "channelInspected": true,
+            "fullDescriptionInspected": true,
+            "performerCreditsComplete": true,
+            "excludedPerformersClear": true,
+            "embedVerified": true
+          },
+          "embedCheck": {
+            "method": "yt-dlp metadata refreshed 2026-10-28",
+            "playableInEmbed": true,
+            "availability": "public"
+          },
+          "metadataSource": "https://www.youtube.com/watch?v=Vmu5KvtszbA"
+        }
+      ]
+    }
+  ],
+  "resume": {
+    "nextKey": null,
+    "note": "All five independent reviews complete; all eligible. Jacob and Bottesini commercial previews located and read. Grades Bowen 7, Harbison 6, Weinzierl 5, Bottesini 7, Jacob 6, all medium confidence. Bowen premiere date remains disputed. Jacob YouTube whole-suite coverage remains held. No canonical writes."
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "batch": "review-pilot-cello",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "klengel-hymnus-op57-12vc",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.scoreexchange.com/scores/hymnus-for-12-violoncellos-op-57-77003.html",
+          "checkedOn": "2026-10-28",
+          "finding": "Directly inspected public engraved preview: twelve distinct staves labeled VioloncelloI–XII with staggered independent entries, not four parts doubled. Andante Cantabile. Publisher lists separate partsI–XII and full score."
+        },
+        {
+          "url": "https://www.breitkopf.us/products/klengel-hymnus-op-57-breitkopf",
+          "checkedOn": "2026-10-28",
+          "finding": "Official Breitkopf shop offers full score, printed and digital parts; EB6847/9790004170342 is parts identifier, score is a separate product variant. Obtainable score source passes."
+        },
+        {
+          "url": "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)",
+          "checkedOn": "2026-10-28",
+          "finding": "1920 Breitkopf plate28603; complete score+parts17pp (5score+12×1parts), canonical title verified. IMSLP audio credits violas and tenor, so excluded for this cello version."
+        },
+        {
+          "url": "https://www.die12cellisten.de/de/geschichte/anfaenge.html",
+          "checkedOn": "2026-10-28",
+          "finding": "Official ensemble history says Klengel wrote the twelve-cello Hymnus in1920 and later ensemble gave a public broadcast performance; repertoire floor established independently of video completeness. Nikisch birthday account is qualified soll, so do not convert it into a definite dedication or premiere."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=oruJzhMUBh0",
+          "checkedOn": "2026-10-28",
+          "finding": "Refreshed full yt-dlp metadata: official Berliner Philharmoniker channel,184seconds, twelve cellists, Philharmonie9January2022, explicitly links full-length concert. Thus exact scoring is credible but upload is an excerpt."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "mode": "major",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "tender"
+        ],
+        "confidence": "medium",
+        "basis": "Blind provisional6: public original-scoring preview shows independent upper-register tenor-clef entries over chromatic twelve-voice harmony; exposed sustained pitch, blend and long-bow control are central. Calibrated repertoire knowledge of this short Andante suggests upper cello parts around advanced/pre-diploma, with large-ensemble balance raising the whole-work demand. No fast virtuoso passagework; full score not visually available, so confidence medium, not high."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "set",
+        "notes",
+        "imslpPage"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "published",
+        "otherTitles"
+      ],
+      "detailCorrections": {
+        "kind": "single"
+      },
+      "recordingDecisions": [
+        {
+          "id": "oruJzhMUBh0",
+          "decision": "hold",
+          "url": "https://www.youtube.com/watch?v=oruJzhMUBh0",
+          "title": "Klengel: Hymnus / 12 Cellists of the Berliner Philharmoniker",
+          "channel": "Berliner Philharmoniker",
+          "seconds": 184,
+          "reason": "Official short clip links full concert; do not select for whole work.",
+          "checks": {
+            "exactVersion": "Official twelve-cellist ensemble, exact workGmajorOp57.",
+            "wholeWork": false,
+            "humanPerformance": true,
+            "credits": "The12Cellists of the Berliner Philharmoniker; no guest performer credited in description.",
+            "excludedPerformers": "Full title/channel/description checked; none named. Cello-only performance credits establish no excluded violinist on this clip.",
+            "embed": "yt-dlp playable_in_embed:true; public."
+          }
+        }
+      ],
+      "detailSources": {
+        "published": "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)",
+        "otherTitles": "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)",
+        "kind": "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)"
+      }
+    },
+    {
+      "key": "fitzenhagen-ave-maria-op41-4vc",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.editionsilvertrust.com/fitzenhagen-ave-maria.htm",
+          "checkedOn": "2026-10-28",
+          "finding": "Publisher explicitly identifies original four-cello piece, composed mid1880s, published after composer death; parts available. Therefore composition must not be dated1896, which is publication evidence."
+        },
+        {
+          "url": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+          "checkedOn": "2026-10-28",
+          "finding": "Canonical title verified; Dmajor; publication1896orbefore; Sigmund Bürger(1856–1908) dedication; individually listed cello1–4 parts. These historical facts are IMSLP editorial metadata, not inspected original imprint/inscription, so confidence medium."
+        },
+        {
+          "url": "https://s9.imslp.org/files/imglnks/usimg/0/0a/IMSLP911505-PMLP658388-Ave_Maria.pdf",
+          "checkedOn": "2026-10-28",
+          "finding": "Successfully downloaded publicly indexed Araki complete4-page score and visually inspected all pages: independent Cello1–4, no accompaniment, Adagio4/4, multiple clefs, chromatic sustained harmony, double stops, ornamentation and upper-register first-cello melody; final double bar present. Editorial typography misspells composer, so house spelling from authority remains unchanged."
+        },
+        {
+          "url": "https://classical.music.apple.com/us/album/353812933",
+          "checkedOn": "2026-10-28",
+          "finding": "Tritton Cello Ensemble complete AveMariaOp41 track4:38 on2009 ColumnaMusica release; confirms human recording floor and rounds to5minutes."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Q7iZuTln0Do",
+          "checkedOn": "2026-10-28",
+          "finding": "Fresh metadata: official Galvin Cello Quartet channel,278seconds, recorded MaryB.GalvinRecitalHallFebruary2021; four named performers clear; public and embed available."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "cello 1",
+        "mode": "major",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "tender"
+        ],
+        "confidence": "medium",
+        "basis": "Blind5 (ABRSM8 equivalent), based on all4score pages: exposed upper-tenor-register cantabile in cello1, trills and brief slurred flourishes, shifts through tenor/treble clefs in inner parts, sustained double stops and chromatic quartet intonation. SlowAdagio and short length reduce velocity/stamina demand below diploma repertoire. Cello1 has sustained melodic exposure; cello2 also carries opening/upper solo material. No part-level numerical precision claimed."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "aka",
+        "formation",
+        "instruments",
+        "players",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes",
+        "imslpPage"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "composed",
+        "dedication",
+        "published"
+      ],
+      "detailCorrections": {
+        "kind": "single"
+      },
+      "recordingDecisions": [
+        {
+          "id": "Q7iZuTln0Do",
+          "decision": "approved",
+          "url": "https://www.youtube.com/watch?v=Q7iZuTln0Do",
+          "title": "The Galvin Cello Quartet - W. Fitzenhagen, Ave Maria",
+          "channel": "The Galvin Cello Quartet",
+          "seconds": 278,
+          "reason": "Whole single-piece performance by official quartet; full-work title and278seconds match complete released4:38 performance, with no excerpt/compilation designation.",
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "excludedPerformersChecked": true,
+            "embedVerified": true
+          },
+          "checkEvidence": {
+            "exactVersion": "Original four-cello work, exact composer/title; four named cello performers, no backing or arrangement claimed.",
+            "wholeWork": "Full titled single piece,278seconds equal the complete released track duration; metadata verification, not an audiovisual bar-by-bar audit.",
+            "humanPerformance": true,
+            "credits": "Recorded in the Mary B. Galvin Recital Hall on February 2021.\n——\n\nThe Galvin Cello Quartet\nHaddon Kay, Sihao He, Luiz Fernando Venturelli, Sydney Lee.",
+            "excludedPerformers": "Full title/channel/description checked. HaddonKay,SihaoHe,LuizFernandoVenturelli,SydneyLee; none excluded.",
+            "embed": "Fresh yt-dlp playable_in_embed:true; public."
+          }
+        }
+      ],
+      "detailSources": {
+        "composed": "https://www.editionsilvertrust.com/fitzenhagen-ave-maria.htm",
+        "dedication": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+        "published": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+        "kind": "https://s9.imslp.org/files/imglnks/usimg/0/0a/IMSLP911505-PMLP658388-Ave_Maria.pdf"
+      }
+    },
+    {
+      "key": "gubaidulina-quaternion-4vc",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.boosey.com/downloads/gubaidulina_werkverzeichnis.pdf",
+          "checkedOn": "2026-10-28",
+          "finding": "Primary Sikorski works catalogue, printedp51/PDFp49:1996, four violoncelli, dedicateeVladimirTonkha, premiere11April1996Moscow byVladimirTonkha,ElenaShulyova,VladimirShulyov,MichailShumsky; scoreSIK1960. Supplied detail claims confirmed without relying on IRCAM. Discography printedp82/PDFp80 confirms CHAN9958 personnel."
+        },
+        {
+          "url": "https://www.schott-music.com/en/quaternion-no567499.html",
+          "checkedOn": "2026-10-28",
+          "finding": "Official Schott product now opens: SIK1960, exemplanova260,77pages,ISMN9790003030401, available print title; obtainable published score confirmed."
+        },
+        {
+          "url": "https://www.chandos.net/chanimages/Booklets/CH9958.pdf",
+          "checkedOn": "2026-10-28",
+          "finding": "Primary artist-authored note, PDFp3: cellos3and4 quarter-tone below1and2; thimbles in right hand and stopped-note/harmonic contrasts. Track12/PDFp2 lists cello quartet22:27; organistHicks hasasterisk applying toIncroce only. Four cello performers areIvashkin,Pavlutskaya,Johnston,Wilson. Released2001; recorded10–12October2000London (PDFp8). No organ required forQuaternion."
+        },
+        {
+          "url": "https://michaelberrymusic.com/blog/2024/1/16/the-play-of-light-and-shadow-quarter-tones-gubaidulina-part-3",
+          "checkedOn": "2026-10-28",
+          "finding": "Inspected actual opening7-bar score excerpt: four independently numbered cello staves; two pitch-level choirs, offset hocket entries and dynamics; lower-pair clefs indicate lowered pitch. Full77-page score not available for grading inspection."
+        },
+        {
+          "url": "https://www.boosey.com/cr/music/Sofia-Gubaidulina-Quaternion/15281",
+          "checkedOn": "2026-10-28",
+          "finding": "Publisher duration25min is an estimate;22min source field is a legitimate rounding of CHAN9958 recorded22:27, not a contradictory identity."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pupQVT4VPMw",
+          "checkedOn": "2026-10-28",
+          "finding": "Fresh full metadata matches supplied title/channel,1382seconds,For4cello,Moscowcelloquartet,public/embed:true. Individual musicians, source album and complete-work endpoint still unresolved. Duration alone cannot resolve personnel/version/completeness."
+        }
+      ],
+      "grade": {
+        "level": 8,
+        "hardestPart": "balanced",
+        "mode": null,
+        "pace": null,
+        "character": [
+          "dramatic",
+          "dark"
+        ],
+        "confidence": "low",
+        "basis": "Independent provisional8 (professional): a substantial22–25minute quartet of solo cellos requires precise microtonal coordination between normally tuned and quarter-tone-lowered pairs, exposed harmonics/stopped-note contrasts and unfamiliar right-hand thimble techniques. Opening excerpt shows interlocking independent entries rather than simple doubled chorale parts. Performer-authored technique evidence and calibrated contemporary string repertoire knowledge support professional demand; fullscore/range/fastestpassages uninspected, so low confidence and no claim of extremevirtuosity or one uniquely hardest part. No single tonal mode or overall pace inferred."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "formation",
+        "instruments",
+        "players",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "composed",
+        "dedication",
+        "firstPerformance"
+      ],
+      "detailCorrections": {},
+      "detailSources": {
+        "composed": "https://www.boosey.com/downloads/gubaidulina_werkverzeichnis.pdf",
+        "dedication": "https://www.boosey.com/downloads/gubaidulina_werkverzeichnis.pdf",
+        "firstPerformance": "https://www.boosey.com/downloads/gubaidulina_werkverzeichnis.pdf"
+      },
+      "recordingDecisions": [
+        {
+          "id": "pupQVT4VPMw",
+          "decision": "hold",
+          "url": "https://www.youtube.com/watch?v=pupQVT4VPMw",
+          "title": "Sofia Gubaidulina ~ Quaternion",
+          "channel": "MUSIC?",
+          "seconds": 1382,
+          "reason": "Anonymous Moscowquartet credit not linked to named musicians or a released issue; whole-work endpoint not checked. Keep existingcandidate unapproved.",
+          "checks": {
+            "exactVersion": "Four-cello original plausible from description, not fully established.",
+            "wholeWork": "1382seconds plausible, insufficient alone.",
+            "humanPerformance": "Likely but source credit unresolved.",
+            "credits": "Quaternion\nSofia Gubaidulina\n(1996)\n....For 4 cello....\n\n*Moscow cello quartet*",
+            "excludedPerformers": "No excluded names in full title/channel/description; individual performers unresolved, so no final exclusion clearance.",
+            "embed": "Fresh yt-dlp playable_in_embed:true;public."
+          }
+        }
+      ]
+    }
+  ],
+  "resume": {
+    "nextKey": null,
+    "note": "All3 assigned entries independently reviewed; no source-researcher grades/canonical grades opened. Quaternion grade8lowconfidence requires adjudication if comparator differs. Klengel clipheld; GalvinFitzenhagen recordingapproved by complete-work metadata/credits/duration/embedchecks; Quaternion videoheld. Fitzenhagen dedication/publication depend on IMSLP editorial metadata, explicitly identified in findings."
+  }
+}

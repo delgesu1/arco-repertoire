@@ -1,0 +1,264 @@
+{
+  "batch": "batch-verify-07",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "lachner-quartet-op107-4-violins",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+          "finding": "Downloaded 35-page first-edition complete parts: four independent violin parts and all four movements; title page copyright 1895 Augener."
+        },
+        {
+          "url": "https://www.pmf.or.jp/en/gallery/digital/2025-lachner_vq.html",
+          "finding": "Official festival recording page gives all four movements and violinists Hajung Cho, Rumeng Liao, Luca Sakon and Mei Kawai, recorded July 15, 2025; embedded video 6_mFn58eD4s."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "Violin I",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful"
+        ],
+        "confidence": "medium",
+        "basis": "First-edition parts: Violin I spans high positions, chromatic sixteenth-note passagework, double stops and quick articulated finale figures; the four-movement ensemble requires clean coordinated attacks and balance."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "set",
+        "notes"
+      ],
+      "workCorrections": {
+        "imslpPage": "Violin Quartet, Op.107 (Lachner, Ignaz)",
+        "year": "",
+        "minutes": null
+      },
+      "approvedDetailFields": [
+        "published",
+        "kind",
+        "movements"
+      ],
+      "detailCorrections": {
+        "published": "1895, London: Augener",
+        "kind": "single",
+        "movements": [
+          "Allegro moderato",
+          "Andante",
+          "Allegro giocoso",
+          "Finale. Allegro vivo, ma non troppo"
+        ]
+      },
+      "detailSources": {
+        "published": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+        "kind": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+        "movements": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)"
+      },
+      "recordingDecisions": []
+    },
+    {
+      "key": "ellenberger-suite-palais-meran-cello-quartet",
+      "status": "approved-pending-composer-metadata",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+          "finding": "Downloaded 44-page composer-issued complete score: four independent cello staves, five movements, copyright 2023; composer-uploaded full five-movement live premiere audio credits Pablo Mahave-Veglia, Jinn Shin, Anthony Arnone and J. T. Alexander."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "Cello I",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dance",
+          "dramatic"
+        ],
+        "confidence": "medium",
+        "basis": "Composer score, all five movement openings and later texture/ending examined: upper-register treble-clef writing, continuous sixteenths, double stops, harmonics, changing meters, independent counterpoint and 28-minute stamina. Cello II closely comparable."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "set",
+        "notes"
+      ],
+      "workCorrections": {
+        "imslpPage": "Suite \"Palais Meran\" for Cello Quartet (Ellenberger, Kurt)",
+        "year": "2023",
+        "minutes": 28
+      },
+      "approvedDetailFields": [
+        "published",
+        "kind",
+        "movements",
+        "composed",
+        "dedication",
+        "firstPerformance"
+      ],
+      "detailCorrections": {
+        "published": "2023, Assayer Publishing (ASCAP)",
+        "kind": "single",
+        "movements": [
+          "Prelude and Chorale",
+          "Fugue",
+          "Aire: Duet and Canon",
+          "Menuet and Quartet",
+          "Postlude and Chaconne"
+        ],
+        "composed": "2023",
+        "dedication": "For Keanu: Listening still…still listening…",
+        "firstPerformance": "October 27, 2024, Grand Valley State University"
+      },
+      "detailSources": {
+        "published": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+        "kind": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+        "movements": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+        "composed": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+        "dedication": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+        "firstPerformance": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)"
+      },
+      "recordingDecisions": []
+    },
+    {
+      "key": "derecskei-a-tear-in-the-mirror-3-cellos",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+          "finding": "Downloaded complete three-page original score: three independent cello parts, one continuous 51-bar piece, ending with a final barline. Composer-uploaded complete performance credits Ditta Rohmann, Annamária Kovács and Ágota Szilágyi; the viola arrangement is separate."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "Cello I",
+        "mode": "unsure",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "dark"
+        ],
+        "confidence": "medium",
+        "basis": "All three score pages examined: frequent mixed meters, chromatic exposed lines, tenor/treble clef shifts, upper-register phrasing, grace notes and closing harmonics; slow rubato controls speed but independent entrances and intonation require advanced ensemble control."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "set",
+        "notes"
+      ],
+      "workCorrections": {
+        "imslpPage": "A Tear in the Mirror (Derecskei, András)",
+        "year": "2003–2004",
+        "minutes": 4,
+        "notes": "Original one-movement trio for three cellos."
+      },
+      "approvedDetailFields": [
+        "published",
+        "kind",
+        "movements",
+        "otherTitles"
+      ],
+      "detailCorrections": {
+        "published": null,
+        "kind": "single",
+        "movements": [
+          "Rubato (Lento)"
+        ],
+        "otherTitles": [
+          "Könnycsepp a tükörben"
+        ]
+      },
+      "detailSources": {
+        "published": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+        "kind": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+        "movements": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+        "otherTitles": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)"
+      },
+      "recordingDecisions": []
+    },
+    {
+      "key": "fine-in-memoriam-george-finckel-cello-ensemble",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+          "finding": "Downloaded 12-page estate-issued complete score and parts: four independent cello lines, with doubling permitted; score copyright 1987."
+        },
+        {
+          "url": "https://vivianfine.org/main/compositions/in-memoriam-george-finckel.htm",
+          "finding": "Composer estate confirms 1987, six minutes, four cellos or multiples; September 13, 1987 premiere at Bennington College conducted by Fine with sixteen cellists. Doubling retains the four independent parts."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "Cello I",
+        "mode": "unsure",
+        "pace": "slow",
+        "character": [
+          "dark",
+          "tender"
+        ],
+        "confidence": "medium",
+        "basis": "Four score pages examined: Adagio quarter=42, exposed high treble-clef sustained lines, changing meters, chromatic voice-leading, ponticello tremolo and harmonic effects. Advanced intonation, bow control and balance matter more than speed."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "set",
+        "notes"
+      ],
+      "workCorrections": {
+        "imslpPage": "In Memoriam: George Finckel (Fine, Vivian)",
+        "year": "1987",
+        "minutes": 6
+      },
+      "approvedDetailFields": [
+        "published",
+        "kind",
+        "movements",
+        "firstPerformance"
+      ],
+      "detailCorrections": {
+        "published": null,
+        "kind": "single",
+        "movements": [
+          "In Memoriam: George Finckel"
+        ],
+        "firstPerformance": "September 13, 1987, Bennington College, Bennington, Vermont; conducted by Vivian Fine"
+      },
+      "detailSources": {
+        "published": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+        "kind": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+        "movements": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+        "firstPerformance": "https://vivianfine.org/main/compositions/in-memoriam-george-finckel.htm"
+      },
+      "recordingDecisions": []
+    }
+  ]
+}

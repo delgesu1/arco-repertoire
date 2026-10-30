@@ -1,0 +1,416 @@
+{
+ "batch": "positive-signal-ready-35",
+ "status": "complete",
+ "entries": [
+  {
+   "key": "hoek-3-korte-bluesjes-version-a-8-violas",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "The IMSLP primary page records the exact Version A first performance at the 2012-02-23 Altvioolfestival Dordrecht opening concert; the composer’s own page confirms the standalone eight-viola version, distinct from clarinet-choir and mixed strings. Complete score and all eight viola parts are listed.",
+   "work": {
+    "composer": "Hoek, Arie van",
+    "title": "3 Korte bluesjes voor 8 altviolen (Version A)",
+    "instruments": {
+     "viola": 8
+    },
+    "players": 8,
+    "formation": "large-strings",
+    "form": "set",
+    "level": null,
+    "hardestPart": null,
+    "year": "2011",
+    "minutes": 10,
+    "set": null,
+    "notes": "Three blues movements for eight violas; Version A.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "3 Korte bluesjes (Hoek, Arie van)"
+   },
+   "composerMetadata": {
+    "dates": "1948–",
+    "nationality": "Dutch",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "kind": "suite",
+    "movements": [
+     "Loekie Blues",
+     "Slow Blues Song",
+     "De Stille"
+    ],
+    "composed": "2011",
+    "dedication": "Karin Dolman",
+    "firstPerformance": "Version A: 2012-02-23, opening concert, Altvioolfestival Dordrecht"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+      "checkedOn": "2026-10-29",
+      "finding": "First-performance record ties Version A specifically to the 2012-02-23 Altvioolfestival Dordrecht opening concert; page distinguishes Version A 8 violas, Version B clarinet choir and Version C strings. The 9 synthesized audio files are Finale-generated and were excluded."
+     },
+     {
+      "url": "https://arievanhoek.nl/gratis-bladmuziek-naar-componist/arie-van-hoek.html",
+      "checkedOn": "2026-10-29",
+      "finding": "Composer’s own sheet-music catalogue distinguishes the eight-viola version from the separate string version and lists score and parts."
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Hoek,_Arie_van",
+      "finding": "Birth22February1948,Dutch/Male/Moderncategories independentlyverifiedbySol."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "locator": "Scores and Parts > Version A: 8 Violas; Parts > Version A: 8 Violas",
+     "finding": "One 28-page complete score and individual Viola 1–8 parts (the eighth part is offered in alto- and bass-clef layouts); no accompaniment is listed for this version."
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "finding": "The work page explicitly records Version A first performed at the opening concert of Altvioolfestival Dordrecht on 2012-02-23. Event is a past public performance; the page does not name the individual violists."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole work (three movements)",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/559349",
+     "localPath": "data/cache/same-instrument-imslp/scores/hoek-3-korte-bluesjes-8violas.pdf",
+     "finding": "NormalIMSLPAPIhandlerretrievedverifiedcompleteVersionAscore, actual8violas; all8partsalsolisted."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "work.title": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "work.instruments": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "work.year": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "work.minutes": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "details.firstPerformance": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+     "details.movements": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)"
+    },
+    "unknowns": {
+     "details.published": "Publication year not established.",
+     "work.level": "Not graded; explicit user instruction sets level null.",
+     "work.hardestPart": "Not graded."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass source extraction; independent musical review required."
+   },
+   "recordingResearch": {
+    "status": "not-found",
+    "queries": [
+     "site:imslp.org/wiki \"3 Korte bluesjes\" \"2012-02-23\"",
+     "Arie van Hoek official 3 korte bluesjes Altvioolfestival 2012 Karin Dolman Dordrecht"
+    ],
+    "candidates": []
+   }
+  },
+  {
+   "key": "alencar-cello-quartet-no4",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "The composer-uploaded video metadata identifies a five-minute performance of the exact Cello Quartet No.4 at Concerto SESC Partituras Roraima on 2016-04-09; IMSLP lists the same first-performance event and a complete score plus all four cello parts. The performing cellists are not individually credited in the metadata.",
+   "work": {
+    "composer": "Alencar, Gabriel",
+    "title": "Cello Quartet No.4",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "2008",
+    "minutes": null,
+    "set": null,
+    "notes": "Four-cello quartet in A minor.",
+    "popularity": null,
+    "mode": "minor",
+    "pace": null,
+    "character": [],
+    "imslpPage": "Cello Quartet No.4 (Alencar, Gabriel)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "quartet",
+    "movements": [],
+    "composed": "2008",
+    "firstPerformance": "2016-04-09, Concerto SESC Partituras Roraima, Boa Vista"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+      "checkedOn": "2026-10-29",
+      "finding": "Primary work page identifies 4-cellos instrumentation, A minor, composition year 2008, first-performance event in 2016, one score and four individual cello parts."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=I7kwqO0YeWU",
+      "checkedOn": "2026-10-29",
+      "finding": "yt-dlp metadata: title “Quarteto de cellos n.º 4 - Gabriel Alencar”; channel/uploader Gabriel Alencar; duration 302 seconds; description identifies a performance on 2016-04-09 at Concerto SESC Partituras Roraima in Boa Vista/RR. Description does not name the four performers."
+     },
+     {
+      "url": "https://www.folhabv.com.br/cotidiano/sesc-promove-concerto-de-partituras-neste-sabado/",
+      "checkedOn": "2026-10-29",
+      "finding": "Contemporary event notice identifies the 9 April 2016 SESC Partituras Roraima concert; concert featured chamber groups and composer Gabriel Alencar. It does not list this work’s performers."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+     "locator": "Scores > Score; Parts > Cello I–IV",
+     "finding": "Complete score and four independent cello parts; instrumentation 4 cellos, with no accompaniment."
+    },
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=I7kwqO0YeWU",
+     "finding": "Composer-uploaded 5:02 video titled for this exact cello quartet, whose description says it is a performance at the 2016-04-09 Concerto SESC Partituras Roraima. Individual performers remain uncredited; the creator/channel and event align with the work-page first-performance record."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/433093",
+     "localPath": "data/cache/same-instrument-imslp/scores/alencar-cello-quartet4.pdf",
+     "finding": "NormalIMSLPAPIhandlerretrievedverifiedcomposercompletequartetnotation;4partsalsolisted."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+     "work.title": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+     "work.instruments": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+     "work.year": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+     "work.mode": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+     "details.firstPerformance": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)"
+    },
+    "unknowns": {
+     "details.published": "Publication year not established.",
+     "work.minutes": "Duration of the complete score was not established from a clean performance source.",
+     "work.level": "Not graded; explicit user instruction sets level null.",
+     "work.hardestPart": "Not graded.",
+     "floor.performers": "Video metadata and source page do not individually name the performers."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass source extraction; independent musical review required."
+   },
+   "recordingResearch": {
+    "candidates": [
+     {
+      "id": "I7kwqO0YeWU",
+      "title": "Quarteto de cellos n.º 4 - Gabriel Alencar",
+      "channel": "Gabriel Alencar",
+      "description": "Composição de Gabriel Alencar. Performance do dia 09/04/2016, no Concerto SESC Partituras Roraima, em Boa Vista/RR.",
+      "seconds": 302,
+      "views": 2801,
+      "performerCredits": "Composição de Gabriel Alencar. Performance do dia 09/04/2016, no Concerto SESC Partituras Roraima, em Boa Vista/RR."
+     }
+    ]
+   }
+  },
+  {
+   "key": "vivaldi-rv63-mandozzi-three-cellos",
+   "decision": "include",
+   "requiresFactReview": true,
+   "work": {
+    "composer": "Vivaldi, Antonio",
+    "title": "La Follia, RV 63 (for 3 Cellos)",
+    "arranger": "Orfeo Mandozzi",
+    "instruments": {
+     "cello": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "",
+    "minutes": 10,
+    "set": null,
+    "notes": "Complete RV63 trio sonata arranged for three cellos.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Trio Sonata in D minor, RV 63 (Vivaldi, Antonio)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "work"
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Factual extraction; independent score grades required."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Trio_Sonata_in_D_minor,_RV_63_(Vivaldi,_Antonio)",
+      "finding": "ExactFor3CellosMandozzigroup complete scoreandall3parts, separatefromWachterversion."
+     },
+     {
+      "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/296386",
+      "finding": "NormalAPIhandlerretrievedactualcompleteMandozzi3celloscore."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=85SspBSmUaU",
+      "finding": "OfficialStringConcertAcademyconcert-hostchannelexplicit3cellosandMandozziarrangement,619scompleteTemaConVariazioni."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/296386",
+     "finding": "Arrangedfor3cellos, nootherrequiredinstrument."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/296386",
+     "localPath": "data/cache/same-instrument-imslp/scores/vivaldi-rv63-mandozzi-3cellos.pdf",
+     "finding": "CompletePDFverifiedhash/source sidecar;all3partsavailable."
+    },
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=85SspBSmUaU",
+     "finding": "OrfeoMandozzi,SCAandLeonardoNotarangelo liveperformance explicitlyarrper3cellodiOMandozzi,worktitleLaFolliaTemaConVariazioni."
+    },
+    "version": {
+     "kind": "arrangement",
+     "arranger": "Orfeo Mandozzi",
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "details.kind": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/296386"
+    },
+    "unknowns": {
+     "arrangementYear": "Notestablished;original1705notarrangementdate."
+    }
+   },
+   "recordingResearch": {
+    "candidates": [
+     {
+      "id": "85SspBSmUaU",
+      "title": "O. Mandozzi & S.C.A / Vivaldi, La Follia for 3 cellos / String Concert Academy",
+      "channel": "Ente Cassa di Faetano Fondazione Banca di San Marino",
+      "description": "VIVALDI - LA FOLLIA Tema con variazioni. Arr. per tre violoncelli di O. Mandozzi\nOrfeo Mandozzi / S.C.A. / Leonardo Notarangelo\n\nUn’esibizione esclusiva offerta di docenti ed allievi di String Concert Academy, un laboratorio di perfezionamento musicale avviato nella Repubblica di San Marino.\n\nAn exclusive performance offered by teachers and students of String Concert Academy project, a workshop of musical training started in the Republic of San Marino with internationally renowned artists. http://www.sanmarinoartist.com/\n\nWatch all performances\nhttps://www.youtube.com/watch?v=0Pe6XInfZyI&list=PLlgy7w4JM2BCkAl0xneHiYzQlrWsNQGS2\n\nDont' forget to subscribe our channel!\nhttps://www.youtube.com/channel/UCK1OtHGFLhwV5nngg4h6e0g\n\n- - - - - - - - - - -\n\nVilla Manzoni\nWeb: www.villamanzoni.org\nFacebook https://www.facebook.com/villamanzoni.sanmarino/\n\nEnte Cassa di Faetano - Fondazione Banca di San Marino\nWeb: http://www.ecf.sm/\nFacebook: https://www.facebook.com/entecassadifaetano/",
+      "seconds": 619,
+      "views": 13018,
+      "performerCredits": "VIVALDI - LA FOLLIA Tema con variazioni. Arr. per tre violoncelli di O. Mandozzi\nOrfeo Mandozzi / S.C.A. / Leonardo Notarangelo\n\nUn’esibizione esclusiva offerta di docenti ed allievi di String Concert Academy, un laboratorio di perfezionamento musicale avviato nella Repubblica di San Marino.\n\nAn exclusive performance offered by teachers and students of String Concert Academy project, a workshop of musical training started in the Republic of San Marino with internationally renowned artists. http://www.sanmarinoartist.com/\n\nWatch all performances\nhttps://www.youtube.com/watch?v=0Pe6XInfZyI&list=PLlgy7w4JM2BCkAl0xneHiYzQlrWsNQGS2\n\nDont' forget to subscribe our channel!\nhttps://www.youtube.com/channel/UCK1OtHGFLhwV5nngg4h6e0g\n\n- - - - - - - - - - -\n\nVilla Manzoni\nWeb: www.villamanzoni.org\nFacebook https://www.facebook.com/villamanzoni.sanmarino/\n\nEnte Cassa di Faetano - Fondazione Banca di San Marino\nWeb: http://www.ecf.sm/\nFacebook: https://www.facebook.com/entecassadifaetano/"
+     }
+    ]
+   }
+  },
+  {
+   "key": "bach-bwv864-dicker-cello-quartet-prelude",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "IMSLP and the exact Dicker ensemble chapter support this four-cello transcription of BWV 864, Prelude No. 19 from The Well-Tempered Clavier, Book I; full score and parts are cached.",
+   "work": {
+    "composer": "Bach, Johann Sebastian",
+    "title": "Prelude No.19, BWV 864 (for 4 Cellos)",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "level": null,
+    "hardestPart": null,
+    "year": "",
+    "minutes": 2,
+    "set": null,
+    "notes": "Prelude only, transposed to G major; from The Well-Tempered Clavier, Book I.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Prelude and Fugue in A major, BWV 864 (Bach, Johann Sebastian)",
+    "arranger": "Suzanne Dicker"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "piece"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+      "checkedOn": "2026-10-29",
+      "finding": "IMSLP lists Suzanne Dicker’s four-cello prelude transcription; Raw revision 4825039; Complete Score and Parts; notes explicitly say transposed to G major and point to the ensemble video."
+     },
+     {
+      "url": "https://www.learningthecello.com/free-cello-ensemble-music.php",
+      "checkedOn": "2026-10-29",
+      "finding": "Dicker’s primary cello ensemble music page, linked in the recorded video description."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=574s",
+      "checkedOn": "2026-10-29",
+      "finding": "Chapter “Prelude 19 from WTC vol. 1” starts at 9:34; the recorded segment is 1:58. Cached video metadata identifies MusicaAngela’s upload (2024-03-22), The Creative Bach Cello Ensemble, and five cellists; its description identifies Suzanne Dicker’s Bach arrangements and links to her score library."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+     "locator": "Prelude score block: For 4 Cellos (Dicker)",
+     "finding": "Complete Score and Parts for four cellos; the Prelude is the documented segment."
+    },
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=574s",
+     "finding": "Chapter “Prelude 19 from WTC vol. 1” starts at 9:34; the recorded segment is 1:58. Cached video metadata identifies MusicaAngela’s upload (2024-03-22), The Creative Bach Cello Ensemble, and five cellists; its description identifies Suzanne Dicker’s Bach arrangements and links to her score library."
+    },
+    "version": {
+     "kind": "arrangement",
+     "arranger": "Suzanne Dicker",
+     "extent": "BWV 864, Prelude No. 19 from The Well-Tempered Clavier, Book I",
+     "selection": "BWV 864, Prelude No. 19 from The Well-Tempered Clavier, Book I"
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+     "finding": "IMSLP arrangement block: Raw revision 4825039; Complete Score and Parts; notes explicitly say transposed to G major and point to the ensemble video. Local cached PDF data/cache/same-instrument-imslp/scores/952243.pdf (112284 bytes; SHA-256 cc9fb6c84d13d292578ea5ed5083b5899990113aea22efcebb49a206bfbbf746); observed source file URL https://ks15.imslp.org/files/imglnks/usimg/1/13/IMSLP952243-PMLP569350-Bach_Prelude_19_cello_quartet_-_Score_and_parts.pdf."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+     "work.title": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+     "work.instruments": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+     "work.notes": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+     "work.minutes": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=574s"
+    },
+    "unknowns": {
+     "arrangement.date": "Arrangement date not established; original composition date not reused.",
+     "details.published": "Publication date not established.",
+     "work.year": "Arrangement date unknown; original work date is not reused as arrangement date.",
+     "work.level": "Not graded.",
+     "work.hardestPart": "Not graded."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass factual extraction; independent score grades required."
+   },
+   "recordingResearch": {
+    "status": "released-human-performance-established",
+    "queries": [],
+    "candidates": [
+     {
+      "id": "-w6vtpUpFF8",
+      "title": "Music by JS Bach arranged by Suzanne Dicker for Cello Quartet, and more…￼",
+      "channel": "MusicaAngela",
+      "description": "Suzanne Dicker’s Arrangements of Works by JS Bach, performed by The Creative Bach Cello Ensemble at Trinity Church in Princeton, New Jersey during Lent 2024 .￼\nThe sheet music for these arrangements can be downloaded for free from \nhttps://imslp.org/wiki/Category:Dicker,_Suzanne\nand\nhttps://www.learningthecello.com/free-cello-ensemble-music.php\nCellists: Peter Brooks, Suzanne Dicker, Katrina Marie Kormanski, Elina Lang, Ted McClure.\n\nFlute: John Lane, Soprano: Samantha Lax, Mezzo soprano: Melissa Fajardo, Tenor: Michael Martin, Bass: Matt Marinelli, Organ: Connor Fluharty\n\n00:00 Bach Goldberg Variation 22\n2:48 Trust in the Lord based on BWV 934 and Proverbs 3:5-6\n5:37 Prelude 18 from WTC vol. 1 (with recomposed bars by Suzanne Dicker)\n7:50 Three-Part Invention #3 \n9:34 Prelude 19 from WTC vol. 1\n11:32 Two-Part Invention #9 in F minor\n13:52 Prelude in F major BWV 928\n15:36 Gute Nacht from Motet BWV 227\n18:42 Prelude #22 from WTC vol. 1\n21:06 Air from Orchestral Suite #3\n25:11 Prelude 18 from WTC vol. 1 (Original bars of JS Bach)\n27:18 Chorale from Cantata 140, arranged by Wendy Bissenger for cello quartet",
+      "seconds": 1950,
+      "views": 1141,
+      "performerCredits": "Suzanne Dicker’s Arrangements of Works by JS Bach, performed by The Creative Bach Cello Ensemble at Trinity Church in Princeton, New Jersey during Lent 2024 .￼\nThe sheet music for these arrangements can be downloaded for free from \nhttps://imslp.org/wiki/Category:Dicker,_Suzanne\nand\nhttps://www.learningthecello.com/free-cello-ensemble-music.php\nCellists: Peter Brooks, Suzanne Dicker, Katrina Marie Kormanski, Elina Lang, Ted McClure.\n\nFlute: John Lane, Soprano: Samantha Lax, Mezzo soprano: Melissa Fajardo, Tenor: Michael Martin, Bass: Matt Marinelli, Organ: Connor Fluharty\n\n00:00 Bach Goldberg Variation 22\n2:48 Trust in the Lord based on BWV 934 and Proverbs 3:5-6\n5:37 Prelude 18 from WTC vol. 1 (with recomposed bars by Suzanne Dicker)\n7:50 Three-Part Invention #3 \n9:34 Prelude 19 from WTC vol. 1\n11:32 Two-Part Invention #9 in F minor\n13:52 Prelude in F major BWV 928\n15:36 Gute Nacht from Motet BWV 227\n18:42 Prelude #22 from WTC vol. 1\n21:06 Air from Orchestral Suite #3\n25:11 Prelude 18 from WTC vol. 1 (Original bars of JS Bach)\n27:18 Chorale from Cantata 140, arranged by Wendy Bissenger for cello quartet",
+      "chapterStartSeconds": 574
+     }
+    ]
+   },
+   "arranger": "Suzanne Dicker"
+  }
+ ]
+}

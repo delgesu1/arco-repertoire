@@ -1,0 +1,126 @@
+{
+ "batch": "batch-grades-05",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "fux-sonata-3-violins-ulb-mus-ms-334",
+   "work": {
+    "composer": "Fux, Johann Joseph",
+    "title": "Sonata for 3 Violins in F major, ULB Mus.Ms.334",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "year": "",
+    "minutes": 9.47,
+    "set": null,
+    "notes": "Three-violin sonata identified with ULB Mus.Ms.334; the IMSLP page lists six movements while the 2025 recording is indexed as four movements, so version/extent needs fact review.",
+    "imslpPage": "Sonata for 3 Violins in F major, ULB Mus.Ms.334 (Fux, Johann Joseph)"
+   },
+   "primarySources": [
+    "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+    "https://www.prestomusic.com/classical/products/9769255--violins-of-osesp"
+   ]
+  },
+  {
+   "key": "klengel-2-stucke-op5-4-cellos",
+   "work": {
+    "composer": "Klengel, Julius",
+    "title": "2 Stücke, Op.5",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "",
+    "minutes": 8.83,
+    "set": null,
+    "notes": "Two pieces for four cellos: Serenade and Humoreske; score is available as four parts and a commercial London Mozart Players recording covers both pieces.",
+    "imslpPage": "2 Stücke, Op.5 (Klengel, Julius)"
+   },
+   "primarySources": [
+    "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+    "https://www.prestomusic.com/classical/products/7946550--petits-fours"
+   ]
+  }
+ ]
+}

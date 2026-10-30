@@ -1,0 +1,244 @@
+{
+  "batch": "violin40-verify",
+  "status": "complete",
+  "checkedAt": "2026-10-29T16:49:29.041106+00:00",
+  "method": "Actual complete notation plus exact primary performer/release evidence; numeric judgments independent of other reviewers. No model API spending. Facts/performance floor and score-supported grade kept separate.",
+  "entries": [
+    {
+      "key": "bohm-violin-quartet-four-violins",
+      "status": "approved",
+      "factsVerified": true,
+      "factGates": {
+        "exactVersionAndExtent": true,
+        "readableNotation": true,
+        "documentedHumanWholeWorkPerformance": true
+      },
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)",
+          "finding": "Raw page756003 and complete John Wiebe score based on1901 Simrock parts: original four violins, G major, one sonata-form movement; not F-major clarinet adaptation."
+        },
+        {
+          "url": "https://www.thehouseconcert.com/sub/concert/schedule_view.php?idx=697",
+          "finding": "Official December11,2017 concert programme names complete Quartet for4Violins in G Major and all four KCO violinists. Official recording metadata independently gives same piece and Soran Sophia Lee,Yoonjung Yang,Wonyoung Jung,Marisol Lee; one movement is entire work."
+        }
+      ],
+      "grade": {
+        "level": 4,
+        "hardestPart": "violin1",
+        "confidence": "medium",
+        "uncertaintyLevels": 1,
+        "scope": "whole work, hardest individual part",
+        "basis": "The first violin carries upper-register cantabile and chromatic slurred sixteenths, changing bow strokes and short double-stop/chord punctuation. The passagework and shifts fit early advanced playing; the mostly repeated-note/lower-register accompanying parts do not determine the whole-work grade. No level added solely for ensemble coordination.",
+        "scoreAnchors": [
+          {
+            "source": "data/cache/same-instrument-imslp/scores/966335.pdf",
+            "location": "PDFpp1–8 complete; p3 mm36–43; p7 mm106–115; p8 m116 to close",
+            "observation": "Extended chromatic sixteenth-note sequences in violin1, upper ledger-line writing and double-stop/chord punctuation; final run shared by violins1–2."
+          }
+        ],
+        "ensembleUpliftApplied": false
+      },
+      "workCorrections": {
+        "title": "Violin Quartet in G major",
+        "imslpPage": "Violin Quartet (Bohm, Carl)",
+        "key": "G major",
+        "year": "",
+        "minutes": null,
+        "notes": "Original work for four violins in one sonata-form movement; first published1901."
+      },
+      "detailCorrections": {
+        "published": "1901, Berlin: N. Simrock, plate11610",
+        "kind": "single",
+        "movements": [
+          "Allegro commodo"
+        ],
+        "sourceUrls": [
+          "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)",
+          "https://www.thehouseconcert.com/sub/concert/schedule_view.php?idx=697"
+        ]
+      },
+      "recordingDecisions": [
+        {
+          "videoId": "mAL3WIAe30s",
+          "url": "https://www.youtube.com/watch?v=mAL3WIAe30s",
+          "decision": "approved",
+          "title": "KCO Violin Quartet | Bohm : Quartet for 4 Violins in G Major",
+          "channel": "더하우스콘서트 The House Concert",
+          "durationSeconds": 264,
+          "checks": {
+            "workIdentityCorrect": true,
+            "exactInstrumentationCorrect": true,
+            "humanPerformanceVerified": true,
+            "wholeWorkCoverageVerified": true,
+            "excludedPerformersClear": true
+          },
+          "embeddable": true,
+          "oEmbedChecked": true,
+          "metadataCache": "data/cache/same-instrument-imslp/violin40-verification/mAL3WIAe30s.json",
+          "reason": "Official presenter credits all4violinists and the exact complete single-movement work. Title,channel,full description and credits contain no excluded performer. Duration264sec is corroborative only."
+        }
+      ]
+    },
+    {
+      "key": "massa-violin-quartet-four-violins",
+      "status": "held",
+      "factsVerified": false,
+      "factGates": {
+        "exactVersionAndExtent": true,
+        "readableNotation": true,
+        "documentedHumanWholeWorkPerformance": false
+      },
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)",
+          "finding": "Raw page816210 and complete Ezequiel Diz score503799 establish original Cuarteto para Violines (para clases de conjunto y audiciones), four violins, F major, IAdagio and IIAllegretto with linked Finale. Complete8-page notation read. No composition/publication year verified."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=o7jXNExjf1g",
+          "finding": "Exact video title Achilles Quartet - Juan Bautista Massa Quartet for4violins, uploaded by Jessica Bruschi,331sec, public and embeddable; full metadata description is empty. Metadata does not explicitly certify both movements. Normal video fetch returned403; no bypass or completeness claim made."
+        }
+      ],
+      "grade": {
+        "level": 4,
+        "hardestPart": "violin1",
+        "confidence": "medium",
+        "uncertaintyLevels": 1,
+        "scope": "whole work, hardest individual part",
+        "basis": "Violin1 requires upper-register melody, rapid chromatic scale pickups including tuplets, articulate saltellato figures, and repeated high sixteenths at the Finale; lower parts also change between arco and pizzicato and include double stops. The concrete violin1 writing is early advanced rather than a virtuoso concertante part. The factual performance-floor hold is independent of this complete-score advisory grade.",
+        "scoreAnchors": [
+          {
+            "source": "data/cache/same-instrument-imslp/scores/503799.pdf",
+            "location": "Ipp1–3, IIpp3–8; II m16/p4 and m32/p4; mm49–64/p5; Finale mm129ff/p8",
+            "observation": "Seven-note and chromatic scale pickups, saltellato bowing, six-note pickups, high repeated sixteenths and closing chords. First movement has sustained pp cantabile/chromatic decoration and staggered entrances."
+          }
+        ],
+        "ensembleUpliftApplied": false
+      },
+      "workCorrections": {
+        "title": "Cuarteto para Violines",
+        "imslpPage": "Violin Quartet (Massa, Juan Bautista)",
+        "key": "F major",
+        "year": "",
+        "minutes": 8,
+        "notes": "Original work for four violins, subtitled para clases de conjunto y audiciones; two movements, with Finale following the second movement."
+      },
+      "detailCorrections": {
+        "published": "",
+        "kind": "single",
+        "movements": [
+          "I. Adagio",
+          "II. Allegretto — Finale (poco più mosso)"
+        ],
+        "sourceUrls": [
+          "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)"
+        ]
+      },
+      "recordingDecisions": [
+        {
+          "videoId": "o7jXNExjf1g",
+          "url": "https://www.youtube.com/watch?v=o7jXNExjf1g",
+          "decision": "held",
+          "title": "Achilles Quartet - Juan Bautista Massa Quartet for 4 violins",
+          "channel": "Jessica Bruschi",
+          "durationSeconds": 331,
+          "checks": {
+            "workIdentityCorrect": true,
+            "exactInstrumentationCorrect": true,
+            "humanPerformanceVerified": false,
+            "wholeWorkCoverageVerified": false,
+            "excludedPerformersClear": true
+          },
+          "embeddable": true,
+          "oEmbedChecked": true,
+          "metadataCache": "data/cache/same-instrument-imslp/violin40-verification/o7jXNExjf1g.json",
+          "reason": "The exact work/formation is named, and available title/channel/empty description show no banned name. Performer title is plausible human ensemble evidence, but no visual/audio review or complete movement listing was obtainable; do not treat331sec as proof of whole-work coverage."
+        }
+      ],
+      "holdReason": "Exact human whole-work performance extent remains unverified; grade is separately supported by complete actual notation."
+    },
+    {
+      "key": "dont-quartet-op42-four-violins",
+      "status": "approved",
+      "factsVerified": true,
+      "factGates": {
+        "exactVersionAndExtent": true,
+        "readableNotation": true,
+        "documentedHumanWholeWorkPerformance": true
+      },
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)",
+          "finding": "Raw page168495 and actual complete Merton score82713 establish Quartet in E minor Op42 for four violins. Landscape booklet PDF contains printed scorepp3–15: IAllegro espressivo; IIScherzo Allegro assai / Trio più moderato; IIILarghetto; IVFinale Vivace."
+        },
+        {
+          "url": "https://classical.music.apple.com/cn/album/1671450619",
+          "finding": "Primary digital album credits J.Patrick Rafferty, violin, and groups the complete Op42 as19:50 with four tracks I7:53,II2:24,III5:50,IV3:41. Original four-violin work and each movement match complete notation; human whole-performance context independent of the incomplete YouTube example."
+        },
+        {
+          "url": "https://music.apple.com/us/album/jakob-dont-1815-1888-quartets-for-four-violins/1671450619",
+          "finding": "Album Jakob Dont (1815–1888), Quartets for Four Violins releasedMarch8,2023 under J.Patrick Rafferty,8tracks covering Op42 and Op45."
+        }
+      ],
+      "grade": {
+        "level": 3,
+        "hardestPart": "violin1",
+        "confidence": "medium",
+        "uncertaintyLevels": 1,
+        "scope": "whole work, hardest individual part",
+        "basis": "Violin1 needs secure shifting into upper ledger-line register and lyrical bow control, wide-leaping short strokes in the Scherzo, chromatic ornamental sixteenth/32nd-note figures in the slow Larghetto, and fluent eighth-note entries in the Vivace. Accompaniments are simpler but independent. Overall upper intermediate with a one-level margin; this is not inferred from Dont’s etude reputation or an automatic quartet surcharge.",
+        "scoreAnchors": [
+          {
+            "source": "data/cache/same-instrument-imslp/scores/82713.pdf",
+            "location": "Printedpp3–7/I; p8Scherzo mm1–40; pp9–11/Larghetto including mm25–40; pp11–15/Finale",
+            "observation": "First movement mostly cantabile quarter/half-note material; Scherzo has accented octave/wider skips and detached quarters; slow movement decorative runs/accidentals; Finale moves in eighths with offbeat rests, chromatic shifts and recurring high-register attacks. All four movements inspected."
+          }
+        ],
+        "ensembleUpliftApplied": false
+      },
+      "workCorrections": {
+        "title": "Quartet in E minor, Op.42",
+        "imslpPage": "Violin Quartet, Op.42 (Dont, Jakob)",
+        "key": "E minor",
+        "year": "",
+        "minutes": null,
+        "notes": "Original four-movement quartet for four violins; complete human recording documented in J. Patrick Rafferty’s2023 release."
+      },
+      "detailCorrections": {
+        "published": "",
+        "kind": "single",
+        "movements": [
+          "I. Allegro espressivo",
+          "II. Scherzo. Allegro assai — Trio. Più moderato",
+          "III. Larghetto",
+          "IV. Finale. Vivace"
+        ],
+        "sourceUrls": [
+          "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)",
+          "https://classical.music.apple.com/cn/album/1671450619"
+        ]
+      },
+      "recordingDecisions": [
+        {
+          "videoId": "EVkj-WqePIo",
+          "url": "https://www.youtube.com/watch?v=EVkj-WqePIo",
+          "decision": "held",
+          "title": "【4Violins】Jacob Dont: Quartet Op.42, I. Allegro espressivo",
+          "channel": "Yuka Matsumoto",
+          "durationSeconds": 401,
+          "checks": {
+            "workIdentityCorrect": true,
+            "exactInstrumentationCorrect": true,
+            "humanPerformanceVerified": true,
+            "wholeWorkCoverageVerified": false,
+            "excludedPerformersClear": true
+          },
+          "embeddable": true,
+          "oEmbedChecked": true,
+          "metadataCache": "data/cache/same-instrument-imslp/violin40-verification/EVkj-WqePIo.json",
+          "reason": "Yuka Matsumoto explicitly credits violin(s) in home multitrack recording,June18,2020; human original4vn realization verified. Title explicitly saysI.Allegro espressivo and401sec cannot certify the quartet as a whole. Clear of all4excluded names in full metadata; hold as full-work pick, acceptable only if catalog supports explicitly labelled movement excerpts."
+        }
+      ]
+    }
+  ]
+}

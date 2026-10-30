@@ -40,6 +40,8 @@ export interface PieceBase {
   composerName: string; // "First Last"
   composerSlug: string;
   title: string;
+  /** Arranger's display name ("Klaus Trumpf"), separate from the source work's composer. */
+  arranger?: string;
   level: number;
   era: EraKey;
   dates: string;

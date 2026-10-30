@@ -1,0 +1,656 @@
+{
+  "batch": "triage-003",
+  "kind": "arrangement",
+  "status": "complete",
+  "pages": [
+    {
+      "pageId": 12484,
+      "title": "España, Op.165 (Albéniz, Isaac)",
+      "disposition": "out-of-scope",
+      "reason": "No eligible 3–12 same-family string ensemble arrangement is supported by the listed arrangement headings/files; category signal appears unsupported in the cached page excerpt.",
+      "versions": []
+    },
+    {
+      "pageId": 80499,
+      "title": "String Quartet No.2, Op.35 (Arensky, Anton)",
+      "disposition": "needs-review",
+      "reason": "A four-cello selection arrangement by Sheryl Smith has score and all four parts; no verified human performance of this cello-quartet version found.",
+      "versions": [
+        {
+          "key": "arensky-op35-smith-cello-quartet",
+          "composer": "Arensky, Anton",
+          "title": "String Quartet No.2, Op.35 — selections for cello quartet",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "kind": "arrangement",
+          "arranger": "Sheryl Smith",
+          "extent": "Selections: slow themes from each of the three movements",
+          "selection": true,
+          "imslpPage": "https://imslp.org/wiki/String_Quartet_No.2%2C_Op.35_%28Arensky%2C_Anton%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/String_Quartet_No.2%2C_Op.35_%28Arensky%2C_Anton%29",
+            "locator": "Arrangements and Transcriptions > Slow themes from each movement > For 4 Cellos (Smith)",
+            "finding": "One complete score and four separately named cello parts are listed; arranger Sheryl Smith, uploaded 2025."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1894 (original work)",
+            "minutes": null,
+            "movements": "3 movements; arrangement selects slow themes from each"
+          },
+          "flags": [
+            "selection, not complete quartet transcription",
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 4291,
+      "title": "6 Cello Suites, BWV 1007-1012 (Bach, Johann Sebastian)",
+      "disposition": "needs-review",
+      "reason": "Orefice's 3-, 5- and 7-cello adaptations have named score files, but available evidence does not verify a human performance of any exact arrangement.",
+      "versions": [
+        {
+          "key": "bach-suites-orefice-3cellos",
+          "composer": "Bach, Johann Sebastian",
+          "title": "6 Cello Suites, BWV 1007–1012 — canons for 3 cellos",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "kind": "arrangement",
+          "arranger": "Giovanni Pietro Orefice",
+          "extent": "Canonic counter-arrangements drawing on material from Suites BWV 1007–1012; score labeled complete",
+          "selection": false,
+          "imslpPage": "https://imslp.org/wiki/6_Cello_Suites%2C_BWV_1007-1012_%28Bach%2C_Johann_Sebastian%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/6_Cello_Suites%2C_BWV_1007-1012_%28Bach%2C_Johann_Sebastian%29",
+            "locator": "Arrangements and Transcriptions > Selections > For 3 Cellos (Orefice)",
+            "finding": "Complete score PDF (6SUITES_CANONS) by Orefice; no separately labeled parts in listing."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1720s (original suites)",
+            "minutes": null,
+            "movements": "Draws on the six suites; exact extracted canon sequence requires score inspection"
+          },
+          "flags": [
+            "arrangement is a canonic counter-version, not straight transcription",
+            "no verified human performance of this version"
+          ]
+        },
+        {
+          "key": "bach-suites-orefice-5cellos",
+          "composer": "Bach, Johann Sebastian",
+          "title": "Suite of Suites from the 6 Cello Suites, BWV 1007–1012",
+          "instrument": "5 cellos",
+          "independentPartCount": 5,
+          "kind": "arrangement",
+          "arranger": "Giovanni Pietro Orefice",
+          "extent": "Selected movements from multiple suites assembled as canons; see file notes",
+          "selection": true,
+          "imslpPage": "https://imslp.org/wiki/6_Cello_Suites%2C_BWV_1007-1012_%28Bach%2C_Johann_Sebastian%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/6_Cello_Suites%2C_BWV_1007-1012_%28Bach%2C_Johann_Sebastian%29",
+            "locator": "Arrangements and Transcriptions > For 5 Cellos (Orefice)",
+            "finding": "One complete-score PDF listed; file notes describe pieces selected from suites and a five-cello canon structure; no discrete parts listed."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1720s (original suites)",
+            "minutes": null,
+            "movements": "Selected movements from Suites 1, 2, 3, 4 and 6 per file notes"
+          },
+          "flags": [
+            "selection assembled across suites",
+            "no verified human performance of this version"
+          ]
+        },
+        {
+          "key": "bach-suites-orefice-7cellos",
+          "composer": "Bach, Johann Sebastian",
+          "title": "7th Suite (assembled from the 6 Cello Suites), BWV 1007–1012",
+          "instrument": "7 cellos",
+          "independentPartCount": 7,
+          "kind": "arrangement",
+          "arranger": "Giovanni Pietro Orefice",
+          "extent": "Newly assembled canon from pieces across BWV 1007–1012",
+          "selection": true,
+          "imslpPage": "https://imslp.org/wiki/6_Cello_Suites%2C_BWV_1007-1012_%28Bach%2C_Johann_Sebastian%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/6_Cello_Suites%2C_BWV_1007-1012_%28Bach%2C_Johann_Sebastian%29",
+            "locator": "Arrangements and Transcriptions > Selections > For 7 Cellos (Orefice)",
+            "finding": "Complete score and parts with explanatory notes listed by arranger; source notes describe the assembled ‘7th Suite’."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1720s (original suites)",
+            "minutes": null,
+            "movements": "Selected movements from BWV 1007–1012; exact sequence not extracted"
+          },
+          "flags": [
+            "assembled selection, not a seventh original Bach suite",
+            "no verified human performance of this version"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 498760,
+      "title": "4 Slovak Folksongs, Sz.70 (Bartók, Béla)",
+      "disposition": "needs-review",
+      "reason": "One eligible four-cello arrangement of song No.4 is listed with a complete score, but no part files or human performance of this arrangement were verified.",
+      "versions": [
+        {
+          "key": "bartok-sz70-mandozzi-four-cellos-no4",
+          "composer": "Bartók, Béla",
+          "title": "Gajdujte, gajdence (No.4 from 4 Slovak Folksongs, Sz.70)",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "kind": "arrangement",
+          "arranger": "Orfeo Mandozzi",
+          "extent": "One song: Gajdujte, gajdence (No.4)",
+          "selection": true,
+          "imslpPage": "https://imslp.org/wiki/4_Slovak_Folksongs%2C_Sz.70_%28Bart%C3%B3k%2C_B%C3%A9la%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/4_Slovak_Folksongs%2C_Sz.70_%28Bart%C3%B3k%2C_B%C3%A9la%29",
+            "locator": "Arrangements and Transcriptions > Gajdujte, gajdence (No.4) > For 4 Cellos (Mandozzi)",
+            "finding": "A complete score PDF is listed; arranger Orfeo Mandozzi, 2013; no individual cello parts listed."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1916 (original work)",
+            "minutes": null,
+            "movements": "One song, No.4"
+          },
+          "flags": [
+            "selection from original four-song cycle",
+            "score listed without separate parts",
+            "no verified human performance of this version"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 58721,
+      "title": "6 Lieder, Op.48 (Beethoven, Ludwig van)",
+      "disposition": "out-of-scope",
+      "reason": "The ‘For 4 Violins (Dello)’ heading only cross-references a separate work, with no score file or arranger attribution on this page; no concrete arrangement could be extracted.",
+      "versions": []
+    },
+    {
+      "pageId": 41675,
+      "title": "Grande messe des morts, H 75 (Berlioz, Hector)",
+      "disposition": "needs-review",
+      "reason": "Bridson's six-viola arrangement of movement 5 has score and complete parts; no human performance of that exact version verified.",
+      "versions": [
+        {
+          "key": "berlioz-requiem-quaerens-me-6violas-bridson",
+          "composer": "Berlioz, Hector",
+          "title": "Quaerens me (No.5 from Grande messe des morts, H 75)",
+          "instrument": "6 violas",
+          "independentPartCount": 6,
+          "kind": "arrangement",
+          "arranger": "Robert Edward Bridson",
+          "extent": "One movement: Quærens me (No.5)",
+          "selection": true,
+          "imslpPage": "https://imslp.org/wiki/Grande_messe_des_morts%2C_H_75_%28Berlioz%2C_Hector%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/Grande_messe_des_morts%2C_H_75_%28Berlioz%2C_Hector%29",
+            "locator": "Arrangements and Transcriptions > For 6 Violas (Bridson)",
+            "finding": "Complete score and complete parts listed; arranger's note says six violas, transposed up to C major from A major."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1837 (original work)",
+            "minutes": null,
+            "movements": "One movement, No.5 of the Requiem"
+          },
+          "flags": [
+            "movement selection from large Requiem",
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 462541,
+      "title": "6 Concertos for 5 Flutes, Op.15 (Boismortier, Joseph Bodin de)",
+      "disposition": "needs-review",
+      "reason": "Bouma's arrangement covers six concertos and includes a score and five parts; no actual human recording of the cello arrangement found.",
+      "versions": [
+        {
+          "key": "boismortier-op15-bouma-5cellos",
+          "composer": "Boismortier, Joseph Bodin de",
+          "title": "6 Concertos for 5 Flutes, Op.15 — version for 5 cellos",
+          "instrument": "5 cellos",
+          "independentPartCount": 5,
+          "kind": "arrangement",
+          "arranger": "Peter Bouma",
+          "extent": "Six concertos, PB 307–312",
+          "selection": false,
+          "imslpPage": "https://imslp.org/wiki/6_Concertos_for_5_Flutes%2C_Op.15_%28Boismortier%2C_Joseph_Bodin_de%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/6_Concertos_for_5_Flutes%2C_Op.15_%28Boismortier%2C_Joseph_Bodin_de%29",
+            "locator": "Arrangements and Transcriptions > For 5 Cellos (Bouma)",
+            "finding": "Complete score plus five distinct cello parts; Bouma's preface says transcribed/transposed for five cellos, otherwise substantially faithful to original."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1724 (original publication)",
+            "minutes": null,
+            "movements": "6 concertos"
+          },
+          "flags": [
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 52839,
+      "title": "2 Gesänge, Op.91 (Brahms, Johannes)",
+      "disposition": "lead",
+      "reason": "Jones's five-viola arrangement of No.2 has score, five parts and a complete human performance identified by IMSLP as the viola quintet arrangement.",
+      "versions": [
+        {
+          "key": "brahms-op91-no2-jones-5violas",
+          "composer": "Brahms, Johannes",
+          "title": "Geistliches Wiegenlied (No.2 from 2 Gesänge, Op.91)",
+          "instrument": "5 violas",
+          "independentPartCount": 5,
+          "kind": "arrangement",
+          "arranger": "Steve Jones",
+          "extent": "One song: Geistliches Wiegenlied (No.2)",
+          "selection": true,
+          "imslpPage": "https://imslp.org/wiki/2_Ges%C3%A4nge%2C_Op.91_%28Brahms%2C_Johannes%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/2_Ges%C3%A4nge%2C_Op.91_%28Brahms%2C_Johannes%29",
+            "locator": "Arrangements and Transcriptions > Geistliches Wiegenlied (No.2) > For 5 Violas (Jones)",
+            "finding": "Complete score and separately labeled Viola 1–5 parts listed; arranger Steve Jones."
+          },
+          "performanceEvidence": [
+            {
+              "url": "https://imslp.org/wiki/2_Ges%C3%A4nge%2C_Op.91_%28Brahms%2C_Johannes%29",
+              "locator": "Audio > Geistliches Wiegenlied (No.2) > For 5 Violas (Jones)",
+              "finding": "Complete Performance audio; IMSLP performer page identifies Steve's Bedroom Band as a viola quintet and notes this piece is arranged for 5 violas."
+            }
+          ],
+          "facts": {
+            "year": "1863–64 (No.2 original)",
+            "minutes": "5:38 (listed recording)",
+            "movements": "One song, No.2"
+          },
+          "flags": [
+            "selection from two-song set"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 691096,
+      "title": "Am Grabe, WAB 2 (Bruckner, Anton)",
+      "disposition": "needs-review",
+      "reason": "Terré Garcia's four-double-bass score is explicit, but the page's recordings are for other ensembles/text and do not verify this arrangement's performance.",
+      "versions": [
+        {
+          "key": "bruckner-wab2-terre-garcia-4basses",
+          "composer": "Bruckner, Anton",
+          "title": "Am Grabe, WAB 2 — version for 4 double basses",
+          "instrument": "4 double basses",
+          "independentPartCount": 4,
+          "kind": "arrangement",
+          "arranger": "Marc Terré Garcia",
+          "extent": "One movement: Langsam",
+          "selection": false,
+          "imslpPage": "https://imslp.org/wiki/Am_Grabe%2C_WAB_2_%28Bruckner%2C_Anton%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/Am_Grabe%2C_WAB_2_%28Bruckner%2C_Anton%29",
+            "locator": "Arrangements and Transcriptions > For 4 Double Basses (Terré Garcia)",
+            "finding": "Complete score listed under the arranger's name; no separate parts listed."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1861 (original work)",
+            "minutes": "2 (original work estimate)",
+            "movements": "One movement, Langsam"
+          },
+          "flags": [
+            "score listed without individual parts",
+            "page's audio entries are unrelated ensemble versions, not a floor for this arrangement",
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 212053,
+      "title": "Ave verum corpus, T 92 (Byrd, William)",
+      "disposition": "needs-review",
+      "reason": "Tobasi's four-cello score is listed, but separate parts and a matching human performance were not found.",
+      "versions": [
+        {
+          "key": "byrd-t92-tobasi-4cellos",
+          "composer": "Byrd, William",
+          "title": "Ave verum corpus, T 92 — version for 4 cellos",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "kind": "arrangement",
+          "arranger": "Tobasi",
+          "extent": "One motet",
+          "selection": false,
+          "imslpPage": "https://imslp.org/wiki/Ave_verum_corpus%2C_T_92_%28Byrd%2C_William%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/Ave_verum_corpus%2C_T_92_%28Byrd%2C_William%29",
+            "locator": "Arrangements and Transcriptions > For 4 Cellos (Tobasi)",
+            "finding": "Complete score file listed under arranger name; one score only, no individual cello parts listed."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1605 (original publication)",
+            "minutes": null,
+            "movements": "One motet"
+          },
+          "flags": [
+            "no separate part files listed",
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 15891,
+      "title": "Largo in E-flat major, B.109 (Chopin, Frédéric)",
+      "disposition": "needs-review",
+      "reason": "Mandozzi's five-cello version has score and five separate cello parts; no matching human performance verified.",
+      "versions": [
+        {
+          "key": "chopin-b109-mandozzi-5cellos",
+          "composer": "Chopin, Frédéric",
+          "title": "Largo in E-flat major, B.109 — version for 5 cellos",
+          "instrument": "5 cellos",
+          "independentPartCount": 5,
+          "kind": "arrangement",
+          "arranger": "Orfeo Mandozzi",
+          "extent": "One movement",
+          "selection": false,
+          "imslpPage": "https://imslp.org/wiki/Largo_in_E-flat_major%2C_B.109_%28Chopin%2C_Fr%C3%A9d%C3%A9ric%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/Largo_in_E-flat_major%2C_B.109_%28Chopin%2C_Fr%C3%A9d%C3%A9ric%29",
+            "locator": "Arrangements and Transcriptions > For 5 Cellos (Mandozzi)",
+            "finding": "Complete score and Cello 1–5 parts listed; arranger Orfeo Mandozzi, 2016."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1827 (original work)",
+            "minutes": null,
+            "movements": "One movement"
+          },
+          "flags": [
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 228509,
+      "title": "Concert 'Le Phénix' (Corrette, Michel)",
+      "disposition": "needs-review",
+      "reason": "Albanese's four-viola score and all four parts are listed; no human performance of this arrangement found.",
+      "versions": [
+        {
+          "key": "corrette-phenix-albanese-4violas",
+          "composer": "Corrette, Michel",
+          "title": "Concert 'Le Phénix' — version for 4 violas",
+          "instrument": "4 violas",
+          "independentPartCount": 4,
+          "kind": "arrangement",
+          "arranger": "Luca Albanese",
+          "extent": "3 movements",
+          "selection": false,
+          "imslpPage": "https://imslp.org/wiki/Concert_%27Le_Ph%C3%A9nix%27_%28Corrette%2C_Michel%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/Concert_%27Le_Ph%C3%A9nix%27_%28Corrette%2C_Michel%29",
+            "locator": "Arrangements and Transcriptions > For 4 Violas (Albanese)",
+            "finding": "Complete score and Viola 1–4 parts listed; notes say set one octave higher for four violas."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": null,
+            "minutes": "9 (work-page estimate)",
+            "movements": "3 movements"
+          },
+          "flags": [
+            "arrangement instrument and all parts explicit",
+            "date not available in cached work info",
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 2387,
+      "title": "Children's Corner, CD 119 (Debussy, Claude)",
+      "disposition": "out-of-scope",
+      "reason": "No qualifying 3–12 same-family string arrangement with count and parts is supported. A string entry has only a complete score and unspecified scoring; other ensemble entries are orchestral/wind or unrelated.",
+      "versions": []
+    },
+    {
+      "pageId": 22837,
+      "title": "6 Mazurkas, Op.56 (Dvořák, Antonín)",
+      "disposition": "out-of-scope",
+      "reason": "Cached arrangement headings contain no eligible 3–12 violin, viola, cello or bass ensemble; the discovery category is unsupported by the listed headings.",
+      "versions": []
+    },
+    {
+      "pageId": 14674,
+      "title": "Cello Concerto, Op.85 (Elgar, Edward)",
+      "disposition": "needs-review",
+      "reason": "Seymour's six-cello version has score and parts identified together; no human performance of that exact arrangement verified.",
+      "versions": [
+        {
+          "key": "elgar-cello-concerto-seymour-6cellos",
+          "composer": "Elgar, Edward",
+          "title": "Cello Concerto, Op.85 — version for 6 cellos",
+          "instrument": "6 cellos",
+          "independentPartCount": 6,
+          "kind": "arrangement",
+          "arranger": "Gwyn Seymour",
+          "extent": "Complete concerto",
+          "selection": false,
+          "imslpPage": "https://imslp.org/wiki/Cello_Concerto%2C_Op.85_%28Elgar%2C_Edward%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/Cello_Concerto%2C_Op.85_%28Elgar%2C_Edward%29",
+            "locator": "Arrangements and Transcriptions > For 6 Cellos (Seymour)",
+            "finding": "File is labeled Complete Score and Parts; arranger Gwyn Seymour."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1919 (original work)",
+            "minutes": null,
+            "movements": "3 movements"
+          },
+          "flags": [
+            "parts are bundled in one file; separate part count not inspected",
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 15901,
+      "title": "8 Pièces brèves, Op.84 (Fauré, Gabriel)",
+      "disposition": "needs-review",
+      "reason": "Manger's four-cello arrangement of Fugue No.3 has a score and complete parts; no human recording of that version verified.",
+      "versions": [
+        {
+          "key": "faure-op84-no3-manger-4cellos",
+          "composer": "Fauré, Gabriel",
+          "title": "Fugue (No.3 from 8 Pièces brèves, Op.84)",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "kind": "arrangement",
+          "arranger": "Bernhard Manger",
+          "extent": "One piece: Fugue No.3",
+          "selection": true,
+          "imslpPage": "https://imslp.org/wiki/8_Pi%C3%A8ces_br%C3%A8ves%2C_Op.84_%28Faur%C3%A9%2C_Gabriel%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/8_Pi%C3%A8ces_br%C3%A8ves%2C_Op.84_%28Faur%C3%A9%2C_Gabriel%29",
+            "locator": "Arrangements and Transcriptions > Fugue (No.3) > For 4 Cellos (Manger)",
+            "finding": "Complete score and complete parts listed; arranger Bernhard Manger."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1869–70 (original Op.84 collection)",
+            "minutes": null,
+            "movements": "One piece from eight: Fugue No.3"
+          },
+          "flags": [
+            "selection from a multi-piece collection",
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 574195,
+      "title": "Fantasia 'Di sei bassi' (Ferrabosco Sr., Alfonso)",
+      "disposition": "needs-review",
+      "reason": "Serna's six-double-bass arrangement has a full score and six numbered parts; the page's audio is synthesized, not human performance evidence.",
+      "versions": [
+        {
+          "key": "ferrabosco-di-sei-bassi-serna-6db",
+          "composer": "Ferrabosco Sr., Alfonso",
+          "title": "Fantasia 'Di sei bassi' — version for 6 double basses",
+          "instrument": "6 double basses",
+          "independentPartCount": 6,
+          "kind": "arrangement",
+          "arranger": "Phillip Serna",
+          "extent": "One fantasia",
+          "selection": false,
+          "imslpPage": "https://imslp.org/wiki/Fantasia_%27Di_sei_bassi%27_%28Ferrabosco_Sr.%2C_Alfonso%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/Fantasia_%27Di_sei_bassi%27_%28Ferrabosco_Sr.%2C_Alfonso%29",
+            "locator": "Arrangements and Transcriptions > For 6 Double Basses (Serna)",
+            "finding": "Complete score and six separately labeled Double Bass 1–6 parts listed; arranger Phillip Serna."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1613–19 (original work estimate)",
+            "minutes": null,
+            "movements": "One fantasia"
+          },
+          "flags": [
+            "synthetic performance exists but does not establish human performance",
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 8071,
+      "title": "Danse lente (Franck, César)",
+      "disposition": "needs-review",
+      "reason": "Verbandt's three-cello score is explicitly listed, but no separate parts or human performance of the version were verified.",
+      "versions": [
+        {
+          "key": "franck-danse-lente-verbandt-3cellos",
+          "composer": "Franck, César",
+          "title": "Danse lente — version for 3 cellos",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "kind": "arrangement",
+          "arranger": "Yves Verbandt",
+          "extent": "One movement",
+          "selection": false,
+          "imslpPage": "https://imslp.org/wiki/Danse_lente_%28Franck%2C_C%C3%A9sar%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/Danse_lente_%28Franck%2C_C%C3%A9sar%29",
+            "locator": "Arrangements and Transcriptions > For 3 Cellos (Verbandt)",
+            "finding": "Complete score listed under Yves Verbandt; no individual parts listed."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1885 (original work)",
+            "minutes": null,
+            "movements": "One movement"
+          },
+          "flags": [
+            "score only, no individual cello parts listed",
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 169986,
+      "title": "Canzon per sonar septimi toni a 8, Ch.172 (Gabrieli, Giovanni)",
+      "disposition": "needs-review",
+      "reason": "Seymour's eight-cello arrangement has a score and two grouped part files covering all eight players; IMSLP audio is MIDI only.",
+      "versions": [
+        {
+          "key": "gabrieli-ch172-seymour-8cellos",
+          "composer": "Gabrieli, Giovanni",
+          "title": "Canzon per sonar septimi toni a 8, Ch.172 — version for 8 cellos",
+          "instrument": "8 cellos",
+          "independentPartCount": 8,
+          "kind": "arrangement",
+          "arranger": "Gwyn Seymour",
+          "extent": "One canzona",
+          "selection": false,
+          "imslpPage": "https://imslp.org/wiki/Canzon_per_sonar_septimi_toni_a_8%2C_Ch.172_%28Gabrieli%2C_Giovanni%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/Canzon_per_sonar_septimi_toni_a_8%2C_Ch.172_%28Gabrieli%2C_Giovanni%29",
+            "locator": "Arrangements and Transcriptions > For 8 Cellos (Seymour)",
+            "finding": "Complete score plus Group I (Cellos 1–4) and Group II (Cellos 5–8) parts listed; arranger Gwyn Seymour."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": "1597 or earlier (original work)",
+            "minutes": "3 (original work estimate)",
+            "movements": "One canzona"
+          },
+          "flags": [
+            "IMSLP arrangement audio for mixed strings is synthesized MIDI and does not prove human performance",
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": 170184,
+      "title": "12 Trio Sonatas (Gallo, Domenico)",
+      "disposition": "needs-review",
+      "reason": "Mandozzi's three-cello part set appears under Sonata No.1 in G; the file is labeled complete parts but lacks a separate score, and no matching human recording verified.",
+      "versions": [
+        {
+          "key": "gallo-sonata1-mandozzi-3cellos",
+          "composer": "Gallo, Domenico",
+          "title": "Sonata No.1 in G — version for 3 cellos",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "kind": "arrangement",
+          "arranger": "Orfeo Mandozzi",
+          "extent": "Sonata No.1 in G",
+          "selection": true,
+          "imslpPage": "https://imslp.org/wiki/12_Trio_Sonatas_%28Gallo%2C_Domenico%29",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/12_Trio_Sonatas_%28Gallo%2C_Domenico%29",
+            "locator": "Sonata No.1 in G > For 3 Cellos (Mandozzi)",
+            "finding": "One file listed as Complete Parts, arranged by Orfeo Mandozzi; no separate score file listed."
+          },
+          "performanceEvidence": [],
+          "facts": {
+            "year": null,
+            "minutes": null,
+            "movements": "One trio sonata; exact movement count not extracted"
+          },
+          "flags": [
+            "part set only; score availability not evident from listing",
+            "no verified human performance of this arrangement"
+          ]
+        }
+      ]
+    }
+  ],
+  "resume": "All 20 pages researched. Checked PAUSE after the 20-page web-research budget; no PAUSE file was present. Only Brahms Op.91 No.2 in five violas has a verified exact-version human performance."
+}

@@ -1,0 +1,98 @@
+{
+ "batch": "ensemble-29",
+ "entries": [
+  {
+   "key": "karpati-andantino-four-violins",
+   "decision": "include",
+   "requiresFactReview": true,
+   "work": {
+    "composer": "Kárpáti, Sándor",
+    "title": "Andantino for 4 Violins",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "level": 1,
+    "hardestPart": "violin 1",
+    "year": "1926",
+    "minutes": 4,
+    "set": null,
+    "notes": "Original for 4 violins.",
+    "popularity": null,
+    "mode": "major",
+    "pace": "slow",
+    "character": [
+     "lyrical",
+     "tender"
+    ],
+    "imslpPage": "Andantino (Kárpáti, Sándor)"
+   },
+   "composerMetadata": {
+    "dates": "1872–1939",
+    "nationality": "Hungarian",
+    "gender": "M",
+    "era": "late-romantic"
+   },
+   "details": {
+    "kind": "piece",
+    "composed": "23 April 1926, Sopron"
+   },
+   "researcherGrade": {
+    "confidence": "high",
+    "basis": "Allfourcompleteonepageparts visuallyinspected. Gmajor common-time Andantino with almostentirelywhole/halfnotes andshortquartergestures, slurredpairs, conventionalfirstpositionrange, accidentals anddynamicshaping. Nofastpassagework, requiredshiftingorvirtuosodoublestops; afourthpartparenthesizednotecanalternatelybeusedratherthanforceddouble-stop. Grade1earlyintermediate fitsABRSM3–4equivalent; tone/blend/counting withinthisband, noautomaticensembleuplift."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Andantino_(Kárpáti,_Sándor)",
+      "finding": "Fourviolins,1926,average4minutes;complete4onepageparts."
+     },
+     {
+      "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/845496",
+      "finding": "Actualfirstviolinpart confirmsSopron23April1926 andfour-violintitle, editorUweScheer."
+     },
+     {
+      "url": "https://classical.music.apple.com/in/album/1644103648",
+      "finding": "Primaryrelease Old&new exactAndantino(Negyhegedure) KarpatiSandor with4namedartists;3:53 notpreceding3:08track."
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Kárpáti,_Sándor",
+      "finding": "1872–1939,Hungarianmale,Romanticcategory."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Andantino_(Kárpáti,_Sándor)",
+     "finding": "4separateviolinpartsI–IV, nootherinstrument."
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Andantino_(Kárpáti,_Sándor)",
+     "finding": "All4completeparts verifiedPDF845496–845499, readable1pageeach; nofullscore required.",
+     "localPaths": [
+      "data/cache/same-instrument-imslp/scores/karpati-andantino-violin1.pdf",
+      "data/cache/same-instrument-imslp/scores/karpati-andantino-violin2.pdf",
+      "data/cache/same-instrument-imslp/scores/karpati-andantino-violin3.pdf",
+      "data/cache/same-instrument-imslp/scores/karpati-andantino-violin4.pdf"
+     ]
+    },
+    "floor": {
+     "url": "https://classical.music.apple.com/in/album/1644103648",
+     "finding": "Exact4-violin recording by Árvayné Nezvald Anett,Scheer Uwe,Dankó Balázs,Scheer Bernadett."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work"
+    },
+    "fieldSources": {
+     "details.kind": "https://imslp.org/wiki/Andantino_(Kárpáti,_Sándor)",
+     "details.composed": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/845496"
+    },
+    "unknowns": {
+     "YouTube": "No verifiedcompletevideo locatedyet."
+    }
+   }
+  }
+ ]
+}

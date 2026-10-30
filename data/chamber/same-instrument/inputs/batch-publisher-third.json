@@ -1,0 +1,551 @@
+{
+ "batch": "batch-publisher-third",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "sidney-king-five-miniatures-for-double-bass-quartet",
+   "work": {
+    "composer": "King, Sidney",
+    "title": "Five Miniatures for Double Bass Quartet",
+    "instruments": {
+     "doubleBass": 4
+    },
+    "players": 4,
+    "formation": "same-instrument-ensemble",
+    "form": "work",
+    "year": "2025",
+    "minutes": null,
+    "set": null,
+    "notes": "Five short contrasting movements; mixed meters and quartet textures."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://shop.doublebasshq.com/products/sidney-king-five-miniatures-for-double-bass-quartet",
+      "checkedOn": "2026-10-28",
+      "locator": "About the Composition / performance history",
+      "finding": "The publisher identifies a five-piece original quartet, composed in 2025 and premiered in November 2025 at University of Louisville; it names collaborators who brought it to life. Cached publisher preview includes an image explicitly titled SCORE-and-PARTS."
+     },
+     {
+      "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/Sid-King-Five-Miniatures-for-Double-Bass-Quartet-SCORE-and-PARTS-37.png?v=1790275377",
+      "checkedOn": "2026-10-28",
+      "locator": "Score and parts preview page",
+      "finding": "Publisher product catalogue includes this observed score/part sample image; image inspection confirms notation for the named four-bass version."
+     }
+    ],
+    "scoring": {
+     "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/Sid-King-Five-Miniatures-for-Double-Bass-Quartet-SCORE-and-PARTS-37.png?v=1790275377",
+     "locator": "Score and parts preview page",
+     "finding": "Visible publisher preview is score-format notation for four double basses; the cataloged purchasable edition offers the work. Full supplied materials should be checked in fact review."
+    },
+    "floor": {
+     "url": "https://shop.doublebasshq.com/products/sidney-king-five-miniatures-for-double-bass-quartet",
+     "finding": "The publisher identifies a five-piece original quartet, composed in 2025 and premiered in November 2025 at University of Louisville; it names collaborators who brought it to life. Cached publisher preview includes an image explicitly titled SCORE-and-PARTS."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://shop.doublebasshq.com/products/sidney-king-five-miniatures-for-double-bass-quartet",
+     "finding": "Original work for four double basses; publisher edition preview confirms the work/version."
+    },
+    "fieldSources": {
+     "work.composer": "https://shop.doublebasshq.com/products/sidney-king-five-miniatures-for-double-bass-quartet",
+     "work.title": "https://shop.doublebasshq.com/products/sidney-king-five-miniatures-for-double-bass-quartet",
+     "work.instruments": "https://shop.doublebasshq.com/products/sidney-king-five-miniatures-for-double-bass-quartet",
+     "work.players": "https://shop.doublebasshq.com/products/sidney-king-five-miniatures-for-double-bass-quartet",
+     "work.year": "https://shop.doublebasshq.com/products/sidney-king-five-miniatures-for-double-bass-quartet",
+     "work.notes": "https://shop.doublebasshq.com/products/sidney-king-five-miniatures-for-double-bass-quartet",
+     "details.kind": "https://shop.doublebasshq.com/products/sidney-king-five-miniatures-for-double-bass-quartet"
+    },
+    "unknowns": [
+     "Full extent of supplied score/parts and any part-specific difficulty not verified from preview.",
+     "No precise duration or performer grade assigned."
+    ],
+    "researcherGrade": "low"
+   },
+   "samplePaths": []
+  },
+  {
+   "key": "two-american-bass-quartets-excursions",
+   "work": {
+    "composer": "Russell, Armand",
+    "title": "Excursions for Four Double Basses",
+    "instruments": {
+     "doubleBass": 4
+    },
+    "players": 4,
+    "formation": "same-instrument-ensemble",
+    "form": "work",
+    "year": "2012",
+    "minutes": null,
+    "set": null,
+    "notes": "Intermediate quartet work with four graded roles; rhythmic and lyrical sections."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+      "checkedOn": "2026-10-28",
+      "locator": "About the Composition / performance history",
+      "finding": "The publisher gives an exact premiere: 9 November 2012, Wells Cathedral School, performed by David Heyes, Joe Prindl, Nic Lum and Josie Jobbins. Cached score preview shows the title, four independent bass staves and complete score-format page."
+     },
+     {
+      "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/AmericanBassQuartets001.jpg?v=1785267199",
+      "checkedOn": "2026-10-28",
+      "locator": "Score preview p. 1",
+      "finding": "Publisher product catalogue includes this observed score/part sample image; image inspection confirms notation for the named four-bass version."
+     }
+    ],
+    "scoring": {
+     "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/AmericanBassQuartets001.jpg?v=1785267199",
+     "locator": "Score preview p. 1",
+     "finding": "Visible publisher preview is score-format notation for four double basses; the cataloged purchasable edition offers the work. Full supplied materials should be checked in fact review."
+    },
+    "floor": {
+     "url": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "finding": "The publisher gives an exact premiere: 9 November 2012, Wells Cathedral School, performed by David Heyes, Joe Prindl, Nic Lum and Josie Jobbins. Cached score preview shows the title, four independent bass staves and complete score-format page."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "finding": "Original work for four double basses; publisher edition preview confirms the work/version."
+    },
+    "fieldSources": {
+     "work.composer": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "work.title": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "work.instruments": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "work.players": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "work.year": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "work.notes": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "details.kind": "https://shop.doublebasshq.com/products/two-american-bass-quartets"
+    },
+    "unknowns": [
+     "Full extent of supplied score/parts and any part-specific difficulty not verified from preview.",
+     "No precise duration or performer grade assigned."
+    ],
+    "researcherGrade": "low"
+   },
+   "samplePaths": []
+  },
+  {
+   "key": "two-american-bass-quartets-the-bass-affair",
+   "work": {
+    "composer": "Russell, Armand",
+    "title": "The Bass Affair for Four Double Basses",
+    "instruments": {
+     "doubleBass": 4
+    },
+    "players": 4,
+    "formation": "same-instrument-ensemble",
+    "form": "work",
+    "year": "2013",
+    "minutes": null,
+    "set": null,
+    "notes": "Intermediate quartet work with four graded roles; restless major/minor tension."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+      "checkedOn": "2026-10-28",
+      "locator": "About the Composition / performance history",
+      "finding": "The publisher states it was performed on 29 September 2013 at Ritchie Hall, Wells Cathedral School, by workshop participants under David Heyes. The same cached edition preview identifies a score for four double basses."
+     },
+     {
+      "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/AmericanBassQuartets001.jpg?v=1785267199",
+      "checkedOn": "2026-10-28",
+      "locator": "Score preview p. 1",
+      "finding": "Publisher product catalogue includes this observed score/part sample image; image inspection confirms notation for the named four-bass version."
+     }
+    ],
+    "scoring": {
+     "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/AmericanBassQuartets001.jpg?v=1785267199",
+     "locator": "Score preview p. 1",
+     "finding": "Visible publisher preview is score-format notation for four double basses; the cataloged purchasable edition offers the work. Full supplied materials should be checked in fact review."
+    },
+    "floor": {
+     "url": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "finding": "The publisher states it was performed on 29 September 2013 at Ritchie Hall, Wells Cathedral School, by workshop participants under David Heyes. The same cached edition preview identifies a score for four double basses."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "finding": "Original work for four double basses; publisher edition preview confirms the work/version."
+    },
+    "fieldSources": {
+     "work.composer": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "work.title": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "work.instruments": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "work.players": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "work.year": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "work.notes": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+     "details.kind": "https://shop.doublebasshq.com/products/two-american-bass-quartets"
+    },
+    "unknowns": [
+     "Full extent of supplied score/parts and any part-specific difficulty not verified from preview.",
+     "No precise duration or performer grade assigned."
+    ],
+    "researcherGrade": "low"
+   },
+   "samplePaths": []
+  },
+  {
+   "key": "claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+   "work": {
+    "composer": "Freudenstein, Claus Alexander",
+    "title": "Bass-Hymn for Double Bass Quartet or Ensemble",
+    "instruments": {
+     "doubleBass": 4
+    },
+    "players": 4,
+    "formation": "same-instrument-ensemble",
+    "form": "work",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Accessible ensemble work for quartet, quintet or massed basses; optional beginner fifth part."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://shop.doublebasshq.com/products/claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+      "checkedOn": "2026-10-28",
+      "locator": "About the Composition / performance history",
+      "finding": "Composer-publisher narrative states Bass-Hymn premiered at Bavarian Bassdays and has since been performed in many countries, naming national premieres in eight countries and a later Bavarian Bassdays performance. Preview image set includes notation pages for the bass ensemble."
+     },
+     {
+      "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_9b3aa112-dc5c-499d-aed1-71a184329423.png?v=1770326417",
+      "checkedOn": "2026-10-28",
+      "locator": "Publisher score/part preview",
+      "finding": "Publisher product catalogue includes this observed score/part sample image; image inspection confirms notation for the named four-bass version."
+     }
+    ],
+    "scoring": {
+     "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_9b3aa112-dc5c-499d-aed1-71a184329423.png?v=1770326417",
+     "locator": "Publisher score/part preview",
+     "finding": "Visible publisher preview is score-format notation for four double basses; the cataloged purchasable edition offers the work. Full supplied materials should be checked in fact review."
+    },
+    "floor": {
+     "url": "https://shop.doublebasshq.com/products/claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+     "finding": "Composer-publisher narrative states Bass-Hymn premiered at Bavarian Bassdays and has since been performed in many countries, naming national premieres in eight countries and a later Bavarian Bassdays performance. Preview image set includes notation pages for the bass ensemble."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://shop.doublebasshq.com/products/claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+     "finding": "Original work for four double basses; publisher edition preview confirms the work/version."
+    },
+    "fieldSources": {
+     "work.composer": "https://shop.doublebasshq.com/products/claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+     "work.title": "https://shop.doublebasshq.com/products/claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+     "work.instruments": "https://shop.doublebasshq.com/products/claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+     "work.players": "https://shop.doublebasshq.com/products/claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+     "work.year": null,
+     "work.notes": "https://shop.doublebasshq.com/products/claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+     "details.kind": "https://shop.doublebasshq.com/products/claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet"
+    },
+    "unknowns": [
+     "Full extent of supplied score/parts and any part-specific difficulty not verified from preview.",
+     "No precise duration or performer grade assigned."
+    ],
+    "researcherGrade": "low"
+   },
+   "samplePaths": []
+  },
+  {
+   "key": "tony-osborne-true-grit-for-double-bass-quartet",
+   "work": {
+    "composer": "Osborne, Tony",
+    "title": "True Grit for Double Bass Quartet",
+    "instruments": {
+     "doubleBass": 4
+    },
+    "players": 4,
+    "formation": "same-instrument-ensemble",
+    "form": "work",
+    "year": "2007",
+    "minutes": null,
+    "set": null,
+    "notes": "Intermediate quartet; rhythmic, dramatic writing with galloping Western character."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://shop.doublebasshq.com/products/tony-osborne-true-grit-for-double-bass-quartet",
+      "checkedOn": "2026-10-28",
+      "locator": "About the Composition / performance history",
+      "finding": "Publisher describes this original 2007 quartet and its composition context, but the cached excerpt truncates before the premiere sentence; cached preview confirms four-bass notation. This performance floor needs fact review before approval."
+     },
+     {
+      "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_f7defdb1-3acc-4619-afd0-cee3c23be9c4.png?v=1762882558",
+      "checkedOn": "2026-10-28",
+      "locator": "Publisher score preview",
+      "finding": "Publisher product catalogue includes this observed score/part sample image; image inspection confirms notation for the named four-bass version."
+     }
+    ],
+    "scoring": {
+     "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_f7defdb1-3acc-4619-afd0-cee3c23be9c4.png?v=1762882558",
+     "locator": "Publisher score preview",
+     "finding": "Visible publisher preview is score-format notation for four double basses; the cataloged purchasable edition offers the work. Full supplied materials should be checked in fact review."
+    },
+    "floor": {
+     "url": "https://shop.doublebasshq.com/products/tony-osborne-true-grit-for-double-bass-quartet",
+     "finding": "Publisher describes this original 2007 quartet and its composition context, but the cached excerpt truncates before the premiere sentence; cached preview confirms four-bass notation. This performance floor needs fact review before approval."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://shop.doublebasshq.com/products/tony-osborne-true-grit-for-double-bass-quartet",
+     "finding": "Original work for four double basses; publisher edition preview confirms the work/version."
+    },
+    "fieldSources": {
+     "work.composer": "https://shop.doublebasshq.com/products/tony-osborne-true-grit-for-double-bass-quartet",
+     "work.title": "https://shop.doublebasshq.com/products/tony-osborne-true-grit-for-double-bass-quartet",
+     "work.instruments": "https://shop.doublebasshq.com/products/tony-osborne-true-grit-for-double-bass-quartet",
+     "work.players": "https://shop.doublebasshq.com/products/tony-osborne-true-grit-for-double-bass-quartet",
+     "work.year": "https://shop.doublebasshq.com/products/tony-osborne-true-grit-for-double-bass-quartet",
+     "work.notes": "https://shop.doublebasshq.com/products/tony-osborne-true-grit-for-double-bass-quartet",
+     "details.kind": "https://shop.doublebasshq.com/products/tony-osborne-true-grit-for-double-bass-quartet"
+    },
+    "unknowns": [
+     "Full extent of supplied score/parts and any part-specific difficulty not verified from preview.",
+     "No precise duration or performer grade assigned."
+    ],
+    "researcherGrade": "low"
+   },
+   "samplePaths": []
+  },
+  {
+   "key": "tony-osborne-dreamtime-for-double-bass-quartet",
+   "work": {
+    "composer": "Osborne, Tony",
+    "title": "Dreamtime for Double Bass Quartet",
+    "instruments": {
+     "doubleBass": 4
+    },
+    "players": 4,
+    "formation": "same-instrument-ensemble",
+    "form": "work",
+    "year": "2001",
+    "minutes": null,
+    "set": null,
+    "notes": "Intermediate quartet with rhythmic drive, slap pizzicato and jazzy style."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://shop.doublebasshq.com/products/tony-osborne-dreamtime-for-double-bass-quartet",
+      "checkedOn": "2026-10-28",
+      "locator": "About the Composition / performance history",
+      "finding": "Publisher states it was commissioned by David Heyes and the Royal Academy of Music Junior Department and premiered by Heyes and his students at RAM, London, 27 April 2002. Cached preview shows four-bass score notation."
+     },
+     {
+      "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_cf706f6d-4fb7-4bf6-a1e5-060677efc6bb.png?v=1747168891",
+      "checkedOn": "2026-10-28",
+      "locator": "Publisher score preview",
+      "finding": "Publisher product catalogue includes this observed score/part sample image; image inspection confirms notation for the named four-bass version."
+     }
+    ],
+    "scoring": {
+     "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_cf706f6d-4fb7-4bf6-a1e5-060677efc6bb.png?v=1747168891",
+     "locator": "Publisher score preview",
+     "finding": "Visible publisher preview is score-format notation for four double basses; the cataloged purchasable edition offers the work. Full supplied materials should be checked in fact review."
+    },
+    "floor": {
+     "url": "https://shop.doublebasshq.com/products/tony-osborne-dreamtime-for-double-bass-quartet",
+     "finding": "Publisher states it was commissioned by David Heyes and the Royal Academy of Music Junior Department and premiered by Heyes and his students at RAM, London, 27 April 2002. Cached preview shows four-bass score notation."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://shop.doublebasshq.com/products/tony-osborne-dreamtime-for-double-bass-quartet",
+     "finding": "Original work for four double basses; publisher edition preview confirms the work/version."
+    },
+    "fieldSources": {
+     "work.composer": "https://shop.doublebasshq.com/products/tony-osborne-dreamtime-for-double-bass-quartet",
+     "work.title": "https://shop.doublebasshq.com/products/tony-osborne-dreamtime-for-double-bass-quartet",
+     "work.instruments": "https://shop.doublebasshq.com/products/tony-osborne-dreamtime-for-double-bass-quartet",
+     "work.players": "https://shop.doublebasshq.com/products/tony-osborne-dreamtime-for-double-bass-quartet",
+     "work.year": "https://shop.doublebasshq.com/products/tony-osborne-dreamtime-for-double-bass-quartet",
+     "work.notes": "https://shop.doublebasshq.com/products/tony-osborne-dreamtime-for-double-bass-quartet",
+     "details.kind": "https://shop.doublebasshq.com/products/tony-osborne-dreamtime-for-double-bass-quartet"
+    },
+    "unknowns": [
+     "Full extent of supplied score/parts and any part-specific difficulty not verified from preview.",
+     "No precise duration or performer grade assigned."
+    ],
+    "researcherGrade": "low"
+   },
+   "samplePaths": []
+  },
+  {
+   "key": "tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+   "work": {
+    "composer": "Osborne, Tony",
+    "title": "Bassos Paraguayos for Double Bass Quartet",
+    "instruments": {
+     "doubleBass": 4
+    },
+    "players": 4,
+    "formation": "same-instrument-ensemble",
+    "form": "work",
+    "year": "2005",
+    "minutes": null,
+    "set": null,
+    "notes": "Intermediate quartet with Paraguayan-inspired rhythms and lively character."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+      "checkedOn": "2026-10-28",
+      "locator": "About the Composition / performance history",
+      "finding": "Publisher states it premiered 27 August 2005 at Saint Claud Music Festival, France, performed by David Heyes, Pauline Vos, Ben Groenevelt and James Adolpho; it also reports later performances in Poland, America and the UK. Cached preview shows score notation."
+     },
+     {
+      "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_3fa0452f-89f1-4d5a-b55a-5594e5769c59.png?v=1743910016",
+      "checkedOn": "2026-10-28",
+      "locator": "Publisher score preview",
+      "finding": "Publisher product catalogue includes this observed score/part sample image; image inspection confirms notation for the named four-bass version."
+     }
+    ],
+    "scoring": {
+     "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_3fa0452f-89f1-4d5a-b55a-5594e5769c59.png?v=1743910016",
+     "locator": "Publisher score preview",
+     "finding": "Visible publisher preview is score-format notation for four double basses; the cataloged purchasable edition offers the work. Full supplied materials should be checked in fact review."
+    },
+    "floor": {
+     "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "finding": "Publisher states it premiered 27 August 2005 at Saint Claud Music Festival, France, performed by David Heyes, Pauline Vos, Ben Groenevelt and James Adolpho; it also reports later performances in Poland, America and the UK. Cached preview shows score notation."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "finding": "Original work for four double basses; publisher edition preview confirms the work/version."
+    },
+    "fieldSources": {
+     "work.composer": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.title": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.instruments": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.players": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.year": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.notes": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "details.kind": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet"
+    },
+    "unknowns": [
+     "Full extent of supplied score/parts and any part-specific difficulty not verified from preview.",
+     "No precise duration or performer grade assigned."
+    ],
+    "researcherGrade": "low"
+   },
+   "samplePaths": []
+  }
+ ]
+}

@@ -1,0 +1,306 @@
+{
+ "batch": "review-pilot-01",
+ "entries": [
+  {
+   "key": "telemann-twv40-201-original-4violins",
+   "work": {
+    "composer": "Telemann, Georg Philipp",
+    "title": "Concerto for 4 Violins in G major, TWV 40:201 (unaccompanied)",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "",
+    "minutes": 7,
+    "set": null,
+    "notes": "Studio ensemble; no accompaniment needed",
+    "imslpPage": "Concerto for 4 Violins, TWV 40:201 (Telemann, Georg Philipp)",
+    "violinId": 568
+   },
+   "details": {
+    "movements": [
+     "Largo e staccato",
+     "Allegro",
+     "Adagio",
+     "Vivace"
+    ],
+    "kind": "movements"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+      "locator": "Scores and Parts; General Information",
+      "finding": "Four concertos, originals for four violins; separate parts I–IV.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf",
+      "locator": "Printed pp.1–8; PDF pp.3–10",
+      "finding": "Complete G-major concerto, four staves and four movements.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://static.qobuz.com/goodies/64/000155246.pdf",
+      "locator": "PDF pp.2–3, tracks 1–4",
+      "finding": "Released human recording by Imaginarium Ensemble; four credited violinists.",
+      "checkedOn": "2026-10-27"
+     }
+    ],
+    "scoring": {
+     "url": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf",
+     "locator": "Printed p.1, repeated four-staff systems through p.8",
+     "finding": "Violini 1, 2, 3, 4; independent lines; no continuo or other instrument.",
+     "checkedOn": "2026-10-27"
+    },
+    "floor": {
+     "url": "https://static.qobuz.com/goodies/64/000155246.pdf",
+     "locator": "PDF pp.2–3, tracks 1–4",
+     "finding": "Imaginarium Ensemble: Enrico Onofri, Alessandro Tampieri, Boris Begelman, Maria Cristina Vasi; complete four-movement recording.",
+     "checkedOn": "2026-10-27"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+     "locator": "Scores and Parts: #17772; #17773–17776",
+     "finding": "Complete score and separate Violin 1–4 parts; this work occupies printed pp.1–8 in the collection.",
+     "checkedOn": "2026-10-27"
+    }
+   },
+   "recordingResearch": {
+    "status": "unverified",
+    "queries": [
+     "Existing public id 568 recording inspected with yt-dlp; search Telemann TWV 40:201 four violins"
+    ],
+    "candidates": [
+     {
+      "id": "gbeqGTKduGE",
+      "title": "Telemann Concerto for 4 violins in G major",
+      "channel": "Jaewoo Kim",
+      "seconds": 380,
+      "url": "https://www.youtube.com/watch?v=gbeqGTKduGE",
+      "description": "Hickman High School Chamber Orchestra (Mar. 15, 2016)\nPerformed by\nJoseph Kim, Mary Park, Solveig Geenen, and Katie Langen",
+      "performerCredits": "Joseph Kim, Mary Park, Solveig Geenen, Katie Langen; Hickman High School Chamber Orchestra, 15 March 2016",
+      "exactVersionEvidence": "Description names four violinists; composition and key match the original four-violin work.",
+      "completenessEvidence": "380 seconds; title identifies complete concerto, but playback and four-movement coverage still need independent judgement.",
+      "exclusionCheck": "No banned performer appears in inspected title/channel/description; performer roster must be checked separately.",
+      "embedCheck": {
+       "playableInEmbed": true,
+       "availability": "public",
+       "method": "yt-dlp metadata",
+       "checkedOn": "2026-10-27"
+      },
+      "judgement": "pending"
+     }
+    ]
+   }
+  },
+  {
+   "key": "telemann-twv40-202-original-4violins",
+   "work": {
+    "composer": "Telemann, Georg Philipp",
+    "title": "Concerto for 4 Violins in D major, TWV 40:202",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "",
+    "minutes": 6,
+    "set": null,
+    "notes": "Four independent violins without continuo",
+    "imslpPage": "4 Concerti for 4 Violins, TWV 40:201-204 (Telemann, Georg Philipp)"
+   },
+   "details": {
+    "movements": [
+     "Adagio",
+     "Allegro",
+     "Grave",
+     "Allegro"
+    ],
+    "kind": "movements"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+      "locator": "Scores and Parts; General Information",
+      "finding": "Original four-violin version, not adjacent Kompy four-viola arrangement.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf",
+      "locator": "printed pp.9–14; PDF pp.11–16",
+      "finding": "Complete concerto with Violin 1–4 independent staves.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://static.qobuz.com/goodies/64/000155246.pdf",
+      "locator": "PDF pp.2–3, tracks 9–12",
+      "finding": "Complete recorded work by named Imaginarium Ensemble violinists.",
+      "checkedOn": "2026-10-27"
+     }
+    ],
+    "scoring": {
+     "url": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf",
+     "locator": "printed pp.9–14; PDF pp.11–16",
+     "finding": "Four staves labelled Violino 1–4; no required accompaniment.",
+     "checkedOn": "2026-10-27"
+    },
+    "floor": {
+     "url": "https://static.qobuz.com/goodies/64/000155246.pdf",
+     "locator": "PDF pp.2–3, tracks 9–12",
+     "finding": "Enrico Onofri, Alessandro Tampieri, Boris Begelman, Maria Cristina Vasi; all movements present.",
+     "checkedOn": "2026-10-27"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+     "locator": "Scores and Parts #17772; separate parts #17773–17776",
+     "finding": "Kompy edition of all four concertos; this concerto is printed pp.9–14; PDF pp.11–16.",
+     "checkedOn": "2026-10-27"
+    }
+   },
+   "recordingResearch": {
+    "status": "unverified",
+    "queries": [
+     "site.youtube.com/watch Telemann TWV 40 202 four violins"
+    ],
+    "candidates": [
+     {
+      "id": "aUfIC3s_xNc",
+      "title": "TELEMANN: Concerto for 4 Violins in D major TWV 40:202a",
+      "channel": "Orchestra of the Age of Enlightenment",
+      "seconds": 358,
+      "url": "https://www.youtube.com/watch?v=aUfIC3s_xNc",
+      "description": "Did you know? You can support the orchestra and our players by making a donation to the OAE\nhttps://tickets.oae.co.uk/donate/contribute1\n\nGEORG PHILIPP TELEMANN \rConcerto for 4 Violins in D major TWV 40:202a\r\n\n0:00 Adagio\n0:36 Allegro\n2:22 Grave\n4:17 Allegro\n\nViolins: \rKati Debretzeni, Debbie Diamond, Rebecca Livermore Daniel Edgar\n\n___\nSubscribe: https://www.youtube.com/channel/UCrHICovzXa3ePnfRqUV5wkQ\n\nWebsite: http://oae.co.uk\nFacebook: https://www.facebook.com/orchestraoftheageofenlightenment\nTwitter: https://twitter.com/theoae\nInstagram: https://www.instagram.com/oae_photos/",
+      "performerCredits": "Kati Debretzeni, Debbie Diamond, Rebecca Livermore, Daniel Edgar",
+      "exactVersionEvidence": "Official OAE channel credits four violinists. Uses catalogue label TWV 40:202a; inspect suffix/version equivalence before selection.",
+      "completenessEvidence": "Description timestamps all four sections: 0:00 Adagio, 0:36 Allegro, 2:22 Grave, 4:17 final Allegro; duration 358 s.",
+      "exclusionCheck": "All four credited violinists inspected; none is on excluded performer list.",
+      "embedCheck": {
+       "playableInEmbed": true,
+       "availability": "public",
+       "method": "yt-dlp metadata",
+       "checkedOn": "2026-10-27"
+      },
+      "judgement": "pending"
+     }
+    ]
+   }
+  },
+  {
+   "key": "telemann-twv40-203-original-4violins",
+   "work": {
+    "composer": "Telemann, Georg Philipp",
+    "title": "Concerto for 4 Violins in C major, TWV 40:203",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "",
+    "minutes": 9,
+    "set": null,
+    "notes": "Four independent violins without continuo",
+    "imslpPage": "4 Concerti for 4 Violins, TWV 40:201-204 (Telemann, Georg Philipp)"
+   },
+   "details": {
+    "movements": [
+     "Grave",
+     "Allegro",
+     "Largo e staccato",
+     "Allegro"
+    ],
+    "kind": "movements"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+      "locator": "Scores and Parts; General Information",
+      "finding": "Original four-violin version, not adjacent Kompy four-viola arrangement.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf",
+      "locator": "printed pp.15–22; PDF pp.17–24",
+      "finding": "Complete concerto with Violin 1–4 independent staves.",
+      "checkedOn": "2026-10-27"
+     },
+     {
+      "url": "https://static.qobuz.com/goodies/64/000155246.pdf",
+      "locator": "PDF pp.2–3, tracks 19–22",
+      "finding": "Complete recorded work by named Imaginarium Ensemble violinists.",
+      "checkedOn": "2026-10-27"
+     }
+    ],
+    "scoring": {
+     "url": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf",
+     "locator": "printed pp.15–22; PDF pp.17–24",
+     "finding": "Four staves labelled Violino 1–4; no required accompaniment.",
+     "checkedOn": "2026-10-27"
+    },
+    "floor": {
+     "url": "https://static.qobuz.com/goodies/64/000155246.pdf",
+     "locator": "PDF pp.2–3, tracks 19–22",
+     "finding": "Enrico Onofri, Alessandro Tampieri, Boris Begelman, Maria Cristina Vasi; all movements present.",
+     "checkedOn": "2026-10-27"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+     "locator": "Scores and Parts #17772; separate parts #17773–17776",
+     "finding": "Kompy edition of all four concertos; this concerto is printed pp.15–22; PDF pp.17–24.",
+     "checkedOn": "2026-10-27"
+    }
+   },
+   "recordingResearch": {
+    "status": "not-found",
+    "queries": [
+     "site.youtube.com/watch Telemann TWV 40 203 four violins"
+    ],
+    "candidates": [
+     {
+      "id": "eslA5NSaons",
+      "title": "Telemann Concerto for 4 Violins No. 3 in C major TWV 40:203",
+      "channel": "Hidemi Gojo",
+      "seconds": 179,
+      "url": "https://www.youtube.com/watch?v=eslA5NSaons",
+      "description": "Telemann Concerto for 4 Violins in C major TWV 40:203\nGrave & Allegro\nViolins: Vivian Kao, Erin Koo, Calvin Leung & Michael Chung\nRecorded on January 21, 2017\nMs Gojo's Class Solo & Ensemble Day\nHong Kong",
+      "performerCredits": "Vivian Kao, Erin Koo, Calvin Leung, Michael Chung; 21 January 2017, Ms Gojo’s Class Solo & Ensemble Day, Hong Kong",
+      "exactVersionEvidence": "Description identifies TWV 40:203 and four named violinists.",
+      "completenessEvidence": "Only Grave & Allegro, 179 s. Explicitly incomplete for whole-work entry.",
+      "exclusionCheck": "All four named players checked against excluded performer names; no match.",
+      "embedCheck": {
+       "playableInEmbed": true,
+       "availability": "public",
+       "method": "yt-dlp metadata",
+       "checkedOn": "2026-10-27"
+      },
+      "judgement": "reject-as-primary-incomplete"
+     }
+    ]
+   }
+  }
+ ]
+}

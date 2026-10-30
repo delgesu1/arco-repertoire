@@ -1,0 +1,899 @@
+{
+  "batch": "closure-original-02",
+  "status": "complete",
+  "entries": [
+    {
+      "contextKey": "57445-original",
+      "pageId": 57445,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "The listed four-cello score is explicitly extracted from Schmitt’s Trombone Quartet Op.109; this is an arrangement of a work for other instruments.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/57445.json",
+          "finding": "Cached full IMSLP revision 4323981: 4 cellos (or 2 violins, viola, cello)"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Andante_religioso_(Schmitt,_Florent)",
+          "finding": "IMSLP explicitly says the cello-quartet and string-quartet/string-orchestra versions are extracted from the Trombone Quartet, Op.109."
+        },
+        {
+          "urlOrPath": "https://florentschmitt.com/2019/10/05/florent-schmitts-strikingly-inventive-quartet-for-trombones-and-tuba-1946-leaving-the-oompah-behind/",
+          "finding": "Palazzetto Bru Zane concerts by four cellists were reported for the cello arrangement; that does not change the original work’s instrumentation."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-004.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Andante_religioso_(Schmitt,_Florent)",
+          "finding": "The listed four-cello score is explicitly extracted from Schmitt’s Trombone Quartet Op.109; this is an arrangement of a work for other instruments."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1330121-original",
+      "pageId": 1330121,
+      "kind": "original",
+      "decision": "lead",
+      "reason": "Andantino, Kárpáti Sándor: Apple Music Classical album “Old & new” lists the movement “Andantino (Négy hegedűre)” (3:08) with four named artists: Árvayné Nezvald Anett, Scheer Uwe, Dankó Balázs, Scheer Bernadett. This is an exact four-violin human release.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1330121.json",
+          "finding": "Cached full IMSLP revision 3940995: 4 violins"
+        },
+        {
+          "urlOrPath": "https://classical.music.apple.com/in/album/1644103648",
+          "finding": "Andantino, Kárpáti Sándor: Apple Music Classical album “Old & new” lists the movement “Andantino (Négy hegedűre)” (3:08) with four named artists: Árvayné Nezvald Anett, Scheer Uwe, Dankó Balázs, Scheer Bernadett. This is an exact four-violin human release."
+        }
+      ],
+      "versions": [
+        {
+          "composer": "Kárpáti, Sándor",
+          "title": "Andantino",
+          "instrument": "4 violins",
+          "independentPartCount": 4,
+          "kind": "work",
+          "extent": null,
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/Andantino_(Kárpáti,_Sándor)",
+            "finding": "Cached IMSLP revision lists exact-score/parts evidence for the stated four-part scoring."
+          },
+          "performanceEvidence": [
+            {
+              "url": "https://classical.music.apple.com/in/album/1644103648",
+              "finding": "Andantino, Kárpáti Sándor: Apple Music Classical album “Old & new” lists the movement “Andantino (Négy hegedűre)” (3:08) with four named artists: Árvayné Nezvald Anett, Scheer Uwe, Dankó Balázs, Scheer Bernadett. This is an exact four-violin human release."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contextKey": "8650-original",
+      "pageId": 8650,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "Original is for solo viola; the three-violin file is an arrangement and not the original. Do not convert it into an original three-violin work.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/8650.json",
+          "finding": "Cached full IMSLP revision 2928043: viola"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-002.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Arch_(Davidson,_Robert)",
+          "finding": "Original is for solo viola; the three-violin file is an arrangement and not the original. Do not convert it into an original three-violin work."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1538011-original",
+      "pageId": 1538011,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted title/composer search did not surface a human performance/release. Cached source supports 4 violins; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1538011.json",
+          "finding": "Cached full IMSLP revision 4511678: 4 violins"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Au_Bal_des_Sciapodes_%28Wick%2C_Marcellus%29",
+          "finding": "Targeted title/composer search did not surface a human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1093258-original",
+      "pageId": 1093258,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted search surfaced publisher/score material, not a performance of the three-cello work. Cached source supports 3 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1093258.json",
+          "finding": "Cached full IMSLP revision 3345766: 3 cellos"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-005.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://www.sheetmusicplus.com/en/product/ba-humbug-22755193.html",
+          "finding": "Targeted search surfaced publisher/score material, not a performance of the three-cello work."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1569961-original",
+      "pageId": 1569961,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted title/composer search did not surface a human performance/release. Cached source supports 4 violins; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1569961.json",
+          "finding": "Cached full IMSLP revision 4642306: 4 violins"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Billet_doux,_renvoy%C3%A9_%28Wick,_Marcellus%29",
+          "finding": "Targeted title/composer search did not surface a human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1180598-original",
+      "pageId": 1180598,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved triage reports no exact-scope human performance/release; the remaining gap is a qualifying human performance or commercial/released recording of this exact work/version. Cached source supports 3 violins; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1180598.json",
+          "finding": "Cached full IMSLP revision 3549180: 3 violins"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-002.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1180593-original",
+      "pageId": 1180593,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted title/composer search surfaced the cached IMSLP entry with zero recordings; no independent human release found. Cached source supports 8 violins; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1180593.json",
+          "finding": "Cached full IMSLP revision 3549167: 8 violins"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Canon_for_8_Violins_%28Hauptmann%2C_Moritz%29",
+          "finding": "Targeted title/composer search surfaced the cached IMSLP entry with zero recordings; no independent human release found."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704370-original",
+      "pageId": 704370,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved triage reports no exact-scope human performance/release; the remaining gap is a qualifying human performance or commercial/released recording of this exact work/version. Cached source supports 4 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704370.json",
+          "finding": "Cached full IMSLP revision 2688746: 4 cellos"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-001.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704377-original",
+      "pageId": 704377,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved triage reports no exact-scope human performance/release; the remaining gap is a qualifying human performance or commercial/released recording of this exact work/version. Cached source supports 4 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704377.json",
+          "finding": "Cached full IMSLP revision 2136548: 4 cellos"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-001.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704522-original",
+      "pageId": 704522,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved triage reports no exact-scope human performance/release; the remaining gap is a qualifying human performance or commercial/released recording of this exact work/version. Cached source supports 4 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704522.json",
+          "finding": "Cached full IMSLP revision 2136905: 4 cellos"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-001.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704531-original",
+      "pageId": 704531,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved triage reports no exact-scope human performance/release; the remaining gap is a qualifying human performance or commercial/released recording of this exact work/version. Cached source supports 4 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704531.json",
+          "finding": "Cached full IMSLP revision 2136906: 4 cellos"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-001.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704070-original",
+      "pageId": 704070,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved triage reports no exact-scope human performance/release; the remaining gap is a qualifying human performance or commercial/released recording of this exact work/version. Cached source supports 4 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704070.json",
+          "finding": "Cached full IMSLP revision 2827835: 4 cellos"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-001.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704077-original",
+      "pageId": 704077,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved triage reports no exact-scope human performance/release; the remaining gap is a qualifying human performance or commercial/released recording of this exact work/version. Cached source supports 4 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704077.json",
+          "finding": "Cached full IMSLP revision 2827836: 4 cellos"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-001.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704084-original",
+      "pageId": 704084,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved triage reports no exact-scope human performance/release; the remaining gap is a qualifying human performance or commercial/released recording of this exact work/version. Cached source supports 4 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704084.json",
+          "finding": "Cached full IMSLP revision 2827837: 4 cellos"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-001.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704092-original",
+      "pageId": 704092,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved triage reports no exact-scope human performance/release; the remaining gap is a qualifying human performance or commercial/released recording of this exact work/version. Cached source supports 4 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704092.json",
+          "finding": "Cached full IMSLP revision 2136495: 4 cellos"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-001.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "704361-original",
+      "pageId": 704361,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved triage reports no exact-scope human performance/release; the remaining gap is a qualifying human performance or commercial/released recording of this exact work/version. Cached source supports 4 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/704361.json",
+          "finding": "Cached full IMSLP revision 2136546: 4 cellos"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-001.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "833730-original",
+      "pageId": 833730,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Prior triage/search has no qualifying human recording located; cache page lists no audio. Cached source supports 4 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/833730.json",
+          "finding": "Cached full IMSLP revision 2554021: 4 cellos"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Cello_Quartet,_Op.11_(Limmer,_Franz)",
+          "finding": "IMSLP lists complete parts for four cellos and four movements; its performance section has no recording."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-004.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Cello_Quartet,_Op.11_(Limmer,_Franz)",
+          "finding": "Prior triage/search has no qualifying human recording located; cache page lists no audio."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "24506-original",
+      "pageId": 24506,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted search did not establish a human performance of this exact four-cello work. IMSLP audio is explicitly synthesized/MIDI. Cached source supports 4 cellos (or 3 cellos and viola); remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/24506.json",
+          "finding": "Cached full IMSLP revision 4695194: 4 cellos (or 3 cellos and viola)"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Cello_Quartet,_Op.6_(Werner,_Josef)",
+          "finding": "Targeted search did not establish a human performance of this exact four-cello work. IMSLP audio is explicitly synthesized/MIDI."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1182265-original",
+      "pageId": 1182265,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Prior triage says no qualifying human performance located; page lists score and parts only. Cached source supports 3 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1182265.json",
+          "finding": "Cached full IMSLP revision 3556665: 3 cellos"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Cello_Trio_in_C_major_(Araya,_Samuel)",
+          "finding": "Cached original page lists a three-cello work and score material."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-006.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Cello_Trio_in_C_Major_(Araya,_Samuel)",
+          "finding": "Prior triage says no qualifying human performance located; page lists score and parts only."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "96378-original",
+      "pageId": 96378,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted title/composer search surfaced score/archive materials but no human performance/release. Cached source supports 3 Violoncellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/96378.json",
+          "finding": "Cached full IMSLP revision 726559: 3 Violoncellos"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-005.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://commons.wikimedia.org/wiki/File:Cello_Trio_in_E_minor,_Op.12_(IA_imslp-trio-in-e-minor-op12-limmer-franz).pdf",
+          "finding": "Targeted title/composer search surfaced score/archive materials but no human performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1327075-original",
+      "pageId": 1327075,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted title/composer search did not identify a recording of the cello-octet work. Cached source supports 8 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1327075.json",
+          "finding": "Cached full IMSLP revision 3925055: 8 cellos"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Cello-Oktett_%28Ziervogel,_Benedict%29",
+          "finding": "Targeted title/composer search did not identify a recording of the cello-octet work."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1532325-original",
+      "pageId": 1532325,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted title/composer search did not surface a human quartet performance/release. Cached source supports 4 violins; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1532325.json",
+          "finding": "Cached full IMSLP revision 4495225: 4 violins"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Chanson_M%C3%A9lo_%28Wick,_Marcellus%29",
+          "finding": "Targeted title/composer search did not surface a human quartet performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "576800-original",
+      "pageId": 576800,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved triage reports no exact-scope human performance/release; the remaining gap is a qualifying human performance or commercial/released recording of this exact work/version. Cached source supports Three Violins; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/576800.json",
+          "finding": "Cached full IMSLP revision 4692465: Three Violins"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Christmas_Trio_(Boktor,_Anton)",
+          "finding": "Cached work page identifies a three-violin version."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-006.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1617068-original",
+      "pageId": 1617068,
+      "kind": "original",
+      "decision": "lead",
+      "reason": "Prior official Music@Menlo evidence documents the exact four-violin work performed by four named violinists with paid livestream; complete-score/parts evidence is in cached IMSLP. Resolve conflicting movement-count descriptions before final version import.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1617068.json",
+          "finding": "Cached full IMSLP revision 4729772: 4 violins"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+          "finding": "IMSLP lists a complete manuscript part set for four violins, plus a separate arranger-created edition with a continuo line; original work-info lists three sections."
+        },
+        {
+          "urlOrPath": "https://musicatmenlo.org/event/concert-program-iv-the-unfolding-of-music/",
+          "finding": "Music@Menlo’s July 28, 2026 program lists this exact work and names Arnaud Sussmann, Stella Chen, Aaron Boyd, and Jessica Lee; the official page offered a livestream."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-004.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://musicatmenlo.org/event/concert-program-iv-the-unfolding-of-music/",
+          "finding": "Official program lists exact work with Arnaud Sussmann, Stella Chen, Aaron Boyd, Jessica Lee and livestream."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1617069-original",
+      "pageId": 1617069,
+      "kind": "original",
+      "decision": "lead",
+      "reason": "Cached IMSLP source establishes four-violin scoring and four movements. A MusicBrainz release documents the complete four-movement recording from 1979 with four named violinists, and a separate 2025 release documents movement I by four named violinists. Exact-version human release floor is established.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1617069.json",
+          "finding": "Cached full IMSLP revision 4729784: 4 violins"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40%3A203_%28Telemann,_Georg_Philipp%29",
+          "finding": "Targeted exact-catalogue search surfaced IMSLP with zero recordings; no human exact-version release found."
+        },
+        {
+          "urlOrPath": "https://musicbrainz.org/release/d104a9ca-da3e-4345-8bc4-8b23a2e0f4de/disc/52",
+          "finding": "Complete 1979 release lists the four movements of TWV 40:203; recording credits four named violinists (one artist profile notes viola player)."
+        },
+        {
+          "urlOrPath": "https://music.amazon.com.au/tracks/B0DZVR2MYD",
+          "finding": "2025 release lists movement I performed by Anna Tarnawska, Justyna Zinkiewicz, Monika Grabowska and Ewa Andruszkiewicz."
+        }
+      ],
+      "versions": [
+        {
+          "composer": "Telemann, Georg Philipp",
+          "title": "Concerto for 4 Violins, TWV 40:203",
+          "instrument": "4 violins",
+          "independentPartCount": 4,
+          "kind": "work",
+          "extent": "4 movements (Grave, Allegro, Largo e staccato, Allegro)",
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40%3A203_%28Telemann,_Georg_Philipp%29",
+            "finding": "Cached source and current IMSLP listing show complete parts for four violins."
+          },
+          "performanceEvidence": [
+            {
+              "url": "https://musicbrainz.org/release/d104a9ca-da3e-4345-8bc4-8b23a2e0f4de/disc/52",
+              "finding": "1979 complete four-movement release credited to four named violinists."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contextKey": "975870-original",
+      "pageId": 975870,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted search found composer documentation that the 2013 four-violin version was performed at a report concert, but no accessible recording/release; this is a documented live-performance lead, not yet a recording floor. Cached source supports for 4 same kind of bowed string instruments (4 violins; 4 violas; 4 celli); remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/975870.json",
+          "finding": "Cached full IMSLP revision 3017204: for 4 same kind of bowed string instruments (4 violins; 4 violas; 4 celli)"
+        },
+        {
+          "urlOrPath": "https://real.mtak.hu/25004/1/Kodaly_osztondij_web2.pdf",
+          "finding": "Targeted search found composer documentation that the 2013 four-violin version was performed at a report concert, but no accessible recording/release; this is a documented live-performance lead, not yet a recording floor."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1040503-original",
+      "pageId": 1040503,
+      "kind": "original",
+      "decision": "already-present",
+      "reason": "The exact title and composer already occur in the current canonical work set as ID 109195 (Céu e Nuvens II; Alencar, Gabriel; four cellos). Prior triage establishes the explicit multitrack cello-quartet complete recording; this original is already represented.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1040503.json",
+          "finding": "Cached full IMSLP revision 3201087: 4 cellos"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-001.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/C%C3%A9u_e_Nuvens_II_%28Alencar%2C_Gabriel%29",
+          "finding": "IMSLP lists a complete recording credited to Gabriel Alencar as a multitrack cello quartet; original work and recording identity are explicit."
+        },
+        {
+          "urlOrPath": "data/chamber/works.json",
+          "finding": "Exact normalized title and composer match: canonical ID 109195, scoring cello: 4."
+        }
+      ],
+      "versions": [
+        {
+          "composer": "Alencar, Gabriel",
+          "title": "Céu e Nuvens II",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "kind": "work",
+          "extent": null,
+          "scoreEvidence": {
+            "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+            "finding": "Cached IMSLP revision lists exact-score/parts evidence for the stated four-part scoring."
+          },
+          "performanceEvidence": [
+            {
+              "url": "https://imslp.org/wiki/C%C3%A9u_e_Nuvens_II_%28Alencar%2C_Gabriel%29",
+              "finding": "IMSLP lists a complete recording credited to Gabriel Alencar as a multitrack cello quartet; original work and recording identity are explicit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contextKey": "1373738-original",
+      "pageId": 1373738,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted search surfaced unrelated mixed-instrument work with same generic title, not this four-cello work; floor unresolved. Cached source supports 4 cellos; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1373738.json",
+          "finding": "Cached full IMSLP revision 4061949: 4 cellos"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Da_capo_(T%C4%83utu,_Cornelia)",
+          "finding": "Targeted search surfaced unrelated mixed-instrument work with same generic title, not this four-cello work; floor unresolved."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1594751-original",
+      "pageId": 1594751,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted title/composer search did not surface a human four-violin performance/release. Cached source supports 4 violins; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1594751.json",
+          "finding": "Cached full IMSLP revision 4687503: 4 violins"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Debout_flemmard!_(Wick,_Marcellus)",
+          "finding": "Targeted title/composer search did not surface a human four-violin performance/release."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "418793-original",
+      "pageId": 418793,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Collection consists of multiple Heft volumes and the visible Heft 1 violin 3 part lacks page 1. A complete eligible set and exact collection-level human performance/release are not established; investigate a named individual piece only if the project defines collection entries as candidates.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/418793.json",
+          "finding": "Cached full IMSLP revision 4527127: 4 violins"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Die_4_Violinisten_(Dello,_Manuel)",
+          "finding": "Page lists multiple Heft collections and notes a missing page in one part."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-006.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Die_4_Violinisten_(Dello,_Manuel)",
+          "finding": "Cache lists multiple volumes; Heft 1 violin 3 explicitly missing page 1."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "803917-original",
+      "pageId": 803917,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "A collection of 26 mixed vocal/instrumental pieces with varying scorings; no single exact same-instrument version can be evaluated as one work.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/803917.json",
+          "finding": "Cached full IMSLP revision 2457552: various"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-001.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Die_Fröhliche_Sommerzeit,_Teil_1_(Sommer,_Johann)",
+          "finding": "A collection of 26 mixed vocal/instrumental pieces with varying scorings; no single exact same-instrument version can be evaluated as one work."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1000590-original",
+      "pageId": 1000590,
+      "kind": "original",
+      "decision": "out-of-scope",
+      "reason": "Available score explicitly has cello 1, cello 2, and bass; do not treat bass as a cello to satisfy three-cello scoring.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1000590.json",
+          "finding": "Cached full IMSLP revision 3602896: 3 cellos (or 2 cellos, bass)"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Divertimento_for_3_Cellos_in_D_major_(Hofmann,_Leopold)",
+          "finding": "IMSLP lists the fuller manuscript as parts and the typeset score as Cello 1, Cello 2, Cello 3/Bass; instrumentation says “3 cellos (or 2 cellos, bass).”"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-004.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Divertimento_for_3_Cellos_in_D_major_(Hofmann,_Leopold)",
+          "finding": "Available score explicitly has cello 1, cello 2, and bass; do not treat bass as a cello to satisfy three-cello scoring."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "901212-original",
+      "pageId": 901212,
+      "kind": "original",
+      "decision": "excluded",
+      "reason": "The only performance items in cached source are Finale Synthetic Sound; this does not satisfy human-performance floor.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/901212.json",
+          "finding": "Cached full IMSLP revision 3621605: 8 violas"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Divertimento_voor_8_altviolen_(Hoek,_Arie_van)",
+          "finding": "The only performance items in cached source are Finale Synthetic Sound; this does not satisfy human-performance floor."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "1461113-original",
+      "pageId": 1461113,
+      "kind": "original",
+      "decision": "held",
+      "reason": "The autograph complete score has four independent double-bass parts. ASU archive evidence names a Faculty Artist event but its indexed recording covers tracks I, II, III and V, and credits are event-wide; the remaining gap is identifying whether a named quartet performs the exact work and whether the four-movement extent is complete.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1461113.json",
+          "finding": "Cached full IMSLP revision 4311527: 4 double basses"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Double_Bass_Quartet_(Lauber,_Joseph)",
+          "finding": "IMSLP lists the 1942 autograph complete score for 4 double basses, in sounding pitch/solo tuning, and first publication by Yorke in 1975."
+        },
+        {
+          "urlOrPath": "https://keep.lib.asu.edu/items/11524",
+          "finding": "ASU Library archives a 2004 Faculty Artist Concert recording with Lauber tracks I, II, III and V; the indexed credits are event-wide and do not map performers to these tracks."
+        },
+        {
+          "urlOrPath": "https://stainer.co.uk/shop/ye0036/",
+          "finding": "Yorke Edition identifies a four-movement work for double bass quartet, about 13 minutes, with several recordings and broadcasts."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-004.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://keep.lib.asu.edu/items/11524",
+          "finding": "Prior evidence: 2004 recital archive tracks I, II, III and V; performers not mapped to these tracks."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "824732-original",
+      "pageId": 824732,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted search surfaced score/publisher information but no recording; IMSLP reports zero recordings. Cached source supports 3 double basses; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/824732.json",
+          "finding": "Cached full IMSLP revision 4047981: 3 double basses"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Double_Bass_Trio,_Op.56_(Poradowski,_Stefan_Boles%C5%82aw)",
+          "finding": "Targeted search surfaced score/publisher information but no recording; IMSLP reports zero recordings."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "531258-original",
+      "pageId": 531258,
+      "kind": "original",
+      "decision": "excluded",
+      "reason": "The cached “Full performance” is explicitly Synthesized/Midi, so it does not satisfy human-performance floor.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/531258.json",
+          "finding": "Cached full IMSLP revision 1579543: 4 violas"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Dream_(Schoonenbeek,_Kees)",
+          "finding": "The cached “Full performance” is explicitly Synthesized/Midi, so it does not satisfy human-performance floor."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "92173-original",
+      "pageId": 92173,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Saved triage reports no exact-scope human performance/release; the remaining gap is a qualifying human performance or commercial/released recording of this exact work/version. Cached source supports 3 violins; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/92173.json",
+          "finding": "Cached full IMSLP revision 3987594: 3 violins"
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-002.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "24508-original",
+      "pageId": 24508,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted search found catalog and score listings but no exact-work human recording. Cached source supports 4 cellos (or 3 cellos and viola, replacing cello 2); remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/24508.json",
+          "finding": "Cached full IMSLP revision 4825950: 4 cellos (or 3 cellos and viola, replacing cello 2)"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+          "finding": "Targeted search found catalog and score listings but no exact-work human recording."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "319846-original",
+      "pageId": 319846,
+      "kind": "original",
+      "decision": "held",
+      "reason": "Targeted query surfaced score repository/parts only; no human performance/release of this exact three-violin work. Cached source supports 3 violins; remaining concrete gap: establish an identifiable human performance/release of this exact version and verify its extent. Search failure is not evidence the work has never been performed.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/319846.json",
+          "finding": "Cached full IMSLP revision 3512779: 3 violins"
+        },
+        {
+          "urlOrPath": "https://imslp.org/wiki/Elfentanz,_Op.2_(Bolck,_Oskar)",
+          "finding": "Cached page lists three-violin scoring and notation."
+        },
+        {
+          "urlOrPath": "data/chamber/same-instrument/discovery/triage-006.json",
+          "finding": "Embedded earlier triage disposition and evidence reviewed; avoid repeating its identical failed search."
+        },
+        {
+          "urlOrPath": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemVersionId=7962",
+          "finding": "Targeted query surfaced score repository/parts only; no human performance/release of this exact three-violin work."
+        }
+      ],
+      "versions": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+ "batch": "ensemble-06-cello",
+ "accepted": [
+  {
+   "key": "kaiser-lindemann-variacoes-brasileiras-12vc",
+   "id": 109154,
+   "publicId": 109154,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    8,
+    7,
+    8
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "published",
+    "otherTitles"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "-gqTAo_BU20"
+  },
+  {
+   "key": "kaiser-lindemann-mambo-six-6vc",
+   "id": 109155,
+   "publicId": 109155,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    4,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed",
+    "published"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "FMA8epdIN38"
+  }
+ ],
+ "held": [
+  {
+   "key": "proto-quartet-basses-1964",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "klengel-variations-op15-4vc",
+   "reason": "Third blind grade required",
+   "opinions": [
+    6,
+    7
+   ]
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "190cabdc53c5ca9d169cf07268ef381e561aaf0925e3b0e930d468e76b59b7d6",
+  "data/chamber/composers.json": "aa8c75821db1964b883a818c6b45a1c604f338c0675d55f1cd4f427c33ea7e5d",
+  "data/chamber/id-registry.json": "0b242f56106628962d04fc58e1ac5cd6f46b1ace8642ce8e7e7b1e859f64986d",
+  "data/chamber/sources.json": "dda9b0f155691cab50fbcdcf41bcdb4adb9b37907863ce91b561f5bd9c8417a6",
+  "data/details/overrides.json": "9a646dfbf72d82ccdd1efe59cb80d3a99aed51f7cffd443b62831ed1b9847b75",
+  "data/chamber/recordings-judged.json": "23151244c648560c719c1c7e43c03a7f89e7f7722afa27c5e451f2d42b8af1fc",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/pilot-completion.json": "a08767f29ccbfffb3800c11e298a676bbf42dbd9dde00b8b60dc32ef649409a8",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-verify-01.json": "5d27ff3bd9aad6ef3e21c8f91c029240fc7759d8d77b9628c00be6ade23bbf64",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-cello-grades-02.json": "b19a2be583775acdf1a98c2e276b6a7201c8ea0c9c8d834b5dcd875b818da9b0"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-06-cello"
+}

@@ -1,0 +1,82 @@
+{
+  "batch": "source42-composer-metadata",
+  "checkedOn": "2026-10-29",
+  "composers": [
+    {
+      "houseSpelling": "Werner, Josef",
+      "sourceName": "Joseph Werner",
+      "imslpCategory": "https://imslp.org/wiki/Category:Werner,_Josef",
+      "imslpCategoryApi": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AWerner%2C_Josef&cmnamespace=0&cmlimit=100&format=json",
+      "categoryEvidence": "Namespace-zero category member includes Elegie for 4 Cellos, Op.21 (Werner, Josef), page 24508; confirms the source spelling used in the batch.",
+      "metadata": {
+        "dates": "1837–1922",
+        "nationality": "",
+        "gender": "M",
+        "era": "romantic"
+      },
+      "fieldEvidence": {
+        "dates": {"url": "https://bmlo.de/w0506", "finding": "Bayerisches Musiker-Lexikon Online identifies Joseph Werner, born 25 June 1837 in Würzburg and died 14 November 1922 in Munich."},
+        "gender": {"url": "https://bmlo.de/w0506", "finding": "BMLO explicitly gives Geschlecht: männlich."},
+        "era": {"url": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)", "finding": "IMSLP work page styles the Op.21 work Romantic."},
+        "nationality": {"url": "https://bmlo.de/w0506", "finding": "No nationality stated in the inspected BMLO authority record; left empty."}
+      }
+    },
+    {
+      "houseSpelling": "Clark, Scotson",
+      "sourceName": "Scotson Clark",
+      "imslpCategory": "https://imslp.org/wiki/Category:Clark,_Scotson",
+      "imslpCategoryApi": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AClark%2C_Scotson&cmnamespace=0&cmlimit=100&format=json",
+      "categoryEvidence": "Namespace-zero category member includes Gavotte for Four Violins (Clark, Scotson), page 168499; confirms the source spelling used in the batch.",
+      "metadata": {
+        "dates": "1840–1883",
+        "nationality": "English",
+        "gender": "",
+        "era": "romantic"
+      },
+      "fieldEvidence": {
+        "dates": {"url": "https://kalliope-verbund.info/gnd/134943260", "finding": "Kalliope/GND authority gives Frederick Scotson Clark's birth in London on 16 November 1840 and death there on 5 July 1883."},
+        "nationality": {"url": "https://kalliope-verbund.info/gnd/134943260", "finding": "Authority biographical note explicitly describes him as an English organist and composer."},
+        "era": {"url": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)", "finding": "IMSLP work page styles the Gavotte Romantic."},
+        "gender": {"url": "https://kalliope-verbund.info/gnd/134943260", "finding": "The inspected authority record does not state gender; left empty."}
+      }
+    },
+    {
+      "houseSpelling": "Makris, Andreas",
+      "sourceName": "Andreas Makris",
+      "imslpCategory": "https://imslp.org/wiki/Category:Makris,_Andreas",
+      "imslpCategoryApi": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AMakris%2C_Andreas&cmnamespace=0&cmlimit=100&format=json",
+      "categoryEvidence": "Namespace-zero category member includes Scherzo for Four Violins (Makris, Andreas), page 211541; confirms the source spelling used in the batch.",
+      "metadata": {
+        "dates": "1930–2005",
+        "nationality": "Greek-American",
+        "gender": "M",
+        "era": "modern"
+      },
+      "fieldEvidence": {
+        "dates": {"url": "https://sofiaphilharmonic.com/en/artists/andreas-makris-en", "finding": "Sofia Philharmonic composer biography dates Andreas Makris 1930–2005 and says he was born in Kilkis, Greece."},
+        "nationality": {"url": "https://www.openarchives.gr/aggregator-openarchives/edm/pergamos/000005-uoadl%3A3246554", "finding": "University of Athens dissertation repository describes Makris as a Greek-American violinist and composer."},
+        "gender": {"url": "https://sofiaphilharmonic.com/en/artists/andreas-makris-en", "finding": "Official biography uses the pronoun he."},
+        "era": {"url": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)", "finding": "IMSLP work page styles the Scherzo Modern."}
+      }
+    },
+    {
+      "houseSpelling": "Waelput, Hendrik",
+      "sourceName": "Hendrik Waelput",
+      "imslpCategory": "https://imslp.org/wiki/Category:Waelput,_Hendrik",
+      "imslpCategoryApi": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AWaelput%2C_Hendrik&cmnamespace=0&cmlimit=100&format=json",
+      "categoryEvidence": "Namespace-zero category member includes Andante cantabile for 4 Violas (Waelput, Hendrik), page 613650; confirms the source spelling used in the batch.",
+      "metadata": {
+        "dates": "1845–1885",
+        "nationality": "",
+        "gender": "M",
+        "era": "romantic"
+      },
+      "fieldEvidence": {
+        "dates": {"url": "https://www.svm.be/componisten/waelput-hendrik/p3?language=en", "finding": "Studiecentrum Vlaamse Muziek gives birth in Ghent on 26 October 1845 and death there on 8 July 1885."},
+        "gender": {"url": "https://www.svm.be/componisten/waelput-hendrik/p3?language=en", "finding": "The English biography uses the pronoun he."},
+        "era": {"url": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)", "finding": "IMSLP work page styles the Andante cantabile Romantic."},
+        "nationality": {"url": "https://www.svm.be/componisten/waelput-hendrik/p3?language=en", "finding": "The source identifies him as a Flemish composer but does not state nationality; left empty."}
+      }
+    }
+  ]
+}

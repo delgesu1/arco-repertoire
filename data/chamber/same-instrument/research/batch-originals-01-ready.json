@@ -1,0 +1,1208 @@
+{
+ "batch": "batch-originals-01",
+ "entries": [
+  {
+   "key": "verotta-adesso-four-cellos",
+   "decision": "hold",
+   "requiresFactReview": false,
+   "reason": "Recording explicitly credits Noteperformer AI; no human performance floor.",
+   "work": {
+    "composer": "Verotta, Davide",
+    "title": "Adesso for 4 Cellos, O.68",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "2016-24",
+    "minutes": 4,
+    "set": null,
+    "notes": "Original for 4 cellos.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Adesso for 4 Cellos, O.68 (Verotta, Davide)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 4377630",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/1484372.json"
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+     "finding": "4 cellos; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+     "finding": "Complete score listed; not downloaded / handler blocked.",
+     "localPath": null
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+     "finding": "Recording explicitly credits Noteperformer AI; no human performance floor. Credits: Noteperformer AI - Davide Verotta/Freya Cellista"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+     "work.title": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+     "work.instruments": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+     "work.players": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+     "work.year": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+     "work.minutes": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+     "work.imslpPage": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "No notation grade: source floor or downloadable score unresolved.",
+    "scoreSample": null
+   },
+   "recordingResearch": {
+    "status": "hold",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Adesso_for_4_Cellos,_O.68_(Verotta,_Davide)",
+      "performers": [
+       "Noteperformer AI - Davide Verotta/Freya Cellista"
+      ],
+      "finding": "Recording explicitly credits Noteperformer AI; no human performance floor.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   }
+  },
+  {
+   "key": "alencar-ceu-e-nuvens-ii",
+   "decision": "include",
+   "requiresFactReview": false,
+   "reason": "Original fixed scoring, complete obtainable notation and exact credited human recording established.",
+   "work": {
+    "composer": "Alencar, Gabriel",
+    "title": "Céu e Nuvens II",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": 3,
+    "hardestPart": "cello 1",
+    "year": "2018",
+    "minutes": 2,
+    "set": null,
+    "notes": "Original for 4 cellos.",
+    "popularity": null,
+    "mode": "minor",
+    "pace": "slow",
+    "character": [
+     "lyrical",
+     "tender"
+    ],
+    "imslpPage": "Céu e Nuvens II (Alencar, Gabriel)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 3201087",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/1040503.json"
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Alencar%2C_Gabriel",
+      "finding": "Composer biography fields retrieved in one API query; cache originals01-composers.json."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "finding": "4 cellos; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/648564",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/1040503.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "finding": "Human multitrack explicitly credited; accepted as recorded human playing, not a live ensemble. Credits: Gabriel Alencar, multitrack cello quartet"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.title": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.instruments": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.players": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.year": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.minutes": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.imslpPage": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "details.composed": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "details.firstPerformance": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Sustained exposed upper-register cello line, slow bow control and four-part intonation; simple rhythms.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/1040503.png"
+   },
+   "recordingResearch": {
+    "status": "human-performance-established",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+      "performers": [
+       "Gabriel Alencar, multitrack cello quartet"
+      ],
+      "finding": "Human multitrack explicitly credited; accepted as recorded human playing, not a live ensemble.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   },
+   "composerMetadata": {
+    "dates": "1991–",
+    "nationality": "Brazilian",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "composed": "2018",
+    "firstPerformance": "2018"
+   }
+  },
+  {
+   "key": "nichifor-epos-no1-three-cellos",
+   "decision": "hold",
+   "requiresFactReview": false,
+   "reason": "Human cello studio-overlay recording identified, but actual complete score download blocked; no notation estimate assigned.",
+   "work": {
+    "composer": "Nichifor, Serban",
+    "title": "Epos No.1 for 3 Cellos",
+    "instruments": {
+     "cello": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "1974",
+    "minutes": 5,
+    "set": null,
+    "notes": "Original for 3 cellos.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Epos No.1 for 3 Cellos (Nichifor, Serban)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 4497887",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/834983.json"
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+     "finding": "3 cellos; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+     "finding": "Complete score listed; not downloaded / handler blocked.",
+     "localPath": null
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+     "finding": "Human cello studio-overlay recording identified, but actual complete score download blocked; no notation estimate assigned. Credits: Serban Nichifor (cello), by overlay in studio"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+     "work.title": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+     "work.instruments": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+     "work.players": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+     "work.year": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+     "work.minutes": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+     "work.imslpPage": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "No notation grade: source floor or downloadable score unresolved.",
+    "scoreSample": null
+   },
+   "recordingResearch": {
+    "status": "hold",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Epos_No.1_for_3_Cellos_(Nichifor,_Serban)",
+      "performers": [
+       "Serban Nichifor (cello), by overlay in studio"
+      ],
+      "finding": "Human cello studio-overlay recording identified, but actual complete score download blocked; no notation estimate assigned.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   }
+  },
+  {
+   "key": "spiess-etude-nocturne-scherzo-op48",
+   "decision": "include",
+   "requiresFactReview": false,
+   "reason": "Original fixed scoring, complete obtainable notation and exact credited human recording established.",
+   "work": {
+    "composer": "Spiess, Ernst",
+    "title": "Etude, Nocturne and Scherzo-Capriccioso, Op.48",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "level": 5,
+    "hardestPart": "violin 1",
+    "year": "1884 (published)",
+    "minutes": null,
+    "set": null,
+    "notes": "Original for 3 violins.",
+    "popularity": null,
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "lyrical",
+     "playful"
+    ],
+    "imslpPage": "Etude, Nocturne and Scherzo-Capriccioso, Op.48 (Spiess, Ernst)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 4749839",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/168489.json"
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Spiess%2C_Ernst",
+      "finding": "Composer biography fields retrieved in one API query; cache originals01-composers.json."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)",
+     "finding": "3 violins; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/1043743",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/168489.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)",
+     "finding": "Steve Jones’s named violin multitrack; instrument provenance / performer category supports real human overdubs, not a live trio/quartet. Credits: Steve Jones (Steve's Bedroom Band), violin multitrack"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)",
+     "work.title": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)",
+     "work.instruments": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)",
+     "work.players": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)",
+     "work.year": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)",
+     "work.minutes": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)",
+     "work.imslpPage": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)",
+     "details.published": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Score p.2: chromatic triplet figuration, ledger-line range, double stops and rapid ensemble exchanges; three-movement source context.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/168489.png"
+   },
+   "recordingResearch": {
+    "status": "human-performance-established",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)",
+      "performers": [
+       "Steve Jones (Steve's Bedroom Band), violin multitrack"
+      ],
+      "finding": "Steve Jones’s named violin multitrack; instrument provenance / performer category supports real human overdubs, not a live trio/quartet.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   },
+   "composerMetadata": {
+    "dates": "1828–1905",
+    "nationality": "German",
+    "gender": "M",
+    "era": "late-romantic"
+   },
+   "details": {
+    "published": "1884 Mainz: Schott"
+   }
+  },
+  {
+   "key": "rzewski-fortune-four-violas",
+   "decision": "include",
+   "requiresFactReview": false,
+   "reason": "Original fixed scoring, complete obtainable notation and exact credited human recording established.",
+   "work": {
+    "composer": "Rzewski, Frederic",
+    "title": "Fortune",
+    "instruments": {
+     "viola": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": 6,
+    "hardestPart": "viola 1",
+    "year": "2005",
+    "minutes": null,
+    "set": null,
+    "notes": "Four viola players also speak; Shakespeare text is performed by the instrumentalists.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [
+     "dramatic"
+    ],
+    "imslpPage": "Fortune (Rzewski, Frederic)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 895604",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/238220.json"
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+     "finding": "4 Violas (players also speaking); original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/117404",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/238220.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+     "finding": "Named human ensemble credited in the exact original-version Complete Recording/Performance block. Credits: Leanne King, Dominic De Stefano, Michael Davis, Sara Rogers, violas"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+     "work.title": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+     "work.instruments": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+     "work.players": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+     "work.year": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+     "work.minutes": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+     "work.imslpPage": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+     "details.composed": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+     "details.dedication": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Autograph p.2: exposed high viola line, trills, double stops, pizzicato and speech integrated with coordinated four-part gestures.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/238220.png"
+   },
+   "recordingResearch": {
+    "status": "human-performance-established",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+      "performers": [
+       "Leanne King, Dominic De Stefano, Michael Davis, Sara Rogers, violas"
+      ],
+      "finding": "Named human ensemble credited in the exact original-version Complete Recording/Performance block.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   },
+   "details": {
+    "composed": "2005",
+    "dedication": "Annette Morreau"
+   }
+  },
+  {
+   "key": "schmitt-kleine-suite-three-violins",
+   "decision": "include",
+   "requiresFactReview": false,
+   "reason": "Original fixed scoring, complete obtainable notation and exact credited human recording established.",
+   "work": {
+    "composer": "Schmitt, Aloys",
+    "title": "Kleine Suite",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "level": 4,
+    "hardestPart": "violin 1",
+    "year": "1900 (published)",
+    "minutes": null,
+    "set": null,
+    "notes": "Original for 3 violins.",
+    "popularity": null,
+    "mode": "major",
+    "pace": null,
+    "character": [
+     "lyrical",
+     "playful"
+    ],
+    "imslpPage": "Kleine Suite (Schmitt, Aloys)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 4437229",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/168483.json"
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Schmitt%2C_Aloys",
+      "finding": "Composer biography fields retrieved in one API query; cache originals01-composers.json."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+     "finding": "3 violins; 2 violins, viola; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/82705",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/168483.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+     "finding": "Steve Jones’s named violin multitrack; performer category supports real human overdubs, not a live trio/quartet. Credits: Steve Jones (Steve's Bedroom Band), violin multitrack"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+     "work.title": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+     "work.instruments": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+     "work.players": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+     "work.year": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+     "work.minutes": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+     "work.imslpPage": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+     "details.movements": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+     "details.kind": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+     "details.published": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Score PDF p.2 spread: chromatic slurred figuration, upper-register first violin and coordinated articulation; four contrasting movements.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/168483.png"
+   },
+   "recordingResearch": {
+    "status": "human-performance-established",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+      "performers": [
+       "Steve Jones (Steve's Bedroom Band), violin multitrack"
+      ],
+      "finding": "Steve Jones’s named violin multitrack; instrument provenance / performer category supports real human overdubs, not a live trio/quartet.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   },
+   "composerMetadata": {
+    "dates": "1788–1866",
+    "nationality": "German",
+    "gender": "M",
+    "era": "early-romantic"
+   },
+   "details": {
+    "movements": [
+     "Andante espressivo",
+     "Allegretto",
+     "Adagio",
+     "Allegro vivace"
+    ],
+    "kind": "movements",
+    "published": "1900 or earlier?"
+   }
+  },
+  {
+   "key": "forino-les-prieres-op27",
+   "decision": "hold",
+   "requiresFactReview": false,
+   "reason": "Available notation is only Op.27 No.3; uploaded recording does not identify its number, so exact version match is unproved.",
+   "work": {
+    "composer": "Forino, Luigi",
+    "title": "Les prières, Op.27",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "1909 or earlier (published)",
+    "minutes": null,
+    "set": null,
+    "notes": "Original for 4 cellos.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Les prières, Op.27 (Forino, Luigi)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 3153119",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/188724.json"
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+     "finding": "Four cellos; available score upload is No.3 only, not the entire multi-work collection."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+     "finding": "Verified PDF bytes for No.3 only; whole Op.27 collection not available in this upload. No notation grade assigned.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/188724.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+     "finding": "Available notation is only Op.27 No.3; uploaded recording does not identify its number, so exact version match is unproved. Credits: Wojciech Fudala (cello I), Tomasz Daroch (cello II) Adam Krzeszowiec (Cello III), Krzysztof Karpeta (Cello IV)"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+     "work.title": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+     "work.instruments": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+     "work.players": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+     "work.year": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+     "work.minutes": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+     "work.imslpPage": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "No notation grade: source floor or downloadable score unresolved.",
+    "scoreSample": null
+   },
+   "recordingResearch": {
+    "status": "hold",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+      "performers": [
+       "Wojciech Fudala (cello I), Tomasz Daroch (cello II) Adam Krzeszowiec (Cello III), Krzysztof Karpeta (Cello IV)"
+      ],
+      "finding": "Available notation is only Op.27 No.3; uploaded recording does not identify its number, so exact version match is unproved.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   }
+  },
+  {
+   "key": "trapkus-quartet-four-violins",
+   "decision": "hold",
+   "requiresFactReview": false,
+   "reason": "Recording credits Paul Trapkus alone but does not establish live playing, multitrack method or synthesized status; hold pending human verification.",
+   "work": {
+    "composer": "Trapkus, Paul",
+    "title": "Quartet for 4 Violins",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": 4,
+    "hardestPart": "violin 1",
+    "year": "2023",
+    "minutes": 5,
+    "set": null,
+    "notes": "Original for 4 violins.",
+    "popularity": null,
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "lyrical"
+    ],
+    "imslpPage": "Quartet for 4 Violins (Trapkus, Paul)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 3923706",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/1326417.json"
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+     "finding": "4 violins; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/843096",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/1326417.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+     "finding": "Recording credits Paul Trapkus alone but does not establish live playing, multitrack method or synthesized status; hold pending human verification. Credits: Paul Trapkus"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+     "work.title": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+     "work.instruments": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+     "work.players": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+     "work.year": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+     "work.minutes": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+     "work.imslpPage": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Score p.2: upper-register first violin, repeated double stops in fourth violin and interlocking eighth-note figures at q=c140–150.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/1326417.png"
+   },
+   "recordingResearch": {
+    "status": "hold",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+      "performers": [
+       "Paul Trapkus"
+      ],
+      "finding": "Recording credits Paul Trapkus alone but does not establish live playing, multitrack method or synthesized status; hold pending human verification.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   },
+   "composerMetadata": {
+    "dates": "1987–",
+    "nationality": "American",
+    "gender": "M",
+    "era": "contemporary"
+   }
+  },
+  {
+   "key": "mikuli-scherzino-op25",
+   "decision": "include",
+   "requiresFactReview": false,
+   "reason": "Original fixed scoring, complete obtainable notation and exact credited human recording established.",
+   "work": {
+    "composer": "Mikuli, Carl",
+    "title": "Scherzino for 3 Violins, Op.25",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "level": 5,
+    "hardestPart": "violin 1",
+    "year": "1880 (published)",
+    "minutes": null,
+    "set": null,
+    "notes": "Original for 3 violins.",
+    "popularity": null,
+    "mode": "minor",
+    "pace": "lively",
+    "character": [
+     "playful"
+    ],
+    "imslpPage": "Scherzino for 3 Violins, Op.25 (Mikuli, Carl)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 4459666",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/50198.json"
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Mikuli%2C_Carl",
+      "finding": "Composer biography fields retrieved in one API query; cache originals01-composers.json."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+     "finding": "3 violins; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/21842",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/50198.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+     "finding": "Steve Jones’s named violin multitrack; instrument provenance / performer category supports real human overdubs, not a live trio/quartet. Credits: Steve Jones (Steve's Bedroom Band), violin multitrack"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+     "work.title": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+     "work.instruments": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+     "work.players": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+     "work.year": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+     "work.minutes": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+     "work.imslpPage": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+     "details.published": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+     "details.dedication": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Score p.2: sustained upper ledger-line melody, chromatic sixteenth-note figures, shifts and exposed three-violin balance.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/50198.png"
+   },
+   "recordingResearch": {
+    "status": "human-performance-established",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+      "performers": [
+       "Steve Jones (Steve's Bedroom Band), violin multitrack"
+      ],
+      "finding": "Steve Jones’s named violin multitrack; instrument provenance / performer category supports real human overdubs, not a live trio/quartet.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   },
+   "composerMetadata": {
+    "dates": "1819–1897",
+    "nationality": "Ukrainian / Austrian / Armenian",
+    "gender": "M",
+    "era": "early-romantic"
+   },
+   "details": {
+    "published": "1880 Leipzig: F. Kistner |",
+    "dedication": "Joseph Joachim"
+   }
+  },
+  {
+   "key": "gabrielli-suite-four-violins",
+   "decision": "include",
+   "requiresFactReview": false,
+   "reason": "Original fixed scoring, complete obtainable notation and exact credited human recording established.",
+   "work": {
+    "composer": "Gabrielli, Ladislav",
+    "title": "Suite for 4 Violins",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": 4,
+    "hardestPart": "violin 1",
+    "year": "c.1901 (published)",
+    "minutes": 10,
+    "set": null,
+    "notes": "Original for 4 violins.",
+    "popularity": null,
+    "mode": "major",
+    "pace": null,
+    "character": [
+     "lyrical",
+     "dance"
+    ],
+    "imslpPage": "Suite for 4 Violins (Gabrielli, Ladislav)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 4473545",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/245338.json"
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+     "finding": "4 violins; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/123166",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/245338.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+     "finding": "Steve Jones’s named violin multitrack; instrument provenance / performer category supports real human overdubs, not a live trio/quartet. Credits: Steve Jones (Steve's Bedroom Band), violin multitrack"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+     "work.title": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+     "work.instruments": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+     "work.players": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+     "work.year": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+     "work.minutes": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+     "work.imslpPage": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+     "details.kind": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+     "details.published": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+     "details.dedication": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Score p.2: lyrical upper-register first violin, chromatic moving inner lines and exposed four-violin intonation; three-movement suite.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/245338.png"
+   },
+   "recordingResearch": {
+    "status": "human-performance-established",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+      "performers": [
+       "Steve Jones (Steve's Bedroom Band), violin multitrack"
+      ],
+      "finding": "Steve Jones’s named violin multitrack; instrument provenance / performer category supports real human overdubs, not a live trio/quartet.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   },
+   "details": {
+    "kind": "movements",
+    "published": "1901 ? Mainz: Schott",
+    "dedication": "Ettore Pinelli"
+   }
+  },
+  {
+   "key": "trapkus-trio-three-violins",
+   "decision": "include",
+   "requiresFactReview": false,
+   "reason": "Original fixed scoring, complete obtainable notation and exact credited human recording established.",
+   "work": {
+    "composer": "Trapkus, Paul",
+    "title": "Trio for 3 Violins",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "level": 4,
+    "hardestPart": "violin 1",
+    "year": "2012",
+    "minutes": 6,
+    "set": null,
+    "notes": "Original for 3 violins.",
+    "popularity": null,
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "playful"
+    ],
+    "imslpPage": "Trio for 3 Violins (Trapkus, Paul)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 4424925",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/393487.json"
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Trapkus%2C_Paul",
+      "finding": "Composer biography fields retrieved in one API query; cache originals01-composers.json."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "finding": "3 violins; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/242973",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/393487.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "finding": "Named human ensemble credited in the exact original-version Complete Recording/Performance block. Credits: Paul Trapkus, Annalise Ohse, Ryan Coppin (violins)"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.title": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.instruments": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.players": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.year": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.minutes": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.imslpPage": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "details.composed": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "details.published": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "details.dedication": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Score p.2 plus opening tempo context q=170: persistent articulated eighth notes, string-crossing patterns, double stops and three-part coordination.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/393487.png"
+   },
+   "recordingResearch": {
+    "status": "human-performance-established",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+      "performers": [
+       "Paul Trapkus, Annalise Ohse, Ryan Coppin (violins)"
+      ],
+      "finding": "Named human ensemble credited in the exact original-version Complete Recording/Performance block.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   },
+   "composerMetadata": {
+    "dates": "1987–",
+    "nationality": "American",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "composed": "2012",
+    "published": "2012",
+    "dedication": "For Annalise and Ryan"
+   }
+  },
+  {
+   "key": "de-bleser-triolette",
+   "decision": "include",
+   "requiresFactReview": false,
+   "reason": "Original fixed scoring, complete obtainable notation and exact credited human recording established.",
+   "work": {
+    "composer": "De Bleser, Werner J.E.",
+    "title": "Triolette, C296",
+    "instruments": {
+     "cello": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "level": 5,
+    "hardestPart": "cello 1",
+    "year": "2020",
+    "minutes": 3,
+    "set": null,
+    "notes": "Original for 3 cellos.",
+    "popularity": null,
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "dramatic"
+    ],
+    "imslpPage": "Triolette (De Bleser, Werner J.E.)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 3285958",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/1069915.json"
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:De_Bleser%2C_Werner_J.E.",
+      "finding": "Composer biography fields retrieved in one API query; cache originals01-composers.json."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+     "finding": "3 cellos; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/666735",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/1069915.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+     "finding": "Named human ensemble credited in the exact original-version Complete Recording/Performance block. Credits: Johannes Burghoff - Guillaume Lagravière - Bruno Ispiola"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+     "work.title": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+     "work.instruments": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+     "work.players": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+     "work.year": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+     "work.minutes": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+     "work.imslpPage": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+     "details.kind": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+     "details.composed": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+     "details.firstPerformance": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Score p.2: chromatic octave-displaced eighth-note writing, upper ledger-line cello range, pizzicato/arco changes and changing meter; opening Furioso q=144.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/1069915.png"
+   },
+   "recordingResearch": {
+    "status": "human-performance-established",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+      "performers": [
+       "Johannes Burghoff - Guillaume Lagravière - Bruno Ispiola"
+      ],
+      "finding": "Named human ensemble credited in the exact original-version Complete Recording/Performance block.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   },
+   "composerMetadata": {
+    "dates": "1959–",
+    "nationality": "Belgian",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "kind": "movement",
+    "composed": "2020",
+    "firstPerformance": "2020/11/27"
+   }
+  }
+ ]
+}

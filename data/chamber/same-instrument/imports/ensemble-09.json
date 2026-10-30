@@ -1,0 +1,102 @@
+{
+ "batch": "ensemble-09",
+ "accepted": [
+  {
+   "key": "bacewicz-quartet-4-violins",
+   "id": 109158,
+   "publicId": 109158,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [
+    "kind"
+   ],
+   "recording": null
+  },
+  {
+   "key": "blacher-blues-espagnola-rumba-12-cellos",
+   "id": 109159,
+   "publicId": 109159,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    8,
+    8
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [
+    "kind"
+   ],
+   "recording": null
+  },
+  {
+   "key": "dancla-le-carnaval-de-venise-op119-4-violins",
+   "id": 109160,
+   "publicId": 109160,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    7,
+    7
+   ],
+   "gradeIssue": null,
+   "details": [
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [
+    "kind",
+    "published"
+   ],
+   "recording": null
+  },
+  {
+   "key": "dancla-ah-vous-dirai-je-maman-op161-4-violins",
+   "id": 109161,
+   "publicId": 109161,
+   "action": "added",
+   "releasedHeldProposal": true,
+   "gradeOpinions": [
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [
+    "kind"
+   ],
+   "recording": null
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "31a7598d6c5ce5cceb48472bb5f486596db09bb9095eb0be7b5342aa78f5dc7b",
+  "data/chamber/composers.json": "78c58aeca2c8bbf27e5e25189761e606c7d6ac9edf1258159bec424b5f502408",
+  "data/chamber/id-registry.json": "2779ec6898e2d7edebf57687ad2960424edb85570abcd7bb638b8c043fafc643",
+  "data/chamber/sources.json": "301bcc6a91c12d77564fc4765ba182b2de62bb0fc80a973f5e72ea94ba0074ca",
+  "data/details/overrides.json": "e619ae91d4c455bf2624e1577b761b172231070cf9004da3db5364a9ca181301",
+  "data/chamber/recordings-judged.json": "b29c9d55c92f6b4f185f147d38f4c04d33bafae1a51a35930e149934adabead1",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-extract-02.json": "2a64162443e3782eb965f7051d37c10b45ce8129bca88654ad184157c020f0c9",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-verify-04.json": "72a1b0227e4c4fdb965f8baa8eb8a538b6890b1eea57fae5ec6003c18bc1bc58",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grades-04.json": "c08c9b0cd820b84c43a0f73297fff10435fd03ef8a19e8a55b8a36715a94834e"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-09"
+}

@@ -1,0 +1,94 @@
+{
+ "batch": "ensemble-13",
+ "accepted": [
+  {
+   "key": "avni-violas-terzet-original",
+   "id": 109166,
+   "publicId": 109166,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "kind",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "hermann-op5-original-3violins",
+   "id": 109165,
+   "publicId": 109165,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    7
+   ],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "lachner-op160-original-5cellos",
+   "id": 109167,
+   "publicId": 109167,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "movements",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [
+  {
+   "key": "zanella-fantasia-orientale-six-celli-original",
+   "reason": "First-pass extraction still requires independent factual verification"
+  },
+  {
+   "key": "hermann-op9-original-3violins",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "hermann-op13-original-3violins",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "hermann-op17-original-3violins",
+   "reason": "No independent approval"
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "83fc7c09f7392fb5c819e18dc0620848615ac3256120d8ffb57a723e7c64923c",
+  "data/chamber/composers.json": "78c58aeca2c8bbf27e5e25189761e606c7d6ac9edf1258159bec424b5f502408",
+  "data/chamber/id-registry.json": "636c04e78840d0353baa781b162290b412d894548d74a756aec42a5a72adf548",
+  "data/chamber/sources.json": "4bb552cba19dd1e63f2544bc0dc39a3c452cdd567c73ab3345c0f9af4dd5939c",
+  "data/details/overrides.json": "2aa8cc6e18e0ee5421a0813fb3f47802dc5a1eb49ceaf4e69b679383e2cb2184",
+  "data/chamber/recordings-judged.json": "b29c9d55c92f6b4f185f147d38f4c04d33bafae1a51a35930e149934adabead1",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-extract-05-ready.json": "0d5e620c42f1be166ddf3a7c8c35b067b6b246e4768d5c043de5bc495c3d8654",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-enrich-01.json": "0e142c3e42284ac8abd62c3baeb85bbef84d16ee234a127f18871bff46555f79",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-verify-06-normalized.json": "194836ebe0f5add63beecd907943bb6b116a0fd3670464f3b240e5f40ba0d34e",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grades-09.json": "95370318d7bde8b20dc0f5538176bfe6521b7dccd9029fb24c7dee69d2a560f9",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-recover-01-normalized.json": "ccbbc24c8a1601f43e5471050f935db64e8624ca032349a99a1dcc7c13adada7"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-13"
+}

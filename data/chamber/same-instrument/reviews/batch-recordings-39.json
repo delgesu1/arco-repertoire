@@ -1,0 +1,51 @@
+{
+  "batch": "ensemble-39-recordings",
+  "entries": [
+    {
+      "key": "recording-109208-toub-yuka-matsumoto",
+      "status": "approved",
+      "factsVerified": true,
+      "approvedWorkFields": [],
+      "approvedDetailFields": [],
+      "originalReviewFile": "data/chamber/same-instrument/reviews/originals32-verify.json",
+      "recordingDecisions": [
+        {
+          "id": "3q7kfZlWsUk",
+          "decision": "approved",
+          "primary": true,
+          "compilation": false,
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "reason": "Prefer performer original-channel upload as primary. Exact original for four independent violins; identified human multitrack by Yuka Matsumoto. Both YouTube uploads are 550 seconds. Fresh composer Bandcamp track metadata gives 549.747 seconds, credits Yuka Matsumoto on all four violin parts, and identifies the first performance in April 2020; composer YouTube upload also labels it the first performance. Matches the approximately nine-minute continuous original score (28 pages, 437 bars). Whole-work classification is inferred from this primary-source release context and matching extent, not a direct stream audit. Performer explicitly reports one missing bar. This is retained as a performance omission, not silently asserted note-for-note coverage; primary composer/performer context identifies an otherwise full-work performance, not a selected movement or excerpt. Fresh oEmbed HTTP 200 and full title/channel/description/credits exclusion check passed.",
+          "limitations": [
+            "Performer explicitly reports one missing bar. This is retained as a performance omission, not silently asserted note-for-note coverage; primary composer/performer context identifies an otherwise full-work performance, not a selected movement or excerpt.",
+            "Whole-work extent inferred from primary performer/composer release context and matching 549.747/550-second duration; no direct stream audit."
+          ]
+        },
+        {
+          "id": "PFTHDdeMWKs",
+          "decision": "approved",
+          "primary": false,
+          "compilation": false,
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "reason": "Composer mirror alternate of the same credited performance, not an independent interpretation. Exact original for four independent violins; identified human multitrack by Yuka Matsumoto. Both YouTube uploads are 550 seconds. Fresh composer Bandcamp track metadata gives 549.747 seconds, credits Yuka Matsumoto on all four violin parts, and identifies the first performance in April 2020; composer YouTube upload also labels it the first performance. Matches the approximately nine-minute continuous original score (28 pages, 437 bars). Whole-work classification is inferred from this primary-source release context and matching extent, not a direct stream audit. Performer explicitly reports one missing bar. This is retained as a performance omission, not silently asserted note-for-note coverage; primary composer/performer context identifies an otherwise full-work performance, not a selected movement or excerpt. Fresh oEmbed HTTP 200 and full title/channel/description/credits exclusion check passed.",
+          "limitations": [
+            "Performer explicitly reports one missing bar. This is retained as a performance omission, not silently asserted note-for-note coverage; primary composer/performer context identifies an otherwise full-work performance, not a selected movement or excerpt.",
+            "Whole-work extent inferred from primary performer/composer release context and matching 549.747/550-second duration; no direct stream audit."
+          ]
+        }
+      ]
+    }
+  ]
+}

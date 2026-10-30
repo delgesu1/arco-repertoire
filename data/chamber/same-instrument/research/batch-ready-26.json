@@ -1,0 +1,249 @@
+{
+ "batch": "ensemble-26",
+ "entries": [
+  {
+   "key": "forino-preghiere-op27-no3",
+   "decision": "include",
+   "requiresFactReview": true,
+   "reason": "Available notation is only Op.27 No.3; uploaded recording does not identify its number, so exact version match is unproved.",
+   "work": {
+    "composer": "Forino, Luigi",
+    "title": "Preghiere, Op.27 No.3 (\"San Francesco parla alle tortore\")",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "level": 5,
+    "hardestPart": "cello 1",
+    "year": "",
+    "minutes": 7,
+    "set": null,
+    "notes": "Original for 4 cellos; No.3 is complete.",
+    "popularity": null,
+    "mode": "major",
+    "pace": "slow",
+    "character": [
+     "lyrical",
+     "tender"
+    ],
+    "imslpPage": "Les prières, Op.27 (Forino, Luigi)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Les_prières,_Op.27_(Forino,_Luigi)",
+      "finding": "Collection page supplies only completeNo3 score+all4parts; humanPolishCelloQuartet performancecredits."
+     },
+     {
+      "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=13569",
+      "finding": "Institutionallibrary exactNo3 record: scoreand4parts, originaledition1923, author1868–1936."
+     },
+     {
+      "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+      "finding": "Authorized10pageSibleyscan;4musicpages5–8 exactNo3, title/dedication/1923copyright."
+     },
+     {
+      "url": "https://polishcelloquartet.com/en/repertoire",
+      "finding": "Performers repertoire names Preghiere op27no3."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=RrfRzXL1WV4",
+      "finding": "Quartet ownchannel exactNo3 complete7:28 concert, fouridentifiedplayers."
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Forino,_Luigi",
+      "finding": "1868–1936, Italian and Argentinian categories, male, Romanticera."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+     "finding": "Fourindependentcellostaves, noadditionalinstrument."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+     "finding": "VerifiedPDF bytes ofcompleteNo3score; all4parts separatelylisted.",
+     "localPath": "data/cache/same-instrument-imslp/scores/forino-op27-no3.pdf"
+    },
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=RrfRzXL1WV4",
+     "finding": "WojciechFudala,TomaszDaroch,AdamKrzeszowiec,KrzysztofKarpeta, NationalForumMusic Wroclaw3August2016."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "named-excerpt",
+     "selection": "Complete No.3, independently titled and published from Les prieres Op.27"
+    },
+    "fieldSources": {
+     "details.kind": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+     "details.published": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+     "details.dedication": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+     "details.otherTitles": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745"
+    },
+    "unknowns": {
+     "compositionYear": "1923 iseditioncopyright;1909or earlier oncollectionpage notverifiedforNo3. Yearblank."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Actual source music pages1,3,4 (PDF5,7,8) inspected. Slow quarter60–69 exposes first-cello tenor-clef melodic line with repeated shifts, high cantilena and expressive chromatic runs; later clef changes, harmonics and stopped chord entries. Inner parts feature slurred eighths and syncopated breathing against sustained sonorities, some double-stops. Grade5 advanced practical cello band supports these register and tone demands; no extra ensemble level for conventional shared pulse."
+   },
+   "recordingResearch": {
+    "candidates": [
+     {
+      "id": "RrfRzXL1WV4",
+      "title": "Luigi Forino - Preghiere per quattro violoncelli nr 3, op. 27 Polish Cello Quartet",
+      "channel": "Polish Cello Quartet",
+      "description": "=== POLISH CELLO QUARTET ===\n\nWojciech Fudala, Tomasz Daroch, Adam Krzeszowiec, Krzysztof Karpeta\n\nLive concert at National Forum of Music in Wrocław\n03.08.2016 Poland\n\nwww.polishcelloquartet.com\nwww.celloacademy.eu\nwww.akademiawiolonczelowa.pl",
+      "seconds": 448,
+      "views": 7446,
+      "performerCredits": "Wojciech Fudala, Tomasz Daroch, Adam Krzeszowiec, Krzysztof Karpeta"
+     }
+    ]
+   },
+   "details": {
+    "kind": "piece",
+    "published": "1923",
+    "dedication": "A Francisco P. Roget",
+    "otherTitles": [
+     "Les prières, Op.27 No.3",
+     "San Francesco parla alle tortore"
+    ]
+   },
+   "composerMetadata": {
+    "dates": "1868–1936",
+    "nationality": "Italian",
+    "gender": "M",
+    "era": "late-romantic"
+   }
+  },
+  {
+   "key": "klengel-variations-op15-4vc",
+   "existingPublicId": null,
+   "decision": "include",
+   "reason": "Original4cellos, complete commercial parts and exact-opus concertverified; recovered entire firstpart and newindependent sourcegrade resolves uncertainty.",
+   "work": {
+    "composer": "Klengel, Julius",
+    "title": "Variations on an Original Theme, Op. 15",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": 6,
+    "hardestPart": "cello 1",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "Four unequal cello parts; distinct from Theme and Variations, Op. 28.",
+    "popularity": "lesser-known",
+    "mode": null,
+    "pace": null,
+    "character": [
+     "virtuosic"
+    ],
+    "imslpPage": "Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "single",
+    "otherTitles": [
+     "Variationen über ein eigenes Thema für vier Violoncelle"
+    ],
+    "published": "Breitkopf und Härtel, undated (plate 17434); undated International Music Company reprint, no. 1764"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+      "checkedOn": "2026-10-28",
+      "locator": "Parts / General Information",
+      "finding": "Exactcanonicalpage:4cellos,Op15,originaltitle; onlyCello1uploaded,7pages; Breitkopfplate17434,IMC1764reprint. Firstpublicationca1900iseditorialestimate, notcompositiondate."
+     },
+     {
+      "url": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+      "checkedOn": "2026-10-28",
+      "locator": "SKU I1764 / Description",
+      "finding": "JuilliardStore listscomplete four-cello IMC1764 edition in stock."
+     },
+     {
+      "url": "https://cellos2go.com/products/sheet-music/cello-ensembles/klengel-variations-op-15-for-4-cellos/",
+      "checkedOn": "2026-10-28",
+      "locator": "",
+      "finding": "Specialist retailer suppliespartset, no score. Its direct productdescription saysunequalparts,upperthreeusesthumbposition/trebleclef,lowesthascounting/chordissues. Thesearesourceclaims,notourvisualobservations."
+     },
+     {
+      "url": "https://www.nfm.wroclaw.pl/images/Sezon_2017_2018/omowienia/marzec/18.03.18_omowienie_0.4_www.pdf",
+      "checkedOn": "2026-10-28",
+      "locator": "PDFp1andp2notes",
+      "finding": "18March2018,18:00,NFMChamberHall:completeOp15listed;PolishCelloQuartet,TomaszDaroch,KrzysztofKarpeta,AdamKrzeszowiec,WojciechFudala."
+     },
+     {
+      "url": "https://www.editionsilvertrust.com/pdf-journals/Vol08-no1.pdf",
+      "checkedOn": "2026-10-28",
+      "locator": "Printedp9,OriginalWorksfor3and4Cellos",
+      "finding": "Specialist repertoireessay identifiesOp15asathleticfirstcellowithremainingpartsmoderate,contrastingeasierOp28."
+     }
+    ],
+    "scoring": {
+     "url": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+     "locator": "Description: Four cellos",
+     "finding": "Four independent cellos; no accompaniment or arranger listed. ExactOp15corroboratedbyIMSLPoriginaltitleandspecialistpartsdescription."
+    },
+    "floor": {
+     "url": "https://www.nfm.wroclaw.pl/images/Sezon_2017_2018/omowienia/marzec/18.03.18_omowienie_0.4_www.pdf",
+     "finding": "Actual18March2018NFMChamberHallconcert by four named PolishCelloQuartet players,completeOp15, noexcerpt designation. NoassumptionthatunidentifiedPleethperformancewasthiswork."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+     "finding": "Complete commercial4partsetavailable. Entirefirstcellopart recovered andvisuallyreviewed, all11variations+coda; remainingpartsnotviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/recover-01/klengel-vc1.pdf"
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+     "work.imslpPage": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+     "details.otherTitles": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+     "details.published": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+     "work.title": "https://www.nfm.wroclaw.pl/images/Sezon_2017_2018/omowienia/marzec/18.03.18_omowienie_0.4_www.pdf",
+     "work.players": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+     "work.instruments": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+     "work.notes": "https://www.editionsilvertrust.com/pdf-journals/Vol08-no1.pdf",
+     "details.kind": "https://www.nfm.wroclaw.pl/images/Sezon_2017_2018/omowienia/marzec/18.03.18_omowienie_0.4_www.pdf"
+    },
+    "unknowns": {
+     "work.year": "No primarycompositiondateverified; secondary1886 and IMSLPca1900publicationarenotinterchangeable.",
+     "work.minutes": "No exactwholeworktimingestablished;programme90minutesiswholeconcert.",
+     "details.composed": "Unverified.",
+     "details.movements": "No completeeditionheadings inspected;notconflatedwithOp28.",
+     "details.firstPerformance": "2018floorisnotpremiere.",
+     "details.dedication": "Unverified.",
+     "score.directInspection": "ObservedIMSLPimagesURLrespondedBotCheck;noattempttobypass;noactualnotationseen.",
+     "recording": "TargetedEnglish/GermanYouTubesearchesdidnotproduceinspectableexactOp15candidate."
+    }
+   },
+   "researcherGrade": {
+    "basis": "Estimate6(pre-diploma),cello1,mediumconfidence. Specialist directpartsdescription corroborates thumbposition/trebleclef in upperthreeparts;Cobbett repertoireessay specifically callsfirstcello athletic and othersmoderate. CalibratedRomanticvariationrepertoire knowledge suggests advancedsoloisttechniquewithquartetcounting/coordination,belowprofessionalvirtuosorepertoire. No notationseen:range,fastestfigureandbowingclaims intentionallynotinvented. Independentreviewshouldadjudicate6versus7.",
+    "confidence": "medium"
+   },
+   "recordingResearch": {
+    "status": "not-found",
+    "queries": [
+     "Klengel Op.15 YouTube",
+     "Klengel Variations op.15 concert quartet",
+     "Klengel Variationen op15 Konzert vier Violoncelli"
+    ],
+    "candidates": [],
+    "note": "Noinspectableexact-versionvideocandidatefound;datedNFMofficialprogrammeestablishesperformancefloor."
+   }
+  }
+ ]
+}

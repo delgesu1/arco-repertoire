@@ -1,0 +1,368 @@
+{
+  "batch": "triage-004",
+  "kind": "original",
+  "status": "complete",
+  "pages": [
+    {
+      "pageId": 87964,
+      "title": "6 Pieces for 3 Cellos, Op.104 (Dotzauer, Friedrich)",
+      "disposition": "needs-review",
+      "reason": "The cached page lists three separate cello parts and no recording; a professional human-performance floor was not established.",
+      "facts": [
+        "Score/parts: cello 1, cello 2, cello 3; no human recording located."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/6_Pieces_for_3_Cellos,_Op.104_(Dotzauer,_Friedrich)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists three distinct cello parts, six pieces, and a first-publication estimate of 1835; Performances shows no recordings."
+        }
+      ]
+    },
+    {
+      "pageId": 753173,
+      "title": "An Inness Sky (Fine, Elaine)",
+      "disposition": "needs-review",
+      "reason": "A complete score and parts are listed for three cellos, but the only cached audio is synthesized MIDI, which does not establish the required human-performance floor.",
+      "facts": [
+        "Composition year 2006; listed duration 4 minutes; MIDI excluded as a performance floor."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/An_Inness_Sky_(Fine,_Elaine)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists a complete score and parts for 3 cellos; its audio is labelled Synthesized Performance / Computer Generated."
+        }
+      ]
+    },
+    {
+      "pageId": 410447,
+      "title": "Sonata for 3 Violins in F major, ULB Mus.Ms.334 (Fux, Johann Joseph)",
+      "disposition": "lead",
+      "reason": "Original three-violin score materials and a commercial human recording of the exact ULB manuscript work were found; reconcile the page’s six-movement listing with the album’s four-track version before import.",
+      "facts": [
+        "Original instrumentation is 3 violins; manuscript and edition score materials are available.",
+        "Commercial 2025 recording has four tracks totalling 9:28; cache lists six movements, so extent/version needs fact review."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP identifies ULB Mus.Ms.334 as a six-movement work for 3 violins and lists complete-score and complete-parts materials."
+        },
+        {
+          "url": "https://www.prestomusic.com/classical/products/9769255--violins-of-osesp",
+          "checkedOn": "2026-10-28",
+          "finding": "Presto lists a 2025 Azul Music/OSESP release of the exact ULB Mus.Ms.334 title, four movements, 9:28 total, performed by Emmanuele Baldini, Matthew Thorpe, and Anderson Farinelli."
+        }
+      ]
+    },
+    {
+      "pageId": 245338,
+      "title": "Suite for 4 Violins (Gabrielli, Ladislav)",
+      "disposition": "needs-review",
+      "reason": "The four-violin score is present, but the human audio is credited to “Steve’s Bedroom Band” without evidence of a professional performance/recording; MIDI does not upgrade the floor.",
+      "facts": [
+        "Three movements; listed average duration 10 minutes; no professional performance floor verified."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists complete score and four violin parts; human audio credits “Steve’s Bedroom Band,” while the separate MIDI audio is synthesized."
+        }
+      ]
+    },
+    {
+      "pageId": 552757,
+      "title": "6 Trios, Op.10 (Guignon, Jean-Pierre)",
+      "disposition": "needs-review",
+      "reason": "The original is open to several treble instruments and the only cached score file is for flute parts 1 and 3; do not infer a three-violin score from the category tag.",
+      "facts": [
+        "No complete violin-specific score or human recording was established."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/6_Trios,_Op.10_(Guignon,_Jean-Pierre)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP describes the work for three flutes, recorders, violins, treble viols, or other treble instruments; the listed file is “Flutes 1 & 3 only.”"
+        }
+      ]
+    },
+    {
+      "pageId": 863285,
+      "title": "3 String Trios (Haydn, Joseph)",
+      "disposition": "out-of-scope",
+      "reason": "The page explicitly identifies these as arrangements from Haydn string-quartet movements, so they are not original works for three violins in this original-version batch.",
+      "facts": [
+        "Page-level instrument listing alone is misleading; source identifies arrangement provenance."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/3_String_Trios_(Haydn,_Joseph)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP Extra Information says the three items are arrangements from Haydn String Quartet Op.1 movements; score files are transcribed for three violins."
+        }
+      ]
+    },
+    {
+      "pageId": 1000590,
+      "title": "Divertimento for 3 Cellos in D major (Hofmann, Leopold)",
+      "disposition": "needs-review",
+      "reason": "Although the title says three cellos, the typeset full score is explicitly for two cellos and bass; keep the original instrument identity unresolved rather than converting bass to cello.",
+      "facts": [
+        "Three movements; score labels show the third line as bass; no recording located."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Divertimento_for_3_Cellos_in_D_major_(Hofmann,_Leopold)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists the fuller manuscript as parts and the typeset score as Cello 1, Cello 2, Cello 3/Bass; instrumentation says “3 cellos (or 2 cellos, bass).”"
+        }
+      ]
+    },
+    {
+      "pageId": 168454,
+      "title": "4 Pieces for 3 Violins, Op.104 (Hofmann, Richard)",
+      "disposition": "needs-review",
+      "reason": "Parts exist and a human recording is linked, but it is described as a student recital; professional performance floor not established.",
+      "facts": [
+        "3 violins; four movements; available performance evidence is amateur/student-level, not a professional floor."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists four movements, complete parts, and MP3 recordings credited to “Steve’s Bedroom Band.”"
+        },
+        {
+          "url": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+          "checkedOn": "2026-10-28",
+          "finding": "A YouTube upload describes only movement I at a 2018 Chloe Trevor Music Academy student recital."
+        }
+      ]
+    },
+    {
+      "pageId": 1452784,
+      "title": "2 Stücke, Op.5 (Klengel, Julius)",
+      "disposition": "lead",
+      "reason": "Four distinct cello parts and a commercially released complete performance of both pieces by the London Mozart Players provide a strong original-version lead.",
+      "facts": [
+        "Four cellos, two pieces; commercial album recording, full work 8:50."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists four separate cello parts and identifies Serenade and Humoreske."
+        },
+        {
+          "url": "https://www.prestomusic.com/classical/products/7946550--petits-fours",
+          "checkedOn": "2026-10-28",
+          "finding": "Presto lists both movements (8:50 total) on Cello Classics CC1007, performed by the London Mozart Players; its credits identify four cellists."
+        }
+      ]
+    },
+    {
+      "pageId": 902340,
+      "title": "Suite for 3 Cellos (Koessler, Hans)",
+      "disposition": "needs-review",
+      "reason": "The complete score and three distinct cello parts are present, but no professional human performance was found in the focused search.",
+      "facts": [
+        "Five movements; no recording floor established."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Suite_for_3_Cellos_(Koessler,_Hans)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists a complete score and cello 1–3 materials for the five-movement suite; no recording appears in the cached performance section."
+        }
+      ]
+    },
+    {
+      "pageId": 507728,
+      "title": "Tertsetti (Kuula, Toivo)",
+      "disposition": "needs-review",
+      "reason": "A complete score is listed alongside an earlier incomplete score, but no human recording or professionally performed floor was found.",
+      "facts": [
+        "One movement; composition year listed as 1904; score completeness can be resolved from the complete version."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Tertsetti_(Kuula,_Toivo)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists a complete score and an earlier incomplete score missing the final 10-bar section; no recording is listed."
+        }
+      ]
+    },
+    {
+      "pageId": 24546,
+      "title": "Serenade for 4 Cellos, Op.29 (Lachner, Franz Paul)",
+      "disposition": "needs-review",
+      "reason": "Score materials for four cellos are available, but no human recording/performance floor was established.",
+      "facts": [
+        "Composition date 1829; two movements; no performance floor found."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Serenade_for_4_Cellos,_Op.29_(Lachner,_Franz_Paul)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists complete parts and a typeset complete score for four cellos; no recording is listed."
+        }
+      ]
+    },
+    {
+      "pageId": 756008,
+      "title": "3 Sonatinas, Op.90 (Lachner, Ignaz)",
+      "disposition": "needs-review",
+      "reason": "The page is a three-work set but only Sonatina No.3 has parts listed; no professional human performance was found, so individual-work extraction remains unverified.",
+      "facts": [
+        "Three sonatinas; published 1880; only No.3 materials are currently listed."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/3_Sonatinas,_Op.90_(Lachner,_Ignaz)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists only Complete Parts for Sonatina No.3; it lists no scores and no recordings for the set."
+        }
+      ]
+    },
+    {
+      "pageId": 1461113,
+      "title": "Double Bass Quartet (Lauber, Joseph)",
+      "disposition": "needs-review",
+      "reason": "The autograph score confirms four independent double-bass parts, and an ASU Faculty Artist recording exists, but the archive’s track list covers a partial set and labels its final item movement V; verify exact extent and quartet-level performer credits before treating it as a strong floor.",
+      "facts": [
+        "Original instrumentation: 4 double basses; score is a manuscript complete score.",
+        "Human audio exists in a university recital archive, but completeness/performer attribution is unresolved."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Double_Bass_Quartet_(Lauber,_Joseph)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists the 1942 autograph complete score for 4 double basses, in sounding pitch/solo tuning, and first publication by Yorke in 1975."
+        },
+        {
+          "url": "https://keep.lib.asu.edu/items/11524",
+          "checkedOn": "2026-10-28",
+          "finding": "ASU Library archives a 2004 Faculty Artist Concert recording with Lauber tracks I, II, III and V; the indexed credits are event-wide and do not map performers to these tracks."
+        },
+        {
+          "url": "https://stainer.co.uk/shop/ye0036/",
+          "checkedOn": "2026-10-28",
+          "finding": "Yorke Edition identifies a four-movement work for double bass quartet, about 13 minutes, with several recordings and broadcasts."
+        }
+      ]
+    },
+    {
+      "pageId": 833730,
+      "title": "Cello Quartet, Op.11 (Limmer, Franz)",
+      "disposition": "needs-review",
+      "reason": "A complete four-part cello score is available, but no human recording/performance floor was established.",
+      "facts": [
+        "Published 1830; four cellos; no performance floor located."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Cello_Quartet,_Op.11_(Limmer,_Franz)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists complete parts for four cellos and four movements; its performance section has no recording."
+        }
+      ]
+    },
+    {
+      "pageId": 684197,
+      "title": "Nocturne for 4 Cellos, Op.90 (Maurer, Ludwig Wilhelm)",
+      "disposition": "needs-review",
+      "reason": "Four cello parts and an incipit are visible, but the score page provides no performance recording or professionally performed floor.",
+      "facts": [
+        "First publication 1859 or earlier; no duration/movement count established."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Nocturne_for_4_Cellos,_Op.90_(Maurer,_Ludwig_Wilhelm)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists complete parts for four cellos and a four-staff incipit; no recording is listed."
+        }
+      ]
+    },
+    {
+      "pageId": 96484,
+      "title": "Suite for 3 Violins, Op.133 (Moór, Emanuel)",
+      "disposition": "needs-review",
+      "reason": "A complete score for three violins is available, but no human recording/performance floor was found.",
+      "facts": [
+        "Four movements; no performance floor found."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Mo%C3%B3r,_Emanuel)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists the complete score, four movements, 3 violins, and first publication in 1912; no recording is listed."
+        }
+      ]
+    },
+    {
+      "pageId": 238220,
+      "title": "Fortune (Rzewski, Frederic)",
+      "disposition": "needs-review",
+      "reason": "A complete score and named complete human performance by four violists are listed, but the available source does not establish a professional-performance/recording floor.",
+      "facts": [
+        "One movement, composed 2005; recording exists but performer professionalism/production floor is unverified."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists a complete score for four violas (players also speaking) and a complete human performance credited to Leanne King, Dominic De Stefano, Michael Davis, and Sara Rogers."
+        }
+      ]
+    },
+    {
+      "pageId": 57445,
+      "title": "Andante religioso (Schmitt, Florent)",
+      "disposition": "out-of-scope",
+      "reason": "The page says this cello-quartet score is extracted from Schmitt’s Trombone Quartet Op.109; it is an arrangement of a different original instrumentation, not an original four-cello work.",
+      "facts": [
+        "A complete score exists for the cello arrangement, but original work scoring is trombone quartet."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Andante_religioso_(Schmitt,_Florent)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP explicitly says the cello-quartet and string-quartet/string-orchestra versions are extracted from the Trombone Quartet, Op.109."
+        },
+        {
+          "url": "https://florentschmitt.com/2019/10/05/florent-schmitts-strikingly-inventive-quartet-for-trombones-and-tuba-1946-leaving-the-oompah-behind/",
+          "checkedOn": "2026-10-28",
+          "finding": "Palazzetto Bru Zane concerts by four cellists were reported for the cello arrangement; that does not change the original work’s instrumentation."
+        }
+      ]
+    },
+    {
+      "pageId": 1617068,
+      "title": "Concerto for 4 Violins, TWV 40:202 (Telemann, Georg Philipp)",
+      "disposition": "lead",
+      "reason": "The manuscript contains a complete set of four-violin parts, and Music@Menlo’s 2026 official page documents a professional performance by four named violinists with a paid livestream; resolve movement-count differences before import.",
+      "facts": [
+        "Original work is for four violins; do not substitute the separate harpsichord-continuo edition.",
+        "Official performance floor exists; cached page movement count is three while other records describe four movements."
+      ],
+      "sources": [
+        {
+          "url": "https://imslp.org/wiki/Concerto_for_4_Violins,_TWV_40:202_(Telemann,_Georg_Philipp)",
+          "checkedOn": "2026-10-28",
+          "finding": "IMSLP lists a complete manuscript part set for four violins, plus a separate arranger-created edition with a continuo line; original work-info lists three sections."
+        },
+        {
+          "url": "https://musicatmenlo.org/event/concert-program-iv-the-unfolding-of-music/",
+          "checkedOn": "2026-10-28",
+          "finding": "Music@Menlo’s July 28, 2026 program lists this exact work and names Arnaud Sussmann, Stella Chen, Aaron Boyd, and Jessica Lee; the official page offered a livestream."
+        }
+      ]
+    }
+  ],
+  "resume": {
+    "nextPageId": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+ "batch": "ensemble-38",
+ "accepted": [
+  {
+   "key": "trapkus-quartet-four-violins",
+   "id": 109215,
+   "publicId": 109215,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    6,
+    5
+   ],
+   "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null,
+   "gradeResolution": {
+    "key": "trapkus-quartet-four-violins",
+    "status": "approved",
+    "level": 5,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "consideredOpinions": [
+     4,
+     6,
+     5
+    ],
+    "basis": "NONBLIND source/anchor adjudication after preserving blind level 5. Opinions span 4/6/5. Adopt 5 (advanced, ABRSM 8 / RCM 9) from full-score demands, not arithmetic alone. Researcher level 4 is musically supported by p.2 but underweights prolonged semiquavers and exposed high sustained intonation later in the work. Prior Sol level 6 is a defensible upper-edge estimate from genuine high register and endurance; its musical assessment was valid while its separate factual hold was unresolved. Once floor resolved it can be considered. Repeated compact slurred cells, mostly C-major tonality, short five-minute form, modest chromaticism and no sustained virtuoso double-stop apparatus keep this below a general pre-diploma whole-work placement. Local levels.json level 5/6 teaching bands are the direct anchors; prior Sol Mozart K423/424=6 is a broad player-band comparison, not an external syllabus claim, and its wider classical articulation/intonation scope makes it a ceiling comparison here. Prokofiev Op56=8 is too remote to decide 5 versus 6. No ensemble uplift; IV optional top notes excluded from mandatory difficulty.",
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+      "finding": "IDENTITY: exact audio #843101 explicitly credits Paul Trapkus as Performers, separately from uploader Ptrapkus. Independently established violinist identity plus affirmative primary performer attribution supports human performance; absence of the word multitrack is not contrary evidence. Recordings (1) versus Synthesized/MIDI (0) corroborates but does not alone establish humanity."
+     },
+     {
+      "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+      "finding": "VERSION: original four-violin work, not an arrangement; no alternative scoring is attached to the recording. One named performer across four simultaneous violin lines is consistent with human overdubbing, which is accepted; no claim of a live four-person ensemble or independently verified recording method is made."
+     },
+     {
+      "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+      "finding": "EXTENT: Complete Recording #843101 lasts 5:00, matching single-movement five-minute whole work. No excerpt indication. All four excluded performers absent from sole primary performer credit."
+     },
+     {
+      "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/843096",
+      "finding": "Complete 14-page score visually inspected through final cadence. Four independent violin staves confirm scoring. Grade-setting long semiquaver passages occur beyond original p.2 sample."
+     }
+    ],
+    "mode": "major",
+    "pace": "lively",
+    "character": [
+     "lyrical",
+     "dramatic"
+    ],
+    "consideredOpinionDetails": [
+     {
+      "reviewer": "researcher",
+      "level": 4,
+      "hardestPart": "violin 1",
+      "confidence": "medium",
+      "basis": "Score p.2: upper-register first violin, repeated double stops in fourth violin and interlocking eighth-note figures at q=c140–150.",
+      "originalFactStatus": "hold"
+     },
+     {
+      "reviewer": "priorSol",
+      "level": 6,
+      "hardestPart": "violin 1",
+      "confidence": "medium",
+      "basis": "Actual complete composer score PDF pages 1,3,6,10,14 sampled, including opening, transitional and final textures. At quarter approximately140–150, first violin sustains exposed upper notes then plays prolonged repeated slurred sixteenths and register changes; later sustained notes extend into the G6 region. Other players sustain off-beat patterns and string crossings, while fourth violin double stops are explicitly optional at the opening. Repetition, clear pulse and largely idiomatic tonal patterns limit the technical burden, but rapid sustained bowing plus exposed high register place first violin around level6, pre-diploma, rather than judging only the easier opening accompaniment. Mozart K423/424 at6 is the broad player-band anchor; professional Prokofiev Op56 at8 is substantially beyond the observed complexity. No automatic ensemble uplift. Five-minute complete context and meaningful distributed notation support medium advisory confidence with approximately one-level uncertainty. This is the same single Sol judgment in research and review, not two votes.",
+      "originalFactStatus": "held; musical assessment technically supported, eligibility separate; counted only after this audit resolved floor"
+     },
+     {
+      "reviewer": "yourBlindVote",
+      "level": 5,
+      "hardestPart": "Violin I",
+      "confidence": "medium",
+      "basis": "BLIND vote, before reading prior numeric grades: all 14 score pages inspected against data/source/levels.json. Whole-work advanced (ABRSM 8 / RCM 9) estimate. Violin I combines exposed sustained upper-register intonation and quiet entries (pp.1,3,7,11,13) with long repeated slurred semiquaver cells at quarter=140–150 (pp.6–7,9–14), shifts and rapid register changes. Violin II and III inherit semiquaver texture; IV maintains near-continuous quaver string-crossing ostinato and some double stops. Changes among 4/4,6/4,3/4 and staggered sustained entrances need ensemble discipline. Mostly tonal repeated cells and limited chromaticism keep it below routine diploma demands; optional top notes in IV do not set grade.",
+      "mode": "major",
+      "pace": "lively",
+      "character": [
+       "lyrical",
+       "dramatic"
+      ]
+     }
+    ],
+    "adjudicationFile": "data/chamber/same-instrument/reviews/trapkus-adjudication-final-normalized.json"
+   }
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "a4ed1a01115adaf4643ffca9954d83b76285ba7759bde355cb048c9cd3fb446f",
+  "data/chamber/composers.json": "a2e120ccc73b779679bf9a2b57e9674010372aebb473436a5d74a6f578397982",
+  "data/chamber/id-registry.json": "99954a7216045d962e074a278af38c9bae10f7774ff482d4bf2db84d6684925f",
+  "data/chamber/sources.json": "3f0875d6f0d4b419bfc890c6c889f42cc3cd8e6bbdaccabab31dc2e29b05aa9d",
+  "data/details/overrides.json": "44f9cbf8033ad9216e4a57728d64fadff1c377b9a7d01119da8e99035cd0d33e",
+  "data/chamber/recordings-judged.json": "1103c2b7ed62b309679eba826a198c7235cd6e69cac46b97a9368b41d4c52d03",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-trapkus-38.json": "f311ccfe8ca7b8c5b1efcbe7950a76fecea719dcc666540c40a0db11a105b97e",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/trapkus-reviews-38-normalized.json": "d033cce66b3dc7be9227462b6a1024362b3985958698a390b95889ed4a79c944",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/trapkus-adjudication-final-normalized.json": "320e47602d8a89e14df803cc9411bf04ed253707e272334a389bbf357b74b452"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-38"
+}

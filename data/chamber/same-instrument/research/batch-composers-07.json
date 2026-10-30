@@ -1,0 +1,32 @@
+{
+  "batch": "batch-composers-07",
+  "composerMetadataPatches": {
+    "Derecskei, András": {
+      "dates": "1982–",
+      "nationality": "Hungarian",
+      "gender": "M",
+      "era": "contemporary"
+    },
+    "Fine, Vivian": {
+      "dates": "1913–2000",
+      "nationality": "American",
+      "gender": "F",
+      "era": "20th-century"
+    }
+  },
+  "sources": {
+    "Derecskei, András": [
+      "https://info.bmc.hu/en/composers/279-derecskei-andras",
+      "https://andrasderecskei.com/"
+    ],
+    "Fine, Vivian": [
+      "https://www.bruceduffie.com/fine.html"
+    ]
+  },
+  "unresolved": [
+    {
+      "composer": "Ellenberger, Kurt",
+      "finding": "Composer biography located at https://www.kurtellenberger.com/bio.html but direct fetch timed out; birth dates and nationality not established from an inspected primary biography. No unsupported metadata patch supplied."
+    }
+  ]
+}

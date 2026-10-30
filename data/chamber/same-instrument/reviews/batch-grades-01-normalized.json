@@ -1,0 +1,205 @@
+{
+ "batch": "batch-grades-01",
+ "status": "complete",
+ "entries": [
+  {
+   "key": "jacob-suite-eight-violas",
+   "status": "approved",
+   "findings": [
+    {
+     "url": "https://www.accolade.de/images/BuSSBild/_151696483-003.jpg",
+     "finding": "Publisher score p.13 shows upper-voice treble-clef writing, articulated exchanges between the two groups, and the exposed Chorale."
+    },
+    {
+     "url": "https://www.accolade.de/images/BuSSBild/_151696483-005.jpg",
+     "finding": "Tarantella p.15 is Allegro con fuoco, dotted quarter about 132: brisk slurred eighth-note figures, upper-register first viola, and coordinated accents across eight parts."
+    }
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "viola 1",
+    "mode": "unsure",
+    "pace": "lively",
+    "character": [
+     "dance"
+    ],
+    "confidence": "medium",
+    "basis": "Score-preview assessment: the leading viola needs secure upper-register facility and fast compound-time articulation; eight-way rhythmic precision and chorale tuning bring the whole work to pre-diploma level. The material seen is energetic rather than extreme virtuosity."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ],
+   "formatNormalization": "Character scalar wrapped as one-element array; double-bass key normalized where applicable; grade/evidence unchanged."
+  },
+  {
+   "key": "bottesini-passione-trumpf-four-basses",
+   "status": "approved",
+   "findings": [
+    {
+     "url": "https://www.hofmeister-musikverlag.com/wp-content/uploads/2023/07/FH_2227_NS.png",
+     "finding": "FH2227 preview explicitly credits Klaus Trumpf and shows the four-bass version. First and second bass have exposed high treble-clef cantabile lines while the lower pair supply articulated accompaniment."
+    }
+   ],
+   "grade": {
+    "level": 8,
+    "hardestPart": "double-bass 1",
+    "mode": "major",
+    "pace": "lively",
+    "character": [
+     "virtuosic"
+    ],
+    "confidence": "medium",
+    "basis": "Exact-arrangement preview plus repertoire expertise in Passione amorosa: the principal bass writing retains soloistic high-register, thumb-position demands and later brilliant display. Supporting basses must maintain a light texture underneath unusually exposed solo bass intonation. Professional level, with bass 2 also demanding; not graded from the easier accompaniment alone."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ],
+   "formatNormalization": "Character scalar wrapped as one-element array; double-bass key normalized where applicable; grade/evidence unchanged."
+  },
+  {
+   "key": "hermann-op2-original-3violins",
+   "status": "approved",
+   "findings": [
+    {
+     "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=55762&itemId=17887",
+     "finding": "First violin part, Peters plate 7943, pp.1–2: Adagio followed by Allegro molto; repeated double stops, rapid upper-register runs, chromatic writing, wide register changes and exposed lyrical high-position playing."
+    }
+   ],
+   "grade": {
+    "level": 8,
+    "hardestPart": "violin 1",
+    "mode": "minor",
+    "pace": "lively",
+    "character": [
+     "virtuosic"
+    ],
+    "confidence": "high",
+    "basis": "Direct first-part inspection: sustained virtuoso passagework and double-stop accuracy at Allegro molto require professional command. The three-violin texture adds exposed tuning and articulation coordination, but the inspected writing does not justify extreme-virtuoso level."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ],
+   "formatNormalization": "Character scalar wrapped as one-element array; double-bass key normalized where applicable; grade/evidence unchanged."
+  },
+  {
+   "key": "norman-gran-turismo-original-8violins",
+   "status": "approved",
+   "findings": [
+    {
+     "url": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+     "finding": "Publisher identifies an eight-violin, eight-minute work and describes its motoric virtuosity and kinetic energy."
+    }
+   ],
+   "grade": {
+    "level": 9,
+    "hardestPart": "balanced",
+    "mode": "unsure",
+    "pace": "lively",
+    "character": [
+     "virtuosic"
+    ],
+    "confidence": "medium",
+    "basis": "Repertoire-expertise assessment of Gran Turismo, supported by publisher characterization; the supplied NSO PDF is a concert programme, not a score. Its sustained racing passagework, rapid exchanges and exact eight-player coordination demand a virtuoso ensemble, above the professional baseline. No specific unseen score device is asserted."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ],
+   "formatNormalization": "Character scalar wrapped as one-element array; double-bass key normalized where applicable; grade/evidence unchanged."
+  },
+  {
+   "key": "bach-bwv971-kimura-4violins",
+   "status": "approved",
+   "findings": [
+    {
+     "url": "https://www.edition-offenburg.com/cdn/shop/products/bc-4131_ins1_2000x2000.jpg?v=1604998800",
+     "finding": "Kimura BC4131 opening page shows the first violin carrying continuous decorated semiquaver figuration over three independent accompanying parts."
+    },
+    {
+     "url": "https://www.edition-offenburg.com/cdn/shop/products/BC-4131-ins2_2000x2000.jpg?v=1604998800",
+     "finding": "Page 8 shows the richly ornamented slow-movement solo line with long slurred chromatic runs and trills, followed by the Presto opening."
+    }
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "violin 1",
+    "mode": "major",
+    "pace": "lively",
+    "character": [
+     "dance"
+    ],
+    "confidence": "high",
+    "basis": "Exact-version score previews include both the slow-movement close and finale opening. First violin agility, ornament control and long-phrase bow planning exceed the Bach Double anchor; coordinated contrapuntal articulation and balance put the work at pre-diploma level. The keyboard original was not used as an instrumental difficulty proxy."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ],
+   "formatNormalization": "Character scalar wrapped as one-element array; double-bass key normalized where applicable; grade/evidence unchanged."
+  },
+  {
+   "key": "harbison-cucaraccia-fugue-four-violas",
+   "status": "approved",
+   "findings": [
+    {
+     "url": "https://www.classicalondemand.com/cdn/shop/products/GSP24180SET_Page_1_1.jpg?v=1748534585",
+     "finding": "Publisher first page shows the Cucaraccia at quarter 144, interlocking pizzicato patterns, arco changes and an exposed first-viola solo."
+    },
+    {
+     "url": "https://www.classicalondemand.com/cdn/shop/products/GSP24180SET_Page_2_1.jpg?v=1748534585",
+     "finding": "Publisher second preview, score p.6, shows imitative entries, chromatic accidentals and a coordinated crescendo and ritardando to the close."
+    }
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "viola 1",
+    "mode": "unsure",
+    "pace": "lively",
+    "character": [
+     "playful"
+    ],
+    "confidence": "medium",
+    "basis": "Direct previews: individual technique is advanced, with the top viola’s solo line the clearest local peak. Tight interlocking pizzicato timing, matching articulation and independent contrapuntal tuning raise the ensemble assessment to pre-diploma; the short duration limits the stamina burden."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ],
+   "formatNormalization": "Character scalar wrapped as one-element array; double-bass key normalized where applicable; grade/evidence unchanged."
+  },
+  {
+   "key": "bowen-fantasia-four-violas-op41-1",
+   "status": "approved",
+   "findings": [
+    {
+     "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+     "finding": "Recording notes identify the E-minor four-viola Fantasia and describe its arch form, varied textures, energetic fast music and predominantly elegiac character."
+    },
+    {
+     "url": "https://rarestringmusic.com/wp-content/uploads/2019/02/Bowen-York-Fantasie-Quartet-for-Four-Violas-Music-1.jpg",
+     "finding": "Listed score-image URL returned HTTP 403; no score detail is claimed from that image."
+    }
+   ],
+   "grade": {
+    "level": 7,
+    "hardestPart": "viola 1",
+    "mode": "minor",
+    "pace": "moderate",
+    "character": [
+     "dark"
+    ],
+    "confidence": "medium",
+    "basis": "Repertoire-expertise assessment of the original four-viola Fantasia, with form and character corroborated by the recording notes. The leading viola’s Romantic solo writing, flexible transitions and exposed upper-register tone require diploma technique; sustaining clarity and intonation among four similar timbres reinforces that level. This is a whole-work estimate, not a claim to have inspected the inaccessible score image."
+   },
+   "approvedWorkFields": [
+    "level",
+    "hardestPart"
+   ],
+   "formatNormalization": "Character scalar wrapped as one-element array; double-bass key normalized where applicable; grade/evidence unchanged."
+  }
+ ],
+ "resume": null
+}

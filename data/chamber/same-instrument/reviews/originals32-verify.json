@@ -1,0 +1,128 @@
+{
+  "entries": [
+    {
+      "key": "toub-jk-four-violins",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://ks15.imslp.org/files/imglnks/usimg/c/c2/IMSLP480755-PMLP779146-jk_-_SCORE.pdf",
+          "finding": "Actual cached original complete score confirmed as 28 pages; extracted full text, visually checked opening-pattern page 2, central pages 10 and 20 and final page 28 with closing barline/date. Four independent violin staves, complete 437-bar continuous canon, not arrangement or excerpt."
+        },
+        {
+          "url": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29",
+          "finding": "Fresh IMSLP page confirms composer-typeset Complete Score #480755, 28 pages, original four violins or four identical treble instruments, approximately nine minutes."
+        },
+        {
+          "url": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+          "finding": "Fresh composer Bandcamp page identifies the exact work and explicitly credits Yuka Matsumoto playing all four parts, multitracked; reports first performance in Japan in April 2020. This is a human multitrack, not evidence of a live quartet. Track title says 2017 and score dates July 4\u20135, 2017; associated album release metadata says October 23, 2012. Preserve date ambiguity and leave year/composed unset."
+        }
+      ],
+      "grade": {
+        "level": 4,
+        "hardestPart": "violin 3",
+        "confidence": "medium",
+        "basis": "Broad advisory estimate against levels.json: repeated straight semiquavers at quarter=96 for roughly nine minutes, mainly stepwise one-octave scale patterns. Later third/fourth parts move to higher treble register (page 20) and alter pitch patterns, while violin 1 stays much lower; upper-part shifting, clean repeated patterns and endurance set early advanced 4, with adjacent 3\u20135 plausible. No double-stop or virtuoso bowing burden observed; no automatic ensemble uplift. Full extracted score checked with representative notation images, not exhaustive technical certification.",
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [
+          "playful"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "level",
+        "hardestPart",
+        "minutes",
+        "notes",
+        "mode",
+        "pace",
+        "character",
+        "imslpPage"
+      ],
+      "approvedDetailFields": [
+        "kind",
+        "version"
+      ],
+      "detailSources": {
+        "kind": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29",
+        "version": "https://ks15.imslp.org/files/imglnks/usimg/c/c2/IMSLP480755-PMLP779146-jk_-_SCORE.pdf"
+      },
+      "detailCorrections": {
+        "version": "original"
+      }
+    },
+    {
+      "key": "crosmer-marble-fountain-eight-violas",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://s9.imslp.org/files/imglnks/usimg/5/56/IMSLP443247-PMLP721242-Marble_Fountain_-_Score.pdf",
+          "finding": "Actual cached Complete Score #443247 is EIGHT pages, not two: pdfinfo reports 8 and every notation page 1\u20138 was visually inspected. Title, composer, dedication For Clark Potter and copyright 2016 are printed; eight independent viola staves continue through bar 59 and final barline on page 8. Correct research/scoring evidence claiming final system on page 2. This is the original complete eight-viola score, not an arrangement or excerpt."
+        },
+        {
+          "url": "https://jonathancrosmer.com/music/works/",
+          "finding": "Fresh official composer works list confirms Marble Fountain, 2016, for 8 violas."
+        },
+        {
+          "url": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+          "finding": "Fresh IMSLP page confirms one movement, approximately four minutes, eight violas, and specific first performance by NEBratsche on April 23, 2016 at Kimball Recital Hall, Lincoln, Nebraska. Composer uploaded the complete score plus Viola 1\u20138; page likewise lists score as eight pages. Named past ensemble performance satisfies human-performance floor; no separate recording URL or individual-player names are claimed."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "viola 1",
+        "confidence": "medium",
+        "basis": "All eight score pages visually inspected. Treble/alto clef changes, high sustained opening line, upper-register semiquaver figures, chromatic notes, brief five-note divisions, dotted articulations and exposed shifting in viola 1 (viola 2 close) require advanced control. Adagio fluido quarter=56 surrounds a shorter Andante marcato quarter=80 middle; other parts include offbeat sixteenth entries and occasional final harmonics. Advanced 5 on levels.json, adjacent 4\u20136 plausible. Modest duration and tempos limit velocity demands; eight players do not automatically raise the level. Advisory grade, not exhaustive certification.",
+        "mode": "minor",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dark"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "level",
+        "hardestPart",
+        "year",
+        "minutes",
+        "notes",
+        "mode",
+        "pace",
+        "character",
+        "imslpPage"
+      ],
+      "approvedDetailFields": [
+        "kind",
+        "version",
+        "composed",
+        "movements"
+      ],
+      "detailSources": {
+        "kind": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+        "version": "https://s9.imslp.org/files/imglnks/usimg/5/56/IMSLP443247-PMLP721242-Marble_Fountain_-_Score.pdf",
+        "composed": "https://jonathancrosmer.com/music/works/",
+        "movements": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)"
+      },
+      "detailCorrections": {
+        "version": "original"
+      },
+      "evidenceCorrections": {
+        "scoring.locator": "Observed IMSLP file index 443247; complete score, 8 pages",
+        "scoring.finding": "Complete original eight-viola score, 8 pages, final system and barline on page 8. All eight notation pages visually inspected."
+      }
+    }
+  ]
+}

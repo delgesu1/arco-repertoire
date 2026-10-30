@@ -1,0 +1,152 @@
+{
+ "batch": "batch-grades-14",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "alt-suite-four-double-basses",
+   "work": {
+    "composer": "Alt, Bernhard",
+    "title": "Suite for Four Double Basses",
+    "instruments": {
+     "double-bass": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "1933",
+    "minutes": 13,
+    "set": null,
+    "notes": "Four movements; basses 1–2 use solo tuning, basses 3–4 orchestral tuning."
+   },
+   "primarySources": [
+    "https://www.hofmeister-musikverlag.com/produkt/suite/",
+    "https://www.laphil.com/works/quartet-for-double-basses-alt",
+    "https://classical.music.apple.com/us/album/574404578",
+    "https://www.mcst.go.kr/site/s_culture/culture/cultureView.jsp?pSeq=53035"
+   ],
+   "actualScorePath": "data/cache/bass-verify-01/alt-preview.png"
+  },
+  {
+   "key": "lauber-quartet-double-basses-1942",
+   "work": {
+    "composer": "Lauber, Joseph",
+    "title": "Quartet for Double Basses",
+    "instruments": {
+     "double-bass": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "year": "1942",
+    "minutes": 13,
+    "set": null,
+    "notes": "Four movements; manuscript is in sounding pitch with all four basses in solo tuning.",
+    "imslpPage": "https://imslp.org/wiki/Double_Bass_Quartet_(Lauber,_Joseph)"
+   },
+   "primarySources": [
+    "https://stainer.co.uk/shop/ye0036/",
+    "https://hc.sk/en/o-slovenskej-hudbe/osobnost-detail/477-jan-krigovsky/diskografia",
+    "https://www.mcst.go.kr/site/s_culture/culture/cultureView.jsp?pSeq=53035"
+   ]
+  },
+  {
+   "key": "hauta-aho-arietta-12-double-basses",
+   "work": {
+    "composer": "Hauta-aho, Teppo",
+    "title": "Arietta for 12 Double Basses",
+    "instruments": {
+     "double-bass": 12
+    },
+    "players": 12,
+    "formation": "large-strings",
+    "form": "short",
+    "year": "1987",
+    "minutes": null,
+    "set": null,
+    "notes": "Revised from the original 16-bass version; a sustained study in harmonics and pizzicato."
+   },
+   "primarySources": [
+    "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+    "https://helsinkijazz.fi/en/events/teppo-hauta-ahon-muistokonsertin-9-6-22-kuvia-ja-artikkeleita/",
+    "https://core.musicfinland.fi/composers/teppo-hauta-aho"
+   ],
+   "actualScorePath": "data/cache/bass-verify-01/arietta-preview.jpg"
+  }
+ ]
+}

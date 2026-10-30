@@ -95,6 +95,9 @@ for (const w of works) {
   if (w.violinId != null && !v) err(w, `violinId ${w.violinId} is not in the violin catalogue`);
   if (!v && (w.id < 100001 || violinById.has(w.id))) err(w, `id ${w.id} is not a chamber id (100001 up)`);
   const id = v?.id ?? w.id;
+  const rawArranger = w.arranger ?? v?.arranger;
+  const arranger = typeof rawArranger === "string" ? rawArranger.trim() : undefined;
+  if (rawArranger !== undefined && !arranger) err(w, "arranger must be a non-empty display name");
   if (seen.has(id)) err(w, `duplicate id ${id}`);
   seen.add(id);
 
@@ -106,6 +109,7 @@ for (const w of works) {
     composerName: firstLast(w.composer),
     composerSlug: slugify(w.composer),
     title: w.title,
+    ...(arranger ? { arranger } : {}),
     level: w.level,
     era: w.era ?? meta?.era ?? "20th-century",
     dates: meta?.dates ?? "",

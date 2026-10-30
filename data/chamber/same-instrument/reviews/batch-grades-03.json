@@ -1,0 +1,162 @@
+{
+  "batch": "batch-grades-03",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "hermann-op13-original-3violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=16670&itemId=8019",
+          "finding": "Inspected the actual Simrock first-violin part throughout: Andantino 9/8 followed by Allegro scherzando 3/4, including high-register runs and written artificial harmonics. Checked 2026-10-28."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "violin 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "virtuosic"
+        ],
+        "confidence": "medium",
+        "basis": "Direct reading of the complete first-violin part, printed music pp.2\u20137. The Andantino already requires exposed high-register phrasing and rapid ornamental runs; the Allegro adds quick position changes, off-string articulation, rapid arco/pizzicato changes, artificial harmonics and octave-displaced runs. Sustained diploma-level solo control; exposed three-violin coordination supports level 7. Other two parts not inspected, so first violin is the best-supported hardest-part estimate."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "hermann-op17-original-3violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=55765&itemId=17888",
+          "finding": "Inspected the complete Kistner score: three staves throughout, contrasting Grave, Scherzo, Canzonetta, Giocoso and funeral-march/Presto finale; substantial passagework appears in all three parts. Checked 2026-10-28."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "violin 1",
+        "mode": "minor",
+        "pace": "lively",
+        "character": [
+          "dramatic",
+          "playful",
+          "virtuosic"
+        ],
+        "confidence": "high",
+        "basis": "Direct reading of the complete score, printed pp.5\u201311. All three violins carry active passagework and exposed exchanges; first violin has the most persistent high writing, trills and leaps. Grave has rapid ornamental bursts, the scherzo needs crisp coordinated articulation, Giocoso has sustained active figurations, and the final Presto demands fast shared scales, string-specific colors and precise handoffs. At roughly 22 minutes, cumulative coordination and stamina justify diploma level 7."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "hermann-op9-original-3violins",
+      "status": "held",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Burlesque,_Op.9_(Hermann,_Friedrich)",
+          "finding": "IMSLP identifies the original G-major work for three violins and a complete 10-page parts scan. PDF access resolved to a JavaScript redirect; notation was not inspected. Checked 2026-10-28."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "violin 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "humorous"
+        ],
+        "confidence": "low",
+        "basis": "Provisional expertise estimate only: this is Romantic concert violin-trio repertoire requiring an advanced lead and close ensemble articulation. I cannot distinguish pre-diploma from diploma reliably without the parts; level 6 and violin 1 are unapproved placeholders, not source-derived grades."
+      },
+      "approvedWorkFields": []
+    },
+    {
+      "key": "hermann-op5-original-3violins",
+      "status": "held",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins,_Op.5_(Hermann,_Friedrich)",
+          "finding": "IMSLP lists original G-major scoring and three separately published violin parts, seven pages each. The first-violin PDF link was inaccessible; no notation inspected. Checked 2026-10-28."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "violin 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "virtuosic"
+        ],
+        "confidence": "low",
+        "basis": "Provisional expertise estimate from the concert-capriccio genre and Hermann violin-trio writing; not a claim about unseen technical details. Level 7 and violin 1 need confirmation from this work\u2019s actual parts and must not be imported as approved."
+      },
+      "approvedWorkFields": []
+    },
+    {
+      "key": "lachner-op160-original-5cellos",
+      "status": "held",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Elegy,_Op.160_(Lachner,_Franz_Paul)",
+          "finding": "IMSLP supplies C-sharp minor and three movements (Andante, Menuetto/Allegretto, Allegro non troppo ma agitato), with manuscript score and first-edition parts. Download was blocked by redirect; notation uninspected. Checked 2026-10-28."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "mode": "minor",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dark",
+          "dramatic"
+        ],
+        "confidence": "low",
+        "basis": "Limited expertise estimate only: Romantic cello-ensemble intonation, sustained line and balance can be demanding, but no evidence here establishes precise register or technique. Provisional level 6/cello 1 remains held; movement headings support a mixed moderate overall pace."
+      },
+      "approvedWorkFields": []
+    },
+    {
+      "key": "klengel-variations-op15-4vc",
+      "status": "held",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+          "finding": "IMSLP identifies Op.15 for four cellos and a seven-page first-cello scan reprinted by IMC, plate 1764. The actual PDF was inaccessible in this pass. No notation or mode verified. Checked 2026-10-28."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "cello 1",
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "virtuosic"
+        ],
+        "confidence": "low",
+        "basis": "Limited expertise estimate only, informed by Klengel\u2019s concert cello-ensemble variation repertoire. Provisional level 7/cello 1 reflects a likely advanced leading role but the unequal technical distribution and whole-work demand were not verified from parts; retain held, with mode unsure."
+      },
+      "approvedWorkFields": []
+    }
+  ],
+  "resume": {
+    "nextKey": null,
+    "heldKeys": [
+      "hermann-op9-original-3violins",
+      "hermann-op5-original-3violins",
+      "lachner-op160-original-5cellos",
+      "klengel-variations-op15-4vc"
+    ],
+    "needed": "Actual readable parts for held works; musical grade and hardest-part fields remain unapproved."
+  }
+}

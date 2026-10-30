@@ -1,0 +1,104 @@
+{
+ "batch": "ensemble-05",
+ "accepted": [
+  {
+   "key": "norman-gran-turismo-original-8violins",
+   "id": 109153,
+   "publicId": 109153,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    8,
+    9,
+    8
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed",
+    "dedication",
+    "firstPerformance"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "bach-bwv971-kimura-4violins",
+   "id": 109151,
+   "publicId": 109151,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": true,
+   "gradeOpinions": [
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "firstPerformance",
+    "published",
+    "otherTitles"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "hermann-op2-original-3violins",
+   "id": 109152,
+   "publicId": 109152,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    7,
+    8,
+    8
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "published",
+    "otherTitles"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "qtwAcpqKcyc"
+  }
+ ],
+ "held": [
+  {
+   "key": "telemann-twv40-201-original-4violins",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "telemann-twv40-202-original-4violins",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "telemann-twv40-203-original-4violins",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "telemann-twv40-204-original-4violins",
+   "reason": "No independent approval"
+  },
+  {
+   "key": "hofmann-op104-original-3violins-set",
+   "reason": "No independent approval"
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "492ce55ad0046a89c2b90a1fbaad9591d24de4dab39a99b8d2685b64addd04cf",
+  "data/chamber/composers.json": "aa8c75821db1964b883a818c6b45a1c604f338c0675d55f1cd4f427c33ea7e5d",
+  "data/chamber/id-registry.json": "2425c9ad37bdcf19cd28df1ed8eaaacffdd7a2c198b367753f52f927b5a62e37",
+  "data/chamber/sources.json": "04e55ef21bdc812680ee6b8620a3457f9f47315aae77026adb0a6ed01c0090d8",
+  "data/details/overrides.json": "211b393afe5f37470339da83c3464a88e6e92a60c795cee25261d7e909328745",
+  "data/chamber/recordings-judged.json": "23151244c648560c719c1c7e43c03a7f89e7f7722afa27c5e451f2d42b8af1fc",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/pilot-violin.json": "f5b44f86425a2ec53fa29055a4a5ef46610f75a641a90965dc6809a21e661436",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/review-pilot-violin-new.json": "2cb887e4b613c05aa06d14e0dfbbcf4a617db147699827c96d6c7d2e0a5a90da",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grades-01-normalized.json": "60df05a62db713c9a6614278e3379f9cacadd101d9b898f4ab37fe4ff871c29a",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-grade-norman.json": "661d4ea7cb57d0457bacf654e28343eecbb816b5f75cc435ef54d0ca2b5bdf0c"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-05"
+}

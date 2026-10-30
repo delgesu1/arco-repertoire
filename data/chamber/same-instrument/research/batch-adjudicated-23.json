@@ -1,0 +1,310 @@
+{
+ "batch": "ensemble-23",
+ "entries": [
+  {
+   "key": "alencar-ceu-e-nuvens-ii",
+   "decision": "include",
+   "requiresFactReview": false,
+   "reason": "Original fixed scoring, complete obtainable notation and exact credited human recording established.",
+   "work": {
+    "composer": "Alencar, Gabriel",
+    "title": "Céu e Nuvens II",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": 3,
+    "hardestPart": "cello 1",
+    "year": "2018",
+    "minutes": 2,
+    "set": null,
+    "notes": "Original for 4 cellos.",
+    "popularity": null,
+    "mode": "minor",
+    "pace": "slow",
+    "character": [
+     "lyrical",
+     "tender"
+    ],
+    "imslpPage": "Céu e Nuvens II (Alencar, Gabriel)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 3201087",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/1040503.json"
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Alencar%2C_Gabriel",
+      "finding": "Composer biography fields retrieved in one API query; cache originals01-composers.json."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "finding": "4 cellos; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/648564",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/1040503.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "finding": "Human multitrack explicitly credited; accepted as recorded human playing, not a live ensemble. Credits: Gabriel Alencar, multitrack cello quartet"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.title": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.instruments": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.players": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.year": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.minutes": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.imslpPage": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "details.composed": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "details.firstPerformance": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Sustained exposed upper-register cello line, slow bow control and four-part intonation; simple rhythms.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/1040503.png"
+   },
+   "recordingResearch": {
+    "status": "human-performance-established",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+      "performers": [
+       "Gabriel Alencar, multitrack cello quartet"
+      ],
+      "finding": "Human multitrack explicitly credited; accepted as recorded human playing, not a live ensemble.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   },
+   "composerMetadata": {
+    "dates": "1991–",
+    "nationality": "Brazilian",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "composed": "2018",
+    "firstPerformance": "2018"
+   }
+  },
+  {
+   "key": "trapkus-trio-three-violins",
+   "decision": "include",
+   "requiresFactReview": false,
+   "reason": "Original fixed scoring, complete obtainable notation and exact credited human recording established.",
+   "work": {
+    "composer": "Trapkus, Paul",
+    "title": "Trio for 3 Violins",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "level": 4,
+    "hardestPart": "violin 1",
+    "year": "2012",
+    "minutes": 6,
+    "set": null,
+    "notes": "Original for 3 violins.",
+    "popularity": null,
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "playful"
+    ],
+    "imslpPage": "Trio for 3 Violins (Trapkus, Paul)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 4424925",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/393487.json"
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Trapkus%2C_Paul",
+      "finding": "Composer biography fields retrieved in one API query; cache originals01-composers.json."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "finding": "3 violins; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/242973",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/393487.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "finding": "Named human ensemble credited in the exact original-version Complete Recording/Performance block. Credits: Paul Trapkus, Annalise Ohse, Ryan Coppin (violins)"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.title": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.instruments": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.players": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.year": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.minutes": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.imslpPage": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "details.composed": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "details.published": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "details.dedication": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Score p.2 plus opening tempo context q=170: persistent articulated eighth notes, string-crossing patterns, double stops and three-part coordination.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/393487.png"
+   },
+   "recordingResearch": {
+    "status": "human-performance-established",
+    "candidates": [
+     {
+      "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+      "performers": [
+       "Paul Trapkus, Annalise Ohse, Ryan Coppin (violins)"
+      ],
+      "finding": "Named human ensemble credited in the exact original-version Complete Recording/Performance block.",
+      "locator": "Original instrumentation audio block"
+     }
+    ]
+   },
+   "composerMetadata": {
+    "dates": "1987–",
+    "nationality": "American",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "composed": "2012",
+    "published": "2012",
+    "dedication": "For Annalise and Ryan"
+   }
+  },
+  {
+   "key": "tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "Original double-bass-only ensemble work with a cached publisher preview of playable score material and publisher documentation of a completed performance.",
+   "work": {
+    "composer": "Osborne, Tony",
+    "title": "Bassos Paraguayos for Double Bass Quartet",
+    "instruments": {
+     "double-bass": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "2005",
+    "minutes": null,
+    "set": null,
+    "notes": "Intermediate quartet with Paraguayan-inspired rhythms and lively character.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": []
+   },
+   "composerMetadata": {
+    "dates": "1947–2019",
+    "nationality": "",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "kind": "single",
+    "composed": "2005"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+      "checkedOn": "2026-10-28",
+      "locator": "About the Composition / performance history",
+      "finding": "Publisher states it premiered 27 August 2005 at Saint Claud Music Festival, France, performed by David Heyes, Pauline Vos, Ben Groenevelt and James Adolpho; it also reports later performances in Poland, America and the UK. Cached preview shows score notation."
+     },
+     {
+      "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_3fa0452f-89f1-4d5a-b55a-5594e5769c59.png?v=1743910016",
+      "checkedOn": "2026-10-28",
+      "locator": "Publisher score preview",
+      "finding": "Publisher product catalogue includes this observed score/part sample image; image inspection confirms notation for the named four-bass version."
+     }
+    ],
+    "scoring": {
+     "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_3fa0452f-89f1-4d5a-b55a-5594e5769c59.png?v=1743910016",
+     "locator": "Publisher score preview",
+     "finding": "Visible publisher preview is score-format notation for four double basses; the cataloged purchasable edition offers the work. Full supplied materials should be checked in fact review."
+    },
+    "floor": {
+     "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "finding": "Publisher states it premiered 27 August 2005 at Saint Claud Music Festival, France, performed by David Heyes, Pauline Vos, Ben Groenevelt and James Adolpho; it also reports later performances in Poland, America and the UK. Cached preview shows score notation."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "finding": "Original work for four double basses; publisher edition preview confirms the work/version."
+    },
+    "fieldSources": {
+     "work.composer": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.title": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.instruments": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.players": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.year": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.notes": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "details.kind": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet"
+    },
+    "unknowns": [
+     "Full extent of supplied score/parts and any part-specific difficulty not verified from preview.",
+     "No precise duration or performer grade assigned."
+    ],
+    "researcherGrade": "low"
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass source extraction only; no researcher difficulty vote."
+   }
+  }
+ ]
+}

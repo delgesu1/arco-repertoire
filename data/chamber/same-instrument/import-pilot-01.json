@@ -1,0 +1,38 @@
+{
+ "batch": "pilot-01",
+ "accepted": [
+  {
+   "key": "telemann-twv40-201-original-4violins",
+   "sourceId": 109144,
+   "publicId": 568,
+   "title": "Concerto for 4 Violins in G major, TWV 40:201 (unaccompanied)",
+   "status": "cross-listed",
+   "youtube": "existing violin pick preserved"
+  },
+  {
+   "key": "telemann-twv40-202-original-4violins",
+   "sourceId": 109145,
+   "publicId": 109145,
+   "title": "Concerto for 4 Violins in D major, TWV 40:202",
+   "status": "added",
+   "youtube": "no newly approved primary"
+  },
+  {
+   "key": "telemann-twv40-203-original-4violins",
+   "sourceId": 109146,
+   "publicId": 109146,
+   "title": "Concerto for 4 Violins in C major, TWV 40:203",
+   "status": "added",
+   "youtube": "no newly approved primary"
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "dc48aac9cfe0f08155aacfb350feb69ceab1f1e4a1df062c7ed09308a3a3ae75",
+  "data/chamber/id-registry.json": "7f69c092f6f6861444fc1548fd984c0086937f014ce1fc9f2f7075d4f9ace4d6",
+  "data/chamber/sources.json": "0a7ff3a494e568faa5025a73e4bd5796c0452407527e929c1d888fe61a4cd3e4",
+  "data/details/overrides.json": null
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/pilot-01",
+ "review": "data/chamber/same-instrument/reviews/review-pilot-01.json",
+ "note": "Two new works and one cross-list; no unverified YouTube primary imported. Other pilot entries remain staged for independent verification."
+}

@@ -1,0 +1,2109 @@
+{
+  "batch": "batch-recordings-01",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "recording-109145",
+      "existingPublicId": 109145,
+      "decision": "include",
+      "work": {
+        "composer": "Telemann, Georg Philipp",
+        "title": "Concerto for 4 Violins in D major, TWV 40:202",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 3,
+        "hardestPart": "balanced",
+        "year": "",
+        "minutes": 6,
+        "set": null,
+        "notes": "Four independent violins without continuo",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "lyrical"
+        ],
+        "imslpPage": "4 Concerti for 4 Violins, TWV 40:201-204 (Telemann, Georg Philipp)",
+        "id": 109145
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=aUfIC3s_xNc",
+            "finding": "Official OAE upload identifies four violinists and all four movements at 0:00, 0:36, 2:22, 4:17. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=aUfIC3s_xNc",
+          "finding": "Official OAE upload identifies four violinists and all four movements at 0:00, 0:36, 2:22, 4:17."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Official OAE upload identifies four violinists and all four movements at 0:00, 0:36, 2:22, 4:17.",
+        "candidates": [
+          {
+            "id": "aUfIC3s_xNc",
+            "title": "TELEMANN: Concerto for 4 Violins in D major TWV 40:202a",
+            "channel": "Orchestra of the Age of Enlightenment",
+            "description": "Did you know? You can support the orchestra and our players by making a donation to the OAE\nhttps://tickets.oae.co.uk/donate/contribute1\n\nGEORG PHILIPP TELEMANN \rConcerto for 4 Violins in D major TWV 40:202a\r\n\n0:00 Adagio\n0:36 Allegro\n2:22 Grave\n4:17 Allegro\n\nViolins: \rKati Debretzeni, Debbie Diamond, Rebecca Livermore Daniel Edgar\n\n___\nSubscribe: https://www.youtube.com/channel/UCrHICovzXa3ePnfRqUV5wkQ\n\nWebsite: http://oae.co.uk\nFacebook: https://www.facebook.com/orchestraoftheageofenlightenment\nTwitter: https://twitter.com/theoae\nInstagram: https://www.instagram.com/oae_photos/",
+            "performerCredits": "Kati Debretzeni; Debbie Diamond; Rebecca Livermore; Daniel Edgar",
+            "seconds": 358,
+            "views": 12457,
+            "metadataCache": "data/cache/same-instrument-recordings/aUfIC3s_xNc.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "-knLIUpbR3o",
+            "title": "Concerto for 4 violins 🎻 in D Major TWV 40:202 by Telemann",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "jvzB7k_7JRs",
+            "title": "Georg Philip Telemann – 4 Concerti for 4 Violins, TWV 40",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "Yl3ZGC0c-eI",
+            "title": "Telemann Concerto for 4 Violins No. 2 in D major TWV 40:202",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109146",
+      "existingPublicId": 109146,
+      "decision": "include",
+      "work": {
+        "composer": "Telemann, Georg Philipp",
+        "title": "Concerto for 4 Violins in C major, TWV 40:203",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 3,
+        "hardestPart": "balanced",
+        "year": "",
+        "minutes": 9,
+        "set": null,
+        "notes": "Four independent violins without continuo",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful"
+        ],
+        "imslpPage": "4 Concerti for 4 Violins, TWV 40:201-204 (Telemann, Georg Philipp)",
+        "id": 109146
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "Compilation lists complete C-major concerto but credits only an external audio link and following; source link retrieved credits a different concerto movement. Complete performer attribution for exact C-major excerpt remains unresolved. Other inputs are partial movements or four-guitar arrangement."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "Compilation lists complete C-major concerto but credits only an external audio link and following; source link retrieved credits a different concerto movement. Complete performer attribution for exact C-major excerpt remains unresolved. Other inputs are partial movements or four-guitar arrangement.",
+        "candidates": [],
+        "unselectedCandidates": [
+          {
+            "id": "jvzB7k_7JRs",
+            "title": "Georg Philip Telemann – 4 Concerti for 4 Violins, TWV 40",
+            "reason": "Compilation lists complete C-major concerto but credits only an external audio link and following; source link retrieved credits a different concerto movement. Complete performer attribution for exact C-major excerpt remains unresolved. Other inputs are partial movements or four-guitar arrangement."
+          },
+          {
+            "id": "eslA5NSaons",
+            "title": "Telemann Concerto for 4 Violins No. 3 in C major TWV 40:203",
+            "reason": "Compilation lists complete C-major concerto but credits only an external audio link and following; source link retrieved credits a different concerto movement. Complete performer attribution for exact C-major excerpt remains unresolved. Other inputs are partial movements or four-guitar arrangement."
+          },
+          {
+            "id": "a3-24RjWSBA",
+            "title": "Telemann - Concerto in C Major for Four Guitars TWV 40;203 (orig. for four violins)",
+            "reason": "Compilation lists complete C-major concerto but credits only an external audio link and following; source link retrieved credits a different concerto movement. Complete performer attribution for exact C-major excerpt remains unresolved. Other inputs are partial movements or four-guitar arrangement."
+          },
+          {
+            "id": "Y5jwLbRwV8U",
+            "title": "Concerto for Four Violins in C major, TWV 40:203, I. Grave II. Allegro - G.P Telemann",
+            "reason": "Compilation lists complete C-major concerto but credits only an external audio link and following; source link retrieved credits a different concerto movement. Complete performer attribution for exact C-major excerpt remains unresolved. Other inputs are partial movements or four-guitar arrangement."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109147",
+      "existingPublicId": 109147,
+      "decision": "include",
+      "work": {
+        "composer": "Weinzierl, Max von",
+        "title": "Nachtstück for Four Violas, Op. 34",
+        "instruments": {
+          "viola": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "short",
+        "level": 6,
+        "hardestPart": "viola 1",
+        "year": "",
+        "minutes": 8,
+        "set": null,
+        "notes": "Original version for four violas; also published with alternative string-quartet parts.",
+        "popularity": "lesser-known",
+        "mode": "minor",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful",
+          "dramatic"
+        ],
+        "id": 109147
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=8HvGbn5sexE",
+            "finding": "Official Chigiana complete Nachtstück for four violas; live Siena 29 July 2023 with all four players credited. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=8HvGbn5sexE",
+          "finding": "Official Chigiana complete Nachtstück for four violas; live Siena 29 July 2023 with all four players credited."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Official Chigiana complete Nachtstück for four violas; live Siena 29 July 2023 with all four players credited.",
+        "candidates": [
+          {
+            "id": "8HvGbn5sexE",
+            "title": "CHIGIANA FACTOR 2023: Max von Weinzierl, Nachtstück per 4 viole op.34",
+            "channel": "Accademia Musicale Chigiana",
+            "description": "Discover Accademia Musicale Chigiana\n👉 Website: https://www.chigiana.org/\n👉 Chigiana Digital, our music on demand: https://www.digital.chigiana.org/?lang=it\n---------------------------------------------------------------------------------------------------------------------------------------\nCHIGIANA INTERNATIONAL FESTIVAL & SUMMER ACADEMY 2023 \"PAROLA\"\n\"Chigiana Factor\", Allievi del Corso di di Viola\nTabea Zimmermann, docente\nMana Oguchi, maestro collaboratore al pianoforte\n\nTabea Zimmermann\nLuz Elisabeth Sánchez Suero\nJosef Hundsbichler\nEdoardo Cessari\n\nMax von Weinzierl (1841 - 1898)\nNachtstück per 4 viole op.34 \n\nRegistrato a Siena, 29 luglio 2023\nAccademia Musicale Chigiana\nPalazzo Chigi Saracini, Salone dei Concerti\n\nVideo: Lorenzo Bianciardi, Francesco Bicci, Gianfranco Ripolo\nAudio: Mattia Cella\nAccademia Chigiana©2023\n\n\n\n---------------------------------------------------------------------------------------------------------------------------------------\nFollow Accademia Chigiana\nInstagram 👉 https://www.instagram.com/chigiana/\nFacebook 👉 https://www.facebook.com/AccademiaChigiana",
+            "performerCredits": "Tabea Zimmermann; Luz Elisabeth Sánchez Suero; Josef Hundsbichler; Edoardo Cessari",
+            "seconds": 577,
+            "views": 543,
+            "metadataCache": "data/cache/same-instrument-recordings/8HvGbn5sexE.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "mjLEs8JPcMY",
+            "title": "Max von Weinzierl: Nachtstück für 4 Violen",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "rbU2ZUbmIbc",
+            "title": "M.v.Weinzierl : Nachtstuck",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "t_rsVg8l6Sg",
+            "title": "Max von Weinzierl - Nachtstuck for 4 Violas, Op.34",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109148",
+      "existingPublicId": 109148,
+      "decision": "include",
+      "work": {
+        "composer": "Klengel, Julius",
+        "title": "Hymnus in G major, Op. 57",
+        "instruments": {
+          "cello": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "short",
+        "level": 6,
+        "hardestPart": "cello 1",
+        "year": "1920",
+        "minutes": null,
+        "set": null,
+        "notes": "Andante cantabile for twelve cellos",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "tender"
+        ],
+        "imslpPage": "Hymnus for 12 Cellos, Op.57 (Klengel, Julius)",
+        "id": 109148
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ySGkv4VJr7k",
+            "finding": "Producer upload credits twelve cellists of Deutsche Stiftung Musikleben at Elbphilharmonie; full Hymnus, 6:12. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=ySGkv4VJr7k",
+          "finding": "Producer upload credits twelve cellists of Deutsche Stiftung Musikleben at Elbphilharmonie; full Hymnus, 6:12."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Producer upload credits twelve cellists of Deutsche Stiftung Musikleben at Elbphilharmonie; full Hymnus, 6:12.",
+        "candidates": [
+          {
+            "id": "ySGkv4VJr7k",
+            "title": "Julius Klengel - Hymnus für 12 Celli, op. 57 - Die 12 Cellisten der Deutschen Stiftung Musikleben",
+            "channel": "Tune & Focus",
+            "description": "DSM's 12 Cellists at Elbphilharmonie Hamburg.\nTune & Focus Films, 2017.\nhttps://www.facebook.com/tuneandfocus/\nwww.tuneandfocus.com\n\nSo klingt die Zukunft!\n55 Jahre Deutsche Stiftung Musikleben\n\nDie 12 Cellisten der Deutschen Stiftung Musikleben\nAndrei Ioniță, Christoph Heesch, Katarina Schmidt, Tony Rymer, Simone Drescher, Olena Guliei, Jakob Stepp, Stanislas Kim, Svenja Schmidt-Rüdt, Lionnel Martin, Wassily Gerassimez, Benedict Kloeckner\n\nRegie\nJakob Mäsel\n\nBildgestaltung\nDavid Schittek\n\nCopyright \nTune & Focus Films  /  Deutsche Stiftung Musikleben, 2017.",
+            "performerCredits": "Andrei Ioniță; Christoph Heesch; Katarina Schmidt; Tony Rymer; Simone Drescher; Olena Guliei; Jakob Stepp; Stanislas Kim; Svenja Schmidt-Rüdt; Lionnel Martin; Wassily Gerassimez; Benedict Kloeckner",
+            "seconds": 372,
+            "views": 347731,
+            "metadataCache": "data/cache/same-instrument-recordings/ySGkv4VJr7k.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "vyIIUAHxQJI",
+            "title": "Julius Klengel - Hymnus for Twelve Celli, Op. 57 (1920) [Score-Video]",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "oruJzhMUBh0",
+            "title": "Klengel: Hymnus / 12 Cellists of the Berliner Philharmoniker",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "6sORx5z_i8A",
+            "title": "Julius Klengel Hymnus for 12 Cellos, Op.57",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109149",
+      "existingPublicId": 109149,
+      "decision": "include",
+      "work": {
+        "composer": "Jacob, Gordon",
+        "title": "Suite for Eight Violas",
+        "instruments": {
+          "viola": 8
+        },
+        "players": 8,
+        "formation": "large-strings",
+        "form": "work",
+        "level": 6,
+        "hardestPart": "viola 1",
+        "year": "1976",
+        "minutes": 11,
+        "set": null,
+        "notes": "Four-movement suite for eight violas.",
+        "popularity": "lesser-known",
+        "mode": null,
+        "pace": "lively",
+        "character": [
+          "dance"
+        ],
+        "id": 109149
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Vmu5KvtszbA",
+            "finding": "Official Sacconi Festival upload identifies all eight viola players; complete 11:14 suite. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=Vmu5KvtszbA",
+          "finding": "Official Sacconi Festival upload identifies all eight viola players; complete 11:14 suite."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Official Sacconi Festival upload identifies all eight viola players; complete 11:14 suite.",
+        "candidates": [
+          {
+            "id": "Vmu5KvtszbA",
+            "title": "Gordon Jacob: Suite for Eight Violas - LIVE in Folkestone 2016",
+            "channel": "SacconiQuartet",
+            "description": "From The Sacconi Chamber Music Festival 2016, Folkestone.\n\nPerformed by:\nRoger Chase\nAndriy Viytovych\nGarfield Jackson\nLisa Bucknell\nRobin Ashwell\nDouglas Paterson\nNazli Erdogan\nYukiko Ogura",
+            "performerCredits": "Roger Chase; Andriy Viytovych; Garfield Jackson; Lisa Bucknell; Robin Ashwell; Douglas Paterson; Nazli Erdogan; Yukiko Ogura",
+            "seconds": 674,
+            "views": 5797,
+            "metadataCache": "data/cache/same-instrument-recordings/Vmu5KvtszbA.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "pNPBGU-k9v8",
+            "title": "Suite for Eight Violas: I. Dedication",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "gaOZK5fdx5A",
+            "title": "Suite for Eight Violas: III. Chorale",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "F7mNQu2oqdw",
+            "title": "Gordon Jacob: Suite for Eight Violins",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109150",
+      "existingPublicId": 109150,
+      "decision": "include",
+      "work": {
+        "composer": "Bottesini, Giovanni",
+        "title": "Passione amorosa for Four Double Basses",
+        "instruments": {
+          "double-bass": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 8,
+        "hardestPart": "double-bass 1",
+        "year": "",
+        "minutes": 12,
+        "set": null,
+        "notes": "Unaccompanied transcription for four double basses.",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "virtuosic"
+        ],
+        "arranger": "Klaus Trumpf",
+        "id": 109150
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "Inputs are individual movements, an ambiguous long concert compilation without verified exact arrangement/extent, or a short Seoul excerpt; no complete Klaus Trumpf four-bass arrangement established."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "Inputs are individual movements, an ambiguous long concert compilation without verified exact arrangement/extent, or a short Seoul excerpt; no complete Klaus Trumpf four-bass arrangement established.",
+        "candidates": [],
+        "unselectedCandidates": [
+          {
+            "id": "d-5woxig4cw",
+            "title": "IN FUEGO 1st mvt Passione Amorosa",
+            "reason": "Inputs are individual movements, an ambiguous long concert compilation without verified exact arrangement/extent, or a short Seoul excerpt; no complete Klaus Trumpf four-bass arrangement established."
+          },
+          {
+            "id": "hoieJDoMTcY",
+            "title": "IN FUEGO 2nd mvt Passione Amorosa",
+            "reason": "Inputs are individual movements, an ambiguous long concert compilation without verified exact arrangement/extent, or a short Seoul excerpt; no complete Klaus Trumpf four-bass arrangement established."
+          },
+          {
+            "id": "bVNKvaGZ4Ls",
+            "title": "BASSIONA AMOROSA | Jetzt mit euch!",
+            "reason": "Inputs are individual movements, an ambiguous long concert compilation without verified exact arrangement/extent, or a short Seoul excerpt; no complete Klaus Trumpf four-bass arrangement established."
+          },
+          {
+            "id": "tfUFg3XYdz0",
+            "title": "BASSIONA AMOROSA -- in Seoul/Korea",
+            "reason": "Inputs are individual movements, an ambiguous long concert compilation without verified exact arrangement/extent, or a short Seoul excerpt; no complete Klaus Trumpf four-bass arrangement established."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109151",
+      "existingPublicId": 109151,
+      "decision": "include",
+      "work": {
+        "composer": "Bach, Johann Sebastian",
+        "title": "Italian Concerto, BWV 971 (version for 4 Violins)",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 6,
+        "hardestPart": "violin 1",
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "Complete three-movement arrangement for four violins",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "dance"
+        ],
+        "arranger": "Mihoko Kimura",
+        "id": 109151
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "No candidates supplied for exact Mihoko Kimura four-violin arrangement."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "No candidates supplied for exact Mihoko Kimura four-violin arrangement.",
+        "candidates": [],
+        "unselectedCandidates": []
+      }
+    },
+    {
+      "key": "recording-109153",
+      "existingPublicId": 109153,
+      "decision": "include",
+      "work": {
+        "composer": "Norman, Andrew",
+        "title": "Gran Turismo for 8 Violins",
+        "instruments": {
+          "violin": 8
+        },
+        "players": 8,
+        "formation": "large-strings",
+        "form": "short",
+        "level": 8,
+        "hardestPart": "balanced",
+        "year": "2004",
+        "minutes": 8,
+        "set": null,
+        "notes": "For eight virtuoso violinists; motoric concert piece",
+        "popularity": "lesser-known",
+        "mode": null,
+        "pace": "lively",
+        "character": [
+          "virtuosic",
+          "dramatic"
+        ],
+        "id": 109153
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=LK_QPOJQqYI",
+            "finding": "Official New York Classical Players music video identifies violin octet and all eight violinists; complete Gran Turismo. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=LK_QPOJQqYI",
+          "finding": "Official New York Classical Players music video identifies violin octet and all eight violinists; complete Gran Turismo."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Official New York Classical Players music video identifies violin octet and all eight violinists; complete Gran Turismo.",
+        "candidates": [
+          {
+            "id": "LK_QPOJQqYI",
+            "title": "[Monthly Spotlight] Jan 2021 - Official MV \"Gran Turismo\"",
+            "channel": "New York Classical Players",
+            "description": "[Monthly Sportlight 4] January 2021\nANDREW NORMAN / Gran Turismo\nscored for violin octet\n\nVIOLIN\nBrian Hong\nElizabeth Fayette\nAmelia Dietrich\nStephanie Zyzak\nRannveig Sarc\nChristine Wu\nEmma Frucht\nSiwoo Kim\n\n\n[PROGRAM NOTE]\nRewind my life a bit and you might find a particular week in 2003 when I was researching the art of Italian Futurist Giacomo Balla for a term paper, watching my roommates play a car racing video game called Gran Turismo, and thinking about the legacy of Baroque string virtuosity as a point of departure for my next project. It didn’t take long before I felt the resonances between these different activities, and it was out of their unexpected convergence that this piece was born.\n- Andrew Norman\n\n\n__________\n\nFollow us on:\nOfficial Website ► http://nycpmusic.org\nInstagram ► http://www.instagram.com/nycpmusic\nFacebook page ► http://www.facebook.com/nycpmusic\nYoutube channel ► http://www.youtube.com/@nycpmusic  \nNYCP edition rental inquiry  ► https://www.nycpmusic.org/music-rental\n\n__________\n\n\"Exuberant chamber orchestra!\"\n\"Admirably dedicated to bringing free music!\"\n- TIMEOUT NEW YORK -\n\nNEW YORK CLASSICAL PLAYERS\n\nFounded in 2010, New York Classical Players (NYCP) is an ensemble dedicated to the highest standards of artistry, collaboration, and virtuosity. Fueled by the belief that access to musical excellence is an essential human right, NYCP presents all of its concerts free of charge. NYCP is comprised of dynamic young musicians who are launching their professional careers. Graduates of some of the world’s leading conservatories come together as NYCP to share free performances of familiar masterpieces, bold new commissions, and unexpected musical treasures with the public. Each season, thousands of NYCP concertgoers experience both the dynamic power of the orchestral repertoire and the versatile intimacy of chamber performance – without charge. NYCP is under the direction of Founder and Music Director Dongmin Kim, and a committed board of directors guides and supports the organization.",
+            "performerCredits": "Brian Hong; Elizabeth Fayette; Amelia Dietrich; Stephanie Zyzak; Rannveig Sarc; Christine Wu; Emma Frucht; Siwoo Kim",
+            "seconds": 505,
+            "views": 1762,
+            "metadataCache": "data/cache/same-instrument-recordings/LK_QPOJQqYI.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "jH1b9jH2sg0",
+            "title": "Andrew Norman - Gran Turismo for violin octet (2004) / 2017 Colorado College Music Festival",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "dpDjvUavjQI",
+            "title": "Andrew Norman | Gran Turismo for eight virtuoso violinists | Academy Chamber Orchestra",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "utxm8RvWXws",
+            "title": "Andrew Norman: Gran Turismo",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109156",
+      "existingPublicId": 109156,
+      "decision": "include",
+      "work": {
+        "composer": "Hermann, Friedrich",
+        "title": "Capriccio No. 3 in A major for 3 Violins, Op. 13",
+        "instruments": {
+          "violin": 3
+        },
+        "players": 3,
+        "formation": "string-trio",
+        "form": "work",
+        "level": 7,
+        "hardestPart": "violin 1",
+        "year": "",
+        "minutes": 8,
+        "set": null,
+        "notes": "Three independent violins; complete original work, without accompaniment.",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "virtuosic"
+        ],
+        "imslpPage": "Capriccio No.3 for 3 Violins, Op.13 (Hermann, Friedrich)",
+        "id": 109156
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=et7dXXfijVA",
+            "finding": "Naxos label-delivered complete Capriccio No.3 Op.13; three violinists credited. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=et7dXXfijVA",
+          "finding": "Naxos label-delivered complete Capriccio No.3 Op.13; three violinists credited."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Naxos label-delivered complete Capriccio No.3 Op.13; three violinists credited.",
+        "candidates": [
+          {
+            "id": "et7dXXfijVA",
+            "title": "Capriccio No. 3 for 3 Violins in A major, Op. 13",
+            "channel": "Reto Kuppel - Topic",
+            "description": "Provided to YouTube by NAXOS of America\n\nCapriccio No. 3 for 3 Violins in A major, Op. 13 · Reto Kuppel\n\nHermann: 3 Capriccios - Grand Duo Brillant - Suite in D minor\n\n℗ 2010 Naxos\n\nReleased on: 2010-11-16\n\nArtist: Alexia Eichhorn\nArtist: Friedemann Eichhorn\nComposer: Friedrich Hermann\nArtist: Reto Kuppel\nProducer: Bernhard Albrecht\nEngineer: Wolfgang Karreth\n\nAuto-generated by YouTube.",
+            "performerCredits": "Reto Kuppel; Alexia Eichhorn; Friedemann Eichhorn",
+            "seconds": 458,
+            "views": 5376,
+            "metadataCache": "data/cache/same-instrument-recordings/et7dXXfijVA.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "C9pEwbbGUZ8",
+            "title": "Hermann - Capriccio for 3 Violins Op. 5",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "YyjC2yEaW38",
+            "title": "F.Hermann | Capriccio for 3 violins, Op. 2 | Jiyoon Lee | Niek Baar | Mayumi Kanagawa HD",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "w8bKT0CdjdY",
+            "title": "Capriccio No.1 for 3 Violins Op.2 By Friedrich Hermann (with Score)",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109157",
+      "existingPublicId": 109157,
+      "decision": "include",
+      "work": {
+        "composer": "Hermann, Friedrich",
+        "title": "Suite in D minor for 3 Violins, Op. 17",
+        "instruments": {
+          "violin": 3
+        },
+        "players": 3,
+        "formation": "string-trio",
+        "form": "work",
+        "level": 7,
+        "hardestPart": "violin 1",
+        "year": "",
+        "minutes": 23,
+        "set": null,
+        "notes": "Three independent violins; complete original work, without accompaniment.",
+        "popularity": "lesser-known",
+        "mode": "minor",
+        "pace": "lively",
+        "character": [
+          "dramatic",
+          "playful",
+          "virtuosic"
+        ],
+        "imslpPage": "Suite, Op.17 (Hermann, Friedrich)",
+        "id": 109157
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "Score video has no performer/source credits; human-performance and excluded-performer checks cannot be completed. Other inputs are different Hermann works."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "Score video has no performer/source credits; human-performance and excluded-performer checks cannot be completed. Other inputs are different Hermann works.",
+        "candidates": [],
+        "unselectedCandidates": [
+          {
+            "id": "HeXg4_3HoPQ",
+            "title": "Suite for 3 Violins Op.17 By Friedrich Hermann (with Score)",
+            "reason": "Score video has no performer/source credits; human-performance and excluded-performer checks cannot be completed. Other inputs are different Hermann works."
+          },
+          {
+            "id": "w8bKT0CdjdY",
+            "title": "Capriccio No.1 for 3 Violins Op.2 By Friedrich Hermann (with Score)",
+            "reason": "Score video has no performer/source credits; human-performance and excluded-performer checks cannot be completed. Other inputs are different Hermann works."
+          },
+          {
+            "id": "YyjC2yEaW38",
+            "title": "F.Hermann | Capriccio for 3 violins, Op. 2 | Jiyoon Lee | Niek Baar | Mayumi Kanagawa HD",
+            "reason": "Score video has no performer/source credits; human-performance and excluded-performer checks cannot be completed. Other inputs are different Hermann works."
+          },
+          {
+            "id": "NKXxPGzueCs",
+            "title": "Friedrich Hermann Cappricio for 3 violins CMW December 2018",
+            "reason": "Score video has no performer/source credits; human-performance and excluded-performer checks cannot be completed. Other inputs are different Hermann works."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109158",
+      "existingPublicId": 109158,
+      "decision": "include",
+      "work": {
+        "composer": "Bacewicz, Grażyna",
+        "title": "Quartet for 4 Violins",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 6,
+        "hardestPart": "violin 1",
+        "year": "1949",
+        "minutes": 13,
+        "set": null,
+        "notes": "Three-movement quartet for four independent violins.",
+        "popularity": "lesser-known",
+        "mode": null,
+        "pace": "lively",
+        "character": [
+          "playful",
+          "lyrical",
+          "dramatic"
+        ],
+        "imslpPage": "Quartet for 4 Violins (Bacewicz, Grażyna)",
+        "id": 109158
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=W_PwGM3oRR8",
+            "finding": "Official WDR performance with all four violinists and all three movements timestamped. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=W_PwGM3oRR8",
+          "finding": "Official WDR performance with all four violinists and all three movements timestamped."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Official WDR performance with all four violinists and all three movements timestamped.",
+        "candidates": [
+          {
+            "id": "W_PwGM3oRR8",
+            "title": "Bacewicz - Quartett für vier Violinen | WDR Sinfonieorchester",
+            "channel": "ARD Klassik",
+            "description": "Quartett für vier Violinen von Grażyna Bacewicz, gespielt von Mitgliedern des WDR Sinfonieorchesters. Live aufgenommen am 05.11.2023 im WDR Funkhaus Köln. \n\nGrażyna Bacewicz - Quartett für vier Violinen\n\n00:00:00 - I. Allegretto\n00:04:28 - II. Andante Tranquillo\n00:08:08 - III. Molto Allegro\n\nSlava Chestiglazov, Violine\nElizaveta Goldenberg, Violine\nMascha Wehrmeyer, Violine\nCaroline Kunfalvi, Violine\n\n► Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://sinfonieorchester.wdr.de \n► Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n► Weitere Konzerte und Werkeinführungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte für Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+            "performerCredits": "Slava Chestiglazov; Elizaveta Goldenberg; Mascha Wehrmeyer; Caroline Kunfalvi",
+            "seconds": 655,
+            "views": 12595,
+            "metadataCache": "data/cache/same-instrument-recordings/W_PwGM3oRR8.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "RaEcs1ZQoVk",
+            "title": "Grażyna Bacewicz - Quartet for Four Violins",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "6QSLfutkJZo",
+            "title": "Grażyna Bacewicz, Quartet for Four Violins",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "A6jvVl5vLqI",
+            "title": "Grazyna Bacewicz, Quartet for 4 violins",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109159",
+      "existingPublicId": 109159,
+      "decision": "include",
+      "work": {
+        "composer": "Blacher, Boris",
+        "title": "Blues, Espagnola und Rumba philharmonica",
+        "instruments": {
+          "cello": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "work",
+        "level": 8,
+        "hardestPart": "balanced",
+        "year": "1972",
+        "minutes": 12,
+        "set": null,
+        "notes": "Three movements for twelve solo cellos.",
+        "popularity": "lesser-known",
+        "mode": null,
+        "pace": "lively",
+        "character": [
+          "dance",
+          "playful",
+          "dramatic"
+        ],
+        "imslpPage": "Blues, Espagnola und Rumba philharmonica (Blacher, Boris)",
+        "id": 109159
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "Only candidate is unrelated Blacher orchestral work."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "Only candidate is unrelated Blacher orchestral work.",
+        "candidates": [],
+        "unselectedCandidates": [
+          {
+            "id": "PjPnK3g31gY",
+            "title": "Boris Blacher (1903-1975) - Concertante Music for Orchestra",
+            "reason": "Only candidate is unrelated Blacher orchestral work."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109160",
+      "existingPublicId": 109160,
+      "decision": "include",
+      "work": {
+        "composer": "Dancla, Charles",
+        "title": "Le Carnaval de Venise, Op.119",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 7,
+        "hardestPart": "violin 1",
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "Fantaisie brillante for four independent violins.",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "virtuosic",
+          "playful",
+          "lyrical"
+        ],
+        "imslpPage": "Le carnaval de Venise, Op.119 (Dancla, Charles)",
+        "id": 109160
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=j2cBJ6sYFQs",
+            "finding": "Official WDR complete Le Carnaval de Venise with four violinists; introduction, theme/variations and Andante Cantabile section timestamped. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=j2cBJ6sYFQs",
+          "finding": "Official WDR complete Le Carnaval de Venise with four violinists; introduction, theme/variations and Andante Cantabile section timestamped."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Official WDR complete Le Carnaval de Venise with four violinists; introduction, theme/variations and Andante Cantabile section timestamped.",
+        "candidates": [
+          {
+            "id": "j2cBJ6sYFQs",
+            "title": "Dancla - Le Carnaval de Venise | WDR Sinfonieorchester",
+            "channel": "ARD Klassik",
+            "description": "Charles Danclas Streichquartett Le Carnaval de Venise, gespielt von Mitgliedern des WDR Sinfonieorchesters. Live aufgenommen am 05.11.2023 im WDR Funkhaus Köln. \n\nCharles Dancla - Le Carnaval de Venise\n\n00:00:00 - I. Andante Maestoso\n00:01:10 - II. Thema mit Variationen\n00:07:48 - III. Andante Cantabile. Mineur\n\nElizaveta Goldenberg, Violine\nAndreea Florescu, Violine\nGeorgeta Iordache, Violine\nCristian-Paul Suvaiala, Violine\n(Mitglieder des WDR Sinfonieorchesters)\n\n► Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://sinfonieorchester.wdr.de \n► Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n► Weitere Konzerte und Werkeinführungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte für Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+            "performerCredits": "Elizaveta Goldenberg; Andreea Florescu; Georgeta Iordache; Cristian-Paul Suvaiala",
+            "seconds": 738,
+            "views": 23050,
+            "metadataCache": "data/cache/same-instrument-recordings/j2cBJ6sYFQs.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "MRvmPYpndik",
+            "title": "Charles Dancla, Le Carnaval de Venise, Op.119 for Four Violins, Echo Quartet, Yumi Park, Violin III",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "i-4zGynzVTE",
+            "title": "Charles Dancla, Le carnaval de Venise op. 119, Daniel Drengk (Violine)",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "HGMOTAxDp-g",
+            "title": "Four Stradivarius Violins Perform Dancla’s Carnival of Venice | Tokyo 2024",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109161",
+      "existingPublicId": 109161,
+      "decision": "include",
+      "work": {
+        "composer": "Dancla, Charles",
+        "title": "Ah! vous dirai-je, maman!, Op.161",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 6,
+        "hardestPart": "violin 1",
+        "year": "",
+        "minutes": 9,
+        "set": null,
+        "notes": "Variations for four violins on “Ah! vous dirai-je, maman!” (Twinkle, Twinkle, Little Star).",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "virtuosic",
+          "lyrical"
+        ],
+        "imslpPage": "Variations on 'Ah! vous dirai-je, maman!', Op.161 (Dancla, Charles)",
+        "id": 109161
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=OsVFzJVRaXE",
+            "finding": "Performer upload of complete Op.161 for four violins; description discusses recorded parts and successive variations, 12:45. Human multitrack performance. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=OsVFzJVRaXE",
+          "finding": "Performer upload of complete Op.161 for four violins; description discusses recorded parts and successive variations, 12:45. Human multitrack performance."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Performer upload of complete Op.161 for four violins; description discusses recorded parts and successive variations, 12:45. Human multitrack performance.",
+        "candidates": [
+          {
+            "id": "OsVFzJVRaXE",
+            "title": "Charles Dancla - Ah! vous dirai-je maman! Variations for four violins, op. 161",
+            "channel": "Michael Barker",
+            "description": "Here's a piece by the French violinist and composer, Charles Dancla. It starts with the theme of piece called 'Ah! vous dirai-je maman!' which is a French nursery rhyme with the same tune as the English 'Twinkle twinkle little star'.\n\nThe piece is challenging in places. Variation 2 is played 'sautille' in which the bow leaves the string between each note. Variation 3 contains some challenging runs and passages played on the G string. And variation 4 is played 'jete' - with notes played across strings.\n\nThere were some technical gremlins during recording which meant that there is some distortion on some of the parts.\n\nBut, hope you enjoy!",
+            "performerCredits": "Michael Barker (multitracked violins)",
+            "seconds": 765,
+            "views": 713,
+            "metadataCache": "data/cache/same-instrument-recordings/OsVFzJVRaXE.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "iKCyvroon6g",
+            "title": "'Ah! Vous dirai-je, Maman' Variations, Op.161 for Four Violins - Charles Dancla",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "QHAhN8AA8zo",
+            "title": "Ah! Vous dirai-je, Maman, Variations for Four Violins, Op. 161: I. Introduction",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "PY7xeNPnRao",
+            "title": "Charles Dancla (1817–1907) - \"Ah! Vous dirai-je Maman\", Variationen für vier Violinen op. 161",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109162",
+      "existingPublicId": 109162,
+      "decision": "include",
+      "work": {
+        "composer": "Fux, Johann Joseph",
+        "title": "Sonata for 3 Violins in F major, ULB Mus.Ms.334",
+        "instruments": {
+          "violin": 3
+        },
+        "players": 3,
+        "formation": "string-trio",
+        "form": "work",
+        "level": 3,
+        "hardestPart": "balanced",
+        "year": "",
+        "minutes": 9,
+        "set": null,
+        "notes": "Sonata for three unaccompanied violins, preserved in Darmstadt manuscripts Mus.ms.334 and 334a.",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dance"
+        ],
+        "imslpPage": "Sonata for 3 Violins in F major, ULB Mus.Ms.334 (Fux, Johann Joseph)",
+        "id": 109162
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "No candidates supplied for exact three-violin sonata."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "No candidates supplied for exact three-violin sonata.",
+        "candidates": [],
+        "unselectedCandidates": []
+      }
+    },
+    {
+      "key": "recording-109163",
+      "existingPublicId": 109163,
+      "decision": "include",
+      "work": {
+        "composer": "Klengel, Julius",
+        "title": "2 Stücke, Op.5",
+        "instruments": {
+          "cello": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 5,
+        "hardestPart": "cello 1",
+        "year": "",
+        "minutes": 9,
+        "set": null,
+        "notes": "Serenade and Humoreske; the Serenade briefly lowers cello 4's C string to A.",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful",
+          "humorous"
+        ],
+        "imslpPage": "2 Stücke, Op.5 (Klengel, Julius)",
+        "id": 109163
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=5Etj5fjVdsU",
+            "finding": "ODU Symphony Orchestra upload explicitly identifies both pieces Op.5 for four cellos and four performers; live April 20 2022, 10:08. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=5Etj5fjVdsU",
+          "finding": "ODU Symphony Orchestra upload explicitly identifies both pieces Op.5 for four cellos and four performers; live April 20 2022, 10:08."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "ODU Symphony Orchestra upload explicitly identifies both pieces Op.5 for four cellos and four performers; live April 20 2022, 10:08.",
+        "candidates": [
+          {
+            "id": "5Etj5fjVdsU",
+            "title": "Klengel Two pieces, Op  5, for Four Cellos",
+            "channel": "ODU Symphony Orchestra",
+            "description": "Performed April 20, 2022 by the ODU Cello Choir\nDirected by Leslie Frittelli\n\nAvery Suhay\nLexi McGinn\nLacey Wilson\nBrian Cortes-Bofill",
+            "performerCredits": "Avery Suhay; Lexi McGinn; Lacey Wilson; Brian Cortes-Bofill; directed by Leslie Frittelli",
+            "seconds": 608,
+            "views": 1362,
+            "metadataCache": "data/cache/same-instrument-recordings/5Etj5fjVdsU.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "NzO1r2bcxyo",
+            "title": "2 Pieces, Op. 5: No. 2, Humoresque",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "5ZuFPnG1vZE",
+            "title": "2 Pieces, Op. 5: No. 1, Serenade",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "iFmrF1_PMwM",
+            "title": "Julius Klengel, Serenade in A Major, Op. 5, Sewanee Summer Music Festival",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109164",
+      "existingPublicId": 109164,
+      "decision": "include",
+      "work": {
+        "composer": "Hermann, Friedrich",
+        "title": "Burlesque in G major for 3 Violins, Op. 9",
+        "instruments": {
+          "violin": 3
+        },
+        "players": 3,
+        "formation": "string-trio",
+        "form": "work",
+        "level": 7,
+        "hardestPart": "violin 1",
+        "year": "",
+        "minutes": 5,
+        "set": null,
+        "notes": "Three independent violins; complete original work, without accompaniment.",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "humorous",
+          "virtuosic"
+        ],
+        "imslpPage": "Burlesque, Op.9 (Hermann, Friedrich)",
+        "id": 109164
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=WXUyBDHs16Q",
+            "finding": "Naxos label-delivered complete Burleske Op.9 for three violins, 4:46; all players credited. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=WXUyBDHs16Q",
+          "finding": "Naxos label-delivered complete Burleske Op.9 for three violins, 4:46; all players credited."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Naxos label-delivered complete Burleske Op.9 for three violins, 4:46; all players credited.",
+        "candidates": [
+          {
+            "id": "WXUyBDHs16Q",
+            "title": "Burleske for 3 Violins in G major, Op. 9",
+            "channel": "Reto Kuppel - Topic",
+            "description": "Provided to YouTube by NAXOS of America\n\nBurleske for 3 Violins in G major, Op. 9 · Reto Kuppel\n\nHermann: 3 Capriccios - Grand Duo Brillant - Suite in D minor\n\n℗ 2010 Naxos\n\nReleased on: 2010-11-16\n\nArtist: Alexia Eichhorn\nArtist: Friedemann Eichhorn\nComposer: Friedrich Hermann\nArtist: Reto Kuppel\nProducer: Bernhard Albrecht\nEngineer: Wolfgang Karreth\n\nAuto-generated by YouTube.",
+            "performerCredits": "Reto Kuppel; Alexia Eichhorn; Friedemann Eichhorn",
+            "seconds": 286,
+            "views": 6413,
+            "metadataCache": "data/cache/same-instrument-recordings/WXUyBDHs16Q.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "8_Nek7c-uMM",
+            "title": "Burlesque For 3 Violins in G major Op. 9 by Friedrich Hermann",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "y2sjRkDeD6c",
+            "title": "Friedrich Hermann: Burleske for 3 violins – Reto Kuppel, Alexia Eichhorn, Friedemann Eichhorn",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "JZtpzZbu59I",
+            "title": "Burlesque for Three Violins, Op. 9 by F. Hermann - Rylan, Peter and Ermina",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109165",
+      "existingPublicId": 109165,
+      "decision": "include",
+      "work": {
+        "composer": "Hermann, Friedrich",
+        "title": "Capriccio No. 2 in G major for 3 Violins, Op. 5",
+        "instruments": {
+          "violin": 3
+        },
+        "players": 3,
+        "formation": "string-trio",
+        "form": "work",
+        "level": 7,
+        "hardestPart": "violin 1",
+        "year": "",
+        "minutes": 6,
+        "set": null,
+        "notes": "Three independent violins; complete original work, without accompaniment.",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "virtuosic",
+          "playful"
+        ],
+        "imslpPage": "Capriccio No.2 for 3 Violins, Op.5 (Hermann, Friedrich)",
+        "id": 109165
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=uEEJrvrlWBM",
+            "finding": "Naxos label-delivered complete Capriccio No.2 Op.5 for three violins, 5:58; all players credited. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=uEEJrvrlWBM",
+          "finding": "Naxos label-delivered complete Capriccio No.2 Op.5 for three violins, 5:58; all players credited."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Naxos label-delivered complete Capriccio No.2 Op.5 for three violins, 5:58; all players credited.",
+        "candidates": [
+          {
+            "id": "uEEJrvrlWBM",
+            "title": "Capriccio No. 2 for 3 Violins in G major, Op. 5",
+            "channel": "Reto Kuppel - Topic",
+            "description": "Provided to YouTube by NAXOS of America\n\nCapriccio No. 2 for 3 Violins in G major, Op. 5 · Reto Kuppel\n\nHermann: 3 Capriccios - Grand Duo Brillant - Suite in D minor\n\n℗ 2010 Naxos\n\nReleased on: 2010-11-16\n\nArtist: Alexia Eichhorn\nArtist: Friedemann Eichhorn\nComposer: Friedrich Hermann\nArtist: Reto Kuppel\nProducer: Bernhard Albrecht\nEngineer: Wolfgang Karreth\n\nAuto-generated by YouTube.",
+            "performerCredits": "Reto Kuppel; Alexia Eichhorn; Friedemann Eichhorn",
+            "seconds": 358,
+            "views": 2154,
+            "metadataCache": "data/cache/same-instrument-recordings/uEEJrvrlWBM.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "_iLxTkzY35Q",
+            "title": "F.Hermann Capriccio for 3 violins no.2 op.5",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "YyjC2yEaW38",
+            "title": "F.Hermann | Capriccio for 3 violins, Op. 2 | Jiyoon Lee | Niek Baar | Mayumi Kanagawa HD",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "w8bKT0CdjdY",
+            "title": "Capriccio No.1 for 3 Violins Op.2 By Friedrich Hermann (with Score)",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109166",
+      "existingPublicId": 109166,
+      "decision": "include",
+      "work": {
+        "composer": "Avni, Boaz",
+        "title": "Violas Terzet",
+        "instruments": {
+          "viola": 3
+        },
+        "players": 3,
+        "formation": "string-trio",
+        "form": "short",
+        "level": 6,
+        "hardestPart": "viola 1",
+        "year": "1996",
+        "minutes": 9,
+        "set": null,
+        "notes": "Original viola trio; composer score dated 1996, revised 2014 with a 2019 correction.",
+        "popularity": "lesser-known",
+        "mode": null,
+        "pace": "lively",
+        "character": [
+          "dance",
+          "lyrical",
+          "playful"
+        ],
+        "imslpPage": "Violas Terzet (Avni, Boaz)",
+        "id": 109166
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=rQ5XdwhJYmw",
+            "finding": "Performer explicitly credits himself on all three viola parts of Boaz Avni Viola Terzet, 8:25; human multitrack performance. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=rQ5XdwhJYmw",
+          "finding": "Performer explicitly credits himself on all three viola parts of Boaz Avni Viola Terzet, 8:25; human multitrack performance."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Performer explicitly credits himself on all three viola parts of Boaz Avni Viola Terzet, 8:25; human multitrack performance.",
+        "candidates": [
+          {
+            "id": "rQ5XdwhJYmw",
+            "title": "Boaz Avni, Viola Terzet.",
+            "channel": "Carlos Bonilla Composer",
+            "description": "Una fantástica obra para tres violas del compositor israelí Boaz Avni.\n\nBoaz Avni\nViola Terzet\nViolas I, II y III: Carlos Bonilla\n\n#viola #violas #tercetto #chambermusic #BoazAvni #Classicmusic #violapower",
+            "performerCredits": "Carlos Bonilla (violas I, II and III)",
+            "seconds": 505,
+            "views": 727,
+            "metadataCache": "data/cache/same-instrument-recordings/rQ5XdwhJYmw.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "tt6ggn57zWM",
+            "title": "Violas Terzet",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "41y1cZQksDI",
+            "title": "Boaz Avni - Largo for Strings",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "Lr9W1cbwux8",
+            "title": "Boaz Avni - Kyrie eleison",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109167",
+      "existingPublicId": 109167,
+      "decision": "include",
+      "work": {
+        "composer": "Lachner, Franz Paul",
+        "title": "Elegy for 5 Cellos, Op. 160",
+        "instruments": {
+          "cello": 5
+        },
+        "players": 5,
+        "formation": "string-quintet",
+        "form": "work",
+        "level": 6,
+        "hardestPart": "cello 1",
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "Five independent cello parts in three movements; F-sharp minor.",
+        "popularity": "lesser-known",
+        "mode": "minor",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dark",
+          "dramatic"
+        ],
+        "imslpPage": "Elegy, Op.160 (Lachner, Franz Paul)",
+        "id": 109167
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "Only candidate is unrelated 6 Deutsche Tanzweisen."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "Only candidate is unrelated 6 Deutsche Tanzweisen.",
+        "candidates": [],
+        "unselectedCandidates": [
+          {
+            "id": "kgsGDBlQuvU",
+            "title": "6 Deutsche Tanzweisen, Op. 65",
+            "reason": "Only candidate is unrelated 6 Deutsche Tanzweisen."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109168",
+      "existingPublicId": 109168,
+      "decision": "include",
+      "work": {
+        "composer": "Lachner, Ignaz",
+        "title": "Violin Quartet, Op.107",
+        "instruments": {
+          "violin": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 5,
+        "hardestPart": "violin 1",
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "Four-movement quartet for four violins.",
+        "popularity": null,
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful",
+          "dance"
+        ],
+        "imslpPage": "Violin Quartet, Op.107 (Lachner, Ignaz)",
+        "id": 109168
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=-oFo9NoLEo8",
+            "finding": "Official WDR complete Op.107 performance with all four violinists and four movements timestamped. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=-oFo9NoLEo8",
+          "finding": "Official WDR complete Op.107 performance with all four violinists and four movements timestamped."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Official WDR complete Op.107 performance with all four violinists and four movements timestamped.",
+        "candidates": [
+          {
+            "id": "-oFo9NoLEo8",
+            "title": "Lachner - Quartett G-Dur | WDR Sinfonieorchester",
+            "channel": "ARD Klassik",
+            "description": "Ignaz Lachners Quartett G-Dur Op. 107, gespielt von Mitgliedern des WDR Sinfonieorchesters. Live aufgenommen am 05.11.2023 im WDR Funkhaus Köln. \n\nIgnaz Lachner - Quartett G-Dur, Op. 107\n\n00:00:00 - I. Allegro Moderato\n00:05:23 - II. Andante\n00:08:55 - III. Allegro Giocoso\n00:11:47 - IV.  Allegro Vivo, ma non Troppo\n\nNaoko Ogihara, Violine\nSara Etelävuori, Violine\nMascha Wehrmeyer, Violine\nCaroline Kunfalvi, Violine\n\n► Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://sinfonieorchester.wdr.de \n► Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n► Weitere Konzerte und Werkeinführungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte für Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+            "performerCredits": "Naoko Ogihara; Sara Etelävuori; Mascha Wehrmeyer; Caroline Kunfalvi",
+            "seconds": 860,
+            "views": 9971,
+            "metadataCache": "data/cache/same-instrument-recordings/-oFo9NoLEo8.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "Z6FTnwXblvQ",
+            "title": "Ignaz Lachner-Violin Quartet op.107/I.allegro moderato",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "rFWk21ghk1A",
+            "title": "Ignaz Lachner - Quartet for Four Violins, Op. 107 (FIRST Full Score Video)",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "CGTUeOKERfo",
+            "title": "Ignaz Lachner (1807 - 1895) Quartett für 4 Geigen, op. 107",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109169",
+      "existingPublicId": 109169,
+      "decision": "include",
+      "work": {
+        "composer": "Ellenberger, Kurt",
+        "title": "Suite Palais Meran",
+        "instruments": {
+          "cello": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 7,
+        "hardestPart": "cello 1",
+        "year": "2023",
+        "minutes": 28,
+        "set": null,
+        "notes": "Five-movement suite for cello quartet.",
+        "popularity": null,
+        "mode": null,
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dance",
+          "dramatic",
+          "playful"
+        ],
+        "imslpPage": "Suite \"Palais Meran\" for Cello Quartet (Ellenberger, Kurt)",
+        "id": 109169
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "Candidates cover individual movements only, not the complete five-movement suite."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "Candidates cover individual movements only, not the complete five-movement suite.",
+        "candidates": [],
+        "unselectedCandidates": [
+          {
+            "id": "li1dBM8TOU0",
+            "title": "Suite \"Palais Meran\" for 'Cello Ensemble Mvt 1. Prelude and Chorale",
+            "reason": "Candidates cover individual movements only, not the complete five-movement suite."
+          },
+          {
+            "id": "S1EuaPA6h6M",
+            "title": "Suite \"Palais Meran\" for 'Cello Ensemble Mvt. 4 \"Menuet and Quartet\"",
+            "reason": "Candidates cover individual movements only, not the complete five-movement suite."
+          },
+          {
+            "id": "sMAH-Fp4vWI",
+            "title": "Suite \"Palais Meran\" for 'Cello Ensemble Mvt. 2 \"Fugue\"",
+            "reason": "Candidates cover individual movements only, not the complete five-movement suite."
+          },
+          {
+            "id": "n7-ECfS9o9Y",
+            "title": "Suite \"Palais Meran\" for Cello Ensemble Mvt. 5 \"Postlude and Chaconne\"",
+            "reason": "Candidates cover individual movements only, not the complete five-movement suite."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109170",
+      "existingPublicId": 109170,
+      "decision": "include",
+      "work": {
+        "composer": "Derecskei, András",
+        "title": "A Tear in the Mirror",
+        "instruments": {
+          "cello": 3
+        },
+        "players": 3,
+        "formation": "string-trio",
+        "form": "short",
+        "level": 6,
+        "hardestPart": "cello 1",
+        "year": "2003–2004",
+        "minutes": 4,
+        "set": null,
+        "notes": "Original one-movement trio for three cellos.",
+        "popularity": null,
+        "mode": null,
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "dark",
+          "tender"
+        ],
+        "imslpPage": "A Tear in the Mirror (Derecskei, András)",
+        "id": 109170
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "No candidates supplied."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "No candidates supplied.",
+        "candidates": [],
+        "unselectedCandidates": []
+      }
+    },
+    {
+      "key": "recording-109171",
+      "existingPublicId": 109171,
+      "decision": "include",
+      "work": {
+        "composer": "Fine, Vivian",
+        "title": "In Memoriam: George Finckel",
+        "instruments": {
+          "cello": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "short",
+        "level": 6,
+        "hardestPart": "cello 1",
+        "year": "1987",
+        "minutes": 6,
+        "set": null,
+        "notes": "For four cellos or larger cello ensemble; premiered with sixteen cellists.",
+        "popularity": null,
+        "mode": null,
+        "pace": "slow",
+        "character": [
+          "dark",
+          "lyrical",
+          "tender"
+        ],
+        "imslpPage": "In Memoriam: George Finckel (Fine, Vivian)",
+        "id": 109171
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "Candidates are different works; none matches In Memoriam: George Finckel."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "Candidates are different works; none matches In Memoriam: George Finckel.",
+        "candidates": [],
+        "unselectedCandidates": [
+          {
+            "id": "ONIcY7fAvgo",
+            "title": "Vivian Fine: Missa Brevis for Four Cellos and Taped Voice (1972)",
+            "reason": "Candidates are different works; none matches In Memoriam: George Finckel."
+          },
+          {
+            "id": "QbM6jHtq2HU",
+            "title": "Peter Susser: Cinque Bouquets pour Jacques Monod",
+            "reason": "Candidates are different works; none matches In Memoriam: George Finckel."
+          },
+          {
+            "id": "AqqqT334Ph0",
+            "title": "String Quartet No. 2: I. Allegro Moderato",
+            "reason": "Candidates are different works; none matches In Memoriam: George Finckel."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109172",
+      "existingPublicId": 109172,
+      "decision": "include",
+      "work": {
+        "composer": "Dale, Benjamin",
+        "title": "Introduction and Andante for Six Violas, Op. 5",
+        "instruments": {
+          "viola": 6
+        },
+        "players": 6,
+        "formation": "large-strings",
+        "form": "work",
+        "level": 7,
+        "hardestPart": "viola 1",
+        "year": "1911",
+        "minutes": null,
+        "set": null,
+        "notes": "For six violas; viola6 uses scordatura and viola1 reaches a very high register.",
+        "popularity": null,
+        "mode": null,
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "dark"
+        ],
+        "id": 109172
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=97u59-sQa_U",
+            "finding": "Official Sacconi Festival upload credits all six violists; complete Introduction and Andante, 10:32. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=97u59-sQa_U",
+          "finding": "Official Sacconi Festival upload credits all six violists; complete Introduction and Andante, 10:32."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Official Sacconi Festival upload credits all six violists; complete Introduction and Andante, 10:32.",
+        "candidates": [
+          {
+            "id": "97u59-sQa_U",
+            "title": "Benjamin Dale: Introduction & Andante for six Violas",
+            "channel": "SacconiQuartet",
+            "description": "From The Sacconi Chamber Music Festival 2016,\nIn Folkestone, England\n\nPerformed by:\nAndriy Viytovych\nRoger Chase\nRobin Ashwell\nYukiko Ogura\nDouglas Paterson\nGarfield Jackson",
+            "performerCredits": "Andriy Viytovych; Roger Chase; Robin Ashwell; Yukiko Ogura; Douglas Paterson; Garfield Jackson",
+            "seconds": 632,
+            "views": 5259,
+            "metadataCache": "data/cache/same-instrument-recordings/97u59-sQa_U.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "Vczdo-cSKXQ",
+            "title": "Benjamin Dale From Introduction and Andante for six violas op 5 / Royal Stockholm Philharmonic",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "H0T63Qwuos4",
+            "title": "Introduction and Andante, Op. 5",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "Cy-jp7pX1ws",
+            "title": "Introduction & Andante for Six Violas, Op. 5",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109173",
+      "existingPublicId": 109173,
+      "decision": "include",
+      "work": {
+        "composer": "Hofmann, Richard",
+        "title": "Four Pieces for 3 Violins, Op. 104",
+        "instruments": {
+          "violin": 3
+        },
+        "players": 3,
+        "formation": "string-trio",
+        "form": "set",
+        "level": 5,
+        "hardestPart": "violin 1",
+        "year": "",
+        "minutes": 16,
+        "set": null,
+        "notes": "Four contrasting concert pieces for three independent violins.",
+        "popularity": "lesser-known",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful",
+          "dance"
+        ],
+        "imslpPage": "4 Pieces for 3 Violins, Op.104 (Hofmann, Richard)",
+        "id": 109173
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "Inputs are individual movements; durations 2:47–4:37 cannot establish complete Four Pieces Op.104."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "Inputs are individual movements; durations 2:47–4:37 cannot establish complete Four Pieces Op.104.",
+        "candidates": [],
+        "unselectedCandidates": [
+          {
+            "id": "JoZzUEAzirc",
+            "title": "Richard Hofmann - Four Pieces for 3 Violins op. 104",
+            "reason": "Inputs are individual movements; durations 2:47–4:37 cannot establish complete Four Pieces Op.104."
+          },
+          {
+            "id": "EZBH8pctMEU",
+            "title": "Richard Hofmann - Four Pieces for 3 violins Op 104 3rd Movement",
+            "reason": "Inputs are individual movements; durations 2:47–4:37 cannot establish complete Four Pieces Op.104."
+          },
+          {
+            "id": "RvpEzii5agY",
+            "title": "Richard Hofmann: 4 Pieces for 3 Violins op. 104",
+            "reason": "Inputs are individual movements; durations 2:47–4:37 cannot establish complete Four Pieces Op.104."
+          },
+          {
+            "id": "9TxnUlOq_nQ",
+            "title": "Adventskonzert im Erbdrostenhof - Richard Hofmann Trio für drei Violinen, op.104—Scherzo",
+            "reason": "Inputs are individual movements; durations 2:47–4:37 cannot establish complete Four Pieces Op.104."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109174",
+      "existingPublicId": 109174,
+      "decision": "include",
+      "work": {
+        "composer": "Brahms, Johannes",
+        "title": "Geistliches Wiegenlied (No.2 from 2 Gesänge, Op.91)",
+        "arranger": "Steve Jones",
+        "instruments": {
+          "viola": 5
+        },
+        "players": 5,
+        "formation": "string-quintet",
+        "form": "short",
+        "year": "",
+        "minutes": 6,
+        "set": null,
+        "notes": "No.2 from Op.91 arranged for five violas; recorded as a human multitrack by Steve Jones.",
+        "imslpPage": "2 Gesänge, Op.91 (Brahms, Johannes)",
+        "popularity": "lesser-known",
+        "level": 5,
+        "hardestPart": "viola 3",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "tender"
+        ],
+        "id": 109174
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "Only candidate is unrelated Sheil Worlds; no Steve Jones five-viola arrangement."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "Only candidate is unrelated Sheil Worlds; no Steve Jones five-viola arrangement.",
+        "candidates": [],
+        "unselectedCandidates": [
+          {
+            "id": "4ril1MMBjG0",
+            "title": "Sheil - Worlds",
+            "reason": "Only candidate is unrelated Sheil Worlds; no Steve Jones five-viola arrangement."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109175",
+      "existingPublicId": 109175,
+      "decision": "include",
+      "work": {
+        "composer": "Alt, Bernhard",
+        "title": "Suite for Four Double Basses",
+        "instruments": {
+          "double-bass": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 6,
+        "hardestPart": "double-bass 1",
+        "year": "",
+        "minutes": 13,
+        "set": null,
+        "notes": "Four movements; basses 1–2 use solo tuning, basses 3–4 orchestral tuning.",
+        "popularity": null,
+        "mode": null,
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dance",
+          "humorous"
+        ],
+        "id": 109175
+      },
+      "details": {},
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=W7VdLhsHL4k",
+            "finding": "Official ensemble upload identifies all four suite movements: Prelude, Menuett, Adagio, Humoreske; live Seoul Arts Center June 5 2025, complete 12:38. Full yt-dlp description/credits inspected; playable_in_embed=true. No excluded performers named in full metadata or credits."
+          }
+        ],
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=W7VdLhsHL4k",
+          "finding": "Official ensemble upload identifies all four suite movements: Prelude, Menuett, Adagio, Humoreske; live Seoul Arts Center June 5 2025, complete 12:38."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "youtube-verified",
+        "reason": "Official ensemble upload identifies all four suite movements: Prelude, Menuett, Adagio, Humoreske; live Seoul Arts Center June 5 2025, complete 12:38.",
+        "candidates": [
+          {
+            "id": "W7VdLhsHL4k",
+            "title": "Bernhard Alt - Suite for 4 Double Basses Bassmann Quartet 바쓰만 콰르텟",
+            "channel": "BASSMANNQUARTET",
+            "description": "Bernhard Alt - Suite for 4 Double Basses\n\nI.Prelude \nII.Menuett \nIII.Adagio \nIV.Humoreske \n\n2025.06.05 \nIBK Chamber hall . Seoul Arts Center\nBassmann Quartet",
+            "performerCredits": "Bassmann Quartet",
+            "seconds": 758,
+            "views": 354,
+            "metadataCache": "data/cache/same-instrument-recordings/W7VdLhsHL4k.json",
+            "playable_in_embed": true
+          }
+        ],
+        "unselectedCandidates": [
+          {
+            "id": "KFsRrPk3VHU",
+            "title": "Suite For Four Double Basses - Bernhard Alt (LUCA Double Bass Quartet Jan Buysschaert)",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "FT_jZaUcCS8",
+            "title": "Bernhard Alt – Suite für 4 Kontrabässe",
+            "reason": "Not selected; supported complete credited performance preferred."
+          },
+          {
+            "id": "dZ6OpSeo8U4",
+            "title": "Bassics: Bernhard Alt \"Suite für vier Kontrabässe\"",
+            "reason": "Not selected; supported complete credited performance preferred."
+          }
+        ]
+      }
+    },
+    {
+      "key": "recording-109176",
+      "existingPublicId": 109176,
+      "decision": "include",
+      "work": {
+        "composer": "Hauta-aho, Teppo",
+        "title": "Arietta for 12 Double Basses",
+        "instruments": {
+          "double-bass": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "short",
+        "level": 4,
+        "hardestPart": "balanced",
+        "year": "1987",
+        "minutes": null,
+        "set": null,
+        "notes": "Twelve-bass revision made in 2000 of the 1987 original for sixteen basses.",
+        "popularity": null,
+        "mode": null,
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "tender"
+        ],
+        "id": 109176
+      },
+      "details": {},
+      "evidence": {
+        "sources": [],
+        "floor": {
+          "url": null,
+          "finding": "Only candidate is unrelated Alan Rea piece."
+        },
+        "fieldSources": {}
+      },
+      "researcherGrade": {
+        "confidence": "low",
+        "basis": "Recording-only; no grade update"
+      },
+      "recordingResearch": {
+        "status": "missing",
+        "reason": "Only candidate is unrelated Alan Rea piece.",
+        "candidates": [],
+        "unselectedCandidates": [
+          {
+            "id": "3vj5c2sBpFg",
+            "title": "Alan Rea's 4 Pieces, 4th Piece",
+            "reason": "Only candidate is unrelated Alan Rea piece."
+          }
+        ]
+      }
+    }
+  ]
+}

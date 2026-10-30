@@ -1,0 +1,828 @@
+{
+  "batch": "source42",
+  "role": "verification-and-independent-grade",
+  "status": "complete",
+  "checkedOn": "2026-10-29",
+  "entries": [
+    {
+      "key": "klengel-variations-op28-four-cellos",
+      "factsVerified": true,
+      "status": "approved",
+      "claimChecks": [
+        {
+          "claim": "source/version identity",
+          "status": "confirmed",
+          "source": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+          "basis": "Published title and independent notation agree with composer/title/catalogue and four same-instrument parts; editor is not arranger."
+        },
+        {
+          "claim": "independent part count and absence of accompaniment",
+          "status": "confirmed",
+          "source": "https://s9.imslp.org/files/imglnks/usimg/d/d4/IMSLP617255-PMLP991665-THEME_AND_VARIATIONS-Score.pdf",
+          "basis": "Four distinct named instrument lines/parts; no required external instrument."
+        },
+        {
+          "claim": "complete obtainable notation",
+          "status": "confirmed",
+          "source": "https://s9.imslp.org/files/imglnks/usimg/d/d4/IMSLP617255-PMLP991665-THEME_AND_VARIATIONS-Score.pdf",
+          "basis": "Actual PDF retrieved: Complete Score; representative opening, interior and closing notation inspected."
+        },
+        {
+          "claim": "real exact-version performance floor",
+          "status": "confirmed",
+          "source": "https://www.youtube.com/watch?v=Mhr-s8jQhXw",
+          "basis": "Exact complete-work title in human release/event context, as recorded below; duration is only corroboration."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Complete 17-page Namba score; inspected pp.1,4,8,12,14,17: first cello sustained tenor-register melody, chromatic slurred semiquaver runs, displaced figures and double stops, with lower parts generally less exposed. Named complete Op.28 2002 Casals Hall concert provides full-work context. Six reflects the individual first part, without ensemble uplift; plausible one-level uncertainty.",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "playful"
+        ],
+        "scorePagesInspected": [
+          1,
+          4,
+          8,
+          12,
+          14,
+          17
+        ],
+        "scorePath": "data/cache/same-instrument-imslp/scores/source42-617255.pdf",
+        "advisoryUncertaintyLevels": 1
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "form",
+        "imslpPage",
+        "set",
+        "notes",
+        "hardestPart",
+        "mode",
+        "pace",
+        "character"
+      ],
+      "approvedDetailFields": [
+        "key",
+        "firstPublication",
+        "otherTitles"
+      ],
+      "detailSources": {
+        "identity": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+        "instruments": "https://s9.imslp.org/files/imglnks/usimg/d/d4/IMSLP617255-PMLP991665-THEME_AND_VARIATIONS-Score.pdf",
+        "players": "https://s9.imslp.org/files/imglnks/usimg/d/d4/IMSLP617255-PMLP991665-THEME_AND_VARIATIONS-Score.pdf",
+        "scoreAvailability": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+        "key": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+        "firstPublication": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+        "otherTitles": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)"
+      },
+      "recordingDecisions": [
+        {
+          "id": "Mhr-s8jQhXw",
+          "decision": "approved",
+          "primary": true,
+          "reason": "Exact Op.28; four named cellists MUKOYAMA Kaeko, DOUGIN Hisaya, YAMANOUCHI Shunsuke, FUJIMORI Ryoichi; Tokunaga memorial concert Casals Hall Japan 2002-05-01. Complete named-work live item, no excerpt/selection cue. Best primary.",
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=Mhr-s8jQhXw",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/Mhr-s8jQhXw.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/Mhr-s8jQhXw-oembed.json"
+        },
+        {
+          "id": "P4FWdVbhaVw",
+          "decision": "held",
+          "primary": false,
+          "reason": "Explicitly human multitrack by Stefan Kartman X4; description explains layered cello recording. Not synthesis. Held for separate multitrack review; two live/full quartets already supported.",
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=P4FWdVbhaVw",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/P4FWdVbhaVw.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/P4FWdVbhaVw-oembed.json"
+        },
+        {
+          "id": "TUynJufaVDE",
+          "decision": "approved",
+          "primary": false,
+          "reason": "Worthwhile alternate: exact Op.28, four named players Noah Barnhart/Jacob Bloom/Graham DeHaan/Meredith Empie, Oceanway Studios 2022-04-25; complete-work studio production and engineering credits. Full human quartet.",
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=TUynJufaVDE",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/TUynJufaVDE.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/TUynJufaVDE-oembed.json"
+        }
+      ],
+      "factualHolds": [],
+      "recordingMissingReason": null
+    },
+    {
+      "key": "klengel-impromptu-op30-four-cellos",
+      "factsVerified": true,
+      "status": "approved",
+      "claimChecks": [
+        {
+          "claim": "source/version identity",
+          "status": "confirmed",
+          "source": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+          "basis": "Published title and independent notation agree with composer/title/catalogue and four same-instrument parts; editor is not arranger."
+        },
+        {
+          "claim": "independent part count and absence of accompaniment",
+          "status": "confirmed",
+          "source": "https://s9.imslp.org/files/imglnks/usimg/9/96/IMSLP938550-PMLP1472267-Kl_vc30.pdf",
+          "basis": "Four distinct named instrument lines/parts; no required external instrument."
+        },
+        {
+          "claim": "complete obtainable notation",
+          "status": "confirmed",
+          "source": "https://s9.imslp.org/files/imglnks/usimg/9/96/IMSLP938550-PMLP1472267-Kl_vc30.pdf",
+          "basis": "Actual PDF retrieved: Complete Parts; representative opening, interior and closing notation inspected."
+        },
+        {
+          "claim": "real exact-version performance floor",
+          "status": "confirmed",
+          "source": "https://www.youtube.com/watch?v=FHSFaWkBU9g",
+          "basis": "Exact complete-work title in human release/event context, as recorded below; duration is only corroboration."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Complete eight-page 1892 parts; inspected first-cello pp.1–2 and fourth-cello end p.8: tenor/treble reading, chromatic shifts, animated semiquavers, trills and repeated double stops in the Vivace. Cello Classics complete track establishes the whole-work setting. First part determines six, without ensemble uplift; one-level uncertainty.",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "dramatic"
+        ],
+        "scorePagesInspected": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "scorePath": "data/cache/same-instrument-imslp/scores/source42-938550.pdf",
+        "advisoryUncertaintyLevels": 1
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "form",
+        "imslpPage",
+        "set",
+        "notes",
+        "hardestPart",
+        "mode",
+        "pace",
+        "character"
+      ],
+      "approvedDetailFields": [
+        "key",
+        "firstPublication",
+        "otherTitles"
+      ],
+      "detailSources": {
+        "identity": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+        "instruments": "https://s9.imslp.org/files/imglnks/usimg/9/96/IMSLP938550-PMLP1472267-Kl_vc30.pdf",
+        "players": "https://s9.imslp.org/files/imglnks/usimg/9/96/IMSLP938550-PMLP1472267-Kl_vc30.pdf",
+        "scoreAvailability": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+        "key": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+        "firstPublication": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+        "otherTitles": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)"
+      },
+      "recordingDecisions": [
+        {
+          "id": "8RfBLostgjc",
+          "decision": "held",
+          "primary": false,
+          "reason": "Human school/concert/ensemble context plausible; not needed alongside stronger credited primary. Full individual performer credits or whole-work extent remain unresolved.",
+          "checks": {
+            "exactVersion": false,
+            "wholeWork": false,
+            "humanPerformance": false,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=8RfBLostgjc",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/8RfBLostgjc.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/8RfBLostgjc-oembed.json"
+        },
+        {
+          "id": "FHSFaWkBU9g",
+          "decision": "approved",
+          "primary": true,
+          "reason": "Naxos-delivered Cello Classics2012 commercial track, exact Impromptu for4 Cellos Op30. Credits Ben Chappell, Julia Desbruslais, Sarah Butcher, Sebastian Comberti. Complete single release track with four human artists, no selection cue.",
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=FHSFaWkBU9g",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/FHSFaWkBU9g.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/FHSFaWkBU9g-oembed.json"
+        },
+        {
+          "id": "yyLkRbbEylE",
+          "decision": "held",
+          "primary": false,
+          "reason": "Human school/concert/ensemble context plausible; not needed alongside stronger credited primary. Full individual performer credits or whole-work extent remain unresolved.",
+          "checks": {
+            "exactVersion": false,
+            "wholeWork": false,
+            "humanPerformance": false,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=yyLkRbbEylE",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/yyLkRbbEylE.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/yyLkRbbEylE-oembed.json"
+        }
+      ],
+      "factualHolds": [],
+      "recordingMissingReason": null
+    },
+    {
+      "key": "werner-elegie-op21-four-cellos",
+      "factsVerified": true,
+      "status": "approved",
+      "claimChecks": [
+        {
+          "claim": "source/version identity",
+          "status": "confirmed",
+          "source": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+          "basis": "Published title and independent notation agree with composer/title/catalogue and four same-instrument parts; editor is not arranger."
+        },
+        {
+          "claim": "independent part count and absence of accompaniment",
+          "status": "confirmed",
+          "source": "https://ks15.imslp.org/files/imglnks/usimg/c/c0/IMSLP10006-Werner,_Josef_Elegie_for_4_celli_Op.21.pdf",
+          "basis": "Four distinct named instrument lines/parts; no required external instrument."
+        },
+        {
+          "claim": "complete obtainable notation",
+          "status": "confirmed",
+          "source": "https://ks15.imslp.org/files/imglnks/usimg/c/c0/IMSLP10006-Werner,_Josef_Elegie_for_4_celli_Op.21.pdf",
+          "basis": "Actual PDF retrieved: Complete Score and Parts; representative opening, interior and closing notation inspected."
+        },
+        {
+          "claim": "real exact-version performance floor",
+          "status": "confirmed",
+          "source": "https://www.youtube.com/watch?v=l5BoxbhCkho",
+          "basis": "Exact complete-work title in human release/event context, as recorded below; duration is only corroboration."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Complete 14-page score and parts; inspected title, score opening, first-cello p.7 and fourth-cello p.14: high tenor/treble cantabile, slurred chromatic flourishes and large shifts, including an unexpectedly high fourth-cello passage. First cello remains most exposed over whole work. RADIX live-concert upload supplies full-work context. Six, with one-level uncertainty, without ensemble uplift.",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "tender"
+        ],
+        "scorePagesInspected": [
+          1,
+          2,
+          7,
+          14
+        ],
+        "scorePath": "data/cache/same-instrument-imslp/scores/source42-10006.pdf",
+        "advisoryUncertaintyLevels": 1
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "form",
+        "imslpPage",
+        "set",
+        "notes",
+        "hardestPart",
+        "mode",
+        "pace",
+        "character"
+      ],
+      "approvedDetailFields": [
+        "key",
+        "firstPublication",
+        "otherTitles"
+      ],
+      "detailSources": {
+        "identity": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+        "instruments": "https://ks15.imslp.org/files/imglnks/usimg/c/c0/IMSLP10006-Werner,_Josef_Elegie_for_4_celli_Op.21.pdf",
+        "players": "https://ks15.imslp.org/files/imglnks/usimg/c/c0/IMSLP10006-Werner,_Josef_Elegie_for_4_celli_Op.21.pdf",
+        "scoreAvailability": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+        "key": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+        "firstPublication": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+        "otherTitles": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)"
+      },
+      "recordingDecisions": [
+        {
+          "id": "IUJl8SK4w0k",
+          "decision": "held",
+          "primary": false,
+          "reason": "Human school/concert/ensemble context plausible; not needed alongside stronger credited primary. Full individual performer credits or whole-work extent remain unresolved.",
+          "checks": {
+            "exactVersion": false,
+            "wholeWork": false,
+            "humanPerformance": false,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=IUJl8SK4w0k",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/IUJl8SK4w0k.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/IUJl8SK4w0k-oembed.json"
+        },
+        {
+          "id": "l5BoxbhCkho",
+          "decision": "approved",
+          "primary": true,
+          "reason": "RADIX official quartet upload, exact Elegie Op21, named Hasmik Vardanyan/Vyacheslav Dobrushkin/Sonya Matoussova/Hyeok Kwon; live Moores Opera House2019. Whole named-work concert item, no excerpt cue.",
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=l5BoxbhCkho",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/l5BoxbhCkho.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/l5BoxbhCkho-oembed.json"
+        },
+        {
+          "id": "rD5lhQEszeI",
+          "decision": "held",
+          "primary": false,
+          "reason": "Human school/concert/ensemble context plausible; not needed alongside stronger credited primary. Full individual performer credits or whole-work extent remain unresolved.",
+          "checks": {
+            "exactVersion": false,
+            "wholeWork": false,
+            "humanPerformance": false,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=rD5lhQEszeI",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/rD5lhQEszeI.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/rD5lhQEszeI-oembed.json"
+        }
+      ],
+      "factualHolds": [],
+      "recordingMissingReason": null,
+      "corrections": [
+        "Original publication explicitly also allows viola replacing cello 2; this reviewed playable version is the four-cello option. Introduction D minor; principal work D major."
+      ]
+    },
+    {
+      "key": "clark-gavotte-four-violins",
+      "factsVerified": false,
+      "status": "held",
+      "claimChecks": [
+        {
+          "claim": "source/version identity",
+          "status": "confirmed",
+          "source": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+          "basis": "Published title and independent notation agree with composer/title/catalogue and four same-instrument parts; editor is not arranger."
+        },
+        {
+          "claim": "independent part count and absence of accompaniment",
+          "status": "confirmed",
+          "source": "https://ks15.imslp.org/files/imglnks/usimg/8/84/IMSLP82715-PMLP168499-4002.Clark-Gavotte.pts.pdf",
+          "basis": "Four distinct named instrument lines/parts; no required external instrument."
+        },
+        {
+          "claim": "complete obtainable notation",
+          "status": "confirmed",
+          "source": "https://ks15.imslp.org/files/imglnks/usimg/8/84/IMSLP82715-PMLP168499-4002.Clark-Gavotte.pts.pdf",
+          "basis": "Actual PDF retrieved: Complete Parts; representative opening, interior and closing notation inspected."
+        },
+        {
+          "claim": "real exact-version performance floor",
+          "status": "held",
+          "source": "https://www.youtube.com/watch?v=Nj7Ag6TCRl0",
+          "basis": "Empty description and no performer/event evidence; human whole-work status unresolved."
+        }
+      ],
+      "grade": {
+        "level": 3,
+        "hardestPart": "violin 1",
+        "confidence": "medium",
+        "basis": "Complete nine-facing-page parts; inspected all four independent lines, especially pp.2,4,6,8. First violin has nimble dotted dance figures, chromatic semiquavers, grace notes and moderate upper-position work; supporting parts substantially easier. Three is a score-based advisory estimate with one-level uncertainty and no ensemble uplift. Studio-upload whole-work context is plausible but human floor remains unverified.",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "dance",
+          "playful"
+        ],
+        "scorePagesInspected": [
+          1,
+          2,
+          4,
+          6,
+          8,
+          9
+        ],
+        "scorePath": "data/cache/same-instrument-imslp/scores/source42-82715.pdf",
+        "advisoryUncertaintyLevels": 1
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "form",
+        "imslpPage",
+        "set",
+        "notes",
+        "hardestPart",
+        "mode",
+        "pace",
+        "character"
+      ],
+      "approvedDetailFields": [
+        "key",
+        "firstPublication",
+        "otherTitles"
+      ],
+      "detailSources": {
+        "identity": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+        "instruments": "https://ks15.imslp.org/files/imglnks/usimg/8/84/IMSLP82715-PMLP168499-4002.Clark-Gavotte.pts.pdf",
+        "players": "https://ks15.imslp.org/files/imglnks/usimg/8/84/IMSLP82715-PMLP168499-4002.Clark-Gavotte.pts.pdf",
+        "scoreAvailability": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+        "key": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+        "firstPublication": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+        "otherTitles": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)"
+      },
+      "recordingDecisions": [
+        {
+          "id": "4PTOSwjt9AE",
+          "decision": "held",
+          "primary": false,
+          "reason": "Edition/transcription score-channel upload, not credited human performance; yt-dlp expressly playable_in_embed=false. Do not use.",
+          "checks": {
+            "exactVersion": false,
+            "wholeWork": false,
+            "humanPerformance": false,
+            "embedVerified": false,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=4PTOSwjt9AE",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/4PTOSwjt9AE.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/4PTOSwjt9AE-oembed.json"
+        },
+        {
+          "id": "Nj7Ag6TCRl0",
+          "decision": "held",
+          "primary": false,
+          "reason": "Exact title but empty description/performer credits: human identity, whole-work coverage and excluded-performer completeness unresolved. Title and duration alone cannot settle them.",
+          "checks": {
+            "exactVersion": false,
+            "wholeWork": false,
+            "humanPerformance": false,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=Nj7Ag6TCRl0",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/Nj7Ag6TCRl0.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/Nj7Ag6TCRl0-oembed.json"
+        },
+        {
+          "id": "lL2160-CXfA",
+          "decision": "held",
+          "primary": false,
+          "reason": "Exact title but empty description/performer credits: human identity, whole-work coverage and excluded-performer completeness unresolved. Title and duration alone cannot settle them.",
+          "checks": {
+            "exactVersion": false,
+            "wholeWork": false,
+            "humanPerformance": false,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=lL2160-CXfA",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/lL2160-CXfA.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/lL2160-CXfA-oembed.json"
+        }
+      ],
+      "factualHolds": [
+        "Human full-work performance floor unresolved for both empty-description human-looking candidates; score playback upload cannot establish it."
+      ],
+      "recordingMissingReason": "No candidate yet proves human whole-work performance and full performer check; factual hold does not erase valid advisory score estimate.",
+      "corrections": [
+        "IMSLP comment suggests possible relation to Gavotte de la Dauphine; do not claim a proven distinct piano-source arrangement or invent an arranger. Publication directly credits Scotson Clark for four violins."
+      ]
+    },
+    {
+      "key": "makris-scherzo-four-violins",
+      "factsVerified": true,
+      "status": "approved",
+      "claimChecks": [
+        {
+          "claim": "source/version identity",
+          "status": "confirmed",
+          "source": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+          "basis": "Published title and independent notation agree with composer/title/catalogue and four same-instrument parts; editor is not arranger."
+        },
+        {
+          "claim": "independent part count and absence of accompaniment",
+          "status": "confirmed",
+          "source": "https://s9.imslp.org/files/imglnks/usimg/4/4e/IMSLP103546-PMLP211541-Makris-ScherzoForFourViolins-score.pdf",
+          "basis": "Four distinct named instrument lines/parts; no required external instrument."
+        },
+        {
+          "claim": "complete obtainable notation",
+          "status": "confirmed",
+          "source": "https://s9.imslp.org/files/imglnks/usimg/4/4e/IMSLP103546-PMLP211541-Makris-ScherzoForFourViolins-score.pdf",
+          "basis": "Actual PDF retrieved: Complete Score; representative opening, interior and closing notation inspected."
+        },
+        {
+          "claim": "real exact-version performance floor",
+          "status": "confirmed",
+          "source": "https://www.youtube.com/watch?v=IOxzFrNmLJY",
+          "basis": "Exact complete-work title in human release/event context, as recorded below; duration is only corroboration."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "violin 1",
+        "confidence": "medium",
+        "basis": "Autograph full score inspected pp.1,2,8,16 and engraved first part p.2: exposed high-register runs, sustained fast articulation, chromatic shifts and repeated double-stop/octave passages. Lower parts do not justify an ensemble uplift. Named four-student complete studio performance gives full-work context; seven reflects the first violin with one-level uncertainty.",
+        "mode": null,
+        "pace": "lively",
+        "character": [
+          "playful",
+          "dramatic"
+        ],
+        "scorePagesInspected": [
+          1,
+          2,
+          8,
+          16
+        ],
+        "scorePath": "data/cache/same-instrument-imslp/scores/source42-103546.pdf",
+        "advisoryUncertaintyLevels": 1
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "form",
+        "imslpPage",
+        "set",
+        "notes",
+        "hardestPart",
+        "mode",
+        "pace",
+        "character"
+      ],
+      "approvedDetailFields": [
+        "key",
+        "firstPublication",
+        "otherTitles"
+      ],
+      "detailSources": {
+        "identity": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+        "instruments": "https://s9.imslp.org/files/imglnks/usimg/4/4e/IMSLP103546-PMLP211541-Makris-ScherzoForFourViolins-score.pdf",
+        "players": "https://s9.imslp.org/files/imglnks/usimg/4/4e/IMSLP103546-PMLP211541-Makris-ScherzoForFourViolins-score.pdf",
+        "scoreAvailability": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+        "key": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+        "firstPublication": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+        "otherTitles": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)"
+      },
+      "recordingDecisions": [
+        {
+          "id": "1RLSlhyWoh4",
+          "decision": "held",
+          "primary": false,
+          "reason": "Human school/concert/ensemble context plausible; not needed alongside stronger credited primary. Full individual performer credits or whole-work extent remain unresolved.",
+          "checks": {
+            "exactVersion": false,
+            "wholeWork": false,
+            "humanPerformance": false,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=1RLSlhyWoh4",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/1RLSlhyWoh4.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/1RLSlhyWoh4-oembed.json"
+        },
+        {
+          "id": "IOxzFrNmLJY",
+          "decision": "approved",
+          "primary": true,
+          "reason": "Exact Makris Scherzo for four violins; teacher-channel performance credits Deven Patel, Parker Weddle, Rajan Patel, Evan Yu. Complete named work with no excerpt cue. Video1962 date conflicts with autograph1965 and must not be copied as composition year; no evidence of different playable version.",
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=IOxzFrNmLJY",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/IOxzFrNmLJY.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/IOxzFrNmLJY-oembed.json"
+        },
+        {
+          "id": "qQqFxRc2oY8",
+          "decision": "held",
+          "primary": false,
+          "reason": "Human school/concert/ensemble context plausible; not needed alongside stronger credited primary. Full individual performer credits or whole-work extent remain unresolved.",
+          "checks": {
+            "exactVersion": false,
+            "wholeWork": false,
+            "humanPerformance": false,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=qQqFxRc2oY8",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/qQqFxRc2oY8.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/qQqFxRc2oY8-oembed.json"
+        }
+      ],
+      "factualHolds": [],
+      "recordingMissingReason": null,
+      "corrections": [
+        "Autograph title explicitly dated1965; reject video IOxzFrNmLJY1962 as composition-year evidence. No demonstrated alternate1962 score/version."
+      ]
+    },
+    {
+      "key": "waelput-andante-four-violas",
+      "factsVerified": true,
+      "status": "approved",
+      "claimChecks": [
+        {
+          "claim": "source/version identity",
+          "status": "confirmed",
+          "source": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+          "basis": "Published title and independent notation agree with composer/title/catalogue and four same-instrument parts; editor is not arranger."
+        },
+        {
+          "claim": "independent part count and absence of accompaniment",
+          "status": "confirmed",
+          "source": "https://ks15.imslp.org/files/imglnks/usimg/1/1b/IMSLP380033-PMLP613650-HWaelput_Andante_cantabile_for_Four_Violas_score.pdf",
+          "basis": "Four distinct named instrument lines/parts; no required external instrument."
+        },
+        {
+          "claim": "complete obtainable notation",
+          "status": "confirmed",
+          "source": "https://ks15.imslp.org/files/imglnks/usimg/1/1b/IMSLP380033-PMLP613650-HWaelput_Andante_cantabile_for_Four_Violas_score.pdf",
+          "basis": "Actual PDF retrieved: Complete Score; representative opening, interior and closing notation inspected."
+        },
+        {
+          "claim": "real exact-version performance floor",
+          "status": "confirmed",
+          "source": "https://www.youtube.com/watch?v=TbApybcQy0s",
+          "basis": "Exact complete-work title in human release/event context, as recorded below; duration is only corroboration."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "viola 1",
+        "confidence": "medium",
+        "basis": "Complete Cypressdome score inspected title, p.4 and final p.9; 79-bar lyrical movement with treble-clef first-viola writing, wide expressive shifts, quick ornamental scales, chromatic inflection and double stops in texture. Conservatorium Maastricht quartet-event upload establishes whole-work context. Five is based on first viola without ensemble uplift; one-level uncertainty.",
+        "mode": "major",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "tender"
+        ],
+        "scorePagesInspected": [
+          1,
+          4,
+          9
+        ],
+        "scorePath": "data/cache/same-instrument-imslp/scores/source42-380033.pdf",
+        "advisoryUncertaintyLevels": 1
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "form",
+        "imslpPage",
+        "set",
+        "notes",
+        "hardestPart",
+        "mode",
+        "pace",
+        "character"
+      ],
+      "approvedDetailFields": [
+        "otherTitles"
+      ],
+      "detailSources": {
+        "identity": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+        "instruments": "https://ks15.imslp.org/files/imglnks/usimg/1/1b/IMSLP380033-PMLP613650-HWaelput_Andante_cantabile_for_Four_Violas_score.pdf",
+        "players": "https://ks15.imslp.org/files/imglnks/usimg/1/1b/IMSLP380033-PMLP613650-HWaelput_Andante_cantabile_for_Four_Violas_score.pdf",
+        "scoreAvailability": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+        "key": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+        "firstPublication": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)",
+        "otherTitles": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)"
+      },
+      "recordingDecisions": [
+        {
+          "id": "CuZB6V9tYvw",
+          "decision": "held",
+          "primary": false,
+          "reason": "Description explicitly says four-viola work played doubled; supports four independent parts with doubling, not an eight-part version. Unnamed players and whole extent unresolved; not chosen.",
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": false,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=CuZB6V9tYvw",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/CuZB6V9tYvw.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/CuZB6V9tYvw-oembed.json"
+        },
+        {
+          "id": "TbApybcQy0s",
+          "decision": "held",
+          "primary": false,
+          "reason": "Credible exact-work live viola-quartet item from Conservatorium Maastricht2023-01-28 on participant channel; supports human whole-work repertoire floor. Only Ariadna Terol Donat named; remaining three credits unresolved, so optional embed held.",
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=TbApybcQy0s",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/TbApybcQy0s.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/TbApybcQy0s-oembed.json"
+        },
+        {
+          "id": "ez5p4wCHi2M",
+          "decision": "held",
+          "primary": false,
+          "reason": "Four named professional violists and exact title establish a genuine event/floor: Juan Sebastian Castillo Diaz, Veronika Thone, Andrew Filmer, Toko Inomoto; Juliette Academy2025-12-01. Description explicitly says montage, so complete-work extent unresolved for embedding.",
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": false,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "excludedNamesFound": false,
+          "source": "https://www.youtube.com/watch?v=ez5p4wCHi2M",
+          "metadataCache": "data/cache/same-instrument-recordings/source42/ez5p4wCHi2M.json",
+          "oEmbedCache": "data/cache/same-instrument-recordings/source42/ez5p4wCHi2M-oembed.json"
+        }
+      ],
+      "factualHolds": [],
+      "recordingMissingReason": "Optional recording unverified: credible complete conservatory item lacks full ensemble names; named professional upload says montage; doubled ensemble upload lacks credits/extent."
+    }
+  ],
+  "method": "Independent opinion from actual representative notation plus exact-work release/event context. No numerical opinions for these works consulted. Full stream not downloaded; extent inferred only where exact-work primary event/release context supports it, never from duration alone.",
+  "resume": {
+    "nextVersionKey": null
+  }
+}

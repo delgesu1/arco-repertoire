@@ -1,0 +1,59 @@
+{
+  "batch": "batch-grades-07",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "hermann-op9-original-3violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://s9.imslp.org/files/imglnks/usimg/0/05/IMSLP465505-PMLP755997-VCH_HERM_BURL_Op.9_3_V_PTS_ed.pdf",
+          "finding": "Actual parts PDF sampled at PDF pages 1, 3, 5 and 8: violin I opening and ending, and the middle page of violins II and III. Violin I combines rapid articulated semiquavers, shifts and register leaps, high octave-displaced passagework in the Presto, double stops and chordal attacks. The Lento includes sustained moving double stops; the other sampled parts also have active semiquavers, ornaments and octave-displaced material."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "violin 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "virtuosic",
+          "humorous"
+        ],
+        "confidence": "medium",
+        "basis": "Diploma-level first-violin technique across the sampled contrasting sections: agile upper-register passagework and bow articulation, shifts, exposed double-stop intonation and fast final material. The sampled lower parts are substantial but less demanding in their ordinary register. Coordinating tempo changes, light articulation and matched ornaments adds ensemble difficulty, already covered by level 7; no additional level uplift. Four-page sample of the complete parts, not an exhaustive page-by-page reading."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "hermann-op5-original-3violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://ks15.imslp.org/files/imglnks/usimg/f/f5/IMSLP45679-SIBLEY1802.8452.a54f-39087008996375violin_1.pdf",
+          "finding": "Actual first-violin PDF sampled at PDF pages 2, 3, 5 and 7, including opening, central continuation/return and final page. Allegro molto requires sustained flowing semiquavers with paired slurs, chromatic inflections, high-register shifts and octave-displaced passages; sampled pages also contain moving double stops, chords, trills, register leaps and soft articulated playing. Only violin I was available and inspected; no claim of direct comparison with violins II and III."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "violin 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "virtuosic",
+          "playful"
+        ],
+        "confidence": "medium",
+        "basis": "Whole-work estimate from four distributed first-violin pages: sustained Allegro molto fluency, upper-register accuracy, frequent shifts, chromatic passagework, double-stop intonation and controlled light bowing warrant diploma level. This reflects recurring writing rather than a single exceptional bar. Violin I is the provisional hardest-part designation; the unavailable other two parts were not inspected. No ensemble uplift assigned without their notation; confidence remains medium."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "batch": "violin40-extract",
+  "status": "first-pass-research",
+  "checkedOn": "2026-10-29",
+  "entries": [
+    {
+      "key": "bohm-violin-quartet-g-major",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "include",
+      "reason": "The cached IMSLP page and complete score identify an original one-movement quartet for four violins; a dated concert video lists all four violinists and names the quartet.",
+      "work": {
+        "composer": "Böhm, Carl",
+        "title": "Violin Quartet (in Form eines Sonaten-Satzes)",
+        "instruments": {"violin": 4},
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "short",
+        "level": null,
+        "hardestPart": null,
+        "year": null,
+        "minutes": null,
+        "set": null,
+        "notes": "IMSLP gives G major and one movement; the complete score title is Quartett für vier Violinen and carries the date 1901. No arranger indicated; John Wiebe is identified as editor of the modern typeset score.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {"dates": "1844–1920", "nationality": null, "gender": "M", "era": "romantic"},
+      "details": {"kind": "single", "composed": null, "published": "1901", "movements": ["Allegro commodo"]},
+      "evidence": {
+        "sources": [
+          {"url": "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)", "checkedOn": "2026-10-29", "locator": "IMSLP page 756003; work information and file listing", "finding": "Original work page gives title Violin Quartet, alternative title in Form eines Sonaten-Satzes, key G, one movement, and instrumentation 4 violins. Page states first publication 1901. The complete score is an editor's typeset transcription from the 1901 Simrock parts."},
+          {"url": "https://www.youtube.com/watch?v=mAL3WIAe30s", "checkedOn": "2026-10-29", "locator": "Video metadata and description", "finding": "KCO Violin Quartet plays Bohm's Quartet for 4 Violins in G Major at The House Concert. Description dates the performance 2017-12-11 and names violinists Soran Sophia Lee, Yoonjung Yang, Wonyoung Jung, and Marisol Lee. Runtime 264 seconds; title/uploader checked by oEmbed and full metadata retrieved without downloading media."}
+        ],
+        "scoring": {"url": "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)", "locator": "Complete score, file index 966335; score first page", "finding": "Score is headed Quartett für vier Violinen, names Carl Bohm, shows four separate violin staves, one movement headed Allegro commodo, and date 1901."},
+        "floor": {"url": "https://www.youtube.com/watch?v=mAL3WIAe30s", "finding": "Full performance of the one-movement quartet by KCO Violin Quartet at The House Concert, with four violinists named in the description."},
+        "version": {"kind": "original", "arranger": null, "extent": "whole-work", "selection": null},
+        "score": {"url": "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)", "finding": "Complete score file index 966335 retrieved using the observed IMSLP file index; 2025 typeset transcription from the original 1901 Simrock parts. The editor is John Wiebe; no arranger is credited."},
+        "fieldSources": {"work.composer": "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)", "work.title": "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)", "work.instruments": "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)", "work.year": "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)", "composerMetadata.dates": "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)"},
+        "unknowns": {"work.level": "Not musically graded.", "work.minutes": "No reliable complete-work duration found.", "details.composed": "Composition date not established; 1901 is the first-publication date and score date."}
+      },
+      "researcherGrade": {"confidence": "low", "basis": "Not graded by first-pass researcher."},
+      "recordingResearch": {
+        "status": "candidate-whole-work-video",
+        "queries": ["Carl Bohm quartet four violins G major"],
+        "candidates": [
+          {"id": "mAL3WIAe30s", "url": "https://www.youtube.com/watch?v=mAL3WIAe30s", "title": "KCO Violin Quartet | Bohm : Quartet for 4 Violins in G Major", "channel": "더하우스콘서트 The House Concert", "seconds": 264, "description": "제597회 하우스콘서트 실황 (2017.12.11)\nKCO Violin Quartet plays Bohm's Quartet for 4 Violins in G Major on the House Concert, Dec. 2017.\n\nCarl Bohm : Quartet for 4 Violins in G Major\n\nViolin: Soran Sophia Lee, Yoonjung Yang, Wonyoung Jung, Marisol Lee", "performers": ["Soran Sophia Lee", "Yoonjung Yang", "Wonyoung Jung", "Marisol Lee"], "finding": "Full-work candidate for the single-movement piece. Title/uploader checked using oEmbed; full metadata retrieved with media download skipped. No excluded performer found in title, channel, or description."}
+        ]
+      }
+    },
+    {
+      "key": "massa-cuarteto-para-violines",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "Score and genuine quartet video candidate were found, but the short video has no description or performer credits and its 5:31 runtime is materially shorter than IMSLP's 8-minute average; complete-work coverage is unresolved.",
+      "work": {
+        "composer": "Massa, Juan Bautista",
+        "title": "Cuarteto para Violines (para clases de conjunto y audiciones)",
+        "instruments": {"violin": 4},
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "short",
+        "level": null,
+        "hardestPart": null,
+        "year": null,
+        "minutes": 8,
+        "set": null,
+        "notes": "F major, two movements, dedicated to Elmerico Fracassi. Score's movement headings include I. Adagio and II. Finale. Ezequiel Diz is credited as editor; no arranger is indicated.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {"dates": null, "nationality": null, "gender": null, "era": "romantic"},
+      "details": {"kind": "multi-movement", "composed": null, "published": null, "movements": ["I. Adagio", "II. Finale"]},
+      "evidence": {
+        "sources": [
+          {"url": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)", "checkedOn": "2026-10-29", "locator": "IMSLP page 816210; work information and file listing", "finding": "Original work page lists two movements, average duration 8 minutes, key F, dedication to Elmerico Fracassi, and instrumentation 4 violins; composition and publication dates are blank."},
+          {"url": "https://www.youtube.com/watch?v=o7jXNExjf1g", "checkedOn": "2026-10-29", "locator": "Video metadata", "finding": "Achilles Quartet – Juan Bautista Massa Quartet for 4 violins; uploaded by Jessica Bruschi; runtime 331 seconds. Metadata description is empty, so it does not establish performer identities or whether the full work is played. Title/uploader checked using oEmbed; full metadata retrieved with media download skipped."}
+        ],
+        "scoring": {"url": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)", "locator": "Complete score file index 503799; score pages", "finding": "Typeset complete score identifies Juan Bautista Massa and four violin parts; score headings show I. Adagio and II. Finale. Editor Ezequiel Diz, with no arranger credited."},
+        "floor": {"url": "https://www.youtube.com/watch?v=o7jXNExjf1g", "finding": "Recording candidate only; complete-work human-performance evidence remains unresolved."},
+        "version": {"kind": "original", "arranger": null, "extent": "whole-work", "selection": null},
+        "score": {"url": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)", "finding": "Complete score file index 503799 retrieved using the observed IMSLP file index. The page lists the score with four violin parts; editor Ezequiel Diz, no arranger credited."},
+        "fieldSources": {"work.composer": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)", "work.title": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)", "work.instruments": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)", "work.minutes": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)"},
+        "unknowns": {"work.year": "Composition and publication years not given on the source page or score title page.", "details.composed": "Composition date not established.", "details.published": "First publication date not established.", "recordingResearch": "The supplied 5:31 candidate is shorter than the listed 8-minute average, and its empty description does not establish full-work coverage or performers."}
+      },
+      "researcherGrade": {"confidence": "low", "basis": "Not graded by first-pass researcher."},
+      "recordingResearch": {
+        "status": "candidate-coverage-unresolved",
+        "queries": ["Juan Bautista Massa Cuarteto para Violines quartet recording"],
+        "candidates": [
+          {"id": "o7jXNExjf1g", "url": "https://www.youtube.com/watch?v=o7jXNExjf1g", "title": "Achilles Quartet - Juan Bautista Massa Quartet for 4 violins", "channel": "Jessica Bruschi", "seconds": 331, "description": "", "performers": [], "finding": "Candidate title describes the quartet but video duration (5:31) is below the work's listed 8-minute average. Full-work extent and performer identities are unverified."}
+        ]
+      }
+    },
+    {
+      "key": "dont-violin-quartet-op-42",
+      "existingPublicId": null,
+      "requiresFactReview": true,
+      "decision": "hold",
+      "reason": "The score shows four movements, but the supplied 6:41 video title explicitly identifies movement I only. Other human performance evidence for the whole quartet needs independent verification.",
+      "work": {
+        "composer": "Dont, Jakob",
+        "title": "Violin Quartet, Op. 42",
+        "instruments": {"violin": 4},
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "multi-movement",
+        "level": null,
+        "hardestPart": null,
+        "year": null,
+        "minutes": null,
+        "set": null,
+        "notes": "E minor. Complete score's first movement is headed Allegro espressivo. Score has four violin parts. Theo and Kitty Wyatt are editors; no arranger is credited.",
+        "popularity": null,
+        "mode": null,
+        "pace": null,
+        "character": []
+      },
+      "composerMetadata": {"dates": "1815–1888", "nationality": "Austrian", "gender": "M", "era": "romantic"},
+      "details": {"kind": "multi-movement", "composed": null, "published": null, "movements": ["I. Allegro espressivo", "II–IV. Names not established in this first-pass inspection"]},
+      "evidence": {
+        "sources": [
+          {"url": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)", "checkedOn": "2026-10-29", "locator": "IMSLP page 168495; work information and file listing", "finding": "Page identifies Violin Quartet, Op. 42, E minor, instrumentation 4 violins, and complete score/parts; movement count and dates are blank."},
+          {"url": "https://www.youtube.com/watch?v=EVkj-WqePIo", "checkedOn": "2026-10-29", "locator": "Video metadata and description", "finding": "Title explicitly says Quartet Op.42, I. Allegro espressivo; Yuka Matsumoto describes a home sight-reading recording, runtime 401 seconds. It is movement I, not a whole-work recording."}
+        ],
+        "scoring": {"url": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)", "locator": "Complete score file index 82713; score pages", "finding": "Score identifies Jacob Dont, Op. 42, and four violin parts. Opening movement heading is Allegro espressivo. The score runs beyond the first movement; no whole-work video extent inferred from the supplied clip."},
+        "floor": {"url": "https://www.youtube.com/watch?v=EVkj-WqePIo", "finding": "This recording documents movement I only and is not evidence of a full-work performance."},
+        "version": {"kind": "original", "arranger": null, "extent": "whole-work", "selection": null},
+        "score": {"url": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)", "finding": "Complete score file index 82713 retrieved using the observed IMSLP file index. Editor credit is Theo Wyatt and Kitty Wyatt; no arranger credited."},
+        "fieldSources": {"work.composer": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)", "work.title": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)", "work.instruments": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)"},
+        "unknowns": {"work.year": "Composition and publication years not given on the source page or inspected score.", "details.movements": "Only first movement heading recorded; remaining headings not extracted in this pass.", "whole-work-floor": "Other human evidence reportedly identified by parallel research, but has not been independently source-checked or documented here.", "work.level": "Not musically graded."}
+      },
+      "researcherGrade": {"confidence": "low", "basis": "Not graded by first-pass researcher."},
+      "recordingResearch": {
+        "status": "movement-only-video",
+        "queries": ["Jakob Dont Quartet Op.42 four violins"],
+        "candidates": [
+          {"id": "EVkj-WqePIo", "url": "https://www.youtube.com/watch?v=EVkj-WqePIo", "title": "【4Violins】Jacob Dont: Quartet Op.42, I. Allegro espressivo", "channel": "Yuka Matsumoto", "seconds": 401, "description": "Yuka Matsumoto—violin(s). Recorded at home for sight-reading fun on 2020-06-18 using an Acapella app. Description links to Spotify and Naxos CD listings.", "performers": ["Yuka Matsumoto"], "finding": "Movement I only; do not treat as a full-work video. Title/uploader checked using oEmbed; full metadata retrieved with media download skipped. No excluded performer found in title, channel, or description."}
+        ]
+      }
+    }
+  ]
+}

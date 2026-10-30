@@ -1,0 +1,76 @@
+{
+ "batch": "ensemble-32",
+ "accepted": [
+  {
+   "key": "crosmer-marble-fountain-eight-violas",
+   "id": 109207,
+   "publicId": 109207,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    4,
+    6
+   ],
+   "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+   "details": [
+    "kind",
+    "composed",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [
+    "version"
+   ],
+   "recording": null,
+   "gradeResolution": {
+    "key": "crosmer-marble-fountain-eight-violas",
+    "status": "approved",
+    "level": 5,
+    "hardestPart": "viola 1",
+    "confidence": "medium",
+    "consideredOpinions": [
+     5,
+     4,
+     6
+    ],
+    "basis": "NONBLIND source editorial adjudication, not a fourth independent vote. Read originals32-verify (5), originals32-blind (4), and crosmer-third-32 (6), then revisited actual score pages 1, 4, 5 and 8 against the previous complete eight-page inspection. Level 5 is selected from the individual viola-1 ceiling, closely matched by viola 2: soft sustained treble-clef upper-register notes in the opening/return, repeated alto/treble changes, exposed register shifts, chromatic articulated figures, and the short slurred five-note thirty-second-note flourishes at mm.29 and 41. Those flourishes are a real faster demand than my original generic semiquaver description conveyed; the third reader correctly identified them. The displaced sixteenth entries, dotted notes and changing slur/separate-bow groups demand precise subdivision and bow distribution, without specialist rebound bowing or sustained double-stop work. Against levels.json, the conjunction of upper-register tone and brief rapid chromatic ornaments is more responsibly Advanced 5 (ABRSM8/RCM9 band) than relying only on the modest overall tempo to place it Early advanced 4 (ABRSM7/RCM8). Conversely the actual whole work is about four minutes, largely half-note/short repetitive figures at quarter=56, with a limited quarter=80 middle and only isolated rapid flourishes: it does not sustain the passagework, register/technical density or extended control burden needed to make Pre-diploma 6 (ARSM/RCM10) the central estimate. The level-4 and level-6 readings describe genuine notation features and are reasonable adjacent weighting differences, not factual errors requiring their estimates to be erased. Five is therefore an argued advanced teaching band, not an arithmetic median or an automatic increase for eight-part coordination. Medium confidence means the adjacent 4 or 6 may suit an individual teaching context; the source does not leave uncertainty spanning several unrelated skill bands. The earlier two-page score claim was a real source error, resolved by the complete eight-page PDF, but did not persist in any of the three grading readings.",
+    "sources": [
+     {
+      "url": "https://s9.imslp.org/files/imglnks/usimg/5/56/IMSLP443247-PMLP721242-Marble_Fountain_-_Score.pdf",
+      "finding": "Complete original eight-page score; all pages previously visually inspected, opening, rapid middle passages and ending rechecked for this nonblind adjudication. Viola 1/2 upper-register writing and mm.29/41 brief slurred five-note thirty-second flourishes determine ceiling, with quarter=56 outer sections and quarter=80 middle."
+     },
+     {
+      "url": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+      "finding": "Composer-typeset Complete Score #443247, eight pages; original one-movement eight-viola work, approximately four minutes."
+     }
+    ],
+    "localAnchors": [
+     {
+      "url": "data/source/levels.json",
+      "finding": "Local advisory anchors: 4 Early advanced ABRSM7/RCM8, 5 Advanced ABRSM8/RCM9, 6 Pre-diploma ARSM/RCM10. These are broad teaching bands; no published syllabus placement is claimed for Marble Fountain."
+     }
+    ],
+    "adjudicationFile": "data/chamber/same-instrument/reviews/crosmer-adjudication-32-normalized.json"
+   }
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "7898f4ee7fcc38f9401278b71cdc04a68344bb64d9565b638de47d1e1ef646eb",
+  "data/chamber/composers.json": "b9a1060bc46568688f8f320f29fb2d4ef4b544ea8d8f0c9f52f9fd9533c13f65",
+  "data/chamber/id-registry.json": "66445641ad21e411b0a345d36310cdfac8e004f5241e4a726f5f0b67cbbb1cde",
+  "data/chamber/sources.json": "773abf2f93b6a11ed85ceb4e32041e6dbb9b7d3c5f7cdeaed5625703bd5c29c7",
+  "data/details/overrides.json": "a47d4bddbab2486ff6008b0fb3783eb368deae8b77e4132960a6015bd299ad06",
+  "data/chamber/recordings-judged.json": "cb0bcf5eac63714812c748f480562cd23bd3cc82373efd6d09303ea299e2998e",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-crosmer-32.json": "156f4f59c5c04c71ccbb14410bab8bc71455f8ca6682ca38f5de503f057585aa",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/originals32-verify.json": "093359141623fd1157976c5f9352d3356a44cc754e6731ac07d3ca1b2e4fdb45",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/originals32-blind.json": "d79d8e24d1f65dc8c6ef1a888d30df734b317af4ebb33b56ce34aab800194356",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/crosmer-third-32.json": "1f6d38f53a05d19fd2cbf82ab79308b50c35d8adeee2ddd219d4b979a124f47e",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/crosmer-adjudication-32-normalized.json": "8f72f63386f0b4c8557186552c6fe4cbd9dfb3ab14a94474db4d644140146958"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-32"
+}

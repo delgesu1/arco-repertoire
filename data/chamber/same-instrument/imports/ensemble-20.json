@@ -1,0 +1,152 @@
+{
+ "batch": "ensemble-20",
+ "accepted": [
+  {
+   "key": "sidney-king-five-miniatures-for-double-bass-quartet",
+   "id": 109189,
+   "publicId": 109189,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "two-american-bass-quartets-excursions",
+   "id": 109190,
+   "publicId": 109190,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "two-american-bass-quartets-the-bass-affair",
+   "id": 109191,
+   "publicId": 109191,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "tony-osborne-true-grit-for-double-bass-quartet",
+   "id": 109192,
+   "publicId": 109192,
+   "action": "added",
+   "releasedHeldProposal": true,
+   "gradeOpinions": [
+    4,
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "tony-osborne-dreamtime-for-double-bass-quartet",
+   "id": 109193,
+   "publicId": 109193,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    3,
+    4,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "gershwin-three-preludes-kaufman-four-cellos",
+   "id": 109194,
+   "publicId": 109194,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    7,
+    7
+   ],
+   "gradeIssue": null,
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [
+  {
+   "key": "claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+   "reason": "Third blind grade required",
+   "opinions": [
+    4,
+    5
+   ]
+  },
+  {
+   "key": "tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+   "reason": "Grade spread exceeds one level; resolve with score/anchor evidence",
+   "opinions": [
+    4,
+    6,
+    5
+   ]
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "f3a6c242c1eee43a4fd535e15da764e751700f685ab6857a0662c4499b8246bc",
+  "data/chamber/composers.json": "d50414a38b7741e3eb174ed0815cd6dbee82b59781c27848cfb18daf1ce95c1b",
+  "data/chamber/id-registry.json": "4089f9e252aad7eca0a1accd049886a4bb16cb56ec9774c59b5423cfde33b8df",
+  "data/chamber/sources.json": "4c180ba54bfd568541d63291ad44bedbed27f6d23b6757d7d38ab914dfdbea8f",
+  "data/details/overrides.json": "93ee3b321265bb59a8975b13f0abf310d7fa996854535d7083c773d6c59b99dd",
+  "data/chamber/recordings-judged.json": "262fb3123c94e49127534dcc8bfbde3d53da0b0ca2dd4b87c7028ee5934993e1",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-publisher-02-ready.json": "e7371bb80d5245ec6d9968991ece1afecc859a95add0c4ff2a1dfcc7b11709bc",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-kaufman-01-ready.json": "7cbc7451192acb8a0ac031c7625b5cbf26d5331ece2eef2ee6459b0506e5634c",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-publisher-02-normalized.json": "c40a371a907a5bac2163f598b6e30bc5f284c9116841a983394eb96754b8f76a",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-publisher-kaufman-confidence-normalized.json": "a9d02a5e84eddc6487bc18df8678b237f0a3e190f7e001c2f387eec3208fa978",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-publisher-third-normalized.json": "0f9b9dd3f67266e91a457314adc9ba25f52f52a9c103044a6a470da51fc43036"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-20"
+}

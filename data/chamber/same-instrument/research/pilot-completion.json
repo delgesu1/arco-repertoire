@@ -1,0 +1,645 @@
+{
+  "chunk": "pilot-completion",
+  "role": "enrichment",
+  "status": "complete",
+  "checkedOn": "2026-10-28",
+  "entries": [
+    {
+      "key": "proto-quartet-basses-1964",
+      "existingPublicId": null,
+      "decision": "hold",
+      "reason": "Original four-bass work and actual quartet performance verified. Hold because independent evidence confirms publication but not a currently obtainable reliable score/parts route; corrupted storefront is not accepted.",
+      "work": {
+        "composer": "Proto, Frank",
+        "title": "Quartet for Basses",
+        "instruments": {
+          "double-bass": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 8,
+        "hardestPart": "balanced",
+        "year": "1964",
+        "minutes": null,
+        "set": null,
+        "notes": "Four double basses; includes improvised cadenzas.",
+        "popularity": "lesser-known",
+        "mode": null,
+        "pace": null,
+        "character": [
+          "dramatic"
+        ]
+      },
+      "composerMetadata": {
+        "dates": "b. 1941",
+        "nationality": "American",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "details": {
+        "composed": "1964"
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://www.liben.com/Pgmnotes12.html",
+            "checkedOn": "2026-10-28",
+            "locator": "Quartet for Basses",
+            "finding": "Composer dates quartet1964 and explains four players, rhythmic coordination and improvised second-movement cadenzas."
+          },
+          {
+            "url": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/182.pdf",
+            "checkedOn": "2026-10-28",
+            "locator": "PDFp1",
+            "finding": "2015June5 RunyanHall: EnFuego DoubleBassQuartet namesBrettArmstrong,DanteAscarrunz,MeganGore,AmandaJohnson; complete QuartetforBasses listed, unlike nextJanAlmwork explicitly movement1."
+          },
+          {
+            "url": "https://www.liben.com/icat/LMP-Cat-48-2019.pdf",
+            "checkedOn": "2026-10-28",
+            "locator": "Music for Multiple Basses",
+            "finding": "Clean2019PDF catalogue lists score025,parts026; linked purchase storefront previously compromised, not used."
+          },
+          {
+            "url": "https://catalogue.philharmoniedeparis.fr/AloesSynchro/stockage/10-ans-avec-la-contrebasse.pdf",
+            "checkedOn": "2026-10-28",
+            "locator": "Printedp47",
+            "finding": "1992 specialist institutional guide lists ProtoQuartetforBasses,Liben; bibliographic corroboration, not proof of current purchase availability."
+          },
+          {
+            "url": "https://www.kcbassworkshop.com/frank-proto/",
+            "checkedOn": "2026-10-28",
+            "locator": "FrankProto",
+            "finding": "Faculty biography explicitly American composer,bassist,born1941; masculine pronouns."
+          }
+        ],
+        "scoring": {
+          "url": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/182.pdf",
+          "locator": "En Fuego Double Bass Quartet / Quartet for Basses",
+          "finding": "Four named bassists, no accompaniment. Composer account explicitly describes original quartet for four double bassists; no voice/tape from other Proto works."
+        },
+        "floor": {
+          "url": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/182.pdf",
+          "finding": "InternationalSocietyofBassists convention,5June2015,RunyanHall;EnFuego DoubleBassQuartet with four named performers and complete work listed."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://catalogue.philharmoniedeparis.fr/AloesSynchro/stockage/10-ans-avec-la-contrebasse.pdf",
+          "finding": "Independent institutional bibliography confirms Liben publication.2019publisherPDF specifies score025/parts026. No currently obtainable reliable vendor/library holding verified; remains held."
+        },
+        "fieldSources": {
+          "work.composer": "https://www.liben.com/Pgmnotes12.html",
+          "work.title": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/182.pdf",
+          "work.year": "https://www.liben.com/Pgmnotes12.html",
+          "work.instruments": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/182.pdf",
+          "work.players": "https://www.isbworldoffice.com/assets/2015/2015-ISB-Convention-Video-Programs/182.pdf",
+          "work.notes": "https://www.liben.com/Pgmnotes12.html",
+          "details.composed": "https://www.liben.com/Pgmnotes12.html",
+          "composerMetadata.dates": "https://www.kcbassworkshop.com/frank-proto/",
+          "composerMetadata.nationality": "https://www.kcbassworkshop.com/frank-proto/",
+          "composerMetadata.gender": "https://www.kcbassworkshop.com/frank-proto/",
+          "composerMetadata.era": "https://www.kcbassworkshop.com/frank-proto/"
+        },
+        "unknowns": {
+          "score.currentAvailability": "Independent guide is bibliographic only; vendorsearches found no reliable current quartet listing.",
+          "work.minutes": "No exact complete performance timing established.",
+          "work.imslpPage": "No canonical page verified.",
+          "details.movements": "Composer mentions secondmovement but exact complete movementlabels not inspected.",
+          "details.published": "No firstedition year verified;1964 is composition.",
+          "details.dedication": "Not established.",
+          "details.firstPerformance": "Composer recalls late1970sChicago performance but admits earlier performances may exist; do not label premiere.",
+          "scoring.tuning": "No score inspected.",
+          "recording.multitrack": "ChamberWorks5 quartet recording is Proto multitracked across all four parts per publisher reviews; not approved as ensemble video."
+        }
+      },
+      "researcherGrade": {
+        "basis": "Provisional8 (professional),balanced,lowconfidence. Composer describes technically demanding rhythmic coordination and improvised cadenzas; specialist quartet accounts confirm difficulty lies in assembling independent parts. No notation inspected, so no claims about registers or passagework; grade requires independent score adjudication.",
+        "confidence": "low"
+      },
+      "recordingResearch": {
+        "status": "not-found",
+        "queries": [
+          "Frank Proto Quartet for Basses score buy",
+          "Quartet for Basses Proto site:youtube.com/watch",
+          "Quartet for basses Proto catalogue library score Liben1974"
+        ],
+        "candidates": [],
+        "note": "No inspectable YouTube candidate found. Actual four-person concert floor verified; known commercial Proto recording is real multitrack and separately flagged."
+      }
+    },
+    {
+      "key": "kaiser-lindemann-variacoes-brasileiras-12vc",
+      "existingPublicId": null,
+      "decision": "include",
+      "reason": "Composer’s twelve-part version, obtainable complete score/parts and official complete human concert recording verified. Composition/version date and opus are omitted because source dates conflict.",
+      "work": {
+        "composer": "Kaiser-Lindemann, Wilhelm",
+        "title": "Variações brasileiras for Twelve Cellos (Die 12 in Bossa nova)",
+        "instruments": {
+          "cello": 12
+        },
+        "players": 12,
+        "formation": "large-strings",
+        "form": "work",
+        "level": 8,
+        "hardestPart": "balanced",
+        "year": "",
+        "minutes": 5,
+        "set": null,
+        "notes": "Twelve independent cello parts; composer’s expanded bossa nova version.",
+        "popularity": "lesser-known",
+        "mode": null,
+        "pace": "lively",
+        "character": [
+          "dance",
+          "virtuosic"
+        ]
+      },
+      "composerMetadata": {
+        "dates": "1940–2010",
+        "nationality": "German",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "details": {
+        "kind": "single",
+        "published": "2000 (Kunzelmann); 2012 revised edition (euthentic edition)",
+        "otherTitles": [
+          "Die 12 in Bossa nova",
+          "The 12 in Bossa Nova"
+        ]
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://euthentic.eu/31115/en",
+            "checkedOn": "2026-10-28",
+            "locator": "Description/Product Information",
+            "finding": "Publisher supplies twelve instrumental parts and full score, duration about4min50sec, revised2012; composer’s expansion of earlier six-cello piece. Its claimed2006 expansion conflicts with a2001 review."
+          },
+          {
+            "url": "https://ci.nii.ac.jp/ncid/BA82084684",
+            "checkedOn": "2026-10-28",
+            "locator": "BA82084684",
+            "finding": "Library catalogue identifies Kunzelmann edition,c2000,and TohoGakuen holding D23-91500232776."
+          },
+          {
+            "url": "https://www.die12cellisten.de/de/repertoire_notenmaterial.html",
+            "checkedOn": "2026-10-28",
+            "locator": "",
+            "finding": "Performing ensemble’s own published-score list identifies Die12inBossa-nova(Variações brasileiras),WilhelmKaiser-Lindemann,EditionKunzelmann."
+          },
+          {
+            "url": "https://www.nmz.de/kritik/rezensionen/noten/im-urwald-der-notenkoepfe",
+            "checkedOn": "2026-10-28",
+            "locator": "1July2001,paragraphs1–4",
+            "finding": "Contemporary2001 review directly discusses12-part2000edition: allplayers share virtuoso material; two variations and coda, changing keys and special sound effects. Contradicts later claimed2006 expansion."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=-gqTAo_BU20",
+            "checkedOn": "2026-10-28",
+            "locator": "",
+            "finding": "OfficialOPUS upload credits12CellistsofBerlinerPhilharmoniker,27June2018,LOTTEConcertHall; titleexactly The12inBossaNova. Freshyt-dlpmetadata inspected:276seconds,public,playable_in_embed=true."
+          },
+          {
+            "url": "https://www.sheetmusicplus.com/en/product/variacoes-brasileiras-the-12-in-bossa-nova-for-12-celli-4371756.html",
+            "checkedOn": "2026-10-28",
+            "locator": "",
+            "finding": "Orderable fullscore/parts,76pages,KunzelmannGM620,ISMN9790206205125. Observedpreviewimage failedHTTP403; no notation visually inspected."
+          },
+          {
+            "url": "https://de.wikipedia.org/wiki/Wilhelm_Kaiser-Lindemann",
+            "checkedOn": "2026-10-28",
+            "locator": "",
+            "finding": "Biography explicitly Germancomposer/hornist,1940–2010,masculinepronouns; secondary biography used for nationality/gender only. PrimaryDresden programme independently confirms dates."
+          }
+        ],
+        "scoring": {
+          "url": "https://euthentic.eu/31115/en",
+          "locator": "Instrumentation / Unit of output",
+          "finding": "12celli,12separateparts plus fullscore; no required accompaniment. Distinct composer-version from six-cello original."
+        },
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=-gqTAo_BU20",
+          "finding": "Officialpresenter OPUS:12CellistsofBerlinerPhilharmoniker,27June2018,LOTTEConcertHall;276-second titledwholework; linked directly by exact-version publisher."
+        },
+        "version": {
+          "kind": "composer-version",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://euthentic.eu/31115/en",
+          "finding": "Complete revised2012performance set,12parts+fullscore,in stock; KunzelmannGM620alsoorderable from retailer and held atTohoGakuen."
+        },
+        "fieldSources": {
+          "work.composer": "https://euthentic.eu/31115/en",
+          "work.instruments": "https://euthentic.eu/31115/en",
+          "work.players": "https://euthentic.eu/31115/en",
+          "work.minutes": "https://euthentic.eu/31115/en",
+          "work.notes": "https://euthentic.eu/31115/en",
+          "details.published": "https://euthentic.eu/31115/en",
+          "work.title": "https://www.die12cellisten.de/de/repertoire_notenmaterial.html",
+          "details.otherTitles": "https://www.die12cellisten.de/de/repertoire_notenmaterial.html",
+          "details.kind": "https://www.nmz.de/kritik/rezensionen/noten/im-urwald-der-notenkoepfe",
+          "composerMetadata.dates": "https://www.staatskapelle-dresden.de/fileadmin/home/Archiv/pdf/Konzertplan/Konzertplan_Kapelle_2018_19_Web.pdf",
+          "composerMetadata.nationality": "https://de.wikipedia.org/wiki/Wilhelm_Kaiser-Lindemann",
+          "composerMetadata.gender": "https://de.wikipedia.org/wiki/Wilhelm_Kaiser-Lindemann"
+        },
+        "unknowns": {
+          "work.year": "Publisher dates12celloexpansion2006,but libraryand2001review establish publicationby2000; date intentionallyblank.1980datesearlier6cellooriginal.",
+          "work.opus": "Publisherop7b conflicts with secondaryop36; omitopus pendingeditioninspection.",
+          "work.imslpPage": "No canonicalIMSLPpage established.",
+          "details.composed": "Versiondate conflict unresolved.",
+          "details.dedication": "Commissionfrom12Cellistsestablished; no dedicationstatementinspected.",
+          "details.firstPerformance": "No premiere verified;2018concertis flooronly.",
+          "details.movements": "Continuous theme/variations design corroborated but editionmovementheadings not inspected.",
+          "score.preview": "RetailerpublicpreviewURL403; no directnotationinspection.",
+          "recording.visualAudit": "Metadatainspected; audiovisualplayback and individual12-playerroster not inspected."
+        }
+      },
+      "researcherGrade": {
+        "basis": "Independent estimate8,balanced,mediumconfidence. Publisher explicitly describes equally virtuosic bravura roles for all12players; contemporary directscore review corroborates difficult variation/coda, changing harmonic centres and special sound effects. Wholeworkprofessionalconcerttiming supports compacthighdensity. No directnotationinspection, so no assertedrange/fingering facts; distinguish ensemble coordination from simpler six-celloMambo.",
+        "confidence": "medium"
+      },
+      "recordingResearch": {
+        "status": "candidate-inspected",
+        "queries": [
+          "Variações brasileiras twelve cellos official recording",
+          "publisher directly linked The12inBossaNova"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.youtube.com/watch?v=-gqTAo_BU20",
+            "youtubeId": "-gqTAo_BU20",
+            "title": "W. Kaiser-Lindemann : The 12 in Bossa Nova l The 12 Cellists of the Berliner Philharmoniker | OPUS",
+            "channel": "OPUS 오푸스",
+            "seconds": 276,
+            "performer": "The 12 Cellists of the Berliner Philharmoniker",
+            "checkedOn": "2026-10-28",
+            "status": "candidate",
+            "checks": {
+              "metadata": "Freshyt-dlpJSONinspected;public",
+              "exactVersion": "Exact12-celloensemble andworktitle;directlylinkedby12-partpublisher.",
+              "wholeWork": "276sconsistentwithpublisher4min50sec;noexcerptdesignation.",
+              "human": "Officialconcertcredits27June2018,LOTTEConcertHall;noMIDI/multitrackclaim.",
+              "excludedPerformers": "Noexcludednamesincompleteavailabletitle/description/channel;ensemblecreditcontainsnoindividualroster.",
+              "embed": "playable_in_embed=true",
+              "visualAudio": "Notplayed;individualrosterunverified."
+            },
+            "sourceMetadataFile": "scratch/pilot-completion/variacoes-youtube.json",
+            "descriptionRelevant": "공연일시 : 2018.06.27\nOPUS Masters Series\nThe 12 Cellists of Berlin Philharmonic Orchestra \nLOTTE Concert Hall\n\nWilhelm Kaiser-Lindemann (1940~2010) / The 12 in Bossa Nova \n\nThe 12 Cellists of the Berliner Philharmoniker"
+          }
+        ]
+      }
+    },
+    {
+      "key": "klengel-variations-op15-4vc",
+      "existingPublicId": null,
+      "decision": "include",
+      "reason": "Original four-cello work, complete obtainable parts and exact-opus real concert verified. Grade is a medium-confidence repertoire estimate; direct notation download blocked.",
+      "work": {
+        "composer": "Klengel, Julius",
+        "title": "Variations on an Original Theme, Op. 15",
+        "instruments": {
+          "cello": 4
+        },
+        "players": 4,
+        "formation": "string-quartet",
+        "form": "work",
+        "level": 6,
+        "hardestPart": "cello 1",
+        "year": "",
+        "minutes": null,
+        "set": null,
+        "notes": "Four unequal cello parts; distinct from Theme and Variations, Op. 28.",
+        "popularity": "lesser-known",
+        "mode": null,
+        "pace": null,
+        "character": [
+          "virtuosic"
+        ],
+        "imslpPage": "Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)"
+      },
+      "composerMetadata": null,
+      "details": {
+        "kind": "single",
+        "otherTitles": [
+          "Variationen über ein eigenes Thema für vier Violoncelle"
+        ],
+        "published": "Breitkopf und Härtel, undated (plate 17434); undated International Music Company reprint, no. 1764"
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+            "checkedOn": "2026-10-28",
+            "locator": "Parts / General Information",
+            "finding": "Exactcanonicalpage:4cellos,Op15,originaltitle; onlyCello1uploaded,7pages; Breitkopfplate17434,IMC1764reprint. Firstpublicationca1900iseditorialestimate, notcompositiondate."
+          },
+          {
+            "url": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+            "checkedOn": "2026-10-28",
+            "locator": "SKU I1764 / Description",
+            "finding": "JuilliardStore listscomplete four-cello IMC1764 edition in stock."
+          },
+          {
+            "url": "https://cellos2go.com/products/sheet-music/cello-ensembles/klengel-variations-op-15-for-4-cellos/",
+            "checkedOn": "2026-10-28",
+            "locator": "",
+            "finding": "Specialist retailer suppliespartset, no score. Its direct productdescription saysunequalparts,upperthreeusesthumbposition/trebleclef,lowesthascounting/chordissues. Thesearesourceclaims,notourvisualobservations."
+          },
+          {
+            "url": "https://www.nfm.wroclaw.pl/images/Sezon_2017_2018/omowienia/marzec/18.03.18_omowienie_0.4_www.pdf",
+            "checkedOn": "2026-10-28",
+            "locator": "PDFp1andp2notes",
+            "finding": "18March2018,18:00,NFMChamberHall:completeOp15listed;PolishCelloQuartet,TomaszDaroch,KrzysztofKarpeta,AdamKrzeszowiec,WojciechFudala."
+          },
+          {
+            "url": "https://www.editionsilvertrust.com/pdf-journals/Vol08-no1.pdf",
+            "checkedOn": "2026-10-28",
+            "locator": "Printedp9,OriginalWorksfor3and4Cellos",
+            "finding": "Specialist repertoireessay identifiesOp15asathleticfirstcellowithremainingpartsmoderate,contrastingeasierOp28."
+          }
+        ],
+        "scoring": {
+          "url": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+          "locator": "Description: Four cellos",
+          "finding": "Four independent cellos; no accompaniment or arranger listed. ExactOp15corroboratedbyIMSLPoriginaltitleandspecialistpartsdescription."
+        },
+        "floor": {
+          "url": "https://www.nfm.wroclaw.pl/images/Sezon_2017_2018/omowienia/marzec/18.03.18_omowienie_0.4_www.pdf",
+          "finding": "Actual18March2018NFMChamberHallconcert by four named PolishCelloQuartet players,completeOp15, noexcerpt designation. NoassumptionthatunidentifiedPleethperformancewasthiswork."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+          "finding": "CompleteIMC1764four-celloparts availablein stock; specialistretailerconfirmspartsonly/no fullscore. IMSLPonlyCello1,notcompletefreepartset. Direct observedPDFURLreturnedIMSLPBotCheck,notnotation."
+        },
+        "fieldSources": {
+          "work.composer": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+          "work.imslpPage": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+          "details.otherTitles": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+          "details.published": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+          "work.title": "https://www.nfm.wroclaw.pl/images/Sezon_2017_2018/omowienia/marzec/18.03.18_omowienie_0.4_www.pdf",
+          "work.players": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+          "work.instruments": "https://juilliardstore.com/products/klengel-variations-4-cellos-i1764",
+          "work.notes": "https://www.editionsilvertrust.com/pdf-journals/Vol08-no1.pdf",
+          "details.kind": "https://www.nfm.wroclaw.pl/images/Sezon_2017_2018/omowienia/marzec/18.03.18_omowienie_0.4_www.pdf"
+        },
+        "unknowns": {
+          "work.year": "No primarycompositiondateverified; secondary1886 and IMSLPca1900publicationarenotinterchangeable.",
+          "work.minutes": "No exactwholeworktimingestablished;programme90minutesiswholeconcert.",
+          "details.composed": "Unverified.",
+          "details.movements": "No completeeditionheadings inspected;notconflatedwithOp28.",
+          "details.firstPerformance": "2018floorisnotpremiere.",
+          "details.dedication": "Unverified.",
+          "score.directInspection": "ObservedIMSLPimagesURLrespondedBotCheck;noattempttobypass;noactualnotationseen.",
+          "recording": "TargetedEnglish/GermanYouTubesearchesdidnotproduceinspectableexactOp15candidate."
+        }
+      },
+      "researcherGrade": {
+        "basis": "Estimate6(pre-diploma),cello1,mediumconfidence. Specialist directpartsdescription corroborates thumbposition/trebleclef in upperthreeparts;Cobbett repertoireessay specifically callsfirstcello athletic and othersmoderate. CalibratedRomanticvariationrepertoire knowledge suggests advancedsoloisttechniquewithquartetcounting/coordination,belowprofessionalvirtuosorepertoire. No notationseen:range,fastestfigureandbowingclaims intentionallynotinvented. Independentreviewshouldadjudicate6versus7.",
+        "confidence": "medium"
+      },
+      "recordingResearch": {
+        "status": "not-found",
+        "queries": [
+          "Klengel Op.15 YouTube",
+          "Klengel Variations op.15 concert quartet",
+          "Klengel Variationen op15 Konzert vier Violoncelli"
+        ],
+        "candidates": [],
+        "note": "Noinspectableexact-versionvideocandidatefound;datedNFMofficialprogrammeestablishesperformancefloor."
+      }
+    },
+    {
+      "key": "kaiser-lindemann-mambo-six-6vc",
+      "existingPublicId": null,
+      "decision": "include",
+      "reason": "Original six-cello scoring, composition date printed in score preview, obtainable score/parts, and two exact-version human performance candidates verified. Partial score inspection supports a medium-confidence estimate.",
+      "work": {
+        "composer": "Kaiser-Lindemann, Wilhelm",
+        "title": "Mambo for Six, Op. 8",
+        "instruments": {
+          "cello": 6
+        },
+        "players": 6,
+        "formation": "large-strings",
+        "form": "work",
+        "level": 5,
+        "hardestPart": "cello 1",
+        "year": "1980",
+        "minutes": 5,
+        "set": null,
+        "notes": "Six independent cello parts; may be doubled by a larger cello ensemble.",
+        "popularity": "lesser-known",
+        "mode": null,
+        "pace": "lively",
+        "character": [
+          "dance",
+          "playful"
+        ]
+      },
+      "composerMetadata": {
+        "dates": "1940–2010",
+        "nationality": "German",
+        "gender": "M",
+        "era": "contemporary"
+      },
+      "details": {
+        "kind": "single",
+        "composed": "1980",
+        "published": "Kunzelmann, 2000; euthentic edition, 2012 (revised edition)"
+      },
+      "evidence": {
+        "sources": [
+          {
+            "url": "https://euthentic.eu/31114",
+            "checkedOn": "2026-10-28",
+            "locator": "Description / Product information",
+            "finding": "Current publisher: composed1980, six cellos, six parts plus full score, about4min45sec, in stock. Product calls2012firstedition, but2001review documents2000Kunzelmann edition."
+          },
+          {
+            "url": "https://euthentic.eu/WebRoot/Store2/Shops/9eb6f54e-ef30-4149-be0f-21f0d60d78c3/53B5/47FA/78F4/2362/3966/0A48/3509/2104/Kaiser-Lindemann_op._8_Mambo_for_six_6_Violoncelli_Partitur_Seite_01.jpg",
+            "checkedOn": "2026-10-28",
+            "locator": "Coverpreview",
+            "finding": "Visually inspected publisher cover: Mamboforsix,op8,6Violoncelli,editorJohannesBublitz,revisededition; composer1940–2010."
+          },
+          {
+            "url": "https://euthentic.eu/WebRoot/Store2/Shops/9eb6f54e-ef30-4149-be0f-21f0d60d78c3/53B5/47FA/78F4/2362/3966/0A48/3509/2104/Kaiser-Lindemann_op._8_Mambo_for_six_6_Violoncelli_Partitur_Seite_04.jpg",
+            "checkedOn": "2026-10-28",
+            "locator": "Printedmusicp1 / filepage04",
+            "finding": "Visually inspected first music page:6distinct staves,1980,Tempo diMambo halfnote108,2/2,twoflats. Uppercellos use treble/tenorclefs, staggered chordentries; syncopatedfirst-cellomelody,lowerpizzicato pulse. Only opening11bars inspected."
+          },
+          {
+            "url": "https://www.nmz.de/kritik/rezensionen/noten/im-urwald-der-notenkoepfe",
+            "checkedOn": "2026-10-28",
+            "locator": "1July2001,paragraphsafterVariaçõesdiscussion",
+            "finding": "Contemporary2001review documents Kunzelmann2000edition and firstcello-led melody with accompanyingparts; judges work suitable for intermediate players. This review is independent calibration,not an Atlas numeric grade."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZBKYjxv5azY",
+            "checkedOn": "2026-10-28",
+            "locator": "Freshyt-dlpmetadata",
+            "finding": "Officialinstrument-fund upload:CuypersCelloSextet, sixnamedcellists,14March2021OnlinePresentationConcert,BeursvanBerlageAmsterdam;358seconds,public,embeddable."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=FMA8epdIN38",
+            "checkedOn": "2026-10-28",
+            "locator": "Freshyt-dlpmetadata",
+            "finding": "Publisher directly links this academy upload: sixnamedcellists,282seconds,public,embeddable."
+          },
+          {
+            "url": "https://www.sac.or.kr/site/main/show/show_view?SN=72440",
+            "checkedOn": "2026-10-28",
+            "locator": "Programme / MamboforSixCellos",
+            "finding": "16July2025SoulCelloEnsembleconcert atIBKChamberHall;Mambolists parts1–6 with9performers throughdoubling. DistinctBossaNovafor6Cellosalsoinprogramme."
+          },
+          {
+            "url": "https://de.wikipedia.org/wiki/Wilhelm_Kaiser-Lindemann",
+            "checkedOn": "2026-10-28",
+            "locator": "",
+            "finding": "Secondarybiography suppliesGerman nationality andmalepronouns; publishercoverconfirms1940–2010."
+          }
+        ],
+        "scoring": {
+          "url": "https://euthentic.eu/WebRoot/Store2/Shops/9eb6f54e-ef30-4149-be0f-21f0d60d78c3/53B5/47FA/78F4/2362/3966/0A48/3509/2104/Kaiser-Lindemann_op._8_Mambo_for_six_6_Violoncelli_Partitur_Seite_04.jpg",
+          "locator": "First music page / six staff labels",
+          "finding": "Six independent cello parts, no required backing. Publisher sells6parts+fullscore. Nineplayers in2025Seoulperformance double some parts and do not change players=6minimum."
+        },
+        "floor": {
+          "url": "https://www.youtube.com/watch?v=ZBKYjxv5azY",
+          "finding": "Instrumentfund’s official14March2021presentationconcert recording namesEmmaKroon,NitzanLaster,GiorgosKotsiolis,NicholasSantangeloSchwartz,LeahPlave,PieterdeKoe. ExactMambo,sixcellos,human ensemble."
+        },
+        "version": {
+          "kind": "original",
+          "arranger": null,
+          "extent": "whole-work",
+          "selection": null
+        },
+        "score": {
+          "url": "https://euthentic.eu/31114",
+          "finding": "In-stock fullscore+6parts,editorJohannesBublitz,2012edition. Freelyaccessiblecoverandfirstmusicpagevisuallyinspected; notclaimingwholepurchasedscoreinspection."
+        },
+        "fieldSources": {
+          "work.composer": "https://euthentic.eu/31114",
+          "work.instruments": "https://euthentic.eu/31114",
+          "work.players": "https://euthentic.eu/31114",
+          "work.minutes": "https://euthentic.eu/31114",
+          "details.composed": "https://euthentic.eu/31114",
+          "work.title": "https://euthentic.eu/WebRoot/Store2/Shops/9eb6f54e-ef30-4149-be0f-21f0d60d78c3/53B5/47FA/78F4/2362/3966/0A48/3509/2104/Kaiser-Lindemann_op._8_Mambo_for_six_6_Violoncelli_Partitur_Seite_01.jpg",
+          "work.year": "https://euthentic.eu/WebRoot/Store2/Shops/9eb6f54e-ef30-4149-be0f-21f0d60d78c3/53B5/47FA/78F4/2362/3966/0A48/3509/2104/Kaiser-Lindemann_op._8_Mambo_for_six_6_Violoncelli_Partitur_Seite_04.jpg",
+          "work.notes": "https://www.sac.or.kr/site/main/show/show_view?SN=72440",
+          "details.published": "https://www.nmz.de/kritik/rezensionen/noten/im-urwald-der-notenkoepfe",
+          "details.kind": "https://euthentic.eu/WebRoot/Store2/Shops/9eb6f54e-ef30-4149-be0f-21f0d60d78c3/53B5/47FA/78F4/2362/3966/0A48/3509/2104/Kaiser-Lindemann_op._8_Mambo_for_six_6_Violoncelli_Partitur_Seite_04.jpg",
+          "composerMetadata.dates": "https://euthentic.eu/WebRoot/Store2/Shops/9eb6f54e-ef30-4149-be0f-21f0d60d78c3/53B5/47FA/78F4/2362/3966/0A48/3509/2104/Kaiser-Lindemann_op._8_Mambo_for_six_6_Violoncelli_Partitur_Seite_01.jpg",
+          "composerMetadata.nationality": "https://de.wikipedia.org/wiki/Wilhelm_Kaiser-Lindemann",
+          "composerMetadata.gender": "https://de.wikipedia.org/wiki/Wilhelm_Kaiser-Lindemann"
+        },
+        "unknowns": {
+          "details.firstPerformance": "No premiere established;2021concertfloor only.",
+          "details.dedication": "Unverified.",
+          "details.movements": "Continuoussinglework;formalinternalheadingsbeyondopening notinspected.",
+          "work.imslpPage": "No canonicalIMSLPpageverified.",
+          "details.published.precision": "2012publisherproductcallsfirstedition butcoverrevisededition and2001reviewproveearlierKunzelmann2000publication; do not call2012worldfirstpublication.",
+          "recording.audiovisualAudit": "Metadata inspected forbothvideos; no playbackorbar-by-barscorecomparison.",
+          "score.extentInspected": "Cover,musicpage1,andbackcoveronly; alllatertechnicaldemandsnotdirectlyinspected."
+        }
+      },
+      "researcherGrade": {
+        "basis": "Estimate5(advanced),cello1,mediumconfidence. Inspectedopening has treble/tenorregister in upperparts,staggeredchordentries,offbeatmelody andpizzicatogroove; precision atprintedhalfnote108 andindependentdanceaccentsmattermorethanhigh-densitypassageworkthere. Contemporarydirectscore-review identifiesfirstcellolead andintermediateoverall suitability; calibrateupwardforupperregisterandsix-partcoordination. Laterpagesunseen:5versus4requiresindependentwholeworkreview; nottreatedasvirtuoso12celloVariações.",
+        "confidence": "medium"
+      },
+      "recordingResearch": {
+        "status": "candidates-inspected",
+        "queries": [
+          "Mambo for Six score publisher",
+          "publisher direct YouTube link",
+          "Mambo for Six Cuypers cello sextet"
+        ],
+        "candidates": [
+          {
+            "url": "https://www.youtube.com/watch?v=ZBKYjxv5azY",
+            "youtubeId": "ZBKYjxv5azY",
+            "title": "Kaiser-Lindemann: Mambo for six - 6 cello's van de familie Cuypers",
+            "channel": "Het Muziekinstrumentenfonds",
+            "seconds": 358,
+            "performer": "Cuypers Cello Sextet: Emma Kroon; Nitzan Laster; Giorgos Kotsiolis; Nicholas Santangelo Schwartz; Leah Plave; Pieter de Koe",
+            "checkedOn": "2026-10-28",
+            "status": "candidate",
+            "checks": {
+              "exactVersion": true,
+              "wholeWork": true,
+              "humanPerformance": true,
+              "excludedPerformersChecked": true,
+              "embedVerified": true
+            },
+            "checkEvidence": {
+              "exactVersion": "Exact composer/Mamboforsix title; six named cello performers; date1980 in description agrees score.",
+              "wholeWork": "Single-piece358secondconcertupload,noexcerptdesignation; durationlongerthanpublisherestimate,soindependentreviewshouldcheckbookending/applause.",
+              "humanPerformance": "Officialfundcredits dated14March2021BeursvanBerlageconcert,sixspecificCuyperscellosandplayers.",
+              "excludedPerformersChecked": "Completeavailabletitle/channel/descriptionandallsixindividualcreditschecked; noRayChen,SarahChang,JoshuaBell,StefanJackiw.",
+              "embedVerified": "Freshyt-dlp playable_in_embed=true,availabilitypublic.",
+              "audiovisual": "Notplayed;metadataonlyverification."
+            },
+            "sourceMetadataFile": "scratch/pilot-completion/mambo-youtube.json",
+            "descriptionRelevant": "Cuypers Cello Sextet:\nEmma Kroon – J.B. Cuypers, 1810\nNitzan Laster – J.T. Cuypers, 1771\nGiorgos Kotsiolis – J.T. Cuypers, ca. 1770\nNicholas Santangelo Schwartz – J.T. Cuypers, 1788\nLeah Plave – J.T. Cuypers, 1786\nPieter de Koe – J.T. Cuypers, ca. 1775\n\nWilhelm Kaiser-Lindemann – Mambo for six (1980)\n\nVanuit de Beurs van Berlage, Amsterdam\nOnline Presentatieconcert: 14 maart 2021."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=FMA8epdIN38",
+            "youtubeId": "FMA8epdIN38",
+            "title": "WilhelmKaiser - Lindemann Mambo for six, for 6 Violoncellos",
+            "channel": "Dnipro Academy of Music",
+            "seconds": 282,
+            "performer": "Wen-Sinn Yang; Razvan Suma; Anatas Krastev; Artem Poludennyi; Denis Severin; Olga Lucenko",
+            "checkedOn": "2026-10-28",
+            "status": "candidate",
+            "checks": {
+              "exactVersion": true,
+              "wholeWork": true,
+              "humanPerformance": true,
+              "excludedPerformersChecked": true,
+              "embedVerified": true
+            },
+            "checkEvidence": {
+              "exactVersion": "Exact six-cello Mambo title; six named performers. Directly linked from exact publisher.",
+              "wholeWork": "Single-piece title,282seconds agrees4min45sec printed duration,noexcerptdesignation.",
+              "humanPerformance": "AcademyofMusic upload withsixindividualperformancecredits.",
+              "excludedPerformersChecked": "Completeavailabletitle/channel/descriptionandallsixindividualcreditschecked; noRayChen,SarahChang,JoshuaBell,StefanJackiw.",
+              "embedVerified": "Freshyt-dlp playable_in_embed=true,availabilitypublic.",
+              "audiovisual": "Notplayed;metadataonlyverification."
+            },
+            "sourceMetadataFile": "scratch/pilot-completion/mambo-publisher-youtube.json",
+            "descriptionRelevant": "Performed by\nWen-Sinn Yang (Germany)\nRazvan Suma (Romania)\nAnatas Krastev (Bulgaria)\nArtem Poludennyi (Ukraine)\nDenis Severin (Switzerland)\nOlga Lucenko (Ukrain)\nДнепропетровская академия музыки им. М. Глинки."
+          }
+        ]
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "key": "proto-quartet-basses-1964",
+      "reason": "Reliable currently obtainable score/parts route unresolved."
+    },
+    {
+      "key": "kaiser-lindemann-variacoes-brasileiras-12vc",
+      "reason": "Date/opus conflict omitted; score preview blocked and individual recording roster unverified."
+    }
+  ],
+  "resume": {
+    "nextKey": null,
+    "note": "All four assigned leads processed. Proto held for reliable current obtainable score route; no replacements researched."
+  }
+}

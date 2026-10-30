@@ -27,6 +27,13 @@ describe("chamber search", () => {
     expect(top("schubert d 810")).toMatch(/D\. 810/);
     expect(searchChamber(index, "horn").map((r) => r.piece.title)).toContain("Horn Trio in E-flat major, Op. 40");
   });
+  it("finds an arrangement by its credited arranger while retaining the composer", () => {
+    const arrangement = { ...pieces[0], arranger: "Mihoko Kimura" };
+    const hits = searchChamber(indexChamber([arrangement]), "kimura");
+    expect(hits.map((r) => r.piece)).toEqual([arrangement]);
+    expect(hits[0].piece.composer).toBe(pieces[0].composer);
+    expect(searchChamber(indexChamber([pieces[0]]), "kimura")).toEqual([]);
+  });
   it("treats violin as a real word", () => {
     // the violin list ignores it (every work there is for violin); here it is an instrument like any other
     expect(queryTokens("violin trio")).toEqual(["trio"]);

@@ -1,0 +1,60 @@
+{
+ "batch": "ensemble-30",
+ "accepted": [
+  {
+   "key": "teppo-hauta-aho-dance-no-2-from-two-dances-four-double-basses",
+   "id": 109202,
+   "publicId": 109202,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+   "id": 109203,
+   "publicId": 109203,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    5,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "09eda27b3c6e980cb6df4fcb2c05a298a98a83b54438a5bde1518579140908da",
+  "data/chamber/composers.json": "0bc728e92c413177b9f879aa57dcd8b21e8b9f176f3ec44769db43ce9232de63",
+  "data/chamber/id-registry.json": "296ef4b2d2281d1f612c237b0d828c21e93dfa26bb90b47371fefded93fa0cc4",
+  "data/chamber/sources.json": "bc141859d028d77b5b0d036a198cf665afdf3718d3f64664fe1e0bf335a0420b",
+  "data/details/overrides.json": "95e08786b3d4b35f3877f91a5648c67dfd32d4f8d9ba5e30e9edc6040dd62522",
+  "data/chamber/recordings-judged.json": "26519b1f7cabe8321e72e4276c242d1fecd1721972a9123bc1f44de46afd1bff",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-bass-ready-30.json": "9a3d3e60c9d92b9bbc50d8b07032fcd03b940191f8c33385c8a7694c3e8782ba",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/ready-29.json": "560e95a04734cda409cc22254294889476c6481851de4aff8e01f696f0df012c",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-publisher-02-normalized.json": "c40a371a907a5bac2163f598b6e30bc5f284c9116841a983394eb96754b8f76a",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-publisher-kaufman-confidence-normalized.json": "a9d02a5e84eddc6487bc18df8678b237f0a3e190f7e001c2f387eec3208fa978",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/bass-grades-30-normalized.json": "f6750d198ab3d4ff9acb9e3ce1d24dc40d123c7affc541be7ceaf9af16ef7c3a"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-30"
+}

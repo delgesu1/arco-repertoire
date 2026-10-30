@@ -5887,13 +5887,18 @@
    "Concertos à 4 Violini Concertati"
   ],
   "source": {
-   "movements": "imslp",
-   "otherTitles": "research"
+   "movements": "override",
+   "otherTitles": "research",
+   "kind": "override"
   },
   "researchSources": [
    "https://en.wikipedia.org/wiki/Concertos_for_Four_Violins_(Telemann)"
   ],
-  "imslpPage": "Concerto for 4 Violins, TWV 40:201 (Telemann, Georg Philipp)"
+  "imslpPage": "Concerto for 4 Violins, TWV 40:201 (Telemann, Georg Philipp)",
+  "overrideSources": {
+   "movements": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+   "kind": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf"
+  }
  },
  "569": {
   "movements": [
@@ -42051,17 +42056,27 @@
   "imslpPage": "Pièces de viole, Livre 4 (Marais, Marin)"
  },
  "100472": {
+  "composed": "1723",
   "published": "1723",
   "source": {
+   "composed": "research",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://en.wikipedia.org/wiki/Marin_Marais"
+  ],
   "imslpPage": "La Gamme et Autres Morceaux de Symphonie (Marais, Marin)"
  },
  "100473": {
+  "composed": "1723",
   "published": "1723",
   "source": {
+   "composed": "research",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://en.wikipedia.org/wiki/Marin_Marais"
+  ],
   "imslpPage": "Sonate a la Maresienne (Marais, Marin)"
  },
  "100474": {
@@ -45776,12 +45791,23 @@
   "imslpPage": "Trio Sonata in A major, Op.4 No.3 (Corelli, Arcangelo)"
  },
  "100798": {
+  "movements": [
+   "Preludio – Grave",
+   "Corrente – Allegro",
+   "Adagio",
+   "Giga – Allegro"
+  ],
+  "kind": "movements",
   "dedication": "Cardinal Pietro Ottoboni",
   "published": "1694",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.westcorkmusic.ie/works/trio-sonata-in-d-major-op-4-4"
+  ],
   "imslpPage": "Trio Sonata in D major, Op.4 No.4 (Corelli, Arcangelo)"
  },
  "100799": {
@@ -48510,98 +48536,228 @@
   "imslpPage": "12 Sonatas, Op.5 (Vitali, Giovanni Battista)"
  },
  "101101": {
+  "movements": [
+   "Allegro",
+   "Grave",
+   "Largo",
+   "Grave",
+   "Vivace"
+  ],
+  "kind": "movements",
   "dedication": "Francesco Maria Desiderii",
   "published": "1669",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.tactus.it/en/tc632205-giovanni-battista-vitali-1632-1692-vitali-sonatas-op-5-1669/"
+  ],
   "imslpPage": "12 Sonatas, Op.5 (Vitali, Giovanni Battista)"
  },
  "101102": {
+  "movements": [
+   "Largo",
+   "Grave",
+   "Largo",
+   "Vivace"
+  ],
+  "kind": "movements",
   "dedication": "Francesco Maria Desiderii",
   "published": "1669",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.tactus.it/en/tc632205-giovanni-battista-vitali-1632-1692-vitali-sonatas-op-5-1669/"
+  ],
   "imslpPage": "12 Sonatas, Op.5 (Vitali, Giovanni Battista)"
  },
  "101103": {
+  "movements": [
+   "Grave",
+   "Allegro",
+   "Largo",
+   "Grave",
+   "Allegro"
+  ],
+  "kind": "movements",
   "dedication": "Francesco Maria Desiderii",
   "published": "1669",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.tactus.it/en/tc632205-giovanni-battista-vitali-1632-1692-vitali-sonatas-op-5-1669/"
+  ],
   "imslpPage": "12 Sonatas, Op.5 (Vitali, Giovanni Battista)"
  },
  "101104": {
+  "movements": [
+   "Vivace",
+   "Vivace",
+   "Allegro",
+   "Vivace"
+  ],
+  "kind": "movements",
   "published": "1669",
   "source": {
+   "movements": "research",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.tactus.it/en/tc632205-giovanni-battista-vitali-1632-1692-vitali-sonatas-op-5-1669/"
+  ],
   "imslpPage": "Sonata 'La Graziani', Op.5 No.5 (Vitali, Giovanni Battista)"
  },
  "101105": {
+  "movements": [
+   "Vivace",
+   "Grave",
+   "Allegro",
+   "Vivace"
+  ],
+  "kind": "movements",
   "dedication": "Francesco Maria Desiderii",
   "published": "1669",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.tactus.it/en/tc632205-giovanni-battista-vitali-1632-1692-vitali-sonatas-op-5-1669/"
+  ],
   "imslpPage": "12 Sonatas, Op.5 (Vitali, Giovanni Battista)"
  },
  "101106": {
+  "movements": [
+   "Allegro",
+   "Grave",
+   "Vivace",
+   "Presto",
+   "Grave",
+   "Prestissimo"
+  ],
+  "kind": "movements",
   "dedication": "Francesco Maria Desiderii",
   "published": "1669",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.tactus.it/en/tc632205-giovanni-battista-vitali-1632-1692-vitali-sonatas-op-5-1669/"
+  ],
   "imslpPage": "12 Sonatas, Op.5 (Vitali, Giovanni Battista)"
  },
  "101107": {
+  "movements": [
+   "Allegro",
+   "Grave",
+   "Allegro",
+   "Grave",
+   "Allegro"
+  ],
+  "kind": "movements",
   "dedication": "Francesco Maria Desiderii",
   "published": "1669",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.tactus.it/en/tc632205-giovanni-battista-vitali-1632-1692-vitali-sonatas-op-5-1669/"
+  ],
   "imslpPage": "12 Sonatas, Op.5 (Vitali, Giovanni Battista)"
  },
  "101108": {
+  "movements": [
+   "Allegro",
+   "Largo",
+   "Vivace",
+   "Allegro"
+  ],
+  "kind": "movements",
   "dedication": "Francesco Maria Desiderii",
   "published": "1669",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.tactus.it/en/tc632205-giovanni-battista-vitali-1632-1692-vitali-sonatas-op-5-1669/"
+  ],
   "imslpPage": "12 Sonatas, Op.5 (Vitali, Giovanni Battista)"
  },
  "101109": {
+  "movements": [
+   "Vivace",
+   "Vivace",
+   "Vivace",
+   "Largo",
+   "Presto"
+  ],
+  "kind": "movements",
   "dedication": "Francesco Maria Desiderii",
   "published": "1669",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.tactus.it/en/tc632205-giovanni-battista-vitali-1632-1692-vitali-sonatas-op-5-1669/"
+  ],
   "imslpPage": "12 Sonatas, Op.5 (Vitali, Giovanni Battista)"
  },
  "101110": {
+  "movements": [
+   "Grave",
+   "Largo",
+   "Allegro",
+   "Vivace",
+   "Largo",
+   "Presto"
+  ],
+  "kind": "movements",
   "dedication": "Francesco Maria Desiderii",
   "published": "1669",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.tactus.it/en/tc632205-giovanni-battista-vitali-1632-1692-vitali-sonatas-op-5-1669/"
+  ],
   "imslpPage": "12 Sonatas, Op.5 (Vitali, Giovanni Battista)"
  },
  "101111": {
+  "movements": [
+   "Vivace",
+   "Grave",
+   "Vivace",
+   "Grave",
+   "Allegro"
+  ],
+  "kind": "movements",
   "published": "1669",
   "source": {
+   "movements": "research",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.tactus.it/en/tc632205-giovanni-battista-vitali-1632-1692-vitali-sonatas-op-5-1669/"
+  ],
   "imslpPage": "Sonata 'La Scalabrina', Op.5 No.12 (Vitali, Giovanni Battista)"
  },
  "101112": {
@@ -50054,12 +50210,22 @@
   "imslpPage": "Sinfonia da camera in B-flat major, Op.2 No.6 (Porpora, Nicola Antonio)"
  },
  "101335": {
+  "movements": [
+   "Allegro moderato",
+   "Aria - Alto. Un poco più Allegro",
+   "Allegro ma non presto"
+  ],
+  "kind": "movements",
   "dedication": "Duc De Chartres, Prince du Sang",
   "published": "1743",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.earsense.org/chamber-music/Louis-Gabriel-Guillemain-Sonata-in-G-major-Op-12-No-1/"
+  ],
   "imslpPage": "6 Sonates en quatuors, Op.12 (Guillemain, Louis-Gabriel)"
  },
  "101336": {
@@ -51804,6 +51970,15 @@
    "otherTitles": "imslp"
   },
   "imslpPage": "Trio Sonata in F major (Schmelzer, Johann Heinrich)"
+ },
+ "101550": {
+  "composed": "1668",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://en.wikipedia.org/wiki/Johann_Heinrich_Schmelzer"
+  ]
  },
  "101556": {
   "published": "1642",
@@ -58515,6 +58690,20 @@
   },
   "imslpPage": "3 String Quartets, Op.5 (BI 406, 399, 401) (Rolla, Alessandro)"
  },
+ "102091": {
+  "movements": [
+   "Allegro",
+   "Largo",
+   "Rondo"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://imslp.org/wiki/2_Flute_Quartets,_BI_418,_415_(Rolla,_Alessandro)"
+  ]
+ },
  "102094": {
   "movements": [
    "Andante sostenuto -",
@@ -58764,12 +58953,23 @@
   "imslpPage": "6 String Quintets, G.283-288 (Op.18) (Boccherini, Luigi)"
  },
  "102122": {
+  "movements": [
+   "Allegro assai",
+   "Adagio",
+   "Menuetto",
+   "Allegro assai"
+  ],
+  "kind": "movements",
   "composed": "1774",
   "published": "1775",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "http://www.editionsilvertrust.com/boccherini-quintet-op18-no2.htm"
+  ],
   "imslpPage": "6 String Quintets, G.283-288 (Op.18) (Boccherini, Luigi)"
  },
  "102123": {
@@ -60843,10 +61043,22 @@
   "imslpPage": "6 String Trios, G.101-106 (Op.34) (Boccherini, Luigi)"
  },
  "102327": {
+  "movements": [
+   "Allegretto comodo assai",
+   "Menuetto",
+   "Adagio",
+   "Rondo: Allegro ma non presto"
+  ],
+  "kind": "movements",
   "composed": "1781",
   "source": {
+   "movements": "research",
    "composed": "imslp"
   },
+  "researchSources": [
+   "https://www.earsense.org/chamber-music/Luigi-Boccherini-String-Trio-in-G-major-Op-34-No-2-G102/",
+   "https://www.editionsilvertrust.com/boccherini-string-trio-op.34no2.htm"
+  ],
   "imslpPage": "6 String Trios, G.101-106 (Op.34) (Boccherini, Luigi)"
  },
  "102328": {
@@ -61354,6 +61566,35 @@
   ],
   "imslpPage": "6 Flute Quartets (Campagnoli, Bartolomeo)"
  },
+ "102418": {
+  "movements": [
+   "Allegro",
+   "Comodo"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.brilliantclassics.com/articles/n/nardini-complete-string-quartets"
+  ],
+  "imslpPage": "6 String Quartets (Nardini, Pietro)"
+ },
+ "102419": {
+  "movements": [
+   "Allegro",
+   "Adagio",
+   "Allegretto"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.brilliantclassics.com/articles/n/nardini-complete-string-quartets"
+  ],
+  "imslpPage": "6 String Quartets (Nardini, Pietro)"
+ },
  "102420": {
   "movements": [
    "Allegro moderato",
@@ -61754,24 +61995,53 @@
   "imslpPage": "3 String Quartets, W 2.13-15 (Viotti, Giovanni Battista)"
  },
  "102475": {
+  "movements": [
+   "Andante-Allegro vivace",
+   "Andante",
+   "Allegretto"
+  ],
+  "kind": "movements",
   "dedication": "Philippe Cipriani (i.e. Philip Cipriani Hambly Potter)",
   "source": {
+   "movements": "research",
    "dedication": "imslp"
   },
+  "researchSources": [
+   "https://www.brilliantclassics.com/articles/v/viotti-flute-quartets-op22"
+  ],
   "imslpPage": "3 Flute Quartets, W 2.16-18 (Viotti, Giovanni Battista)"
  },
  "102476": {
+  "movements": [
+   "Moderato ed espressivo",
+   "Menuetto Presto-Trio",
+   "Allegro agitato e con fuoco"
+  ],
+  "kind": "movements",
   "dedication": "Philippe Cipriani (i.e. Philip Cipriani Hambly Potter)",
   "source": {
+   "movements": "research",
    "dedication": "imslp"
   },
+  "researchSources": [
+   "https://www.brilliantclassics.com/articles/v/viotti-flute-quartets-op22"
+  ],
   "imslpPage": "3 Flute Quartets, W 2.16-18 (Viotti, Giovanni Battista)"
  },
  "102477": {
+  "movements": [
+   "Moderato",
+   "Il Pastorello (Andante tempo di pastorale): Allegro"
+  ],
+  "kind": "movements",
   "dedication": "Philippe Cipriani (i.e. Philip Cipriani Hambly Potter)",
   "source": {
+   "movements": "research",
    "dedication": "imslp"
   },
+  "researchSources": [
+   "https://www.brilliantclassics.com/articles/v/viotti-flute-quartets-op22"
+  ],
   "imslpPage": "3 Flute Quartets, W 2.16-18 (Viotti, Giovanni Battista)"
  },
  "102478": {
@@ -62177,10 +62447,20 @@
   "imslpPage": "Trio Sonata in C major, H.573 (Bach, Carl Philipp Emanuel)"
  },
  "102506": {
+  "movements": [
+   "Allegro",
+   "Adagio",
+   "Allegro"
+  ],
+  "kind": "movements",
   "composed": "1747",
   "source": {
+   "movements": "research",
    "composed": "imslp"
   },
+  "researchSources": [
+   "https://infusionbaroque.bandcamp.com/album/1747-c-p-e-bach"
+  ],
   "imslpPage": "Trio Sonata in G major, H.574 (Bach, Carl Philipp Emanuel)"
  },
  "102507": {
@@ -62394,17 +62674,39 @@
   "imslpPage": "6 Keyboard Concertos, Op.11 (Abel, Carl Friedrich)"
  },
  "102532": {
+  "movements": [
+   "Allegro non troppo",
+   "Adagio",
+   "Menuetto: Allegro",
+   "Finale: Presto"
+  ],
+  "kind": "movements",
   "published": "1804",
   "source": {
+   "movements": "research",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://toccataclassics.com/?p=2986"
+  ],
   "imslpPage": "3 String Quartets, Op.48 (Reicha, Anton)"
  },
  "102533": {
+  "movements": [
+   "Allegro",
+   "Adagio un poco Andante",
+   "Menuetto: Allegro",
+   "Finale: Allegretto"
+  ],
+  "kind": "movements",
   "published": "1804",
   "source": {
+   "movements": "research",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://toccataclassics.com/?p=2986"
+  ],
   "imslpPage": "3 String Quartets, Op.48 (Reicha, Anton)"
  },
  "102534": {
@@ -63599,12 +63901,23 @@
   "imslpPage": "3 String Quartets, Op.2 (Fesca, Friedrich Ernst)"
  },
  "102675": {
+  "movements": [
+   "Allegro",
+   "Andante",
+   "Menuetto, allegro",
+   "Allegro molto"
+  ],
+  "kind": "movements",
   "dedication": "Ignace Kleinwächter (1766–1845)",
   "published": "1817",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.editionsilvertrust.com/fesca-qt7.htm"
+  ],
   "imslpPage": "3 String Quartets, Op.3 (Fesca, Friedrich Ernst)"
  },
  "102676": {
@@ -64321,12 +64634,93 @@
   },
   "imslpPage": "Quartet for English horn, Violin, Cello and Bass, MH 600 (Haydn, Michael)"
  },
+ "102764": {
+  "movements": [
+   "Andante commodo",
+   "Menuetto",
+   "Allegro: Rondo"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://musicwebinternational.com/2024/09/michael-haydn-string-quartets-cpo/"
+  ]
+ },
+ "102765": {
+  "movements": [
+   "Andante",
+   "Minuetto",
+   "Allegretto"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://musicwebinternational.com/2024/09/michael-haydn-string-quartets-cpo/"
+  ]
+ },
  "102766": {
+  "movements": [
+   "Andante",
+   "Menuetto alla Franzese",
+   "Rondo"
+  ],
+  "kind": "movements",
   "composed": "1780?",
   "source": {
+   "movements": "research",
    "composed": "imslp"
   },
+  "researchSources": [
+   "https://musicwebinternational.com/2024/09/michael-haydn-string-quartets-cpo/"
+  ],
   "imslpPage": "String Quartet in A major, MH 310 (Haydn, Michael)"
+ },
+ "102767": {
+  "movements": [
+   "Andante un poco allegro",
+   "Andante grazioso",
+   "Menuetto"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://musicwebinternational.com/2024/09/michael-haydn-string-quartets-cpo/"
+  ]
+ },
+ "102768": {
+  "movements": [
+   "Allegro moderato",
+   "Minuetto",
+   "Adagio",
+   "Allegro"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://musicwebinternational.com/2024/09/michael-haydn-string-quartets-cpo/"
+  ]
+ },
+ "102769": {
+  "movements": [
+   "Andante un poco Allegro",
+   "Menuetto un poco Allegro",
+   "Allegro"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://musicwebinternational.com/2024/09/michael-haydn-string-quartets-cpo/"
+  ]
  },
  "102770": {
   "movements": [
@@ -64395,10 +64789,21 @@
   "imslpPage": "String Quintet in F major, MH 411 (Haydn, Michael)"
  },
  "102775": {
+  "movements": [
+   "Allegro moderato",
+   "Adagio",
+   "Menuetto",
+   "Finale"
+  ],
+  "kind": "movements",
   "published": "1790",
   "source": {
+   "movements": "research",
    "published": "imslp"
   },
+  "researchSources": [
+   "http://www.editionsilvertrust.com/wranitzky-string-quartet-op16-no1.htm"
+  ],
   "imslpPage": "6 String Quartets, Op.16 (Wranitzky, Paul)"
  },
  "102776": {
@@ -64444,17 +64849,42 @@
   "imslpPage": "6 String Quartets, Op.23 (Wranitzky, Paul)"
  },
  "102782": {
+  "movements": [
+   "Allegro moderato",
+   "Adagio",
+   "Rondo"
+  ],
+  "kind": "movements",
+  "composed": "1793",
   "published": "1790",
   "source": {
+   "movements": "research",
+   "composed": "research",
    "published": "imslp"
   },
+  "researchSources": [
+   "http://www.editionsilvertrust.com/wranitzky-string-quartet-op23-no.4.htm"
+  ],
   "imslpPage": "6 String Quartets, Op.23 (Wranitzky, Paul)"
  },
  "102783": {
+  "movements": [
+   "Allegro",
+   "Poco adagio",
+   "Minuetto-Allegretto",
+   "Rondo"
+  ],
+  "kind": "movements",
+  "composed": "1793",
   "published": "1790",
   "source": {
+   "movements": "research",
+   "composed": "research",
    "published": "imslp"
   },
+  "researchSources": [
+   "http://www.editionsilvertrust.com/wranitzky-string-quartet-op23-no.5.htm"
+  ],
   "imslpPage": "6 String Quartets, Op.23 (Wranitzky, Paul)"
  },
  "102784": {
@@ -64486,11 +64916,55 @@
   "imslpPage": "6 String Quartets, Op.32 (Wranitzky, Paul)"
  },
  "102790": {
+  "movements": [
+   "Allegro moderato",
+   "Un poco adagio",
+   "Menuetto grazioso",
+   "Allegro non molto"
+  ],
+  "kind": "movements",
+  "composed": "1791/92",
   "published": "1790",
   "source": {
+   "movements": "research",
+   "composed": "research",
    "published": "imslp"
   },
+  "researchSources": [
+   "http://www.editionsilvertrust.com/wranitzky-op17-no2.htm"
+  ],
   "imslpPage": "6 String Trios, Op.17 (Wranitzky, Paul)"
+ },
+ "102791": {
+  "movements": [
+   "Andantino con variazioni",
+   "Menuetto – Trio",
+   "Finale. Allegro"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.brilliantclassics.com/articles/w/wranitzky-string-trios-op-17-no-1-op-3-nos-1-3/"
+  ],
+  "imslpPage": "3 String Trios (Wranitzky, Paul)"
+ },
+ "102792": {
+  "movements": [
+   "Allegro moderato",
+   "Adagio",
+   "Menuetto – Allegretto",
+   "Finale. Allegro"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.brilliantclassics.com/articles/w/wranitzky-string-trios-op-17-no-1-op-3-nos-1-3/"
+  ],
+  "imslpPage": "3 String Trios (Wranitzky, Paul)"
  },
  "102793": {
   "movements": [
@@ -64506,6 +64980,58 @@
    "otherTitles": "imslp"
   },
   "imslpPage": "3 Piano Trios, Op.32 (Wranitzky, Paul)"
+ },
+ "102794": {
+  "movements": [
+   "Adagio – Allegro",
+   "Andante",
+   "Presto"
+  ],
+  "kind": "movements",
+  "composed": "1790",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://grandemusica.editionsilvertrust.com/wranitzky-sextet-no3.htm"
+  ],
+  "imslpPage": "6 Sextets (Wranitzky, Paul)"
+ },
+ "102795": {
+  "movements": [
+   "Allegro moderato",
+   "Adagio",
+   "Menuetto allegro",
+   "Allegro non troppo"
+  ],
+  "kind": "movements",
+  "composed": "1790",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://grandemusica.editionsilvertrust.com/wranitzky-sextet-no4.htm"
+  ],
+  "imslpPage": "6 Sextets (Wranitzky, Paul)"
+ },
+ "102796": {
+  "movements": [
+   "Adagio – Allegro molto",
+   "Andante",
+   "Theme and variations (Andante – Presto)"
+  ],
+  "kind": "movements",
+  "composed": "1790",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://grandemusica.editionsilvertrust.com/wranitzky-sextet-no6.htm"
+  ],
+  "imslpPage": "6 Sextets (Wranitzky, Paul)"
  },
  "102800": {
   "dedication": "son ami Joseph-François Garnier de Lyon",
@@ -64603,21 +65129,39 @@
   "imslpPage": "6 Trios for Flute, Viola and Cello (Devienne, François)"
  },
  "102809": {
+  "movements": [
+   "Siciliano",
+   "Allegro"
+  ],
+  "kind": "movements",
   "composed": "1784 or before",
   "published": "1784",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "http://www.brilliantclassics.com/articles/d/devienne-6-trios-for-flute-viola-cello"
+  ],
   "imslpPage": "6 Trios for Flute, Viola and Cello (Devienne, François)"
  },
  "102810": {
+  "movements": [
+   "Allegro",
+   "Rondo grazioso"
+  ],
+  "kind": "movements",
   "composed": "1784 or before",
   "published": "1784",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "http://www.brilliantclassics.com/articles/d/devienne-6-trios-for-flute-viola-cello"
+  ],
   "imslpPage": "6 Trios for Flute, Viola and Cello (Devienne, François)"
  },
  "102811": {
@@ -64630,12 +65174,21 @@
   "imslpPage": "6 Trios for Flute, Viola and Cello (Devienne, François)"
  },
  "102812": {
+  "movements": [
+   "Allegro moderato",
+   "Rondo"
+  ],
+  "kind": "movements",
   "composed": "1784 or before",
   "published": "1784",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "http://www.brilliantclassics.com/articles/d/devienne-6-trios-for-flute-viola-cello"
+  ],
   "imslpPage": "6 Trios for Flute, Viola and Cello (Devienne, François)"
  },
  "102820": {
@@ -64741,12 +65294,23 @@
   "imslpPage": "String Quintet in A minor, Op.20 (Förster, Emanuel Aloys)"
  },
  "102835": {
+  "movements": [
+   "Adagio – Allegro",
+   "Larghetto sans lenteur",
+   "Scherzo: Allegretto moderato",
+   "Finale: Allegro assai"
+  ],
+  "kind": "movements",
   "composed": "1814 or earlier?",
   "published": "1836",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "http://www.editionsilvertrust.com/cherubini-qt1.htm"
+  ],
   "imslpPage": "String Quartet No.1 (Cherubini, Luigi)"
  },
  "102836": {
@@ -65035,25 +65599,48 @@
   "imslpPage": "6 Keyboard Quintets (Soler, Antonio)"
  },
  "102870": {
+  "movements": [
+   "Allegretto",
+   "Largo",
+   "Allegro pastorile",
+   "Andantino grazioso",
+   "Allegro subito"
+  ],
+  "kind": "movements",
   "composed": "1766",
   "dedication": "a su Altera Rl.",
   "published": "1933",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.cedillerecords.org/albums/padre-antonio-soler-quintets-for-harpsichord-and-strings-numbers-1-3/"
+  ],
   "imslpPage": "6 Keyboard Quintets (Soler, Antonio)"
  },
  "102871": {
+  "movements": [
+   "Allegretto",
+   "Minuetto I & II",
+   "Allegro assai",
+   "Minuetto con variazioni"
+  ],
+  "kind": "movements",
   "composed": "1766",
   "dedication": "a su Altera Rl.",
   "published": "1933",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.cedillerecords.org/albums/padre-antonio-soler-quintets-for-harpsichord-and-strings-numbers-4-6/"
+  ],
   "imslpPage": "6 Keyboard Quintets (Soler, Antonio)"
  },
  "102872": {
@@ -65164,14 +65751,24 @@
   "imslpPage": "3 Flute Quintets, Op.51 (Kuhlau, Friedrich)"
  },
  "102887": {
+  "movements": [
+   "Allegro",
+   "Adagio",
+   "Allegro"
+  ],
+  "kind": "movements",
   "composed": "1820-1",
   "dedication": "Andreas Romberg",
   "published": "1821",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://222.editionsilvertrust.com/kuhlau-piano-qt1.htm"
+  ],
   "imslpPage": "Piano Quartet, Op.32 (Kuhlau, Friedrich)"
  },
  "102888": {
@@ -71049,6 +71646,23 @@
   },
   "imslpPage": "String Quartet No.5, Op.9 (Dvořák, Antonín)"
  },
+ "103304": {
+  "movements": [
+   "Allegro ma non troppo",
+   "Poco allegro — Trio",
+   "Poco adagio",
+   "Finale. Allegro molto"
+  ],
+  "kind": "movements",
+  "composed": "1873",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://en.wikipedia.org/wiki/String_Quartet_No._6_(Dvo%C5%99%C3%A1k)"
+  ]
+ },
  "103305": {
   "movements": [
    "Allegro ma non troppo",
@@ -71193,6 +71807,17 @@
    "published": "imslp"
   },
   "imslpPage": "String Quartet No.14, Op.105 (Dvořák, Antonín)"
+ },
+ "103313": {
+  "composed": "1881",
+  "kind": "single",
+  "source": {
+   "composed": "research",
+   "kind": "research"
+  },
+  "researchSources": [
+   "https://en.wikipedia.org/wiki/Quartet_Movement_in_F_major,_B.120_(Dvo%C5%99%C3%A1k)"
+  ]
  },
  "103315": {
   "movements": [
@@ -72322,14 +72947,26 @@
   "imslpPage": "Piano Trio No.3, Op.158 (Stanford, Charles Villiers)"
  },
  "103374": {
+  "movements": [
+   "Allegro assai",
+   "Poco allegro e grazioso – Presto",
+   "Largo con molto espressione",
+   "Allegro molto"
+  ],
+  "kind": "movements",
   "composed": "1891",
   "dedication": "The Newcastle Chamber Music Society, and Richard Gompertz",
   "published": "1891",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.musicweb-international.com/classrev/2005/Jan05/Stanford_quartets.htm",
+   "https://imslp.org/wiki/String_Quartet_No.1,_Op.44_(Stanford,_Charles_Villiers)"
+  ],
   "imslpPage": "String Quartet No.1, Op.44 (Stanford, Charles Villiers)"
  },
  "103375": {
@@ -74651,6 +75288,26 @@
    "https://en.wikipedia.org/wiki/String_Quartet_in_B-flat_major_(Sibelius)"
   ]
  },
+ "103520": {
+  "movements": [
+   "Allegro",
+   "Andante",
+   "Lento – Allegro con brio"
+  ],
+  "kind": "movements",
+  "composed": "1888",
+  "otherTitles": [
+   "Lovisa Trio"
+  ],
+  "source": {
+   "movements": "research",
+   "composed": "research",
+   "otherTitles": "research"
+  },
+  "researchSources": [
+   "https://en.wikipedia.org/wiki/Piano_Trio_in_C_major_(Sibelius)"
+  ]
+ },
  "103526": {
   "movements": [
    "Allegro",
@@ -75697,6 +76354,21 @@
    "published": "imslp"
   },
   "imslpPage": "String Quartet No.4, Op.211 (Reinecke, Carl)"
+ },
+ "103599": {
+  "movements": [
+   "Allegro agitato",
+   "Andante",
+   "Scherzo. Presto",
+   "Finale. Molto vivace"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.last.fm/music/Reinhold+Quartett/Reinecke:+Complete+String+Quartets"
+  ]
  },
  "103601": {
   "published": "1903",
@@ -85173,6 +85845,57 @@
   },
   "imslpPage": "12 Sinfonie da chiesa, Op.2 (Manfredini, Francesco Onofrio)"
  },
+ "104364": {
+  "movements": [
+   "Alemanda - Largo",
+   "Corrente - Adagio e affettuoso",
+   "Sarabanda"
+  ],
+  "kind": "movements",
+  "composed": "1686",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.prestomusic.com/classical/products/9626882--torelli-12-concerti-da-camera-for-two-violins-and-basso-continuo-op-2"
+  ],
+  "imslpPage": "Concerti da camera, Op.2 (Torelli, Giuseppe)"
+ },
+ "104365": {
+  "movements": [
+   "Balletto - Allegro",
+   "Gigha",
+   "Sarabanda"
+  ],
+  "kind": "movements",
+  "composed": "1686",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.prestomusic.com/classical/products/9626882--torelli-12-concerti-da-camera-for-two-violins-and-basso-continuo-op-2"
+  ],
+  "imslpPage": "Concerti da camera, Op.2 (Torelli, Giuseppe)"
+ },
+ "104366": {
+  "movements": [
+   "Alemanda - Allegro",
+   "Gigha",
+   "Gavota"
+  ],
+  "kind": "movements",
+  "composed": "1686",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.prestomusic.com/classical/products/9626882--torelli-12-concerti-da-camera-for-two-violins-and-basso-continuo-op-2"
+  ],
+  "imslpPage": "Concerti da camera, Op.2 (Torelli, Giuseppe)"
+ },
  "104367": {
   "movements": [
    "Balletto. Largo",
@@ -85185,6 +85908,142 @@
   },
   "researchSources": [
    "https://challengerecords.com/products/17126701661831/12%20Concerti%20da%20camera%20for%20two%20violins%20and%20basso%20continuo,%20Op.%202"
+  ],
+  "imslpPage": "Concerti da camera, Op.2 (Torelli, Giuseppe)"
+ },
+ "104368": {
+  "movements": [
+   "Alemanda - Largo",
+   "Gigha - Prestissimo",
+   "Sarabanda"
+  ],
+  "kind": "movements",
+  "composed": "1686",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.prestomusic.com/classical/products/9626882--torelli-12-concerti-da-camera-for-two-violins-and-basso-continuo-op-2"
+  ],
+  "imslpPage": "Concerti da camera, Op.2 (Torelli, Giuseppe)"
+ },
+ "104369": {
+  "movements": [
+   "Balletto - Largo",
+   "Corrente",
+   "Sarabanda - Presto"
+  ],
+  "kind": "movements",
+  "composed": "1686",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.prestomusic.com/classical/products/9626882--torelli-12-concerti-da-camera-for-two-violins-and-basso-continuo-op-2"
+  ],
+  "imslpPage": "Concerti da camera, Op.2 (Torelli, Giuseppe)"
+ },
+ "104370": {
+  "movements": [
+   "Alemanda - Presto",
+   "Gigha",
+   "Gavota"
+  ],
+  "kind": "movements",
+  "composed": "1686",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.prestomusic.com/classical/products/9626882--torelli-12-concerti-da-camera-for-two-violins-and-basso-continuo-op-2"
+  ],
+  "imslpPage": "Concerti da camera, Op.2 (Torelli, Giuseppe)"
+ },
+ "104371": {
+  "movements": [
+   "Capriccio - Presto",
+   "Corrente - Allegro",
+   "Gavota"
+  ],
+  "kind": "movements",
+  "composed": "1686",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.prestomusic.com/classical/products/9626882--torelli-12-concerti-da-camera-for-two-violins-and-basso-continuo-op-2"
+  ],
+  "imslpPage": "Concerti da camera, Op.2 (Torelli, Giuseppe)"
+ },
+ "104372": {
+  "movements": [
+   "Alemanda - Vivace",
+   "Gigha",
+   "Menuet"
+  ],
+  "kind": "movements",
+  "composed": "1686",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.prestomusic.com/classical/products/9626882--torelli-12-concerti-da-camera-for-two-violins-and-basso-continuo-op-2"
+  ],
+  "imslpPage": "Concerti da camera, Op.2 (Torelli, Giuseppe)"
+ },
+ "104373": {
+  "movements": [
+   "Balletto",
+   "Corrente",
+   "Menuet"
+  ],
+  "kind": "movements",
+  "composed": "1686",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.prestomusic.com/classical/products/9626882--torelli-12-concerti-da-camera-for-two-violins-and-basso-continuo-op-2"
+  ],
+  "imslpPage": "Concerti da camera, Op.2 (Torelli, Giuseppe)"
+ },
+ "104374": {
+  "movements": [
+   "Alemanda - Grave",
+   "Gigha - Largo",
+   "Sarabanda"
+  ],
+  "kind": "movements",
+  "composed": "1686",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.prestomusic.com/classical/products/9626882--torelli-12-concerti-da-camera-for-two-violins-and-basso-continuo-op-2"
+  ],
+  "imslpPage": "Concerti da camera, Op.2 (Torelli, Giuseppe)"
+ },
+ "104375": {
+  "movements": [
+   "Balletto",
+   "Corrente",
+   "Menuet"
+  ],
+  "kind": "movements",
+  "composed": "1686",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.prestomusic.com/classical/products/9626882--torelli-12-concerti-da-camera-for-two-violins-and-basso-continuo-op-2"
   ],
   "imslpPage": "Concerti da camera, Op.2 (Torelli, Giuseppe)"
  },
@@ -86674,10 +87533,26 @@
   "imslpPage": "Keyboard Trio in A major (Mozart, Leopold)"
  },
  "104551": {
+  "movements": [
+   "Moderato",
+   "Pastorella. Larghetto à mezza voce",
+   "Vivace",
+   "Polonaise"
+  ],
+  "kind": "movements",
   "composed": "1750-60",
+  "otherTitles": [
+   "Frog Parthia"
+  ],
   "source": {
-   "composed": "imslp"
+   "movements": "research",
+   "composed": "imslp",
+   "otherTitles": "research"
   },
+  "researchSources": [
+   "https://www.kammermusikfuehrer.de/werke/3952",
+   "https://imslp.org/wiki/Frosch-Parthia_(Mozart,_Leopold)"
+  ],
   "imslpPage": "Frosch-Parthia (Mozart, Leopold)"
  },
  "104552": {
@@ -87209,14 +88084,25 @@
   "imslpPage": "Serenade, Op.19 (Giuliani, Mauro)"
  },
  "104607": {
+  "movements": [
+   "Introduction",
+   "Theme",
+   "Variations",
+   "Polonese"
+  ],
+  "kind": "movements",
   "published": "1814",
   "otherTitles": [
    "Variazioni e polonese per Chitarra, due Violini, Viola e Violoncello"
   ],
   "source": {
+   "movements": "research",
    "published": "imslp",
    "otherTitles": "imslp"
   },
+  "researchSources": [
+   "https://imslp.org/wiki/Gran_Quintetto,_Op.65_(Giuliani,_Mauro)"
+  ],
   "imslpPage": "Gran Quintetto, Op.65 (Giuliani, Mauro)"
  },
  "104608": {
@@ -91116,13 +92002,23 @@
   "imslpPage": "String Sextet, Op.5 (Børresen, Hakon)"
  },
  "104935": {
-  "dedication": "Sigmund Bürger (1856 — 1908)",
-  "published": "1896",
+  "dedication": "Sigmund Bürger (1856–1908)",
+  "published": "1896 or before",
   "source": {
-   "dedication": "imslp",
-   "published": "imslp"
+   "dedication": "override",
+   "published": "override",
+   "composed": "override",
+   "kind": "override"
   },
-  "imslpPage": "Ave Maria, Op.41 (Fitzenhagen, Wilhelm)"
+  "imslpPage": "Ave Maria, Op.41 (Fitzenhagen, Wilhelm)",
+  "composed": "mid-1880s",
+  "kind": "single",
+  "overrideSources": {
+   "composed": "https://www.editionsilvertrust.com/fitzenhagen-ave-maria.htm",
+   "dedication": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+   "published": "https://imslp.org/wiki/Ave_Maria,_Op.41_(Fitzenhagen,_Wilhelm)",
+   "kind": "https://s9.imslp.org/files/imglnks/usimg/0/0a/IMSLP911505-PMLP658388-Ave_Maria.pdf"
+  }
  },
  "104936": {
   "dedication": "Dr. H. Sommer in Braunschweig",
@@ -93221,11 +94117,16 @@
   "composed": "1920",
   "firstPerformance": "17 April 1926 in Moscow, Beethoven Concert Hall of the Bolshoi Theatre; Dmitry Tsyganov, Vasily Shirinsky (violins), Vadim Borisovsky (viola), Sergey Shirinsky (cello)",
   "published": "1928",
+  "kind": "single",
   "source": {
    "composed": "imslp",
    "firstPerformance": "imslp",
-   "published": "imslp"
+   "published": "imslp",
+   "kind": "research"
   },
+  "researchSources": [
+   "https://musicweb-international.com/classrev/2005/Feb05/Russian_quartets.htm"
+  ],
   "imslpPage": "String Quartet No.3 (Roslavets, Nikolay)"
  },
  "105069": {
@@ -93429,12 +94330,22 @@
   "imslpPage": "String Quartet No.3, BVN 183 (Langgaard, Rued)"
  },
  "105085": {
+  "movements": [
+   "Allegretto",
+   "Andantino",
+   "Allegro giocoso"
+  ],
+  "kind": "movements",
   "dedication": "To Mr. and Mrs. Frederick Jacobi",
   "published": "1944",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.oboeclassics.com/~oboe3583/Women%20of%20Note/wBauer.htm"
+  ],
   "imslpPage": "Concertino for Oboe, Clarinet and String Quartet, Op.32b (Bauer, Marion)"
  },
  "105086": {
@@ -93875,23 +94786,27 @@
   "imslpPage": "Quartet for Guitar and Strings (Ponce, Manuel)"
  },
  "105136": {
-  "movements": [
-   "Allegro assai",
-   "Poco lento",
-   "Finale. Presto"
-  ],
-  "composed": "2:; No.1:1907; No.2:1918? Ca.",
-  "dedication": "No.2: Philharmonic String Quartet",
-  "firstPerformance": "1908 March 3 (fantasy)",
-  "published": "1922",
+  "composed": "1907",
   "source": {
-   "movements": "imslp",
-   "composed": "imslp",
-   "dedication": "imslp",
-   "firstPerformance": "imslp",
-   "published": "imslp"
+   "composed": "override",
+   "kind": "override",
+   "otherTitles": "override"
   },
-  "imslpPage": "Fantasy and Quartet, Op.41 (Bowen, York)"
+  "imslpPage": "Fantasy and Quartet, Op.41 (Bowen, York)",
+  "kind": "single",
+  "otherTitles": [
+   "Fantasie Quartet for Four Violas",
+   "Fantasy for Four Violas"
+  ],
+  "overrideSources": {
+   "kind": "https://i0.wp.com/rarestringmusic.com/wp-content/uploads/2019/02/Bowen-York-Fantasie-Quartet-for-Four-Violas-Foreword-1.jpg?ssl=1",
+   "composed": "https://www.laphil.com/works/fantasia-for-four-violas-in-e-minor-op-41-no-1",
+   "otherTitles": "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+   "movements": "https://imslp.org/wiki/Fantasy_and_Quartet,_Op.41_(Bowen,_York)",
+   "dedication": "https://imslp.org/wiki/Fantasy_and_Quartet,_Op.41_(Bowen,_York)",
+   "published": "https://imslp.org/wiki/Fantasy_and_Quartet,_Op.41_(Bowen,_York)",
+   "firstPerformance": "https://i0.wp.com/rarestringmusic.com/wp-content/uploads/2019/02/Bowen-York-Fantasie-Quartet-for-Four-Violas-Foreword-1.jpg?ssl=1"
+  }
  },
  "105138": {
   "movements": [
@@ -94556,10 +95471,26 @@
   "imslpPage": "24 Sonatas (Bertouch, Georg von)"
  },
  "105290": {
+  "movements": [
+   "Allegro",
+   "Adagio",
+   "Presto",
+   "Adagio",
+   "Presto",
+   "Adagio",
+   "Presto",
+   "Adagio",
+   "Adagio"
+  ],
+  "kind": "movements",
   "published": "1703",
   "source": {
+   "movements": "research",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://oudemuziek.nl/en/concert-calendar/alle-concerten-20252026/fom25-86-ars-antiqua-austria-st-florianer-saengerknaben/5-sep-tivolivredenburg-grote-zaal-2000/"
+  ],
   "imslpPage": "Dulcis fidium harmonia, Op.4 (Aufschnaiter, Benedikt Anton)"
  },
  "105291": {
@@ -94774,10 +95705,15 @@
  "105323": {
   "composed": "1625–1650 ca.",
   "published": "1625",
+  "kind": "single",
   "source": {
    "composed": "imslp",
-   "published": "imslp"
+   "published": "imslp",
+   "kind": "research"
   },
+  "researchSources": [
+   "https://imslp.org/wiki/7_Sinfonie_a_5_(Duarte,_Leonora)"
+  ],
   "imslpPage": "Sinfonia No.7 (Duarte, Leonora)"
  },
  "105324": {
@@ -97489,10 +98425,20 @@
   "imslpPage": "6 String Trios, Op.4 (Kleczyński, Jan Baptysta)"
  },
  "105709": {
+  "movements": [
+   "Allegro brillante",
+   "Rêve. Adagio",
+   "Rondo. Allegro di molto"
+  ],
+  "kind": "movements",
   "dedication": "Cecile Beidale",
   "source": {
+   "movements": "research",
    "dedication": "imslp"
   },
+  "researchSources": [
+   "https://www.ckrumlov.info/en/events-18298-trio-incendio-forgotten-contemporaries-festival-krumlov/"
+  ],
   "imslpPage": "Piano Trio, Op.5 (Lessel, Franciszek)"
  },
  "105710": {
@@ -97518,12 +98464,22 @@
   "imslpPage": "6 String Quartets, Op.7 (Kammel, Antonín)"
  },
  "105715": {
+  "movements": [
+   "Andante espressivo",
+   "Adagio",
+   "Rondo, allegro"
+  ],
+  "kind": "movements",
   "dedication": "H. Smith, Esq.",
   "published": "1777",
   "source": {
+   "movements": "research",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "http://www.editionsilvertrust.com/koczwara-trio.htm"
+  ],
   "imslpPage": "6 Sonatas (Kocžwara, František)"
  },
  "105716": {
@@ -98019,6 +98975,50 @@
    "published": "imslp"
   },
   "imslpPage": "6 String Quartets, Op.1 (Saint-Georges, Joseph Bologne)"
+ },
+ "105832": {
+  "movements": [
+   "Allegro assai",
+   "Gratioso"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://stats.highresaudio.com/album/view/wye9uk/arabella-quartet-saint-georges-6-quartetto-concertans"
+  ],
+  "imslpPage": "6 String Quartets 'au gout du jour' (Saint-Georges, Joseph Bologne)"
+ },
+ "105833": {
+  "movements": [
+   "Adagio",
+   "Aria andantino"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://stats.highresaudio.com/album/view/wye9uk/arabella-quartet-saint-georges-6-quartetto-concertans"
+  ],
+  "imslpPage": "6 String Quartets 'au gout du jour' (Saint-Georges, Joseph Bologne)"
+ },
+ "105844": {
+  "movements": [
+   "Larghetto – Allegro",
+   "Larghetto cantabile",
+   "Minuetto: Allegro moderato",
+   "Rondo: Allegro"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://imslp.org/wiki/Guitar_Quintet_(Schnabel,_Joseph)"
+  ],
+  "imslpPage": "Guitar Quintet (Schnabel, Joseph)"
  },
  "105845": {
   "composed": "1810 ca. possibly?",
@@ -98875,6 +99875,20 @@
   },
   "imslpPage": "Trio No.1 for Flute, Violin and Guitar (Kreutzer, Joseph)"
  },
+ "105968": {
+  "movements": [
+   "Allegro vivace",
+   "Andante",
+   "Polacca"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.halidonmusic.com/en/kreutzer-trios-for-flute-violin-and-guitar-op-9-album-6148.html"
+  ]
+ },
  "105969": {
   "movements": [
    "Allegro",
@@ -98987,14 +100001,26 @@
   "imslpPage": "String Quartet, Op.26 (Loewe, Carl)"
  },
  "105978": {
+  "movements": [
+   "Allegro spiritoso",
+   "Menuetto",
+   "Adagio",
+   "Rondo. Allegro"
+  ],
+  "kind": "movements",
   "composed": "1815",
   "dedication": "composé et dédié à Son Excellence Monsieur le Comte Antoine d'Appony, chambellan et conseiller actuel intime de Sa Majesté impériale royale apostolique, commandeur de l'ordre impérial autrichien de Léopold, grand croix de l'ordre royal wurtembergeois de l'aigle d'or, etc. etc.",
   "published": "1816",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.qobuz.com/us-en/album/moscheles-grand-septuor-op-88-grand-sextuor-op-35-fantasie-variations-and-finale-op-46-consortium-classicum/h8diz4vevifxc",
+   "https://imslp.org/wiki/Grand_Sextet,_Op.35_(Moscheles,_Ignaz)"
+  ],
   "imslpPage": "Grand Sextet, Op.35 (Moscheles, Ignaz)"
  },
  "105979": {
@@ -99488,14 +100514,25 @@
   "imslpPage": "Piano Quartet, Op.31 (Catoire, Georgy)"
  },
  "106019": {
+  "movements": [
+   "Allegro moderato",
+   "Andante",
+   "Allegro con spirito e capriccioso"
+  ],
+  "kind": "movements",
   "composed": "1914",
   "dedication": "Pavel Lamm",
   "published": "1921",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.editionsilvertrust.com/catoire-piano-quintet.htm",
+   "https://imslp.org/wiki/Piano_Quintet,_Op.28_(Catoire,_Georgy)"
+  ],
   "imslpPage": "Piano Quintet, Op.28 (Catoire, Georgy)"
  },
  "106020": {
@@ -99776,6 +100813,20 @@
    "published": "imslp"
   },
   "imslpPage": "Suite, Op.8 (D'Ambrosio, Alfredo)"
+ },
+ "106036": {
+  "movements": [
+   "Allegro moderato",
+   "Andante",
+   "Menuetto"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.mic.lt/en/database/classical/releases/586/"
+  ]
  },
  "106037": {
   "composed": "1898",
@@ -100221,14 +101272,26 @@
   "imslpPage": "Piano Trio (Anthiome, Eugène)"
  },
  "106067": {
+  "movements": [
+   "Ruhig, graziös",
+   "Möglichst schnell, ausgelassen",
+   "Sehr ruhig",
+   "Mit Grazie und Humor"
+  ],
+  "kind": "movements",
   "composed": "1898",
   "dedication": "Herrn kammervirtuos Professor Richard Mühlfeld",
   "published": "1905",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.editionsilvertrust.com/baussnern-serenade.htm",
+   "https://imslp.org/wiki/Serenade_for_Violin,_Clarinet_and_Piano_(Baussnern,_Waldemar_von)"
+  ],
   "imslpPage": "Serenade for Violin, Clarinet and Piano (Baussnern, Waldemar von)"
  },
  "106068": {
@@ -102784,10 +103847,21 @@
   "imslpPage": "Piano Quartet, Op.37 (Scharwenka, Xaver)"
  },
  "106283": {
+  "movements": [
+   "Allegro non troppo",
+   "Adagio",
+   "Allegro molto",
+   "Allegro con fuoco"
+  ],
+  "kind": "movements",
   "published": "1879",
   "source": {
+   "movements": "research",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.editionsilvertrust.com/scharwenka-piano-trio-op45.htm"
+  ],
   "imslpPage": "Piano Trio No.2, Op.45 (Scharwenka, Xaver)"
  },
  "106284": {
@@ -103058,14 +104132,25 @@
   "imslpPage": "Piano Trio, Op.121 (Thomé, Francis)"
  },
  "106305": {
+  "movements": [
+   "Allegro non troppo e molto maestoso",
+   "Adagio patetico",
+   "Allegro vivo e scherzando",
+   "Allegro non troppo e molto maestoso – Allegro con spirito"
+  ],
+  "kind": "movements",
   "composed": "1901 August to December, the Hague",
   "dedication": "Herrn Baron van Zuylen van Nijevelt",
   "published": "1903",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "dedication": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://www.editionsilvertrust.com/schafer-piano-quintet.htm"
+  ],
   "imslpPage": "Piano Quintet, Op.5 (Schäfer, Dirk)"
  },
  "106306": {
@@ -103549,10 +104634,21 @@
   "imslpPage": "String Quartet No.2, Op.11 (Atterberg, Kurt)"
  },
  "106343": {
+  "movements": [
+   "Allegro",
+   "Presto (Scherzo)",
+   "Adagio (Romance)",
+   "Allegro deciso (Rondo)"
+  ],
+  "kind": "movements",
   "composed": "1909-38",
   "source": {
+   "movements": "research",
    "composed": "imslp"
   },
+  "researchSources": [
+   "https://www.editionsilvertrust.com/atterberg-string-quartet-3.htm"
+  ],
   "imslpPage": "String Quartet No.3, Op.39 (Atterberg, Kurt)"
  },
  "106344": {
@@ -103649,6 +104745,21 @@
    "composed": "imslp"
   },
   "imslpPage": "String Quartet No.1 (Beyer, Johanna)"
+ },
+ "106349": {
+  "movements": [
+   "Allegretto",
+   "Largo",
+   "Moderato",
+   "Allegro quasi Presto"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://eamusic.dartmouth.edu/~larry/misc_writings/talks/beyer.notes.for.germany.html"
+  ]
  },
  "106350": {
   "movements": [
@@ -105470,6 +106581,20 @@
   },
   "imslpPage": "Trio (Smit, Leo)"
  },
+ "106571": {
+  "movements": [
+   "Allegro",
+   "Lento",
+   "Allegro vivace"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.forbiddenmusicregained.org/search/detail/id/3295f60455b58bd70155b5d629070005"
+  ]
+ },
  "106572": {
   "movements": [
    "Allegretto",
@@ -106693,6 +107818,24 @@
   },
   "imslpPage": "2 Pieces for String Quartet (Shostakovich, Dmitry)"
  },
+ "106693": {
+  "movements": [
+   "Song of Ophelia",
+   "Gamayun, the Bird of Prophecy",
+   "We Were Together",
+   "Gloom Enwraps the Sleeping City",
+   "The Storm",
+   "Secret Signs",
+   "Music"
+  ],
+  "kind": "pieces",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://en.wikipedia.org/wiki/Seven_Romances_on_Poems_by_Alexander_Blok"
+  ]
+ },
  "106699": {
   "movements": [
    "Melodia – Andante sostenuto",
@@ -106707,6 +107850,23 @@
   },
   "researchSources": [
    "https://www.westcorkmusic.ie/works/string-quartet-no-5-in-b-flat-major-op-27/"
+  ]
+ },
+ "106700": {
+  "movements": [
+   "Allegro semplice",
+   "Presto agitato",
+   "Allegro con fuoco",
+   "Adagio",
+   "Moderato commodo",
+   "Andante maestoso"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.westcorkmusic.ie/works/string-quartet-no-6-in-e-minor-op-35/"
   ]
  },
  "106702": {
@@ -106731,6 +107891,23 @@
   },
   "researchSources": [
    "https://colburnschool.edu/?p=35845"
+  ]
+ },
+ "106723": {
+  "movements": [
+   "Lento",
+   "Allegro",
+   "Lento",
+   "Vivace",
+   "Lento"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.wisemusicclassical.com/work/37644/String-Quartet-No-4--Alfred-Schnittke/",
+   "https://www.lafolia.com/schnittkes-fourth-quartet/"
   ]
  },
  "106727": {
@@ -106779,6 +107956,50 @@
   },
   "researchSources": [
    "http://www.editionsilvertrust.com/khachaturian-trio.htm"
+  ]
+ },
+ "106764": {
+  "movements": [
+   "Andante – Allegro moderato",
+   "Vivace",
+   "Andantino",
+   "Allegro assai"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://fugueforthought.de/2019/01/19/dmitry-kabalevsky-string-quartet-no-1-in-am-op-8/"
+  ]
+ },
+ "106766": {
+  "movements": [
+   "Largo",
+   "Andante",
+   "Allegro vivace"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://en.wikipedia.org/wiki/Piano_Trio_(Babajanian)"
+  ]
+ },
+ "106770": {
+  "movements": [
+   "Moderato cantabile",
+   "Allegro",
+   "Largo",
+   "Allegro energico"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://en.wikipedia.org/wiki/Chamber_Symphony_(Popov)"
   ]
  },
  "106772": {
@@ -106893,6 +108114,23 @@
    "https://www.forsyths.co.uk/sheet-music/by-ensemble-type/ensembles/string-ensemble/100193-vasks-peteris---string-quartet-no-3-9790001120678.html"
   ]
  },
+ "106800": {
+  "movements": [
+   "Preludio",
+   "Danze",
+   "Canti drammatici",
+   "Quasi una passacaglia",
+   "Canto principale",
+   "Postludio"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://westcorkmusic.ie/works/quartet-for-violin-viola-cello-and-piano"
+  ]
+ },
  "106801": {
   "kind": "single",
   "source": {
@@ -106948,6 +108186,25 @@
    "https://en.wikipedia.org/wiki/Trio_for_Violin,_Horn_and_Piano_(Ligeti)"
   ]
  },
+ "106856": {
+  "movements": [
+   "Invocatio (un fragment)",
+   "Footfalls ... mintha valaki jönne ...",
+   "Capriccio",
+   "In memoriam György Sebők",
+   "... rappel des oiseaux ...",
+   "Les adieux (in Janáček's Manier)"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.musicweb-international.com/classrev/2016/Dec/Kurtag_quartets_ACD22705p.htm",
+   "https://yellowbarn.org/node/1359",
+   "https://westcorkmusic.ie/works/6-moments-musicaux-op-44"
+  ]
+ },
  "106859": {
   "movements": [
    "Vivo",
@@ -106979,14 +108236,24 @@
   ]
  },
  "106869": {
+  "movements": [
+   "Allegro ma non troppo",
+   "Andante",
+   "Vivo"
+  ],
+  "kind": "movements",
   "composed": "1947",
   "firstPerformance": "1947 December 8 - Cracow; *S. Tauros, W. Latała, violins; T. Gonet, viola; Z. Adamska, cello",
   "published": "1948",
   "source": {
+   "movements": "research",
    "composed": "imslp",
    "firstPerformance": "imslp",
    "published": "imslp"
   },
+  "researchSources": [
+   "https://en.wikipedia.org/wiki/String_Quartet_No._3_(Bacewicz)"
+  ],
   "imslpPage": "String Quartet No.3 (Bacewicz, Grażyna)"
  },
  "106870": {
@@ -107070,6 +108337,19 @@
    "published": "imslp"
   },
   "imslpPage": "Trio (Bacewicz, Grażyna)"
+ },
+ "106881": {
+  "movements": [
+   "Andante",
+   "Vivo"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.stretta-music.it/penderecki-string-quartet-no-4-nr-1566726.html"
+  ]
  },
  "106884": {
   "movements": [
@@ -107160,6 +108440,15 @@
   },
   "imslpPage": "String Quartet No.3, Op.12 (Hába, Alois)"
  },
+ "106982": {
+  "kind": "single",
+  "source": {
+   "kind": "research"
+  },
+  "researchSources": [
+   "https://www.classical-music.com/reviews/miscellaneous/rihm-11"
+  ]
+ },
  "107007": {
   "kind": "single",
   "source": {
@@ -107167,6 +108456,22 @@
   },
   "researchSources": [
    "https://www.westcorkmusic.ie/?p=2053"
+  ]
+ },
+ "107010": {
+  "movements": [
+   "Intrada",
+   "Menuetto",
+   "Lied ohne Worte",
+   "Intermezzo",
+   "Finale"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://brahms4.ircam.fr/en/work/oktett"
   ]
  },
  "107023": {
@@ -107201,6 +108506,15 @@
   },
   "researchSources": [
    "https://musikprotokoll.orf.at/projekt/lachenmannkurt%25C3%25A1gzimmermann"
+  ]
+ },
+ "107032": {
+  "kind": "single",
+  "source": {
+   "kind": "research"
+  },
+  "researchSources": [
+   "https://medias.ircam.fr/en/work/trio-2-in-einem-satz"
   ]
  },
  "107073": {
@@ -107379,6 +108693,19 @@
    "published": "imslp"
   },
   "imslpPage": "String Quartet No.3, Op.20 (Krenek, Ernst)"
+ },
+ "107105": {
+  "movements": [
+   "Allegretto moderato, comodo",
+   "Allegro agitato"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://toccataclassics.com/?p=16120"
+  ]
  },
  "107106": {
   "movements": [
@@ -107973,6 +109300,22 @@
   },
   "imslpPage": "Symphonie de chambre No.3, Op.71 (Milhaud, Darius)"
  },
+ "107142": {
+  "movements": [
+   "L'oreiller de Jacob",
+   "Premier rêve (l'Échelle de Jacob)",
+   "Prophétie",
+   "Deuxième rêve (Lutte avec l'Ange et Bénédiction)",
+   "Israël (Hymne)"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://brahms.ircam.fr/en/works/work/44995"
+  ]
+ },
  "107143": {
   "movements": [
    "Modérément animé",
@@ -107985,6 +109328,21 @@
   },
   "researchSources": [
    "https://brahms.ircam.fr/en/works/work/44985"
+  ]
+ },
+ "107146": {
+  "movements": [
+   "Modéré",
+   "Animé",
+   "Calme",
+   "Violent"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://brahms.ircam.fr/en/work/trio-59"
   ]
  },
  "107147": {
@@ -108345,6 +109703,36 @@
    "https://en.wikipedia.org/wiki/Le_Marteau_sans_ma%C3%AEtre"
   ]
  },
+ "107206": {
+  "movements": [
+   "Vivace",
+   "Lento",
+   "Vivo assai",
+   "Allegro"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://nac-cna.ca/en/event/notes/38376"
+  ]
+ },
+ "107211": {
+  "movements": [
+   "Adagio - Allegro",
+   "Scherzando",
+   "Grave",
+   "Rondo"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://clarinetquintet.web.unc.edu/composition/francaix-quintette/"
+  ]
+ },
  "107214": {
   "kind": "single",
   "source": {
@@ -108448,16 +109836,48 @@
   },
   "imslpPage": "Rispetti e strambotti (Malipiero, Gian Francesco)"
  },
+ "107306": {
+  "kind": "single",
+  "source": {
+   "kind": "research"
+  },
+  "researchSources": [
+   "https://www.concertzender.nl/programma/the_string_quartet_753462/"
+  ]
+ },
+ "107307": {
+  "kind": "single",
+  "source": {
+   "kind": "research"
+  },
+  "researchSources": [
+   "https://www.concertzender.nl/programma/the_string_quartet_753462/"
+  ]
+ },
  "107308": {
   "composed": "1934",
   "dedication": "A Elizabeth Sprague Coolidge",
   "published": "1935",
+  "kind": "single",
   "source": {
    "composed": "imslp",
    "dedication": "imslp",
-   "published": "imslp"
+   "published": "imslp",
+   "kind": "research"
   },
+  "researchSources": [
+   "https://www.concertzender.nl/programma/the_string_quartet_753462/"
+  ],
   "imslpPage": "String Quartet No.4 (Malipiero, Gian Francesco)"
+ },
+ "107309": {
+  "kind": "single",
+  "source": {
+   "kind": "research"
+  },
+  "researchSources": [
+   "https://www.concertzender.nl/programma/the_string_quartet_753462/"
+  ]
  },
  "107313": {
   "movements": [
@@ -108476,6 +109896,22 @@
    "published": "imslp"
   },
   "imslpPage": "Trio Sonata (Malipiero, Gian Francesco)"
+ },
+ "107315": {
+  "movements": [
+   "Allegro",
+   "Andante",
+   "Allegro con spirito",
+   "Canzone con variazioni",
+   "Vivacissimo"
+  ],
+  "kind": "movements",
+  "source": {
+   "movements": "research"
+  },
+  "researchSources": [
+   "https://www.concertzender.nl/?p=870178"
+  ]
  },
  "107316": {
   "movements": [
@@ -108635,6 +110071,26 @@
   },
   "researchSources": [
    "https://en.wikipedia.org/wiki/String_Quartet_in_D_major_(Britten)"
+  ]
+ },
+ "107373": {
+  "movements": [
+   "March (Allegro maestoso)",
+   "Waltz (Allegretto)",
+   "Burlesque (Presto)"
+  ],
+  "kind": "movements",
+  "otherTitles": [
+   "Alla marcia",
+   "Alla valse",
+   "Alla burlesca"
+  ],
+  "source": {
+   "movements": "research",
+   "otherTitles": "research"
+  },
+  "researchSources": [
+   "https://musicintheround.co.uk/programmes/britten-benjamin-three-divertimenti-for-string-quartet/"
   ]
  },
  "107374": {
@@ -108808,6 +110264,15 @@
   },
   "imslpPage": "String Quartet No.3 (Rawsthorne, Alan)"
  },
+ "107449": {
+  "composed": "1957",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://en.wikipedia.org/wiki/List_of_compositions_by_Malcolm_Arnold"
+  ]
+ },
  "107469": {
   "composed": "1921–22",
   "published": "1925",
@@ -108898,6 +110363,15 @@
   },
   "researchSources": [
    "https://aaroncopland.com/works/sextet"
+  ]
+ },
+ "107732": {
+  "composed": "1960",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://en.wikipedia.org/wiki/Nonet_for_Strings"
   ]
  },
  "107733": {
@@ -109037,6 +110511,15 @@
    "https://en.wikipedia.org/wiki/String_Quartet_in_Four_Parts"
   ]
  },
+ "107807": {
+  "composed": "1951",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.musicweb-international.com/classrev/2009/Dec09/Cage_16dances_bmop1012.htm"
+  ]
+ },
  "107816": {
   "movements": [
    "Fantasia",
@@ -109114,6 +110597,15 @@
   },
   "researchSources": [
    "https://percorsimusicali.eu/?p=504"
+  ]
+ },
+ "107874": {
+  "composed": "1994",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.charleswuorinen.com/compositions/piano-quintet/"
   ]
  },
  "107897": {
@@ -109324,6 +110816,15 @@
   },
   "imslpPage": "Piano Trio No.1, Op.3 (Hovhaness, Alan)"
  },
+ "107933": {
+  "composed": "1966",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://fugueforthought.de/2016/08/20/philip-glass-string-quartet-no-1/"
+  ]
+ },
  "107943": {
   "movements": [
    "9/11",
@@ -109436,6 +110937,69 @@
   },
   "imslpPage": "String Quartet (Rzewski, Frederic)"
  },
+ "108028": {
+  "movements": [
+   "Prelude",
+   "Scherzo",
+   "Nocturne",
+   "Fugue",
+   "Postlude"
+  ],
+  "kind": "movements",
+  "composed": "1995",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.johncorigliano.com/works/string-quartet-1995"
+  ]
+ },
+ "108040": {
+  "movements": [
+   "Con moto, flessibile",
+   "Presto",
+   "Antiphon",
+   "Adagio, cantabile"
+  ],
+  "kind": "movements",
+  "composed": "1985",
+  "source": {
+   "movements": "research",
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.hornsociety.org/home/ihs-news/2197-chamber-music-corner-john-harbisons-twilight-music"
+  ]
+ },
+ "108052": {
+  "composed": "2007",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.zwilich.com/works/chamber"
+  ]
+ },
+ "108053": {
+  "composed": "2008",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.zwilich.com/works/chamber",
+   "https://www.audaud.com/passionate-diversions-ellen-taaffe-zwilich-quintet-for-violin-viola-cello-contrabass-and-piano-trio-for-piano-violin-and-cello-septet-for-piano-trio-and-string-quartet-azica/"
+  ]
+ },
+ "108077": {
+  "composed": "1996",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.yellowbarn.org/page/christopher-rouse-compline"
+  ]
+ },
  "108084": {
   "movements": [
    "Freylakh",
@@ -109450,6 +111014,26 @@
   "researchSources": [
    "https://www.chimesmusic.com/products/trio-for-clarinet-violin-and-piano.html",
    "https://milkenarchive.org/music/volumes/view/the-classical-klezmer/work/trio-for-clarinet-violin-and-piano"
+  ]
+ },
+ "108088": {
+  "composed": "1990",
+  "kind": "single",
+  "source": {
+   "composed": "research",
+   "kind": "research"
+  },
+  "researchSources": [
+   "https://www.lowellliebermann.com/op32-piano-trio-no1"
+  ]
+ },
+ "108132": {
+  "composed": "1979",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.windrep.org/Sparrows"
   ]
  },
  "108155": {
@@ -110143,6 +111727,26 @@
    "https://toccataclassics.com/product/lavista-string-quartets/"
   ]
  },
+ "108328": {
+  "composed": "1981",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://brahms.ircam.fr/en/works/work/28853/"
+  ]
+ },
+ "108330": {
+  "composed": "1993",
+  "kind": "single",
+  "source": {
+   "composed": "research",
+   "kind": "research"
+  },
+  "researchSources": [
+   "https://brahms.ircam.fr/en/work/between-tides"
+  ]
+ },
  "108365": {
   "movements": [
    "Bach, Monks, and Shakespeare Meet in Water",
@@ -110159,6 +111763,15 @@
    "https://www.wisemusicclassical.com/work/33560/Ghost-Opera--Tan-Dun/"
   ]
  },
+ "108390": {
+  "composed": "1994",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://www.australianmusiccentre.com.au/work/sculthorpe-peter-string-quartet-no-12-from-ubirr"
+  ]
+ },
  "108393": {
   "movements": [
    "Loneliness",
@@ -110173,6 +111786,15 @@
   },
   "researchSources": [
    "https://representation.australianmusiccentre.com.au/work/sculthorpe-peter-string-quartet-no-16"
+  ]
+ },
+ "108407": {
+  "composed": "2010",
+  "source": {
+   "composed": "research"
+  },
+  "researchSources": [
+   "https://theclassicalreview.com/2010/08/brett-deans-epitaphs-a-superb-addition-to-the-quintet-repertoire/"
   ]
  },
  "108435": {
@@ -110289,5 +111911,1493 @@
    "published": "imslp"
   },
   "imslpPage": "String Trio, Op.12 (Perger, Richard von)"
+ },
+ "109145": {
+  "source": {
+   "movements": "override",
+   "kind": "override"
+  },
+  "movements": [
+   "Adagio",
+   "Allegro",
+   "Grave",
+   "Allegro"
+  ],
+  "kind": "movements",
+  "overrideSources": {
+   "movements": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf",
+   "kind": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf"
+  }
+ },
+ "109146": {
+  "source": {
+   "movements": "override",
+   "kind": "override"
+  },
+  "movements": [
+   "Grave",
+   "Allegro",
+   "Largo e staccato",
+   "Allegro"
+  ],
+  "kind": "movements",
+  "overrideSources": {
+   "movements": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf",
+   "kind": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf"
+  }
+ },
+ "108045": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "composed": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Cucaraccia",
+   "Fugue"
+  ],
+  "composed": "2003",
+  "overrideSources": {
+   "kind": "https://cdn.naxos.com/sharedfiles/pdf/rear/8.559243r.pdf",
+   "movements": "https://cdn.naxos.com/sharedfiles/pdf/rear/8.559243r.pdf",
+   "composed": "https://cdn.naxos.com/sharedfiles/pdf/rear/8.559243r.pdf"
+  }
+ },
+ "106744": {
+  "source": {
+   "composed": "override",
+   "dedication": "override",
+   "firstPerformance": "override"
+  },
+  "composed": "1996",
+  "dedication": "Vladimir Tonkha",
+  "firstPerformance": "11 April 1996, Moscow; Vladimir Tonkha, Elena Shulyova, Vladimir Shulyov and Michail Shumsky (cellos)",
+  "overrideSources": {
+   "composed": "https://www.boosey.com/downloads/gubaidulina_werkverzeichnis.pdf",
+   "dedication": "https://www.boosey.com/downloads/gubaidulina_werkverzeichnis.pdf",
+   "firstPerformance": "https://www.boosey.com/downloads/gubaidulina_werkverzeichnis.pdf"
+  }
+ },
+ "109147": {
+  "source": {
+   "kind": "override",
+   "dedication": "override",
+   "published": "override",
+   "otherTitles": "override"
+  },
+  "kind": "single",
+  "dedication": "Dr. Wenzel Sedlitzky",
+  "published": "1883, Rebay and Robitschek; AVS edition edited by David M. Bynog, 2011.",
+  "otherTitles": [
+   "Nocturne for Four Violas"
+  ],
+  "overrideSources": {
+   "kind": "https://www.americanviolasociety.org/wp-content/uploads/2022/03/Weinzierl-Nachtstuck.pdf",
+   "dedication": "https://www.americanviolasociety.org/wp-content/uploads/2022/03/Weinzierl-Nachtstuck.pdf",
+   "published": "https://www.americanviolasociety.org/wp-content/uploads/2022/03/Weinzierl-Nachtstuck.pdf",
+   "otherTitles": "https://media.nativedsd.com/storage/nativedsd.com/wp-content/uploads/2020/07/02170213/NC14001.pdf"
+  }
+ },
+ "109148": {
+  "source": {
+   "published": "override",
+   "otherTitles": "override",
+   "kind": "override"
+  },
+  "published": "1920",
+  "otherTitles": [
+   "Hymnus für zwölf Violoncelli"
+  ],
+  "kind": "single",
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)",
+   "otherTitles": "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)",
+   "kind": "https://imslp.org/wiki/Hymnus_for_12_Cellos,_Op.57_(Klengel,_Julius)"
+  }
+ },
+ "109149": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "composed": "override",
+   "dedication": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Dedication. Poco maestoso",
+   "Scherzo and Drone. Allegro vivo",
+   "Chorale. Lento",
+   "Tarantella. Allegro con fuoco"
+  ],
+  "composed": "1976",
+  "dedication": "In memory of Lionel Tertis",
+  "overrideSources": {
+   "kind": "https://repository.rice.edu/server/api/core/bitstreams/c0aae5b0-bd04-4a70-afe4-ce48a8e6b648/content",
+   "movements": "https://repository.rice.edu/server/api/core/bitstreams/c0aae5b0-bd04-4a70-afe4-ce48a8e6b648/content",
+   "composed": "https://www.accolade.de/index.php?action=showdetail&id=*151696483",
+   "dedication": "https://www.accolade.de/images/BuSSBild/_151696483-001.jpg"
+  }
+ },
+ "109150": {
+  "source": {
+   "published": "override"
+  },
+  "published": "2001 (Klaus Trumpf arrangement, Hofmeister FH2227)",
+  "overrideSources": {
+   "published": "https://www.hofmeister-musikverlag.com/produkt/passione-amorosa/"
+  }
+ },
+ "109151": {
+  "source": {
+   "firstPerformance": "override",
+   "published": "override",
+   "otherTitles": "override"
+  },
+  "firstPerformance": "2012, Bayreuth-Festival-Violinquartett (publisher catalogue; exact date/place not given)",
+  "published": "2013, Edition Offenburg BC 4131; score14 pages and four parts",
+  "otherTitles": [
+   "Concerto nach italienischem Gusto"
+  ],
+  "overrideSources": {
+   "firstPerformance": "https://www.edition-walhall.de/media/content/Edition_Walhall-ViolineKat2016_.pdf",
+   "published": "https://d-nb.info/1056016825/34",
+   "otherTitles": "https://www.edition-offenburg.com/collections/2-3-und-4-violinen-ohne-basso/products/bc-4131"
+  }
+ },
+ "109152": {
+  "source": {
+   "kind": "override",
+   "published": "override",
+   "otherTitles": "override"
+  },
+  "kind": "single",
+  "published": "1855, Leipzig: C.F. Peters (first publication per IMSLP/Hofmeister citation)",
+  "otherTitles": [
+   "Capriccio für drei Violinen"
+  ],
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)",
+   "published": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)",
+   "otherTitles": "https://imslp.org/wiki/Capriccio_No.1_for_3_Violins,_Op.2_(Hermann,_Friedrich)"
+  }
+ },
+ "109153": {
+  "source": {
+   "kind": "override",
+   "composed": "override",
+   "dedication": "override",
+   "firstPerformance": "override"
+  },
+  "kind": "single",
+  "composed": "2004",
+  "dedication": "The students of Robert Lipsett",
+  "firstPerformance": "1 April 2004, Newman Hall, University of Southern California, Los Angeles; students of Robert Lipsett",
+  "overrideSources": {
+   "kind": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+   "composed": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+   "dedication": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/",
+   "firstPerformance": "https://www.eamdc.com/psny/composers/andrew-norman/works/gran-turismo/"
+  }
+ },
+ "109154": {
+  "source": {
+   "kind": "override",
+   "published": "override",
+   "otherTitles": "override"
+  },
+  "kind": "single",
+  "published": "2000 (Kunzelmann); 2012 revised edition (euthentic edition)",
+  "otherTitles": [
+   "Die 12 in Bossa nova",
+   "The 12 in Bossa Nova"
+  ],
+  "overrideSources": {
+   "kind": "https://www.nmz.de/kritik/rezensionen/noten/im-urwald-der-notenkoepfe",
+   "published": "https://www.nmz.de/kritik/rezensionen/noten/im-urwald-der-notenkoepfe",
+   "otherTitles": "https://www.nmz.de/kritik/rezensionen/noten/im-urwald-der-notenkoepfe"
+  }
+ },
+ "109155": {
+  "source": {
+   "kind": "override",
+   "composed": "override",
+   "published": "override"
+  },
+  "kind": "single",
+  "composed": "1980",
+  "published": "Kunzelmann, 2000; euthentic edition, 2012",
+  "overrideSources": {
+   "kind": "https://euthentic.eu/31114",
+   "composed": "https://euthentic.eu/31114",
+   "published": "https://www.nmz.de/kritik/rezensionen/noten/im-urwald-der-notenkoepfe"
+  }
+ },
+ "109156": {
+  "source": {
+   "published": "override",
+   "kind": "override",
+   "movements": "override",
+   "dedication": "override"
+  },
+  "published": "1859",
+  "kind": "movements",
+  "movements": [
+   "Andantino",
+   "Allegro scherzando"
+  ],
+  "dedication": "Bernhard Mohr",
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Capriccio_No.3_for_3_Violins%2C_Op.13_%28Hermann%2C_Friedrich%29",
+   "kind": "https://imslp.org/wiki/Capriccio_No.3_for_3_Violins%2C_Op.13_%28Hermann%2C_Friedrich%29",
+   "movements": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=16670&itemId=8019",
+   "dedication": "https://imslp.org/wiki/Capriccio_No.3_for_3_Violins%2C_Op.13_%28Hermann%2C_Friedrich%29"
+  }
+ },
+ "109157": {
+  "source": {
+   "published": "override",
+   "kind": "override",
+   "movements": "override",
+   "otherTitles": "override"
+  },
+  "published": "1881 Leipzig: Kistner",
+  "kind": "movements",
+  "movements": [
+   "Grave",
+   "Scherzo",
+   "Canzonetta",
+   "Giocoso",
+   "Marcia funebre",
+   "Presto"
+  ],
+  "otherTitles": [
+   "Suite für 3 violinen, Op.17"
+  ],
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Suite%2C_Op.17_%28Hermann%2C_Friedrich%29",
+   "kind": "https://imslp.org/wiki/Suite%2C_Op.17_%28Hermann%2C_Friedrich%29",
+   "movements": "https://imslp.org/wiki/Suite%2C_Op.17_%28Hermann%2C_Friedrich%29",
+   "otherTitles": "https://imslp.org/wiki/Suite%2C_Op.17_%28Hermann%2C_Friedrich%29"
+  }
+ },
+ "109158": {
+  "source": {
+   "published": "override",
+   "movements": "override"
+  },
+  "published": "1950, Krakow: Polskie Wydawnictwo Muzyczne",
+  "movements": [
+   "Allegretto",
+   "Andante tranquillo",
+   "Molto allegro"
+  ],
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Quartet_for_4_Violins_(Bacewicz,_Gra%C5%BCyna)",
+   "movements": "https://www.gaia-festival.com/en/experience-gaia/audio"
+  }
+ },
+ "109159": {
+  "source": {
+   "published": "override",
+   "movements": "override"
+  },
+  "published": "1973",
+  "movements": [
+   "Blues",
+   "Espagnola",
+   "Rumba philharmonica"
+  ],
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Blues,_Espagnola_und_Rumba_philharmonica_(Blacher,_Boris)",
+   "movements": "https://imslp.org/wiki/Blues,_Espagnola_und_Rumba_philharmonica_(Blacher,_Boris)"
+  }
+ },
+ "109160": {
+  "source": {},
+  "overrideSources": {
+   "movements": "https://ks15.imslp.org/files/imglnks/usimg/b/bb/IMSLP265248-PMLP429944-violin1.pdf"
+  }
+ },
+ "109161": {
+  "source": {
+   "movements": "override"
+  },
+  "movements": [
+   "Introduction",
+   "Thème",
+   "Variation 1",
+   "Variation 2",
+   "Variation 3",
+   "Variation 4",
+   "Variation 5",
+   "Variation 6",
+   "Variation 7",
+   "Variation 8",
+   "Finale"
+  ],
+  "overrideSources": {
+   "published": "https://ks15.imslp.org/files/imglnks/usimg/f/f2/IMSLP484110-PMLP784586-Dancla.AhVousDiraijeMaman.4Vlns.Score.pdf",
+   "movements": "https://ks15.imslp.org/files/imglnks/usimg/f/f2/IMSLP484110-PMLP784586-Dancla.AhVousDiraijeMaman.4Vlns.Score.pdf"
+  }
+ },
+ "109162": {
+  "source": {
+   "published": "override",
+   "kind": "override",
+   "movements": "override"
+  },
+  "published": "1941?",
+  "kind": "movements",
+  "movements": [
+   "Grave",
+   "Allegro",
+   "Adagio",
+   "Allegro – Adagio",
+   "Allegro – Adagio"
+  ],
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Sonata_for_3_Violins_in_F_major,_ULB_Mus.Ms.334_(Fux,_Johann_Joseph)",
+   "kind": "https://s9.imslp.org/files/imglnks/usimg/1/1b/IMSLP508463-PMLP410447-Fux_Sonata_a_tre_Violin_Score.pdf",
+   "movements": "https://s9.imslp.org/files/imglnks/usimg/1/1b/IMSLP508463-PMLP410447-Fux_Sonata_a_tre_Violin_Score.pdf"
+  }
+ },
+ "109163": {
+  "source": {
+   "kind": "override",
+   "movements": "override"
+  },
+  "kind": "pieces",
+  "movements": [
+   "Serenade. Andantino",
+   "Humoreske. Vivace"
+  ],
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/2_St%C3%BCcke,_Op.5_(Klengel,_Julius)",
+   "kind": "https://ks15.imslp.org/files/imglnks/usimg/7/73/IMSLP924821-PMLP1452784-2024-01-04-7-8-0-01.PDF",
+   "movements": "https://ks15.imslp.org/files/imglnks/usimg/7/73/IMSLP924821-PMLP1452784-2024-01-04-7-8-0-01.PDF"
+  }
+ },
+ "109164": {
+  "source": {
+   "published": "override",
+   "kind": "override"
+  },
+  "published": "1857",
+  "kind": "single",
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Burlesque%2C_Op.9_%28Hermann%2C_Friedrich%29",
+   "kind": "https://imslp.org/wiki/Burlesque%2C_Op.9_%28Hermann%2C_Friedrich%29"
+  }
+ },
+ "109165": {
+  "source": {
+   "published": "override",
+   "kind": "override",
+   "movements": "override",
+   "dedication": "override"
+  },
+  "published": "1856 or earlier",
+  "kind": "single",
+  "movements": [
+   "Allegro molto"
+  ],
+  "dedication": "Johann Wenzel Kalliwoda",
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29",
+   "kind": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29",
+   "movements": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29",
+   "dedication": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29"
+  }
+ },
+ "109166": {
+  "source": {
+   "kind": "override",
+   "movements": "override"
+  },
+  "kind": "single",
+  "movements": [
+   "Allegro moderato"
+  ],
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Violas_Terzet_(Avni,_Boaz)",
+   "kind": "https://imslp.org/wiki/Violas_Terzet_(Avni,_Boaz)",
+   "movements": "https://imslp.org/wiki/Violas_Terzet_(Avni,_Boaz)"
+  }
+ },
+ "109167": {
+  "source": {
+   "movements": "override"
+  },
+  "movements": [
+   "Andante",
+   "Menuetto. Allegretto",
+   "Allegro non troppo, ma agitato"
+  ],
+  "overrideSources": {
+   "movements": "https://ks15.imslp.org/files/imglnks/usimg/e/e2/IMSLP471593-PMLP739655-FPLachner_Elegie,_Op.160_parts.pdf",
+   "composed": "https://ks15.imslp.org/files/imglnks/usimg/e/e2/IMSLP471593-PMLP739655-FPLachner_Elegie,_Op.160_parts.pdf"
+  }
+ },
+ "109168": {
+  "source": {
+   "published": "override",
+   "kind": "override",
+   "movements": "override"
+  },
+  "published": "1895, London: Augener",
+  "kind": "single",
+  "movements": [
+   "Allegro moderato",
+   "Andante",
+   "Allegro giocoso",
+   "Finale. Allegro vivo, ma non troppo"
+  ],
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+   "kind": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)",
+   "movements": "https://imslp.org/wiki/Violin_Quartet,_Op.107_(Lachner,_Ignaz)"
+  }
+ },
+ "109169": {
+  "source": {
+   "published": "override",
+   "kind": "override",
+   "movements": "override",
+   "composed": "override",
+   "dedication": "override",
+   "firstPerformance": "override"
+  },
+  "published": "2023, Assayer Publishing (ASCAP)",
+  "kind": "single",
+  "movements": [
+   "Prelude and Chorale",
+   "Fugue",
+   "Aire: Duet and Canon",
+   "Menuet and Quartet",
+   "Postlude and Chaconne"
+  ],
+  "composed": "2023",
+  "dedication": "For Keanu: Listening still…still listening…",
+  "firstPerformance": "October 27, 2024, Grand Valley State University",
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+   "kind": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+   "movements": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+   "composed": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+   "dedication": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)",
+   "firstPerformance": "https://imslp.org/wiki/Suite_%22Palais_Meran%22_for_Cello_Quartet_(Ellenberger,_Kurt)"
+  }
+ },
+ "109170": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "otherTitles": "override"
+  },
+  "kind": "single",
+  "movements": [
+   "Rubato (Lento)"
+  ],
+  "otherTitles": [
+   "Könnycsepp a tükörben"
+  ],
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+   "kind": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+   "movements": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)",
+   "otherTitles": "https://imslp.org/wiki/A_Tear_in_the_Mirror_(Derecskei,_Andr%C3%A1s)"
+  }
+ },
+ "109171": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "firstPerformance": "override"
+  },
+  "kind": "single",
+  "movements": [
+   "In Memoriam: George Finckel"
+  ],
+  "firstPerformance": "September 13, 1987, Bennington College, Bennington, Vermont; conducted by Vivian Fine",
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+   "kind": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+   "movements": "https://imslp.org/wiki/In_Memoriam:_George_Finckel_(Fine,_Vivian)",
+   "firstPerformance": "https://vivianfine.org/main/compositions/in-memoriam-george-finckel.htm"
+  }
+ },
+ "109172": {
+  "source": {
+   "kind": "override",
+   "composed": "override"
+  },
+  "kind": "single",
+  "composed": "1911",
+  "overrideSources": {
+   "kind": "https://www.cordamusic.co.uk/string1.html",
+   "composed": "https://www.cordamusic.co.uk/string1.html"
+  }
+ },
+ "109173": {
+  "source": {
+   "movements": "override",
+   "kind": "override",
+   "published": "override"
+  },
+  "movements": [
+   "Allegro moderato",
+   "Andante con moto",
+   "Allegro ma non troppo",
+   "Allegro con spirito"
+  ],
+  "kind": "pieces",
+  "published": "1898, London: Augener & Co.; No.5292, plate11228",
+  "overrideSources": {
+   "movements": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+   "kind": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)",
+   "published": "https://imslp.org/wiki/4_Pieces_for_3_Violins,_Op.104_(Hofmann,_Richard)"
+  }
+ },
+ "109174": {
+  "source": {
+   "kind": "override",
+   "movements": "override"
+  },
+  "kind": "single",
+  "movements": [
+   "Geistliches Wiegenlied (No.2)"
+  ],
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)",
+   "movements": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)"
+  }
+ },
+ "109175": {
+  "source": {
+   "kind": "override",
+   "published": "override",
+   "movements": "override"
+  },
+  "kind": "single",
+  "published": "1954, Friedrich Hofmeister",
+  "movements": [
+   "Präludium",
+   "Menuett",
+   "Adagio",
+   "Humoreske"
+  ],
+  "overrideSources": {
+   "kind": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+   "composed": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+   "published": "https://www.hofmeister-musikverlag.com/produkt/suite/",
+   "movements": "https://www.hofmeister-musikverlag.com/produkt/suite/"
+  }
+ },
+ "109176": {
+  "source": {
+   "kind": "override",
+   "composed": "override",
+   "published": "override",
+   "movements": "override"
+  },
+  "kind": "single",
+  "composed": "1987",
+  "published": "2003, Recital Music",
+  "movements": [
+   "Arietta"
+  ],
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+   "composed": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+   "published": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses",
+   "movements": "https://shop.doublebasshq.com/products/teppo-hauta-aho-arietta-for-12-double-basses"
+  }
+ },
+ "109177": {
+  "source": {
+   "published": "override"
+  },
+  "published": "1884 Mainz: Schott",
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Etude,_Nocturne_and_Scherzo-Capriccioso,_Op.48_(Spiess,_Ernst)"
+  }
+ },
+ "109178": {
+  "source": {
+   "composed": "override",
+   "dedication": "override"
+  },
+  "composed": "2005",
+  "dedication": "Annette Morreau",
+  "overrideSources": {
+   "composed": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)",
+   "dedication": "https://imslp.org/wiki/Fortune_(Rzewski,_Frederic)"
+  }
+ },
+ "109179": {
+  "source": {
+   "movements": "override",
+   "kind": "override",
+   "published": "override"
+  },
+  "movements": [
+   "Andante espressivo",
+   "Allegretto",
+   "Adagio",
+   "Allegro vivace"
+  ],
+  "kind": "movements",
+  "published": "1900 or earlier?",
+  "overrideSources": {
+   "movements": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+   "kind": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)",
+   "published": "https://imslp.org/wiki/Kleine_Suite_(Schmitt,_Aloys)"
+  }
+ },
+ "109180": {
+  "source": {
+   "kind": "override",
+   "published": "override",
+   "dedication": "override"
+  },
+  "kind": "movements",
+  "published": "1901 ? Mainz: Schott",
+  "dedication": "Ettore Pinelli",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+   "published": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)",
+   "dedication": "https://imslp.org/wiki/Suite_for_4_Violins_(Gabrielli,_Ladislav)"
+  }
+ },
+ "109181": {
+  "source": {
+   "composed": "override"
+  },
+  "composed": "2002",
+  "overrideSources": {
+   "composed": "https://www.boosey.com/cr/music/Brett-Dean-Testament/30840"
+  }
+ },
+ "109183": {
+  "source": {
+   "kind": "override",
+   "composed": "override"
+  },
+  "kind": "single",
+  "composed": "2007",
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/bad-brothers",
+   "composed": "https://shop.doublebasshq.com/products/bad-brothers",
+   "published": "https://shop.doublebasshq.com/products/bad-brothers",
+   "movements": "https://shop.doublebasshq.com/products/bad-brothers"
+  }
+ },
+ "109184": {
+  "source": {
+   "kind": "override"
+  },
+  "kind": "single",
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet",
+   "composed": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet",
+   "published": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet",
+   "movements": "https://shop.doublebasshq.com/products/ac-133-for-db-quartet"
+  }
+ },
+ "109185": {
+  "source": {
+   "kind": "override"
+  },
+  "kind": "single",
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/compostela",
+   "composed": "https://shop.doublebasshq.com/products/compostela",
+   "published": "https://shop.doublebasshq.com/products/compostela",
+   "movements": "https://shop.doublebasshq.com/products/compostela"
+  }
+ },
+ "109186": {
+  "source": {
+   "kind": "override"
+  },
+  "kind": "single",
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/the-river-fisherman",
+   "composed": "https://shop.doublebasshq.com/products/the-river-fisherman",
+   "published": "https://shop.doublebasshq.com/products/the-river-fisherman",
+   "movements": "https://shop.doublebasshq.com/products/the-river-fisherman"
+  }
+ },
+ "109187": {
+  "source": {
+   "published": "override",
+   "dedication": "override"
+  },
+  "published": "1880 Leipzig: F. Kistner |",
+  "dedication": "Joseph Joachim",
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+   "dedication": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)"
+  }
+ },
+ "109188": {
+  "source": {
+   "kind": "override",
+   "composed": "override",
+   "firstPerformance": "override"
+  },
+  "kind": "movement",
+  "composed": "2020",
+  "firstPerformance": "2020/11/27",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+   "composed": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+   "firstPerformance": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)"
+  }
+ },
+ "109189": {
+  "source": {
+   "kind": "override",
+   "composed": "override"
+  },
+  "kind": "single",
+  "composed": "2025",
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/sidney-king-five-miniatures-for-double-bass-quartet",
+   "composed": "https://shop.doublebasshq.com/products/sidney-king-five-miniatures-for-double-bass-quartet"
+  }
+ },
+ "109190": {
+  "source": {
+   "kind": "override",
+   "composed": "override"
+  },
+  "kind": "single",
+  "composed": "2012",
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+   "composed": "https://shop.doublebasshq.com/products/two-american-bass-quartets"
+  }
+ },
+ "109191": {
+  "source": {
+   "kind": "override",
+   "composed": "override"
+  },
+  "kind": "single",
+  "composed": "2013",
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/two-american-bass-quartets",
+   "composed": "https://shop.doublebasshq.com/products/two-american-bass-quartets"
+  }
+ },
+ "109192": {
+  "source": {
+   "kind": "override",
+   "composed": "override"
+  },
+  "kind": "single",
+  "composed": "2007",
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/tony-osborne-true-grit-for-double-bass-quartet",
+   "composed": "https://shop.doublebasshq.com/products/tony-osborne-true-grit-for-double-bass-quartet"
+  }
+ },
+ "109193": {
+  "source": {
+   "kind": "override",
+   "composed": "override"
+  },
+  "kind": "single",
+  "composed": "2001",
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/tony-osborne-dreamtime-for-double-bass-quartet",
+   "composed": "https://shop.doublebasshq.com/products/tony-osborne-dreamtime-for-double-bass-quartet"
+  }
+ },
+ "109194": {
+  "source": {
+   "kind": "override",
+   "movements": "override"
+  },
+  "kind": "pieces",
+  "movements": [
+   "Allegro ben ritmato e deciso",
+   "Andante con moto e poco rubato",
+   "Allegro ben ritmato e deciso"
+  ],
+  "overrideSources": {
+   "kind": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/919766",
+   "movements": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/919766"
+  }
+ },
+ "109195": {
+  "source": {
+   "composed": "override",
+   "firstPerformance": "override"
+  },
+  "composed": "2018",
+  "firstPerformance": "2018",
+  "overrideSources": {
+   "composed": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+   "firstPerformance": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)"
+  }
+ },
+ "109196": {
+  "source": {
+   "composed": "override",
+   "published": "override",
+   "dedication": "override"
+  },
+  "composed": "2012",
+  "published": "2012",
+  "dedication": "For Annalise and Ryan",
+  "overrideSources": {
+   "composed": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+   "published": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+   "dedication": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)"
+  }
+ },
+ "109197": {
+  "source": {
+   "kind": "override",
+   "composed": "override"
+  },
+  "kind": "single",
+  "composed": "2005",
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+   "composed": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet"
+  }
+ },
+ "109198": {
+  "source": {
+   "kind": "override",
+   "composed": "override",
+   "published": "override",
+   "movements": "override"
+  },
+  "kind": "quartet",
+  "composed": "2014–16",
+  "published": "2021–22",
+  "movements": [
+   "I. Andante",
+   "II. Allegro",
+   "III. Lento",
+   "IV. Vivo"
+  ],
+  "overrideSources": {
+   "kind": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/775024",
+   "composed": "https://imslp.org/wiki/Quartetto_Viola,_VG80_(Gorochnaya,_Vasilisa)",
+   "published": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/775024",
+   "movements": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/775024"
+  }
+ },
+ "109199": {
+  "source": {
+   "kind": "override",
+   "published": "override",
+   "dedication": "override",
+   "otherTitles": "override"
+  },
+  "kind": "piece",
+  "published": "1923",
+  "dedication": "A Francisco P. Roget",
+  "otherTitles": [
+   "Les prières, Op.27 No.3",
+   "San Francesco parla alle tortore"
+  ],
+  "overrideSources": {
+   "kind": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=13569",
+   "published": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=13569",
+   "dedication": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/91745",
+   "otherTitles": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=13569"
+  }
+ },
+ "109200": {
+  "source": {
+   "movements": "override"
+  },
+  "movements": [
+   "Theme, eleven variations and coda"
+  ],
+  "overrideSources": {
+   "movements": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)"
+  }
+ },
+ "109201": {
+  "source": {
+   "kind": "override",
+   "composed": "override"
+  },
+  "kind": "piece",
+  "composed": "23 April 1926, Sopron",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Andantino_(K%C3%A1rp%C3%A1ti,_S%C3%A1ndor)",
+   "composed": "https://imslp.org/wiki/Andantino_(K%C3%A1rp%C3%A1ti,_S%C3%A1ndor)"
+  }
+ },
+ "109202": {
+  "source": {
+   "kind": "override"
+  },
+  "kind": "piece",
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/teppo-hauta-aho-two-dances"
+  }
+ },
+ "109203": {
+  "source": {
+   "kind": "override"
+  },
+  "kind": "single",
+  "overrideSources": {
+   "kind": "https://shop.doublebasshq.com/products/claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+   "composed": "https://shop.doublebasshq.com/products/claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet"
+  }
+ },
+ "109204": {
+  "source": {
+   "kind": "override"
+  },
+  "kind": "piece",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Special:ReverseLookup/345028"
+  }
+ },
+ "109205": {
+  "source": {
+   "kind": "override"
+  },
+  "kind": "piece",
+  "overrideSources": {
+   "kind": "https://www.learningthecello.com/free-cello-ensemble-music.php"
+  }
+ },
+ "109206": {
+  "source": {
+   "kind": "override",
+   "composed": "override"
+  },
+  "kind": "piece",
+  "composed": "1994",
+  "overrideSources": {
+   "kind": "https://www.fabermusic.com/music/chorale-2495",
+   "composed": "https://www.fabermusic.com/music/chorale-2495"
+  }
+ },
+ "109207": {
+  "source": {
+   "kind": "override",
+   "composed": "override",
+   "movements": "override"
+  },
+  "kind": "single",
+  "composed": "2016",
+  "movements": [
+   "Marble Fountain"
+  ],
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+   "composed": "https://jonathancrosmer.com/music/works/",
+   "movements": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)"
+  }
+ },
+ "109208": {
+  "source": {
+   "kind": "override"
+  },
+  "kind": "single",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29"
+  }
+ },
+ "109209": {
+  "source": {
+   "kind": "override"
+  },
+  "kind": "piece",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Prelude_and_Fugue_in_B-flat_minor,_BWV_867_(Bach,_Johann_Sebastian)"
+  }
+ },
+ "109210": {
+  "source": {
+   "kind": "override"
+  },
+  "kind": "piece",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Prelude_in_F_major,_BWV_928_(Bach,_Johann_Sebastian)"
+  }
+ },
+ "109211": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "composed": "override",
+   "dedication": "override",
+   "firstPerformance": "override"
+  },
+  "kind": "suite",
+  "movements": [
+   "Loekie Blues",
+   "Slow Blues Song",
+   "De Stille"
+  ],
+  "composed": "2011",
+  "dedication": "Karin Dolman",
+  "firstPerformance": "Version A: 2012-02-23, opening concert, Altvioolfestival Dordrecht",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+   "movements": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+   "composed": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+   "dedication": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+   "firstPerformance": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)"
+  }
+ },
+ "109212": {
+  "source": {
+   "kind": "override",
+   "composed": "override",
+   "firstPerformance": "override"
+  },
+  "kind": "quartet",
+  "composed": "2008",
+  "firstPerformance": "2016-04-09, Concerto SESC Partituras Roraima, Boa Vista",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+   "composed": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+   "firstPerformance": "https://www.youtube.com/watch?v=I7kwqO0YeWU"
+  }
+ },
+ "109213": {
+  "source": {
+   "kind": "override",
+   "dedication": "override"
+  },
+  "kind": "work",
+  "dedication": "Marc Coppey",
+  "overrideSources": {
+   "kind": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/296386",
+   "dedication": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/296386"
+  }
+ },
+ "109214": {
+  "source": {
+   "kind": "override"
+  },
+  "kind": "piece",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)"
+  }
+ },
+ "109216": {
+  "source": {
+   "published": "override",
+   "kind": "override",
+   "movements": "override"
+  },
+  "published": "1901, Berlin: N. Simrock, plate11610",
+  "kind": "single",
+  "movements": [
+   "Allegro commodo"
+  ],
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)",
+   "kind": "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)",
+   "movements": "https://imslp.org/wiki/Violin_Quartet_(Bohm,_Carl)"
+  }
+ },
+ "109217": {
+  "source": {
+   "kind": "override",
+   "movements": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Allegro espressivo",
+   "Scherzo. Allegro assai — Trio. Più moderato",
+   "Larghetto",
+   "Finale. Vivace"
+  ],
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)",
+   "movements": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)"
+  }
+ },
+ "109218": {
+  "source": {
+   "kind": "override",
+   "published": "override"
+  },
+  "kind": "single",
+  "published": "1892",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)",
+   "published": "https://imslp.org/wiki/Impromptu,_Op.30_(Klengel,_Julius)"
+  }
+ },
+ "109219": {
+  "source": {
+   "kind": "override"
+  },
+  "kind": "single",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Andante_cantabile_for_4_Violas_(Waelput,_Hendrik)"
+  }
+ },
+ "109220": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override"
+  },
+  "kind": "pieces",
+  "movements": [
+   "1. Andante",
+   "2. Adagio - Allegro",
+   "3. Scherzo: Allegro non troppo - Trio",
+   "4. Andante maestoso",
+   "5. Pastorale",
+   "6. Larghetto - Allegro"
+  ],
+  "published": "ca.1835, Paris: Richault",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/6_Pieces_for_3_Cellos,_Op.104_(Dotzauer,_Friedrich)",
+   "movements": "https://imslp.org/wiki/6_Pieces_for_3_Cellos,_Op.104_(Dotzauer,_Friedrich)",
+   "published": "https://imslp.org/wiki/6_Pieces_for_3_Cellos,_Op.104_(Dotzauer,_Friedrich)"
+  }
+ },
+ "109221": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override",
+   "dedication": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Allegro assai moderato",
+   "Andante",
+   "Scherzo: Vivace - Trio",
+   "Finale: Allegro agitato"
+  ],
+  "published": "1831, Vienna: Mechetti",
+  "dedication": "B.D. Goldschmidt of Hamburg",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Cello_Trio_in_E_minor,_Op.12_(Limmer,_Franz)",
+   "movements": "https://imslp.org/wiki/Cello_Trio_in_E_minor,_Op.12_(Limmer,_Franz)",
+   "published": "https://imslp.org/wiki/Cello_Trio_in_E_minor,_Op.12_(Limmer,_Franz)",
+   "dedication": "https://imslp.org/wiki/Cello_Trio_in_E_minor,_Op.12_(Limmer,_Franz)"
+  }
+ },
+ "109222": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override",
+   "dedication": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Andante espressivo",
+   "Allegro",
+   "Adagio espressivo",
+   "Allegro vivace"
+  ],
+  "published": "1912, Paris: A.Z. Mathot",
+  "dedication": "Pablo Casals",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Moór,_Emanuel)",
+   "movements": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Moór,_Emanuel)",
+   "published": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Moór,_Emanuel)",
+   "dedication": "https://imslp.org/wiki/Suite_for_3_Violins,_Op.133_(Moór,_Emanuel)"
+  }
+ },
+ "109223": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Allegro non troppo",
+   "Minuetto: Allegro - Trio",
+   "Andante",
+   "Finale: Allegro con fuoco"
+  ],
+  "published": "1869 or earlier, Leipzig: Friedrich Hofmeister",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Trio_No.2_for_3_Cellos,_Op.40_(Battanchon,_Félix)",
+   "movements": "https://imslp.org/wiki/Trio_No.2_for_3_Cellos,_Op.40_(Battanchon,_Félix)",
+   "published": "https://imslp.org/wiki/Trio_No.2_for_3_Cellos,_Op.40_(Battanchon,_Félix)"
+  }
+ },
+ "109224": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override"
+  },
+  "kind": "pieces",
+  "movements": [
+   "Le Départ (Departure): Moderato maestoso",
+   "L'Arrivée (Arrival): Moderato maestoso e cantabile",
+   "Le Retour (The Return), March: Moderato risoluto"
+  ],
+  "published": "1890, Mainz: Schott",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/3_Pieces_for_4_Violins,_Op.178_(Dancla,_Charles)",
+   "movements": "https://imslp.org/wiki/3_Pieces_for_4_Violins,_Op.178_(Dancla,_Charles)",
+   "published": "https://imslp.org/wiki/3_Pieces_for_4_Violins,_Op.178_(Dancla,_Charles)"
+  }
+ },
+ "109226": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override",
+   "dedication": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Allegro",
+   "Andantino",
+   "Intermezzo",
+   "Scherzo",
+   "Allegro con brio"
+  ],
+  "published": "1893, Moscow: P. Jurgenson",
+  "dedication": "To the memory of Karl Davydov",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Suite_No.1,_Op.13_(Kuznetsov,_Aleksandr)",
+   "movements": "https://imslp.org/wiki/Suite_No.1,_Op.13_(Kuznetsov,_Aleksandr)",
+   "published": "https://imslp.org/wiki/Suite_No.1,_Op.13_(Kuznetsov,_Aleksandr)",
+   "dedication": "https://imslp.org/wiki/Suite_No.1,_Op.13_(Kuznetsov,_Aleksandr)"
+  }
+ },
+ "109227": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Andante",
+   "Vivo",
+   "Andantino",
+   "Largo - Andante - Moderato"
+  ],
+  "published": "n.d. (1905), Moscow: P. Jurgenson",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Suite_No.3,_Op.28_(Kuznetsov,_Aleksandr)",
+   "movements": "https://imslp.org/wiki/Suite_No.3,_Op.28_(Kuznetsov,_Aleksandr)",
+   "published": "https://imslp.org/wiki/Suite_No.3,_Op.28_(Kuznetsov,_Aleksandr)"
+  }
+ },
+ "109228": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override"
+  },
+  "kind": "pieces",
+  "movements": [
+   "Abend",
+   "Nachtzauber",
+   "Elfenreigen"
+  ],
+  "published": "1916, Augsburg: Anton Böhm & Sohn",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Stimmungsbilder,_Op.92_(Sluníčko,_Jan)",
+   "movements": "https://imslp.org/wiki/Stimmungsbilder,_Op.92_(Slun%C3%AD%C4%8Dko,_Jan)",
+   "published": "https://imslp.org/wiki/Stimmungsbilder,_Op.92_(Slun%C3%AD%C4%8Dko,_Jan)"
+  }
+ },
+ "109229": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override",
+   "dedication": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Introduction (Andante)",
+   "Polacca"
+  ],
+  "published": "1858, Bonn: N. Simrock",
+  "dedication": "His pupils Paul Siegfried, Jean Ringier, Jean Imhoof and Arnold Plüss",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Introduction_et_Polacca_pour_4_Violons_concertants,_Op.21_(Petzold,_Karl_Eugen)",
+   "movements": "https://imslp.org/wiki/Introduction_et_Polacca_pour_4_Violons_concertants,_Op.21_(Petzold,_Karl_Eugen)",
+   "published": "https://imslp.org/wiki/Introduction_et_Polacca_pour_4_Violons_concertants,_Op.21_(Petzold,_Karl_Eugen)",
+   "dedication": "https://imslp.org/wiki/Introduction_et_Polacca_pour_4_Violons_concertants,_Op.21_(Petzold,_Karl_Eugen)"
+  }
+ },
+ "109231": {
+  "source": {
+   "kind": "override",
+   "movements": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Toccata",
+   "Floating",
+   "Pulse",
+   "Epilogue & Bariolage"
+  ],
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Consort_No.1_(Derecskei,_András)",
+   "movements": "https://imslp.org/wiki/Consort_No.1_(Derecskei,_András)"
+  }
+ },
+ "109232": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override"
+  },
+  "kind": "pieces",
+  "movements": [
+   "Religioso",
+   "Nocturne"
+  ],
+  "published": "c.1879, Mainz: Schott (Cello-Bibliothek No.144)",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/4_Morceaux_caractéristiques,_Op.53_(Goltermann,_Georg)",
+   "movements": "https://imslp.org/wiki/4_Morceaux_caract%C3%A9ristiques,_Op.53_(Goltermann,_Georg)",
+   "published": "https://imslp.org/wiki/4_Morceaux_caract%C3%A9ristiques,_Op.53_(Goltermann,_Georg)"
+  }
+ },
+ "109233": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override"
+  },
+  "kind": "pieces",
+  "movements": [
+   "Lied ohne Worte",
+   "Gavotte",
+   "Wiegenlied",
+   "Marsch"
+  ],
+  "published": "1895",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/4_Stücke,_Op.33_(Klengel,_Julius)",
+   "movements": "https://imslp.org/wiki/4_St%C3%BCcke,_Op.33_(Klengel,_Julius)",
+   "published": "https://imslp.org/wiki/4_St%C3%BCcke,_Op.33_(Klengel,_Julius)"
+  }
+ },
+ "109234": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override",
+   "dedication": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Andante serioso",
+   "Scherzo: Allegro molto vivace",
+   "Introduzione: Adagio molto - Moderato"
+  ],
+  "published": "1884, Munich: Aibl",
+  "dedication": "J. N. Kösporer",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Cello_Quartet,_Op.6_(Werner,_Josef)",
+   "movements": "https://imslp.org/wiki/Cello_Quartet,_Op.6_(Werner,_Josef)",
+   "published": "https://imslp.org/wiki/Cello_Quartet,_Op.6_(Werner,_Josef)",
+   "dedication": "https://imslp.org/wiki/Cello_Quartet,_Op.6_(Werner,_Josef)"
+  }
+ },
+ "109235": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "published": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Allegro moderato",
+   "Adagio",
+   "Rondo – Finale: Allegro non troppo"
+  ],
+  "published": "1957, Leipzig: Friedrich Hofmeister",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Double_Bass_Trio,_Op.56_(Poradowski,_Stefan_Boles%C5%82aw)",
+   "movements": "https://www.youtube.com/watch?v=U-hk9YoujH4",
+   "published": "https://imslp.org/wiki/Double_Bass_Trio,_Op.56_(Poradowski,_Stefan_Boles%C5%82aw)"
+  }
+ },
+ "109236": {
+  "source": {
+   "kind": "override",
+   "published": "override"
+  },
+  "kind": "single",
+  "published": "1892 (first publication; Hofmeister reference on cached IMSLP page)",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)",
+   "published": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.28_(Klengel,_Julius)"
+  }
+ },
+ "109237": {
+  "source": {
+   "kind": "override",
+   "published": "override"
+  },
+  "kind": "single",
+  "published": "1889",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)",
+   "published": "https://imslp.org/wiki/Elegie_for_4_Cellos,_Op.21_(Werner,_Josef)"
+  }
+ },
+ "109238": {
+  "source": {
+   "kind": "override",
+   "published": "override"
+  },
+  "kind": "single",
+  "published": "1975",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)",
+   "published": "https://imslp.org/wiki/Scherzo_for_Four_Violins_(Makris,_Andreas)"
+  }
+ },
+ "109239": {
+  "source": {
+   "published": "override",
+   "kind": "override"
+  },
+  "published": "1881, London: Augener",
+  "kind": "single",
+  "overrideSources": {
+   "published": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)",
+   "kind": "https://imslp.org/wiki/Gavotte_for_Four_Violins_(Clark,_Scotson)"
+  }
+ },
+ "109240": {
+  "source": {
+   "kind": "override",
+   "movements": "override",
+   "dedication": "override"
+  },
+  "kind": "movements",
+  "movements": [
+   "Adagio",
+   "Allegretto - Finale"
+  ],
+  "dedication": "Elmerico Fracassi",
+  "overrideSources": {
+   "kind": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)",
+   "movements": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)",
+   "dedication": "https://imslp.org/wiki/Violin_Quartet_(Massa,_Juan_Bautista)"
+  }
  }
 }

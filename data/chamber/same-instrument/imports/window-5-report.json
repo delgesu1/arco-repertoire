@@ -1,0 +1,612 @@
+{
+ "at": "2026-10-29T11:46:25.260548+00:00",
+ "counts": {
+  "chamberWorks": 9126,
+  "sameInstrumentEnsembles3to12": 96,
+  "byInstrument": {
+   "cello": 48,
+   "viola": 11,
+   "violin": 22,
+   "double-bass": 15
+  },
+  "newWorksThisResumedRun": 13,
+  "newWorksTotalProject": 63,
+  "newCrossListingsTotalProject": 1,
+  "newApprovedRecordingsThisRun": 8
+ },
+ "batches": [
+  "ensemble-23",
+  "ensemble-24",
+  "ensemble-26",
+  "ensemble-29",
+  "ensemble-30",
+  "ensemble-31",
+  "ensemble-33-recordings",
+  "ensemble-32"
+ ],
+ "newWorks": [
+  {
+   "key": "alencar-ceu-e-nuvens-ii",
+   "id": 109195,
+   "publicId": 109195,
+   "action": "added",
+   "releasedHeldProposal": true,
+   "gradeOpinions": [
+    3,
+    5,
+    2
+   ],
+   "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+   "details": [
+    "composed",
+    "firstPerformance"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null,
+   "gradeResolution": {
+    "key": "alencar-ceu-e-nuvens-ii",
+    "status": "approved",
+    "level": 4,
+    "hardestPart": "cello 1",
+    "confidence": "medium",
+    "consideredOpinions": [
+     3,
+     5,
+     2
+    ],
+    "basis": "NONBLIND source adjudication of the three preserved opinions, not an additional blind vote. Both pages of the composer score inspected. All four staves remain in bass clef. The first cello opens on A4 (above the third upper ledger line), held across seven whole-note bars at quarter=55; later material includes further sustained upper-register writing and a short descending quarter-note gesture. Thus the level-2 opinion's claim that the first cello only reaches E4 is a genuine register-reading error: the physical cello demand is substantially higher. The two-minute span and almost entirely slow, stepwise or stationary material do not establish the whole-work technical variety of advanced/pre-diploma repertoire. Level 4 is a responsible early-advanced cello equivalent for exposed A4 control, shifting, tone and long crescendos. The quartet has a common slow pulse and mainly simultaneous chord changes; sensitive tuning and bow renewal are real demands but do not establish that coordination is harder than the upper cello part. Consequently no automatic whole-level ensemble uplift is applied. Level 3 is a plausible nearby lower estimate, while level 5 depends on the disputed uplift; the advisory 4 allows roughly one level of uncertainty.",
+    "sources": [
+     {
+      "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/648564",
+      "finding": "Composer complete two-page notation: bass-clef first cello A4 at opening, quarter=55, sustained tied whole notes and later slow moving chords; not an E4 ceiling."
+     },
+     {
+      "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+      "finding": "Primary work page identifies the original four-cello work, two-page composer score and approximately two-minute duration."
+     }
+    ],
+    "anchors": [
+     {
+      "id": "scale-level-4",
+      "title": "Early advanced — ABRSM 7 / RCM 8",
+      "level": 4,
+      "relationship": "Cross-instrument scale equivalence: sustained stopped A4 cello control supports this practical player band; no direct violin-to-cello pitch equivalence is assumed."
+     },
+     {
+      "id": "telemann-twv-40-201",
+      "title": "Concerto for 4 Violins in G major, TWV 40:201",
+      "level": 2,
+      "relationship": "Lower calibration boundary: a sparse homogeneous ensemble does not itself raise a grade; Alencar exceeds this band because of actual first-cello register."
+     },
+     {
+      "id": "vivaldi-rv63",
+      "title": "Trio Sonata in D minor, RV 63 La Follia",
+      "level": 5,
+      "relationship": "Upper chamber calibration: Alencar lacks comparable sustained moving technical variety, making 5 difficult to justify solely through chord tuning."
+     }
+    ],
+    "localNotationPaths": [
+     "data/cache/same-instrument-imslp/scores/originals-01/1040503.pdf"
+    ],
+    "adjudicationFile": "data/chamber/same-instrument/reviews/source-adjudications-01-normalized.json"
+   }
+  },
+  {
+   "key": "trapkus-trio-three-violins",
+   "id": 109196,
+   "publicId": 109196,
+   "action": "added",
+   "releasedHeldProposal": true,
+   "gradeOpinions": [
+    4,
+    5,
+    6
+   ],
+   "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+   "details": [
+    "composed",
+    "published",
+    "dedication"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null,
+   "gradeResolution": {
+    "key": "trapkus-trio-three-violins",
+    "status": "approved",
+    "level": 6,
+    "hardestPart": "violin 1",
+    "confidence": "medium",
+    "consideredOpinions": [
+     4,
+     5,
+     6
+    ],
+    "basis": "NONBLIND adjudication, preserving [4,5,6]. Actual composer score pages 1, 3, 6 and 8 inspected, covering opening motor writing, flowing middle material, central effects and final return. Opening quarter=170 eighths have repeated pitches and a stable shared pulse, so speed alone is not a pre-diploma argument. However first violin later sustains notes in the very high G6 region, with large changes back to ordinary register, while other parts carry motion; the ending again juxtaposes very high sustained notes with articulated/double-stop accompaniment. Bow-pattern changes, sul G, tremolo/sul ponticello, exposed high stopped-note placement and repeated high-to-low transitions together support level 6 for violin 1. The effects are manageable and the repetitive figuration limits the burden; no evidence supports a diploma grade or another ensemble uplift. Level 4 underweights the cumulative register demand; level 5 remains a reasonable adjacent estimate, not a demonstrated reading error. Final 6 reflects this work-specific combination rather than taking the highest opinion automatically. Coverage and performance choices leave about one level of uncertainty.",
+    "sources": [
+     {
+      "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/242973",
+      "finding": "Original eight-page composer score; pages 1,3,6,8 show quarter=170 repeated eighths, slurred string crossing, very high sustained first violin, tremolo/sul ponticello and returning motor texture."
+     },
+     {
+      "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+      "finding": "Primary page distinguishes original three-violin complete score/parts from arrangements and gives a complete original-version human recording lasting 5:40."
+     }
+    ],
+    "anchors": [
+     {
+      "id": "mozart-k423-k424",
+      "title": "Duos for Violin and Viola, K. 423 and K. 424",
+      "level": 6,
+      "relationship": "Same broad player band: reliable register changes, independent exposed parts and sustained articulation; a calibration comparison, not identical technical content."
+     },
+     {
+      "id": "bach-bwv1043",
+      "title": "Concerto for 2 Violins in D minor, BWV 1043",
+      "level": 4,
+      "relationship": "Trapkus repeated pulse can resemble accessible ensemble writing, but its recurrent much higher sustained register exceeds this lower anchor."
+     },
+     {
+      "id": "prokofiev-op56",
+      "title": "Sonata for 2 Violins in C major, Op. 56",
+      "level": 8,
+      "relationship": "Clearly lower: the sampled repetitive figuration and shared pulse do not show the professional-level sustained complexity represented by this anchor."
+     }
+    ],
+    "localNotationPaths": [
+     "data/cache/same-instrument-imslp/scores/originals-01/393487.pdf"
+    ],
+    "adjudicationFile": "data/chamber/same-instrument/reviews/source-adjudications-01-normalized.json"
+   }
+  },
+  {
+   "key": "tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+   "id": 109197,
+   "publicId": 109197,
+   "action": "added",
+   "releasedHeldProposal": true,
+   "gradeOpinions": [
+    4,
+    6,
+    5
+   ],
+   "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null,
+   "gradeResolution": {
+    "key": "tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+    "status": "approved",
+    "level": 5,
+    "hardestPart": "double-bass 1",
+    "confidence": "medium",
+    "consideredOpinions": [
+     4,
+     6,
+     5
+    ],
+    "basis": "NONBLIND adjudication of [4,6,5]. Actual publisher opening preview inspected: Vivo quarter=120 in 3/4, basses 1 and 2 in treble clef, basses 3 and 4 in bass clef; top line uses off-beat entries, tied/slurred eighth-note gestures, chromatic inflection and upper register, with answering/displaced figures below. The treble-clef bass writing is a meaningful playing demand, but ordinary double-bass octave transposition must be respected: treble placement is not evidence of sounding violin-like heights. The first part is the more extended upper line. Level 5 is a defensible advanced-bassist advisory estimate for the register plus secure dance articulation, rather than mapping the publisher word intermediate directly to catalogue level 2. The whole-work publisher/composer context describes a playable intermediate quartet with rhythmic developments, supporting a bounded estimate despite later pages being unavailable. The level-6 opinion adds a level for groove and balancing upper parts; the visible coordinated, often parallel patterns do not demonstrate ensemble demands harder than the individual notes, so that uplift is not established. Level 4 is a plausible adjacent assessment rather than a proven clef error. Final 5 has approximately one-level uncertainty; full-work certification is not claimed.",
+    "sources": [
+     {
+      "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_3fa0452f-89f1-4d5a-b55a-5594e5769c59.png?v=1743910016",
+      "finding": "Publisher actual score preview: upper two basses in treble clef, Vivo quarter=120, syncopated/tied eighths and active bass-clef lower lines across opening two systems."
+     },
+     {
+      "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+      "finding": "Publisher targets intermediate bass quartets; composer describes rhythmic developments across the piece, and page identifies original four-bass work and premiere history."
+     }
+    ],
+    "anchors": [
+     {
+      "id": "scale-level-5",
+      "title": "Advanced — ABRSM 8 / RCM 9",
+      "level": 5,
+      "relationship": "Applied as the same exam band on double bass, not as a violin pitch comparison; upper-register accuracy and rhythmic articulation together support this advisory level."
+     },
+     {
+      "id": "handel-hwv399",
+      "title": "Trio Sonata in G major, Op. 5 No. 4, HWV 399",
+      "level": 4,
+      "relationship": "Nearby lower chamber anchor: ensemble independence alone need not trigger a separate level increase."
+     },
+     {
+      "id": "vivaldi-rv63",
+      "title": "Trio Sonata in D minor, RV 63 La Follia",
+      "level": 5,
+      "relationship": "Same broad catalogue band rather than identical technique; a compact idiomatic dance ensemble can sit here without pre-diploma uplift."
+     }
+    ],
+    "localNotationPaths": [
+     "data/cache/publisher02/tony-osborne-bassos-paraguayos-for-double-bass-quartet-sample.png"
+    ],
+    "adjudicationFile": "data/chamber/same-instrument/reviews/source-adjudications-01-normalized.json"
+   }
+  },
+  {
+   "key": "gorochnaya-quartetto-viola-vg80",
+   "id": 109198,
+   "publicId": 109198,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed",
+    "published",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "eGOfpnCoBr8"
+  },
+  {
+   "key": "forino-preghiere-op27-no3",
+   "id": 109199,
+   "publicId": 109199,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    6,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "published",
+    "dedication",
+    "otherTitles"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "RrfRzXL1WV4"
+  },
+  {
+   "key": "klengel-variations-op15-4vc",
+   "id": 109200,
+   "publicId": 109200,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6,
+    7,
+    7
+   ],
+   "gradeIssue": null,
+   "details": [
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "karpati-andantino-four-violins",
+   "id": 109201,
+   "publicId": 109201,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    1,
+    1
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "teppo-hauta-aho-dance-no-2-from-two-dances-four-double-basses",
+   "id": 109202,
+   "publicId": 109202,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "claus-alexander-freudenstein-bass-hymn-for-double-bass-quartet",
+   "id": 109203,
+   "publicId": 109203,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    5,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "bach-bwv639-mandozzi-fourcellos",
+   "id": 109204,
+   "publicId": 109204,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "kzZiuU2S60c"
+  },
+  {
+   "key": "bach-goldberg22-dicker-fourcellos",
+   "id": 109205,
+   "publicId": 109205,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "-w6vtpUpFF8"
+  },
+  {
+   "key": "sculthorpe-chorale-eight-cellos",
+   "id": 109206,
+   "publicId": 109206,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "crosmer-marble-fountain-eight-violas",
+   "id": 109207,
+   "publicId": 109207,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    4,
+    6
+   ],
+   "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+   "details": [
+    "kind",
+    "composed",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [
+    "version"
+   ],
+   "recording": null,
+   "gradeResolution": {
+    "key": "crosmer-marble-fountain-eight-violas",
+    "status": "approved",
+    "level": 5,
+    "hardestPart": "viola 1",
+    "confidence": "medium",
+    "consideredOpinions": [
+     5,
+     4,
+     6
+    ],
+    "basis": "NONBLIND source editorial adjudication, not a fourth independent vote. Read originals32-verify (5), originals32-blind (4), and crosmer-third-32 (6), then revisited actual score pages 1, 4, 5 and 8 against the previous complete eight-page inspection. Level 5 is selected from the individual viola-1 ceiling, closely matched by viola 2: soft sustained treble-clef upper-register notes in the opening/return, repeated alto/treble changes, exposed register shifts, chromatic articulated figures, and the short slurred five-note thirty-second-note flourishes at mm.29 and 41. Those flourishes are a real faster demand than my original generic semiquaver description conveyed; the third reader correctly identified them. The displaced sixteenth entries, dotted notes and changing slur/separate-bow groups demand precise subdivision and bow distribution, without specialist rebound bowing or sustained double-stop work. Against levels.json, the conjunction of upper-register tone and brief rapid chromatic ornaments is more responsibly Advanced 5 (ABRSM8/RCM9 band) than relying only on the modest overall tempo to place it Early advanced 4 (ABRSM7/RCM8). Conversely the actual whole work is about four minutes, largely half-note/short repetitive figures at quarter=56, with a limited quarter=80 middle and only isolated rapid flourishes: it does not sustain the passagework, register/technical density or extended control burden needed to make Pre-diploma 6 (ARSM/RCM10) the central estimate. The level-4 and level-6 readings describe genuine notation features and are reasonable adjacent weighting differences, not factual errors requiring their estimates to be erased. Five is therefore an argued advanced teaching band, not an arithmetic median or an automatic increase for eight-part coordination. Medium confidence means the adjacent 4 or 6 may suit an individual teaching context; the source does not leave uncertainty spanning several unrelated skill bands. The earlier two-page score claim was a real source error, resolved by the complete eight-page PDF, but did not persist in any of the three grading readings.",
+    "sources": [
+     {
+      "url": "https://s9.imslp.org/files/imglnks/usimg/5/56/IMSLP443247-PMLP721242-Marble_Fountain_-_Score.pdf",
+      "finding": "Complete original eight-page score; all pages previously visually inspected, opening, rapid middle passages and ending rechecked for this nonblind adjudication. Viola 1/2 upper-register writing and mm.29/41 brief slurred five-note thirty-second flourishes determine ceiling, with quarter=56 outer sections and quarter=80 middle."
+     },
+     {
+      "url": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+      "finding": "Composer-typeset Complete Score #443247, eight pages; original one-movement eight-viola work, approximately four minutes."
+     }
+    ],
+    "localAnchors": [
+     {
+      "url": "data/source/levels.json",
+      "finding": "Local advisory anchors: 4 Early advanced ABRSM7/RCM8, 5 Advanced ABRSM8/RCM9, 6 Pre-diploma ARSM/RCM10. These are broad teaching bands; no published syllabus placement is claimed for Marble Fountain."
+     }
+    ],
+    "adjudicationFile": "data/chamber/same-instrument/reviews/crosmer-adjudication-32-normalized.json"
+   }
+  }
+ ],
+ "recordingUpdates": [
+  {
+   "key": "gorochnaya-quartetto-viola-vg80",
+   "id": 109198,
+   "publicId": 109198,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed",
+    "published",
+    "movements"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "eGOfpnCoBr8"
+  },
+  {
+   "key": "forino-preghiere-op27-no3",
+   "id": 109199,
+   "publicId": 109199,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    6,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "published",
+    "dedication",
+    "otherTitles"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "RrfRzXL1WV4"
+  },
+  {
+   "key": "bach-bwv639-mandozzi-fourcellos",
+   "id": 109204,
+   "publicId": 109204,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "kzZiuU2S60c"
+  },
+  {
+   "key": "bach-goldberg22-dicker-fourcellos",
+   "id": 109205,
+   "publicId": 109205,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    4,
+    4
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "-w6vtpUpFF8"
+  },
+  {
+   "key": "recording-109196-batch04",
+   "id": 109196,
+   "publicId": 109196,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "iveNvQ4jCis"
+  },
+  {
+   "key": "recording-109197-batch04",
+   "id": 109197,
+   "publicId": 109197,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "DZMpQ7EURzo"
+  },
+  {
+   "key": "recording-109201-batch04",
+   "id": 109201,
+   "publicId": 109201,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "6DCuYpU7ECo"
+  },
+  {
+   "key": "recording-109202-batch04",
+   "id": 109202,
+   "publicId": 109202,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "dO2b8gdmOcQ"
+  }
+ ],
+ "closureContexts": 605,
+ "contextsPending": [
+  "126430-arrangement",
+  "609016-arrangement",
+  "484874-arrangement",
+  "393487-arrangement",
+  "13775-arrangement",
+  "149969-arrangement",
+  "126907-arrangement",
+  "1288027-arrangement",
+  "149639-arrangement",
+  "4622-arrangement",
+  "7276-arrangement",
+  "1366217-arrangement",
+  "150069-arrangement",
+  "126414-arrangement",
+  "126417-arrangement",
+  "126435-arrangement",
+  "112530-arrangement",
+  "126407-arrangement",
+  "244085-arrangement",
+  "244087-arrangement",
+  "244089-arrangement",
+  "244086-arrangement",
+  "244088-arrangement",
+  "622010-arrangement",
+  "326096-arrangement",
+  "572509-arrangement",
+  "149924-arrangement",
+  "127032-arrangement",
+  "736827-arrangement"
+ ],
+ "tests": "536librarytests,21import-safetytests,fullcataloguecheckoneveryapply,whitespace andfinalproductionbuildpassed.",
+ "credits": {
+  "balanceAtResume": "478.3354390000",
+  "balanceAtPause": "475.3824415000",
+  "paidOverrunObserved": true,
+  "observedFinishingCredits": 2.9529975
+ }
+}

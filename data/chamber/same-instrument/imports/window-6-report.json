@@ -1,0 +1,955 @@
+{
+  "at": "2026-10-29T16:53:36.885871+00:00",
+  "status": "paused",
+  "counts": {
+    "chamberWorks": 9136,
+    "sameInstrumentEnsembles3to12": 106,
+    "byInstrument": {
+      "cello": 53,
+      "viola": 12,
+      "violin": 26,
+      "double-bass": 15
+    },
+    "newWorksThisResumedRun": 10,
+    "newWorksTotalProject": 73,
+    "newCrossListingsTotalProject": 1,
+    "newApprovedRecordingsThisRun": 7,
+    "newAlternateLinksThisRun": 1,
+    "allSameInstrumentWithYouTube": 65,
+    "projectNewWorksWithYouTube": 43,
+    "projectNewWorksWithIMSLP": 48
+  },
+  "batches": [
+    "ensemble-34",
+    "ensemble-35",
+    "ensemble-36",
+    "ensemble-37-recordings",
+    "ensemble-38",
+    "ensemble-39-recordings",
+    "ensemble-40",
+    "ensemble-41"
+  ],
+  "newWorks": [
+    {
+      "key": "toub-jk-four-violins",
+      "id": 109208,
+      "publicId": 109208,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        4,
+        2,
+        3
+      ],
+      "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+      "details": [
+        "kind"
+      ],
+      "unsourcedDetailFieldsSkipped": [
+        "version"
+      ],
+      "recording": null,
+      "gradeResolution": {
+        "key": "toub-jk-four-violins",
+        "status": "approved",
+        "level": 3,
+        "hardestPart": "violin 3",
+        "confidence": "medium",
+        "consideredOpinions": [
+          4,
+          2,
+          3
+        ],
+        "basis": "Explicit NONBLIND source/anchor adjudication after saving toub-third-34.json; this is not a fourth independent vote. Preserve originals32-verify level4/violin3/medium, originals32-blind level2/violin1/medium, and toub-third-34 level3/violin3/medium. The supported band is 2–4. Choose 3 from technical evidence, not averaging: the full score shows violin3 changing at V (m249, p16) to a repeated low E4-to-A5 leap followed by G5-F5-E5-D5-C5, with comparable register changes later exchanged among inner/lower parts. These repeated shifts/string transfers at sixteenth=384/min and the sustained nine-minute texture warrant upper-intermediate control beyond grading only the low first-violin scale. The level2 review correctly identifies moderate tempo, simple rhythm and lack of double stops/specialist bowing but overweights violin1 duration when naming the hardest part; sampled compact register does not dispose of the recurring A5 leap. The level4 review correctly selects violin3 and recognizes stamina/register changes, but its broad upper-register/endurance account does not identify the extra advanced technical vocabulary normally needed to distinguish early advanced from upper intermediate. A5 is manageable with ordinary intermediate position work; patterns are strongly repetitive, mostly scalar, in unchanged 2/4 and treble clef, with no rapid mixed rhythms, chords, double stops or prescribed virtuoso bow strokes. Late accidental changes increase finger-pattern vigilance but do not create a new higher register or speed tier. Thus 3 is a supported central technical placement with adjacent-level uncertainty; retain medium advisory confidence without upgrade. No ensemble-count uplift, no professional-performer grade inference. Source/date facts already verified remain preserved: do not resolve 2017 score/title versus 2012 album metadata or infer a live quartet from the stated human multitrack.",
+        "sources": [
+          {
+            "url": "https://ks15.imslp.org/files/imglnks/usimg/c/c2/IMSLP480755-PMLP779146-jk_-_SCORE.pdf",
+            "finding": "All 28 pages inspected for independent third vote before prior review files were opened. Opening quarter=96, 2/4, four treble staves; V at m249 on p16 raises violin3 to recurring A5 from low E4; late flats through closing patterns, final m437. Repetition, ordinary bowing and position work support level3 rather than automatic early advanced placement."
+          },
+          {
+            "url": "https://imslp.org/wiki/Jk_(Toub,_David)",
+            "finding": "Complete composer-typeset score #480755, 28 pages; original four violins or four identical treble instruments; approximately nine minutes."
+          },
+          {
+            "url": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+            "finding": "Yuka Matsumoto is credited on all four violins, multitracked. Human performance floor only; date conflict remains unresolved and does not affect technical grading."
+          }
+        ],
+        "localAnchors": [
+          {
+            "path": "data/source/levels.json",
+            "finding": "Level2 Intermediate = ABRSM5/RCM6; level3 Upper intermediate = ABRSM6/RCM7; level4 Early advanced = ABRSM7/RCM8. These are relative advisory teaching anchors, not syllabus claims for this work."
+          },
+          {
+            "path": "data/chamber/same-instrument/reviews/originals32-verify.json",
+            "finding": "Supported opinion4, violin3, medium; fact verification and unresolved dates retained."
+          },
+          {
+            "path": "data/chamber/same-instrument/reviews/originals32-blind.json",
+            "finding": "Supported opinion2, violin1, medium; duration account retained but hardest-part conclusion revised in adjudication."
+          },
+          {
+            "path": "data/chamber/same-instrument/reviews/toub-third-34.json",
+            "finding": "Third independent opinion3, violin3, medium, saved before reading prior reviews."
+          }
+        ],
+        "adjudicationFile": "data/chamber/same-instrument/reviews/toub-adjudication-34.json"
+      }
+    },
+    {
+      "key": "bach-bwv867-dicker-cello-quartet-prelude",
+      "id": 109209,
+      "publicId": 109209,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        4,
+        4
+      ],
+      "gradeIssue": null,
+      "details": [
+        "kind"
+      ],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": null
+    },
+    {
+      "key": "bach-bwv928-dicker-cello-quartet-prelude",
+      "id": 109210,
+      "publicId": 109210,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        5,
+        5
+      ],
+      "gradeIssue": null,
+      "details": [
+        "kind"
+      ],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": null
+    },
+    {
+      "key": "hoek-3-korte-bluesjes-version-a-8-violas",
+      "id": 109211,
+      "publicId": 109211,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        3,
+        5,
+        3
+      ],
+      "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+      "details": [
+        "kind",
+        "movements",
+        "composed",
+        "dedication",
+        "firstPerformance"
+      ],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": null,
+      "gradeResolution": {
+        "key": "hoek-3-korte-bluesjes-version-a-8-violas",
+        "status": "approved",
+        "level": 5,
+        "hardestPart": "viola 4",
+        "confidence": "medium",
+        "consideredOpinions": [
+          3,
+          5,
+          3
+        ],
+        "basis": "Explicit NONBLIND source adjudication of the three preserved opinions, not a fourth vote or median. The level-3 verify opinion correctly identifies compound-meter articulation demands but names the higher melodic line without isolating the true peak. My saved blind level-3 opinion correctly identifies Viola 4 as hardest but underreads its register: its claim that Viola 4 stays approximately C4-Eb5 is contradicted by Loekie Blues printed p.6 bars 79-80. Reinspection at larger scale confirms the accented ascending chromatic figure extends well above the treble staff, approximately D6 at its peak, in separate eighth-note attacks at dotted-quarter 116 (about 348 eighths/minute); Viola 5 doubles the gesture lower. This is upper-position viola writing, not alto-clef middle-register notation. Viola 4 also has the sustained chromatic semiquaver counterlines and alternating slurred/detached articulation of Slow Blues Song printed pp.12-14 bars 29-46, and the short four-note tuplets and chromatic offbeats in De Stille at dotted-quarter 124. The grades opinion therefore supplies the stronger hardest-part/register evidence and level 5 is retained within the actual 3-5 band. Relative anchor: level 3 ABRSM6/RCM7 understates secure upper-position rapid chromatic intonation plus rhythmic independence; level 5 ABRSM8/RCM9 better describes preparing that hardest part across the complete ten-minute set. This is a medium-confidence advisory teaching comparison, not official exam placement, with roughly one-level uncertainty. The brief high passages and abundant simpler writing prevent a further diploma-level claim; no uplift comes merely from eight players.",
+        "sources": [
+          {
+            "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/559349",
+            "finding": "Primary Version A score, all 28 PDF pages inspected. Decisive correction at PDF p.9 / printed p.6: Viola 4 bars 79-80 rises above the treble staff under repeated accents; top line is not the hardest part. Slow Blues Song PDF pp.15-17 / printed pp.12-14 gives the sustained chromatic inner-part figuration; De Stille PDF pp.21 and 27 / printed pp.18 and 24 gives four-note tuplets in Viola 4 at dotted-quarter 124."
+          },
+          {
+            "url": "https://imslp.org/wiki/3_Korte_bluesjes_(Hoek,_Arie_van)",
+            "finding": "Exact work assessed is Version A for eight violas, all three movements as one set, not another arrangement."
+          }
+        ],
+        "localAnchors": [
+          {
+            "path": "data/source/levels.json",
+            "finding": "Level 3 upper intermediate ABRSM6/RCM7 versus level 5 advanced ABRSM8/RCM9; range and execution of the hardest part resolve this comparison, not vote counting."
+          }
+        ],
+        "consideredOpinionDetails": [
+          {
+            "level": 3,
+            "hardestPart": "viola 1",
+            "confidence": "medium",
+            "basis": "All 28 PDF pages inspected, including all 25 notation pages and three complete movements. Score is unusually written in treble clef for all eight viola staves (individual eighth part also supplied in alto/bass layouts). Mostly single-line writing in ordinary low/middle register; dotted compound-meter patterns at dotted-quarter 116, accents/offbeats, chromatic blues notes and quick arco/pizzicato changes determine the challenge. Slow Blues Song needs sustained bow control; De Stille at quarter124 uses repeated rhythmic figures. Viola1/5 upper melodic line slightly leads difficulty; no extreme register, extended techniques or elaborate double stopping. Upper intermediate 3, adjacent2–4 plausible. Advisory teaching estimate against data/source/levels.json, approximately one level either side; no automatic uplift for ensemble size.",
+            "mode": "unsure",
+            "pace": "lively",
+            "character": [
+              "playful",
+              "dance"
+            ]
+          },
+          {
+            "level": 5,
+            "hardestPart": "viola 4",
+            "confidence": "medium",
+            "basis": "Independent visual review of the complete Version A score, all three blues movements (PDF pp.4–28, printed pp.1–25). The hardest combined demands fall in viola 4: Loekie Blues includes exposed chromatic rising figures and a brief excursion above the treble staff around bars 79–83; Slow Blues Song adds active chromatic semiquaver figures with mixed slurred and detached articulation; De Stille requires crisp offbeat attacks, chromatic runs and occasional four-note tuplets at dotted-quarter=124. Much of the set is simpler, but the peak register and clean rapid articulation support advanced rather than an average of all eight parts. Repetition requires sustained rhythmic discipline, while rests reduce endurance pressure. No automatic eight-player uplift. Medium advisory estimate within one level; not exhaustive note certification.",
+            "mode": "unsure",
+            "pace": "lively",
+            "character": [
+              "dance",
+              "playful",
+              "lyrical"
+            ]
+          },
+          {
+            "level": 3,
+            "hardestPart": "Viola 4",
+            "confidence": "medium",
+            "basis": "Blind assessment before opening either existing review. Inspected all 28 PDF pages (three introductory pages and all 25 score pages), treating all three movements as one approximately ten-minute work. Viola 4 is the principal technical bottleneck rather than the highest line: Loekie Blues printed pp.5-6, bars 61-89 has the mobile chromatic counterline and accented rising figures; Slow blues song pp.12-14, bars 29-46 has sustained chromatic sixteenth-note runs, mixed slur/staccato, leaps, and displaced accents, shared closely with Viola 3; De Stille pp.18 and 24 adds chromatic four-note tuplets against compound pulse. All eight staves are printed in treble clef, including low ledger-line C-string material; this is a reading burden, not evidence of high-position playing. Overall register runs approximately C3 to F5; Viola 4 stays roughly C4-Eb5. The upper lines and Viola 5 reach higher but chiefly use simpler melody. Compound 6/8, offbeat entries, ties over beats, alternating pizzicato/arco, mute changes, chromatic blues intonation and precise dynamic/articulation coordination support upper-intermediate level 3. Dotted-quarter 116/66/124 gives brisk outer-movement eighth notes but the densest sustained sixteenths occur in the slow movement. No pervasive double stops, harmonics, advanced bowing or extreme register; eight players alone does not lift the grade. Teaching estimate anchored to supplied level 3 ABRSM6/RCM7 band, not an official syllabus placement.",
+            "mode": "unsure",
+            "pace": "lively",
+            "character": [
+              "playful",
+              "lyrical"
+            ]
+          }
+        ],
+        "adjudicationFile": "data/chamber/same-instrument/reviews/hoek-adjudication-36-normalized.json"
+      }
+    },
+    {
+      "key": "alencar-cello-quartet-no4",
+      "id": 109212,
+      "publicId": 109212,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        4,
+        4
+      ],
+      "gradeIssue": null,
+      "details": [
+        "kind",
+        "composed",
+        "firstPerformance"
+      ],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": "I7kwqO0YeWU"
+    },
+    {
+      "key": "vivaldi-rv63-mandozzi-three-cellos",
+      "id": 109213,
+      "publicId": 109213,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        6,
+        6
+      ],
+      "gradeIssue": null,
+      "details": [
+        "kind",
+        "dedication"
+      ],
+      "unsourcedDetailFieldsSkipped": [
+        "version",
+        "arranger",
+        "arranged"
+      ],
+      "recording": "85SspBSmUaU"
+    },
+    {
+      "key": "bach-bwv864-dicker-cello-quartet-prelude",
+      "id": 109214,
+      "publicId": 109214,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        4,
+        3,
+        4
+      ],
+      "gradeIssue": null,
+      "details": [
+        "kind"
+      ],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": "-w6vtpUpFF8"
+    },
+    {
+      "key": "trapkus-quartet-four-violins",
+      "id": 109215,
+      "publicId": 109215,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        4,
+        6,
+        5
+      ],
+      "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+      "details": [],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": null,
+      "gradeResolution": {
+        "key": "trapkus-quartet-four-violins",
+        "status": "approved",
+        "level": 5,
+        "hardestPart": "violin 1",
+        "confidence": "medium",
+        "consideredOpinions": [
+          4,
+          6,
+          5
+        ],
+        "basis": "NONBLIND source/anchor adjudication after preserving blind level 5. Opinions span 4/6/5. Adopt 5 (advanced, ABRSM 8 / RCM 9) from full-score demands, not arithmetic alone. Researcher level 4 is musically supported by p.2 but underweights prolonged semiquavers and exposed high sustained intonation later in the work. Prior Sol level 6 is a defensible upper-edge estimate from genuine high register and endurance; its musical assessment was valid while its separate factual hold was unresolved. Once floor resolved it can be considered. Repeated compact slurred cells, mostly C-major tonality, short five-minute form, modest chromaticism and no sustained virtuoso double-stop apparatus keep this below a general pre-diploma whole-work placement. Local levels.json level 5/6 teaching bands are the direct anchors; prior Sol Mozart K423/424=6 is a broad player-band comparison, not an external syllabus claim, and its wider classical articulation/intonation scope makes it a ceiling comparison here. Prokofiev Op56=8 is too remote to decide 5 versus 6. No ensemble uplift; IV optional top notes excluded from mandatory difficulty.",
+        "sources": [
+          {
+            "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+            "finding": "IDENTITY: exact audio #843101 explicitly credits Paul Trapkus as Performers, separately from uploader Ptrapkus. Independently established violinist identity plus affirmative primary performer attribution supports human performance; absence of the word multitrack is not contrary evidence. Recordings (1) versus Synthesized/MIDI (0) corroborates but does not alone establish humanity."
+          },
+          {
+            "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+            "finding": "VERSION: original four-violin work, not an arrangement; no alternative scoring is attached to the recording. One named performer across four simultaneous violin lines is consistent with human overdubbing, which is accepted; no claim of a live four-person ensemble or independently verified recording method is made."
+          },
+          {
+            "url": "https://imslp.org/wiki/Quartet_for_4_Violins_(Trapkus,_Paul)",
+            "finding": "EXTENT: Complete Recording #843101 lasts 5:00, matching single-movement five-minute whole work. No excerpt indication. All four excluded performers absent from sole primary performer credit."
+          },
+          {
+            "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/843096",
+            "finding": "Complete 14-page score visually inspected through final cadence. Four independent violin staves confirm scoring. Grade-setting long semiquaver passages occur beyond original p.2 sample."
+          }
+        ],
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "dramatic"
+        ],
+        "consideredOpinionDetails": [
+          {
+            "reviewer": "researcher",
+            "level": 4,
+            "hardestPart": "violin 1",
+            "confidence": "medium",
+            "basis": "Score p.2: upper-register first violin, repeated double stops in fourth violin and interlocking eighth-note figures at q=c140–150.",
+            "originalFactStatus": "hold"
+          },
+          {
+            "reviewer": "priorSol",
+            "level": 6,
+            "hardestPart": "violin 1",
+            "confidence": "medium",
+            "basis": "Actual complete composer score PDF pages 1,3,6,10,14 sampled, including opening, transitional and final textures. At quarter approximately140–150, first violin sustains exposed upper notes then plays prolonged repeated slurred sixteenths and register changes; later sustained notes extend into the G6 region. Other players sustain off-beat patterns and string crossings, while fourth violin double stops are explicitly optional at the opening. Repetition, clear pulse and largely idiomatic tonal patterns limit the technical burden, but rapid sustained bowing plus exposed high register place first violin around level6, pre-diploma, rather than judging only the easier opening accompaniment. Mozart K423/424 at6 is the broad player-band anchor; professional Prokofiev Op56 at8 is substantially beyond the observed complexity. No automatic ensemble uplift. Five-minute complete context and meaningful distributed notation support medium advisory confidence with approximately one-level uncertainty. This is the same single Sol judgment in research and review, not two votes.",
+            "originalFactStatus": "held; musical assessment technically supported, eligibility separate; counted only after this audit resolved floor"
+          },
+          {
+            "reviewer": "yourBlindVote",
+            "level": 5,
+            "hardestPart": "Violin I",
+            "confidence": "medium",
+            "basis": "BLIND vote, before reading prior numeric grades: all 14 score pages inspected against data/source/levels.json. Whole-work advanced (ABRSM 8 / RCM 9) estimate. Violin I combines exposed sustained upper-register intonation and quiet entries (pp.1,3,7,11,13) with long repeated slurred semiquaver cells at quarter=140–150 (pp.6–7,9–14), shifts and rapid register changes. Violin II and III inherit semiquaver texture; IV maintains near-continuous quaver string-crossing ostinato and some double stops. Changes among 4/4,6/4,3/4 and staggered sustained entrances need ensemble discipline. Mostly tonal repeated cells and limited chromaticism keep it below routine diploma demands; optional top notes in IV do not set grade.",
+            "mode": "major",
+            "pace": "lively",
+            "character": [
+              "lyrical",
+              "dramatic"
+            ]
+          }
+        ],
+        "adjudicationFile": "data/chamber/same-instrument/reviews/trapkus-adjudication-final-normalized.json"
+      }
+    },
+    {
+      "key": "bohm-violin-quartet-four-violins",
+      "id": 109216,
+      "publicId": 109216,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        4,
+        4
+      ],
+      "gradeIssue": null,
+      "details": [
+        "published",
+        "kind",
+        "movements"
+      ],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": "mAL3WIAe30s"
+    },
+    {
+      "key": "dont-quartet-op42-four-violins",
+      "id": 109217,
+      "publicId": 109217,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        3,
+        4,
+        5
+      ],
+      "gradeIssue": "Grade spread exceeds one level; resolve with score/anchor evidence",
+      "details": [
+        "kind",
+        "movements"
+      ],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": null,
+      "gradeResolution": {
+        "key": "dont-quartet-op42-four-violins",
+        "status": "approved",
+        "scope": "musical-only nonblind adjudication; not an independent fourth vote",
+        "level": 4,
+        "hardestPart": "violin 1",
+        "confidence": "medium",
+        "consideredOpinions": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Level 4 is supported by the actual score, rather than selected simply because it lies between the three opinions. All three reviewers identify essentially the same notation; the disagreement concerns the weight placed on the first violin’s register, tempo and cumulative demands. Reinspection of the complete imposed score and enlarged printed p14 (Finale, especially mm184–235) shows recurring high-register attacks and slurred/detached quaver patterns, including the high E-register climax around m220, but these are short, largely sequential gestures with rests and returns to a settled position, rather than sustained rapid high-position passagework. Printed p10, Larghetto mm25–40, confirms chromatic semiquaver/demisemiquaver decoration within the slow 6/8 movement: fine print and many accidentals here do not imply a fast technical etude. I (pp3–7) is predominantly cantabile crotchet/minim writing; II (pp8–9) adds fast detached crotchets, leaps, coordinated rests and contrasting Trio phrasing. First violin remains the hardest part. The upper ledger-line register and repeated clean attacks/shifts across Scherzo and Finale warrant more than the level-3 Telemann sans-basse/Corelli Op5 No8 band; treating the largely regular rhythms and simpler accompaniments as decisive, as the level-3 reading does, underweights that recurring first-violin requirement. My original level-5 opinion placed too much weight on four-movement accumulation, chromaticism and the visual frequency of high notes. Those facts require secure early-advanced control but do not, at the written tempo contexts and pattern lengths, establish a consistent step beyond the local level-4 Bach Double/Haydn Op33 No2 anchors toward the level-5 La Folia/Haydn Rider band. The level-4 opinion makes the best-supported distinction between accessible note patterns and exposed execution. Ensemble balance, chromatic intonation and staggered entries are meaningful but regular enough to receive no additional uplift. Medium confidence retains about one level of uncertainty for chosen Vivace/Allegro assai tempo and required polish; no factual discrepancy or unresolved score identity prevents this musical judgment.",
+        "scoreLocations": [
+          {
+            "location": "Printed pp3–7, I. Allegro espressivo",
+            "finding": "Long chromatic singing phrases and upper-register shifting, mostly slower note values."
+          },
+          {
+            "location": "Printed pp8–9, II. Scherzo/Trio",
+            "finding": "Detached and accented high notes, leaping crotchet melody, rests and tempo contrast."
+          },
+          {
+            "location": "Printed pp9–11, III. Larghetto; enlarged p10 mm25–40",
+            "finding": "Flowing chromatic short-note decoration in slow 6/8, single-line texture and manageable runs."
+          },
+          {
+            "location": "Printed pp11–15, IV. Finale; enlarged p14 mm184–235",
+            "finding": "Recurring upper-register quavers and high attacks; short sequential patterns and rests, with high climax near m220."
+          }
+        ],
+        "mode": "minor",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "dramatic",
+          "playful"
+        ],
+        "sources": [
+          {
+            "url": "https://s9.imslp.org/files/imglnks/usimg/2/2d/IMSLP82713-PMLP168495-4006.Dont-Op042.sc.pdf",
+            "localPath": "data/cache/same-instrument-imslp/scores/82713.pdf",
+            "finding": "Primary complete Merton Music score; all nine imposed PDF spreads visually inspected, music on printed pp3–15."
+          },
+          {
+            "url": "https://imslp.org/wiki/Violin_Quartet,_Op.42_(Dont,_Jakob)",
+            "finding": "Primary score source locator supplied in the verified and blind evidence; no new HTTP request in adjudication."
+          }
+        ],
+        "localCalibration": "data/source/levels.json and data/chamber/grading/anchors.json",
+        "preservedOpinions": [
+          "data/chamber/same-instrument/reviews/violin40-verify.json",
+          "data/chamber/same-instrument/reviews/violin40-blind.json",
+          "data/chamber/same-instrument/reviews/dont40-third.json"
+        ],
+        "limits": "Nonblind musical resolution only. Does not replace original opinions or rejudge recording/floor evidence.",
+        "adjudicationFile": "data/chamber/same-instrument/reviews/dont40-adjudication.json"
+      }
+    }
+  ],
+  "recordingUpdates": [
+    {
+      "batch": "ensemble-36",
+      "key": "alencar-cello-quartet-no4",
+      "id": 109212,
+      "publicId": 109212,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        4,
+        4
+      ],
+      "gradeIssue": null,
+      "details": [
+        "kind",
+        "composed",
+        "firstPerformance"
+      ],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": "I7kwqO0YeWU"
+    },
+    {
+      "batch": "ensemble-36",
+      "key": "vivaldi-rv63-mandozzi-three-cellos",
+      "id": 109213,
+      "publicId": 109213,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        6,
+        6
+      ],
+      "gradeIssue": null,
+      "details": [
+        "kind",
+        "dedication"
+      ],
+      "unsourcedDetailFieldsSkipped": [
+        "version",
+        "arranger",
+        "arranged"
+      ],
+      "recording": "85SspBSmUaU"
+    },
+    {
+      "batch": "ensemble-36",
+      "key": "bach-bwv864-dicker-cello-quartet-prelude",
+      "id": 109214,
+      "publicId": 109214,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        4,
+        3,
+        4
+      ],
+      "gradeIssue": null,
+      "details": [
+        "kind"
+      ],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": "-w6vtpUpFF8"
+    },
+    {
+      "batch": "ensemble-37-recordings",
+      "key": "recording-109209-dicker-concert2024",
+      "id": 109209,
+      "publicId": 109209,
+      "action": "reviewed-existing",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [],
+      "gradeIssue": "Two supported independent grades are required",
+      "details": [],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": "-w6vtpUpFF8"
+    },
+    {
+      "batch": "ensemble-37-recordings",
+      "key": "recording-109210-dicker-concert2024",
+      "id": 109210,
+      "publicId": 109210,
+      "action": "reviewed-existing",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [],
+      "gradeIssue": "Two supported independent grades are required",
+      "details": [],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": "-w6vtpUpFF8"
+    },
+    {
+      "batch": "ensemble-39-recordings",
+      "key": "recording-109208-toub-yuka-matsumoto",
+      "id": 109208,
+      "publicId": 109208,
+      "action": "reviewed-existing",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [],
+      "gradeIssue": "Two supported independent grades are required",
+      "details": [],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": "3q7kfZlWsUk"
+    },
+    {
+      "batch": "ensemble-40",
+      "key": "bohm-violin-quartet-four-violins",
+      "id": 109216,
+      "publicId": 109216,
+      "action": "added",
+      "releasedHeldProposal": false,
+      "gradeOpinions": [
+        4,
+        4
+      ],
+      "gradeIssue": null,
+      "details": [
+        "published",
+        "kind",
+        "movements"
+      ],
+      "unsourcedDetailFieldsSkipped": [],
+      "recording": "mAL3WIAe30s"
+    }
+  ],
+  "closureContexts": 605,
+  "closureStates": {
+    "held": 365,
+    "excluded": 83,
+    "already-present": 59,
+    "needs-video-verification": 27,
+    "out-of-scope": 71
+  },
+  "sourceSweep": {
+    "cachedIMSLPPages": 597,
+    "categoryContexts": 605,
+    "originalContexts": 294,
+    "arrangementContexts": 311,
+    "newExactYouTubeQueries": 138,
+    "rawFirstPassVideos": 64,
+    "rawCandidateContexts": 30,
+    "coordinatorScreenedVideoQueue": {
+      "videos": 61,
+      "contexts": 27
+    },
+    "queue": "closure/final-floor-video-candidates.json",
+    "allSearchInputsAccounted": true
+  },
+  "nextAction": "Verify the27context/61video queue with full metadata, actual notation and small Sol grade batches; these are unapproved leads, not imported works. Resolve Massa extent via available ordinary source if possible; do not repeat failed 403 media fetch. Complete source holds remain documented.",
+  "tests": {
+    "library": 536,
+    "importSafety": 21,
+    "catalogueValidation": "Passed on every apply",
+    "programCopyCases": 7,
+    "idPreservation": "All9062baselineworkIDs andcomposer/title identities retained",
+    "productionBuild": "Passed after final ensemble-41 import"
+  },
+  "credits": {
+    "balanceAtResume": "377.3240915000",
+    "lastBalance": "376.1518915000",
+    "paidOverrunObserved": true,
+    "balanceAtPause": "376.1518915000",
+    "observedFinishingCredits": 1.1722
+  },
+  "publicationStatus": "Local uncommitted changes; no branch, commit, push or deployment.",
+  "pausedAt": "2026-10-29T16:55:22.153068+00:00",
+  "usageAtPause": {
+    "primaryUsedPercent": 100,
+    "secondaryUsedPercent": 97,
+    "primaryReset": 1793308269,
+    "secondaryReset": 1793777289
+  },
+  "nextWakeUTC": "2026-10-29T21:13:09Z",
+  "goalComplete": false,
+  "missingOptionalInformation": {
+    "youtube": [
+      {
+        "id": 109146,
+        "title": "Concerto for 4 Violins in C major, TWV 40:203",
+        "reason": "No approved candidate: compilation lists the concerto but its linked source credits a different concerto movement; remaining candidates are partial movements or a four-guitar arrangement, leaving exact-version performer attribution unresolved."
+      },
+      {
+        "id": 109150,
+        "title": "Passione amorosa for Four Double Basses",
+        "reason": "Candidates are individual movements, an ambiguous long compilation without verified exact arrangement/extent, or a short Seoul excerpt; no complete Klaus Trumpf four-bass arrangement is established."
+      },
+      {
+        "id": 109151,
+        "title": "Italian Concerto, BWV 971 (version for 4 Violins)",
+        "reason": "No candidate was supplied for the exact Mihoko Kimura four-violin arrangement."
+      },
+      {
+        "id": 109157,
+        "title": "Suite in D minor for 3 Violins, Op. 17",
+        "reason": "The score video has no performer/source credits, so human-performance and excluded-performer checks cannot be completed; other inputs are different Hermann works."
+      },
+      {
+        "id": 109159,
+        "title": "Blues, Espagnola und Rumba philharmonica",
+        "reason": "Only candidate is an unrelated Blacher orchestral work."
+      },
+      {
+        "id": 109162,
+        "title": "Sonata for 3 Violins in F major, ULB Mus.Ms.334",
+        "reason": "No candidates were supplied for the exact three-violin sonata."
+      },
+      {
+        "id": 109167,
+        "title": "Elegy for 5 Cellos, Op. 160",
+        "reason": "Only candidate is the unrelated Six Deutsche Tanzweisen."
+      },
+      {
+        "id": 109169,
+        "title": "Suite Palais Meran",
+        "reason": "Candidates cover individual movements only, not the complete five-movement suite."
+      },
+      {
+        "id": 109170,
+        "title": "A Tear in the Mirror",
+        "reason": "No candidates were supplied for this work."
+      },
+      {
+        "id": 109171,
+        "title": "In Memoriam: George Finckel",
+        "reason": "Candidates are different works; none matches In Memoriam: George Finckel."
+      },
+      {
+        "id": 109173,
+        "title": "Four Pieces for 3 Violins, Op. 104",
+        "reason": "Inputs are individual movements with durations 2:47–4:37; they do not establish the complete Four Pieces, Op.104."
+      },
+      {
+        "id": 109174,
+        "title": "Geistliches Wiegenlied (No.2 from 2 Gesänge, Op.91)",
+        "reason": "Only candidate is unrelated Sheil Worlds; no Steve Jones five-viola arrangement candidate was supplied."
+      },
+      {
+        "id": 109176,
+        "title": "Arietta for 12 Double Basses",
+        "reason": "Only candidate is an unrelated Alan Rea piece."
+      },
+      {
+        "id": 109177,
+        "title": "Etude, Nocturne and Scherzo-Capriccioso, Op.48",
+        "reason": "Inputs contain separate Nocturne and Etude movements; the remaining Scherzo upload is Op.50 for two violins and piano, not the complete exact Op.48 three-violin work."
+      },
+      {
+        "id": 109178,
+        "title": "Fortune",
+        "reason": "All four supplied search hits are To the Earth for speaking percussionist, not Fortune for four violas; no exact-work candidate was found in the bounded search."
+      },
+      {
+        "id": 109179,
+        "title": "Kleine Suite",
+        "reason": "Lamont upload is only I. Andante espressivo; alternate Kleine Suite slideshow lacks performer attribution/instrumentation, and the short school upload is not clearly complete. No exact complete human trio recording is supported."
+      },
+      {
+        "id": 109188,
+        "title": "Triolette, C296",
+        "reason": "The exact composer/title search returned no YouTube candidates; no supported human recording of Triolette C296 for three cellos was found."
+      },
+      {
+        "id": 109190,
+        "title": "Excursions for Four Double Basses",
+        "reason": "The exact-work query returned only unrelated Beethoven, slap-bass, and gear videos; no plausible Russell Excursions performance was found."
+      },
+      {
+        "id": 109191,
+        "title": "The Bass Affair for Four Double Basses",
+        "reason": "The exact composer/title query returned no YouTube candidates for The Bass Affair for four double basses."
+      },
+      {
+        "id": 109192,
+        "title": "True Grit for Double Bass Quartet",
+        "reason": "Only supplied True Grit candidate is Obsydeus Zero to Hero, unrelated to Tony Osborne’s double-bass quartet."
+      },
+      {
+        "id": 109193,
+        "title": "Dreamtime for Double Bass Quartet",
+        "reason": "Supplied candidates are The Pink Elephant, Canzonetta, Nightscape, and The Night Before Christmas; none is Osborne Dreamtime for double-bass quartet."
+      },
+      {
+        "id": 109194,
+        "title": "Three Preludes for 4 Cellos",
+        "reason": "Kurt Kaufman uploads contain separate Prelude 1, Prelude 3, and Prelude 2; none contains the complete Three Preludes set, so separate movements do not meet whole-work extent."
+      },
+      {
+        "id": 109195,
+        "title": "Céu e Nuvens II",
+        "reason": "Composer timelapse Ceu e nuvens2 lacks positive exact4cello/humancredit matching; source IM SLP humanoverlay stillvalidfloor."
+      },
+      {
+        "id": 109200,
+        "title": "Variations on an Original Theme, Op. 15",
+        "reason": "Searchresults areOp28, Hymnus orConcertino; none exactOp15."
+      },
+      {
+        "id": 109203,
+        "title": "Bass-Hymn for Double Bass Quartet or Ensemble",
+        "reason": "97sBass-Hymn rehearsalclip incomplete; otherhits unrelated."
+      },
+      {
+        "id": 109206,
+        "title": "Chorale",
+        "reason": "Retrievedresults areRequiem,Djilile,PortEssingtonorinterview;noneChorale8cellos."
+      },
+      {
+        "id": 109207,
+        "title": "Marble Fountain",
+        "reason": "Exact composer/title/8viola YouTube search returned no candidates."
+      },
+      {
+        "id": 109211,
+        "title": "3 Korte bluesjes voor 8 altviolen (Version A)",
+        "reason": "Only synthesized recordings in primary score source; final exact-title YouTube search returned no candidates."
+      },
+      {
+        "id": 109215,
+        "title": "Quartet for 4 Violins",
+        "reason": "Primary IMSLP complete human performance is credited; final YouTube search returned other works or the Trio."
+      },
+      {
+        "id": 109217,
+        "title": "Quartet in E minor, Op.42",
+        "reason": "Complete Rafferty human release verified; supplied Matsumoto YouTube is movementI only."
+      }
+    ],
+    "imslp": [
+      {
+        "id": 109147,
+        "title": "Nachtstück for Four Violas, Op. 34",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109149,
+        "title": "Suite for Eight Violas",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109150,
+        "title": "Passione amorosa for Four Double Basses",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109151,
+        "title": "Italian Concerto, BWV 971 (version for 4 Violins)",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109153,
+        "title": "Gran Turismo for 8 Violins",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109154,
+        "title": "Variações brasileiras for Twelve Cellos (Die 12 in Bossa nova)",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109155,
+        "title": "Mambo for Six, Op. 8",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109172,
+        "title": "Introduction and Andante for Six Violas, Op. 5",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109175,
+        "title": "Suite for Four Double Basses",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109176,
+        "title": "Arietta for 12 Double Basses",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109181,
+        "title": "Testament for 12 Violas",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109182,
+        "title": "Retours-Windungen",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109183,
+        "title": "Bad Brothers",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109184,
+        "title": "AC-133",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109185,
+        "title": "A Night in Compostela",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109186,
+        "title": "The River Fisherman",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109189,
+        "title": "Five Miniatures for Double Bass Quartet",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109190,
+        "title": "Excursions for Four Double Basses",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109191,
+        "title": "The Bass Affair for Four Double Basses",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109192,
+        "title": "True Grit for Double Bass Quartet",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109193,
+        "title": "Dreamtime for Double Bass Quartet",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109197,
+        "title": "Bassos Paraguayos for Double Bass Quartet",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109202,
+        "title": "Dance No. 2 from Two Dances",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109203,
+        "title": "Bass-Hymn for Double Bass Quartet or Ensemble",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      },
+      {
+        "id": 109206,
+        "title": "Chorale",
+        "reason": "No verified IMSLP work-page link in saved research; complete score/parts route remains in primary research provenance. No publisher-link UI requested."
+      }
+    ],
+    "unknownWorkYear": [
+      109145,
+      109146,
+      109147,
+      109150,
+      109151,
+      109152,
+      109154,
+      109156,
+      109157,
+      109160,
+      109161,
+      109162,
+      109163,
+      109164,
+      109165,
+      109167,
+      109168,
+      109173,
+      109174,
+      109175,
+      109184,
+      109185,
+      109186,
+      109194,
+      109199,
+      109200,
+      109202,
+      109203,
+      109205,
+      109208,
+      109209,
+      109210,
+      109214,
+      109216,
+      109217
+    ]
+  }
+}

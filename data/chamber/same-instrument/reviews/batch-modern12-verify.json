@@ -1,0 +1,153 @@
+{
+  "batch": "modern12-verify",
+  "status": "complete",
+  "checkedOn": "2026-10-28",
+  "sourceBudget": "8 focused fetches/searches; no repeated blocked-preview attempts",
+  "entries": [
+    {
+      "key": "francaix-aubade-twelve-cellos",
+      "status": "held",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://www.schott-music.com/fr/aubade-noc36979.html",
+          "finding": "Schott confirms twelve cellos only, 1974, 14 minutes, six named movements and Berlin twelve premiere on 30 September 1975. Score ED 6710 and parts ED 6794 purchasable. PDF preview returned empty HTML viewer; no notation inspected."
+        }
+      ],
+      "grade": {
+        "level": null,
+        "hardestPart": null,
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [],
+        "confidence": "low",
+        "basis": "Publisher generic easy designation and movement tempi only; no notation inspected. Cannot reliably map hardest part or whole work to exam scale."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes",
+        "popularity"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "kind",
+        "composed",
+        "movements"
+      ],
+      "detailCorrections": {},
+      "detailSources": {
+        "kind": "https://www.schott-music.com/fr/aubade-noc36979.html",
+        "composed": "https://www.schott-music.com/fr/aubade-noc36979.html",
+        "movements": "https://www.schott-music.com/fr/aubade-noc36979.html"
+      },
+      "recordingDecisions": [],
+      "holdReason": "Musical grade insufficient; score or work-specific technical evidence required."
+    },
+    {
+      "key": "xenakis-retours-windungen-twelve-cellos",
+      "status": "held",
+      "factsVerified": false,
+      "findings": [
+        {
+          "url": "https://www.iannis-xenakis.org/en/retours-windungen/",
+          "finding": "Composer foundation confirms twelve cellos only, 1976, eight minutes, Salabert EAS 17344 and exact-version premiere by Berlin twelve in Bonn, 20 February 1976. Current obtainable stock/rental not independently established."
+        }
+      ],
+      "grade": {
+        "level": null,
+        "hardestPart": null,
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [],
+        "confidence": "low",
+        "basis": "No notation or work-specific technical description inspected; numeric level, hardest part and character withheld. Composer reputation is not grading evidence."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes",
+        "popularity"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "kind",
+        "composed"
+      ],
+      "detailCorrections": {
+        "published": null
+      },
+      "detailSources": {
+        "kind": "https://www.iannis-xenakis.org/en/retours-windungen/",
+        "composed": "https://www.iannis-xenakis.org/en/retours-windungen/"
+      },
+      "recordingDecisions": [],
+      "holdReason": "Musical grade insufficient; score or work-specific technical evidence required. Current score obtainability also unverified; edition number alone insufficient."
+    },
+    {
+      "key": "dean-twelve-angry-men",
+      "status": "held",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+          "finding": "Publisher confirms twelve cellos only, 1996, 18 minutes, worldwide rental, Bote & Bock, premiere Berlin twelve on 19 February 1997 and recommended Sydney Symphony recording BIS-CD-1696."
+        },
+        {
+          "url": "https://eclassical.textalk.se/shop/17115/art39/4713339-f34564-booklet-BIS-CD-1696.pdf",
+          "finding": "BIS official booklet pp.2,6 and27 establishes complete 17:17 released performance by Sydney Symphony cellists conducted by Dean, recorded May2007 and released2008. Describes lone voice against eleven; musical-part independence supported."
+        }
+      ],
+      "grade": {
+        "level": null,
+        "hardestPart": null,
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "dramatic"
+        ],
+        "confidence": "low",
+        "basis": "BIS booklet describes twelve-way / eleven-against-one musical dialogue and dramatic antagonism; no cello register, bowing or rhythmic technical details. Its virtuosity descriptions concern the viola works, not Twelve Angry Men. Numeric grade withheld."
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "year",
+        "minutes",
+        "set",
+        "notes",
+        "popularity"
+      ],
+      "workCorrections": {},
+      "approvedDetailFields": [
+        "kind",
+        "composed"
+      ],
+      "detailCorrections": {},
+      "detailSources": {
+        "kind": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263",
+        "composed": "https://www.boosey.com/cr/music/Brett-Dean-Twelve-Angry-Men/6263"
+      },
+      "recordingDecisions": [],
+      "holdReason": "Musical grade insufficient; score or work-specific technical evidence required."
+    }
+  ]
+}

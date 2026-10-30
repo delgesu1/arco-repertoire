@@ -1,0 +1,134 @@
+{
+ "batch": "batch-kaufman-01",
+ "entries": [
+  {
+   "key": "gershwin-three-preludes-kaufman-four-cellos",
+   "decision": "include",
+   "requiresFactReview": false,
+   "work": {
+    "composer": "Gershwin, George",
+    "title": "Three Preludes (arr. Kurt Kaufman)",
+    "arranger": "Kurt Kaufman",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": 7,
+    "hardestPart": "cello 1",
+    "year": "1988",
+    "minutes": null,
+    "set": null,
+    "notes": "Four-cello arrangement; complete human multitrack demonstration by the arranger.",
+    "popularity": null,
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "dance",
+     "lyrical",
+     "playful"
+    ],
+    "imslpPage": "3 Preludes (Gershwin, George)"
+   },
+   "details": {
+    "kind": "Arrangement",
+    "published": "1988, Kurt Kaufman (arrangement)",
+    "movements": [
+     "I. Allegro ben ritmato e deciso",
+     "II. Andante con moto e poco rubato",
+     "III. Allegro ben ritmato e deciso"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 4777987; For 4 Cellos (Kaufman), audio and files",
+      "cache": "data/cache/same-instrument-imslp/pages/14563.json",
+      "finding": "Complete score and parts; complete human four-cello multitrack linked by uploader as demonstration."
+     },
+     {
+      "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/919766",
+      "finding": "Observed index resolved through normal download; 50-page score/parts PDF obtained."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "finding": "Four independently notated cello lines; no other instruments. Score opening visually confirms Cello 1–4."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/919766",
+     "localPath": "data/cache/same-instrument-imslp/scores/919766.pdf",
+     "finding": "50 pages: all three complete scores pp1–26, then individual parts pp27–50; final third-prelude double bar visible on p26.",
+     "samplePaths": [
+      "data/cache/same-instrument-imslp/scores/kaufman-review/p01.png",
+      "data/cache/same-instrument-imslp/scores/kaufman-review/p09.png",
+      "data/cache/same-instrument-imslp/scores/kaufman-review/p20.png",
+      "data/cache/same-instrument-imslp/scores/kaufman-review/end-25.png",
+      "data/cache/same-instrument-imslp/scores/kaufman-review/end-26.png"
+     ]
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "finding": "Complete Performance, Kurt Kaufman - 4 cellos (Multitracked), published Kurt Kaufman1985; uploaded2024-06-20. Human multitrack explicitly identified, not live ensemble or MIDI."
+    },
+    "version": {
+     "kind": "arrangement",
+     "arranger": "Kurt Kaufman",
+     "extent": "whole-work",
+     "selection": "All three preludes",
+     "finding": "Audio section and notation both under For 4 Cellos (Kaufman); reciprocal notes link this demo and arrangement. Audio dated1985, score copyright1988: exact same editorial revision cannot be proven, but uploader explicitly identifies the performance as the arrangement demonstration."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "work.title": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "work.arranger": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "work.instruments": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "work.players": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "work.formation": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "work.form": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "work.year": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "work.notes": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "work.imslpPage": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "details.kind": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "details.published": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "details.movements": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)"
+    },
+    "unknowns": {
+     "duration": "Not measured; minutes left null.",
+     "recording audition": "Human identity and completeness explicitly documented by uploader; no independent full audio audition.",
+     "version dating": "Demo1985 versus score copyright1988; uploader links them explicitly but no revision history supplied.",
+     "grading scope": "Representative notation samples and score/part context, not exhaustive bar-by-bar study."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Level7 diploma estimate, hardest cello1. Actual p1 (I mm1–9): tenor-clef lead, chromatic articulated sixteenths and offbeat double-stop accompaniment. P9 (II mm1–7): exposed tenor-clef cantabile over repeated bass/inner-voice patterns. P20 (III mm9–16): treble-clef lead, triplets mixed with sixteenths, six-flat key signature and chromatic alterations. P25 (III mm47–53): extended rapid chromatic/sixteenth lead and 32nd-note figure, simultaneous lower-part accents; p26 confirms ensuing motif repetition and closing portamento. High-register agility, character shifts and syncopation support diploma demand; brief isolated fast figure is not treated as whole-work virtuosity. Ensemble coordination reinforces estimate without a separate full-level uplift.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/919766.pdf"
+   },
+   "recordingResearch": {
+    "status": "human-performance-found",
+    "primary": {
+     "url": "https://imslp.org/wiki/3_Preludes_(Gershwin,_George)",
+     "performers": "Kurt Kaufman, all four cello parts (human multitrack)",
+     "title": "Complete Performance — 3 Preludes for Cello Quartet",
+     "fileName": "PMLP14563-3_Preludes_for_Cello_Quartet.mp3",
+     "year": "1985"
+    },
+    "finding": "Exact arranger and scoring documented; complete all-three-prelude recording placed outside Synthesized/MIDI. No excluded performers."
+   }
+  }
+ ],
+ "scopeNote": "Focused Kaufman catalogue check: IMSLP arranger category lists only Gershwin Three Preludes and Debussy Images pour orchestre. Debussy Kaufman is piano solo, outside fixed3–12 same-string scope; no additional eligible leads.",
+ "catalogueEvidence": {
+  "url": "https://imslp.org/wiki/Category:Kaufman,_Kurt/Arranger",
+  "cache": "data/cache/same-instrument-imslp/scores/kaufman-review/arranger-catalogue.json",
+  "excludedOtherWork": {
+   "title": "Images pour orchestre, CD118 (Debussy, Claude)",
+   "finding": "For Piano (Kaufman), complete solo-piano arrangement with human piano demo; outside scope.",
+   "cache": "data/cache/same-instrument-imslp/scores/kaufman-review/debussy-38072.json"
+  }
+ }
+}

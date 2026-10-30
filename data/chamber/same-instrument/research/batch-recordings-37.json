@@ -1,0 +1,128 @@
+{
+ "batch": "ensemble-37-recordings",
+ "entries": [
+  {
+   "key": "recording-109209-dicker-concert2024",
+   "existingPublicId": 109209,
+   "decision": "include",
+   "work": {
+    "composer": "Bach, Johann Sebastian",
+    "title": "Prelude No.22, BWV 867 (for 4 Cellos)",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "level": 4,
+    "hardestPart": "cello 1",
+    "year": "",
+    "minutes": 2,
+    "set": null,
+    "notes": "Prelude only, transposed to C minor; from The Well-Tempered Clavier, Book I.",
+    "popularity": null,
+    "mode": "minor",
+    "pace": "slow",
+    "character": [
+     "dark",
+     "lyrical"
+    ],
+    "imslpPage": "Prelude and Fugue in B-flat minor, BWV 867 (Bach, Johann Sebastian)",
+    "arranger": "Suzanne Dicker",
+    "id": 109209
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Recording-only enrichment; existing musical grade retained."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=1122s",
+      "finding": "Complete exact Dicker prelude within a concert compilation; use chapter start 1122s. Primary arranger page and metadata jointly establish version; entire concert credits checked for all four exclusions."
+     }
+    ],
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=1122s",
+     "finding": "Primaryarrangerpageconnectsexact4cellopreludetowholeconcertchapter."
+    },
+    "unknowns": {}
+   },
+   "recordingResearch": {
+    "candidates": [
+     {
+      "id": "-w6vtpUpFF8",
+      "title": "Music by JS Bach arranged by Suzanne Dicker for Cello Quartet, and more…￼",
+      "channel": "MusicaAngela",
+      "description": "Suzanne Dicker’s Arrangements of Works by JS Bach, performed by The Creative Bach Cello Ensemble at Trinity Church in Princeton, New Jersey during Lent 2024 .￼\nThe sheet music for these arrangements can be downloaded for free from \nhttps://imslp.org/wiki/Category:Dicker,_Suzanne\nand\nhttps://www.learningthecello.com/free-cello-ensemble-music.php\nCellists: Peter Brooks, Suzanne Dicker, Katrina Marie Kormanski, Elina Lang, Ted McClure.\n\nFlute: John Lane, Soprano: Samantha Lax, Mezzo soprano: Melissa Fajardo, Tenor: Michael Martin, Bass: Matt Marinelli, Organ: Connor Fluharty\n\n00:00 Bach Goldberg Variation 22\n2:48 Trust in the Lord based on BWV 934 and Proverbs 3:5-6\n5:37 Prelude 18 from WTC vol. 1 (with recomposed bars by Suzanne Dicker)\n7:50 Three-Part Invention #3 \n9:34 Prelude 19 from WTC vol. 1\n11:32 Two-Part Invention #9 in F minor\n13:52 Prelude in F major BWV 928\n15:36 Gute Nacht from Motet BWV 227\n18:42 Prelude #22 from WTC vol. 1\n21:06 Air from Orchestral Suite #3\n25:11 Prelude 18 from WTC vol. 1 (Original bars of JS Bach)\n27:18 Chorale from Cantata 140, arranged by Wendy Bissenger for cello quartet",
+      "seconds": 1950,
+      "views": 1141,
+      "performerCredits": "Suzanne Dicker’s Arrangements of Works by JS Bach, performed by The Creative Bach Cello Ensemble at Trinity Church in Princeton, New Jersey during Lent 2024 .￼\nThe sheet music for these arrangements can be downloaded for free from \nhttps://imslp.org/wiki/Category:Dicker,_Suzanne\nand\nhttps://www.learningthecello.com/free-cello-ensemble-music.php\nCellists: Peter Brooks, Suzanne Dicker, Katrina Marie Kormanski, Elina Lang, Ted McClure.\n\nFlute: John Lane, Soprano: Samantha Lax, Mezzo soprano: Melissa Fajardo, Tenor: Michael Martin, Bass: Matt Marinelli, Organ: Connor Fluharty\n\n00:00 Bach Goldberg Variation 22\n2:48 Trust in the Lord based on BWV 934 and Proverbs 3:5-6\n5:37 Prelude 18 from WTC vol. 1 (with recomposed bars by Suzanne Dicker)\n7:50 Three-Part Invention #3 \n9:34 Prelude 19 from WTC vol. 1\n11:32 Two-Part Invention #9 in F minor\n13:52 Prelude in F major BWV 928\n15:36 Gute Nacht from Motet BWV 227\n18:42 Prelude #22 from WTC vol. 1\n21:06 Air from Orchestral Suite #3\n25:11 Prelude 18 from WTC vol. 1 (Original bars of JS Bach)\n27:18 Chorale from Cantata 140, arranged by Wendy Bissenger for cello quartet",
+      "chapterStartSeconds": 1122
+     }
+    ]
+   }
+  },
+  {
+   "key": "recording-109210-dicker-concert2024",
+   "existingPublicId": 109210,
+   "decision": "include",
+   "work": {
+    "composer": "Bach, Johann Sebastian",
+    "title": "Prelude in F major, BWV 928 (for 4 Cellos)",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "level": 5,
+    "hardestPart": "cello 1",
+    "year": "",
+    "minutes": 2,
+    "set": null,
+    "notes": "Complete prelude arranged for four cellos.",
+    "popularity": null,
+    "mode": "major",
+    "pace": "lively",
+    "character": [
+     "playful"
+    ],
+    "imslpPage": "Prelude in F major, BWV 928 (Bach, Johann Sebastian)",
+    "arranger": "Suzanne Dicker",
+    "id": 109210
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Recording-only enrichment; existing musical grade retained."
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=832s",
+      "finding": "Complete exact Dicker prelude within a concert compilation; use chapter start 832s. Primary arranger page and metadata jointly establish version; entire concert credits checked for all four exclusions."
+     }
+    ],
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=832s",
+     "finding": "Primaryarrangerpageconnectsexact4cellopreludetowholeconcertchapter."
+    },
+    "unknowns": {}
+   },
+   "recordingResearch": {
+    "candidates": [
+     {
+      "id": "-w6vtpUpFF8",
+      "title": "Music by JS Bach arranged by Suzanne Dicker for Cello Quartet, and more…￼",
+      "channel": "MusicaAngela",
+      "description": "Suzanne Dicker’s Arrangements of Works by JS Bach, performed by The Creative Bach Cello Ensemble at Trinity Church in Princeton, New Jersey during Lent 2024 .￼\nThe sheet music for these arrangements can be downloaded for free from \nhttps://imslp.org/wiki/Category:Dicker,_Suzanne\nand\nhttps://www.learningthecello.com/free-cello-ensemble-music.php\nCellists: Peter Brooks, Suzanne Dicker, Katrina Marie Kormanski, Elina Lang, Ted McClure.\n\nFlute: John Lane, Soprano: Samantha Lax, Mezzo soprano: Melissa Fajardo, Tenor: Michael Martin, Bass: Matt Marinelli, Organ: Connor Fluharty\n\n00:00 Bach Goldberg Variation 22\n2:48 Trust in the Lord based on BWV 934 and Proverbs 3:5-6\n5:37 Prelude 18 from WTC vol. 1 (with recomposed bars by Suzanne Dicker)\n7:50 Three-Part Invention #3 \n9:34 Prelude 19 from WTC vol. 1\n11:32 Two-Part Invention #9 in F minor\n13:52 Prelude in F major BWV 928\n15:36 Gute Nacht from Motet BWV 227\n18:42 Prelude #22 from WTC vol. 1\n21:06 Air from Orchestral Suite #3\n25:11 Prelude 18 from WTC vol. 1 (Original bars of JS Bach)\n27:18 Chorale from Cantata 140, arranged by Wendy Bissenger for cello quartet",
+      "seconds": 1950,
+      "views": 1141,
+      "performerCredits": "Suzanne Dicker’s Arrangements of Works by JS Bach, performed by The Creative Bach Cello Ensemble at Trinity Church in Princeton, New Jersey during Lent 2024 .￼\nThe sheet music for these arrangements can be downloaded for free from \nhttps://imslp.org/wiki/Category:Dicker,_Suzanne\nand\nhttps://www.learningthecello.com/free-cello-ensemble-music.php\nCellists: Peter Brooks, Suzanne Dicker, Katrina Marie Kormanski, Elina Lang, Ted McClure.\n\nFlute: John Lane, Soprano: Samantha Lax, Mezzo soprano: Melissa Fajardo, Tenor: Michael Martin, Bass: Matt Marinelli, Organ: Connor Fluharty\n\n00:00 Bach Goldberg Variation 22\n2:48 Trust in the Lord based on BWV 934 and Proverbs 3:5-6\n5:37 Prelude 18 from WTC vol. 1 (with recomposed bars by Suzanne Dicker)\n7:50 Three-Part Invention #3 \n9:34 Prelude 19 from WTC vol. 1\n11:32 Two-Part Invention #9 in F minor\n13:52 Prelude in F major BWV 928\n15:36 Gute Nacht from Motet BWV 227\n18:42 Prelude #22 from WTC vol. 1\n21:06 Air from Orchestral Suite #3\n25:11 Prelude 18 from WTC vol. 1 (Original bars of JS Bach)\n27:18 Chorale from Cantata 140, arranged by Wendy Bissenger for cello quartet",
+      "chapterStartSeconds": 832
+     }
+    ]
+   }
+  }
+ ]
+}

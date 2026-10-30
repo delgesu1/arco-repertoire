@@ -1,0 +1,59 @@
+{
+  "batch": "batch-grades-06",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "fux-sonata-3-violins-ulb-mus-ms-334",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://ks15.imslp.org/files/imglnks/usimg/1/1b/IMSLP508463-PMLP410447-Fux_Sonata_a_tre_Violin_Score.pdf",
+          "finding": "Inspected score PDF pages 1\u20132, 4, 6\u20138, 10, 12 and 14 across slow and fast sections. Three independent single-note lines exchange imitative semiquaver figures; the first violin has somewhat more upper-register melodic work, but the technical burden circulates. Slow chromatic suspensions demand careful ensemble intonation."
+        }
+      ],
+      "grade": {
+        "level": 3,
+        "hardestPart": "balanced",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dance"
+        ],
+        "confidence": "high",
+        "basis": "Upper-intermediate overall: modest violin range and largely scalar single-line passagework, without advanced double-stop or sustained high-position demands. The Allegros require clean semiquaver articulation and independent entries, while the slow sections expose chromatic tuning and bow control. Individual technique is around level 2; one level of ensemble uplift accounts for equal-voice contrapuntal coordination and exposed tuning."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "klengel-2-stucke-op5-4-cellos",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://ks15.imslp.org/files/imglnks/usimg/7/73/IMSLP924821-PMLP1452784-2024-01-04-7-8-0-01.PDF",
+          "finding": "Inspected all three music pages of cello I, covering the complete Serenade and Humoreske, plus sampled music pages of cellos II\u2013IV. Cello I sustains the highest melodic writing, with tenor/treble-clef changes, upper-position and thumb fingerings, chromatic shifts, trills, slurred/staccato running figures and some double stops. Cello II shares substantial mobile upper writing; lower parts are generally less demanding."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "cello 1",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful",
+          "humorous"
+        ],
+        "confidence": "medium",
+        "basis": "Advanced cello technique across the pair: the Serenade requires poised upper-register cantabile, shifts and double-stop intonation, and the Vivace Humoreske adds sustained mobile passagework, mixed articulation and quick pizzicato/arco changes. This is around ABRSM 8/RCM 9 for the first cellist; the ensemble requires matched attacks, balance and responsive tempo changes, but does not warrant a further level above the hardest part. The two pieces use contrasting major tonalities (D and F)."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "batch": "batch-blind-19",
+  "status": "completed",
+  "entries": [
+    {
+      "key": "mikuli-scherzino-op25",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)",
+          "finding": "Cached Kistner full score: title and opening, lyrical middle (printed p.4), reprise and closing p.6\u20137 sampled. Three independent violin staves; violin 1 carries the high, chromatic melody and rapid upper-register closing figuration."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "Violin 1",
+        "mode": "minor",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "lyrical"
+        ],
+        "confidence": "high",
+        "basis": "Advanced violin 1: frequent upper-position melody, chromatic inflections, ornamentation and flowing sixteenth-note runs, culminating in repeated high-register figures and chords. Allegro moderato keeps the passagework below diploma demands. Other parts require sensitive balance and intonation but do not justify a separate ensemble uplift; level 5 is the hardest-part level."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "trapkus-trio-three-violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+          "finding": "Cached complete 8-page original score; opening, flowing material at bars 48\u201395, effects and sustained upper register at 126\u2013153, and closing 181\u2013199 sampled. Lively quarter=170, repetitive offbeat ties, sul G, tremolo, sul ponticello, and exposed very high violin 1 notes."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "Violin 1",
+        "mode": "minor",
+        "pace": "lively",
+        "character": [
+          "dramatic",
+          "playful"
+        ],
+        "confidence": "medium",
+        "basis": "Pre-diploma violin 1 combines sustained high stopped-note control with prolonged rapid eighth-note bowing at quarter=170, string-crossing figures, large register changes and carefully graded tone effects. Much of the motor material is repetitive and lies comfortably, so its speed alone does not warrant diploma level. Independent pulses and exposed sustained lines need rehearsal but no extra ensemble level is added."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "de-bleser-triolette",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)",
+          "finding": "Cached score and separate parts constitute the complete original for three cellos. Full-score opening, central bars 33\u201348, later bars 65\u201381 and cello 3 continuation sampled. Slow 4/4 contrasts with Furioso quarter=144 in 7/8 and 6/8; cello 1 repeatedly rises far above the bass staff."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "Cello 1",
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [
+          "dramatic",
+          "lyrical"
+        ],
+        "confidence": "medium",
+        "basis": "Cello 1 requires secure high-register playing, wide shifts and chromatic eighth-note figures at Furioso tempo, contrasted with exposed sustained phrasing. These recurring upper-register demands support pre-diploma cello technique; the short work has no sustained virtuoso double-stopping or dense passagework to warrant a higher level. Irregular-meter entrances, rests and tempo contrasts add coordination demands without exceeding the hardest part by a full grade, so no ensemble uplift. Harmony is chromatic/modal enough that a single major/minor label is uncertain."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    }
+  ]
+}

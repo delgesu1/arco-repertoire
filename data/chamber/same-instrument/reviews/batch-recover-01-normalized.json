@@ -1,0 +1,182 @@
+{
+ "batch": "batch-recover-01",
+ "status": "complete",
+ "entries": [
+  {
+   "key": "hermann-op5-original-3violins",
+   "status": "approved",
+   "factsVerified": true,
+   "findings": [
+    {
+     "url": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29",
+     "finding": "Peters plate3909 title and all three original parts identify Second Capriccio Op5 for three violins; notation is G major, one Allegro molto. All three parts inspected, first part in full. IMSLP reports publication1856 or earlier and average6 minutes; neither established here as an exact composition date or verified performance timing."
+    }
+   ],
+   "grade": {
+    "level": 7,
+    "hardestPart": "violin 1",
+    "mode": "major",
+    "pace": "lively",
+    "character": [
+     "virtuosic",
+     "playful"
+    ],
+    "confidence": "high",
+    "basis": "Original Peters parts: violin1 printed pp2–7 has sustained high-register Allegro molto passagework, rapid shifts, octave displacement, trills and repeated double-stop figures, including high runs into the coda. Violin2 also has upper-position semiquavers and chords; violin3 supports with active low-register figures and double stops. Diploma-level first part, with tight shared articulation and exposed three-violin intonation; the complete six-page musical span supports7 without an extra ensemble increment."
+   },
+   "approvedWorkFields": [
+    "composer",
+    "title",
+    "instruments",
+    "players",
+    "formation",
+    "form",
+    "set",
+    "notes",
+    "imslpPage"
+   ],
+   "workCorrections": {},
+   "approvedDetailFields": [
+    "movements"
+   ],
+   "detailCorrections": {
+    "movements": [
+     "Allegro molto"
+    ]
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Capriccio_No.2_for_3_Violins%2C_Op.5_%28Hermann%2C_Friedrich%29"
+   },
+   "recordingDecisions": []
+  },
+  {
+   "key": "lachner-op160-original-5cellos",
+   "status": "approved",
+   "factsVerified": true,
+   "findings": [
+    {
+     "url": "https://ks15.imslp.org/files/imglnks/usimg/e/e2/IMSLP471593-PMLP739655-FPLachner_Elegie,_Op.160_parts.pdf",
+     "finding": "Senff plate915 original parts explicitly label Violoncello I–V and Op160. Each has No1 Andante, No2 Menuetto Allegretto, No3 Allegro non troppo ma agitato: complete three-movement original work, not a single short lament. Three sharps, opening F-sharp/E-sharp figures and final bass F-sharp resolve home tonic as F-sharp minor."
+    },
+    {
+     "url": "https://www.wienerphilharmoniker.at/de/magazin/3-kammermusikkonzert-in-der-wiener-staatsoper-201819/6087",
+     "finding": "The orchestra’s8 November2018 first-party report documents five named cellists performing Lachner Elegie Op160 on27 October2018 and labels F-sharp minor. This establishes an actual human performance by that date, not first performance."
+    },
+    {
+     "url": "https://www.amadeusmusic.ch/itemcard.php?aid=1035&currency=CHF&isr=0&itemno=BP+2073&language=en&qsa=15%7C1035%7C%7C0%7C0%7C0%7Cklavier&search=klavier",
+     "finding": "Publisher Amadeus BP2073 confirms five cellos, five separate parts and1983 edition; it provides no composition1834 evidence."
+    },
+    {
+     "url": "https://www.deutsche-biographie.de/sfz68622.html",
+     "finding": "NDB work list corroborates F-sharp minor Op160 for five cellos; this is a scholarly secondary corroboration, not a dated composition manuscript."
+    },
+    {
+     "url": "https://imslp.org/wiki/Elegy%2C_Op.160_%28Lachner%2C_Franz_Paul%29",
+     "finding": "IMSLP labels C-sharp minor and1834, but its cited first-edition parts contradict the tonic.1834 remains unverified; exact composition date retained blank.1872 is catalogued first publication, not a demonstrated composition date."
+    }
+   ],
+   "grade": {
+    "level": 6,
+    "hardestPart": "cello 1",
+    "mode": "minor",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "dark",
+     "dramatic"
+    ],
+    "confidence": "high",
+    "basis": "All five Senff parts examined across their three movements: first cello has extensive tenor/treble-clef lyrical playing, chromatic shifts, wide range and agile slurred figures; cello2 approaches it, with double stops and sustained high entries. Parts3–5 remain meaningfully active and require coordinated9/8, rests, tempo changes and equal-register balance. Pre-diploma fits the hardest sustained upper voice plus ensemble exposure; no evidence for virtuoso-scale speed or extreme technique. The whole work includes an Andante, Menuetto and extended agitated finale, so moderate describes its mixed overall pace."
+   },
+   "approvedWorkFields": [
+    "composer",
+    "title",
+    "instruments",
+    "players",
+    "formation",
+    "form",
+    "set",
+    "notes",
+    "imslpPage",
+    "year",
+    "minutes"
+   ],
+   "workCorrections": {
+    "notes": "Five independent cello parts in three movements; F-sharp minor.",
+    "year": ""
+   },
+   "approvedDetailFields": [
+    "movements"
+   ],
+   "detailCorrections": {
+    "movements": [
+     "Andante",
+     "Menuetto. Allegretto",
+     "Allegro non troppo, ma agitato"
+    ],
+    "composed": null
+   },
+   "detailSources": {
+    "movements": "https://ks15.imslp.org/files/imglnks/usimg/e/e2/IMSLP471593-PMLP739655-FPLachner_Elegie,_Op.160_parts.pdf",
+    "composed": "https://ks15.imslp.org/files/imglnks/usimg/e/e2/IMSLP471593-PMLP739655-FPLachner_Elegie,_Op.160_parts.pdf"
+   },
+   "recordingDecisions": []
+  },
+  {
+   "key": "klengel-variations-op15-4vc",
+   "status": "approved",
+   "factsVerified": true,
+   "findings": [
+    {
+     "url": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)",
+     "finding": "Current IMSLP notation is only cello1, IMC1764 reprint, seven PDF pages including cover. It explicitly identifies Op15 for four cellos, theme plus eleven numbered variations and coda. Opening G-major signature and melody; not Op28. Full ensemble grading cannot be high confidence without the other three parts."
+    },
+    {
+     "url": "https://cellos2go.com/products/sheet-music/cello-ensembles/klengel-variations-op-15-for-4-cellos/",
+     "finding": "Retailer identifies IMC1764, unequal difficulty, cellos1–3 using thumb position/treble clef and cello4 bass clef with counting/chords. Useful corroboration but not a substitute for inspecting missing notation."
+    }
+   ],
+   "grade": {
+    "level": 7,
+    "hardestPart": "cello 1",
+    "mode": "major",
+    "pace": "moderate",
+    "character": [
+     "lyrical",
+     "virtuosic",
+     "playful"
+    ],
+    "confidence": "low",
+    "basis": "Directly inspected complete IMC cello1: theme Andante con moto, eleven variations and coda. High tenor/treble and thumb-position writing, broad arpeggio shifts (VarIV), Vivace spiccato semiquavers (VarVIII), chordal pizzicato (VarIX), and fast high-register coda make diploma-level playing plausible. Only cello1 is available, so7 is a provisional musical assessment, not a secure whole-work vote; unavailable parts could change hardest-part attribution or coordination burden."
+   },
+   "approvedWorkFields": [
+    "composer",
+    "title",
+    "instruments",
+    "players",
+    "formation",
+    "form",
+    "set",
+    "notes",
+    "imslpPage"
+   ],
+   "workCorrections": {
+    "imslpPage": "Theme with Variations for 4 Cellos, Op.15 (Klengel, Julius)"
+   },
+   "approvedDetailFields": [
+    "movements"
+   ],
+   "detailCorrections": {
+    "movements": [
+     "Theme, eleven variations and coda"
+    ]
+   },
+   "detailSources": {
+    "movements": "https://imslp.org/wiki/Theme_with_Variations_for_4_Cellos,_Op.15_(Klengel,_Julius)"
+   },
+   "recordingDecisions": []
+  }
+ ],
+ "normalizedFrom": "data/chamber/same-instrument/reviews/batch-recover-01.json",
+ "coordinatorNormalization": "Field-list/source-map formatting only; independent grade values unchanged. Unsupported key detail retained only in findings. Lachner unsupported composition date cleared; existing measured Hermann duration retained."
+}

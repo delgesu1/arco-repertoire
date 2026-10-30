@@ -100,7 +100,7 @@ const IdsInput = z.object({ ids: z.array(z.number().int()).min(1).max(10) }).str
 
 // ── helpers ──────────────────────────────────────────────────────────
 const compact = (p: Piece) =>
-  `${p.id}|${p.composerName}|${p.title}|L${p.level}|${p.type}|${p.settings.join("+")}|${p.minutes ?? ""}|${[p.mode, p.pace, ...p.character].filter(Boolean).join(",")}|${p.popularity ?? ""}`;
+  `${p.id}|${p.composerName}|${p.arranger ? `${p.title} (arr. ${p.arranger})` : p.title}|L${p.level}|${p.type}|${p.settings.join("+")}|${p.minutes ?? ""}|${[p.mode, p.pace, ...p.character].filter(Boolean).join(",")}|${p.popularity ?? ""}`;
 
 function toFilters(i: z.infer<typeof FilterInput>): { f: Filters; lo: number; hi: number } {
   const f: Filters = {

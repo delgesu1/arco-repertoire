@@ -1,0 +1,427 @@
+{
+ "batch": "arrangements-ready-34",
+ "status": "partial",
+ "entries": [
+  {
+   "key": "bach-bwv864-dicker-cello-quartet-prelude",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "IMSLP and the exact Dicker ensemble chapter support this four-cello transcription of BWV 864, Prelude No. 19 from The Well-Tempered Clavier, Book I; full score and parts are cached.",
+   "work": {
+    "composer": "Bach, Johann Sebastian",
+    "title": "Prelude No.19, BWV 864 (for 4 Cellos)",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "level": null,
+    "hardestPart": null,
+    "year": "",
+    "minutes": 2,
+    "set": null,
+    "notes": "Prelude only, transposed to G major; from The Well-Tempered Clavier, Book I.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Prelude and Fugue in A major, BWV 864 (Bach, Johann Sebastian)",
+    "arranger": "Suzanne Dicker"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "piece"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+      "checkedOn": "2026-10-29",
+      "finding": "IMSLP lists Suzanne Dicker’s four-cello prelude transcription; Raw revision 4825039; Complete Score and Parts; notes explicitly say transposed to G major and point to the ensemble video."
+     },
+     {
+      "url": "https://www.learningthecello.com/free-cello-ensemble-music.php",
+      "checkedOn": "2026-10-29",
+      "finding": "Dicker’s primary cello ensemble music page, linked in the recorded video description."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=574s",
+      "checkedOn": "2026-10-29",
+      "finding": "Chapter “Prelude 19 from WTC vol. 1” starts at 9:34; the recorded segment is 1:58. Cached video metadata identifies MusicaAngela’s upload (2024-03-22), The Creative Bach Cello Ensemble, and five cellists; its description identifies Suzanne Dicker’s Bach arrangements and links to her score library."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+     "locator": "Prelude score block: For 4 Cellos (Dicker)",
+     "finding": "Complete Score and Parts for four cellos; the Prelude is the documented segment."
+    },
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=574s",
+     "finding": "Chapter “Prelude 19 from WTC vol. 1” starts at 9:34; the recorded segment is 1:58. Cached video metadata identifies MusicaAngela’s upload (2024-03-22), The Creative Bach Cello Ensemble, and five cellists; its description identifies Suzanne Dicker’s Bach arrangements and links to her score library."
+    },
+    "version": {
+     "kind": "arrangement",
+     "arranger": "Suzanne Dicker",
+     "extent": "BWV 864, Prelude No. 19 from The Well-Tempered Clavier, Book I",
+     "selection": "BWV 864, Prelude No. 19 from The Well-Tempered Clavier, Book I"
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+     "finding": "IMSLP arrangement block: Raw revision 4825039; Complete Score and Parts; notes explicitly say transposed to G major and point to the ensemble video. Local cached PDF data/cache/same-instrument-imslp/scores/952243.pdf (112284 bytes; SHA-256 cc9fb6c84d13d292578ea5ed5083b5899990113aea22efcebb49a206bfbbf746); observed source file URL https://ks15.imslp.org/files/imglnks/usimg/1/13/IMSLP952243-PMLP569350-Bach_Prelude_19_cello_quartet_-_Score_and_parts.pdf."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+     "work.title": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+     "work.instruments": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+     "work.notes": "https://imslp.org/wiki/Prelude_and_Fugue_in_A_major,_BWV_864_(Bach,_Johann_Sebastian)",
+     "work.minutes": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=574s"
+    },
+    "unknowns": {
+     "arrangement.date": "Arrangement date not established; original composition date not reused.",
+     "details.published": "Publication date not established.",
+     "work.year": "Arrangement date unknown; original work date is not reused as arrangement date.",
+     "work.level": "Not graded.",
+     "work.hardestPart": "Not graded."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass factual extraction; independent score grades required."
+   },
+   "recordingResearch": {
+    "status": "released-human-performance-established",
+    "queries": [],
+    "candidates": [
+     {
+      "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=574s",
+      "performers": [
+       "Peter Brooks",
+       "Suzanne Dicker",
+       "Katrina Marie Kormanski",
+       "Elina Lang",
+       "Ted McClure"
+      ],
+      "finding": "Chapter “Prelude 19 from WTC vol. 1” starts at 9:34; the recorded segment is 1:58. Cached video metadata identifies MusicaAngela’s upload (2024-03-22), The Creative Bach Cello Ensemble, and five cellists; its description identifies Suzanne Dicker’s Bach arrangements and links to her score library."
+     }
+    ]
+   },
+   "arranger": "Suzanne Dicker"
+  },
+  {
+   "key": "bach-bwv867-dicker-cello-quartet-prelude",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "IMSLP and the timestamped ensemble chapter support Suzanne Dicker’s four-cello Prelude No. 22; the distinct five-cello fugue is excluded.",
+   "work": {
+    "composer": "Bach, Johann Sebastian",
+    "title": "Prelude No.22, BWV 867 (for 4 Cellos)",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "level": null,
+    "hardestPart": null,
+    "year": "",
+    "minutes": 2,
+    "set": null,
+    "notes": "Prelude only, transposed to C minor; from The Well-Tempered Clavier, Book I.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Prelude and Fugue in B-flat minor, BWV 867 (Bach, Johann Sebastian)",
+    "arranger": "Suzanne Dicker"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "piece"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Prelude_and_Fugue_in_B-flat_minor,_BWV_867_(Bach,_Johann_Sebastian)",
+      "checkedOn": "2026-10-29",
+      "finding": "IMSLP lists Dicker’s four-cello prelude as a separate arrangement from the five-cello fugue; the prelude is transposed to C minor."
+     },
+     {
+      "url": "https://www.learningthecello.com/free-cello-ensemble-music.php",
+      "checkedOn": "2026-10-29",
+      "finding": "Dicker’s primary cello ensemble music page, linked in the recorded video description."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=1122s",
+      "checkedOn": "2026-10-29",
+      "finding": "Chapter “Prelude #22 from WTC vol. 1” starts at 18:42 and lasts 2:24. Cached video metadata identifies MusicaAngela’s 2024-03-22 upload, The Creative Bach Cello Ensemble and five cellists; its description identifies Suzanne Dicker’s Bach arrangements and links to her score library."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Prelude_and_Fugue_in_B-flat_minor,_BWV_867_(Bach,_Johann_Sebastian)",
+     "locator": "Prelude score block: For 4 Cellos (Dicker)",
+     "finding": "Complete Score and Parts for four cellos, transposed to C minor; fugue is distinct and not included."
+    },
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=1122s",
+     "finding": "Chapter “Prelude #22 from WTC vol. 1” starts at 18:42 and lasts 2:24. Cached video metadata identifies MusicaAngela’s 2024-03-22 upload, The Creative Bach Cello Ensemble and five cellists; its description identifies Suzanne Dicker’s Bach arrangements and links to her score library."
+    },
+    "version": {
+     "kind": "arrangement",
+     "arranger": "Suzanne Dicker",
+     "extent": "Prelude No. 22 only from BWV 867, transposed to C minor",
+     "selection": "Prelude only"
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Prelude_and_Fugue_in_B-flat_minor,_BWV_867_(Bach,_Johann_Sebastian)",
+     "finding": "IMSLP’s “For 4 Cellos (Dicker)” Prelude block lists Complete Score and Parts; cached PDF data/cache/same-instrument-imslp/scores/957315.pdf (386213 bytes; SHA-256 71cfa36f0ce1e788516824a827abc154c390d0a5a4ab2570e9a8527ea4ccffef); source file URL https://s9.imslp.org/files/imglnks/usimg/3/36/IMSLP957315-PMLP533941-Bach_Prelude_22_from_WTC_vol._1_SCORE_(etc).pdf. The work page separately lists the fugue arrangement; it is excluded here."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Prelude_and_Fugue_in_B-flat_minor,_BWV_867_(Bach,_Johann_Sebastian)",
+     "work.title": "https://imslp.org/wiki/Prelude_and_Fugue_in_B-flat_minor,_BWV_867_(Bach,_Johann_Sebastian)",
+     "work.instruments": "https://imslp.org/wiki/Prelude_and_Fugue_in_B-flat_minor,_BWV_867_(Bach,_Johann_Sebastian)",
+     "work.notes": "https://imslp.org/wiki/Prelude_and_Fugue_in_B-flat_minor,_BWV_867_(Bach,_Johann_Sebastian)",
+     "work.minutes": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=1122s"
+    },
+    "unknowns": {
+     "arrangement.date": "Arrangement date not established; original composition date not reused.",
+     "details.published": "Publication date not established.",
+     "work.year": "Arrangement date unknown; original work date is not reused as arrangement date.",
+     "work.level": "Not graded.",
+     "work.hardestPart": "Not graded."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass factual extraction; independent score grades required."
+   },
+   "recordingResearch": {
+    "status": "released-human-performance-established",
+    "queries": [],
+    "candidates": [
+     {
+      "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=1122s",
+      "performers": [
+       "Peter Brooks",
+       "Suzanne Dicker",
+       "Katrina Marie Kormanski",
+       "Elina Lang",
+       "Ted McClure"
+      ],
+      "finding": "Chapter “Prelude #22 from WTC vol. 1” starts at 18:42 and lasts 2:24. Cached video metadata identifies MusicaAngela’s 2024-03-22 upload, The Creative Bach Cello Ensemble and five cellists; its description identifies Suzanne Dicker’s Bach arrangements and links to her score library."
+     }
+    ]
+   },
+   "arranger": "Suzanne Dicker"
+  },
+  {
+   "key": "bach-bwv928-dicker-cello-quartet-prelude",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "IMSLP’s four-cello score group and the exact timestamped Dicker ensemble chapter support this arrangement of BWV 928.",
+   "work": {
+    "composer": "Bach, Johann Sebastian",
+    "title": "Prelude in F major, BWV 928 (for 4 Cellos)",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "short",
+    "level": null,
+    "hardestPart": null,
+    "year": "",
+    "minutes": 2,
+    "set": null,
+    "notes": "Complete prelude arranged for four cellos.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Prelude in F major, BWV 928 (Bach, Johann Sebastian)",
+    "arranger": "Suzanne Dicker"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "piece"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Prelude_in_F_major,_BWV_928_(Bach,_Johann_Sebastian)",
+      "checkedOn": "2026-10-29",
+      "finding": "IMSLP lists Suzanne Dicker’s four-cello arrangement as Complete Score and Parts."
+     },
+     {
+      "url": "https://www.learningthecello.com/free-cello-ensemble-music.php",
+      "checkedOn": "2026-10-29",
+      "finding": "Dicker’s primary cello ensemble music page, linked in the recorded video description."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=832s",
+      "checkedOn": "2026-10-29",
+      "finding": "Chapter “Prelude in F major BWV 928” starts at 13:52 and lasts 1:44. Cached video metadata identifies MusicaAngela’s 2024-03-22 upload, The Creative Bach Cello Ensemble and five cellists; its description identifies Suzanne Dicker’s Bach arrangements and links to her score library."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Prelude_in_F_major,_BWV_928_(Bach,_Johann_Sebastian)",
+     "locator": "For 4 Cellos (Dicker)",
+     "finding": "Complete Score and Parts for four cellos."
+    },
+    "floor": {
+     "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=832s",
+     "finding": "Chapter “Prelude in F major BWV 928” starts at 13:52 and lasts 1:44. Cached video metadata identifies MusicaAngela’s 2024-03-22 upload, The Creative Bach Cello Ensemble and five cellists; its description identifies Suzanne Dicker’s Bach arrangements and links to her score library."
+    },
+    "version": {
+     "kind": "arrangement",
+     "arranger": "Suzanne Dicker",
+     "extent": "Complete Prelude in F major, BWV 928",
+     "selection": "whole prelude"
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Prelude_in_F_major,_BWV_928_(Bach,_Johann_Sebastian)",
+     "finding": "IMSLP’s “For 4 Cellos (Dicker)” block lists Complete Score and Parts; cached PDF data/cache/same-instrument-imslp/scores/957296.pdf (1269030 bytes; SHA-256 77deecf3499a0966abc3bfb9aa2f321686bb7e238e30ceb7d5eda92f5a871aac); source file URL https://ks15.imslp.org/files/imglnks/usimg/f/f9/IMSLP957296-PMLP1045319-Bach_Prelude_in_F_major_BWV_928_cello_quartet_cello_1_(etc).pdf."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Prelude_in_F_major,_BWV_928_(Bach,_Johann_Sebastian)",
+     "work.title": "https://imslp.org/wiki/Prelude_in_F_major,_BWV_928_(Bach,_Johann_Sebastian)",
+     "work.instruments": "https://imslp.org/wiki/Prelude_in_F_major,_BWV_928_(Bach,_Johann_Sebastian)",
+     "work.notes": "https://imslp.org/wiki/Prelude_in_F_major,_BWV_928_(Bach,_Johann_Sebastian)",
+     "work.minutes": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=832s"
+    },
+    "unknowns": {
+     "arrangement.date": "Arrangement date not established; original composition date not reused.",
+     "details.published": "Publication date not established.",
+     "work.year": "Arrangement date unknown; original work date is not reused as arrangement date.",
+     "work.level": "Not graded.",
+     "work.hardestPart": "Not graded."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass factual extraction; independent score grades required."
+   },
+   "recordingResearch": {
+    "status": "released-human-performance-established",
+    "queries": [],
+    "candidates": [
+     {
+      "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8&t=832s",
+      "performers": [
+       "Peter Brooks",
+       "Suzanne Dicker",
+       "Katrina Marie Kormanski",
+       "Elina Lang",
+       "Ted McClure"
+      ],
+      "finding": "Chapter “Prelude in F major BWV 928” starts at 13:52 and lasts 1:44. Cached video metadata identifies MusicaAngela’s 2024-03-22 upload, The Creative Bach Cello Ensemble and five cellists; its description identifies Suzanne Dicker’s Bach arrangements and links to her score library."
+     }
+    ]
+   },
+   "arranger": "Suzanne Dicker"
+  },
+  {
+   "key": "strauss-pizzicato-polka-seymour-six-cellos",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "The IMSLP score group and Warner Classics/Erato track identify Gwyn Seymour’s exact six-cello transcription and a released human performance.",
+   "work": {
+    "composer": "Strauss, Johann II and Josef",
+    "title": "Pizzicato-Polka (for 6 Cellos)",
+    "instruments": {
+     "cello": 6
+    },
+    "players": 6,
+    "formation": "large-strings",
+    "form": "short",
+    "level": null,
+    "hardestPart": null,
+    "year": "",
+    "minutes": 2,
+    "set": null,
+    "notes": "Co-composed by Johann Strauss II and Josef Strauss; transcribed for six cellos.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Pizzicato-Polka (Strauss Jr., Johann)",
+    "arranger": "Gwyn Seymour"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "piece"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Pizzicato-Polka_(Strauss_Jr.,_Johann)",
+      "checkedOn": "2026-10-29",
+      "finding": "IMSLP identifies the work as a collaboration and lists “For 6 Cellos (Seymour)” as Complete Score and Parts."
+     },
+     {
+      "url": "https://www.qobuz.com/fi-en/album/capucelli-gautier-capucon-capucelli/k7cqjzezjkedb",
+      "checkedOn": "2026-10-29",
+      "finding": "Released Warner Classics/Erato track “Pizzicato-Polka (Transcr. Seymour for Cello Ensemble)” (2:21) credits Johann Strauss II and Josef Strauss as composers, Gwyn Seymour as transcriber, and Gautier Capuçon with Capucelli."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Pizzicato-Polka_(Strauss_Jr.,_Johann)",
+     "locator": "For 6 Cellos (Seymour)",
+     "finding": "Complete Score and Parts for six cellos."
+    },
+    "floor": {
+     "url": "https://www.qobuz.com/fi-en/album/capucelli-gautier-capucon-capucelli/k7cqjzezjkedb",
+     "finding": "Released Warner Classics/Erato track “Pizzicato-Polka (Transcr. Seymour for Cello Ensemble)” (2:21) credits Johann Strauss II and Josef Strauss as composers, Gwyn Seymour as transcriber, and Gautier Capuçon with Capucelli."
+    },
+    "version": {
+     "kind": "arrangement",
+     "arranger": "Gwyn Seymour",
+     "extent": "Complete Pizzicato-Polka",
+     "selection": "whole work"
+    },
+    "score": {
+     "url": "https://imslp.org/wiki/Pizzicato-Polka_(Strauss_Jr.,_Johann)",
+     "finding": "IMSLP “For 6 Cellos (Seymour)” block lists Complete Score and Parts; cached PDF data/cache/same-instrument-imslp/scores/451336.pdf (402727 bytes; SHA-256 06599993fa86e1de142f0447920f3347b8200d49ff4c56e043382c18e911c794); source file URL https://s9.imslp.org/files/imglnks/usimg/6/6f/IMSLP451336-PMLP407244-Polka_Merge.pdf."
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Pizzicato-Polka_(Strauss_Jr.,_Johann)",
+     "work.title": "https://imslp.org/wiki/Pizzicato-Polka_(Strauss_Jr.,_Johann)",
+     "work.instruments": "https://imslp.org/wiki/Pizzicato-Polka_(Strauss_Jr.,_Johann)",
+     "work.notes": "https://imslp.org/wiki/Pizzicato-Polka_(Strauss_Jr.,_Johann)",
+     "work.minutes": "https://www.qobuz.com/fi-en/album/capucelli-gautier-capucon-capucelli/k7cqjzezjkedb"
+    },
+    "unknowns": {
+     "arrangement.date": "Arrangement date not established; original 1869 composition date not reused.",
+     "details.published": "Arrangement publication date not established.",
+     "work.year": "Arrangement date unknown; original composition date is not reused as arrangement date.",
+     "composerMetadata": "No confirmed house composer key or metadata entry found for this coauthored work; retain the credit as a fact-review item.",
+     "work.level": "Not graded.",
+     "work.hardestPart": "Not graded."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass factual extraction; independent score grades required."
+   },
+   "recordingResearch": {
+    "status": "released-human-performance-established",
+    "queries": [],
+    "candidates": [
+     {
+      "url": "https://www.qobuz.com/fi-en/album/capucelli-gautier-capucon-capucelli/k7cqjzezjkedb",
+      "performers": [
+       "Gautier Capuçon",
+       "Capucelli"
+      ],
+      "finding": "Released Warner Classics/Erato track “Pizzicato-Polka (Transcr. Seymour for Cello Ensemble)” (2:21) credits Johann Strauss II and Josef Strauss as composers, Gwyn Seymour as transcriber, and Gautier Capuçon with Capucelli."
+     }
+    ]
+   },
+   "arranger": "Gwyn Seymour"
+  }
+ ]
+}

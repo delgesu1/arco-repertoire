@@ -1,0 +1,415 @@
+{
+  "source": "data/chamber/same-instrument/inputs/final-proposal-audit.json",
+  "uniqueInputKeys": 57,
+  "dispositions": [
+    {
+      "key": "telemann-twv40-201-original-4violins",
+      "disposition": "imported",
+      "canonicalId": 109144,
+      "reason": "Already present as canonical work ID 109144, cross-listed to existing public violin ID 568.",
+      "evidence": "data/chamber/works.json"
+    },
+    {
+      "key": "telemann-twv40-202-original-4violins",
+      "disposition": "imported",
+      "canonicalId": 109145,
+      "reason": "Already present as canonical work ID 109145.",
+      "evidence": "data/chamber/works.json"
+    },
+    {
+      "key": "telemann-twv40-203-original-4violins",
+      "disposition": "imported",
+      "canonicalId": 109146,
+      "reason": "Already present as canonical work ID 109146.",
+      "evidence": "data/chamber/works.json"
+    },
+    {
+      "key": "telemann-twv40-204-original-4violins",
+      "disposition": "held",
+      "reason": "Attribution unresolved: publisher and Telemann Society sources dispute authorship, so it cannot be represented as a Telemann work.",
+      "evidence": "data/chamber/same-instrument/inputs/final-proposal-audit.json"
+    },
+    {
+      "key": "proto-quartet-basses-1964",
+      "disposition": "held",
+      "reason": "No currently obtainable reliable score/parts route was verified; the known storefront evidence was corrupted/unreliable.",
+      "evidence": "data/chamber/same-instrument/inputs/final-proposal-audit.json"
+    },
+    {
+      "key": "telemann-concerto-4-violins-twv-40-202",
+      "disposition": "superseded",
+      "canonicalId": 109145,
+      "reason": "Duplicate lead for the same complete TWV 40:202 work already represented by canonical ID 109145; use the exact reviewed 202 key.",
+      "evidence": "data/chamber/works.json"
+    },
+    {
+      "key": "zanella-fantasia-orientale-six-celli-original",
+      "disposition": "held",
+      "reason": "The cited institutional event listing only associates the piece with the ensemble; completed exact-version performance was not verified.",
+      "evidence": "data/chamber/same-instrument/imports/ensemble-13.json"
+    },
+    {
+      "key": "lauber-quartet-double-basses-1942",
+      "disposition": "held",
+      "reason": "Prior reviews confirm the publisher/retailer score and parts route and complete BassBand recording; however, the score-file handler for IMSLP score 930866 failed and no notation pages were inspected. Publisher’s “advanced top part” supports only a low-confidence rough grade, insufficient for a confident placement.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-grades-15-normalized.json"
+    },
+    {
+      "key": "hauta-aho-mini-bass-symphony",
+      "disposition": "held",
+      "reason": "Retailer offers the ten-part score and parts, but the edition allows ten or massed basses and the cited 15-player performance was not independently verified; the saved review inspected only the opening movement, not the full notation. Fixed-player scoring/floor and whole-work grade remain unresolved.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-bass-verify-01.json"
+    },
+    {
+      "key": "francaix-aubade-twelve-cellos",
+      "disposition": "held",
+      "reason": "Score preview yielded no readable notation; movement tempi and the publisher’s generic “easy” label do not support a whole-work level or hardest-part grade.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-modern12-grades.json"
+    },
+    {
+      "key": "dean-twelve-angry-men",
+      "disposition": "held",
+      "reason": "The prior verification and grade reviews held the candidate; the available official audio is an excerpt and supplied evidence does not establish inspectable notation for a defensible grade.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-modern12-grades.json"
+    },
+    {
+      "key": "part-fratres-flexible-cello-ensemble",
+      "disposition": "superseded",
+      "canonicalId": 106783,
+      "reason": "Existing catalogue work 106783 is the eight-cello Fratres; no evidence reviewed establishes whether its flexible scoring already covers the proposed 12-cello configuration, so avoid duplicate import pending exact-score comparison.",
+      "evidence": "data/chamber/works.json"
+    },
+    {
+      "key": "gulda-serenade-twelve-cellos",
+      "disposition": "held",
+      "reason": "No primary source verified this purported work; the known Gulda concerto is for cello and wind orchestra.",
+      "evidence": "data/chamber/same-instrument/inputs/final-proposal-audit.json"
+    },
+    {
+      "key": "haas-twelve-cellos-unspecified",
+      "disposition": "held",
+      "reason": "No specific twelve-cello Haas work verified; the primary-source lead located was Open Spaces for mixed strings and percussion.",
+      "evidence": "data/chamber/same-instrument/inputs/final-proposal-audit.json"
+    },
+    {
+      "key": "garcia-swing-k-1000-double-bass-quartet",
+      "disposition": "held",
+      "reason": "Exact quartet performance is documented, but item-level evidence did not confirm an obtainable complete score and parts.",
+      "evidence": "data/chamber/same-instrument/inputs/final-proposal-audit.json"
+    },
+    {
+      "key": "verotta-adesso-four-cellos",
+      "disposition": "held",
+      "reason": "The only cited recording is explicitly credited to Noteperformer AI, so no human-performance floor is established.",
+      "evidence": "data/chamber/same-instrument/inputs/final-proposal-audit.json"
+    },
+    {
+      "key": "nichifor-epos-no1-three-cellos",
+      "disposition": "held",
+      "reason": "Exact human performance is verified, but the score handler returned error HTML and no recoverable score/PDF; notation cannot be responsibly graded.",
+      "evidence": "data/chamber/same-instrument/inputs/final-proposal-audit.json"
+    },
+    {
+      "key": "forino-les-prieres-op27",
+      "disposition": "superseded",
+      "canonicalId": 109199,
+      "reason": "The collection proposal is superseded by independently reviewed complete No.3 (canonical 109199); collection audio does not identify its number and exact version match is unproved.",
+      "evidence": "data/chamber/same-instrument/reviews/forino-26-normalized.json"
+    },
+    {
+      "key": "trapkus-quartet-four-violins",
+      "disposition": "imported",
+      "reason": "Imported as canonical ID 109215 in ensemble-38 after final audit. Blind opinions 4/6/5 were preserved; adjudicated grade 5, hardest part violin 1, medium confidence.",
+      "evidence": "data/chamber/same-instrument/imports/ensemble-38.json",
+      "canonicalId": 109215
+    },
+    {
+      "key": "recording-109146",
+      "disposition": "held",
+      "reason": "No approved candidate: compilation lists the concerto but its linked source credits a different concerto movement; remaining candidates are partial movements or a four-guitar arrangement, leaving exact-version performer attribution unresolved.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109146,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109150",
+      "disposition": "held",
+      "reason": "Candidates are individual movements, an ambiguous long compilation without verified exact arrangement/extent, or a short Seoul excerpt; no complete Klaus Trumpf four-bass arrangement is established.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109150,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109151",
+      "disposition": "held",
+      "reason": "No candidate was supplied for the exact Mihoko Kimura four-violin arrangement.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109151,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109157",
+      "disposition": "held",
+      "reason": "The score video has no performer/source credits, so human-performance and excluded-performer checks cannot be completed; other inputs are different Hermann works.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109157,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109159",
+      "disposition": "held",
+      "reason": "Only candidate is an unrelated Blacher orchestral work.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109159,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109162",
+      "disposition": "held",
+      "reason": "No candidates were supplied for the exact three-violin sonata.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109162,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109167",
+      "disposition": "held",
+      "reason": "Only candidate is the unrelated Six Deutsche Tanzweisen.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109167,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109169",
+      "disposition": "held",
+      "reason": "Candidates cover individual movements only, not the complete five-movement suite.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109169,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109170",
+      "disposition": "held",
+      "reason": "No candidates were supplied for this work.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109170,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109171",
+      "disposition": "held",
+      "reason": "Candidates are different works; none matches In Memoriam: George Finckel.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109171,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109173",
+      "disposition": "held",
+      "reason": "Inputs are individual movements with durations 2:47–4:37; they do not establish the complete Four Pieces, Op.104.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109173,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109174",
+      "disposition": "held",
+      "reason": "Only candidate is unrelated Sheil Worlds; no Steve Jones five-viola arrangement candidate was supplied.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109174,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109176",
+      "disposition": "held",
+      "reason": "Only candidate is an unrelated Alan Rea piece.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-01.json",
+      "canonicalWorkId": 109176,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109179",
+      "disposition": "held",
+      "reason": "Lamont upload is only I. Andante espressivo; alternate Kleine Suite slideshow lacks performer attribution/instrumentation, and the short school upload is not clearly complete. No exact complete human trio recording is supported.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-02.json",
+      "canonicalWorkId": 109179,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109178",
+      "disposition": "held",
+      "reason": "All four supplied search hits are To the Earth for speaking percussionist, not Fortune for four violas; no exact-work candidate was found in the bounded search.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-02.json",
+      "canonicalWorkId": 109178,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109188",
+      "disposition": "held",
+      "reason": "The exact composer/title search returned no YouTube candidates; no supported human recording of Triolette C296 for three cellos was found.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-02.json",
+      "canonicalWorkId": 109188,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109177",
+      "disposition": "held",
+      "reason": "Inputs contain separate Nocturne and Etude movements; the remaining Scherzo upload is Op.50 for two violins and piano, not the complete exact Op.48 three-violin work.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-02.json",
+      "canonicalWorkId": 109177,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109190",
+      "disposition": "held",
+      "canonicalId": 109190,
+      "reason": "The exact-work query returned only unrelated Beethoven, slap-bass, and gear videos; no plausible Russell Excursions performance was found.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-03.json",
+      "canonicalWorkId": 109190,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109191",
+      "disposition": "held",
+      "canonicalId": 109191,
+      "reason": "The exact composer/title query returned no YouTube candidates for The Bass Affair for four double basses.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-03.json",
+      "canonicalWorkId": 109191,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109192",
+      "disposition": "held",
+      "canonicalId": 109192,
+      "reason": "Only supplied True Grit candidate is Obsydeus Zero to Hero, unrelated to Tony Osborne’s double-bass quartet.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-03.json",
+      "canonicalWorkId": 109192,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109193",
+      "disposition": "held",
+      "canonicalId": 109193,
+      "reason": "Supplied candidates are The Pink Elephant, Canzonetta, Nightscape, and The Night Before Christmas; none is Osborne Dreamtime for double-bass quartet.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-03.json",
+      "canonicalWorkId": 109193,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "recording-109194",
+      "disposition": "held",
+      "canonicalId": 109194,
+      "reason": "Kurt Kaufman uploads contain separate Prelude 1, Prelude 3, and Prelude 2; none contains the complete Three Preludes set, so separate movements do not meet whole-work extent.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-03.json",
+      "canonicalWorkId": 109194,
+      "optionalInformationMissing": "No approved complete exact-version YouTube recording; existing catalogue work remains imported."
+    },
+    {
+      "key": "saariaho-neiges-eight-cellos",
+      "disposition": "held",
+      "reason": "Publisher confirms score sale/digital access, but exposes no public notation pages; score is not inspectable for grading in the saved review.",
+      "evidence": "data/chamber/same-instrument/research/modern-28.json"
+    },
+    {
+      "key": "saariaho-neiges-twelve-cellos",
+      "disposition": "held",
+      "reason": "The linked ungated Issuu reader exposed no notation page images and no pages were cached; this site-safety blocked reader was not bypassed, so notation cannot be graded.",
+      "evidence": "data/cache/same-instrument-modern28/browser-access-notes.json"
+    },
+    {
+      "key": "reich-cello-counterpoint-cello-octet",
+      "disposition": "held",
+      "reason": "Boosey confirms score availability but the score viewer requires login; no preview pages were cached or inspected, leaving notation grade unsupported.",
+      "evidence": "data/chamber/same-instrument/research/modern-28.json"
+    },
+    {
+      "key": "reich-violin-phase-four-violins",
+      "disposition": "held",
+      "reason": "Publisher confirms score availability, but the reviewed performance floor is the one-live-violin-with-tape version rather than four independent live violins; exact-version floor is unmet.",
+      "evidence": "data/chamber/same-instrument/research/modern-28.json"
+    },
+    {
+      "key": "berio-korot-eight-cellos",
+      "disposition": "held",
+      "reason": "Publisher catalogue confirms score and parts availability, but no actual score sample pages were obtained; notation cannot be inspected for a defensible grade.",
+      "evidence": "data/chamber/same-instrument/research/modern-28.json"
+    },
+    {
+      "key": "jacob-cello-octet",
+      "disposition": "held",
+      "reason": "No primary evidence of an actual complete performance/release of the exact octet; future-dated event is not performance proof.",
+      "evidence": "data/chamber/same-instrument/research/modern-28.json"
+    },
+    {
+      "key": "denisov-hymne-eight-cellos",
+      "disposition": "held",
+      "reason": "Primary score availability and verifiable exact-version human performance floor were not established.",
+      "evidence": "data/chamber/same-instrument/research/modern-28.json"
+    },
+    {
+      "key": "gubaidulina-fata-morgana-eight-cellos",
+      "disposition": "held",
+      "reason": "Scoring and performance/release evidence are documented, but saved research does not provide inspectable score notation for a defensible grade.",
+      "evidence": "data/chamber/same-instrument/research/modern-28.json"
+    },
+    {
+      "key": "bussotti-poesies-a-maldoror-eight-cellos",
+      "disposition": "held",
+      "reason": "Direct score source was not located and creation-date records conflict; exact event/extent remains unresolved.",
+      "evidence": "data/chamber/same-instrument/research/modern-28.json"
+    },
+    {
+      "key": "gould-cellos-eight-cellos",
+      "disposition": "held",
+      "reason": "Library of Congress confirms archived score/parts and a complete recording is documented, but no notation pages were inspected in the saved review; whole-work grade is unsupported.",
+      "evidence": "data/chamber/same-instrument/research/modern-28.json"
+    },
+    {
+      "key": "gordon-eight-eight-cellos",
+      "disposition": "held",
+      "reason": "Composer source confirms scoring, premiere, release and score links, but saved research contains no inspectable notation for a defensible grade.",
+      "evidence": "data/chamber/same-instrument/research/modern-28.json"
+    },
+    {
+      "key": "mercadante-la-poesia-four-cellos",
+      "disposition": "held",
+      "reason": "Score file index provided no normal PDF download; notation could not be inspected or graded.",
+      "evidence": "data/chamber/same-instrument/inputs/final-proposal-audit.json"
+    },
+    {
+      "key": "mainardi-notturno-four-cellos",
+      "disposition": "held",
+      "reason": "Parts file index provided no normal PDF download; exact published notation could not be inspected or graded.",
+      "evidence": "data/chamber/same-instrument/inputs/final-proposal-audit.json"
+    },
+    {
+      "key": "strauss-pizzicato-polka-seymour-six-cellos",
+      "disposition": "held",
+      "reason": "Exact six-cello transcription and released performance are documented, but the listed seven players do not establish how the six parts were distributed (doubling is allowed); exact six-part performance remains unverified.",
+      "evidence": "data/chamber/same-instrument/reviews/arrangements35-verify.json"
+    },
+    {
+      "key": "recording-109209-dicker-concert2024",
+      "disposition": "imported",
+      "canonicalId": 109209,
+      "reason": "Recording applied to canonical work 109209 in ensemble-37; exact version, whole-work extent, human performance, embed, and excluded-performer checks approved.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-37.json",
+      "canonicalWorkId": 109209,
+      "selectedVideoId": "-w6vtpUpFF8"
+    },
+    {
+      "key": "recording-109210-dicker-concert2024",
+      "disposition": "imported",
+      "canonicalId": 109210,
+      "reason": "Recording applied to canonical work 109210 in ensemble-37; exact version, whole-work extent, human performance, embed, and excluded-performer checks approved.",
+      "evidence": "data/chamber/same-instrument/reviews/batch-recordings-37.json",
+      "canonicalWorkId": 109210,
+      "selectedVideoId": "-w6vtpUpFF8"
+    }
+  ],
+  "counts": {
+    "imported": 6,
+    "held": 48,
+    "superseded": 3
+  }
+}

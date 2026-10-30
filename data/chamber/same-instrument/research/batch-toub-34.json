@@ -1,0 +1,113 @@
+{
+ "batch": "ensemble-34",
+ "entries": [
+  {
+   "key": "toub-jk-four-violins",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "Complete original four-violin score was downloaded from its observed IMSLP index and inspected; composer Bandcamp page identifies Yuka Matsumoto performing all four parts as a human multitrack and describes its first performance. Date conflict is preserved for review.",
+   "work": {
+    "composer": "Toub, David",
+    "title": "jk (bad canon for four violins)",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "",
+    "minutes": 9,
+    "set": null,
+    "notes": "Original for four violins; recorded as a human multitrack by Yuka Matsumoto.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Jk (Toub, David)"
+   },
+   "composerMetadata": {
+    "dates": "1961–",
+    "nationality": "American",
+    "gender": "M",
+    "era": "contemporary"
+   },
+   "details": {
+    "kind": "single",
+    "composed": null,
+    "published": null,
+    "movements": null
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29",
+      "checkedOn": "2026-10-29",
+      "locator": "Cached revision 3597045; WORK INFO and FILES",
+      "finding": "Original work; IMSLP instrumentation says “4 violins or any 4 identical treble instruments.” One file is labeled Complete Score; complete notation is inspected in the cached PDF."
+     },
+     {
+      "url": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+      "checkedOn": "2026-10-29",
+      "locator": "About and credits",
+      "finding": "Composer describes a brief work for four violins (or four identical treble instruments), gives first performance by Yuka Matsumoto on all four parts in April 2020 in Japan, and credits “Yuka Matsumoto, violins (multitracked).” Bandcamp lists album release October 23, 2012, whereas track title includes 2017; exact score title page bears “7/4/17-7/5/17.” Year omitted pending reconciliation."
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Toub,_David",
+      "finding": "Born7January1961;American/male/Moderncategories;composerexplicitlypreferslowercasetitles."
+     }
+    ],
+    "scoring": {
+     "url": "https://ks15.imslp.org/files/imglnks/usimg/c/c2/IMSLP480755-PMLP779146-jk_-_SCORE.pdf",
+     "localPath": "data/cache/same-instrument-imslp/scores/original-03-toub-jk-score.pdf",
+     "locator": "Observed IMSLP file index 480755; complete score, 28 pages",
+     "finding": "Downloaded through scripts/chamber/same_instrument_scores.py using the index observed from the page. PDF title reads “jk (bad canon for four violins),” credits David Toub and carries the composer’s 7/4/17-7/5/17 date. Inspected full text: four violin staves are visible in the opening and the full score continues through the final system on page 28. No arranger; this is the original scoring."
+    },
+    "floor": {
+     "url": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+     "performer": "Yuka Matsumoto (multitracked)",
+     "finding": "Composer’s page explicitly names all-four-parts multitracked violin performance and first performance in April 2020; matches the four-violin original. Recording link is the Bandcamp track."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "Whole work; composer describes it as brief and IMSLP gives approximately 9 minutes.",
+     "selection": null
+    },
+    "score": {
+     "url": "https://ks15.imslp.org/files/imglnks/usimg/c/c2/IMSLP480755-PMLP779146-jk_-_SCORE.pdf",
+     "localPath": "data/cache/same-instrument-imslp/scores/original-03-toub-jk-score.pdf",
+     "finding": "Complete score for the original four-violin scoring, inspected; not a transcription or arrangement."
+    },
+    "recordingResearch": {
+     "primaryReleaseUrl": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+     "recordingUrl": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+     "performer": "Yuka Matsumoto, violins (multitracked)",
+     "humanPerformance": true,
+     "wholeWork": true,
+     "exactVersion": true,
+     "notes": "Composer page calls it brief; first-performance date April 2020. Track page’s associated release date conflicts with title/score dating; do not infer a corrected year."
+    },
+    "fieldSources": {
+     "work.composer": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+     "work.title": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29",
+     "work.instruments": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29",
+     "work.minutes": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29",
+     "work.notes": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+     "details.kind": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29"
+    },
+    "unknowns": [
+     "Reconcile the score’s 2017 date, track-title year and Bandcamp album metadata date before assigning work.year.",
+     "No independent part PDFs are listed; complete score is available and inspected."
+    ],
+    "researcherGrade": "low"
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass source extraction; three independent score opinions and explicit source adjudication supplied."
+   }
+  }
+ ]
+}

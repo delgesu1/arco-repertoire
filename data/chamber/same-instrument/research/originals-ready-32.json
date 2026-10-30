@@ -1,0 +1,388 @@
+{
+ "batch": "originals-ready-32",
+ "status": "research-ready",
+ "checkedOn": "2026-10-29",
+ "entries": [
+  {
+   "key": "toub-jk-four-violins",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "Complete original four-violin score was downloaded from its observed IMSLP index and inspected; composer Bandcamp page identifies Yuka Matsumoto performing all four parts as a human multitrack and describes its first performance. Date conflict is preserved for review.",
+   "work": {
+    "composer": "Toub, David",
+    "title": "jk (bad canon for four violins)",
+    "instruments": {
+     "violin": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": null,
+    "minutes": 9,
+    "set": null,
+    "notes": "One complete canonical work. The score title page is dated “7/4/17-7/5/17”; Bandcamp track title says 2017, while its credits say the track was released on an album in 2012. Omit year pending reconciliation. Human performance is explicitly multitracked by Yuka Matsumoto.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Jk (Toub, David)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "single",
+    "composed": null,
+    "published": null,
+    "movements": null
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29",
+      "checkedOn": "2026-10-29",
+      "locator": "Cached revision 3597045; WORK INFO and FILES",
+      "finding": "Original work; IMSLP instrumentation says “4 violins or any 4 identical treble instruments.” One file is labeled Complete Score; complete notation is inspected in the cached PDF."
+     },
+     {
+      "url": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+      "checkedOn": "2026-10-29",
+      "locator": "About and credits",
+      "finding": "Composer describes a brief work for four violins (or four identical treble instruments), gives first performance by Yuka Matsumoto on all four parts in April 2020 in Japan, and credits “Yuka Matsumoto, violins (multitracked).” Bandcamp lists album release October 23, 2012, whereas track title includes 2017; exact score title page bears “7/4/17-7/5/17.” Year omitted pending reconciliation."
+     }
+    ],
+    "scoring": {
+     "url": "https://ks15.imslp.org/files/imglnks/usimg/c/c2/IMSLP480755-PMLP779146-jk_-_SCORE.pdf",
+     "localPath": "data/cache/same-instrument-imslp/scores/original-03-toub-jk-score.pdf",
+     "locator": "Observed IMSLP file index 480755; complete score, 28 pages",
+     "finding": "Downloaded through scripts/chamber/same_instrument_scores.py using the index observed from the page. PDF title reads “jk (bad canon for four violins),” credits David Toub and carries the composer’s 7/4/17-7/5/17 date. Inspected full text: four violin staves are visible in the opening and the full score continues through the final system on page 28. No arranger; this is the original scoring."
+    },
+    "floor": {
+     "url": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+     "performer": "Yuka Matsumoto (multitracked)",
+     "finding": "Composer’s page explicitly names all-four-parts multitracked violin performance and first performance in April 2020; matches the four-violin original. Recording link is the Bandcamp track."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "Whole work; composer describes it as brief and IMSLP gives approximately 9 minutes.",
+     "selection": null
+    },
+    "score": {
+     "url": "https://ks15.imslp.org/files/imglnks/usimg/c/c2/IMSLP480755-PMLP779146-jk_-_SCORE.pdf",
+     "localPath": "data/cache/same-instrument-imslp/scores/original-03-toub-jk-score.pdf",
+     "finding": "Complete score for the original four-violin scoring, inspected; not a transcription or arrangement."
+    },
+    "recordingResearch": {
+     "primaryReleaseUrl": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+     "recordingUrl": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+     "performer": "Yuka Matsumoto, violins (multitracked)",
+     "humanPerformance": true,
+     "wholeWork": true,
+     "exactVersion": true,
+     "notes": "Composer page calls it brief; first-performance date April 2020. Track page’s associated release date conflicts with title/score dating; do not infer a corrected year."
+    },
+    "fieldSources": {
+     "work.composer": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+     "work.title": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29",
+     "work.instruments": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29",
+     "work.minutes": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29",
+     "work.notes": "https://dtoub.bandcamp.com/track/jk-bad-canon-for-four-violins-2017?action=download",
+     "details.kind": "https://imslp.org/wiki/Jk_%28Toub%2C_David%29"
+    },
+    "unknowns": [
+     "Reconcile the score’s 2017 date, track-title year and Bandcamp album metadata date before assigning work.year.",
+     "No independent part PDFs are listed; complete score is available and inspected."
+    ],
+    "researcherGrade": "low"
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass fact extraction; no difficulty grade assigned."
+   }
+  },
+  {
+   "key": "mercadante-la-poesia-four-cellos",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "hold",
+   "reason": "Exact four-cello human recording is documented by the label, and IMSLP lists a complete score-and-parts edition. The observed file index did not yield a normal PDF download link, so the notation could not be inspected or cached; hold import pending accessible score evidence.",
+   "work": {
+    "composer": "Mercadante, Saverio",
+    "title": "La Poesia for 4 cellos",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": null,
+    "minutes": 6.4,
+    "set": null,
+    "notes": "Label lists a 6:24 recording for four cellos. IMSLP lists a complete score and parts edition by Amadeus Verlag (1985); file contents were not available through the normal observed handler, so notation/version completeness remains unverified.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "La Poesia (Mercadante, Saverio)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "single",
+    "composed": null,
+    "published": "1985",
+    "movements": null
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/La_Poesia_(Mercadante,_Saverio)",
+      "checkedOn": "2026-10-29",
+      "locator": "Cached revision 3622444; WORK INFO and FILES",
+      "finding": "Original-page instrumentation is exactly “4 cellos”; source lists “Complete Score & Parts,” file PMLP1126090-Mercadante.pdf, publisher Amadeus Verlag, 1985. The page file index observed by the score helper was 704888."
+     },
+     {
+      "url": "https://www.universalmusic.it/musica-classica/album/mercadante-decimini-la-poesia_31548240659/",
+      "checkedOn": "2026-10-29",
+      "locator": "Track 9 and track credits",
+      "finding": "ASV release, published 11 February 2015, UPC 00743625093629. Track 9 is “La Poesia for 4 cellos,” 6:24; label credits cello players David Jones, Rhydian Shazson, Michael Hurwitz and Jocelyn Gale, alongside The Philharmonia Soloists/Pietro Spada."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/La_Poesia_(Mercadante,_Saverio)",
+     "locator": "Observed file index 704888, complete score and parts",
+     "finding": "Attempted the observed file index once through the score helper; it returned “Handler exposed no normal download link.” No PDF or notation text was obtained; no alternate/mirror URL was guessed."
+    },
+    "floor": {
+     "url": "https://www.universalmusic.it/musica-classica/album/mercadante-decimini-la-poesia_31548240659/",
+     "performer": "The Philharmonia Soloists / Pietro Spada; cello credits David Jones, Rhydian Shazson, Michael Hurwitz and Jocelyn Gale",
+     "finding": "Primary label page explicitly identifies the exact four-cello track and all four cellists; 6:24."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "Whole track La Poesia for four cellos (6:24 label recording).",
+     "selection": null
+    },
+    "recordingResearch": {
+     "primaryReleaseUrl": "https://www.universalmusic.it/musica-classica/album/mercadante-decimini-la-poesia_31548240659/",
+     "recordingUrl": "https://www.universalmusic.it/musica-classica/album/mercadante-decimini-la-poesia_31548240659/",
+     "performer": "The Philharmonia Soloists / Pietro Spada; David Jones, Rhydian Shazson, Michael Hurwitz and Jocelyn Gale, cellos",
+     "humanPerformance": true,
+     "wholeWork": true,
+     "exactVersion": true
+    },
+    "unknowns": [
+     "Actual complete score-and-parts PDF was inaccessible from its observed IMSLP index; obtain/inspect the edition before releasing this draft.",
+     "Composition date and movement count are not supplied by the inspected source."
+    ],
+    "researcherGrade": "low"
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass fact extraction; no difficulty grade assigned."
+   }
+  },
+  {
+   "key": "crosmer-marble-fountain-eight-violas",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "include",
+   "reason": "Composer’s official works list confirms the original eight-viola work; the complete IMSLP score PDF was downloaded and inspected with all eight viola staves and one movement. IMSLP records a specific first-performance event by NEBratsche; individual performer names and a separate recording URL were not found.",
+   "work": {
+    "composer": "Crosmer, Jonathan",
+    "title": "Marble Fountain",
+    "instruments": {
+     "viola": 8
+    },
+    "players": 8,
+    "formation": "large-strings",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "2016",
+    "minutes": 4,
+    "set": null,
+    "notes": "Original one-movement work for eight violas; score dedication: “For Clark Potter.” First-performance metadata identifies NEBratsche at Kimball Recital Hall, Lincoln, Nebraska, on 2016-04-23; performer names and an independent recording are not supplied.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Marble Fountain (Crosmer, Jonathan)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "single",
+    "composed": "2016",
+    "published": null,
+    "movements": [
+     "Marble Fountain"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+      "checkedOn": "2026-10-29",
+      "locator": "Cached revision 2193010; WORK INFO and FILES",
+      "finding": "Original score page gives “8 violas,” one movement, approximately four minutes, composed 2016, and first performance 2016-04-23 at Kimball Recital Hall, Lincoln, Nebraska, by NEBratsche. Listed files include Complete Score and Viola 1 through Viola 8; engraving files with MIDI were excluded."
+     },
+     {
+      "url": "https://jonathancrosmer.com/music/works/",
+      "checkedOn": "2026-10-29",
+      "locator": "List of Works",
+      "finding": "Composer’s official list identifies Marble Fountain (2016) for 8 violas."
+     }
+    ],
+    "scoring": {
+     "url": "https://s9.imslp.org/files/imglnks/usimg/5/56/IMSLP443247-PMLP721242-Marble_Fountain_-_Score.pdf",
+     "localPath": "data/cache/same-instrument-imslp/scores/original-03-crosmer-marble-fountain-score.pdf",
+     "locator": "Observed IMSLP file index 443247; complete score",
+     "finding": "Downloaded using the page-observed index. PDF title “Marble Fountain,” author Jonathan Crosmer, copyright 2016. Inspected score text and visible first-page instrumentation: Viola 1 through Viola 8 all have staves; the score continues to its final system on page 2. This is the original eight-viola version, not a transcription. Eight separate parts are also individually listed on IMSLP but were not downloaded because the complete score is sufficient."
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+     "performer": "NEBratsche (as named in IMSLP first-performance metadata; individual members not identified)",
+     "finding": "IMSLP original page reports first performance on 2016-04-23 at Kimball Recital Hall, Lincoln, Nebraska. No distinct recording URL observed."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "Whole one-movement Marble Fountain, approximately 4 minutes.",
+     "selection": null
+    },
+    "score": {
+     "url": "https://s9.imslp.org/files/imglnks/usimg/5/56/IMSLP443247-PMLP721242-Marble_Fountain_-_Score.pdf",
+     "localPath": "data/cache/same-instrument-imslp/scores/original-03-crosmer-marble-fountain-score.pdf",
+     "finding": "Complete score inspected; eight independent viola staves, matching the composer’s official list and the IMSLP first-performance page."
+    },
+    "recordingResearch": {
+     "primaryReleaseUrl": null,
+     "recordingUrl": null,
+     "performer": "NEBratsche (first-performance metadata only)",
+     "humanPerformance": true,
+     "wholeWork": true,
+     "exactVersion": true,
+     "notes": "No separate recording or individual performer credits were observed; use the first-performance source as the human performance floor."
+    },
+    "fieldSources": {
+     "work.composer": "https://jonathancrosmer.com/music/works/",
+     "work.title": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+     "work.instruments": "https://jonathancrosmer.com/music/works/",
+     "work.players": "https://jonathancrosmer.com/music/works/",
+     "work.year": "https://jonathancrosmer.com/music/works/",
+     "work.minutes": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+     "work.notes": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)",
+     "details.kind": "https://imslp.org/wiki/Marble_Fountain_(Crosmer,_Jonathan)"
+    },
+    "unknowns": [
+     "First-performance metadata names the ensemble but not individual players.",
+     "No distinct recording URL observed."
+    ],
+    "researcherGrade": "low"
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass fact extraction; no difficulty grade assigned."
+   }
+  },
+  {
+   "key": "mainardi-notturno-four-cellos",
+   "existingPublicId": null,
+   "requiresFactReview": true,
+   "decision": "hold",
+   "reason": "Divine Art release documents the named Cello Spice quartet and track 8 Notturno; IMSLP lists a complete-parts file for four cellos. The observed file index did not yield a normal PDF download link, so parts and exact published notation could not be inspected or cached; hold import pending accessible notation.",
+   "work": {
+    "composer": "Mainardi, Enrico",
+    "title": "Notturno per quattro Violoncello",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": null,
+    "minutes": 7.45,
+    "set": null,
+    "notes": "Divine Art track 8 is listed as Notturno (7:27) on an album described as original works for three or four cellos, performed by Cello Spice. IMSLP identifies four cellos and lists “Complete Parts”; actual notation is not yet available for inspection.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": [],
+    "imslpPage": "Notturno (Mainardi, Enrico)"
+   },
+   "composerMetadata": null,
+   "details": {
+    "kind": "single",
+    "composed": null,
+    "published": "1925",
+    "movements": null
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Notturno_(Mainardi,_Enrico)",
+      "checkedOn": "2026-10-29",
+      "locator": "Cached revision 4513556; WORK INFO and FILES",
+      "finding": "Original-page instrumentation is “4 cellos”; page lists one file “Complete Parts,” PMLP1449070-PMLUS05926-Enrico_Mainardi_Notturno.pdf, published by A. Forlivesi & C. in 1925. Observed file index 922275."
+     },
+     {
+      "url": "https://divineartrecords.com/recording/a-celebration-of-cellos/",
+      "checkedOn": "2026-10-29",
+      "locator": "DDA 25002 release and track 8",
+      "finding": "Divine Art describes the release as original works for three or four cellos; track 8 is Mainardi’s Notturno, 7:27. Cello Spice members are Alison Lawrence, Gillian Copp, John Davidson and Mark Bailey."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Notturno_(Mainardi,_Enrico)",
+     "locator": "Observed file index 922275; Complete Parts",
+     "finding": "Attempted the observed index once through the score helper; it returned “Handler exposed no normal download link.” No PDF or notation text was obtained; no alternate/mirror URL was guessed."
+    },
+    "floor": {
+     "url": "https://divineartrecords.com/recording/a-celebration-of-cellos/",
+     "performer": "Cello Spice: Alison Lawrence, Gillian Copp, John Davidson and Mark Bailey",
+     "finding": "Primary label release lists original works for three or four cellos and track 8 Mainardi Notturno, 7:27; the IMSLP page independently identifies this version for four cellos."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "Whole Notturno (Divine Art track duration 7:27).",
+     "selection": null
+    },
+    "recordingResearch": {
+     "primaryReleaseUrl": "https://divineartrecords.com/recording/a-celebration-of-cellos/",
+     "recordingUrl": "https://divineartrecords.com/recording/a-celebration-of-cellos/",
+     "performer": "Cello Spice: Alison Lawrence, Gillian Copp, John Davidson and Mark Bailey",
+     "humanPerformance": true,
+     "wholeWork": true,
+     "exactVersion": true
+    },
+    "unknowns": [
+     "Actual Complete Parts PDF could not be fetched through the observed IMSLP file index; inspect parts and exact edition before releasing this draft.",
+     "Composition date and movement count are not supplied by the inspected source."
+    ],
+    "researcherGrade": "low"
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass fact extraction; no difficulty grade assigned."
+   }
+  }
+ ],
+ "resume": {
+  "includedDrafts": [
+   "toub-jk-four-violins",
+   "crosmer-marble-fountain-eight-violas"
+  ],
+  "held": [
+   "mercadante-la-poesia-four-cellos",
+   "mainardi-notturno-four-cellos"
+  ],
+  "note": "Epos No. 1 remains held per instruction and was not retried. Mercadante and Mainardi remain held because their observed IMSLP indexes returned no normal download link; no mirrors were guessed. No grades assigned."
+ }
+}

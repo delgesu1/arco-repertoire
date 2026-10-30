@@ -1,0 +1,158 @@
+{
+ "batch": "pilot-03-consensus",
+ "accepted": [
+  {
+   "key": "bowen-fantasia-four-violas-op41-1",
+   "id": 105136,
+   "publicId": 105136,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    7
+   ],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [
+    "kind",
+    "composed",
+    "otherTitles",
+    "movements",
+    "dedication",
+    "published"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "cuRxSCjmlKM"
+  },
+  {
+   "key": "harbison-cucaraccia-fugue-four-violas",
+   "id": 108045,
+   "publicId": 108045,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6,
+    7
+   ],
+   "gradeIssue": "Third blind grade required",
+   "details": [
+    "kind",
+    "movements",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "_mGF7inYsO4"
+  },
+  {
+   "key": "weinzierl-nachtstuck-op34-four-violas",
+   "id": 109147,
+   "publicId": 109147,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    6,
+    5,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "dedication",
+    "published",
+    "otherTitles"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "klengel-hymnus-op57-12vc",
+   "id": 109148,
+   "publicId": 109148,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    6,
+    6
+   ],
+   "gradeIssue": null,
+   "details": [
+    "published",
+    "otherTitles",
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  },
+  {
+   "key": "fitzenhagen-ave-maria-op41-4vc",
+   "id": 104935,
+   "publicId": 104935,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    5,
+    5
+   ],
+   "gradeIssue": null,
+   "details": [
+    "composed",
+    "dedication",
+    "published",
+    "kind"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "Q7iZuTln0Do"
+  },
+  {
+   "key": "gubaidulina-quaternion-4vc",
+   "id": 106744,
+   "publicId": 106744,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [
+    "composed",
+    "dedication",
+    "firstPerformance"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [
+  {
+   "key": "jacob-suite-eight-violas",
+   "reason": "Third blind grade required",
+   "opinions": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "bottesini-passione-trumpf-four-basses",
+   "reason": "Third blind grade required",
+   "opinions": [
+    7,
+    8
+   ]
+  }
+ ],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "0595b9ee86395b9585b846d526d451e8a969437696e430e215311f5480a25ef7",
+  "data/chamber/composers.json": "a814fc5b10cf3d21facdb3a40d162caba3cbee5520ab8a5822049b758f284cb8",
+  "data/chamber/id-registry.json": "317199ddda9ced13dba73831b68607b6089f6f60f0d6ec88b05b12930527fec6",
+  "data/chamber/sources.json": "66172b140f3d9b449cfe9b3368c9d2c99c3533fcb2863682b74df2e19c5f6bcc",
+  "data/details/overrides.json": "19e239dbf410f69141c975e3d6b723be83a2cba217668f7d03e6989cd27502a2",
+  "data/chamber/recordings-judged.json": "ff95a06a3fa7bfe2964715cdbbf5728b477133f7a62d226aa4801c87d505bf7a",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/pilot-viola-bass.json": "3fabc37134892dc089eaef15f852aca4e39c61bd2f22f47e79b1bcb208dcb7e5",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/pilot-cello.json": "21e44ae3b626460b349d75b1cefdfd39afa0b8ce73370399bad763d17430ffbb",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/review-pilot-viola-bass.json": "b3ba54dcfaf490dc2b530f2ffe41a30ac099cf71feb90363e1343ac49d5ad8a5",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/review-pilot-cello.json": "4329ea5482352955c533da604819654903d4809a700b76fd8d5dbdfa361eab4f",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/review-pilot-adjudication.json": "451deb5f68598fa2547e3296a6887522a2131eaee8d2bd1de4b3ca74217ba6ff"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/pilot-03-consensus"
+}

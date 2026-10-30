@@ -1,0 +1,429 @@
+{
+  "status": "complete",
+  "chamberWorks": 9159,
+  "sameInstrumentEnsembles3to12": 129,
+  "byInstrument": {
+    "cello": 66,
+    "viola": 13,
+    "violin": 34,
+    "double-bass": 16
+  },
+  "newWorksThisResumedRun": 21,
+  "newWorksTotalProject": 96,
+  "newCrossListingsTotalProject": 1,
+  "newApprovedRecordingsThisRun": 8,
+  "newEntriesThisRun": [
+    {
+      "id": 109220,
+      "key": "dotzauer-op104-three-cellos"
+    },
+    {
+      "id": 109221,
+      "key": "limmer-op12-three-cellos"
+    },
+    {
+      "id": 109222,
+      "key": "moor-op133-three-violins"
+    },
+    {
+      "id": 109223,
+      "key": "battanchon-op40-three-cellos"
+    },
+    {
+      "id": 109224,
+      "key": "dancla-op178-four-violins"
+    },
+    {
+      "id": 109225,
+      "key": "debleser-tearful-day-four-cellos"
+    },
+    {
+      "id": 109226,
+      "key": "kuznetsov-op13-four-cellos"
+    },
+    {
+      "id": 109227,
+      "key": "kuznetsov-op28-four-cellos"
+    },
+    {
+      "id": 109228,
+      "key": "slunicko-op92-four-violins"
+    },
+    {
+      "id": 109229,
+      "key": "petzold-op21-four-violins"
+    },
+    {
+      "id": 109230,
+      "key": "alencar-seven-easy-pieces-four-cellos"
+    },
+    {
+      "id": 109231,
+      "key": "derecskei-consort1-four-violins"
+    },
+    {
+      "id": 109232,
+      "key": "goltermann-op53-four-cellos"
+    },
+    {
+      "id": 109233,
+      "key": "klengel-op33-four-cellos"
+    },
+    {
+      "id": 109234,
+      "key": "werner-op6-four-cellos"
+    },
+    {
+      "id": 109235,
+      "key": "poradowski-op56-three-basses"
+    },
+    {
+      "id": 109236,
+      "key": "klengel-variations-op28-four-cellos"
+    },
+    {
+      "id": 109237,
+      "key": "werner-elegie-op21-four-cellos"
+    },
+    {
+      "id": 109238,
+      "key": "makris-scherzo-four-violins"
+    },
+    {
+      "id": 109239,
+      "key": "clark-gavotte-four-violins"
+    },
+    {
+      "id": 109240,
+      "key": "massa-violin-quartet-four-violins"
+    }
+  ],
+  "appliedBatchesThisRun": [
+    "ensemble-43"
+  ],
+  "triage": [
+    {
+      "batch": "triage-001",
+      "kind": "original",
+      "pages": 25,
+      "status": "complete",
+      "dispositions": {
+        "out-of-scope": 3,
+        "needs-review": 21,
+        "lead": 1
+      }
+    },
+    {
+      "batch": "triage-002",
+      "kind": "original",
+      "pages": 20,
+      "status": "complete",
+      "dispositions": {
+        "needs-review": 14,
+        "out-of-scope": 2,
+        "lead": 4
+      }
+    },
+    {
+      "batch": "triage-003",
+      "kind": "arrangement",
+      "pages": 20,
+      "status": "complete",
+      "dispositions": {
+        "out-of-scope": 4,
+        "needs-review": 15,
+        "lead": 1
+      }
+    },
+    {
+      "batch": "triage-004",
+      "kind": "original",
+      "pages": 20,
+      "status": "complete",
+      "dispositions": {
+        "needs-review": 15,
+        "lead": 3,
+        "out-of-scope": 2
+      }
+    },
+    {
+      "batch": "triage-005",
+      "kind": "original",
+      "pages": 20,
+      "status": "partial",
+      "dispositions": {
+        "needs-review": 15,
+        "out-of-scope": 4,
+        "lead": 1
+      }
+    },
+    {
+      "batch": "triage-006",
+      "kind": "original",
+      "pages": 30,
+      "status": "complete",
+      "dispositions": {
+        "out-of-scope": 5,
+        "needs-review": 21,
+        "lead": 4
+      }
+    },
+    {
+      "batch": "triage-007",
+      "kind": "arrangement",
+      "pages": 30,
+      "status": "complete",
+      "dispositions": {
+        "needs-review": 27,
+        "out-of-scope": 2,
+        "lead": 1
+      }
+    }
+  ],
+  "triagedUniquePages": 165,
+  "rawPagesCached": 597,
+  "publicationStatus": "Published to main, 30 October 2026.",
+  "verification": "557 tests passed (536 library,21 importer safety), full catalogue validation on every apply, final production build after42 and whitespace passed.",
+  "recordingEnrichmentPendingIds": [],
+  "runHistory": [
+    {
+      "pausedAt": "2026-10-28T13:32:36.806760+00:00",
+      "newWorksThisResumedRun": 18,
+      "newEntriesThisRun": [
+        {
+          "id": 109149,
+          "key": "jacob-suite-eight-violas"
+        },
+        {
+          "id": 109150,
+          "key": "bottesini-passione-trumpf-four-basses"
+        },
+        {
+          "id": 109151,
+          "key": "bach-bwv971-kimura-4violins"
+        },
+        {
+          "id": 109152,
+          "key": "hermann-op2-original-3violins"
+        },
+        {
+          "id": 109153,
+          "key": "norman-gran-turismo-original-8violins"
+        },
+        {
+          "id": 109154,
+          "key": "kaiser-lindemann-variacoes-brasileiras-12vc"
+        },
+        {
+          "id": 109155,
+          "key": "kaiser-lindemann-mambo-six-6vc"
+        },
+        {
+          "id": 109156,
+          "key": "hermann-op13-original-3violins"
+        },
+        {
+          "id": 109157,
+          "key": "hermann-op17-original-3violins"
+        },
+        {
+          "id": 109158,
+          "key": "bacewicz-quartet-4-violins"
+        },
+        {
+          "id": 109159,
+          "key": "blacher-blues-espagnola-rumba-12-cellos"
+        },
+        {
+          "id": 109160,
+          "key": "dancla-le-carnaval-de-venise-op119-4-violins"
+        },
+        {
+          "id": 109161,
+          "key": "dancla-ah-vous-dirai-je-maman-op161-4-violins"
+        },
+        {
+          "id": 109162,
+          "key": "fux-sonata-3-violins-ulb-mus-ms-334"
+        },
+        {
+          "id": 109163,
+          "key": "klengel-2-stucke-op5-4-cellos"
+        },
+        {
+          "id": 109164,
+          "key": "hermann-op9-original-3violins"
+        },
+        {
+          "id": 109147,
+          "key": "weinzierl-nachtstuck-op34-four-violas"
+        },
+        {
+          "id": 109148,
+          "key": "klengel-hymnus-op57-12vc"
+        }
+      ],
+      "appliedBatchesThisRun": [
+        "ensemble-04",
+        "ensemble-05",
+        "ensemble-06-cello",
+        "ensemble-07-hermann",
+        "ensemble-08-corrections",
+        "ensemble-09",
+        "ensemble-10",
+        "ensemble-11-hermann",
+        "pilot-03-consensus"
+      ],
+      "usagePercentAtPause": 97
+    },
+    {
+      "pausedAt": "2026-10-28T18:11:07.038986+00:00",
+      "newWorksThisResumedRun": 12,
+      "newEntriesThisRun": [
+        {
+          "id": 109165,
+          "composer": "Hermann, Friedrich",
+          "title": "Capriccio No. 2 in G major for 3 Violins, Op. 5"
+        },
+        {
+          "id": 109166,
+          "composer": "Avni, Boaz",
+          "title": "Violas Terzet"
+        },
+        {
+          "id": 109167,
+          "composer": "Lachner, Franz Paul",
+          "title": "Elegy for 5 Cellos, Op. 160"
+        },
+        {
+          "id": 109168,
+          "composer": "Lachner, Ignaz",
+          "title": "Violin Quartet, Op.107"
+        },
+        {
+          "id": 109169,
+          "composer": "Ellenberger, Kurt",
+          "title": "Suite Palais Meran"
+        },
+        {
+          "id": 109170,
+          "composer": "Derecskei, András",
+          "title": "A Tear in the Mirror"
+        },
+        {
+          "id": 109171,
+          "composer": "Fine, Vivian",
+          "title": "In Memoriam: George Finckel"
+        },
+        {
+          "id": 109172,
+          "composer": "Dale, Benjamin",
+          "title": "Introduction and Andante for Six Violas, Op. 5"
+        },
+        {
+          "id": 109173,
+          "composer": "Hofmann, Richard",
+          "title": "Four Pieces for 3 Violins, Op. 104"
+        },
+        {
+          "id": 109174,
+          "composer": "Brahms, Johannes",
+          "title": "Geistliches Wiegenlied (No.2 from 2 Gesänge, Op.91)"
+        },
+        {
+          "id": 109175,
+          "composer": "Alt, Bernhard",
+          "title": "Suite for Four Double Basses"
+        },
+        {
+          "id": 109176,
+          "composer": "Hauta-aho, Teppo",
+          "title": "Arietta for 12 Double Basses"
+        }
+      ],
+      "appliedBatchesThisRun": [
+        "ensemble-12",
+        "ensemble-13",
+        "ensemble-14",
+        "ensemble-15"
+      ],
+      "usagePercentAtPause": 98
+    }
+  ],
+  "throughputChange": "Larger consolidated imports; shared API metadata and notation, primary publisher product API, batched independent grading, advisory-scale confidence calibrated consistently.",
+  "creditBalanceUnchanged": true,
+  "publisherProductsCached": 250,
+  "coverageByPartCount": {
+    "violin": {
+      "3": 11,
+      "4": 14,
+      "8": 1
+    },
+    "viola": {
+      "3": 1,
+      "4": 5,
+      "5": 1,
+      "6": 1,
+      "8": 3,
+      "12": 1
+    },
+    "cello": {
+      "3": 13,
+      "4": 20,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 13,
+      "12": 4
+    },
+    "double-bass": {
+      "4": 14,
+      "12": 1
+    }
+  },
+  "pausedAt": "2026-10-29T21:25:06.179344+00:00",
+  "usagePercentAtPause": 100,
+  "previousCompletedWindow": {
+    "chamberWorks": 9136,
+    "sameInstrumentEnsembles3to12": 106,
+    "byInstrument": {
+      "cello": 53,
+      "viola": 12,
+      "violin": 26,
+      "double-bass": 15
+    },
+    "newWorksThisResumedRun": 10,
+    "newWorksTotalProject": 73,
+    "newCrossListingsTotalProject": 1,
+    "newApprovedRecordingsThisRun": 7,
+    "newAlternateLinksThisRun": 1,
+    "allSameInstrumentWithYouTube": 65,
+    "projectNewWorksWithYouTube": 43,
+    "projectNewWorksWithIMSLP": 48
+  },
+  "verifiedAt": "2026-10-29T11:46:25.260548+00:00",
+  "newAlternateLinksThisRun": 1,
+  "allSameInstrumentWithYouTube": 66,
+  "projectNewWorksWithYouTube": 43,
+  "projectNewWorksWithIMSLP": 48,
+  "closureStates": {
+    "held": 366,
+    "excluded": 83,
+    "already-present": 61,
+    "needs-video-verification": 21,
+    "out-of-scope": 71,
+    "needs-third-grade": 3
+  },
+  "sourceReadyQueue": {
+    "videos": 43,
+    "contexts": 21
+  },
+  "recordingEnrichmentDisposition": "All currently imported works have a reviewed recording or an explicitly documented absence; unapproved search leads are tracked separately.",
+  "sourceVerificationPendingContexts": 21,
+  "sourceVerificationPendingVideos": 43,
+  "gradeResolutionPendingKeys": [
+    "klengel-variations-op28-four-cellos",
+    "werner-elegie-op21-four-cellos",
+    "makris-scherzo-four-violins"
+  ]
+}

@@ -1,0 +1,510 @@
+{
+ "batch": "source-adjudications-01",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "alencar-ceu-e-nuvens-ii",
+   "work": {
+    "composer": "Alencar, Gabriel",
+    "title": "Céu e Nuvens II",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": 3,
+    "hardestPart": "cello 1",
+    "year": "2018",
+    "minutes": 2,
+    "set": null,
+    "notes": "Original for 4 cellos.",
+    "popularity": null,
+    "mode": "minor",
+    "pace": "slow",
+    "character": [
+     "lyrical",
+     "tender"
+    ],
+    "imslpPage": "Céu e Nuvens II (Alencar, Gabriel)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 3201087",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/1040503.json"
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Alencar%2C_Gabriel",
+      "finding": "Composer biography fields retrieved in one API query; cache originals01-composers.json."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "finding": "4 cellos; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/648564",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/1040503.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "finding": "Human multitrack explicitly credited; accepted as recorded human playing, not a live ensemble. Credits: Gabriel Alencar, multitrack cello quartet"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.title": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.instruments": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.players": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.year": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.minutes": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "work.imslpPage": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "details.composed": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+     "details.firstPerformance": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Sustained exposed upper-register cello line, slow bow control and four-part intonation; simple rhythms.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/1040503.png"
+   },
+   "reviews": [
+    {
+     "reviewFile": "data/chamber/same-instrument/reviews/batch-blind-17-normalized.json",
+     "grade": {
+      "level": 5,
+      "hardestPart": "cello 1",
+      "mode": "minor",
+      "pace": "slow",
+      "character": [
+       "lyrical",
+       "tender"
+      ],
+      "confidence": "medium",
+      "basis": "Both score pages inspected. Extremely slow sustained upper-register first-cello line, with exposed tuning and controlled long bows rather than velocity. About level 4 individual demand, plus one for sustaining the quartet sonority; the unusually spare texture does not make this an elementary cello part."
+     },
+     "findings": [
+      {
+       "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+       "finding": "Complete two-page score confirms four cellos; no scoring mismatch."
+      }
+     ]
+    },
+    {
+     "reviewFile": "data/chamber/same-instrument/reviews/batch-blind-18-normalized.json",
+     "grade": {
+      "level": 2,
+      "hardestPart": "cello 1",
+      "mode": "minor",
+      "pace": "slow",
+      "character": [
+       "lyrical",
+       "tender"
+      ],
+      "confidence": "high",
+      "basis": "Cached complete two-page score: slow whole-note chords and brief quarter-note motion; first cello reaches E4 above bass staff. Intermediate shifting and sustained tone, roughly RCM6/ABRSM5; ordinary chord tuning does not merit another level."
+     },
+     "findings": [
+      {
+       "url": "https://imslp.org/wiki/Céu_e_Nuvens_II_(Alencar,_Gabriel)",
+       "finding": "Two-minute quartet at quarter=55; first cello carries the highest line, with long exposed crescendos and no fast passagework."
+      }
+     ]
+    }
+   ],
+   "consideredOpinions": [
+    3,
+    5,
+    2
+   ]
+  },
+  {
+   "key": "trapkus-trio-three-violins",
+   "work": {
+    "composer": "Trapkus, Paul",
+    "title": "Trio for 3 Violins",
+    "instruments": {
+     "violin": 3
+    },
+    "players": 3,
+    "formation": "string-trio",
+    "form": "work",
+    "level": 4,
+    "hardestPart": "violin 1",
+    "year": "2012",
+    "minutes": 6,
+    "set": null,
+    "notes": "Original for 3 violins.",
+    "popularity": null,
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "playful"
+    ],
+    "imslpPage": "Trio for 3 Violins (Trapkus, Paul)"
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+      "checkedOn": "2026-10-28",
+      "locator": "Cached IMSLP revision 4424925",
+      "finding": "Work information, original score upload and recording credits reviewed in cached raw page.",
+      "cache": "data/cache/same-instrument-imslp/pages/393487.json"
+     },
+     {
+      "url": "https://imslp.org/wiki/Category:Trapkus%2C_Paul",
+      "finding": "Composer biography fields retrieved in one API query; cache originals01-composers.json."
+     }
+    ],
+    "scoring": {
+     "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "finding": "3 violins; original section lists complete notation; score sample confirms separate instrumental lines where obtained."
+    },
+    "score": {
+     "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/242973",
+     "finding": "Verified PDF bytes; representative actual score page 2 visually reviewed.",
+     "localPath": "data/cache/same-instrument-imslp/scores/originals-01/393487.pdf"
+    },
+    "floor": {
+     "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "finding": "Named human ensemble credited in the exact original-version Complete Recording/Performance block. Credits: Paul Trapkus, Annalise Ohse, Ryan Coppin (violins)"
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "fieldSources": {
+     "work.composer": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.title": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.instruments": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.players": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.year": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.minutes": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "work.imslpPage": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "details.composed": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "details.published": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+     "details.dedication": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)"
+    },
+    "unknowns": {
+     "recording audition": "Recording metadata reviewed; audio not independently auditioned.",
+     "grading scope": "Representative score sample plus whole-work source context; no exhaustive bar-by-bar review."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "medium",
+    "basis": "Score p.2 plus opening tempo context q=170: persistent articulated eighth notes, string-crossing patterns, double stops and three-part coordination.",
+    "scoreSample": "data/cache/same-instrument-imslp/scores/originals-01/393487.png"
+   },
+   "reviews": [
+    {
+     "reviewFile": "data/chamber/same-instrument/reviews/batch-blind-18-normalized.json",
+     "grade": {
+      "level": 5,
+      "hardestPart": "violin 1",
+      "mode": "minor",
+      "pace": "lively",
+      "character": [
+       "dramatic",
+       "playful"
+      ],
+      "confidence": "medium",
+      "basis": "Cached score PDF3 and6 with text-derived opening quarter=170: repeated eighth-note motor patterns and changing bow articulation, very high sustained first-violin line, tremolo, sul ponticello and dynamic extremes. Advanced ABRSM8/RCM9, led by first violin range; repeated patterns and common pulse keep ensemble demands inside this level."
+     },
+     "findings": [
+      {
+       "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+       "finding": "First violin rises to long high ledger-line notes in the central texture, while lower parts sustain rhythmic and tremolo motion; modern effects do not alone imply diploma difficulty."
+      }
+     ]
+    },
+    {
+     "reviewFile": "data/chamber/same-instrument/reviews/batch-blind-19-normalized.json",
+     "grade": {
+      "level": 6,
+      "hardestPart": "violin 1",
+      "mode": "minor",
+      "pace": "lively",
+      "character": [
+       "dramatic",
+       "playful"
+      ],
+      "confidence": "medium",
+      "basis": "Pre-diploma violin 1 combines sustained high stopped-note control with prolonged rapid eighth-note bowing at quarter=170, string-crossing figures, large register changes and carefully graded tone effects. Much of the motor material is repetitive and lies comfortably, so its speed alone does not warrant diploma level. Independent pulses and exposed sustained lines need rehearsal but no extra ensemble level is added."
+     },
+     "findings": [
+      {
+       "url": "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)",
+       "finding": "Cached complete 8-page original score; opening, flowing material at bars 48–95, effects and sustained upper register at 126–153, and closing 181–199 sampled. Lively quarter=170, repetitive offbeat ties, sul G, tremolo, sul ponticello, and exposed very high violin 1 notes."
+      }
+     ]
+    }
+   ],
+   "consideredOpinions": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "key": "tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+   "work": {
+    "composer": "Osborne, Tony",
+    "title": "Bassos Paraguayos for Double Bass Quartet",
+    "instruments": {
+     "double-bass": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": null,
+    "hardestPart": null,
+    "year": "2005",
+    "minutes": null,
+    "set": null,
+    "notes": "Intermediate quartet with Paraguayan-inspired rhythms and lively character.",
+    "popularity": null,
+    "mode": null,
+    "pace": null,
+    "character": []
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+      "checkedOn": "2026-10-28",
+      "locator": "About the Composition / performance history",
+      "finding": "Publisher states it premiered 27 August 2005 at Saint Claud Music Festival, France, performed by David Heyes, Pauline Vos, Ben Groenevelt and James Adolpho; it also reports later performances in Poland, America and the UK. Cached preview shows score notation."
+     },
+     {
+      "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_3fa0452f-89f1-4d5a-b55a-5594e5769c59.png?v=1743910016",
+      "checkedOn": "2026-10-28",
+      "locator": "Publisher score preview",
+      "finding": "Publisher product catalogue includes this observed score/part sample image; image inspection confirms notation for the named four-bass version."
+     }
+    ],
+    "scoring": {
+     "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_3fa0452f-89f1-4d5a-b55a-5594e5769c59.png?v=1743910016",
+     "locator": "Publisher score preview",
+     "finding": "Visible publisher preview is score-format notation for four double basses; the cataloged purchasable edition offers the work. Full supplied materials should be checked in fact review."
+    },
+    "floor": {
+     "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "finding": "Publisher states it premiered 27 August 2005 at Saint Claud Music Festival, France, performed by David Heyes, Pauline Vos, Ben Groenevelt and James Adolpho; it also reports later performances in Poland, America and the UK. Cached preview shows score notation."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "finding": "Original work for four double basses; publisher edition preview confirms the work/version."
+    },
+    "fieldSources": {
+     "work.composer": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.title": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.instruments": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.players": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.year": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "work.notes": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+     "details.kind": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet"
+    },
+    "unknowns": [
+     "Full extent of supplied score/parts and any part-specific difficulty not verified from preview.",
+     "No precise duration or performer grade assigned."
+    ],
+    "researcherGrade": "low"
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "First-pass source extraction only; no researcher difficulty vote."
+   },
+   "reviews": [
+    {
+     "reviewFile": "data/chamber/same-instrument/reviews/batch-publisher-02-normalized.json",
+     "grade": {
+      "level": 4,
+      "hardestPart": "double-bass 1",
+      "mode": "unsure",
+      "pace": "lively",
+      "character": [
+       "dance",
+       "folk",
+       "playful"
+      ],
+      "confidence": "medium",
+      "basis": "Inspected opening score at quarter=120: treble-clef upper parts, syncopated slurred eighths, chromatic inflection, active lower-part countermelodies and separated ensemble entries. Upper register plus rhythmic independence supports early advanced rather than a beginner reading of publisher intermediate."
+     },
+     "findings": [
+      {
+       "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+       "finding": "Publisher states it premiered 27 August 2005 at Saint Claud Music Festival, France, performed by David Heyes, Pauline Vos, Ben Groenevelt and James Adolpho; it also reports later performances in Poland, America and the UK. Cached preview shows score notation."
+      },
+      {
+       "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+       "finding": "Publisher offers the complete named original concert work as a purchasable edition, rather than a preview-only product. Four double basses form a complete version without another required instrument; massed doubling is optional."
+      },
+      {
+       "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_3fa0452f-89f1-4d5a-b55a-5594e5769c59.png?v=1743910016",
+       "finding": "Inspected opening score at quarter=120: treble-clef upper parts, syncopated slurred eighths, chromatic inflection, active lower-part countermelodies and separated ensemble entries. Upper register plus rhythmic independence supports early advanced rather than a beginner reading of publisher intermediate."
+      }
+     ]
+    },
+    {
+     "reviewFile": "data/chamber/same-instrument/reviews/batch-publisher-kaufman-confidence-normalized.json",
+     "grade": {
+      "level": 6,
+      "hardestPart": "double-bass 1",
+      "mode": "major",
+      "pace": "lively",
+      "character": [
+       "dance",
+       "folk",
+       "playful"
+      ],
+      "confidence": "medium",
+      "basis": "Inspected Bassos Paraguayos opening score, Vivo quarter120: both top basses treble clef, first reaches high staff notes while second parallels below, displaced rests, tied syncopations, chromatic inflections and bass-line leaps. Hardest part level5 plus one for precise syncopated dance groove and balancing two upper parts gives level6. Publisher describes intermediate players and progressive rhythmic developments; sample only, later pages unseen. Confidence calibration: meaningful work-specific notation and the complete primary publisher description support this broad advisory band within roughly one level; sample coverage does not warrant high confidence."
+     },
+     "findings": [
+      {
+       "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_3fa0452f-89f1-4d5a-b55a-5594e5769c59.png?v=1743910016",
+       "finding": "Inspected Bassos Paraguayos opening score, Vivo quarter120: both top basses treble clef, first reaches high staff notes while second parallels below, displaced rests, tied syncopations, chromatic inflections and bass-line leaps. Hardest part level5 plus one for precise syncopated dance groove and balancing two upper parts gives level6. Publisher describes intermediate players and progressive rhythmic developments; sample only, later pages unseen."
+      },
+      {
+       "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+       "finding": "Complete publisher context describes rhythmic developments and intermediate target."
+      },
+      {
+       "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+       "finding": "Confidence reassessed independently as medium: actual work-specific notation plus full-work publisher technical context constrain a defensible broad band; no numeric grade change and no claim of exhaustive coverage."
+      }
+     ]
+    },
+    {
+     "reviewFile": "data/chamber/same-instrument/reviews/batch-publisher-third-normalized.json",
+     "grade": {
+      "level": 5,
+      "hardestPart": "double-bass 1",
+      "mode": "unsure",
+      "pace": "lively",
+      "character": [
+       "dance",
+       "folk"
+      ],
+      "confidence": "medium",
+      "basis": "Bassos Paraguayos begins Vivo at quarter 120 in 3/4 with basses 1/2 in treble clef, syncopated off-beat entrances, tied notes and slurred eighth-note melody; bass 1 has the more extended upper line, while lower parts add displaced rhythmic figures and register changes. The publisher targets intermediate quartets and describes developing Paraguayan-influenced rhythms throughout. Upper-register placement plus quick rhythmic articulation supports level 5 for bass 1; the ensemble patterns are part of that practical band, without an automatic uplift. Only the real opening and work-wide composer context were inspected, so the estimate allows approximately one level of uncertainty."
+     },
+     "findings": [
+      {
+       "url": "https://shop.doublebasshq.com/products/tony-osborne-bassos-paraguayos-for-double-bass-quartet",
+       "finding": "Full publisher composition context inspected: intermediate quartet, Paraguayan rhythmic inspiration and rhythmic developments."
+      },
+      {
+       "url": "https://cdn.shopify.com/s/files/1/0585/0559/2876/files/1_3fa0452f-89f1-4d5a-b55a-5594e5769c59.png?v=1743910016",
+       "finding": "Actual Vivo score opening inspected: upper two parts in treble clef, off-beat entries and changing lower-part rhythmic figures."
+      }
+     ]
+    }
+   ],
+   "consideredOpinions": [
+    4,
+    6,
+    5
+   ]
+  }
+ ]
+}

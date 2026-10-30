@@ -1,0 +1,1053 @@
+{
+ "schemaVersion": 1,
+ "preparedOn": "2026-10-27",
+ "stage": "discovery",
+ "scope": "violin/viola/cello/double-bass; 3–12 independent parts; originals and identified versions/arrangements/transcriptions",
+ "status": "paused-after-census-and-partial-pilot",
+ "plan": "docs/same-instrument-ensembles-plan.md",
+ "categorySnapshot": "data/chamber/same-instrument/category-snapshot.json",
+ "maxConcurrentWorkers": 3,
+ "coordinatorIsOnlyCanonicalWriter": true,
+ "firstWave": [
+  "violin-3",
+  "cello-4",
+  "viola-5-9"
+ ],
+ "fullEnrichmentPrerequisites": [
+  "arranger serialization and program copy verified",
+  "expanded chamber scope verified",
+  "18–24-version enrichment/import pilot passes"
+ ],
+ "jobs": [
+  {
+   "id": "violin-3",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "violin",
+   "minIndependentParts": 3,
+   "maxIndependentParts": 3,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/violin-3.json",
+   "scratch": "data/chamber/same-instrument/scratch/violin-3/",
+   "categoryMembershipsAsOfSnapshot": 94,
+   "categories": [
+    {
+     "title": "Category:For 3 violins",
+     "membersAsOfSnapshot": 73,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+3+violins&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 3 violins (arr)",
+     "membersAsOfSnapshot": 21,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+3+violins+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "violin-4",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "violin",
+   "minIndependentParts": 4,
+   "maxIndependentParts": 4,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/violin-4.json",
+   "scratch": "data/chamber/same-instrument/scratch/violin-4/",
+   "categoryMembershipsAsOfSnapshot": 66,
+   "categories": [
+    {
+     "title": "Category:For 4 violins",
+     "membersAsOfSnapshot": 49,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+4+violins&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 4 violins (arr)",
+     "membersAsOfSnapshot": 17,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+4+violins+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [
+    {
+     "section": "violin",
+     "sourceId": 568,
+     "publicId": 568,
+     "composer": "Telemann, Georg Philipp",
+     "title": "Concerto for 4 Violins in G major, TWV 40:201 (unaccompanied)",
+     "instrument": "violin",
+     "independentPartCountAsStored": 4,
+     "scoringReverified": false
+    }
+   ],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "violin-5-9",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "violin",
+   "minIndependentParts": 5,
+   "maxIndependentParts": 9,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/violin-5-9.json",
+   "scratch": "data/chamber/same-instrument/scratch/violin-5-9/",
+   "categoryMembershipsAsOfSnapshot": 16,
+   "categories": [
+    {
+     "title": "Category:For 5 violins",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+5+violins&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 5 violins (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+5+violins+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 6 violins",
+     "membersAsOfSnapshot": 2,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+6+violins&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 6 violins (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+6+violins+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 7 violins",
+     "membersAsOfSnapshot": 1,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+7+violins&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 7 violins (arr)",
+     "membersAsOfSnapshot": 4,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+7+violins+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 8 violins",
+     "membersAsOfSnapshot": 9,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+8+violins&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 8 violins (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+8+violins+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 9 violins",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+9+violins&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 9 violins (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+9+violins+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "violin-10-12",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "violin",
+   "minIndependentParts": 10,
+   "maxIndependentParts": 12,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/violin-10-12.json",
+   "scratch": "data/chamber/same-instrument/scratch/violin-10-12/",
+   "categoryMembershipsAsOfSnapshot": 0,
+   "categories": [
+    {
+     "title": "Category:For 10 violins",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+10+violins&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 10 violins (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+10+violins+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 11 violins",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+11+violins&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 11 violins (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+11+violins+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 12 violins",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+12+violins&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 12 violins (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+12+violins+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "viola-3",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "viola",
+   "minIndependentParts": 3,
+   "maxIndependentParts": 3,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/viola-3.json",
+   "scratch": "data/chamber/same-instrument/scratch/viola-3/",
+   "categoryMembershipsAsOfSnapshot": 44,
+   "categories": [
+    {
+     "title": "Category:For 3 violas",
+     "membersAsOfSnapshot": 11,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+3+violas&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 3 violas (arr)",
+     "membersAsOfSnapshot": 33,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+3+violas+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "viola-4",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "viola",
+   "minIndependentParts": 4,
+   "maxIndependentParts": 4,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/viola-4.json",
+   "scratch": "data/chamber/same-instrument/scratch/viola-4/",
+   "categoryMembershipsAsOfSnapshot": 65,
+   "categories": [
+    {
+     "title": "Category:For 4 violas",
+     "membersAsOfSnapshot": 19,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+4+violas&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 4 violas (arr)",
+     "membersAsOfSnapshot": 46,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+4+violas+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [
+    {
+     "section": "chamber",
+     "sourceId": 105136,
+     "publicId": 105136,
+     "composer": "Bowen, York",
+     "title": "Fantasia for Four Violas in E minor, Op. 41 No. 1",
+     "instrument": "viola",
+     "independentPartCountAsStored": 4,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 108045,
+     "publicId": 108045,
+     "composer": "Harbison, John",
+     "title": "Cucaraccia and Fugue",
+     "instrument": "viola",
+     "independentPartCountAsStored": 4,
+     "scoringReverified": false
+    }
+   ],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "viola-5-9",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "viola",
+   "minIndependentParts": 5,
+   "maxIndependentParts": 9,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/viola-5-9.json",
+   "scratch": "data/chamber/same-instrument/scratch/viola-5-9/",
+   "categoryMembershipsAsOfSnapshot": 20,
+   "categories": [
+    {
+     "title": "Category:For 5 violas",
+     "membersAsOfSnapshot": 3,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+5+violas&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 5 violas (arr)",
+     "membersAsOfSnapshot": 5,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+5+violas+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 6 violas",
+     "membersAsOfSnapshot": 2,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+6+violas&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 6 violas (arr)",
+     "membersAsOfSnapshot": 3,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+6+violas+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 7 violas",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+7+violas&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 7 violas (arr)",
+     "membersAsOfSnapshot": 1,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+7+violas+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 8 violas",
+     "membersAsOfSnapshot": 6,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+8+violas&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 8 violas (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+8+violas+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 9 violas",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+9+violas&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 9 violas (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+9+violas+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "viola-10-12",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "viola",
+   "minIndependentParts": 10,
+   "maxIndependentParts": 12,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/viola-10-12.json",
+   "scratch": "data/chamber/same-instrument/scratch/viola-10-12/",
+   "categoryMembershipsAsOfSnapshot": 0,
+   "categories": [
+    {
+     "title": "Category:For 10 violas",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+10+violas&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 10 violas (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+10+violas+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 11 violas",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+11+violas&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 11 violas (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+11+violas+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 12 violas",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+12+violas&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 12 violas (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+12+violas+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "cello-3",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "cello",
+   "minIndependentParts": 3,
+   "maxIndependentParts": 3,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/cello-3.json",
+   "scratch": "data/chamber/same-instrument/scratch/cello-3/",
+   "categoryMembershipsAsOfSnapshot": 106,
+   "categories": [
+    {
+     "title": "Category:For 3 cellos",
+     "membersAsOfSnapshot": 33,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+3+cellos&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 3 cellos (arr)",
+     "membersAsOfSnapshot": 73,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+3+cellos+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [
+    {
+     "section": "chamber",
+     "sourceId": 102552,
+     "publicId": 102552,
+     "composer": "Reicha, Anton",
+     "title": "Trio for Three Cellos in E-flat major",
+     "instrument": "cello",
+     "independentPartCountAsStored": 3,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 105589,
+     "publicId": 105589,
+     "composer": "Cinque, Ermenegildo de",
+     "title": "Sonata for Three Cellos No. 5 in D major",
+     "instrument": "cello",
+     "independentPartCountAsStored": 3,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 105590,
+     "publicId": 105590,
+     "composer": "Cinque, Ermenegildo de",
+     "title": "Sonata for Three Cellos No. 6 in D minor",
+     "instrument": "cello",
+     "independentPartCountAsStored": 3,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 105591,
+     "publicId": 105591,
+     "composer": "Cinque, Ermenegildo de",
+     "title": "Sonata for Three Cellos No. 9 in B minor",
+     "instrument": "cello",
+     "independentPartCountAsStored": 3,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 105592,
+     "publicId": 105592,
+     "composer": "Cinque, Ermenegildo de",
+     "title": "Sonata for Three Cellos No. 11 in E-flat major",
+     "instrument": "cello",
+     "independentPartCountAsStored": 3,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 105593,
+     "publicId": 105593,
+     "composer": "Cinque, Ermenegildo de",
+     "title": "Sonata for Three Cellos No. 15 in C major",
+     "instrument": "cello",
+     "independentPartCountAsStored": 3,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 105594,
+     "publicId": 105594,
+     "composer": "Cinque, Ermenegildo de",
+     "title": "Sonata for Three Cellos No. 17 in G minor",
+     "instrument": "cello",
+     "independentPartCountAsStored": 3,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 106173,
+     "publicId": 106173,
+     "composer": "La Tombelle, Fernand de",
+     "title": "Suite in F major for Three Cellos",
+     "instrument": "cello",
+     "independentPartCountAsStored": 3,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 106886,
+     "publicId": 106886,
+     "composer": "Penderecki, Krzysztof",
+     "title": "Serenata for Three Cellos",
+     "instrument": "cello",
+     "independentPartCountAsStored": 3,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 108363,
+     "publicId": 108363,
+     "composer": "Chin, Unsuk",
+     "title": "Spektra",
+     "instrument": "cello",
+     "independentPartCountAsStored": 3,
+     "scoringReverified": false
+    }
+   ],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "cello-4",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "cello",
+   "minIndependentParts": 4,
+   "maxIndependentParts": 4,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/cello-4.json",
+   "scratch": "data/chamber/same-instrument/scratch/cello-4/",
+   "categoryMembershipsAsOfSnapshot": 141,
+   "categories": [
+    {
+     "title": "Category:For 4 cellos",
+     "membersAsOfSnapshot": 62,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+4+cellos&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 4 cellos (arr)",
+     "membersAsOfSnapshot": 79,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+4+cellos+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [
+    {
+     "section": "chamber",
+     "sourceId": 104906,
+     "publicId": 104906,
+     "composer": "Krein, Aleksandr",
+     "title": "Fragment lyrique, Op. 1a",
+     "instrument": "cello",
+     "independentPartCountAsStored": 4,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 104925,
+     "publicId": 104925,
+     "composer": "Grützmacher, Friedrich",
+     "title": "Weihegesang, Op. 65",
+     "instrument": "cello",
+     "independentPartCountAsStored": 4,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 104935,
+     "publicId": 104935,
+     "composer": "Fitzenhagen, Wilhelm",
+     "title": "Ave Maria, Op. 41 (version for four cellos)",
+     "instrument": "cello",
+     "independentPartCountAsStored": 4,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 104936,
+     "publicId": 104936,
+     "composer": "Fitzenhagen, Wilhelm",
+     "title": "Concert-Walzer, Op. 31 (version for four cellos)",
+     "instrument": "cello",
+     "independentPartCountAsStored": 4,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 104956,
+     "publicId": 104956,
+     "composer": "Pâque, Guillaume",
+     "title": "Souvenir de Curis",
+     "instrument": "cello",
+     "independentPartCountAsStored": 4,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 106744,
+     "publicId": 106744,
+     "composer": "Gubaidulina, Sofia",
+     "title": "Quaternion",
+     "instrument": "cello",
+     "independentPartCountAsStored": 4,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 106876,
+     "publicId": 106876,
+     "composer": "Bacewicz, Grażyna",
+     "title": "Quartet for Four Cellos",
+     "instrument": "cello",
+     "independentPartCountAsStored": 4,
+     "scoringReverified": false
+    }
+   ],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "cello-5-9",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "cello",
+   "minIndependentParts": 5,
+   "maxIndependentParts": 9,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/cello-5-9.json",
+   "scratch": "data/chamber/same-instrument/scratch/cello-5-9/",
+   "categoryMembershipsAsOfSnapshot": 91,
+   "categories": [
+    {
+     "title": "Category:For 5 cellos",
+     "membersAsOfSnapshot": 5,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+5+cellos&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 5 cellos (arr)",
+     "membersAsOfSnapshot": 25,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+5+cellos+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 6 cellos",
+     "membersAsOfSnapshot": 8,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+6+cellos&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 6 cellos (arr)",
+     "membersAsOfSnapshot": 39,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+6+cellos+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 7 cellos",
+     "membersAsOfSnapshot": 1,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+7+cellos&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 7 cellos (arr)",
+     "membersAsOfSnapshot": 6,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+7+cellos+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 8 cellos",
+     "membersAsOfSnapshot": 4,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+8+cellos&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 8 cellos (arr)",
+     "membersAsOfSnapshot": 3,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+8+cellos+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 9 cellos",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+9+cellos&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 9 cellos (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+9+cellos+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [
+    {
+     "section": "chamber",
+     "sourceId": 106783,
+     "publicId": 106783,
+     "composer": "Pärt, Arvo",
+     "title": "Fratres (version for eight cellos)",
+     "instrument": "cello",
+     "independentPartCountAsStored": 8,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 106784,
+     "publicId": 106784,
+     "composer": "Pärt, Arvo",
+     "title": "Summa (version for eight cellos)",
+     "instrument": "cello",
+     "independentPartCountAsStored": 8,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 106785,
+     "publicId": 106785,
+     "composer": "Pärt, Arvo",
+     "title": "Psalom (version for eight cellos)",
+     "instrument": "cello",
+     "independentPartCountAsStored": 8,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 106786,
+     "publicId": 106786,
+     "composer": "Pärt, Arvo",
+     "title": "Pari intervallo (version for eight cellos)",
+     "instrument": "cello",
+     "independentPartCountAsStored": 8,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 106787,
+     "publicId": 106787,
+     "composer": "Pärt, Arvo",
+     "title": "Silouan's Song (version for eight cellos)",
+     "instrument": "cello",
+     "independentPartCountAsStored": 8,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 106788,
+     "publicId": 106788,
+     "composer": "Pärt, Arvo",
+     "title": "Missa brevis (version for eight cellos)",
+     "instrument": "cello",
+     "independentPartCountAsStored": 8,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 106789,
+     "publicId": 106789,
+     "composer": "Pärt, Arvo",
+     "title": "Da pacem Domine (version for eight cellos)",
+     "instrument": "cello",
+     "independentPartCountAsStored": 8,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 106790,
+     "publicId": 106790,
+     "composer": "Pärt, Arvo",
+     "title": "O-Antiphonen (version for eight cellos)",
+     "instrument": "cello",
+     "independentPartCountAsStored": 8,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 106791,
+     "publicId": 106791,
+     "composer": "Pärt, Arvo",
+     "title": "Solfeggio (version for eight cellos)",
+     "instrument": "cello",
+     "independentPartCountAsStored": 8,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 107200,
+     "publicId": 107200,
+     "composer": "Boulez, Pierre",
+     "title": "Messagesquisse",
+     "instrument": "cello",
+     "independentPartCountAsStored": 7,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 107331,
+     "publicId": 107331,
+     "composer": "Donatoni, Franco",
+     "title": "Lame II",
+     "instrument": "cello",
+     "independentPartCountAsStored": 8,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 108286,
+     "publicId": 108286,
+     "composer": "Villa-Lobos, Heitor",
+     "title": "Bachianas brasileiras No. 1, W 246",
+     "instrument": "cello",
+     "independentPartCountAsStored": 8,
+     "scoringReverified": false
+    },
+    {
+     "section": "chamber",
+     "sourceId": 108301,
+     "publicId": 108301,
+     "composer": "Nobre, Marlos",
+     "title": "Desafio XXXII",
+     "instrument": "cello",
+     "independentPartCountAsStored": 8,
+     "scoringReverified": false
+    }
+   ],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "cello-10-12",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "cello",
+   "minIndependentParts": 10,
+   "maxIndependentParts": 12,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/cello-10-12.json",
+   "scratch": "data/chamber/same-instrument/scratch/cello-10-12/",
+   "categoryMembershipsAsOfSnapshot": 6,
+   "categories": [
+    {
+     "title": "Category:For 10 cellos",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+10+cellos&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 10 cellos (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+10+cellos+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 11 cellos",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+11+cellos&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 11 cellos (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+11+cellos+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 12 cellos",
+     "membersAsOfSnapshot": 4,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+12+cellos&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 12 cellos (arr)",
+     "membersAsOfSnapshot": 2,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+12+cellos+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "double-bass-3",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "double-bass",
+   "minIndependentParts": 3,
+   "maxIndependentParts": 3,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/double-bass-3.json",
+   "scratch": "data/chamber/same-instrument/scratch/double-bass-3/",
+   "categoryMembershipsAsOfSnapshot": 5,
+   "categories": [
+    {
+     "title": "Category:For 3 double basses",
+     "membersAsOfSnapshot": 3,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+3+double+basses&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 3 double basses (arr)",
+     "membersAsOfSnapshot": 2,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+3+double+basses+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "double-bass-4",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "double-bass",
+   "minIndependentParts": 4,
+   "maxIndependentParts": 4,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/double-bass-4.json",
+   "scratch": "data/chamber/same-instrument/scratch/double-bass-4/",
+   "categoryMembershipsAsOfSnapshot": 15,
+   "categories": [
+    {
+     "title": "Category:For 4 double basses",
+     "membersAsOfSnapshot": 8,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+4+double+basses&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 4 double basses (arr)",
+     "membersAsOfSnapshot": 7,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+4+double+basses+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "double-bass-5-9",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "double-bass",
+   "minIndependentParts": 5,
+   "maxIndependentParts": 9,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/double-bass-5-9.json",
+   "scratch": "data/chamber/same-instrument/scratch/double-bass-5-9/",
+   "categoryMembershipsAsOfSnapshot": 16,
+   "categories": [
+    {
+     "title": "Category:For 5 double basses",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+5+double+basses&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 5 double basses (arr)",
+     "membersAsOfSnapshot": 4,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+5+double+basses+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 6 double basses",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+6+double+basses&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 6 double basses (arr)",
+     "membersAsOfSnapshot": 4,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+6+double+basses+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 7 double basses",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+7+double+basses&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 7 double basses (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+7+double+basses+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 8 double basses",
+     "membersAsOfSnapshot": 1,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+8+double+basses&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 8 double basses (arr)",
+     "membersAsOfSnapshot": 7,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+8+double+basses+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 9 double basses",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+9+double+basses&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 9 double basses (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+9+double+basses+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  },
+  {
+   "id": "double-bass-10-12",
+   "role": "discovery",
+   "status": "pending",
+   "instrument": "double-bass",
+   "minIndependentParts": 10,
+   "maxIndependentParts": 12,
+   "model": "gpt-6.1-sol",
+   "brief": "data/chamber/same-instrument/AGENT_BRIEF.md",
+   "output": "data/chamber/same-instrument/discovery/double-bass-10-12.json",
+   "scratch": "data/chamber/same-instrument/scratch/double-bass-10-12/",
+   "categoryMembershipsAsOfSnapshot": 0,
+   "categories": [
+    {
+     "title": "Category:For 10 double basses",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+10+double+basses&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 10 double basses (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+10+double+basses+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 11 double basses",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+11+double+basses&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 11 double basses (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+11+double+basses+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 12 double basses",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+12+double+basses&cmnamespace=0&cmlimit=500&format=json"
+    },
+    {
+     "title": "Category:For 12 double basses (arr)",
+     "membersAsOfSnapshot": 0,
+     "apiUrl": "https://imslp.org/api.php?action=query&list=categorymembers&cmtitle=Category%3AFor+12+double+basses+%28arr%29&cmnamespace=0&cmlimit=500&format=json"
+    }
+   ],
+   "existingEntries": [],
+   "gapCheckRequired": true,
+   "categoryCensusStatus": "complete"
+  }
+ ],
+ "ownerDecisions": {
+  "reuseExistingCatalogueAndUI": true,
+  "arrangerCredit": true,
+  "includeArrangerInProgramCopy": true,
+  "publisherLinks": false,
+  "newEnsembleFilters": "deferred"
+ }
+}

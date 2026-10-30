@@ -1,0 +1,51 @@
+{
+ "batch": "ensemble-37-recordings",
+ "entries": [
+  {
+   "key": "recording-109209-dicker-concert2024",
+   "status": "approved",
+   "factsVerified": true,
+   "approvedWorkFields": [],
+   "approvedDetailFields": [],
+   "originalReviewFile": "data/chamber/same-instrument/reviews/arrangements35-verify.json",
+   "recordingDecisions": [
+    {
+     "id": "-w6vtpUpFF8",
+     "decision": "approved",
+     "compilation": true,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": true,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     },
+     "reason": "Complete exact Dicker prelude within a concert compilation; use chapter start 1122s. Primary arranger page and metadata jointly establish version; entire concert credits checked for all four exclusions."
+    }
+   ]
+  },
+  {
+   "key": "recording-109210-dicker-concert2024",
+   "status": "approved",
+   "factsVerified": true,
+   "approvedWorkFields": [],
+   "approvedDetailFields": [],
+   "originalReviewFile": "data/chamber/same-instrument/reviews/arrangements35-verify.json",
+   "recordingDecisions": [
+    {
+     "id": "-w6vtpUpFF8",
+     "decision": "approved",
+     "compilation": true,
+     "checks": {
+      "exactVersion": true,
+      "wholeWork": true,
+      "humanPerformance": true,
+      "embedVerified": true,
+      "excludedPerformersChecked": true
+     },
+     "reason": "Complete exact Dicker prelude within a concert compilation; use chapter start 832s. Primary arranger page and metadata jointly establish version; entire concert credits checked for all four exclusions."
+    }
+   ]
+  }
+ ]
+}

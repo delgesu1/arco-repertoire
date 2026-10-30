@@ -1,0 +1,88 @@
+{
+  "batch": "batch-grades-11",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "ellenberger-suite-palais-meran-cello-quartet",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "data/cache/same-instrument-imslp/scores/verify-07/ellenberger-score.pdf",
+          "finding": "Visually inspected every music page: PDF pp.4\u201344, printed score pp.1\u201341, covering all five movements and both endings to movement I. Prelude has long treble-clef semiquaver ostinati at quarter=90 and freely interlocking swells; Fugue distributes chromatic ornamented contrapuntal lines; Aire is substantially easier; Menuet reaches quarter approximately115\u2013125 with double stops and register changes; finale includes articulated patterns, independent chaconne lines and the broad arpeggios at quarter=126 on printed pp.39\u201340."
+        }
+      ],
+      "grade": {
+        "level": 7,
+        "hardestPart": "cello 1",
+        "mode": "unsure",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dance",
+          "dramatic",
+          "playful"
+        ],
+        "confidence": "medium",
+        "basis": "Whole-work pre-diploma level 6 instrumental demand, with cello I marginally the hardest through its sustained upper-register ostinati, double stops and finale arpeggios; cello II and III also have substantial independent technical work, so the distribution is close. One level added for the long five-movement span, contrapuntal balance, exposed chromatic intonation, coordinated tempo changes and ostinato stamina. The slower and repetitive stretches temper the grade; the piece does not sustain virtuoso solo-concerto demands. All score music pages inspected, without performance checking or external difficulty labels."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "derecskei-a-tear-in-the-mirror-3-cellos",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "data/cache/same-instrument-imslp/scores/verify-07/derecskei-score.pdf",
+          "finding": "Visually inspected all three score pages (bars 1\u201351). Rubato/Lento; alternating irregular meters, chromatic melodic exchanges, bass/tenor/treble clefs, grace notes, exposed soft entries and concluding harmonics. No sustained rapid virtuoso passagework."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "mode": "unsure",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "dark",
+          "tender"
+        ],
+        "confidence": "high",
+        "basis": "Cello 1 leads with the most extended exposed melodic writing and frequent register/clef changes; its notes suggest advanced level 5. Add one level for the continually changing meters, independent entrances, chromatic intonation and coordinated rubato at very soft dynamics. Complete score inspected; no recording or external difficulty classification used."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    },
+    {
+      "key": "fine-in-memoriam-george-finckel-cello-ensemble",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "data/cache/same-instrument-imslp/scores/verify-07/fine-score-parts.pdf",
+          "finding": "Inspected complete five-page full score, including Adagio quarter=42 opening, tremolo/ponticello middle section (approximately bars 24\u201344), return and final cello-IV rhythmic figure (bars 51\u201367); also inspected first page of cello-I part. Remaining part pages duplicate the complete score and were not separately inspected."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "mode": "unsure",
+        "pace": "slow",
+        "character": [
+          "dark",
+          "lyrical",
+          "tender"
+        ],
+        "confidence": "high",
+        "basis": "Advanced level 5 instrumental requirement: cello I sustains an exposed treble-register cantilena and later double-stop tremolos, requiring secure upper-position intonation and slow bow control; the other parts include tenor-register material and cello IV a moving low-register ending. Add one ensemble level for sustained chromatic harmony, changing bar lengths, quiet tremolo entrances and blend/intonation across very slow phrases. Complete work judged from notation, without research grades."
+      },
+      "approvedWorkFields": [
+        "level",
+        "hardestPart"
+      ]
+    }
+  ]
+}

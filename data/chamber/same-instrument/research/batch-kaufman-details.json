@@ -1,0 +1,60 @@
+{
+ "entries": [
+  {
+   "key": "details-kaufman-109194",
+   "existingPublicId": 109194,
+   "decision": "include",
+   "work": {
+    "composer": "Gershwin, George",
+    "title": "Three Preludes for 4 Cellos",
+    "arranger": "Kurt Kaufman",
+    "instruments": {
+     "cello": 4
+    },
+    "players": 4,
+    "formation": "string-quartet",
+    "form": "work",
+    "level": 7,
+    "hardestPart": "cello 1",
+    "year": "",
+    "minutes": null,
+    "set": null,
+    "notes": "All three piano preludes arranged for four cellos.",
+    "popularity": null,
+    "mode": null,
+    "pace": "lively",
+    "character": [
+     "playful",
+     "lyrical",
+     "virtuosic"
+    ],
+    "imslpPage": "3 Preludes (Gershwin, George)",
+    "id": 109194
+   },
+   "details": {
+    "kind": "pieces",
+    "movements": [
+     "Allegro ben ritmato e deciso",
+     "Andante con moto e poco rubato",
+     "Allegro ben ritmato e deciso"
+    ]
+   },
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/919766",
+      "finding": "Complete exact Kaufman four-cello edition, three scores and four parts; movement headings present in all inspected sources."
+     }
+    ],
+    "fieldSources": {
+     "details.kind": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/919766",
+     "details.movements": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/919766"
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Metadata-only, no grade vote."
+   }
+  }
+ ]
+}

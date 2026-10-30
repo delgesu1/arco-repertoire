@@ -1,0 +1,135 @@
+{
+ "batch": "batch-corrections-01",
+ "status": "complete",
+ "entries": [
+  {
+   "key": "bowen-fantasia-four-violas-op41-1",
+   "existingPublicId": 105136,
+   "decision": "include",
+   "reason": "Existing identity confirmed: original single-movement four-viola Fantasia, obtainable Tatton score/parts and released recording. Correct contaminated details from shared IMSLP page; preserve ordinary catalogue fields for coordinator review.",
+   "work": {
+    "id": 105136,
+    "composer": "Bowen, York",
+    "title": "Fantasia for Four Violas in E minor, Op. 41 No. 1",
+    "aka": [
+     "Fantasy for Four Violas"
+    ],
+    "formation": "string-quartet",
+    "instruments": {
+     "viola": 4
+    },
+    "players": 4,
+    "form": "short",
+    "level": 7,
+    "hardestPart": "viola 1",
+    "year": "1907",
+    "minutes": 10,
+    "set": null,
+    "notes": "For four violas, one to a part; about 10 minutes (Op. 41 No. 1)",
+    "popularity": "lesser-known",
+    "imslpPage": "Fantasy and Quartet, Op.41 (Bowen, York)",
+    "mode": "minor",
+    "pace": "moderate",
+    "character": [
+     "dark",
+     "lyrical"
+    ]
+   },
+   "composerMetadata": null,
+   "details": {},
+   "evidence": {
+    "sources": [
+     {
+      "url": "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+      "checkedOn": "2026-10-27",
+      "locator": "Description",
+      "finding": "Publisher identifies four-viola Fantasie, score and parts, edited Thomas Tatton."
+     },
+     {
+      "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+      "checkedOn": "2026-10-27",
+      "locator": "Recording details / programme note",
+      "finding": "Four named violists, recording November 2007, release July 2008, 9:42; composed 1907, premiere 3 March 1908; single arch structure."
+     },
+     {
+      "url": "https://imslp.org/wiki/Fantasy_and_Quartet,_Op.41_(Bowen,_York)",
+      "checkedOn": "2026-10-27",
+      "locator": "General Information / Scores and Parts",
+      "finding": "No.1 is four-viola Fantasia; No.2 is ordinary string quartet. Three movements, 1922 publication and Philharmonic Quartet dedication explicitly belong to No.2."
+     },
+     {
+      "url": "https://www.laphil.com/works/fantasia-for-four-violas-in-e-minor-op-41-no-1",
+      "checkedOn": "2026-10-27",
+      "locator": "At a Glance / About",
+      "finding": "1907, E minor, about 11 minutes; original four-viola work."
+     }
+    ],
+    "scoring": {
+     "url": "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+     "locator": "Description: Score and Parts, Fantasie Quartet for Four Violas",
+     "finding": "Published original version explicitly for four violas; label names Lawrence Power, Philip Dukes, James Boyd and Scott Dickinson on this track, with no accompaniment."
+    },
+    "floor": {
+     "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+     "finding": "Hyperion CDA67651/2; Lawrence Power, Philip Dukes, James Boyd and Scott Dickinson; Potton Hall, November 2007; released July 2008; complete 9:42 track."
+    },
+    "version": {
+     "kind": "original",
+     "arranger": null,
+     "extent": "whole-work",
+     "selection": null
+    },
+    "score": {
+     "url": "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+     "finding": "Rarities for Strings Publications, Thomas Tatton editor, score and parts; printed and PDF edition offered. No new arrangement credit."
+    },
+    "fieldSources": {
+     "work.title": "https://www.laphil.com/works/fantasia-for-four-violas-in-e-minor-op-41-no-1",
+     "work.year": "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+     "work.minutes": "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+     "work.instruments": "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+     "work.players": "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+     "work.mode": "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+     "details.kind": "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+     "details.composed": "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+     "details.firstPerformance": "https://www.hyperion-records.co.uk/dw.asp?dc=W11270_GBAJY0865105",
+     "details.otherTitles": "https://rarestringmusic.com/product/bowen-fantasie-quartet/",
+     "work.imslpPage": "https://imslp.org/wiki/Fantasy_and_Quartet,_Op.41_(Bowen,_York)"
+    },
+    "unknowns": {
+     "details.movements": "Single continuous movement. Remove existing Allegro assai / Poco lento / Finale Presto; those belong to Op.41 No.2. Do not retain a three-item list.",
+     "details.dedication": "Remove existing Philharmonic String Quartet dedication, explicitly No.2 on IMSLP. Commission by Tertis is verified, formal dedication not inspected.",
+     "details.published": "Remove existing 1922 publication, explicitly No.2 on IMSLP. Original first publication not established.",
+     "researcherGrade": "Existing level6 and viola1 retained, not independently regraded: full parts unavailable.",
+     "scoring.tuning": "No special tuning established.",
+     "work.notes": "Preserved existing note, including one-to-a-part; strict optional doubling policy not inspected."
+    }
+   },
+   "researcherGrade": {
+    "confidence": "low",
+    "basis": "Metadata-only correction; no new difficulty vote."
+   },
+   "recordingResearch": {
+    "status": "candidate-inspected",
+    "queries": [
+     "Existing 105136 primary video reopened by yt-dlp; official LA Phil work page inspected."
+    ],
+    "candidates": [
+     {
+      "id": "cuRxSCjmlKM",
+      "url": "https://www.youtube.com/watch?v=cuRxSCjmlKM",
+      "title": "York Bowen: Fantasia for Four Violas in E minor, Op. 41, No. 1",
+      "channel": "LA Phil",
+      "seconds": 611,
+      "description": "English composer York Bowen wrote Fantasia for Four Violas in 1907 as a project for his friend Lionel Tertis—a fellow violist and colleague at the Royal Academy of Music—to perform with students. However, rather than sounding like a musical lecture from teacher to pupil, Bowen's composition feels more like a conversation among peers. His Fantasia captures both wistfulness and driving energy with “a harmonic language and idiom peculiarly his own” (Gramophone). Read more about the piece at https://www.laphil.com/musicdb/pieces/7619/fantasia-for-four-violas-in-e-minor-op-41-no-1.\n\nViolists Ben Ullery, Minor L. Wetzel, Michael Larco, and Hui Liu of the Los Angeles Philharmonic perform a studio rendition of Bowen’s colorful fantasy piece. Recorded at Walt Disney Concert Hall in November 2025.\n--\nSEE WHAT'S PLAYING NEXT: https://laphil.com/events\nMORE CONTENT: https://laphil.com/watchlisten\n\nFOLLOW US!\nInstagram: https://www.instagram.com/laphil\nFacebook: https://www.facebook.com/LAPhil\nTikTok: http://www.tiktok.com/@losangelesphilharmonic",
+      "exactVersion": "Description specifies four violists and original Fantasia, title gives E minor Op41 No1.",
+      "completeness": "611 seconds, studio rendition of whole named work; no excerpt designation.",
+      "exclusionCheck": "Full title/channel/description checked. Ben Ullery, Minor L. Wetzel, Michael Larco and Hui Liu; none excluded.",
+      "embedCheck": "yt-dlp playable_in_embed:true, public.",
+      "judgement": "Reopened existing primary; awaiting independent recording judge."
+     }
+    ]
+   }
+  }
+ ]
+}

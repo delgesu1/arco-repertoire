@@ -40,6 +40,14 @@ describe("the chamber advisor's catalogue", () => {
 });
 
 describe("chamber tools", () => {
+  it("accepts larger same-instrument groups and player-count searches", async () => {
+    const group = await runChamberTool("match_ensemble", { players: [{ instrument: "cello", count: 12 }] });
+    expect(group.isError).toBeFalsy();
+    expect(group.result).toContain("12 cellos (12 players)");
+    const search = await runChamberTool("search_catalogue", { players_min: 10, players_max: 12 });
+    expect(search.isError).toBeFalsy();
+    expect((await runChamberTool("match_ensemble", { players: [{ instrument: "cello", count: 13 }] })).isError).toBe(true);
+  });
   it("finds the Trout for its own players", async () => {
     const r = await runChamberTool("match_ensemble", {
       players: [

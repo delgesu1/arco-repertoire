@@ -1,0 +1,1850 @@
+{
+  "batch": "closure-arrangement-02",
+  "status": "complete",
+  "entries": [
+    {
+      "contextKey": "128466-arrangement",
+      "pageId": 128466,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/128466.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 4 Cellos (Yanagisawa)=====",
+          "alternativeGroup": "4 Cellos (Yanagisawa)",
+          "arranger": "Yanagisawa",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "extent": "4 Cellos (Yanagisawa)",
+          "parentExtentHeading": "Suite (Nos.1-9)",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score and Parts"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section.",
+          "priorEvidence": [
+            {
+              "key": "cello-4-128466-takuji-yanagisawa",
+              "composer": "Purcell, Henry",
+              "title": "Abdelazer, Z.570 (selection/extent to verify)",
+              "arranger": "Takuji Yanagisawa",
+              "instrument": "cello",
+              "independentPartCount": 4,
+              "extent": "Abdelazer, Z.570 (selection/extent to verify)",
+              "selection": "named arrangement selection or extent to verify",
+              "scoreEvidence": "Cached raw group lists Complete Score and Parts in one file; arrangement heading lacks named movement/selection.",
+              "performanceEvidence": "Cached human performances are recorder quartet or Paul De Bra playing accordion parts; neither is the cello arrangement.",
+              "flags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contextKey": "3515-arrangement",
+      "pageId": 3515,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/3515.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 6 Cellos (Seymour)=====",
+          "alternativeGroup": "6 Cellos (Seymour)",
+          "arranger": "Seymour",
+          "instrument": "6 cellos",
+          "independentPartCount": 6,
+          "extent": "6 Cellos (Seymour)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3",
+              "Cello 4",
+              "Cello 5",
+              "Cello 6"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "127044-arrangement",
+      "pageId": 127044,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/127044.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====*For 4 Violins or 4 Violas or 4 Cellos (Lang)=====",
+          "alternativeGroup": "4 Violins",
+          "arranger": "Lang",
+          "instrument": "4 violins",
+          "independentPartCount": 4,
+          "extent": "4 Violins",
+          "parentExtentHeading": "Duetto: 'Wenn Sorgen auf mich dringen' (No.5)",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score and Parts (violins)",
+              "Complete Score and Parts (violas)",
+              "Complete Score and Parts (cellos)"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        },
+        {
+          "rawHeading": "=====*For 4 Violins or 4 Violas or 4 Cellos (Lang)=====",
+          "alternativeGroup": "4 Violas",
+          "arranger": "Lang",
+          "instrument": "4 violas",
+          "independentPartCount": 4,
+          "extent": "4 Violas",
+          "parentExtentHeading": "Duetto: 'Wenn Sorgen auf mich dringen' (No.5)",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score and Parts (violins)",
+              "Complete Score and Parts (violas)",
+              "Complete Score and Parts (cellos)"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        },
+        {
+          "rawHeading": "=====*For 4 Violins or 4 Violas or 4 Cellos (Lang)=====",
+          "alternativeGroup": "4 Cellos (Lang)",
+          "arranger": "Lang",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "extent": "4 Cellos (Lang)",
+          "parentExtentHeading": "Duetto: 'Wenn Sorgen auf mich dringen' (No.5)",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score and Parts (violins)",
+              "Complete Score and Parts (violas)",
+              "Complete Score and Parts (cellos)"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "150066-arrangement",
+      "pageId": 150066,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "Full cached revision, including every nested Arrangements and Transcriptions heading and FILES subsection, contained no actual 3–12-player same-instrument violin, viola, cello, or bass file group.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/150066.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "149644-arrangement",
+      "pageId": 149644,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "Full cached revision, including every nested Arrangements and Transcriptions heading and FILES subsection, contained no actual 3–12-player same-instrument violin, viola, cello, or bass file group.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/149644.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "147720-arrangement",
+      "pageId": 147720,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/147720.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 6 Violas (Fine)=====",
+          "alternativeGroup": "6 Violas (Fine)",
+          "arranger": "Fine",
+          "instrument": "6 violas",
+          "independentPartCount": 6,
+          "extent": "6 Violas (Fine)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score and Parts"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        },
+        {
+          "rawHeading": "=====For 6 Cellos (Fine)=====",
+          "alternativeGroup": "6 Cellos (Fine)",
+          "arranger": "Fine",
+          "instrument": "6 cellos",
+          "independentPartCount": 6,
+          "extent": "6 Cellos (Fine)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3",
+              "Cello 4",
+              "Cello 5",
+              "Cello 6"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        },
+        {
+          "rawHeading": "=====For 5 Cellos (Araya)=====",
+          "alternativeGroup": "5 Cellos (Araya)",
+          "arranger": "Araya",
+          "instrument": "5 cellos",
+          "independentPartCount": 5,
+          "extent": "5 Cellos (Araya)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3",
+              "Cello 4",
+              "Cello 5"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "1291082-arrangement",
+      "pageId": 1291082,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1291082.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Cellos (Wood)=====",
+          "alternativeGroup": "3 Cellos (Wood)",
+          "arranger": "Wood",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Wood)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "149558-arrangement",
+      "pageId": 149558,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/149558.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====*For 2 Violins and 2 Cellos or 4 Cellos (Mandozzi)=====",
+          "alternativeGroup": "4 Cellos (Mandozzi)",
+          "arranger": "Mandozzi",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "extent": "4 Cellos (Mandozzi)",
+          "parentExtentHeading": "Aria: 'Mein gläubiges Herze' (No.2)",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1 or Violin 1",
+              "Cello 2 or Violin 2",
+              "Cello 3",
+              "Cello 4"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "12187-arrangement",
+      "pageId": 12187,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/12187.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 6 Double Basses (Terré Garcia)=====",
+          "alternativeGroup": "6 Double Basses (Terré Garcia)",
+          "arranger": "Terré Garcia",
+          "instrument": "6 double basss",
+          "independentPartCount": 6,
+          "extent": "6 Double Basses (Terré Garcia)",
+          "parentExtentHeading": "Von den Hinterweltlern",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "691096-arrangement",
+      "pageId": 691096,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/691096.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 4 Double Basses (Terré Garcia)=====",
+          "alternativeGroup": "4 Double Basses (Terré Garcia)",
+          "arranger": "Terré Garcia",
+          "instrument": "4 double basss",
+          "independentPartCount": 4,
+          "extent": "4 Double Basses (Terré Garcia)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section.",
+          "priorEvidence": [
+            {
+              "key": "bruckner-wab2-terre-garcia-4basses",
+              "composer": "Bruckner, Anton",
+              "title": "Am Grabe, WAB 2 — version for 4 double basses",
+              "instrument": "4 double basses",
+              "independentPartCount": 4,
+              "kind": "arrangement",
+              "arranger": "Marc Terré Garcia",
+              "extent": "One movement: Langsam",
+              "selection": false,
+              "imslpPage": "https://imslp.org/wiki/Am_Grabe%2C_WAB_2_%28Bruckner%2C_Anton%29",
+              "scoreEvidence": {
+                "url": "https://imslp.org/wiki/Am_Grabe%2C_WAB_2_%28Bruckner%2C_Anton%29",
+                "locator": "Arrangements and Transcriptions > For 4 Double Basses (Terré Garcia)",
+                "finding": "Complete score listed under the arranger's name; no separate parts listed."
+              },
+              "performanceEvidence": [],
+              "facts": {
+                "year": "1861 (original work)",
+                "minutes": "2 (original work estimate)",
+                "movements": "One movement, Langsam"
+              },
+              "flags": [
+                "score listed without individual parts",
+                "page's audio entries are unrelated ensemble versions, not a floor for this arrangement",
+                "no verified human performance of this arrangement"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contextKey": "38351-arrangement",
+      "pageId": 38351,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/38351.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 4 Cellos (Araya)=====",
+          "alternativeGroup": "4 Cellos (Araya)",
+          "arranger": "Araya",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "extent": "4 Cellos (Araya)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3",
+              "Cello 4"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "298000-arrangement",
+      "pageId": 298000,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/298000.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 4 Cellos (Mandozzi)=====",
+          "alternativeGroup": "4 Cellos (Mandozzi)",
+          "arranger": "Mandozzi",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "extent": "4 Cellos (Mandozzi)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 2,
+            "fileDescriptions": [
+              "Complete Score (B-flat major)",
+              "Cello 1 Part",
+              "Cello 2 Part",
+              "Cello 3 Part",
+              "Cello 4 Part",
+              "Engraving Files XML",
+              "Complete Score (G major)",
+              "Cello 1 Part",
+              "Cello 2 Part",
+              "Cello 3 Part",
+              "Cello 4 Part"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section.",
+          "priorEvidence": [
+            {
+              "key": "cello-4-298000",
+              "composer": "Mendelssohn, Felix",
+              "title": "Andante in D major, MWV W 6",
+              "arranger": "Orfeo Mandozzi",
+              "instrument": "cello",
+              "independentPartCount": 4,
+              "extent": "Andante in D major, MWV W 6",
+              "selection": "named movement/selection",
+              "scoreEvidence": "Cached raw group lists Complete Score and Cello 1–4 parts in B-flat and G major transpositions.",
+              "performanceEvidence": "Cached human performance is an organ performance, not the four-cello arrangement.",
+              "flags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contextKey": "9968-arrangement",
+      "pageId": 9968,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/9968.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Violins (Singer)=====",
+          "alternativeGroup": "3 Violins (Singer)",
+          "arranger": "Singer",
+          "instrument": "3 violins",
+          "independentPartCount": 3,
+          "extent": "3 Violins (Singer)",
+          "parentExtentHeading": "Au bord d'une source (No.4)",
+          "scoreOrParts": {
+            "completeScore": false,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Violin 1",
+              "Violin 2",
+              "Violin 3"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "this file group does not establish a complete score or complete set of parts; no exact-matching arrangement heading with a human performance in the cached AUDIO section.",
+          "priorEvidence": [
+            {
+              "key": "violin-3-9968",
+              "composer": "Liszt, Franz",
+              "title": "Années de pèlerinage I, S.160 (selection not established)",
+              "arranger": "Edmund Singer",
+              "instrument": "violin",
+              "independentPartCount": 3,
+              "extent": "Années de pèlerinage I, S.160 (selection not established)",
+              "selection": "arrangement selection",
+              "scoreEvidence": "Cached raw group lists Violin 1–3 only, without a complete score or identifiable movement/selection.",
+              "performanceEvidence": "Cached human performance is piano; a separate recording is explicitly synthesized.",
+              "flags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contextKey": "8650-arrangement",
+      "pageId": 8650,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/8650.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Violins=====",
+          "alternativeGroup": "3 Violins",
+          "arranger": "Composer",
+          "instrument": "3 violins",
+          "independentPartCount": 3,
+          "extent": "3 Violins",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "149915-arrangement",
+      "pageId": 149915,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "Full cached revision, including every nested Arrangements and Transcriptions heading and FILES subsection, contained no actual 3–12-player same-instrument violin, viola, cello, or bass file group.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/149915.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "149266-arrangement",
+      "pageId": 149266,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/149266.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 5 Cellos (Dicker)=====",
+          "alternativeGroup": "5 Cellos (Dicker)",
+          "arranger": "Dicker",
+          "instrument": "5 cellos",
+          "independentPartCount": 5,
+          "extent": "5 Cellos (Dicker)",
+          "parentExtentHeading": "Choral: 'Aus tiefer Not schrei ich zu dir' (No.1)",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score and Parts"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        },
+        {
+          "rawHeading": "=====For 4 Cellos (Dicker)=====",
+          "alternativeGroup": "4 Cellos (Dicker)",
+          "arranger": "Dicker",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "extent": "4 Cellos (Dicker)",
+          "parentExtentHeading": "Chorale: 'Ob bei uns ist der Sünden viel' (No.6)",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "286711-arrangement",
+      "pageId": 286711,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/286711.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 4 Violas=====",
+          "alternativeGroup": "4 Violas",
+          "arranger": "composer",
+          "instrument": "4 violas",
+          "independentPartCount": 4,
+          "extent": "4 Violas",
+          "parentExtentHeading": "Châtaignier (No.5)",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score and Parts"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "16143-arrangement",
+      "pageId": 16143,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/16143.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 6 Cellos (Seymour)=====",
+          "alternativeGroup": "6 Cellos (Seymour)",
+          "arranger": "Seymour",
+          "instrument": "6 cellos",
+          "independentPartCount": 6,
+          "extent": "6 Cellos (Seymour)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score and Parts"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "343478-arrangement",
+      "pageId": 343478,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/343478.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Cellos (Moriconi)=====",
+          "alternativeGroup": "3 Cellos (Moriconi)",
+          "arranger": "Moriconi",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Moriconi)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "14118-arrangement",
+      "pageId": 14118,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/14118.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 4 Violas (Fujita)=====",
+          "alternativeGroup": "4 Violas (Fujita)",
+          "arranger": "Fujita",
+          "instrument": "4 violas",
+          "independentPartCount": 4,
+          "extent": "4 Violas (Fujita)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section.",
+          "priorEvidence": [
+            {
+              "key": "viola-4-14118",
+              "composer": "Mozart, Wolfgang Amadeus",
+              "title": "Ave verum corpus, K.618",
+              "arranger": "Katsushiro Fujita",
+              "instrument": "viola",
+              "independentPartCount": 4,
+              "extent": "Ave verum corpus, K.618",
+              "selection": "named movement/selection",
+              "scoreEvidence": "Cached raw group lists Complete Score for the four-viola arrangement; no separate parts are shown, but the score is obtainable.",
+              "performanceEvidence": "Cached human performances are chorus or mixed ensemble versions of the source work; not the four-viola version.",
+              "flags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contextKey": "212053-arrangement",
+      "pageId": 212053,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/212053.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 4 Cellos (Tobasi)=====",
+          "alternativeGroup": "4 Cellos (Tobasi)",
+          "arranger": "Tobasi",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "extent": "4 Cellos (Tobasi)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section.",
+          "priorEvidence": [
+            {
+              "key": "byrd-t92-tobasi-4cellos",
+              "composer": "Byrd, William",
+              "title": "Ave verum corpus, T 92 — version for 4 cellos",
+              "instrument": "4 cellos",
+              "independentPartCount": 4,
+              "kind": "arrangement",
+              "arranger": "Tobasi",
+              "extent": "One motet",
+              "selection": false,
+              "imslpPage": "https://imslp.org/wiki/Ave_verum_corpus%2C_T_92_%28Byrd%2C_William%29",
+              "scoreEvidence": {
+                "url": "https://imslp.org/wiki/Ave_verum_corpus%2C_T_92_%28Byrd%2C_William%29",
+                "locator": "Arrangements and Transcriptions > For 4 Cellos (Tobasi)",
+                "finding": "Complete score file listed under arranger name; one score only, no individual cello parts listed."
+              },
+              "performanceEvidence": [],
+              "facts": {
+                "year": "1605 (original publication)",
+                "minutes": null,
+                "movements": "One motet"
+              },
+              "flags": [
+                "no separate part files listed",
+                "no verified human performance of this arrangement"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contextKey": "435014-arrangement",
+      "pageId": 435014,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/435014.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Cellos (Manger)=====",
+          "alternativeGroup": "3 Cellos (Manger)",
+          "arranger": "Manger",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Manger)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section.",
+          "priorEvidence": [
+            {
+              "key": "cello-3-435014",
+              "composer": "Haydn, Joseph",
+              "title": "Baryton Trio in A major, Hob.XI:108",
+              "arranger": "Bernhard Manger",
+              "instrument": "cello",
+              "independentPartCount": 3,
+              "extent": "Baryton Trio in A major, Hob.XI:108",
+              "selection": "arrangement selection",
+              "scoreEvidence": "Cached raw group lists Complete Score and Cello 1–3 parts; transposed to G.",
+              "performanceEvidence": "Only cached performance is synthesized mixed flute/viola/cello; no human performance of the three-cello arrangement.",
+              "flags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contextKey": "488118-arrangement",
+      "pageId": 488118,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/488118.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Cellos (Mandozzi)=====",
+          "alternativeGroup": "3 Cellos (Mandozzi)",
+          "arranger": "Mandozzi",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Mandozzi)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "488166-arrangement",
+      "pageId": 488166,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/488166.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Cellos (Mandozzi)=====",
+          "alternativeGroup": "3 Cellos (Mandozzi)",
+          "arranger": "Mandozzi",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Mandozzi)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "435181-arrangement",
+      "pageId": 435181,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/435181.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Cellos (Manger)=====",
+          "alternativeGroup": "3 Cellos (Manger)",
+          "arranger": "Manger",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Manger)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": false,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "III. Presto assai"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "this file group does not establish a complete score or complete set of parts; no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "578217-arrangement",
+      "pageId": 578217,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/578217.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Cellos (Manger)=====",
+          "alternativeGroup": "3 Cellos (Manger)",
+          "arranger": "Manger",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Manger)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": false,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "III. Allegro - Score",
+              "III. Allegro - Parts"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "this file group does not establish a complete score or complete set of parts; no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "436027-arrangement",
+      "pageId": 436027,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/436027.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Cellos (Manger)=====",
+          "alternativeGroup": "3 Cellos (Manger)",
+          "arranger": "Manger",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Manger)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "487509-arrangement",
+      "pageId": 487509,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/487509.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Cellos (Mandozzi)=====",
+          "alternativeGroup": "3 Cellos (Mandozzi)",
+          "arranger": "Mandozzi",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Mandozzi)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "435019-arrangement",
+      "pageId": 435019,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/435019.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Cellos (Manger)=====",
+          "alternativeGroup": "3 Cellos (Manger)",
+          "arranger": "Manger",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Manger)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "435186-arrangement",
+      "pageId": 435186,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/435186.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Cellos (Manger)=====",
+          "alternativeGroup": "3 Cellos (Manger)",
+          "arranger": "Manger",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Manger)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": false,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "II. Menuet"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "this file group does not establish a complete score or complete set of parts; no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "488784-arrangement",
+      "pageId": 488784,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/488784.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 3 Cellos (Mandozzi)=====",
+          "alternativeGroup": "3 Cellos (Mandozzi)",
+          "arranger": "Mandozzi",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Mandozzi)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "3667-arrangement",
+      "pageId": 3667,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/3667.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 7 Violas (Herms)=====",
+          "alternativeGroup": "7 Violas (Herms)",
+          "arranger": "Herms",
+          "instrument": "7 violas",
+          "independentPartCount": 7,
+          "extent": "7 Violas (Herms)",
+          "parentExtentHeading": "Complete",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score (Abridged)",
+              "Viola 1",
+              "Viola 2",
+              "Viola 3",
+              "Viola 4",
+              "Viola 5",
+              "Viola 6",
+              "Viola 7"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "82084-arrangement",
+      "pageId": 82084,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "Full cached revision, including every nested Arrangements and Transcriptions heading and FILES subsection, contained no actual 3–12-player same-instrument violin, viola, cello, or bass file group.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/82084.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "149940-arrangement",
+      "pageId": 149940,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "Full cached revision, including every nested Arrangements and Transcriptions heading and FILES subsection, contained no actual 3–12-player same-instrument violin, viola, cello, or bass file group.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/149940.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "4611-arrangement",
+      "pageId": 4611,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/4611.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====*For 3 Cellos and Double Bass or 4 Cellos (Meyn)=====",
+          "alternativeGroup": "4 Cellos (Meyn)",
+          "arranger": "Meyn",
+          "instrument": "4 cellos",
+          "independentPartCount": 4,
+          "extent": "4 Cellos (Meyn)",
+          "parentExtentHeading": "Complete",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score and Parts"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section.",
+          "priorEvidence": [
+            {
+              "key": "cello-4-4611-malte-meyn",
+              "composer": "Pachelbel, Johann",
+              "title": "Canon and Gigue in D major, P.37 (four-cello option)",
+              "arranger": "Malte Meyn",
+              "instrument": "cello",
+              "independentPartCount": 4,
+              "extent": "Canon and Gigue in D major, P.37 (four-cello option)",
+              "selection": "named arrangement selection or extent to verify",
+              "scoreEvidence": "Cached raw group says Complete Score and Parts, arrangement explicitly offers 3 cellos plus bass or 4 cellos; verify which parts support four-cello option.",
+              "performanceEvidence": "No exact-version human performance documented; cached human performance is original chamber version, other listed audio is recorder/flute or synthesized.",
+              "flags": [
+                "ambiguous scoring option",
+                "no exact-version human performance"
+              ]
+            }
+          ]
+        },
+        {
+          "rawHeading": "=====For 4 Violas (Cesare)=====",
+          "alternativeGroup": "4 Violas (Cesare)",
+          "arranger": "Cesare",
+          "instrument": "4 violas",
+          "independentPartCount": 4,
+          "extent": "4 Violas (Cesare)",
+          "parentExtentHeading": "Canon (No.1)",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score and Parts",
+              "Engraving files (Finale)"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [
+            {
+              "urlOrPath": "data/cache/same-instrument-imslp/pages/4611.json",
+              "finding": "Exact matching AUDIO heading; synthetic/MIDI or no human performer evidence",
+              "audioHeading": "=====For 4 Violas (Cesare)====="
+            }
+          ],
+          "decision": "held",
+          "reason": "Exact matching AUDIO heading; synthetic/MIDI or no human performer evidence.",
+          "priorEvidence": [
+            {
+              "key": "viola-4-4611-nick-cesare",
+              "composer": "Pachelbel, Johann",
+              "title": "Canon and Gigue in D major, P.37",
+              "arranger": "Nick Cesare",
+              "instrument": "viola",
+              "independentPartCount": 4,
+              "extent": "Canon and Gigue in D major, P.37",
+              "selection": "named arrangement selection or extent to verify",
+              "scoreEvidence": "Cached raw group lists Complete Score and Parts; engraving files also included.",
+              "performanceEvidence": "Cached audio for the viola arrangement is explicitly MIDI. Other human recordings are original or unrelated instrument versions.",
+              "flags": [
+                "no exact-version human performance"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contextKey": "1128682-arrangement",
+      "pageId": 1128682,
+      "kind": "arrangement",
+      "decision": "out-of-scope",
+      "reason": "Full cached revision, including every nested Arrangements and Transcriptions heading and FILES subsection, contained no actual 3–12-player same-instrument violin, viola, cello, or bass file group.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/1128682.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": []
+    },
+    {
+      "contextKey": "169986-arrangement",
+      "pageId": 169986,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/169986.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 8 Cellos (Seymour)=====",
+          "alternativeGroup": "8 Cellos (Seymour)",
+          "arranger": "Seymour",
+          "instrument": "8 cellos",
+          "independentPartCount": 8,
+          "extent": "8 Cellos (Seymour)",
+          "parentExtentHeading": null,
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score",
+              "Group I (Cellos 1-4)",
+              "Group II (Cellos 5-8)"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section.",
+          "priorEvidence": [
+            {
+              "key": "gabrieli-ch172-seymour-8cellos",
+              "composer": "Gabrieli, Giovanni",
+              "title": "Canzon per sonar septimi toni a 8, Ch.172 — version for 8 cellos",
+              "instrument": "8 cellos",
+              "independentPartCount": 8,
+              "kind": "arrangement",
+              "arranger": "Gwyn Seymour",
+              "extent": "One canzona",
+              "selection": false,
+              "imslpPage": "https://imslp.org/wiki/Canzon_per_sonar_septimi_toni_a_8%2C_Ch.172_%28Gabrieli%2C_Giovanni%29",
+              "scoreEvidence": {
+                "url": "https://imslp.org/wiki/Canzon_per_sonar_septimi_toni_a_8%2C_Ch.172_%28Gabrieli%2C_Giovanni%29",
+                "locator": "Arrangements and Transcriptions > For 8 Cellos (Seymour)",
+                "finding": "Complete score plus Group I (Cellos 1–4) and Group II (Cellos 5–8) parts listed; arranger Gwyn Seymour."
+              },
+              "performanceEvidence": [],
+              "facts": {
+                "year": "1597 or earlier (original work)",
+                "minutes": "3 (original work estimate)",
+                "movements": "One canzona"
+              },
+              "flags": [
+                "IMSLP arrangement audio for mixed strings is synthesized MIDI and does not prove human performance",
+                "no verified human performance of this arrangement"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contextKey": "174204-arrangement",
+      "pageId": 174204,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/174204.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 5 Cellos (Seymour)=====",
+          "alternativeGroup": "5 Cellos (Seymour)",
+          "arranger": "Seymour",
+          "instrument": "5 cellos",
+          "independentPartCount": 5,
+          "extent": "5 Cellos (Seymour)",
+          "parentExtentHeading": "Complete Suite",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3",
+              "Cello 4",
+              "Cello 5"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        },
+        {
+          "rawHeading": "=====For 3 Cellos (Albanese)=====",
+          "alternativeGroup": "3 Cellos (Albanese)",
+          "arranger": "Albanese",
+          "instrument": "3 cellos",
+          "independentPartCount": 3,
+          "extent": "3 Cellos (Albanese)",
+          "parentExtentHeading": "Pavane",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "64164-arrangement",
+      "pageId": 64164,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/64164.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====For 6 Cellos (Seymour)=====",
+          "alternativeGroup": "6 Cellos (Seymour)",
+          "arranger": "Seymour",
+          "instrument": "6 cellos",
+          "independentPartCount": 6,
+          "extent": "6 Cellos (Seymour)",
+          "parentExtentHeading": "Complete",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 1,
+            "fileDescriptions": [
+              "Complete Score",
+              "Solo Part (Movement III)",
+              "Cello 1",
+              "Cello 2",
+              "Cello 3",
+              "Cello 4",
+              "Cello 5",
+              "Cello 6"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section."
+        }
+      ]
+    },
+    {
+      "contextKey": "46160-arrangement",
+      "pageId": 46160,
+      "kind": "arrangement",
+      "decision": "held",
+      "reason": "Full nested arrangement headings contain candidate same-instrument groups; remaining concrete notation/performance gaps are attached per version.",
+      "evidence": [
+        {
+          "urlOrPath": "data/cache/same-instrument-imslp/pages/46160.json",
+          "finding": "Loaded full cached raw revision; parsed all heading levels in the Arrangements and Transcriptions FILES section and checked matching arrangement headings in the cached AUDIO section."
+        }
+      ],
+      "versions": [
+        {
+          "rawHeading": "=====*For 4 Violas or 2 Violas (Gustard)=====",
+          "alternativeGroup": "4 Violas",
+          "arranger": "Gustard",
+          "instrument": "4 violas",
+          "independentPartCount": 4,
+          "extent": "4 Violas",
+          "parentExtentHeading": "Intermezzo (No.7)",
+          "scoreOrParts": {
+            "completeScore": true,
+            "completeParts": false,
+            "completePartsLabel": false,
+            "numberedPartsInDescriptions": 0,
+            "fileDescriptions": [
+              "Complete Score (4 violas)",
+              "Complete Score (2 violas)"
+            ],
+            "filesListed": true
+          },
+          "performanceFloor": "not established in cached exact-heading audio",
+          "performanceEvidence": [],
+          "decision": "held",
+          "reason": "no exact-matching arrangement heading with a human performance in the cached AUDIO section.",
+          "priorEvidence": [
+            {
+              "key": "viola-4-46160",
+              "composer": "Mascagni, Pietro",
+              "title": "Intermezzo from Cavalleria rusticana",
+              "arranger": "Lune Gustard",
+              "instrument": "viola",
+              "independentPartCount": 4,
+              "extent": "Intermezzo from Cavalleria rusticana",
+              "selection": "named movement/selection",
+              "scoreEvidence": "Cached raw group lists Complete Score (4 violas) and separate Complete Score (2 violas); four-viola score is available.",
+              "performanceEvidence": "Cached page performance excerpts are accordion and source opera/orchestra, not the four-viola arrangement.",
+              "flags": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

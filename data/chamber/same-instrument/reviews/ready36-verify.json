@@ -1,0 +1,230 @@
+{
+  "entries": [
+    {
+      "key": "hoek-3-korte-bluesjes-version-a-8-violas",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+          "finding": "Exact Version A is eight violas, original2011, three movements, ten minutes; complete score #559349 and eight parts. Explicit first performance: Version A, 23February2012, opening concert Altvioolfestival Dordrecht. This documented past human performance establishes floor independently of recordings. All nine listed recordings are Finale Synthetic Sound and excluded."
+        },
+        {
+          "url": "https://arievanhoek.nl/gratis-bladmuziek-naar-ensemble/acht-altviolen.html",
+          "finding": "Composer catalogue explicitly lists Drie korte bluesjes for eight violas, ten minutes, score and parts. Actual complete PDF confirms dedication Karin Dolman, 2011 copyright and movement titles."
+        },
+        {
+          "url": "https://imslp.org/wiki/Category:Hoek,_Arie_van",
+          "finding": "Composer category explicitly gives birth22February1948 and categories Dutch people and Male people; metadata is sourced, not inferred from name. Composer own English-home identifies these as his compositions and arrangements; it confirms notation-program sound files."
+        }
+      ],
+      "grade": {
+        "level": 3,
+        "hardestPart": "viola 1",
+        "confidence": "medium",
+        "basis": "All 28 PDF pages inspected, including all 25 notation pages and three complete movements. Score is unusually written in treble clef for all eight viola staves (individual eighth part also supplied in alto/bass layouts). Mostly single-line writing in ordinary low/middle register; dotted compound-meter patterns at dotted-quarter 116, accents/offbeats, chromatic blues notes and quick arco/pizzicato changes determine the challenge. Slow Blues Song needs sustained bow control; De Stille at quarter124 uses repeated rhythmic figures. Viola1/5 upper melodic line slightly leads difficulty; no extreme register, extended techniques or elaborate double stopping. Upper intermediate 3, adjacent2–4 plausible. Advisory teaching estimate against data/source/levels.json, approximately one level either side; no automatic uplift for ensemble size.",
+        "mode": "unsure",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "dance"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "level",
+        "hardestPart",
+        "mode",
+        "pace",
+        "character",
+        "notes",
+        "year",
+        "minutes"
+      ],
+      "approvedDetailFields": [
+        "kind",
+        "movements",
+        "composed",
+        "dedication",
+        "firstPerformance"
+      ],
+      "detailSources": {
+        "kind": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+        "movements": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+        "composed": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+        "dedication": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)",
+        "firstPerformance": "https://imslp.org/wiki/3_korte_bluesjes_(Hoek,_Arie_van)"
+      },
+      "recordingDecisions": [],
+      "composerMetadata": {
+        "dates": "1948–",
+        "nationality": "Dutch",
+        "gender": "M",
+        "era": "contemporary",
+        "sources": {
+          "dates": "https://imslp.org/wiki/Category:Hoek,_Arie_van",
+          "nationality": "https://imslp.org/wiki/Category:Hoek,_Arie_van",
+          "gender": "https://imslp.org/wiki/Category:Hoek,_Arie_van",
+          "era": "https://imslp.org/wiki/Category:Hoek,_Arie_van"
+        }
+      }
+    },
+    {
+      "key": "alencar-cello-quartet-no4",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+          "finding": "Composer-typeset #433093 complete4-page score with four cello staves and independent partsI–IV; A minor, composition2008. IMSLP first-performance field only states2016 SESC Partituras; exact date/place comes from composer concert upload, not that IMSLP field."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=I7kwqO0YeWU",
+          "finding": "Full cached composer-upload metadata explicitly identifies performance9April2016 at ConcertoSESCPartiturasRoraima, BoaVista/RR;302s fits complete50-bar work with Lento and D.C.alFine. No excerpt/compilation sign. Identified real concert performance qualifies floor despite individual cellists not credited. Complete title/channel/description contain none of RayChen, SarahChang, JoshuaBell, StefanJackiw; fresh oEmbed HTTP200 and cached playable_in_embed=true."
+        }
+      ],
+      "grade": {
+        "level": 4,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Entire four-page complete composer score inspected through D.C.alFine. Allegro moderato quarter100 in4/4 has semiquaver scales passed among cellos, first-cello upper tenor-clef sustained and repeated detached quavers, chromatic inflections; Lento quarter60 returns to cantabile phrases. Cello1 has longest upper-register exposure and marked staccato; lower parts less exposed although cello4 also receives semiquaver runs. Early advanced4, adjacent3–5 plausible; no extreme velocity or virtuoso double stops. Advisory teaching estimate against data/source/levels.json, approximately one level either side; no automatic uplift for ensemble size.",
+        "mode": "minor",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "dramatic"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "level",
+        "hardestPart",
+        "mode",
+        "pace",
+        "character",
+        "notes",
+        "year",
+        "minutes"
+      ],
+      "approvedDetailFields": [
+        "kind",
+        "composed",
+        "firstPerformance"
+      ],
+      "detailSources": {
+        "kind": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+        "composed": "https://imslp.org/wiki/Cello_Quartet_No.4_(Alencar,_Gabriel)",
+        "firstPerformance": "https://www.youtube.com/watch?v=I7kwqO0YeWU"
+      },
+      "recordingDecisions": [
+        {
+          "id": "I7kwqO0YeWU",
+          "decision": "approved",
+          "compilation": false,
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "reason": "Composer exact-work concert upload, plausible complete extent including slow section and da capo; real identified SESC event. Individual cellists uncredited; do not invent their names. Excluded performers absent from full metadata; fresh embed verification."
+        }
+      ],
+      "workCorrections": {
+        "minutes": 5
+      }
+    },
+    {
+      "key": "vivaldi-rv63-mandozzi-three-cellos",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/296386",
+          "finding": "Actual complete score title says Transcribed for3Cellos by OrfeoMandozzi (2013), dedicated to MarcCoppey. Eleven pages, three cello staves throughout and connected sectionsI–XX through final cadence. Arrangement year IS established2013;1705 belongs to original publication. Exact Mandozzi group on IMSLP has complete score and three parts, separate from Wachter."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=85SspBSmUaU",
+          "finding": "Official concert-host upload description explicitly says VivaldiLaFolliaTemaConVariazioni, arrangement for3cellos byO.Mandozzi; credits OrfeoMandozzi/S.C.A./LeonardoNotarangelo, teachers/students performance.619s consistent with complete theme/variations; no excerpt/compilation indication. Full cached metadata checked for all four excluded names: none. Fresh oEmbed HTTP200; cached playable_in_embed=true."
+        }
+      ],
+      "grade": {
+        "level": 6,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Complete11-page Mandozzi score inspected through final bar320. Cello1 begins tenor clef, reaches high register with rapid semiquavers, arpeggios and leaps, sustained sequence work and long later repeated-note/slurred passagework; cello2 shares rapid figures, cello3 has substantial running bass. Contrasting Adagio/Larghetto and Allegro/Vivace sections require bow articulation changes, ornaments, stamina and clean shifts across roughly10minutes. Pre-diploma6, adjacent5–7 plausible; technical passagework drives grade rather than trio coordination. Advisory teaching estimate against data/source/levels.json, approximately one level either side; no automatic uplift for ensemble size.",
+        "mode": "minor",
+        "pace": "lively",
+        "character": [
+          "dramatic",
+          "virtuosic"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "level",
+        "hardestPart",
+        "mode",
+        "pace",
+        "character",
+        "notes",
+        "year",
+        "minutes"
+      ],
+      "approvedDetailFields": [
+        "kind",
+        "version",
+        "arranger",
+        "arranged",
+        "dedication"
+      ],
+      "detailSources": {
+        "kind": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/296386",
+        "version": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/296386",
+        "arranger": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/296386",
+        "arranged": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/296386",
+        "dedication": "https://imslp.org/index.php?title=Special:IMSLPImageHandler/296386"
+      },
+      "recordingDecisions": [
+        {
+          "id": "85SspBSmUaU",
+          "decision": "approved",
+          "compilation": false,
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "reason": "Exact Mandozzi three-cello arrangement explicitly credited by official concert host. Complete theme/variation extent consistent with score and619s performance; identified human ensemble, embedding verified, excluded names absent."
+        }
+      ],
+      "workCorrections": {
+        "year": "2013"
+      },
+      "detailCorrections": {
+        "version": "arrangement",
+        "arranger": "Orfeo Mandozzi",
+        "arranged": "2013",
+        "dedication": "Marc Coppey"
+      }
+    }
+  ]
+}

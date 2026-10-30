@@ -1,0 +1,327 @@
+{
+ "status": "complete",
+ "startedAt": "2026-10-28T02:26:54Z",
+ "window": {
+  "limitId": "codex",
+  "resetsAt": 1793326532,
+  "startingUsedPercent": 0,
+  "lastUsedPercent": 20,
+  "stopLaunchingAtPercent": 90,
+  "checkpointWorkersAtPercent": 95,
+  "pauseAtPercent": 98
+ },
+ "pauseFlag": "data/chamber/same-instrument/PAUSE",
+ "policy": "Only coordinator edits canonical JSON; no commits/pushes; no paid model API calls; workers checkpoint per entry and stop on pause flag.",
+ "phase": "complete",
+ "activeJobs": [],
+ "completedJobs": [
+  "All source42 workers and shell jobs saved/completed."
+ ],
+ "importedKeys": [
+  "alencar-cello-quartet-no4",
+  "alencar-seven-easy-pieces-four-cellos",
+  "alt-suite-four-double-basses",
+  "avni-violas-terzet-original",
+  "bacewicz-quartet-4-violins",
+  "bach-bwv864-dicker-cello-quartet-prelude",
+  "bach-bwv867-dicker-cello-quartet-prelude",
+  "bach-bwv928-dicker-cello-quartet-prelude",
+  "bach-bwv971-kimura-4violins",
+  "battanchon-op40-three-cellos",
+  "blacher-blues-espagnola-rumba-12-cellos",
+  "bohm-violin-quartet-four-violins",
+  "bottesini-passione-trumpf-four-basses",
+  "brahms-op91-no2-jones-5violas",
+  "clark-gavotte-four-violins",
+  "dale-introduction-and-andante-op5-six-violas",
+  "dancla-ah-vous-dirai-je-maman-op161-4-violins",
+  "dancla-le-carnaval-de-venise-op119-4-violins",
+  "dancla-op178-four-violins",
+  "de-bleser-triolette",
+  "dean-testament-twelve-violas",
+  "debleser-tearful-day-four-cellos",
+  "derecskei-a-tear-in-the-mirror-3-cellos",
+  "derecskei-consort1-four-violins",
+  "dont-quartet-op42-four-violins",
+  "dotzauer-op104-three-cellos",
+  "ellenberger-suite-palais-meran-cello-quartet",
+  "fine-in-memoriam-george-finckel-cello-ensemble",
+  "fux-sonata-3-violins-ulb-mus-ms-334",
+  "gabrielli-suite-four-violins",
+  "garcia-a-night-in-compostela-double-bass-quartet",
+  "garcia-ac-133-double-bass-quartet",
+  "garcia-bad-brothers-double-bass-quartet",
+  "garcia-the-river-fisherman-double-bass-quartet",
+  "gershwin-three-preludes-kaufman-four-cellos",
+  "goltermann-op53-four-cellos",
+  "hauta-aho-arietta-12-double-basses",
+  "hermann-op13-original-3violins",
+  "hermann-op17-original-3violins",
+  "hermann-op2-original-3violins",
+  "hermann-op5-original-3violins",
+  "hermann-op9-original-3violins",
+  "hoek-3-korte-bluesjes-version-a-8-violas",
+  "hofmann-op104-original-3violins-set",
+  "jacob-suite-eight-violas",
+  "kaiser-lindemann-mambo-six-6vc",
+  "kaiser-lindemann-variacoes-brasileiras-12vc",
+  "klengel-2-stucke-op5-4-cellos",
+  "klengel-hymnus-op57-12vc",
+  "klengel-impromptu-op30-four-cellos",
+  "klengel-op33-four-cellos",
+  "klengel-variations-op28-four-cellos",
+  "kuznetsov-op13-four-cellos",
+  "kuznetsov-op28-four-cellos",
+  "lachner-op160-original-5cellos",
+  "lachner-quartet-op107-4-violins",
+  "limmer-op12-three-cellos",
+  "makris-scherzo-four-violins",
+  "massa-violin-quartet-four-violins",
+  "mikuli-scherzino-op25",
+  "moor-op133-three-violins",
+  "norman-gran-turismo-original-8violins",
+  "petzold-op21-four-violins",
+  "poradowski-op56-three-basses",
+  "rzewski-fortune-four-violas",
+  "schmitt-kleine-suite-three-violins",
+  "sidney-king-five-miniatures-for-double-bass-quartet",
+  "slunicko-op92-four-violins",
+  "spiess-etude-nocturne-scherzo-op48",
+  "telemann-twv40-201-original-4violins",
+  "telemann-twv40-202-original-4violins",
+  "telemann-twv40-203-original-4violins",
+  "tony-osborne-dreamtime-for-double-bass-quartet",
+  "tony-osborne-true-grit-for-double-bass-quartet",
+  "toub-jk-four-violins",
+  "trapkus-quartet-four-violins",
+  "two-american-bass-quartets-excursions",
+  "two-american-bass-quartets-the-bass-affair",
+  "vivaldi-rv63-mandozzi-three-cellos",
+  "waelput-andante-four-violas",
+  "weinzierl-nachtstuck-op34-four-violas",
+  "werner-elegie-op21-four-cellos",
+  "werner-op6-four-cellos",
+  "xenakis-retours-windungen-twelve-cellos"
+ ],
+ "pausedAt": "2026-10-29T21:25:06.179344+00:00",
+ "census": {
+  "categoriesComplete": 80,
+  "categoryMemberships": 685,
+  "uniquePages": 597
+ },
+ "canonicalCounts": {
+  "chamberWorks": 9138,
+  "sameInstrumentEnsembles3to12": 108,
+  "byInstrument": {
+   "cello": 54,
+   "viola": 13,
+   "violin": 26,
+   "double-bass": 15
+  },
+  "newWorksThisResumedRun": 2,
+  "newWorksTotalProject": 75,
+  "newCrossListingsTotalProject": 1,
+  "newApprovedRecordingsThisRun": 1,
+  "allSameInstrumentWithYouTube": 66
+ },
+ "verification": "557 tests passed (536 library,21 importer safety), full catalogue validation on every apply, final production build after42 and whitespace passed.",
+ "history": [
+  {
+   "status": "paused",
+   "startedAt": "2026-10-28T02:26:54Z",
+   "pausedAt": "2026-10-28T02:42:03.597026+00:00",
+   "window": {
+    "limitId": "codex",
+    "resetsAt": 1793167842,
+    "startingUsedPercent": 51,
+    "lastUsedPercent": 98,
+    "stopLaunchingAtPercent": 90,
+    "checkpointWorkersAtPercent": 95,
+    "pauseAtPercent": 98
+   },
+   "phase": "pilot-partially-imported",
+   "canonicalCounts": {
+    "chamberWorks": 9065,
+    "newWorksThisRun": 2,
+    "newCrossListingsThisRun": 1
+   }
+  },
+  {
+   "pausedAt": "2026-10-28T13:32:36.806760+00:00",
+   "canonicalCounts": {
+    "chamberWorks": 9083,
+    "sameInstrumentEnsembles3to12": 53,
+    "byInstrument": {
+     "cello": 35,
+     "viola": 4,
+     "violin": 13,
+     "double-bass": 1
+    },
+    "newWorksThisResumedRun": 18,
+    "newWorksTotalProject": 20,
+    "newCrossListingsTotalProject": 1,
+    "newApprovedRecordingsThisRun": 4
+   },
+   "window": {
+    "limitId": "codex",
+    "resetsAt": 1793226892,
+    "startingUsedPercent": 6,
+    "lastUsedPercent": 6,
+    "stopLaunchingAtPercent": 90,
+    "checkpointWorkersAtPercent": 95,
+    "pauseAtPercent": 98
+   }
+  },
+  {
+   "status": "paused",
+   "pausedAt": "2026-10-29T11:48:48.404206+00:00",
+   "window": {
+    "limitId": "codex",
+    "resetsAt": 1793308269,
+    "startingUsedPercent": 0,
+    "lastUsedPercent": 0,
+    "stopLaunchingAtPercent": 90,
+    "checkpointWorkersAtPercent": 95,
+    "pauseAtPercent": 98
+   },
+   "canonicalCounts": {
+    "chamberWorks": 9126,
+    "sameInstrumentEnsembles3to12": 96,
+    "byInstrument": {
+     "cello": 48,
+     "viola": 11,
+     "violin": 22,
+     "double-bass": 15
+    },
+    "newWorksThisResumedRun": 13,
+    "newWorksTotalProject": 63,
+    "newCrossListingsTotalProject": 1,
+    "newApprovedRecordingsThisRun": 8
+   },
+   "appliedThisRun": [
+    "ensemble-23",
+    "ensemble-24",
+    "ensemble-26",
+    "ensemble-29",
+    "ensemble-30",
+    "ensemble-31",
+    "ensemble-33-recordings",
+    "ensemble-32"
+   ],
+   "credits": {
+    "balanceAtResume": "478.3354390000",
+    "balanceAtPause": "475.3824415000",
+    "paidOverrunObserved": true,
+    "observedFinishingCredits": 2.9529975
+   }
+  },
+  {
+   "status": "paused",
+   "pausedAt": "2026-10-29T16:55:22.153068+00:00",
+   "window": {
+    "limitId": "codex",
+    "resetsAt": 1793326532,
+    "startingUsedPercent": 0,
+    "lastUsedPercent": 0,
+    "stopLaunchingAtPercent": 90,
+    "checkpointWorkersAtPercent": 95,
+    "pauseAtPercent": 98
+   },
+   "canonicalCounts": {
+    "chamberWorks": 9136,
+    "sameInstrumentEnsembles3to12": 106,
+    "byInstrument": {
+     "cello": 53,
+     "viola": 12,
+     "violin": 26,
+     "double-bass": 15
+    },
+    "newWorksThisResumedRun": 10,
+    "newWorksTotalProject": 73,
+    "newCrossListingsTotalProject": 1,
+    "newApprovedRecordingsThisRun": 7,
+    "newAlternateLinksThisRun": 1,
+    "allSameInstrumentWithYouTube": 65,
+    "projectNewWorksWithYouTube": 43,
+    "projectNewWorksWithIMSLP": 48
+   },
+   "appliedThisRun": [
+    "ensemble-34",
+    "ensemble-35",
+    "ensemble-36",
+    "ensemble-37-recordings",
+    "ensemble-38",
+    "ensemble-39-recordings",
+    "ensemble-40",
+    "ensemble-41"
+   ],
+   "credits": {
+    "balanceAtResume": "377.3240915000",
+    "paidOverrunObserved": true,
+    "balanceAtPause": "376.1518915000",
+    "observedFinishingCredits": 1.1722
+   }
+  }
+ ],
+ "resumedAt": "2026-10-29T21:16:09.344328+00:00",
+ "researchRecords": 37,
+ "fullPageRevisionsCached": 597,
+ "usagePreference": {
+  "smallFinishingCreditOverrunAllowed": true,
+  "description": "Owner accepts a couple credits to finish/checkpoint a batch; retain original usage-window cutoff rather than earlier65/75/90 reserves. Do not treat this as authorization for an unlimited paid run.",
+  "acknowledgedOn": "2026-10-28"
+ },
+ "modelRouting": {
+  "firstPassExtractionAndClearTriage": "gpt-6-luna",
+  "musicalJudgmentAmbiguityAndFinalReview": "gpt-6.1-sol",
+  "validationDeduplicationAndImports": "scripts",
+  "freshSmallContexts": true,
+  "additionalPilots": false
+ },
+ "nextAction": "Three fresh blind musical grades only for KlengelOp28,WernerOp21,MakrisScherzo; two grades and all notation/facts already cached. Then normal verified batches from21 untouched source contexts. Clark and Massa retain specific human/extent holds.",
+ "appliedThisRun": [
+  "ensemble-42"
+ ],
+ "resumeAutomation": {
+  "id": "continue-atlas-ensemble-expansion",
+  "status": "active-until-goal-complete",
+  "automaticWindowCyclingAuthorized": true,
+  "instruction": "Preserve across window pauses; align wake with live reset plus2minutes; delete only on completion or user cancellation.",
+  "nextWakeUTC": "2026-11-04T07:30:09Z",
+  "blockingReset": 1793777289
+ },
+ "lastCheckedAt": "2026-10-29T21:25:06.179344+00:00",
+ "credits": {
+  "balanceAtResume": "370.5931715000",
+  "paidOverrunObserved": true,
+  "balanceAtPause": "358.7702140000",
+  "observedSharedAccountCreditDecreaseThisRun": 11.8229575,
+  "spendAttribution": "Shared account balance movement; model-call charge timing and other account activity are not isolated. Larger than intended couple-credit finishing allowance; all workers stopped."
+ },
+ "triagedUniquePages": 165,
+ "rawPagesCached": 597,
+ "runBaseline": {
+  "chamberWorks": 9136,
+  "sameInstrumentEnsembles": 106,
+  "creditBalance": "370.5931715000"
+ },
+ "throughputPolicy": {
+  "batchTarget": "12–20 source-ready entries when available; consolidate smaller ready groups without waiting",
+  "sourcePriority": "Established publisher/label/orchestra repertoire and existing blocked scope omissions, then cached IMSLP gaps",
+  "sharedNotationRetrieval": "scripts/chamber/same_instrument_scores.py",
+  "quality": "Keep factual version/floor checks and independent musical judgments; avoid repeated retrieval, bookkeeping and unchanged test reruns",
+  "latestUserInstruction": "This is going too slowly; prioritize adding works quickly."
+ },
+ "finishCriteria": [
+  "Saved IMSLP page/version discovery scope dispositioned with evidence and preserved exclusions",
+  "High-yield recorded publisher/modern catalogue gaps reviewed without endless search expansion",
+  "Every supported eligible proposal ingested/enriched; missing optional facts/links and genuine holds explicit",
+  "Final catalogue checks/build and actual coverage/import report complete"
+ ],
+ "windowJobs": [],
+ "secondaryWindow": {
+  "usedPercent": 100,
+  "resetsAt": 1793777289
+ },
+ "completedAt": "2026-10-30"
+}

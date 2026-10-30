@@ -1,0 +1,45 @@
+{
+ "batch": "ensemble-37-recordings",
+ "accepted": [
+  {
+   "key": "recording-109209-dicker-concert2024",
+   "id": 109209,
+   "publicId": 109209,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "-w6vtpUpFF8"
+  },
+  {
+   "key": "recording-109210-dicker-concert2024",
+   "id": 109210,
+   "publicId": 109210,
+   "action": "reviewed-existing",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [],
+   "gradeIssue": "Two supported independent grades are required",
+   "details": [],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": "-w6vtpUpFF8"
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "a4ed1a01115adaf4643ffca9954d83b76285ba7759bde355cb048c9cd3fb446f",
+  "data/chamber/composers.json": "a2e120ccc73b779679bf9a2b57e9674010372aebb473436a5d74a6f578397982",
+  "data/chamber/id-registry.json": "99954a7216045d962e074a278af38c9bae10f7774ff482d4bf2db84d6684925f",
+  "data/chamber/sources.json": "b4b87fe82c5284943c4f286a5c4aead4b0c0b9593934df549e652ccd745eae01",
+  "data/details/overrides.json": "44f9cbf8033ad9216e4a57728d64fadff1c377b9a7d01119da8e99035cd0d33e",
+  "data/chamber/recordings-judged.json": "c32648e603a7da28f68760f0ba1b6431b312e1188514d080d600fe1ff86fa4d5",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-recordings-37.json": "eb8013e03210050fbf4f441ac5c845dfd9271f88dbe56d6823a69b26123f03ff",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/batch-recordings-37.json": "511c57525d55a36bd67fb490f0f3edaaf30ab46f238c1a13c6491de88d13ea37"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-37-recordings"
+}

@@ -1,0 +1,138 @@
+{
+ "batch": "batch-blind-19",
+ "scale": [
+  {
+   "level": 1,
+   "name": "Early intermediate",
+   "exam": "ABRSM 3–4 · RCM 4–5"
+  },
+  {
+   "level": 2,
+   "name": "Intermediate",
+   "exam": "ABRSM 5 · RCM 6"
+  },
+  {
+   "level": 3,
+   "name": "Upper intermediate",
+   "exam": "ABRSM 6 · RCM 7"
+  },
+  {
+   "level": 4,
+   "name": "Early advanced",
+   "exam": "ABRSM 7 · RCM 8"
+  },
+  {
+   "level": 5,
+   "name": "Advanced",
+   "exam": "ABRSM 8 · RCM 9"
+  },
+  {
+   "level": 6,
+   "name": "Pre-diploma",
+   "exam": "ARSM · RCM 10"
+  },
+  {
+   "level": 7,
+   "name": "Diploma",
+   "exam": "DipABRSM / ATCL · RCM ARCT"
+  },
+  {
+   "level": 8,
+   "name": "Professional",
+   "exam": "LRSM / LTCL · RCM LRCM"
+  },
+  {
+   "level": 9,
+   "name": "Virtuoso",
+   "exam": "FRSM / FTCL"
+  },
+  {
+   "level": 10,
+   "name": "Extreme virtuoso",
+   "exam": "Beyond the exam systems"
+  }
+ ],
+ "definition": "A chamber work's level is the level, on this 1–10 scale, that its hardest part asks of its player, raised by up to one level when holding the ensemble together (coordination, exposed intonation, stamina, balance) is harder than the notes. For a part on another instrument, read the scale as the same exam grade on that instrument: level 4 is about ABRSM grade 7 piano, cello, flute or viol. Grade the whole work as usually performed, not its hardest bar.",
+ "vocabulary": {
+  "mode": [
+   "major",
+   "minor",
+   "unsure"
+  ],
+  "pace": [
+   "slow",
+   "moderate",
+   "lively"
+  ],
+  "character": [
+   "lyrical",
+   "dance",
+   "virtuosic",
+   "playful",
+   "dramatic",
+   "tender",
+   "dark",
+   "folk",
+   "heroic",
+   "humorous"
+  ]
+ },
+ "items": [
+  {
+   "key": "mikuli-scherzino-op25",
+   "title": "Scherzino for 3 Violins, Op.25 (Mikuli, Carl)",
+   "workInfo": {
+    "Work Title": "Scherzino for 3 Violins",
+    "Opus/Catalogue Number": "Op.25",
+    "Key": "c",
+    "Number of Movements/Sections": "1 (Allegro moderato)",
+    "Year of First Publication": "1880 Leipzig: F. Kistner ||Librettist=",
+    "Piece Style": "Romantic",
+    "Instrumentation": "3 violins",
+    "Tags": "scherzos ; 3vn |"
+   },
+   "rawCache": "data/cache/same-instrument-imslp/pages/50198.json",
+   "scorePath": "data/cache/same-instrument-imslp/scores/originals-01/50198.pdf",
+   "primarySources": [
+    "https://imslp.org/wiki/Scherzino_for_3_Violins,_Op.25_(Mikuli,_Carl)"
+   ]
+  },
+  {
+   "key": "trapkus-trio-three-violins",
+   "title": "Trio for 3 Violins (Trapkus, Paul)",
+   "workInfo": {
+    "Work Title": "Trio for 3 Violins",
+    "Number of Movements/Sections": "1",
+    "Year/Date of Composition": "2012",
+    "Year of First Publication": "2012",
+    "Piece Style": "Modern",
+    "Instrumentation": "3 violins",
+    "Tags": "trios ; 3vn |"
+   },
+   "rawCache": "data/cache/same-instrument-imslp/pages/393487.json",
+   "scorePath": "data/cache/same-instrument-imslp/scores/originals-01/393487.pdf",
+   "primarySources": [
+    "https://imslp.org/wiki/Trio_for_3_Violins_(Trapkus,_Paul)"
+   ]
+  },
+  {
+   "key": "de-bleser-triolette",
+   "title": "Triolette (De Bleser, Werner J.E.)",
+   "workInfo": {
+    "Work Title": "Triolette",
+    "Opus/Catalogue Number": "C296",
+    "Number of Movements/Sections": "1 movement",
+    "Average Duration": "3 minutes",
+    "Year/Date of Composition": "2020",
+    "Piece Style": "Modern",
+    "Instrumentation": "3 cellos",
+    "Tags": "trios ; terzettinos ; 3vc |"
+   },
+   "rawCache": "data/cache/same-instrument-imslp/pages/1069915.json",
+   "scorePath": "data/cache/same-instrument-imslp/scores/originals-01/1069915.pdf",
+   "primarySources": [
+    "https://imslp.org/wiki/Triolette_(De_Bleser,_Werner_J.E.)"
+   ]
+  }
+ ]
+}

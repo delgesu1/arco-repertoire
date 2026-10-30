@@ -1,0 +1,39 @@
+{
+ "batch": "ensemble-29",
+ "accepted": [
+  {
+   "key": "karpati-andantino-four-violins",
+   "id": 109201,
+   "publicId": 109201,
+   "action": "added",
+   "releasedHeldProposal": false,
+   "gradeOpinions": [
+    1,
+    1
+   ],
+   "gradeIssue": null,
+   "details": [
+    "kind",
+    "composed"
+   ],
+   "unsourcedDetailFieldsSkipped": [],
+   "recording": null
+  }
+ ],
+ "held": [],
+ "sourceHashesBefore": {
+  "data/chamber/works.json": "af5e78a47f2cc12006fff488c74fb10a258539357e20fb7fe2e0ee82286ae8e5",
+  "data/chamber/composers.json": "b014f09c01e40d6dd3f28e472d0be4c5be034307852f640f27dc508eccdd4c50",
+  "data/chamber/id-registry.json": "503353a1dacee3a0535b816bf69469465cd4430fe578c76ea4a8153fb8e66cc6",
+  "data/chamber/sources.json": "f4f6755a5387ca8e86a8ae620351c9e1a591387d5090080ac10f031dbacc9b7c",
+  "data/details/overrides.json": "2749b64861b881233ef4013bf3594a4b95eef48431bda6b32fef4b59f984410b",
+  "data/chamber/recordings-judged.json": "26519b1f7cabe8321e72e4276c242d1fecd1721972a9123bc1f44de46afd1bff",
+  "data/source/all-repertoire.json": "06fce8aa9c150c5d4c37c58f63850601cbfb25e01d662e52f2d4e9951dcbcd42",
+  "data/build/catalogue.json": "979b842675f34edb6dfd945ad8cc3cdc4a395ffb6dc5d2b5cd35855fd98bb557"
+ },
+ "inputHashes": {
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/research/batch-karpati-29.json": "e924085cdd9db910b3cba4602141dc1adee73e620763c7788c2092b20a201023",
+  "/Users/danielkurganov/DEVELOPMENT/violinrep/data/chamber/same-instrument/reviews/ready-29.json": "560e95a04734cda409cc22254294889476c6481851de4aff8e01f696f0df012c"
+ },
+ "rollbackSnapshot": "data/cache/same-instrument-import/ensemble-29"
+}

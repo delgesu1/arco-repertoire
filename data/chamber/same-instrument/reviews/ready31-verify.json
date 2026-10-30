@@ -1,0 +1,200 @@
+{
+  "entries": [
+    {
+      "key": "bach-bwv639-mandozzi-fourcellos",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Special:ReverseLookup/345028",
+          "finding": "Exact IMSLP #345028 complete score for four cellos, Orfeo Mandozzi; score explicitly says arranged 2014. Original BWV639 composition date 1708\u201317 must not be assigned to the arrangement."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kzZiuU2S60c",
+          "finding": "Title specifies 4 cellos, description explicitly credits arranger Orfeo Mandozzi and Valentino Worlitzsch, Joel Blido, Yuki Ito, Christoph Crois\u00e9 at Interlaken Classics 2015. 179 seconds fits complete short chorale; no indication of excerpt. Full cached title/channel/description checked against Ray Chen, Sarah Chang, Joshua Bell, Stefan Jackiw: none. Fresh oEmbed HTTP200 and cached playable_in_embed=true."
+        }
+      ],
+      "grade": {
+        "level": 5,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Complete three-page score inspected, bars 1\u201318 and final cadence. Cello 1 sustains a high treble-clef cantus with ornaments; cellos 2\u20133 have continuous chromatic semiquaver figuration and shifts, cello 4 a simpler quaver bass. At quaver=40 the challenge is upper-register legato, intonation and line control rather than velocity. Advanced (5), with adjacent 4 plausible; no ensemble-count uplift.",
+        "mode": "minor",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "tender"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "level",
+        "hardestPart",
+        "mode",
+        "pace",
+        "character",
+        "year",
+        "minutes"
+      ],
+      "approvedDetailFields": [
+        "kind",
+        "version",
+        "arranger",
+        "arranged"
+      ],
+      "detailSources": {
+        "kind": "https://imslp.org/wiki/Special:ReverseLookup/345028",
+        "version": "https://imslp.org/wiki/Special:ReverseLookup/345028",
+        "arranger": "https://imslp.org/wiki/Special:ReverseLookup/345028",
+        "arranged": "https://imslp.org/wiki/Special:ReverseLookup/345028"
+      },
+      "recordingDecisions": [
+        {
+          "id": "kzZiuU2S60c",
+          "decision": "approved",
+          "compilation": false,
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "reason": "Exact named Mandozzi quartet arrangement, complete chorale and four credited human cellists; embedding verified. No alternates proposed."
+        }
+      ]
+    },
+    {
+      "key": "bach-goldberg22-dicker-fourcellos",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://imslp.org/wiki/Special:ReverseLookup/951435",
+          "finding": "Complete score explicitly Goldberg Variation22, J.S.Bach, arr.Suzanne Dicker, four cello staves. This is independently complete Variation22 only, not a complete Goldberg set."
+        },
+        {
+          "url": "https://www.learningthecello.com/free-cello-ensemble-music.php",
+          "finding": "Arranger primary page explicitly identifies Goldberg22 for mixed ability cello quartet and says cello1 has a little thumb position, others bass clef. That same page embeds -w6vtpUpFF8 as a professional recording of her arrangements, directly connecting the quartet scoring to this upload; five-name roster is for the whole concert, not evidence of a fifth part in this variation."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-w6vtpUpFF8",
+          "finding": "MusicaAngela title specifies Suzanne Dicker cello quartet arrangements; description credits Creative Bach Cello Ensemble Lent2024, five cellists in concert roster plus winds/voices used in other selections. Explicit Goldberg22 chapter 00:00 to next work 2:48 gives complete separately identified variation. Full cached metadata checked for Ray Chen, Sarah Chang, Joshua Bell, Stefan Jackiw: none. Fresh oEmbed HTTP200, cached playable_in_embed=true."
+        }
+      ],
+      "grade": {
+        "level": 4,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "All three score pages inspected: complete 32-bar Variation22 with both repeat signs. Cello 1 moves into treble clef/short thumb-position range, returns to bass; largely crotchet/quaver stepwise motion. Other parts remain bass clef and lower in range. Limited velocity and no elaborate double stops; short upper-register lyrical writing sets early-advanced band 4 (adjacent 3 plausible).",
+        "mode": "major",
+        "pace": "moderate",
+        "character": [
+          "lyrical",
+          "tender"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "level",
+        "hardestPart",
+        "mode",
+        "pace",
+        "character"
+      ],
+      "approvedDetailFields": [
+        "kind",
+        "version",
+        "arranger",
+        "selection"
+      ],
+      "detailSources": {
+        "kind": "https://www.learningthecello.com/free-cello-ensemble-music.php",
+        "version": "https://www.learningthecello.com/free-cello-ensemble-music.php",
+        "arranger": "https://www.learningthecello.com/free-cello-ensemble-music.php",
+        "selection": "https://imslp.org/wiki/Special:ReverseLookup/951435"
+      },
+      "recordingDecisions": [
+        {
+          "id": "-w6vtpUpFF8",
+          "decision": "approved",
+          "compilation": true,
+          "checks": {
+            "exactVersion": true,
+            "wholeWork": true,
+            "humanPerformance": true,
+            "embedVerified": true,
+            "excludedPerformersChecked": true
+          },
+          "reason": "Approved compilation because arranger primary page links the exact quartet arrangement and embeds this concert; complete Variation22 is first chapter 00:00\u20132:48. Do not represent recording as complete Goldberg Variations. No alternate proposed."
+        }
+      ]
+    },
+    {
+      "key": "sculthorpe-chorale-eight-cellos",
+      "status": "approved",
+      "factsVerified": true,
+      "findings": [
+        {
+          "url": "https://www.fabermusic.com/music/chorale-2495",
+          "finding": "Publisher fetched successfully HTTP200 independently: Chorale, Peter Sculthorpe, 8 cellos, 1994, 5 minutes, score ISBN0-571-55857-7 on sale and parts for hire. Exact-version human floor: first performance 28Aug1994, Bradenstoke Hall/St Donats Castle, Lontano/Odaline de la Martinez."
+        },
+        {
+          "url": "https://www.fabermusic.com/music/chorale-2495/score",
+          "finding": "Public perusal complete from opening to closing fermata and Sydney July1994 signature; all ten notation pages inspected, not merely pages3 and12. Program-note heading says1984 but same note explicitly says written for1994 festival; score copyright and final signature1994 resolve this typo. Program note gives c4m30, publisher rounded5min. Intro plus two chorale statements, one continuous work, no separately titled movements."
+        }
+      ],
+      "grade": {
+        "level": 4,
+        "hardestPart": "cello 1",
+        "confidence": "medium",
+        "basis": "Entire public watermarked perusal inspected (notation pages3\u201312, printed1\u201310): bass-clef solo introduction then sustained chorale, upper parts in treble clef, accidentals, occasional duplets and cello6 pizzicato/arco double-stop entries. Mostly semibreves/minims and sparse motion; first cello high sustained melody needs controlled shifts and exposed intonation. Early advanced 4, medium confidence with adjacent3\u20135 plausible. Eight-part balance is not an automatic grade increase.",
+        "mode": "unsure",
+        "pace": "slow",
+        "character": [
+          "lyrical",
+          "dark"
+        ]
+      },
+      "approvedWorkFields": [
+        "composer",
+        "title",
+        "instruments",
+        "players",
+        "formation",
+        "form",
+        "level",
+        "hardestPart",
+        "mode",
+        "pace",
+        "character",
+        "year",
+        "minutes",
+        "notes"
+      ],
+      "approvedDetailFields": [
+        "kind",
+        "version",
+        "composed",
+        "published"
+      ],
+      "detailSources": {
+        "kind": "https://www.fabermusic.com/music/chorale-2495",
+        "version": "https://www.fabermusic.com/music/chorale-2495",
+        "composed": "https://www.fabermusic.com/music/chorale-2495",
+        "published": "https://www.fabermusic.com/music/chorale-2495/score"
+      },
+      "recordingDecisions": []
+    }
+  ]
+}

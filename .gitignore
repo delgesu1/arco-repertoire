@@ -42,6 +42,15 @@ next-env.d.ts
 
 # local data caches
 /data/cache/
+/data/chamber/same-instrument/staging/
+/data/chamber/same-instrument/scratch/
+/data/chamber/same-instrument/evidence/
+/data/chamber/same-instrument/cello_enrichment/
+/data/chamber/same-instrument/**/*.pyc
+/data/chamber/same-instrument/**/*.pdf
+/data/chamber/same-instrument/**/*.png
+/data/chamber/same-instrument/**/*.jpg
+/scratch/grades-04/
 /design/*.png
 
 # local tooling

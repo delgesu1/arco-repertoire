@@ -1,0 +1,137 @@
+{
+  "batch": "review-pilot-01",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "telemann-twv40-201-original-4violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf",
+          "finding": "Complete original G-major concerto, printed pp. 1–8 / PDF pp. 3–10. Four independent violin staves, no bass. Opening, Allegro and Adagio/Vivace pages visually inspected. Four movement heads confirmed in contents. Opening is headed Largo in this score and label booklet; IMSLP says Largo e staccato, a source-supported alternate heading."
+        },
+        {
+          "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+          "finding": "Refreshed API wikitext confirms originals under Scores and Parts with complete score plus Violin1–4; adjacent viola arrangement is separate. Canonical collection title confirmed; individual public568 IMSLP title was not independently reopened."
+        },
+        {
+          "url": "https://static.qobuz.com/goodies/64/000155246.pdf",
+          "finding": "PDFpp2–3: tracks1–4 list all movements and four-violin-without-bass scoring; Onofri,Tampieri,Begelman,Vasi individually credited. Durations2:26+1:28+0:54+1:40 total6:28, so catalogue7min is plausible approximate."
+        }
+      ],
+      "approvedDetailFields": [
+        "movements",
+        "kind"
+      ],
+      "grade": {
+        "level": 2,
+        "hardestPart": "balanced",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful"
+        ],
+        "confidence": "medium",
+        "basis": "Selected score pages independently inspected and calibrated to supplied approved anchors: TWV 40:201 itself is anchor 2. Mainly low-position single-line playing, shared imitation, short sixteenth-note runs, trills and chromatic slow-movement intonation. All four parts exchange active lines and need synchronized 3/8 finale articulation. Inspected demands do not justify overriding exact level 2 anchor. Balanced. Not every bar visually inspected."
+      },
+      "recordingDecisions": [
+        {
+          "id": "gbeqGTKduGE",
+          "decision": "held",
+          "reason": "Supplied metadata/credits/embed plausible, but complete four-movement coverage not verified; no approval based on380sec/title alone."
+        }
+      ]
+    },
+    {
+      "key": "telemann-twv40-202-original-4violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf",
+          "finding": "D-major TWV 40:202 occupies printed pp. 9–14 / PDF pp. 11–16, with four independent violin staves and no bass. Opening, first Allegro and final Allegro pages visually read. Contents lists Adagio, Allegro, Grave, Allegro. Some cataloguing joins Adagio and Allegro as one movement, but four track sections are valid."
+        },
+        {
+          "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+          "finding": "Fresh IMSLP API confirms complete original four-violin score plus separate Violin 1–4 parts, without accompaniment or arranger on original group."
+        },
+        {
+          "url": "https://static.qobuz.com/goodies/64/000155246.pdf",
+          "finding": "Label booklet PDF pp. 2–3 explicitly identifies D-major TWV 40:202 for four violins without bass. Tracks 9–12 cover all four sections; violinists are Onofri, Tampieri, Begelman and Vasi. Total 5:41 supports approximate six-minute duration."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=aUfIC3s_xNc",
+          "finding": "Independent directwebopen failed. Supplied officialmetadata remains usable as candidate only; nofullworkapproval made."
+        }
+      ],
+      "approvedDetailFields": [
+        "movements",
+        "kind"
+      ],
+      "grade": {
+        "level": 3,
+        "hardestPart": "balanced",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "playful",
+          "lyrical"
+        ],
+        "confidence": "medium",
+        "basis": "Independent selected-score assessment: continuous sixteenths, imitative handovers, melodic register extensions, chromatic passing notes and string crossings across all four parts. Shared active material supports balanced. Final level 3: one above supplied exact G-major TWV 40:201 anchor 2 for denser agility and coordination, below Bach Double anchor 4. Not every bar visually inspected."
+      },
+      "recordingDecisions": [
+        {
+          "id": "aUfIC3s_xNc",
+          "decision": "held",
+          "reason": "Supplied official-channel credits, all4section timestamps and embed evidence are strong, and all4players are nonexcluded. TWV40:202a suffix equivalence to this exact score not independently resolved in bounded review; retain pending score/performance comparison."
+        }
+      ]
+    },
+    {
+      "key": "telemann-twv40-203-original-4violins",
+      "status": "approved",
+      "findings": [
+        {
+          "url": "https://www.musicologie.org/ancien/clan/telemann_twv_40_201.pdf",
+          "finding": "Complete C-major TWV 40:203 occupies printed pp. 15–22 / PDF pp. 17–24. Four independent violin staves, no accompaniment. Grave, Allegro, Largo e staccato and Allegro match input. Opening, first Allegro and transition to final Allegro visually inspected; parsed score confirms final boundary before TWV 40:204."
+        },
+        {
+          "url": "https://imslp.org/wiki/4_Concerti_for_4_Violins,_TWV_40:201-204_(Telemann,_Georg_Philipp)",
+          "finding": "Fresh IMSLP API confirms complete original score and all four separate violin parts. Adjacent viola arrangement excluded."
+        },
+        {
+          "url": "https://static.qobuz.com/goodies/64/000155246.pdf",
+          "finding": "Label booklet PDF pp. 2–3 identifies C-major TWV 40:203, titled Sonata à IV Violini, for four violins without bass. Tracks 19–22 cover all four sections. Onofri, Tampieri, Begelman and Vasi individually credited. Total 8:35 supports approximate nine-minute duration."
+        }
+      ],
+      "approvedDetailFields": [
+        "movements",
+        "kind"
+      ],
+      "grade": {
+        "level": 3,
+        "hardestPart": "balanced",
+        "mode": "major",
+        "pace": "lively",
+        "character": [
+          "lyrical",
+          "playful"
+        ],
+        "confidence": "medium",
+        "basis": "Independent selected-score inspection: shared sixteenth-note sequences and string crossings, exposed chromatic harmony, independent imitative entries and coordinated short-note articulation. Predominantly low-to-moderate positions and single notes. Final level 3: one above exact G-major concerto anchor 2 for denser shared agility and coordination, below Bach Double anchor 4. Balanced. Not every bar visually inspected."
+      },
+      "recordingDecisions": [
+        {
+          "id": "eslA5NSaons",
+          "decision": "rejected",
+          "reason": "Description explicitly includes Grave and Allegro only, 179 seconds; omits Largo e staccato and final Allegro. Incomplete for whole-work entry, despite four named nonexcluded violinists and positive supplied embed metadata."
+        }
+      ]
+    }
+  ],
+  "resume": {
+    "nextKey": null,
+    "note": "All three bounded reviews complete. All eligible original works for four independent violins. Final anchor-calibrated grades 2 / 3 / 3, medium confidence from selected score pages. No YouTube primary approved: G-major full coverage unresolved; D-major suffix equivalence unresolved; C-major explicitly incomplete. Complete Imaginarium recordings establish repertoire floor."
+  }
+}
