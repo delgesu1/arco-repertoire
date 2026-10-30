@@ -10,3 +10,7 @@
    `public/data/details.json` and `scripts/details_*.py`. While the duos work is under way, the "Music section organization
    strategy" session owns the rebuilds (`build-data.ts`, `build-chamber.ts`, `data/build/*`, the other `public/data/*`) and the
    single push: message it when the research is finished for good. Ask the owner before anything is pushed.
+
+**Stopped 2026-10-30, the owner's decision:** where IMSLP doesn't list the movements and the work is obscure, leave it without them. 65 of 228 chunks were researched; the others stay in `to-research/` and are not to be run unless the owner asks. The yield had fallen to about one work in five, even with the sites in `BRIEF.md`.
+
+Still to do: the answers from r045 on are committed but not merged, so the site doesn't show them. Run step 3 once the same-instrument work is committed, since it changes the same details files and `scripts/details_merge.py`.
