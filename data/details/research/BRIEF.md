@@ -21,3 +21,11 @@ Valid JSON, one entry per input item:
  "104657": {"movements": null, "kind": null, "composed": null, "otherTitles": [], "sources": [], "note": "no track list or score found"}}
 ```
 Answer only the fields in the item's `needs`; give the others as null or `[]`. Save the file after every ~10 items (rewrite it whole); if it exists when you start, keep its entries and do only the missing ids. Keep any helper script or temporary file in `/private/tmp/claude-501/research-<chunk>/`, never inside the repository. When done, reply in at most 30 words: items, movements found, years found, empty.
+
+## Where to look
+
+Wikipedia covers the well-known works but rarely the rest, and works with an IMSLP page are usually here because that page lists no movements. For the others, a recording's track list is the best source: an album page with the track titles counts, once you have opened it.
+
+- **Worth trying first:** Brilliant Classics (brilliantclassics.com), Edition Silvertrust (editionsilvertrust.com), Hyperion (hyperion-records.co.uk), Chandos (chandos.net), Tactus (tactus.it), Toccata Classics (toccataclassics.com), Apple Classical (classical.music.apple.com), IRCAM (brahms.ircam.fr, for modern works), and Wikipedia in English, German, French or Italian.
+- **Usually refuse visits:** Presto Music, AllMusic, Naxos and classical.net. Give each at most one try per chunk, then stop using it.
+- If a site fails, try another one rather than leaving the work empty. If every lookup in a chunk is failing, say so in your reply, so the empty answers aren't taken as real.
