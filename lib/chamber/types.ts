@@ -9,6 +9,7 @@ export type FormationKey =
   | "string-quartet"
   | "string-quintet"
   | "large-strings" // sextets and larger for strings alone
+  | "same-instrument" // three or more violins, violas, cellos or double basses, and nothing else
   | "viol-consort" // three or more viols, with or without a chamber organ or harpsichord
   | "piano-trio" // violin, cello, piano
   | "piano-quartet" // violin, viola, cello, piano

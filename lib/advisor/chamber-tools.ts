@@ -6,7 +6,7 @@ import { MAX_CHAMBER_PLAYERS } from "../chamber/scope";
 import { EMPTY_CHAMBER_FILTERS, matchesChamber, type ChamberFilters } from "../chamber/filter";
 import { indexChamber, searchChamber } from "../chamber/search";
 import type { ChamberPiece, InstrumentKey } from "../chamber/types";
-import { FORMATIONS, FORMS, INSTRUMENTS, formSingular, formationLabel, formationSingular, instrumentList } from "../chamber/vocab";
+import { FORMATIONS, FORMS, INSTRUMENTS, ensembleLabel, formSingular, formationLabel, instrumentList } from "../chamber/vocab";
 import type { IndexedPiece } from "../search";
 import { CHARACTER, ERAS, eraLabel } from "../vocab";
 import { CHAMBER_BY_RENOWN } from "./chamber-catalogue-text";
@@ -406,7 +406,7 @@ export async function runChamberTool(name: string, input: unknown): Promise<Tool
         const c = p.chamber;
         return [
           compact(p),
-          `ensemble: ${formationSingular(c.formation)}; ${c.players} players; ${formSingular(c.form).toLowerCase()}`,
+          `ensemble: ${ensembleLabel(c)}; ${c.players} players; ${formSingular(c.form).toLowerCase()}`,
           c.year && `composed: ${c.year}`,
           c.aka?.length && `also known as: ${c.aka.join("; ")}`,
           p.set && `set: ${p.set}`,

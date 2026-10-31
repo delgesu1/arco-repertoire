@@ -1,11 +1,12 @@
 import { describe, expect, it } from "vitest";
-import type { FormKey, FormationKey, InstrumentKey } from "./types";
+import type { FormKey, FormationKey, InstrumentKey, Instrumentation } from "./types";
 import {
   FORMATIONS,
   FORMATION_GROUPS,
   FORMS,
   chamberHeading,
   chamberSentence,
+  ensembleLabel,
   formationFor,
   instrumentList,
   instrumentParts,
@@ -28,6 +29,14 @@ const CASES: [string, Ins, FormationKey][] = [
   ["string trio", { violin: 1, viola: 1, cello: 1 }, "string-trio"],
   ["Dvořák Terzetto (2 vn, va)", { violin: 2, viola: 1 }, "string-trio"],
   ["string quartet", SQ, "string-quartet"],
+  ["three violins", { violin: 3 }, "same-instrument"],
+  ["four cellos", { cello: 4 }, "same-instrument"],
+  ["four double basses", { "double-bass": 4 }, "same-instrument"],
+  ["eight violas", { viola: 8 }, "same-instrument"],
+  ["twelve cellos", { cello: 12 }, "same-instrument"],
+  ["four violins with tape", { violin: 4, electronics: 1 }, "same-instrument"],
+  ["two violins stay a duo", { violin: 2 }, "duo-strings"],
+  ["three cellos and piano", { cello: 3, piano: 1 }, "piano-strings"],
   ["Rossini sonata a quattro (2 vn, vc, db)", { violin: 2, cello: 1, "double-bass": 1 }, "string-quartet"],
   ["quartet with tape", { ...SQ, electronics: 1 }, "string-quartet"],
   ["quintet with two cellos", { violin: 2, viola: 1, cello: 2 }, "string-quintet"],
@@ -102,6 +111,7 @@ const FORMATION_WORDS: Record<FormationKey, string> = {
   "string-quartet": "for string quartet",
   "string-quintet": "for string quintet",
   "large-strings": "for string sextet or larger",
+  "same-instrument": "for same-instrument ensemble",
   "viol-consort": "for viol consort",
   "piano-trio": "for piano trio",
   "piano-quartet": "for piano quartet",
@@ -183,5 +193,20 @@ describe("instrumentsByUse", () => {
     expect(order.map((x) => x.key)).not.toContain("electronics");
     // a tie keeps the vocabulary's order: viola before cello before piano
     expect(order.slice(1, 4).map((x) => x.key)).toEqual(["viola", "cello", "piano"]);
+  });
+});
+
+describe("ensembleLabel", () => {
+  const label = (instruments: Instrumentation) => ensembleLabel({ formation: formationFor(instruments), instruments });
+  it("names a same-instrument ensemble by its instrument and size", () => {
+    expect(label({ violin: 3 })).toBe("Violin trio");
+    expect(label({ cello: 4 })).toBe("Cello quartet");
+    expect(label({ "double-bass": 4 })).toBe("Double bass quartet");
+    expect(label({ viola: 8 })).toBe("Viola octet");
+    expect(label({ cello: 12 })).toBe("Cello ensemble");
+  });
+  it("keeps the formation's name for everything else", () => {
+    expect(label({ violin: 2, viola: 1, cello: 1 })).toBe("String quartet");
+    expect(label({ violin: 2, viola: 2, cello: 2 })).toBe("String sextet or larger");
   });
 });

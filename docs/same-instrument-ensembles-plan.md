@@ -10,7 +10,7 @@ The original rules systematically hid this repertoire:
 
 - `scripts/chamber/check.ts` excludes three or more violins alone, limits every ensemble to nine parts and admits duos only if cross-listed in violin. The historical chamber plan explicitly keeps violin-only ensembles in violin.
 - `scripts/chamber/imslp_harvest.py` and `imslp_census.ts` discard scoring categories ending in `(arr)`. The old curation brief also rejects third-party arrangements. The current request authorizes researching those arrangements for this expansion.
-- `formationFor()` calls four cellos or four violas a `string-quartet`. Instrument counts are already stored correctly and `fitGroup()` can match them, but the formation menu and labels do not make them easy to find.
+- `formationFor()` called four cellos or four violas a `string-quartet`. Instrument counts were already stored correctly and `fitGroup()` could match them, but the formation menu and labels did not make them easy to find. Fixed 2026-10-31: they have their own formation, `same-instrument` ("Same instrument" in the ensemble menu), and are labelled "Cello quartet", "Violin trio" and so on.
 - `ChamberWork` previously had no structured arranger field. `imslpPage` links to a shared work page, so the researcher still needs to verify the exact arrangement there; keep that evidence in the research output.
 - `merge_curation.ts` rebuilds from benchmarks and the old slice outputs. **Do not rerun it to append this expansion:** it is not an incremental importer and could discard later curation.
 

@@ -1,7 +1,7 @@
 "use client";
 
 import type { ChamberFacts, ChamberPiece } from "@/lib/chamber/types";
-import { formationSingular, hardestPartTitle, instrumentParts } from "@/lib/chamber/vocab";
+import { ensembleLabel, hardestPartTitle, instrumentParts } from "@/lib/chamber/vocab";
 import { CHAMBER_LIVE } from "@/lib/chamber/launch";
 import { ComposerLine, LevelBadge, memberTitle, pieceHref, tagList } from "../pieces";
 import { isPlainClick } from "../Row";
@@ -82,7 +82,7 @@ export function ChamberRow({
       <div className="meta">
         {!member && (
           <>
-            <b>{formationSingular(p.chamber.formation)}</b>
+            <b>{ensembleLabel(p.chamber)}</b>
             <Scoring c={p.chamber} />
           </>
         )}

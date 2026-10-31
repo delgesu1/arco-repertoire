@@ -1,7 +1,7 @@
 import { CHAMBER_OPTIONAL, indexWorks, search, type IndexedPiece } from "../search";
 import { eraLabel } from "../vocab";
 import type { ChamberPiece } from "./types";
-import { FORMATIONS, FORMS, instrumentList } from "./vocab";
+import { FORMATIONS, FORMS, ensembleLabel, instrumentList } from "./vocab";
 
 /**
  * The chamber list's search index: titles with their nicknames, the other names a work goes by (`aka`: "Der Tod und das
@@ -17,6 +17,7 @@ export function indexChamber(pieces: ChamberPiece[]): IndexedPiece<ChamberPiece>
       return [
         formation?.label ?? "",
         formation?.singular ?? "",
+        ensembleLabel(c),
         form?.label ?? "",
         instrumentList(c.instruments, c),
         `${c.players} players`,

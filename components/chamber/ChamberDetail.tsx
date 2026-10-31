@@ -1,7 +1,7 @@
 import type { ChamberPiece } from "@/lib/chamber/types";
 import type { WorkDetails } from "@/lib/details";
 import { chamberLadder } from "@/lib/chamber/filter";
-import { formSingular, formationSingular } from "@/lib/chamber/vocab";
+import { ensembleLabel, formSingular } from "@/lib/chamber/vocab";
 import type { LevelInfo } from "@/lib/types";
 import { compareTitle } from "@/lib/filter";
 import { eraLabel } from "@/lib/vocab";
@@ -73,7 +73,7 @@ export function ChamberDetail({
       <dl className="facts">
         <div>
           <dt>Ensemble</dt>
-          <dd>{formationSingular(c.formation)}</dd>
+          <dd>{ensembleLabel(c)}</dd>
         </div>
         <div>
           <dt>Hardest part</dt>

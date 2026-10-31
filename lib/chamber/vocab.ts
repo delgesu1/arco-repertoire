@@ -16,6 +16,7 @@ export const FORMATIONS: { key: FormationKey; label: string; singular: string }[
   { key: "string-quartet", label: "String quartets", singular: "String quartet" },
   { key: "string-quintet", label: "String quintets", singular: "String quintet" },
   { key: "large-strings", label: "Sextets & octets", singular: "String sextet or larger" },
+  { key: "same-instrument", label: "Same instrument", singular: "Same-instrument ensemble" },
   { key: "viol-consort", label: "Viol consorts", singular: "Viol consort" },
   { key: "piano-trio", label: "Piano trios", singular: "Piano trio" },
   { key: "piano-quartet", label: "Piano quartets", singular: "Piano quartet" },
@@ -29,7 +30,7 @@ export const FORMATIONS: { key: FormationKey; label: string; singular: string }[
 /** the ensemble menu's groups, each in FORMATIONS order */
 export const FORMATION_GROUPS: { label: string; keys: FormationKey[] }[] = [
   { label: "Duos", keys: ["duo-piano", "duo-strings", "duo-other"] },
-  { label: "Strings", keys: ["string-trio", "string-quartet", "string-quintet", "large-strings", "viol-consort"] },
+  { label: "Strings", keys: ["string-trio", "string-quartet", "string-quintet", "large-strings", "same-instrument", "viol-consort"] },
   { label: "Piano and strings", keys: ["piano-trio", "piano-quartet", "piano-quintet", "piano-strings"] },
   { label: "Mixed", keys: ["winds-strings", "continuo", "other"] },
 ];
@@ -52,6 +53,7 @@ export const FORMATION_PHRASE: Record<FormationKey, { lead: "for" | "with"; noun
   "string-quartet": { lead: "for", noun: "string quartet" },
   "string-quintet": { lead: "for", noun: "string quintet" },
   "large-strings": { lead: "for", noun: "string sextet or larger" },
+  "same-instrument": { lead: "for", noun: "same-instrument ensemble" },
   "viol-consort": { lead: "for", noun: "viol consort" },
   "piano-trio": { lead: "for", noun: "piano trio" },
   "piano-quartet": { lead: "for", noun: "piano quartet" },
@@ -139,10 +141,20 @@ export const partNames = (ins: Instrumentation): string[] =>
 export const playersFor = (ins: Instrumentation): number =>
   entries(ins).reduce((n, [k, c]) => n + (INSTRUMENTS[k].family === "electronics" ? 0 : c), 0);
 
+export const SAME_INSTRUMENT_STRINGS: InstrumentKey[] = ["violin", "viola", "cello", "double-bass"];
+
+/** the one instrument of a same-instrument ensemble (electronics are not a part), or null for any other scoring */
+const sameInstrument = (ins: Instrumentation): InstrumentKey | null => {
+  const parts = entries(ins).filter(([k]) => INSTRUMENTS[k].family !== "electronics");
+  return parts.length === 1 && parts[0][1] >= 3 && SAME_INSTRUMENT_STRINGS.includes(parts[0][0]) ? parts[0][0] : null;
+};
+
+const GROUP_NAMES: Record<number, string> = { 3: "trio", 4: "quartet", 5: "quintet", 6: "sextet", 7: "septet", 8: "octet", 9: "nonet" };
+
 /**
  * The formation a scoring belongs to, checked in this order: continuo → two players (with a keyboard, two strings, or
- * anything else) → any wind or brass → a consort of viols → harp, guitar, voice and the like → piano with strings → strings
- * alone. Electronics never change it. A stored formation may differ only with a formationNote (Schoenberg's Second Quartet
+ * anything else) → any wind or brass → a consort of viols → harp, guitar, voice and the like → one kind of string instrument
+ * alone → piano with strings → strings alone. Electronics never change it. A stored formation may differ only with a formationNote (Schoenberg's Second Quartet
  * is a string quartet although a soprano joins it).
  */
 export function formationFor(ins: Instrumentation): FormationKey {
@@ -159,6 +171,7 @@ export function formationFor(ins: Instrumentation): FormationKey {
   if (viols >= 3 && viols === strings && entries(ins).every(([k]) => k === "viola-da-gamba" || k === "organ" || k === "harpsichord"))
     return "viol-consort";
   if (count(ins, "other")) return "other";
+  if (sameInstrument(ins)) return "same-instrument";
   const piano = n("piano");
   if (piano === 1) {
     if (strings === 2 && n("violin") === 1 && n("cello") === 1) return "piano-trio";
@@ -176,6 +189,12 @@ export function formationFor(ins: Instrumentation): FormationKey {
 }
 
 export const formationLabel = (k: FormationKey) => FORMATIONS.find((f) => f.key === k)?.label ?? k;
+
+/** What to call one work's ensemble: its formation's name, or for one kind of instrument "Cello quartet", "Double bass octet" */
+export const ensembleLabel = (c: { formation: FormationKey; instruments: Instrumentation }): string => {
+  const one = c.formation === "same-instrument" ? sameInstrument(c.instruments) : null;
+  return one ? `${instrumentName(one)} ${GROUP_NAMES[playersFor(c.instruments)] ?? "ensemble"}` : formationSingular(c.formation);
+};
 
 /** the instruments that take part in any of `works` (electronics are not a part), most works first, then in INSTRUMENTS order */
 export const instrumentsByUse = (works: { chamber: { instruments: Instrumentation; alternatives?: Partial<Record<InstrumentKey, InstrumentKey[]>>; optional?: Instrumentation } }[]): { key: InstrumentKey; works: number }[] => {

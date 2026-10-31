@@ -9,7 +9,7 @@ import { chamberOnly, chamberPieces, getChamberPiece } from "@/lib/chamber/catal
 import { CHAMBER_LIVE } from "@/lib/chamber/launch";
 import { workDetails } from "@/lib/details-server";
 import type { ChamberPiece } from "@/lib/chamber/types";
-import { formationSingular, instrumentList } from "@/lib/chamber/vocab";
+import { ensembleLabel, instrumentList } from "@/lib/chamber/vocab";
 import { settingLabel, typeSingular } from "@/lib/vocab";
 
 export const dynamicParams = false;
@@ -29,7 +29,7 @@ function chamberMetadata(p: ChamberPiece): Metadata {
   const l = levelInfo(p.level);
   const c = p.chamber;
   const part = c.hardestPart === "balanced" ? "" : `, for the ${c.hardestPart} part`;
-  const description = `${p.composerName}: ${p.title}. ${formationSingular(c.formation)}: ${instrumentList(c.instruments, c)}. Level ${p.level} (${l.name}, about ${l.exam})${part}${p.minutes ? `, about ${p.minutes} minutes` : ""}.${p.notes ? ` ${p.notes}` : ""}`;
+  const description = `${p.composerName}: ${p.title}. ${ensembleLabel(c)}: ${instrumentList(c.instruments, c)}. Level ${p.level} (${l.name}, about ${l.exam})${part}${p.minutes ? `, about ${p.minutes} minutes` : ""}.${p.notes ? ` ${p.notes}` : ""}`;
   return {
     title: `${p.title} — ${p.composerName}`,
     description,
@@ -100,7 +100,7 @@ function ChamberPiecePage({ id, slug }: { id: string; slug: string }) {
     name: p.title,
     composer: { "@type": "Person", name: p.composerName },
     url: `${SITE_URL}${pieceUrl(p)}`,
-    genre: formationSingular(p.chamber.formation),
+    genre: ensembleLabel(p.chamber),
     ...(p.chamber.aka?.length ? { alternateName: p.chamber.aka } : {}),
     ...(p.minutes ? { timeRequired: `PT${p.minutes}M` } : {}),
     ...(p.mode && /\bin [A-G]/.test(p.title) ? { musicalKey: p.title.match(/in ([A-G](?:-flat|-sharp)? (?:major|minor))/)?.[1] } : {}),

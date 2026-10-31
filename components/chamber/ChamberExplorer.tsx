@@ -13,7 +13,7 @@ import {
   FORMATIONS,
   FORMS,
   chamberHeading,
-  formationSingular,
+  ensembleLabel,
   instrumentName,
   instrumentsByUse,
 } from "@/lib/chamber/vocab";
@@ -195,10 +195,10 @@ export function ChamberExplorer({
         <ChamberRow piece={p} onOpen={o.onOpen} onPlay={(x) => o.onOpen(x, true)} showComposer={o.showComposer} member={o.member} />
       ),
       setMeta: (ps) => {
-        const same = ps.every((p) => p.chamber.formation === ps[0].chamber.formation);
+        const same = ps.every((p) => ensembleLabel(p.chamber) === ensembleLabel(ps[0].chamber));
         return same ? (
           <>
-            <b>{formationSingular(ps[0].chamber.formation)}</b>
+            <b>{ensembleLabel(ps[0].chamber)}</b>
             <Scoring c={ps[0].chamber} />
           </>
         ) : (
