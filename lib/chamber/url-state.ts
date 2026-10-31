@@ -7,7 +7,7 @@ const oneOf = <T extends string>(v: string | null, allowed: readonly T[]): T | n
   v && (allowed as readonly string[]).includes(v) ? (v as T) : null;
 
 /**
- * /chamber?form=short&ens=string-quartet&lv=3&with=clarinet,viola — the shared parameters (q, lv, exact, mode, pace, ch, pop,
+ * /chamber?form=short&ens=string-quartet&lv=3&with=clarinet,viola, or ens=same-instrument&with=cello&parts=4 — the shared parameters (q, lv, exact, mode, pace, ch, pop,
  * min, max, era, g, sort) read as on the violin list; the violin-only ones (type, set, board) are ignored.
  */
 export function chamberFiltersFromParams(sp: URLSearchParams): ChamberFilters {
@@ -22,6 +22,8 @@ export function chamberFiltersFromParams(sp: URLSearchParams): ChamberFilters {
     form: oneOf(sp.get("form"), FORMS.map((f) => f.key)),
     formation: oneOf(sp.get("ens"), FORMATIONS.map((f) => f.key)),
     instruments,
+    // a size means something only among the same-instrument ensembles
+    parts: sp.get("ens") === "same-instrument" && /^[1-9]\d?$/.test(sp.get("parts") ?? "") ? Number(sp.get("parts")) : null,
   };
 }
 
@@ -32,5 +34,6 @@ export function paramsFromChamberFilters(f: ChamberFilters, base: URLSearchParam
   set("form", f.form);
   set("ens", f.formation);
   set("with", f.instruments.join(",") || null);
+  set("parts", f.formation === "same-instrument" && f.parts ? String(f.parts) : null);
   return p;
 }

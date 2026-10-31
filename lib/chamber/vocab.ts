@@ -144,7 +144,7 @@ export const playersFor = (ins: Instrumentation): number =>
 export const SAME_INSTRUMENT_STRINGS: InstrumentKey[] = ["violin", "viola", "cello", "double-bass"];
 
 /** the one instrument of a same-instrument ensemble (electronics are not a part), or null for any other scoring */
-const sameInstrument = (ins: Instrumentation): InstrumentKey | null => {
+export const sameInstrument = (ins: Instrumentation): InstrumentKey | null => {
   const parts = entries(ins).filter(([k]) => INSTRUMENTS[k].family !== "electronics");
   return parts.length === 1 && parts[0][1] >= 3 && SAME_INSTRUMENT_STRINGS.includes(parts[0][0]) ? parts[0][0] : null;
 };

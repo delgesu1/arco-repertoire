@@ -16,6 +16,7 @@ import {
   ensembleLabel,
   instrumentName,
   instrumentsByUse,
+  sameInstrument,
 } from "@/lib/chamber/vocab";
 import { groupResults, sortPieces } from "@/lib/filter";
 import type { IndexedPiece } from "@/lib/search";
@@ -38,7 +39,7 @@ let cache: Promise<ChamberCatalogue> | null = null;
 const loadCatalogue = (version: string) =>
   (cache ??= fetch(`/data/chamber.json?v=${version}`).then((r) => r.json() as Promise<ChamberCatalogue>));
 
-const FILTER_PARAMS = ["q", "form", "ens", "with", "lv", "exact", "mode", "pace", "ch", "pop", "min", "max", "era", "g"];
+const FILTER_PARAMS = ["q", "form", "ens", "with", "parts", "lv", "exact", "mode", "pace", "ch", "pop", "min", "max", "era", "g"];
 
 const CHAMBER_ASK: AskCopy = {
   section: "chamber",
@@ -138,6 +139,8 @@ export function ChamberExplorer({
       formation: chamberFacetCounts(qPieces, f, "formation", (p) => p.chamber.formation) as Counts,
       level: chamberFacetCounts(qPieces, f, "level", (p) => String(p.level)) as Counts,
       instruments: instrumentCounts(qPieces, f),
+      parts: chamberFacetCounts(qPieces, f, "parts", (p) => String(p.chamber.players)) as Counts,
+      sameInstruments: chamberFacetCounts<InstrumentKey>(qPieces, f, "instruments", (p) => sameInstrument(p.chamber.instruments)),
       mode: chamberFacetCounts(qPieces, f, "mode", (p) => p.mode) as Counts,
       pace: chamberFacetCounts(qPieces, f, "pace", (p) => p.pace) as Counts,
       popularity: chamberFacetCounts(qPieces, f, "popularity", (p) => p.popularity) as Counts,
@@ -163,6 +166,7 @@ export function ChamberExplorer({
       cur.form && FORMS.find((x) => x.key === cur.form)?.label.toLowerCase(),
       cur.formation && FORMATIONS.find((x) => x.key === cur.formation)?.label.toLowerCase(),
       ...cur.instruments.map((k) => `includes ${instrumentName(k).toLowerCase()}`),
+      cur.parts && `${cur.parts} parts`,
       cur.level != null && `level ${cur.exact ? "" : "around "}${cur.level}`,
       cur.mode,
       cur.pace,
@@ -223,6 +227,7 @@ export function ChamberExplorer({
       label: `Includes ${instrumentName(k).toLowerCase()}`,
       remove: () => update({ instruments: f.instruments.filter((x) => x !== k) }),
     })),
+    ...(f.parts ? [{ key: "parts", label: `${f.parts} parts`, remove: () => update({ parts: null }) }] : []),
   ];
 
   const clearAll = () => {

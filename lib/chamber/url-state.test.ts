@@ -59,6 +59,12 @@ describe("chamber URL state", () => {
     expect(write("with=horn,viola", { instruments: ["viola"] })).toBe("with=viola");
     expect(write("with=horn", { instruments: [] })).toBe("");
   });
+  it("keeps a size only among same-instrument ensembles", () => {
+    expect(read("ens=same-instrument&with=cello&parts=4").parts).toBe(4);
+    expect(read("ens=string-quartet&parts=4").parts).toBeNull();
+    expect(read("ens=same-instrument&parts=x").parts).toBeNull();
+    expect(write("ens=same-instrument&parts=4", { formation: null })).toBe("");
+  });
   it("keeps the open piece and leaves defaults out", () => {
     expect(write("piece=100031&form=work", { form: null })).toBe("piece=100031");
     expect(write("q=trout&sort=level", { sort: "relevance" })).toBe("q=trout");

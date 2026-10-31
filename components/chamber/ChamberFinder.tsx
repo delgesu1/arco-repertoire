@@ -3,7 +3,7 @@
 import { type ReactNode, useState } from "react";
 import type { ChamberFilters } from "@/lib/chamber/filter";
 import type { InstrumentKey } from "@/lib/chamber/types";
-import { FORMATIONS, FORMATION_GROUPS, FORMS, formPhrase, formationPhrase, instrumentName } from "@/lib/chamber/vocab";
+import { FORMATIONS, FORMATION_GROUPS, FORMS, SAME_INSTRUMENT_STRINGS, formPhrase, formationPhrase, instrumentName } from "@/lib/chamber/vocab";
 import type { LevelInfo } from "@/lib/types";
 import { levelPhrase } from "@/lib/vocab";
 import type { Counts } from "../Explorer";
@@ -27,7 +27,7 @@ export function ChamberFinder({
   f: ChamberFilters;
   update: (p: Partial<ChamberFilters>) => void;
   levels: LevelInfo[];
-  counts: { form: Counts; formation: Counts; level: Counts; instruments: Map<InstrumentKey, number> };
+  counts: { form: Counts; formation: Counts; level: Counts; instruments: Map<InstrumentKey, number>; parts: Counts; sameInstruments: Map<InstrumentKey, number> };
   /** every instrument in the section, most used first */
   instruments: InstrumentKey[];
   /** "How the 10 levels work", beside the hint under the levels */
@@ -37,10 +37,18 @@ export function ChamberFinder({
   const ep = formationPhrase(f.formation);
   const lp = levelPhrase(f.level, f.exact);
   const totalForms = [...counts.form.values()].reduce((a, b) => a + b, 0);
-  const shown = more ? instruments : instruments.filter((k, i) => i < FIRST_CHIPS || f.instruments.includes(k));
-  const hidden = instruments.length - shown.length;
-  const toggle = (k: InstrumentKey) =>
-    update({ instruments: f.instruments.includes(k) ? f.instruments.filter((x) => x !== k) : [...f.instruments, k] });
+  const same = f.formation === "same-instrument";
+  // among same-instrument ensembles, always the four instruments they are for: a work has only one, so a chip switches to it
+  const pool = same ? SAME_INSTRUMENT_STRINGS : instruments;
+  const shown = more ? pool : pool.filter((k, i) => i < FIRST_CHIPS || f.instruments.includes(k));
+  const hidden = pool.length - shown.length;
+  const sizes = [...counts.parts.entries()].map(([k, n]) => [Number(k), n] as const);
+  if (f.parts && !sizes.some(([k]) => k === f.parts)) sizes.push([f.parts, 0]);
+  sizes.sort((a, b) => a[0] - b[0]);
+  const toggle = (k: InstrumentKey) => {
+    if (f.instruments.includes(k)) update({ instruments: f.instruments.filter((x) => x !== k) });
+    else update({ instruments: same ? [k] : [...f.instruments, k] });
+  };
 
   return (
     <section className="finder" aria-label="Find chamber music">
@@ -98,7 +106,7 @@ export function ChamberFinder({
         <div className="chips">
           {shown.map((k) => {
             const on = f.instruments.includes(k);
-            const n = counts.instruments.get(k) ?? 0;
+            const n = (same ? counts.sameInstruments : counts.instruments).get(k) ?? 0;
             return (
               <button key={k} className="chip" aria-pressed={on} disabled={!on && n === 0} onClick={() => toggle(k)}>
                 {instrumentName(k)}
@@ -113,6 +121,23 @@ export function ChamberFinder({
           )}
         </div>
       </div>
+
+      {same && (
+        <div className="incl" role="group" aria-label="Number of parts">
+          <span>Parts</span>
+          <div className="chips">
+            {sizes.map(([k, n]) => {
+              const on = f.parts === k;
+              return (
+                <button key={k} className="chip" aria-pressed={on} onClick={() => update({ parts: on ? null : k })}>
+                  {k}
+                  {!on && <span className="n">{n}</span>}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </section>
   );
 }

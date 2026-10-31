@@ -90,7 +90,7 @@ export function Results<P extends PieceBase = Piece>({
     <section aria-label="Results">
       <div className="rhead">
         <h2 aria-live="polite">
-          {heading || "Results"} <span>· {loading ? "…" : `${total.toLocaleString("en")} works`}</span>
+          {heading || "Results"} <span>· {loading ? "…" : `${total.toLocaleString("en")} ${total === 1 ? "work" : "works"}`}</span>
         </h2>
       </div>
 

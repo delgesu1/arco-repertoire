@@ -11,16 +11,18 @@ export interface ChamberFilters extends Filters {
   form: FormKey | null;
   formation: FormationKey | null;
   instruments: InstrumentKey[]; // every one of them must have a part (alternatives and ad lib. parts count)
+  parts: number | null; // how many parts, within the same-instrument ensembles only
 }
 
-export const EMPTY_CHAMBER_FILTERS: ChamberFilters = { ...EMPTY_FILTERS, form: null, formation: null, instruments: [] };
+export const EMPTY_CHAMBER_FILTERS: ChamberFilters = { ...EMPTY_FILTERS, form: null, formation: null, instruments: [], parts: null };
 
-export type ChamberFacet = CommonFacet | "form" | "formation" | "instruments";
+export type ChamberFacet = CommonFacet | "form" | "formation" | "instruments" | "parts";
 
 /** All filters except `skip`, as lib/filter.ts matches() does for the violin list. */
 export function matchesChamber(p: ChamberPiece, f: ChamberFilters, skip?: ChamberFacet): boolean {
   if (skip !== "form" && f.form && p.chamber.form !== f.form) return false;
   if (skip !== "formation" && f.formation && p.chamber.formation !== f.formation) return false;
+  if (skip !== "parts" && f.parts && p.chamber.players !== f.parts) return false;
   if (skip !== "instruments" && f.instruments.length) {
     const can = playableBy(p.chamber);
     if (!f.instruments.every((k) => can.has(k))) return false;

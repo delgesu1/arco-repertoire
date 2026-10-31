@@ -123,6 +123,7 @@ export const CHAMBER_TOOLS: Anthropic.Tool[] = [
         form: workFilterProps.form,
         level: { type: "integer", minimum: 1, maximum: 10 },
         exact_level: { type: "boolean" },
+        parts: { type: "integer", minimum: 3, maximum: MAX_CHAMBER_PLAYERS, description: 'with formation "same-instrument": how many parts, e.g. instruments ["cello"] and parts 4 for four cellos' },
         mode: workFilterProps.mode,
         pace: workFilterProps.pace,
         character: workFilterProps.character,
@@ -180,6 +181,7 @@ const SetInput = z
     form: workFilters.form,
     level: z.number().int().min(1).max(10).optional(),
     exact_level: z.boolean().optional(),
+    parts: z.number().int().min(3).max(MAX_CHAMBER_PLAYERS).optional(),
     mode: workFilters.mode,
     pace: workFilters.pace,
     character: workFilters.character,
@@ -434,6 +436,7 @@ export async function runChamberTool(name: string, input: unknown): Promise<Tool
       if (d.instruments?.length) params.with = d.instruments.join(",");
       if (d.level) params.lv = String(d.level);
       if (d.level && d.exact_level) params.exact = "1";
+      if (d.formation === "same-instrument" && d.parts) params.parts = String(d.parts);
       if (d.mode) params.mode = d.mode;
       if (d.pace) params.pace = d.pace;
       if (d.character?.length) params.ch = d.character.join(",");

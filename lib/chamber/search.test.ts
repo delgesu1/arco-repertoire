@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import data from "../../data/build/chamber.json";
 import { EMPTY_CHAMBER_FILTERS, matchesChamber } from "./filter";
 import { CHAMBER_OPTIONAL, queryTokens } from "../search";
-import { indexChamber, searchChamber } from "./search";
+import { indexChamber, parseScoring, searchChamber } from "./search";
 import type { ChamberCatalogue } from "./types";
 
 const { pieces } = data as unknown as ChamberCatalogue;
@@ -56,5 +56,37 @@ describe("includes instrument", () => {
     const both = withAll("clarinet", "piano");
     expect(both).toContain('Trio in E-flat major, K. 498 ("Kegelstatt")');
     expect(both).not.toContain("Clarinet Quintet in A major, K. 581");
+  });
+});
+
+describe("same-instrument scorings in a search", () => {
+  const scorings = (q: string) => new Set(searchChamber(index, q).map((r) => JSON.stringify(r.piece.chamber.instruments)));
+  const best = (q: string) => [...searchChamber(index, q)].sort((a, b) => b.score - a.score)[0]?.piece.chamber.instruments;
+
+  it("reads the ways people write them", () => {
+    expect(parseScoring("4 cellos")).toMatchObject({ instrument: "cello", parts: 4, named: false, rest: "" });
+    expect(parseScoring("for Eight Violins")).toMatchObject({ instrument: "violin", parts: 8, named: false });
+    expect(parseScoring("4 double basses")).toMatchObject({ instrument: "double-bass", parts: 4 });
+    expect(parseScoring("cello quartet")).toMatchObject({ instrument: "cello", parts: 4, named: true });
+    expect(parseScoring("klengel 4 cellos")).toMatchObject({ parts: 4, rest: "klengel" });
+    expect(parseScoring("2 violins")).toBeNull();
+    expect(parseScoring("string quartet")).toBeNull();
+    expect(parseScoring("clarinet quintet")).toBeNull();
+  });
+
+  it("a count lists only that scoring", () => {
+    for (const q of ["4 cellos", "four cellos"]) expect(scorings(q)).toEqual(new Set([JSON.stringify({ cello: 4 })]));
+    expect(scorings("8 violins")).toEqual(new Set([JSON.stringify({ violin: 8 })]));
+    expect(scorings("klengel 4 cellos")).toEqual(new Set([JSON.stringify({ cello: 4 })]));
+  });
+
+  it("a name lists that scoring first and keeps the rest", () => {
+    expect(best("cello quartet")).toEqual({ cello: 4 });
+    expect(scorings("cello quintet").size).toBeGreaterThan(1);
+    expect(searchChamber(index, "cello quintet").some((r) => /D\. 956/.test(r.piece.title))).toBe(true);
+  });
+
+  it("falls back to an ordinary search when nothing has that scoring", () => {
+    expect(searchChamber(index, "3 cellos and piano").length).toBeGreaterThan(0);
   });
 });
