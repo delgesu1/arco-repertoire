@@ -59,7 +59,7 @@ export function DetailActions<P extends PieceBase>({ piece: p, onAsk }: { piece:
     <div className="detail-actions">
       {p.imslpPage && (
         <a className="dbtn pri" href={imslpLink(p.imslpPage)} target="_blank" rel="noreferrer">
-          Score on IMSLP <ExternalIcon />
+          Score <ExternalIcon />
         </a>
       )}
       {onAsk && (
