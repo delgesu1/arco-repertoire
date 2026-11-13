@@ -67,6 +67,10 @@ __pycache__/
 /data/expansion/tech/final/keys.json
 /data/expansion/tech/to-grade.json
 /data/expansion/tech/catalogue-compact.txt
+# modern expansion: derived outputs (npx tsx scripts/expand/modern_merge.ts --write) and the judges' inputs (scripts/judge-recordings.ts)
+/data/expansion/modern/final/all-repertoire.next.json
+/data/expansion/modern/to-grade.json
+/data/expansion/modern/recordings/to-judge-*.json
 
 # chamber curation: per-slice agent inputs (regenerate with npx tsx scripts/chamber/curation_slices.ts --inputs)
 /data/chamber/curation/input/
