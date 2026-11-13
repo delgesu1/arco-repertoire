@@ -3,6 +3,7 @@ import { createHash, createHmac, randomUUID, timingSafeEqual } from "node:crypto
 import { isConversationId, logTurn } from "@/lib/advisor/chat-log";
 import { buildChamberSystem } from "@/lib/advisor/chamber-prompt";
 import { CHAMBER_TOOLS, runChamberTool } from "@/lib/advisor/chamber-tools";
+import { safeLength, stripLeakedCalls } from "@/lib/advisor/leaked-call";
 import { MODEL, buildSystem } from "@/lib/advisor/prompt";
 import { repeats, type AdvisorKit, type UiEvent } from "@/lib/advisor/shared";
 import { TOOLS, runTool } from "@/lib/advisor/tools";
@@ -14,6 +15,9 @@ const MAX_HISTORY_BYTES = 400_000;
 const MAX_USER_TURNS = 24;
 const SOFT_TOKEN_LIMIT = 150_000; // suggest a fresh conversation beyond this (the catalogue alone is ~90K)
 const MAX_LOOPS = 6;
+// sent when a tool call came as text and could not be run as it was, so the model makes the call properly
+const MAKE_THE_CALL =
+  "(From the site, not the visitor: your last reply wrote a tool call out as text, so the visitor never saw it. Make that call now with the tool itself, and don't write your reply again.)";
 
 // ── tiny per-instance rate limit (the Vercel firewall rule is the real guard) ──
 const hits = new Map<string, number[]>();
@@ -62,6 +66,7 @@ export async function POST(req: Request) {
 
   const section = body.section === "chamber" ? "chamber" : "violin";
   const kit = KITS[section];
+  const toolNames = kit.tools.map((t) => t.name);
   // a chamber conversation is signed with its section, so it can't be continued by the violin advisor (or the other way round)
   const signed = (h: string) => (section === "chamber" ? `chamber:${h}` : h);
 
@@ -111,12 +116,29 @@ export async function POST(req: Request) {
             { signal: req.signal },
           );
           let loopText = "";
+          // text that could be the start of a tool call written out as text waits until the round ends (lib/advisor/leaked-call.ts)
+          let shown = 0;
           s.on("text", (delta) => {
             loopText += delta;
-            send("text", { delta });
+            const safe = safeLength(loopText, toolNames);
+            if (safe > shown) {
+              send("text", { delta: loopText.slice(shown, safe) });
+              shown = safe;
+            }
           });
           s.on("thinking", (delta) => send("thinking", { delta }));
           const msg = await s.finalMessage();
+          const leak = stripLeakedCalls(loopText, toolNames);
+          let content: Anthropic.ContentBlockParam[] = msg.content;
+          if (leak.calls.length) {
+            loopText = leak.text;
+            content = msg.content
+              .map((b) => (b.type === "text" ? { ...b, text: stripLeakedCalls(b.text, toolNames).text } : b))
+              .filter((b) => b.type !== "text" || b.text.trim());
+            // the history needs some text from this turn when the reply was nothing but the call
+            if (!content.some((b) => b.type === "text")) content.push({ type: "text", text: "I've put my picks in the list." });
+          }
+          if (loopText.length > shown) send("text", { delta: loopText.slice(shown) });
           if (loopText.trim()) {
             const kept = rounds.filter((t) => !repeats(t, loopText));
             if (kept.length < rounds.length) send("replace", { text: [...kept, loopText].map((t) => t.trim()).join("\n\n") });
@@ -132,17 +154,37 @@ export async function POST(req: Request) {
           if (msg.stop_reason === "refusal") {
             errored = true;
             send("error", { message: "I can't help with that one — try asking about repertoire." });
-            messages.push({ role: "assistant", content: msg.content });
+            messages.push({ role: "assistant", content });
             break;
           }
           const toolUses = msg.content.filter((b): b is Anthropic.ToolUseBlock => b.type === "tool_use");
-          messages.push({ role: "assistant", content: msg.content });
+          messages.push({ role: "assistant", content });
           if (msg.stop_reason === "max_tokens" && toolUses.length) {
             errored = true;
             send("error", { message: "That took too long to work out — could you narrow it down a little?" });
             break;
           }
-          if (!toolUses.length) break;
+          if (!toolUses.length) {
+            // a call the model wrote out as text: run it as if it had been made; one that can't be run goes back to the model
+            let retry = false;
+            for (const c of leak.calls) {
+              const out = c.input == null ? null : await kit.runTool(c.name, c.input);
+              if (!out || out.isError) {
+                retry = true;
+                continue;
+              }
+              console.log(`advisor (${section}): ran a ${c.name} call that came as text`);
+              if (out.status) send("status", { text: out.status });
+              if (out.ui) send("ui", out.ui satisfies UiEvent);
+            }
+            if (retry && loop < MAX_LOOPS - 1) {
+              console.log(`advisor (${section}): asked the model to make a call it wrote as text`);
+              messages.push({ role: "user", content: MAKE_THE_CALL });
+              if (loopText.trim()) send("text", { delta: "\n\n" });
+              continue;
+            }
+            break;
+          }
 
           const results: Anthropic.ToolResultBlockParam[] = [];
           let endTurn = false;
